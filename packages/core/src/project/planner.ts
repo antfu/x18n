@@ -2,7 +2,7 @@ import type { PluginRegistry } from '../plugins'
 import type { KeySeparator, ResolvedConfig } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { EditOp, ExtractItem, KeyString, LocaleCode, Message, MessageLeaf, MessageTree, Resource, TextEdit, Usage } from '../types/model'
-import type { Format, MessageOp } from '../types/plugin'
+import type { Format, KeyFile, MessageOp } from '../types/plugin'
 import type { Answers, ApplyResult, Decision, FileChange, Plan, ProjectChange, UsageMatch } from '../types/project'
 import type { ReviewData, ReviewStore } from '../types/review'
 import type { ResourceState } from './analysis'
@@ -49,6 +49,8 @@ export interface PlannerOptions {
   readonly toStored: (target: { readonly path: string, readonly locale: LocaleCode, readonly namespace: string | undefined }, path: readonly string[]) => string[]
   /** A path for a new resource from the locale finders' `resolveNew`. */
   readonly resolveNew: (locale: LocaleCode, namespace: string | undefined, model: Resource | undefined) => string | undefined
+  /** The file of one key from the locale finders' `resolveKey`. */
+  readonly resolveKey: (key: KeyString, locale: LocaleCode) => KeyFile | undefined
   readonly update: (events: readonly FileEvent[]) => Promise<ProjectChange | undefined>
 }
 
@@ -154,6 +156,10 @@ function importEdit(text: string, lines: readonly string[]): TextEdit | undefine
 class PlanBuilder {
   readonly work = new Map<string, Work>()
   readonly created = new Map<string, Target>()
+  /** New files that a finder's `resolveKey` gave one key. */
+  readonly keyFiles = new Map<string, Target>()
+  /** Resources that are the file of a key deleted from them: removed once empty. */
+  readonly keyFilesLeft = new Set<string>()
   readonly sourceEdits = new Map<string, TextEdit[]>()
   readonly sourceImports = new Map<string, Set<string>>()
   readonly decisions: Decision[] = []
@@ -314,8 +320,44 @@ class PlanBuilder {
     return target
   }
 
-  /** Placement: the namespace's resource, then the longest shared prefix, then the first; a tie is a decision. */
+  /** The file a locale finder gives the key, created when it does not exist. */
+  keyTarget(key: KeyString, locale: LocaleCode): Target | undefined {
+    const file = this.options.resolveKey(key, locale)
+    if (!file)
+      return undefined
+    const existing = this.state.resources.find(s => s.resource.path === file.path && !s.resource.block)
+    if (existing) {
+      if (existing.resource.locale !== locale || this.relativePath(key, existing.resource) === undefined)
+        throw errors.X18N4005({ key, locale })
+      return this.targetOf(existing)
+    }
+    const pending = this.keyFiles.get(file.path)
+    if (pending)
+      return pending
+    const format = file.format === undefined
+      ? this.options.registry.formatFor(file.path)
+      : this.options.registry.formatById(file.format)
+    if (!format?.serialize)
+      throw errors.X18N4005({ key, locale })
+    const target: Target = {
+      id: file.path,
+      path: file.path,
+      locale,
+      namespace: this.state.namespaced
+        ? this.keyId(key).namespace ?? this.config.namespace.default
+        : undefined,
+      format,
+      state: undefined,
+    }
+    this.keyFiles.set(file.path, target)
+    return target
+  }
+
+  /** Placement: the key's own file, then the namespace's resource, then the longest shared prefix, then the first; a tie is a decision. */
   pickTarget(key: KeyString, locale: LocaleCode): Target {
+    const own = this.keyTarget(key, locale)
+    if (own)
+      return own
     let inLocale = this.state.resources.filter(s => s.resource.locale === locale && this.relativePath(key, s.resource) !== undefined)
     // When the source locale keeps the key in a namespace file (`lang/en/messages.php`), mirror that file
     // instead of using a file without the namespace (`lang/de.json`).
@@ -380,7 +422,10 @@ class PlanBuilder {
   }
 
   deleteMessage(m: Message): void {
-    const entry = this.workFor(this.targetOf(this.writable(m.resource)))
+    const s = this.writable(m.resource)
+    if (!s.resource.block && this.options.resolveKey(m.key, m.locale)?.path === s.resource.path)
+      this.keyFilesLeft.add(s.resource.id)
+    const entry = this.workFor(this.targetOf(s))
     // Delete the highest ancestor left empty, so formats that drop one property leave no `{}`.
     let path = [...m.storedPath]
     while (path.length > 1) {
@@ -445,7 +490,8 @@ class PlanBuilder {
         continue
       const s = this.writable(m.resource)
       const relative = this.relativePath(to, s.resource)
-      if (!relative) {
+      const own = this.options.resolveKey(to, locale)
+      if (!relative || (own && own.path !== s.resource.path)) {
         this.deleteMessage(m)
         this.setValue(to, locale, m.value)
         continue
@@ -861,6 +907,11 @@ class PlanBuilder {
         texts.set(target.path, undefined)
         continue
       }
+      if (this.keyFilesLeft.has(s.resource.id) && Object.keys(entry.tree).length === 0) {
+        changes.push({ type: 'delete', path: target.path })
+        texts.set(target.path, this.state.fileTexts.get(target.path))
+        continue
+      }
       const edits = diffText(s.content, this.nextContent(entry, s))
         .map(e => ({
           range: { start: e.range.start + s.offset, end: e.range.end + s.offset },
@@ -996,7 +1047,7 @@ export function createPlanner(options: PlannerOptions): Planner {
       for (const change of fresh.plan.changes) {
         const current = await options.host.readFile(change.path)
         const expected = fresh.texts.get(change.path)
-        if ((change.type === 'edit' && expected !== undefined && current !== expected) || (change.type === 'create' && current !== undefined))
+        if ((change.type !== 'create' && expected !== undefined && current !== expected) || (change.type === 'create' && current !== undefined))
           throw errors.X18N4004({ path: change.path })
       }
       const events: FileEvent[] = []

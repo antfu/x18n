@@ -3,7 +3,7 @@ import type { Setup } from '../resolve'
 import type { KeySeparator } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
-import type { HardString, HistoryContext, ScanResult, SourceFile } from '../types/plugin'
+import type { FinderContext, HardString, HistoryContext, KeyFile, ScanResult, SourceFile } from '../types/plugin'
 import type { Analysis, KeyInfo, KeyTarget, Project, ProjectChange, ProjectExplanation, ResourceNode, SearchMatch, SearchOptions, UsageMatch } from '../types/project'
 import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
 import type { ResourceState } from './analysis'
@@ -202,14 +202,18 @@ export function createProject(options: CreateProjectOptions): Project {
 
   // ---- Discovery and parse ----
 
-  async function discover(): Promise<Candidate[]> {
-    const ctx = {
+  function finderContext(): FinderContext {
+    return {
       host,
       config,
       extensions: [
         ...new Set(registry.formats.flatMap(format => format.extensions)),
       ],
     }
+  }
+
+  async function discover(): Promise<Candidate[]> {
+    const ctx = finderContext()
     const seen = new Map<string, string>()
     const out: Candidate[] = []
     duplicates = []
@@ -385,17 +389,25 @@ export function createProject(options: CreateProjectOptions): Project {
 
   /** A path for a new resource, from the locale finders. */
   function newResourcePath(locale: LocaleCode, namespace: string | undefined, model: Resource | undefined): string | undefined {
-    const ctx = {
-      host,
-      config,
-      extensions: [
-        ...new Set(registry.formats.flatMap(format => format.extensions)),
-      ],
-    }
+    const ctx = finderContext()
     for (const finder of registry.finders) {
       const path = finder.resolveNew?.({ locale, namespace, model }, ctx)
       if (path)
         return path
+    }
+    return undefined
+  }
+
+  /** The file of one key, from the locale finders. */
+  function keyFile(key: KeyString, locale: LocaleCode): KeyFile | undefined {
+    const finders = registry.finders.filter(finder => finder.resolveKey)
+    if (finders.length === 0)
+      return undefined
+    const ctx = finderContext()
+    for (const finder of finders) {
+      const file = finder.resolveKey?.({ key, locale }, ctx)
+      if (file)
+        return file
     }
     return undefined
   }
@@ -1102,6 +1114,7 @@ export function createProject(options: CreateProjectOptions): Project {
     basesOf,
     toStored: (target, path) => storedPathOf(target)(path),
     resolveNew: newResourcePath,
+    resolveKey: keyFile,
     update,
   })
 

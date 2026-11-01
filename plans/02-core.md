@@ -178,7 +178,7 @@ Rules:
 
 - Planning has no side effects. `plan` can run as a dry run, and the LSP turns `changes` into a `WorkspaceEdit` without writing anything.
 - Formats SHOULD edit in place (keep comments, order, quotes and indentation). A format that can only serialize returns a full-file edit. The plan marks this in `warnings` so a surface can tell the user that formatting was reset.
-- New keys go into (1) the resource of the key's namespace, else (2) the resource that holds the most keys sharing the longest prefix with the new key, else (3) the first resource of the locale. Only a tie returns a decision; CLI flags and agent input can answer upfront. New keys follow the nesting style of the target file.
+- New keys go into (0) the file a finder's `resolveKey` gives the key in that locale, created when missing, else (1) the resource of the key's namespace, else (2) the resource that holds the most keys sharing the longest prefix with the new key, else (3) the first resource of the locale. Only a tie returns a decision; CLI flags and agent input can answer upfront. New keys follow the nesting style of the target file.
 - Rename rules:
   - The result is the same whether the rename starts from a usage or from a key in any locale's resource.
   - One plan covers every locale, every usage, the static part of dynamic prefix usages, and review threads.
@@ -187,6 +187,7 @@ Rules:
   - A rename is refused, listing the conflicting files, when the target key already exists in any locale.
   - Renaming a key covered by a dynamic prefix usage goes ahead with a warning that lists the usages it cannot update.
 - Bulk delete of unused keys (`Project.planUnused(query?)`) returns an `UnusedDeletion`: the plan (delete ops in every locale, through the in-place path), the keys with their locale and file per message, and the kept keys. It starts from `analyze().unused`, the list behind the `unused-key` check, so static, prefix and derived usages, `keysInUse` and references already count. It then leaves out `ignoreKeys`, and keys a fully dynamic usage (`t(name)`) may reach through its scope: the scope namespace and the scope key prefix (`keyPrefix`). A fully dynamic usage without a scope may reach any key; it adds a plan warning instead of blocking every delete. The `unused-key` check itself still ignores fully dynamic usages.
+- With one file per key (`resolveKey`), a rename moves each message to the file of the new key, and a delete that empties the file of its key deletes the file (D43). Other files stay when their last key goes.
 - Writes to read-only resources (read-only formats, `execute: true` resources) fail with a coded error naming the resource.
 - A plan is checked against the current revision. If files changed between plan and apply, apply fails with a coded error and the caller plans again.
 - `keepFilled` (i18n-ally `keepFulfilled`) is a config switch. When it is on, `set` in one locale also adds the key with an empty value to the other locales.
