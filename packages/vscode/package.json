@@ -444,7 +444,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:e2e": "pnpm run build && tsx test/e2e/run.ts",
-    "ext:package": "pnpm run build && tsx scripts/stage.ts && cd .vsce && vsce package --no-dependencies -o ../x18n.vsix",
+    "ext:package": "pnpm --filter @x18n/ui... run build && pnpm run build && tsx scripts/stage.ts && cd .vsce && vsce package --no-dependencies -o ../x18n.vsix",
     "ext:publish": "pnpm run ext:package && vsce publish --packagePath x18n.vsix && ovsx publish x18n.vsix"
   },
   "devDependencies": {
