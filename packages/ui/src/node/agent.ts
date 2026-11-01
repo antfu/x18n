@@ -53,7 +53,7 @@ export function registerAgentTools(ctx: DevframeNodeContext, projects: readonly 
         ]).map(summarize),
   }))
 
-  tool('keys', 'read', 'List message keys, paged. Filter by `missing` locale (keys to translate), `unused` (keys no code uses), `namespace` or a key `glob`. Pass `values: true` to get the value per locale. Continue with `cursor: nextCursor`.', AgentKeysSchema, (query) => {
+  tool('keys', 'read', 'List message keys, paged. Filter by `missing` locale (keys to translate), `unused` (keys no code uses), `namespace` or a key `glob`. Pass `values: true` to get the value per locale. A key whose format gives it a display label has `label`. Continue with `cursor: nextCursor`.', AgentKeysSchema, (query) => {
     const { project } = pick(query.project)
     const keys = project.keys({
       glob: query.glob,
@@ -64,16 +64,20 @@ export function registerAgentTools(ctx: DevframeNodeContext, projects: readonly 
     const { items, ...rest } = page(keys, query)
     return {
       ...rest,
-      keys: items.map(key => query.values
-        ? {
-            key,
+      keys: items.map((key) => {
+        const label = project.locales.map(locale => project.message(key, locale)?.label).find(l => l !== undefined)
+        return {
+          key,
+          ...label !== undefined && { label },
+          ...query.values && {
             values: Object.fromEntries((project.get(key)?.messages ?? []).map(m => [m.locale, m.value])),
-          }
-        : { key }),
+          },
+        }
+      }),
     }
   })
 
-  tool('get', 'read', 'One key: its value in every locale with file and line, locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.', KeyQuerySchema, (query) => {
+  tool('get', 'read', 'One key: its value in every locale with file and line (and its translation `state` and `description` when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.', KeyQuerySchema, (query) => {
     const detail = keyDetail(pick(query.project), query.key)
     if (!detail)
       throw errors.X18N4006({ key: query.key })

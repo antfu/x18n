@@ -122,6 +122,10 @@ interface ParseResult {
   readonly ranges?: ReadonlyMap<string, { key: TextRange, value: TextRange }>
   /** What the file says about a message for translators (ARB `@key`, a gettext comment, an XLIFF note), keyed like `ranges`. Translate prompts show it. */
   readonly descriptions?: ReadonlyMap<string, string>
+  /** The translation state the file records (XLIFF `state`, PO `fuzzy`), keyed like `ranges` (D45). */
+  readonly states?: ReadonlyMap<string, 'translated' | 'needs-review' | 'reviewed'>
+  /** Display labels of keys that do not read well, such as hashes, keyed like `ranges` (D45). */
+  readonly labels?: ReadonlyMap<string, string>
 }
 
 type MessageOp

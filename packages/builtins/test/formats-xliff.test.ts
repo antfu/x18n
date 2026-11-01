@@ -59,6 +59,24 @@ describe('xliff format', () => {
     expect(format.parse(translated12, ctx).tree).toEqual({ '8889534073701065911': 'Hoş geldin, {$INTERPOLATION}!' })
   })
 
+  it('reads target and segment states', () => {
+    expect(format.parse(source12, ctx).states?.size).toBe(0)
+    const states = (state: string): unknown => format.parse(translated12.replace('state="translated"', `state="${state}"`), ctx).states?.get(pathId(['8889534073701065911']))
+    expect([
+      states('translated'),
+      states('needs-review-translation'),
+      states('signed-off'),
+      states('new'),
+    ]).toEqual([
+      'translated',
+      'needs-review',
+      'reviewed',
+      undefined,
+    ])
+    const reviewed20 = source20.replace('<segment>', '<segment state="reviewed">').replace('</source>', '</source>\n        <target>Belgeler</target>')
+    expect(format.parse(reviewed20, ctx).states?.get(pathId(['home.intro']))).toBe('reviewed')
+  })
+
   it('writes targets with the placeholder markup of the source', () => {
     const next = edit(translated12, [
       {

@@ -1,4 +1,4 @@
-import type { MessageOp, MessageTree, NodeRange, Plugin, TextRange } from '@x18n/core'
+import type { MessageOp, MessageState, MessageTree, NodeRange, Plugin, TextRange } from '@x18n/core'
 import type { XmlElement } from '../shared/xml'
 import { diffText, errors, pathId, walkLeaves } from '@x18n/core'
 import { detectEol, leafText, splice } from '../shared'
@@ -14,6 +14,8 @@ interface Unit {
   readonly target: XmlElement | undefined
   /** The unit's notes for translators, joined; undefined without one. */
   readonly description: string | undefined
+  /** `state` of the 1.2 `<target>` or the 2.0 `<segment>`. */
+  readonly state: string | undefined
 }
 
 /**
@@ -55,23 +57,39 @@ function read(text: string): Document {
     const id = xmlAttribute(element.attributes, 'id')
     if (!id)
       continue
-    const holder = version === '2.0'
-      ? xmlChild(text, 'segment', element.inner)?.inner ?? element.inner
-      : element.inner
+    const segment = version === '2.0'
+      ? xmlChild(text, 'segment', element.inner)
+      : undefined
+    const holder = segment?.inner ?? element.inner
     const attributesAt = element.range.start + text.slice(element.range.start).indexOf(element.attributes)
+    const target = xmlChild(text, 'target', holder)
     units.push({
       id: id.value,
       idRange: { start: attributesAt + id.range.start, end: attributesAt + id.range.end },
       element,
       source: xmlChild(text, 'source', holder),
-      target: xmlChild(text, 'target', holder),
+      target,
       description: notesOf(text, element),
+      state: xmlAttribute((version === '2.0'
+        ? segment
+        : target)?.attributes ?? '', 'state')?.value,
     })
   }
   const translation = version === '2.0'
     ? /<xliff\s[^>]*\btrgLang\s*=/.test(text)
     : /<file\s[^>]*\btarget-language\s*=/.test(text)
   return { version, translation: translation || units.some(u => u.target), units }
+}
+
+/** A 1.2 target state or a 2.0 segment state as a message state; `new` and `initial` have none. */
+function stateOf(state: string | undefined): MessageState | undefined {
+  if (state === 'translated')
+    return 'translated'
+  if (state === 'reviewed' || state === 'final' || state === 'signed-off')
+    return 'reviewed'
+  return state?.startsWith('needs-')
+    ? 'needs-review'
+    : undefined
 }
 
 /** Message text of XLIFF content: `<x id>`, `<ph equiv>` and `<pc equivStart equivEnd>` read as `{$NAME}`. */
@@ -253,6 +271,7 @@ export function xliff(): Plugin {
           const tree: Record<string, string> = {}
           const ranges = new Map<string, NodeRange>()
           const descriptions = new Map<string, string>()
+          const states = new Map<string, MessageState>()
           for (const unit of doc.units) {
             const holder = doc.translation
               ? unit.target
@@ -263,8 +282,13 @@ export function xliff(): Plugin {
             ranges.set(pathId([unit.id]), { key: unit.idRange, value: holder.inner })
             if (unit.description)
               descriptions.set(pathId([unit.id]), unit.description)
+            const state = doc.translation
+              ? stateOf(unit.state)
+              : undefined
+            if (state)
+              states.set(pathId([unit.id]), state)
           }
-          return { tree, ranges, descriptions }
+          return { tree, ranges, descriptions, states }
         },
         edit(text, ops, ctx) {
           let next = text

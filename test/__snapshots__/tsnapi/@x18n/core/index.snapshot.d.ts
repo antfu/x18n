@@ -286,6 +286,7 @@ export interface KeyInfo {
   readonly key: KeyString;
   readonly namespace: string | undefined;
   readonly path: readonly string[];
+  readonly label: string | undefined;
   readonly messages: readonly Message[];
   readonly missing: readonly LocaleCode[];
   readonly usages: readonly UsageMatch[];
@@ -342,6 +343,8 @@ export interface LocaleCoverage {
   readonly missing: readonly KeyString[];
   readonly empty: readonly KeyString[];
   readonly outdated: readonly KeyString[];
+  readonly needsReview: readonly KeyString[];
+  readonly reviewed: readonly KeyString[];
 }
 export interface LocaleFinder {
   readonly id: string;
@@ -393,6 +396,8 @@ export interface Message {
   readonly storedPath: readonly string[];
   readonly range: NodeRange | undefined;
   readonly description?: string | undefined;
+  readonly state?: MessageState | undefined;
+  readonly label?: string | undefined;
 }
 export interface MessageChange {
   readonly updatedAt: number;
@@ -433,6 +438,8 @@ export interface ParseResult {
   readonly tree: MessageTree;
   readonly ranges?: ReadonlyMap<string, NodeRange> | undefined;
   readonly descriptions?: ReadonlyMap<string, string> | undefined;
+  readonly states?: ReadonlyMap<string, MessageState> | undefined;
+  readonly labels?: ReadonlyMap<string, string> | undefined;
 }
 export interface Placeholder {
   readonly syntax: string;
@@ -1222,6 +1229,7 @@ export type MessageOp = {
   readonly type: "delete";
   readonly path: readonly string[];
 };
+export type MessageState = "translated" | "needs-review" | "reviewed";
 export type NamespaceFromPath = NonNullable<NamespaceOptions["fromPath"]>;
 export type PlaceholderComparer = (_: string, _: string) => {
   readonly missing: string[];

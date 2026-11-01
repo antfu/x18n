@@ -28,7 +28,8 @@
     "usages": "使用箇所 ({count})",
     "values": "値",
     "showAllLocales": "すべてのロケールを表示",
-    "file": "ファイル"
+    "file": "ファイル",
+    "description": "メモ"
   },
   "edit": {
     "dismiss": "閉じる",
@@ -125,7 +126,9 @@
     "source": "ソース",
     "usages": "使用箇所",
     "warnings": "警告: {count}",
-    "outdated": "古い {count} 件"
+    "outdated": "古い {count} 件",
+    "toReview": "要レビュー {count} 件",
+    "reviewedCount": "レビュー済み {count} 件"
   },
   "project": {
     "config": "設定と各値の由来",
@@ -234,5 +237,12 @@
     "hint": "Enter で送信 · Shift+Enter で改行 · Esc でキャンセル",
     "resolvedCount": "解決済み {count} 件",
     "hideResolved": "解決済みを隠す"
+  },
+  "state": {
+    "filter": "翻訳状態",
+    "any": "すべての状態",
+    "translated": "翻訳済み",
+    "needsReview": "要レビュー",
+    "reviewed": "レビュー済み"
   }
 }

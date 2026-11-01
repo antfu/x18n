@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { expect, test } from '@playwright/test'
-import { buildReport, fixture, serveStatic, startUi } from './workspace'
+import { buildReport, fixture, project, serveStatic, startUi } from './workspace'
 
 test('edits a value in the grid and writes the locale file', async ({ page }) => {
   const { root, dispose } = await fixture()
@@ -205,6 +205,62 @@ test('a wide key page lists every key in a sidebar, as a tree or a list', async 
 
     await page.setViewportSize({ width: 900, height: 900 })
     await expect(sidebar).toBeHidden()
+  }
+  finally {
+    server.close()
+    await dispose()
+  }
+})
+
+test('shows the translation states and notes that formats report', async ({ page }) => {
+  const unit = (id: string, source: string, target?: string, state?: string): string => `      <trans-unit id="${id}">
+        <source>${source}</source>${target === undefined
+          ? ''
+          : `\n        <target${state
+            ? ` state="${state}"`
+            : ''}>${target}</target>`}
+        <note from="description">${id} button</note>
+      </trans-unit>`
+  const xliff = (lang: string, units: string[]): string => `<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" ${lang === 'en'
+    ? ''
+    : `target-language="${lang}" `}datatype="plaintext" original="app">
+    <body>
+${units.join('\n')}
+    </body>
+  </file>
+</xliff>
+`
+  const { root, dispose } = await project({
+    'x18n.config.json': JSON.stringify({
+      resources: [
+        { pattern: 'locale/messages.{locale}.xlf' },
+      ],
+    }),
+    'locale/messages.en.xlf': xliff('en', [
+      unit('save', 'Save'),
+      unit('open', 'Open'),
+    ]),
+    'locale/messages.de.xlf': xliff('de', [
+      unit('save', 'Save', 'Speichern', 'needs-review-translation'),
+      unit('open', 'Open', 'Öffnen', 'final'),
+    ]),
+  })
+  const outDir = join(root, '.x18n/report')
+  await buildReport(root, outDir)
+  const server = await serveStatic(outDir)
+  try {
+    await page.goto(`${server.url}#/keys`)
+    await expect(page.locator('[data-key="save"] [data-locale="de"]').getByTitle('Needs review')).toBeVisible()
+    await page.getByLabel('Translation state').selectOption('reviewed')
+    await expect(page.locator('[data-key]')).toHaveCount(1)
+    await expect(page.locator('[data-key="open"]')).toBeVisible()
+
+    await page.goto(`${server.url}#/keys/save`)
+    const de = page.locator('[data-locale="de"]')
+    await expect(de.getByText('Needs review')).toBeVisible()
+    await expect(de.getByText('save button')).toBeVisible()
   }
   finally {
     server.close()

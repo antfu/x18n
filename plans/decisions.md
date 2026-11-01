@@ -280,3 +280,9 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 - Decided: a boolean `usage.gitignore`, default `true`. With `false`, the usage file set is `usage.include` minus `usage.exclude`, whose defaults already skip `node_modules`, `.git` and build output.
 - Considered: honouring `.gitignore` except under the static base of each `usage.include` glob.
 - Why: a translations repository often scans a git-ignored clone of the sources it translates. One switch is visible in the config and in `x18n doctor`; a rule that depends on how a glob is written would change what existing configs scan, and is hard to predict.
+
+## D45 - Formats report translation states and key labels
+
+- Decided: like `descriptions` (D42), `parse` returns `states` and `labels` keyed by stored path. A state is `translated`, `needs-review` or `reviewed`; a label names a key that does not read well, such as a hash. Core puts them on `Message`, takes `KeyInfo.label` from the first message with one (source locale first), and adds `needsReview` and `reviewed` to `LocaleCoverage`. `translated` keeps its meaning: a value that is there. The UI, `x18n get`, `x18n keys`, `x18n status` and the MCP tools show states, labels and descriptions. The built-in `xliff` format reads `state`, and `po` reads `fuzzy`.
+- Considered: one `meta` object per message (state, label, note, free data); leaving states to the review file; counting unreviewed values as untranslated.
+- Why: the file is what knows the state (XLIFF, PO and translation stores keep it), and the format already parses each message once. One map per field follows `descriptions`. Reviews (D41) record what a person said on top. Keeping `translated` as is leaves coverage, checks and baselines unchanged; the new counts only add information, and as optional fields they keep the JSON contract version.

@@ -62,6 +62,8 @@ export interface KeyInfo {
   readonly key: KeyString
   readonly namespace: string | undefined
   readonly path: readonly string[]
+  /** Display label of the key: the first `label` of its messages, source locale first. */
+  readonly label: string | undefined
   /** One message per locale that has the key, source locale first. */
   readonly messages: readonly Message[]
   readonly missing: readonly LocaleCode[]
