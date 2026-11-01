@@ -789,6 +789,7 @@ export interface ResolvedConfig {
   readonly usage: {
     readonly include: readonly string[];
     readonly exclude: readonly string[];
+    readonly gitignore: boolean;
     readonly calls: readonly CallSpec[];
     readonly regex: readonly RegexScannerSpec[];
     readonly ignoreCallees: readonly string[];
@@ -1081,6 +1082,7 @@ export interface UsageMatch {
 export interface UsageOptions {
   readonly include?: readonly string[] | undefined;
   readonly exclude?: readonly string[] | undefined;
+  readonly gitignore?: boolean | undefined;
   readonly calls?: readonly CallSpec[] | undefined;
   readonly regex?: readonly RegexScannerSpec[] | undefined;
   readonly ignoreCallees?: readonly string[] | undefined;

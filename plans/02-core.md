@@ -132,7 +132,7 @@ Lifecycle:
 3. **Discover.** Every locale finder returns `ResourceCandidate[]`. Core merges them, drops duplicates (first finder wins, recorded in `project.explain()`), and picks a format per resource by finder hint, then by extension.
 4. **Parse.** Each resource is parsed by its format into a `MessageTree`, then passes through `transformResource` hooks (for example Rails strips the top-level locale key).
 5. **Index.** The key index maps `KeyString` to messages per locale. Namespaces come from the finder (path pattern) and are added to the key.
-6. **Scan.** Scanners run over the usage file set (config `usage.include` / `exclude`, gitignore aware). Results go into the usage index, per file.
+6. **Scan.** Scanners run over the usage file set (config `usage.include` / `exclude`, gitignore aware unless `usage.gitignore` is false). Results go into the usage index, per file.
 7. **Analyze.** Checks run over indexes and produce diagnostics.
 8. **Watch.** When the host can watch, a file change invalidates only the affected resource or source file and re-runs the needed steps. Change events say what changed, so the LSP and UI refresh only that part.
 

@@ -161,6 +161,30 @@ describe('loadWorkspace', () => {
     expect(workspace.projects[0]!.project.keys()).toEqual(['a'])
   })
 
+  it('scans git-ignored source files with `usage.gitignore: false`', async () => {
+    await write({
+      ...locales,
+      '.gitignore': 'sources/\n',
+      'sources/app/page.ts': 'export const x = t("a")',
+    })
+    const usages = async (gitignore?: boolean): Promise<string[]> => {
+      await write({
+        'x18n.config.json': JSON.stringify({
+          usage: {
+            calls: [
+              { callee: 't' },
+            ],
+            gitignore,
+          },
+        }),
+      })
+      const [loaded] = (await loadWorkspace({ cwd: root, cache: false })).projects
+      return loaded!.project.usages().map(u => `${u.usage.path}:${u.usage.key}`)
+    }
+    expect(await usages()).toEqual([])
+    expect(await usages(false)).toEqual(['sources/app/page.ts:a'])
+  })
+
   it('loads each config below a root without one as its own project', async () => {
     await write({
       'apps/web/x18n.config.json': '{ "sourceLocale": "de" }',

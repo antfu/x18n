@@ -1167,6 +1167,7 @@ exports[`rpc functions > explains the project 1`] = `
             "**/*.d.ts",
             "**/*.min.js",
           ],
+          "gitignore": true,
           "ignoreCallees": [],
           "include": [
             "**/*",
