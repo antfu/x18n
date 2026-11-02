@@ -58,6 +58,7 @@
     "./presets/laravel": "./dist/presets/laravel.mjs",
     "./presets/laravel-vue-i18n": "./dist/presets/laravel-vue-i18n.mjs",
     "./presets/lingui": "./dist/presets/lingui.mjs",
+    "./presets/lit-localize": "./dist/presets/lit-localize.mjs",
     "./presets/next-international": "./dist/presets/next-international.mjs",
     "./presets/next-intl": "./dist/presets/next-intl.mjs",
     "./presets/next-translate": "./dist/presets/next-translate.mjs",

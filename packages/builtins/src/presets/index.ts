@@ -21,6 +21,7 @@ import jekyll from './jekyll/entry'
 import laravelVueI18n from './laravel-vue-i18n/entry'
 import laravel from './laravel/entry'
 import lingui from './lingui/entry'
+import litLocalize from './lit-localize/entry'
 import nextInternational from './next-international/entry'
 import nextIntl from './next-intl/entry'
 import nextTranslate from './next-translate/entry'
@@ -76,6 +77,7 @@ export const presets: { readonly [name: string]: PresetEntry } = {
   'transloco': transloco,
   'angular-i18next': angularI18next,
   'lingui': lingui,
+  'lit-localize': litLocalize,
   'ember-intl': emberIntl,
   'polyglot': polyglot,
   'globalize': globalize,
