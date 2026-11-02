@@ -87,6 +87,15 @@ describe('tier 1 presets', () => {
     expect(codes).toContain('invalid-syntax:app.count')
   })
 
+  it('next-intl: plural cases whose text differs by locale are not placeholder mismatches', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('next-intl'),
+      'messages/en.json': json({ total: '{count, plural, =0 {Empty} one {1 file} other {# files}}' }),
+      'messages/fr.json': json({ total: '{count, plural, =0 {Vide} one {1 fichier} other {# fichiers}}' }),
+    })
+    expect(project.analyze().diagnostics.filter(d => d.code === 'placeholder-mismatch')).toEqual([])
+  })
+
   it('svelte-i18n: $_ in markup and script', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('svelte-i18n', 'svelte'),
