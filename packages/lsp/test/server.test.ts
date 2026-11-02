@@ -1,5 +1,5 @@
 import type { MessageConnection } from 'vscode-jsonrpc/node'
-import type { Location, PublishDiagnosticsParams, WorkspaceEdit } from 'vscode-languageserver/node'
+import type { InitializeParams, Location, PublishDiagnosticsParams, WorkspaceEdit } from 'vscode-languageserver/node'
 import type { ReviewsResult, UnusedDeletionResult } from '../src'
 import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
@@ -47,14 +47,14 @@ async function connect(dir: string, clientName?: string): Promise<MessageConnect
   })
   connection.listen()
   disposers.push(() => connection.dispose(), () => server.dispose())
-  const result = await connection.sendRequest(InitializeRequest.type, {
+  const params: InitializeParams = {
     processId: null,
     rootUri: pathToFileURL(dir).href,
     capabilities: {},
-    clientInfo: clientName
-      ? { name: clientName }
-      : undefined,
-  })
+  }
+  if (clientName)
+    params.clientInfo = { name: clientName }
+  const result = await connection.sendRequest(InitializeRequest.type, params)
   expect(result.serverInfo).toEqual({ name: 'x18n', version })
   expect(result.capabilities.textDocumentSync).toBe(TextDocumentSyncKind.Incremental)
   await connection.sendNotification('initialized', {})
