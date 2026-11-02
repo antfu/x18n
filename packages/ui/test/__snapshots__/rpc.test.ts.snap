@@ -1444,6 +1444,10 @@ exports[`rpc functions > explains the project 1`] = `
           "reason": "not-detected",
         },
         {
+          "name": "lit-localize",
+          "reason": "not-detected",
+        },
+        {
           "name": "ember-intl",
           "reason": "not-detected",
         },

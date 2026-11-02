@@ -66,6 +66,7 @@ export default defineConfig({
     'presets/i18nice': 'src/presets/i18nice/index.ts',
     'presets/adonisjs': 'src/presets/adonisjs/index.ts',
     'presets/angular-i18next': 'src/presets/angular-i18next/index.ts',
+    'presets/lit-localize': 'src/presets/lit-localize/index.ts',
     'presets/angular-localize': 'src/presets/angular-localize/index.ts',
     'presets/cargo-i18n': 'src/presets/cargo-i18n/index.ts',
     'presets/dotnet-resx': 'src/presets/dotnet-resx/index.ts',

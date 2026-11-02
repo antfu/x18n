@@ -30,6 +30,8 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`transloco`](/presets/transloco) | Transloco | `@jsverse/transloco`, `@ngneat/transloco` |
 | [`angular-i18next`](/presets/angular-i18next) | angular-i18next | `angular-i18next` |
 | [`lingui`](/presets/lingui) | Lingui | `@lingui/core`, `@lingui/react`, `@lingui/macro` |
+| [`lit-localize`](/presets/lit-localize) | `@lit/localize` | `@lit/localize` |
+
 | [`ember-intl`](/presets/ember-intl) | ember-intl | `ember-intl` |
 | [`polyglot`](/presets/polyglot) | Polyglot.js | `node-polyglot` |
 | [`globalize`](/presets/globalize) | Globalize | `globalize` |

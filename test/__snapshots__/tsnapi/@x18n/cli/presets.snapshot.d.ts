@@ -25,6 +25,7 @@ export { jekyll }
 export { laravel }
 export { laravelVueI18n }
 export { lingui }
+export { litLocalize }
 export { nextInternational }
 export { nextIntl }
 export { nextTranslate }
