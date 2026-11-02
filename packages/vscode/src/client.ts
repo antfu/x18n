@@ -15,6 +15,8 @@ export interface ClientHooks {
   readonly decorations: (uri: string) => Promise<readonly Decoration[]>
   /** Runs `x18n.extract` when invoked without the server's `{ uri }` argument (palette, keybinding). */
   readonly extractAtCursor: () => Promise<void>
+  /** Display locale in effect, sent on every (re)start; empty means the source locale. */
+  readonly displayLocale: () => string
 }
 
 export function createClient(context: ExtensionContext, hooks: ClientHooks): LanguageClient {
@@ -46,7 +48,7 @@ export function createClient(context: ExtensionContext, hooks: ClientHooks): Lan
     },
     // Read on every (re)start, so a restart after a settings change picks up new values.
     initializationOptions: () => ({
-      displayLocale: config.displayLocale || undefined,
+      displayLocale: hooks.displayLocale() || undefined,
       annotationMaxLength: config.annotationMaxLength,
       codeLens: config.codeLens,
       showFlags: config.showFlags,

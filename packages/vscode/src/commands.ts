@@ -1,5 +1,6 @@
 import type { Location, ProjectInfo, ReviewCommentInfo, SearchMatch } from '@x18n/lsp'
 import type { LanguageClient } from 'vscode-languageclient/node'
+import type { DisplayLocale } from './display-locale'
 import type { KeyRef, X18nClient } from './model/client'
 import { commands as serverCommands } from '@x18n/lsp'
 import { useCommand } from 'reactive-vscode'
@@ -16,6 +17,7 @@ interface CommandDeps {
   readonly client: LanguageClient
   readonly x18n: X18nClient
   readonly openUi: (ref?: Partial<KeyRef>) => Promise<void>
+  readonly displayLocale: DisplayLocale
 }
 
 function message(error: unknown): string {
@@ -76,7 +78,7 @@ const reviewChoices: readonly { readonly label: string, readonly review: ReviewC
 ]
 
 /** Display locale, translate prompt, review and key commands. `x18n.extract` is the server's command, see `client.ts`. */
-export function useCommands({ client, x18n, openUi }: CommandDeps): { extractAtCursor: () => Promise<void>, execute: (command: string, arg: object) => Promise<unknown> } {
+export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps): { extractAtCursor: () => Promise<void>, execute: (command: string, arg: object) => Promise<unknown> } {
   const execute = (command: string, arg: object): Promise<unknown> => client.sendRequest(ExecuteCommandRequest.type, {
     command,
     arguments: [arg],
@@ -180,20 +182,32 @@ export function useCommands({ client, x18n, openUi }: CommandDeps): { extractAtC
     const locales = [
       ...new Map(projects.flatMap(p => p.locales).map(l => [l.code, l])).values(),
     ]
+    const sourceLocales = projects.map(p => p.sourceLocale).join(', ')
+    const current = displayLocale.picked.value
+    const marked = (code: string | undefined, description: string): string => code === current
+      ? [description, 'current'].filter(Boolean).join(' · ')
+      : description
     const picked = await window.showQuickPick([
       {
+        label: 'Default',
+        description: marked(undefined, config.displayLocale
+          ? `x18n.displayLocale setting (${config.displayLocale})`
+          : `x18n.displayLocale setting, else the source locale (${sourceLocales})`),
+        code: undefined,
+      },
+      {
         label: 'Source locale',
-        description: projects.map(p => p.sourceLocale).join(', '),
+        description: marked('', sourceLocales),
         code: '',
       },
       ...await Promise.all(locales.map(async l => ({
         ...await localeItem(l),
-        description: l.displayName ?? '',
+        description: marked(l.code, l.displayName ?? ''),
       }))),
-    ], { placeHolder: 'Locale shown in annotations' })
-    // The settings watcher in `index.ts` tells the server and refreshes the views.
+    ], { placeHolder: 'Locale shown in annotations, for this workspace only' })
+    // Kept in the workspace state, never in `.vscode/settings.json`; the watcher in `index.ts` tells the server.
     if (picked)
-      await config.update('displayLocale', picked.code, workspace.workspaceFolders ? ConfigurationTarget.Workspace : ConfigurationTarget.Global)
+      await displayLocale.pick(picked.code)
   })
 
   register(commands.editKey, async (arg) => {
