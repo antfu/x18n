@@ -40,6 +40,7 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`vscode-extension`](/presets/vscode-extension) | VS Code extension API | `vscode`, `@types/vscode` |
 | [`laravel-vue-i18n`](/presets/laravel-vue-i18n) | laravel-vue-i18n | `laravel-vue-i18n` |
 | [`laravel`](/presets/laravel) | Laravel | `laravel/framework` in `composer.json` |
+| [`adonisjs`](/presets/adonisjs) | AdonisJS i18n | `@adonisjs/i18n` |
 | [`php-joomla`](/presets/php-joomla) | Joomla | `joomla/application`, `joomla/cms` in `composer.json` |
 | [`php-gettext`](/presets/php-gettext) | gettext in PHP | never: list it in `presets` |
 | [`ruby-rails`](/presets/ruby-rails) | Ruby on Rails | `rails`, `rails-i18n`, `railties` in `Gemfile` |

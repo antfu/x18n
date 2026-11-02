@@ -63,6 +63,8 @@ interface Settings {
   codeLens: boolean
   /** Flag emoji next to locales in hovers. */
   showFlags: boolean
+  /** Client commands a hover may link to with `command:` URLs. Empty means no links. */
+  hoverCommands: ReadonlySet<string>
 }
 
 const reviewTypes: readonly ReviewType[] = [
@@ -122,6 +124,24 @@ function posix(path: string): string {
     : path
 }
 
+/** Hover links to client commands. A client lists the ones it runs in `hoverCommands`; others get no links. */
+const hoverLinks: readonly { readonly command: string, readonly title: string }[] = [
+  { command: 'x18n.openKey', title: 'Open in UI' },
+  { command: 'x18n.copyTranslatePrompt', title: 'Copy translate prompt' },
+  { command: 'x18n.translateWithAgent', title: 'Translate with agent' },
+]
+
+/** Most clients open a `command:` link as a URL and fail, so links appear only for commands the client opted into. */
+function hoverSuffix(enabled: ReadonlySet<string>, usages: number, args: string): string {
+  const count = `${usages} usage${usages === 1
+    ? ''
+    : 's'}`
+  const links = hoverLinks
+    .filter(link => enabled.has(link.command))
+    .map(link => `[${link.title}](command:${link.command}?${args})`)
+  return [count, ...links].join(' · ')
+}
+
 class Server {
   readonly documents = new TextDocuments(TextDocument)
   readonly projects: ServerProject[] = []
@@ -137,6 +157,7 @@ class Server {
     displayLocale: undefined,
     codeLens: false,
     showFlags: true,
+    hoverCommands: new Set(),
   }
 
   ready: Promise<void> = Promise.resolve()
@@ -263,7 +284,7 @@ class Server {
       folders.push(fileURLToPath(params.rootUri))
     this.folders = folders
     this.watchRegistration = params.capabilities.workspace?.didChangeWatchedFiles?.dynamicRegistration === true
-    const settings = params.initializationOptions as Partial<Settings> | undefined // free-form client data; read field by field
+    const settings = params.initializationOptions as Partial<Record<keyof Settings, unknown>> | undefined // free-form client data; read field by field
     if (typeof settings?.displayLocale === 'string')
       this.settings.displayLocale = settings.displayLocale
     if (typeof settings?.annotationMaxLength === 'number')
@@ -272,6 +293,8 @@ class Server {
       this.settings.codeLens = settings.codeLens
     if (typeof settings?.showFlags === 'boolean')
       this.settings.showFlags = settings.showFlags
+    if (Array.isArray(settings?.hoverCommands))
+      this.settings.hoverCommands = new Set(settings.hoverCommands.filter(command => typeof command === 'string'))
     return {
       serverInfo: { name: 'x18n', version },
       capabilities: {
@@ -576,9 +599,7 @@ class Server {
     const args = encodeURIComponent(JSON.stringify([
       { project: at.entry.name, key: target.key },
     ]))
-    lines.push('', `${usages.length} usage${usages.length === 1
-      ? ''
-      : 's'} · [Open in UI](command:x18n.openKey?${args}) · [Copy translate prompt](command:x18n.copyTranslatePrompt?${args}) · [Translate with agent](command:x18n.translateWithAgent?${args})`)
+    lines.push('', hoverSuffix(this.settings.hoverCommands, usages.length, args))
     return {
       contents: {
         kind: 'markdown',

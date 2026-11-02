@@ -49,7 +49,7 @@ Add settings to the user or project `.zed/settings.json`:
 }
 ```
 
-The extension covers JavaScript, JSX, TypeScript, TSX, Vue.js, JSON, JSONC, YAML, HTML, Svelte, and Astro. Zed exposes the server's hover, navigation, rename, completion, diagnostics, code actions, and hints. VS Code-only views and controls are described in the [VS Code package](../vscode/README.md).
+The extension covers JavaScript, JSX, TypeScript, TSX, Vue.js, JSON, JSONC, YAML, HTML, Svelte, and Astro. Zed exposes the server's hover, navigation, rename, completion, diagnostics, code actions, and hints. A hover is the locale table and a usage count.
 
 ## Release
 
