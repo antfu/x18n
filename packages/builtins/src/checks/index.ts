@@ -484,33 +484,62 @@ const endsUnspaced = new RegExp(`[${unspaced}]$`, 'u')
 // A letter or digit of a spaced script, which next to a term makes it part of a longer word.
 const spacedWordChar = `(?![${unspaced}])[\\p{L}\\p{N}]`
 
+const escapeRegExp = (text: string): string => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+function wordStart(term: string): string {
+  return startsUnspaced.test(term)
+    ? ''
+    : `(?<!${spacedWordChar})`
+}
+
 /**
  * A term as a whole word, so "Home" does not match "Homepage". A plain substring at edges in unspaced scripts,
  * and next to their letters, so "x18n" matches "x18n에".
  */
 function wordPattern(term: string): RegExp {
-  const before = startsUnspaced.test(term)
-    ? ''
-    : `(?<!${spacedWordChar})`
   const after = endsUnspaced.test(term)
     ? ''
     : `(?!${spacedWordChar})`
-  return new RegExp(`${before}${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}${after}`, 'iu')
+  return new RegExp(`${wordStart(term)}${escapeRegExp(term)}${after}`, 'iu')
+}
+
+/** A form at the start of a word, so "datoen" matches "datoene" and the stem "bestillings" matches "bestillingssiden". */
+function formPattern(form: string): RegExp {
+  return new RegExp(`${wordStart(form)}${escapeRegExp(form)}`, 'iu')
+}
+
+/** Whether a value holds the word as a whole word, or one of its forms at the start of a word. */
+function matcher(word: string, forms: readonly string[] = []): (value: string) => boolean {
+  const patterns = [
+    wordPattern(word),
+    ...forms.map(formPattern),
+  ]
+  return value => patterns.some(pattern => pattern.test(value))
 }
 
 function* glossaryDiagnostics(ctx: Parameters<Check['run']>[0], entry: GlossaryEntry): Generator<DiagnosticInput> {
-  const term = wordPattern(entry.term)
+  const inSource = matcher(entry.term, entry.forms?.[ctx.sourceLocale])
+  const targets = ctx.locales.flatMap((locale) => {
+    const expected = entry.doNotTranslate ? entry.term : entry.translations?.[locale]
+    return locale === ctx.sourceLocale || !expected
+      ? []
+      : [
+          {
+            locale,
+            expected,
+            inValue: matcher(expected, entry.forms?.[locale]),
+          },
+        ]
+  })
   for (const key of ctx.keys()) {
     const source = ctx.message(key, ctx.sourceLocale)?.value
-    if (typeof source !== 'string' || !term.test(source))
+    if (typeof source !== 'string' || !inSource(source))
       continue
-    for (const locale of ctx.locales) {
+    for (const { locale, expected, inValue } of targets) {
       const value = ctx.message(key, locale)?.value
-      const expected = entry.doNotTranslate ? entry.term : entry.translations?.[locale]
-      if (locale === ctx.sourceLocale || typeof value !== 'string' || value === '' || !expected)
+      if (typeof value !== 'string' || value === '' || inValue(value))
         continue
-      if (!wordPattern(expected).test(value))
-        yield { key, locale, message: `"${key}" in ${locale} should use "${expected}" for "${entry.term}".` }
+      yield { key, locale, message: `"${key}" in ${locale} should use "${expected}" for "${entry.term}".` }
     }
   }
 }

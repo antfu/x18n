@@ -9,7 +9,9 @@ A glossary term translated differently from the glossary.
 
 The check is on by default, with the severity `warning`.
 
-The check reads the `glossary` config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when `doNotTranslate` is `true`.
+The check reads the `glossary` config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when `doNotTranslate` is `true`. A term and a translation match as whole words, so "Home" does not match "Homepage".
+
+In a language that inflects or compounds its nouns, list the forms the check should also accept under `forms`, per locale: `{ term: 'Date', translations: { nb: 'Dato' }, forms: { nb: ['datoen', 'datoer'] } }`. A form matches at the start of a word, so a compound stem such as `bestillings` covers "bestillingssiden". Forms under the source locale count as uses of the term, so `forms: { en: ['bookings'] }` has "Your bookings" checked too.
 
 ## Configure
 

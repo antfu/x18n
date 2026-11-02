@@ -225,6 +225,9 @@ export interface GlossaryEntry {
   readonly translations?: {
     readonly [locale: string]: string;
   } | undefined;
+  readonly forms?: {
+    readonly [locale: string]: readonly string[];
+  } | undefined;
   readonly note?: string | undefined;
   readonly doNotTranslate?: boolean | undefined;
 }

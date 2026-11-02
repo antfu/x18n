@@ -176,6 +176,18 @@ exports[`schemas > config schema 1`] = `
           "doNotTranslate": {
             "type": "boolean",
           },
+          "forms": {
+            "additionalProperties": {
+              "items": {
+                "type": "string",
+              },
+              "type": "array",
+            },
+            "propertyNames": {
+              "type": "string",
+            },
+            "type": "object",
+          },
           "note": {
             "type": "string",
           },
