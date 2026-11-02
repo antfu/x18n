@@ -151,6 +151,9 @@ Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAM
 | `{key}` | The new key. |
 | `{attr}` | The attribute name, for attribute kinds. |
 | `{args}` | The arguments of a template string: `, { name: user.name }`, without the `, ` right after `(`. Empty when there are none. |
+| `{text}` | The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in `$t('{key}', '{text}')`. |
+
+x18n escapes `{key}` and `{text}` for the quotes around them. Inside `'...'` or `"..."` it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and `${`. Inside a quoted attribute, such as `:title="$t('{key}', '{text}')"`, it also writes `&` and the attribute quote as entities. Outside quotes the value goes in as is.
 
 Each hard string has a kind, which tells where it is:
 

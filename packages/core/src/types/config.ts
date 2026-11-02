@@ -81,6 +81,7 @@ export interface GlossaryEntry {
 }
 
 export interface ExtractTemplate {
+  /** Replacement code with `{key}`, `{attr}`, `{args}` and `{text}` tokens. `{key}` and `{text}` are escaped for the quotes around them. */
   readonly template: string
   /** Hard-string kinds the template applies to, for example `jsx-text`. */
   readonly kinds?: readonly string[] | undefined

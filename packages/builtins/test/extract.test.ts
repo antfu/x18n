@@ -408,6 +408,89 @@ describe('extraction per preset', () => {
     ])
   })
 
+  it('fills {text} with the message, escaped for the quotes of each template', async () => {
+    const { project: vue } = await createTestProject({
+      'src/locales/en.json': json({}),
+      'src/App.vue': [
+        '<template>',
+        '  <p title="Tom &amp; Jerry\'s show">Say "hi" there</p>',
+        '</template>',
+        '<script setup>',
+        'const a = "It\'s a \\\\ path"',
+        'const b = `Line one\nline two`',
+        'const c = `Hi ${user.name}, it\'s on`', // eslint-disable-line no-template-curly-in-string
+        '</script>',
+        '',
+      ].join('\n'),
+      'src/B.vue': '<template>\n  <p>Pay ${price} in `cash` today</p>\n</template>\n', // eslint-disable-line no-template-curly-in-string
+    }, {
+      presets: [
+        vueI18n(),
+      ],
+      extract: {
+        templates: [
+          {
+            template: '{{ $t(\'{key}\', `{text}`) }}',
+            kinds: ['vue-template-text'],
+            files: ['src/B.vue'],
+          },
+          {
+            template: '{{ $t(\'{key}\', \'{text}\') }}',
+            kinds: ['vue-template-text'],
+          },
+          {
+            template: ':{attr}="$t(\'{key}\', \'{text}\')"',
+            kinds: ['vue-attribute'],
+          },
+          {
+            template: 't(\'{key}\', `{text}`{args})',
+            kinds: ['js-template'],
+          },
+          { template: 't("{key}", "{text}")' },
+        ],
+      },
+    })
+    expect(findCandidates(vue).map(c => [c.value, c.replacement])).toEqual([
+      ['It\'s a \\ path', 't("itSAPath", "It\'s a \\\\ path")'],
+      ['Line one\nline two', 't(\'lineOneLineTwo\', `Line one\nline two`)'],
+      ['Hi {name}, it\'s on', 't(\'hiItSOn\', `Hi {name}, it\'s on`, { name: user.name })'],
+      ['Tom & Jerry\'s show', ':title="$t(\'tomJerrySShow\', \'Tom &amp; Jerry\\\'s show\')"'],
+      ['Say "hi" there', '{{ $t(\'sayHiThere\', \'Say "hi" there\') }}'],
+      ['Pay ${price} in `cash` today', '{{ $t(\'payPriceInCashToday\', `Pay \\${price} in \\`cash\\` today`) }}'], // eslint-disable-line no-template-curly-in-string
+    ])
+  })
+
+  it('escapes {text} line breaks in JS strings and quotes in single-quoted attributes', async () => {
+    const { project } = await createTestProject({
+      'locales/en/translation.json': json({}),
+      'src/a.ts': 'export const a = `Costs ${price}\nor never`\n', // eslint-disable-line no-template-curly-in-string
+      'src/c.tsx': 'export const C = () => <p>Tom\'s "big" day</p>\n',
+    }, {
+      presets: [
+        reactI18next(),
+      ],
+      resources: [
+        { pattern: 'locales/{locale}/{namespace}.json' },
+      ],
+      extract: {
+        templates: [
+          {
+            template: 'i18next.t(\'{key}\', \'{text}\'{args})',
+            files: ['src/a.ts'],
+          },
+          {
+            template: '<Trans i18nKey=\'{key}\' defaults=\'{text}\' />',
+            files: ['src/c.tsx'],
+          },
+        ],
+      },
+    })
+    expect(findCandidates(project).map(c => [c.value, c.replacement])).toEqual([
+      ['Costs {{price}}\nor never', 'i18next.t(\'costsOrNever\', \'Costs {{price}}\\nor never\', { price })'],
+      ['Tom\'s "big" day', '<Trans i18nKey=\'tomSBigDay\' defaults=\'Tom&#39;s "big" day\' />'],
+    ])
+  })
+
   it('react-intl: FormattedMessage and formatMessage', async () => {
     const { project, files } = await createTestProject({
       'lang/en.json': json({}),
