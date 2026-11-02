@@ -36,4 +36,5 @@ Find hard-coded user-facing strings in source code and turn them into keys. Port
 | `react-i18next`, `next-intl`, `react-intl` | jsx kinds with library templates (`t('{key}')`, `<FormattedMessage id="{key}" />`) |
 | `svelte-i18n` | svelte text and attributes |
 | any preset with translate calls, in `.astro` | astro-text, astro-attribute, js kinds in the frontmatter. Strings inside `{...}` expressions are not reported, nor strings in `<script>`: a replacement there would run in the browser, where the frontmatter import is not in scope, and `is:inline` scripts cannot import |
-| `fluent-vue`, `next-international`, `transloco` | as in i18n-ally |
+| `ngx-translate`, `transloco`, in `.html` | html-text, html-attribute through the `html` scanner, which these presets add (a plain `index.html` in other apps is not scanned). Interpolations, bindings, control-flow block parameters, ICUs and elements marked with `translate`, `transloco` or `i18n` are not reported. Pipe templates: `{{ '{key}' \| translate }}`, `[{attr}]="'{key}' \| translate"` |
+| `fluent-vue`, `next-international` | as in i18n-ally |

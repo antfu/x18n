@@ -80,6 +80,7 @@ export default defineConfig({
     'scanners/vue': 'src/scanners/vue/index.ts',
     'scanners/svelte': 'src/scanners/svelte/index.ts',
     'scanners/astro': 'src/scanners/astro/index.ts',
+    'scanners/html': 'src/scanners/html/index.ts',
     'scanners/regex': 'src/scanners/regex/index.ts',
     'scanners/regex-scopes': 'src/scanners/regex-scopes/index.ts',
   },

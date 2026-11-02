@@ -203,7 +203,7 @@ export const defaultTemplates: readonly ExtractTemplate[] = [
   },
   {
     template: ':{attr}="$t(\'{key}\'{args})"',
-    kinds: ['vue-attribute'],
+    kinds: ['vue-attribute', 'html-attribute'],
   },
   {
     template: '{$t(\'{key}\'{args})}',
