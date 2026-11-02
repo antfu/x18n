@@ -91,6 +91,8 @@ export interface Message {
   readonly storedPath: readonly string[]
   /** Ranges in the resource file text (block offsets already added). */
   readonly range: NodeRange | undefined
+  /** What the resource says about the message for translators, such as a note or a comment beside it. */
+  readonly description?: string | undefined
 }
 
 export type UsageKind = 'call' | 'selector' | 'accessor' | 'constant' | 'marker'
@@ -109,6 +111,8 @@ export interface Usage {
   readonly params?: readonly string[] | undefined
   /** The default value written in code (`t('a', 'Default')`), when the scanner knows it. */
   readonly defaultValue?: string | undefined
+  /** A description of the message written next to the key in code (`CallSpec.description`), when the scanner knows it. */
+  readonly description?: string | undefined
   readonly scanner: string
   readonly kind: UsageKind
   /** `t(`pages.${id}.title`)` gives 'prefix' with key `pages`. */

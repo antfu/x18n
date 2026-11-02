@@ -45,6 +45,10 @@ export const PromptQuerySchema: v.GenericSchema<PromptQuery> = v.object({
     v.boolean(),
     v.array(v.string()),
   ]), v.description('Also translate values that checks report in the target locale, such as copies of the source (`identical-to-source`): `true` for every check, or a list of check ids.'))),
+  related: v.optional(v.pipe(v.union([
+    v.boolean(),
+    v.array(v.string()),
+  ]), v.description('Values of related locales shown next to each message, such as `pt` for `pt-BR`: `true` (default) picks the locales of the same language, a list names them, `false` leaves them out.'))),
 })
 
 const reviewType = v.picklist([

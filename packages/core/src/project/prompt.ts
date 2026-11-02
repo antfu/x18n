@@ -3,6 +3,7 @@ import type { Diagnostic, KeyString, LocaleCode, MessageLeaf } from '../types/mo
 import type { PromptContext, PromptDraft } from '../types/plugin'
 import type { Project } from '../types/project'
 import { keyMatcher } from '../keys'
+import { fallbackChain } from '../locale'
 import { createLineIndex } from '../text'
 
 export interface PromptOptions {
@@ -19,6 +20,21 @@ export interface PromptOptions {
   readonly stale?: boolean | undefined
   /** Translate prompts: add translations that checks report in the target locale, all of them (`true`) or of these check ids. */
   readonly check?: boolean | readonly string[] | undefined
+  /**
+   * Values of related locales to show next to each message: `true` (default) picks them (see `relatedLocales`),
+   * a list names them in order, `false` leaves them out.
+   */
+  readonly related?: boolean | readonly LocaleCode[] | undefined
+}
+
+/** Related locales shown per message, at most. */
+const RELATED_LIMIT = 2
+/** Characters of a description or a related value, at most; longer text is cut. */
+const TEXT_LIMIT = 300
+
+export interface RelatedValue {
+  readonly locale: LocaleCode
+  readonly value: string
 }
 
 export interface PromptIssue {
@@ -37,6 +53,10 @@ export interface PromptItem {
   readonly key: KeyString
   readonly source: string
   readonly placeholders: readonly string[]
+  /** What the resources or the code say about the message for translators, when they say something. */
+  readonly description?: string | undefined
+  /** Values of the message in related locales, such as `pt` when translating to `pt-BR`, nearest first. */
+  readonly related?: readonly RelatedValue[] | undefined
   /** The current value in the target locale, when there is one. */
   readonly existing: string | undefined
   /** For a stale translation: the source value when the translation last changed, when known. */
@@ -106,8 +126,53 @@ function reportedValues(project: Project, diagnostics: readonly Diagnostic[], to
   return reported
 }
 
+function clip(value: string): string {
+  return value.length > TEXT_LIMIT
+    ? `${value.slice(0, TEXT_LIMIT - 1)}…`
+    : value
+}
+
+const subtagsOf = (code: LocaleCode): string[] => code.toLowerCase().split(/[-_]/)
+
+/**
+ * The locales whose values help translate to `to`, nearest first: the fallback chain of `to`, then the other locales of
+ * the same language, those that share more subtags with `to` first, then the shorter codes (`pt` and `pt-PT` for `pt-BR`,
+ * `pt-BR` for `pt`). The source locale and `to` itself are never related.
+ */
+export function relatedLocales(to: LocaleCode, locales: readonly LocaleCode[], sourceLocale: LocaleCode, fallbacks: Readonly<Record<LocaleCode, LocaleCode>>): LocaleCode[] {
+  const target = subtagsOf(to)
+  const shared = (code: LocaleCode): number => {
+    const tags = subtagsOf(code)
+    let n = 0
+    while (n < tags.length && tags[n] === target[n])
+      n++
+    return n
+  }
+  const chain = fallbackChain(fallbacks, to).filter(code => code !== sourceLocale && code !== to)
+  const language = locales
+    .filter(code => code !== to && code !== sourceLocale && !chain.includes(code) && shared(code) > 0)
+    .sort((a, b) => shared(b) - shared(a) || subtagsOf(a).length - subtagsOf(b).length || a.localeCompare(b))
+  return [
+    ...chain,
+    ...language,
+  ]
+}
+
+/** The description of a key: from the source resource, else another locale's, else a usage's. */
+function descriptionOf(project: Project, key: KeyString, from: LocaleCode): string | undefined {
+  const description = project.message(key, from)?.description
+    ?? project.locales.map(locale => project.message(key, locale)?.description).find(Boolean)
+    ?? project.usages({ key }).map(({ usage }) => usage.description).find(Boolean)
+  const trimmed = description?.replace(/\s+/g, ' ').trim()
+  return trimmed
+    ? clip(trimmed)
+    : undefined
+}
+
 export interface PromptHooks {
   readonly config: ResolvedConfig
+  /** Locale to the locale it falls back to. */
+  readonly fallbacks: Readonly<Record<LocaleCode, LocaleCode>>
   readonly hooks: readonly ((draft: PromptDraft, ctx: PromptContext) => void)[]
 }
 
@@ -145,6 +210,31 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
   const end = start + page.length
   const syntaxes = project.placeholderSyntaxes
   const info = project.localeInfo(to)
+  const related = options.related === false
+    ? []
+    : Array.isArray(options.related)
+      ? options.related.filter(code => code !== to && code !== from)
+      : relatedLocales(to, project.locales, from, extra.fallbacks)
+  const relatedOf = (key: KeyString, source: string): RelatedValue[] => related.flatMap((locale) => {
+    const value = text(project.message(key, locale)?.value)
+    // A copy of the source tells nothing the source does not.
+    return value && value !== source
+      ? [
+          {
+            locale,
+            value: clip(value),
+          },
+        ]
+      : []
+  }).slice(0, RELATED_LIMIT)
+  const relatedValues = new Map(page.map(key => [
+    key,
+    relatedOf(key, text(project.message(key, from)?.value) ?? ''),
+  ]))
+  const descriptions = new Map(page.map(key => [
+    key,
+    descriptionOf(project, key, from),
+  ]))
 
   const draft: PromptDraft = { rules: [], notes: [] }
   if (syntaxes.length > 0)
@@ -154,6 +244,16 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
     'Match the tone and wording of the existing messages in the target locale.',
     'Do not translate glossary terms marked "do not translate".',
   )
+  if ([
+    ...descriptions.values(),
+  ].some(Boolean)) {
+    draft.rules.push('A description tells what a message means or where it appears: follow it, and do not translate it.')
+  }
+  if ([
+    ...relatedValues.values(),
+  ].some(values => values.length > 0)) {
+    draft.rules.push(`Values in related locales are references: keep what fits ${to}, and change the spelling, words and forms that differ.`)
+  }
   if (reported.size > 0)
     draft.rules.push(`A message with a reported problem has a current ${to} value: fix the problem. When the current value is right as it is, such as a word that is the same in both languages, leave the key out of the results.`)
   if (info.pluralCategories.length > 1)
@@ -180,12 +280,17 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
     const previous = translated && stale(key)
       ? text(project.valueAt(key, from, translated.updatedAt))
       : undefined
+    const values = relatedValues.get(key) ?? []
     return {
       key,
       source,
       placeholders: [
         ...new Set(syntaxes.flatMap(s => s.find(source)).map(p => p.text)),
       ],
+      description: descriptions.get(key),
+      related: values.length > 0
+        ? values
+        : undefined,
       existing: text(project.message(key, to)?.value) || undefined,
       previousSource: previous === source
         ? undefined
@@ -246,6 +351,10 @@ function renderItem(item: PromptItem, to: LocaleCode): string[] {
   const out = [`### \`${item.key}\``, '', `- Source: ${JSON.stringify(item.source)}`]
   if (item.placeholders.length)
     out.push(`- Placeholders: ${item.placeholders.map(p => `\`${p}\``).join(', ')}`)
+  if (item.description !== undefined)
+    out.push(`- Description: ${JSON.stringify(item.description)}`)
+  for (const value of item.related ?? [])
+    out.push(`- In ${value.locale}: ${JSON.stringify(value.value)}`)
   if (item.previousSource !== undefined)
     out.push(`- Source when ${to} last changed: ${JSON.stringify(item.previousSource)}`)
   if (item.existing !== undefined)

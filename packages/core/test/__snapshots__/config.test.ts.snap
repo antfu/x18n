@@ -492,6 +492,9 @@ exports[`schemas > config schema 1`] = `
                 },
                 "type": "array",
               },
+              "description": {
+                "type": "string",
+              },
               "factory": {
                 "type": "boolean",
               },
@@ -1016,6 +1019,9 @@ exports[`schemas > plugin schema 1`] = `
                   "type": "object",
                 },
                 "type": "array",
+              },
+              "description": {
+                "type": "string",
               },
               "factory": {
                 "type": "boolean",

@@ -12,6 +12,8 @@ interface Binding {
 interface KeyBase {
   readonly namespace: string | undefined
   readonly keyPrefix: string | undefined
+  /** The description written beside the key (`CallSpec.description`). */
+  readonly description?: string | undefined
 }
 
 /** What a call passes besides the key: its params and a default value. */
@@ -269,6 +271,28 @@ class FileScan {
     }), [arg])
   }
 
+  /** For a key read from a property: the description beside each key value, by the key's node. */
+  descriptions(args: readonly ArgValue[], key: CallSpec['key'], name: string): Map<ArgValue, string> {
+    const found = new Map<ArgValue, string>()
+    if (typeof key !== 'object' || key.property === undefined)
+      return found
+    const segments = key.property.split('.')
+    const last = segments.pop()!
+    const holders = segments.length > 0
+      ? this.argValues(args, {
+          arg: key.arg,
+          property: segments.join('.'),
+        }, 0)
+      : this.argValues(args, key.arg, 0)
+    for (const holder of holders) {
+      const value = this.argValues([holder], { arg: 0, property: last }, 0)[0]
+      const description = this.stringArg(this.argValues([holder], { arg: 0, property: name }, 0)[0])
+      if (value && description)
+        found.set(value, description)
+    }
+    return found
+  }
+
   /** The keys of the first object literal at the params positions; `[]` when there is none, undefined when unknown. */
   paramNames(args: readonly ArgValue[], source: ParamsSource): string[] | undefined {
     for (const index of [source.arg].flat()) {
@@ -449,6 +473,9 @@ class FileScan {
         namespace: namespace ?? binding.namespace,
         keyPrefix: keyPrefix ?? binding.keyPrefix,
       }
+      const descriptions = binding.spec.description === undefined
+        ? undefined
+        : this.descriptions(args, binding.spec.key, binding.spec.description)
       for (const value of this.argValues(args, binding.spec.key, 0)) {
         if ('props' in value)
           continue
@@ -456,10 +483,15 @@ class FileScan {
         if (bindings.length > 1 && unwrap(value).type === 'ObjectExpression')
           continue
         // Without its prefix argument (`t(getPrefix(), 'title')`) the key would read as another key.
-        if (binding.spec.keyPrefix && keyPrefix === undefined)
+        if (binding.spec.keyPrefix && keyPrefix === undefined) {
           this.addUnknown(unwrap(value), base)
-        else
-          this.addKey(value, base, expression, expression && this.callDetails(args, binding.spec))
+        }
+        else {
+          const description = descriptions?.get(value)
+          this.addKey(value, description === undefined
+            ? base
+            : { ...base, description }, expression, expression && this.callDetails(args, binding.spec))
+        }
       }
     }
     return bindings.length > 0
@@ -550,6 +582,7 @@ class FileScan {
             returns: spec.returns,
             params: spec.params,
             defaultValue: spec.defaultValue,
+            description: spec.description,
           },
           namespace,
           keyPrefix,

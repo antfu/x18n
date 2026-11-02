@@ -319,15 +319,20 @@ export function createProject(options: CreateProjectOptions): Project {
         tree: {},
         rawTree: {},
         ranges: new Map(),
+        descriptions: new Map(),
         error: errors.X18N2001({ path: candidate.path }),
       }
     }
     try {
       const parsed = format.parse(content, ctx)
       let tree: MessageTree = parsed.tree
+      const descriptions = new Map(parsed.descriptions)
       for (const transform of transforms) {
-        if (transform.applies?.(ctx) !== false)
-          tree = transform.read(tree, ctx)
+        if (transform.applies?.(ctx) === false)
+          continue
+        tree = transform.read(tree, ctx)
+        for (const [id, description] of transform.describe?.(parsed.tree, ctx) ?? [])
+          descriptions.set(id, description)
       }
       if (!isMessageTree(tree))
         throw errors.X18N2003({ path: candidate.path })
@@ -336,6 +341,7 @@ export function createProject(options: CreateProjectOptions): Project {
         tree,
         rawTree: parsed.tree,
         ranges: parsed.ranges ?? new Map(),
+        descriptions,
         error: undefined,
       }
     }
@@ -354,6 +360,7 @@ export function createProject(options: CreateProjectOptions): Project {
         tree: {},
         rawTree: {},
         ranges: new Map(),
+        descriptions: new Map(),
         error: coded,
       }
     }
@@ -619,6 +626,7 @@ export function createProject(options: CreateProjectOptions): Project {
             messages.set(key, byLocale)
             const list = byLocale.get(resource.locale) ?? []
             byLocale.set(resource.locale, list)
+            const description = state.descriptions.get(pathId(storedPath))
             list.push({
               key,
               locale: resource.locale,
@@ -626,6 +634,9 @@ export function createProject(options: CreateProjectOptions): Project {
               resource: resource.id,
               storedPath,
               range,
+              ...description === undefined
+                ? {}
+                : { description },
             })
             if (!keyPaths.has(key))
               keyPaths.set(key, keyIdFor(resource, path))
@@ -1208,6 +1219,7 @@ export function createProject(options: CreateProjectOptions): Project {
     },
     prompt: (kind, locale, promptOptions = {}) => buildPrompt(project, kind, locale, promptOptions, {
       config,
+      fallbacks,
       hooks: registry.plugins.flatMap(plugin => plugin.translatePrompt
         ? [plugin.translatePrompt]
         : []),

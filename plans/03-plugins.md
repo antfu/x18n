@@ -118,6 +118,8 @@ interface ParseResult {
   readonly tree: MessageTree
   /** Ranges of keys and values, for go-to-definition and annotations inside locale files. */
   readonly ranges?: ReadonlyMap<string, { key: TextRange, value: TextRange }>
+  /** What the file says about a message for translators (ARB `@key`, a gettext comment, an XLIFF note), keyed like `ranges`. Translate prompts show it. */
+  readonly descriptions?: ReadonlyMap<string, string>
 }
 
 type MessageOp
@@ -242,7 +244,7 @@ interface PlaceholderSyntax {
 
 - `normalizeKey(raw, ctx)`: turns the raw key text into canonical form. Example: i18next `ns:a.b` becomes namespace `ns`, path `a.b`; next-translate `ns:a` the same. Replaces i18n-ally `rewriteKeys`.
 - `derivedKeys`: rules like `{key}_plural`, `{key}_*`, `{key}_{plural}`. When `{key}` is used, the derived keys count as used. When a derived key exists, `{key}` resolves. `{plural}` and `{ordinal}` match CLDR categories, so each locale needs the categories of its own language.
-- `transformResource`: `{ read(tree, ctx), write(tree, ctx) }`. Example: Rails removes the top-level locale key on read and adds it back on write.
+- `transformResource`: `{ read(tree, ctx), write(tree, ctx) }`. Example: Rails removes the top-level locale key on read and adds it back on write. `describe(tree, ctx)` returns descriptions the stored tree holds beside the messages (Chrome's `description` next to `message`).
 
 ## Order and conflicts
 

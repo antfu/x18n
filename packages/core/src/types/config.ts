@@ -32,6 +32,8 @@ export interface CallSpec {
   readonly params?: ParamsSource | undefined
   /** Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions. */
   readonly defaultValue?: readonly ArgSource[] | undefined
+  /** With a key read from a property: the property beside it that describes the message for translators, such as `'description'` for `{ id, description }`. */
+  readonly description?: string | undefined
   /** The callee is a factory that returns the translate function, for example `useI18n()` returning `{ t }`. */
   readonly factory?: boolean | undefined
   /** For factories: the names of the returned translate functions. Default `['t']`. */

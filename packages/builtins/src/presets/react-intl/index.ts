@@ -18,10 +18,12 @@ export function reactIntl(): Preset {
               'FormattedMessage',
             ],
             key: { arg: 0, property: 'id' },
+            description: 'description',
           },
           {
             callee: 'defineMessages',
             key: { arg: 0, property: '*.id' },
+            description: 'description',
           },
         ],
         templates: [

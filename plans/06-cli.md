@@ -76,7 +76,7 @@ All write commands support `--dry-run`, which prints the plan (files and edits) 
 
 | Command | Does |
 | --- | --- |
-| `x18n prompt translate --to <locale>` | Prints a translation prompt ([10-agents.md](./10-agents.md)). `--keys <glob>`, `--limit <n>`, `--format markdown\|json`, `--stale` (add stale translations, [19-history.md](./19-history.md)), `--check [ids]` (add values that checks report in the target locale, all checks or these ids; each item lists the reports as `issues`). Copies of the source are never style examples. |
+| `x18n prompt translate --to <locale>` | Prints a translation prompt ([10-agents.md](./10-agents.md)). `--keys <glob>`, `--limit <n>`, `--format markdown\|json`, `--stale` (add stale translations, [19-history.md](./19-history.md)), `--check [ids]` (add values that checks report in the target locale, all checks or these ids; each item lists the reports as `issues`). Copies of the source are never style examples. Items carry descriptions and values in related locales; `--related [locales]` names those locales, `--no-related` drops them. |
 | `x18n prompt review --locale <l>` | Prompt to review existing translations against source and glossary. |
 | `x18n mcp` | MCP server over stdio ([10-agents.md](./10-agents.md)). |
 

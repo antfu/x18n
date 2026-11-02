@@ -10,12 +10,26 @@ interface Message {
   readonly element: XmlElement
   /** The message content, after the `<source>` location elements of an `.xmb`. */
   readonly body: TextRange
+  /** The `desc` and `meaning` attributes of an `.xmb` message, joined. */
+  readonly description: string | undefined
 }
 
 interface Bundle {
   /** `.xtb` translations in `<translationbundle>`; otherwise the `.xmb` source in `<messagebundle>`. */
   readonly translations: boolean
   readonly messages: Message[]
+}
+
+function descriptionOf(attributes: string): string | undefined {
+  const desc = xmlAttribute(attributes, 'desc')?.value.trim()
+  const meaning = xmlAttribute(attributes, 'meaning')?.value.trim()
+  const notes = [
+    desc,
+    meaning && `Meaning: ${meaning}`,
+  ].filter(Boolean)
+  return notes.length > 0
+    ? notes.join('\n')
+    : undefined
 }
 
 function read(text: string): Bundle {
@@ -34,6 +48,7 @@ function read(text: string): Bundle {
       idRange: { start: attributesAt + id.range.start, end: attributesAt + id.range.end },
       element,
       body: { start: bodyStart, end: element.inner.end },
+      description: descriptionOf(element.attributes),
     })
   }
   return { translations, messages }
@@ -128,11 +143,14 @@ export function xmb(): Plugin {
         parse(text) {
           const tree: Record<string, string> = {}
           const ranges = new Map<string, NodeRange>()
+          const descriptions = new Map<string, string>()
           for (const message of read(text).messages) {
             tree[message.id] = toMessage(text.slice(message.body.start, message.body.end))
             ranges.set(pathId([message.id]), { key: message.idRange, value: message.body })
+            if (message.description)
+              descriptions.set(pathId([message.id]), message.description)
           }
-          return { tree, ranges }
+          return { tree, ranges, descriptions }
         },
         edit(text, ops, ctx) {
           let next = text

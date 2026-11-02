@@ -751,3 +751,34 @@ exports[`x18n binary > keeps the JSON contract of every read command > usages 1`
 }
 "
 `;
+
+exports[`x18n binary > shows the values of related locales in the translate prompt 1`] = `
+"# Translate 1 messages from en to de-CH (Swiss High German)
+
+## Rules
+
+- Keep every placeholder exactly as written (\`{name}\`, \`@:key\`); do not translate their names.
+- Keep markup tags and their attributes as they are.
+- Match the tone and wording of the existing messages in the target locale.
+- Do not translate glossary terms marked "do not translate".
+- Values in related locales are references: keep what fits de-CH, and change the spelling, words and forms that differ.
+- de-CH uses the plural categories one, other.
+
+## Existing de-CH messages (style reference)
+
+- \`app.title\`: "My App" → "Meine App"
+
+## Messages
+
+### \`pages.home.title\`
+
+- Source: "Welcome"
+- In de: "Willkommen"
+
+## How to write results
+
+- Write a JSON file \`{ "de-CH": { "<key>": "<translation>" } }\` and run \`x18n apply <file> --json\`, or run \`x18n set <key> --locale de-CH --value <text>\` per key.
+- Then run \`x18n check --only placeholder-mismatch,invalid-syntax --locale de-CH --json\` and fix the reported keys.
+- To find more work: \`x18n keys --missing de-CH --json --limit 50\`.
+"
+`;

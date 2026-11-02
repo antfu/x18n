@@ -99,6 +99,11 @@ export function createUsageResolver(
           : {
               defaultValue: candidate.defaultValue,
             },
+        ...candidate.description === undefined
+          ? {}
+          : {
+              description: candidate.description,
+            },
         scanner,
         kind: candidate.kind,
         dynamic: candidate.dynamic,

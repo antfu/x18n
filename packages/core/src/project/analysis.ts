@@ -22,6 +22,8 @@ export interface ResourceState {
   /** Maps a key path of `tree` to its path in `rawTree`. */
   readonly toStored: (path: readonly string[]) => string[]
   readonly ranges: ReadonlyMap<string, NodeRange>
+  /** Descriptions of messages from the format and the transforms, keyed by `pathId(storedPath)`. */
+  readonly descriptions: ReadonlyMap<string, string>
   readonly error: X18nError | undefined
 }
 
