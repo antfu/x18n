@@ -88,6 +88,7 @@ For other editors, you can use the [Language Server](./packages/lsp) to enable s
 | [`@x18n/ui`](./packages/ui) | devframe UI: local dev server, static report, in-browser workspace, VS Code panel, devtools panel |
 | [`@x18n/devtools`](./packages/devtools) | The UI as a panel in Vite DevTools, Nuxt DevTools and devframe hubs |
 | [`x18n-vscode`](./packages/vscode) | VS Code extension on top of the language server |
+| [`x18n-zed`](./packages/zed) | Zed extension on top of the language server (Rust/WASM) |
 
 ## Credits
 

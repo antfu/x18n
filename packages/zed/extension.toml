@@ -1,0 +1,36 @@
+id = "x18n-language-server"
+name = "x18n"
+version = "0.1.6"
+schema_version = 1
+authors = ["froQ <https://github.com/0froq>"]
+description = "x18n language server for i18n keys, diagnostics, hovers, rename, and extract actions in Zed."
+repository = "https://github.com/x18n-dev/x18n"
+
+[language_servers.x18n]
+name = "x18n Language Server"
+languages = [
+  "JavaScript",
+  "JSX",
+  "TypeScript",
+  "TSX",
+  "Vue.js",
+  "JSON",
+  "JSONC",
+  "YAML",
+  "HTML",
+  "Svelte",
+  "Astro",
+]
+
+[language_servers.x18n.language_ids]
+"JavaScript" = "javascript"
+"JSX" = "javascriptreact"
+"TypeScript" = "typescript"
+"TSX" = "typescriptreact"
+"Vue.js" = "vue"
+"JSON" = "json"
+"JSONC" = "jsonc"
+"YAML" = "yaml"
+"HTML" = "html"
+"Svelte" = "svelte"
+"Astro" = "astro"

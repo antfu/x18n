@@ -56,6 +56,7 @@ Full list and reasons: [`plans/01-architecture.md`](./plans/01-architecture.md).
 | `packages/ui` | `@x18n/ui` (Nuxt SPA in `app/`, devframe node side in `src/node/`) |
 | `packages/devtools` | `@x18n/devtools` (the UI in Vite DevTools, Nuxt DevTools and devframe hubs) |
 | `packages/vscode` | `x18n-vscode` (private, published to the Marketplace) |
+| `packages/zed` | Zed Rust/WASM extension (Zed registry path: `packages/zed`) |
 | `docs` | docs site on the comark-docs layer (`x18n.dev`) |
 
 The root `x18n.config.ts` points x18n at the UI's own messages (`packages/ui/app/locales`), so the repo checks itself.

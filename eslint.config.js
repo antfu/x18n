@@ -19,6 +19,8 @@ export default antfu(
       'packages/vscode/src/generated',
       '**/.vscode-test',
       'packages/core/schema',
+      // Rust/WASM package has its own Node and Cargo checks.
+      'packages/zed',
       // Sample user projects for tests.
       'test/fixtures',
       'playground',

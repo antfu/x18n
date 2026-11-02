@@ -16,6 +16,11 @@ minimumReleaseAgeExclude:
   - '@turbo/windows-arm64@2.11.10'
   - turbo@2.11.10
   - eslint-plugin-antfu@3.3.1
+  - '@x18n/builtins@0.1.5'
+  - '@x18n/core@0.1.5'
+  - '@x18n/lsp@0.1.5'
+  - '@x18n/node@0.1.5'
+  - '@x18n/ui@0.1.5'
 
 trustPolicy: no-downgrade
 # Older releases of Nuxt and comark-docs dependencies predate provenance publishing;
@@ -159,3 +164,5 @@ catalogs:
     vscode-ext-gen: ^1.6.0
     vscode-languageclient: ^10.1.2
     vsxpub: ^0.2.0
+  zed:
+    '@x18n/lsp': ^0.1.5

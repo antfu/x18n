@@ -1,0 +1,14 @@
+{
+  "name": "x18n-zed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@x18n/lsp": "catalog:zed"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

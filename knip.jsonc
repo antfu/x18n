@@ -14,6 +14,12 @@
       // Never imported: tsdown copies its `.wasm` next to the bundle, where the aliased WASM `oxc-parser` loads it.
       "ignoreDependencies": ["@oxc-parser/binding-wasm32-wasip1"]
     },
+    "packages/zed": {
+      // Node tests run directly, outside Vitest.
+      "entry": ["tests/*.test.mjs"],
+      // Tests read the published package from node_modules and spawn its binary.
+      "ignoreDependencies": ["@x18n/lsp"]
+    },
     "docs": {
       // Nuxt auto-imports components and composables, so nothing imports them.
       "entry": ["app/**/*.{vue,ts}"],

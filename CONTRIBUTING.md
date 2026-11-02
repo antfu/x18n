@@ -21,6 +21,7 @@ Dependencies go through the pnpm catalogs (`catalog:<name>`). Do not pin version
 | Tests | `pnpm test` builds first, then runs Vitest |
 | Docs | `pnpm docs` |
 | VS Code extension | Open the repo in VS Code and press F5 (see below) |
+| Zed extension | See [`packages/zed/README.md`](./packages/zed/README.md) for the dev extension and package checks |
 
 ### Debugging the VS Code extension
 
@@ -32,6 +33,10 @@ Dependencies go through the pnpm catalogs (`catalog:<name>`). Do not pin version
 After you edit code, reload the host window (Cmd/Ctrl+R). The watcher has already rebuilt `dist`. Breakpoints in `src/` work through sourcemaps. The e2e suite runs with `pnpm -C packages/vscode test:e2e`.
 
 The extension is bundled to CJS, so `import.meta` is empty at runtime. Code in `@x18n/node` and the packages below it MUST NOT rely on `import.meta` at module load without a fallback.
+
+### Working on the Zed extension
+
+The Zed registry builds the WASM module from `packages/zed`. Do not commit `extension.wasm`. This package uses Rust and Node's test runner. From `packages/zed`, run `pnpm test`, `cargo test`, `cargo fmt --check`, `cargo clippy --all-targets -- -D warnings`, and `cargo build --release --target wasm32-wasip2`. See its [README](./packages/zed/README.md) for local installation and editor checks.
 
 ## Rules to keep in mind
 

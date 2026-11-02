@@ -1,0 +1,13 @@
+[package]
+name = "zed-x18n"
+version = "0.0.0" # Not released as a crate; `extension.toml` carries the extension version.
+edition = "2021"
+publish = false
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
+serde_json = "1.0"
