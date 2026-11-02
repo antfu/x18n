@@ -29,6 +29,15 @@ export function createUsageResolver(
   const keyOf = (namespace: string | undefined, text: string): KeyString => namespace === undefined
     ? text
     : `${namespace}:${text}`
+  // The first normalizer that returns a value wins.
+  const normalize = (raw: string, ctx: KeyContext): string => {
+    for (const normalizer of normalizers) {
+      const result = normalizer(raw, ctx)
+      if (result !== undefined)
+        return result
+    }
+    return raw
+  }
   const byFile = Object.entries(config.namespace.byFile).map(([glob, namespace]) => ({
     matches: pathMatcher([glob]),
     namespace,
@@ -36,15 +45,7 @@ export function createUsageResolver(
   return {
     resolve(candidate, scopes, path, scanner, has) {
       const scope = innermost(scopes, candidate.range)
-      const ctx = { path }
-      let text = candidate.raw
-      for (const normalize of normalizers) {
-        const result = normalize(text, ctx)
-        if (result !== undefined) {
-          text = result
-          break
-        }
-      }
+      let text = normalize(candidate.raw, { path })
       const scopeNamespace = candidate.namespace ?? scope?.namespace ?? byFile.find(rule => rule.matches(path))?.namespace
       let scopePrefix = candidate.keyPrefix ?? scope?.keyPrefix
       let namespace: string | undefined
