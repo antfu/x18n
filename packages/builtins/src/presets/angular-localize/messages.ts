@@ -236,7 +236,9 @@ function build(nodes: readonly TemplateNode[]): Built {
 /** The messages of one i18n part, and those of the ICUs inside it. */
 function messagesOf(nodes: readonly TemplateNode[], meta: Meta, range: TextRange, out: AngularMessage[]): void {
   const { text, icus } = build(nodes)
-  out.push({ id: meta.customId ?? messageId(text, meta.meaning), range })
+  // Angular extracts nothing for `<p i18n></p>` or `<img i18n-alt alt="">`.
+  if (text)
+    out.push({ id: meta.customId ?? messageId(text, meta.meaning), range })
   for (const icu of icus) {
     const inner = new MessageBuilder().icu(icu)
     out.push({
