@@ -224,9 +224,9 @@ function readFacts(path: string, code: string, facts: ProjectFacts, validation: 
   if (/useClass\s*:\s*I18NextTitle\b/.test(code))
     facts.titles = true
   if (code.includes('i18next-validation-message') || code.includes('angular-i18next/forms')) {
-    validation.add('validation:*')
+    validation.add('validation:**')
     for (const match of code.matchAll(/\bi18nextNamespace\s*=\s*["']([^"']+)["']/g))
-      validation.add(`${match[1]}.validation:*`)
+      validation.add(`${match[1]}.validation:**`)
   }
   if (path.endsWith('.ts') && code.includes('getFixedT')) {
     for (const name of boundNames(code, 'I18NextService|ITranslationService', 'I18NEXT_SERVICE'))

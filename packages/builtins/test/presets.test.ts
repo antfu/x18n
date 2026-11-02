@@ -1376,7 +1376,12 @@ describe('namespaces', () => {
     const files = {
       'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
       'src/locales/en.translation.json': json({ home: 'Home' }),
-      'src/locales/en.validation.json': json({ required: 'Required' }),
+      'src/locales/en.validation.json': json({
+        required: 'Required',
+        control_specific: {
+          email: { required: 'Email needed' },
+        },
+      }),
       'src/app/app.ts': 'export class App { constructor(private title: Title) { this.title.setTitle(\'home\') } }',
     }
     const plain = await createTestProject(files)
@@ -1389,6 +1394,7 @@ describe('namespaces', () => {
     })
     expect(project.usages().map(m => m.usage.key)).toEqual(['translation:home'])
     expect(project.analyze().unused).not.toContain('validation:required')
+    expect(project.analyze().unused).not.toContain('validation:control_specific.email.required')
   })
 
   it('angular-i18next: is not detected from i18next alone', async () => {
