@@ -3,7 +3,8 @@ use serde_json::{Map, Value};
 pub const PACKAGE_NAME: &str = "@x18n/lsp";
 pub const LOCAL_SERVER_REL: &str = "node_modules/@x18n/lsp/bin.mjs";
 pub const LOCAL_PACKAGE_JSON_REL: &str = "node_modules/@x18n/lsp/package.json";
-pub const DEFAULT_SERVER_VERSION: &str = "0.1.5";
+/// npm dist-tag used when `serverVersion` is not set.
+pub const DEFAULT_SERVER_VERSION: &str = "latest";
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum ServerSource {

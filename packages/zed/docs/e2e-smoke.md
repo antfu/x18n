@@ -18,12 +18,12 @@ Pick one:
 1. **Workspace package** (recommended, matches VS Code `x18n.useLocalServer`):
 
    ```sh
-   npm install -D @x18n/lsp@^0.1.5
+   npm install -D @x18n/lsp
    ```
 
 2. **Extension download** of `@x18n/lsp` into the extension work directory on first start (needs the npm install capability).
 
-3. **npx**: `"useNpx": true` under `lsp.x18n.settings` (`npx -y @x18n/lsp@<version> --stdio`).
+3. **npx**: `"useNpx": true` under `lsp.x18n.settings` (`npx -y @x18n/lsp@<serverVersion> --stdio`).
 
 ## Zed settings (project `.zed/settings.json`)
 

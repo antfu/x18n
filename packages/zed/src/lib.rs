@@ -6,7 +6,7 @@ use server_resolve::{
     build_initialization_options, choose_server_source, join_path, local_server_path_from_root,
     merge_initialization_options, package_json_lists_x18n_lsp, pinned_server_version,
     should_install_npm, use_local_server, use_npx_fallback, with_worktree_root, ServerSource,
-    LOCAL_PACKAGE_JSON_REL, LOCAL_SERVER_REL, PACKAGE_NAME,
+    DEFAULT_SERVER_VERSION, LOCAL_PACKAGE_JSON_REL, LOCAL_SERVER_REL, PACKAGE_NAME,
 };
 use zed_extension_api::serde_json::Value;
 use zed_extension_api::{self as zed, settings::LspSettings, Result};
@@ -53,14 +53,17 @@ impl X18nExtension {
             &zed::LanguageServerInstallationStatus::CheckingForUpdate,
         );
 
-        let latest =
-            zed::npm_package_latest_version(PACKAGE_NAME).unwrap_or_else(|_| version.to_string());
-        let target = if version.is_empty() {
-            latest.as_str()
-        } else {
-            version
-        };
         let installed = zed::npm_package_installed_version(PACKAGE_NAME)?;
+        let target = if version == DEFAULT_SERVER_VERSION {
+            // Offline: keep the installed server, or let npm resolve the tag.
+            zed::npm_package_latest_version(PACKAGE_NAME)
+                .ok()
+                .or_else(|| installed.clone())
+                .unwrap_or_else(|| version.to_string())
+        } else {
+            version.to_string()
+        };
+        let target = target.as_str();
 
         if should_install_npm(self.bundled_server_exists(), installed.as_deref(), target) {
             zed::set_language_server_installation_status(
