@@ -9,6 +9,7 @@ import { useAnnotations } from './annotations'
 import { createClient } from './client'
 import { useCommands } from './commands'
 import { annotationInPlace, config } from './config'
+import { useDisplayLocale } from './display-locale'
 import { commands, version } from './generated/meta'
 import { createLog, useLog } from './log'
 import { migratableFolders, migrate } from './migrate'
@@ -29,9 +30,11 @@ const { activate, deactivate } = defineExtension((context): X18nExtensionApi => 
   // The client's middleware calls into annotations and commands, which in turn need the client.
   let annotations: Annotations | undefined
   let extractAtCursor = async (): Promise<void> => {}
+  const displayLocale = useDisplayLocale(context.workspaceState)
   const client = createClient(context, {
     decorations: uri => annotations?.decorations(uri) ?? Promise.resolve([]),
     extractAtCursor: () => extractAtCursor(),
+    displayLocale: () => displayLocale.effective.value,
   })
   const x18n: X18nClient = {
     request: async (method, params) => {
@@ -49,7 +52,12 @@ const { activate, deactivate } = defineExtension((context): X18nExtensionApi => 
   annotations = useAnnotations(x18n, refresh.event)
   useViews(x18n, refresh.event)
   const panel = useUiPanel(x18n)
-  const actions = useCommands({ client, x18n, openUi: panel.open })
+  const actions = useCommands({
+    client,
+    x18n,
+    openUi: panel.open,
+    displayLocale,
+  })
   extractAtCursor = actions.extractAtCursor
   useReviews(x18n, actions.execute, refresh.event)
 
@@ -87,15 +95,18 @@ const { activate, deactivate } = defineExtension((context): X18nExtensionApi => 
     void client.restart()
   })
   watch(() => [
-    config.displayLocale,
+    displayLocale.effective.value,
     config.annotations,
     annotationInPlace(),
   ], () => {
     if (!client.isRunning())
       return
-    log(`Display locale: ${config.displayLocale || 'default'}.`)
+    const locale = displayLocale.effective.value
+    log(`Display locale: ${locale || 'default'}${displayLocale.picked.value === undefined
+      ? ''
+      : ' (picked in this workspace)'}.`)
     // Re-sending the locale also makes the server refresh inlay hints, which the in-place switch filters.
-    void client.sendNotification(methods.setDisplayLocale, { locale: config.displayLocale || undefined })
+    void client.sendNotification(methods.setDisplayLocale, { locale: locale || undefined })
     refresh.fire()
   })
 
