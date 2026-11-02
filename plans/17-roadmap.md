@@ -141,7 +141,7 @@ Each milestone is one or a few PRs. A milestone is done when its exit criteria p
 
 ## M11 - Performance (1.0 gate)
 
-- Worker-thread scanning in the node host, cache tuning, LSP memory work.
+- Cache tuning, LSP memory work. Worker-thread scanning in the node host was built and measured, and did not pay off ([D30](./decisions.md#d30---no-worker-threads-in-10)).
 
 **Exit:** the budgets in [15-quality.md](./15-quality.md) pass on the benchmark fixture; CI fails on a regression over 20%.
 
@@ -154,6 +154,7 @@ These did not block the 1.0 exit criteria and move to 1.x:
 - Parity tests against the upstream i18n-ally example projects (the fixtures under `test/fixtures/` cover each tier 1 preset).
 - The TS 7 `registerLspMiddleware` path in the extension is guarded but untested until the API ships.
 - `execute: true` with the JS/TS format (D32).
+- Faster cold start: load `yaml`, `@vue/compiler-sfc` and other heavy modules only when a run needs them. A cold `x18n check` spends about as long loading modules as scanning (D30).
 
 ## 1.0 release
 
