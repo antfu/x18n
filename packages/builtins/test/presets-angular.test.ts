@@ -12,6 +12,19 @@ describe('angular-localize message ids', () => {
     expect(templateMessages(`<p i18n>${template}</p>`)[0]!.id).toBe('8908621949798932713')
   })
 
+  it('has no message for empty content, as Angular extracts none', () => {
+    // Ids and the absence of the rest from `ng extract-i18n`.
+    const template = [
+      '<p i18n></p>',
+      '<p i18n>   </p>',
+      '<img i18n-alt alt="">',
+      '<p i18n>{{ x }}</p>',
+      '<p i18n><span></span></p>',
+      '<img i18n-title title="{{ x }}">',
+    ].join('\n')
+    expect(templateMessages(template).map(m => m.id)).toEqual(['187187500641108332', '4174702686785761172', '187187500641108332'])
+  })
+
   it('matches the fingerprint of @angular/localize', () => {
     expect(messageId('Hello world')).toBe('2023484548631819319')
     expect(messageId('Welcome, {$INTERPOLATION}!', 'site intro')).toBe('8889534073701065911')
