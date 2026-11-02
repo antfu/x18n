@@ -35,7 +35,7 @@ function relativeOf(location: Location): string {
   return posixRelative(fileURLToPath(location.uri))
 }
 
-async function connect(dir: string): Promise<MessageConnection> {
+async function connect(dir: string, clientName?: string): Promise<MessageConnection> {
   const toServer = new PassThrough()
   const toClient = new PassThrough()
   const server = createConnection(new StreamMessageReader(toServer), new StreamMessageWriter(toClient))
@@ -47,7 +47,14 @@ async function connect(dir: string): Promise<MessageConnection> {
   })
   connection.listen()
   disposers.push(() => connection.dispose(), () => server.dispose())
-  const result = await connection.sendRequest(InitializeRequest.type, { processId: null, rootUri: pathToFileURL(dir).href, capabilities: {} })
+  const result = await connection.sendRequest(InitializeRequest.type, {
+    processId: null,
+    rootUri: pathToFileURL(dir).href,
+    capabilities: {},
+    clientInfo: clientName
+      ? { name: clientName }
+      : undefined,
+  })
   expect(result.serverInfo).toEqual({ name: 'x18n', version })
   expect(result.capabilities.textDocumentSync).toBe(TextDocumentSyncKind.Incremental)
   await connection.sendNotification('initialized', {})
@@ -180,6 +187,36 @@ describe('language server', () => {
     })
     expect(hover.contents.value).toContain('| 🇺🇸 en | Hello {name} |')
     expect(hover.contents.value).toContain('[Translate with agent](command:x18n.translateWithAgent?')
+  })
+
+  it('keeps command links for Visual Studio Code', async () => {
+    const code = await connect(root, 'Visual Studio Code')
+    const hover: { contents: { value: string } } = await code.sendRequest('textDocument/hover', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+      position: await position('src/App.vue', 'app.greeting'),
+    })
+    expect(hover.contents.value).toContain('| 🇺🇸 en | Hello {name} |')
+    expect(hover.contents.value).toContain('[Open in UI](command:x18n.openKey?')
+    expect(hover.contents.value).toContain('[Copy translate prompt](command:x18n.copyTranslatePrompt?')
+    expect(hover.contents.value).toContain('[Translate with agent](command:x18n.translateWithAgent?')
+    expect(hover.contents.value).not.toContain('Translate prompt')
+    expect(hover.contents.value).not.toContain('~~~')
+  })
+
+  it('omits command links from Zed hovers', async () => {
+    const zed = await connect(root, 'Zed Preview')
+    const hover: { contents: { value: string } } = await zed.sendRequest('textDocument/hover', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+      position: await position('src/App.vue', 'app.greeting'),
+    })
+    expect(hover.contents.value).toContain('| 🇺🇸 en | Hello {name} |')
+    expect(hover.contents.value).toMatch(/\d+ usages?$/)
+    expect(hover.contents.value).not.toContain('command:')
+    expect(hover.contents.value).not.toContain('Translate prompt')
   })
 
   it('completes keys in key slots', async () => {

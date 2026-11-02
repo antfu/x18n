@@ -121,6 +121,21 @@ function posix(path: string): string {
     : path
 }
 
+/** Stable is `Zed`. Preview, Nightly and Dev are `Zed Preview`, `Zed Nightly`, `Zed Dev`. */
+function isZed(clientName: string | undefined): boolean {
+  return clientName === 'Zed' || clientName?.startsWith('Zed ') === true
+}
+
+/** VS Code runs `command:` hover links. Zed opens them and reports an error. */
+function hoverSuffix(clientName: string | undefined, usages: number, args: string): string {
+  const count = `${usages} usage${usages === 1
+    ? ''
+    : 's'}`
+  if (isZed(clientName))
+    return count
+  return `${count} · [Open in UI](command:x18n.openKey?${args}) · [Copy translate prompt](command:x18n.copyTranslatePrompt?${args}) · [Translate with agent](command:x18n.translateWithAgent?${args})`
+}
+
 class Server {
   readonly documents = new TextDocuments(TextDocument)
   readonly projects: ServerProject[] = []
@@ -138,6 +153,8 @@ class Server {
   ready: Promise<void> = Promise.resolve()
   folders: string[] = []
   watchRegistration = false
+  /** `initialize` client name. Zed channels must not receive `command:` hover links. */
+  clientName: string | undefined
 
   constructor(readonly connection: Connection, readonly options: ServerOptions) {}
 
@@ -258,6 +275,7 @@ class Server {
     if (folders.length === 0 && params.rootUri)
       folders.push(fileURLToPath(params.rootUri))
     this.folders = folders
+    this.clientName = params.clientInfo?.name
     this.watchRegistration = params.capabilities.workspace?.didChangeWatchedFiles?.dynamicRegistration === true
     const settings = params.initializationOptions as Partial<Settings> | undefined // free-form client data; read field by field
     if (typeof settings?.displayLocale === 'string')
@@ -549,9 +567,7 @@ class Server {
     const args = encodeURIComponent(JSON.stringify([
       { project: at.entry.name, key: target.key },
     ]))
-    lines.push('', `${usages.length} usage${usages.length === 1
-      ? ''
-      : 's'} · [Open in UI](command:x18n.openKey?${args}) · [Copy translate prompt](command:x18n.copyTranslatePrompt?${args}) · [Translate with agent](command:x18n.translateWithAgent?${args})`)
+    lines.push('', hoverSuffix(this.clientName, usages.length, args))
     return {
       contents: {
         kind: 'markdown',
