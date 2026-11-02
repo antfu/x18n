@@ -625,6 +625,9 @@ exports[`schemas > config schema 1`] = `
           },
           "type": "array",
         },
+        "gitignore": {
+          "type": "boolean",
+        },
         "ignoreCallees": {
           "items": {
             "type": "string",

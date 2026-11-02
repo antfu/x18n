@@ -274,3 +274,9 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 - Decided: `LocaleFinder.resolveKey({ key, locale })` returns the file of one key. Placement asks it before any other rule, so a store with one file per message gets a new file for a new message rather than a second key in another message's file. A rename moves each message to the file of the new key. A delete that empties the file of its key deletes the file; other files stay when their last key goes. `keepFilled` goes through the same placement, so its empty values get files too. `resolveNew` keeps its shape: it places files that hold many keys.
 - Considered: passing the key to `resolveNew`, which runs only when no resource fits the key, and in such a store every resource fits a flat key; a placement hook on the format, which knows the file shape but not the layout of the store.
 - Why: the finder already owns where files go and has to find the new file again. One optional hook leaves every other layout as it is.
+
+## D44 - `usage.gitignore` turns off gitignore for usage scanning
+
+- Decided: a boolean `usage.gitignore`, default `true`. With `false`, the usage file set is `usage.include` minus `usage.exclude`, whose defaults already skip `node_modules`, `.git` and build output.
+- Considered: honouring `.gitignore` except under the static base of each `usage.include` glob.
+- Why: a translations repository often scans a git-ignored clone of the sources it translates. One switch is visible in the config and in `x18n doctor`; a rule that depends on how a glob is written would change what existing configs scan, and is hard to predict.

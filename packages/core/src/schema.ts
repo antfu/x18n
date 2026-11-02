@@ -180,6 +180,7 @@ const configSchema = v.strictObject({
   usage: v.optional(v.strictObject({
     include: v.optional(strings),
     exclude: v.optional(strings),
+    gitignore: v.optional(v.boolean()),
     calls: v.optional(v.array(callSpec)),
     regex: v.optional(v.array(regexSpec)),
     ignoreCallees: v.optional(strings),

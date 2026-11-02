@@ -582,7 +582,7 @@ export function createProject(options: CreateProjectOptions): Project {
     const include = pathMatcher(config.usage.include)
     const exclude = pathMatcher(config.usage.exclude)
     usageEligible = path => registry.scannersFor(path).length > 0 && include(path) && !exclude(path)
-    const paths = (await host.glob(config.usage.include, { ignore: config.usage.exclude, gitignore: true }))
+    const paths = (await host.glob(config.usage.include, { ignore: config.usage.exclude, gitignore: config.usage.gitignore }))
       .filter(path => registry.scannersFor(path).length > 0)
     await scanPaths(paths)
   }
