@@ -184,6 +184,21 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 - Decided: scanning stays in-process; the persistent cache, an incremental usage index and memoized analysis meet the budgets.
 - Measured on the benchmark fixture (`pnpm bench`): `x18n check` cold 3.1 s, warm 1.4 s, LSP re-scan and diagnostics 16 ms, memory 252 MB.
 - Why: the budgets of [15-quality.md](./15-quality.md) pass without them, and the scan seam would be code nobody uses.
+- Re-checked for TASK-59 with a working pool: an optional `ScanExecutor` in
+  `createProject`, a `module` specifier on scanner entries so a thread can import the scanner, and `node:worker_threads` in
+  `@x18n/node`, with threads for one batch only. Results matched in-process scanning exactly. Workers still lose:
+  - A CPU profile of a cold `x18n check` puts scanning (Vue SFC and oxc parse and walk) at under a fifth of the run.
+    Module loading costs about as much (`yaml` loaded eagerly, `@vue/compiler-sfc` with postcss), then file I/O and GC.
+  - Scan phase alone, 5,000 files, median of 8 runs (wall / CPU over all threads): in-process 2.6 s / 2.8 s,
+    2 threads 3.5 s / 5.5 s, 4 threads 3.6 s / 8.8 s, 6 threads 3.0 s / 10.6 s. Each thread loads the parsers and
+    warms its JIT again, so CPU grows with every thread.
+  - Cold `loadWorkspace` without cache, median of 6: in-process 9.1 s, 2 threads 15.8 s, 4 threads 11.7 s.
+  - Best case, threads that already loaded the parsers: 1.0 s against 1.4 s in-process. That saves about 0.4 s on the
+    first run only. Warm runs read the cache, and an LSP re-scan is one file, so neither gains anything.
+  - The runs were on a shared 10-core machine (load average 13 to 23), so treat the wall times as relative. CPU time is less
+    affected by load, and it alone rules out a large gain.
+- Revisit when a fixture's in-process scan phase is several seconds after caching, or when threads can load the parsers
+  while discovery runs. Cheaper first: load `yaml` and other heavy modules only when used.
 
 ## D31 - MCP through devframe agent tools; MCP prompts later
 
