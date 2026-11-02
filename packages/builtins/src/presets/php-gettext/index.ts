@@ -20,6 +20,8 @@ export function phpGettext(): Preset {
           { pattern: 'locale/{locale}/LC_MESSAGES/*.po' },
           { pattern: 'locales/{locale}.po' },
         ],
+        // gettext keys are source messages, which may hold `.` and `:`.
+        keySeparator: false,
         extra: (draft) => {
           draft.extract = { keygen: 'source', ...draft.extract }
         },

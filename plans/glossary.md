@@ -11,7 +11,7 @@ Use these names in code, docs and UI. Avoid the "not" column.
 | **Display locale** | The locale shown in annotations and hovers. Per user. | |
 | **Resource** | A file, or a block inside a file, that holds messages for one locale and one namespace. | locale file (fine in prose for users), dictionary |
 | **Namespace** | A named group of keys, usually from a file name. | scope (that is a code region) |
-| **Key** | The canonical id of a message: namespace plus path. String form `ns:a.b.c`. | keypath, id |
+| **Key** | The canonical id of a message: namespace plus path. String form `ns:a.b.c`. With `keySeparator: false` the path is one literal segment (`Welcome back.`). | keypath, id |
 | **Message** | The value of one key in one locale. | translation (fine for non-source locales in prose), string |
 | **Usage** | One occurrence of a key in source code. | reference, occurrence |
 | **Param** | A named value a translate call passes to its message (`name` in `t('greet', { name })`), which a placeholder reads. | argument, variable |

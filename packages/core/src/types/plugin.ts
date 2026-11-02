@@ -1,4 +1,4 @@
-import type { CallSpec, ConfigDraft, ExtractTemplate, ResolvedConfig, SerializableConfig } from './config'
+import type { CallSpec, ConfigDraft, ExtractTemplate, KeySeparator, ResolvedConfig, SerializableConfig } from './config'
 import type { Disposable, Host } from './host'
 import type {
   Diagnostic,
@@ -53,6 +53,8 @@ export interface ResourceCandidate {
   readonly format?: string | undefined
   readonly block?: ResourceBlock | undefined
   readonly readonly?: boolean | undefined
+  /** Key separator of the resource, over the config's (from `ResourceSpec.keySeparator`). */
+  readonly keySeparator?: KeySeparator | undefined
 }
 
 export interface FinderContext {

@@ -115,7 +115,7 @@ export interface PromptHooks {
 export function buildPrompt(project: Project, kind: 'translate' | 'review', to: LocaleCode, options: PromptOptions, extra: PromptHooks): PromptData {
   const from = project.sourceLocale
   const match = typeof options.keys === 'string'
-    ? keyMatcher([options.keys])
+    ? keyMatcher([options.keys], extra.config.keySeparator)
     : undefined
   const list = Array.isArray(options.keys)
     ? new Set(options.keys)

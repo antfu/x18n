@@ -5,6 +5,7 @@ import type {
   ExtractOptions,
   ExtractTemplate,
   GlossaryEntry,
+  KeySeparator,
   NamespaceOptions,
   ParamsSource,
   RegexScannerSpec,
@@ -77,12 +78,18 @@ const regexSpec = v.strictObject({
   patterns: strings,
 }) satisfies v.GenericSchema<RegexScannerSpec>
 
+const keySeparator = v.union([
+  v.pipe(v.string(), v.minLength(1)),
+  v.literal(false),
+]) satisfies v.GenericSchema<KeySeparator>
+
 const resourceSpec = v.strictObject({
   pattern: v.string(),
   format: v.optional(v.string()),
   namespace: v.optional(v.string()),
   locale: v.optional(v.string()),
   execute: v.optional(v.boolean()),
+  keySeparator: v.optional(keySeparator),
 }) satisfies v.GenericSchema<ResourceSpec>
 
 const pluginSpecifier = v.union([
@@ -133,7 +140,10 @@ const checkSetting = v.union([
 ]) satisfies v.GenericSchema<CheckSetting>
 
 const namespaceOptions = v.strictObject({
-  separator: v.optional(v.string()),
+  separator: v.optional(v.union([
+    v.pipe(v.string(), v.minLength(1)),
+    v.literal(false),
+  ])),
   default: v.optional(v.string()),
   fallback: v.optional(strings),
   byFile: v.optional(v.record(v.string(), v.string())),
@@ -164,6 +174,7 @@ const configSchema = v.strictObject({
   resources: v.optional(v.array(resourceSpec)),
   formats: v.optional(v.record(v.string(), v.string())),
   keyStyle: v.optional(v.picklist(['auto', 'nested', 'flat'])),
+  keySeparator: v.optional(keySeparator),
   namespace: v.optional(namespaceOptions),
   usage: v.optional(v.strictObject({
     include: v.optional(strings),
@@ -224,6 +235,7 @@ export interface PluginFile {
     readonly resources?: readonly ResourceSpec[] | undefined
     readonly namespace?: NamespaceOptions | undefined
     readonly keyStyle?: 'auto' | 'nested' | 'flat' | undefined
+    readonly keySeparator?: KeySeparator | undefined
   } | undefined
   readonly scanners?: {
     readonly calls?: readonly CallSpec[] | undefined
@@ -258,6 +270,7 @@ const pluginFileSchema = v.strictObject({
     resources: v.optional(v.array(resourceSpec)),
     namespace: v.optional(namespaceOptions),
     keyStyle: v.optional(v.picklist(['auto', 'nested', 'flat'])),
+    keySeparator: v.optional(keySeparator),
   })),
   scanners: v.optional(v.strictObject({
     calls: v.optional(v.array(callSpec)),

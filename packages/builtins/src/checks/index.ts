@@ -201,10 +201,14 @@ export const keyConflict: Check = {
   description: 'A key that is both a leaf and a parent, or is duplicated across files of one locale.',
   * run(ctx) {
     const keys = new Set(ctx.keys())
+    // Literal keys (`keySeparator: false`) have no parents, so `a` and `a.b` are two keys.
+    const separator = ctx.config.keySeparator
     for (const key of keys) {
-      const segments = key.split('.')
+      const segments = separator === false
+        ? [key]
+        : key.split(separator)
       for (let i = 1; i < segments.length; i++) {
-        const parent = segments.slice(0, i).join('.')
+        const parent = segments.slice(0, i).join(separator || '')
         if (keys.has(parent))
           yield { key: parent, message: `"${parent}" is a message and also the parent of "${key}".` }
       }
@@ -444,7 +448,10 @@ export const keyStyle: Check = {
       : undefined
     for (const key of ctx.keys()) {
       const path = key.slice(key.indexOf(':') + 1)
-      if (rule && !path.split('.').every(segment => rule.test(segment)))
+      const segments = ctx.config.keySeparator === false
+        ? [path]
+        : path.split(ctx.config.keySeparator)
+      if (rule && !segments.every(segment => rule.test(segment)))
         yield { key, message: `"${key}" is not ${String(ctx.options.case)} case.` }
       else if (pattern && !pattern.test(key))
         yield { key, message: `"${key}" does not match ${pattern.source}.` }

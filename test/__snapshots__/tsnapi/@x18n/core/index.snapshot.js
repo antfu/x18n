@@ -22,13 +22,13 @@ export function fuzzyScore(_, _) {}
 export function globToRegExp(_, _) {}
 export function hashText(_) {}
 export function isJsonObject(_) {}
-export function isKeyUnder(_, _) {}
+export function isKeyUnder(_, _, _) {}
 export function isMessageLeaf(_) {}
 export function isMessageTree(_) {}
 export function isPreset(_) {}
 export function isX18nError(_) {}
-export function joinKey(_, _) {}
-export function keyMatcher(_) {}
+export function joinKey(_, _, _) {}
+export function keyMatcher(_, _) {}
 export function localeSpellingKey(_) {}
 export function parseLocaleInfo(_) {}
 export function parseMessageBatch(_, _) {}
@@ -41,7 +41,7 @@ export function renderPrompt(_) {}
 export function replaceKeyPrefix(_, _, _) {}
 export async function resolveConfig(_) {}
 export function sortTree(_, _) {}
-export function splitKey(_, _) {}
+export function splitKey(_, _, _) {}
 export function toErrorInfo(_) {}
 export function toWireDiagnostic(_, _, _) {}
 export function toWireRange(_, _, _) {}

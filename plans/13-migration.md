@@ -33,7 +33,7 @@ and writes `x18n.config.ts` (or `--format yml`), `.x18n/custom.x18n-plugin.yml` 
 | `parsers.typescript.*` (executed JS/TS locale files) | `execute: true` on the matching `resources` pattern |
 | `review.*` | `review.*` (`user.name` / `user.email` become `review.author`) |
 | `translate.*` | dropped; replaced by translate prompts. The command prints a note. |
-| `disablePathParsing` | `keyStyle: 'flat'` |
+| `disablePathParsing` | `keySeparator: false` |
 | `readonly`, `encoding`, `fullReloadOnChanged`, `includeSubfolders`, `ignoreFiles`, `editor.preferEditor` | handled by defaults or dropped; listed in the report |
 
 ## Custom framework map

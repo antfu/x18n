@@ -24,6 +24,8 @@ export function compileYamlPlugin(data: PluginFile): Plugin | Preset {
         draft.resources = defaults.resources
       if (defaults?.keyStyle)
         draft.keyStyle = defaults.keyStyle
+      if (defaults?.keySeparator !== undefined)
+        draft.keySeparator = defaults.keySeparator
       if (defaults?.namespace) {
         draft.namespace = {
           separator: defaults.namespace.separator ?? draft.namespace.separator,

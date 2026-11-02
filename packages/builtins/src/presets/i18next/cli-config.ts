@@ -222,11 +222,16 @@ export const i18nextCliPlugin: Plugin = {
         { pattern },
       ]
     }
+    // `keySeparator: false` makes keys literal (`Welcome back.`); `nsSeparator: false` lets them hold `:`.
     if (extract.keySeparator === false)
-      draft.keyStyle = 'flat'
+      draft.keySeparator = false
+    else
+      draft.keySeparator = text(extract.keySeparator) ?? draft.keySeparator
     draft.namespace = {
       ...draft.namespace,
-      separator: text(extract.nsSeparator) ?? draft.namespace.separator,
+      separator: extract.nsSeparator === false
+        ? false
+        : text(extract.nsSeparator) ?? draft.namespace.separator,
       default: extract.defaultNS === false
         ? undefined
         : text(extract.defaultNS) ?? draft.namespace.default,

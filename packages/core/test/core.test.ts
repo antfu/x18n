@@ -28,6 +28,24 @@ describe('keys', () => {
     expect(match('deep.a.b.c')).toBe(true)
   })
 
+  it('keeps literal keys whole with keySeparator false', () => {
+    expect(splitKey('common:Note: x.y', true, false)).toEqual({
+      namespace: 'common',
+      path: ['Note: x.y'],
+    })
+    expect(splitKey('欢迎回来。', false, false).path).toEqual(['欢迎回来。'])
+    expect(splitKey('a_b.c', false, '_').path).toEqual(['a', 'b.c'])
+    expect(joinKey('ns', ['a', 'b'], '_')).toBe('ns:a_b')
+    expect(joinKey(undefined, ['Welcome back.'], false)).toBe('Welcome back.')
+    expect(isKeyUnder('Welcome back.', 'Welcome back', false)).toBe(false)
+    expect(isKeyUnder('a.b', 'a', false)).toBe(false)
+    expect(isKeyUnder('ns:Note: x', 'ns:', false)).toBe(true)
+    expect(isKeyUnder('a_b', 'a', '_')).toBe(true)
+    const literal = keyMatcher(['Welcome *'], false)
+    expect(literal('Welcome back. Again.')).toBe(true)
+    expect(keyMatcher(['a_*'], '_')('a_b_c')).toBe(false)
+  })
+
   it('matches path globs', () => {
     expect(globToRegExp('**/*.{ts,vue}').test('src/a/b.vue')).toBe(true)
     expect(globToRegExp('**/*.{ts,vue}').test('b.ts')).toBe(true)

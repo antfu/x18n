@@ -148,6 +148,25 @@ describe('migrate i18n-ally', () => {
     expect(project.usages().map(m => m.usage.key)).toEqual(['welcome'])
   })
 
+  it('maps disablePathParsing to literal keys', async () => {
+    const dir = await fixture('custom')
+    await writeFile(join(dir, '.vscode/settings.json'), JSON.stringify({
+      'i18n-ally.localesPaths': 'i18n',
+      'i18n-ally.enabledFrameworks': ['custom'],
+      'i18n-ally.sourceLanguage': 'en',
+      'i18n-ally.disablePathParsing': true,
+    }))
+    await writeFile(join(dir, 'i18n/en.json'), JSON.stringify({ 'Welcome back.': 'Welcome back.', 'welcome': 'Welcome' }))
+    await writeFile(join(dir, 'app/index.php'), '<?php echo __("Welcome back."); echo __("welcome"); ?>')
+    const { files, project } = await migrateAndLoad(dir)
+    const config = JSON.parse(files.find(f => f.path === 'x18n.config.json')!.content)
+    expect(config.keySeparator).toBe(false)
+    expect(config.keyStyle).toBeUndefined()
+    expect(project.keys()).toEqual(['Welcome back.', 'welcome'])
+    expect(project.usages().map(m => m.usage.key)).toEqual(['Welcome back.', 'welcome'])
+    expect(project.analyze().undefinedUsages).toEqual([])
+  })
+
   it('reports when there is nothing to migrate', async () => {
     const dir = await mkdtemp(join(tmpdir(), 'x18n-migrate-empty-'))
     dirs.push(dir)

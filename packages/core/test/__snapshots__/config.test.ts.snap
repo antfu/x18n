@@ -236,6 +236,17 @@ exports[`schemas > config schema 1`] = `
       },
       "type": "array",
     },
+    "keySeparator": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "type": "string",
+        },
+        {
+          "const": false,
+        },
+      ],
+    },
     "keyStyle": {
       "enum": [
         "auto",
@@ -299,7 +310,15 @@ exports[`schemas > config schema 1`] = `
           "type": "string",
         },
         "separator": {
-          "type": "string",
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string",
+            },
+            {
+              "const": false,
+            },
+          ],
         },
       },
       "required": [],
@@ -371,6 +390,17 @@ exports[`schemas > config schema 1`] = `
           },
           "format": {
             "type": "string",
+          },
+          "keySeparator": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string",
+              },
+              {
+                "const": false,
+              },
+            ],
           },
           "locale": {
             "type": "string",
@@ -691,6 +721,17 @@ exports[`schemas > plugin schema 1`] = `
     "config": {
       "additionalProperties": false,
       "properties": {
+        "keySeparator": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string",
+            },
+            {
+              "const": false,
+            },
+          ],
+        },
         "keyStyle": {
           "enum": [
             "auto",
@@ -735,7 +776,15 @@ exports[`schemas > plugin schema 1`] = `
               "type": "string",
             },
             "separator": {
-              "type": "string",
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string",
+                },
+                {
+                  "const": false,
+                },
+              ],
             },
           },
           "required": [],
@@ -750,6 +799,17 @@ exports[`schemas > plugin schema 1`] = `
               },
               "format": {
                 "type": "string",
+              },
+              "keySeparator": {
+                "anyOf": [
+                  {
+                    "minLength": 1,
+                    "type": "string",
+                  },
+                  {
+                    "const": false,
+                  },
+                ],
               },
               "locale": {
                 "type": "string",

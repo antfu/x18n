@@ -1,14 +1,39 @@
-import type { CallSpec, ConfigContext, Plugin } from '@x18n/core'
+import type { CallSpec, ConfigContext, KeySeparator, Plugin } from '@x18n/core'
 import { createLibraryPlugin } from '@x18n/core'
 import { doubleBraces, nesting } from '../../placeholders'
 
-/** `defaultNS` and `fallbackNS` from the i18next init code (`i18n.ts`, `next-i18next.config.js`), as keys without a namespace use them. */
-async function findNamespaces(host: ConfigContext['host']): Promise<{ default: string | undefined, fallback: string[] | undefined }> {
+interface InitOptions {
+  default: string | undefined
+  fallback: string[] | undefined
+  keySeparator: KeySeparator | undefined
+  nsSeparator: KeySeparator | undefined
+}
+
+/** A `keySeparator` or `nsSeparator` option: `false` or a string. */
+function separatorOption(text: string, name: string): KeySeparator | undefined {
+  const found = new RegExp(`\\b${name}\\s*:\\s*(?:(false)\\b|['"\`]([^'"\`]+)['"\`])`).exec(text)
+  if (!found)
+    return undefined
+  return found[1]
+    ? false
+    : found[2]
+}
+
+/**
+ * `defaultNS`, `fallbackNS`, `keySeparator` and `nsSeparator` from the i18next init code (`i18n.ts`, `next-i18next.config.js`),
+ * as keys without a namespace use them and literal keys need no separator.
+ */
+async function findInitOptions(host: ConfigContext['host']): Promise<InitOptions> {
   const files = await host.glob(['**/*i18n*.{js,mjs,cjs,ts,mts,cts}', '**/i18n/index.{js,ts}'], {
     ignore: ['**/node_modules/**', '**/dist/**'],
     gitignore: true,
   })
-  const found: { default: string | undefined, fallback: string[] | undefined } = { default: undefined, fallback: undefined }
+  const found: InitOptions = {
+    default: undefined,
+    fallback: undefined,
+    keySeparator: undefined,
+    nsSeparator: undefined,
+  }
   for (const file of files.slice(0, 20)) {
     const text = await host.readFile(file) ?? ''
     found.default ??= /\bdefaultNS\s*:\s*['"`]([^'"`]+)['"`]/.exec(text)?.[1]
@@ -18,6 +43,8 @@ async function findNamespaces(host: ConfigContext['host']): Promise<{ default: s
           ...fallback.matchAll(/['"`]([^'"`]+)['"`]/g),
         ].map(m => m[1]!)
       : undefined
+    found.keySeparator ??= separatorOption(text, 'keySeparator')
+    found.nsSeparator ??= separatorOption(text, 'nsSeparator')
   }
   return found
 }
@@ -60,11 +87,14 @@ export const i18nextPlugin: Plugin = createLibraryPlugin({
   namespace: { separator: ':', default: 'translation', fromPath: 'slash' },
   extra: async (draft, ctx) => {
     const user = ctx.user.namespace
-    if (user?.default && user.fallback)
+    if (user?.default && user.fallback && ctx.user.keySeparator !== undefined && user.separator !== undefined)
       return
-    const found = await findNamespaces(ctx.host)
+    const found = await findInitOptions(ctx.host)
+    if (ctx.user.keySeparator === undefined && found.keySeparator !== undefined)
+      draft.keySeparator = found.keySeparator
     draft.namespace = {
       ...draft.namespace,
+      separator: user?.separator ?? found.nsSeparator ?? draft.namespace.separator,
       default: user?.default ?? found.default ?? draft.namespace.default,
       fallback: user?.fallback ?? found.fallback ?? draft.namespace.fallback,
     }

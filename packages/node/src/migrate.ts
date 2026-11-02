@@ -418,9 +418,9 @@ function mapConfig(settings: Settings, parts: PluginParts, notes: string[]): Ser
   const executed = r.get('parsers.typescript.compilerOptions') !== undefined || r.get('parsers.typescript.tsNodePath') !== undefined
   if (executed)
     notes.push('JS/TS locale files were executed by i18n-ally; their patterns get `execute: true` and become read-only.')
-  const keyStyle = r.get('disablePathParsing') === true
-    ? 'flat'
-    : r.pick('keystyle', ['flat', 'nested'] as const)
+  // `disablePathParsing` keeps `.` inside keys, which is a literal key separator.
+  const literalKeys = r.get('disablePathParsing') === true
+  const keyStyle = r.pick('keystyle', ['flat', 'nested'] as const)
   const usage = {
     ...r.list('keysInUse').length
       ? {
@@ -497,6 +497,9 @@ function mapConfig(settings: Settings, parts: PluginParts, notes: string[]): Ser
       : {},
     ...keyStyle
       ? { keyStyle }
+      : {},
+    ...literalKeys
+      ? { keySeparator: false }
       : {},
     ...r.str('defaultNamespace')
       ? {

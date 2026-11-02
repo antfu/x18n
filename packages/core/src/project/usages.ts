@@ -1,7 +1,7 @@
 import type { ResolvedConfig } from '../types/config'
 import type { KeyString, LocaleInfo, TextRange, Usage } from '../types/model'
 import type { KeyContext, PluralForm, Scope, UsageCandidate } from '../types/plugin'
-import { joinKey, pathMatcher } from '../keys'
+import { keyJoiner, pathMatcher } from '../keys'
 
 export interface UsageResolver {
   /** `has` tells whether a key exists, for optional key prefixes and the fallback namespaces. */
@@ -24,6 +24,11 @@ export function createUsageResolver(
   normalizers: readonly ((raw: string, ctx: KeyContext) => string | undefined)[],
 ): UsageResolver {
   const { separator, fallback } = config.namespace
+  const joiner = keyJoiner(config.keySeparator)
+  // The key text after the namespace is kept as written, so literal keys keep their `.` and `:`.
+  const keyOf = (namespace: string | undefined, text: string): KeyString => namespace === undefined
+    ? text
+    : `${namespace}:${text}`
   const byFile = Object.entries(config.namespace.byFile).map(([glob, namespace]) => ({
     matches: pathMatcher([glob]),
     namespace,
@@ -45,11 +50,13 @@ export function createUsageResolver(
       let namespace: string | undefined
       let explicit = false
       if (namespaced) {
-        const index = text.indexOf(separator)
+        const index = separator === false
+          ? -1
+          : text.indexOf(separator)
         explicit = index > 0
         if (explicit) {
           namespace = text.slice(0, index)
-          text = text.slice(index + separator.length)
+          text = text.slice(index + (separator || '').length)
         }
         else {
           namespace = scopeNamespace ?? config.namespace.default
@@ -58,27 +65,24 @@ export function createUsageResolver(
       // An explicit namespace (`t('common:save')`) leaves the scope's key prefix out.
       if (scopePrefix && !explicit) {
         const prefixed = text
-          ? `${scopePrefix}.${text}`
+          ? `${scopePrefix}${joiner}${text}`
           : scopePrefix
         // A prefix usage (`items.${id}`) ends in an empty segment, so its parent key decides.
-        const lookup = candidate.dynamic === 'prefix'
-          ? prefixed.replace(/\.$/, '')
+        const lookup = candidate.dynamic === 'prefix' && prefixed.endsWith(joiner)
+          ? prefixed.slice(0, -joiner.length)
           : prefixed
-        if (candidate.keyPrefix || !scope?.optionalPrefix || has(joinKey(namespace, lookup.split('.'))))
+        if (candidate.keyPrefix || !scope?.optionalPrefix || has(keyOf(namespace, lookup)))
           text = prefixed
         else
           scopePrefix = undefined
       }
-      const keyPath = text === ''
-        ? []
-        : text.split('.')
       let key: KeyString | undefined
       if (candidate.dynamic === 'unknown')
         key = undefined
       else
-        key = joinKey(namespace, keyPath)
+        key = keyOf(namespace, text)
       if (key !== undefined && namespaced && !explicit && candidate.dynamic === false && !has(key))
-        key = fallback.map(ns => joinKey(ns, keyPath)).find(has) ?? key
+        key = fallback.map(ns => keyOf(ns, text)).find(has) ?? key
       return {
         key,
         raw: candidate.raw,

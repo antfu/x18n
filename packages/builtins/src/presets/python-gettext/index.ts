@@ -37,6 +37,8 @@ export function pythonGettext(): Preset {
           { pattern: 'translations/{locale}/LC_MESSAGES/*.po' },
           { pattern: '*/translations/{locale}/LC_MESSAGES/*.po' },
         ],
+        // gettext keys are source messages, which may hold `.` and `:`.
+        keySeparator: false,
         extra: (draft) => {
           draft.extract = { keygen: 'source', ...draft.extract }
         },
