@@ -20,9 +20,12 @@ export function ngxTranslate(): Preset {
               'translateService.instant',
               'translateService.get',
               'translateService.stream',
-              '_',
             ],
+            // Interpolation params only; ngx-translate reads no option of its own from them.
+            params: { arg: 1 },
           },
+          // The marker takes the key alone.
+          { callee: '_' },
         ],
         regex: [
           {

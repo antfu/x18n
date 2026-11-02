@@ -1610,6 +1610,44 @@ describe('param-mismatch', () => {
     ])
   })
 
+  it('compares the params of ngx-translate calls, and leaves the marker and a params function alone', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        greet: 'Hello {{name}}',
+        author: 'By {{author.name}}',
+        plain: 'Hello',
+      }),
+      'src/app/app.component.ts': [
+        `import { _, translate } from '@ngx-translate/core'`,
+        `export class AppComponent {`,
+        `  readonly ok = translate('greet', { name: 'x' })`,
+        `  readonly fn = translate('greet', () => ({ name: this.name() }))`,
+        `  readonly marker = _('greet')`,
+        `  bad() { return this.translate.instant('greet', { nam: 1 }) }`,
+        `  none() { return this.translate.get('greet') }`,
+        `  nested() { return this.translate.stream('author', { author }) }`,
+        `  extra() { return this.translateService.instant('plain', { name }) }`,
+        `}`,
+      ].join('\n'),
+    })
+    const problems = project.analyze().diagnostics.filter(d => d.code === 'param-mismatch')
+    expect(problems.map(d => d.message)).toEqual([
+      'The params of "greet" differ from its placeholders in en: missing name; unused nam.',
+      'The params of "greet" differ from its placeholders in en: missing name.',
+    ])
+    // `-` where the scanner read no params: the function and the marker.
+    expect(project.usages().map(m => `${m.usage.key} ${m.usage.params?.join(',') ?? '-'}`)).toEqual([
+      'greet name',
+      'greet -',
+      'greet -',
+      'greet nam',
+      'greet ',
+      'author author',
+      'plain name',
+    ])
+  })
+
   it('reads the default value of a call, which the missing-key fix writes', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('i18next'),
