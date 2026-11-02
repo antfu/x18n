@@ -48,6 +48,7 @@ x18n reads the locale files and the translate calls of your project. It reports 
 
 ::landing-tabs
 ---
+header: center
 items:
   - icon: i-ph-list-duotone
     title: x18n
