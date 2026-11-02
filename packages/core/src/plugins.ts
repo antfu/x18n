@@ -91,9 +91,11 @@ export function createRegistry(input: readonly Plugin[], config: Pick<ResolvedCo
     ...plugin.formats ?? [],
     ...plugin.lazyFormats ?? [],
   ])
+  // Lazy scanners load once per id, so one that several plugins list (the presets of one framework) runs once.
+  const lazyIds = new Set<string>()
   const scanners = plugins.flatMap(plugin => [
     ...plugin.scanners ?? [],
-    ...plugin.lazyScanners ?? [],
+    ...(plugin.lazyScanners ?? []).filter(entry => !lazyIds.has(entry.id) && lazyIds.add(entry.id)),
   ])
   const finders = [
     ...uniqueById(plugins.flatMap(plugin => plugin.localeFinders ?? []), 'Locale finder').values(),

@@ -89,6 +89,7 @@
     "./reviews": "./dist/reviews.mjs",
     "./scanners": "./dist/scanners.mjs",
     "./scanners/astro": "./dist/scanners/astro.mjs",
+    "./scanners/html": "./dist/scanners/html.mjs",
     "./scanners/js": "./dist/scanners/js.mjs",
     "./scanners/regex": "./dist/scanners/regex.mjs",
     "./scanners/regex-scopes": "./dist/scanners/regex-scopes.mjs",

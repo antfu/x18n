@@ -2,7 +2,7 @@ import type { Preset } from '@x18n/core'
 import { createLibraryPlugin } from '@x18n/core'
 // Detection and syntax adapted from i18n-ally (MIT), src/frameworks/*
 import { doubleBraces } from '../../placeholders'
-import { angularTemplates } from '../shared/angular-templates'
+import { angularTemplates, htmlTemplates } from '../shared/angular-templates'
 
 export function ngxTranslate(): Preset {
   return {
@@ -47,6 +47,10 @@ export function ngxTranslate(): Preset {
             kinds: ['html-text'],
           },
           {
+            template: '[{attr}]="\'{key}\' | translate"',
+            kinds: ['html-attribute'],
+          },
+          {
             template: 'this.translate.instant(\'{key}\'{args})',
             kinds: ['js-string', 'js-template'],
           },
@@ -58,6 +62,7 @@ export function ngxTranslate(): Preset {
         ],
         placeholders: [doubleBraces],
       }),
+      htmlTemplates(),
     ],
   }
 }

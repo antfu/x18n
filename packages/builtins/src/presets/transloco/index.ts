@@ -3,7 +3,7 @@ import { createLibraryPlugin } from '@x18n/core'
 // Detection and syntax adapted from i18n-ally (MIT), src/frameworks/*
 import { doubleBraces } from '../../placeholders'
 import { regexScopes } from '../../scanners/regex-scopes'
-import { angularTemplates } from '../shared/angular-templates'
+import { angularTemplates, htmlTemplates } from '../shared/angular-templates'
 
 export function transloco(): Preset {
   return {
@@ -44,6 +44,10 @@ export function transloco(): Preset {
             kinds: ['html-text'],
           },
           {
+            template: '[{attr}]="\'{key}\' | transloco"',
+            kinds: ['html-attribute'],
+          },
+          {
             template: 'translate(\'{key}\'{args})',
             kinds: ['js-string', 'js-template'],
             imports: ['import { translate } from \'@jsverse/transloco\''],
@@ -51,6 +55,7 @@ export function transloco(): Preset {
         ],
         placeholders: [doubleBraces],
       }),
+      htmlTemplates(),
       // `*transloco="let t; read: 'scope'"` prefixes the keys of the element.
       regexScopes('\\*transloco="[^"]*read:\\s*\'([^\']+)\'', 'transloco-read', {
         as: 'keyPrefix',

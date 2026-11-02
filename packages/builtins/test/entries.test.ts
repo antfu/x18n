@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { formats } from '../src/formats'
 import { presets } from '../src/presets'
 import { scanners } from '../src/scanners'
+import html from '../src/scanners/html/entry'
 
 describe('entries match their modules', () => {
   it.each(Object.entries(formats))('format %s', async (id, entry) => {
@@ -9,7 +10,11 @@ describe('entries match their modules', () => {
     expect(format?.extensions).toEqual(entry.extensions)
   })
 
-  it.each(Object.entries(scanners))('scanner %s', async (id, entry) => {
+  it.each([
+    ...Object.entries(scanners),
+    // Listed by the Angular presets, not by the map.
+    ['html', html] as const,
+  ])('scanner %s', async (id, entry) => {
     const scanner = (await entry.load()).default().scanners?.find(item => item.id === id)
     expect(scanner?.extensions).toEqual(entry.extensions)
   })
