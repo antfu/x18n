@@ -82,9 +82,10 @@ const severities: Record<X18nDiagnostic['severity'], DiagnosticSeverity> = {
 }
 
 function truncate(text: string, max: number): string {
-  return text.length > max
-    ? `${text.slice(0, max - 1)}…`
-    : text
+  if (text.length <= max)
+    return text
+  // A cut between the two halves of an emoji would show a broken character.
+  return `${text.slice(0, max - 1).replace(/[\uD800-\uDBFF]$/, '')}…`
 }
 
 function display(value: unknown): string | undefined {
@@ -148,6 +149,9 @@ class Server {
   readonly failures: { readonly folder: string, readonly error: ErrorInfo }[] = []
   readonly published = new Map<string, Set<string>>()
   readonly timers = new Map<string, ReturnType<typeof setTimeout>>()
+  /** Rescans not started yet, and those running, by document. */
+  readonly scheduled = new Map<string, () => Promise<void>>()
+  readonly running = new Map<string, Promise<void>>()
   readonly settings: Settings = {
     annotationMaxLength: 40,
     displayLocale: undefined,
@@ -335,10 +339,24 @@ class Server {
   /** ---- Document sync ---- */
   schedule(uri: string, run: () => Promise<void>): void {
     clearTimeout(this.timers.get(uri))
-    this.timers.set(uri, setTimeout(() => {
+    this.scheduled.set(uri, run)
+    this.timers.set(uri, setTimeout(() => void this.flush(uri), 100))
+  }
+
+  /** Runs a scheduled rescan now and waits for it, for answers whose positions must match the text of the document. */
+  async flush(uri: string): Promise<void> {
+    const run = this.scheduled.get(uri)
+    if (run) {
+      clearTimeout(this.timers.get(uri))
       this.timers.delete(uri)
-      void run()
-    }, 100))
+      this.scheduled.delete(uri)
+      const running = run().finally(() => {
+        if (this.running.get(uri) === running)
+          this.running.delete(uri)
+      })
+      this.running.set(uri, running)
+    }
+    await this.running.get(uri)
   }
 
   async changed(uri: string, text: string | undefined): Promise<void> {
@@ -584,12 +602,14 @@ class Server {
 
   async inlayHints(params: { textDocument: { uri: string }, range: Range }): Promise<InlayHint[]> {
     await this.ready
+    await this.flush(params.textDocument.uri)
     const found = this.locate(params.textDocument.uri)
     if (!found)
       return []
     const { entry, path } = found
     const locale = this.displayLocale(entry)
-    const index = createLineIndex(this.text(entry, path))
+    const text = this.text(entry, path)
+    const index = createLineIndex(text)
     const start = index.offset(params.range.start)
     const end = index.offset(params.range.end)
     const hints: InlayHint[] = []
@@ -598,10 +618,13 @@ class Server {
         continue
       const value = display(entry.project.lookup(usage.key, locale)?.value)
       hints.push({
-        position: index.position(usage.range.end + 1),
+        // After the closing quote, when the key has one: `<p translate>key</p>` has none.
+        position: index.position(usage.range.end + (/['"`]/.test(text[usage.range.end] ?? '')
+          ? 1
+          : 0)),
         label: value === undefined
           ? ' ⚠ missing'
-          : ` ${truncate(value, this.settings.annotationMaxLength)}`,
+          : ` ${truncate(value.replace(/\s*\n\s*/g, ' '), this.settings.annotationMaxLength)}`,
         paddingLeft: true,
       })
     }
@@ -668,7 +691,8 @@ class Server {
     if (!found)
       return []
     const { entry, path } = found
-    const index = createLineIndex(this.text(entry, path))
+    const text = this.text(entry, path)
+    const index = createLineIndex(text)
     const start = index.offset(params.range.start)
     const end = index.offset(params.range.end)
     const actions: CodeAction[] = []
@@ -1227,6 +1251,7 @@ class Server {
 
   async decorations(params: P.DocumentParams): Promise<P.DecorationsResult> {
     await this.ready
+    await this.flush(params.uri)
     const found = this.locate(params.uri)
     if (!found || found.entry.project.nodes(found.path).length > 0)
       return { locale: this.settings.displayLocale ?? '', decorations: [] }

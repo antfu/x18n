@@ -568,3 +568,40 @@ describe('extraction per preset', () => {
     expect(() => extractItems(project, candidates)).toThrow(expect.objectContaining({ code: 'X18N4004' }))
   })
 })
+
+/* eslint-disable no-template-curly-in-string */
+describe('extraction never overlaps', () => {
+  function overlaps(project: Project): string[] {
+    const items = [
+      ...findCandidates(project),
+    ].sort((a, b) => a.path.localeCompare(b.path) || a.range.start - b.range.start)
+    return items.flatMap((item, i) => {
+      const next = items[i + 1]
+      return next && next.path === item.path && next.range.start < item.range.end
+        ? [`${item.original} / ${next.original}`]
+        : []
+    })
+  }
+
+  it('in templates with strings inside, attributes and nested calls', async () => {
+    const { project } = await createTestProject({
+      'package.json': json({
+        dependencies: { 'i18next': '*', 'react-i18next': '*', 'vue-i18n': '*' },
+      }),
+      'locales/en.json': json({}),
+      'src/a.ts': [
+        'export const a = `Hello there ${on ? \'yes please now\' : \'no thanks then\'} and more`',
+        'export const b = `Outer text here ${`inner text here ${c}`} end`',
+        'export const c = show(\'First words here\', { title: \'Second words here\' })',
+      ].join('\n'),
+      'src/b.tsx': 'export const d = <a title="Some long title" data-x={`Hello big ${y} world`}>Some long title {z ? \'Is on now\' : \'Is off now\'}</a>',
+      'src/c.vue': '<template><a title="Some vue title" :label="\'Bound label text\'">Some vue text {{ on ? \'Yes it is\' : \'No it isnt\' }}</a></template>\n<script setup>\nconst e = `Hi from ${f ? \'script side\' : \'other side\'}`\n</script>\n',
+    })
+    expect(overlaps(project)).toEqual([])
+    const items = extractItems(project, findCandidates(project))
+    await project.apply(project.plan([
+      { type: 'extract', items },
+    ]))
+    expect(project.text('src/a.ts')).toContain('{ arg0: on ? \'yes please now\' : \'no thanks then\' }')
+  })
+})

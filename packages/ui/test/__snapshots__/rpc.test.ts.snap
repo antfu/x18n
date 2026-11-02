@@ -1435,6 +1435,10 @@ exports[`rpc functions > explains the project 1`] = `
           "reason": "not-detected",
         },
         {
+          "name": "angular-i18next",
+          "reason": "not-detected",
+        },
+        {
           "name": "lingui",
           "reason": "not-detected",
         },

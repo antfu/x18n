@@ -169,6 +169,10 @@ export interface Scope {
   readonly keyPrefix?: string | undefined
   /** The key prefix applies only to keys it defines; others resolve without it, as page messages that extend global ones. */
   readonly optionalPrefix?: boolean | undefined
+  /** With `optionalPrefix`: more prefixes to try after `keyPrefix`, in order. */
+  readonly otherPrefixes?: readonly string[] | undefined
+  /** With `optionalPrefix`: a prefixed key counts in the fallback namespaces too. */
+  readonly prefixInFallback?: boolean | undefined
 }
 
 export interface HardString {

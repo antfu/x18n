@@ -943,6 +943,8 @@ export interface Scope {
   readonly namespace?: string | undefined;
   readonly keyPrefix?: string | undefined;
   readonly optionalPrefix?: boolean | undefined;
+  readonly otherPrefixes?: readonly string[] | undefined;
+  readonly prefixInFallback?: boolean | undefined;
 }
 export interface SearchMatch {
   readonly key: KeyString;

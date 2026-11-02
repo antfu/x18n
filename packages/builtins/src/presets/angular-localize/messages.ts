@@ -99,15 +99,21 @@ class Placeholders {
   tag(element: ElementNode): [string, string] {
     const attributes = Object.fromEntries(element.attributes.filter(a => !isI18nAttribute(a.name)).map(a => [a.name, a.value]))
     const listed = Object.keys(attributes).sort().map(name => ` ${name}=${attributes[name]}`).join('')
-    const base = tagNames[element.name.toUpperCase()] ?? `TAG_${element.name.toUpperCase()}`
-    const start = this.named(`<${element.name}${listed}${element.isVoid
+    // Angular names these `:svg:path`, so the placeholder is `TAG__SVG_PATH` and never one of the HTML names.
+    const name = element.namespace
+      ? `:${element.namespace}:${element.name}`
+      : element.name
+    const base = (element.namespace
+      ? undefined
+      : tagNames[name.toUpperCase()]) ?? `TAG_${name.toUpperCase()}`
+    const start = this.named(`<${name}${listed}${element.isVoid
       ? '/>'
-      : `></${element.name}>`}`, element.isVoid
+      : `></${name}>`}`, element.isVoid
       ? base
       : `START_${base}`)
     const close = element.isVoid
       ? ''
-      : this.named(`</${element.name}></${element.name}>`, `CLOSE_${base}`)
+      : this.named(`</${name}></${name}>`, `CLOSE_${base}`)
     return [start, close]
   }
 
@@ -214,6 +220,11 @@ class MessageBuilder {
   }
 }
 
+/** A message in Angular's form: text with `{$NAME}` placeholders. */
+export function messageText(nodes: readonly TemplateNode[]): string {
+  return build(nodes).text
+}
+
 function build(nodes: readonly TemplateNode[]): Built {
   const builder = new MessageBuilder()
   return {
@@ -225,7 +236,9 @@ function build(nodes: readonly TemplateNode[]): Built {
 /** The messages of one i18n part, and those of the ICUs inside it. */
 function messagesOf(nodes: readonly TemplateNode[], meta: Meta, range: TextRange, out: AngularMessage[]): void {
   const { text, icus } = build(nodes)
-  out.push({ id: meta.customId ?? messageId(text, meta.meaning), range })
+  // Angular extracts nothing for `<p i18n></p>` or `<img i18n-alt alt="">`.
+  if (text)
+    out.push({ id: meta.customId ?? messageId(text, meta.meaning), range })
   for (const icu of icus) {
     const inner = new MessageBuilder().icu(icu)
     out.push({
@@ -283,29 +296,60 @@ export function templateMessages(template: string, offset = 0): AngularMessage[]
 
 // --- $localize ---
 
+const escapes = /\\(u\{[\da-f]+\}|u[\da-f]{4}|x[\da-f]{2}|\r\n|[\s\S])/gi
+
+function cookEscape(escape: string): string {
+  const first = escape[0]!
+  if (first === 'u' || first === 'U') {
+    const hex = escape[1] === '{'
+      ? escape.slice(2, -1)
+      : escape.slice(1)
+    return String.fromCodePoint(Number.parseInt(hex, 16))
+  }
+  if (first === 'x' || first === 'X')
+    return String.fromCharCode(Number.parseInt(escape.slice(1), 16))
+  return ({
+    n: '\n',
+    r: '\r',
+    t: '\t',
+    b: '\b',
+    f: '\f',
+    v: '\v',
+    0: '\0',
+  } as Record<string, string>)[escape] ?? (escape.startsWith('\r') || escape === '\n'
+    ? ''
+    : escape)
+}
+
 function cook(raw: string): string {
-  return raw.replace(/\\(u\{[\da-f]+\}|u[\da-f]{4}|x[\da-f]{2}|\r\n|[\s\S])/gi, (_, escape: string) => {
-    const first = escape[0]!
-    if (first === 'u' || first === 'U') {
-      const hex = escape[1] === '{'
-        ? escape.slice(2, -1)
-        : escape.slice(1)
-      return String.fromCodePoint(Number.parseInt(hex, 16))
+  return raw.replace(escapes, (_, escape: string) => cookEscape(escape))
+}
+
+/** Cooks a string, and maps each offset of the result back to the source. */
+function cookMapped(raw: string, offset: number): { readonly text: string, readonly at: (index: number) => number } {
+  let text = ''
+  const map: number[] = []
+  const copy = (end: number, from: number): void => {
+    for (let i = from; i < end; i++) {
+      text += raw[i]
+      map.push(offset + i)
     }
-    if (first === 'x' || first === 'X')
-      return String.fromCharCode(Number.parseInt(escape.slice(1), 16))
-    return ({
-      n: '\n',
-      r: '\r',
-      t: '\t',
-      b: '\b',
-      f: '\f',
-      v: '\v',
-      0: '\0',
-    } as Record<string, string>)[escape] ?? (escape.startsWith('\r') || escape === '\n'
-      ? ''
-      : escape)
-  })
+  }
+  let last = 0
+  for (const match of raw.matchAll(escapes)) {
+    copy(match.index, last)
+    const cooked = cookEscape(match[1]!)
+    for (let i = 0; i < cooked.length; i++)
+      map.push(offset + match.index)
+    text += cooked
+    last = match.index + match[0].length
+  }
+  copy(raw.length, last)
+  map.push(offset + raw.length)
+  return {
+    text,
+    at: index => map[index] ?? offset + raw.length,
+  }
 }
 
 /** Where the `${...}` expression whose body starts at `start` ends, after its `}`. */
@@ -399,28 +443,41 @@ export function localizeMessages(code: string): AngularMessage[] {
 }
 
 /** Inline `template:` strings of components in a TS file, with their offsets. */
-export function inlineTemplates(code: string): { readonly text: string, readonly offset: number }[] {
-  const out: { text: string, offset: number }[] = []
+export interface InlineTemplate {
+  readonly text: string
+  readonly offset: number
+  readonly quote: string
+  /** The offset in the code of an offset in `text`, which differ after an escape. */
+  readonly at: (index: number) => number
+}
+
+export function inlineTemplates(code: string): InlineTemplate[] {
+  const out: InlineTemplate[] = []
   for (const match of code.matchAll(/\btemplate\s*:\s*([`'"])/g)) {
     const quote = match[1]!
     const start = match.index + match[0].length
+    let raw: string | undefined
     if (quote === '`') {
       const literal = templateParts(code, start - 1)
-      if (literal && literal.parts.length === 1) {
-        out.push({
-          text: cook(literal.parts[0]!),
-          offset: start,
-        })
-      }
+      if (literal?.parts.length === 1)
+        raw = literal.parts[0]!
     }
     else {
-      const end = code.indexOf(quote, start)
-      if (end !== -1) {
-        out.push({
-          text: code.slice(start, end),
-          offset: start,
-        })
+      let end = start
+      while (end < code.length && code[end] !== quote && code[end] !== '\n') {
+        end += code[end] === '\\'
+          ? 2
+          : 1
       }
+      if (code[end] === quote)
+        raw = code.slice(start, end)
+    }
+    if (raw !== undefined) {
+      out.push({
+        ...cookMapped(raw, start),
+        offset: start,
+        quote,
+      })
     }
   }
   return out

@@ -1,7 +1,7 @@
 {
   "name": "@x18n/builtins",
   "type": "module",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Built-in x18n plugins and presets: formats, locale finders, scanners, checks and reporters",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -36,6 +36,7 @@
     "./manifests": "./dist/manifests.mjs",
     "./placeholders": "./dist/placeholders.mjs",
     "./presets": "./dist/presets.mjs",
+    "./presets/angular-i18next": "./dist/presets/angular-i18next.mjs",
     "./presets/angular-localize": "./dist/presets/angular-localize.mjs",
     "./presets/cargo-i18n": "./dist/presets/cargo-i18n.mjs",
     "./presets/chrome-extension": "./dist/presets/chrome-extension.mjs",

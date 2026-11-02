@@ -15,6 +15,9 @@ const textKinds = new Set([
   'svelte-text',
   'astro-text',
   'html-text',
+  'html-element',
+  'dq-html-text',
+  'dq-html-element',
 ])
 
 /** Built-in rules, applied in order. A `must-*` wins at once; otherwise the last `should-*` decides. */
@@ -372,10 +375,28 @@ export function* extractableHardStrings(
   }
 }
 
-/** Placeholder shape of the project's first placeholder syntax, `{name}` by default. */
-function placeholderShape(project: Project): (name: string) => string {
-  const example = project.placeholderSyntaxes.find(s => s.example?.includes('name'))?.example ?? '{name}'
-  return name => example.replace('name', name)
+/** Placeholder shape of the project's first placeholder syntax, `{name}` by default. `{$NAME}` takes upper-snake names. */
+function placeholderShape(project: Project): { readonly name: (name: string) => string, readonly shape: (name: string) => string } {
+  const example = project.placeholderSyntaxes.find(s => /name/i.test(s.example ?? ''))?.example ?? '{name}'
+  const name = example.includes('NAME')
+    ? (raw: string): string => raw.replace(/([a-z\d])([A-Z])/g, '$1_$2').replace(/\W/g, '_').toUpperCase()
+    : (raw: string): string => raw
+  return {
+    name,
+    shape: raw => example.replace(/name/i, name(raw)),
+  }
+}
+
+/** The message as the body of a template string, each argument as `${expression}:NAME:`, as `$localize` writes it. */
+function templateParts(hard: HardString, name: (name: string) => string): string {
+  return hard.text.split(/\{(\d+)\}/).map((part, i) => {
+    if (i % 2 === 0)
+      return part.replace(/[\\`]|\$\{/g, c => `\\${c}`)
+    const arg = hard.args?.[Number(part)]
+    return arg
+      ? `\${${arg.expression}}:${name(arg.name)}:`
+      : `{${part}}`
+  }).join('')
 }
 
 function templatesFor(project: Project, kind: string, path: string): string[] {
@@ -407,7 +428,9 @@ const jsEscapes: Readonly<Record<string, string>> = {
  * literal; entities inside a quoted attribute (`:title="$t('{key}')"`). Outside quotes the value goes in as is.
  */
 function quoteFor(before: string, value: string): string {
-  const quote = before.at(-1)
+  const quote = /`[^`]*$/.test(before)
+    ? '`'
+    : before.at(-1)
   const attribute = /="[^"]*$/.test(before)
     ? '"'
     : /='[^']*$/.test(before)
@@ -430,10 +453,12 @@ interface TemplateValues {
   readonly attr: string
   readonly args: string
   readonly text: string
+  readonly source: string
+  readonly parts: string
 }
 
 function fillTemplate(template: string, values: TemplateValues): string {
-  return template.replace(/\{(key|attr|args|text)\}/g, (_, name: keyof TemplateValues, at: number) => {
+  return template.replace(/\{(key|attr|args|text|source|parts)\}/g, (_, name: keyof TemplateValues, at: number) => {
     if (name === 'key' || name === 'text')
       return quoteFor(template.slice(0, at), values[name])
     // `{args}` as the first argument (`m.{key}({args})`) drops its leading `, `.
@@ -443,25 +468,44 @@ function fillTemplate(template: string, values: TemplateValues): string {
   })
 }
 
+/** The words a key is made from: no placeholders, and for a whole ICU the text of its `other` case, or else its first. */
+function slugText(text: string): string {
+  const plain = text.replace(/\{(?:\d+|\$\w+|[A-Z][A-Z\d_]*)\}/g, ' ')
+  if (!/^\{VAR_\w+, \w+, /.test(plain))
+    return plain
+  return /\bother \{([^{}]*)/.exec(plain)?.[1] ?? /\{([^{}]*)/.exec(plain.slice(1))?.[1] ?? plain
+}
+
+/**
+ * Drops a hard string inside another, such as `'yes'` in `` `Hi ${on ? 'yes' : 'no'}` ``: two edits can't rewrite the same
+ * text. The inner one stays in the arguments of the outer call, for a later run.
+ */
+function outermost<T extends HardString & { readonly path: string }>(hardStrings: readonly T[]): T[] {
+  const inside = (a: T, b: T): boolean => a !== b && a.path === b.path && a.range.start >= b.range.start && a.range.end <= b.range.end
+  return hardStrings.filter(hard => !hardStrings.some(other => inside(hard, other)))
+}
+
 /** Hard strings worth extracting, with proposed keys, values and replacements. */
 export function findCandidates(project: Project, options: FindOptions = {}): ExtractCandidate[] {
   const inFiles = options.files?.length
     ? pathMatcher(options.files)
     : undefined
   const keys = new KeyAllocator(project)
-  const shape = placeholderShape(project)
+  const { name: placeholderName, shape } = placeholderShape(project)
   const out: ExtractCandidate[] = []
   const inScope = [
     ...project.hardStrings(),
   ].filter(hard => !inFiles || inFiles(hard.path))
-  for (const hard of extractableHardStrings(project.config.extract, inScope, path => project.text(path))) {
+  for (const hard of outermost([
+    ...extractableHardStrings(project.config.extract, inScope, path => project.text(path)),
+  ])) {
     const text = project.text(hard.path)
     if (text === undefined)
       continue
     const value = hard.kind === 'js-template'
       ? hard.text.replace(/\{(\d+)\}/g, (_, i: string) => shape(hard.args?.[Number(i)]?.name ?? `arg${i}`))
       : hard.text
-    const { key, reused } = keys.allocate(value, hard.path, hard.text.replace(/\{\d+\}/g, ' '))
+    const { key, reused } = keys.allocate(value, hard.path, slugText(hard.text))
     const templates = templatesFor(project, hard.kind, hard.path)
     const chosen = templates[0]!
     const args = hard.args?.length
@@ -486,6 +530,8 @@ export function findCandidates(project: Project, options: FindOptions = {}): Ext
         attr: hard.attribute ?? '',
         args,
         text: value,
+        source: text.slice(hard.range.start, hard.range.end),
+        parts: templateParts(hard, placeholderName),
       }),
       imports: template?.imports ?? [],
       alternatives: templates.slice(1),

@@ -28,6 +28,7 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`angular-localize`](/presets/angular-localize) | @angular/localize | `@angular/localize` with an `i18n` block in `angular.json` |
 | [`ngx-translate`](/presets/ngx-translate) | ngx-translate | `@ngx-translate/core` |
 | [`transloco`](/presets/transloco) | Transloco | `@jsverse/transloco`, `@ngneat/transloco` |
+| [`angular-i18next`](/presets/angular-i18next) | angular-i18next | `angular-i18next` |
 | [`lingui`](/presets/lingui) | Lingui | `@lingui/core`, `@lingui/react`, `@lingui/macro` |
 | [`ember-intl`](/presets/ember-intl) | ember-intl | `ember-intl` |
 | [`polyglot`](/presets/polyglot) | Polyglot.js | `node-polyglot` |
@@ -127,7 +128,7 @@ A placeholder syntax tells x18n how placeholders look in messages. The [`placeho
 | linked | `@:key`, `@.lower:key` | vue-i18n, nuxt-i18n, easy-localization |
 | typed braces | `{name}`, `{name:string}`, `{date\|weekday}` | typesafe-i18n |
 | double braces | `{{name}}`, `{{name, format}}`, `{{- raw}}` | i18next, react-i18next, i18next-shopify, next-translate, gravity-ui-i18n, ngx-translate, transloco, flutter-translate |
-| nesting | `$t(key)` | i18next, react-i18next, i18next-shopify |
+| nesting | `$t(key)` | i18next, react-i18next, angular-i18next, i18next-shopify |
 | ICU | `{name}`, `{count, plural, one {# item} other {# items}}` | next-intl, react-intl, svelte-i18n, lingui, ember-intl, globalize |
 | fluent | `{ $name }` | fluent-vue, fluent-react |
 | percent braces | `%{name}` | polyglot, ruby-i18n-js, ruby-rails, i18nice |
@@ -152,6 +153,8 @@ Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAM
 | `{attr}` | The attribute name, for attribute kinds. |
 | `{args}` | The arguments of a template string: `, { name: user.name }`, without the `, ` right after `(`. Empty when there are none. |
 | `{text}` | The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in `$t('{key}', '{text}')`. |
+| `{source}` | The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it. |
+| `{parts}` | The message as the body of a template string, each argument as `${expression}:NAME:`, as `$localize` writes it. |
 
 x18n escapes `{key}` and `{text}` for the quotes around them. Inside `'...'` or `"..."` it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and `${`. Inside a quoted attribute, such as `:title="$t('{key}', '{text}')"`, it also writes `&` and the attribute quote as entities. Outside quotes the value goes in as is.
 
@@ -167,8 +170,10 @@ Each hard string has a kind, which tells where it is:
 | `svelte-attribute` | An attribute in a Svelte component |
 | `astro-text` | Text in an Astro template |
 | `astro-attribute` | An attribute in an Astro template |
-| `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`) |
+| `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`, `angular-i18next`), or with no element of its own (`angular-localize`) |
+| `html-element` | An Angular element with text, marked with `i18n` as one message (`angular-localize`) |
 | `html-attribute` | An attribute in an HTML or Angular template |
+| `dq-html-text`, `dq-html-element`, `dq-html-attribute` | The same in an inline Angular `template:` in double quotes, which takes `i18n='...'` (`angular-localize`) |
 | `js-string` | A string literal in JS or TS |
 | `js-template` | A template string in JS or TS |
 

@@ -1,6 +1,6 @@
 import type { Project } from '@x18n/core'
 import { describe, expect, it } from 'vitest'
-import { findCandidates } from '../src/extractors'
+import { extractItems, findCandidates } from '../src/extractors'
 import { createTestProject, json } from './_utils'
 
 function pkg(...deps: string[]): string {
@@ -1054,6 +1054,405 @@ describe('namespaces', () => {
     expect(project.analyze().undefinedUsages).toEqual([])
   })
 
+  it('angular-i18next: pipes, array keys, ternaries and service calls', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({
+        a: '1',
+        b: '2',
+        c: '3',
+        d: '4',
+        e: '5',
+        f: '6',
+        g: '7',
+        h: '8',
+        i: '9',
+        unused: 'x',
+      }),
+      'src/locales/en.admin.json': json({ title: 'Admin' }),
+      'src/app/app.html': [
+        '<p>{{ \'a\' | i18next }}</p>',
+        '<p [title]="\'b\' | i18nextEager"></p>',
+        '<p>{{ \'c\' | i18nextCap }}</p>',
+        '<p>{{ \'d\' | i18next: { count: 2 } | i18nextFormat: \'cap\' }}</p>',
+        '<p>{{ (on ? \'e\' : \'f\') | i18next }}</p>',
+        '<p>{{ [\'g\', \'h\'] | i18next }}</p>',
+        '<p>{{ \'admin:title\' | i18next }}</p>',
+        '<p>{{ \'nope\' | i18nextFormat }}</p>',
+      ].join('\n'),
+      'src/app/app.ts': 'export class App { t() { return this.i18NextService.t(\'i\') } }',
+    })
+    expect(project.explain().presets.find(p => p.name === 'angular-i18next')?.reason).toBe('detected')
+    const used = new Set(project.usages().map(m => m.usage.key))
+    for (const key of [
+      'a',
+      'b',
+      'c',
+      'd',
+      'e',
+      'f',
+      'g',
+      'h',
+      'i',
+    ])
+      expect(used, key).toContain(`translation:${key}`)
+    expect(used).toContain('admin:title')
+    expect(used).not.toContain('translation:nope')
+    expect(used).not.toContain('translation:unused')
+  })
+
+  it('angular-i18next: services and pipes under any name, with their options', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({
+        a: '1',
+        b: '2',
+        c: '3',
+        d: '4',
+        e: '5',
+      }),
+      'src/locales/en.admin.json': json({ f: '6' }),
+      'src/app/app.ts': [
+        'export class App {',
+        '  constructor(@Inject(I18NEXT_SERVICE) private lang: ITranslationService, private pipe: I18NextPipe) {}',
+        '  words = inject(I18NEXT_SERVICE)',
+        '  run() {',
+        '    this.lang.t(\'a\')',
+        '    this.words.t(\'b\', { count: 2, name: x })',
+        '    this.lang.exists(\'c\')',
+        '    this.pipe.transform(\'d\')',
+        '    this.lang.t(\'f\', { ns: \'admin\' })',
+        '    this.other.t(\'nope\')',
+        '  }',
+        '}',
+      ].join('\n'),
+    })
+    const found = project.usages()
+    expect(new Set(found.map(m => m.usage.key))).toEqual(new Set([
+      'translation:a',
+      'translation:b',
+      'translation:c',
+      'translation:d',
+      'admin:f',
+    ]))
+    expect(found.find(m => m.usage.key === 'translation:b')!.usage.params).toEqual(['name'])
+  })
+
+  it('angular-i18next: pipe options and dynamic keys', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({
+        a: '1',
+        status: { on: 'On', off: 'Off' },
+        tpl: { x: '2' },
+        free: '3',
+      }),
+      'src/locales/en.admin.json': json({ b: '4' }),
+      'src/app/app.html': [
+        '{{ \'b\' | i18next: { ns: \'admin\', name: who } }}',
+        '{{ \'a\' | i18next: { defaultValue: \'Hi\', count: 1 } }}',
+        '{{ (\'status.\' + state) | i18next }}',
+        '{{ `tpl.${x}` | i18nextEager }}', // eslint-disable-line no-template-curly-in-string
+      ].join('\n'),
+    })
+    const found = project.usages()
+    const b = found.find(m => m.usage.key === 'admin:b')!
+    expect(b.usage.params).toEqual(['name'])
+    expect(found.find(m => m.usage.key === 'translation:a')!.usage.defaultValue).toBe('Hi')
+    const unused = project.analyze().unused
+    expect(unused).toContain('translation:free')
+    expect(unused).not.toContain('translation:status.on')
+    expect(unused).not.toContain('translation:tpl.x')
+  })
+
+  it('angular-i18next: an unknown key in a pipe keeps others from being called unused only with a prefix', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ a: '1' }),
+      'src/app/app.html': '{{ label | i18next }}',
+    })
+    expect(project.usages().map(m => m.usage.dynamic)).toEqual(['unknown'])
+  })
+
+  it('angular-i18next: provider namespace and scope reach pipes, not services', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({
+        plain: '1',
+        svc: '2',
+        kept: '3',
+        out: '4',
+      }),
+      'src/locales/en.feature.json': json({
+        person: { name: 'N' },
+        title: 'T',
+        own: 'O',
+      }),
+      'src/app/feature/feature.component.ts': [
+        '@Component({ templateUrl: \'./feature.component.html\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'feature\' }, { provide: I18NEXT_SCOPE, useValue: \'person\' }] })',
+        'export class Feature { constructor(private i18NextService: I18NextService) { this.i18NextService.t(\'svc\') } }',
+      ].join('\n'),
+      'src/app/feature/feature.component.html': [
+        '{{ \'name\' | i18next }}',
+        '{{ \'title\' | i18next }}',
+        '{{ \'translation:kept\' | i18next }}',
+        '{{ \'out\' | i18next: { prependNamespace: false, prependScope: false } }}',
+      ].join('\n'),
+      'src/app/routes/feature.module.ts': 'export const p = [{ provide: I18NEXT_NAMESPACE, useValue: [\'feature\', \'other\'] }]',
+      'src/app/routes/page/page.html': '{{ \'own\' | i18next }}',
+      'src/app/outside.html': '{{ \'plain\' | i18next }}',
+    })
+    const keys = new Set(project.usages().map(m => m.usage.key))
+    for (const key of [
+      'feature:person.name',
+      'feature:title',
+      'translation:kept',
+      'translation:out',
+      'translation:svc',
+      'feature:own',
+      'translation:plain',
+    ])
+      expect(keys, key).toContain(key)
+  })
+
+  it('angular-i18next: keys of an array provider fall back in order', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ base: '1' }),
+      'src/locales/en.feature.json': json({ first: '2' }),
+      'src/locales/en.other.json': json({ second: '3' }),
+      'src/app/routes/feature.module.ts': 'export const p = [{ provide: I18NEXT_NAMESPACE, useValue: [\'feature\', \'other\'] }]',
+      'src/app/routes/page.html': '{{ \'first\' | i18next }}{{ \'second\' | i18next }}{{ \'base\' | i18next }}',
+    })
+    expect(project.analyze().unused).toEqual([])
+    expect(project.usages().map(m => m.usage.key)).toEqual(['feature:first', 'other:second', 'translation:base'])
+  })
+
+  it('angular-i18next: providers reach child components through templates', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ free: '1' }),
+      'src/locales/en.feature.json': json({
+        inChild: '2',
+        inGrand: '3',
+        spare: '4',
+        attr: '5',
+      }),
+      'src/locales/en.other.json': json({ mine: '6' }),
+      'src/a/parent.ts': '@Component({ selector: \'app-parent\', templateUrl: \'./parent.html\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'feature\' }] })\nexport class Parent {}',
+      'src/a/parent.html': '<app-child></app-child><div appAttr></div><app-own />',
+      'src/b/child.ts': '@Component({ selector: \'app-child\', templateUrl: \'./child.html\' })\nexport class Child {}',
+      'src/b/child.html': '{{ \'inChild\' | i18next }}<app-grand />',
+      'src/c/grand.ts': '@Component({ selector: \'app-grand\', template: `{{ \'inGrand\' | i18next }}` })\nexport class Grand {}',
+      'src/d/attr.ts': '@Component({ selector: \'[appAttr]\', template: `{{ \'attr\' | i18next }}` })\nexport class Attr {}',
+      'src/e/own.ts': '@Component({ selector: \'app-own\', template: `{{ \'mine\' | i18next }}`, providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'other\' }] })\nexport class Own {}',
+      'src/f/free.ts': '@Component({ selector: \'app-free\', template: `{{ \'free\' | i18next }}` })\nexport class Free {}',
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual([
+      'feature:attr',
+      'feature:inChild',
+      'feature:inGrand',
+      'other:mine',
+      'translation:free',
+    ])
+    expect(project.analyze().unused).toEqual(['feature:spare'])
+  })
+
+  it('angular-i18next: module and route providers reach the components they name', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ outside: '1' }),
+      'src/locales/en.mod.json': json({ declared: '2' }),
+      'src/locales/en.route.json': json({ lazy: '3', eager: '4', grand: '5' }),
+      'src/m/feature.module.ts': '@NgModule({ declarations: [Declared], providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'mod\' }] })\nexport class M {}',
+      'src/other/declared.ts': '@Component({ selector: \'app-d\', template: `{{ \'declared\' | i18next }}` })\nexport class Declared {}',
+      'src/app/routes.ts': [
+        'export const routes = [',
+        '  { path: \'a\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'route\' }], children: [',
+        '    { path: \'b\', component: Eager },',
+        '    { path: \'c\', loadComponent: () => import(\'../lazy/lazy\').then(m => m.Lazy) },',
+        '    { path: \'d\', loadChildren: () => import(\'../lazy/more.routes\') },',
+        '  ] },',
+        '  { path: \'x\', component: Outside },',
+        ']',
+      ].join('\n'),
+      'src/here/eager.ts': '@Component({ selector: \'app-e\', template: `{{ \'eager\' | i18next }}` })\nexport class Eager {}',
+      'src/lazy/lazy.ts': '@Component({ selector: \'app-l\', template: `{{ \'lazy\' | i18next }}` })\nexport class Lazy {}',
+      'src/lazy/more.routes.ts': 'export default [{ path: \'\', component: Grand }]',
+      'src/lazy/grand.ts': '@Component({ selector: \'app-g\', template: `{{ \'grand\' | i18next }}` })\nexport class Grand {}',
+      'src/here/outside.ts': '@Component({ selector: \'app-o\', template: `{{ \'outside\' | i18next }}` })\nexport class Outside {}',
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual([
+      'mod:declared',
+      'route:eager',
+      'route:grand',
+      'route:lazy',
+      'translation:outside',
+    ])
+  })
+
+  it('angular-i18next: several scopes are tried in order', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({
+        first: { a: '1' },
+        second: { b: '2' },
+        c: '3',
+      }),
+      'src/x.ts': '@Component({ selector: \'app-x\', template: `{{ \'a\' | i18next }}{{ \'b\' | i18next }}{{ \'c\' | i18next }}`, providers: [{ provide: I18NEXT_SCOPE, useValue: [\'first\', \'second\'] }] })\nexport class X {}',
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['translation:first.a', 'translation:second.b', 'translation:c'])
+  })
+
+  it('angular-i18next: a scope also counts in the default namespace, as the library tries it', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({
+        person: { name: '1' },
+      }),
+      'src/locales/en.feature.json': json({ title: '2' }),
+      'src/x.ts': '@Component({ selector: \'app-x\', template: `{{ \'name\' | i18next }}{{ \'title\' | i18next }}`, providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'feature\' }, { provide: I18NEXT_SCOPE, useValue: \'person\' }] })\nexport class X {}',
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['translation:person.name', 'feature:title'])
+  })
+
+  it('angular-i18next: several components in one file keep their own providers', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ free: '1' }),
+      'src/locales/en.a.json': json({ inA: '2' }),
+      'src/locales/en.b.json': json({ inB: '3' }),
+      'src/x.ts': [
+        '@Component({ selector: \'app-a\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'a\' }], template: `{{ \'inA\' | i18next }}` })',
+        'export class A {}',
+        '@Component({ selector: \'app-b\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'b\' }], template: `{{ \'inB\' | i18next }}` })',
+        'export class B {}',
+        '@Component({ selector: \'app-c\', template: `{{ \'free\' | i18next }}` })',
+        'export class C {}',
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['a:inA', 'b:inB', 'translation:free'])
+  })
+
+  it('angular-i18next: providers reach routed components through router-outlet', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ outside: '1' }),
+      'src/locales/en.shell.json': json({ inner: '2', lazy: '3' }),
+      'src/shell.ts': '@Component({ selector: \'app-shell\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'shell\' }], template: `<router-outlet />` })\nexport class Shell {}',
+      'src/inner.ts': '@Component({ selector: \'app-inner\', template: `{{ \'inner\' | i18next }}` })\nexport class Inner {}',
+      'src/lazy.ts': '@Component({ selector: \'app-lazy\', template: `{{ \'lazy\' | i18next }}` })\nexport class Lazy {}',
+      'src/outside.ts': '@Component({ selector: \'app-out\', template: `{{ \'outside\' | i18next }}` })\nexport class Outside {}',
+      'src/routes.ts': 'export const routes = [{ path: \'a\', component: Shell, children: [{ path: \'b\', component: Inner }, { path: \'c\', loadComponent: () => import(\'./lazy\').then(m => m.Lazy) }] }, { path: \'x\', component: Outside }]',
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual(['shell:inner', 'shell:lazy', 'translation:outside'])
+  })
+
+  it('angular-i18next: a bootstrapped component with an outlet reaches every route', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.root.json': json({ page: '1' }),
+      'src/root.ts': '@Component({ selector: \'app-root\', providers: [{ provide: I18NEXT_NAMESPACE, useValue: \'root\' }], template: `<router-outlet />` })\nexport class Root {}',
+      'src/main.ts': 'bootstrapApplication(Root, config)',
+      'src/page.ts': '@Component({ selector: \'app-page\', template: `{{ \'page\' | i18next }}` })\nexport class Page {}',
+      'src/routes.ts': 'export const routes = [{ path: \'\', component: Page }]',
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['root:page'])
+  })
+
+  it('angular-i18next: getFixedT on a service of any name', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ other: '1' }),
+      'src/locales/en.admin.json': json({
+        form: { name: '2' },
+      }),
+      'src/x.ts': 'export class X { constructor(@Inject(I18NEXT_SERVICE) private lang: ITranslationService) {\n  const t = this.lang.getFixedT(null, \'admin\', \'form\')\n  t(\'name\')\n} }',
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['admin:form.name'])
+  })
+
+  it('angular-i18next: titles and validation messages', async () => {
+    const files = {
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ home: 'Home' }),
+      'src/locales/en.validation.json': json({
+        required: 'Required',
+        control_specific: {
+          email: { required: 'Email needed' },
+        },
+      }),
+      'src/app/app.ts': 'export class App { constructor(private title: Title) { this.title.setTitle(\'home\') } }',
+    }
+    const plain = await createTestProject(files)
+    expect(plain.project.usages()).toEqual([])
+    expect(plain.project.analyze().unused).toContain('validation:required')
+    const { project } = await createTestProject({
+      ...files,
+      'src/app/config.ts': 'import \'angular-i18next\'\nexport const p = [{ provide: Title, useClass: I18NextTitle }]',
+      'src/app/form.html': '<input formControlName="a"><i18next-validation-message></i18next-validation-message>',
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['translation:home'])
+    expect(project.analyze().unused).not.toContain('validation:required')
+    expect(project.analyze().unused).not.toContain('validation:control_specific.email.required')
+  })
+
+  it('angular-i18next: is not detected from i18next alone', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('i18next'),
+      'locales/en.json': json({ a: '1' }),
+    })
+    expect(project.explain().presets.find(p => p.name === 'angular-i18next')?.reason).not.toBe('detected')
+  })
+
+  it('angular-i18next: extracts hard strings to pipes', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
+      'src/locales/en.translation.json': json({ existing: 'Already here' }),
+      'src/app/app.html': '<h1 title="Main title">Welcome back</h1>',
+    })
+    await project.apply(project.plan([
+      {
+        type: 'extract',
+        items: extractItems(project, findCandidates(project)),
+      },
+    ]))
+    expect(project.text('src/app/app.html')).toBe('<h1 [title]="\'mainTitle\' | i18next">{{ \'welcomeBack\' | i18next }}</h1>')
+  })
+
+  it('transloco: prefix and its older name read scope the keys of an element', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@jsverse/transloco'),
+      'src/assets/i18n/en.json': json({
+        page: { a: 'A', b: 'B', d: 'D', f: 'F' },
+        other: {
+          e: 'E',
+          long: { key: 'G' },
+        },
+        c: 'C',
+      }),
+      'src/app/a.html': [
+        '<ng-container *transloco="let t; prefix: \'page\'"><p>{{ t(\'a\') }}</p></ng-container>',
+        '<ng-container *transloco="let t; read: \'page\'"><p>{{ t(\'b\') }}</p></ng-container>',
+        '<p>{{ \'c\' | transloco }}</p>',
+        '<ng-template transloco let-t prefix="page"><p>{{ t(\'d\') }}</p></ng-template>',
+        '<div *transloco="let t; prefix: \'page\'"><i *transloco="let t; prefix: \'other\'">{{ t(\'e\') }}</i>{{ t(\'f\') }}{{ \'c\' | transloco }}</div>',
+      ].join('\n'),
+      'src/app/b.ts': '@Component({ template: `<p *transloco="let t; prefix: \'other\'">{{ t(\'long.key\') }}</p>` })\nexport class B {}',
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual([
+      'c',
+      'c',
+      'other.e',
+      'other.long.key',
+      'page.a',
+      'page.b',
+      'page.d',
+      'page.f',
+    ])
+    expect(project.analyze().unused).toEqual([])
+  })
+
   it('transloco: a kebab-case scope folder is a camelCase key prefix', async () => {
     const { project, files } = await createTestProject({
       'package.json': pkg('@jsverse/transloco'),
@@ -1208,6 +1607,44 @@ describe('param-mismatch', () => {
     expect(problems.map(d => project.usages({ key: d.key }).find(m => m.usage.range.start === d.location?.range?.start)?.usage.params)).toEqual([
       ['nam'],
       [],
+    ])
+  })
+
+  it('compares the params of ngx-translate calls, and leaves the marker and a params function alone', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        greet: 'Hello {{name}}',
+        author: 'By {{author.name}}',
+        plain: 'Hello',
+      }),
+      'src/app/app.component.ts': [
+        `import { _, translate } from '@ngx-translate/core'`,
+        `export class AppComponent {`,
+        `  readonly ok = translate('greet', { name: 'x' })`,
+        `  readonly fn = translate('greet', () => ({ name: this.name() }))`,
+        `  readonly marker = _('greet')`,
+        `  bad() { return this.translate.instant('greet', { nam: 1 }) }`,
+        `  none() { return this.translate.get('greet') }`,
+        `  nested() { return this.translate.stream('author', { author }) }`,
+        `  extra() { return this.translateService.instant('plain', { name }) }`,
+        `}`,
+      ].join('\n'),
+    })
+    const problems = project.analyze().diagnostics.filter(d => d.code === 'param-mismatch')
+    expect(problems.map(d => d.message)).toEqual([
+      'The params of "greet" differ from its placeholders in en: missing name; unused nam.',
+      'The params of "greet" differ from its placeholders in en: missing name.',
+    ])
+    // `-` where the scanner read no params: the function and the marker.
+    expect(project.usages().map(m => `${m.usage.key} ${m.usage.params?.join(',') ?? '-'}`)).toEqual([
+      'greet name',
+      'greet -',
+      'greet -',
+      'greet nam',
+      'greet ',
+      'author author',
+      'plain name',
     ])
   })
 

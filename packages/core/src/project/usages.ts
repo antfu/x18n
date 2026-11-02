@@ -18,6 +18,22 @@ function innermost(scopes: readonly Scope[], range: TextRange): Scope | undefine
   return best
 }
 
+function joinPrefix(prefix: string, text: string, joiner: string): string {
+  return text
+    ? `${prefix}${joiner}${text}`
+    : prefix
+}
+
+/** The first prefix whose key exists. A prefix usage (`items.${id}`) ends in an empty segment, so its parent key decides. */
+function definedPrefix(prefixes: readonly string[], text: string, joiner: string, dynamicPrefix: boolean, exists: (key: string) => boolean): string | undefined {
+  return prefixes.find((prefix) => {
+    const prefixed = joinPrefix(prefix, text, joiner)
+    return exists(dynamicPrefix && prefixed.endsWith(joiner)
+      ? prefixed.slice(0, -joiner.length)
+      : prefixed)
+  })
+}
+
 export function createUsageResolver(
   config: ResolvedConfig,
   namespaced: boolean,
@@ -29,6 +45,15 @@ export function createUsageResolver(
   const keyOf = (namespace: string | undefined, text: string): KeyString => namespace === undefined
     ? text
     : `${namespace}:${text}`
+  // The first normalizer that returns a value wins.
+  const normalize = (raw: string, ctx: KeyContext): string => {
+    for (const normalizer of normalizers) {
+      const result = normalizer(raw, ctx)
+      if (result !== undefined)
+        return result
+    }
+    return raw
+  }
   const byFile = Object.entries(config.namespace.byFile).map(([glob, namespace]) => ({
     matches: pathMatcher([glob]),
     namespace,
@@ -36,15 +61,7 @@ export function createUsageResolver(
   return {
     resolve(candidate, scopes, path, scanner, has) {
       const scope = innermost(scopes, candidate.range)
-      const ctx = { path }
-      let text = candidate.raw
-      for (const normalize of normalizers) {
-        const result = normalize(text, ctx)
-        if (result !== undefined) {
-          text = result
-          break
-        }
-      }
+      let text = normalize(candidate.raw, { path })
       const scopeNamespace = candidate.namespace ?? scope?.namespace ?? byFile.find(rule => rule.matches(path))?.namespace
       let scopePrefix = candidate.keyPrefix ?? scope?.keyPrefix
       let namespace: string | undefined
@@ -64,17 +81,18 @@ export function createUsageResolver(
       }
       // An explicit namespace (`t('common:save')`) leaves the scope's key prefix out.
       if (scopePrefix && !explicit) {
-        const prefixed = text
-          ? `${scopePrefix}${joiner}${text}`
+        const optional = !candidate.keyPrefix && scope?.optionalPrefix
+        const chosen = optional
+          ? definedPrefix([
+              scopePrefix,
+              ...scope.otherPrefixes ?? [],
+            ], text, joiner, candidate.dynamic === 'prefix', lookup => (scope.prefixInFallback
+              ? [namespace, ...fallback]
+              : [namespace]).some(ns => has(keyOf(ns, lookup))))
           : scopePrefix
-        // A prefix usage (`items.${id}`) ends in an empty segment, so its parent key decides.
-        const lookup = candidate.dynamic === 'prefix' && prefixed.endsWith(joiner)
-          ? prefixed.slice(0, -joiner.length)
-          : prefixed
-        if (candidate.keyPrefix || !scope?.optionalPrefix || has(keyOf(namespace, lookup)))
-          text = prefixed
-        else
-          scopePrefix = undefined
+        scopePrefix = chosen
+        if (chosen)
+          text = joinPrefix(chosen, text, joiner)
       }
       let key: KeyString | undefined
       if (candidate.dynamic === 'unknown')

@@ -2,6 +2,7 @@ import type { MessageTree, Preset, ResourceSpec, Scanner, UsageCandidate } from 
 import { createLibraryPlugin, isMessageLeaf } from '@x18n/core'
 import { angular } from '../../placeholders'
 import { angularTemplates } from '../shared/angular-templates'
+import { inlineHardStrings, templateHardStrings } from './hard-strings'
 import { inlineTemplates, localizeMessages, templateMessages } from './messages'
 
 type Translation = string | readonly string[]
@@ -91,18 +92,26 @@ const scanner: Scanner = {
     'mts',
     'mjs',
   ],
-  scan(file) {
+  scan(file, ctx) {
     if (file.extension === 'html') {
       return {
         usages: templateMessages(file.text).map(m => candidate(m.id, m.range)),
+        hardStrings: templateHardStrings(file.text, ctx.config.extract.attributes),
       }
     }
     if (!file.text.includes('$localize') && !/\btemplate\s*:/.test(file.text))
       return { usages: [] }
     return {
+      hardStrings: inlineHardStrings(file.text, ctx.config.extract.attributes),
       usages: [
         ...localizeMessages(file.text),
-        ...inlineTemplates(file.text).flatMap(t => templateMessages(t.text, t.offset)),
+        ...inlineTemplates(file.text).flatMap(t => templateMessages(t.text).map(m => ({
+          ...m,
+          range: {
+            start: t.at(m.range.start),
+            end: t.at(m.range.end),
+          },
+        }))),
       ].map(m => candidate(m.id, m.range)),
     }
   },
@@ -140,6 +149,37 @@ export function angularLocalize(): Preset {
                 path.join('.'),
               ],
         },
+        templates: [
+          {
+            template: '{attr} i18n="@@{key}"',
+            kinds: ['html-element'],
+          },
+          {
+            template: '<ng-container i18n="@@{key}">{source}</ng-container>',
+            kinds: ['html-text'],
+          },
+          {
+            template: 'i18n-{attr}="@@{key}" {source}',
+            kinds: ['html-attribute'],
+          },
+          // An inline template in double quotes takes single quotes.
+          {
+            template: '{attr} i18n=\'@@{key}\'',
+            kinds: ['dq-html-element'],
+          },
+          {
+            template: '<ng-container i18n=\'@@{key}\'>{source}</ng-container>',
+            kinds: ['dq-html-text'],
+          },
+          {
+            template: 'i18n-{attr}=\'@@{key}\' {source}',
+            kinds: ['dq-html-attribute'],
+          },
+          {
+            template: '$localize`:@@{key}:{parts}`',
+            kinds: ['js-string', 'js-template'],
+          },
+        ],
         placeholders: [angular],
         async extra(draft, ctx) {
           const text = await ctx.host.readFile('angular.json')

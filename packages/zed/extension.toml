@@ -1,6 +1,6 @@
 id = "x18n-language-server"
 name = "x18n"
-version = "0.1.6"
+version = "0.1.7"
 schema_version = 1
 authors = ["froQ <https://github.com/0froq>"]
 description = "x18n language server for i18n keys, diagnostics, hovers, rename, and extract actions in Zed."
