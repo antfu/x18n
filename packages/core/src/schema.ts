@@ -131,6 +131,7 @@ const extractOptions = v.strictObject({
 const glossaryEntry = v.strictObject({
   term: v.string(),
   translations: v.optional(v.record(v.string(), v.string())),
+  forms: v.optional(v.record(v.string(), v.array(v.string()))),
   note: v.optional(v.string()),
   doNotTranslate: v.optional(v.boolean()),
 }) satisfies v.GenericSchema<GlossaryEntry>

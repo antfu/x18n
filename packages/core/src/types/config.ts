@@ -76,6 +76,8 @@ export interface GlossaryEntry {
   readonly term: string
   /** Translation per locale. */
   readonly translations?: { readonly [locale: string]: string } | undefined
+  /** Other forms per locale, matched at the start of a word: inflections and compound stems of the translation, or of the term under the source locale. */
+  readonly forms?: { readonly [locale: string]: readonly string[] } | undefined
   readonly note?: string | undefined
   readonly doNotTranslate?: boolean | undefined
 }

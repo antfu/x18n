@@ -1538,6 +1538,55 @@ describe('glossary check', () => {
       ['b', 'ko', 'warning'],
     ])
   })
+
+  it('matches the forms of a term and of its translation at the start of a word', async () => {
+    const { project } = await createTestProject({
+      'locales/en.json': json({
+        a: 'Full on this date',
+        b: 'Go to your booking page',
+        c: 'Your bookings',
+        d: 'Booking',
+      }),
+      'locales/nb.json': json({
+        a: 'Fullt på denne datoen',
+        b: 'Gå til bestillingssiden din',
+        c: 'Reservasjonene dine',
+        d: 'Bestilling',
+      }),
+      'locales/de.json': json({
+        a: 'An diesem Datum ausgebucht',
+        b: 'Zu deiner Reservierungsseite',
+        c: 'Deine Reservierungen',
+        d: 'Reservierung',
+      }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+      glossary: [
+        {
+          term: 'Date',
+          translations: { nb: 'Dato', de: 'Datum' },
+          forms: {
+            nb: ['datoen', 'datoer'],
+          },
+        },
+        {
+          term: 'Booking',
+          translations: { nb: 'Bestilling', de: 'Reservierung' },
+          forms: {
+            en: ['bookings'],
+            nb: ['bestillingen', 'bestillings'],
+            de: ['Reservierungen', 'Reservierungs'],
+          },
+        },
+      ],
+      checks: { glossary: 'warning' },
+    })
+    expect(project.analyze().diagnostics.filter(d => d.code === 'glossary').map(d => [d.key, d.locale])).toEqual([
+      ['c', 'nb'],
+    ])
+  })
 })
 
 describe('placeholder-mismatch', () => {
