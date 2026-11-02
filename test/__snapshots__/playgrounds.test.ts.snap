@@ -21,6 +21,7 @@ exports[`x18n check finds the planted problems > laravel 1`] = `
 
 exports[`x18n check finds the planted problems > monorepo 1`] = `
 [
+  "identical-to-source title locales/fr.json:2",
   "missing-translation unused locales/en.json:3",
   "unused-key unused locales/en.json:3",
 ]

@@ -45,6 +45,8 @@ export interface PromptQuery extends ProjectQuery {
   readonly cursor?: string | undefined
   /** Also translate stale translations. */
   readonly stale?: boolean | undefined
+  /** Also translate values that checks report in the locale: every check, or these check ids. */
+  readonly check?: boolean | readonly string[] | undefined
 }
 
 /** Edit ops the UI and agents send; extraction has its own functions. */

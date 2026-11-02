@@ -451,11 +451,6 @@ exports[`x18n binary > keeps the JSON contract of every read command > prompt tr
         "target": "Meine App"
       },
       {
-        "key": "linked",
-        "source": "@:app.title!",
-        "target": "@:app.title!"
-      },
-      {
         "key": "nav.home",
         "source": "Home",
         "target": "Start"
@@ -464,6 +459,11 @@ exports[`x18n binary > keeps the JSON contract of every read command > prompt tr
         "key": "pages.home.title",
         "source": "Welcome",
         "target": "Willkommen"
+      },
+      {
+        "key": "unused",
+        "source": "Nobody uses me",
+        "target": "Niemand"
       }
     ],
     "items": [

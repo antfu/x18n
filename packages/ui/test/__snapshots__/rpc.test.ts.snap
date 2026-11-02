@@ -193,6 +193,20 @@ exports[`agent tools > names the tools for MCP 1`] = `
     "inputSchema": {
       "$schema": "http://json-schema.org/draft-07/schema#",
       "properties": {
+        "check": {
+          "anyOf": [
+            {
+              "type": "boolean",
+            },
+            {
+              "items": {
+                "type": "string",
+              },
+              "type": "array",
+            },
+          ],
+          "description": "Also translate values that checks report in the target locale, such as copies of the source (\`identical-to-source\`): \`true\` for every check, or a list of check ids.",
+        },
         "cursor": {
           "description": "\`nextCursor\` of the previous prompt.",
           "type": "string",
@@ -871,9 +885,9 @@ exports[`rpc functions > builds the translate prompt 1`] = `
 
 - \`app.greeting\`: "Hello {name}" → "Hallo"
 - \`app.title\`: "My App" → "Meine App"
-- \`linked\`: "@:app.title!" → "@:app.title!"
 - \`nav.home\`: "Home" → "Start"
 - \`pages.home.title\`: "Welcome" → "Willkommen"
+- \`unused\`: "Nobody uses me" → "Niemand"
 
 ## Messages
 

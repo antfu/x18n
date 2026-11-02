@@ -18,14 +18,16 @@ x18n does not call translation services. Instead it writes a prompt that a human
 1. **Task**: translate N keys from `en` to `de`.
 2. **Rules**: keep placeholders exactly (list of syntaxes found in the project, from `placeholders` plugins), keep markup tags, keep the tone of existing `de` messages, do not translate glossary terms marked `doNotTranslate`, keep plural forms as the library expects (preset adds library-specific notes, for example i18next suffix rules or ICU plural categories for `de`).
 3. **Glossary**: config `glossary` entries with their `de` translation.
-4. **Style reference**: up to K existing `de` messages from the same namespaces, as examples.
-5. **Items**: for each key: key, source value, placeholders, existing value (when re-translating), max length when configured, and **usage context**: file path and a few lines of code around up to 2 usages. Context helps with short ambiguous strings like "Open" or "Save".
+4. **Style reference**: up to K existing `de` messages from the same namespaces, as examples. A copy of the source is never an example: it says nothing about `de`, and tells the model that copying is fine.
+5. **Items**: for each key: key, source value, placeholders, existing value (when re-translating), the reports of checks on it (`issues`, with `--check`), max length when configured, and **usage context**: file path and a few lines of code around up to 2 usages. Context helps with short ambiguous strings like "Open" or "Save".
 6. **How to write results**:
    - Write a JSON file `{ "de": { "<key>": "<translation>" } }` and run `x18n apply <file> --json`, or run `x18n set <key> --locale de --value <text>` per key.
    - Then run `x18n check --only placeholder-mismatch,invalid-syntax --locale de --json` and fix any reported keys.
    - To find more work: `x18n keys --missing de --json --limit 50`.
 
-Options: `--keys <glob>`, `--namespace`, `--limit` (default 50 items; prompt says how many remain and how to get the next batch), `--format markdown|json` (JSON gives the same parts as data for tools that build their own prompt), `--no-context`.
+Options: `--keys <glob>`, `--namespace`, `--limit` (default 50 items; prompt says how many remain and how to get the next batch), `--format markdown|json` (JSON gives the same parts as data for tools that build their own prompt), `--no-context`, `--stale`, `--check [ids]`.
+
+The prompt holds keys without a value. `--stale` adds stale translations ([19-history.md](./19-history.md)). `--check` adds values that enabled checks report in the target locale (all checks, or the listed ids), such as copies of the source (`identical-to-source`), so a value that never became empty can still be re-translated. A rule tells the model to leave out a value that is right as it is. Missing and empty values carry no `issues`: they are on the page anyway.
 
 Plugins can change the prompt with the `translatePrompt` hook (add rules, add examples). The prompt text is plain markdown, with no provider-specific syntax.
 

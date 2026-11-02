@@ -679,12 +679,17 @@ export interface PromptDraft {
   readonly rules: string[];
   readonly notes: string[];
 }
+export interface PromptIssue {
+  readonly code: string;
+  readonly message: string;
+}
 export interface PromptItem {
   readonly key: KeyString;
   readonly source: string;
   readonly placeholders: readonly string[];
   readonly existing: string | undefined;
   readonly previousSource?: string | undefined;
+  readonly issues?: readonly PromptIssue[] | undefined;
   readonly context: readonly UsageContext[];
 }
 export interface PromptOptions {
@@ -694,6 +699,7 @@ export interface PromptOptions {
   readonly cursor?: string | undefined;
   readonly context?: boolean | undefined;
   readonly stale?: boolean | undefined;
+  readonly check?: boolean | readonly string[] | undefined;
 }
 export interface RegexScannerSpec {
   readonly extensions: readonly string[];

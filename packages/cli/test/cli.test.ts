@@ -427,6 +427,22 @@ describe('x18n binary', { timeout: 30_000 }, () => {
       '--json',
     ]))
     expect(prompt.data.items.find((item: any) => item.key === 'app.title')).toMatchObject({ source: 'My Great App', previousSource: 'My App' })
+    // `--check` loads the history too, for `stale-translation`.
+    const checked = json(await x18n(dir, [
+      'prompt',
+      'translate',
+      '--to',
+      'de',
+      '--check',
+      'identical-to-source,stale-translation',
+      '--json',
+    ]))
+    expect(checked.data.items.find((item: any) => item.key === 'app.title')).toMatchObject({
+      previousSource: 'My App',
+      issues: [
+        { code: 'stale-translation' },
+      ],
+    })
   })
 
   it('prints the shipped skills as prompts', async () => {

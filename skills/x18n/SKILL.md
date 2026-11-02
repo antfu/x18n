@@ -145,6 +145,11 @@ x18n check --only placeholder-mismatch,invalid-syntax,glossary --locale de --jso
 
 `x18n apply` refuses values whose placeholders differ from the source and lists them in `data.rejected`. Fix them and apply again. When the prompt reports more keys, continue with `x18n prompt translate --to de --cursor <nextCursor>`.
 
+The prompt lists missing and empty messages. Two flags add messages that already have a value:
+
+- `--stale`: translations older than their source message (needs git history). Each one shows the source text from when the translation last changed.
+- `--check`: values that checks report in the target locale, such as a copy of the source text (`identical-to-source`) or a wrong glossary term (`glossary`). Each one shows what was reported. `--check identical-to-source,glossary` limits it to those checks. Leave out a value that is right as it is, such as a word that is the same in both languages.
+
 ### Review translations
 
 ```sh

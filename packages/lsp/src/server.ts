@@ -254,12 +254,9 @@ class Server {
   }
 
   async initialize(params: InitializeParams): Promise<InitializeResult> {
-    const folders = params.workspaceFolders?.map(folder => fileURLToPath(folder.uri))
-      ?? (params.rootUri
-        ? [
-            fileURLToPath(params.rootUri),
-          ]
-        : [])
+    const folders = params.workspaceFolders?.map(folder => fileURLToPath(folder.uri)) ?? []
+    if (folders.length === 0 && params.rootUri)
+      folders.push(fileURLToPath(params.rootUri))
     this.folders = folders
     this.watchRegistration = params.capabilities.workspace?.didChangeWatchedFiles?.dynamicRegistration === true
     const settings = params.initializationOptions as Partial<Settings> | undefined // free-form client data; read field by field

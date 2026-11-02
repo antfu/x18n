@@ -7,20 +7,20 @@ description: 'A glossary term translated differently from the glossary.'
 
 A glossary term translated differently from the glossary.
 
-The check is off by default.
+The check is on by default, with the severity `warning`.
 
 The check reads the `glossary` config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when `doNotTranslate` is `true`.
 
 ## Configure
 
-Turn the check on in `checks`:
+Change the severity, or turn the check off, in `checks`:
 
 ```ts [x18n.config.ts]
 import { defineConfig } from '@x18n/core'
 
 export default defineConfig({
   checks: {
-    glossary: 'warning',
+    glossary: 'off',
   },
 })
 ```

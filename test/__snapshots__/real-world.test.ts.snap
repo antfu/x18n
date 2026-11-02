@@ -4,6 +4,7 @@ exports[`elk > understands the project 1`] = `
 {
   "config": ".vscode/settings.json",
   "diagnostics": {
+    "identical-to-source": 451,
     "invalid-syntax": 1,
     "missing-key": 2,
     "missing-translation": 654,
@@ -242,6 +243,7 @@ exports[`pulls.review > understands the project 1`] = `
 {
   "config": ".vscode/settings.json",
   "diagnostics": {
+    "identical-to-source": 83,
     "missing-translation": 1,
     "placeholder-mismatch": 11,
     "unused-key": 13,

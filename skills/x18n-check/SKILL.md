@@ -38,8 +38,9 @@ Before you act on one of these, stop and ask, with your recommendation and the f
 | `key-conflict` | A key is both a message and a parent, or is defined twice in one locale. Ask which one to keep, then `x18n rename` or `x18n delete` with `--dry-run` first. |
 | `unused-key` | Show the list from `x18n keys --unused --json` and delete only the keys the user confirms: `x18n delete <key> --dry-run --json`, then without `--dry-run`. Keys built at runtime go in `usage.keysInUse` in the config instead. |
 | `redundant-translation` | The message repeats what its fallback locale (`localeFallbacks`) already says. Delete it with `x18n delete <key> --locale <locale> --dry-run` first, then without `--dry-run`. |
-| `glossary` | Rewrite the message with the term from the glossary (`x18n doctor --json` lists it under `config.glossary`), with `x18n set`. |
-| `locale-code-conflict`, `dynamic-key`, `key-style`, `identical-to-source`, `hard-string` | Report them. Fix only when the user asks; `hard-string` is fixed with `x18n extract`, or silenced with an `x18n-ignore` control comment when the string is not UI text. |
+| `glossary` | Rewrite the message with the term from the glossary (`x18n doctor --json` lists it under `config.glossary`), with `x18n set`. For many messages: `x18n prompt translate --to <locale> --check glossary`. |
+| `stale-translation`, `identical-to-source` | Re-translate: `x18n prompt translate --to <locale> --check stale-translation,identical-to-source --limit 50`, then `x18n apply <file> --json`. The prompt shows what was reported for each value. Leave out values that are right as they are, such as a word that is the same in both languages, and list them for the user. |
+| `locale-code-conflict`, `dynamic-key`, `key-style`, `hard-string` | Report them. Fix only when the user asks; `hard-string` is fixed with `x18n extract`, or silenced with an `x18n-ignore` control comment when the string is not UI text. |
 
 After a batch of fixes, check only what you touched: `x18n check --only placeholder-mismatch,invalid-syntax,glossary --locale de --json`.
 

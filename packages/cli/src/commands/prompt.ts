@@ -13,6 +13,8 @@ export interface PromptCommandOptions extends GlobalOptions {
   readonly format?: string | undefined
   readonly context?: boolean | undefined
   readonly stale?: boolean | undefined
+  /** `true` for a bare `--check`, else the comma separated check ids. */
+  readonly check?: boolean | string | undefined
 }
 
 /** The skill each skill prompt prints. */
@@ -57,8 +59,12 @@ export async function prompt(kind: string, options: PromptCommandOptions): Promi
         : 'pass --locale <locale>',
     })
   }
+  const check = typeof options.check === 'string'
+    ? options.check.split(',').map(id => id.trim()).filter(Boolean)
+    : options.check
   const { project, host } = singleProject(await openWorkspace(options))
-  if (options.stale) {
+  // `stale-translation` reports only with history.
+  if (options.stale || check === true || (Array.isArray(check) && check.includes('stale-translation'))) {
     await project.loadHistory()
     await host.flush()
   }
@@ -71,6 +77,7 @@ export async function prompt(kind: string, options: PromptCommandOptions): Promi
     cursor: options.cursor,
     context: options.context,
     stale: options.stale,
+    check,
   })
   if (options.json || options.format === 'json')
     printJson(`prompt ${kind}`, data)

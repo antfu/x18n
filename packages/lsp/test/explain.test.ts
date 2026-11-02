@@ -1,4 +1,4 @@
-import type { LogMessageParams } from 'vscode-languageserver/node'
+import type { InitializeParams, LogMessageParams } from 'vscode-languageserver/node'
 import { cp, mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
@@ -13,7 +13,7 @@ const fixtures = fileURLToPath(new URL('../../../test/fixtures/', import.meta.ur
 let root: string
 const disposers: (() => void)[] = []
 
-async function start(folders: readonly string[]): Promise<{ explain: () => Promise<string>, logs: string[] }> {
+async function start(folders: readonly string[] | null | undefined, rootFolder?: string): Promise<{ explain: () => Promise<string>, logs: string[] }> {
   const toServer = new PassThrough()
   const toClient = new PassThrough()
   const server = createConnection(new StreamMessageReader(toServer), new StreamMessageWriter(toClient))
@@ -27,12 +27,16 @@ async function start(folders: readonly string[]): Promise<{ explain: () => Promi
   client.onRequest('window/showMessageRequest', () => null)
   client.listen()
   disposers.push(() => client.dispose(), () => server.dispose())
-  await client.sendRequest(InitializeRequest.type, {
+  const params: InitializeParams = {
     processId: null,
-    rootUri: null,
-    workspaceFolders: folders.map(folder => ({ uri: pathToFileURL(join(root, folder)).href, name: folder })),
+    rootUri: rootFolder
+      ? pathToFileURL(join(root, rootFolder)).href
+      : null,
     capabilities: {},
-  })
+  }
+  if (folders !== undefined)
+    params.workspaceFolders = folders?.map(folder => ({ uri: pathToFileURL(join(root, folder)).href, name: folder })) ?? null
+  await client.sendRequest(InitializeRequest.type, params)
   await client.sendNotification('initialized', {})
   await client.sendRequest(methods.projects)
   return {
@@ -52,6 +56,33 @@ beforeAll(async () => {
 afterAll(async () => {
   disposers.splice(0).forEach(dispose => dispose())
   await rm(root, { recursive: true, force: true })
+})
+
+describe('workspace folder initialization', () => {
+  const cases = [
+    { state: 'empty', folders: [] },
+    { state: 'null', folders: null },
+    { state: 'omitted', folders: undefined },
+  ]
+
+  it.each(cases)('falls back to rootUri when workspaceFolders is $state', async ({ folders }) => {
+    const { explain } = await start(folders, 'app')
+    const text = await explain()
+    expect(text).toContain(`# app (${join(root, 'app')})`)
+    expect(text).toContain('    src/locales/en.json')
+  })
+
+  it('prefers workspaceFolders over rootUri', async () => {
+    const { explain } = await start(['app'], 'broken')
+    const text = await explain()
+    expect(text).toContain(`# app (${join(root, 'app')})`)
+    expect(text).not.toContain(join(root, 'broken'))
+  })
+
+  it.each(cases)('keeps an empty workspace when workspaceFolders is $state and rootUri is null', async ({ folders }) => {
+    const { explain } = await start(folders)
+    expect(await explain()).toBe('No workspace folder is open.')
+  })
 })
 
 describe('x18n/explain', () => {

@@ -41,6 +41,10 @@ export const PromptQuerySchema: v.GenericSchema<PromptQuery> = v.object({
   limit: v.optional(v.pipe(v.number(), v.description('Messages per prompt. Default 50.'))),
   cursor: v.optional(text('`nextCursor` of the previous prompt.')),
   stale: v.optional(v.pipe(v.boolean(), v.description('Also translate stale translations: those older than their source message.'))),
+  check: v.optional(v.pipe(v.union([
+    v.boolean(),
+    v.array(v.string()),
+  ]), v.description('Also translate values that checks report in the target locale, such as copies of the source (`identical-to-source`): `true` for every check, or a list of check ids.'))),
 })
 
 const reviewType = v.picklist([

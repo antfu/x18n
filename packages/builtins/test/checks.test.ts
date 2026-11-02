@@ -21,6 +21,20 @@ async function identical(source: Record<string, string>, target: Record<string, 
 }
 
 describe('identical-to-source', () => {
+  it('reports at info by default', async () => {
+    const { project } = await createTestProject({
+      'locales/en.json': json({ save: 'Save' }),
+      'locales/de.json': json({ save: 'Save' }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    expect(project.analyze().diagnostics.filter(d => d.code === 'identical-to-source').map(d => [d.key, d.severity])).toEqual([
+      ['save', 'info'],
+    ])
+  })
+
   it('reports a value copied from the source locale', async () => {
     const values = {
       save: 'Save',

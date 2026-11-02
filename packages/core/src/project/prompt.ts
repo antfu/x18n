@@ -1,5 +1,5 @@
 import type { ResolvedConfig } from '../types/config'
-import type { KeyString, LocaleCode, MessageLeaf } from '../types/model'
+import type { Diagnostic, KeyString, LocaleCode, MessageLeaf } from '../types/model'
 import type { PromptContext, PromptDraft } from '../types/plugin'
 import type { Project } from '../types/project'
 import { keyMatcher } from '../keys'
@@ -17,6 +17,14 @@ export interface PromptOptions {
   readonly context?: boolean | undefined
   /** Translate prompts: add stale translations (load history first). */
   readonly stale?: boolean | undefined
+  /** Translate prompts: add translations that checks report in the target locale, all of them (`true`) or of these check ids. */
+  readonly check?: boolean | readonly string[] | undefined
+}
+
+export interface PromptIssue {
+  /** Check id, for example `identical-to-source`. */
+  readonly code: string
+  readonly message: string
 }
 
 export interface UsageContext {
@@ -33,6 +41,8 @@ export interface PromptItem {
   readonly existing: string | undefined
   /** For a stale translation: the source value when the translation last changed, when known. */
   readonly previousSource?: string | undefined
+  /** With `check`: what the checks report for the current value. */
+  readonly issues?: readonly PromptIssue[] | undefined
   readonly context: readonly UsageContext[]
 }
 
@@ -77,6 +87,25 @@ function contextOf(project: Project, key: KeyString): UsageContext[] {
   })
 }
 
+/** The diagnostics of checks (all, or these ids) on values the locale has, by key. */
+function reportedValues(project: Project, diagnostics: readonly Diagnostic[], to: LocaleCode, check: true | readonly string[]): Map<KeyString, Diagnostic[]> {
+  const codes = check === true
+    ? undefined
+    : new Set(check)
+  const reported = new Map<KeyString, Diagnostic[]>()
+  for (const diagnostic of diagnostics) {
+    if (diagnostic.key === undefined || diagnostic.locale !== to || (codes && !codes.has(diagnostic.code)))
+      continue
+    // A missing or empty value is on the page anyway; the report would only say so.
+    if (!text(project.message(diagnostic.key, to)?.value))
+      continue
+    const found = reported.get(diagnostic.key) ?? []
+    reported.set(diagnostic.key, found)
+    found.push(diagnostic)
+  }
+  return reported
+}
+
 export interface PromptHooks {
   readonly config: ResolvedConfig
   readonly hooks: readonly ((draft: PromptDraft, ctx: PromptContext) => void)[]
@@ -91,8 +120,12 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
   const list = Array.isArray(options.keys)
     ? new Set(options.keys)
     : undefined
-  const outdated = new Set(project.analyze().coverage.find(c => c.locale === to)?.outdated)
+  const analysis = project.analyze()
+  const outdated = new Set(analysis.coverage.find(c => c.locale === to)?.outdated)
   const stale = (key: KeyString): boolean => outdated.has(key)
+  const reported = kind === 'translate' && options.check
+    ? reportedValues(project, analysis.diagnostics, to, options.check)
+    : new Map<KeyString, Diagnostic[]>()
   const candidates = project.keys({ namespace: options.namespace }).filter((key) => {
     if (match && !match(key))
       return false
@@ -104,7 +137,7 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
     const target = text(project.message(key, to)?.value)
     if (kind === 'review')
       return target !== undefined && target !== ''
-    return list !== undefined || target === undefined || target === '' || (options.stale === true && stale(key))
+    return list !== undefined || target === undefined || target === '' || (options.stale === true && stale(key)) || reported.has(key)
   })
   const start = Number(options.cursor ?? 0) || 0
   const limit = options.limit ?? 50
@@ -121,6 +154,8 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
     'Match the tone and wording of the existing messages in the target locale.',
     'Do not translate glossary terms marked "do not translate".',
   )
+  if (reported.size > 0)
+    draft.rules.push(`A message with a reported problem has a current ${to} value: fix the problem. When the current value is right as it is, such as a word that is the same in both languages, leave the key out of the results.`)
   if (info.pluralCategories.length > 1)
     draft.notes.push(`${to} uses the plural categories ${info.pluralCategories.join(', ')}.`)
   for (const hook of extra.hooks)
@@ -130,7 +165,8 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
     ? project.keys().flatMap((key) => {
         const source = text(project.message(key, from)?.value)
         const target = text(project.message(key, to)?.value)
-        return source && target && !candidates.includes(key)
+        // A copy of the source says nothing about the target language, and tells the model that copying is fine.
+        return source && target && target !== source && !candidates.includes(key)
           ? [
               { key, source, target },
             ]
@@ -154,6 +190,7 @@ export function buildPrompt(project: Project, kind: 'translate' | 'review', to: 
       previousSource: previous === source
         ? undefined
         : previous,
+      issues: reported.get(key)?.map(d => ({ code: d.code, message: d.message })),
       context: options.context === false
         ? []
         : contextOf(project, key),
@@ -213,6 +250,8 @@ function renderItem(item: PromptItem, to: LocaleCode): string[] {
     out.push(`- Source when ${to} last changed: ${JSON.stringify(item.previousSource)}`)
   if (item.existing !== undefined)
     out.push(`- Current ${to}: ${JSON.stringify(item.existing)}`)
+  for (const issue of item.issues ?? [])
+    out.push(`- Reported: ${issue.message} (\`${issue.code}\`)`)
   for (const context of item.context)
     out.push(`- Used in \`${context.path}:${context.line}\`:`, '', '  ```', ...context.snippet.split('\n').map(line => `  ${line}`), '  ```')
   out.push('')

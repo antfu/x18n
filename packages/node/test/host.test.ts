@@ -147,6 +147,20 @@ describe('loadWorkspace', () => {
     expect(only.projects.map(p => p.name)).toEqual(['apps/web'])
   })
 
+  it('does not expand a literal projects path into nested directories', async () => {
+    await write({
+      'x18n.config.json': '{ "projects": ["apps/web"], "sourceLocale": "en" }',
+      'apps/web/locales/en.json': '{"a":"A"}',
+      'apps/web/locales/de.json': '{"a":"A"}',
+      'apps/web/src/a/b/x.ts': 'export const x = t("a")',
+      'apps/web/src/c/y.ts': '',
+      'apps/docs/locales/en.json': '{"b":"B"}',
+    })
+    const workspace = await loadWorkspace({ cwd: root, cache: false })
+    expect(workspace.projects.map(p => p.name)).toEqual(['apps/web'])
+    expect(workspace.projects[0]!.project.keys()).toEqual(['a'])
+  })
+
   it('loads each config below a root without one as its own project', async () => {
     await write({
       'apps/web/x18n.config.json': '{ "sourceLocale": "de" }',

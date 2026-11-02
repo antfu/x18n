@@ -41,10 +41,10 @@ A severity is `error`, `warning`, `info`, `hint` or `off`. `strict: true` (or `x
 | [unused-key](/checks/unused-key) | `warning` | A key with no usage, after keysInUse, derived keys and dynamic prefixes. |
 | [locale-code-conflict](/checks/locale-code-conflict) | `warning` | Locale codes that differ only in spelling, such as zh_CN and zh-CN. |
 | [dynamic-key](/checks/dynamic-key) | `off` | A fully dynamic key that no check can follow. |
-| [identical-to-source](/checks/identical-to-source) | `off` | A target value that equals the source value, except values that stay the same in every language. |
+| [identical-to-source](/checks/identical-to-source) | `info` | A target value that equals the source value, except values that stay the same in every language. |
 | [key-style](/checks/key-style) | `off` | A key that does not match a naming rule (options: case, pattern). |
 | [hard-string](/checks/hard-string) | `info` | A hard-coded string that should probably be a message. On with `extract.autoDetect`. |
-| [glossary](/checks/glossary) | `off` | A glossary term translated differently from the glossary. |
+| [glossary](/checks/glossary) | `warning` | A glossary term translated differently from the glossary. |
 | [invalid-resource](/checks/invalid-resource) | `error` | A locale file or source file that x18n failed to read, parse or scan. |
 
 The reporters of `x18n check --reporter` are `pretty`, `json`, `markdown`, `github`, `sarif`. See [CLI and x18n check](/surfaces/cli#x18n-check-reporters).

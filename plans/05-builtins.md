@@ -128,11 +128,11 @@ Detection uses the dependencies listed. "Parity" means the i18n-ally framework w
 | `redundant-translation` | warning | A message in a locale with a fallback (`localeFallbacks`) that equals the message it falls back to. The fix deletes it. |
 | `unused-key` | warning | A key with no usage, after `keysInUse`, derived keys and dynamic prefixes. Skipped when the project has no scanners. |
 | `locale-code-conflict` | warning | Two locale codes that differ only in spelling (`zh_CN` and `zh-CN`). |
-| `dynamic-key` | off | A fully dynamic key (`t(key)`) that no check can follow. |
-| `identical-to-source` | off | Target equals source (often untranslated copy). Skips locales of the source language, values without letters once placeholders and tags are removed, URLs, e-mail addresses, short all-caps words and `doNotTranslate` glossary terms. Off: cognates ("Plugins" in German) still match. |
-| `key-style` | off | Key does not match a naming rule (options: `case`, `pattern`). |
+| `dynamic-key` | off | A fully dynamic key (`t(key)`) that no check can follow. Off: a dynamic key is a legitimate pattern, and nothing in the message files fixes it. |
+| `identical-to-source` | info | Target equals source (often untranslated copy). Skips locales of the source language, values without letters once placeholders and tags are removed, URLs, e-mail addresses, short all-caps words and `doNotTranslate` glossary terms. Info, not warning: cognates ("Plugins" in German) still match, and `strict` must not fail on them. |
+| `key-style` | off | Key does not match a naming rule (options: `case`, `pattern`). Off: without options it has no rule, and the array form that sets them also sets the severity. |
 | `hard-string` | off | Detected hard-coded string; on with `extract.autoDetect` ([11-extraction.md](./11-extraction.md)). |
-| `glossary` | off | A glossary term is translated differently from the glossary. |
+| `glossary` | warning | A glossary term is translated differently from the glossary. Reports nothing without `translations` or `doNotTranslate` entries. |
 | `typegen-stale` | error (1.x) | The generated `x18n.d.ts` is out of date ([18-typegen.md](./18-typegen.md)). |
 | `review-changes-requested` | info | An open "request change" review ([12-reviews.md](./12-reviews.md)). |
 

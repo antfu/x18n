@@ -214,6 +214,7 @@ async function projectSpecs(rootConfigFile: string | undefined, cwd: string, upw
   const dirs = await glob([...projects], {
     cwd: root,
     onlyDirectories: true,
+    expandDirectories: false,
     ignore: ['**/node_modules/**'],
   })
   const specs: ProjectSpec[] = []

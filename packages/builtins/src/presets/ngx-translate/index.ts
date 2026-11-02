@@ -13,6 +13,7 @@ export function ngxTranslate(): Preset {
         calls: [
           {
             callee: [
+              'translate',
               'translate.instant',
               'translate.get',
               'translate.stream',
@@ -28,6 +29,8 @@ export function ngxTranslate(): Preset {
             extensions: angularTemplates,
             patterns: [
               '[`\'"]({key})[`\'"][\\s\\n]*\\|[\\s\\n]*translate\\b',
+              '\\?[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*:[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
+              '\\?[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*:[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
               '[\\s\\n]translate>[\\s\\n]*({key})[\\s\\n]*</',
               '\\[translate\\]=["\']\'({key})\'["\']',
               '\\stranslate=["\']({key})["\']',
@@ -46,6 +49,11 @@ export function ngxTranslate(): Preset {
           {
             template: 'this.translate.instant(\'{key}\'{args})',
             kinds: ['js-string', 'js-template'],
+          },
+          {
+            template: 'translate(\'{key}\'{args})',
+            kinds: ['js-string', 'js-template'],
+            imports: ['import { translate } from \'@ngx-translate/core\''],
           },
         ],
         placeholders: [doubleBraces],

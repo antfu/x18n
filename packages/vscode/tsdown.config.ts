@@ -18,6 +18,8 @@ export default defineConfig([
     copy: [
       { from: 'node_modules/@oxc-parser/binding-wasm32-wasip1/parser.wasm32-wasip1.wasm', to: 'dist' },
       { from: '../node/node_modules/jiti/dist/babel.cjs', to: 'dist' },
+      // Bundled `@x18n/ui` serves the Nuxt SPA from `./public` next to its chunk in `dist/`.
+      { from: '../ui/dist/public', to: 'dist' },
     ],
     // Prefer ESM entries: UMD `main` builds (jsonc-parser) `require` relative files that are not bundled.
     inputOptions: {

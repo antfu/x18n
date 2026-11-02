@@ -1,4 +1,5 @@
 import type { Project } from '@x18n/core'
+import { renderPrompt } from '@x18n/core'
 import { describe, expect, it } from 'vitest'
 import { reactI18next } from '../src/presets/react-i18next'
 import { vueI18n } from '../src/presets/vue-i18n'
@@ -494,5 +495,46 @@ describe('prompts', () => {
     ])
     expect(project.prompt('translate', 'de', { cursor: '1' }).items.map(i => i.key)).toEqual(['b'])
     expect(project.prompt('review', 'de').items.map(i => i.key)).toEqual(['c'])
+  })
+
+  it('adds values that checks report with check, and leaves copies of the source out of the examples', async () => {
+    const { project } = await createTestProject({
+      'locales/en.json': json({
+        greeting: 'Hello',
+        farewell: 'Goodbye',
+        ok: 'OK',
+        save: 'Save',
+      }),
+      'locales/de.json': json({
+        greeting: 'Hello',
+        farewell: '',
+        ok: 'OK',
+        save: 'Speichern',
+      }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    const plain = project.prompt('translate', 'de', { context: false })
+    expect(plain.items.map(i => i.key)).toEqual(['farewell'])
+    expect(plain.examples.map(e => e.key)).toEqual(['save'])
+    const checked = project.prompt('translate', 'de', { check: true, context: false })
+    expect(checked.items.map(i => [i.key, i.existing, i.issues])).toEqual([
+      ['farewell', undefined, undefined],
+      [
+        'greeting',
+        'Hello',
+        [
+          { code: 'identical-to-source', message: '"greeting" in de is the same as in en.' },
+        ],
+      ],
+    ])
+    expect(checked.rules.at(-1)).toMatch(/^A message with a reported problem/)
+    expect(renderPrompt(checked)).toContain('- Reported: "greeting" in de is the same as in en. (`identical-to-source`)')
+    expect(project.prompt('translate', 'de', {
+      check: ['glossary'],
+    }).items.map(i => i.key)).toEqual(['farewell'])
+    expect(project.prompt('review', 'de', { check: true }).items.map(i => i.key)).toEqual(['greeting', 'ok', 'save'])
   })
 })
