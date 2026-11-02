@@ -259,3 +259,182 @@ describe('html extraction', () => {
     })
   })
 })
+
+describe('angular-localize extraction', () => {
+  const angularJson = json({
+    projects: {
+      app: {
+        i18n: {
+          sourceLocale: 'en',
+          locales: { tr: 'src/locale/messages.tr.json' },
+        },
+        architect: {
+          'extract-i18n': {
+            options: { format: 'json', outputPath: 'src/locale' },
+          },
+        },
+      },
+    },
+  })
+
+  async function localizeProject(template: string, code?: string): Promise<Project> {
+    const { project } = await createTestProject({
+      'angular.json': angularJson,
+      'src/locale/messages.json': json({
+        locale: 'en',
+        translations: { existing: 'Already here' },
+      }),
+      'src/locale/messages.tr.json': json({
+        locale: 'tr',
+        translations: { existing: 'Zaten burada' },
+      }),
+      'src/app/app.html': template,
+      ...code
+        ? { 'src/app/app.ts': code }
+        : {},
+    }, {
+      presets: [
+        angularLocalize(),
+      ],
+    })
+    return project
+  }
+
+  async function extracted(project: Project, path = 'src/app/app.html'): Promise<string> {
+    await project.apply(project.plan([
+      {
+        type: 'extract',
+        items: extractItems(project, findCandidates(project)),
+      },
+    ]))
+    return project.text(path)!
+  }
+
+  it('marks an element as one message and keeps its content', async () => {
+    const project = await localizeProject('<p class="a">Hello {{ user.name }}, read <a href="/x">the docs</a>.</p>')
+    expect(hardStrings(project)).toEqual([
+      'html-element:p=Hello {$INTERPOLATION}, read {$START_LINK}the docs{$CLOSE_LINK}.',
+    ])
+    const [item] = findCandidates(project)
+    expect(item!.key).toBe('helloReadTheDocs')
+    expect(await extracted(project)).toBe('<p i18n="@@helloReadTheDocs" class="a">Hello {{ user.name }}, read <a href="/x">the docs</a>.</p>')
+    expect(project.message(project.parseKey('helloReadTheDocs'), project.sourceLocale)?.value).toBe(item!.value)
+    expect(project.usages().map(m => m.usage.raw)).toContain('helloReadTheDocs')
+  })
+
+  it('marks single words, which are text in a template', async () => {
+    const project = await localizeProject('<button (click)="save()">Save</button>')
+    expect(await extracted(project)).toBe('<button i18n="@@save" (click)="save()">Save</button>')
+  })
+
+  it('wraps text with no element in an ng-container', async () => {
+    const project = await localizeProject('@if (a) {\n  Tom &amp; Jerry &lt;3\n}\nTop level')
+    expect(await extracted(project)).toBe([
+      '@if (a) {',
+      '  <ng-container i18n="@@tomJerry3">Tom &amp; Jerry &lt;3</ng-container>',
+      '}',
+      '<ng-container i18n="@@topLevel">Top level</ng-container>',
+    ].join('\n'))
+  })
+
+  it('marks text attributes next to the attribute', async () => {
+    const project = await localizeProject('<img src="a.png" alt="A &quot;nice&quot; cat" title="Hi {{ name }}">')
+    expect(await extracted(project)).toBe('<img src="a.png" i18n-alt="@@aNiceCat" alt="A &quot;nice&quot; cat" title="Hi {{ name }}">')
+  })
+
+  it('goes down to the elements with text', async () => {
+    const project = await localizeProject('<ul><li>First item</li><li>{{ second }}</li></ul>')
+    expect(await extracted(project)).toBe('<ul><li i18n="@@firstItem">First item</li><li>{{ second }}</li></ul>')
+  })
+
+  it('never nests i18n elements', async () => {
+    const project = await localizeProject('<div>Loose text <p i18n="@@existing">Already here</p></div>')
+    expect(await extracted(project)).toBe('<div><ng-container i18n="@@looseText">Loose text</ng-container> <p i18n="@@existing">Already here</p></div>')
+  })
+
+  it('skips marked content but keeps the attributes inside it', async () => {
+    const project = await localizeProject([
+      '<p i18n="@@existing">Already here <img alt="Inner alt"></p>',
+      '<span translate="no">Brand Name</span>',
+      '<img i18n-alt="@@existing" alt="Already here">',
+      '<p>{{ only.code }}</p>',
+    ].join('\n'))
+    expect(hardStrings(project)).toEqual(['html-attribute:alt=Inner alt'])
+  })
+
+  it('names an ICU key from its other case, or its first', async () => {
+    const project = await localizeProject('<p>{n, plural, =0 {None at all} =1 {Just {{ who }} here}}</p>\n<p>{n, plural, =0 {Nothing} other {About {{ n }} items left}}</p>')
+    expect(findCandidates(project).map(i => i.key)).toEqual(['noneAtAll', 'aboutItemsLeft'])
+  })
+
+  it('marks ICUs', async () => {
+    const project = await localizeProject('<p>{count, plural, =0 {No messages} other {Many messages}}</p>\n@if (a) {\n  {n, select, a {Option one} other {Option two}}\n}')
+    const items = findCandidates(project)
+    expect(items.map(i => i.value)).toEqual([
+      '{VAR_PLURAL, plural, =0 {No messages} other {Many messages}}',
+      '{VAR_SELECT, select, a {Option one} other {Option two}}',
+    ])
+    expect(items.map(i => i.key)).toEqual(['manyMessages', 'optionTwo'])
+    expect(await extracted(project)).toBe(`<p i18n="@@${items[0]!.key}">{count, plural, =0 {No messages} other {Many messages}}</p>\n@if (a) {\n  <ng-container i18n="@@${items[1]!.key}">{n, select, a {Option one} other {Option two}}</ng-container>\n}`)
+  })
+
+  it('uses $localize in code, escaped for the template literal', async () => {
+    const project = await localizeProject('<p i18n="@@existing">Already here</p>', 'export const label = \'Say hello `now` to ${you}\'\n') // eslint-disable-line no-template-curly-in-string
+    expect(await extracted(project, 'src/app/app.ts')).toBe('export const label = $localize`:@@sayHelloNowToYou:Say hello \\`now\\` to \\${you}`\n') // eslint-disable-line no-template-curly-in-string
+  })
+
+  it('names the arguments of a template in code', async () => {
+    const project = await localizeProject('<p i18n="@@existing">Already here</p>', 'export const a = `Hello there ${user.firstName}, you have ${count} new`\n') // eslint-disable-line no-template-curly-in-string
+    const [item] = findCandidates(project)
+    expect(item!.value).toBe('Hello there {$FIRST_NAME}, you have {$COUNT} new')
+    expect(await extracted(project, 'src/app/app.ts')).toBe('export const a = $localize`:@@helloThereYouHaveNew:Hello there ${user.firstName}:FIRST_NAME:, you have ${count}:COUNT: new`\n') // eslint-disable-line no-template-curly-in-string
+  })
+
+  it('leaves $localize in code alone', async () => {
+    const project = await localizeProject('<p i18n="@@existing">Already here</p>', 'export const a = $localize`:@@existing:Already here`\n')
+    expect(hardStrings(project)).toEqual([])
+  })
+
+  it('keeps text and interpolations with no element as one message', async () => {
+    const project = await localizeProject('@if (a) {\n  Hello {{ name }}, welcome &amp; enjoy\n}\n{{ alone }}')
+    const [item] = findCandidates(project)
+    expect(item!.value).toBe('Hello {$INTERPOLATION}, welcome & enjoy')
+    expect(await extracted(project)).toBe('@if (a) {\n  <ng-container i18n="@@helloWelcomeEnjoy">Hello {{ name }}, welcome &amp; enjoy</ng-container>\n}\n{{ alone }}')
+  })
+
+  it('marks inline templates of every kind of string', async () => {
+    const project = await localizeProject('<p i18n="@@existing">Already here</p>', [
+      '@Component({ template: `<p>Hello backtick world</p>` })',
+      'export class A {}',
+      '@Component({ template: \'<p title="It is here">Hello single quote</p>\' })',
+      'export class B {}',
+      '@Component({ template: "<p title=\'In double\'>Hello double quote</p>" })',
+      'export class C {}',
+      '@Component({ template: `<p>Escaped \\` tick here</p>\\n<b>Next one here</b>` })',
+      'export class D {}',
+      '@Component({ template: \'<p>It\\\'s here now</p>\' })',
+      'export class E {}',
+      '@Component({ template: \'Just plain text\' })',
+      'export class F {}',
+      'export const data = { template: \'Welcome to our site\' }',
+    ].join('\n'))
+    const items = findCandidates(project)
+    expect(items.find(i => i.key === 'escapedTickHere')!.value).toBe('Escaped ` tick here')
+    expect(items.find(i => i.key === 'itSHereNow')!.value).toBe('It\'s here now')
+    expect(await extracted(project, 'src/app/app.ts')).toBe([
+      '@Component({ template: `<p i18n="@@helloBacktickWorld">Hello backtick world</p>` })',
+      'export class A {}',
+      '@Component({ template: \'<p i18n="@@helloSingleQuote" i18n-title="@@itIsHere" title="It is here">Hello single quote</p>\' })',
+      'export class B {}',
+      '@Component({ template: "<p i18n=\'@@helloDoubleQuote\' i18n-title=\'@@inDouble\' title=\'In double\'>Hello double quote</p>" })',
+      'export class C {}',
+      '@Component({ template: `<p i18n="@@escapedTickHere">Escaped \\` tick here</p>\\n<b i18n="@@nextOneHere">Next one here</b>` })',
+      'export class D {}',
+      '@Component({ template: \'<p i18n="@@itSHereNow">It\\\'s here now</p>\' })',
+      'export class E {}',
+      '@Component({ template: \'<ng-container i18n="@@justPlainText">Just plain text</ng-container>\' })',
+      'export class F {}',
+      'export const data = { template: $localize`:@@welcomeToOurSite:Welcome to our site` }',
+    ].join('\n'))
+  })
+})

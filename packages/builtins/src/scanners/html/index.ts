@@ -1,10 +1,7 @@
 import type { HardString, Plugin, Scanner } from '@x18n/core'
 import type { ElementNode, TemplateNode } from '../shared/angular-template'
-import { parseTemplate } from '../shared/angular-template'
+import { codeAttribute, codeElements, parseTemplate } from '../shared/angular-template'
 import { isTextAttribute } from '../shared/js'
-
-/** Elements whose content is code, not text. */
-const codeElements = new Set(['script', 'style'])
 
 /**
  * Attributes that mark the content of an element as translated already: the ngx-translate and transloco directives,
@@ -17,12 +14,6 @@ const translatedContent = new Set([
   '[transloco]',
   'i18n',
 ])
-
-/**
- * Attributes that hold code or markers rather than text: bindings `[x]`, events `(x)`, structural directives `*x`,
- * references `#x`, animations `@x`, their `bind-`, `on-`, `bindon-` and `let-` forms, and `i18n-*` markers.
- */
-const codeAttribute = /^(?:[[(*#@]|bind-|on-|bindon-|let-|i18n)/
 
 class HtmlTemplate {
   readonly hardStrings: HardString[] = []

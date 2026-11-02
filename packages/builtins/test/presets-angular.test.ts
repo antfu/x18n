@@ -1,9 +1,17 @@
 import { describe, expect, it } from 'vitest'
 import { messageId } from '../src/presets/angular-localize/message-id'
-import { localizeMessages, templateMessages } from '../src/presets/angular-localize/messages'
+import { localizeMessages, messageText, templateMessages } from '../src/presets/angular-localize/messages'
+import { parseTemplate } from '../src/scanners/shared/angular-template'
 
 // Ids from `ng extract-i18n` (Angular 22) for the same templates.
 describe('angular-localize message ids', () => {
+  it('names placeholders in svg and math by their namespace', () => {
+    // Message and id from `ng extract-i18n`.
+    const template = 'kæm<svg><path d="x"><title>t</title></path></svg><svg><foreignObject><p>x</p><b>y</b></foreignObject></svg><math><mi>x</mi></math>'
+    expect(messageText(parseTemplate(template))).toBe('kæm{$START_TAG__SVG_SVG}{$START_TAG__SVG_PATH}{$START_TAG__SVG_TITLE}t{$CLOSE_TAG__SVG_TITLE}{$CLOSE_TAG__SVG_PATH}{$CLOSE_TAG__SVG_SVG}{$START_TAG__SVG_SVG}{$START_TAG__SVG_FOREIGNOBJECT}{$START_PARAGRAPH}x{$CLOSE_PARAGRAPH}{$START_BOLD_TEXT}y{$CLOSE_BOLD_TEXT}{$CLOSE_TAG__SVG_FOREIGNOBJECT}{$CLOSE_TAG__SVG_SVG}{$START_TAG__MATH_MATH}{$START_TAG__MATH_MI}x{$CLOSE_TAG__MATH_MI}{$CLOSE_TAG__MATH_MATH}')
+    expect(templateMessages(`<p i18n>${template}</p>`)[0]!.id).toBe('8908621949798932713')
+  })
+
   it('matches the fingerprint of @angular/localize', () => {
     expect(messageId('Hello world')).toBe('2023484548631819319')
     expect(messageId('Welcome, {$INTERPOLATION}!', 'site intro')).toBe('8889534073701065911')

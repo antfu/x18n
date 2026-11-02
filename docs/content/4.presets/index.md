@@ -152,6 +152,8 @@ Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAM
 | `{attr}` | The attribute name, for attribute kinds. |
 | `{args}` | The arguments of a template string: `, { name: user.name }`, without the `, ` right after `(`. Empty when there are none. |
 | `{text}` | The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in `$t('{key}', '{text}')`. |
+| `{source}` | The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it. |
+| `{parts}` | The message as the body of a template string, each argument as `${expression}:NAME:`, as `$localize` writes it. |
 
 x18n escapes `{key}` and `{text}` for the quotes around them. Inside `'...'` or `"..."` it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and `${`. Inside a quoted attribute, such as `:title="$t('{key}', '{text}')"`, it also writes `&` and the attribute quote as entities. Outside quotes the value goes in as is.
 
@@ -167,7 +169,8 @@ Each hard string has a kind, which tells where it is:
 | `svelte-attribute` | An attribute in a Svelte component |
 | `astro-text` | Text in an Astro template |
 | `astro-attribute` | An attribute in an Astro template |
-| `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`) |
+| `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`), or with no element of its own (`angular-localize`) |
+| `html-element` | An Angular element with text, marked with `i18n` as one message (`angular-localize`) |
 | `html-attribute` | An attribute in an HTML or Angular template |
 | `js-string` | A string literal in JS or TS |
 | `js-template` | A template string in JS or TS |
