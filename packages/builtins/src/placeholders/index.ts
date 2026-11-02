@@ -132,9 +132,15 @@ export const icu: PlaceholderSyntax = {
             range: { start: i, end: j },
           })
         }
-        const firstSub = body.indexOf('{')
-        if (firstSub !== -1)
-          scan(i + 1 + firstSub, j - 1)
+        // `{n, plural, one {sub} other {sub}}`: the case braces delimit sub-messages, so scan inside each one.
+        let k = value.indexOf('{', i + 1)
+        while (k !== -1 && k < j - 1) {
+          const end = closingBrace(value, k, j - 1)
+          if (end === -1)
+            break
+          scan(k + 1, end - 1)
+          k = value.indexOf('{', end)
+        }
         i = j
       }
     }
