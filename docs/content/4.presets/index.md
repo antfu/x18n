@@ -28,6 +28,7 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`angular-localize`](/presets/angular-localize) | @angular/localize | `@angular/localize` with an `i18n` block in `angular.json` |
 | [`ngx-translate`](/presets/ngx-translate) | ngx-translate | `@ngx-translate/core` |
 | [`transloco`](/presets/transloco) | Transloco | `@jsverse/transloco`, `@ngneat/transloco` |
+| [`angular-i18next`](/presets/angular-i18next) | angular-i18next | `angular-i18next` |
 | [`lingui`](/presets/lingui) | Lingui | `@lingui/core`, `@lingui/react`, `@lingui/macro` |
 | [`ember-intl`](/presets/ember-intl) | ember-intl | `ember-intl` |
 | [`polyglot`](/presets/polyglot) | Polyglot.js | `node-polyglot` |
@@ -127,7 +128,7 @@ A placeholder syntax tells x18n how placeholders look in messages. The [`placeho
 | linked | `@:key`, `@.lower:key` | vue-i18n, nuxt-i18n, easy-localization |
 | typed braces | `{name}`, `{name:string}`, `{date\|weekday}` | typesafe-i18n |
 | double braces | `{{name}}`, `{{name, format}}`, `{{- raw}}` | i18next, react-i18next, i18next-shopify, next-translate, gravity-ui-i18n, ngx-translate, transloco, flutter-translate |
-| nesting | `$t(key)` | i18next, react-i18next, i18next-shopify |
+| nesting | `$t(key)` | i18next, react-i18next, angular-i18next, i18next-shopify |
 | ICU | `{name}`, `{count, plural, one {# item} other {# items}}` | next-intl, react-intl, svelte-i18n, lingui, ember-intl, globalize |
 | fluent | `{ $name }` | fluent-vue, fluent-react |
 | percent braces | `%{name}` | polyglot, ruby-i18n-js, ruby-rails, i18nice |
@@ -169,7 +170,7 @@ Each hard string has a kind, which tells where it is:
 | `svelte-attribute` | An attribute in a Svelte component |
 | `astro-text` | Text in an Astro template |
 | `astro-attribute` | An attribute in an Astro template |
-| `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`), or with no element of its own (`angular-localize`) |
+| `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`, `angular-i18next`), or with no element of its own (`angular-localize`) |
 | `html-element` | An Angular element with text, marked with `i18n` as one message (`angular-localize`) |
 | `html-attribute` | An attribute in an HTML or Angular template |
 | `js-string` | A string literal in JS or TS |
