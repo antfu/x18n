@@ -583,7 +583,13 @@ const methodDocs = {
     kind: 'request',
     params: undefined,
     result: 'UsageReportResult',
-    doc: 'Unused keys, and used keys that are not defined.',
+    doc: 'Unused keys, and used keys that are not defined, sorted by project and key.',
+  },
+  unusedDeletion: {
+    kind: 'request',
+    params: 'UnusedDeletionParams',
+    result: 'UnusedDeletionResult',
+    doc: 'Dry run of `x18n.deleteUnused`: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.',
   },
   search: {
     kind: 'request',
@@ -632,6 +638,7 @@ const methodDocs = {
 const commandDocs = {
   set: { args: '{ project?, key, locale?, value }', doc: 'Sets one value. `locale` defaults to the source locale.' },
   delete: { args: '{ project?, key, locale? }', doc: 'Deletes a key in one locale, or in all locales.' },
+  deleteUnused: { args: '{ project? }', doc: 'Deletes the keys that `x18n/unusedDeletion` lists, in every locale, through `workspace/applyEdit`. Default: every project.' },
   renamePrefix: { args: '{ project?, key, to }', doc: 'Renames every key under a prefix, in locale files and code.' },
   extract: { args: '{ uri }', doc: 'Extracts every hard string of a file.' },
   migrateI18nAlly: { args: '{ uri }', doc: 'Returns the files that the migration from i18n-ally writes, as `MigrationResult`. Nothing is written.' },

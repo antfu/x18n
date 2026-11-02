@@ -1,6 +1,6 @@
 import type { MessageConnection } from 'vscode-jsonrpc/node'
 import type { Location, PublishDiagnosticsParams, WorkspaceEdit } from 'vscode-languageserver/node'
-import type { ReviewsResult } from '../src'
+import type { ReviewsResult, UnusedDeletionResult } from '../src'
 import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join, relative } from 'node:path'
@@ -233,6 +233,40 @@ describe('language server', () => {
     expect(app).toMatchObject({ key: 'app.title', locale: 'en' })
     expect(app!.usages.map(relativeOf)).toEqual(['src/App.vue'])
     expect(await client.sendRequest(methods.search, { query: '' })).toEqual([])
+  })
+
+  it('plans the bulk delete of unused keys and applies it as one workspace edit', async () => {
+    const plan: UnusedDeletionResult = await client.sendRequest(methods.unusedDeletion, {})
+    const [project] = plan.projects
+    expect(project!.keys.map(k => k.key)).toEqual(['linked', 'unused'])
+    expect(project!.keys[1]!.locations.map(relativeOf)).toEqual(['src/locales/en.json', 'src/locales/de.json'])
+    expect(project!.kept).toEqual([])
+    const applied: WorkspaceEdit[] = []
+    const handler = client.onRequest('workspace/applyEdit', (params: { edit: WorkspaceEdit }) => {
+      applied.push(params.edit)
+      return { applied: true }
+    })
+    try {
+      const edit: WorkspaceEdit = await client.sendRequest('workspace/executeCommand', { command: 'x18n.deleteUnused', arguments: [] })
+      expect(applied).toEqual([edit])
+      const paths = (edit.documentChanges ?? []).flatMap(change => 'textDocument' in change
+        ? [
+            posixRelative(fileURLToPath(change.textDocument.uri)),
+          ]
+        : [])
+      expect(paths.sort()).toEqual(['src/locales/de.json', 'src/locales/en.json'])
+    }
+    finally {
+      handler.dispose()
+    }
+    // The client applied nothing to disk.
+    expect(await text('src/locales/en.json')).toContain('"unused"')
+  })
+
+  it('sorts the usage report', async () => {
+    const report: { unused: { key: string }[], missing: { key: string }[] } = await client.sendRequest(methods.usageReport)
+    const keys = report.unused.map(u => u.key)
+    expect(keys).toEqual([...keys].sort())
   })
 
   it('re-scans an open document on change', async () => {

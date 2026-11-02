@@ -1,5 +1,5 @@
 import type { Answers, Diagnostic, EditOp, KeyString, LineIndex, LocaleCode, LocaleCoverage, MessageChange, Plan, ReviewState, Usage, UsageMatch, WireDiagnostic } from '@x18n/core'
-import type { AnalysisView, ApplyView, ExplainView, HistoryView, KeyDetail, KeyTable, PlanView, ProjectSummary, Snippet, UiProject, UsageView } from './types'
+import type { AnalysisView, ApplyView, ExplainView, HistoryView, KeyDetail, KeyTable, PlanView, ProjectSummary, Snippet, UiProject, UnusedDeletionQuery, UnusedDeletionView, UsageView } from './types'
 import { createLineIndex, errors, placeholderProblems, toWireDiagnostic } from '@x18n/core'
 
 /** The named project, or the only one. */
@@ -334,4 +334,22 @@ export async function applyOps(p: UiProject, input: readonly EditOp[], options: 
     applied: true,
     revision: result.revision,
   }
+}
+
+/** Plans the bulk delete of unused keys; writes only with `confirm`. */
+export async function unusedDeletionView(p: UiProject, query: UnusedDeletionQuery): Promise<UnusedDeletionView> {
+  const deletion = p.project.planUnused({ glob: query.glob, namespace: query.namespace })
+  const view = {
+    ...planView(deletion.plan, []),
+    deleted: deletion.keys,
+    kept: deletion.kept.map(k => ({
+      key: k.key,
+      usages: k.usages.map(u => usageView(p, u, true)),
+    })),
+  }
+  if (!query.confirm)
+    return { ...view, applied: false, revision: p.project.revision }
+  const answers: Record<string, string> = Object.fromEntries(deletion.plan.decisions.map(d => [d.id, query.answers?.[d.id] ?? d.default]))
+  const result = await p.project.apply(deletion.plan, { answers })
+  return { ...view, applied: true, revision: result.revision }
 }

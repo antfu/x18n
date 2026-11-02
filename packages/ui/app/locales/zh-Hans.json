@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "全部（{count}）",
+    "deleteCancel": "取消",
+    "deleteConfirm": "删除 {count} 个键",
+    "deleteDone": "已删除键：{count}。已修改文件：{files}。",
+    "deleteKept": "保留（{count}）：代码中的动态键可能用到它们。",
+    "deleteNone": "没有可以安全删除的未使用键。",
+    "deletePlan": "在所有语言中删除 {files} 个文件里的 {count} 个键。注释和格式保持不变。",
+    "deleteUnused": "删除未使用的键",
     "dynamic": "动态（{count}）",
     "dynamicHint": "使用计算键的引用。其前缀下的键均视为已使用。",
     "filter": "按文件或键筛选",

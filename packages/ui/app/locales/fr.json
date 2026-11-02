@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "Toutes ({count})",
+    "deleteCancel": "Annuler",
+    "deleteConfirm": "Supprimer {count} clés",
+    "deleteDone": "Clés supprimées : {count}. Fichiers modifiés : {files}.",
+    "deleteKept": "Conservées ({count}) : des clés calculées dans le code peuvent les utiliser.",
+    "deleteNone": "Aucune clé inutilisée ne peut être supprimée sans risque.",
+    "deletePlan": "Supprime {count} clés dans {files} fichiers, dans toutes les langues. Les commentaires et la mise en forme sont conservés.",
+    "deleteUnused": "Supprimer les clés inutilisées",
     "dynamic": "Dynamiques ({count})",
     "dynamicHint": "Utilisations avec une clé calculée. Les clés sous leur préfixe comptent comme utilisées.",
     "filter": "Filtrer par fichier ou clé",

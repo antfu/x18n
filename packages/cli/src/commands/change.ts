@@ -1,7 +1,7 @@
 import type { EditOp, JsonValue } from '@x18n/core'
 import type { GlobalOptions } from '../context'
 import { errors, parseMessageBatch, placeholderProblems, toErrorInfo } from '@x18n/core'
-import { openWorkspace, out, printJson, readInput, runPlan, singleProject, stdinArg } from '../context'
+import { displayPath, locate, openWorkspace, out, printJson, readInput, runPlan, singleProject, stdinArg } from '../context'
 
 interface WriteOptions extends GlobalOptions {
   readonly dryRun?: boolean | undefined
@@ -79,7 +79,19 @@ export async function rename(from: string, to: string, options: WriteOptions & {
   await runPlan('rename', loaded, p.plan([op]), options)
 }
 
-export async function remove(key: string, options: WriteOptions & { readonly locale?: string | readonly string[] | undefined }): Promise<void> {
+interface DeleteOptions extends WriteOptions {
+  readonly locale?: string | readonly string[] | undefined
+  readonly unused?: boolean | undefined
+  readonly namespace?: string | undefined
+}
+
+export async function remove(key: string | undefined, options: DeleteOptions): Promise<void> {
+  if (options.unused) {
+    await removeUnused(key, options)
+    return
+  }
+  if (key === undefined)
+    throw errors.X18N4008({ reason: 'pass a key, or --unused to delete every unused key' })
   const loaded = await project(options)
   const locales = options.locale === undefined
     ? 'all'
@@ -122,4 +134,48 @@ export async function format(options: WriteOptions): Promise<void> {
   await runPlan('format', loaded, loaded.project.plan([
     { type: 'format' },
   ]), options)
+}
+
+/** `delete --unused [glob]`: every unused key that no dynamic usage may reach, in all locales. */
+async function removeUnused(glob: string | undefined, options: DeleteOptions): Promise<void> {
+  if (options.locale !== undefined)
+    throw errors.X18N4008({ reason: '--unused deletes in every locale; leave out --locale' })
+  const loaded = await project(options)
+  const deletion = loaded.project.planUnused({ glob, namespace: options.namespace })
+  const deleted = deletion.keys.map(k => ({
+    key: k.key,
+    messages: k.messages.map(m => ({
+      locale: m.locale,
+      file: displayPath(loaded.root, m.path),
+    })),
+  }))
+  const kept = deletion.kept.map(k => ({
+    key: k.key,
+    usages: k.usages.map(u => ({
+      raw: u.raw,
+      ...locate(loaded, u.path, u.range.start, u.range.end),
+    })),
+  }))
+  const files = new Set(deleted.flatMap(k => k.messages.map(m => m.file)))
+  await runPlan('delete', loaded, deletion.plan, options, {
+    data: { deleted, kept },
+    text: (applied) => {
+      const lines = [
+        ...deleted.map(k => `delete ${k.key}  ${k.messages.map(m => `${m.locale} ${m.file}`).join(', ')}`),
+        ...kept.map(k => `keep ${k.key}  may be used by ${k.usages.map(u => `${u.file}:${u.line}:${u.column}`).join(', ')}`),
+        ...deletion.plan.warnings.map(w => `warning: ${w}`),
+      ]
+      const count = `${deleted.length} unused key${deleted.length === 1
+        ? ''
+        : 's'} in ${files.size} file${files.size === 1
+        ? ''
+        : 's'}`
+      lines.push(deleted.length === 0
+        ? 'No unused keys to delete.'
+        : applied
+          ? `Deleted ${count}.`
+          : `Would delete ${count} (dry run).`)
+      return lines.join('\n')
+    },
+  })
 }

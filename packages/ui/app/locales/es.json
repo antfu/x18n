@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "Todos ({count})",
+    "deleteCancel": "Cancelar",
+    "deleteConfirm": "Eliminar {count} claves",
+    "deleteDone": "Claves eliminadas: {count}. Archivos modificados: {files}.",
+    "deleteKept": "Conservadas ({count}): las claves calculadas del código pueden usarlas.",
+    "deleteNone": "Ninguna clave sin usar se puede eliminar con seguridad.",
+    "deletePlan": "Elimina {count} claves en {files} archivos, en todos los idiomas. Se conservan los comentarios y el formato.",
+    "deleteUnused": "Eliminar claves sin usar",
     "dynamic": "Dinámicos ({count})",
     "dynamicHint": "Usos con una clave calculada. Las claves bajo su prefijo cuentan como usadas.",
     "filter": "Filtrar por archivo o clave",

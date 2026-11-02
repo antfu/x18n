@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "Alle ({count})",
+    "deleteCancel": "Abbrechen",
+    "deleteConfirm": "{count} Schlüssel löschen",
+    "deleteDone": "Gelöschte Schlüssel: {count}. Geänderte Dateien: {files}.",
+    "deleteKept": "Behalten ({count}): berechnete Schlüssel im Code können sie erreichen.",
+    "deleteNone": "Kein unbenutzter Schlüssel kann sicher gelöscht werden.",
+    "deletePlan": "Löscht {count} Schlüssel in {files} Dateien, in jeder Sprache. Kommentare und Formatierung bleiben erhalten.",
+    "deleteUnused": "Unbenutzte Schlüssel löschen",
     "dynamic": "Dynamisch ({count})",
     "dynamicHint": "Verwendungen mit berechnetem Schlüssel. Schlüssel unter ihrem Präfix gelten als verwendet.",
     "filter": "Nach Datei oder Schlüssel filtern",

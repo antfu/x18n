@@ -172,7 +172,7 @@ x18n keys --unused --json
 x18n delete old.key --dry-run --json
 ```
 
-Show the user the unused keys and delete only the ones they confirm: `x18n delete old.key --json`.
+Show the user the unused keys and delete only the ones they confirm: `x18n delete old.key --json`. To delete every unused key, show the user `x18n delete --unused --dry-run --json` (`deleted`, `kept` and `warnings`), and run `x18n delete --unused --json` only when they confirm.
 
 ### Rename keys
 

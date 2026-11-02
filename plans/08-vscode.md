@@ -84,6 +84,7 @@ Generated into `src/generated/meta.ts` by `vscode-ext-gen` (`--scope x18n`). Ini
 - `x18n.findKeyByText` (reverse search over `x18n/search`; opens the usage, or the locale entry of an unused key)
 - `x18n.openUi`, `x18n.openKey`, `x18n.setDisplayLocale`
 - `x18n.editKey`, `x18n.renameKeyPrefix`, `x18n.deleteKey`
+- `x18n.deleteUnusedKeys` (Usage Report title): shows the `x18n/unusedDeletion` dry run in a modal, then runs `x18n.deleteUnused`, an editor edit the user can undo
 - `x18n.extract`, `x18n.extractFile`, `x18n.copyTranslatePrompt`, `x18n.translateWithAgent`
 - `x18n.goToNextUsage`, `x18n.goToPrevUsage`
 - `x18n.toggleInPlace`, `x18n.restartServer`, `x18n.migrateFromI18nAlly`, `x18n.showOutput`, `x18n.explainProjects` (prints `x18n/explain` to the output channel)

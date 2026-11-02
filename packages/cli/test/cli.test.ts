@@ -319,6 +319,60 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(await readFile(en, 'utf8')).toBe(before)
   })
 
+  it('delete --unused lists, keeps and deletes unused keys; --dry-run writes nothing', async () => {
+    const dir = await fixture('vue-i18n')
+    const en = join(dir, 'src/locales/en.json')
+    const before = await readFile(en, 'utf8')
+    const dry = await x18n(dir, ['delete', '--unused', '--dry-run'])
+    expect(dry.code).toBe(0)
+    expect(dry.stdout).toContain('delete unused  en src/locales/en.json, de src/locales/de.json\n')
+    expect(dry.stdout).toMatch(/Would delete \d+ unused keys in 2 files \(dry run\)\.\n$/)
+    expect(await readFile(en, 'utf8')).toBe(before)
+
+    const plan = json(await x18n(dir, [
+      'delete',
+      '--unused',
+      'unused',
+      '--dry-run',
+      '--json',
+    ]))
+    expect(plan.command).toBe('delete')
+    expect(plan.data).toMatchObject({
+      applied: false,
+      keys: ['unused'],
+      deleted: [
+        {
+          key: 'unused',
+          messages: [
+            { locale: 'en', file: 'src/locales/en.json' },
+            { locale: 'de', file: 'src/locales/de.json' },
+          ],
+        },
+      ],
+      kept: [],
+    })
+    expect(plan.data.changes.map((c: { file: string }) => c.file).sort()).toEqual(['src/locales/de.json', 'src/locales/en.json'])
+    expect(await readFile(en, 'utf8')).toBe(before)
+
+    const done = json(await x18n(dir, [
+      'delete',
+      '--unused',
+      'unused',
+      '--json',
+    ]))
+    expect(done.data.applied).toBe(true)
+    expect(JSON.parse(await readFile(en, 'utf8'))).not.toHaveProperty('unused')
+    expect(JSON.parse(await readFile(join(dir, 'src/locales/de.json'), 'utf8'))).not.toHaveProperty('unused')
+    expect(json(await x18n(dir, ['keys', '--unused', '--json'])).data.projects[0].keys).not.toContain('unused')
+  })
+
+  it('delete without a key or --unused is a usage error', async () => {
+    const dir = await fixture('vue-i18n')
+    const result = await x18n(dir, ['delete', '--json'])
+    expect(result.code).not.toBe(0)
+    expect(json(result).errors[0].name).toBe('X18N4008')
+  })
+
   it('rename refuses an existing target with exit code 1', async () => {
     const dir = await fixture('vue-i18n')
     const result = await x18n(dir, [
@@ -470,6 +524,7 @@ describe('x18n binary', { timeout: 30_000 }, () => {
       ['locales'],
       ['check'],
       ['review', 'list'],
+      ['delete', '--unused', '--dry-run'],
       [
         'prompt',
         'translate',
@@ -482,5 +537,5 @@ describe('x18n binary', { timeout: 30_000 }, () => {
       const result = await x18n(dir, [...args, '--json'])
       expect(result.stdout.replaceAll(name, '<fixture>')).toMatchSnapshot(args.join(' '))
     }
-  }, 30_000)
+  }, 60_000)
 })

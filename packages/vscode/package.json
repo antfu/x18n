@@ -84,6 +84,12 @@
         "icon": "$(trash)"
       },
       {
+        "command": "x18n.deleteUnusedKeys",
+        "title": "Delete Unused Keys",
+        "category": "x18n",
+        "icon": "$(trash)"
+      },
+      {
         "command": "x18n.extract",
         "title": "Extract Hard String",
         "category": "x18n"
@@ -212,6 +218,11 @@
         }
       ],
       "view/title": [
+        {
+          "command": "x18n.deleteUnusedKeys",
+          "when": "view == x18n.usageReport",
+          "group": "navigation"
+        },
         {
           "command": "x18n.findKeyByText",
           "when": "view == x18n.keys",

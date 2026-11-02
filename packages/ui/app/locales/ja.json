@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "すべて ({count})",
+    "deleteCancel": "キャンセル",
+    "deleteConfirm": "{count} 個のキーを削除",
+    "deleteDone": "削除したキー: {count}。変更したファイル: {files}。",
+    "deleteKept": "保持 ({count}): コード内の動的なキーが参照する可能性があります。",
+    "deleteNone": "安全に削除できる未使用のキーはありません。",
+    "deletePlan": "すべてのロケールで、{files} 個のファイルから {count} 個のキーを削除します。コメントと書式は保持されます。",
+    "deleteUnused": "未使用のキーを削除",
     "dynamic": "動的 ({count})",
     "dynamicHint": "キーが動的に計算される使用箇所です。そのプレフィックス配下のキーは使用中とみなされます。",
     "filter": "ファイルまたはキーで絞り込み",

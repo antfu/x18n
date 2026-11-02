@@ -254,6 +254,45 @@ export function useCommands({ client, x18n, openUi }: CommandDeps): { extractAtC
       await execute(serverCommands.delete, { project: ref.project, key: ref.key })
   })
 
+  // The server plans with `x18n/unusedDeletion` (the dry run), and the edit lands in the editor, where undo works.
+  register(commands.deleteUnusedKeys, async () => {
+    const { projects } = await x18n.request('x18n/unusedDeletion', {})
+    const keys = projects.reduce((n, p) => n + p.keys.length, 0)
+    const kept = projects.reduce((n, p) => n + p.kept.length, 0)
+    const warnings = projects.flatMap(p => p.warnings)
+    if (keys === 0) {
+      void window.showInformationMessage(`x18n: no unused keys to delete${kept
+        ? ` (${kept} kept: dynamic usages may reach them)`
+        : ''}.`)
+      return
+    }
+    const files = new Set(projects.flatMap(p => p.keys.flatMap(k => k.locations.map(l => l.uri))))
+    const detail = [
+      ...projects.flatMap(p => p.keys.map(k => projects.length > 1
+        ? `${p.project}: ${k.key}`
+        : k.key)).slice(0, 20),
+      ...keys > 20
+        ? [`and ${keys - 20} more`]
+        : [],
+      ...kept
+        ? [``, `${kept} unused key${kept === 1
+            ? ' is'
+            : 's are'} kept: dynamic usages may reach them.`]
+        : [],
+      ...warnings.length
+        ? [``, ...warnings]
+        : [],
+    ].join('\n')
+    const remove = 'Delete'
+    const answer = await window.showWarningMessage(`Delete ${keys} unused key${keys === 1
+      ? ''
+      : 's'} in ${files.size} file${files.size === 1
+      ? ''
+      : 's'}?`, { modal: true, detail }, remove)
+    if (answer === remove)
+      await execute(serverCommands.deleteUnused, {})
+  })
+
   register(commands.extractFile, async () => {
     const uri = window.activeTextEditor?.document.uri.toString()
     if (uri && await execute(serverCommands.extract, { uri }) === null)

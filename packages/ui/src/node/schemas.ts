@@ -1,4 +1,4 @@
-import type { AgentCheckQuery, AgentDeleteQuery, AgentKeysQuery, AgentRenameQuery, AgentReviewQuery, AgentSearchQuery, AgentSetQuery, AgentUsagesQuery, ApplyQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectQuery, PromptQuery, ReviewQuery, UsageQuery } from './types'
+import type { AgentCheckQuery, AgentDeleteQuery, AgentKeysQuery, AgentRenameQuery, AgentReviewQuery, AgentSearchQuery, AgentSetQuery, AgentUsagesQuery, ApplyQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectQuery, PromptQuery, ReviewQuery, UnusedDeletionQuery, UsageQuery } from './types'
 import * as v from 'valibot'
 
 function text(description: string): v.SchemaWithPipe<readonly [v.StringSchema<undefined>, v.DescriptionAction<string, string>]> {
@@ -218,6 +218,14 @@ export const AgentDeleteSchema: v.GenericSchema<AgentDeleteQuery> = v.object({
   project,
   key: text('Key (or parent of keys) to delete.'),
   locales: v.optional(v.pipe(v.array(v.string()), v.description('Only in these locales. Default: all.'))),
+  confirm,
+  answers,
+})
+
+export const UnusedDeletionSchema: v.GenericSchema<UnusedDeletionQuery> = v.object({
+  project,
+  glob: v.optional(text('Only unused keys matching this glob: `*` inside a segment, `**` across segments.')),
+  namespace: v.optional(text('Only unused keys of this namespace.')),
   confirm,
   answers,
 })

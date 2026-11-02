@@ -34,6 +34,7 @@ Project settings live in `x18n.config.ts`; the settings below only change the ed
 | `x18n.editKey`               | x18n: Edit Message                     |
 | `x18n.renameKeyPrefix`       | x18n: Rename Key Prefix                |
 | `x18n.deleteKey`             | x18n: Delete Key                       |
+| `x18n.deleteUnusedKeys`      | x18n: Delete Unused Keys               |
 | `x18n.extract`               | x18n: Extract Hard String              |
 | `x18n.extractFile`           | x18n: Extract All Hard Strings in File |
 | `x18n.copyTranslatePrompt`   | x18n: Copy Translate Prompt            |

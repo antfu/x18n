@@ -142,7 +142,14 @@
     "missingHint": "Keys used in code but not defined in the source locale.",
     "unusedHint": "Keys defined in the source locale that no code uses.",
     "dynamicHint": "Usages with a computed key. Keys under their prefix count as used.",
-    "filter": "Filter by file or key"
+    "filter": "Filter by file or key",
+    "deleteUnused": "Delete unused keys",
+    "deletePlan": "Deletes {count} keys in {files} files, in every locale. Comments and formatting stay.",
+    "deleteKept": "Kept ({count}): computed keys in code may reach them.",
+    "deleteConfirm": "Delete {count} keys",
+    "deleteCancel": "Cancel",
+    "deleteDone": "Deleted keys: {count}. Changed files: {files}.",
+    "deleteNone": "No unused key can be deleted safely."
   },
   "extract": {
     "hint": "Hard-coded strings with a proposed key. Edit keys, then extract one string, one file, or every ticked string.",

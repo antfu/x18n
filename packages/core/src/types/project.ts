@@ -94,6 +94,36 @@ export interface Analysis {
   readonly undefinedUsages: readonly Usage[]
 }
 
+/** Which unused keys `planUnused` deletes. */
+export interface UnusedQuery {
+  /** Key glob: `*` inside a segment, `**` across segments. */
+  readonly glob?: string | undefined
+  readonly namespace?: string | undefined
+}
+
+/** An unused key the plan deletes, with the messages it removes. */
+export interface UnusedKeyDeletion {
+  readonly key: KeyString
+  /** One entry per message, in locale order. */
+  readonly messages: readonly { readonly locale: LocaleCode, readonly path: string }[]
+}
+
+/** An unused key left alone because fully dynamic usages in a scope (`keyPrefix`, namespace) may reach it. */
+export interface KeptUnusedKey {
+  readonly key: KeyString
+  readonly usages: readonly Usage[]
+}
+
+/** The bulk delete of unused keys, as data: review it (dry run), then pass `plan` to `apply`. */
+export interface UnusedDeletion {
+  /** Deletes `keys` in every locale, in place. Its warnings list the fully dynamic usages that may reach any key. */
+  readonly plan: Plan
+  /** Sorted by key. */
+  readonly keys: readonly UnusedKeyDeletion[]
+  /** Sorted by key. */
+  readonly kept: readonly KeptUnusedKey[]
+}
+
 export interface ProjectExplanation {
   readonly name: string
   readonly root: string
@@ -212,6 +242,8 @@ export interface Project {
   /** True when the path is a resource file or a scanned source file. */
   readonly owns: (path: string) => boolean
   readonly plan: (ops: readonly EditOp[]) => Plan
+  /** Plans the deletion of the unused keys (`analyze().unused`), minus `ignoreKeys` and keys a scoped fully dynamic usage may reach. */
+  readonly planUnused: (query?: UnusedQuery) => UnusedDeletion
   readonly apply: (plan: Plan, options?: { readonly answers?: Answers | undefined }) => Promise<ApplyResult>
   /** Re-reads the given files. Hosts with `watch` call this; the LSP calls it for open buffers. */
   readonly update: (events: readonly FileEvent[]) => Promise<ProjectChange | undefined>

@@ -1,8 +1,8 @@
 import type { KeyString, LocaleCoverage } from '@x18n/core'
 import type { LoadedProject } from '@x18n/node'
 import type { GlobalOptions } from '../context'
-import { renderExplanation, toWireRange } from '@x18n/core'
-import { displayPath, openWorkspace, out, printJson, wireDiagnostics } from '../context'
+import { renderExplanation } from '@x18n/core'
+import { displayPath, locate, openWorkspace, out, printJson, wireDiagnostics } from '../context'
 
 function percent(coverage: LocaleCoverage): number {
   return coverage.total === 0
@@ -129,15 +129,6 @@ export async function keys(glob: string | undefined, options: KeysOptions): Prom
     }
     if (p.nextCursor)
       out(`… ${p.total - Number(p.nextCursor)} more (--cursor ${p.nextCursor})`)
-  }
-}
-
-function locate(loaded: LoadedProject, path: string, start: number, end: number): { file: string, line: number, column: number } {
-  const range = toWireRange(loaded.project.text(path), start, end)
-  return {
-    file: displayPath(loaded.root, path),
-    line: range.line,
-    column: range.column,
   }
 }
 

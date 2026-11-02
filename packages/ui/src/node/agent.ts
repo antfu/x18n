@@ -5,8 +5,8 @@ import { toJsonSchema } from '@valibot/to-json-schema'
 import { extractItems, findCandidates, toPlanFile } from '@x18n/builtins/extractors'
 import { errors, parseMessageBatch, renderPrompt, toWireDiagnostic } from '@x18n/core'
 import * as v from 'valibot'
-import { AgentCheckSchema, AgentDeleteSchema, AgentKeysSchema, AgentRenameSchema, AgentReviewSchema, AgentSearchSchema, AgentSetSchema, AgentUsagesSchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema } from './schemas'
-import { applyOps, keyDetail, pickProject, previewOps, summarize, usageViews } from './views'
+import { AgentCheckSchema, AgentDeleteSchema, AgentKeysSchema, AgentRenameSchema, AgentReviewSchema, AgentSearchSchema, AgentSetSchema, AgentUsagesSchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UnusedDeletionSchema } from './schemas'
+import { applyOps, keyDetail, pickProject, previewOps, summarize, unusedDeletionView, usageViews } from './views'
 
 function page<T>(items: readonly T[], query: { readonly limit?: number | undefined, readonly cursor?: string | undefined }): { total: number, nextCursor: string | undefined, items: T[] } {
   const start = Number(query.cursor ?? 0) || 0
@@ -173,6 +173,8 @@ export function registerAgentTools(ctx: DevframeNodeContext, projects: readonly 
       },
     ], query)
   })
+
+  tool('delete_unused_keys', 'destructive', 'Delete every unused key (the keys `x18n_keys` lists with `unused: true`) in all locales, optionally only those matching `glob` or `namespace`. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a `keyPrefix` or namespace) are left alone and listed in `kept`; `warnings` names computed keys that may reach any key. Code is not changed. Without `confirm` it returns the plan: `deleted` lists each key with its locales and files. Call again with `confirm: true` to apply it.', UnusedDeletionSchema, query => unusedDeletionView(pick(query.project), query))
 
   tool('extract_plan', 'read', 'Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n_extract_apply.', ExtractQuerySchema, (query) => {
     const { project } = pick(query.project)

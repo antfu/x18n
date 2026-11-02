@@ -1,7 +1,7 @@
 import type { ExtractCandidate } from '@x18n/builtins/extractors'
 import type { ReviewThread } from '@x18n/core'
 import type { DevframeRpcClient } from 'devframe/client'
-import type { AnalysisView, ApplyQuery, ApplyView, ExplainList, ExtractApplyQuery, KeyDetail, KeyTable, OpenQuery, PlanQuery, PlanView, ProjectList, UsageView, X18nState } from '../src/node/types'
+import type { AnalysisView, ApplyQuery, ApplyView, ExplainList, ExtractApplyQuery, KeyDetail, KeyTable, OpenQuery, PlanQuery, PlanView, ProjectList, UnusedDeletionQuery, UnusedDeletionView, UsageView, X18nState } from '../src/node/types'
 import { connectDevframe } from 'devframe/client'
 import { shallowRef } from 'vue'
 
@@ -21,6 +21,8 @@ export interface UiBackend {
   readonly plan: (query: PlanQuery) => Promise<PlanView>
   readonly apply: (query: ApplyQuery) => Promise<ApplyView>
   readonly extractApply: (query: ExtractApplyQuery) => Promise<ApplyView>
+  /** Dry run of the bulk delete of unused keys; writes with `confirm`. */
+  readonly deleteUnused: (query: UnusedDeletionQuery) => Promise<UnusedDeletionView>
   readonly openInEditor: (query: OpenQuery) => Promise<void>
   /** Calls back with the new state after any change in any project. */
   readonly onChange: (listener: (state: X18nState) => void) => () => void
@@ -52,6 +54,7 @@ function staticBackend(rpc: DevframeRpcClient): UiBackend {
     plan: readOnly,
     apply: readOnly,
     extractApply: readOnly,
+    deleteUnused: readOnly,
     openInEditor: readOnly,
     onChange: () => () => {},
   }
@@ -67,6 +70,7 @@ async function serverBackend(rpc: DevframeRpcClient): Promise<UiBackend> {
     plan: query => rpc.call('x18n:plan', query),
     apply: query => rpc.call('x18n:apply', query),
     extractApply: query => rpc.call('x18n:extract-apply', query),
+    deleteUnused: query => rpc.call('x18n:delete-unused', query),
     openInEditor: query => rpc.call('x18n:open-in-editor', query),
     onChange: listener => state.on('updated', value => listener(value)),
   }

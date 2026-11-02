@@ -811,6 +811,12 @@ class Server {
   async executeCommand(params: { command: string, arguments?: unknown[] }): Promise<unknown> {
     await this.ready
     const arg: unknown = params.arguments?.[0]
+    if (params.command === commands.deleteUnused) {
+      const project = (arg as { project?: unknown } | undefined)?.project // client-supplied
+      return this.deleteUnused(typeof project === 'string'
+        ? project
+        : undefined)
+    }
     if (typeof arg !== 'object' || arg === null)
       return null
     const input = arg as { project?: string, key?: string, locale?: string, value?: string, to?: string, uri?: string, id?: string, review?: string, text?: string, suggestion?: string } // client-supplied; fields checked below
@@ -1090,6 +1096,47 @@ class Server {
     return { keys, hardStrings }
   }
 
+  unusedEntries(project: string | undefined): ServerProject[] {
+    if (project === undefined)
+      return this.projects
+    const entry = this.entryByName(project)
+    if (!entry)
+      throw new ResponseError(1, `Unknown project "${project}".`)
+    return [entry]
+  }
+
+  unusedDeletion(params: P.UnusedDeletionParams): P.UnusedDeletionResult {
+    return {
+      projects: this.unusedEntries(params.project).map((entry) => {
+        const deletion = entry.project.planUnused()
+        const nodes = (key: string): ResourceNode[] => entry.project.locations(key).filter(node => node.leaf)
+        return {
+          project: entry.name,
+          keys: deletion.keys.map(k => ({
+            key: k.key,
+            locations: nodes(k.key).map(node => this.entryLocation(entry, node)),
+          })),
+          kept: deletion.kept.map(k => ({
+            key: k.key,
+            usages: k.usages.map(u => this.location(entry, u.path, u.range)),
+          })),
+          warnings: deletion.plan.warnings,
+        }
+      }),
+    }
+  }
+
+  /** Applies the bulk delete as one editor edit, so it can be undone and saved like a rename. */
+  async deleteUnused(project: string | undefined): Promise<WorkspaceEdit | null> {
+    const documentChanges = this.unusedEntries(project).flatMap(entry =>
+      this.workspaceEdit(entry, entry.project.planUnused().plan).documentChanges ?? [])
+    if (documentChanges.length === 0)
+      return null
+    const edit: WorkspaceEdit = { documentChanges }
+    await this.connection.workspace.applyEdit(edit)
+    return edit
+  }
+
   usageReport(): P.UsageReportResult {
     const unused: P.UsageReportResult['unused'][number][] = []
     const missing: P.UsageReportResult['missing'][number][] = []
@@ -1114,7 +1161,16 @@ class Server {
       for (const [key, locations] of byKey)
         missing.push({ project: entry.name, key, locations })
     }
-    return { unused, missing }
+    const order = (a: { project: string, key: string }, b: { project: string, key: string }): number =>
+      a.project.localeCompare(b.project) || (a.key < b.key
+        ? -1
+        : a.key > b.key
+          ? 1
+          : 0)
+    return {
+      unused: unused.sort(order),
+      missing: missing.sort(order),
+    }
   }
 
   /** Matches of every project, best first. */
@@ -1215,6 +1271,10 @@ export function setupServer(connection: Connection, options: ServerOptions = {})
   connection.onRequest(methods.usageReport, async () => {
     await server.ready
     return server.usageReport()
+  })
+  connection.onRequest(methods.unusedDeletion, async (params: P.UnusedDeletionParams | undefined) => {
+    await server.ready
+    return server.unusedDeletion(params ?? {})
   })
   connection.onRequest(methods.search, async (params: P.SearchParams) => {
     await server.ready
