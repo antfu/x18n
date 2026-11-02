@@ -1,5 +1,5 @@
 import type { MessageConnection } from 'vscode-jsonrpc/node'
-import type { Location, PublishDiagnosticsParams, WorkspaceEdit } from 'vscode-languageserver/node'
+import type { InitializeParams, Location, PublishDiagnosticsParams, WorkspaceEdit } from 'vscode-languageserver/node'
 import type { ReviewsResult, UnusedDeletionResult } from '../src'
 import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
@@ -35,7 +35,7 @@ function relativeOf(location: Location): string {
   return posixRelative(fileURLToPath(location.uri))
 }
 
-async function connect(dir: string): Promise<MessageConnection> {
+async function connect(dir: string, initializationOptions?: InitializeParams['initializationOptions']): Promise<MessageConnection> {
   const toServer = new PassThrough()
   const toClient = new PassThrough()
   const server = createConnection(new StreamMessageReader(toServer), new StreamMessageWriter(toClient))
@@ -47,7 +47,13 @@ async function connect(dir: string): Promise<MessageConnection> {
   })
   connection.listen()
   disposers.push(() => connection.dispose(), () => server.dispose())
-  const result = await connection.sendRequest(InitializeRequest.type, { processId: null, rootUri: pathToFileURL(dir).href, capabilities: {} })
+  const params: InitializeParams = {
+    processId: null,
+    rootUri: pathToFileURL(dir).href,
+    capabilities: {},
+    initializationOptions,
+  }
+  const result = await connection.sendRequest(InitializeRequest.type, params)
   expect(result.serverInfo).toEqual({ name: 'x18n', version })
   expect(result.capabilities.textDocumentSync).toBe(TextDocumentSyncKind.Incremental)
   await connection.sendNotification('initialized', {})
@@ -171,7 +177,7 @@ describe('language server', () => {
     expect(diagnostics.get(uri('src/locales/de.json'))?.map(d => d.code)).toEqual(['placeholder-mismatch', 'empty-translation'])
   })
 
-  it('hovers with values per locale', async () => {
+  it('hovers with values per locale and no command links by default', async () => {
     const hover: { contents: { value: string } } = await client.sendRequest('textDocument/hover', {
       textDocument: {
         uri: uri('src/App.vue'),
@@ -179,7 +185,30 @@ describe('language server', () => {
       position: await position('src/App.vue', 'app.greeting'),
     })
     expect(hover.contents.value).toContain('| 🇺🇸 en | Hello {name} |')
+    expect(hover.contents.value).toMatch(/\d+ usages?$/)
+    expect(hover.contents.value).not.toContain('command:')
+  })
+
+  it('links only the hover commands the client lists', async () => {
+    const editor = await connect(root, {
+      hoverCommands: [
+        'x18n.openKey',
+        'x18n.translateWithAgent',
+        'other.command',
+        1,
+      ],
+    })
+    const hover: { contents: { value: string } } = await editor.sendRequest('textDocument/hover', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+      position: await position('src/App.vue', 'app.greeting'),
+    })
+    expect(hover.contents.value).toContain('| 🇺🇸 en | Hello {name} |')
+    expect(hover.contents.value).toContain('[Open in UI](command:x18n.openKey?')
     expect(hover.contents.value).toContain('[Translate with agent](command:x18n.translateWithAgent?')
+    expect(hover.contents.value).not.toContain('copyTranslatePrompt')
+    expect(hover.contents.value).not.toContain('other.command')
   })
 
   it('completes keys in key slots', async () => {
