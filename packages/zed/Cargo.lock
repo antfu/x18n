@@ -753,7 +753,7 @@ dependencies = [
 
 [[package]]
 name = "zed-x18n"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "serde_json",
  "zed_extension_api",

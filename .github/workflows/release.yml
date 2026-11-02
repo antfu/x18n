@@ -51,3 +51,35 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
+
+  # Opens a pull request on zed-industries/extensions that points the Zed registry at this tag.
+  # The registry builds the extension from `packages/zed` itself. Skipped when nothing in
+  # `packages/zed` changed since the previous tag apart from the version bump, since the
+  # extension installs the latest `@x18n/lsp` on its own.
+  zed:
+    needs: release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Check for Zed extension changes
+        id: changes
+        run: |
+          prev=$(git describe --tags --abbrev=0 "$GITHUB_REF_NAME^" 2>/dev/null || true)
+          if [ -n "$prev" ] && git diff --quiet "$prev" HEAD -- packages/zed ':!packages/zed/extension.toml'; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open the Zed registry pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: huacnlee/zed-extension-action@v2
+        with:
+          extension-name: x18n-language-server
+          push-to: x18n-dev/extensions
+        env:
+          # Classic PAT with `repo` and `workflow` scopes that can push to `push-to`.
+          COMMITTER_TOKEN: ${{ secrets.ZED_COMMITTER_TOKEN }}

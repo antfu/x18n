@@ -1,6 +1,6 @@
 [package]
 name = "zed-x18n"
-version = "0.1.0"
+version = "0.0.0" # Not released as a crate; `extension.toml` carries the extension version.
 edition = "2021"
 publish = false
 license = "MIT"

@@ -51,6 +51,12 @@ Add settings to the user or project `.zed/settings.json`:
 
 The extension covers JavaScript, JSX, TypeScript, TSX, Vue.js, JSON, JSONC, YAML, HTML, Svelte, and Astro. Zed exposes the server's hover, navigation, rename, completion, diagnostics, code actions, and hints. VS Code-only views and controls are described in the [VS Code package](../vscode/README.md).
 
+## Release
+
+The extension version in `extension.toml` follows the x18n release: `pnpm release` (bumpp) bumps it with the npm packages, and the `v*` tag runs the `zed` job in [`release.yml`](../../.github/workflows/release.yml). That job opens a pull request on [`zed-industries/extensions`](https://github.com/zed-industries/extensions) that moves the registry to the new tag, and skips releases where nothing in `packages/zed` changed. Zed merges the pull request and its CI builds and publishes the extension.
+
+The first submission to the registry is manual. Later releases need the `ZED_COMMITTER_TOKEN` secret and the `x18n-dev/extensions` fork.
+
 ## License
 
 [MIT](./LICENSE)
