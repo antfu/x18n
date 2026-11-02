@@ -63,6 +63,8 @@ interface Settings {
   codeLens: boolean
   /** Flag emoji next to locales in hovers. */
   showFlags: boolean
+  /** Client commands a hover may link to with `command:` URLs. Empty means no links. */
+  hoverCommands: ReadonlySet<string>
 }
 
 const reviewTypes: readonly ReviewType[] = [
@@ -121,19 +123,22 @@ function posix(path: string): string {
     : path
 }
 
-/** Stable is `Zed`. Preview, Nightly and Dev are `Zed Preview`, `Zed Nightly`, `Zed Dev`. */
-function isZed(clientName: string | undefined): boolean {
-  return clientName === 'Zed' || clientName?.startsWith('Zed ') === true
-}
+/** Hover links to client commands. A client lists the ones it runs in `hoverCommands`; others get no links. */
+const hoverLinks: readonly { readonly command: string, readonly title: string }[] = [
+  { command: 'x18n.openKey', title: 'Open in UI' },
+  { command: 'x18n.copyTranslatePrompt', title: 'Copy translate prompt' },
+  { command: 'x18n.translateWithAgent', title: 'Translate with agent' },
+]
 
-/** VS Code runs `command:` hover links. Zed opens them and reports an error. */
-function hoverSuffix(clientName: string | undefined, usages: number, args: string): string {
+/** Most clients open a `command:` link as a URL and fail, so links appear only for commands the client opted into. */
+function hoverSuffix(enabled: ReadonlySet<string>, usages: number, args: string): string {
   const count = `${usages} usage${usages === 1
     ? ''
     : 's'}`
-  if (isZed(clientName))
-    return count
-  return `${count} · [Open in UI](command:x18n.openKey?${args}) · [Copy translate prompt](command:x18n.copyTranslatePrompt?${args}) · [Translate with agent](command:x18n.translateWithAgent?${args})`
+  const links = hoverLinks
+    .filter(link => enabled.has(link.command))
+    .map(link => `[${link.title}](command:${link.command}?${args})`)
+  return [count, ...links].join(' · ')
 }
 
 class Server {
@@ -148,13 +153,12 @@ class Server {
     displayLocale: undefined,
     codeLens: false,
     showFlags: true,
+    hoverCommands: new Set(),
   }
 
   ready: Promise<void> = Promise.resolve()
   folders: string[] = []
   watchRegistration = false
-  /** `initialize` client name. Zed channels must not receive `command:` hover links. */
-  clientName: string | undefined
 
   constructor(readonly connection: Connection, readonly options: ServerOptions) {}
 
@@ -275,9 +279,8 @@ class Server {
     if (folders.length === 0 && params.rootUri)
       folders.push(fileURLToPath(params.rootUri))
     this.folders = folders
-    this.clientName = params.clientInfo?.name
     this.watchRegistration = params.capabilities.workspace?.didChangeWatchedFiles?.dynamicRegistration === true
-    const settings = params.initializationOptions as Partial<Settings> | undefined // free-form client data; read field by field
+    const settings = params.initializationOptions as Partial<Record<keyof Settings, unknown>> | undefined // free-form client data; read field by field
     if (typeof settings?.displayLocale === 'string')
       this.settings.displayLocale = settings.displayLocale
     if (typeof settings?.annotationMaxLength === 'number')
@@ -286,6 +289,8 @@ class Server {
       this.settings.codeLens = settings.codeLens
     if (typeof settings?.showFlags === 'boolean')
       this.settings.showFlags = settings.showFlags
+    if (Array.isArray(settings?.hoverCommands))
+      this.settings.hoverCommands = new Set(settings.hoverCommands.filter(command => typeof command === 'string'))
     return {
       serverInfo: { name: 'x18n', version },
       capabilities: {
@@ -567,7 +572,7 @@ class Server {
     const args = encodeURIComponent(JSON.stringify([
       { project: at.entry.name, key: target.key },
     ]))
-    lines.push('', hoverSuffix(this.clientName, usages.length, args))
+    lines.push('', hoverSuffix(this.settings.hoverCommands, usages.length, args))
     return {
       contents: {
         kind: 'markdown',
