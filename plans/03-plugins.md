@@ -83,6 +83,8 @@ interface LocaleFinder {
   readonly find: (ctx: FinderContext) => Promise<readonly ResourceCandidate[]>
   /** Where a new resource for (locale, namespace) should go. Used by edits that create files. */
   readonly resolveNew?: (target: { locale: LocaleCode, namespace: string | undefined, model: Resource | undefined }, ctx: FinderContext) => string | undefined
+  /** A file of its own for one key (one file per message). New messages of the key go there; renames move them; deletes that empty it remove it. */
+  readonly resolveKey?: (target: { key: KeyString, locale: LocaleCode }, ctx: FinderContext) => { path: string, format?: string } | undefined
 }
 
 interface ResourceCandidate {

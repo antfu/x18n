@@ -274,6 +274,10 @@ export interface KeptUnusedKey {
 export interface KeyContext {
   readonly path: string;
 }
+export interface KeyFile {
+  readonly path: string;
+  readonly format?: string | undefined;
+}
 export interface KeyId {
   readonly namespace: string | undefined;
   readonly path: readonly string[];
@@ -348,6 +352,10 @@ export interface LocaleFinder {
     readonly namespace: string | undefined;
     readonly model: Resource | undefined;
   }, _: FinderContext) => string | undefined) | undefined;
+  readonly resolveKey?: ((_: {
+    readonly key: KeyString;
+    readonly locale: LocaleCode;
+  }, _: FinderContext) => KeyFile | undefined) | undefined;
 }
 export interface LocaleInfo {
   readonly code: LocaleCode;

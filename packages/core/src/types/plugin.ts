@@ -73,6 +73,19 @@ export interface LocaleFinder {
    * `model` is the existing resource the new one would otherwise mirror: the key's source file when it has one.
    */
   readonly resolveNew?: ((target: { readonly locale: LocaleCode, readonly namespace: string | undefined, readonly model: Resource | undefined }, ctx: FinderContext) => string | undefined) | undefined
+  /**
+   * A file of its own for one key in a locale, for layouts with one file per message. A new message of the key goes
+   * there, created with `format` (default: by extension) when it does not exist; a rename moves the message to the
+   * file of the new key; a delete that leaves the file empty deletes it.
+   */
+  readonly resolveKey?: ((target: { readonly key: KeyString, readonly locale: LocaleCode }, ctx: FinderContext) => KeyFile | undefined) | undefined
+}
+
+/** The file of one key, from a locale finder's `resolveKey`. */
+export interface KeyFile {
+  readonly path: string
+  /** Format id of a new file. Default: the format of its extension. */
+  readonly format?: string | undefined
 }
 
 export interface FormatContext {
