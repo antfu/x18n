@@ -1011,6 +1011,7 @@ exports[`rpc functions > explains the project 1`] = `
         },
         "ignoreKeys": [],
         "ignoreLocales": [],
+        "keySeparator": ".",
         "keyStyle": "auto",
         "localeFallbacks": {},
         "name": "vue-i18n",

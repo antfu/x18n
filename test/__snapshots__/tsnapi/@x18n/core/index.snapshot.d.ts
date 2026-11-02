@@ -308,6 +308,7 @@ export interface LibraryOptions {
   };
   readonly resources?: readonly ResourceSpec[];
   readonly keyStyle?: "nested" | "flat";
+  readonly keySeparator?: KeySeparator;
   readonly templates?: readonly ExtractTemplate[];
   readonly finders?: readonly LocaleFinder[];
   readonly normalizeKey?: Plugin["normalizeKey"];
@@ -393,7 +394,7 @@ export interface MessageTree {
   readonly [segment: string]: MessageLeaf | MessageTree;
 }
 export interface NamespaceOptions {
-  readonly separator?: string | undefined;
+  readonly separator?: string | false | undefined;
   readonly default?: string | undefined;
   readonly fallback?: readonly string[] | undefined;
   readonly byFile?: {
@@ -489,6 +490,7 @@ export interface PluginFile {
     readonly resources?: readonly ResourceSpec[] | undefined;
     readonly namespace?: NamespaceOptions | undefined;
     readonly keyStyle?: "auto" | "nested" | "flat" | undefined;
+    readonly keySeparator?: KeySeparator | undefined;
   } | undefined;
   readonly scanners?: {
     readonly calls?: readonly CallSpec[] | undefined;
@@ -751,8 +753,9 @@ export interface ResolvedConfig {
     readonly [extension: string]: string;
   };
   readonly keyStyle: "auto" | "nested" | "flat";
+  readonly keySeparator: KeySeparator;
   readonly namespace: {
-    readonly separator: string;
+    readonly separator: string | false;
     readonly default: string | undefined;
     readonly fallback: readonly string[];
     readonly byFile: {
@@ -801,6 +804,7 @@ export interface Resource {
   readonly block: ResourceBlock | undefined;
   readonly readonly: boolean;
   readonly finder: string;
+  readonly keySeparator?: KeySeparator | undefined;
 }
 export interface ResourceBlock {
   readonly index: number;
@@ -814,6 +818,7 @@ export interface ResourceCandidate {
   readonly format?: string | undefined;
   readonly block?: ResourceBlock | undefined;
   readonly readonly?: boolean | undefined;
+  readonly keySeparator?: KeySeparator | undefined;
 }
 export interface ResourceNode {
   readonly key: KeyString;
@@ -828,6 +833,7 @@ export interface ResourceSpec {
   readonly namespace?: string | undefined;
   readonly locale?: string | undefined;
   readonly execute?: boolean | undefined;
+  readonly keySeparator?: string | false | undefined;
 }
 export interface ResourceTransform {
   readonly applies?: ((_: ResourceTransformContext) => boolean) | undefined;
@@ -948,6 +954,7 @@ export interface SerializableConfig {
     readonly [extension: string]: string;
   } | undefined;
   readonly keyStyle?: "auto" | "nested" | "flat" | undefined;
+  readonly keySeparator?: string | false | undefined;
   readonly namespace?: NamespaceOptions | undefined;
   readonly usage?: UsageOptions | undefined;
   readonly write?: WriteOptions | undefined;
@@ -1145,6 +1152,7 @@ export type FileChange = {
 export type HistoryOptions = Partial<HistoryConfigs>;
 export type JsonPrimitive = string | number | boolean | null;
 export type JsonValue = JsonPrimitive | readonly JsonValue[] | JsonObject;
+export type KeySeparator = string | false;
 export type KeyString = string;
 export type KeyTarget = {
   readonly type: "key";
@@ -1219,13 +1227,13 @@ export declare function fuzzyScore(_: string, _: string): number;
 export declare function globToRegExp(_: string, _?: string): RegExp;
 export declare function hashText(_: string): string;
 export declare function isJsonObject(_: unknown): value is JsonObject;
-export declare function isKeyUnder(_: KeyString, _: KeyString): boolean;
+export declare function isKeyUnder(_: KeyString, _: KeyString, _?: KeySeparator): boolean;
 export declare function isMessageLeaf(_: unknown): value is MessageLeaf;
 export declare function isMessageTree(_: unknown): value is MessageTree;
 export declare function isPreset(_: Plugin | Preset): value is Preset;
 export declare function isX18nError(_: unknown): error is X18nError;
-export declare function joinKey(_: string | undefined, _: readonly string[]): KeyString;
-export declare function keyMatcher(_: readonly string[]): (_: KeyString) => boolean;
+export declare function joinKey(_: string | undefined, _: readonly string[], _?: KeySeparator): KeyString;
+export declare function keyMatcher(_: readonly string[], _?: KeySeparator): (_: KeyString) => boolean;
 export declare function localeSpellingKey(_: LocaleCode): string;
 export declare function parseLocaleInfo(_: LocaleCode): LocaleInfo;
 export declare function parseMessageBatch(_: Project, _: JsonValue): EditOp[];
@@ -1238,7 +1246,7 @@ export declare function renderPrompt(_: PromptData): string;
 export declare function replaceKeyPrefix(_: KeyString, _: KeyString, _: KeyString): KeyString;
 export declare function resolveConfig(_: ResolveConfigOptions): Promise<Setup>;
 export declare function sortTree(_: MessageTree, _: (_: string, _: string) => number): MessageTree;
-export declare function splitKey(_: KeyString, _?: boolean): KeyId;
+export declare function splitKey(_: KeyString, _?: boolean, _?: KeySeparator): KeyId;
 export declare function toErrorInfo(_: unknown): ErrorInfo;
 export declare function toWireDiagnostic(_: string, _: Diagnostic, _: (_: string) => string | undefined): WireDiagnostic;
 export declare function toWireRange(_: string | undefined, _: number, _: number): WireRange;

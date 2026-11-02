@@ -87,7 +87,7 @@ When a folder has `i18n-ally.*` settings in `.vscode/settings.json` and no `x18n
 | `sourceLanguage` | `sourceLocale` |
 | `ignoredLocales` | `ignoreLocales` |
 | `keystyle` | `keyStyle` |
-| `disablePathParsing` | `keyStyle: 'flat'` |
+| `disablePathParsing` | `keySeparator: false` |
 | `defaultNamespace` | `namespace.default` |
 | `keysInUse` | `usage.keysInUse` |
 | `usage.derivedKeyRules` | `usage.derivedKeys` |

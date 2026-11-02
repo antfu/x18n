@@ -34,7 +34,8 @@ In VS Code, the extension offers the same migration when it finds i18n-ally sett
 | `sourceLanguage` | `sourceLocale` |
 | `displayLanguage` | VS Code setting `x18n.displayLocale` |
 | `ignoredLocales` | `ignoreLocales` |
-| `keystyle`, `disablePathParsing` | `keyStyle` (`disablePathParsing` becomes `flat`) |
+| `keystyle` | `keyStyle` |
+| `disablePathParsing` | `keySeparator: false` (literal keys) |
 | `defaultNamespace` | `namespace.default` |
 | `enabledParsers`, `parsers.extendFileExtensions` | `formats` |
 | `keysInUse`, `usage.derivedKeyRules`, `usage.scanningIgnore` | `usage.keysInUse`, `usage.derivedKeys`, `usage.exclude` |

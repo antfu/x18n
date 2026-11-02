@@ -64,6 +64,7 @@ function defaultDraft(): ConfigDraft {
     resources: [],
     formats: {},
     keyStyle: 'auto',
+    keySeparator: '.',
     namespace: {
       separator: '.',
       default: undefined,
@@ -151,6 +152,10 @@ function applyLayer(draft: ConfigDraft, layer: UserConfig, origin: ConfigOrigin,
   if (layer.keyStyle !== undefined) {
     draft.keyStyle = layer.keyStyle
     mark('keyStyle')
+  }
+  if (layer.keySeparator !== undefined) {
+    draft.keySeparator = layer.keySeparator
+    mark('keySeparator')
   }
   if (layer.namespace !== undefined) {
     draft.namespace = {

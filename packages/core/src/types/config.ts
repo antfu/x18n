@@ -57,7 +57,15 @@ export interface ResourceSpec {
   readonly locale?: string | undefined
   /** Run matching JS/TS files in Node instead of reading them statically. Makes them read-only. */
   readonly execute?: boolean | undefined
+  /** Key separator of matching files, over `keySeparator`. `false` for files keyed by whole sentences (Laravel `lang/{locale}.json`). */
+  readonly keySeparator?: string | false | undefined
 }
+
+/**
+ * What splits a key into a path: `.` by default (`a.b` is `{ a: { b } }` in a nested file).
+ * `false` makes keys literal, so `Welcome back.` or `Note: x` is one key (i18next `keySeparator: false`, gettext, Laravel JSON).
+ */
+export type KeySeparator = string | false
 
 export type CheckLevel = Severity | 'off'
 export type CheckSetting = CheckLevel | readonly [CheckLevel, JsonObject]
@@ -122,8 +130,8 @@ export interface WriteOptions {
 }
 
 export interface NamespaceOptions {
-  /** Separator between namespace and key in code. `.` merges the namespace into the key path. Default `.`. */
-  readonly separator?: string | undefined
+  /** Separator between namespace and key in code. `.` merges the namespace into the key path. `false` keeps namespaces out of keys in code (i18next `nsSeparator: false`), so a key may hold `:`. Default `.`. */
+  readonly separator?: string | false | undefined
   /** Namespace of keys written without one. */
   readonly default?: string | undefined
   /** Namespaces searched in order when a key written without a namespace is not in its own (i18next `fallbackNS`). */
@@ -167,6 +175,8 @@ export interface SerializableConfig {
   /** Explicit format id per file extension (without dot). */
   readonly formats?: { readonly [extension: string]: string } | undefined
   readonly keyStyle?: 'auto' | 'nested' | 'flat' | undefined
+  /** What splits a key into a path: `a.b` is `{ a: { b } }` in a nested file. `false` makes keys literal, so `Welcome back.` or `Note: x` is one key and a new key is one property (i18next `keySeparator: false`, gettext). A resource pattern can set its own. */
+  readonly keySeparator?: string | false | undefined
   readonly namespace?: NamespaceOptions | undefined
   readonly usage?: UsageOptions | undefined
   readonly write?: WriteOptions | undefined
@@ -230,8 +240,9 @@ export interface ResolvedConfig {
   readonly resources: readonly ResourceSpec[]
   readonly formats: { readonly [extension: string]: string }
   readonly keyStyle: 'auto' | 'nested' | 'flat'
+  readonly keySeparator: KeySeparator
   readonly namespace: {
-    readonly separator: string
+    readonly separator: string | false
     readonly default: string | undefined
     readonly fallback: readonly string[]
     readonly byFile: { readonly [glob: string]: string }

@@ -1,5 +1,6 @@
 import type { X18nError } from '../errors'
 import type { Setup } from '../resolve'
+import type { KeySeparator } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
 import type { HardString, HistoryContext, ScanResult, SourceFile } from '../types/plugin'
@@ -10,7 +11,7 @@ import type { ReviewSource } from './planner'
 import type { UsageResolver } from './usages'
 import { errors, isX18nError, toErrorInfo } from '../errors'
 import { fuzzyScore } from '../fuzzy'
-import { isKeyUnder, joinKey, keyMatcher, pathMatcher } from '../keys'
+import { isKeyUnder, joinKey, keyMatcher, keySeparatorOf, pathMatcher, splitKeyPath } from '../keys'
 import { parseLocaleInfo, resolveFallbacks } from '../locale'
 import { isMessageLeaf, isMessageTree, pathId, walkLeaves } from '../message-tree'
 import { extensionOf } from '../plugins'
@@ -42,6 +43,8 @@ interface Candidate {
   readonly block: Resource['block']
   readonly readonly: boolean
   readonly finder: string
+  /** Set only when it differs from the config's `keySeparator`. */
+  readonly keySeparator?: KeySeparator | undefined
 }
 
 // Caps file reads and scans in flight, so large projects stay under the open file limit.
@@ -234,6 +237,9 @@ export function createProject(options: CreateProjectOptions): Project {
           block: candidate.block,
           readonly: candidate.readonly === true,
           finder: finder.id,
+          keySeparator: candidate.keySeparator === config.keySeparator
+            ? undefined
+            : candidate.keySeparator,
         })
       }
       finderResults.push({ id: finder.id, resources: kept })
@@ -241,17 +247,26 @@ export function createProject(options: CreateProjectOptions): Project {
     return out
   }
 
-  function keyFor(resource: Resource, stored: readonly string[]): KeyString {
-    const logical = stored.flatMap(segment => segment.split('.'))
+  /** Namespace and key path of a stored path: each stored segment is split by the resource's key separator. */
+  function keyIdFor(resource: Resource, stored: readonly string[]): { namespace: string | undefined, path: string[] } {
+    const separator = keySeparatorOf(resource, config.keySeparator)
+    const logical = stored.flatMap(segment => splitKeyPath(segment, separator))
     if (namespaced)
-      return joinKey(resource.namespace ?? config.namespace.default, logical)
-    const prefix = resource.namespace
-      ? resource.namespace.split('.')
-      : []
-    return joinKey(undefined, [
-      ...prefix,
-      ...logical,
-    ])
+      return { namespace: resource.namespace ?? config.namespace.default, path: logical }
+    return {
+      namespace: undefined,
+      path: [
+        ...resource.namespace
+          ? resource.namespace.split('.')
+          : [],
+        ...logical,
+      ],
+    }
+  }
+
+  function keyFor(resource: Resource, stored: readonly string[]): KeyString {
+    const { namespace, path } = keyIdFor(resource, stored)
+    return joinKey(namespace, path, config.keySeparator)
   }
 
   /** Key path to stored path through the transforms that apply to a resource, last first. */
@@ -276,6 +291,9 @@ export function createProject(options: CreateProjectOptions): Project {
       block: candidate.block,
       readonly: candidate.readonly || !format || (!format.edit && !format.serialize),
       finder: candidate.finder,
+      ...candidate.keySeparator === undefined
+        ? {}
+        : { keySeparator: candidate.keySeparator },
     }
     const content = candidate.block
       ? text.slice(candidate.block.range.start, candidate.block.range.end)
@@ -401,7 +419,7 @@ export function createProject(options: CreateProjectOptions): Project {
       const content = candidate.block
         ? text.slice(candidate.block.range.start, candidate.block.range.end)
         : text
-      if (previous && previous.hash === hashText(content) && previous.resource.locale === candidate.locale && previous.resource.namespace === candidate.namespace && previous.offset === (candidate.block?.range.start ?? 0))
+      if (previous && previous.hash === hashText(content) && previous.resource.locale === candidate.locale && previous.resource.namespace === candidate.namespace && previous.resource.keySeparator === candidate.keySeparator && previous.offset === (candidate.block?.range.start ?? 0))
         next.set(id, previous)
       else
         next.set(id, parseResource(candidate, text))
@@ -608,20 +626,8 @@ export function createProject(options: CreateProjectOptions): Project {
               storedPath,
               range,
             })
-            if (!keyPaths.has(key)) {
-              const logical = path.flatMap(s => s.split('.'))
-              keyPaths.set(key, namespaced
-                ? { namespace: resource.namespace ?? config.namespace.default, path: logical }
-                : {
-                    namespace: undefined,
-                    path: [
-                      ...resource.namespace
-                        ? resource.namespace.split('.')
-                        : [],
-                      ...logical,
-                    ],
-                  })
-            }
+            if (!keyPaths.has(key))
+              keyPaths.set(key, keyIdFor(resource, path))
           }
           else {
             parents.add(key)
@@ -634,7 +640,7 @@ export function createProject(options: CreateProjectOptions): Project {
     // Parent keys of every leaf, so `t('a')` on an object is known.
     for (const { namespace, path } of keyPaths.values()) {
       for (let i = 1; i < path.length; i++)
-        parents.add(joinKey(namespace, path.slice(0, i)))
+        parents.add(joinKey(namespace, path.slice(0, i), config.keySeparator))
     }
     const derived = new Map<KeyString, KeyString[]>()
     if (config.usage.derivedKeys.length > 0) {
@@ -744,7 +750,7 @@ export function createProject(options: CreateProjectOptions): Project {
     if (query.prefix !== undefined) {
       const prefix = query.prefix
       return [
-        ...usages.filter(usage => inPath(usage) && usage.dynamic === false && usage.key !== undefined && isKeyUnder(usage.key, prefix)).map(usage => ({ usage, possible: false })),
+        ...usages.filter(usage => inPath(usage) && usage.dynamic === false && usage.key !== undefined && isKeyUnder(usage.key, prefix, config.keySeparator)).map(usage => ({ usage, possible: false })),
         ...prefixUsages.filter(usage => inPath(usage) && usage.key !== undefined && (usage.key.startsWith(prefix) || prefix.startsWith(usage.key))).map(usage => ({ usage, possible: true })),
       ]
     }
@@ -802,7 +808,7 @@ export function createProject(options: CreateProjectOptions): Project {
   function keys(query: Parameters<Project['keys']>[0] = {}): KeyString[] {
     const { messages, keyPaths } = idx()
     const match = query.glob
-      ? keyMatcher([query.glob])
+      ? keyMatcher([query.glob], config.keySeparator)
       : undefined
     let list = [
       ...messages.keys(),
@@ -1137,13 +1143,17 @@ export function createProject(options: CreateProjectOptions): Project {
       if (!namespaced)
         return input
       const index = input.indexOf(':')
-      if (index > 0)
+      // Without a separator in code a key may hold `:`, so only a known namespace counts as one.
+      if (index > 0 && (separator !== false || [
+        ...resourceStates.values(),
+      ].some(state => state.resource.namespace === input.slice(0, index)))) {
         return input
-      const custom = separator !== ':'
-        ? input.indexOf(separator)
-        : -1
-      if (custom > 0)
-        return `${input.slice(0, custom)}:${input.slice(custom + separator.length)}`
+      }
+      if (separator !== ':' && separator !== false) {
+        const custom = input.indexOf(separator)
+        if (custom > 0)
+          return `${input.slice(0, custom)}:${input.slice(custom + separator.length)}`
+      }
       return config.namespace.default
         ? `${config.namespace.default}:${input}`
         : input

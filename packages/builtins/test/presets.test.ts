@@ -727,7 +727,7 @@ describe('namespaces', () => {
     expect(project.config).toMatchObject({
       sourceLocale: 'en',
       locales: ['de', 'en'],
-      keyStyle: 'flat',
+      keySeparator: false,
       resources: [
         { pattern: 'public/locales/{locale}/{namespaces}.json' },
       ],

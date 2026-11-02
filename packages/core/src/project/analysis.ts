@@ -209,8 +209,8 @@ function runChecks(input: RunChecksInput): Diagnostic[] {
 export function createAnalyzer(options: AnalyzerOptions): { readonly analyze: () => Analysis } {
   const { config, registry } = options
   let memo: Analysis | undefined
-  const ignored = keyMatcher(config.ignoreKeys)
-  const inUse = keyMatcher(config.usage.keysInUse)
+  const ignored = keyMatcher(config.ignoreKeys, config.keySeparator)
+  const inUse = keyMatcher(config.usage.keysInUse, config.keySeparator)
   // Values rarely change between revisions; finding placeholders is the cost of several checks.
   const placeholderCache = new Map<string, readonly Placeholder[]>()
 

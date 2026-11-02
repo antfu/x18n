@@ -598,8 +598,9 @@ class Server {
       return []
     const usage = project.usages({ path: at.path }).map(m => m.usage).find(u => u.range.start === slot.start)
     const scopeNs = usage?.scopeNamespace ?? project.config.namespace.default
+    const keySeparator = project.config.keySeparator
     const prefix = usage?.scopePrefix
-      ? `${usage.scopePrefix}.`
+      ? `${usage.scopePrefix}${keySeparator || '.'}`
       : ''
     const range = this.range(at.entry, at.path, slot)
     const { separator, fallback } = project.config.namespace
@@ -608,10 +609,14 @@ class Server {
     return keys.flatMap((key) => {
       let insert = key
       if (project.namespaced) {
-        const { namespace, path } = splitKey(key)
-        const bare = path.join('.')
+        // The text after the namespace as one segment, so literal keys keep their `.` and `:`.
+        const { namespace, path } = splitKey(key, true, false)
+        const bare = path[0] ?? ''
         // A key of a fallback namespace needs no namespace unless the scope's namespace has it too.
         const implied = namespace === scopeNs || (namespace !== undefined && fallback.includes(namespace) && !known.has(joinKey(scopeNs, path)))
+        // Without a separator in code (`nsSeparator: false`), keys of another namespace cannot be written.
+        if (!implied && namespace !== undefined && separator === false)
+          return []
         insert = implied || namespace === undefined
           ? bare
           : `${namespace}${separator}${bare}`
@@ -732,13 +737,14 @@ class Server {
     const { entry, path } = found
     const roots: DocumentSymbol[] = []
     const stack: { key: string, symbol: DocumentSymbol }[] = []
+    const joiner = entry.project.config.keySeparator || '.'
     for (const node of entry.project.nodes(path)) {
-      while (stack.length && !node.key.startsWith(`${stack.at(-1)!.key}.`))
+      while (stack.length && !node.key.startsWith(`${stack.at(-1)!.key}${joiner}`))
         stack.pop()
       const parentKey = stack.at(-1)?.key
       const symbol: DocumentSymbol = {
         name: parentKey
-          ? node.key.slice(parentKey.length + 1)
+          ? node.key.slice(parentKey.length + joiner.length)
           : node.key,
         detail: node.leaf
           ? display(entry.project.message(node.key, node.locale)?.value) ?? ''
@@ -999,26 +1005,34 @@ class Server {
     const locale = this.displayLocale(entry)
     const parent = params.parent
     const children = new Map<string, KeyString[]>()
+    // Literal keys (`keySeparator: false`) have no children; only namespaces group them.
+    const separator = project.config.keySeparator
+    const joiner = separator || '.'
+    const namespaceNode = (node: string): boolean => project.namespaced && node.endsWith(':')
     for (const key of project.keys()) {
-      if (parent !== undefined && !key.startsWith(project.namespaced && parent.endsWith(':')
+      if (parent !== undefined && !namespaceNode(parent) && separator === false)
+        continue
+      if (parent !== undefined && !key.startsWith(namespaceNode(parent)
         ? parent
-        : `${parent}.`)) {
+        : `${parent}${joiner}`)) {
         continue
       }
       const rest = parent === undefined
         ? key
-        : key.slice(parent.length + (parent.endsWith(':')
+        : key.slice(parent.length + (namespaceNode(parent)
             ? 0
-            : 1))
+            : joiner.length))
       const ns = parent === undefined && project.namespaced
         ? rest.slice(0, rest.indexOf(':') + 1)
         : ''
-      const segment = ns || rest.split('.')[0]!
+      const segment = ns || (separator === false
+        ? rest
+        : rest.split(separator)[0]!)
       const child = parent === undefined
         ? segment
-        : `${parent}${parent.endsWith(':')
+        : `${parent}${namespaceNode(parent)
           ? ''
-          : '.'}${segment}`
+          : joiner}${segment}`
       const list = children.get(child) ?? []
       children.set(child, list)
       list.push(key)

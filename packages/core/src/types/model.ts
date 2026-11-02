@@ -1,3 +1,4 @@
+import type { KeySeparator } from './config'
 import type { ReviewAuthor, ReviewType } from './review'
 
 // Domain names from the glossary. Branding them would force a cast at every boundary.
@@ -76,6 +77,8 @@ export interface Resource {
   readonly readonly: boolean
   /** Id of the locale finder that found the resource. */
   readonly finder: string
+  /** Key separator of the resource when it differs from the config's `keySeparator` (from its resource spec). */
+  readonly keySeparator?: KeySeparator | undefined
 }
 
 /** One stored value of one key in one locale. */

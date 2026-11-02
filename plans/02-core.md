@@ -21,13 +21,13 @@ interface LocaleInfo {
   readonly requiredPluralCategories: readonly Intl.LDMLPluralRule[] // `other` and what whole numbers select, used by coverage
 }
 
-/** Canonical key: optional namespace plus path segments. Segments may contain dots when the key style is flat. */
+/** Canonical key: optional namespace plus path segments. With `keySeparator: false` the path is one literal segment that may hold `.` and `:`. */
 interface KeyId {
   readonly namespace: string | undefined
   readonly path: readonly string[]
 }
 
-/** Canonical string form: `ns:a.b.c`, or `a.b.c` without namespace. Segments that contain the separator are escaped. */
+/** Canonical string form: `ns:a.b.c`, or `a.b.c` without namespace. The namespace ends at the first `:`; the path is joined by `keySeparator` (`.`, or kept whole when `false`). */
 type KeyString = string & { readonly __brand: 'KeyString' }
 
 type MessageLeaf = string | number | boolean | null

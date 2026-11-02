@@ -40,7 +40,8 @@ export function lingui(): Preset {
           { pattern: 'src/locales/{locale}/messages.po' },
           { pattern: 'locales/{locale}/messages.po' },
         ],
-        // Lingui keys are source messages.
+        // Lingui keys are source messages, which may hold `.` and `:`.
+        keySeparator: false,
         extra: (draft) => {
           draft.extract = { keygen: 'source', ...draft.extract }
         },

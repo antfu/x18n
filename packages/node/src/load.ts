@@ -124,6 +124,8 @@ function applyDefaults(draft: ConfigDraft, config: SerializableConfig): void {
   }
   if (config.keyStyle)
     draft.keyStyle = config.keyStyle
+  if (config.keySeparator !== undefined)
+    draft.keySeparator = config.keySeparator
   if (config.namespace?.default)
     draft.namespace = { ...draft.namespace, default: config.namespace.default }
   if (config.usage) {

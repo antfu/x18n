@@ -1,5 +1,5 @@
 import type { PluginRegistry } from '../plugins'
-import type { ResolvedConfig } from '../types/config'
+import type { KeySeparator, ResolvedConfig } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { EditOp, ExtractItem, KeyString, LocaleCode, Message, MessageLeaf, MessageTree, Resource, TextEdit, Usage } from '../types/model'
 import type { Format, MessageOp } from '../types/plugin'
@@ -7,7 +7,7 @@ import type { Answers, ApplyResult, Decision, FileChange, Plan, ProjectChange, U
 import type { ReviewData, ReviewStore } from '../types/review'
 import type { ResourceState } from './analysis'
 import { errors } from '../errors'
-import { isKeyUnder, replaceKeyPrefix, splitKey } from '../keys'
+import { isKeyUnder, keyJoiner, keySeparatorOf, replaceKeyPrefix, splitKey, splitKeyPath, splitNamespace } from '../keys'
 import { applyMessageOps, isMessageLeaf, pathId, sortTree, walkLeaves } from '../message-tree'
 import { applyTextEdits, diffText, hashText } from '../text'
 import { findReview, noReviews, ReviewDraft, reviewId, sortReviews, sourceHash, valueText } from './reviews'
@@ -57,6 +57,7 @@ interface Target {
   readonly path: string
   readonly locale: LocaleCode
   readonly namespace: string | undefined
+  readonly keySeparator?: KeySeparator | undefined
   readonly format: Format
   /** Set for resources that already exist. */
   readonly state: ResourceState | undefined
@@ -92,28 +93,28 @@ function nodeAt(tree: MessageTree, path: readonly string[]): MessageLeaf | Messa
 }
 
 /** True for flat files (`{ "a.b": "x" }`), false for nested ones, undefined when it cannot tell. */
-function isFlatTree(tree: MessageTree): boolean | undefined {
+function isFlatTree(tree: MessageTree, separator: string): boolean | undefined {
   const entries = Object.entries(tree)
   if (entries.length === 0)
     return undefined
   if (entries.some(([, value]) => !isMessageLeaf(value)))
     return false
-  return entries.some(([key]) => key.includes('.'))
+  return entries.some(([key]) => key.includes(separator))
     ? true
     : undefined
 }
 
 /** The longest key prefix a tree shares with `path`. */
-function longestPrefix(tree: MessageTree, prefix: readonly string[], path: readonly string[]): number {
+function longestPrefix(tree: MessageTree, prefix: readonly string[], path: readonly string[], separator: KeySeparator): number {
   let best = 0
   for (const [segment, child] of Object.entries(tree)) {
     const next = [
       ...prefix,
-      ...segment.split('.'),
+      ...splitKeyPath(segment, separator),
     ]
     best = Math.max(best, commonPrefix(next, path))
     if (!isMessageLeaf(child))
-      best = Math.max(best, longestPrefix(child, next, path))
+      best = Math.max(best, longestPrefix(child, next, path, separator))
   }
   return best
 }
@@ -179,6 +180,7 @@ class PlanBuilder {
       path: s.resource.path,
       locale: s.resource.locale,
       namespace: s.resource.namespace,
+      keySeparator: s.resource.keySeparator,
       format,
       state: s,
     }
@@ -207,37 +209,55 @@ class PlanBuilder {
   }
 
   keyId(key: KeyString): { namespace: string | undefined, path: string[] } {
-    const id = splitKey(key, this.state.namespaced)
+    const id = splitKey(key, this.state.namespaced, this.config.keySeparator)
     return {
       namespace: id.namespace,
       path: [...id.path],
     }
   }
 
-  /** Key path relative to a resource, or undefined when the key does not belong there. */
-  relativePath(key: KeyString, target: { readonly namespace: string | undefined }): string[] | undefined {
-    const { namespace, path } = this.keyId(key)
+  separatorOf(target: { readonly keySeparator?: KeySeparator | undefined }): KeySeparator {
+    return keySeparatorOf(target, this.config.keySeparator)
+  }
+
+  /**
+   * Key path relative to a resource, or undefined when the key does not belong there.
+   * A resource of literal keys (`keySeparator: false`) gets the whole rest of the key as one segment.
+   */
+  relativePath(key: KeyString, target: { readonly namespace: string | undefined, readonly keySeparator?: KeySeparator | undefined }): string[] | undefined {
+    const { namespace, rest } = splitNamespace(key, this.state.namespaced)
+    const literal = this.separatorOf(target) === false
+    const joiner = keyJoiner(this.config.keySeparator)
+    const split = (text: string): string[] => splitKeyPath(text, literal
+      ? false
+      : joiner)
     const fallback = this.config.namespace.default
     if (this.state.namespaced) {
       return (namespace ?? fallback) === (target.namespace ?? fallback)
-        ? path
+        ? split(rest)
         : undefined
     }
-    const prefix = target.namespace
-      ? target.namespace.split('.')
-      : []
-    if (path.length <= prefix.length || prefix.some((segment, i) => path[i] !== segment))
+    if (!target.namespace) {
+      return rest === ''
+        ? undefined
+        : split(rest)
+    }
+    const prefix = target.namespace.split('.').join(joiner) + joiner
+    if (rest.length <= prefix.length || !rest.startsWith(prefix))
       return undefined
-    return path.slice(prefix.length)
+    return split(rest.slice(prefix.length))
   }
 
   storedPathFor(entry: Work, relative: readonly string[]): string[] {
     const stored = this.options.toStored(entry.target, relative)
+    const separator = this.separatorOf(entry.target)
+    if (separator === false)
+      return stored
     // Transforms (Rails, Chrome) fix the nesting; otherwise follow the file's style.
-    const flat = stored.length === relative.length && (isFlatTree(entry.tree) ?? (this.config.keyStyle === 'flat'))
+    const flat = stored.length === relative.length && (isFlatTree(entry.tree, separator) ?? (this.config.keyStyle === 'flat'))
     return flat
       ? [
-          stored.join('.'),
+          stored.join(separator),
         ]
       : stored
   }
@@ -267,6 +287,7 @@ class PlanBuilder {
           path: resolved,
           locale,
           namespace,
+          keySeparator: model?.resource.keySeparator,
           format,
           state: undefined,
         }
@@ -285,6 +306,7 @@ class PlanBuilder {
       path,
       locale,
       namespace: namespace ?? model.resource.namespace,
+      keySeparator: model.resource.keySeparator,
       format,
       state: undefined,
     }
@@ -316,7 +338,7 @@ class PlanBuilder {
         : []
       return {
         s,
-        best: longestPrefix(s.tree, prefix, path),
+        best: longestPrefix(s.tree, prefix, path, this.separatorOf(s.resource)),
       }
     })
     const top = Math.max(...scores.map(x => x.best))
@@ -429,10 +451,11 @@ class PlanBuilder {
         continue
       }
       const entry = this.workFor(this.targetOf(s))
-      const flat = m.storedPath.length === 1 && m.storedPath[0]!.includes('.')
+      const separator = this.separatorOf(s.resource)
+      const flat = separator !== false && m.storedPath.length === 1 && m.storedPath[0]!.includes(separator)
       const next = flat
         ? [
-            relative.join('.'),
+            relative.join(separator),
           ]
         : this.options.toStored(s.resource, relative)
       const sameParent = next.length === m.storedPath.length && next.slice(0, -1).every((segment, i) => segment === m.storedPath[i])
@@ -464,19 +487,24 @@ class PlanBuilder {
       if (next.startsWith(`${scope}.`))
         return next.slice(scope.length)
     }
-    const { namespace, path } = this.keyId(next)
-    let rest = path.join('.')
+    const { namespace, rest: text } = splitNamespace(next, this.state.namespaced)
+    let rest = text
     const separator = this.config.namespace.separator
-    const explicit = this.state.namespaced && usage.raw.indexOf(separator) > 0
+    const explicit = this.state.namespaced && separator !== false && usage.raw.indexOf(separator) > 0
     if (usage.scopePrefix && !explicit) {
-      if (!rest.startsWith(`${usage.scopePrefix}.`))
+      const prefix = usage.scopePrefix + keyJoiner(this.config.keySeparator)
+      if (!rest.startsWith(prefix))
         return undefined
-      rest = rest.slice(usage.scopePrefix.length + 1)
+      rest = rest.slice(prefix.length)
     }
     if (!this.state.namespaced)
       return rest
-    if (explicit || namespace !== (usage.scopeNamespace ?? this.config.namespace.default))
-      return `${namespace}${separator}${rest}`
+    if (explicit || namespace !== (usage.scopeNamespace ?? this.config.namespace.default)) {
+      // Without a separator in code, a key of another namespace cannot be written.
+      return separator === false
+        ? undefined
+        : `${namespace}${separator}${rest}`
+    }
     return rest
   }
 
@@ -532,7 +560,7 @@ class PlanBuilder {
       return
     const all = this.options.allKeys()
     const isLeaf = this.options.messages(op.from) !== undefined
-    const under = all.filter(key => isKeyUnder(key, op.from))
+    const under = all.filter(key => isKeyUnder(key, op.from, this.config.keySeparator))
     // Derived keys (`item_one`) move with their base key (`item`).
     const derived = all.filter(key => this.options.basesOf(key).includes(op.from))
     let keys: KeyString[]
@@ -574,7 +602,7 @@ class PlanBuilder {
   delete(op: Extract<EditOp, { type: 'delete' }>): void {
     const keys = this.options.messages(op.key)
       ? [op.key]
-      : this.options.allKeys().filter(key => isKeyUnder(key, op.key))
+      : this.options.allKeys().filter(key => isKeyUnder(key, op.key, this.config.keySeparator))
     if (keys.length === 0)
       throw errors.X18N4006({ key: op.key })
     for (const key of keys) {

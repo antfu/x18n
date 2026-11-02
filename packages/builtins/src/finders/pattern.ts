@@ -201,6 +201,9 @@ async function findBySpecs(ctx: FinderContext, specs: readonly ResourceSpec[], s
         namespace,
         format: spec.format,
         readonly: spec.execute === true,
+        ...spec.keySeparator === undefined
+          ? {}
+          : { keySeparator: spec.keySeparator },
       })
     }
   }

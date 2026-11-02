@@ -1,4 +1,4 @@
-import type { CallSpec, ConfigDraft, ExtractTemplate, NamespaceFromPath, RegexScannerSpec, ResourceSpec } from './types/config'
+import type { CallSpec, ConfigDraft, ExtractTemplate, KeySeparator, NamespaceFromPath, RegexScannerSpec, ResourceSpec } from './types/config'
 import type { ConfigContext, LocaleFinder, PlaceholderSyntax, Plugin, ResourceTransform } from './types/plugin'
 
 export interface LibraryOptions {
@@ -14,6 +14,8 @@ export interface LibraryOptions {
   /** Default resource patterns (i18n-ally `preferredLocalePaths` + `pathMatcher`). */
   readonly resources?: readonly ResourceSpec[]
   readonly keyStyle?: 'nested' | 'flat'
+  /** The library's key separator; `false` for literal keys (gettext). The user's `keySeparator` wins. */
+  readonly keySeparator?: KeySeparator
   readonly templates?: readonly ExtractTemplate[]
   readonly finders?: readonly LocaleFinder[]
   readonly normalizeKey?: Plugin['normalizeKey']
@@ -44,6 +46,8 @@ export function createLibraryPlugin(options: LibraryOptions): Plugin {
       }
       if (options.keyStyle && draft.keyStyle === 'auto' && !ctx.user.keyStyle)
         draft.keyStyle = options.keyStyle
+      if (options.keySeparator !== undefined && ctx.user.keySeparator === undefined)
+        draft.keySeparator = options.keySeparator
       draft.usage = {
         ...draft.usage,
         calls: [
