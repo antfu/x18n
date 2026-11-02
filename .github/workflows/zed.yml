@@ -1,10 +1,20 @@
 name: Zed extension
 
+# The extension builds on its own and tests against the published `@x18n/lsp`,
+# so only its files and the `zed` catalog in `pnpm-workspace.yaml` can break it.
 on:
   push:
     branches: [main]
+    paths:
+      - packages/zed/**
+      - pnpm-workspace.yaml
+      - .github/workflows/zed.yml
   pull_request:
     branches: [main]
+    paths:
+      - packages/zed/**
+      - pnpm-workspace.yaml
+      - .github/workflows/zed.yml
 
 permissions:
   contents: read
