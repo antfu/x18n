@@ -4,6 +4,7 @@
 // #region Other
 export { angularI18next }
 export { angularLocalize }
+export { appleStrings }
 export { cargoI18n }
 export { chromeExtension }
 export { dotnetResx }

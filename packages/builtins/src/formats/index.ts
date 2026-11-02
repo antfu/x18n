@@ -10,6 +10,9 @@ import php from './php/entry'
 import po from './po/entry'
 import properties from './properties/entry'
 import resx from './resx/entry'
+import strings from './strings/entry'
+import stringsdict from './stringsdict/entry'
+import xcstrings from './xcstrings/entry'
 import xliff from './xliff/entry'
 import xmb from './xmb/entry'
 import yaml from './yaml/entry'
@@ -26,6 +29,9 @@ export const formats: { readonly [id: string]: FormatEntry } = {
   po,
   properties,
   resx,
+  strings,
+  stringsdict,
+  xcstrings,
   xliff,
   xmb,
   arb,

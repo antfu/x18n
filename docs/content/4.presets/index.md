@@ -51,6 +51,8 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`i18nice`](/presets/i18nice) | i18nice, python-i18n | `i18nice`, `python-i18n` in `pyproject.toml` or `requirements.txt` |
 | [`cargo-i18n`](/presets/cargo-i18n) | cargo-i18n (Fluent) | `i18n-embed-fl`, `i18n-embed` in `Cargo.toml` |
 | [`dotnet-resx`](/presets/dotnet-resx) | .NET `IStringLocalizer` and `.resx` resources | a `*.csproj`, `*.vbproj` or `*.fsproj` and a `*.resx` file |
+| [`apple-strings`](/presets/apple-strings) | Apple string catalogs, `.strings` and `.stringsdict` | `*.xcstrings`, `*.lproj/*.strings`, `*.lproj/*.stringsdict` |
+
 | [`general`](/presets/general) | none | always |
 
 ## Detection

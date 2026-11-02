@@ -1249,6 +1249,27 @@ exports[`rpc functions > explains the project 1`] = `
         },
         {
           "extensions": [
+            "strings",
+          ],
+          "id": "strings",
+          "resources": 0,
+        },
+        {
+          "extensions": [
+            "stringsdict",
+          ],
+          "id": "stringsdict",
+          "resources": 0,
+        },
+        {
+          "extensions": [
+            "xcstrings",
+          ],
+          "id": "xcstrings",
+          "resources": 0,
+        },
+        {
+          "extensions": [
             "xlf",
             "xliff",
           ],
@@ -1329,6 +1350,9 @@ exports[`rpc functions > explains the project 1`] = `
         "x18n:format-po",
         "x18n:format-properties",
         "x18n:format-resx",
+        "x18n:format-strings",
+        "x18n:format-stringsdict",
+        "x18n:format-xcstrings",
         "x18n:format-xliff",
         "x18n:format-xmb",
         "x18n:format-arb",
@@ -1520,6 +1544,10 @@ exports[`rpc functions > explains the project 1`] = `
         },
         {
           "name": "cargo-i18n",
+          "reason": "not-detected",
+        },
+        {
+          "name": "apple-strings",
           "reason": "not-detected",
         },
         {
