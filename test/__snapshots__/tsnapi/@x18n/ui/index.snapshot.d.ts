@@ -204,6 +204,23 @@ export interface UiProject {
   readonly root: string;
   readonly project: Project;
 }
+export interface UnusedDeletionQuery extends ProjectQuery, Confirmable {
+  readonly glob?: string | undefined;
+  readonly namespace?: string | undefined;
+}
+export interface UnusedDeletionView extends ApplyView {
+  readonly deleted: readonly {
+    readonly key: KeyString;
+    readonly messages: readonly {
+      readonly locale: LocaleCode;
+      readonly path: string;
+    }[];
+  }[];
+  readonly kept: readonly {
+    readonly key: KeyString;
+    readonly usages: readonly UsageView[];
+  }[];
+}
 export interface UsageQuery extends ProjectQuery {
   readonly key?: KeyString | undefined;
   readonly path?: string | undefined;

@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises'
 import { join, relative } from 'node:path'
 import process from 'node:process'
 import { createInterface } from 'node:readline/promises'
-import { applyTextEdits, envelope, errors, isX18nError, toWireDiagnostic } from '@x18n/core'
+import { applyTextEdits, envelope, errors, isX18nError, toWireDiagnostic, toWireRange } from '@x18n/core'
 import { loadWorkspace, stderrLogger } from '@x18n/node'
 
 export interface GlobalOptions {
@@ -69,6 +69,16 @@ export function wireDiagnostics(loaded: LoadedProject, diagnostics: readonly Dia
 }
 
 /** Exit code for an error code: 2 usage or config, 3 decision needed, 4 stale plan, 1 otherwise. */
+/** File, line and column (1-based) of an offset range. */
+export function locate(loaded: LoadedProject, path: string, start: number, end: number): { file: string, line: number, column: number } {
+  const range = toWireRange(loaded.project.text(path), start, end)
+  return {
+    file: displayPath(loaded.root, path),
+    line: range.line,
+    column: range.column,
+  }
+}
+
 export function exitCodeFor(code: ErrorCode): number {
   if (code === 'X18N4003')
     return 3
@@ -176,20 +186,37 @@ function planData(root: string, plan: Plan, applied: boolean): object {
   }
 }
 
+/** What a command prints instead of the line diff, and adds to the JSON `data`. */
+export interface PlanReport {
+  readonly data: object
+  readonly text: (applied: boolean) => string
+}
+
 /** Plans, asks, then applies (or prints with `--dry-run`). */
-export async function runPlan(command: string, loaded: LoadedProject, plan: Plan, options: GlobalOptions & { readonly dryRun?: boolean | undefined }): Promise<void> {
+export async function runPlan(command: string, loaded: LoadedProject, plan: Plan, options: GlobalOptions & { readonly dryRun?: boolean | undefined }, report?: PlanReport): Promise<void> {
+  const print = (applied: boolean, preview: string): void => {
+    if (options.json) {
+      printJson(command, {
+        ...planData(loaded.root, plan, applied),
+        ...report?.data,
+      })
+    }
+    else {
+      out(report
+        ? report.text(applied)
+        : preview)
+    }
+  }
   if (options.dryRun) {
-    if (options.json)
-      printJson(command, planData(loaded.root, plan, false))
-    else
-      out(formatPlan(loaded.project, loaded.root, plan))
+    print(false, report
+      ? ''
+      : formatPlan(loaded.project, loaded.root, plan))
     return
   }
   const answers = await answer(plan, options)
-  const preview = formatPlan(loaded.project, loaded.root, plan)
+  const preview = report
+    ? ''
+    : formatPlan(loaded.project, loaded.root, plan)
   await loaded.project.apply(plan, { answers })
-  if (options.json)
-    printJson(command, planData(loaded.root, plan, true))
-  else
-    out(preview)
+  print(true, preview)
 }

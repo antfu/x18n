@@ -15,6 +15,8 @@ import type {
   TranslatePromptParams,
   TreeNode,
   TreeParams,
+  UnusedDeletionParams,
+  UnusedDeletionResult,
   UsageReportResult,
 } from '@x18n/lsp'
 
@@ -26,6 +28,7 @@ export interface Requests {
   'x18n/progress': [undefined, ProgressResult]
   'x18n/fileKeys': [DocumentParams, FileKeysResult]
   'x18n/usageReport': [undefined, UsageReportResult]
+  'x18n/unusedDeletion': [UnusedDeletionParams, UnusedDeletionResult]
   'x18n/search': [SearchParams, SearchMatch[]]
   'x18n/decorations': [DocumentParams, DecorationsResult]
   'x18n/openUi': [OpenUiParams, OpenUiResult]

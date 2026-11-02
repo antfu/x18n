@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "全部（{count}）",
+    "deleteCancel": "取消",
+    "deleteConfirm": "刪除 {count} 個鍵",
+    "deleteDone": "已刪除鍵：{count}。已修改檔案：{files}。",
+    "deleteKept": "保留（{count}）：程式碼中的動態鍵可能用到它們。",
+    "deleteNone": "沒有可以安全刪除的未使用鍵。",
+    "deletePlan": "在所有語言中刪除 {files} 個檔案裡的 {count} 個鍵。註解和格式保持不變。",
+    "deleteUnused": "刪除未使用的鍵",
     "dynamic": "動態（{count}）",
     "dynamicHint": "使用計算鍵的使用處。其前綴下的鍵皆視為已使用。",
     "filter": "依檔案或鍵篩選",

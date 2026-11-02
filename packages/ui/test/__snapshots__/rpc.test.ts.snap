@@ -466,6 +466,44 @@ exports[`agent tools > names the tools for MCP 1`] = `
     "safety": "destructive",
   },
   {
+    "description": "Delete every unused key (the keys \`x18n_keys\` lists with \`unused: true\`) in all locales, optionally only those matching \`glob\` or \`namespace\`. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a \`keyPrefix\` or namespace) are left alone and listed in \`kept\`; \`warnings\` names computed keys that may reach any key. Code is not changed. Without \`confirm\` it returns the plan: \`deleted\` lists each key with its locales and files. Call again with \`confirm: true\` to apply it.",
+    "id": "x18n:delete_unused_keys",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "properties": {
+        "answers": {
+          "additionalProperties": {
+            "type": "string",
+          },
+          "description": "Decision id to option id, for decisions in the plan. Default: each decision's \`default\`.",
+          "propertyNames": {
+            "type": "string",
+          },
+          "type": "object",
+        },
+        "confirm": {
+          "description": "Apply the plan. Without it, the tool only returns the plan.",
+          "type": "boolean",
+        },
+        "glob": {
+          "description": "Only unused keys matching this glob: \`*\` inside a segment, \`**\` across segments.",
+          "type": "string",
+        },
+        "namespace": {
+          "description": "Only unused keys of this namespace.",
+          "type": "string",
+        },
+        "project": {
+          "description": "Project name from \`x18n_status\`. Required only in a monorepo with several projects.",
+          "type": "string",
+        },
+      },
+      "required": [],
+      "type": "object",
+    },
+    "safety": "destructive",
+  },
+  {
     "description": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n_extract_apply.",
     "id": "x18n:extract_plan",
     "inputSchema": {
@@ -592,6 +630,45 @@ exports[`agent tools > plans an extraction 1`] = `
   "items": [],
   "project": "vue-i18n",
   "x18n": 1,
+}
+`;
+
+exports[`agent tools > plans the bulk delete of unused keys, and deletes them on confirm 1`] = `
+{
+  "applied": false,
+  "changes": [
+    {
+      "path": "src/locales/de.json",
+      "type": "edit",
+    },
+    {
+      "path": "src/locales/en.json",
+      "type": "edit",
+    },
+  ],
+  "decisions": [],
+  "deleted": [
+    {
+      "key": "linked",
+      "messages": [
+        {
+          "locale": "en",
+          "path": "src/locales/en.json",
+        },
+        {
+          "locale": "de",
+          "path": "src/locales/de.json",
+        },
+      ],
+    },
+  ],
+  "kept": [],
+  "keys": [
+    "linked",
+  ],
+  "problems": [],
+  "revision": 5,
+  "warnings": [],
 }
 `;
 

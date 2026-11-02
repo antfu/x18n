@@ -176,6 +176,23 @@ export interface ReviewsResult {
   readonly threads: readonly ReviewThreadInfo[]
 }
 
+export interface UnusedDeletionParams {
+  /** Default: every project. */
+  readonly project?: string | undefined
+}
+
+/** Dry run of the bulk delete of unused keys; `x18n.deleteUnused` applies it. */
+export interface UnusedDeletionResult {
+  readonly projects: readonly {
+    readonly project: string
+    /** Keys to delete, sorted, with one location per message. */
+    readonly keys: readonly { readonly key: string, readonly locations: readonly Location[] }[]
+    /** Unused keys left alone because fully dynamic usages in a scope may reach them, sorted. */
+    readonly kept: readonly { readonly key: string, readonly usages: readonly Location[] }[]
+    readonly warnings: readonly string[]
+  }[]
+}
+
 export interface ChangedParams {
   readonly project: string
   readonly revision: number
@@ -189,6 +206,7 @@ export interface Methods {
   readonly progress: 'x18n/progress'
   readonly fileKeys: 'x18n/fileKeys'
   readonly usageReport: 'x18n/usageReport'
+  readonly unusedDeletion: 'x18n/unusedDeletion'
   readonly search: 'x18n/search'
   readonly decorations: 'x18n/decorations'
   readonly setDisplayLocale: 'x18n/setDisplayLocale'
@@ -206,6 +224,7 @@ export const methods: Methods = {
   progress: 'x18n/progress',
   fileKeys: 'x18n/fileKeys',
   usageReport: 'x18n/usageReport',
+  unusedDeletion: 'x18n/unusedDeletion',
   search: 'x18n/search',
   decorations: 'x18n/decorations',
   setDisplayLocale: 'x18n/setDisplayLocale',
@@ -220,6 +239,8 @@ export const methods: Methods = {
 export interface Commands {
   readonly set: 'x18n.set'
   readonly delete: 'x18n.delete'
+  /** `{ project? }`: deletes the keys of `x18n/unusedDeletion` through `workspace/applyEdit`. */
+  readonly deleteUnused: 'x18n.deleteUnused'
   readonly renamePrefix: 'x18n.renamePrefix'
   readonly extract: 'x18n.extract'
   /** `{ uri: <folder> }` -> `{ files: { path, content }[], notes, removable }`; nothing is written. */
@@ -235,6 +256,7 @@ export interface Commands {
 export const commands: Commands = {
   set: 'x18n.set',
   delete: 'x18n.delete',
+  deleteUnused: 'x18n.deleteUnused',
   renamePrefix: 'x18n.renamePrefix',
   extract: 'x18n.extract',
   migrateI18nAlly: 'x18n.migrateI18nAlly',

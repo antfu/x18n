@@ -20,6 +20,7 @@ import { createHistory } from './history'
 import { createPlanner } from './planner'
 import { buildPrompt } from './prompt'
 import { listThreads, noReviews, sourceHash } from './reviews'
+import { planUnusedDeletion } from './unused'
 import { categoriesOf, createUsageResolver, derivedKeys, prefixMatches, suppressedRanges } from './usages'
 
 export interface CreateProjectOptions {
@@ -1208,6 +1209,14 @@ export function createProject(options: CreateProjectOptions): Project {
       : undefined),
     owns: path => fileTexts.has(path) || files.has(path) || usageEligible(path),
     plan: ops => planner.plan(ops),
+    planUnused: query => planUnusedDeletion({
+      unused: analyzer.analyze().unused,
+      usages: idx().usages,
+      namespaced,
+      ignoreKeys: config.ignoreKeys,
+      locations: key => project.locations(key),
+      plan: ops => planner.plan(ops),
+    }, query),
     apply: (plan, applyOptions) => planner.apply(plan, applyOptions?.answers ?? {}),
     update,
     watch() {

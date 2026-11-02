@@ -44,7 +44,7 @@ Package `@x18n/lsp`, binary `x18n-lsp` (`--stdio`, `--node-ipc`, `--socket=<port
 | `textDocument/documentSymbol` | Key tree in resource files. | new |
 | `workspace/symbol` | Search keys and values across the project. | new |
 | `textDocument/codeLens` (opt-in) | In resource files: "used 3 times", "missing in de, fr". | new |
-| `workspace/executeCommand` | `x18n.set`, `x18n.delete`, `x18n.extract`, `x18n.renamePrefix`. | commands |
+| `workspace/executeCommand` | `x18n.set`, `x18n.delete`, `x18n.deleteUnused`, `x18n.extract`, `x18n.renamePrefix`. | commands |
 
 Hover and inlay hints inside resource files show the display-locale value next to the same key in another locale's file, as i18n-ally did.
 
@@ -59,7 +59,8 @@ All methods use the `x18n/` prefix. Shapes are valibot schemas shared with the c
 | `x18n/tree` | request | Key tree with coverage per node, for tree views. Lazy by parent key. |
 | `x18n/progress` | request | Coverage per locale with missing and empty key lists. |
 | `x18n/fileKeys` | request | Keys used in a document, keys not found, hard strings (Current File view). |
-| `x18n/usageReport` | request | Unused and missing keys with locations. |
+| `x18n/usageReport` | request | Unused and missing keys with locations, sorted by project and key. |
+| `x18n/unusedDeletion` | request | Dry run of `x18n.deleteUnused`: per project, the keys with a location per message, the kept keys with the usages that keep them, and warnings. |
 | `x18n/search` | request | Keys by value in any locale (fuzzy, or `exact`), best first, with the locale entry and the usages (reverse search). |
 | `x18n/decorations` | request | Ranges, values and states for in-place annotations. |
 | `x18n/setDisplayLocale` | notification | Per-client display locale. |

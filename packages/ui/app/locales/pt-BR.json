@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "Todos ({count})",
+    "deleteCancel": "Cancelar",
+    "deleteConfirm": "Excluir {count} chaves",
+    "deleteDone": "Chaves excluídas: {count}. Arquivos alterados: {files}.",
+    "deleteKept": "Mantidas ({count}): chaves calculadas no código podem usá-las.",
+    "deleteNone": "Nenhuma chave não usada pode ser excluída com segurança.",
+    "deletePlan": "Exclui {count} chaves em {files} arquivos, em todos os idiomas. Comentários e formatação são mantidos.",
+    "deleteUnused": "Excluir chaves não usadas",
     "dynamic": "Dinâmicos ({count})",
     "dynamicHint": "Usos com chave calculada. Chaves sob o prefixo contam como usadas.",
     "filter": "Filtrar por arquivo ou chave",

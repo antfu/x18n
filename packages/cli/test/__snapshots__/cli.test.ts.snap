@@ -205,6 +205,84 @@ exports[`x18n binary > keeps the JSON contract of every read command > check 1`]
 "
 `;
 
+exports[`x18n binary > keeps the JSON contract of every read command > delete --unused --dry-run 1`] = `
+"{
+  "x18n": 2,
+  "command": "delete",
+  "data": {
+    "applied": false,
+    "keys": [
+      "linked",
+      "unused"
+    ],
+    "warnings": [],
+    "decisions": [],
+    "changes": [
+      {
+        "type": "edit",
+        "path": "src/locales/de.json",
+        "edits": [
+          {
+            "range": {
+              "start": 185,
+              "end": 236
+            },
+            "text": ""
+          }
+        ],
+        "file": "src/locales/de.json"
+      },
+      {
+        "type": "edit",
+        "path": "src/locales/en.json",
+        "edits": [
+          {
+            "range": {
+              "start": 238,
+              "end": 296
+            },
+            "text": ""
+          }
+        ],
+        "file": "src/locales/en.json"
+      }
+    ],
+    "deleted": [
+      {
+        "key": "linked",
+        "messages": [
+          {
+            "locale": "en",
+            "file": "src/locales/en.json"
+          },
+          {
+            "locale": "de",
+            "file": "src/locales/de.json"
+          }
+        ]
+      },
+      {
+        "key": "unused",
+        "messages": [
+          {
+            "locale": "en",
+            "file": "src/locales/en.json"
+          },
+          {
+            "locale": "de",
+            "file": "src/locales/de.json"
+          }
+        ]
+      }
+    ],
+    "kept": []
+  },
+  "diagnostics": [],
+  "errors": []
+}
+"
+`;
+
 exports[`x18n binary > keeps the JSON contract of every read command > get app.greeting 1`] = `
 "{
   "x18n": 2,

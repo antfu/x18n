@@ -266,6 +266,10 @@ export interface Host {
 export interface JsonObject {
   readonly [key: string]: JsonValue;
 }
+export interface KeptUnusedKey {
+  readonly key: KeyString;
+  readonly usages: readonly Usage[];
+}
 export interface KeyContext {
   readonly path: string;
 }
@@ -598,6 +602,7 @@ export interface Project {
   readonly text: (_: string) => string | undefined;
   readonly owns: (_: string) => boolean;
   readonly plan: (_: readonly EditOp[]) => Plan;
+  readonly planUnused: (_?: UnusedQuery) => UnusedDeletion;
   readonly apply: (_: Plan, _?: {
     readonly answers?: Answers | undefined;
   }) => Promise<ApplyResult>;
@@ -990,6 +995,22 @@ export interface ThreadComment extends ReviewComment {
 export interface TreeLeaf {
   readonly path: readonly string[];
   readonly value: MessageLeaf;
+}
+export interface UnusedDeletion {
+  readonly plan: Plan;
+  readonly keys: readonly UnusedKeyDeletion[];
+  readonly kept: readonly KeptUnusedKey[];
+}
+export interface UnusedKeyDeletion {
+  readonly key: KeyString;
+  readonly messages: readonly {
+    readonly locale: LocaleCode;
+    readonly path: string;
+  }[];
+}
+export interface UnusedQuery {
+  readonly glob?: string | undefined;
+  readonly namespace?: string | undefined;
 }
 export interface Usage {
   readonly key: KeyString | undefined;

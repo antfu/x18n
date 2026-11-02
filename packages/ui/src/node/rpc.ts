@@ -1,11 +1,11 @@
 import type { DevframeNodeContext } from 'devframe'
-import type { ApplyQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectList, ProjectQuery, PromptQuery, ReviewQuery, UiLocation, UiProject, UsageQuery } from './types'
+import type { ApplyQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectList, ProjectQuery, PromptQuery, ReviewQuery, UiLocation, UiProject, UnusedDeletionQuery, UsageQuery } from './types'
 import { extractItems, findCandidates } from '@x18n/builtins/extractors'
 import { renderPrompt } from '@x18n/core'
 import { defineRpcFunction } from 'devframe'
 import * as v from 'valibot'
-import { ApplyQuerySchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, OpenQuerySchema, PlanQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UsageQuerySchema } from './schemas'
-import { analysisView, applyOps, explainView, keyDetail, keyTable, pickProject, previewOps, summarize, usageViews } from './views'
+import { ApplyQuerySchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, OpenQuerySchema, PlanQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UnusedDeletionSchema, UsageQuerySchema } from './schemas'
+import { analysisView, applyOps, explainView, keyDetail, keyTable, pickProject, previewOps, summarize, unusedDeletionView, usageViews } from './views'
 
 export interface RpcOptions {
   readonly openInEditor?: ((location: UiLocation) => Promise<void>) | undefined
@@ -136,6 +136,15 @@ export function registerRpc(ctx: DevframeNodeContext, projects: readonly UiProje
     handler: (query: ApplyQuery) => {
       const { project, ops, answers, force } = v.parse(ApplyQuerySchema, query)
       return applyOps(pickProject(projects, project), ops, { answers, force })
+    },
+  }))
+  rpc.register(defineRpcFunction({
+    name: 'delete-unused',
+    type: 'action',
+    jsonSerializable: true,
+    handler: (query: UnusedDeletionQuery) => {
+      const parsed = v.parse(UnusedDeletionSchema, query)
+      return unusedDeletionView(pickProject(projects, parsed.project), parsed)
     },
   }))
   rpc.register(defineRpcFunction({

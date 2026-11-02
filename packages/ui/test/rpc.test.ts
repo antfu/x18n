@@ -171,6 +171,26 @@ describe('agent tools', () => {
   it('plans an extraction', async () => {
     expect(wire(await ctx.agent.invoke('x18n:extract_plan', {}))).toMatchSnapshot()
   })
+
+  it('plans the bulk delete of unused keys, and deletes them on confirm', async () => {
+    const plan = wire(await ctx.agent.invoke('x18n:delete_unused_keys', {}))
+    expect(plan).toMatchSnapshot()
+    expect(plan).toMatchObject({
+      applied: false,
+      keys: ['linked'],
+      kept: [],
+    })
+    expect(JSON.parse(await readFile(join(root, 'src/locales/en.json'), 'utf8')).linked).toBeDefined()
+    const done = await ctx.rpc.invokeLocal('x18n:delete-unused', { project, confirm: true })
+    expect(done).toMatchObject({
+      applied: true,
+      deleted: [
+        { key: 'linked' },
+      ],
+    })
+    expect(JSON.parse(await readFile(join(root, 'src/locales/en.json'), 'utf8')).linked).toBeUndefined()
+    expect(await ctx.agent.invoke('x18n:delete_unused_keys', {})).toMatchObject({ keys: [], deleted: [] })
+  })
 })
 
 describe('reviews', () => {

@@ -10,6 +10,7 @@ export interface ChangedParams {
 export interface Commands {
   readonly set: "x18n.set";
   readonly delete: "x18n.delete";
+  readonly deleteUnused: "x18n.deleteUnused";
   readonly renamePrefix: "x18n.renamePrefix";
   readonly extract: "x18n.extract";
   readonly migrateI18nAlly: "x18n.migrateI18nAlly";
@@ -69,6 +70,7 @@ export interface Methods {
   readonly progress: "x18n/progress";
   readonly fileKeys: "x18n/fileKeys";
   readonly usageReport: "x18n/usageReport";
+  readonly unusedDeletion: "x18n/unusedDeletion";
   readonly search: "x18n/search";
   readonly decorations: "x18n/decorations";
   readonly setDisplayLocale: "x18n/setDisplayLocale";
@@ -187,6 +189,23 @@ export interface TreeNode {
 export interface TreeParams {
   readonly project?: string | undefined;
   readonly parent?: string | undefined;
+}
+export interface UnusedDeletionParams {
+  readonly project?: string | undefined;
+}
+export interface UnusedDeletionResult {
+  readonly projects: readonly {
+    readonly project: string;
+    readonly keys: readonly {
+      readonly key: string;
+      readonly locations: readonly Location[];
+    }[];
+    readonly kept: readonly {
+      readonly key: string;
+      readonly usages: readonly Location[];
+    }[];
+    readonly warnings: readonly string[];
+  }[];
 }
 export interface UsageReportResult {
   readonly unused: readonly {

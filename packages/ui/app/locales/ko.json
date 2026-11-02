@@ -155,6 +155,13 @@
   },
   "usages": {
     "all": "전체 ({count})",
+    "deleteCancel": "취소",
+    "deleteConfirm": "키 {count}개 삭제",
+    "deleteDone": "삭제한 키: {count}. 변경한 파일: {files}.",
+    "deleteKept": "유지됨 ({count}): 코드의 동적 키가 참조할 수 있습니다.",
+    "deleteNone": "안전하게 삭제할 수 있는 사용하지 않는 키가 없습니다.",
+    "deletePlan": "모든 로케일에서 파일 {files}개의 키 {count}개를 삭제합니다. 주석과 서식은 유지됩니다.",
+    "deleteUnused": "사용하지 않는 키 삭제",
     "dynamic": "동적 ({count})",
     "dynamicHint": "계산된 키를 쓰는 사용처입니다. 해당 접두사 아래의 키는 사용된 것으로 간주합니다.",
     "filter": "파일 또는 키로 필터",

@@ -59,7 +59,7 @@ Tools are the RPC functions marked `agent` in [09-ui.md](./09-ui.md), with descr
 | `x18n_check` | Run checks, return diagnostics. |
 | `x18n_translate_prompt` | Prompt for a locale or key set. |
 | `x18n_set_messages` | Batch set, same shape as `x18n apply`; returns placeholder problems instead of writing when found. |
-| `x18n_rename_key`, `x18n_delete_key` | Return the plan; a second call with `confirm: true` applies it. |
+| `x18n_rename_key`, `x18n_delete_key`, `x18n_delete_unused_keys` | Return the plan; a second call with `confirm: true` applies it. |
 | `x18n_extract_plan`, `x18n_extract_apply` | Two-step extraction. |
 | `x18n_reviews`, `x18n_review` | List review threads; leave a comment, approval, change request or suggestion for a human. |
 
@@ -76,7 +76,7 @@ The source is the root `skills/` directory, so `skills add x18n-dev/x18n` finds 
 `x18n` content:
 
 - When to use x18n instead of editing locale files.
-- The loops: "add a key while coding" (`x18n set` in source locale, then `x18n keys --missing`), "translate missing" (prompt, apply, check), "clean up" (`x18n keys --unused`, `x18n delete --dry-run`), "extract strings" (list, plan, apply).
+- The loops: "add a key while coding" (`x18n set` in source locale, then `x18n keys --missing`), "translate missing" (prompt, apply, check), "clean up" (`x18n keys --unused`, `x18n delete --dry-run`, or `x18n delete --unused --dry-run` for all of them), "extract strings" (list, plan, apply).
 - Reading `--json` output, paging, exit codes.
 - What not to do: write locale files directly, invent keys without checking `x18n get`, drop placeholders.
 

@@ -140,6 +140,12 @@ export interface AgentDeleteQuery extends ProjectQuery, Confirmable {
   readonly locales?: readonly LocaleCode[] | undefined
 }
 
+/** Bulk delete of unused keys: a dry run, or the write with `confirm`. */
+export interface UnusedDeletionQuery extends ProjectQuery, Confirmable {
+  readonly glob?: string | undefined
+  readonly namespace?: string | undefined
+}
+
 /** ---- Outputs ---- */
 /** When a message last changed, from the history providers (git). */
 export interface HistoryView {
@@ -310,6 +316,13 @@ export interface ApplyView extends PlanView {
   readonly revision: number
 }
 
+export interface UnusedDeletionView extends ApplyView {
+  /** Keys the plan deletes, sorted, with the locale and file of each message. */
+  readonly deleted: readonly { readonly key: KeyString, readonly messages: readonly { readonly locale: LocaleCode, readonly path: string }[] }[]
+  /** Unused keys left alone because fully dynamic usages in a scope may reach them, sorted. */
+  readonly kept: readonly { readonly key: KeyString, readonly usages: readonly UsageView[] }[]
+}
+
 /** Shared state `x18n:state`: bumps on every change in any project. Mutable: it is the draft type of `mutate`. */
 export interface X18nState {
   revision: number
@@ -330,6 +343,7 @@ declare module 'devframe' {
     'x18n:apply': (query: ApplyQuery) => Promise<ApplyView>
     'x18n:extract-candidates': (query: ExtractQuery) => ExtractCandidate[]
     'x18n:extract-apply': (query: ExtractApplyQuery) => Promise<ApplyView>
+    'x18n:delete-unused': (query: UnusedDeletionQuery) => Promise<UnusedDeletionView>
     'x18n:open-in-editor': (query: OpenQuery) => Promise<void>
   }
   interface DevframeRpcSharedStates {
