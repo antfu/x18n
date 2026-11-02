@@ -476,6 +476,15 @@ function slugText(text: string): string {
   return /\bother \{([^{}]*)/.exec(plain)?.[1] ?? /\{([^{}]*)/.exec(plain.slice(1))?.[1] ?? plain
 }
 
+/**
+ * Drops a hard string inside another, such as `'yes'` in `` `Hi ${on ? 'yes' : 'no'}` ``: two edits can't rewrite the same
+ * text. The inner one stays in the arguments of the outer call, for a later run.
+ */
+function outermost<T extends HardString & { readonly path: string }>(hardStrings: readonly T[]): T[] {
+  const inside = (a: T, b: T): boolean => a !== b && a.path === b.path && a.range.start >= b.range.start && a.range.end <= b.range.end
+  return hardStrings.filter(hard => !hardStrings.some(other => inside(hard, other)))
+}
+
 /** Hard strings worth extracting, with proposed keys, values and replacements. */
 export function findCandidates(project: Project, options: FindOptions = {}): ExtractCandidate[] {
   const inFiles = options.files?.length
@@ -487,7 +496,9 @@ export function findCandidates(project: Project, options: FindOptions = {}): Ext
   const inScope = [
     ...project.hardStrings(),
   ].filter(hard => !inFiles || inFiles(hard.path))
-  for (const hard of extractableHardStrings(project.config.extract, inScope, path => project.text(path))) {
+  for (const hard of outermost([
+    ...extractableHardStrings(project.config.extract, inScope, path => project.text(path)),
+  ])) {
     const text = project.text(hard.path)
     if (text === undefined)
       continue
