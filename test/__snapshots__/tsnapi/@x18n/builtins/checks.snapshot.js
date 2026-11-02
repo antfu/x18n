@@ -23,5 +23,6 @@ export var placeholderMismatch /* const */
 export var redundantTranslation /* const */
 export var reviewChangesRequested /* const */
 export var staleTranslation /* const */
+export var typegenStale /* const */
 export var unusedKey /* const */
 // #endregion

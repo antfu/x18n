@@ -525,8 +525,29 @@ export const glossary: Check = {
   },
 }
 
+export const typegenStale: Check = {
+  id: 'typegen-stale',
+  defaultSeverity: 'error',
+  description: 'The file of `x18n typegen` is out of date with the source locale.',
+  * run(ctx) {
+    const file = ctx.typegen()
+    if (file && file.current !== file.content) {
+      yield {
+        message: file.current === undefined
+          ? `${file.path} does not exist. Run \`x18n typegen\`.`
+          : `${file.path} is out of date. Run \`x18n typegen\`.`,
+        location: {
+          path: file.path,
+          range: { start: 0, end: 0 },
+        },
+      }
+    }
+  },
+}
+
 export const allChecks: readonly Check[] = [
   missingKey,
+  typegenStale,
   invalidSyntax,
   placeholderMismatch,
   paramMismatch,

@@ -198,6 +198,12 @@ const configSchema = v.strictObject({
     keepFilled: v.optional(v.boolean()),
   })),
   extract: v.optional(extractOptions),
+  typegen: v.optional(v.union([
+    v.boolean(),
+    v.strictObject({
+      output: v.optional(v.string()),
+    }),
+  ])),
   checks: v.optional(v.record(v.string(), checkSetting)),
   strict: v.optional(v.boolean()),
   ignoreKeys: v.optional(strings),

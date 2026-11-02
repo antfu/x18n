@@ -23,5 +23,6 @@ export declare const placeholderMismatch: Check;
 export declare const redundantTranslation: Check;
 export declare const reviewChangesRequested: Check;
 export declare const staleTranslation: Check;
+export declare const typegenStale: Check;
 export declare const unusedKey: Check;
 // #endregion

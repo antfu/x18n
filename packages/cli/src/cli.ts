@@ -16,6 +16,7 @@ import { migrate } from './commands/migrate'
 import { prompt } from './commands/prompt'
 import { review } from './commands/review'
 import { eject, init, schema } from './commands/setup'
+import { typegen } from './commands/typegen'
 import { exitCodeOf, printJson, stdinArg, useColor } from './context'
 
 // The UI commands pull in devframe; load them only when one runs, so other commands start fast.
@@ -112,6 +113,10 @@ export function createCli(): CAC {
     .option('--baseline <file>', 'Report only diagnostics that are not in this baseline (default: .x18n/check-baseline.json, when it exists)')
     .option('--update-baseline', 'Write the current diagnostics into the baseline')
     .action(run('check', check))
+
+  cli.command('typegen', 'Write TypeScript types for keys')
+    .option('--watch', 'Write again on change')
+    .action(run('typegen', typegen))
 
   cli.command('set <key>', 'Set one value')
     .option('--locale <locale>', 'Locale (default: source locale)')

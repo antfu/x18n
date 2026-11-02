@@ -18,7 +18,7 @@ import type {
   TextRange,
   Usage,
 } from './model'
-import type { HardString, LocaleCoverage, MessageChange, PlaceholderSyntax, Reporter, ScanResult } from './plugin'
+import type { HardString, LocaleCoverage, MessageChange, PlaceholderSyntax, Reporter, ScanResult, TypegenFile } from './plugin'
 import type { ReviewAuthor, ReviewFilter, ReviewThread } from './review'
 
 export interface KeyQuery {
@@ -239,6 +239,8 @@ export interface Project {
   readonly explain: () => ProjectExplanation
   readonly localeInfo: (code: LocaleCode) => LocaleInfo
   readonly text: (path: string) => string | undefined
+  /** The file `x18n typegen` writes, when typegen is on and a plugin can write it. */
+  readonly typegen: () => TypegenFile | undefined
   /** True when the path is a resource file or a scanned source file. */
   readonly owns: (path: string) => boolean
   readonly plan: (ops: readonly EditOp[]) => Plan

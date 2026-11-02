@@ -454,6 +454,23 @@ exports[`schemas > config schema 1`] = `
     "strict": {
       "type": "boolean",
     },
+    "typegen": {
+      "anyOf": [
+        {
+          "type": "boolean",
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "output": {
+              "type": "string",
+            },
+          },
+          "required": [],
+          "type": "object",
+        },
+      ],
+    },
     "usage": {
       "additionalProperties": false,
       "properties": {

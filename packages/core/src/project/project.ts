@@ -3,7 +3,7 @@ import type { Setup } from '../resolve'
 import type { KeySeparator } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
-import type { HardString, HistoryContext, ScanResult, SourceFile } from '../types/plugin'
+import type { HardString, HistoryContext, ScanResult, SourceFile, TypegenFile } from '../types/plugin'
 import type { Analysis, KeyInfo, KeyTarget, Project, ProjectChange, ProjectExplanation, ResourceNode, SearchMatch, SearchOptions, UsageMatch } from '../types/project'
 import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
 import type { ResourceState } from './analysis'
@@ -21,6 +21,7 @@ import { createHistory } from './history'
 import { createPlanner } from './planner'
 import { buildPrompt } from './prompt'
 import { listThreads, noReviews, sourceHash } from './reviews'
+import { renderTypegen, typegenContext } from './typegen'
 import { planUnusedDeletion } from './unused'
 import { categoriesOf, createUsageResolver, derivedKeys, prefixMatches, suppressedRanges } from './usages'
 
@@ -769,9 +770,25 @@ export function createProject(options: CreateProjectOptions): Project {
     return usages.filter(inPath).map(usage => ({ usage, possible: usage.dynamic !== false }))
   }
 
+  /** What the file of `x18n typegen` holds. */
+  let typegenCurrent: string | undefined
+  /** Typegen is for TypeScript projects only. */
+  let typegenUsable = false
+  const typegenFile = (): TypegenFile | undefined => !typegenUsable
+    ? undefined
+    : renderTypegen(config, registry.plugins, () => {
+        const { messages } = idx()
+        return typegenContext(config, [
+          ...messages.keys(),
+        ], key => messages.get(key)?.get(sourceLocale)?.[0]?.value)
+      })
   const analyzer = createAnalyzer({
     config,
     registry,
+    typegen: () => {
+      const file = typegenFile()
+      return file && { ...file, current: typegenCurrent }
+    },
     state: () => ({
       revision,
       sourceLocale,
@@ -1023,6 +1040,10 @@ export function createProject(options: CreateProjectOptions): Project {
         return undefined
       const before = idx()
       const paths = new Set(events.map(event => event.path))
+      if (config.typegen && paths.has(config.typegen.output)) {
+        typegenCurrent = await host.readFile(config.typegen.output)
+        revision++
+      }
       const reviewKeys = paths.has(reviewFile)
         ? await reloadReviews()
         : []
@@ -1112,6 +1133,10 @@ export function createProject(options: CreateProjectOptions): Project {
       loadReviews(),
     ])
     await scanAll()
+    if (config.typegen) {
+      typegenCurrent = await host.readFile(config.typegen.output)
+      typegenUsable = await host.readFile('tsconfig.json') !== undefined || await host.readFile('node_modules/typescript/package.json') !== undefined
+    }
     revision++
   })()
 
@@ -1206,6 +1231,7 @@ export function createProject(options: CreateProjectOptions): Project {
         ? 1
         : 0)).filter(([p]) => path === undefined || p === path).flatMap(([p, state]) => (state.result.hardStrings ?? []).map(h => ({ ...h, path: p }))),
     analyze: (): Analysis => analyzer.analyze(),
+    typegen: typegenFile,
     async loadHistory(historyOptions = {}) {
       await ready
       await history.load(historyOptions)

@@ -20,6 +20,7 @@ import type {
 } from 'vscode-languageserver'
 import type * as P from './protocol'
 import type { UiServers } from './ui'
+import { readFile, writeFile } from 'node:fs/promises'
 import { relative, resolve, sep } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { extractItems, findCandidates } from '@x18n/builtins/extractors'
@@ -129,6 +130,7 @@ class Server {
   readonly failures: { readonly folder: string, readonly error: ErrorInfo }[] = []
   readonly published = new Map<string, Set<string>>()
   readonly timers = new Map<string, ReturnType<typeof setTimeout>>()
+  readonly typegenTimers = new Map<ServerProject, ReturnType<typeof setTimeout>>()
   /** Rescans not started yet, and those running, by document. */
   readonly scheduled = new Map<string, () => Promise<void>>()
   readonly running = new Map<string, Promise<void>>()
@@ -348,6 +350,24 @@ class Server {
     await found.entry.project.update([
       { type: 'change', path: found.path },
     ])
+    this.regenerateTypes(found.entry)
+  }
+
+  /** Keeps the file of `x18n typegen` up to date, so that editor types follow the messages. */
+  regenerateTypes(entry: ServerProject): void {
+    if (!entry.project.config.typegen)
+      return
+    clearTimeout(this.typegenTimers.get(entry))
+    this.typegenTimers.set(entry, setTimeout(() => {
+      this.typegenTimers.delete(entry)
+      const file = entry.project.typegen()
+      if (!file)
+        return
+      const path = resolve(entry.root, file.path)
+      void readFile(path, 'utf8').catch(() => undefined).then(current => current === file.content
+        ? undefined
+        : writeFile(path, file.content)).catch(() => undefined)
+    }, 300))
   }
 
   async watched(changes: readonly { uri: string, type: number }[]): Promise<void> {
@@ -368,8 +388,10 @@ class Server {
         path: found.path,
       })
     }
-    for (const [entry, events] of byProject)
+    for (const [entry, events] of byProject) {
       await entry.project.update(events)
+      this.regenerateTypes(entry)
+    }
   }
 
   publishDiagnostics(): void {

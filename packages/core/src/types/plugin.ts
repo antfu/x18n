@@ -299,10 +299,36 @@ export interface CheckContext {
   readonly syntaxErrors: (value: string) => readonly string[]
   readonly localeInfo: (code: LocaleCode) => LocaleInfo
   readonly text: (path: string) => string | undefined
+  /** What `x18n typegen` would write and what the file holds, when typegen is on and a plugin can write it. */
+  readonly typegen: () => (TypegenFile & { readonly current: string | undefined }) | undefined
   readonly hardStrings: () => Iterable<HardString & { readonly path: string }>
   /** When a message last changed, from the history providers. Undefined until history is loaded. */
   readonly history: (key: KeyString, locale: LocaleCode) => MessageChange | undefined
   readonly reviews: (filter?: ReviewFilter) => readonly ReviewThread[]
+}
+
+/** Messages of the source locale, nested as in the files. */
+export interface TypegenTree {
+  [key: string]: string | TypegenTree
+}
+
+export interface TypegenContext {
+  readonly config: ResolvedConfig
+  readonly defaultNamespace: string | undefined
+  readonly namespaces: readonly { readonly name: string, readonly tree: TypegenTree }[]
+}
+
+/** How a library takes its key types, as its own type augmentation. */
+export interface TypegenTarget {
+  readonly id: string
+  readonly render: (ctx: TypegenContext) => string
+}
+
+export interface TypegenFile {
+  /** Relative to the project root. */
+  readonly path: string
+  readonly target: string
+  readonly content: string
 }
 
 export interface Check {
@@ -421,6 +447,8 @@ export interface Plugin {
   readonly scanners?: readonly Scanner[] | undefined
   readonly extractors?: readonly Extractor[] | undefined
   readonly checks?: readonly Check[] | undefined
+  /** Writes the key types of `x18n typegen`. */
+  readonly typegen?: TypegenTarget | undefined
   readonly reporters?: readonly Reporter[] | undefined
   readonly placeholders?: readonly PlaceholderSyntax[] | undefined
   readonly histories?: readonly HistoryProvider[] | undefined

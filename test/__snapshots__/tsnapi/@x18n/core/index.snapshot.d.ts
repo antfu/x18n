@@ -83,6 +83,9 @@ export interface CheckContext {
   readonly syntaxErrors: (_: string) => readonly string[];
   readonly localeInfo: (_: LocaleCode) => LocaleInfo;
   readonly text: (_: string) => string | undefined;
+  readonly typegen: () => (TypegenFile & {
+    readonly current: string | undefined;
+  }) | undefined;
   readonly hardStrings: () => Iterable<HardString & {
     readonly path: string;
   }>;
@@ -469,6 +472,7 @@ export interface Plugin {
   readonly scanners?: readonly Scanner[] | undefined;
   readonly extractors?: readonly Extractor[] | undefined;
   readonly checks?: readonly Check[] | undefined;
+  readonly typegen?: TypegenTarget | undefined;
   readonly reporters?: readonly Reporter[] | undefined;
   readonly placeholders?: readonly PlaceholderSyntax[] | undefined;
   readonly histories?: readonly HistoryProvider[] | undefined;
@@ -605,6 +609,7 @@ export interface Project {
   readonly explain: () => ProjectExplanation;
   readonly localeInfo: (_: LocaleCode) => LocaleInfo;
   readonly text: (_: string) => string | undefined;
+  readonly typegen: () => TypegenFile | undefined;
   readonly owns: (_: string) => boolean;
   readonly plan: (_: readonly EditOp[]) => Plan;
   readonly planUnused: (_?: UnusedQuery) => UnusedDeletion;
@@ -793,6 +798,9 @@ export interface ResolvedConfig {
     readonly keepFilled: boolean;
   };
   readonly extract: ExtractOptions;
+  readonly typegen: {
+    readonly output: string;
+  } | false;
   readonly checks: {
     readonly [checkId: string]: CheckSetting;
   };
@@ -977,6 +985,9 @@ export interface SerializableConfig {
   readonly usage?: UsageOptions | undefined;
   readonly write?: WriteOptions | undefined;
   readonly extract?: ExtractOptions | undefined;
+  readonly typegen?: boolean | {
+    readonly output?: string | undefined;
+  } | undefined;
   readonly checks?: {
     readonly [checkId: string]: CheckSetting;
   } | undefined;
@@ -1015,6 +1026,26 @@ export interface ThreadComment extends ReviewComment {
 export interface TreeLeaf {
   readonly path: readonly string[];
   readonly value: MessageLeaf;
+}
+export interface TypegenContext {
+  readonly config: ResolvedConfig;
+  readonly defaultNamespace: string | undefined;
+  readonly namespaces: readonly {
+    readonly name: string;
+    readonly tree: TypegenTree;
+  }[];
+}
+export interface TypegenFile {
+  readonly path: string;
+  readonly target: string;
+  readonly content: string;
+}
+export interface TypegenTarget {
+  readonly id: string;
+  readonly render: (_: TypegenContext) => string;
+}
+export interface TypegenTree {
+  [key: string]: string | TypegenTree;
 }
 export interface UnusedDeletion {
   readonly plan: Plan;

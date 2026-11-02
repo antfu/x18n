@@ -1123,6 +1123,7 @@ exports[`rpc functions > explains the project 1`] = `
         },
         "sourceLocale": "en",
         "strict": false,
+        "typegen": false,
         "usage": {
           "calls": [
             {

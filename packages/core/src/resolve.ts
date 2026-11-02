@@ -83,6 +83,7 @@ function defaultDraft(): ConfigDraft {
     },
     write: { sort: false, indent: undefined, keepFilled: false },
     extract: {},
+    typegen: false,
     checks: {},
     strict: false,
     ignoreKeys: [],
@@ -112,6 +113,14 @@ function mergeFallbacks(base: ResolvedConfig['localeFallbacks'], layer: Resolved
         ...base,
         ...layer,
       }
+}
+
+function resolveTypegen(value: NonNullable<UserConfig['typegen']>): ResolvedConfig['typegen'] {
+  if (value === false)
+    return false
+  return { output: (value === true
+    ? undefined
+    : value.output) ?? 'x18n.d.ts' }
 }
 
 /** Applies a user config layer: scalars replace, lists of rules append. */
@@ -200,6 +209,10 @@ function applyLayer(draft: ConfigDraft, layer: UserConfig, origin: ConfigOrigin,
       ],
     }
     mark('usage')
+  }
+  if (layer.typegen !== undefined) {
+    draft.typegen = resolveTypegen(layer.typegen)
+    mark('typegen')
   }
   if (layer.write !== undefined) {
     draft.write = {

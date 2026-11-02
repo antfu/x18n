@@ -1,4 +1,4 @@
-import type { CallSpec, ConfigContext, KeySeparator, Plugin } from '@x18n/core'
+import type { CallSpec, ConfigContext, KeySeparator, Plugin, TypegenTarget, TypegenTree } from '@x18n/core'
 import { createLibraryPlugin } from '@x18n/core'
 import { doubleBraces, nesting } from '../../placeholders'
 
@@ -81,55 +81,85 @@ export const i18nextArgs: Pick<CallSpec, 'params' | 'defaultValue'> = {
   ],
 }
 
-export const i18nextPlugin: Plugin = createLibraryPlugin({
-  name: 'x18n:i18next',
-  // i18next names a namespace in a folder by its path: `useTranslation('pages/home')`.
-  namespace: { separator: ':', default: 'translation', fromPath: 'slash' },
-  extra: async (draft, ctx) => {
-    const user = ctx.user.namespace
-    if (user?.default && user.fallback && ctx.user.keySeparator !== undefined && user.separator !== undefined)
-      return
-    const found = await findInitOptions(ctx.host)
-    if (ctx.user.keySeparator === undefined && found.keySeparator !== undefined)
-      draft.keySeparator = found.keySeparator
-    draft.namespace = {
-      ...draft.namespace,
-      separator: user?.separator ?? found.nsSeparator ?? draft.namespace.separator,
-      default: user?.default ?? found.default ?? draft.namespace.default,
-      fallback: user?.fallback ?? found.fallback ?? draft.namespace.fallback,
-    }
+function typeOf(tree: TypegenTree, indent: string): string {
+  const next = `${indent}  `
+  return `{\n${Object.entries(tree).map(([key, value]) => `${next}${JSON.stringify(key)}: ${typeof value === 'string'
+    ? JSON.stringify(value)
+    : typeOf(value, next)}`).join('\n')}\n${indent}}`
+}
+
+/** `CustomTypeOptions` of i18next, with messages as literal types: it infers the parameters of `t` from them. */
+const i18nextTypegen: TypegenTarget = {
+  id: 'i18next',
+  render({ config, defaultNamespace, namespaces }) {
+    const options = [
+      ...defaultNamespace
+        ? [`defaultNS: ${JSON.stringify(defaultNamespace)}`]
+        : [],
+      ...config.keySeparator === false
+        ? ['keySeparator: false']
+        : [],
+      ...config.namespace.separator !== undefined && config.namespace.separator !== ':'
+        ? [`nsSeparator: ${JSON.stringify(config.namespace.separator)}`]
+        : [],
+      `resources: ${typeOf(Object.fromEntries(namespaces.map(n => [n.name, n.tree])), '    ')}`,
+    ]
+    return `import 'i18next'\n\ndeclare module 'i18next' {\n  interface CustomTypeOptions {\n${options.map(line => `    ${line}`).join('\n')}\n  }\n}\n`
   },
-  calls: [
-    {
-      callee: ['t', 'i18next.t', 'i18n.t'],
-      namespace: { arg: 1, property: 'ns' },
-      ...i18nextArgs,
+}
+
+export const i18nextPlugin: Plugin = {
+  ...createLibraryPlugin({
+    name: 'x18n:i18next',
+    // i18next names a namespace in a folder by its path: `useTranslation('pages/home')`.
+    namespace: { separator: ':', default: 'translation', fromPath: 'slash' },
+    extra: async (draft, ctx) => {
+      const user = ctx.user.namespace
+      if (user?.default && user.fallback && ctx.user.keySeparator !== undefined && user.separator !== undefined)
+        return
+      const found = await findInitOptions(ctx.host)
+      if (ctx.user.keySeparator === undefined && found.keySeparator !== undefined)
+        draft.keySeparator = found.keySeparator
+      draft.namespace = {
+        ...draft.namespace,
+        separator: user?.separator ?? found.nsSeparator ?? draft.namespace.separator,
+        default: user?.default ?? found.default ?? draft.namespace.default,
+        fallback: user?.fallback ?? found.fallback ?? draft.namespace.fallback,
+      }
     },
-    {
-      callee: ['getFixedT', 'i18next.getFixedT', 'i18n.getFixedT'],
-      factory: true,
-      returns: ['t'],
-      namespace: { arg: 1 },
-      keyPrefix: { arg: 2 },
-      ...i18nextArgs,
+    calls: [
+      {
+        callee: ['t', 'i18next.t', 'i18n.t'],
+        namespace: { arg: 1, property: 'ns' },
+        ...i18nextArgs,
+      },
+      {
+        callee: ['getFixedT', 'i18next.getFixedT', 'i18n.getFixedT'],
+        factory: true,
+        returns: ['t'],
+        namespace: { arg: 1 },
+        keyPrefix: { arg: 2 },
+        ...i18nextArgs,
+      },
+      {
+        callee: 'tr',
+        types: ['TFunction'],
+        ...i18nextArgs,
+      },
+    ],
+    // Plural forms first, so each locale needs its own categories; `*` covers contexts and the v3 `_plural`.
+    placeholders: [doubleBraces, nesting],
+    derivedKeys: ['{key}_ordinal_{ordinal}', '{key}_{plural}', '{key}_*'],
+    translatePrompt: (draft, ctx) => {
+      draft.notes.push(`i18next plural keys end in _${ctx.localeInfo.pluralCategories.join(', _')} for ${ctx.targetLocale}; write one key per category.`)
     },
-    {
-      callee: 'tr',
-      types: ['TFunction'],
-      ...i18nextArgs,
-    },
-  ],
-  // Plural forms first, so each locale needs its own categories; `*` covers contexts and the v3 `_plural`.
-  placeholders: [doubleBraces, nesting],
-  derivedKeys: ['{key}_ordinal_{ordinal}', '{key}_{plural}', '{key}_*'],
-  translatePrompt: (draft, ctx) => {
-    draft.notes.push(`i18next plural keys end in _${ctx.localeInfo.pluralCategories.join(', _')} for ${ctx.targetLocale}; write one key per category.`)
-  },
-  templates: [
-    {
-      template: 'i18next.t(\'{key}\'{args})',
-      kinds: ['js-string', 'js-template'],
-      imports: ['import i18next from \'i18next\''],
-    },
-  ],
-})
+    templates: [
+      {
+        template: 'i18next.t(\'{key}\'{args})',
+        kinds: ['js-string', 'js-template'],
+        imports: ['import i18next from \'i18next\''],
+      },
+    ],
+  }),
+  typegen: i18nextTypegen,
+}

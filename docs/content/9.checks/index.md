@@ -29,6 +29,7 @@ A severity is `error`, `warning`, `info`, `hint` or `off`. `strict: true` (or `x
 | Check | Default | Description |
 | --- | --- | --- |
 | [missing-key](/checks/missing-key) | `error` | A usage whose key is not defined in the source locale. |
+| [typegen-stale](/checks/typegen-stale) | `error` | The file of `x18n typegen` is out of date with the source locale. |
 | [invalid-syntax](/checks/invalid-syntax) | `error` | Message syntax errors (ICU, linked messages, nesting). |
 | [placeholder-mismatch](/checks/placeholder-mismatch) | `error` | Target value placeholders differ from the source value. |
 | [param-mismatch](/checks/param-mismatch) | `warning` | A translate call whose params differ from the placeholders of the source message. |

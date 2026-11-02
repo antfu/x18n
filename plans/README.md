@@ -53,7 +53,7 @@ These documents are the plan. Each document owns one area. Where code and plan d
 | M10 | i18n-ally migration | 1.0 | DONE |
 | M11 | Performance (1.0 gate) | 1.0 | DONE |
 | M12 | Reviews | 1.x | DONE |
-| M13 | Typegen | 1.x | TODO |
+| M13 | Typegen | 1.x | i18next done, other presets TODO |
 | M14 | In-browser workspace and docs playground | 1.x | TODO |
 | M15 | Tier 2 and 3 presets and formats | 1.x | TODO |
 | M16 | Other editors (Neovim, Zed, Helix) | 1.x | TODO |

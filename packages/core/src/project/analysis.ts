@@ -50,6 +50,7 @@ interface AnalyzerState {
 }
 
 export interface AnalyzerOptions {
+  readonly typegen: CheckContext['typegen']
   readonly config: ResolvedConfig
   readonly registry: PluginRegistry
   readonly state: () => AnalyzerState
@@ -307,6 +308,7 @@ export function createAnalyzer(options: AnalyzerOptions): { readonly analyze: ()
       syntaxErrors: value => registry.placeholders.flatMap(syntax => syntax.validate?.(value) ?? []),
       localeInfo: options.localeInfo,
       text: options.text,
+      typegen: () => options.typegen(),
       history: state.history,
       reviews: state.reviews,
       * hardStrings(): Generator<HardString & { readonly path: string }> {
