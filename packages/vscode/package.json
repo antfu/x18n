@@ -365,7 +365,7 @@
         "x18n.displayLocale": {
           "type": "string",
           "default": "",
-          "description": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings; its \"Default\" pick goes back to this setting."
+          "description": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\"."
         },
         "x18n.showFlags": {
           "type": "boolean",

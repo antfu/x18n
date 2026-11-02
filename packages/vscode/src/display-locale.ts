@@ -1,8 +1,9 @@
 import type { ComputedRef } from 'reactive-vscode'
 import type { Memento } from 'vscode'
-import { computed, shallowRef } from 'reactive-vscode'
+import { computed, shallowRef, useDisposable } from 'reactive-vscode'
+import { workspace } from 'vscode'
 import { config } from './config'
-import { displayLocaleKey, effectiveDisplayLocale } from './model/display-locale'
+import { displayLocalePick, effectiveDisplayLocale } from './model/display-locale'
 
 export interface DisplayLocale {
   /** Locale shown in annotations; empty means the source locale. */
@@ -15,16 +16,23 @@ export interface DisplayLocale {
 
 /**
  * The display locale is a personal choice, so the picker keeps it in the extension's workspace state rather than
- * in `.vscode/settings.json`, which is often committed.
+ * in `.vscode/settings.json`, which is often committed. Editing `x18n.displayLocale` clears the pick.
  */
 export function useDisplayLocale(state: Memento): DisplayLocale {
-  const picked = shallowRef(state.get<string>(displayLocaleKey))
+  const store = displayLocalePick(state)
+  const picked = shallowRef(store.current())
+  const sync = (): void => {
+    picked.value = store.current()
+  }
+  useDisposable(workspace.onDidChangeConfiguration((event) => {
+    if (event.affectsConfiguration('x18n.displayLocale'))
+      void store.settingChanged().finally(sync)
+  }))
   return {
     effective: computed(() => effectiveDisplayLocale(picked.value, config.displayLocale)),
     picked: computed(() => picked.value),
     pick: async (locale) => {
-      picked.value = locale
-      await state.update(displayLocaleKey, locale)
+      await store.pick(locale).finally(sync)
     },
   }
 }
