@@ -130,6 +130,7 @@ class FileScan {
   readonly usages: UsageCandidate[] = []
   readonly keySlots: TextRange[] = []
   readonly hardStrings: HardString[] = []
+  decorators = 0
   readonly frames: Map<string, Binding>[] = [
     new Map(),
   ]
@@ -715,6 +716,8 @@ class FileScan {
 
   /** ---- Walk ---- */
   walk(node: Node, parent: Node | undefined, parentKey: string): void {
+    if (node.type === 'Decorator')
+      this.decorators++
     const scoped = node.type === 'FunctionDeclaration' || node.type === 'FunctionExpression' || node.type === 'ArrowFunctionExpression' || node.type === 'BlockStatement'
     if (scoped)
       this.frames.push(new Map())
@@ -734,6 +737,8 @@ class FileScan {
     }
     if (scoped)
       this.frames.pop()
+    if (node.type === 'Decorator')
+      this.decorators--
   }
 
   visit(node: Node, parent: Node | undefined, parentKey: string): void {
@@ -787,11 +792,14 @@ class FileScan {
         this.hard(node.value, { start: parent.start, end: parent.end }, 'jsx-attribute', name)
       return
     }
-    const ignoredParent = parent.type === 'ImportDeclaration' || parent.type === 'ExportNamedDeclaration' || parent.type === 'ExportAllDeclaration'
+    // A tag such as `$localize`, `gql` or `css` already says what the template is.
+    const ignoredParent = parent.type === 'TaggedTemplateExpression' || parent.type === 'ImportDeclaration' || parent.type === 'ExportNamedDeclaration' || parent.type === 'ExportAllDeclaration'
       || parent.type === 'TSLiteralType' || parent.type === 'ImportExpression' || parent.type === 'TSExternalModuleReference' || parent.type === 'TSModuleDeclaration'
       || (parent.type === 'Property' && parentKey === 'key') || (parent.type === 'MemberExpression' && parentKey === 'property')
       || parent.type === 'ExpressionStatement' || parent.type === 'BinaryExpression' || parent.type === 'SwitchCase'
       || (parent.type === 'CallExpression' && this.ignoredCall(calleeName(parent.callee)))
+      // `template: '<p>Hi</p>'` in a component, or any `template` of a decorator, is markup and not a message.
+      || (parent.type === 'Property' && parent.key.type === 'Identifier' && parent.key.name === 'template' && (this.decorators > 0 || this.text.slice(node.start, node.end).includes('<')))
     if (ignoredParent)
       return
     if (isStringLiteral(node))

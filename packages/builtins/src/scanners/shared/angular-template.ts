@@ -1,13 +1,22 @@
 import type { TextRange } from '@x18n/core'
 
 export interface TextNode { readonly type: 'text', readonly value: string, readonly start: number, readonly end: number }
-interface InterpolationNode { readonly type: 'interpolation', readonly expression: string, readonly start: number, readonly end: number }
+export interface InterpolationNode { readonly type: 'interpolation', readonly expression: string, readonly start: number, readonly end: number }
 interface Attribute { readonly name: string, readonly value: string, readonly valueRange: TextRange | undefined, readonly range: TextRange }
-export interface ElementNode { readonly type: 'element', readonly name: string, readonly attributes: Attribute[], readonly children: TemplateNode[], readonly isVoid: boolean, readonly start: number, end: number }
+export interface ElementNode { readonly type: 'element', readonly name: string, readonly attributes: Attribute[], readonly children: TemplateNode[], readonly isVoid: boolean, readonly start: number, end: number, namespace?: string }
 interface IcuCase { readonly key: string, readonly children: TemplateNode[] }
 export interface IcuNode { readonly type: 'icu', readonly switchValue: string, readonly kind: string, readonly cases: IcuCase[], readonly source: string, readonly start: number, readonly end: number }
 export interface BlockNode { readonly type: 'block', readonly name: string, readonly parameters: string[], readonly children: TemplateNode[], readonly start: number, end: number }
 export type TemplateNode = TextNode | InterpolationNode | ElementNode | IcuNode | BlockNode
+
+/** Elements whose content is code, not text. */
+export const codeElements: ReadonlySet<string> = new Set(['script', 'style'])
+
+/**
+ * Attributes that hold code or markers rather than text: bindings `[x]`, events `(x)`, structural directives `*x`,
+ * references `#x`, animations `@x`, their `bind-`, `on-`, `bindon-` and `let-` forms, and `i18n-*` markers.
+ */
+export const codeAttribute: RegExp = /^(?:[[(*#@]|bind-|on-|bindon-|let-|i18n)/
 
 const voidElements = new Set([
   'area',
@@ -314,5 +323,31 @@ class TemplateParser {
  * It never throws: what it cannot read stays text.
  */
 export function parseTemplate(text: string): TemplateNode[] {
-  return new TemplateParser(text).parse()
+  const nodes = new TemplateParser(text).parse()
+  setNamespaces(nodes, undefined)
+  return nodes
+}
+
+/** `<svg>` and `<math>` start a namespace their descendants inherit, except inside `<foreignObject>`, which holds HTML. */
+function setNamespaces(nodes: readonly TemplateNode[], inherited: string | undefined): void {
+  for (const node of nodes) {
+    if (node.type === 'element') {
+      const name = node.name.toLowerCase()
+      const namespace = name === 'svg' || name === 'math'
+        ? name
+        : inherited
+      if (namespace)
+        node.namespace = namespace
+      setNamespaces(node.children, node.name === 'foreignObject'
+        ? undefined
+        : namespace)
+    }
+    else if (node.type === 'block') {
+      setNamespaces(node.children, inherited)
+    }
+    else if (node.type === 'icu') {
+      for (const c of node.cases)
+        setNamespaces(c.children, inherited)
+    }
+  }
 }
