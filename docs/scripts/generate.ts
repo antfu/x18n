@@ -515,7 +515,7 @@ ${ts(declaration(errors, 'ErrorInfo'))}
 
 ## Diagnostics
 
-Checks report diagnostics. \`x18n check --json\` puts them in \`diagnostics\` of the envelope, and its \`data\` holds a summary and the coverage per project, and \`baseline\` (\`suppressed\` and \`fixed\` counts) when a [baseline](/surfaces/cli#x18n-check-baseline) applies. \`x18n get --json\` puts the diagnostics of one key in \`data\`. Both use this shape:
+Checks report diagnostics. \`x18n check --json\` puts them in \`diagnostics\` of the envelope, and its \`data\` holds a summary and the coverage per project, and \`baseline\` (\`suppressed\` and \`fixed\` counts) when a [baseline](/surfaces/cli#baseline) applies. \`x18n get --json\` puts the diagnostics of one key in \`data\`. Both use this shape:
 
 ${ts(declaration(contracts, 'WireDiagnostic'), declaration(contracts, 'WireRange'), declaration(model, 'Severity'), declaration(model, 'Fix'), declaration(model, 'EditOp'))}
 
@@ -1018,7 +1018,7 @@ ${table(['Check', 'Default', 'Description'], [
   ],
 ])}
 
-The reporters of \`x18n check --reporter\` are ${reporterIds}. See [CLI and x18n check](/surfaces/cli#x18n-check-reporters).
+The reporters of \`x18n check --reporter\` are ${reporterIds}. See [CLI and x18n check](/surfaces/cli#reporters).
 `)
   outputs.set('content/9.checks/.navigation.yml', 'title: Checks\n')
 }

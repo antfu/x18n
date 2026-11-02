@@ -25,6 +25,14 @@ export default defineNuxtConfig({
   // One hand-made card (`public/og.png`, rendered from `/og`) replaces the layer's per-page Satori images.
   ogImage: { enabled: false },
 
+  icon: {
+    // Collections the demos use beyond the layer's. Served from `/api/_nuxt_icon`, because the
+    // locale flags are built from data (`i-circle-flags-${flag}`) and the client bundle scan misses them.
+    serverBundle: {
+      collections: ['bxl', 'catppuccin', 'circle-flags'],
+    },
+  },
+
   hooks: {
     // Markdown resolves components by name at runtime, so the ones it uses must be global.
     'components:extend': (components) => {

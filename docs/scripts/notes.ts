@@ -297,7 +297,7 @@ export const configNotes: { readonly [field: string]: string } = {
   'ResourceSpec.format': 'Format id for the matching files, for example `json` or `yaml`. Without it, the file extension picks the format.',
   'UsageOptions.include': 'Globs of the source files to scan for usages.',
   'UsageOptions.exclude': 'Globs of the source files to skip. Your list adds to the default list.',
-  'UsageOptions.calls': 'Translate calls to add to the ones of the presets. See [Supported syntax](/plugins/yaml#sections-scanners).',
+  'UsageOptions.calls': 'Translate calls to add to the ones of the presets. See [Supported syntax](/plugins/yaml#scanners).',
   'UsageOptions.regex': 'Regex scanners for files that no AST scanner reads, such as PHP or Ruby templates.',
   'ArgSource.arg': 'Index of the argument, from 0.',
   'ArgSource.property': 'Property of an object argument that holds the value.',
