@@ -1,4 +1,5 @@
 import type { PresetEntry } from '@x18n/core'
+import adonisjs from './adonisjs/entry'
 import angularI18next from './angular-i18next/entry'
 import angularLocalize from './angular-localize/entry'
 import cargoI18n from './cargo-i18n/entry'
@@ -87,6 +88,7 @@ export const presets: { readonly [name: string]: PresetEntry } = {
   // Before the exclusive `laravel`, which stops the presets after it.
   'laravel-vue-i18n': laravelVueI18n,
   'laravel': laravel,
+  'adonisjs': adonisjs,
   'php-joomla': phpJoomla,
   'php-gettext': phpGettext,
   'ruby-rails': rubyRails,

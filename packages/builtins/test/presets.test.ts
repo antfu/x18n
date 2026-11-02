@@ -1420,6 +1420,53 @@ describe('namespaces', () => {
     expect(project.text('src/app/app.html')).toBe('<h1 [title]="\'mainTitle\' | i18next">{{ \'welcomeBack\' | i18next }}</h1>')
   })
 
+  it('adonisjs: code, Edge templates, file prefixes and ICU params', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@adonisjs/core', '@adonisjs/i18n'),
+      'config/i18n.ts': 'export default defineConfig({ defaultLocale: \'fr\', fallbackLocales: { \'de-CH\': \'de\' }, formatter: formatters.icu() })',
+      'resources/lang/fr/messages.json': json({
+        a: 'A',
+        b: 'B { name }',
+        c: 'C',
+        d: 'D',
+        e: 'E',
+        spare: 'S',
+      }),
+      'resources/lang/fr/validator.json': json({
+        shared: {
+          messages: { required: 'Requis' },
+        },
+      }),
+      'resources/lang/fr/pages/home.yaml': 'title: Accueil\n',
+      'resources/lang/de/messages.json': json({ a: 'A de' }),
+      'resources/lang/de-CH/messages.json': json({}),
+      'app/a.ts': [
+        'export function x({ i18n }, ctx) {',
+        '  i18n.t(\'messages.a\')',
+        '  ctx.i18n.t(\'messages.b\', { name: 1 })',
+        '  i18nManager.locale(\'fr\').t(\'messages.c\')',
+        '  const other = i18nManager.locale(\'de\')',
+        '  other.t(\'messages.d\')',
+        '}',
+      ].join('\n'),
+      'resources/views/home.edge': '<h1>{{ t(\'messages.e\') }}</h1>\n<p>{{{ t("pages.home.title", { a: 1 }) }}}</p>\n<p>{{ format(\'nope.key\') }}</p>',
+    })
+    expect(project.explain().presets.find(p => p.name === 'adonisjs')?.reason).toBe('detected')
+    expect(project.sourceLocale).toBe('fr')
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual([
+      'messages.a',
+      'messages.b',
+      'messages.c',
+      'messages.d',
+      'messages.e',
+      'pages.home.title',
+    ])
+    expect(project.usages({
+      key: project.parseKey('messages.b'),
+    })[0]!.usage.params).toEqual(['name'])
+    expect(project.analyze().unused).toEqual(['messages.spare'])
+  })
+
   it('transloco: prefix and its older name read scope the keys of an element', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@jsverse/transloco'),
