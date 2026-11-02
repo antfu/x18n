@@ -37,7 +37,7 @@ Package `@x18n/lsp`, binary `x18n-lsp` (`--stdio`, `--node-ipc`, `--socket=<port
 | LSP request | Behaviour | i18n-ally origin |
 | --- | --- | --- |
 | `textDocument/inlayHint` | Display-locale value after each key usage, truncated at `annotationMaxLength` (40). Missing values show in a warning style. Used when in-place mode is off, and for keys that in-place mode cannot cover. | `editor/annotation.ts` |
-| `textDocument/hover` | Table of all locale values (with when each changed and an outdated mark, [19-history.md](./19-history.md)), number of usages, and command links (edit, open in UI, copy translate prompt). Kept short, because it stacks under TS's hover. | `editor/hover.ts` |
+| `textDocument/hover` | Table of all locale values (with when each changed and an outdated mark, [19-history.md](./19-history.md)) and the number of usages. Command links (open in UI, copy translate prompt, translate with agent) appear only for the commands the client lists in `hoverCommands`: most clients (Zed, for one) open a `command:` URL as a link and fail. The VS Code extension lists all three. | `editor/hover.ts` |
 | `textDocument/completion` | Keys at key slots reported by scanners, filtered by scope prefix. The item detail shows the source value. Trigger characters `.`, `'`, `"`, `` ` ``, `:`. | `editor/completion.ts` |
 | `textDocument/publishDiagnostics` (pull diagnostics when supported) | **Exactly the diagnostics `x18n check` reports** for the file, with the same config. The only extra is `hard-string` when `extract.autoDetect` is on. | `editor/problems.ts` |
 | `textDocument/codeAction` | Quick fixes from diagnostic `fixes`: add missing key, fill from source, extract string, ignore string, replace a selection with an existing key that has the same value. | `editor/refactor.ts`, `editor/extract.ts` |
@@ -78,7 +78,7 @@ All methods use the `x18n/` prefix. Shapes are valibot schemas shared with the c
 
 ## Settings
 
-The server reads editor UX settings from `initializationOptions`: `annotationMaxLength`, `displayLocale`, `codeLens`, `showFlags`. `x18n/setDisplayLocale` changes the display locale later. Project settings live only in `x18n.config.ts`; editor settings never override them.
+The server reads editor UX settings from `initializationOptions`: `annotationMaxLength`, `displayLocale`, `codeLens`, `showFlags`, `hoverCommands`. `x18n/setDisplayLocale` changes the display locale later. Project settings live only in `x18n.config.ts`; editor settings never override them.
 
 ## Testing
 
