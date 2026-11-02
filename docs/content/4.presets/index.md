@@ -173,6 +173,7 @@ Each hard string has a kind, which tells where it is:
 | `html-text` | Text in an HTML or Angular template (`ngx-translate`, `transloco`, `angular-i18next`), or with no element of its own (`angular-localize`) |
 | `html-element` | An Angular element with text, marked with `i18n` as one message (`angular-localize`) |
 | `html-attribute` | An attribute in an HTML or Angular template |
+| `dq-html-text`, `dq-html-element`, `dq-html-attribute` | The same in an inline Angular `template:` in double quotes, which takes `i18n='...'` (`angular-localize`) |
 | `js-string` | A string literal in JS or TS |
 | `js-template` | A template string in JS or TS |
 

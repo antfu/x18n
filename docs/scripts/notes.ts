@@ -309,7 +309,6 @@ export const configNotes: { readonly [field: string]: string } = {
   'ExtractOptions.ignoreAttributes': 'Attribute names whose values are never extracted, even text ones such as `alt`.',
   'ExtractOptions.ignoreCallees': 'Accepted by the schema. x18n does not read it yet.',
   'ExtractOptions.templates': 'Replacement templates, tried before the templates of presets. See [Extraction templates](/presets#extraction-templates).',
-  'ExtractTemplate.template': 'Replacement code. `{key}` is the key, `{attr}` the attribute name, `{args}` the arguments of a template string, `{text}` the message of the hard string, for a default value.',
   'GlossaryEntry.term': 'The term as written in source values.',
   'GlossaryEntry.note': 'A note for translators. Translate prompts show it.',
   'GlossaryEntry.doNotTranslate': 'Keep the term as it is in every locale.',
