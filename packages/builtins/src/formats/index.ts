@@ -1,4 +1,5 @@
 import type { FormatEntry } from '@x18n/core'
+import androidXml from './android-xml/entry'
 import arb from './arb/entry'
 import ecmascript from './ecmascript/entry'
 import ftl from './ftl/entry'
@@ -26,11 +27,12 @@ export const formats: { readonly [id: string]: FormatEntry } = {
   po,
   properties,
   resx,
+  'android-xml': androidXml,
   xliff,
   xmb,
   arb,
   ftl,
   ini,
   php,
-  js: ecmascript,
+  'js': ecmascript,
 }
