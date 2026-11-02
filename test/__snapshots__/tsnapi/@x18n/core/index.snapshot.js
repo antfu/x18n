@@ -36,6 +36,7 @@ export function pathId(_) {}
 export function pathMatcher(_) {}
 export function placeholderProblems(_, _) {}
 export function rangeContains(_, _) {}
+export function relatedLocales(_, _, _, _) {}
 export function renderExplanation(_, _) {}
 export function renderPrompt(_) {}
 export function replaceKeyPrefix(_, _, _) {}

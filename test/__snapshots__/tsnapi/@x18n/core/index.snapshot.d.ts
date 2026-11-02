@@ -42,6 +42,7 @@ export interface CallSpec {
   readonly keyPrefix?: ArgSource | undefined;
   readonly params?: ParamsSource | undefined;
   readonly defaultValue?: readonly ArgSource[] | undefined;
+  readonly description?: string | undefined;
   readonly factory?: boolean | undefined;
   readonly returns?: readonly string[] | undefined;
   readonly types?: readonly string[] | undefined;
@@ -378,6 +379,7 @@ export interface Message {
   readonly resource: ResourceId;
   readonly storedPath: readonly string[];
   readonly range: NodeRange | undefined;
+  readonly description?: string | undefined;
 }
 export interface MessageChange {
   readonly updatedAt: number;
@@ -417,6 +419,7 @@ export interface ParamsSource {
 export interface ParseResult {
   readonly tree: MessageTree;
   readonly ranges?: ReadonlyMap<string, NodeRange> | undefined;
+  readonly descriptions?: ReadonlyMap<string, string> | undefined;
 }
 export interface Placeholder {
   readonly syntax: string;
@@ -687,6 +690,8 @@ export interface PromptItem {
   readonly key: KeyString;
   readonly source: string;
   readonly placeholders: readonly string[];
+  readonly description?: string | undefined;
+  readonly related?: readonly RelatedValue[] | undefined;
   readonly existing: string | undefined;
   readonly previousSource?: string | undefined;
   readonly issues?: readonly PromptIssue[] | undefined;
@@ -700,10 +705,15 @@ export interface PromptOptions {
   readonly context?: boolean | undefined;
   readonly stale?: boolean | undefined;
   readonly check?: boolean | readonly string[] | undefined;
+  readonly related?: boolean | readonly LocaleCode[] | undefined;
 }
 export interface RegexScannerSpec {
   readonly extensions: readonly string[];
   readonly patterns: readonly string[];
+}
+export interface RelatedValue {
+  readonly locale: LocaleCode;
+  readonly value: string;
 }
 export interface Reporter {
   readonly id: string;
@@ -833,6 +843,7 @@ export interface ResourceTransform {
   readonly applies?: ((_: ResourceTransformContext) => boolean) | undefined;
   readonly read: (_: MessageTree, _: ResourceTransformContext) => MessageTree;
   readonly toStored: (_: readonly string[], _: ResourceTransformContext) => string[];
+  readonly describe?: ((_: MessageTree, _: ResourceTransformContext) => ReadonlyMap<string, string>) | undefined;
 }
 export interface ResourceTransformContext {
   readonly locale: LocaleCode;
@@ -999,6 +1010,7 @@ export interface Usage {
   readonly expression: TextRange | undefined;
   readonly params?: readonly string[] | undefined;
   readonly defaultValue?: string | undefined;
+  readonly description?: string | undefined;
   readonly scanner: string;
   readonly kind: UsageKind;
   readonly dynamic: false | "prefix" | "unknown";
@@ -1012,6 +1024,7 @@ export interface UsageCandidate {
   readonly expression?: TextRange | undefined;
   readonly params?: readonly string[] | undefined;
   readonly defaultValue?: string | undefined;
+  readonly description?: string | undefined;
   readonly kind: UsageKind;
   readonly dynamic: false | "prefix" | "unknown";
   readonly namespace?: string | undefined;
@@ -1233,6 +1246,7 @@ export declare function pathId(_: readonly string[]): string;
 export declare function pathMatcher(_: readonly string[]): (_: string) => boolean;
 export declare function placeholderProblems(_: Project, _: readonly EditOp[]): PlaceholderProblem[];
 export declare function rangeContains(_: TextRange, _: number): boolean;
+export declare function relatedLocales(_: LocaleCode, _: readonly LocaleCode[], _: LocaleCode, _: Readonly<Record<LocaleCode, LocaleCode>>): LocaleCode[];
 export declare function renderExplanation(_: ProjectExplanation, _?: string | undefined): string;
 export declare function renderPrompt(_: PromptData): string;
 export declare function replaceKeyPrefix(_: KeyString, _: KeyString, _: KeyString): KeyString;

@@ -20,6 +20,8 @@ interface Entry {
   readonly source: TextRange
   /** The entry with its comments and separating blank lines. */
   readonly block: TextRange
+  /** The extracted (`#.`) and translator (`# `) comments, joined. */
+  readonly comment: string | undefined
 }
 
 const decodings: Record<string, string> = {
@@ -66,7 +68,7 @@ function readString(text: string, start: number, end: number, fail: (message: st
   return fail('unterminated string')
 }
 
-interface Draft { start: number, end: number, fields: Field[] }
+interface Draft { start: number, end: number, fields: Field[], comments: string[] }
 
 function toEntry(text: string, draft: Draft, fail: (message: string) => never): Entry | undefined {
   const field = (name: string): Field | undefined => draft.fields.find(f => f.name === name)
@@ -95,6 +97,7 @@ function toEntry(text: string, draft: Draft, fail: (message: string) => never): 
     },
     source: msgstr.range,
     block: withBlankLines(text, { start: draft.start, end: draft.end }),
+    comment: draft.comments.join('\n') || undefined,
   }
 }
 
@@ -124,9 +127,18 @@ function read(text: string, path: string): Entry[] {
       continue
     if (keyword && (keyword[1] === 'msgctxt' || keyword[1] === 'msgid') && draft?.fields.some(f => f.name !== 'msgctxt'))
       flush()
-    draft ??= { start: line.start, end: line.next, fields: [] }
+    draft ??= {
+      start: line.start,
+      end: line.next,
+      fields: [],
+      comments: [],
+    }
     draft.end = line.next
     if (content.startsWith('#')) {
+      // `#.` comes from the code, `#` from a translator; `#:`, `#,` and `#|` are references, flags and previous values.
+      const comment = /^#\.?(?:\s(.*))?$/.exec(content)?.[1]?.trim()
+      if (comment)
+        draft.comments.push(comment)
       field = undefined
       continue
     }
@@ -198,11 +210,14 @@ export function po(): Plugin {
         parse(text, ctx) {
           const tree: Record<string, string> = {}
           const ranges = new Map<string, NodeRange>()
+          const descriptions = new Map<string, string>()
           for (const entry of read(text, ctx.path)) {
             tree[entry.key] = entry.value
             ranges.set(pathId([entry.key]), entry.range)
+            if (entry.comment)
+              descriptions.set(pathId([entry.key]), entry.comment)
           }
-          return { tree, ranges }
+          return { tree, ranges, descriptions }
         },
         edit(text, ops, ctx) {
           let next = text

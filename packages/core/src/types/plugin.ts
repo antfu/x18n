@@ -84,6 +84,8 @@ export interface ParseResult {
   readonly tree: MessageTree
   /** Ranges of keys and values (leaves and objects), keyed by `pathId(storedPath)`. */
   readonly ranges?: ReadonlyMap<string, NodeRange> | undefined
+  /** What the file says about a message for translators (a note or comment next to it), keyed by `pathId(storedPath)`. */
+  readonly descriptions?: ReadonlyMap<string, string> | undefined
 }
 
 export type MessageOp
@@ -149,6 +151,8 @@ export interface UsageCandidate {
   readonly params?: readonly string[] | undefined
   /** The default value the call writes in code. */
   readonly defaultValue?: string | undefined
+  /** A description of the message written next to the key in code. */
+  readonly description?: string | undefined
   readonly kind: UsageKind
   readonly dynamic: false | 'prefix' | 'unknown'
   readonly namespace?: string | undefined
@@ -375,6 +379,8 @@ export interface ResourceTransform {
   readonly read: (tree: MessageTree, ctx: ResourceTransformContext) => MessageTree
   /** The path in the file of a key path of the transformed tree. */
   readonly toStored: (path: readonly string[], ctx: ResourceTransformContext) => string[]
+  /** Descriptions that the stored tree holds beside the messages, such as `{ "name": { "message": "...", "description": "..." } }`, keyed by `pathId(storedPath)`. */
+  readonly describe?: ((tree: MessageTree, ctx: ResourceTransformContext) => ReadonlyMap<string, string>) | undefined
 }
 
 export interface PromptDraft {

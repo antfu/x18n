@@ -15,6 +15,8 @@ export interface PromptCommandOptions extends GlobalOptions {
   readonly stale?: boolean | undefined
   /** `true` for a bare `--check`, else the comma separated check ids. */
   readonly check?: boolean | string | undefined
+  /** `false` for `--no-related`, else the comma separated locales. */
+  readonly related?: boolean | string | undefined
 }
 
 /** The skill each skill prompt prints. */
@@ -78,6 +80,9 @@ export async function prompt(kind: string, options: PromptCommandOptions): Promi
     context: options.context,
     stale: options.stale,
     check,
+    related: typeof options.related === 'string'
+      ? options.related.split(',').map(locale => locale.trim()).filter(Boolean)
+      : options.related,
   })
   if (options.json || options.format === 'json')
     printJson(`prompt ${kind}`, data)

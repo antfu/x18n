@@ -67,6 +67,7 @@ const callSpec = v.strictObject({
   keyPrefix: v.optional(argSource),
   params: v.optional(paramsSource),
   defaultValue: v.optional(v.array(argSource)),
+  description: v.optional(v.string()),
   factory: v.optional(v.boolean()),
   returns: v.optional(strings),
   types: v.optional(strings),

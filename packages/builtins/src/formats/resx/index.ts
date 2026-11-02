@@ -17,6 +17,8 @@ interface Entry {
   /** The element with its indent and line break. */
   readonly line: TextRange
   readonly indent: string
+  /** The `<comment>` of the entry, for translators. */
+  readonly comment: string | undefined
 }
 
 const entities: Record<string, string> = {
@@ -151,6 +153,7 @@ function read(text: string, path: string): Contents {
       indent: line.start < start
         ? text.slice(line.start, start)
         : '',
+      comment: decode(/<comment\b[^>]*>([\s\S]*?)<\/comment\s*>/.exec(inner)?.[1] ?? '').trim() || undefined,
     })
   }
   return { entries, objects }
@@ -220,11 +223,14 @@ export function resx(): Plugin {
         parse(text, ctx) {
           const tree: Record<string, string> = {}
           const ranges = new Map<string, NodeRange>()
+          const descriptions = new Map<string, string>()
           for (const entry of read(text, ctx.path).entries) {
             tree[entry.key] = entry.value
             ranges.set(pathId([entry.key]), entry.range)
+            if (entry.comment)
+              descriptions.set(pathId([entry.key]), entry.comment)
           }
-          return { tree, ranges }
+          return { tree, ranges, descriptions }
         },
         edit(text, ops, ctx) {
           let next = text

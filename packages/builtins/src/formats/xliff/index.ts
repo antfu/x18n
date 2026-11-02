@@ -12,6 +12,29 @@ interface Unit {
   readonly element: XmlElement
   readonly source: XmlElement | undefined
   readonly target: XmlElement | undefined
+  /** The unit's notes for translators, joined; undefined without one. */
+  readonly description: string | undefined
+}
+
+/**
+ * Notes for translators in a unit: those without a kind and the `description` and `meaning` ones (`from` in 1.2,
+ * `category` in 2.0). Location notes point at code and are left out.
+ */
+function notesOf(text: string, unit: XmlElement): string | undefined {
+  const notes = xmlElements(text, 'note', unit.inner.start, unit.inner.end).flatMap((note) => {
+    const kind = (xmlAttribute(note.attributes, 'from') ?? xmlAttribute(note.attributes, 'category'))?.value
+    const content = decodeXml(text.slice(note.inner.start, note.inner.end)).trim()
+    if (!content || (kind !== undefined && kind !== 'description' && kind !== 'meaning'))
+      return []
+    return [
+      kind === 'meaning'
+        ? `Meaning: ${content}`
+        : content,
+    ]
+  })
+  return notes.length > 0
+    ? notes.join('\n')
+    : undefined
 }
 
 interface Document {
@@ -42,6 +65,7 @@ function read(text: string): Document {
       element,
       source: xmlChild(text, 'source', holder),
       target: xmlChild(text, 'target', holder),
+      description: notesOf(text, element),
     })
   }
   const translation = version === '2.0'
@@ -228,6 +252,7 @@ export function xliff(): Plugin {
           const doc = read(text)
           const tree: Record<string, string> = {}
           const ranges = new Map<string, NodeRange>()
+          const descriptions = new Map<string, string>()
           for (const unit of doc.units) {
             const holder = doc.translation
               ? unit.target
@@ -236,8 +261,10 @@ export function xliff(): Plugin {
               continue
             tree[unit.id] = toMessage(text.slice(holder.inner.start, holder.inner.end), doc.version)
             ranges.set(pathId([unit.id]), { key: unit.idRange, value: holder.inner })
+            if (unit.description)
+              descriptions.set(pathId([unit.id]), unit.description)
           }
-          return { tree, ranges }
+          return { tree, ranges, descriptions }
         },
         edit(text, ops, ctx) {
           let next = text

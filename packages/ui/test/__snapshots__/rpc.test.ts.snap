@@ -240,6 +240,20 @@ exports[`agent tools > names the tools for MCP 1`] = `
           "description": "Project name from \`x18n_status\`. Required only in a monorepo with several projects.",
           "type": "string",
         },
+        "related": {
+          "anyOf": [
+            {
+              "type": "boolean",
+            },
+            {
+              "items": {
+                "type": "string",
+              },
+              "type": "array",
+            },
+          ],
+          "description": "Values of related locales shown next to each message, such as \`pt\` for \`pt-BR\`: \`true\` (default) picks the locales of the same language, a list names them, \`false\` leaves them out.",
+        },
         "stale": {
           "description": "Also translate stale translations: those older than their source message.",
           "type": "boolean",

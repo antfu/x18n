@@ -155,6 +155,8 @@ export function createCli(): CAC {
     .option('--cursor <cursor>', 'Continue from `nextCursor`')
     .option('--format <format>', 'markdown (default) or json')
     .option('--no-context', 'Leave out code around usages')
+    .option('--related [locales]', 'Show the values of related locales next to each message, such as `pt` for `pt-BR` (default); optionally of these locales instead (comma separated)')
+    .option('--no-related', 'Leave out the values of related locales')
     .option('--stale', 'Also translate stale translations (needs git history)')
     .option('--check [ids]', 'Also translate values that checks report in the target locale, such as copies of the source (`identical-to-source`); optionally only these check ids (comma separated)')
     .action(run('prompt', prompt))

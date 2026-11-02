@@ -445,6 +445,54 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     })
   })
 
+  it('shows the values of related locales in the translate prompt', async () => {
+    const dir = await fixture('vue-i18n')
+    await writeFile(join(dir, 'src/locales/de-CH.json'), JSON.stringify({
+      app: { title: 'Meine App' },
+    }, null, 2))
+    const related = await x18n(dir, [
+      'prompt',
+      'translate',
+      '--to',
+      'de-CH',
+      '--keys',
+      'pages.home.*',
+      '--no-context',
+    ])
+    expect(related.code).toBe(0)
+    expect(related.stdout).toMatchSnapshot()
+    const off = json(await x18n(dir, [
+      'prompt',
+      'translate',
+      '--to',
+      'de-CH',
+      '--no-related',
+      '--json',
+    ]))
+    expect(off.data.items.filter((item: any) => item.related)).toEqual([])
+    // `--related` names the locales: the target itself and the source never count. Review prompts show them too.
+    const named = json(await x18n(dir, [
+      'prompt',
+      'review',
+      '--locale',
+      'de',
+      '--related',
+      'de-CH,en',
+      '--keys',
+      'app.*',
+      '--json',
+    ]))
+    expect(named.data.items.map((item: any) => [item.key, item.related])).toEqual([
+      ['app.greeting', undefined],
+      [
+        'app.title',
+        [
+          { locale: 'de-CH', value: 'Meine App' },
+        ],
+      ],
+    ])
+  })
+
   it('prints the shipped skills as prompts', async () => {
     const dir = await fixture('vue-i18n')
     const setup = await x18n(dir, ['prompt', 'setup'])
