@@ -28,7 +28,8 @@
     "usages": "Utilisations ({count})",
     "values": "Valeurs",
     "showAllLocales": "Afficher toutes les langues",
-    "file": "Fichier"
+    "file": "Fichier",
+    "description": "Remarque"
   },
   "edit": {
     "dismiss": "Ignorer",
@@ -125,7 +126,9 @@
     "source": "source",
     "usages": "Utilisations",
     "warnings": "Avertissements : {count}",
-    "outdated": "{count} obsolètes"
+    "outdated": "{count} obsolètes",
+    "toReview": "{count} à relire",
+    "reviewedCount": "{count} relus"
   },
   "project": {
     "config": "Configuration et origine de chaque valeur",
@@ -234,5 +237,12 @@
     "hint": "Entrée pour envoyer · Maj+Entrée pour une nouvelle ligne · Échap pour annuler",
     "resolvedCount": "{count} résolues",
     "hideResolved": "Masquer les résolues"
+  },
+  "state": {
+    "filter": "État de traduction",
+    "any": "Tout état",
+    "translated": "Traduit",
+    "needsReview": "À relire",
+    "reviewed": "Relu"
   }
 }

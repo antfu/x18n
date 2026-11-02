@@ -28,7 +28,8 @@
     "usages": "引用（{count}）",
     "values": "值",
     "showAllLocales": "显示所有语言",
-    "file": "文件"
+    "file": "文件",
+    "description": "备注"
   },
   "edit": {
     "dismiss": "关闭",
@@ -125,7 +126,9 @@
     "source": "源",
     "usages": "引用",
     "warnings": "警告：{count}",
-    "outdated": "{count} 条过时"
+    "outdated": "{count} 条过时",
+    "toReview": "{count} 条待审校",
+    "reviewedCount": "{count} 条已审校"
   },
   "project": {
     "config": "配置及各值来源",
@@ -234,5 +237,12 @@
     "hint": "Enter 发送 · Shift+Enter 换行 · Esc 取消",
     "resolvedCount": "{count} 条已解决",
     "hideResolved": "隐藏已解决"
+  },
+  "state": {
+    "filter": "翻译状态",
+    "any": "任意状态",
+    "translated": "已翻译",
+    "needsReview": "待审校",
+    "reviewed": "已审校"
   }
 }

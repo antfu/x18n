@@ -51,7 +51,9 @@
     "noPresets": "No preset detected.",
     "recent": "Recent changes",
     "noRecent": "Nothing changed since the page opened.",
-    "outdated": "{count} outdated"
+    "outdated": "{count} outdated",
+    "toReview": "{count} to review",
+    "reviewedCount": "{count} reviewed"
   },
   "keys": {
     "search": "Search keys and values",
@@ -105,7 +107,8 @@
     "possible": "possible",
     "openInEditor": "Open in editor",
     "showAllLocales": "Show all locales",
-    "file": "File"
+    "file": "File",
+    "description": "Note"
   },
   "prompt": {
     "copy": "Copy translate prompt",
@@ -234,5 +237,12 @@
     "hint": "Enter to send · Shift+Enter for a new line · Esc to cancel",
     "resolvedCount": "{count} resolved",
     "hideResolved": "Hide resolved"
+  },
+  "state": {
+    "filter": "Translation state",
+    "any": "Any state",
+    "translated": "Translated",
+    "needsReview": "Needs review",
+    "reviewed": "Reviewed"
   }
 }

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { MessageState } from '@x18n/core'
 import type { KeyRow } from '../../../src/node/types'
 import { useVirtualList } from '@vueuse/core'
 import { fuzzyScore } from '@x18n/core'
@@ -10,7 +11,7 @@ import UiSegmented from '../../components/ui/UiSegmented.vue'
 import UiToggle from '../../components/ui/UiToggle.vue'
 import { describeProblem, setMessage } from '../../edit'
 import { t } from '../../i18n'
-import { reviewStates } from '../../review'
+import { messageStates, reviewStates } from '../../review'
 import { backend, currentProject, useLive, visibleLocales } from '../../state'
 
 const ROW_HEIGHT = 32
@@ -29,6 +30,13 @@ const withDiagnostics = ref(false)
 const outdatedOnly = ref(route.query.outdated !== undefined)
 const reviewedOnly = ref(route.query.reviewed !== undefined)
 const hasReviews = computed(() => (table.value?.rows ?? []).some(row => Object.keys(row.reviews).length > 0))
+const isState = (value: unknown): value is MessageState => typeof value === 'string' && value in messageStates
+const stateFilter = ref<MessageState | ''>(isState(route.query.state)
+  ? route.query.state
+  : '')
+const hasStates = computed(() => (table.value?.rows ?? []).some(row => Object.keys(row.states).length > 0))
+const hasLabels = computed(() => (table.value?.rows ?? []).some(row => row.label !== undefined))
+const nameOf = (row: KeyRow): string => row.label ?? row.key
 const sort = ref<'key' | 'recent'>('key')
 const sorts = computed(() => [
   {
@@ -55,17 +63,22 @@ const rows = computed<KeyRow[]>(() => {
     && (!unusedOnly.value || row.unused)
     && (!withDiagnostics.value || row.diagnostics > 0)
     && (!outdatedOnly.value || row.outdated.some(locale => locales.value.includes(locale)))
-    && (!reviewedOnly.value || locales.value.some(locale => row.reviews[locale] !== undefined)))
+    && (!reviewedOnly.value || locales.value.some(locale => row.reviews[locale] !== undefined))
+    && (!stateFilter.value || locales.value.some(locale => row.states[locale] === stateFilter.value)))
   if (!query) {
-    return sort.value === 'recent'
-      ? [...filtered].sort((a, b) => (b.changedAt ?? 0) - (a.changedAt ?? 0))
+    if (sort.value === 'recent')
+      return [...filtered].sort((a, b) => (b.changedAt ?? 0) - (a.changedAt ?? 0))
+    return hasLabels.value
+      ? [...filtered].sort((a, b) => nameOf(a).localeCompare(nameOf(b)))
       : filtered
   }
   const scored = filtered.map((row) => {
     const values = Object.values(row.values).map(v => fuzzyScore(query, String(v)) / 2)
     return {
       row,
-      score: Math.max(fuzzyScore(query, row.key), ...values),
+      score: Math.max(fuzzyScore(query, row.key), row.label === undefined
+        ? -1
+        : fuzzyScore(query, row.label), ...values),
     }
   })
   return scored.filter(s => s.score >= 0).sort((a, b) => b.score - a.score).map(s => s.row)
@@ -242,6 +255,14 @@ function onEditorKey(event: KeyboardEvent): void {
       <UiToggle v-if="hasReviews" v-model="reviewedOnly">
         {{ t('keys.reviewed') }}
       </UiToggle>
+      <select v-if="hasStates" v-model="stateFilter" class="input text-xs" :aria-label="t('state.filter')">
+        <option value="">
+          {{ t('state.any') }}
+        </option>
+        <option v-for="(info, state) in messageStates" :key="state" :value="state">
+          {{ t(info.label) }}
+        </option>
+      </select>
       <template v-if="hasHistory">
         <UiToggle v-model="outdatedOnly">
           {{ t('keys.outdated') }}
@@ -297,11 +318,11 @@ function onEditorKey(event: KeyboardEvent): void {
             class="flex min-w-0 cursor-pointer items-center gap-1.5 px-4 font-mono text-xs"
             :class="index === active.row && active.col === 0 ? 'outline outline-1 outline-[var(--x-fg)] -outline-offset-1' : ''"
             role="gridcell"
-            :title="row.key"
+            :title="row.label === undefined ? row.key : `${row.label}\n${row.key}`"
             @click="move(index, 0)"
             @dblclick="open(row)"
           >
-            <span class="truncate">{{ row.key }}</span>
+            <span class="truncate">{{ nameOf(row) }}</span>
             <span v-if="row.unused" class="i-ph-ghost-duotone shrink-0 color-faint" :title="t('keys.unusedHint')" />
             <span v-if="row.diagnostics" class="badge shrink-0 border-current color-error" :title="t('keys.diagnosticsHint')">{{ row.diagnostics }}</span>
           </div>
@@ -326,8 +347,11 @@ function onEditorKey(event: KeyboardEvent): void {
             >
             <template v-else>
               <span class="truncate" :title="String(row.values[locale] ?? '')"><MessageText :value="row.values[locale]" inline /></span>
-              <span v-if="row.reviews[locale]" class="ml-auto shrink-0 pl-2" :class="reviewStates[row.reviews[locale]].color" :title="t(reviewStates[row.reviews[locale]].label)"><span class="block" :class="reviewStates[row.reviews[locale]].icon" /></span>
-              <span v-if="row.outdated.includes(locale)" class="shrink-0 pl-2 color-warn" :class="row.reviews[locale] ? '' : 'ml-auto'" :title="t('history.outdatedHint')"><span class="i-ph-clock-counter-clockwise-duotone block" /></span>
+              <span class="ml-auto flex shrink-0 gap-2 pl-2 empty:hidden">
+                <span v-if="row.states[locale]" :class="messageStates[row.states[locale]].color" :title="t(messageStates[row.states[locale]].label)"><span class="block" :class="messageStates[row.states[locale]].icon" /></span>
+                <span v-if="row.reviews[locale]" :class="reviewStates[row.reviews[locale]].color" :title="t(reviewStates[row.reviews[locale]].label)"><span class="block" :class="reviewStates[row.reviews[locale]].icon" /></span>
+                <span v-if="row.outdated.includes(locale)" class="color-warn" :title="t('history.outdatedHint')"><span class="i-ph-clock-counter-clockwise-duotone block" /></span>
+              </span>
             </template>
           </div>
         </div>

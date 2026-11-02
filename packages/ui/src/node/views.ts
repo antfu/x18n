@@ -1,4 +1,4 @@
-import type { Answers, Diagnostic, EditOp, KeyString, LineIndex, LocaleCode, LocaleCoverage, MessageChange, Plan, ReviewState, Usage, UsageMatch, WireDiagnostic } from '@x18n/core'
+import type { Answers, Diagnostic, EditOp, KeyString, LineIndex, LocaleCode, LocaleCoverage, MessageChange, MessageState, Plan, ReviewState, Usage, UsageMatch, WireDiagnostic } from '@x18n/core'
 import type { AnalysisView, ApplyView, ExplainView, HistoryView, KeyDetail, KeyTable, PlanView, ProjectSummary, Snippet, UiProject, UnusedDeletionQuery, UnusedDeletionView, UsageView } from './types'
 import { createLineIndex, errors, placeholderProblems, toWireDiagnostic } from '@x18n/core'
 
@@ -102,6 +102,8 @@ export function summarize({ name, project }: UiProject): ProjectSummary {
     namespaced: project.namespaced,
     locales: analysis.coverage.map((c) => {
       const info = project.localeInfo(c.locale)
+      const outdated = new Set(c.outdated)
+      const fresh = (keys: readonly KeyString[]): number => keys.filter(key => !outdated.has(key)).length
       return {
         code: c.locale,
         displayName: info.displayName,
@@ -111,6 +113,8 @@ export function summarize({ name, project }: UiProject): ProjectSummary {
         missing: c.missing.length,
         empty: c.empty.length,
         outdated: c.outdated.length,
+        needsReview: fresh(c.needsReview),
+        reviewed: fresh(c.reviewed),
         percent: percent(c),
       }
     }),
@@ -170,9 +174,15 @@ export function keyTable({ name, project }: UiProject): KeyTable {
     rows: project.keys().map((key) => {
       const info = project.get(key)
       const times = project.locales.flatMap(locale => project.history(key, locale)?.updatedAt ?? []).map(at => Math.min(at, now))
+      const states: Record<LocaleCode, MessageState> = {}
+      for (const m of info?.messages ?? []) {
+        if (m.state)
+          states[m.locale] = m.state
+      }
       return {
         key,
         namespace: info?.namespace,
+        label: info?.label,
         values: Object.fromEntries((info?.messages ?? []).map(m => [m.locale, m.value])),
         missing: missing.get(key) ?? [],
         unused: unused.has(key),
@@ -182,6 +192,7 @@ export function keyTable({ name, project }: UiProject): KeyTable {
           ? Math.max(...times)
           : undefined,
         reviews: reviews.get(key) ?? {},
+        states,
       }
     }),
   }
@@ -254,6 +265,7 @@ export function keyDetail(p: UiProject, key: KeyString): KeyDetail | null {
     project: p.name,
     key: info.key,
     namespace: info.namespace,
+    label: info.label,
     messages: info.messages.map((m) => {
       const change = project.history(info.key, m.locale)
       const path = project.resources.find(r => r.id === m.resource)?.path ?? m.resource
@@ -270,6 +282,8 @@ export function keyDetail(p: UiProject, key: KeyString): KeyDetail | null {
         sourceThen: outdated.has(m.locale)
           ? sourceThen(change)
           : undefined,
+        state: m.state,
+        description: m.description,
       }
     }),
     missing: info.missing,

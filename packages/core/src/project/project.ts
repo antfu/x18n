@@ -324,6 +324,8 @@ export function createProject(options: CreateProjectOptions): Project {
         rawTree: {},
         ranges: new Map(),
         descriptions: new Map(),
+        states: new Map(),
+        labels: new Map(),
         error: errors.X18N2001({ path: candidate.path }),
       }
     }
@@ -346,6 +348,8 @@ export function createProject(options: CreateProjectOptions): Project {
         rawTree: parsed.tree,
         ranges: parsed.ranges ?? new Map(),
         descriptions,
+        states: parsed.states ?? new Map(),
+        labels: parsed.labels ?? new Map(),
         error: undefined,
       }
     }
@@ -365,6 +369,8 @@ export function createProject(options: CreateProjectOptions): Project {
         rawTree: {},
         ranges: new Map(),
         descriptions: new Map(),
+        states: new Map(),
+        labels: new Map(),
         error: coded,
       }
     }
@@ -617,7 +623,8 @@ export function createProject(options: CreateProjectOptions): Project {
           const path = [...stored, segment]
           const key = keyFor(resource, path)
           const storedPath = state.toStored(path)
-          const raw = state.ranges.get(pathId(storedPath))
+          const id = pathId(storedPath)
+          const raw = state.ranges.get(id)
           const range = raw
             ? {
                 key: shift(raw.key),
@@ -638,7 +645,9 @@ export function createProject(options: CreateProjectOptions): Project {
             messages.set(key, byLocale)
             const list = byLocale.get(resource.locale) ?? []
             byLocale.set(resource.locale, list)
-            const description = state.descriptions.get(pathId(storedPath))
+            const description = state.descriptions.get(id)
+            const translation = state.states.get(id)
+            const label = state.labels.get(id)
             list.push({
               key,
               locale: resource.locale,
@@ -649,6 +658,12 @@ export function createProject(options: CreateProjectOptions): Project {
               ...description === undefined
                 ? {}
                 : { description },
+              ...translation === undefined
+                ? {}
+                : { state: translation },
+              ...label === undefined
+                ? {}
+                : { label },
             })
             if (!keyPaths.has(key))
               keyPaths.set(key, keyIdFor(resource, path))
@@ -891,6 +906,7 @@ export function createProject(options: CreateProjectOptions): Project {
       key,
       namespace: id.namespace,
       path: id.path,
+      label: list.find(m => m.label !== undefined)?.label,
       messages: list,
       missing: locales.filter(locale => !byLocale.has(locale) && needs(key, locale)),
       usages: usageMatches({ key }),

@@ -19,7 +19,7 @@ exports[`agent tools > names the tools for MCP 1`] = `
     "safety": "read",
   },
   {
-    "description": "List message keys, paged. Filter by \`missing\` locale (keys to translate), \`unused\` (keys no code uses), \`namespace\` or a key \`glob\`. Pass \`values: true\` to get the value per locale. Continue with \`cursor: nextCursor\`.",
+    "description": "List message keys, paged. Filter by \`missing\` locale (keys to translate), \`unused\` (keys no code uses), \`namespace\` or a key \`glob\`. Pass \`values: true\` to get the value per locale. A key whose format gives it a display label has \`label\`. Continue with \`cursor: nextCursor\`.",
     "id": "x18n:keys",
     "inputSchema": {
       "$schema": "http://json-schema.org/draft-07/schema#",
@@ -62,7 +62,7 @@ exports[`agent tools > names the tools for MCP 1`] = `
     "safety": "read",
   },
   {
-    "description": "One key: its value in every locale with file and line, locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
+    "description": "One key: its value in every locale with file and line (and its translation \`state\` and \`description\` when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
     "id": "x18n:get",
     "inputSchema": {
       "$schema": "http://json-schema.org/draft-07/schema#",
@@ -726,8 +726,10 @@ exports[`agent tools > reports status, keys, check and the translate prompt 1`] 
           "empty": 0,
           "flag": "🇺🇸",
           "missing": 0,
+          "needsReview": 0,
           "outdated": 0,
           "percent": 100,
+          "reviewed": 0,
           "total": 8,
           "translated": 8,
         },
@@ -737,8 +739,10 @@ exports[`agent tools > reports status, keys, check and the translate prompt 1`] 
           "empty": 1,
           "flag": "🇩🇪",
           "missing": 1,
+          "needsReview": 0,
           "outdated": 0,
           "percent": 75,
+          "reviewed": 0,
           "total": 8,
           "translated": 6,
         },
@@ -1604,6 +1608,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       "missing": [],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": false,
       "values": {
         "de": "Hallo",
@@ -1616,6 +1621,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       "missing": [],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": false,
       "values": {
         "de": "Meine App",
@@ -1628,6 +1634,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       "missing": [],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": true,
       "values": {
         "de": "@:app.title!",
@@ -1642,6 +1649,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       ],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": false,
       "values": {
         "de": "",
@@ -1654,6 +1662,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       "missing": [],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": false,
       "values": {
         "de": "Start",
@@ -1668,6 +1677,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       ],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": false,
       "values": {
         "en": "About us",
@@ -1679,6 +1689,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       "missing": [],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": false,
       "values": {
         "de": "Willkommen",
@@ -1691,6 +1702,7 @@ exports[`rpc functions > lists keys with values and flags 1`] = `
       "missing": [],
       "outdated": [],
       "reviews": {},
+      "states": {},
       "unused": true,
       "values": {
         "de": "Niemand",
@@ -2098,8 +2110,10 @@ exports[`rpc functions > summarizes projects 1`] = `
           "empty": 0,
           "flag": "🇺🇸",
           "missing": 0,
+          "needsReview": 0,
           "outdated": 0,
           "percent": 100,
+          "reviewed": 0,
           "total": 8,
           "translated": 8,
         },
@@ -2109,8 +2123,10 @@ exports[`rpc functions > summarizes projects 1`] = `
           "empty": 1,
           "flag": "🇩🇪",
           "missing": 1,
+          "needsReview": 0,
           "outdated": 0,
           "percent": 75,
+          "reviewed": 0,
           "total": 8,
           "translated": 6,
         },

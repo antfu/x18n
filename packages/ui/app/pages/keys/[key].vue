@@ -19,7 +19,7 @@ import UiSection from '../../components/ui/UiSection.vue'
 import { applyEdit, describeProblem, setMessage } from '../../edit'
 import { t } from '../../i18n'
 import { translatePrompt } from '../../prompt'
-import { reviewStates } from '../../review'
+import { messageStates, reviewStates } from '../../review'
 import { backend, currentProject, locales, projectName, showAllLocales, useLive, visibleLocales } from '../../state'
 
 const route = useRoute()
@@ -89,9 +89,10 @@ function openUsage(usage: UsageView): void {
         </NuxtLink>
         <div class="grid gap-1">
           <span class="label">{{ t('detail.label') }}</span>
-          <h1 class="break-all font-mono text-xl font-medium">
-            {{ key }}
+          <h1 class="break-all text-xl font-medium" :class="detail?.label === undefined && 'font-mono'">
+            {{ detail?.label ?? key }}
           </h1>
+          <span v-if="detail?.label !== undefined" class="break-all font-mono text-xs color-muted">{{ key }}</span>
         </div>
         <span v-if="detail?.namespace" class="badge self-end">{{ detail.namespace }}</span>
       </header>
@@ -111,6 +112,7 @@ function openUsage(usage: UsageView): void {
               {{ row.locale }}
               <span v-if="row.locale === currentProject?.sourceLocale" class="badge">{{ t('overview.source') }}</span>
               <span v-if="row.message?.outdated" class="badge border-current color-warn" :title="t('history.outdatedHint')">{{ t('history.outdated') }}</span>
+              <span v-if="row.message?.state" class="badge gap-1 border-current" :class="messageStates[row.message.state].color"><span :class="messageStates[row.message.state].icon" />{{ t(messageStates[row.message.state].label) }}</span>
               <span v-if="row.thread?.state" class="badge gap-1 border-current" :class="reviewStates[row.thread.state].color" :title="t(reviewStates[row.thread.state].label)"><span :class="reviewStates[row.thread.state].icon" />{{ row.thread.comments.filter(c => !c.resolved).length }}</span>
             </span>
             <MessageEditor
@@ -123,6 +125,9 @@ function openUsage(usage: UsageView): void {
             />
             <div v-else class="grid min-w-0 gap-1" :title="backend?.capabilities.write ? t('detail.edit') : undefined" @dblclick="backend?.capabilities.write && edit(row.locale, row.message?.value)">
               <MessageText :value="row.message?.value" :placeholders="row.message?.placeholders ?? []" />
+              <p v-if="row.message?.description" class="flex items-start gap-1.5 whitespace-pre-line text-xs color-muted">
+                <span class="i-ph-note-duotone mt-0.5 shrink-0" :title="t('detail.description')" /><span class="sr-only">{{ t('detail.description') }}</span>{{ row.message.description }}
+              </p>
               <dl v-if="row.message?.sourceThen !== undefined" class="grid grid-cols-[auto_1fr] gap-x-3 gap-y-0.5 border-l-2 border-[var(--x-warn)] py-0.5 pl-3 text-xs">
                 <dt class="label">
                   {{ t('history.sourceThen') }}

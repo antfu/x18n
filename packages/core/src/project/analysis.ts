@@ -1,7 +1,7 @@
 import type { X18nError } from '../errors'
 import type { PluginRegistry } from '../plugins'
 import type { CheckSetting, ResolvedConfig } from '../types/config'
-import type { Diagnostic, JsonObject, KeyString, LocaleCode, LocaleInfo, Message, MessageTree, NodeRange, Placeholder, Resource, Severity, Usage } from '../types/model'
+import type { Diagnostic, JsonObject, KeyString, LocaleCode, LocaleInfo, Message, MessageState, MessageTree, NodeRange, Placeholder, Resource, Severity, Usage } from '../types/model'
 import type { Check, CheckContext, DiagnosticInput, HardString, LocaleCoverage, MessageChange, PluralForm, ScanResult } from '../types/plugin'
 import type { Analysis } from '../types/project'
 import { keyMatcher } from '../keys'
@@ -24,6 +24,8 @@ export interface ResourceState {
   readonly ranges: ReadonlyMap<string, NodeRange>
   /** Descriptions of messages from the format and the transforms, keyed by `pathId(storedPath)`. */
   readonly descriptions: ReadonlyMap<string, string>
+  readonly states: ReadonlyMap<string, MessageState>
+  readonly labels: ReadonlyMap<string, string>
   readonly error: X18nError | undefined
 }
 
@@ -96,18 +98,25 @@ function computeCoverage(state: AnalyzerState, options: AnalyzerOptions, sourceK
     const missing: KeyString[] = []
     const empty: KeyString[] = []
     const outdated: KeyString[] = []
+    const needsReview: KeyString[] = []
+    const reviewed: KeyString[] = []
     for (const key of reference) {
-      const value = messages.get(key)?.get(locale)?.[0]?.value
+      const message = messages.get(key)?.get(locale)?.[0]
+      const value = message?.value
       if (value === undefined || value === '') {
         if (inherited(key))
           continue
         (value === undefined
           ? missing
           : empty).push(key)
+        continue
       }
-      else if (locale !== sourceLocale && isOutdated(state.history(key, sourceLocale), state.history(key, locale)) && !state.fresh(key, locale)) {
+      if (locale !== sourceLocale && isOutdated(state.history(key, sourceLocale), state.history(key, locale)) && !state.fresh(key, locale))
         outdated.push(key)
-      }
+      if (message?.state === 'needs-review')
+        needsReview.push(key)
+      else if (message?.state === 'reviewed')
+        reviewed.push(key)
     }
     return {
       locale,
@@ -116,6 +125,8 @@ function computeCoverage(state: AnalyzerState, options: AnalyzerOptions, sourceK
       missing,
       empty,
       outdated,
+      needsReview,
+      reviewed,
     }
   })
 }

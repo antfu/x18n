@@ -555,14 +555,23 @@ class Server {
     if (!at || !target)
       return null
     const { project } = at.entry
-    const lines = [`**x18n** \`${target.key}\``, '']
+    const label = target.type === 'key'
+      ? project.get(target.key)?.label
+      : undefined
+    const lines = [`**x18n** \`${target.key}\`${label === undefined
+      ? ''
+      : ` ${label.replace(/[\\`*_[\]|]/g, '\\$&')}`}`, '']
     if (target.type === 'key') {
       const changes = project.locales.map(locale => project.history(target.key, locale))
       const dated = changes.some(Boolean)
       const outdated = new Set(project.analyze().coverage.filter(c => c.outdated.includes(target.key)).map(c => c.locale))
       lines.push(dated ? '| | | |' : '| | |', dated ? '| --- | --- | --- |' : '| --- | --- |')
       project.locales.forEach((locale, i) => {
-        const value = display(project.lookup(target.key, locale)?.value)
+        const message = project.lookup(target.key, locale)
+        const value = display(message?.value)
+        const state = message?.state
+          ? ` _(${message.state.replace('-', ' ')})_`
+          : ''
         const change = changes[i]
         const changed = dated
           ? ` ${change
@@ -578,7 +587,7 @@ class Server {
           ? '_missing_'
           : value === ''
             ? '_empty_'
-            : value.replace(/\|/g, '\\|').replace(/\n/g, ' ')} |${changed}`)
+            : value.replace(/\|/g, '\\|').replace(/\n/g, ' ')}${state} |${changed}`)
       })
       const threads = project.reviews({ key: target.key, open: true })
       if (threads.length > 0)

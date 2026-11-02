@@ -21,7 +21,9 @@ exports[`x18n binary > keeps the JSON contract of every read command > check 1`]
             "translated": 8,
             "missing": 0,
             "empty": 0,
-            "outdated": 0
+            "outdated": 0,
+            "needsReview": 0,
+            "reviewed": 0
           },
           {
             "locale": "de",
@@ -29,7 +31,9 @@ exports[`x18n binary > keeps the JSON contract of every read command > check 1`]
             "translated": 6,
             "missing": 1,
             "empty": 1,
-            "outdated": 0
+            "outdated": 0,
+            "needsReview": 0,
+            "reviewed": 0
           }
         ]
       }
@@ -650,6 +654,8 @@ exports[`x18n binary > keeps the JSON contract of every read command > status 1`
             "translated": 8,
             "missing": 0,
             "empty": 0,
+            "needsReview": 0,
+            "reviewed": 0,
             "percent": 100
           },
           {
@@ -658,6 +664,8 @@ exports[`x18n binary > keeps the JSON contract of every read command > status 1`
             "translated": 6,
             "missing": 1,
             "empty": 1,
+            "needsReview": 0,
+            "reviewed": 0,
             "percent": 75
           }
         ],

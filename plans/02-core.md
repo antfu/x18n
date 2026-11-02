@@ -40,6 +40,10 @@ interface Message {
   readonly resource: ResourceId
   /** Ranges of the key and the value in the resource text, when the format can report them. */
   readonly range: { key: TextRange, value: TextRange } | undefined
+  /** How far the translation got, as the resource records it (XLIFF `state`, PO `fuzzy`; D45). */
+  readonly state?: 'translated' | 'needs-review' | 'reviewed'
+  /** Display label of the key from the resource, for keys such as hashes (D45). */
+  readonly label?: string
 }
 
 /** One file (or one block inside a file) that holds messages for one locale and one namespace. */

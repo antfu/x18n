@@ -10,6 +10,7 @@ import type {
   Location,
   Message,
   MessageLeaf,
+  MessageState,
   MessageTree,
   NodeRange,
   Placeholder,
@@ -101,6 +102,10 @@ export interface ParseResult {
   readonly ranges?: ReadonlyMap<string, NodeRange> | undefined
   /** What the file says about a message for translators (a note or comment next to it), keyed by `pathId(storedPath)`. */
   readonly descriptions?: ReadonlyMap<string, string> | undefined
+  /** The translation state the file records for a message (XLIFF `state`, PO `fuzzy`), keyed by `pathId(storedPath)`. */
+  readonly states?: ReadonlyMap<string, MessageState> | undefined
+  /** Display labels of keys that do not read well, such as hashes, keyed by `pathId(storedPath)`. */
+  readonly labels?: ReadonlyMap<string, string> | undefined
 }
 
 export type MessageOp
@@ -240,6 +245,10 @@ export interface LocaleCoverage {
   readonly empty: readonly KeyString[]
   /** Translated keys whose message last changed before the source message. */
   readonly outdated: readonly KeyString[]
+  /** Translated keys that the format marks `needs-review`. */
+  readonly needsReview: readonly KeyString[]
+  /** Translated keys that the format marks `reviewed`. */
+  readonly reviewed: readonly KeyString[]
 }
 
 /** When a message last changed, as a history provider knows it. */

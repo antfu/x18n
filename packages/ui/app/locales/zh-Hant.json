@@ -28,7 +28,8 @@
     "usages": "使用處（{count}）",
     "values": "值",
     "showAllLocales": "顯示所有語言",
-    "file": "檔案"
+    "file": "檔案",
+    "description": "備註"
   },
   "edit": {
     "dismiss": "關閉",
@@ -125,7 +126,9 @@
     "source": "來源",
     "usages": "使用處",
     "warnings": "警告：{count}",
-    "outdated": "{count} 則過時"
+    "outdated": "{count} 則過時",
+    "toReview": "{count} 則待審校",
+    "reviewedCount": "{count} 則已審校"
   },
   "project": {
     "config": "設定及各值來源",
@@ -234,5 +237,12 @@
     "hint": "Enter 送出 · Shift+Enter 換行 · Esc 取消",
     "resolvedCount": "{count} 則已解決",
     "hideResolved": "隱藏已解決"
+  },
+  "state": {
+    "filter": "翻譯狀態",
+    "any": "任何狀態",
+    "translated": "已翻譯",
+    "needsReview": "待審校",
+    "reviewed": "已審校"
   }
 }
