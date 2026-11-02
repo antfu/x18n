@@ -1414,6 +1414,39 @@ describe('namespaces', () => {
     expect(project.text('src/app/app.html')).toBe('<h1 [title]="\'mainTitle\' | i18next">{{ \'welcomeBack\' | i18next }}</h1>')
   })
 
+  it('transloco: prefix and its older name read scope the keys of an element', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@jsverse/transloco'),
+      'src/assets/i18n/en.json': json({
+        page: { a: 'A', b: 'B', d: 'D', f: 'F' },
+        other: {
+          e: 'E',
+          long: { key: 'G' },
+        },
+        c: 'C',
+      }),
+      'src/app/a.html': [
+        '<ng-container *transloco="let t; prefix: \'page\'"><p>{{ t(\'a\') }}</p></ng-container>',
+        '<ng-container *transloco="let t; read: \'page\'"><p>{{ t(\'b\') }}</p></ng-container>',
+        '<p>{{ \'c\' | transloco }}</p>',
+        '<ng-template transloco let-t prefix="page"><p>{{ t(\'d\') }}</p></ng-template>',
+        '<div *transloco="let t; prefix: \'page\'"><i *transloco="let t; prefix: \'other\'">{{ t(\'e\') }}</i>{{ t(\'f\') }}{{ \'c\' | transloco }}</div>',
+      ].join('\n'),
+      'src/app/b.ts': '@Component({ template: `<p *transloco="let t; prefix: \'other\'">{{ t(\'long.key\') }}</p>` })\nexport class B {}',
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual([
+      'c',
+      'c',
+      'other.e',
+      'other.long.key',
+      'page.a',
+      'page.b',
+      'page.d',
+      'page.f',
+    ])
+    expect(project.analyze().unused).toEqual([])
+  })
+
   it('transloco: a kebab-case scope folder is a camelCase key prefix', async () => {
     const { project, files } = await createTestProject({
       'package.json': pkg('@jsverse/transloco'),

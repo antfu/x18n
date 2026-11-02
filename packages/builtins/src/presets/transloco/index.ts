@@ -2,8 +2,8 @@ import type { Preset } from '@x18n/core'
 import { createLibraryPlugin } from '@x18n/core'
 // Detection and syntax adapted from i18n-ally (MIT), src/frameworks/*
 import { doubleBraces } from '../../placeholders'
-import { regexScopes } from '../../scanners/regex-scopes'
 import { angularTemplates, htmlTemplates } from '../shared/angular-templates'
+import { translocoScopes } from './scopes'
 
 export function transloco(): Preset {
   return {
@@ -56,11 +56,7 @@ export function transloco(): Preset {
         placeholders: [doubleBraces],
       }),
       htmlTemplates(),
-      // `*transloco="let t; read: 'scope'"` prefixes the keys of the element.
-      regexScopes('\\*transloco="[^"]*read:\\s*\'([^\']+)\'', 'transloco-read', {
-        as: 'keyPrefix',
-        extensions: ['html'],
-      }),
+      translocoScopes(),
     ],
   }
 }
