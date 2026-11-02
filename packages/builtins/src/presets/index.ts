@@ -1,4 +1,5 @@
 import type { PresetEntry } from '@x18n/core'
+import angularI18next from './angular-i18next/entry'
 import angularLocalize from './angular-localize/entry'
 import cargoI18n from './cargo-i18n/entry'
 import chromeExtension from './chrome-extension/entry'
@@ -73,6 +74,7 @@ export const presets: { readonly [name: string]: PresetEntry } = {
   'angular-localize': angularLocalize,
   'ngx-translate': ngxTranslate,
   'transloco': transloco,
+  'angular-i18next': angularI18next,
   'lingui': lingui,
   'ember-intl': emberIntl,
   'polyglot': polyglot,
