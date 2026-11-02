@@ -79,7 +79,7 @@ jobs:
         uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: x18n-language-server
-          push-to: x18n-dev/extensions
+          push-to: x18n-dev/zed-extensions
         env:
           # Classic PAT with `repo` and `workflow` scopes that can push to `push-to`.
           COMMITTER_TOKEN: ${{ secrets.ZED_COMMITTER_TOKEN }}
