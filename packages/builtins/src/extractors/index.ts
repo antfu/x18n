@@ -394,28 +394,48 @@ function rawKeyFor(project: Project, key: KeyString): string {
     : key
 }
 
-/**
- * Escapes a key for the quotes around `{key}` in a template, since `keygen: 'source'` keys hold any text:
- * backslashes inside a JS string, entities inside a double-quoted attribute (`:title="$t('{key}')"`).
- */
-function quoteKey(before: string, key: string): string {
-  const quote = before.at(-1)
-  const inAttribute = /="[^"]*$/.test(before)
-  let out = key
-  if (quote === '\'' || quote === '`' || (quote === '"' && !inAttribute)) {
-    out = out.replace(quote === '`'
-      ? /[\\`]|\$\{/g
-      : new RegExp(`[\\\\${quote}]`, 'g'), c => `\\${c}`)
-  }
-  return inAttribute
-    ? out.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
-    : out
+const jsEscapes: Readonly<Record<string, string>> = {
+  '\n': '\\n',
+  '\r': '\\r',
+  '\u2028': '\\u2028',
+  '\u2029': '\\u2029',
 }
 
-function fillTemplate(template: string, values: { readonly key: string, readonly attr: string, readonly args: string }): string {
-  return template.replace(/\{(key|attr|args)\}/g, (_, name: 'key' | 'attr' | 'args', at: number) => {
-    if (name === 'key')
-      return quoteKey(template.slice(0, at), values.key)
+/**
+ * Escapes a value for the quotes around its token in a template, since `keygen: 'source'` keys and `{text}` hold any
+ * text: backslashes, the quote and line breaks inside a JS string; backslashes, backticks and `${` inside a template
+ * literal; entities inside a quoted attribute (`:title="$t('{key}')"`). Outside quotes the value goes in as is.
+ */
+function quoteFor(before: string, value: string): string {
+  const quote = before.at(-1)
+  const attribute = /="[^"]*$/.test(before)
+    ? '"'
+    : /='[^']*$/.test(before)
+      ? '\''
+      : undefined
+  let out = value
+  if (quote === '`')
+    out = out.replace(/[\\`]|\$\{/g, c => `\\${c}`)
+  else if ((quote === '\'' || quote === '"') && quote !== attribute)
+    out = out.replace(new RegExp(`[\\\\${quote}]|[\\n\\r\\u2028\\u2029]`, 'g'), c => jsEscapes[c] ?? `\\${c}`)
+  if (attribute === '"')
+    return out.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+  if (attribute === '\'')
+    return out.replace(/&/g, '&amp;').replace(/'/g, '&#39;')
+  return out
+}
+
+interface TemplateValues {
+  readonly key: string
+  readonly attr: string
+  readonly args: string
+  readonly text: string
+}
+
+function fillTemplate(template: string, values: TemplateValues): string {
+  return template.replace(/\{(key|attr|args|text)\}/g, (_, name: keyof TemplateValues, at: number) => {
+    if (name === 'key' || name === 'text')
+      return quoteFor(template.slice(0, at), values[name])
     // `{args}` as the first argument (`m.{key}({args})`) drops its leading `, `.
     return name === 'args' && template[at - 1] === '('
       ? values.args.replace(/^, /, '')
@@ -465,6 +485,7 @@ export function findCandidates(project: Project, options: FindOptions = {}): Ext
         key: rawKeyFor(project, key),
         attr: hard.attribute ?? '',
         args,
+        text: value,
       }),
       imports: template?.imports ?? [],
       alternatives: templates.slice(1),
