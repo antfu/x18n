@@ -1,6 +1,6 @@
 /* eslint-disable style/no-tabs */
 import type { Format, MessageOp } from '@x18n/core'
-import { applyTextEdits } from '@x18n/core'
+import { applyTextEdits, pathId } from '@x18n/core'
 import { describe, expect, it } from 'vitest'
 import { strings } from '../src/formats/strings'
 import { stringsdict } from '../src/formats/stringsdict'
@@ -45,6 +45,23 @@ bare_key = "Bare value";
     expect([
       ...descriptions!.values(),
     ]).toEqual(['Title of the page', 'Button'])
+  })
+
+  it('reads \\U as four hex digits, and a character past U+FFFF as a surrogate pair', () => {
+    expect(format.parse('"a" = "\\U00e9\\U0041BC \\UD83D\\UDE00";', ctx).tree).toEqual({ a: '\u00E9ABC \u{1F600}' })
+    expect(format.parse('"a" = "\\U0010FFFF";', ctx).tree).toEqual({ a: '\u0010FFFF' })
+  })
+
+  it('keeps a file header and a comment after an entry apart from the next entry', () => {
+    const text = `/*\n  Localizable.strings\n  App\n*/\n\n"first" = "First"; // after first\n"second" = "Second";\n`
+    const { descriptions } = format.parse(text, ctx)
+    expect(descriptions!.size).toBe(0)
+    expect(edit(text, [
+      {
+        type: 'delete',
+        path: ['first'],
+      },
+    ])).toBe(`/*\n  Localizable.strings\n  App\n*/\n\n"second" = "Second";\n`)
   })
 
   it('reports a broken file', () => {
@@ -240,12 +257,85 @@ describe('xcstrings format', () => {
     ]).toEqual(['A greeting'])
   })
 
-  it('points at the value', () => {
-    const { ranges } = format.parse(catalogText, fr)
-    const [range] = [
-      ...ranges!.values(),
-    ]
-    expect(catalogText.slice(range!.value.start, range!.value.end)).toBe('"Bonjour"')
+  it('points at the value, and at the key inside its quotes, in the source only', () => {
+    const range = format.parse(catalogText, en).ranges!.get(pathId(['title.text']))!
+    expect(catalogText.slice(range.value.start, range.value.end)).toBe('"The title"')
+    expect(catalogText.slice(range.key.start, range.key.end)).toBe('title.text')
+    // The key is shared, so a rename in place happens once: in the source.
+    expect(format.parse(catalogText, fr).ranges!.size).toBe(0)
+  })
+
+  it('reads, sets and removes device variations', () => {
+    const text = `{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Save" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "device" : {
+              "iphone" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tap to save"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Click to save"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
+`
+    const where = { ...en, path: 'Device.xcstrings' }
+    expect(format.parse(text, where).tree).toEqual({ 'Save.device.iphone': 'Tap to save', 'Save.device.other': 'Click to save' })
+    const set = applyTextEdits(text, format.edit!(text, [
+      {
+        type: 'set',
+        path: ['Save.device.iphone'],
+        value: 'Touch to save',
+      },
+    ], where))
+    expect(set).toBe(text.replace('Tap to save', 'Touch to save'))
+    const removed = JSON.parse(applyTextEdits(text, format.edit!(text, [
+      {
+        type: 'delete',
+        path: ['Save.device.iphone'],
+      },
+    ], where)))
+    expect(Object.keys(removed.strings)).toEqual(['Save'])
+    expect(removed.strings.Save.localizations.en.variations.device).toEqual({
+      other: {
+        stringUnit: { state: 'translated', value: 'Click to save' },
+      },
+    })
+  })
+
+  it('gives a comment only to its own key', () => {
+    const text = JSON.stringify({
+      sourceLanguage: 'en',
+      strings: {
+        'Save.As': {},
+        'Save': { comment: 'Saves the file' },
+      },
+    })
+    const { descriptions } = format.parse(text, en)
+    expect([
+      ...descriptions!.entries(),
+    ]).toEqual([
+      [
+        pathId(['Save']),
+        'Saves the file',
+      ],
+    ])
   })
 
   it('keeps Xcode\'s layout, so a write changes only what it must', () => {
@@ -290,7 +380,7 @@ describe('xcstrings format', () => {
         type: 'delete',
         path: ['Hello'],
       },
-    ])).strings.Hello.localizations.fr).toBeUndefined()
+    ])).strings.Hello).toEqual({ comment: 'A greeting' })
     const none = JSON.parse(edit([
       {
         type: 'delete',
@@ -302,6 +392,11 @@ describe('xcstrings format', () => {
       },
     ], en))
     expect(none.strings['items %lld']).toBeUndefined()
+  })
+
+  it('writes a new catalog that reads back', () => {
+    const tree = { 'Hello': 'Hello', 'n %lld.one': '%lld n', 'n %lld.other': '%lld ns' }
+    expect(format.parse(format.serialize!(tree, en), en).tree).toEqual(tree)
   })
 
   it('reports a file that is not a catalog', () => {
@@ -414,6 +509,47 @@ describe('stringsdict format', () => {
     expect(format.parse(format.serialize!({ 'a.one': 'x', 'b.other': 'y' }, ctx), ctx).tree).toEqual({ 'a.one': 'x', 'b.other': 'y' })
     expect(() => format.parse('<nope/>', ctx)).toThrow()
   })
+
+  it('refuses a message that is not a plural form, rather than changing its key', () => {
+    expect(() => format.serialize!({ title: 'x' }, ctx)).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+    expect(() => edit([
+      {
+        type: 'set',
+        path: ['cats.lots'],
+        value: 'x',
+      },
+    ])).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+  })
+
+  it('escapes a quantity it adds', () => {
+    const next = edit([
+      {
+        type: 'set',
+        path: ['items.a&b'],
+        value: 'x',
+      },
+    ])
+    expect(next).toContain('<key>a&amp;b</key>')
+    expect(format.parse(next, ctx).tree['items.a&b']).toBe('x')
+  })
+
+  it('adds a key with more segments as its own message, not as a quantity of a shorter one', () => {
+    const next = edit([
+      {
+        type: 'set',
+        path: ['items.selected.one'],
+        value: '%d selected',
+      },
+    ])
+    expect(next).toContain('<key>items.selected</key>')
+    expect(format.parse(next, ctx).tree).toEqual({
+      'items.one': '%d item & more',
+      'items.other': '%d items',
+      'items.selected.one': '%d selected',
+      'two.a.one': 'A',
+      'two.b.other': 'B',
+    })
+  })
 })
 
 describe('apple-strings preset with catalogs', () => {
@@ -492,5 +628,138 @@ describe('apple-strings preset with catalogs', () => {
     expect(project.text('App/Localizable.xcstrings')).toBe(catalogText.replace('"Bonjour"', '"Salut"').replace('"The title"', '"New title"'))
     expect(project.message(project.parseKey('Localizable:Hello'), 'fr')?.value).toBe('Salut')
     expect(project.message(project.parseKey('Localizable:title.text'), 'en')?.value).toBe('New title')
+  })
+
+  it('writes the same key in several locales of one catalog in one plan', async () => {
+    // Xcode writes `\/`: a write leaves what it doesn't change as it was.
+    const text = catalogText.replace('"Le titre"', '"Le\\/titre"')
+    const { project } = await createTestProject({ ...files, 'App/Localizable.xcstrings': text }, {
+      presets: [
+        appleStrings(),
+      ],
+      sourceLocale: 'en',
+      locales: ['en', 'fr', 'de'],
+    })
+    await project.apply(project.plan([
+      {
+        type: 'set',
+        key: project.parseKey('Localizable:Hello'),
+        locale: 'de',
+        value: 'Hallo',
+      },
+      {
+        type: 'set',
+        key: project.parseKey('Localizable:Hello'),
+        locale: 'fr',
+        value: 'Salut',
+      },
+      {
+        type: 'set',
+        key: project.parseKey('Localizable:Zed'),
+        locale: 'en',
+        value: 'Z',
+      },
+    ]))
+    expect(project.text('App/Localizable.xcstrings')).toContain('"Le\\/titre"')
+    const catalog = JSON.parse(project.text('App/Localizable.xcstrings')!)
+    expect(catalog.strings.Hello).toEqual({
+      comment: 'A greeting',
+      localizations: {
+        de: {
+          stringUnit: { state: 'translated', value: 'Hallo' },
+        },
+        fr: {
+          stringUnit: { state: 'translated', value: 'Salut' },
+        },
+      },
+    })
+    expect(catalog.strings.Zed.localizations.en.stringUnit.value).toBe('Z')
+    expect(project.message(project.parseKey('Localizable:Hello'), 'de')?.value).toBe('Hallo')
+  })
+
+  it('renames a key once for every locale of a catalog, in place or not', async () => {
+    const { project } = await createTestProject(files, {
+      presets: [
+        appleStrings(),
+      ],
+      sourceLocale: 'en',
+    })
+    await project.apply(project.plan([
+      {
+        type: 'rename',
+        from: project.parseKey('Localizable:Hello'),
+        to: project.parseKey('Localizable:Greeting'),
+        usages: false,
+      },
+    ]))
+    // `Hello` had no source text, so it keeps its text under the new key.
+    expect(project.text('App/Localizable.xcstrings')).toBe(catalogText.replace('"Hello" :', '"Greeting" :').replace(`      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour"`, `      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour"`))
+    await project.apply(project.plan([
+      {
+        type: 'rename',
+        from: project.parseKey('Localizable:title.text'),
+        to: project.parseKey('Localizable:The title text'),
+        usages: false,
+      },
+      {
+        type: 'rename',
+        from: project.parseKey('Localizable:items %lld.one'),
+        to: project.parseKey('Localizable:%lld things.one'),
+        usages: false,
+      },
+      {
+        type: 'rename',
+        from: project.parseKey('Localizable:items %lld.other'),
+        to: project.parseKey('Localizable:%lld things.other'),
+        usages: false,
+      },
+    ]))
+    const catalog = JSON.parse(project.text('App/Localizable.xcstrings')!)
+    expect(Object.keys(catalog.strings).sort()).toEqual([
+      '%lld things',
+      'Greeting',
+      'OK',
+      'The title text',
+    ])
+    expect(catalog.strings['The title text'].localizations).toEqual({
+      en: {
+        stringUnit: { state: 'translated', value: 'The title' },
+      },
+      fr: {
+        stringUnit: { state: 'needs_review', value: 'Le titre' },
+      },
+    })
+    expect(catalog.strings['%lld things'].localizations.en.variations.plural.other.stringUnit.value).toBe('%lld items')
+    expect(project.message(project.parseKey('Localizable:Greeting'), 'fr')?.value).toBe('Bonjour')
+    expect(project.message(project.parseKey('Localizable:Greeting'), 'en')?.value).toBe('Hello')
+  })
+
+  it('reports a broken catalog without losing the other files', async () => {
+    const { project } = await createTestProject({
+      ...files,
+      'App/Broken.xcstrings': '{ "strings": ',
+    }, {
+      presets: [
+        appleStrings(),
+      ],
+      sourceLocale: 'en',
+    })
+    expect(project.message(project.parseKey('Localizable:Hello'), 'fr')?.value).toBe('Bonjour')
+    expect(project.message(project.parseKey('Plurals:cats.other'), 'en')?.value).toBe('%d cats')
+    expect(project.explain().errors.map(e => e.path)).toEqual(['App/Broken.xcstrings'])
   })
 })

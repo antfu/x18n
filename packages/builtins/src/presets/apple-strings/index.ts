@@ -32,11 +32,18 @@ const finder: LocaleFinder = {
     })
     for (const path of await ctx.host.glob(['**/*.xcstrings'], { ignore, gitignore: true })) {
       const text = await ctx.host.readFile(path) ?? ''
-      // A language the catalog doesn't have yet needs `locales` in the config: there is no new file to make for it.
-      const locales = new Set([
-        ...catalogLocales(parseCatalog(text, path)),
-        ...ctx.config.locales ?? [],
-      ])
+      let locales: Set<string>
+      try {
+        // A language the catalog doesn't have yet needs `locales` in the config: there is no new file to make for it.
+        locales = new Set([
+          ...catalogLocales(parseCatalog(text, path)),
+          ...ctx.config.locales ?? [],
+        ])
+      }
+      catch {
+        // A broken catalog is still a resource, so reading it reports the error there and the other files load.
+        locales = new Set([ctx.config.sourceLocale])
+      }
       ;[...locales].forEach((locale, index) => {
         files.push({
           path,
@@ -141,7 +148,15 @@ export function appleStrings(): Preset {
         extra: async (_, ctx) => {
           notMessages.clear()
           for (const path of await ctx.host.glob(['**/*.xcstrings'], { ignore, gitignore: true })) {
-            for (const key of fixedKeys(parseCatalog(await ctx.host.readFile(path) ?? '{"strings":{}}', path)))
+            let keys: string[]
+            try {
+              keys = fixedKeys(parseCatalog(await ctx.host.readFile(path) ?? '{"strings":{}}', path))
+            }
+            catch {
+              // The finder reports a broken catalog; it has no keys to skip.
+              continue
+            }
+            for (const key of keys)
               notMessages.add(key)
           }
         },

@@ -12,10 +12,11 @@ interface Entry {
 }
 
 function decode(raw: string): string {
-  return raw.replace(/\\(U[\da-fA-F]{1,8}|u[\da-fA-F]{4}|[\s\S])/g, (_, escape: string) => {
+  // `\U` takes four hex digits, as `\u`: a character past U+FFFF is two of them, a surrogate pair.
+  return raw.replace(/\\(U[\da-f]{4}|[\s\S])/gi, (_, escape: string) => {
     const first = escape[0]!
-    if (first === 'U' || (first === 'u' && escape.length > 1))
-      return String.fromCodePoint(Number.parseInt(escape.slice(1), 16))
+    if (escape.length > 1)
+      return String.fromCharCode(Number.parseInt(escape.slice(1), 16))
     return ({ n: '\n', t: '\t', r: '\r' } as Record<string, string>)[first] ?? first
   })
 }
@@ -25,7 +26,7 @@ const encode = (text: string): string => text.replace(/\\/g, '\\\\').replace(/"/
 class Reader {
   at = 0
   /** The comment read last, until an entry takes it. */
-  comment: { text: string, start: number } | undefined
+  comment: { text: string, start: number, end: number } | undefined
 
   constructor(readonly text: string, readonly path: string) {}
 
@@ -45,6 +46,7 @@ class Reader {
         this.comment = {
           text: this.text.slice(start + 2, end).trim(),
           start,
+          end: end + 2,
         }
         this.at = end + 2
       }
@@ -56,6 +58,7 @@ class Reader {
         this.comment = {
           text: this.text.slice(start + 2, stop).trim(),
           start,
+          end: stop,
         }
         this.at = stop
       }
@@ -96,7 +99,10 @@ class Reader {
   entries(): Entry[] {
     const out: Entry[] = []
     for (this.skip(); this.at < this.text.length; this.skip()) {
-      const comment = this.comment
+      // A comment is the entry's when it is right above it: a blank line sets it apart, as a file header.
+      const comment = this.comment && !/\n[ \t]*\r?\n/.test(this.text.slice(this.comment.end, this.at))
+        ? this.comment
+        : undefined
       this.comment = undefined
       const key = this.token()
       this.skip()
@@ -109,6 +115,7 @@ class Reader {
       if (this.text[this.at] !== ';')
         this.fail(`expected ; after "${key.raw}"`)
       this.at++
+      this.trailing()
       this.comment = undefined
       out.push({
         key: decode(key.raw),
@@ -121,6 +128,24 @@ class Reader {
       })
     }
     return out
+  }
+
+  /** A comment after an entry on its line is the entry's, not the next one's. */
+  trailing(): void {
+    let at = this.at
+    while (this.text[at] === ' ' || this.text[at] === '\t')
+      at++
+    if (this.text.startsWith('//', at)) {
+      const end = this.text.indexOf('\n', at)
+      this.at = end === -1
+        ? this.text.length
+        : end
+    }
+    else if (this.text.startsWith('/*', at)) {
+      const end = this.text.indexOf('*/', at + 2)
+      if (end !== -1 && !this.text.slice(at, end).includes('\n'))
+        this.at = end + 2
+    }
   }
 
   lineOf(from: number, to: number): TextRange {

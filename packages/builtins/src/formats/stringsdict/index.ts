@@ -124,8 +124,9 @@ function find(text: string, key: string, path: string): { rule: Rule, pair: Pair
     const prefix = rule.many
       ? `${rule.key}.${rule.variable}.`
       : `${rule.key}.`
-    if (key.startsWith(prefix)) {
-      const quantity = key.slice(prefix.length)
+    const quantity = key.slice(prefix.length)
+    // `items.selected.one` is not a quantity of `items`.
+    if (key.startsWith(prefix) && quantity && !quantity.includes('.')) {
       return {
         rule,
         pair: rule.pairs.find(pair => pair.name === quantity),
@@ -136,14 +137,22 @@ function find(text: string, key: string, path: string): { rule: Rule, pair: Pair
   return undefined
 }
 
+const quantities = new Set([
+  'zero',
+  'one',
+  'two',
+  'few',
+  'many',
+  'other',
+])
+
 function newEntry(key: string, eol: string): { name: string, quantity: string, block: (value: string) => string } {
   const at = key.lastIndexOf('.')
-  const name = at === -1
-    ? key
-    : key.slice(0, at)
-  const quantity = at === -1
-    ? 'other'
-    : key.slice(at + 1)
+  const quantity = key.slice(at + 1)
+  // A message of a `.stringsdict` is a plural form; reading `title` back as `title.other` would change its key.
+  if (at <= 0 || !quantities.has(quantity))
+    throw errors.X18N4008({ reason: `"${key}" is not a plural form, as "${key}.other", so it cannot go in a .stringsdict file` })
+  const name = key.slice(0, at)
   const line = (depth: number, body: string): string => `${'\t'.repeat(depth)}${body}${eol}`
   return {
     name,
@@ -159,7 +168,7 @@ function newEntry(key: string, eol: string): { name: string, quantity: string, b
       line(3, '<string>NSStringPluralRuleType</string>'),
       line(3, '<key>NSStringFormatValueTypeKey</key>'),
       line(3, '<string>d</string>'),
-      line(3, `<key>${quantity}</key>`),
+      line(3, `<key>${escapeXmlText(quantity)}</key>`),
       line(3, `<string>${value}</string>`),
       line(2, '</dict>'),
       line(1, '</dict>'),
@@ -187,7 +196,7 @@ function applyOp(text: string, op: MessageOp, path: string): string {
     while (text[at - 1] === ' ' || text[at - 1] === '\t')
       at--
     const indent = `${indentAt(text, found.rule.variableDict.range.start)}\t`
-    return splice(text, { start: at, end: at }, `${indent}<key>${found.quantity}</key>${eol}${indent}<string>${value}</string>${eol}`)
+    return splice(text, { start: at, end: at }, `${indent}<key>${escapeXmlText(found.quantity)}</key>${eol}${indent}<string>${value}</string>${eol}`)
   }
   const root = rootDict(text, path)
   let at = root.end
