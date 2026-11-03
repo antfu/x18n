@@ -69,6 +69,7 @@ All write commands support `--dry-run`, which prints the plan (files and edits) 
 | `x18n delete <key>` | Delete in all locales. `--locale` limits. |
 | `x18n delete --unused [glob]` | Bulk delete of unused keys through `Project.planUnused`: every locale, in place. `--namespace` and the glob limit it; `--dry-run` lists keys with locales and files, and the kept keys with the usages that keep them. `--json` adds `deleted` and `kept` to the plan data. |
 | `x18n fill [--locale]` | Add missing keys with empty values (or source values with `--copy-source`). `--from-usages` instead adds the keys of the `missing-key` diagnostics to the source locale. |
+| `x18n sync` | One plan that adds the keys `fill --from-usages` adds, deletes the keys `delete --unused` deletes and formats, so resources match the code in one write per file; `--json` reports `added`, `deleted` and `kept`. |
 | `x18n format` | Re-write resources with configured sort and indent. |
 | `x18n extract [files...]` | Hard-string extraction ([11-extraction.md](./11-extraction.md)). `--list` prints candidates, `--plan <file>` applies an edited plan. |
 

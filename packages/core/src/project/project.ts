@@ -1260,14 +1260,14 @@ export function createProject(options: CreateProjectOptions): Project {
       : undefined),
     owns: path => fileTexts.has(path) || files.has(path) || usageEligible(path),
     plan: ops => planner.plan(ops),
-    planUnused: query => planUnusedDeletion({
+    planUnused: (query, ops) => planUnusedDeletion({
       unused: analyzer.analyze().unused,
       usages: idx().usages,
       namespaced,
       ignoreKeys: config.ignoreKeys,
       locations: key => project.locations(key),
-      plan: ops => planner.plan(ops),
-    }, query),
+      plan: all => planner.plan(all),
+    }, query, ops),
     apply: (plan, applyOptions) => planner.apply(plan, applyOptions?.answers ?? {}),
     update,
     watch() {

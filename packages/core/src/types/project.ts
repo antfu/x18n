@@ -118,7 +118,7 @@ export interface KeptUnusedKey {
 
 /** The bulk delete of unused keys, as data: review it (dry run), then pass `plan` to `apply`. */
 export interface UnusedDeletion {
-  /** Deletes `keys` in every locale, in place. Its warnings list the fully dynamic usages that may reach any key. */
+  /** Deletes `keys` in every locale, in place, then runs the extra ops. Its warnings list the fully dynamic usages that may reach any key. */
   readonly plan: Plan
   /** Sorted by key. */
   readonly keys: readonly UnusedKeyDeletion[]
@@ -244,8 +244,11 @@ export interface Project {
   /** True when the path is a resource file or a scanned source file. */
   readonly owns: (path: string) => boolean
   readonly plan: (ops: readonly EditOp[]) => Plan
-  /** Plans the deletion of the unused keys (`analyze().unused`), minus `ignoreKeys` and keys a scoped fully dynamic usage may reach. */
-  readonly planUnused: (query?: UnusedQuery) => UnusedDeletion
+  /**
+   * Plans the deletion of the unused keys (`analyze().unused`), minus `ignoreKeys` and keys a scoped fully dynamic usage may reach.
+   * `ops` join the same plan after the deletes, so one apply writes each file once (`x18n sync` adds keys and formats).
+   */
+  readonly planUnused: (query?: UnusedQuery, ops?: readonly EditOp[]) => UnusedDeletion
   readonly apply: (plan: Plan, options?: { readonly answers?: Answers | undefined }) => Promise<ApplyResult>
   /** Re-reads the given files. Hosts with `watch` call this; the LSP calls it for open buffers. */
   readonly update: (events: readonly FileEvent[]) => Promise<ProjectChange | undefined>

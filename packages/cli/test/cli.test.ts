@@ -37,9 +37,9 @@ function x18n(cwd: string, args: string[], input?: string): Promise<Result> {
   })
 }
 
-/** An ngx-translate project: `files` maps paths to contents, objects are written as JSON. */
-async function ngxProject(files: Record<string, string | object>): Promise<string> {
-  const dir = join(work, `ngx-translate-${Math.random().toString(36).slice(2)}`)
+/** A project from `files` (paths to contents, objects written as JSON): ngx-translate, unless `files` has its own `package.json`. */
+async function inlineProject(files: Record<string, string | object>): Promise<string> {
+  const dir = join(work, `inline-${Math.random().toString(36).slice(2)}`)
   const all: Record<string, string | object> = {
     'package.json': {
       name: 'fixture-ngx-translate',
@@ -436,7 +436,7 @@ describe('x18n binary', { timeout: 30_000 }, () => {
   })
 
   it('fill --from-usages adds the keys code uses to the source locale only', async () => {
-    const dir = await ngxProject({
+    const dir = await inlineProject({
       'src/app/home.component.html': '<h1>{{ \'home.title\' | translate }}</h1>\n<p>{{ \'nav.home\' | translate }}</p>\n',
       // A fully dynamic and a prefix usage: neither may add a key.
       'src/app/home.component.ts': `export class Home {
@@ -484,7 +484,7 @@ describe('x18n binary', { timeout: 30_000 }, () => {
   })
 
   it('fill --from-usages leaves out ignored keys and keys that would replace a message in the resource it writes', async () => {
-    const dir = await ngxProject({
+    const dir = await inlineProject({
       'src/app/home.component.html': [
         '{{ \'nav.home.label\' | translate }}',
         '{{ \'x\' | translate }}',
@@ -519,7 +519,7 @@ describe('x18n binary', { timeout: 30_000 }, () => {
   })
 
   it('fill --from-usages adds a key beside a message in a flat resource', async () => {
-    const dir = await ngxProject({
+    const dir = await inlineProject({
       'src/app/home.component.html': '{{ \'home.title\' | translate }}\n{{ \'nav\' | translate }}\n{{ \'nav.x\' | translate }}\n',
       'src/assets/i18n/en.json': { 'home': 'Home', 'menu.open': 'Open' },
     })
@@ -532,6 +532,97 @@ describe('x18n binary', { timeout: 30_000 }, () => {
       'nav': '',
       'nav.x': '',
     })
+  })
+
+  it('sync lists what it adds, deletes and writes; --dry-run writes nothing', async () => {
+    const dir = await fixture('vue-i18n')
+    const en = join(dir, 'src/locales/en.json')
+    const de = join(dir, 'src/locales/de.json')
+    const before = await readFile(en, 'utf8')
+    const dry = await x18n(dir, ['sync', '--dry-run'])
+    expect(dry.code).toBe(0)
+    expect(dry.stdout).toContain('add app.titel  en\n')
+    expect(dry.stdout).toContain('edit src/locales/de.json\nedit src/locales/en.json\n')
+    expect(dry.stdout).toContain('delete unused  en src/locales/en.json, de src/locales/de.json\n')
+    expect(dry.stdout).toMatch(/Would add 1 key and delete 2 unused keys; 2 files would change \(dry run\)\.\n$/)
+    expect(await readFile(en, 'utf8')).toBe(before)
+
+    const plan = json(await x18n(dir, ['sync', '--dry-run', '--json']))
+    expect(plan.command).toBe('sync')
+    expect(plan.data).toMatchObject({
+      applied: false,
+      added: [
+        { key: 'app.titel', locale: 'en', value: '' },
+      ],
+      kept: [],
+    })
+    expect(plan.data.deleted).toContainEqual({
+      key: 'unused',
+      messages: [
+        { locale: 'en', file: 'src/locales/en.json' },
+        { locale: 'de', file: 'src/locales/de.json' },
+      ],
+    })
+    expect(await readFile(en, 'utf8')).toBe(before)
+
+    const done = json(await x18n(dir, ['sync', '--json']))
+    expect(done.data.applied).toBe(true)
+    expect(JSON.parse(await readFile(en, 'utf8')).app.titel).toBe('')
+    expect(JSON.parse(await readFile(en, 'utf8'))).not.toHaveProperty('unused')
+    expect(JSON.parse(await readFile(de, 'utf8'))).not.toHaveProperty('unused')
+    expect(JSON.parse(await readFile(de, 'utf8')).app).not.toHaveProperty('titel')
+    const again = await x18n(dir, ['sync'])
+    expect(again.stdout).toBe('The resources match the code.\n')
+  })
+
+  it('sync adds the missing used key, deletes the unused key, keeps the dynamic key, and sorts', async () => {
+    const dir = await inlineProject({
+      'package.json': {
+        name: 'fixture-react-i18next',
+        private: true,
+        dependencies: { 'i18next': '*', 'react-i18next': '*' },
+      },
+      'src/App.tsx': [
+        'export function App() { const { t } = useTranslation(); return t(\'title\') + t(\'home.title\') + t(\'legacy.label\') }',
+        'export function Menu({ action }) { const { t } = useTranslation(undefined, { keyPrefix: \'menu\' }); return t(action) }',
+        '',
+      ].join('\n'),
+      // `legacy` is unused, and its deletion makes room for the used `legacy.label` in the same run.
+      'locales/en/translation.json': {
+        title: 'App',
+        old: 'Old',
+        legacy: 'Legacy',
+        menu: { open: 'Open' },
+      },
+      'locales/de/translation.json': {
+        title: 'App',
+        old: 'Alt',
+        legacy: 'Alt',
+        menu: { open: 'Offen' },
+      },
+      'x18n.config.json': {
+        write: { sort: 'binary' },
+      },
+    })
+    const result = json(await x18n(dir, ['sync', '--json']))
+    expect(result.data.added).toEqual([
+      { key: 'translation:home.title', locale: 'en', value: '' },
+      { key: 'translation:legacy.label', locale: 'en', value: '' },
+    ])
+    expect(result.data.warnings).toEqual([])
+    expect(result.data.deleted.map((k: { key: string }) => k.key)).toEqual(['translation:legacy', 'translation:old'])
+    expect(result.data.kept.map((k: { key: string }) => k.key)).toEqual(['translation:menu.open'])
+    expect(await readFile(join(dir, 'locales/en/translation.json'), 'utf8')).toBe(`${JSON.stringify({
+      home: { title: '' },
+      legacy: { label: '' },
+      menu: { open: 'Open' },
+      title: 'App',
+    }, null, 2)}\n`)
+    expect(await readFile(join(dir, 'locales/de/translation.json'), 'utf8')).toBe(`${JSON.stringify({
+      menu: { open: 'Offen' },
+      title: 'App',
+    }, null, 2)}\n`)
+    expect((await x18n(dir, ['sync'])).stdout).toContain('The resources match the code.\n')
   })
 
   it('fill --from-usages refuses --locale and --copy-source', async () => {
@@ -710,6 +801,7 @@ describe('x18n binary', { timeout: 30_000 }, () => {
       ['check'],
       ['review', 'list'],
       ['delete', '--unused', '--dry-run'],
+      ['sync', '--dry-run'],
       [
         'prompt',
         'translate',

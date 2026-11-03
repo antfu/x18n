@@ -686,6 +686,92 @@ exports[`x18n binary > keeps the JSON contract of every read command > status 1`
 "
 `;
 
+exports[`x18n binary > keeps the JSON contract of every read command > sync --dry-run 1`] = `
+"{
+  "x18n": 2,
+  "command": "sync",
+  "data": {
+    "applied": false,
+    "keys": [
+      "app.titel",
+      "linked",
+      "unused"
+    ],
+    "warnings": [],
+    "decisions": [],
+    "changes": [
+      {
+        "type": "edit",
+        "path": "src/locales/de.json",
+        "edits": [
+          {
+            "range": {
+              "start": 185,
+              "end": 236
+            },
+            "text": ""
+          }
+        ],
+        "file": "src/locales/de.json"
+      },
+      {
+        "type": "edit",
+        "path": "src/locales/en.json",
+        "edits": [
+          {
+            "range": {
+              "start": 66,
+              "end": 296
+            },
+            "text": ",\\n    \\"titel\\": \\"\\"\\n  },\\n  \\"nav\\": {\\n    \\"home\\": \\"Home\\",\\n    \\"about\\": \\"About\\"\\n  },\\n  \\"pages\\": {\\n    \\"home\\": {\\n      \\"title\\": \\"Welcome\\"\\n    },\\n    \\"about\\": {\\n      \\"title\\": \\"About us\\"\\n    }\\n  }"
+          }
+        ],
+        "file": "src/locales/en.json"
+      }
+    ],
+    "added": [
+      {
+        "key": "app.titel",
+        "locale": "en",
+        "value": ""
+      }
+    ],
+    "deleted": [
+      {
+        "key": "linked",
+        "messages": [
+          {
+            "locale": "en",
+            "file": "src/locales/en.json"
+          },
+          {
+            "locale": "de",
+            "file": "src/locales/de.json"
+          }
+        ]
+      },
+      {
+        "key": "unused",
+        "messages": [
+          {
+            "locale": "en",
+            "file": "src/locales/en.json"
+          },
+          {
+            "locale": "de",
+            "file": "src/locales/de.json"
+          }
+        ]
+      }
+    ],
+    "kept": []
+  },
+  "diagnostics": [],
+  "errors": []
+}
+"
+`;
+
 exports[`x18n binary > keeps the JSON contract of every read command > usages 1`] = `
 "{
   "x18n": 2,

@@ -8,7 +8,7 @@ import cac from 'cac'
 import { formatDiagnostic } from 'nostics'
 import { ansiFormatter } from 'nostics/formatters/ansi'
 import { version } from '../package.json' with { type: 'json' }
-import { apply, fill, format, remove, rename, set } from './commands/change'
+import { apply, fill, format, remove, rename, set, sync } from './commands/change'
 import { check } from './commands/check'
 import { extract } from './commands/extract'
 import { doctor, get, keys, locales, search, status, usages } from './commands/look'
@@ -141,6 +141,9 @@ export function createCli(): CAC {
   cli.command('format', 'Re-write resources with the configured sort and indent')
     .option('--dry-run', 'Print the plan instead of writing')
     .action(run('format', format))
+  cli.command('sync', 'Add the keys code uses to the source locale, delete unused keys and format, in one write')
+    .option('--dry-run', 'Print the plan instead of writing')
+    .action(run('sync', sync))
 
   cli.command('extract [...files]', 'Find hard-coded strings and turn them into keys')
     .option('--list', 'Print candidates and proposed keys')

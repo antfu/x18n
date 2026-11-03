@@ -163,6 +163,33 @@ describe('planUnused', () => {
     expect(files.get('locales/en.yml')).toBe('# Messages\napp:\n  # The title\n  title: App\nfooter:   Footer\n')
   })
 
+  it('plans extra ops after the deletes, so a deleted message makes room for a key under it', async () => {
+    const { project, files } = await createTestProject({
+      'package.json': pkg,
+      'locales/en/translation.json': json({ used: 'Used', old: 'Old' }),
+      'src/App.tsx': 'function App() { const { t } = useTranslation(); return t(\'used\') + t(\'old.label\') }\n',
+    }, {
+      write: { sort: 'binary' },
+    })
+    const deletion = project.planUnused({}, [
+      {
+        type: 'set',
+        key: 'translation:old.label',
+        locale: 'en',
+        value: '',
+        replace: false,
+      },
+      { type: 'format' },
+    ])
+    expect(deletion.keys.map(k => k.key)).toEqual(['translation:old'])
+    expect(deletion.plan.warnings).toEqual([])
+    await project.apply(deletion.plan)
+    expect(files.get('locales/en/translation.json')).toBe(`${JSON.stringify({
+      old: { label: '' },
+      used: 'Used',
+    }, null, 2)}\n`)
+  })
+
   it('plans nothing without scanned source files', async () => {
     const { project } = await createTestProject({
       'locales/en.json': json({ a: 'A' }),

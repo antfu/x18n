@@ -625,7 +625,7 @@ export interface Project {
   readonly text: (_: string) => string | undefined;
   readonly owns: (_: string) => boolean;
   readonly plan: (_: readonly EditOp[]) => Plan;
-  readonly planUnused: (_?: UnusedQuery) => UnusedDeletion;
+  readonly planUnused: (_?: UnusedQuery, _?: readonly EditOp[]) => UnusedDeletion;
   readonly apply: (_: Plan, _?: {
     readonly answers?: Answers | undefined;
   }) => Promise<ApplyResult>;

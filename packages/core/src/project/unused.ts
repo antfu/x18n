@@ -34,7 +34,7 @@ function scopeMatcher(usage: Usage, namespaced: boolean): ((key: KeyString) => b
   }
 }
 
-export function planUnusedDeletion(options: UnusedDeletionOptions, query: UnusedQuery = {}): UnusedDeletion {
+export function planUnusedDeletion(options: UnusedDeletionOptions, query: UnusedQuery = {}, ops: readonly EditOp[] = []): UnusedDeletion {
   const ignored = keyMatcher(options.ignoreKeys)
   const match = query.glob
     ? keyMatcher([query.glob])
@@ -69,7 +69,10 @@ export function planUnusedDeletion(options: UnusedDeletionOptions, query: Unused
     })
   }
 
-  const plan = options.plan(keys.map(({ key }) => ({ type: 'delete', key, locales: 'all' })))
+  const plan = options.plan([
+    ...keys.map(({ key }): EditOp => ({ type: 'delete', key, locales: 'all' })),
+    ...ops,
+  ])
   if (unscoped.length === 0 || keys.length === 0)
     return { plan, keys, kept }
   const files = [
