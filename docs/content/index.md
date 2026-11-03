@@ -6,7 +6,7 @@ description: x18n reads the locale files of any project, finds where each key is
 
 <!-- eslint-disable markdown/no-missing-atx-heading-space -- `#title` and the like are MDC slot names, not headings. -->
 
-::u-page-hero
+::landing-hero
 ---
 orientation: horizontal
 ---
@@ -20,7 +20,7 @@ i18n files, checked and maintained
 x18n reads the locale files and the translate calls of your project. It reports missing, unused and broken keys, and changes locale files without breaking their format. For humans, CI and coding agents.
 
 #links
-  :::u-button
+  :::button
   ---
   to: /guide/getting-started
   size: lg
@@ -29,7 +29,7 @@ x18n reads the locale files and the translate calls of your project. It reports 
   Get started
   :::
 
-  :::u-button
+  :::button
   ---
   icon: i-simple-icons-github
   color: neutral
@@ -48,6 +48,7 @@ x18n reads the locale files and the translate calls of your project. It reports 
 
 ::landing-tabs
 ---
+header: center
 items:
   - icon: i-ph-list-duotone
     title: x18n
@@ -172,7 +173,7 @@ Coming from i18n-ally?
 `x18n migrate i18n-ally` converts your settings and custom frameworks into an x18n config.
 
 #links
-  :::u-button
+  :::button
   ---
   to: /guide/getting-started
   size: lg
@@ -181,7 +182,7 @@ Coming from i18n-ally?
   Get started
   :::
 
-  :::u-button
+  :::button
   ---
   to: /migration
   color: neutral

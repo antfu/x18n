@@ -17,6 +17,8 @@ export const jsonReporter: Reporter = {
           missing: c.missing.length,
           empty: c.empty.length,
           outdated: c.outdated.length,
+          needsReview: c.needsReview.length,
+          reviewed: c.reviewed.length,
         })),
       })),
       // Optional: only when a baseline applies.

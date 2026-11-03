@@ -1,4 +1,4 @@
-import type { KeyString, LocaleCoverage } from '@x18n/core'
+import type { KeyString, LocaleCoverage, MessageLeaf, MessageState } from '@x18n/core'
 import type { LoadedProject } from '@x18n/node'
 import type { GlobalOptions } from '../context'
 import { renderExplanation } from '@x18n/core'
@@ -31,6 +31,8 @@ function statusData(loaded: LoadedProject): object {
       translated: c.translated,
       missing: c.missing.length,
       empty: c.empty.length,
+      needsReview: c.needsReview.length,
+      reviewed: c.reviewed.length,
       percent: percent(c),
     })),
     resources: project.resources.length,
@@ -61,6 +63,10 @@ export async function status(options: GlobalOptions): Promise<void> {
         ? `, ${c.missing.length} missing`
         : ''}${c.empty.length
         ? `, ${c.empty.length} empty`
+        : ''}${c.needsReview.length
+        ? `, ${c.needsReview.length} to review`
+        : ''}${c.reviewed.length
+        ? `, ${c.reviewed.length} reviewed`
         : ''}`)
     }
     out(`  ${summary.errors} errors, ${summary.warnings} warnings`)
@@ -107,12 +113,16 @@ export async function keys(glob: string | undefined, options: KeysOptions): Prom
       name: loaded.name,
       total,
       nextCursor,
-      keys: items.map(key => options.values
-        ? {
-            key,
+      keys: items.map((key) => {
+        const label = project.locales.map(locale => project.message(key, locale)?.label).find(l => l !== undefined)
+        return {
+          key,
+          ...label !== undefined && { label },
+          ...options.values && {
             values: values(key),
-          }
-        : { key }),
+          },
+        }
+      }),
     }
   })
   if (options.json) {
@@ -123,9 +133,12 @@ export async function keys(glob: string | undefined, options: KeysOptions): Prom
     if (workspace.projects.length > 1)
       out(`# ${p.name}`)
     for (const item of p.keys) {
-      out('values' in item
-        ? `${item.key}\t${JSON.stringify(item.values)}`
-        : item.key)
+      const key = item.label === undefined
+        ? item.key
+        : `${item.key}\t${item.label}`
+      out(item.values
+        ? `${key}\t${JSON.stringify(item.values)}`
+        : key)
     }
     if (p.nextCursor)
       out(`… ${p.total - Number(p.nextCursor)} more (--cursor ${p.nextCursor})`)
@@ -169,6 +182,16 @@ export async function search(query: string, options: GlobalOptions & { readonly 
   }
 }
 
+function messageLines(m: { readonly locale: string, readonly value: MessageLeaf, readonly file: string, readonly line: number, readonly column: number, readonly state: MessageState | undefined, readonly description: string | undefined }): string[] {
+  const state = m.state
+    ? `  [${m.state}]`
+    : ''
+  return [
+    `  ${m.locale.padEnd(8)} ${JSON.stringify(m.value)}  ${m.file}:${m.line}:${m.column}${state}`,
+    ...(m.description?.split('\n') ?? []).map(line => `           ${line}`),
+  ]
+}
+
 export async function get(input: string, options: GlobalOptions): Promise<void> {
   const workspace = await openWorkspace(options)
   const projects = workspace.projects.flatMap((loaded) => {
@@ -182,10 +205,13 @@ export async function get(input: string, options: GlobalOptions): Promise<void> 
         name: loaded.name,
         key: info.key,
         namespace: info.namespace,
+        label: info.label,
         messages: info.messages.map(m => ({
           locale: m.locale,
           value: m.value,
           ...locate(loaded, resourceOf(m.resource), m.range?.key.start ?? 0, m.range?.key.end ?? 0),
+          state: m.state,
+          description: m.description,
         })),
         missing: info.missing,
         usages: info.usages.map(u => ({
@@ -205,11 +231,10 @@ export async function get(input: string, options: GlobalOptions): Promise<void> 
   if (projects.length === 0)
     out(`"${input}" is not defined.`)
   for (const p of projects) {
-    out(`${p.key}${workspace.projects.length > 1
+    out(`${[p.key, p.label].filter(part => part !== undefined).join('  ')}${workspace.projects.length > 1
       ? ` (${p.name})`
       : ''}`)
-    for (const m of p.messages)
-      out(`  ${m.locale.padEnd(8)} ${JSON.stringify(m.value)}  ${m.file}:${m.line}:${m.column}`)
+    p.messages.flatMap(messageLines).forEach(line => out(line))
     if (p.missing.length)
       out(`  missing in ${p.missing.join(', ')}`)
     out(`  ${p.usages.length} usages`)

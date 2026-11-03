@@ -76,6 +76,8 @@ export interface GlossaryEntry {
   readonly term: string
   /** Translation per locale. */
   readonly translations?: { readonly [locale: string]: string } | undefined
+  /** Other forms per locale, matched at the start of a word: inflections and compound stems of the translation, or of the term under the source locale. */
+  readonly forms?: { readonly [locale: string]: readonly string[] } | undefined
   readonly note?: string | undefined
   readonly doNotTranslate?: boolean | undefined
 }
@@ -115,6 +117,8 @@ export interface ExtractOptions {
 export interface UsageOptions {
   readonly include?: readonly string[] | undefined
   readonly exclude?: readonly string[] | undefined
+  /** Skip the files that `.gitignore` files ignore. Default `true`. Set `false` to scan a checkout that git ignores, such as a clone of the sources in a translations repository. */
+  readonly gitignore?: boolean | undefined
   readonly calls?: readonly CallSpec[] | undefined
   readonly regex?: readonly RegexScannerSpec[] | undefined
   /** Callee names never counted as translate calls. */
@@ -254,6 +258,7 @@ export interface ResolvedConfig {
   readonly usage: {
     readonly include: readonly string[]
     readonly exclude: readonly string[]
+    readonly gitignore: boolean
     readonly calls: readonly CallSpec[]
     readonly regex: readonly RegexScannerSpec[]
     readonly ignoreCallees: readonly string[]

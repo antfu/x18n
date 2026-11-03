@@ -60,6 +60,7 @@ Project settings live only in the config file. Editors have UX settings only and
 | `keySeparator` | `string \| false` | `'.'` | What splits a key into a path. `false` makes keys literal: `Welcome back.` and `Note: x` are one key, written as one property, with no parents (i18next `keySeparator: false`, gettext, Laravel JSON). Set by presets that need it. |
 | `namespace` | `{ separator?, default?, fallback?, byFile?, fromPath? }` | from presets | `separator: false` (i18next `nsSeparator: false`) means code never names a namespace, so keys in code may hold `:`. `fallback` lists the namespaces searched when a key is not in its own (i18next `fallbackNS`). `byFile` maps source globs to the namespace of keys written without one. `fromPath` names a namespace from `{namespaces}` folders: `dot` (default, `pages.home`), `slash` (i18next, `pages/home`), `camel` (Transloco, `todos-page` is `todosPage`) |
 | `usage.include` / `usage.exclude` | string[] | `**/*` / gitignore + build dirs | Source files to scan. |
+| `usage.gitignore` | boolean | `true` | Skip files that `.gitignore` ignores. `false` scans a git-ignored checkout, such as a clone of the sources in a translations repository (D44). |
 | `usage.calls` | CallSpec[] | from presets | Extra callee names, factories, wrappers, typed params ([03-plugins.md](./03-plugins.md)). |
 | `usage.ignoreCallees` | string[] | `[]` | Callee names never counted, for false positives of name matching. |
 | `usage.keysInUse` | string[] (globs) | `[]` | Keys that count as used, for example keys built at runtime. |

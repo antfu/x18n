@@ -28,7 +28,8 @@
     "usages": "Verwendungen ({count})",
     "values": "Werte",
     "showAllLocales": "Alle Sprachen anzeigen",
-    "file": "Datei"
+    "file": "Datei",
+    "description": "Notiz"
   },
   "edit": {
     "dismiss": "Schließen",
@@ -125,7 +126,9 @@
     "source": "Quelle",
     "usages": "Verwendungen",
     "warnings": "Warnungen: {count}",
-    "outdated": "{count} veraltet"
+    "outdated": "{count} veraltet",
+    "toReview": "{count} zu prüfen",
+    "reviewedCount": "{count} geprüft"
   },
   "project": {
     "config": "Konfiguration und Herkunft der Werte",
@@ -234,5 +237,12 @@
     "hint": "Enter zum Senden · Umschalt+Enter für eine neue Zeile · Esc zum Abbrechen",
     "resolvedCount": "{count} erledigt",
     "hideResolved": "Erledigte ausblenden"
+  },
+  "state": {
+    "filter": "Übersetzungsstatus",
+    "any": "Beliebiger Status",
+    "translated": "Übersetzt",
+    "needsReview": "Zu prüfen",
+    "reviewed": "Geprüft"
   }
 }

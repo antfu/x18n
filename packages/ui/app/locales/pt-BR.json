@@ -28,7 +28,8 @@
     "usages": "Usos ({count})",
     "values": "Valores",
     "showAllLocales": "Mostrar todos os idiomas",
-    "file": "Arquivo"
+    "file": "Arquivo",
+    "description": "Nota"
   },
   "edit": {
     "dismiss": "Dispensar",
@@ -125,7 +126,9 @@
     "source": "origem",
     "usages": "Usos",
     "warnings": "Avisos: {count}",
-    "outdated": "{count} desatualizadas"
+    "outdated": "{count} desatualizadas",
+    "toReview": "{count} a revisar",
+    "reviewedCount": "{count} revisadas"
   },
   "project": {
     "config": "Configuração e a origem de cada valor",
@@ -234,5 +237,12 @@
     "hint": "Enter para enviar · Shift+Enter para nova linha · Esc para cancelar",
     "resolvedCount": "{count} resolvidas",
     "hideResolved": "Ocultar resolvidas"
+  },
+  "state": {
+    "filter": "Estado da tradução",
+    "any": "Qualquer estado",
+    "translated": "Traduzido",
+    "needsReview": "A revisar",
+    "reviewed": "Revisado"
   }
 }

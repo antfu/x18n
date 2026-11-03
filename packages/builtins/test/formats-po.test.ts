@@ -57,6 +57,16 @@ describe('po format', () => {
     expect(source.slice(open.key.start, open.key.end)).toBe('Open')
   })
 
+  it('marks fuzzy entries for review', () => {
+    const { states } = format.parse(source, ctx)
+    expect([...states!]).toEqual([
+      [
+        pathId(['Hello']),
+        'needs-review',
+      ],
+    ])
+  })
+
   it('sets an existing msgstr in place', () => {
     expect(edit(source, [
       {

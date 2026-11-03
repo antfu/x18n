@@ -1,4 +1,4 @@
-import type { MessageOp, MessageTree, NodeRange, Plugin, TextRange } from '@x18n/core'
+import type { MessageOp, MessageState, MessageTree, NodeRange, Plugin, TextRange } from '@x18n/core'
 import { diffText, errors, pathId, walkLeaves } from '@x18n/core'
 import { appendLines, detectEol, leafText, splice, splitLines, withBlankLines } from '../shared'
 
@@ -22,6 +22,8 @@ interface Entry {
   readonly block: TextRange
   /** The extracted (`#.`) and translator (`# `) comments, joined. */
   readonly comment: string | undefined
+  /** Flagged `#, fuzzy`: a translation that needs review. */
+  readonly fuzzy: boolean
 }
 
 const decodings: Record<string, string> = {
@@ -68,7 +70,7 @@ function readString(text: string, start: number, end: number, fail: (message: st
   return fail('unterminated string')
 }
 
-interface Draft { start: number, end: number, fields: Field[], comments: string[] }
+interface Draft { start: number, end: number, fields: Field[], comments: string[], fuzzy: boolean }
 
 function toEntry(text: string, draft: Draft, fail: (message: string) => never): Entry | undefined {
   const field = (name: string): Field | undefined => draft.fields.find(f => f.name === name)
@@ -98,7 +100,17 @@ function toEntry(text: string, draft: Draft, fail: (message: string) => never): 
     source: msgstr.range,
     block: withBlankLines(text, { start: draft.start, end: draft.end }),
     comment: draft.comments.join('\n') || undefined,
+    fuzzy: draft.fuzzy,
   }
+}
+
+function readComment(draft: Draft, content: string): void {
+  // `#.` comes from the code, `#` from a translator; `#:`, `#,` and `#|` are references, flags and previous values.
+  const comment = /^#\.?(?:\s(.*))?$/.exec(content)?.[1]?.trim()
+  if (comment)
+    draft.comments.push(comment)
+  if (/^#,.*\bfuzzy\b/.test(content))
+    draft.fuzzy = true
 }
 
 function read(text: string, path: string): Entry[] {
@@ -132,13 +144,11 @@ function read(text: string, path: string): Entry[] {
       end: line.next,
       fields: [],
       comments: [],
+      fuzzy: false,
     }
     draft.end = line.next
     if (content.startsWith('#')) {
-      // `#.` comes from the code, `#` from a translator; `#:`, `#,` and `#|` are references, flags and previous values.
-      const comment = /^#\.?(?:\s(.*))?$/.exec(content)?.[1]?.trim()
-      if (comment)
-        draft.comments.push(comment)
+      readComment(draft, content)
       field = undefined
       continue
     }
@@ -211,13 +221,16 @@ export function po(): Plugin {
           const tree: Record<string, string> = {}
           const ranges = new Map<string, NodeRange>()
           const descriptions = new Map<string, string>()
+          const states = new Map<string, MessageState>()
           for (const entry of read(text, ctx.path)) {
             tree[entry.key] = entry.value
             ranges.set(pathId([entry.key]), entry.range)
             if (entry.comment)
               descriptions.set(pathId([entry.key]), entry.comment)
+            if (entry.fuzzy)
+              states.set(pathId([entry.key]), 'needs-review')
           }
-          return { tree, ranges, descriptions }
+          return { tree, ranges, descriptions, states }
         },
         edit(text, ops, ctx) {
           let next = text

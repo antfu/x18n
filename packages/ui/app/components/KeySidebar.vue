@@ -28,20 +28,33 @@ watch(activeKey, (key) => {
 }, { immediate: true })
 
 const keys = computed(() => table.value?.rows.map(r => r.key) ?? [])
+const labels = computed(() => new Map((table.value?.rows ?? []).flatMap(r => r.label === undefined
+  ? []
+  : [
+      [r.key, r.label] as const,
+    ])))
 const matched = computed(() => {
   const query = filter.value.trim()
-  if (!query)
-    return keys.value
-  return keys.value.map(key => ({
-    key,
-    score: fuzzyScore(query, key),
-  })).filter(m => m.score >= 0).sort((a, b) => b.score - a.score).map(m => m.key)
+  if (!query) {
+    return labels.value.size > 0
+      ? [...keys.value].sort((a, b) => (labels.value.get(a) ?? a).localeCompare(labels.value.get(b) ?? b))
+      : keys.value
+  }
+  return keys.value.map((key) => {
+    const label = labels.value.get(key)
+    return {
+      key,
+      score: Math.max(fuzzyScore(query, key), label === undefined
+        ? -1
+        : fuzzyScore(query, label)),
+    }
+  }).filter(m => m.score >= 0).sort((a, b) => b.score - a.score).map(m => m.key)
 })
 const items = computed<KeyRowItem[]>(() => view.value === 'tree'
-  ? treeRows(matched.value, open.value, filter.value.trim() !== '')
+  ? treeRows(matched.value, open.value, filter.value.trim() !== '', labels.value)
   : matched.value.map(key => ({
       id: key,
-      label: key,
+      label: labels.value.get(key) ?? key,
       depth: 0,
       key,
       branch: false,

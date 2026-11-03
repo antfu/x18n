@@ -27,8 +27,8 @@ function prefixes(key: string): { id: string, label: string }[] {
   }))
 }
 
-/** Keys as a tree, folders by `.` and `:`; `all` opens every folder, otherwise only those in `open`. */
-export function treeRows(keys: readonly string[], open: ReadonlySet<string>, all = false): KeyRowItem[] {
+/** Keys as a tree, folders by `.` and `:`; `all` opens every folder, otherwise only those in `open`. A key in `labels` shows its label. */
+export function treeRows(keys: readonly string[], open: ReadonlySet<string>, all = false, labels: ReadonlyMap<string, string> = new Map()): KeyRowItem[] {
   const root = new Map<string, Node>()
   for (const key of keys) {
     let level = root
@@ -47,15 +47,18 @@ export function treeRows(keys: readonly string[], open: ReadonlySet<string>, all
       node.key = key
   }
   const rows: KeyRowItem[] = []
+  const labelOf = (node: Node): string => (node.key === undefined
+    ? undefined
+    : labels.get(node.key)) ?? node.label
   const walk = (level: Map<string, Node>, depth: number): void => {
     for (const node of [
       ...level.values(),
-    ].sort((a, b) => a.label.localeCompare(b.label))) {
+    ].sort((a, b) => labelOf(a).localeCompare(labelOf(b)))) {
       const branch = node.children.size > 0
       const isOpen = all || open.has(node.id)
       rows.push({
         id: node.id,
-        label: node.label,
+        label: labelOf(node),
         depth,
         key: node.key,
         branch,

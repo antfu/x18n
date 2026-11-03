@@ -321,7 +321,7 @@ function cookEscape(escape: string): string {
     : escape)
 }
 
-function cook(raw: string): string {
+export function cook(raw: string): string {
   return raw.replace(escapes, (_, escape: string) => cookEscape(escape))
 }
 
@@ -382,7 +382,7 @@ function expressionEnd(text: string, start: number): number | undefined {
 }
 
 /** The raw parts of the template literal starting at `start` (the backtick), and where it ends. */
-function templateParts(text: string, start: number): { parts: string[], end: number } | undefined {
+export function templateParts(text: string, start: number): { parts: string[], end: number } | undefined {
   const parts: string[] = []
   let part = ''
   let i = start + 1

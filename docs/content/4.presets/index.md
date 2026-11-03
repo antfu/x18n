@@ -30,6 +30,8 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`transloco`](/presets/transloco) | Transloco | `@jsverse/transloco`, `@ngneat/transloco` |
 | [`angular-i18next`](/presets/angular-i18next) | angular-i18next | `angular-i18next` |
 | [`lingui`](/presets/lingui) | Lingui | `@lingui/core`, `@lingui/react`, `@lingui/macro` |
+| [`lit-localize`](/presets/lit-localize) | `@lit/localize` | `@lit/localize` |
+
 | [`ember-intl`](/presets/ember-intl) | ember-intl | `ember-intl` |
 | [`polyglot`](/presets/polyglot) | Polyglot.js | `node-polyglot` |
 | [`globalize`](/presets/globalize) | Globalize | `globalize` |
@@ -40,6 +42,7 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`vscode-extension`](/presets/vscode-extension) | VS Code extension API | `vscode`, `@types/vscode` |
 | [`laravel-vue-i18n`](/presets/laravel-vue-i18n) | laravel-vue-i18n | `laravel-vue-i18n` |
 | [`laravel`](/presets/laravel) | Laravel | `laravel/framework` in `composer.json` |
+| [`adonisjs`](/presets/adonisjs) | AdonisJS i18n | `@adonisjs/i18n` |
 | [`php-joomla`](/presets/php-joomla) | Joomla | `joomla/application`, `joomla/cms` in `composer.json` |
 | [`php-gettext`](/presets/php-gettext) | gettext in PHP | never: list it in `presets` |
 | [`ruby-rails`](/presets/ruby-rails) | Ruby on Rails | `rails`, `rails-i18n`, `railties` in `Gemfile` |
@@ -143,7 +146,7 @@ A placeholder syntax tells x18n how placeholders look in messages. The [`placeho
 
 A linked message (`@:key`) and a nesting placeholder (`$t(key)`) name another key. That key then counts as used. The [`invalid-syntax`](/checks/invalid-syntax) check reports a linked message whose key does not exist, and ICU messages that do not parse or that lack an `other` case.
 
-Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAML plugin](/plugins/yaml#sections-placeholders) can declare a shape such as `%{name}`.
+Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAML plugin](/plugins/yaml#placeholders) can declare a shape such as `%{name}`.
 
 ## Extraction templates
 

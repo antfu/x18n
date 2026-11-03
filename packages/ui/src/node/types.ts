@@ -1,5 +1,5 @@
 import type { ExtractCandidate } from '@x18n/builtins/extractors'
-import type { Decision, EditOp, FileChange, KeyString, LocaleCode, MessageLeaf, PlaceholderProblem, Project, ProjectExplanation, ReviewState, ReviewThread, ReviewType, Severity, TextRange, UsageKind, WireDiagnostic } from '@x18n/core'
+import type { Decision, EditOp, FileChange, KeyString, LocaleCode, MessageLeaf, MessageState, PlaceholderProblem, Project, ProjectExplanation, ReviewState, ReviewThread, ReviewType, Severity, TextRange, UsageKind, WireDiagnostic } from '@x18n/core'
 // Puts `devframe` into every program that sees these types, so the augmentation below resolves (the SPA only imports `devframe/client`).
 import type {} from 'devframe'
 
@@ -176,6 +176,10 @@ export interface LocaleSummary {
   readonly empty: number
   /** Translations older than their source message. */
   readonly outdated: number
+  /** Translations that are not outdated and that the format marks `needs-review`. */
+  readonly needsReview: number
+  /** Translations that are not outdated and that the format marks `reviewed`. */
+  readonly reviewed: number
   /** One decimal, rounded down. */
   readonly percent: number
 }
@@ -213,6 +217,8 @@ export interface ProjectList {
 export interface KeyRow {
   readonly key: KeyString
   readonly namespace: string | undefined
+  /** Display label of the key from the format. */
+  readonly label: string | undefined
   /** Stored value per locale; locales without the key are absent. */
   readonly values: Readonly<Record<LocaleCode, MessageLeaf>>
   /** Locales where the key is missing or empty. */
@@ -225,6 +231,8 @@ export interface KeyRow {
   readonly changedAt: number | undefined
   /** Review state per locale with open comments. */
   readonly reviews: Readonly<Record<LocaleCode, ReviewState>>
+  /** Translation state per locale whose format reports one. */
+  readonly states: Readonly<Record<LocaleCode, MessageState>>
 }
 
 export interface KeyTable {
@@ -270,12 +278,18 @@ export interface MessageView {
   readonly outdated: boolean
   /** For an outdated translation: the source value when it last changed, when known. */
   readonly sourceThen: string | undefined
+  /** How far the translation got, as the resource records it. */
+  readonly state: MessageState | undefined
+  /** What the resource says about the message for translators. */
+  readonly description: string | undefined
 }
 
 export interface KeyDetail {
   readonly project: string
   readonly key: KeyString
   readonly namespace: string | undefined
+  /** Display label of the key from the format. */
+  readonly label: string | undefined
   readonly messages: readonly MessageView[]
   readonly missing: readonly LocaleCode[]
   readonly usages: readonly UsageView[]

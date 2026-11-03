@@ -36,7 +36,7 @@ async function copy() {
     </div>
     <div class="flex flex-wrap gap-3">
       <UButton
-        to="vscode:extension/antfu.x18n-vscode"
+        to="vscode:extension/antfu.x18n"
         external
         icon="i-bxl-visual-studio"
         label="Install VS Code extension"
