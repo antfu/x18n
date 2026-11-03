@@ -1151,6 +1151,7 @@ export type EditOp = {
   readonly key: KeyString;
   readonly locale: LocaleCode;
   readonly value: MessageLeaf;
+  readonly replace?: boolean;
 } | {
   readonly type: "rename";
   readonly from: KeyString;

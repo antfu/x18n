@@ -483,7 +483,7 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(again.data.keys).toEqual([])
   })
 
-  it('fill --from-usages leaves out ignored keys and keys that would replace a message', async () => {
+  it('fill --from-usages leaves out ignored keys and keys that would replace a message in the resource it writes', async () => {
     const dir = await ngxProject({
       'src/app/home.component.html': [
         '{{ \'nav.home.label\' | translate }}',
@@ -510,12 +510,11 @@ describe('x18n binary', { timeout: 30_000 }, () => {
       '--dry-run',
       '--json',
     ]))
-    expect(plan.data.keys).toEqual(['ok'])
+    // The guard looks at the resource it writes: `only.de` is a message in de only, so en gets `only.de.child`.
+    expect(plan.data.keys).toEqual(['ok', 'only.de.child', 'x'])
     expect(plan.data.warnings).toEqual([
-      '"nav.home.label" is not added: "nav.home" is a message in en, and adding "nav.home.label" would replace it.',
-      '"x" is not added: code also uses "x.y", and one would replace the other.',
-      '"x.y" is not added: code also uses "x", and one would replace the other.',
-      '"only.de.child" is not added: "only.de" is a message in de, and adding "only.de.child" would replace it.',
+      '"nav.home.label" is not added: "nav.home" is a message in src/assets/i18n/en.json, and adding "nav.home.label" would replace it.',
+      '"x.y" is not added: "x" is a message in src/assets/i18n/en.json, and adding "x.y" would replace it.',
     ])
   })
 

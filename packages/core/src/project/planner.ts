@@ -403,12 +403,13 @@ class PlanBuilder {
     entry.tree = applyMessageOps(entry.tree, [op])
   }
 
-  setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf): void {
-    this.touched.add(key)
+  /** False when `replace` is false and the value would replace other keys or a message on its path: the set is skipped with a warning. */
+  setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf, replace = true): boolean {
     const existing = this.options.message(key, locale)
     if (existing) {
+      this.touched.add(key)
       this.pushOp(this.workFor(this.targetOf(this.writable(existing.resource))), { type: 'set', path: existing.storedPath, value })
-      return
+      return true
     }
     const target = this.pickTarget(key, locale)
     if (target.state)
@@ -416,9 +417,28 @@ class PlanBuilder {
     const entry = this.workFor(target)
     const stored = this.storedPathFor(entry, this.relativePath(key, target)!)
     const occupied = nodeAt(entry.tree, stored)
-    if (occupied !== undefined && !isMessageLeaf(occupied))
+    const parent = occupied !== undefined && !isMessageLeaf(occupied)
+    if (!replace) {
+      const leaf = stored.slice(0, -1).findIndex((_, i) => {
+        const node = nodeAt(entry.tree, stored.slice(0, i + 1))
+        return node !== undefined && isMessageLeaf(node)
+      })
+      if (leaf !== -1) {
+        const message = stored.slice(0, leaf + 1).join(keyJoiner(this.separatorOf(target)))
+        this.warnings.push(`"${key}" is not added: "${message}" is a message in ${target.path}, and adding "${key}" would replace it.`)
+        return false
+      }
+      if (parent) {
+        this.warnings.push(`"${key}" is not added: it is a parent of other keys in ${target.path}, and adding it would replace them.`)
+        return false
+      }
+    }
+    else if (parent) {
       this.warnings.push(`"${key}" is a parent of other keys in ${target.path}; they are replaced.`)
+    }
+    this.touched.add(key)
     this.pushOp(entry, { type: 'set', path: stored, value })
+    return true
   }
 
   deleteMessage(m: Message): void {
@@ -764,7 +784,9 @@ class PlanBuilder {
   }
 
   set(op: Extract<EditOp, { type: 'set' }>): void {
-    this.setValue(op.key, op.locale, op.value)
+    const replace = op.replace !== false
+    if (!this.setValue(op.key, op.locale, op.value, replace))
+      return
     if (op.locale === this.state.sourceLocale)
       this.plannedSource.set(op.key, op.value)
     else if (op.value !== '')
@@ -773,7 +795,7 @@ class PlanBuilder {
       return
     for (const locale of this.state.locales) {
       if (locale !== op.locale && !this.state.fallbacks[locale] && !this.options.message(op.key, locale))
-        this.setValue(op.key, locale, '')
+        this.setValue(op.key, locale, '', replace)
     }
   }
 

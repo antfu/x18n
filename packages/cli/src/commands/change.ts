@@ -1,6 +1,6 @@
-import type { EditOp, JsonValue, KeyString, Project, Resource } from '@x18n/core'
+import type { EditOp, JsonValue, KeyString, Project } from '@x18n/core'
 import type { GlobalOptions } from '../context'
-import { errors, joinKey, keyMatcher, parseMessageBatch, placeholderProblems, splitKey, toErrorInfo } from '@x18n/core'
+import { errors, keyMatcher, parseMessageBatch, placeholderProblems, toErrorInfo } from '@x18n/core'
 import { displayPath, locate, openWorkspace, out, printJson, readInput, runPlan, singleProject, stdinArg } from '../context'
 
 interface WriteOptions extends GlobalOptions {
@@ -111,85 +111,21 @@ interface FillOptions extends WriteOptions {
   readonly fromUsages?: boolean | undefined
 }
 
-/**
- * The keys of the `missing-key` diagnostics: keys code uses that the source locale lacks, minus `ignoreKeys`. Each is a
- * `set` op on the source locale with a default value written in code, or `''`. A key that would replace a message in any
- * locale (`a.b` under the message `a`), or that another added key would replace (`a` and `a.b`), is left out with a warning;
- * in a flat resource, where both fit, it is added.
- */
-function fromUsagesOps(p: Project): { readonly ops: EditOp[], readonly warnings: string[] } {
-  const separator = p.config.keySeparator
-  const ignored = keyMatcher(p.config.ignoreKeys, separator)
+/** The keys of the `missing-key` diagnostics, minus `ignoreKeys`, as `set` ops that replace nothing; a usage with a default value wins. */
+function fromUsagesOps(p: Project): EditOp[] {
+  const ignored = keyMatcher(p.config.ignoreKeys, p.config.keySeparator)
   const values = new Map<KeyString, string | undefined>()
   for (const usage of p.analyze().undefinedUsages) {
-    const key = usage.key!
-    if (!ignored(key) && values.get(key) === undefined)
-      values.set(key, usage.defaultValue)
+    if (!ignored(usage.key!) && values.get(usage.key!) === undefined)
+      values.set(usage.key!, usage.defaultValue)
   }
-  const parentsOf = (key: KeyString): KeyString[] => {
-    const { namespace, path } = splitKey(key, p.namespaced, separator)
-    return path.slice(0, -1).map((_, i) => joinKey(namespace, path.slice(0, i + 1), separator))
-  }
-  // A new `a.b` replaces the message `a` only in a nested resource; a flat one keeps both. As in the planner: parent
-  // nodes mean nested, a stored property holding the separator means flat, else `keyStyle` decides.
-  const nesting = new Map<string, boolean>()
-  const nests = (resource: Resource): boolean => {
-    let nested = nesting.get(resource.path)
-    if (nested === undefined) {
-      const by = resource.keySeparator ?? separator
-      const nodes = p.nodes(resource.path)
-      nested = by !== false && (nodes.some(node => !node.leaf)
-        || (!nodes.some(node => p.message(node.key, node.locale)?.storedPath.some(segment => segment.includes(by))) && p.config.keyStyle !== 'flat'))
-      nesting.set(resource.path, nested)
-    }
-    return nested
-  }
-  const resourceOf = (id: string): Resource | undefined => p.resources.find(r => r.id === id)
-  const sources = p.resources.filter(r => r.locale === p.sourceLocale)
-  const sourceNests = sources.length === 0
-    ? separator !== false && p.config.keyStyle !== 'flat'
-    : sources.some(nests)
-  // Every key some other added key would sit under, with that key.
-  const under = new Map<KeyString, KeyString>()
-  for (const key of values.keys()) {
-    for (const parent of parentsOf(key))
-      under.set(parent, key)
-  }
-  const ops: EditOp[] = []
-  const warnings: string[] = []
-  for (const [key, value] of values) {
-    const parents = parentsOf(key)
-    let message: { parent: KeyString, locale: string } | undefined
-    for (const parent of parents) {
-      const locale = p.locales.find((l) => {
-        const found = p.message(parent, l)
-        const resource = found && resourceOf(found.resource)
-        return resource !== undefined && nests(resource)
-      })
-      if (locale !== undefined) {
-        message = { parent, locale }
-        break
-      }
-    }
-    const clash = sourceNests
-      ? parents.find(parent => values.has(parent)) ?? under.get(key)
-      : undefined
-    if (message !== undefined) {
-      warnings.push(`"${key}" is not added: "${message.parent}" is a message in ${message.locale}, and adding "${key}" would replace it.`)
-    }
-    else if (clash !== undefined) {
-      warnings.push(`"${key}" is not added: code also uses "${clash}", and one would replace the other.`)
-    }
-    else {
-      ops.push({
-        type: 'set',
-        key,
-        locale: p.sourceLocale,
-        value: value ?? '',
-      })
-    }
-  }
-  return { ops, warnings }
+  return [...values].map(([key, value]) => ({
+    type: 'set',
+    key,
+    locale: p.sourceLocale,
+    value: value ?? '',
+    replace: false,
+  }))
 }
 
 export async function fill(options: FillOptions): Promise<void> {
@@ -199,15 +135,7 @@ export async function fill(options: FillOptions): Promise<void> {
     if (options.copySource)
       throw errors.X18N4008({ reason: '--from-usages has no source value to copy; leave out --copy-source' })
     const loaded = await project(options)
-    const { ops, warnings } = fromUsagesOps(loaded.project)
-    const plan = loaded.project.plan(ops)
-    await runPlan('fill', loaded, {
-      ...plan,
-      warnings: [
-        ...plan.warnings,
-        ...warnings,
-      ],
-    }, options)
+    await runPlan('fill', loaded, loaded.project.plan(fromUsagesOps(loaded.project)), options)
     return
   }
   const loaded = await project(options)
