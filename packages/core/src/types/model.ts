@@ -81,6 +81,9 @@ export interface Resource {
   readonly keySeparator?: KeySeparator | undefined
 }
 
+/** How far a translation got, as in XLIFF: a value can exist before anyone reviews it. */
+export type MessageState = 'translated' | 'needs-review' | 'reviewed'
+
 /** One stored value of one key in one locale. */
 export interface Message {
   readonly key: KeyString
@@ -93,6 +96,10 @@ export interface Message {
   readonly range: NodeRange | undefined
   /** What the resource says about the message for translators, such as a note or a comment beside it. */
   readonly description?: string | undefined
+  /** The translation state the resource records, such as XLIFF `state` or PO `fuzzy`. */
+  readonly state?: MessageState | undefined
+  /** A display label of the key from the resource, for keys that do not read well, such as hashes. */
+  readonly label?: string | undefined
 }
 
 export type UsageKind = 'call' | 'selector' | 'accessor' | 'constant' | 'marker'

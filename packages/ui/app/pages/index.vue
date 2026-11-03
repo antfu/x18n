@@ -13,10 +13,31 @@ import { formatPercent, languageName, t } from '../i18n'
 import { translatePrompt } from '../prompt'
 import { locales, currentProject as project, recentKeys } from '../state'
 
-function outdatedPercent(locale: LocaleSummary): number {
+function share(locale: LocaleSummary, count: number): number {
   return locale.total === 0
     ? 0
-    : (locale.outdated / locale.total) * 100
+    : (count / locale.total) * 100
+}
+
+// With translation states, values not yet reviewed show lighter.
+const hasStates = computed(() => (project.value?.locales ?? []).some(l => l.reviewed + l.needsReview > 0))
+
+function bar(locale: LocaleSummary): { readonly class: string, readonly width: number }[] {
+  const states = hasStates.value && locale.code !== project.value?.sourceLocale
+  const reviewed = states
+    ? share(locale, locale.reviewed)
+    : 0
+  const needsReview = share(locale, locale.needsReview)
+  const outdated = share(locale, locale.outdated)
+  return [
+    { class: 'bg-inverse', width: reviewed },
+    {
+      class: states ? 'bg-[var(--x-faint)]' : 'bg-inverse',
+      width: Math.max(0, locale.percent - outdated - reviewed - needsReview),
+    },
+    { class: 'bg-[var(--x-info)]', width: needsReview },
+    { class: 'bg-[var(--x-warn)]', width: outdated },
+  ]
 }
 
 // The latest revision starts open; a click on any revision flips it.
@@ -89,13 +110,14 @@ const stats = computed(() => project.value && [
             <span v-if="locale.code === project.sourceLocale" class="badge">{{ t('overview.source') }}</span>
           </span>
           <span class="h-1.5 flex border border-strong" :title="languageName(locale.code)">
-            <span class="h-full bg-inverse" :style="{ width: `${Math.max(0, locale.percent - outdatedPercent(locale))}%` }" />
-            <span class="h-full bg-[var(--x-warn)]" :style="{ width: `${outdatedPercent(locale)}%` }" />
+            <span v-for="(part, i) in bar(locale)" :key="i" class="h-full" :class="part.class" :style="{ width: `${part.width}%` }" />
           </span>
           <span class="text-right font-mono tabular-nums" :class="locale.percent >= 100 && 'color-ok'">{{ formatPercent(locale.percent) }}</span>
           <span class="text-xs color-muted tabular-nums">
             {{ t('overview.missing', { missing: locale.missing, empty: locale.empty }) }}
             <span v-if="locale.outdated" class="color-warn">· {{ t('overview.outdated', { count: locale.outdated }) }}</span>
+            <span v-if="locale.needsReview" class="color-info"> · {{ t('overview.toReview', { count: locale.needsReview }) }}</span>
+            <span v-if="hasStates && locale.reviewed"> · {{ t('overview.reviewedCount', { count: locale.reviewed }) }}</span>
           </span>
         </NuxtLink>
         <span class="flex w-12 shrink-0 justify-center">

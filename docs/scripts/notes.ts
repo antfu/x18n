@@ -250,7 +250,9 @@ export default defineConfig({
 - \`case\`: \`camel\`, \`snake\`, \`kebab\` or \`pascal\`. Each segment of the key path must match.
 - \`pattern\`: a regular expression that the whole key must match.`,
   'hard-string': 'The check is on when `extract.autoDetect` is `true`, or when you set a severity for it in `checks`. Run `x18n extract` to turn the reported strings into keys.',
-  'glossary': 'The check reads the `glossary` config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when `doNotTranslate` is `true`.',
+  'glossary': `The check reads the \`glossary\` config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when \`doNotTranslate\` is \`true\`. A term and a translation match as whole words, so "Home" does not match "Homepage".
+
+In a language that inflects or compounds its nouns, list the forms the check should also accept under \`forms\`, per locale: \`{ term: 'Date', translations: { nb: 'Dato' }, forms: { nb: ['datoen', 'datoer'] } }\`. A form matches at the start of a word, so a compound stem such as \`bestillings\` covers "bestillingssiden". Forms under the source locale count as uses of the term, so \`forms: { en: ['bookings'] }\` has "Your bookings" checked too.`,
   'stale-translation': `A translation is stale when it last changed before its source message did. Inside a git repo, x18n reads the commits that touched the locale files and compares the parsed messages, so reformatting, sorting and moving keys between files do not count. Uncommitted edits count as changed now. A message without history is never stale.
 
 In CI, fetch the full history: a shallow clone (the \`actions/checkout\` default) reports nothing. Set \`fetch-depth: 0\`. Limit the walk with \`history: { git: { maxDepth, since } }\`, or turn history off with \`history: false\`. \`x18n prompt translate --to <locale> --stale\` adds stale translations to the prompt, with the source text from when they last changed.`,
@@ -297,7 +299,7 @@ export const configNotes: { readonly [field: string]: string } = {
   'ResourceSpec.format': 'Format id for the matching files, for example `json` or `yaml`. Without it, the file extension picks the format.',
   'UsageOptions.include': 'Globs of the source files to scan for usages.',
   'UsageOptions.exclude': 'Globs of the source files to skip. Your list adds to the default list.',
-  'UsageOptions.calls': 'Translate calls to add to the ones of the presets. See [Supported syntax](/plugins/yaml#sections-scanners).',
+  'UsageOptions.calls': 'Translate calls to add to the ones of the presets. See [Supported syntax](/plugins/yaml#scanners).',
   'UsageOptions.regex': 'Regex scanners for files that no AST scanner reads, such as PHP or Ruby templates.',
   'ArgSource.arg': 'Index of the argument, from 0.',
   'ArgSource.property': 'Property of an object argument that holds the value.',

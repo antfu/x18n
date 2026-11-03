@@ -13,6 +13,7 @@ Use these names in code, docs and UI. Avoid the "not" column.
 | **Namespace** | A named group of keys, usually from a file name. | scope (that is a code region) |
 | **Key** | The canonical id of a message: namespace plus path. String form `ns:a.b.c`. With `keySeparator: false` the path is one literal segment (`Welcome back.`). | keypath, id |
 | **Message** | The value of one key in one locale. | translation (fine for non-source locales in prose), string |
+| **Translation state** | How far a message got, as its format says: `translated`, `needs-review` or `reviewed` (XLIFF `state`, PO `fuzzy`). Not the state of a review thread. | review state, status |
 | **Usage** | One occurrence of a key in source code. | reference, occurrence |
 | **Param** | A named value a translate call passes to its message (`name` in `t('greet', { name })`), which a placeholder reads. | argument, variable |
 | **Prefix usage** | A dynamic usage with a static prefix (`t(`pages.${id}.title`)`). It makes every key under the prefix "possibly" used. | partial key |

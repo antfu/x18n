@@ -91,6 +91,7 @@ export interface KeyDetail {
   readonly project: string;
   readonly key: KeyString;
   readonly namespace: string | undefined;
+  readonly label: string | undefined;
   readonly messages: readonly MessageView[];
   readonly missing: readonly LocaleCode[];
   readonly usages: readonly UsageView[];
@@ -103,6 +104,7 @@ export interface KeyQuery extends ProjectQuery {
 export interface KeyRow {
   readonly key: KeyString;
   readonly namespace: string | undefined;
+  readonly label: string | undefined;
   readonly values: Readonly<Record<LocaleCode, MessageLeaf>>;
   readonly missing: readonly LocaleCode[];
   readonly unused: boolean;
@@ -110,6 +112,7 @@ export interface KeyRow {
   readonly outdated: readonly LocaleCode[];
   readonly changedAt: number | undefined;
   readonly reviews: Readonly<Record<LocaleCode, ReviewState>>;
+  readonly states: Readonly<Record<LocaleCode, MessageState>>;
 }
 export interface KeyTable {
   readonly project: string;
@@ -126,6 +129,8 @@ export interface LocaleSummary {
   readonly missing: number;
   readonly empty: number;
   readonly outdated: number;
+  readonly needsReview: number;
+  readonly reviewed: number;
   readonly percent: number;
 }
 export interface MessageView {
@@ -139,6 +144,8 @@ export interface MessageView {
   readonly changed: HistoryView | undefined;
   readonly outdated: boolean;
   readonly sourceThen: string | undefined;
+  readonly state: MessageState | undefined;
+  readonly description: string | undefined;
 }
 export interface OpenQuery extends ProjectQuery {
   readonly path: string;

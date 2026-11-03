@@ -26,7 +26,7 @@ trustPolicy: no-downgrade
 # Older releases of Nuxt and comark-docs dependencies predate provenance publishing;
 # only releases from the last 30 days must keep their trust level.
 trustPolicyIgnoreAfter: 43200
-# Recent releases that dropped provenance (cssnano monorepo, comark-docs deps).
+# Recent releases that dropped provenance (cssnano monorepo, comark-docs deps, Vercel packages).
 trustPolicyExclude:
   - stylehacks@9.0.8
   - postcss-unique-selectors@9.0.6
@@ -57,6 +57,9 @@ trustPolicyExclude:
   - cssnano-utils@9.0.0
   - cssnano-preset-default@9.8.0
   - cssnano@9.8.0
+  - '@vercel/functions@3.10.5'
+  - '@vercel/oidc@4.0.5'
+  - '@vercel/cli-config@0.3.5'
 
 update:
   ignoreDeps:
@@ -131,9 +134,11 @@ catalogs:
     vscode-languageserver-textdocument: ^1.0.15
     yaml: ^2.9.1
   docs:
-    comark-docs: github:comarkdown/comark-docs#f97dc864b0aa702d54c600f868589b7a2c185b3a
+    comark-docs: github:comarkdown/comark-docs#4fcfb4f9600295700ac0a9152e562b258ef6fc88
+    comark-linter: ^0.7.6
     satori: ^0.63.0
   frontend:
+    '@iconify-json/bxl': ^1.2.4
     '@iconify-json/catppuccin': ^1.2.17
     '@iconify-json/circle-flags': ^1.2.12
     '@iconify-json/devicon': ^1.2.71

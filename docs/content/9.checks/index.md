@@ -47,4 +47,4 @@ A severity is `error`, `warning`, `info`, `hint` or `off`. `strict: true` (or `x
 | [glossary](/checks/glossary) | `warning` | A glossary term translated differently from the glossary. |
 | [invalid-resource](/checks/invalid-resource) | `error` | A locale file or source file that x18n failed to read, parse or scan. |
 
-The reporters of `x18n check --reporter` are `pretty`, `json`, `markdown`, `github`, `sarif`. See [CLI and x18n check](/surfaces/cli#x18n-check-reporters).
+The reporters of `x18n check --reporter` are `pretty`, `json`, `markdown`, `github`, `sarif`. See [CLI and x18n check](/surfaces/cli#reporters).
