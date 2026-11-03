@@ -72,10 +72,10 @@ function scanner(notMessages: ReadonlySet<string>): Scanner {
     id: 'android-strings',
     extensions: ['kt', 'kts', 'java', 'xml'],
     scan(file) {
-      // In code `R.string.key`, in layouts and manifests `@string/key`.
+      // In code `R.string.key`, in layouts and manifests `@string/key`; `android.R.string.ok` is the framework's.
       const pattern = file.extension === 'xml'
         ? /@(?:string|plurals|array)\/(\w[\w.]*)/dg
-        : /\bR\s*\.\s*(?:string|plurals|array)\s*\.\s*(\w+)/dg
+        : /(?<!\bandroid\s*\.\s*)\bR\s*\.\s*(?:string|plurals|array)\s*\.\s*(\w+)/dg
       const usages: UsageCandidate[] = []
       for (const match of file.text.matchAll(pattern)) {
         if (notMessages.has(match[1]!))

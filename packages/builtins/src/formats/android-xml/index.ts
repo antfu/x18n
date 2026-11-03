@@ -1,7 +1,7 @@
 import type { MessageOp, MessageTree, NodeRange, Plugin, TextRange } from '@x18n/core'
 import { diffText, errors, pathId, walkLeaves } from '@x18n/core'
 import { detectEol, leafText, splice } from '../shared'
-import { decodeXml, escapeXmlAttribute, indentAt, xmlAttribute, xmlElements, xmlLine } from '../shared/xml'
+import { decodeXml, escapeXmlAttribute, escapeXmlText, indentAt, xmlAttribute, xmlElements, xmlLine } from '../shared/xml'
 
 const quantities = new Set([
   'zero',
@@ -17,7 +17,8 @@ const inlineTag = /<\/?(?:[abipsu]|annotation|big|br|font|li|ol|small|span|strik
 interface Entry {
   readonly key: string
   readonly value: string
-  readonly range: NodeRange
+  /** Only for `<string>`: the key of an `<item>` is not text in the file, so it has no range to rename in place. */
+  readonly range: NodeRange | undefined
   readonly element: TextRange
   readonly inner: TextRange
   readonly selfClosing: boolean
@@ -33,7 +34,7 @@ interface Group {
   readonly kind: 'plurals' | 'string-array'
 }
 
-/** A value as Android reads it: `\\n`, `\\'` and `\\uXXXX` resolved, and space collapsed outside `"..."`. */
+/** A value as Android reads it: `\\n`, `\\'` and `\\uXXXX` resolved, and space collapsed outside `"..."`. Inline tags stay as written. */
 function decodeValue(raw: string): string {
   let out = ''
   let quoted = false
@@ -44,57 +45,77 @@ function decodeValue(raw: string): string {
       : '') + part
     space = false
   }
-  const text = decodeXml(raw)
-  for (let i = 0; i < text.length; i++) {
-    const char = text[i]!
-    if (char === '\\') {
-      const next = text[++i]
-      if (next === 'u') {
-        add(String.fromCharCode(Number.parseInt(text.slice(i + 1, i + 5), 16)))
-        i += 4
+  const decode = (text: string): void => {
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i]!
+      if (char === '\\') {
+        const next = text[++i]
+        if (next === 'u') {
+          add(String.fromCharCode(Number.parseInt(text.slice(i + 1, i + 5), 16)))
+          i += 4
+        }
+        else if (next !== undefined) {
+          add(({ n: '\n', t: '\t' } as Record<string, string>)[next] ?? next)
+        }
       }
-      else if (next !== undefined) {
-        add(({ n: '\n', t: '\t' } as Record<string, string>)[next] ?? next)
+      else if (char === '"') {
+        quoted = !quoted
       }
-    }
-    else if (char === '"') {
-      quoted = !quoted
-    }
-    else if (/\s/.test(char) && !quoted) {
-      space = true
-    }
-    else {
-      add(char)
+      else if (/\s/.test(char) && !quoted) {
+        space = true
+      }
+      else {
+        add(char)
+      }
     }
   }
+  // In CDATA the markup is text, escapes included.
+  if (raw.includes('<![CDATA[')) {
+    decode(decodeXml(raw))
+    return out
+  }
+  // The quotes of a tag's attributes are XML, not Android quoting.
+  let last = 0
+  for (const match of raw.matchAll(inlineTag)) {
+    decode(decodeXml(raw.slice(last, match.index)))
+    add(match[0])
+    last = match.index + match[0].length
+  }
+  decode(decodeXml(raw.slice(last)))
   return out
 }
 
-function escapeAndroid(text: string): string {
-  return text
+function escapeAndroid(text: string, atStart = true): string {
+  const escaped = text
     .replace(/\\/g, '\\\\')
     .replace(/'/g, '\\\'')
     .replace(/"/g, '\\"')
     .replace(/\n/g, '\\n')
     .replace(/\t/g, '\\t')
-    .replace(/^[@?]/, '\\$&')
+  return atStart
+    ? escaped.replace(/^[@?]/, '\\$&')
+    : escaped
 }
 
-/** Text for an element: inline tags such as `<b>` stay markup, and other `<` and `&` are escaped. */
+/** Text for an element: inline tags such as `<b>` stay markup, as written, and other `<` and `&` are escaped. */
 function encodeValue(value: string, cdata: boolean): string {
-  const text = /^ | $| {2}/.test(value)
-    ? `"${escapeAndroid(value)}"`
-    : escapeAndroid(value)
-  if (cdata)
-    return `<![CDATA[${text}]]>`
+  const quote = /^ | $| {2}/.test(value)
+  if (cdata) {
+    const text = escapeAndroid(value)
+    return `<![CDATA[${quote
+      ? `"${text}"`
+      : text}]]>`
+  }
   let out = ''
   let last = 0
-  const escape = (part: string): string => part.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-  for (const match of text.matchAll(inlineTag)) {
-    out += escape(text.slice(last, match.index)) + match[0]
+  for (const match of value.matchAll(inlineTag)) {
+    out += escapeXmlText(escapeAndroid(value.slice(last, match.index), last === 0)) + match[0]
     last = match.index + match[0].length
   }
-  return out + escape(text.slice(last))
+  out += escapeXmlText(escapeAndroid(value.slice(last), last === 0))
+  return quote
+    ? `"${out}"`
+    : out
 }
 
 function nameRange(text: string, element: { range: TextRange, attributes: string }, tag: string): { name: string, range: TextRange } | undefined {
@@ -110,8 +131,12 @@ function nameRange(text: string, element: { range: TextRange, attributes: string
 
 /** The comment on the lines right above an element, for translators. */
 function commentBefore(text: string, start: number): string | undefined {
-  const match = /<!--([\s\S]*?)-->\s*$/.exec(text.slice(0, start))
-  return match && !/\n[ \t]*\n/.test(text.slice(match.index + match[0].trimEnd().length, start))
+  const before = text.slice(0, start)
+  const from = before.lastIndexOf('<!--')
+  if (from === -1)
+    return undefined
+  const match = /^<!--([\s\S]*?)-->\s*$/.exec(before.slice(from))
+  return match && !/\n[ \t]*\n/.test(match[0].slice(match[0].indexOf('-->') + 3))
     ? match[1]!.trim() || undefined
     : undefined
 }
@@ -152,7 +177,7 @@ function read(text: string): Entry[] {
             ? quantity
             : index}`,
           value: decodeValue(text.slice(item.inner.start, item.inner.end)),
-          range: { key: named.range, value: item.inner },
+          range: undefined,
           element: item.range,
           inner: item.inner,
           selfClosing: item.selfClosing,
@@ -185,12 +210,20 @@ function addToResources(text: string, element: string, path: string): string {
   return splice(text, { start: at, end: at }, `${lead}${lastChild}${element}${eol}`)
 }
 
+/** Adds `key` to its group. An array item goes at its index, after empty items for any index in between. */
 function addItem(text: string, group: Group, key: string, content: string): string {
   const eol = detectEol(text)
   const suffix = key.slice(group.name.length + 1)
-  const item = group.kind === 'plurals'
-    ? `<item quantity="${suffix}">${content}</item>`
-    : `<item>${content}</item>`
+  const items = [
+    group.kind === 'plurals'
+      ? `<item quantity="${suffix}">${content}</item>`
+      : `<item>${content}</item>`,
+  ]
+  if (group.kind === 'string-array') {
+    const count = xmlElements(text, 'item', group.inner.start, group.inner.end).length
+    for (let index = count; index < Number(suffix); index++)
+      items.unshift('<item/>')
+  }
   const closing = group.inner.end
   let at = closing
   while (text[at - 1] === ' ' || text[at - 1] === '\t')
@@ -199,7 +232,7 @@ function addItem(text: string, group: Group, key: string, content: string): stri
   const lead = text[at - 1] === '\n'
     ? ''
     : eol
-  return splice(text, { start: at, end: closing }, `${lead}${indent}${item}${eol}${text.slice(at, closing)}`)
+  return splice(text, { start: at, end: closing }, `${lead}${items.map(item => `${indent}${item}${eol}`).join('')}${text.slice(at, closing)}`)
 }
 
 function groupOf(text: string, key: string): Group | undefined {
@@ -221,20 +254,66 @@ function groupOf(text: string, key: string): Group | undefined {
   return undefined
 }
 
+function isEmptyItem(text: string, item: { selfClosing: boolean, inner: TextRange }): boolean {
+  return item.selfClosing || !text.slice(item.inner.start, item.inner.end).trim()
+}
+
 function remove(text: string, entry: Entry): string {
   const { parent } = entry
-  if (parent && xmlElements(text, 'item', parent.inner.start, parent.inner.end).length === 1)
+  if (!parent)
+    return splice(text, xmlLine(text, entry.element), '')
+  const items = xmlElements(text, 'item', parent.inner.start, parent.inner.end)
+  if (parent.kind === 'plurals') {
+    return items.length === 1
+      ? splice(text, xmlLine(text, parent.element), '')
+      : splice(text, xmlLine(text, entry.element), '')
+  }
+  // Array items are keyed by index: an item before the end empties, so the later ones keep their keys.
+  const index = items.findIndex(item => item.range.start === entry.element.start)
+  if (index < items.length - 1)
+    return splice(text, entry.element, '<item/>')
+  let first = index
+  while (first > 0 && isEmptyItem(text, items[first - 1]!))
+    first--
+  if (first === 0)
     return splice(text, xmlLine(text, parent.element), '')
-  return splice(text, xmlLine(text, entry.element), '')
+  return splice(text, {
+    start: xmlLine(text, items[first]!.range).start,
+    end: xmlLine(text, items[index]!.range).end,
+  }, '')
 }
 
 function newElement(text: string, key: string, content: string): string {
   const at = key.lastIndexOf('.')
+  const name = escapeXmlAttribute(key.slice(0, at))
   const suffix = key.slice(at + 1)
-  if (at === -1 || !quantities.has(suffix))
-    return `<string name="${escapeXmlAttribute(key)}">${content}</string>`
   const eol = detectEol(text)
-  return `<plurals name="${escapeXmlAttribute(key.slice(0, at))}">${eol}        <item quantity="${suffix}">${content}</item>${eol}    </plurals>`
+  if (at !== -1 && quantities.has(suffix))
+    return `<plurals name="${name}">${eol}        <item quantity="${suffix}">${content}</item>${eol}    </plurals>`
+  if (at !== -1 && /^\d+$/.test(suffix)) {
+    const items = [
+      ...Array.from({
+        length: Number(suffix),
+      }).fill('<item/>'),
+      `<item>${content}</item>`,
+    ]
+    return `<string-array name="${name}">${eol}${items.map(item => `        ${item}${eol}`).join('')}    </string-array>`
+  }
+  return `<string name="${escapeXmlAttribute(key)}">${content}</string>`
+}
+
+/** Whether `key`, or the group it is an item of, is marked `translatable="false"`. */
+function isFixed(text: string, key: string): boolean {
+  const at = key.lastIndexOf('.')
+  const names = new Set([
+    key,
+    key.slice(0, at === -1
+      ? key.length
+      : at),
+  ])
+  return (['string(?=[\\s/>])', 'plurals', 'string-array'] as const).some(tag => xmlElements(text, tag).some(element =>
+    xmlAttribute(element.attributes, 'translatable')?.value === 'false'
+    && names.has(xmlAttribute(element.attributes, 'name')?.value ?? '')))
 }
 
 function applyOp(text: string, op: MessageOp, path: string): string {
@@ -245,6 +324,9 @@ function applyOp(text: string, op: MessageOp, path: string): string {
       ? remove(text, entry)
       : text
   }
+  // Not a message: setting it would add a second resource of the same name.
+  if (!entry && isFixed(text, key))
+    return text
   const raw = leafText(op.value)
   if (entry) {
     const cdata = text.slice(entry.inner.start, entry.inner.end).includes('<![CDATA[')
@@ -276,7 +358,8 @@ export function androidXml(): Plugin {
           const descriptions = new Map<string, string>()
           for (const entry of read(text)) {
             tree[entry.key] = entry.value
-            ranges.set(pathId([entry.key]), entry.range)
+            if (entry.range)
+              ranges.set(pathId([entry.key]), entry.range)
             if (entry.comment)
               descriptions.set(pathId([entry.key]), entry.comment)
           }

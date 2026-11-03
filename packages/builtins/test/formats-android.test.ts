@@ -200,6 +200,103 @@ describe('android-xml format', () => {
     expect(next).toContain('app_name')
   })
 
+  it('keeps the quotes of inline tag attributes as XML', () => {
+    const text = '<resources>\n    <string name="c">You have <xliff:g id="count">%d</xliff:g>  items</string>\n</resources>\n'
+    expect(format.parse(text, ctx).tree.c).toBe('You have <xliff:g id="count">%d</xliff:g> items')
+    const value = 'Tap <a href="https://x.dev/?a=1">it\'s here</a>'
+    const next = edit(text, [
+      {
+        type: 'set',
+        path: ['c'],
+        value,
+      },
+    ])
+    expect(next).toContain('<string name="c">Tap <a href="https://x.dev/?a=1">it\\\'s here</a></string>')
+    expect(format.parse(next, ctx).tree.c).toBe(value)
+  })
+
+  it('keeps array indexes when an item is deleted or added past the end', () => {
+    const text = '<resources>\n    <string-array name="days">\n        <item>Mon</item>\n        <item>Tue</item>\n        <item>Wed</item>\n    </string-array>\n</resources>\n'
+    const middle = edit(text, [
+      {
+        type: 'delete',
+        path: ['days.0'],
+      },
+    ])
+    expect(format.parse(middle, ctx).tree).toEqual({ 'days.0': '', 'days.1': 'Tue', 'days.2': 'Wed' })
+    const gap = edit(text, [
+      {
+        type: 'set',
+        path: ['days.4'],
+        value: 'Fri',
+      },
+    ])
+    expect(format.parse(gap, ctx).tree).toMatchObject({ 'days.3': '', 'days.4': 'Fri' })
+    const reversed = edit('<resources>\n</resources>\n', [
+      {
+        type: 'set',
+        path: ['days.1'],
+        value: 'Tue',
+      },
+      {
+        type: 'set',
+        path: ['days.0'],
+        value: 'Mon',
+      },
+    ])
+    expect(reversed).toContain('<string-array name="days">')
+    expect(format.parse(reversed, ctx).tree).toEqual({ 'days.0': 'Mon', 'days.1': 'Tue' })
+    const all = edit(text, [
+      {
+        type: 'delete',
+        path: ['days.0'],
+      },
+      {
+        type: 'delete',
+        path: ['days.1'],
+      },
+      {
+        type: 'delete',
+        path: ['days.2'],
+      },
+    ])
+    expect(all).toBe('<resources>\n</resources>\n')
+  })
+
+  it('writes array keys as a string-array, and gives items no key range to rename in place', () => {
+    const next = format.serialize!({ 'days.0': 'Lun', 'days.1': 'Mar', 'items.one': 'un' }, ctx)
+    expect(next).toContain('<string-array name="days">')
+    expect(next).not.toContain('name="days.0"')
+    const { tree, ranges } = format.parse(next, ctx)
+    expect(tree).toEqual({ 'days.0': 'Lun', 'days.1': 'Mar', 'items.one': 'un' })
+    expect(ranges!.size).toBe(0)
+  })
+
+  it('takes a comment only from right above, not from an earlier one', () => {
+    const text = '<resources>\n    <!-- Copyright -->\n    <string name="a">A</string>\n    <!-- Greeting -->\n    <string name="b">B</string>\n    <string name="c">C</string>\n</resources>\n'
+    expect([
+      ...format.parse(text, ctx).descriptions!.entries(),
+    ]).toEqual([
+      ['a', 'Copyright'],
+      ['b', 'Greeting'],
+    ])
+  })
+
+  it('leaves a translatable="false" string alone instead of adding a duplicate', () => {
+    expect(edit(source, [
+      {
+        type: 'set',
+        path: ['app_name'],
+        value: 'Mon app',
+      },
+      {
+        type: 'set',
+        path: ['codes.1'],
+        value: 'b',
+      },
+    ])).toBe(source)
+  })
+
   it('writes a new file that reads back, and fails on a file with no root', () => {
     const out = format.serialize!({ 'a': 'x', 'n.one': 'y' }, ctx)
     expect(format.parse(out, ctx).tree).toEqual({ 'a': 'x', 'n.one': 'y' })
@@ -264,14 +361,41 @@ describe('android-strings preset', () => {
     expect(project.text('app/src/main/res/values-pt-rBR/strings.xml')).toContain('Olá %s')
   })
 
-  it('is not detected in a web or Flutter app with an android folder', async () => {
+  it('is not detected in a React Native or Capacitor app, but is in a native app with a package.json for tooling', async () => {
     const android = { 'android/app/src/main/AndroidManifest.xml': '<manifest/>', 'android/app/src/main/res/values/strings.xml': '<resources/>' }
-    const web = await createTestProject({
+    const reason = async (files: Record<string, string>): Promise<string | undefined> =>
+      (await createTestProject(files)).project.explain().presets.find(p => p.name === 'android-strings')?.reason
+    expect(await reason({
       ...android,
-      'package.json': json({}),
+      'package.json': json({
+        dependencies: { 'react-native': '1' },
+      }),
+    })).not.toBe('detected')
+    expect(await reason({
+      ...android,
+      'package.json': json({
+        dependencies: { '@capacitor/core': '1' },
+      }),
+    })).not.toBe('detected')
+    expect(await reason({
+      ...android,
+      'package.json': json({
+        devDependencies: { husky: '1' },
+      }),
+    })).toBe('detected')
+    expect(await reason({ 'app/src/main/AndroidManifest.xml': '<manifest/>', 'app/src/main/res/values/strings.xml': '<resources/>' })).toBe('detected')
+  })
+
+  it('does not count framework strings such as android.R.string.ok as usages', async () => {
+    const { project } = await createTestProject({
+      'app/src/main/AndroidManifest.xml': '<manifest/>',
+      'app/src/main/res/values/strings.xml': '<resources>\n    <string name="ok">OK</string>\n</resources>\n',
+      'app/src/main/java/Main.kt': 'val a = android.R.string.ok\nval b = R.string.ok\n',
+    }, {
+      presets: [
+        androidStrings(),
+      ],
     })
-    expect(web.project.explain().presets.find(p => p.name === 'android-strings')?.reason).not.toBe('detected')
-    const native = await createTestProject({ 'app/src/main/AndroidManifest.xml': '<manifest/>', 'app/src/main/res/values/strings.xml': '<resources/>' })
-    expect(native.project.explain().presets.find(p => p.name === 'android-strings')?.reason).toBe('detected')
+    expect(project.usages().filter(m => m.usage.key === 'ok').map(m => m.usage.range.start)).toEqual([45])
   })
 })
