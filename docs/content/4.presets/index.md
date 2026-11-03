@@ -144,7 +144,7 @@ A placeholder syntax tells x18n how placeholders look in messages. The [`placeho
 
 A linked message (`@:key`) and a nesting placeholder (`$t(key)`) name another key. That key then counts as used. The [`invalid-syntax`](/checks/invalid-syntax) check reports a linked message whose key does not exist, and ICU messages that do not parse or that lack an `other` case.
 
-Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAML plugin](/plugins/yaml#sections-placeholders) can declare a shape such as `%{name}`.
+Plugins can use all of these syntaxes from `@x18n/builtins/placeholders`. A [YAML plugin](/plugins/yaml#placeholders) can declare a shape such as `%{name}`.
 
 ## Extraction templates
 

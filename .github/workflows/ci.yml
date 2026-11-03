@@ -12,6 +12,8 @@ permissions:
 jobs:
   unit-test:
     uses: sxzz/workflows/.github/workflows/unit-test.yml@main
+    with:
+      lint: pnpm run lint && pnpm run lint:docs
 
   # coverage:
   #   uses: sxzz/workflows/.github/workflows/coverage.yml@main
