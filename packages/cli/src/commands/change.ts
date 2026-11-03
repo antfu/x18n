@@ -1,4 +1,4 @@
-import type { EditOp, JsonValue, KeyString, Project } from '@x18n/core'
+import type { EditOp, JsonValue, KeyString, Project, Resource } from '@x18n/core'
 import type { GlobalOptions } from '../context'
 import { errors, joinKey, keyMatcher, parseMessageBatch, placeholderProblems, splitKey, toErrorInfo } from '@x18n/core'
 import { displayPath, locate, openWorkspace, out, printJson, readInput, runPlan, singleProject, stdinArg } from '../context'
@@ -114,7 +114,8 @@ interface FillOptions extends WriteOptions {
 /**
  * The keys of the `missing-key` diagnostics: keys code uses that the source locale lacks, minus `ignoreKeys`. Each is a
  * `set` op on the source locale with a default value written in code, or `''`. A key that would replace a message in any
- * locale (`a.b` under the message `a`), or that another added key would replace (`a` and `a.b`), is left out with a warning.
+ * locale (`a.b` under the message `a`), or that another added key would replace (`a` and `a.b`), is left out with a warning;
+ * in a flat resource, where both fit, it is added.
  */
 function fromUsagesOps(p: Project): { readonly ops: EditOp[], readonly warnings: string[] } {
   const separator = p.config.keySeparator
@@ -129,6 +130,25 @@ function fromUsagesOps(p: Project): { readonly ops: EditOp[], readonly warnings:
     const { namespace, path } = splitKey(key, p.namespaced, separator)
     return path.slice(0, -1).map((_, i) => joinKey(namespace, path.slice(0, i + 1), separator))
   }
+  // A new `a.b` replaces the message `a` only in a nested resource; a flat one keeps both. As in the planner: parent
+  // nodes mean nested, a stored property holding the separator means flat, else `keyStyle` decides.
+  const nesting = new Map<string, boolean>()
+  const nests = (resource: Resource): boolean => {
+    let nested = nesting.get(resource.path)
+    if (nested === undefined) {
+      const by = resource.keySeparator ?? separator
+      const nodes = p.nodes(resource.path)
+      nested = by !== false && (nodes.some(node => !node.leaf)
+        || (!nodes.some(node => p.message(node.key, node.locale)?.storedPath.some(segment => segment.includes(by))) && p.config.keyStyle !== 'flat'))
+      nesting.set(resource.path, nested)
+    }
+    return nested
+  }
+  const resourceOf = (id: string): Resource | undefined => p.resources.find(r => r.id === id)
+  const sources = p.resources.filter(r => r.locale === p.sourceLocale)
+  const sourceNests = sources.length === 0
+    ? separator !== false && p.config.keyStyle !== 'flat'
+    : sources.some(nests)
   // Every key some other added key would sit under, with that key.
   const under = new Map<KeyString, KeyString>()
   for (const key of values.keys()) {
@@ -141,13 +161,19 @@ function fromUsagesOps(p: Project): { readonly ops: EditOp[], readonly warnings:
     const parents = parentsOf(key)
     let message: { parent: KeyString, locale: string } | undefined
     for (const parent of parents) {
-      const locale = p.locales.find(l => p.message(parent, l) !== undefined)
+      const locale = p.locales.find((l) => {
+        const found = p.message(parent, l)
+        const resource = found && resourceOf(found.resource)
+        return resource !== undefined && nests(resource)
+      })
       if (locale !== undefined) {
         message = { parent, locale }
         break
       }
     }
-    const clash = parents.find(parent => values.has(parent)) ?? under.get(key)
+    const clash = sourceNests
+      ? parents.find(parent => values.has(parent)) ?? under.get(key)
+      : undefined
     if (message !== undefined) {
       warnings.push(`"${key}" is not added: "${message.parent}" is a message in ${message.locale}, and adding "${key}" would replace it.`)
     }

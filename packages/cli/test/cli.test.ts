@@ -519,6 +519,22 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     ])
   })
 
+  it('fill --from-usages adds a key beside a message in a flat resource', async () => {
+    const dir = await ngxProject({
+      'src/app/home.component.html': '{{ \'home.title\' | translate }}\n{{ \'nav\' | translate }}\n{{ \'nav.x\' | translate }}\n',
+      'src/assets/i18n/en.json': { 'home': 'Home', 'menu.open': 'Open' },
+    })
+    const result = json(await x18n(dir, ['fill', '--from-usages', '--json']))
+    expect(result.data.warnings).toEqual([])
+    expect(JSON.parse(await readFile(join(dir, 'src/assets/i18n/en.json'), 'utf8'))).toEqual({
+      'home': 'Home',
+      'menu.open': 'Open',
+      'home.title': '',
+      'nav': '',
+      'nav.x': '',
+    })
+  })
+
   it('fill --from-usages refuses --locale and --copy-source', async () => {
     const dir = await fixture('vue-i18n')
     for (const flag of [
