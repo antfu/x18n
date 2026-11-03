@@ -135,6 +135,7 @@ export function createCli(): CAC {
   cli.command('fill', 'Add missing keys with empty values')
     .option('--locale <locale>', 'Only these locales (repeatable)')
     .option('--copy-source', 'Use the source value instead of an empty string')
+    .option('--from-usages', 'Add the keys code uses to the source locale, with the default value written in code or an empty string')
     .option('--dry-run', 'Print the plan instead of writing')
     .action(run('fill', fill))
   cli.command('format', 'Re-write resources with the configured sort and indent')

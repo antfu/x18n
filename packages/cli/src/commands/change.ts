@@ -1,6 +1,6 @@
-import type { EditOp, JsonValue } from '@x18n/core'
+import type { EditOp, JsonValue, KeyString, Project } from '@x18n/core'
 import type { GlobalOptions } from '../context'
-import { errors, parseMessageBatch, placeholderProblems, toErrorInfo } from '@x18n/core'
+import { errors, joinKey, keyMatcher, parseMessageBatch, placeholderProblems, splitKey, toErrorInfo } from '@x18n/core'
 import { displayPath, locate, openWorkspace, out, printJson, readInput, runPlan, singleProject, stdinArg } from '../context'
 
 interface WriteOptions extends GlobalOptions {
@@ -105,7 +105,85 @@ export async function remove(key: string | undefined, options: DeleteOptions): P
   ]), options)
 }
 
-export async function fill(options: WriteOptions & { readonly locale?: string | readonly string[] | undefined, readonly copySource?: boolean | undefined }): Promise<void> {
+interface FillOptions extends WriteOptions {
+  readonly locale?: string | readonly string[] | undefined
+  readonly copySource?: boolean | undefined
+  readonly fromUsages?: boolean | undefined
+}
+
+/**
+ * The keys of the `missing-key` diagnostics: keys code uses that the source locale lacks, minus `ignoreKeys`. Each is a
+ * `set` op on the source locale with a default value written in code, or `''`. A key that would replace a message in any
+ * locale (`a.b` under the message `a`), or that another added key would replace (`a` and `a.b`), is left out with a warning.
+ */
+function fromUsagesOps(p: Project): { readonly ops: EditOp[], readonly warnings: string[] } {
+  const separator = p.config.keySeparator
+  const ignored = keyMatcher(p.config.ignoreKeys, separator)
+  const values = new Map<KeyString, string | undefined>()
+  for (const usage of p.analyze().undefinedUsages) {
+    const key = usage.key!
+    if (!ignored(key) && values.get(key) === undefined)
+      values.set(key, usage.defaultValue)
+  }
+  const parentsOf = (key: KeyString): KeyString[] => {
+    const { namespace, path } = splitKey(key, p.namespaced, separator)
+    return path.slice(0, -1).map((_, i) => joinKey(namespace, path.slice(0, i + 1), separator))
+  }
+  // Every key some other added key would sit under, with that key.
+  const under = new Map<KeyString, KeyString>()
+  for (const key of values.keys()) {
+    for (const parent of parentsOf(key))
+      under.set(parent, key)
+  }
+  const ops: EditOp[] = []
+  const warnings: string[] = []
+  for (const [key, value] of values) {
+    const parents = parentsOf(key)
+    let message: { parent: KeyString, locale: string } | undefined
+    for (const parent of parents) {
+      const locale = p.locales.find(l => p.message(parent, l) !== undefined)
+      if (locale !== undefined) {
+        message = { parent, locale }
+        break
+      }
+    }
+    const clash = parents.find(parent => values.has(parent)) ?? under.get(key)
+    if (message !== undefined) {
+      warnings.push(`"${key}" is not added: "${message.parent}" is a message in ${message.locale}, and adding "${key}" would replace it.`)
+    }
+    else if (clash !== undefined) {
+      warnings.push(`"${key}" is not added: code also uses "${clash}", and one would replace the other.`)
+    }
+    else {
+      ops.push({
+        type: 'set',
+        key,
+        locale: p.sourceLocale,
+        value: value ?? '',
+      })
+    }
+  }
+  return { ops, warnings }
+}
+
+export async function fill(options: FillOptions): Promise<void> {
+  if (options.fromUsages) {
+    if (options.locale !== undefined)
+      throw errors.X18N4008({ reason: '--from-usages fills the source locale; leave out --locale' })
+    if (options.copySource)
+      throw errors.X18N4008({ reason: '--from-usages has no source value to copy; leave out --copy-source' })
+    const loaded = await project(options)
+    const { ops, warnings } = fromUsagesOps(loaded.project)
+    const plan = loaded.project.plan(ops)
+    await runPlan('fill', loaded, {
+      ...plan,
+      warnings: [
+        ...plan.warnings,
+        ...warnings,
+      ],
+    }, options)
+    return
+  }
   const loaded = await project(options)
   const p = loaded.project
   const targets = options.locale === undefined

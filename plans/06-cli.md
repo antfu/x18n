@@ -68,7 +68,7 @@ All write commands support `--dry-run`, which prints the plan (files and edits) 
 | `x18n rename <from> <to>` | Rename a key in all locales, usages and review threads. When `<from>` is a parent node (`x18n rename pages screens`), every key under it moves, and the static part of dynamic usages is rewritten. A namespace change (`common:save actions:save`) moves entries between files. Refuses when the target exists. `--no-usages` keeps code. |
 | `x18n delete <key>` | Delete in all locales. `--locale` limits. |
 | `x18n delete --unused [glob]` | Bulk delete of unused keys through `Project.planUnused`: every locale, in place. `--namespace` and the glob limit it; `--dry-run` lists keys with locales and files, and the kept keys with the usages that keep them. `--json` adds `deleted` and `kept` to the plan data. |
-| `x18n fill [--locale]` | Add missing keys with empty values (or source values with `--copy-source`). |
+| `x18n fill [--locale]` | Add missing keys with empty values (or source values with `--copy-source`). `--from-usages` instead adds the keys of the `missing-key` diagnostics to the source locale, with the default value written in code or an empty string, and skips with a warning a key that would replace another message. |
 | `x18n format` | Re-write resources with configured sort and indent. |
 | `x18n extract [files...]` | Hard-string extraction ([11-extraction.md](./11-extraction.md)). `--list` prints candidates, `--plan <file>` applies an edited plan. |
 

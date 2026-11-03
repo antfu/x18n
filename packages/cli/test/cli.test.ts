@@ -1,7 +1,7 @@
 import { execFile } from 'node:child_process'
-import { cp, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
+import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
-import { basename, join } from 'node:path'
+import { basename, dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 import { version } from '../package.json' with { type: 'json' }
@@ -35,6 +35,27 @@ function x18n(cwd: string, args: string[], input?: string): Promise<Result> {
       child.stdin!.end()
     }
   })
+}
+
+/** An ngx-translate project: `files` maps paths to contents, objects are written as JSON. */
+async function ngxProject(files: Record<string, string | object>): Promise<string> {
+  const dir = join(work, `ngx-translate-${Math.random().toString(36).slice(2)}`)
+  const all: Record<string, string | object> = {
+    'package.json': {
+      name: 'fixture-ngx-translate',
+      private: true,
+      dependencies: { '@ngx-translate/core': '^17.0.0' },
+    },
+    '.gitignore': '',
+    ...files,
+  }
+  for (const [path, content] of Object.entries(all)) {
+    await mkdir(join(dir, dirname(path)), { recursive: true })
+    await writeFile(join(dir, path), typeof content === 'string'
+      ? content
+      : `${JSON.stringify(content, null, 2)}\n`)
+  }
+  return dir
 }
 
 async function fixture(name: string): Promise<string> {
@@ -412,6 +433,107 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     await x18n(dir, ['fill', '--copy-source'])
     const de = JSON.parse(await readFile(join(dir, 'src/locales/de.json'), 'utf8'))
     expect(de.pages.about.title).toBe('About us')
+  })
+
+  it('fill --from-usages adds the keys code uses to the source locale only', async () => {
+    const dir = await ngxProject({
+      'src/app/home.component.html': '<h1>{{ \'home.title\' | translate }}</h1>\n<p>{{ \'nav.home\' | translate }}</p>\n',
+      // A fully dynamic and a prefix usage: neither may add a key.
+      'src/app/home.component.ts': `export class Home {
+  constructor(private translate: TranslateService) {}
+  label(name: string) { return this.translate.instant(name) }
+  page(id: string) { return this.translate.instant(\`pages.\${id}.title\`) }
+}
+`,
+      'src/assets/i18n/en.json': {
+        nav: { home: 'Home' },
+      },
+      'src/assets/i18n/de.json': {
+        nav: { home: 'Start' },
+      },
+    })
+    const en = join(dir, 'src/assets/i18n/en.json')
+    const de = join(dir, 'src/assets/i18n/de.json')
+    const before = { en: await readFile(en, 'utf8'), de: await readFile(de, 'utf8') }
+
+    const dry = json(await x18n(dir, [
+      'fill',
+      '--from-usages',
+      '--dry-run',
+      '--json',
+    ]))
+    expect(dry.data.applied).toBe(false)
+    expect(dry.data.keys).toEqual(['home.title'])
+    expect(await readFile(en, 'utf8')).toBe(before.en)
+
+    const done = await x18n(dir, ['fill', '--from-usages'])
+    expect(done.code).toBe(0)
+    expect(JSON.parse(await readFile(en, 'utf8'))).toEqual({
+      nav: { home: 'Home' },
+      home: { title: '' },
+    })
+    expect(await readFile(de, 'utf8')).toBe(before.de)
+
+    const again = json(await x18n(dir, [
+      'fill',
+      '--from-usages',
+      '--dry-run',
+      '--json',
+    ]))
+    expect(again.data.keys).toEqual([])
+  })
+
+  it('fill --from-usages leaves out ignored keys and keys that would replace a message', async () => {
+    const dir = await ngxProject({
+      'src/app/home.component.html': [
+        '{{ \'nav.home.label\' | translate }}',
+        '{{ \'x\' | translate }}',
+        '{{ \'x.y\' | translate }}',
+        '{{ \'debug.tmp\' | translate }}',
+        '{{ \'ok\' | translate }}',
+        '{{ \'only.de.child\' | translate }}',
+        '',
+      ].join('\n'),
+      'src/assets/i18n/en.json': {
+        nav: { home: 'Home' },
+      },
+      'src/assets/i18n/de.json': {
+        only: { de: 'Nur hier' },
+      },
+      'x18n.config.json': {
+        ignoreKeys: ['debug.*'],
+      },
+    })
+    const plan = json(await x18n(dir, [
+      'fill',
+      '--from-usages',
+      '--dry-run',
+      '--json',
+    ]))
+    expect(plan.data.keys).toEqual(['ok'])
+    expect(plan.data.warnings).toEqual([
+      '"nav.home.label" is not added: "nav.home" is a message in en, and adding "nav.home.label" would replace it.',
+      '"x" is not added: code also uses "x.y", and one would replace the other.',
+      '"x.y" is not added: code also uses "x", and one would replace the other.',
+      '"only.de.child" is not added: "only.de" is a message in de, and adding "only.de.child" would replace it.',
+    ])
+  })
+
+  it('fill --from-usages refuses --locale and --copy-source', async () => {
+    const dir = await fixture('vue-i18n')
+    for (const flag of [
+      ['--locale', 'de'],
+      ['--copy-source'],
+    ]) {
+      const result = await x18n(dir, [
+        'fill',
+        '--from-usages',
+        ...flag,
+        '--json',
+      ])
+      expect(result.code).not.toBe(0)
+      expect(json(result).errors[0].name).toBe('X18N4008')
+    }
   })
 
   it('init writes a config, schema prints JSON Schema', async () => {
