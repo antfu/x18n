@@ -271,6 +271,42 @@ describe('in-place edits', () => {
     ])).toThrow(expect.objectContaining({ code: 'X18N4001' }))
   })
 
+  it('still checks conflicts for plans made after the revision changes', async () => {
+    const { project, files } = await createTestProject({
+      'locales/en.json': json({ a: 'A', b: 'B' }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    await project.apply(project.plan([
+      {
+        type: 'set',
+        key: 'b',
+        locale: 'en',
+        value: 'B1',
+      },
+    ]))
+    const plan = project.plan([
+      {
+        type: 'set',
+        key: 'a',
+        locale: 'en',
+        value: 'A2',
+      },
+    ])
+    project.plan([
+      {
+        type: 'set',
+        key: 'b',
+        locale: 'en',
+        value: 'B2',
+      },
+    ])
+    files.set('locales/en.json', json({ a: 'changed', b: 'B1' }))
+    await expect(project.apply(plan)).rejects.toMatchObject({ code: 'X18N4004' })
+  })
+
   it('sort and format re-write resources', async () => {
     const { project, files } = await createTestProject({ 'locales/en.json': '{"b":"B","a":{"d":"D","c":"C"}}' }, {
       resources: [
