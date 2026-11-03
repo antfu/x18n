@@ -27,13 +27,13 @@
   "localeBar": {
     "title": "Yerel ayarlar",
     "bar": "Gösterilecek yerel ayarlar",
-    "toggle": "{locale} göster veya gizle",
-    "shown": "{total} içinden {shown} gösteriliyor",
+    "toggle": "Göster veya gizle: {locale}",
+    "shown": "{shown}/{total} gösteriliyor",
     "showAll": "Tümünü göster",
     "noneShown": "Tüm yerel ayarlar gizli. Yukarıdaki çubuktan birini seçin.",
     "resetOrder": "Sıralamayı sıfırla",
     "flags": "Bayrakları göster",
-    "reorder": "Sıralamak için sürükleyin ya da Alt ile bir ok tuşuna basın."
+    "reorder": "Sırayı değiştirmek için sürükleyin veya Alt ile ok tuşlarını kullanın."
   },
   "overview": {
     "keys": "Anahtarlar",
@@ -51,7 +51,7 @@
     "noPresets": "Ön ayar algılanmadı.",
     "recent": "Son değişiklikler",
     "noRecent": "Sayfa açıldığından beri hiçbir şey değişmedi.",
-    "outdated": "{count} güncel değil",
+    "outdated": "{count} güncel olmayan",
     "toReview": "{count} incelenecek",
     "reviewedCount": "{count} incelendi"
   },
@@ -59,12 +59,12 @@
     "search": "Anahtarlarda ve değerlerde ara",
     "namespace": "Ad alanı",
     "allNamespaces": "Tüm ad alanları",
-    "missingIn": "Eksik olduğu yer",
+    "missingIn": "Eksik olduğu yerel ayar",
     "anyLocale": "Herhangi bir yerel ayar",
-    "missingInLocale": "{locale} dilinde eksik",
+    "missingInLocale": "Eksik: {locale}",
     "unused": "Kullanılmayan",
     "withDiagnostics": "Sorunlu",
-    "count": "{total} anahtardan {shown}",
+    "count": "{shown}/{total} anahtar",
     "grid": "Yerel ayara göre anahtarlar ve değerler",
     "key": "Anahtar",
     "unusedHint": "Bu anahtarı hiçbir kod kullanmıyor",
@@ -78,7 +78,7 @@
     "outdated": "Güncel değil",
     "sort": "Sırala",
     "sortKey": "Anahtar",
-    "sortRecent": "Son değişenler",
+    "sortRecent": "Son değiştirilenler",
     "reviewed": "İncelendi"
   },
   "value": {
@@ -86,9 +86,9 @@
     "empty": "boş"
   },
   "edit": {
-    "rejected": "Kaydedilmedi: {locale} dilinde {key}: {message}.",
-    "placeholdersMissing": "eksik yer tutucular {names}",
-    "placeholdersExtra": "beklenmeyen yer tutucular {names}",
+    "rejected": "Kaydedilmedi ({key}, {locale}): {message}.",
+    "placeholdersMissing": "eksik yer tutucular: {names}",
+    "placeholdersExtra": "beklenmeyen yer tutucular: {names}",
     "saveAnyway": "Yine de kaydet",
     "dismiss": "Kapat",
     "save": "Kaydet",
@@ -113,16 +113,16 @@
   "prompt": {
     "copy": "Çeviri istemini kopyala",
     "copied": "Kopyalandı",
-    "hint": "Eksik mesajları çeviren bir LLM veya ajan için istem kopyala",
-    "copyStale": "Güncel olmayanlarla birlikte istemi kopyala",
-    "staleHint": "Eksik mesajları çeviren ve güncel olmayanları güncelleyen bir LLM veya ajan için istem kopyala",
+    "hint": "Eksik mesajları çevirecek bir LLM veya yapay zekâ ajanı için istem kopyala",
+    "copyStale": "Güncel olmayanları da içeren istemi kopyala",
+    "staleHint": "Eksik mesajları çevirip güncel olmayanları güncelleyecek bir LLM veya yapay zekâ ajanı için istem kopyala",
     "copyAll": "Tüm yerel ayarlar için çeviri istemini kopyala",
-    "allHint": "Her yerel ayarda eksik olanları çeviren bir LLM veya ajan için istem kopyala"
+    "allHint": "Tüm yerel ayarlardaki eksikleri çevirecek bir LLM veya yapay zekâ ajanı için istem kopyala"
   },
   "locale": {
     "label": "Yerel ayar",
     "openInGrid": "Tabloda göster",
-    "progress": "{total} içinden {translated} çevrildi ({percent})",
+    "progress": "{translated}/{total} çevrildi ({percent})",
     "missing": "Eksik ({count})",
     "empty": "Boş ({count})",
     "problems": "Yer tutucu ve söz dizimi sorunları ({count})",
@@ -134,8 +134,8 @@
     "all": "Tümü ({count})",
     "viewAll": "Tümünü gör",
     "copyFix": "Düzeltme istemini kopyala",
-    "fixHint": "Bu projenin tüm tanılamalarını düzelten bir LLM veya ajan için istem kopyala",
-    "fixCodeHint": "{code} tanılamalarını düzelten bir LLM veya ajan için istem kopyala"
+    "fixHint": "Bu projedeki tüm tanılamaları düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala",
+    "fixCodeHint": "{code} tanılamalarını düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala"
   },
   "usages": {
     "missing": "Tanımlı değil ({count})",
@@ -144,28 +144,28 @@
     "all": "Tümü ({count})",
     "missingHint": "Kodda kullanılan ama kaynak yerel ayarda tanımlı olmayan anahtarlar.",
     "unusedHint": "Kaynak yerel ayarda tanımlı olup hiçbir kodun kullanmadığı anahtarlar.",
-    "dynamicHint": "Anahtarı hesaplanan kullanımlar. Önekleri altındaki anahtarlar kullanılmış sayılır.",
+    "dynamicHint": "Anahtarı çalışma anında hesaplanan kullanımlar. Bu öneklerin altındaki anahtarlar kullanılıyor sayılır.",
     "filter": "Dosyaya veya anahtara göre filtrele",
     "deleteUnused": "Kullanılmayan anahtarları sil",
-    "deletePlan": "{files} dosyada {count} anahtarı her yerel ayardan siler. Yorumlar ve biçimlendirme korunur.",
-    "deleteKept": "Korunan ({count}): koddaki hesaplanan anahtarlar bunlara ulaşabilir.",
+    "deletePlan": "{files} dosyadaki {count} anahtarı tüm yerel ayarlardan siler. Yorumlar ve biçimlendirme korunur.",
+    "deleteKept": "Korunanlar ({count}): koddaki dinamik anahtarlar bunlara karşılık gelebilir.",
     "deleteConfirm": "{count} anahtarı sil",
     "deleteCancel": "İptal",
     "deleteDone": "Silinen anahtarlar: {count}. Değişen dosyalar: {files}.",
     "deleteNone": "Güvenle silinebilecek kullanılmayan anahtar yok."
   },
   "extract": {
-    "hint": "Önerilen bir anahtarla birlikte koda gömülü metinler. Anahtarları düzenleyin, ardından tek bir metni, tek bir dosyayı veya işaretli tüm metinleri çıkarın.",
+    "hint": "Önerilen anahtarlarıyla birlikte koda gömülü metinler. Anahtarları düzenleyin, ardından tek bir metni, bir dosyayı ya da işaretli tüm metinleri çıkarın.",
     "none": "Koda gömülü metin bulunamadı.",
     "key": "Anahtar",
     "apply": "Çıkar ({count})",
     "done": "Çıkarılan anahtarlar: {count}. Değişen dosyalar: {files}.",
     "strings": "Metinler: {count}",
     "one": "Bu metni çıkar",
-    "existing": "Var olan bir anahtarı yeniden kullanır",
+    "existing": "Mevcut bir anahtarı kullanır",
     "new": "Yeni bir anahtar oluşturur",
     "file": "Bu dosyayı çıkar",
-    "differs": "Kaynak mesajı bu metinden farklı; çıkarma işlemi var olan mesajları korur."
+    "differs": "Kaynak mesajı bu metinden farklı; çıkarma işlemi mevcut mesajları korur."
   },
   "project": {
     "presets": "Ön ayarlar",
@@ -175,8 +175,8 @@
     "scanners": "Tarayıcılar",
     "files": "Dosyalar: {count}",
     "problems": "Sorunlar",
-    "conflict": ".{extension}: {winner}, {loser} yerine kullanılıyor",
-    "config": "Yapılandırma ve her değerin kaynağı",
+    "conflict": ".{extension}: {loser} yerine {winner} kullanılıyor",
+    "config": "Yapılandırma ve her değerin nereden geldiği",
     "showAllPresets": "Tüm ön ayarları göster",
     "plugins": "Eklentiler",
     "none": "Hiçbir şey bulunamadı",
@@ -209,8 +209,8 @@
     "resolve": "Çözüldü olarak işaretle",
     "apply": "Uygula",
     "resolved": "çözüldü",
-    "stale": "o zamandan beri değişti",
-    "unknownAuthor": "Biri",
+    "stale": "sonradan değişti",
+    "unknownAuthor": "Birisi",
     "empty": "Gösterilecek inceleme yok.",
     "off": "Bu projede incelemeler kapalı.",
     "all": "Tümü ({count})",
