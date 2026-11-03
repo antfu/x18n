@@ -1,4 +1,5 @@
 import type { Plugin, Scanner } from '@x18n/core'
+import { rememberComments } from '../shared/comments'
 import { loadParser, scanSource } from '../shared/js'
 
 /** The AST scanner for JS and TS, driven by call specs (`usage.calls`). */
@@ -23,6 +24,8 @@ export function js(): Plugin {
         hardStrings: true,
         ignoreCallees: ctx.config.extract.ignoreCallees,
         textAttributes: ctx.config.extract.attributes,
+        // The `regex` scanner runs after this one and masks these comments.
+        onParse: (program, comments) => rememberComments(file, program, comments),
       })
     },
   }

@@ -1,5 +1,6 @@
 // Adapted from i18n-ally (MIT), src/utils/Regex.ts
 import type { Plugin, RegexScannerSpec, Scanner, UsageCandidate } from '@x18n/core'
+import { commentRanges, maskRanges } from '../shared/comments'
 
 /** The key part of i18n-ally `usageMatchRegex` patterns. */
 const keyPattern = '[\\w\\d\\. \\-\\[\\]\\/:]+?'
@@ -52,12 +53,16 @@ export function regex(specs: readonly RegexScannerSpec[] = [], id = 'regex'): Pl
     get extensions() {
       return extensions
     },
-    scan(file, ctx) {
+    async scan(file, ctx) {
       const all = [
         ...specs,
         ...ctx.config.usage.regex,
       ]
-      const usages = scanWithRegex(file.text, regexesFor(file.extension, all))
+      const regexes = regexesFor(file.extension, all)
+      if (regexes.length === 0)
+        return { usages: [], keySlots: [] }
+      // Comments become spaces, so a key in a doc example or commented-out markup is no usage, and offsets stay put.
+      const usages = scanWithRegex(maskRanges(file.text, await commentRanges(file)), regexes)
       return {
         usages,
         keySlots: usages.map(usage => usage.range),
