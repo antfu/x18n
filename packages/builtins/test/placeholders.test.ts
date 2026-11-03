@@ -30,4 +30,39 @@ describe('icu', () => {
   it('skips quoted braces', () => {
     expect(names('\'{\'literal\'}\' {name}')).toEqual(['name'])
   })
+
+  it('skips quoted braces inside cases', () => {
+    expect(names('{count, plural, one {\'{\' # item} other {# items}}')).toEqual(['count'])
+    expect(names('{n, plural, one {\'}\' {name}} other {# {name}}}')).toEqual(['n', 'name', 'name'])
+  })
+
+  it('reads doubled apostrophes as apostrophes', () => {
+    expect(names('{n, plural, other {\'{it\'\'s}\' {name}}}')).toEqual(['n', 'name'])
+    expect(names('it\'\'{name}')).toEqual(['name'])
+  })
+
+  it('stops at an unclosed quote', () => {
+    expect(names('{name} \'{ {other}')).toEqual(['name'])
+  })
+})
+
+describe('icu validate', () => {
+  const validate = (value: string): readonly string[] => icu.validate!(value)
+
+  it('accepts quoted braces and doubled apostrophes', () => {
+    expect(validate('\'{\' {name} \'}\'')).toEqual([])
+    expect(validate('{count, plural, one {\'{\' # item} other {# items}}')).toEqual([])
+    expect(validate('{n, plural, other {\'{it\'\'s}\' {name}}}')).toEqual([])
+    expect(validate('it\'\'s {name}')).toEqual([])
+  })
+
+  it('reports unbalanced braces', () => {
+    expect(validate('a } b')).toEqual(['Unexpected "}" at 2'])
+    expect(validate('{name')).toEqual(['Unclosed "{"'])
+    expect(validate('it\'\'{name')).toEqual(['Unclosed "{"'])
+  })
+
+  it('reports a plural without an other case', () => {
+    expect(validate('{n, plural, one {x}}')).toEqual(['"n" plural has no "other" case'])
+  })
 })
