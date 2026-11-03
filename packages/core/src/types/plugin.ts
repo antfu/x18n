@@ -10,6 +10,7 @@ import type {
   Location,
   Message,
   MessageLeaf,
+  MessageState,
   MessageTree,
   NodeRange,
   Placeholder,
@@ -73,6 +74,19 @@ export interface LocaleFinder {
    * `model` is the existing resource the new one would otherwise mirror: the key's source file when it has one.
    */
   readonly resolveNew?: ((target: { readonly locale: LocaleCode, readonly namespace: string | undefined, readonly model: Resource | undefined }, ctx: FinderContext) => string | undefined) | undefined
+  /**
+   * A file of its own for one key in a locale, for layouts with one file per message. A new message of the key goes
+   * there, created with `format` (default: by extension) when it does not exist; a rename moves the message to the
+   * file of the new key; a delete that leaves the file empty deletes it.
+   */
+  readonly resolveKey?: ((target: { readonly key: KeyString, readonly locale: LocaleCode }, ctx: FinderContext) => KeyFile | undefined) | undefined
+}
+
+/** The file of one key, from a locale finder's `resolveKey`. */
+export interface KeyFile {
+  readonly path: string
+  /** Format id of a new file. Default: the format of its extension. */
+  readonly format?: string | undefined
 }
 
 export interface FormatContext {
@@ -88,6 +102,10 @@ export interface ParseResult {
   readonly ranges?: ReadonlyMap<string, NodeRange> | undefined
   /** What the file says about a message for translators (a note or comment next to it), keyed by `pathId(storedPath)`. */
   readonly descriptions?: ReadonlyMap<string, string> | undefined
+  /** The translation state the file records for a message (XLIFF `state`, PO `fuzzy`), keyed by `pathId(storedPath)`. */
+  readonly states?: ReadonlyMap<string, MessageState> | undefined
+  /** Display labels of keys that do not read well, such as hashes, keyed by `pathId(storedPath)`. */
+  readonly labels?: ReadonlyMap<string, string> | undefined
 }
 
 export type MessageOp
@@ -227,6 +245,10 @@ export interface LocaleCoverage {
   readonly empty: readonly KeyString[]
   /** Translated keys whose message last changed before the source message. */
   readonly outdated: readonly KeyString[]
+  /** Translated keys that the format marks `needs-review`. */
+  readonly needsReview: readonly KeyString[]
+  /** Translated keys that the format marks `reviewed`. */
+  readonly reviewed: readonly KeyString[]
 }
 
 /** When a message last changed, as a history provider knows it. */

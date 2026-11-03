@@ -28,7 +28,8 @@
     "usages": "Использования ({count})",
     "values": "Значения",
     "showAllLocales": "Показать все локали",
-    "file": "Файл"
+    "file": "Файл",
+    "description": "Заметка"
   },
   "edit": {
     "dismiss": "Закрыть",
@@ -125,7 +126,9 @@
     "source": "исходная",
     "usages": "Использования",
     "warnings": "Предупреждения: {count}",
-    "outdated": "устарело: {count}"
+    "outdated": "устарело: {count}",
+    "toReview": "на проверку: {count}",
+    "reviewedCount": "проверено: {count}"
   },
   "project": {
     "config": "Конфигурация и источник каждого значения",
@@ -234,5 +237,12 @@
     "hint": "Enter: отправить · Shift+Enter: новая строка · Esc: отмена",
     "resolvedCount": "Решено: {count}",
     "hideResolved": "Скрыть решённые"
+  },
+  "state": {
+    "filter": "Статус перевода",
+    "any": "Любой статус",
+    "translated": "Переведено",
+    "needsReview": "Нужна проверка",
+    "reviewed": "Проверено"
   }
 }

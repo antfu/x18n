@@ -1,10 +1,10 @@
 import type { Buffer } from 'node:buffer'
 import type { ChildProcess } from 'node:child_process'
 import { execFile, spawn } from 'node:child_process'
-import { cp, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
+import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { createServer } from 'node:http'
 import { tmpdir } from 'node:os'
-import { extname, join } from 'node:path'
+import { dirname, extname, join } from 'node:path'
 import process from 'node:process'
 import { fileURLToPath } from 'node:url'
 
@@ -27,6 +27,19 @@ export async function fixture(): Promise<{ root: string, dispose: () => Promise<
   return {
     root,
     dispose: () => rm(dir, { recursive: true, force: true }),
+  }
+}
+
+/** A fresh project of the given files. */
+export async function project(files: Record<string, string>): Promise<{ root: string, dispose: () => Promise<void> }> {
+  const root = await mkdtemp(join(tmpdir(), 'x18n-e2e-'))
+  for (const [path, content] of Object.entries(files)) {
+    await mkdir(dirname(join(root, path)), { recursive: true })
+    await writeFile(join(root, path), content)
+  }
+  return {
+    root,
+    dispose: () => rm(root, { recursive: true, force: true }),
   }
 }
 

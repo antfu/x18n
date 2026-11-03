@@ -3,7 +3,7 @@ import type { Setup } from '../resolve'
 import type { KeySeparator } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
-import type { HardString, HistoryContext, ScanResult, SourceFile, TypegenFile } from '../types/plugin'
+import type { FinderContext, HardString, HistoryContext, KeyFile, ScanResult, SourceFile, TypegenFile } from '../types/plugin'
 import type { Analysis, KeyInfo, KeyTarget, Project, ProjectChange, ProjectExplanation, ResourceNode, SearchMatch, SearchOptions, UsageMatch } from '../types/project'
 import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
 import type { ResourceState } from './analysis'
@@ -203,14 +203,18 @@ export function createProject(options: CreateProjectOptions): Project {
 
   // ---- Discovery and parse ----
 
-  async function discover(): Promise<Candidate[]> {
-    const ctx = {
+  function finderContext(): FinderContext {
+    return {
       host,
       config,
       extensions: [
         ...new Set(registry.formats.flatMap(format => format.extensions)),
       ],
     }
+  }
+
+  async function discover(): Promise<Candidate[]> {
+    const ctx = finderContext()
     const seen = new Map<string, string>()
     const out: Candidate[] = []
     duplicates = []
@@ -321,6 +325,8 @@ export function createProject(options: CreateProjectOptions): Project {
         rawTree: {},
         ranges: new Map(),
         descriptions: new Map(),
+        states: new Map(),
+        labels: new Map(),
         error: errors.X18N2001({ path: candidate.path }),
       }
     }
@@ -343,6 +349,8 @@ export function createProject(options: CreateProjectOptions): Project {
         rawTree: parsed.tree,
         ranges: parsed.ranges ?? new Map(),
         descriptions,
+        states: parsed.states ?? new Map(),
+        labels: parsed.labels ?? new Map(),
         error: undefined,
       }
     }
@@ -362,6 +370,8 @@ export function createProject(options: CreateProjectOptions): Project {
         rawTree: {},
         ranges: new Map(),
         descriptions: new Map(),
+        states: new Map(),
+        labels: new Map(),
         error: coded,
       }
     }
@@ -386,17 +396,25 @@ export function createProject(options: CreateProjectOptions): Project {
 
   /** A path for a new resource, from the locale finders. */
   function newResourcePath(locale: LocaleCode, namespace: string | undefined, model: Resource | undefined): string | undefined {
-    const ctx = {
-      host,
-      config,
-      extensions: [
-        ...new Set(registry.formats.flatMap(format => format.extensions)),
-      ],
-    }
+    const ctx = finderContext()
     for (const finder of registry.finders) {
       const path = finder.resolveNew?.({ locale, namespace, model }, ctx)
       if (path)
         return path
+    }
+    return undefined
+  }
+
+  /** The file of one key, from the locale finders. */
+  function keyFile(key: KeyString, locale: LocaleCode): KeyFile | undefined {
+    const finders = registry.finders.filter(finder => finder.resolveKey)
+    if (finders.length === 0)
+      return undefined
+    const ctx = finderContext()
+    for (const finder of finders) {
+      const file = finder.resolveKey?.({ key, locale }, ctx)
+      if (file)
+        return file
     }
     return undefined
   }
@@ -571,7 +589,7 @@ export function createProject(options: CreateProjectOptions): Project {
     const include = pathMatcher(config.usage.include)
     const exclude = pathMatcher(config.usage.exclude)
     usageEligible = path => registry.scannersFor(path).length > 0 && include(path) && !exclude(path)
-    const paths = (await host.glob(config.usage.include, { ignore: config.usage.exclude, gitignore: true }))
+    const paths = (await host.glob(config.usage.include, { ignore: config.usage.exclude, gitignore: config.usage.gitignore }))
       .filter(path => registry.scannersFor(path).length > 0)
     await scanPaths(paths)
   }
@@ -606,7 +624,8 @@ export function createProject(options: CreateProjectOptions): Project {
           const path = [...stored, segment]
           const key = keyFor(resource, path)
           const storedPath = state.toStored(path)
-          const raw = state.ranges.get(pathId(storedPath))
+          const id = pathId(storedPath)
+          const raw = state.ranges.get(id)
           const range = raw
             ? {
                 key: shift(raw.key),
@@ -627,7 +646,9 @@ export function createProject(options: CreateProjectOptions): Project {
             messages.set(key, byLocale)
             const list = byLocale.get(resource.locale) ?? []
             byLocale.set(resource.locale, list)
-            const description = state.descriptions.get(pathId(storedPath))
+            const description = state.descriptions.get(id)
+            const translation = state.states.get(id)
+            const label = state.labels.get(id)
             list.push({
               key,
               locale: resource.locale,
@@ -638,6 +659,12 @@ export function createProject(options: CreateProjectOptions): Project {
               ...description === undefined
                 ? {}
                 : { description },
+              ...translation === undefined
+                ? {}
+                : { state: translation },
+              ...label === undefined
+                ? {}
+                : { label },
             })
             if (!keyPaths.has(key))
               keyPaths.set(key, keyIdFor(resource, path))
@@ -911,6 +938,7 @@ export function createProject(options: CreateProjectOptions): Project {
       key,
       namespace: id.namespace,
       path: id.path,
+      label: list.find(m => m.label !== undefined)?.label,
       messages: list,
       missing: locales.filter(locale => !byLocale.has(locale) && needs(key, locale)),
       usages: usageMatches({ key }),
@@ -1138,6 +1166,7 @@ export function createProject(options: CreateProjectOptions): Project {
     basesOf,
     toStored: (target, path) => storedPathOf(target)(path),
     resolveNew: newResourcePath,
+    resolveKey: keyFile,
     update,
   })
 

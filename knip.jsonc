@@ -22,9 +22,10 @@
     },
     "docs": {
       // Nuxt auto-imports components and composables, so nothing imports them.
-      "entry": ["app/**/*.{vue,ts}"],
-      // `@iconify-json/*` are read by UnoCSS `presetIcons` for icon classes. None is imported.
-      "ignoreDependencies": ["@iconify-json/devicon", "@iconify-json/logos", "@iconify-json/ph", "@nuxt/ui", "comark-content", "vue-router"]
+      // `comark-lint.config.ts` is found by the `comark-lint` CLI.
+      "entry": ["app/**/*.{vue,ts}", "comark-lint.config.ts"],
+      // `@iconify-json/*` are read by `@nuxt/icon` for icon classes. None is imported.
+      "ignoreDependencies": ["@iconify-json/bxl", "@iconify-json/catppuccin", "@iconify-json/circle-flags", "@iconify-json/devicon", "@iconify-json/logos", "@iconify-json/ph", "@nuxt/ui", "comark-content", "vue-router"]
     },
     "packages/ui": {
       // `@unocss/reset` is loaded through the `css` option of `nuxt.config.ts`;

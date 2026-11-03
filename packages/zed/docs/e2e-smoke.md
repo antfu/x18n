@@ -52,7 +52,7 @@ Restart the language server after changing settings (**Restart Language Server**
 ## Checks
 
 - [ ] Open a file with `t('some.key')` and check **diagnostics** for missing or invalid keys (same checks as `x18n check`).
-- [ ] **Hover** on a key shows locale messages.
+- [ ] **Hover** on a key shows locale messages and a usage count.
 - [ ] **Go to definition** on a key opens the locale entry.
 - [ ] **Find all references** lists usages in code.
 - [ ] **Rename** (F2) updates usages and locale resources.

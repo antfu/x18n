@@ -75,6 +75,7 @@ function defaultDraft(): ConfigDraft {
     usage: {
       include: ['**/*'],
       exclude: defaultExclude,
+      gitignore: true,
       calls: [],
       regex: [],
       ignoreCallees: [],
@@ -217,6 +218,7 @@ function applyLayer(draft: ConfigDraft, layer: UserConfig, origin: ConfigOrigin,
         ...draft.usage.exclude,
         ...usage.exclude ?? [],
       ],
+      gitignore: usage.gitignore ?? draft.usage.gitignore,
       calls: [
         ...draft.usage.calls,
         ...usage.calls ?? [],

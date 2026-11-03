@@ -36,14 +36,15 @@ export function createClient(context: ExtensionContext, hooks: ClientHooks): Lan
       },
     },
   }
+  // Hovers link to these commands; untrusted markdown would not run them.
+  const hoverCommands = [commands.openKey, commands.copyTranslatePrompt, commands.translateWithAgent]
   const clientOptions: LanguageClientOptions = {
     documentSelector: [
       { scheme: 'file' },
     ],
-    // Hovers link to these commands; untrusted markdown would not run them.
     markdown: {
       isTrusted: {
-        enabledCommands: [commands.openKey, commands.copyTranslatePrompt, commands.translateWithAgent],
+        enabledCommands: hoverCommands,
       },
     },
     // Read on every (re)start, so a restart after a settings change picks up new values.
@@ -52,6 +53,7 @@ export function createClient(context: ExtensionContext, hooks: ClientHooks): Lan
       annotationMaxLength: config.annotationMaxLength,
       codeLens: config.codeLens,
       showFlags: config.showFlags,
+      hoverCommands,
     }),
     middleware: {
       // VS Code merges references from every provider and has no API to read the others' results from inside one

@@ -228,6 +228,9 @@ export interface GlossaryEntry {
   readonly translations?: {
     readonly [locale: string]: string;
   } | undefined;
+  readonly forms?: {
+    readonly [locale: string]: readonly string[];
+  } | undefined;
   readonly note?: string | undefined;
   readonly doNotTranslate?: boolean | undefined;
 }
@@ -277,6 +280,10 @@ export interface KeptUnusedKey {
 export interface KeyContext {
   readonly path: string;
 }
+export interface KeyFile {
+  readonly path: string;
+  readonly format?: string | undefined;
+}
 export interface KeyId {
   readonly namespace: string | undefined;
   readonly path: readonly string[];
@@ -285,6 +292,7 @@ export interface KeyInfo {
   readonly key: KeyString;
   readonly namespace: string | undefined;
   readonly path: readonly string[];
+  readonly label: string | undefined;
   readonly messages: readonly Message[];
   readonly missing: readonly LocaleCode[];
   readonly usages: readonly UsageMatch[];
@@ -341,6 +349,8 @@ export interface LocaleCoverage {
   readonly missing: readonly KeyString[];
   readonly empty: readonly KeyString[];
   readonly outdated: readonly KeyString[];
+  readonly needsReview: readonly KeyString[];
+  readonly reviewed: readonly KeyString[];
 }
 export interface LocaleFinder {
   readonly id: string;
@@ -351,6 +361,10 @@ export interface LocaleFinder {
     readonly namespace: string | undefined;
     readonly model: Resource | undefined;
   }, _: FinderContext) => string | undefined) | undefined;
+  readonly resolveKey?: ((_: {
+    readonly key: KeyString;
+    readonly locale: LocaleCode;
+  }, _: FinderContext) => KeyFile | undefined) | undefined;
 }
 export interface LocaleInfo {
   readonly code: LocaleCode;
@@ -388,6 +402,8 @@ export interface Message {
   readonly storedPath: readonly string[];
   readonly range: NodeRange | undefined;
   readonly description?: string | undefined;
+  readonly state?: MessageState | undefined;
+  readonly label?: string | undefined;
 }
 export interface MessageChange {
   readonly updatedAt: number;
@@ -428,6 +444,8 @@ export interface ParseResult {
   readonly tree: MessageTree;
   readonly ranges?: ReadonlyMap<string, NodeRange> | undefined;
   readonly descriptions?: ReadonlyMap<string, string> | undefined;
+  readonly states?: ReadonlyMap<string, MessageState> | undefined;
+  readonly labels?: ReadonlyMap<string, string> | undefined;
 }
 export interface Placeholder {
   readonly syntax: string;
@@ -786,6 +804,7 @@ export interface ResolvedConfig {
   readonly usage: {
     readonly include: readonly string[];
     readonly exclude: readonly string[];
+    readonly gitignore: boolean;
     readonly calls: readonly CallSpec[];
     readonly regex: readonly RegexScannerSpec[];
     readonly ignoreCallees: readonly string[];
@@ -1106,6 +1125,7 @@ export interface UsageMatch {
 export interface UsageOptions {
   readonly include?: readonly string[] | undefined;
   readonly exclude?: readonly string[] | undefined;
+  readonly gitignore?: boolean | undefined;
   readonly calls?: readonly CallSpec[] | undefined;
   readonly regex?: readonly RegexScannerSpec[] | undefined;
   readonly ignoreCallees?: readonly string[] | undefined;
@@ -1245,6 +1265,7 @@ export type MessageOp = {
   readonly type: "delete";
   readonly path: readonly string[];
 };
+export type MessageState = "translated" | "needs-review" | "reviewed";
 export type NamespaceFromPath = NonNullable<NamespaceOptions["fromPath"]>;
 export type PlaceholderComparer = (_: string, _: string) => {
   readonly missing: string[];

@@ -6,13 +6,18 @@
     "generate": "tsx --tsconfig ../tsconfig.json scripts/generate.ts",
     "dev": "pnpm run generate && nuxt dev",
     "docs:build": "pnpm run generate && nuxt build",
-    "docs:serve": "nuxt preview"
+    "docs:serve": "nuxt preview",
+    "lint": "comark-lint \"content/**/*.md\""
   },
   "devDependencies": {
+    "@iconify-json/bxl": "catalog:frontend",
+    "@iconify-json/catppuccin": "catalog:frontend",
+    "@iconify-json/circle-flags": "catalog:frontend",
     "@iconify-json/devicon": "catalog:frontend",
     "@iconify-json/logos": "catalog:frontend",
     "@iconify-json/ph": "catalog:frontend",
     "comark-docs": "catalog:docs",
+    "comark-linter": "catalog:docs",
     "nuxt": "catalog:build"
   }
 }

@@ -28,7 +28,8 @@
     "usages": "사용처 ({count})",
     "values": "값",
     "showAllLocales": "모든 로캘 표시",
-    "file": "파일"
+    "file": "파일",
+    "description": "메모"
   },
   "edit": {
     "dismiss": "닫기",
@@ -125,7 +126,9 @@
     "source": "원본",
     "usages": "사용처",
     "warnings": "경고: {count}",
-    "outdated": "오래됨 {count}개"
+    "outdated": "오래됨 {count}개",
+    "toReview": "검토 필요 {count}개",
+    "reviewedCount": "검토됨 {count}개"
   },
   "project": {
     "config": "설정과 각 값의 출처",
@@ -234,5 +237,12 @@
     "hint": "Enter로 보내기 · Shift+Enter로 줄 바꿈 · Esc로 취소",
     "resolvedCount": "해결됨 {count}개",
     "hideResolved": "해결된 항목 숨기기"
+  },
+  "state": {
+    "filter": "번역 상태",
+    "any": "모든 상태",
+    "translated": "번역됨",
+    "needsReview": "검토 필요",
+    "reviewed": "검토됨"
   }
 }
