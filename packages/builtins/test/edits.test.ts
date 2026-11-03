@@ -363,6 +363,60 @@ describe('rename', () => {
     expect(plan.warnings).toEqual([])
   })
 
+  it('renames every copy of a key duplicated across files of one locale', async () => {
+    const { project, files } = await createTestProject({
+      'locales/en.json': json({
+        home: { title: 'Home' },
+      }),
+      'extra/en.json': json({
+        home: { title: 'Extra home' },
+      }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+        { pattern: 'extra/{locale}.json' },
+      ],
+    })
+    const winner = project.message('home.title', 'en')!.value
+    const plan = await write(project, [
+      { type: 'rename', from: 'home.title', to: 'home.heading' },
+    ])
+    expect(JSON.parse(files.get('locales/en.json')!)).toEqual({
+      home: { heading: 'Home' },
+    })
+    expect(JSON.parse(files.get('extra/en.json')!)).toEqual({
+      home: { heading: 'Extra home' },
+    })
+    expect(project.message('home.title', 'en')).toBeUndefined()
+    expect(project.message('home.heading', 'en')?.value).toBe(winner)
+    expect(plan.warnings).toEqual([])
+  })
+
+  it('keeps the winning value and warns when copies of a key meet in one place', async () => {
+    const { project, files } = await createTestProject({
+      'locales/en/home.json': json({ title: 'Namespace' }),
+      'locales/en.json': json({
+        home: { title: 'Root' },
+      }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}/{namespace}.json' },
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    expect(project.message('home.title', 'en')?.value).toBe('Namespace')
+    const plan = await write(project, [
+      { type: 'rename', from: 'home.title', to: 'other.title' },
+    ])
+    expect(JSON.parse(files.get('locales/en.json')!)).toEqual({
+      other: { title: 'Namespace' },
+    })
+    expect(JSON.parse(files.get('locales/en/home.json')!)).toEqual({})
+    expect(plan.warnings).toEqual([
+      'Copies of "home.title" in en have different values; "other.title" keeps the one from locales/en/home.json.',
+    ])
+  })
+
   it('treats a rename of a parent key as a subtree rename', async () => {
     const { project, files } = await createTestProject(vueFiles, {
       presets: [
