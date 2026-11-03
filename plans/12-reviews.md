@@ -56,6 +56,8 @@ interface ReviewStore {
 
 Core reads and writes the file through the host and puts review writes into the edit plan (D41). The YAML store is the built-in one (`x18n:reviews` in `@x18n/builtins/reviews`). A plugin can add another through `reviewStores`; the last store is the active one, so a plugin's store replaces the built-in one.
 
+A plugin that keeps its own review state (a `verified` field beside each message) reacts with the `reviewEdit` hook. Core calls it for each `review`, `resolve-review` and `apply-suggestion` edit of a plan, after the edit is applied to the review data, with the comment, the thread and the files as the plan leaves them. The hook returns full file contents, which core puts into the same plan.
+
 Edit ops: `review` (`{ key, locale, review, text?, suggestion?, author? }`), `resolve-review` (`{ id }`), `apply-suggestion` (`{ id }`: sets the value and resolves it), `mark-fresh` (`{ key, locales? }`). Reads: `project.reviews(filter)`, `KeyInfo.reviews`, `CheckContext.reviews`.
 
 ## Surfaces
