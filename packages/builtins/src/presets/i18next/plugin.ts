@@ -1,6 +1,7 @@
 import type { CallSpec, ConfigContext, KeySeparator, Plugin, TypegenTarget, TypegenTree } from '@x18n/core'
 import { createLibraryPlugin } from '@x18n/core'
 import { doubleBraces, nesting } from '../../placeholders'
+import { usesTypeScript } from '../shared'
 
 interface InitOptions {
   default: string | undefined
@@ -91,13 +92,16 @@ function typeOf(tree: TypegenTree, indent: string): string {
 /** `CustomTypeOptions` of i18next, with messages as literal types: it infers the parameters of `t` from them. */
 const i18nextTypegen: TypegenTarget = {
   id: 'i18next',
+  output: 'x18n.d.ts',
+  usable: usesTypeScript,
   render({ config, defaultNamespace, namespaces }) {
     const options = [
       ...defaultNamespace
         ? [`defaultNS: ${JSON.stringify(defaultNamespace)}`]
         : [],
-      ...config.keySeparator === false
-        ? ['keySeparator: false']
+      // The tree nests by `keySeparator`, so i18next joins it back with the same one.
+      ...config.keySeparator !== '.'
+        ? [`keySeparator: ${JSON.stringify(config.keySeparator)}`]
         : [],
       ...config.namespace.separator !== undefined && config.namespace.separator !== ':'
         ? [`nsSeparator: ${JSON.stringify(config.namespace.separator)}`]

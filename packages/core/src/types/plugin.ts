@@ -321,6 +321,10 @@ export interface TypegenContext {
 /** How a library takes its key types, as its own type augmentation. */
 export interface TypegenTarget {
   readonly id: string
+  /** The file it writes when the config names none, relative to the project root. */
+  readonly output: string
+  /** False when the project can't use the file, for example one without the language of the file. Default: usable. */
+  readonly usable?: ((host: Host) => Promise<boolean>) | undefined
   readonly render: (ctx: TypegenContext) => string
 }
 

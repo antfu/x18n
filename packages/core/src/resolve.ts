@@ -118,9 +118,39 @@ function mergeFallbacks(base: ResolvedConfig['localeFallbacks'], layer: Resolved
 function resolveTypegen(value: NonNullable<UserConfig['typegen']>): ResolvedConfig['typegen'] {
   if (value === false)
     return false
-  return { output: (value === true
-    ? undefined
-    : value.output) ?? 'x18n.d.ts' }
+  return {
+    output: value === true
+      ? undefined
+      : value.output,
+  }
+}
+
+/** A root-relative path in the POSIX form of file events: `./a\\b` is `a/b`. */
+function normalizeOutput(path: string): string {
+  const parts: string[] = []
+  for (const part of path.replace(/\\/g, '/').split('/')) {
+    if (part === '' || part === '.')
+      continue
+    if (part === '..' && parts.length > 0 && parts.at(-1) !== '..')
+      parts.pop()
+    else
+      parts.push(part)
+  }
+  return `${path.startsWith('/')
+    ? '/'
+    : ''}${parts.join('/')}`
+}
+
+/** The typegen output: the one of the config, else the default of the last typegen target. */
+function finalTypegen(typegen: ResolvedConfig['typegen'], plugins: readonly Plugin[]): ResolvedConfig['typegen'] {
+  if (!typegen)
+    return false
+  const output = typegen.output ?? plugins.flatMap(plugin => plugin.typegen ?? []).at(-1)?.output
+  return {
+    output: output === undefined
+      ? undefined
+      : normalizeOutput(output),
+  }
 }
 
 /** Applies a user config layer: scalars replace, lists of rules append. */
@@ -499,6 +529,7 @@ export async function resolveConfig(options: ResolveConfigOptions): Promise<Setu
   const config: ResolvedConfig = Object.freeze({
     ...draft,
     name: user.name ?? options.name ?? 'default',
+    typegen: finalTypegen(draft.typegen, finalPlugins),
     usage: {
       ...draft.usage,
       derivedKeys: [

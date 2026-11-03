@@ -1,9 +1,9 @@
-import { execFile } from 'node:child_process'
+import { execFile, spawn } from 'node:child_process'
 import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, describe, expect, it, vi } from 'vitest'
 
 const bin = fileURLToPath(new URL('../bin.mjs', import.meta.url))
 let root: string
@@ -63,4 +63,52 @@ describe('x18n typegen', () => {
     const { data } = JSON.parse((await x18n(dir, 'typegen', '--json')).stdout)
     expect(data.projects[0]).toMatchObject({ path: 'x18n.d.ts', target: 'i18next', changed: true })
   })
+  it('creates the folder of the output', async () => {
+    const dir = await project('nested', { 'tsconfig.json': '{}' })
+    await writeFile(join(dir, 'x18n.config.yml'), 'typegen:\n  output: ./types/deep/x18n.d.ts\npresets: [i18next]\nsourceLocale: en\nresources:\n  - pattern: locales/{locale}.json\n')
+    expect((await x18n(dir, 'typegen')).stdout).toContain('Wrote types/deep/x18n.d.ts (i18next).')
+    expect(await readFile(join(dir, 'types/deep/x18n.d.ts'), 'utf8')).toContain('"a": "A"')
+    expect((await x18n(dir, 'check', '--only', 'typegen-stale')).code).toBe(0)
+  })
+
+  it('reports a failed write in watch mode and keeps watching', async () => {
+    const dir = await project('watch', { 'tsconfig.json': '{}' })
+    await writeFile(join(dir, 'x18n.config.yml'), 'typegen:\n  output: types/x18n.d.ts\npresets: [i18next]\nsourceLocale: en\nresources:\n  - pattern: locales/{locale}.json\n')
+    const child = spawn(process.execPath, [
+      bin,
+      'typegen',
+      '--watch',
+      '--no-cache',
+    ], {
+      cwd: dir,
+      env: { ...process.env, NO_COLOR: '1' },
+    })
+    let stdout = ''
+    let stderr = ''
+    let exited = false
+    child.stdout.on('data', (chunk: unknown) => {
+      stdout += String(chunk)
+    })
+    child.stderr.on('data', (chunk: unknown) => {
+      stderr += String(chunk)
+    })
+    child.on('exit', () => {
+      exited = true
+    })
+    try {
+      await vi.waitFor(() => expect(stdout).toContain('Watching for file changes.'), { timeout: 10000, interval: 50 })
+      // A file where the folder should be makes the write fail.
+      await rm(join(dir, 'types'), { recursive: true })
+      await writeFile(join(dir, 'types'), '')
+      await writeFile(join(dir, 'locales/en.json'), '{"a":"Blocked"}\n')
+      await vi.waitFor(() => expect(stderr).toContain('error: '), { timeout: 10000, interval: 50 })
+      await rm(join(dir, 'types'))
+      await writeFile(join(dir, 'locales/en.json'), '{"a":"Back"}\n')
+      await vi.waitFor(async () => expect(await readFile(join(dir, 'types/x18n.d.ts'), 'utf8')).toContain('"a": "Back"'), { timeout: 10000, interval: 50 })
+      expect(exited).toBe(false)
+    }
+    finally {
+      child.kill()
+    }
+  }, 30000)
 })

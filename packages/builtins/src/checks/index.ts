@@ -531,7 +531,8 @@ export const typegenStale: Check = {
   description: 'The file of `x18n typegen` is out of date with the source locale.',
   * run(ctx) {
     const file = ctx.typegen()
-    if (file && file.current !== file.content) {
+    // A checkout with CRLF line endings holds the same file.
+    if (file && file.current?.replace(/\r\n/g, '\n') !== file.content) {
       yield {
         message: file.current === undefined
           ? `${file.path} does not exist. Run \`x18n typegen\`.`

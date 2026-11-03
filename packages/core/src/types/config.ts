@@ -184,7 +184,7 @@ export interface SerializableConfig {
   readonly usage?: UsageOptions | undefined
   readonly write?: WriteOptions | undefined
   readonly extract?: ExtractOptions | undefined
-  /** Generate TypeScript types for keys, with `x18n typegen`: `true`, or `{ output }` for a file other than `x18n.d.ts`. */
+  /** Generate TypeScript types for keys, with `x18n typegen`: `true`, or `{ output }` for a file other than the default of the typegen target. */
   readonly typegen?: boolean | { readonly output?: string | undefined } | undefined
   /** Overrides on top of the `recommended` check set. */
   readonly checks?: { readonly [checkId: string]: CheckSetting } | undefined
@@ -264,7 +264,8 @@ export interface ResolvedConfig {
   }
   readonly write: { readonly sort: false | 'binary' | 'locale', readonly indent: number | 'tab' | undefined, readonly keepFilled: boolean }
   readonly extract: ExtractOptions
-  readonly typegen: { readonly output: string } | false
+  /** `output` is relative to the project root, and undefined when the config names none and no plugin has a typegen target. */
+  readonly typegen: { readonly output: string | undefined } | false
   readonly checks: { readonly [checkId: string]: CheckSetting }
   readonly strict: boolean
   readonly ignoreKeys: readonly string[]

@@ -770,18 +770,33 @@ export function createProject(options: CreateProjectOptions): Project {
     return usages.filter(inPath).map(usage => ({ usage, possible: usage.dynamic !== false }))
   }
 
+  /** The last plugin with a typegen target wins. */
+  const typegenTarget = registry.plugins.flatMap(plugin => plugin.typegen ?? []).at(-1)
   /** What the file of `x18n typegen` holds. */
   let typegenCurrent: string | undefined
-  /** Typegen is for TypeScript projects only. */
+  /** Whether the typegen target can be used in this project, as its `usable` hook says. */
   let typegenUsable = false
-  const typegenFile = (): TypegenFile | undefined => !typegenUsable
-    ? undefined
-    : renderTypegen(config, registry.plugins, () => {
-        const { messages } = idx()
-        return typegenContext(config, [
-          ...messages.keys(),
-        ], key => messages.get(key)?.get(sourceLocale)?.[0]?.value)
-      })
+  let typegenCache: { readonly revision: number, readonly file: TypegenFile | undefined } | undefined
+  function typegenFile(): TypegenFile | undefined {
+    if (!typegenUsable)
+      return undefined
+    if (typegenCache?.revision !== revision) {
+      typegenCache = {
+        revision,
+        file: renderTypegen(config, typegenTarget, () => {
+          const { messages, keyPaths } = idx()
+          return typegenContext(config, [
+            ...messages.keys(),
+          ].map(key => ({
+            namespace: keyPaths.get(key)?.namespace,
+            path: keyPaths.get(key)?.path ?? [key],
+            value: messages.get(key)?.get(sourceLocale)?.[0]?.value,
+          })))
+        }),
+      }
+    }
+    return typegenCache.file
+  }
   const analyzer = createAnalyzer({
     config,
     registry,
@@ -1040,7 +1055,7 @@ export function createProject(options: CreateProjectOptions): Project {
         return undefined
       const before = idx()
       const paths = new Set(events.map(event => event.path))
-      if (config.typegen && paths.has(config.typegen.output)) {
+      if (config.typegen && config.typegen.output !== undefined && paths.has(config.typegen.output)) {
         typegenCurrent = await host.readFile(config.typegen.output)
         revision++
       }
@@ -1133,9 +1148,9 @@ export function createProject(options: CreateProjectOptions): Project {
       loadReviews(),
     ])
     await scanAll()
-    if (config.typegen) {
+    if (config.typegen && config.typegen.output !== undefined && typegenTarget) {
       typegenCurrent = await host.readFile(config.typegen.output)
-      typegenUsable = await host.readFile('tsconfig.json') !== undefined || await host.readFile('node_modules/typescript/package.json') !== undefined
+      typegenUsable = await typegenTarget.usable?.(host) ?? true
     }
     revision++
   })()

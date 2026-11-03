@@ -20,7 +20,6 @@ import type {
 } from 'vscode-languageserver'
 import type * as P from './protocol'
 import type { UiServers } from './ui'
-import { readFile, writeFile } from 'node:fs/promises'
 import { relative, resolve, sep } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { extractItems, findCandidates } from '@x18n/builtins/extractors'
@@ -360,14 +359,33 @@ class Server {
     clearTimeout(this.typegenTimers.get(entry))
     this.typegenTimers.set(entry, setTimeout(() => {
       this.typegenTimers.delete(entry)
-      const file = entry.project.typegen()
-      if (!file)
-        return
-      const path = resolve(entry.root, file.path)
-      void readFile(path, 'utf8').catch(() => undefined).then(current => current === file.content
-        ? undefined
-        : writeFile(path, file.content)).catch(() => undefined)
+      void this.writeTypes(entry).catch((error: unknown) => {
+        this.connection.console.error(`x18n typegen: ${error instanceof Error
+          ? error.message
+          : String(error)}`)
+      })
     }, 300))
+  }
+
+  async writeTypes(entry: ServerProject): Promise<void> {
+    const file = entry.project.typegen()
+    if (!file)
+      return
+    const current = await entry.overlay.readFile(file.path)
+    // A checkout with CRLF line endings holds the same file.
+    if (current?.replace(/\r\n/g, '\n') === file.content)
+      return
+    // The host creates the folder of the output.
+    await entry.overlay.writeFile(file.path, file.content)
+    // Without file watching from the client, the project would not see the new file and keep it stale.
+    await entry.project.update([
+      {
+        type: current === undefined
+          ? 'create'
+          : 'change',
+        path: file.path,
+      },
+    ])
   }
 
   async watched(changes: readonly { uri: string, type: number }[]): Promise<void> {

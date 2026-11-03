@@ -799,7 +799,7 @@ export interface ResolvedConfig {
   };
   readonly extract: ExtractOptions;
   readonly typegen: {
-    readonly output: string;
+    readonly output: string | undefined;
   } | false;
   readonly checks: {
     readonly [checkId: string]: CheckSetting;
@@ -1042,6 +1042,8 @@ export interface TypegenFile {
 }
 export interface TypegenTarget {
   readonly id: string;
+  readonly output: string;
+  readonly usable?: ((_: Host) => Promise<boolean>) | undefined;
   readonly render: (_: TypegenContext) => string;
 }
 export interface TypegenTree {

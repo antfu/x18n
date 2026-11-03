@@ -1,4 +1,4 @@
-import type { UserConfig } from '@x18n/core'
+import type { Plugin, UserConfig } from '@x18n/core'
 import { describe, expect, it } from 'vitest'
 import { createTestProject, json } from './_utils'
 
@@ -120,5 +120,143 @@ describe('typegen', () => {
       { type: 'change', path: 'locales/en.json' },
     ])
     expect(stale(project)).toEqual(['x18n.d.ts is out of date. Run `x18n typegen`.'])
+  })
+  it('tells i18next the key separator the tree is nested by', async () => {
+    const { project } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en.json': json({
+        a_b: 'A',
+        c: { d: 'D' },
+      }),
+    }, { ...flat, keySeparator: '_' })
+    const { content } = project.typegen()!
+    expect(content).toContain('keySeparator: "_"')
+    expect(content).toMatch(/"a": \{\s+"b": "A"/)
+    expect(content).toMatch(/"c": \{\s+"d": "D"/)
+  })
+
+  it('nests by the key separator of each resource', async () => {
+    const { project } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en.json': json({
+        a: { b: 'A' },
+      }),
+      'flat/en.json': json({ c_d: 'C' }),
+    }, {
+      ...flat,
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+        { pattern: 'flat/{locale}.json', keySeparator: '_' },
+      ],
+    })
+    const { content } = project.typegen()!
+    expect(content).not.toContain('keySeparator')
+    expect(content).toMatch(/"c": \{\s+"d": "C"/)
+  })
+
+  it('keeps a colon in a key of a project without namespaces', async () => {
+    const { project } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en.json': json({ 'time:10': 'Ten' }),
+    }, flat)
+    expect(project.namespaced).toBe(false)
+    const { content } = project.typegen()!
+    expect(content).toMatch(/"translation": \{\s+"time:10": "Ten"/)
+    expect(content).not.toMatch(/"time": \{/)
+  })
+
+  it('sorts namespaces by code unit, not by locale', async () => {
+    const { project } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en/a.json': json({ x: 'X' }),
+      'locales/en/B.json': json({ y: 'Y' }),
+    }, {
+      ...flat,
+      resources: [
+        { pattern: 'locales/{locale}/{namespaces}.json' },
+      ],
+    })
+    const { content } = project.typegen()!
+    expect(content.indexOf('"B": {')).toBeLessThan(content.indexOf('"a": {'))
+  })
+
+  it('normalizes the output path, so that events on it refresh the check', async () => {
+    const { project, files } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en.json': json({ a: 'A' }),
+    }, {
+      ...flat,
+      typegen: { output: './types\\x18n.d.ts' },
+    })
+    expect(project.config.typegen).toEqual({ output: 'types/x18n.d.ts' })
+    const file = project.typegen()!
+    expect(file.path).toBe('types/x18n.d.ts')
+    files.set('types/x18n.d.ts', file.content)
+    await project.update([
+      { type: 'create', path: 'types/x18n.d.ts' },
+    ])
+    expect(stale(project)).toEqual([])
+  })
+
+  it('accepts the file with CRLF line endings', async () => {
+    const { project, files } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en.json': json({ a: 'A' }),
+    }, flat)
+    files.set('x18n.d.ts', project.typegen()!.content.replace(/\n/g, '\r\n'))
+    await project.update([
+      { type: 'create', path: 'x18n.d.ts' },
+    ])
+    expect(stale(project)).toEqual([])
+  })
+
+  it('renders once per revision', async () => {
+    const { project, files } = await createTestProject({
+      'tsconfig.json': '{}',
+      'locales/en.json': json({ a: 'A' }),
+    }, flat)
+    const first = project.typegen()
+    expect(project.typegen()).toBe(first)
+    files.set('locales/en.json', json({ a: 'B' }))
+    await project.update([
+      { type: 'change', path: 'locales/en.json' },
+    ])
+    expect(project.typegen()).not.toBe(first)
+    expect(project.typegen()!.content).toContain('"a": "B"')
+  })
+
+  it('takes the default output and the check of TypeScript from the target', async () => {
+    const plugin: Plugin = {
+      name: 'test:typegen',
+      typegen: {
+        id: 'test',
+        output: 'gen/keys.ts',
+        render: () => 'export {}\n',
+      },
+    }
+    const { project } = await createTestProject({
+      'locales/en.json': json({ a: 'A' }),
+    }, {
+      ...flat,
+      presets: [],
+      plugins: [plugin],
+    })
+    expect(project.typegen()).toMatchObject({ path: 'gen/keys.ts', target: 'test' })
+    const { project: unusable } = await createTestProject({
+      'locales/en.json': json({ a: 'A' }),
+    }, {
+      ...flat,
+      presets: [],
+      plugins: [
+        {
+          ...plugin,
+          typegen: {
+            ...plugin.typegen!,
+            usable: async () => false,
+          },
+        },
+      ],
+    })
+    expect(unusable.typegen()).toBeUndefined()
   })
 })

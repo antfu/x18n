@@ -1,7 +1,6 @@
 import type { LoadedProject } from '@x18n/node'
 import type { GlobalOptions } from '../context'
-import { writeFile } from 'node:fs/promises'
-import { join } from 'node:path'
+import process from 'node:process'
 import { openWorkspace, out, printJson } from '../context'
 
 export interface TypegenOptions extends GlobalOptions {
@@ -17,14 +16,15 @@ interface Written {
 }
 
 async function write(loaded: LoadedProject): Promise<Written> {
-  const { project, root, name } = loaded
+  const { project, name } = loaded
   if (!project.config.typegen)
     return { project: name, changed: false, notice: 'Typegen is off. Set `typegen: true` in the config.' }
   const file = project.typegen()
   if (!file)
     return { project: name, changed: false, notice: 'Nothing to generate. Typegen needs a tsconfig.json or typescript, and a preset with a typegen target.' }
   const before = await loaded.host.readFile(file.path)
-  if (before === file.content) {
+  // A checkout with CRLF line endings holds the same file.
+  if (before?.replace(/\r\n/g, '\n') === file.content) {
     return {
       project: name,
       path: file.path,
@@ -32,7 +32,8 @@ async function write(loaded: LoadedProject): Promise<Written> {
       changed: false,
     }
   }
-  await writeFile(join(root, file.path), file.content)
+  // The host creates the folder of the output.
+  await loaded.host.writeFile(file.path, file.content)
   await project.update([
     {
       type: before === undefined
@@ -66,6 +67,11 @@ function watchTypes(projects: readonly LoadedProject[]): Promise<never> {
     loaded.project.onChange(() => void write(loaded).then((result) => {
       if (result.changed)
         show(result)
+    }, (error: unknown) => {
+      // One failed write must not stop the watcher.
+      process.stderr.write(`error: ${loaded.name}: ${error instanceof Error
+        ? error.message
+        : String(error)}\n`)
     }))
   }
   out('\nWatching for file changes.')
