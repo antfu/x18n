@@ -773,6 +773,8 @@ The client passes these fields in \`initializationOptions\`. Each one is optiona
 ${declaration(server, 'Settings')}
 \`\`\`
 
+A hover shows the value per locale and the number of usages. It links to \`x18n.openKey\`, \`x18n.copyTranslatePrompt\` and \`x18n.translateWithAgent\` only when the client lists them in \`hoverCommands\` (an array of command ids), because a client that cannot run a \`command:\` URL opens it as a link and fails. The default is no links.
+
 ## Custom methods
 
 Shapes follow the [JSON contract](/references/json-contracts) version. Positions and ranges use LSP conventions: zero-based lines and UTF-16 characters.
