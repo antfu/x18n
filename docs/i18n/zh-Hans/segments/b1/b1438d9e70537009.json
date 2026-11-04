@@ -1,0 +1,14 @@
+{
+  "hash": "b1438d9e70537009",
+  "source": "Translate missing messages",
+  "text": "翻译缺失的消息",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻译缺失的消息"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

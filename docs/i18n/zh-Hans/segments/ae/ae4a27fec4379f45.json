@@ -1,0 +1,14 @@
+{
+  "hash": "ae4a27fec4379f45",
+  "source": "{0} is a regular expression whose first group is a namespace. The code after each match, up to the next match, uses that namespace. This is the same as {1} of i18n-ally.",
+  "text": "{0} 是一个正则表达式，其第一个分组为命名空间。每次匹配之后、下一次匹配之前的代码使用该命名空间。这与 i18n-ally 的 {1} 相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是一个正则表达式，其第一个分组为命名空间。每次匹配之后、下一次匹配之前的代码使用该命名空间。这与 i18n-ally 的 {1} 相同。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

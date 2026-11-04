@@ -1,0 +1,14 @@
+{
+  "hash": "600e25f4e5440520",
+  "source": "The preset applies when the project has an {0} and a {1} folder, unless the root {2} depends on React Native, Expo, Capacitor, Cordova or NativeScript, or there is a {3}: those apps have an {4} folder whose strings are not its messages. A {5} kept only for tooling does not stop detection. Otherwise, name it in the config:",
+  "text": "当项目中同时有 {0} 和 {1} 文件夹时，会应用该预设，除非根目录的 {2} 依赖 React Native、Expo、Capacitor、Cordova 或 NativeScript，或者存在 {3}：这些应用的 {4} 文件夹中的字符串并不是它的消息。仅用于工具链的 {5} 不会阻止检测。否则，请在配置中指定它：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当项目中同时有 {0} 和 {1} 文件夹时，会应用该预设，除非根目录的 {2} 依赖 React Native、Expo、Capacitor、Cordova 或 NativeScript，或者存在 {3}：这些应用的 {4} 文件夹中的字符串并不是它的消息。仅用于工具链的 {5} 不会阻止检测。否则，请在配置中指定它："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

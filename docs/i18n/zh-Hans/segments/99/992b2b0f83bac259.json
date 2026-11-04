@@ -1,0 +1,14 @@
+{
+  "hash": "992b2b0f83bac259",
+  "source": "Braces: {0}, {1}.",
+  "text": "大括号：{0}，{1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "大括号：{0}，{1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

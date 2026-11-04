@@ -1,0 +1,14 @@
+{
+  "hash": "dd130794d88b2034",
+  "source": "Named interpolation: {0}.",
+  "text": "命名插值：{0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "命名插值：{0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

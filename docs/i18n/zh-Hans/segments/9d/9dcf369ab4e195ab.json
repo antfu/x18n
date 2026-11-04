@@ -1,0 +1,14 @@
+{
+  "hash": "9dcf369ab4e195ab",
+  "source": "Writes files",
+  "text": "是否写入文件",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "是否写入文件"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

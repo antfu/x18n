@@ -1,0 +1,14 @@
+{
+  "hash": "4828a6206bc06b16",
+  "source": "{0} find usages in source files. A scanner has an {1}, the file {2} it reads ({3} for every file), and {4}. {5} holds the call specs of the project. The result holds:",
+  "text": "{0} 用于在源文件中查找引用。扫描器包含一个 {1}、它读取的文件 {2}（{3} 表示所有文件）以及 {4}。{5} 保存项目的调用规范。结果包含：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 用于在源文件中查找引用。扫描器包含一个 {1}、它读取的文件 {2}（{3} 表示所有文件）以及 {4}。{5} 保存项目的调用规范。结果包含："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

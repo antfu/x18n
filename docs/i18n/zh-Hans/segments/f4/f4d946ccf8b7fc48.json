@@ -1,0 +1,14 @@
+{
+  "hash": "f4d946ccf8b7fc48",
+  "source": "Find all references lists every usage in code. It does not list the locale files; use Go to implementation for those.",
+  "text": "查找所有引用会列出代码中的每一处引用，但不会列出语言文件；语言文件请使用转到实现。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "查找所有引用会列出代码中的每一处引用，但不会列出语言文件；语言文件请使用转到实现。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

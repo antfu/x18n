@@ -1,0 +1,14 @@
+{
+  "hash": "12666fcb17d63e8a",
+  "source": "In a TS config, import the package and call the factory:",
+  "text": "在 TS 配置中，导入该包并调用工厂函数：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 TS 配置中，导入该包并调用工厂函数："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

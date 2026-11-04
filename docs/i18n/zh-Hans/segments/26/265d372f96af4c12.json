@@ -1,0 +1,14 @@
+{
+  "hash": "265d372f96af4c12",
+  "source": "The {0} hook changes a draft of the config before it is final. Presets use it to set defaults: the config of the project wins over them. {1} receives the dependencies of the project and can test files with {2}.",
+  "text": "{0} 钩子会在配置最终确定之前修改配置草稿。预设用它来设置默认值：项目自身的配置优先于这些默认值。{1} 接收项目的依赖，并可以使用 {2} 测试文件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 钩子会在配置最终确定之前修改配置草稿。预设用它来设置默认值：项目自身的配置优先于这些默认值。{1} 接收项目的依赖，并可以使用 {2} 测试文件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

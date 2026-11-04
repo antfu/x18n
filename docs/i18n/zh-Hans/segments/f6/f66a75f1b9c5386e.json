@@ -1,0 +1,14 @@
+{
+  "hash": "f66a75f1b9c5386e",
+  "source": "When a folder has {0} settings in {1} and no {2} file, the {3}x18n extension{/3} offers to migrate it. It opens the files that it will write, and writes them only after you confirm. Then it restarts the language server. You can also run \"x18n: Migrate from i18n-ally\" from the command palette.",
+  "text": "当文件夹在 {1} 中包含 {0} 设置且没有 {2} 文件时，{3}x18n 扩展{/3}会提示迁移。它会打开将要写入的文件，并在你确认后才写入。然后它会重启语言服务器。你也可以在命令面板中运行“x18n: Migrate from i18n-ally”。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当文件夹在 {1} 中包含 {0} 设置且没有 {2} 文件时，{3}x18n 扩展{/3}会提示迁移。它会打开将要写入的文件，并在你确认后才写入。然后它会重启语言服务器。你也可以在命令面板中运行“x18n: Migrate from i18n-ally”。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

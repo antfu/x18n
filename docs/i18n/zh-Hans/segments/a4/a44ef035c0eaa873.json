@@ -1,0 +1,14 @@
+{
+  "hash": "a44ef035c0eaa873",
+  "source": "Re-write resources with the configured sort and indent.",
+  "text": "按配置的排序和缩进方式重写资源文件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "按配置的排序和缩进方式重写资源文件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

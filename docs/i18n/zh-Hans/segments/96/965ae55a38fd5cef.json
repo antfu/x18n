@@ -1,0 +1,14 @@
+{
+  "hash": "965ae55a38fd5cef",
+  "source": "When i18n-ally reviews exist, and this file does not. The comments are converted to {0}x18n reviews{/0}.",
+  "text": "当存在 i18n-ally 审阅且此文件不存在时写入。评论会被转换为 {0}x18n 审阅{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当存在 i18n-ally 审阅且此文件不存在时写入。评论会被转换为 {0}x18n 审阅{/0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

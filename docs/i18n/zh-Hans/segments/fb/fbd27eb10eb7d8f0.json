@@ -1,0 +1,14 @@
+{
+  "hash": "fbd27eb10eb7d8f0",
+  "source": "Placeholder mismatch. Keep every placeholder of the source value, or pass `--force`.",
+  "text": "占位符不匹配。请保留源值中的所有占位符，或传入 `--force`。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "占位符不匹配。请保留源值中的所有占位符，或传入 `--force`。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

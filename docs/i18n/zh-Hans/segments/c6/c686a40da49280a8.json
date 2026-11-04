@@ -1,0 +1,14 @@
+{
+  "hash": "c686a40da49280a8",
+  "source": "Sets many values from JSON: {0}. {1} reads stdin.",
+  "text": "通过 JSON 设置多个值：{0}。{1} 从 stdin 读取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "通过 JSON 设置多个值：{0}。{1} 从 stdin 读取。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

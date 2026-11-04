@@ -1,0 +1,14 @@
+{
+  "hash": "46a016f84961b58f",
+  "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
+  "text": "\"x18n: Find Key by Text\" 可根据你在应用中看到的文本找到对应的键。输入文本的一部分即可，任何语言均可。搜索不区分大小写，并采用模糊匹配，因此字母只需按顺序出现，不必相邻。列表按匹配度从高到低排序，并显示键、语言和引用数量。选择一个键可打开它的引用，或在它的多处引用之间选择。没有任何代码使用的键会打开到它在语言文件中的条目。该命令会以选中的文本作为初始输入，键视图中也有对应的按钮。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "\"x18n: Find Key by Text\" 可根据你在应用中看到的文本找到对应的键。输入文本的一部分即可，任何语言均可。搜索不区分大小写，并采用模糊匹配，因此字母只需按顺序出现，不必相邻。列表按匹配度从高到低排序，并显示键、语言和引用数量。选择一个键可打开它的引用，或在它的多处引用之间选择。没有任何代码使用的键会打开到它在语言文件中的条目。该命令会以选中的文本作为初始输入，键视图中也有对应的按钮。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

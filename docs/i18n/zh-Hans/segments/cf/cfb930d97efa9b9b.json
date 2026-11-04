@@ -1,0 +1,14 @@
+{
+  "hash": "cfb930d97efa9b9b",
+  "source": "For factories: the names of the returned translate functions. Default {0}.",
+  "text": "对于工厂函数：其返回的翻译函数的名称。默认值为 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对于工厂函数：其返回的翻译函数的名称。默认值为 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

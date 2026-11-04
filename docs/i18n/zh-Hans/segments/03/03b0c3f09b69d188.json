@@ -1,0 +1,14 @@
+{
+  "hash": "03b0c3f09b69d188",
+  "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
+  "text": "在文件中，{0} 是一个键，{1} 是每种数量（{2}）对应一个键，{3} 是每个条目（{4}）对应一个键。删除末尾之前的某个条目会将其清空，因此后面的条目保持原有索引。{5} 不是消息，x18n 不会向其中写入。紧邻条目上方的注释即为该条目给译者的描述。x18n 会读取和写入 Android 的转义（{6}、{7}、{8}，以及开头的 {9}），保留 {10} 这类行内标记，并保留 CDATA。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在文件中，{0} 是一个键，{1} 是每种数量（{2}）对应一个键，{3} 是每个条目（{4}）对应一个键。删除末尾之前的某个条目会将其清空，因此后面的条目保持原有索引。{5} 不是消息，x18n 不会向其中写入。紧邻条目上方的注释即为该条目给译者的描述。x18n 会读取和写入 Android 的转义（{6}、{7}、{8}，以及开头的 {9}），保留 {10} 这类行内标记，并保留 CDATA。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a9b9c7d63d8d6347",
+  "source": "It needs a preset that tells where the params of a call are; the i18next presets do. Options the library reads itself, such as i18next {0}, {1} and {2}, are never unused. Unused params are reported only when the message has placeholders and no nested messages ({3}), which may use them.",
+  "text": "它需要一个能指明调用参数位置的预设；i18next 预设可以做到。库自身会读取的选项，例如 i18next 的 {0}、{1} 和 {2}，永远不会被视为未使用。只有当消息包含占位符且没有嵌套消息（{3}）时，才会报告未使用的参数，因为嵌套消息可能会用到这些参数。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它需要一个能指明调用参数位置的预设；i18next 预设可以做到。库自身会读取的选项，例如 i18next 的 {0}、{1} 和 {2}，永远不会被视为未使用。只有当消息包含占位符且没有嵌套消息（{3}）时，才会报告未使用的参数，因为嵌套消息可能会用到这些参数。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

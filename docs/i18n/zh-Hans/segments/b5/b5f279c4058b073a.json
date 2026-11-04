@@ -1,0 +1,14 @@
+{
+  "hash": "b5f279c4058b073a",
+  "source": "The input of an edit has the wrong shape.",
+  "text": "编辑的输入结构不正确。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "编辑的输入结构不正确。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

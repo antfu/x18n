@@ -1,0 +1,14 @@
+{
+  "hash": "b14d178a8ea74230",
+  "source": "Overrides on top of the {0} check set.",
+  "text": "在 {0} 检查集之上的覆盖配置。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 {0} 检查集之上的覆盖配置。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

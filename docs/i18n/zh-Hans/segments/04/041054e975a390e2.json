@@ -1,0 +1,14 @@
+{
+  "hash": "041054e975a390e2",
+  "source": "In a language that inflects or compounds its nouns, list the forms the check should also accept under {0}, per locale: {1}. A form matches at the start of a word, so a compound stem such as {2} covers \"bestillingssiden\". Forms under the source locale count as uses of the term, so {3} has \"Your bookings\" checked too.",
+  "text": "对于名词有屈折变化或会构成复合词的语言，可以在 {0} 下按语言列出检查还应接受的形式：{1}。形式从单词开头开始匹配，因此像 {2} 这样的复合词词干可以涵盖 \"bestillingssiden\"。源语言下的形式会被视为该术语的使用，因此 {3} 也会检查 \"Your bookings\"。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对于名词有屈折变化或会构成复合词的语言，可以在 {0} 下按语言列出检查还应接受的形式：{1}。形式从单词开头开始匹配，因此像 {2} 这样的复合词词干可以涵盖 \"bestillingssiden\"。源语言下的形式会被视为该术语的使用，因此 {3} 也会检查 \"Your bookings\"。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

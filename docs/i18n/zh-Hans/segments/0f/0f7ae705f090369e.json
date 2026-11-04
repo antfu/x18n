@@ -1,0 +1,14 @@
+{
+  "hash": "0f7ae705f090369e",
+  "source": "Single braces: {0}.",
+  "text": "单花括号：{0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "单花括号：{0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

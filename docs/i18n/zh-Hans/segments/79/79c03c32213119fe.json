@@ -1,0 +1,14 @@
+{
+  "hash": "79c03c32213119fe",
+  "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
+  "text": "被调用者是返回翻译函数的工厂函数，例如 {0} 返回 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "被调用者是返回翻译函数的工厂函数，例如 {0} 返回 {1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

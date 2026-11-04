@@ -1,0 +1,14 @@
+{
+  "hash": "7e84feb7cb9eb4ee",
+  "source": "The root config of a monorepo, if there is one. See {0}Monorepos{/0}.",
+  "text": "monorepo 的根配置（如果有）。请参阅{0}Monorepo{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "monorepo 的根配置（如果有）。请参阅{0}Monorepo{/0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

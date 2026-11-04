@@ -1,0 +1,14 @@
+{
+  "hash": "dd2f69a5c1467597",
+  "source": "ICU MessageFormat, as for {0}next-intl{/0}.",
+  "text": "ICU MessageFormat，与 {0}next-intl{/0} 相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ICU MessageFormat，与 {0}next-intl{/0} 相同。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

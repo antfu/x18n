@@ -1,0 +1,14 @@
+{
+  "hash": "059815e30bf6c147",
+  "source": "0-based UTF-16 offsets.",
+  "text": "从 0 开始的 UTF-16 偏移量。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "从 0 开始的 UTF-16 偏移量。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "06058d8e367ed47a",
+  "source": "The check skips a call whose params it cannot read, such as a variable or a spread ({0}), and a key whose source message is not a string, such as a plural key that only has {1} and {2}.",
+  "text": "如果调用的参数无法读取，例如变量或展开表达式（{0}），或者键的源消息不是字符串，例如只有 {1} 和 {2} 的复数键，该检查会跳过它们。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果调用的参数无法读取，例如变量或展开表达式（{0}），或者键的源消息不是字符串，例如只有 {1} 和 {2} 的复数键，该检查会跳过它们。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

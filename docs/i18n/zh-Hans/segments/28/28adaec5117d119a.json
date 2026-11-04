@@ -1,0 +1,14 @@
+{
+  "hash": "28adaec5117d119a",
+  "source": "In a project with namespaces, a key may hold {0} after its namespace. In code, {1} names the namespace {2}. With {3} (i18next {4}), code never names a namespace, so {5} is the key {6}.",
+  "text": "在使用命名空间的项目中，键在命名空间之后可以包含 {0}。在代码中，{1} 指向命名空间 {2}。使用 {3}（i18next 的 {4}）时，代码从不指定命名空间，因此 {5} 就是键 {6}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在使用命名空间的项目中，键在命名空间之后可以包含 {0}。在代码中，{1} 指向命名空间 {2}。使用 {3}（i18next 的 {4}）时，代码从不指定命名空间，因此 {5} 就是键 {6}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

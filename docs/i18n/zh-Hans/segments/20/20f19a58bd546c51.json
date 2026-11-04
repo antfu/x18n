@@ -1,0 +1,14 @@
+{
+  "hash": "20f19a58bd546c51",
+  "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check, and the editor shows the same diagnostics.",
+  "text": "检查会读取项目并报告诊断。诊断是一条带有代码、严重级别和可选修复的已报告问题。{0} 会运行所有检查，编辑器也会显示相同的诊断。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "检查会读取项目并报告诊断。诊断是一条带有代码、严重级别和可选修复的已报告问题。{0} 会运行所有检查，编辑器也会显示相同的诊断。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

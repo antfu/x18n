@@ -1,0 +1,14 @@
+{
+  "hash": "931ccbe077438f90",
+  "source": "In CI, fetch the full history: a shallow clone (the {0} default) reports nothing. Set {1}. Limit the walk with {2}, or turn history off with {3}. {4} adds stale translations to the prompt, with the source text from when they last changed.",
+  "text": "在 CI 中，请获取完整历史：浅克隆（{0} 的默认行为）不会报告任何内容。请设置 {1}。使用 {2} 限制遍历范围，或使用 {3} 关闭历史记录。{4} 会将过期的翻译加入提示词，并附上它们上次修改时的源文本。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 CI 中，请获取完整历史：浅克隆（{0} 的默认行为）不会报告任何内容。请设置 {1}。使用 {2} 限制遍历范围，或使用 {3} 关闭历史记录。{4} 会将过期的翻译加入提示词，并附上它们上次修改时的源文本。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

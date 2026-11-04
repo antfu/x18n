@@ -1,0 +1,14 @@
+{
+  "hash": "fca901e5c20b5d2d",
+  "source": "The preset applies when the project depends on {0}, {1}, {2}, {3} or {4}.",
+  "text": "当项目依赖 {0}、{1}、{2}、{3} 或 {4} 时，会应用该预设。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当项目依赖 {0}、{1}、{2}、{3} 或 {4} 时，会应用该预设。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

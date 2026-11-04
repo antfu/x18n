@@ -1,0 +1,14 @@
+{
+  "hash": "8ce341171726b0ef",
+  "source": "Reuse a key when the same text exists as a source value. Default true.",
+  "text": "当相同文本已作为源语言的值存在时，复用该键。默认值为 true。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当相同文本已作为源语言的值存在时，复用该键。默认值为 true。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

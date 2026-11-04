@@ -1,0 +1,14 @@
+{
+  "hash": "ba4badf2e067efdf",
+  "source": "{0} and {1} are translate calls.",
+  "text": "{0} 和 {1} 是翻译调用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 和 {1} 是翻译调用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

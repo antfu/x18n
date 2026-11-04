@@ -1,0 +1,14 @@
+{
+  "hash": "4660e3b8187c1957",
+  "source": "An approval of a value the message no longer has.",
+  "text": "对该消息已不再拥有的值的审批。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对该消息已不再拥有的值的审批。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9f8e723e3199bdd5",
+  "source": "The Svelte scanner reads the {0} blocks and the template expressions of {1} files. It runs in Node only.",
+  "text": "Svelte 扫描器会读取 {1} 文件中的 {0} 块和模板表达式。它只在 Node 中运行。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Svelte 扫描器会读取 {1} 文件中的 {0} 块和模板表达式。它只在 Node 中运行。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

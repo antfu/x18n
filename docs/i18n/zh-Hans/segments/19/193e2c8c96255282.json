@@ -1,0 +1,14 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} 会删除 {1} 列出的键，但不包括 {2} 中的键。它还会保留在某个作用域内完全动态的键可能涉及的键：{3} 在 {4} 下可能涉及 {5} 命名空间的所有键，在 {6} 下则可能涉及 {7} 下的所有键。请先使用 {8} 运行：它会列出每个键及其语言和文件，然后列出被保留的键以及使其保留的引用。不在任何作用域内的完全动态键可能涉及任何键，因此计划会对此发出警告；请在 {9} 中列出它所使用的键。编辑会就地进行，因此注释和格式会保留。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会删除 {1} 列出的键，但不包括 {2} 中的键。它还会保留在某个作用域内完全动态的键可能涉及的键：{3} 在 {4} 下可能涉及 {5} 命名空间的所有键，在 {6} 下则可能涉及 {7} 下的所有键。请先使用 {8} 运行：它会列出每个键及其语言和文件，然后列出被保留的键以及使其保留的引用。不在任何作用域内的完全动态键可能涉及任何键，因此计划会对此发出警告；请在 {9} 中列出它所使用的键。编辑会就地进行，因此注释和格式会保留。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

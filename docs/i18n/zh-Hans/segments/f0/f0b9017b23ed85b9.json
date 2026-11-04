@@ -1,0 +1,14 @@
+{
+  "hash": "f0b9017b23ed85b9",
+  "source": "Resource is read-only. Edit the source of computed values, or use a writable format.",
+  "text": "资源为只读。请编辑计算值的来源，或使用可写入的格式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "资源为只读。请编辑计算值的来源，或使用可写入的格式。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

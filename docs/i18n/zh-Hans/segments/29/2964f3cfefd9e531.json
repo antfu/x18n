@@ -1,0 +1,14 @@
+{
+  "hash": "2964f3cfefd9e531",
+  "source": "Skip authentication (CI and e2e only)",
+  "text": "跳过身份验证（仅限 CI 和 e2e）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "跳过身份验证（仅限 CI 和 e2e）"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

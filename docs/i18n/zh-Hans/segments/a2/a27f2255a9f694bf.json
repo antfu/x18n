@@ -1,0 +1,14 @@
+{
+  "hash": "a27f2255a9f694bf",
+  "source": "It has no hosted service, no account and no telemetry.",
+  "text": "它没有托管服务，无需账号，也没有遥测。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它没有托管服务，无需账号，也没有遥测。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

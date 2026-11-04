@@ -1,0 +1,14 @@
+{
+  "hash": "f97a1e8f8ddc631e",
+  "source": "{0} looks only in {1}, and uses it as the project root.",
+  "text": "{0} 只在 {1} 中查找，并将其作为项目根目录。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 只在 {1} 中查找，并将其作为项目根目录。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

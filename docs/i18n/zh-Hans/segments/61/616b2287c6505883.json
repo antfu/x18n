@@ -1,0 +1,14 @@
+{
+  "hash": "616b2287c6505883",
+  "source": "With {0}, each value is tried in order. A component used under two parents with different providers has one key in x18n, from the nearest one found first. A provider with {1}, or a {2} that isn't a literal, can't be read.",
+  "text": "使用 {0} 时，会按顺序尝试每个值。一个组件若在两个父级下使用且各自的 provider 不同，在 x18n 中只对应一个键，取先找到的最近的那个。带有 {1} 的 provider，或不是字面量的 {2}，无法被读取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 时，会按顺序尝试每个值。一个组件若在两个父级下使用且各自的 provider 不同，在 x18n 中只对应一个键，取先找到的最近的那个。带有 {1} 的 provider，或不是字面量的 {2}，无法被读取。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

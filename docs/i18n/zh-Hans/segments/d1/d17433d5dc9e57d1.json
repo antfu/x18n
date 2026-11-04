@@ -1,0 +1,14 @@
+{
+  "hash": "d17433d5dc9e57d1",
+  "source": "{0}: finding and parsing locale files.",
+  "text": "{0}：查找和解析语言文件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：查找和解析语言文件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

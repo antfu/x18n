@@ -1,0 +1,14 @@
+{
+  "hash": "9ebea7d27887c05e",
+  "source": "Run {0} to list open suggestions.",
+  "text": "运行 {0} 列出未解决的建议。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "运行 {0} 列出未解决的建议。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

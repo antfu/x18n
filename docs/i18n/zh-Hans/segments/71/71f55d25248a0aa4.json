@@ -1,0 +1,14 @@
+{
+  "hash": "71f55d25248a0aa4",
+  "source": "The review prompt asks the agent to compare existing translations with the source and the glossary. The agent does not change values itself. It leaves a {0}review{/0} for a human: {1} for a better value, or {2} for a problem without a clear fix. A human then applies or resolves each one, in the editor, the UI or with {3}. With {4}, the agent fixes values with {5} instead.",
+  "text": "审阅提示会要求智能体将现有翻译与源文本和术语表进行比较。智能体自己不会修改值，而是为人类留下一条{0}审阅{/0}：用 {1} 提出更好的值，或用 {2} 指出没有明确修复方式的问题。之后由人类在编辑器、UI 中或使用 {3} 逐条应用或解决。使用 {4} 时，智能体则改用 {5} 修复值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "审阅提示会要求智能体将现有翻译与源文本和术语表进行比较。智能体自己不会修改值，而是为人类留下一条{0}审阅{/0}：用 {1} 提出更好的值，或用 {2} 指出没有明确修复方式的问题。之后由人类在编辑器、UI 中或使用 {3} 逐条应用或解决。使用 {4} 时，智能体则改用 {5} 修复值。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

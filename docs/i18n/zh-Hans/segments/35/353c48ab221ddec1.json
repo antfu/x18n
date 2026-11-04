@@ -1,0 +1,14 @@
+{
+  "hash": "353c48ab221ddec1",
+  "source": "How a coding agent finds keys by their text, finds missing keys, adds and translates messages, and checks its work with the x18n CLI.",
+  "text": "编码智能体如何通过文本查找键、查找缺失的键、添加并翻译消息，以及如何用 x18n CLI 检查自己的工作。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "编码智能体如何通过文本查找键、查找缺失的键、添加并翻译消息，以及如何用 x18n CLI 检查自己的工作。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

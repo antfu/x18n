@@ -1,0 +1,14 @@
+{
+  "hash": "2a54b97f89d277a4",
+  "source": "Then list {0} in {1} instead of the YAML file. See {2}TypeScript plugins{/2}.",
+  "text": "然后在 {1} 中列出 {0}，而不是 YAML 文件。参见 {2}TypeScript 插件{/2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "然后在 {1} 中列出 {0}，而不是 YAML 文件。参见 {2}TypeScript 插件{/2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

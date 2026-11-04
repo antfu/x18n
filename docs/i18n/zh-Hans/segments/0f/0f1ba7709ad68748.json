@@ -1,0 +1,14 @@
+{
+  "hash": "0f1ba7709ad68748",
+  "source": "Write the current diagnostics into the baseline",
+  "text": "将当前诊断写入基线",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将当前诊断写入基线"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

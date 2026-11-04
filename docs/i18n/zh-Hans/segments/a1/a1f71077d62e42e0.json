@@ -1,0 +1,14 @@
+{
+  "hash": "a1f71077d62e42e0",
+  "source": "{0} writes a whole file. x18n uses it to create files, and when {1} is missing.",
+  "text": "{0} 写入整个文件。x18n 用它来创建文件，以及在缺少 {1} 时使用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 写入整个文件。x18n 用它来创建文件，以及在缺少 {1} 时使用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

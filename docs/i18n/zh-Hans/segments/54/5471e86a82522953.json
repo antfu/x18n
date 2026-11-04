@@ -1,0 +1,14 @@
+{
+  "hash": "5471e86a82522953",
+  "source": "easy\\_localization keeps plural and gender forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. For this file, {8} uses {9} and {10}, so the {11} check reports neither:",
+  "text": "easy\\_localization 将 plural 和 gender 形式保存为嵌套键。预设会添加派生键 {0}、{1}、{2}、{3}、{4}、{5}、{6} 和 {7}。对于此文件，{8} 使用 {9} 和 {10}，因此 {11} 检查两者都不会报告：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "easy\\_localization 将 plural 和 gender 形式保存为嵌套键。预设会添加派生键 {0}、{1}、{2}、{3}、{4}、{5}、{6} 和 {7}。对于此文件，{8} 使用 {9} 和 {10}，因此 {11} 检查两者都不会报告："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

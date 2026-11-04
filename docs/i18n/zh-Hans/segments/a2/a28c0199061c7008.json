@@ -1,0 +1,14 @@
+{
+  "hash": "a28c0199061c7008",
+  "source": "{0} lists the usages of a key. {1} goes the other way: it finds keys by their value in any locale, and lists their usages. {2} lists the keys with no usage.",
+  "text": "{0} 会列出某个键的引用。{1} 则反过来：它按键在任意语言中的值查找键，并列出这些键的引用。{2} 会列出没有任何引用的键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会列出某个键的引用。{1} 则反过来：它按键在任意语言中的值查找键，并列出这些键的引用。{2} 会列出没有任何引用的键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

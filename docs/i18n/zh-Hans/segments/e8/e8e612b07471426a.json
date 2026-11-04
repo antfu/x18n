@@ -1,0 +1,14 @@
+{
+  "hash": "e8e612b07471426a",
+  "source": "A file changed after x18n made the plan, so x18n did not write anything. For {0}, the source file changed after you wrote the plan file.",
+  "text": "x18n 制定计划之后有文件发生了变化，因此 x18n 没有写入任何内容。对于 {0}，源文件在你写入计划文件之后发生了变化。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 制定计划之后有文件发生了变化，因此 x18n 没有写入任何内容。对于 {0}，源文件在你写入计划文件之后发生了变化。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

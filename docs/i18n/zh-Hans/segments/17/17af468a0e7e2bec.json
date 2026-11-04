@@ -1,0 +1,14 @@
+{
+  "hash": "17af468a0e7e2bec",
+  "source": "The host to bind to. The default is {0}.",
+  "text": "要绑定的主机。默认值为 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "要绑定的主机。默认值为 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

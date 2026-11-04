@@ -1,0 +1,14 @@
+{
+  "hash": "65aefc27f66ad328",
+  "source": "{0} returns a devframe definition. Mount it in any hub, for example {1} from {2}:",
+  "text": "{0} 返回一个 devframe 定义。可以将它挂载到任意 hub 中，例如来自 {2} 的 {1}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 返回一个 devframe 定义。可以将它挂载到任意 hub 中，例如来自 {2} 的 {1}："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

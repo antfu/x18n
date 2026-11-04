@@ -1,0 +1,14 @@
+{
+  "hash": "7f465354b6415aaf",
+  "source": "A review command ran, but the project cannot write reviews. The message says why:",
+  "text": "运行了审阅命令，但项目无法写入审阅。消息会说明原因：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "运行了审阅命令，但项目无法写入审阅。消息会说明原因："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

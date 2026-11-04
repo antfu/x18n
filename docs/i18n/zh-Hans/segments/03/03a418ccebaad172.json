@@ -1,0 +1,14 @@
+{
+  "hash": "03a418ccebaad172",
+  "source": "With {0}, the value replaces the whole call, such as {1}, instead of only the key. Calls over several lines keep the key-only replacement.",
+  "text": "使用 {0} 时，值会替换整个调用（例如 {1}），而不只是键。跨多行的调用仍只替换键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 时，值会替换整个调用（例如 {1}），而不只是键。跨多行的调用仍只替换键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

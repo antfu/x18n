@@ -1,0 +1,14 @@
+{
+  "hash": "a548edfe0d13343b",
+  "source": "In {0} files, the preset reads {1} and {2}:",
+  "text": "在 {0} 文件中，预设会读取 {1} 和 {2}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 {0} 文件中，预设会读取 {1} 和 {2}："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e5b896af7c9e05cc",
+  "source": "The preset for react-i18next and next-i18next. It reads useTranslation, Trans and Translation, plus everything of i18next.",
+  "text": "react-i18next 和 next-i18next 的预设。它支持读取 useTranslation、Trans 和 Translation，以及 i18next 的全部功能。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "react-i18next 和 next-i18next 的预设。它支持读取 useTranslation、Trans 和 Translation，以及 i18next 的全部功能。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

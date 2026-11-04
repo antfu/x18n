@@ -1,0 +1,14 @@
+{
+  "hash": "bcf32d4e4701bc44",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give its files another locale, set {2}:",
+  "text": "不含 {0} 的模式（例如 {1}）对应源语言。若要为其文件指定其他语言，请设置 {2}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不含 {0} 的模式（例如 {1}）对应源语言。若要为其文件指定其他语言，请设置 {2}："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

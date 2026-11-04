@@ -1,0 +1,14 @@
+{
+  "hash": "63683bed7661485b",
+  "source": "Ignore the persistent cache in {0}.",
+  "text": "忽略 {0} 中的持久化缓存。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "忽略 {0} 中的持久化缓存。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

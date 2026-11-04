@@ -1,0 +1,14 @@
+{
+  "hash": "e39f5c3e6d5bbe75",
+  "source": "{0} adds the markup Angular needs and keeps your template as it is. It marks a whole element as one message, so a sentence with a link or {1} stays together:",
+  "text": "{0} 会添加 Angular 所需的标记，并保持你的模板原样。它会把整个元素标记为一条消息，因此带有链接或 {1} 的句子会保持完整：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会添加 Angular 所需的标记，并保持你的模板原样。它会把整个元素标记为一条消息，因此带有链接或 {1} 的句子会保持完整："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

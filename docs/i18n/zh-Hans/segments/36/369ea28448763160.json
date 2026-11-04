@@ -1,0 +1,14 @@
+{
+  "hash": "369ea28448763160",
+  "source": "A plugin package lets other projects use your plugin with one line of config.",
+  "text": "插件包可以让其他项目只用一行配置就使用你的插件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插件包可以让其他项目只用一行配置就使用你的插件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

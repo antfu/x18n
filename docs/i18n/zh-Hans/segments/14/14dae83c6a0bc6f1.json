@@ -1,0 +1,14 @@
+{
+  "hash": "14dae83c6a0bc6f1",
+  "source": "If your config has no {0}, the preset uses {1} and {2}.",
+  "text": "如果你的配置中没有 {0}，预设会使用 {1} 和 {2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果你的配置中没有 {0}，预设会使用 {1} 和 {2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

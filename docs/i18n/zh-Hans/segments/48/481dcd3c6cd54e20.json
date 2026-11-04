@@ -1,0 +1,14 @@
+{
+  "hash": "481dcd3c6cd54e20",
+  "source": "The preset applies when the project depends on {0}.",
+  "text": "当项目依赖 {0} 时，此预设会生效。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当项目依赖 {0} 时，此预设会生效。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

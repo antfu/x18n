@@ -1,0 +1,14 @@
+{
+  "hash": "5a1db5d075e2b300",
+  "source": "This workflow checks every push and pull request. The {0} reporter turns each diagnostic into an annotation on the changed line of the pull request. The {1} reporter prints the usual output to the log:",
+  "text": "此工作流会检查每次推送和拉取请求。{0} reporter 会把每条诊断转换为拉取请求中对应变更行的注解。{1} reporter 会把常规输出打印到日志中：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此工作流会检查每次推送和拉取请求。{0} reporter 会把每条诊断转换为拉取请求中对应变更行的注解。{1} reporter 会把常规输出打印到日志中："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "66020fe35470995a",
+  "source": "{0} is the contract version.",
+  "text": "{0} 是契约版本。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是契约版本。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

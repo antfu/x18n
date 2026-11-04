@@ -1,0 +1,14 @@
+{
+  "hash": "8dc9579a644ac87d",
+  "source": "the {0} request of the {1}language server{/1}.",
+  "text": "{1}语言服务器{/1}的 {0} 请求。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1}语言服务器{/1}的 {0} 请求。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

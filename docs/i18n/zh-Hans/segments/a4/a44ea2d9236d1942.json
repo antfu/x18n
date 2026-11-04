@@ -1,0 +1,14 @@
+{
+  "hash": "a44ea2d9236d1942",
+  "source": "The preset for SAPUI5 and OpenUI5. It reads .properties bundles, {i18n>key} bindings and getResourceBundle().getText calls.",
+  "text": "适用于 SAPUI5 和 OpenUI5 的预设。它会读取 .properties 资源包、{i18n>key} 绑定以及 getResourceBundle().getText 调用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "适用于 SAPUI5 和 OpenUI5 的预设。它会读取 .properties 资源包、{i18n>key} 绑定以及 getResourceBundle().getText 调用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "13960f93018a6f55",
+  "source": "The {0}CLI{/0} is for humans, CI and agents. {1} does for i18n what {2} does for types.",
+  "text": "{0}CLI{/0} 面向开发者、CI 和智能体。{1} 之于 i18n，就像 {2} 之于类型。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}CLI{/0} 面向开发者、CI 和智能体。{1} 之于 i18n，就像 {2} 之于类型。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

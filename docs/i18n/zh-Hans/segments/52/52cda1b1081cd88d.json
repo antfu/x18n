@@ -1,0 +1,14 @@
+{
+  "hash": "52cda1b1081cd88d",
+  "source": "pretty, json, markdown, github or sarif (repeatable)",
+  "text": "pretty、json、markdown、github 或 sarif（可重复）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "pretty、json、markdown、github 或 sarif（可重复）"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "674a594feaaa8766",
+  "source": "Leave a review on one message for a human: {0} with the reason in {1}, or {2} with a better value in {3} (a human applies it), {4}, or {5}. Use it when a human should decide, instead of changing values yourself.",
+  "text": "为某条消息留下审阅，交由人工处理：{0}，并在 {1} 中说明原因；或 {2}，并在 {3} 中给出更好的值（由人工应用）；{4}；或 {5}。当需要由人工来决定时使用它，而不是自行修改值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "为某条消息留下审阅，交由人工处理：{0}，并在 {1} 中说明原因；或 {2}，并在 {3} 中给出更好的值（由人工应用）；{4}；或 {5}。当需要由人工来决定时使用它，而不是自行修改值。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

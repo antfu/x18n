@@ -1,0 +1,14 @@
+{
+  "hash": "8800551ce01f14f5",
+  "source": "The provider of a module reaches the components the file names, and a route's reaches the components named or lazy-loaded under it, through {0} too, and their children.",
+  "text": "模块的 provider 作用于文件中指明的组件；路由的 provider 作用于其下指明的或懒加载的组件（也包括通过 {0} 加载的），以及它们的子组件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "模块的 provider 作用于文件中指明的组件；路由的 provider 作用于其下指明的或懒加载的组件（也包括通过 {0} 加载的），以及它们的子组件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "04366fa42f981927",
+  "source": "{0} is the result of the command. It is {1} when the command failed.",
+  "text": "{0} 是命令的结果。命令失败时，它为 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是命令的结果。命令失败时，它为 {1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

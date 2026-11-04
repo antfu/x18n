@@ -1,0 +1,14 @@
+{
+  "hash": "e56c988e489f4610",
+  "source": "Also translate stale translations: those older than their source message.",
+  "text": "同时翻译过期的翻译：即比其源消息更旧的翻译。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同时翻译过期的翻译：即比其源消息更旧的翻译。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

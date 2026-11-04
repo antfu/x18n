@@ -1,0 +1,14 @@
+{
+  "hash": "2c39c6630bb212c0",
+  "source": "The translate prompt tells the agent the plural categories of the target locale, for example \"i18next plural keys end in \\_one,\\_other for de; write one key per category.\"",
+  "text": "翻译提示词会告诉智能体目标语言的复数类别，例如「i18next 的复数键对 de 以 \\_one、\\_other 结尾，每个类别写一个键。」",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻译提示词会告诉智能体目标语言的复数类别，例如「i18next 的复数键对 de 以 \\_one、\\_other 结尾，每个类别写一个键。」"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

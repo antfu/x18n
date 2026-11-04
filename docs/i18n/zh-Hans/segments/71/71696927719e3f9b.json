@@ -1,0 +1,14 @@
+{
+  "hash": "71696927719e3f9b",
+  "source": "{0} turn the diagnostics and the coverage of each project into text, for {1}. {2} returns a string. {3} turns a project path into a path relative to the current directory, and {4} tells whether colors are allowed.",
+  "text": "{0} 将每个项目的诊断和覆盖率转换为文本，用于 {1}。{2} 返回一个字符串。{3} 将项目路径转换为相对于当前目录的路径，{4} 用于判断是否允许使用颜色。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 将每个项目的诊断和覆盖率转换为文本，用于 {1}。{2} 返回一个字符串。{3} 将项目路径转换为相对于当前目录的路径，{4} 用于判断是否允许使用颜色。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

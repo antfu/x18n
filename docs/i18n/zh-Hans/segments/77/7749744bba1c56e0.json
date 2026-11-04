@@ -1,0 +1,14 @@
+{
+  "hash": "7749744bba1c56e0",
+  "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
+  "text": "这会将所有诊断写入工作区根目录下的 {0}。只要该文件存在，{1} 就只报告不在其中的诊断，并且只在这些诊断上失败，同时说明排除了多少已知诊断。判断诊断是否已知，依据的是文件、检查、键、语言和消息，而不是行号，因此移动代码后它仍然是已知的。同一文件中多出一个相同的诊断则视为新增。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "这会将所有诊断写入工作区根目录下的 {0}。只要该文件存在，{1} 就只报告不在其中的诊断，并且只在这些诊断上失败，同时说明排除了多少已知诊断。判断诊断是否已知，依据的是文件、检查、键、语言和消息，而不是行号，因此移动代码后它仍然是已知的。同一文件中多出一个相同的诊断则视为新增。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "61eff171a089f871",
+  "source": "Where the plugin can run. Default 'any'.",
+  "text": "插件可以运行的位置。默认为 'any'。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插件可以运行的位置。默认为 'any'。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

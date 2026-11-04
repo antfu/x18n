@@ -1,0 +1,14 @@
+{
+  "hash": "10ddb80b400dd8f5",
+  "source": "No format for resource. Map the extension in `formats`, or add a format plugin.",
+  "text": "资源没有对应的格式。请在 `formats` 中映射该扩展名，或添加格式插件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "资源没有对应的格式。请在 `formats` 中映射该扩展名，或添加格式插件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

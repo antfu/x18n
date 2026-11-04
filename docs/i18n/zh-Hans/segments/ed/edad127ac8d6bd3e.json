@@ -1,0 +1,14 @@
+{
+  "hash": "edad127ac8d6bd3e",
+  "source": "Two plugins register a capability (a format, finder, scanner, check, reporter or placeholder syntax) with the same id.",
+  "text": "两个插件注册了 id 相同的能力（格式、查找器、扫描器、检查、报告器或占位符语法）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "两个插件注册了 id 相同的能力（格式、查找器、扫描器、检查、报告器或占位符语法）。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

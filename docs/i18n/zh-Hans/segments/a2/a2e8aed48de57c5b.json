@@ -1,0 +1,14 @@
+{
+  "hash": "a2e8aed48de57c5b",
+  "source": "Key not found. List keys with `x18n keys` (agents: the `x18n_keys` tool).",
+  "text": "未找到键。使用 `x18n keys` 列出所有键（智能体：使用 `x18n_keys` 工具）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "未找到键。使用 `x18n keys` 列出所有键（智能体：使用 `x18n_keys` 工具）。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

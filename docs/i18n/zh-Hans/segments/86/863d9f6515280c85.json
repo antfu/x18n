@@ -1,0 +1,14 @@
+{
+  "hash": "863d9f6515280c85",
+  "source": "It also finds the locale files. If your config has no {0}, the preset reads {1} (or {2}) and looks for {3}:",
+  "text": "它还会查找语言文件。如果你的配置中没有 {0}，该预设会读取 {1}（或 {2}）并查找 {3}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它还会查找语言文件。如果你的配置中没有 {0}，该预设会读取 {1}（或 {2}）并查找 {3}："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b7d603ec89db4495",
+  "source": "The preset adds no resource patterns. Set {0} in the config, or let x18n guess the locale directories. For example, x18n finds {1} without a config.",
+  "text": "该预设不添加任何资源匹配模式。你可以在配置中设置 {0}，或者让 x18n 自动推测语言目录。例如，x18n 无需配置即可找到 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该预设不添加任何资源匹配模式。你可以在配置中设置 {0}，或者让 x18n 自动推测语言目录。例如，x18n 无需配置即可找到 {1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

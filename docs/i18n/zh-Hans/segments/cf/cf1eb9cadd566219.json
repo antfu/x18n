@@ -1,0 +1,14 @@
+{
+  "hash": "cf1eb9cadd566219",
+  "source": "Turn authentication off.",
+  "text": "关闭认证。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "关闭认证。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

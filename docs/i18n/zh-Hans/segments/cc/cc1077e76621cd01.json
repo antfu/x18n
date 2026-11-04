@@ -1,0 +1,14 @@
+{
+  "hash": "cc1077e76621cd01",
+  "source": "The related locales of a target are, nearest first:",
+  "text": "目标语言的相关语言按由近到远排列：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "目标语言的相关语言按由近到远排列："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

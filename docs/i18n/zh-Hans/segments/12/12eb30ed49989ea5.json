@@ -1,0 +1,14 @@
+{
+  "hash": "12eb30ed49989ea5",
+  "source": "Globs of the source files to scan for usages.",
+  "text": "用于扫描引用的源文件 glob 模式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "用于扫描引用的源文件 glob 模式。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

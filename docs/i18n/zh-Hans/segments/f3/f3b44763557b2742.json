@@ -1,0 +1,14 @@
+{
+  "hash": "f3b44763557b2742",
+  "source": "Without a config file, x18n reads the project's i18n-ally settings ({0} in {1}, and {2}), so an i18n-ally project works with no changes. The settings act as defaults: detection still adds what they leave out, and when their locale paths match no file, x18n looks for locale directories itself. Without i18n-ally settings either, x18n runs on detection alone. {3} prints what it uses: the config file, {4}, or {5}.",
+  "text": "没有配置文件时，x18n 会读取项目的 i18n-ally 设置（{1} 中的 {0}，以及 {2}），因此 i18n-ally 项目无需任何改动即可使用。这些设置作为默认值：检测仍会补充它们遗漏的内容，当其中的语言路径没有匹配到任何文件时，x18n 会自行查找语言目录。如果也没有 i18n-ally 设置，x18n 只依靠检测运行。{3} 会输出实际使用的来源：配置文件、{4}，或 {5}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "没有配置文件时，x18n 会读取项目的 i18n-ally 设置（{1} 中的 {0}，以及 {2}），因此 i18n-ally 项目无需任何改动即可使用。这些设置作为默认值：检测仍会补充它们遗漏的内容，当其中的语言路径没有匹配到任何文件时，x18n 会自行查找语言目录。如果也没有 i18n-ally 设置，x18n 只依靠检测运行。{3} 会输出实际使用的来源：配置文件、{4}，或 {5}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

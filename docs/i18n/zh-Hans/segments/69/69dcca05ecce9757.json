@@ -1,0 +1,14 @@
+{
+  "hash": "69dcca05ecce9757",
+  "source": "The preset does not read {0} and other data annotations, or strongly typed classes with other names than {1}.",
+  "text": "该预设不会读取 {0} 和其他数据注解，也不会读取名称不是 {1} 的强类型类。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该预设不会读取 {0} 和其他数据注解，也不会读取名称不是 {1} 的强类型类。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

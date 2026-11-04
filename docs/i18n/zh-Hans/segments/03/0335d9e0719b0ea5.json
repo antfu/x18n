@@ -1,0 +1,14 @@
+{
+  "hash": "0335d9e0719b0ea5",
+  "source": "The config, or the input of a command, does not match what x18n expects. The message names the field and the problem, for example {0}.",
+  "text": "配置或命令的输入与 x18n 的预期不符。消息会指明出错的字段和问题，例如 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "配置或命令的输入与 x18n 的预期不符。消息会指明出错的字段和问题，例如 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

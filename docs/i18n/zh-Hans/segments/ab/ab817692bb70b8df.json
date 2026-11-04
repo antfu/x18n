@@ -1,0 +1,14 @@
+{
+  "hash": "ab817692bb70b8df",
+  "source": "With another separator, the project is namespaced. Keys then have the form {0}, for example {1}. i18next works this way, with {2} as the separator and {3} as the default namespace.",
+  "text": "使用其他分隔符时，项目会使用命名空间。此时键的形式为 {0}，例如 {1}。i18next 就是这样工作的，以 {2} 作为分隔符，以 {3} 作为默认命名空间。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用其他分隔符时，项目会使用命名空间。此时键的形式为 {0}，例如 {1}。i18next 就是这样工作的，以 {2} 作为分隔符，以 {3} 作为默认命名空间。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

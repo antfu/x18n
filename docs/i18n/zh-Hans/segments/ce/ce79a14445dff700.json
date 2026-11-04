@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "服务器通过 {0} 运行这些命令。参数是一个对象。{1} 默认为第一个项目。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "服务器通过 {0} 运行这些命令。参数是一个对象。{1} 默认为第一个项目。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

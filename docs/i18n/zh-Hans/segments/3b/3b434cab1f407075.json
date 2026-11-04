@@ -1,0 +1,14 @@
+{
+  "hash": "3b434cab1f407075",
+  "source": "A different file, or {0} to turn reviews off.",
+  "text": "指定其他文件，或使用 {0} 关闭审阅。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "指定其他文件，或使用 {0} 关闭审阅。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

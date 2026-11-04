@@ -1,0 +1,14 @@
+{
+  "hash": "2b1e482459a18672",
+  "source": "Report only for these locales. Diagnostics without a locale stay.",
+  "text": "仅报告这些语言的诊断。不带语言的诊断仍会保留。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "仅报告这些语言的诊断。不带语言的诊断仍会保留。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

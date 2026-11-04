@@ -1,0 +1,14 @@
+{
+  "hash": "4c5aedbee6192927",
+  "source": "The {0} preset supports {1}Angular's built-in i18n{/1} with {2}.",
+  "text": "{0} 预设支持使用 {2} 的 {1}Angular 内置 i18n{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持使用 {2} 的 {1}Angular 内置 i18n{/1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

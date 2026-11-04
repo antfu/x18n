@@ -1,0 +1,14 @@
+{
+  "hash": "c4f9dc3c84d5a527",
+  "source": "Keys, paged, filtered by a missing locale, unused keys, namespace or glob.",
+  "text": "分页返回的键，可按缺失的语言、未使用的键、命名空间或 glob 过滤。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "分页返回的键，可按缺失的语言、未使用的键、命名空间或 glob 过滤。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

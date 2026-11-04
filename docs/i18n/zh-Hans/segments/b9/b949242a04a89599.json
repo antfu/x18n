@@ -1,0 +1,14 @@
+{
+  "hash": "b949242a04a89599",
+  "source": "Before you use a key in code, find out whether it exists: {0}. To reuse a key with the same text, search the values: {1}.",
+  "text": "在代码中使用某个键之前，先确认它是否存在：{0}。若要复用文本相同的键，请搜索值：{1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在代码中使用某个键之前，先确认它是否存在：{0}。若要复用文本相同的键，请搜索值：{1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

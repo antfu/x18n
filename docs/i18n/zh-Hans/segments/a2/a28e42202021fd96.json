@@ -1,0 +1,14 @@
+{
+  "hash": "a28e42202021fd96",
+  "source": "{0} of the previous prompt.",
+  "text": "上一个提示的 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "上一个提示的 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

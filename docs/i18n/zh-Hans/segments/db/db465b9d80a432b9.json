@@ -1,0 +1,14 @@
+{
+  "hash": "db465b9d80a432b9",
+  "source": "{0}: {1}, {2}, {3}, or {4}.",
+  "text": "{0}：{1}、{2}、{3}，或 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：{1}、{2}、{3}，或 {4}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

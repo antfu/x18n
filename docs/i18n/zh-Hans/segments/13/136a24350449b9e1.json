@@ -1,0 +1,14 @@
+{
+  "hash": "136a24350449b9e1",
+  "source": "A rename target already exists in at least one locale. x18n does not merge two keys.",
+  "text": "重命名目标在至少一种语言中已存在。x18n 不会合并两个键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "重命名目标在至少一种语言中已存在。x18n 不会合并两个键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

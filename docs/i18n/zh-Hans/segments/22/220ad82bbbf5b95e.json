@@ -1,0 +1,14 @@
+{
+  "hash": "220ad82bbbf5b95e",
+  "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
+  "text": "{0} 还可以返回 {1} 和 {2}，其键的组织方式与范围相同。状态表示翻译的进度：{3}、{4} 或 {5}；覆盖率会统计这些状态。标签用于为可读性差的键（例如哈希）命名。UI 和 {6} 都会显示这两者。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 还可以返回 {1} 和 {2}，其键的组织方式与范围相同。状态表示翻译的进度：{3}、{4} 或 {5}；覆盖率会统计这些状态。标签用于为可读性差的键（例如哈希）命名。UI 和 {6} 都会显示这两者。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

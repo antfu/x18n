@@ -1,0 +1,14 @@
+{
+  "hash": "3c932cb07569096d",
+  "source": "Run x18n check on a project, write a config with x18n init, and run the check in CI.",
+  "text": "在项目中运行 x18n check，用 x18n init 生成配置文件，并在 CI 中运行检查。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在项目中运行 x18n check，用 x18n init 生成配置文件，并在 CI 中运行检查。"
+  },
+  "updatedAt": "2026-11-04T02:01:28.918Z"
+}

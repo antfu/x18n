@@ -1,0 +1,14 @@
+{
+  "hash": "f0056768df7685ed",
+  "source": "Duplicate capability id. Rename the id, or set `override: true` on the later one.",
+  "text": "能力 id 重复。请重命名该 id，或在后一个能力上设置 `override: true`。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "能力 id 重复。请重命名该 id，或在后一个能力上设置 `override: true`。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

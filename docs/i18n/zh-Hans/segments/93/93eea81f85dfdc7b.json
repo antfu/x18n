@@ -1,0 +1,14 @@
+{
+  "hash": "93eea81f85dfdc7b",
+  "source": "{0}, {1} and {2} replace the earlier list.",
+  "text": "{0}、{1} 和 {2} 会替换之前的列表。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1} 和 {2} 会替换之前的列表。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

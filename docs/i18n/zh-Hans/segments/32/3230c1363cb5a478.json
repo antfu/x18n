@@ -1,0 +1,14 @@
+{
+  "hash": "3230c1363cb5a478",
+  "source": "Page size. Default 100.",
+  "text": "每页数量。默认为 100。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每页数量。默认为 100。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

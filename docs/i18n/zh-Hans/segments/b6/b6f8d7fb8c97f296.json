@@ -1,0 +1,14 @@
+{
+  "hash": "b6f8d7fb8c97f296",
+  "source": "Name a plugin package x18n-plugin-*, export a plugin or a factory, and let YAML and JSON configs load it by name.",
+  "text": "将插件包命名为 x18n-plugin-*，导出一个插件或工厂函数，YAML 和 JSON 配置即可按名称加载它。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将插件包命名为 x18n-plugin-*，导出一个插件或工厂函数，YAML 和 JSON 配置即可按名称加载它。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

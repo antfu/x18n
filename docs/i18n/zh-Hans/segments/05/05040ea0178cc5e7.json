@@ -1,0 +1,14 @@
+{
+  "hash": "05040ea0178cc5e7",
+  "source": "Do two plugins handle the same extension?",
+  "text": "是否有两个插件处理同一个扩展名？",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "是否有两个插件处理同一个扩展名？"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

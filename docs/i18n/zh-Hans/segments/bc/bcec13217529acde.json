@@ -1,0 +1,14 @@
+{
+  "hash": "bcec13217529acde",
+  "source": "A YAML plugin ({0}): the declarative subset of the plugin API.",
+  "text": "YAML 插件（{0}）：插件 API 的声明式子集。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 插件（{0}）：插件 API 的声明式子集。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "89f7ca9f3459bea5",
+  "source": "The name of the plugin. It is required and must be unique.",
+  "text": "插件的名称。必填，且必须唯一。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插件的名称。必填，且必须唯一。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

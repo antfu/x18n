@@ -1,0 +1,14 @@
+{
+  "hash": "c717718e061b62c2",
+  "source": "A hard-coded string that should probably be a message. On with `extract.autoDetect`.",
+  "text": "可能应该改为消息的硬编码字符串。启用 `extract.autoDetect` 时开启。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "可能应该改为消息的硬编码字符串。启用 `extract.autoDetect` 时开启。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

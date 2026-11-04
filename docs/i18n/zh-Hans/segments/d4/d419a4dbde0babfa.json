@@ -1,0 +1,14 @@
+{
+  "hash": "d419a4dbde0babfa",
+  "source": "A decision is needed. Answer the listed decisions, or pass `--yes` to accept defaults.",
+  "text": "需要做出决定。请回答列出的决定项，或传入 `--yes` 以接受默认值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "需要做出决定。请回答列出的决定项，或传入 `--yes` 以接受默认值。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

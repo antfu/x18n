@@ -1,0 +1,14 @@
+{
+  "hash": "569f96cecccee45c",
+  "source": "In JS, TS and Vue files, the preset reads the {0} tagged template. The text of the template is the key:",
+  "text": "在 JS、TS 和 Vue 文件中，该预设会读取 {0} 标签模板。模板的文本即为键：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 JS、TS 和 Vue 文件中，该预设会读取 {0} 标签模板。模板的文本即为键："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

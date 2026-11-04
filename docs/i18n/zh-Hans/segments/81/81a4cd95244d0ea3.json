@@ -1,0 +1,14 @@
+{
+  "hash": "81a4cd95244d0ea3",
+  "source": "The output answers the usual questions:",
+  "text": "输出可以回答这些常见问题：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "输出可以回答这些常见问题："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

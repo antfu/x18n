@@ -1,0 +1,14 @@
+{
+  "hash": "85977448aaef7533",
+  "source": "gettext catalogs. Each {0} is a key. Extracted ({1}) and translator ({2}) comments describe it. A {3} entry needs review.",
+  "text": "gettext 目录。每个 {0} 是一个键。提取的注释（{1}）和译者注释（{2}）用于描述它。{3} 条目需要审阅。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "gettext 目录。每个 {0} 是一个键。提取的注释（{1}）和译者注释（{2}）用于描述它。{3} 条目需要审阅。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a3fba73f96a8f18e",
+  "source": "One preset for each framework of i18n-ally, detected from your dependencies: vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter and 21 others.",
+  "text": "为 i18n-ally 的每个框架提供一个预设，并根据你的依赖自动检测：vue-i18n、i18next、next-intl、ngx-translate、Laravel、Rails、Flutter 等另外 21 个。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "为 i18n-ally 的每个框架提供一个预设，并根据你的依赖自动检测：vue-i18n、i18next、next-intl、ngx-translate、Laravel、Rails、Flutter 等另外 21 个。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

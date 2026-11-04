@@ -1,0 +1,14 @@
+{
+  "hash": "b96fa746f9047aa6",
+  "source": "The arguments of a template string: {0}, without the {1} right after {2}. Empty when there are none.",
+  "text": "模板字符串的参数：{0}，不含紧跟在 {2} 之后的 {1}。没有参数时为空。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "模板字符串的参数：{0}，不含紧跟在 {2} 之后的 {1}。没有参数时为空。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

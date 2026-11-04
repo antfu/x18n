@@ -1,0 +1,14 @@
+{
+  "hash": "edd156d9da2d626a",
+  "source": "A name or member path, or a list of them: {0}, {1}, {2}.",
+  "text": "名称或成员路径，或它们的列表：{0}、{1}、{2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "名称或成员路径，或它们的列表：{0}、{1}、{2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

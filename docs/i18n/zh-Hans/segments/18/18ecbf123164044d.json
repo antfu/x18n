@@ -1,0 +1,14 @@
+{
+  "hash": "18ecbf123164044d",
+  "source": "Print a JSON Schema: config (default), plugin or reviews.",
+  "text": "打印 JSON Schema：config（默认）、plugin 或 reviews。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "打印 JSON Schema：config（默认）、plugin 或 reviews。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

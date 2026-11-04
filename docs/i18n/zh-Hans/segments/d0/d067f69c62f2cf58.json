@@ -1,0 +1,14 @@
+{
+  "hash": "d067f69c62f2cf58",
+  "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
+  "text": "资源不是消息对象。语言文件包含嵌套的对象，其值为字符串、数字、布尔值或 null。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "资源不是消息对象。语言文件包含嵌套的对象，其值为字符串、数字、布尔值或 null。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

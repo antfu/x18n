@@ -1,0 +1,14 @@
+{
+  "hash": "ae66bce0155ea0cf",
+  "source": "In Kotlin and Java, {0}, {1} and {2}. In XML, {3}, {4} and {5}. {6} and {7} are the framework's, not usages. A {8} with a dot is {9} in code, which x18n does not map to {10}.",
+  "text": "在 Kotlin 和 Java 中，{0}、{1} 和 {2}。在 XML 中，{3}、{4} 和 {5}。{6} 和 {7} 属于框架本身，不算引用。带点号的 {8} 在代码中是 {9}，x18n 不会将其映射到 {10}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 Kotlin 和 Java 中，{0}、{1} 和 {2}。在 XML 中，{3}、{4} 和 {5}。{6} 和 {7} 属于框架本身，不算引用。带点号的 {8} 在代码中是 {9}，x18n 不会将其映射到 {10}。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

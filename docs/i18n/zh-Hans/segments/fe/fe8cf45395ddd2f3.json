@@ -1,0 +1,14 @@
+{
+  "hash": "fe8cf45395ddd2f3",
+  "source": "Placeholder shapes with {0} as the name: {1}, {2}, {3}.",
+  "text": "以 {0} 作为名称的占位符形式：{1}、{2}、{3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以 {0} 作为名称的占位符形式：{1}、{2}、{3}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2cbca9e60b2aadc0",
+  "source": "The x18n extension for VS Code shows translations in place, treats keys as symbols and embeds the UI.",
+  "text": "适用于 VS Code 的 x18n 扩展可原位显示翻译，将键视为符号，并内嵌 UI。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "适用于 VS Code 的 x18n 扩展可原位显示翻译，将键视为符号，并内嵌 UI。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

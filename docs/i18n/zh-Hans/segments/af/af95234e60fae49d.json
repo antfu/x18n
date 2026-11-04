@@ -1,0 +1,14 @@
+{
+  "hash": "af95234e60fae49d",
+  "source": "Run {0} to list the project names.",
+  "text": "运行 {0} 列出项目名称。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "运行 {0} 列出项目名称。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

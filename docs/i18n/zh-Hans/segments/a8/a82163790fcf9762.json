@@ -1,0 +1,14 @@
+{
+  "hash": "a82163790fcf9762",
+  "source": "The CLI uses the same code for command input it cannot use: an unknown {0} id, an unknown {1} kind, a missing {2}, or an {3} that already exists when you run {4} or {5} without {6}.",
+  "text": "对于 CLI 无法使用的命令输入，也会使用同一个错误代码：未知的 {0} id、未知的 {1} 类型、缺少 {2}，或者在运行 {4} 或 {5} 时未使用 {6}，而 {3} 已经存在。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对于 CLI 无法使用的命令输入，也会使用同一个错误代码：未知的 {0} id、未知的 {1} 类型、缺少 {2}，或者在运行 {4} 或 {5} 时未使用 {6}，而 {3} 已经存在。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

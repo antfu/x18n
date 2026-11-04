@@ -1,0 +1,14 @@
+{
+  "hash": "c18cc0435306f24a",
+  "source": "A key that does not match a naming rule (options: case, pattern).",
+  "text": "不符合命名规则的键（选项：case、pattern）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不符合命名规则的键（选项：case、pattern）。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "172db8b792c6c623",
+  "source": "Each tool takes one object. A {0} after a field name marks an optional field. The safety level tells the agent what a call does: {1} changes nothing, {2} writes files, {3} can remove data and asks for {4}.",
+  "text": "每个工具接受一个对象。字段名后的 {0} 表示该字段可选。安全级别告诉智能体一次调用会做什么：{1} 不会更改任何内容，{2} 会写入文件，{3} 可能删除数据并要求 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每个工具接受一个对象。字段名后的 {0} 表示该字段可选。安全级别告诉智能体一次调用会做什么：{1} 不会更改任何内容，{2} 会写入文件，{3} 可能删除数据并要求 {4}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

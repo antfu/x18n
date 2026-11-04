@@ -1,0 +1,14 @@
+{
+  "hash": "493b40b972654dbc",
+  "source": "The command opens the browser with the auth link, so you are signed in with one click. A browser without the link asks for the 6-digit auth code from the terminal. The server keeps running until you stop it with Ctrl+C. It watches the files, so edits from the editor or the CLI show in the UI at once.",
+  "text": "该命令会使用认证链接打开浏览器，因此你只需一次点击即可登录。没有使用该链接的浏览器会要求输入终端中显示的 6 位认证码。服务器会一直运行，直到你按 Ctrl+C 停止。它会监听文件变化，因此来自编辑器或 CLI 的修改会立即显示在 UI 中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该命令会使用认证链接打开浏览器，因此你只需一次点击即可登录。没有使用该链接的浏览器会要求输入终端中显示的 6 位认证码。服务器会一直运行，直到你按 Ctrl+C 停止。它会监听文件变化，因此来自编辑器或 CLI 的修改会立即显示在 UI 中。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

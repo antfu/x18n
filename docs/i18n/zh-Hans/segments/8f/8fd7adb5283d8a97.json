@@ -1,0 +1,14 @@
+{
+  "hash": "8fd7adb5283d8a97",
+  "source": "The best-matching locale, source first on ties.",
+  "text": "最佳匹配的语言；匹配度相同时源语言优先。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "最佳匹配的语言；匹配度相同时源语言优先。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

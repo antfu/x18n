@@ -1,0 +1,14 @@
+{
+  "hash": "875af0f7f03f5e00",
+  "source": "For extraction, run {0} again and edit the new plan.",
+  "text": "对于提取，请再次运行 {0}，然后编辑新的计划。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对于提取，请再次运行 {0}，然后编辑新的计划。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

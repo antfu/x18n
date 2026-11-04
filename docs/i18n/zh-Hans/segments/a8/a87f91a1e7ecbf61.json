@@ -1,0 +1,14 @@
+{
+  "hash": "a87f91a1e7ecbf61",
+  "source": "{0} found errors, or {1} rejected values.",
+  "text": "{0} 发现错误，或 {1} 拒绝了某些值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 发现错误，或 {1} 拒绝了某些值。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

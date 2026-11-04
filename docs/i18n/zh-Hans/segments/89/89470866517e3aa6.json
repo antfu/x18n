@@ -1,0 +1,14 @@
+{
+  "hash": "89470866517e3aa6",
+  "source": "Run {0} to list review ids.",
+  "text": "运行 {0} 列出审阅 id。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "运行 {0} 列出审阅 id。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

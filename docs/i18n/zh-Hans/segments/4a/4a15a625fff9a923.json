@@ -1,0 +1,14 @@
+{
+  "hash": "4a15a625fff9a923",
+  "source": "Hard-coded text gets into the UI without a key.",
+  "text": "硬编码的文本没有对应的键，直接出现在 UI 中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "硬编码的文本没有对应的键，直接出现在 UI 中。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f4cb71c2f153baed",
+  "source": "{0} builds its keys at runtime, so when the project uses it the keys in the {1} namespace are not unused, nor those of {2}.",
+  "text": "{0} 在运行时构建其键，因此当项目使用它时，{1} 命名空间中的键不会被判定为未使用，{2} 的键也是如此。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 在运行时构建其键，因此当项目使用它时，{1} 命名空间中的键不会被判定为未使用，{2} 的键也是如此。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

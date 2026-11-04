@@ -1,0 +1,14 @@
+{
+  "hash": "7c1e41d9272da263",
+  "source": "Continue from {0} of the previous prompt.",
+  "text": "从上一个提示词的 {0} 处继续。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "从上一个提示词的 {0} 处继续。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

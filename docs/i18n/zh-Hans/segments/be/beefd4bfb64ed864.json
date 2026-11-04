@@ -1,0 +1,14 @@
+{
+  "hash": "beefd4bfb64ed864",
+  "source": "In components and layouts, a key is always a global key. x18n does not know on which pages a component shows.",
+  "text": "在组件和布局中，键始终是全局键。x18n 无法得知组件显示在哪些页面上。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在组件和布局中，键始终是全局键。x18n 无法得知组件显示在哪些页面上。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d05a80be0f119865",
+  "source": "Do not edit locale files by hand. These commands keep the format, the indent, the key style and the order of each file, and they check placeholders:",
+  "text": "不要手动编辑语言文件。这些命令会保留每个文件的格式、缩进、键风格和顺序，并且会检查占位符：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不要手动编辑语言文件。这些命令会保留每个文件的格式、缩进、键风格和顺序，并且会检查占位符："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

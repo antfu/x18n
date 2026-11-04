@@ -1,0 +1,14 @@
+{
+  "hash": "e0ff3d1788bc1002",
+  "source": "A key with a {0}prefix usage{/0} is not unused, so {1} does not list keys that computed keys can reach.",
+  "text": "带有{0}前缀引用{/0}的键不算未使用，因此 {1} 不会列出动态键可以访问到的键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "带有{0}前缀引用{/0}的键不算未使用，因此 {1} 不会列出动态键可以访问到的键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

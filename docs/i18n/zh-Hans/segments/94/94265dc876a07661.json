@@ -1,0 +1,14 @@
+{
+  "hash": "94265dc876a07661",
+  "source": "Plugins to add: a package name, a path to a module or to a YAML plugin, or {0}. Paths are relative to the config file.",
+  "text": "要添加的插件：包名、模块路径、YAML 插件路径，或 {0}。路径相对于配置文件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "要添加的插件：包名、模块路径、YAML 插件路径，或 {0}。路径相对于配置文件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

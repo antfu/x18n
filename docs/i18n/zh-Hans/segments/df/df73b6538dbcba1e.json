@@ -1,0 +1,14 @@
+{
+  "hash": "df73b6538dbcba1e",
+  "source": "Put {0} in the {1} of the package, so that the plugin uses the x18n version of the project.",
+  "text": "请将 {0} 放在包的 {1} 中，这样插件会使用项目所用的 x18n 版本。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "请将 {0} 放在包的 {1} 中，这样插件会使用项目所用的 x18n 版本。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

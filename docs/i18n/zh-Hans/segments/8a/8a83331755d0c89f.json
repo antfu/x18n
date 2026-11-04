@@ -1,0 +1,14 @@
+{
+  "hash": "8a83331755d0c89f",
+  "source": "The {0}UI{/0} shows every key across locales in a table. It runs as a local server, or as a static report.",
+  "text": "{0}UI{/0} 以表格形式展示所有语言中的每个键。它可以作为本地服务器运行，也可以生成静态报告。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}UI{/0} 以表格形式展示所有语言中的每个键。它可以作为本地服务器运行，也可以生成静态报告。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

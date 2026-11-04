@@ -1,0 +1,14 @@
+{
+  "hash": "15e4d309cdfb6cb6",
+  "source": "The check is on by default, with the severity {0}.",
+  "text": "该检查默认启用，严重级别为 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该检查默认启用，严重级别为 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

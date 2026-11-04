@@ -1,0 +1,14 @@
+{
+  "hash": "44eeeaa73bb5ded6",
+  "source": "Text of a value in any locale, ignoring case.",
+  "text": "任意语言中某个值的文本，忽略大小写。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "任意语言中某个值的文本，忽略大小写。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

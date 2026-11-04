@@ -1,0 +1,14 @@
+{
+  "hash": "df5a150956beeb89",
+  "source": "These names count as translate calls: {0} and {1}. Dictionary keys are dot paths.",
+  "text": "以下名称会被视为翻译调用：{0} 和 {1}。字典键是以点分隔的路径。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以下名称会被视为翻译调用：{0} 和 {1}。字典键是以点分隔的路径。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

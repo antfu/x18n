@@ -1,0 +1,14 @@
+{
+  "hash": "a4aa49db37e90fd4",
+  "source": "A target message that last changed before its source message did.",
+  "text": "目标消息的上次变更早于其源消息的变更。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "目标消息的上次变更早于其源消息的变更。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

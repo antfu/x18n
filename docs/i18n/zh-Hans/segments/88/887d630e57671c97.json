@@ -1,0 +1,14 @@
+{
+  "hash": "887d630e57671c97",
+  "source": "Find keys by their value in any locale, with their usages.",
+  "text": "按值在任意语言中查找键，并列出其引用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "按值在任意语言中查找键，并列出其引用。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

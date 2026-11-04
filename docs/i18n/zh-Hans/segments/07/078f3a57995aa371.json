@@ -1,0 +1,14 @@
+{
+  "hash": "078f3a57995aa371",
+  "source": "If the file is not a locale file, change {0} so that its pattern does not match the file.",
+  "text": "如果该文件不是语言文件，请修改 {0}，使其模式不再匹配该文件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果该文件不是语言文件，请修改 {0}，使其模式不再匹配该文件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

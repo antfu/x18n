@@ -1,0 +1,14 @@
+{
+  "hash": "7576a23962e1afb8",
+  "source": "The preset applies when {0} requires {1} or {2}.",
+  "text": "当 {0} 依赖 {1} 或 {2} 时，该预设会生效。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当 {0} 依赖 {1} 或 {2} 时，该预设会生效。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

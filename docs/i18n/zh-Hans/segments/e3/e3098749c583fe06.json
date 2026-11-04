@@ -1,0 +1,14 @@
+{
+  "hash": "e3098749c583fe06",
+  "source": "review-changes-requested",
+  "text": "review-changes-requested 检查",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "review-changes-requested 检查"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

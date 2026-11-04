@@ -1,0 +1,14 @@
+{
+  "hash": "3ef3a2c36b8b39a6",
+  "source": "{0} lists the projects, the locales with their coverage and the counts of diagnostics. {1} lists every diagnostic.",
+  "text": "{0} 会列出项目、各语言及其覆盖率，以及诊断的数量。{1} 会列出每一条诊断。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会列出项目、各语言及其覆盖率，以及诊断的数量。{1} 会列出每一条诊断。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

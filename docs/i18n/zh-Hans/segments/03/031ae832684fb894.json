@@ -1,0 +1,14 @@
+{
+  "hash": "031ae832684fb894",
+  "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
+  "text": "{0} 会针对计划中的每个审阅编辑运行，此时该编辑已应用到审阅数据：新的评论、批准、变更请求或建议，一个 {1} 或一个 {2}。{3} 包含编辑之后的键、语言、评论和讨论串。{4} 和 {5} 用于查找消息及其所在文件，{6} 返回计划处理之后的文件。该钩子返回 {7} 写入，这些写入与审阅文件进入同一个计划，因此试运行时可以看到它们。如果存储在每条消息旁边保存审阅状态，可以在批准与当前值匹配时将其标记为已验证：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会针对计划中的每个审阅编辑运行，此时该编辑已应用到审阅数据：新的评论、批准、变更请求或建议，一个 {1} 或一个 {2}。{3} 包含编辑之后的键、语言、评论和讨论串。{4} 和 {5} 用于查找消息及其所在文件，{6} 返回计划处理之后的文件。该钩子返回 {7} 写入，这些写入与审阅文件进入同一个计划，因此试运行时可以看到它们。如果存储在每条消息旁边保存审阅状态，可以在批准与当前值匹配时将其标记为已验证："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

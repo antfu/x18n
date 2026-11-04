@@ -1,0 +1,14 @@
+{
+  "hash": "86c04d2c6119d172",
+  "source": "Template with {0}, {1} or {2}.",
+  "text": "包含 {0}、{1} 或 {2} 的模板。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "包含 {0}、{1} 或 {2} 的模板。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

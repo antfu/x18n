@@ -1,0 +1,14 @@
+{
+  "hash": "e205770dcdf212aa",
+  "source": "Read the JSON output, not the human output.",
+  "text": "读取 JSON 输出，而不是面向人类的输出。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "读取 JSON 输出，而不是面向人类的输出。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

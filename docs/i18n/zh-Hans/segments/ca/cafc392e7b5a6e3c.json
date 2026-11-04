@@ -1,0 +1,14 @@
+{
+  "hash": "cafc392e7b5a6e3c",
+  "source": "Add {0} as the first line. Your editor then shows the errors.",
+  "text": "将 {0} 添加为第一行。这样编辑器就会显示错误。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将 {0} 添加为第一行。这样编辑器就会显示错误。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

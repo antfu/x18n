@@ -1,0 +1,14 @@
+{
+  "hash": "d3030815d0fa9bf2",
+  "source": "The default output directory is {0}. The report holds the state of the project at build time. Edit controls, prompts and \"Open in editor\" are not there.",
+  "text": "默认输出目录为 {0}。报告保存的是构建时项目的状态。其中没有编辑控件、提示词和「Open in editor」。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "默认输出目录为 {0}。报告保存的是构建时项目的状态。其中没有编辑控件、提示词和「Open in editor」。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

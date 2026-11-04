@@ -1,0 +1,14 @@
+{
+  "hash": "370454e6b6177390",
+  "source": "The editor and the UI still show every diagnostic. The idea comes from {0}i18next-cli{/0} and the bulk suppressions of ESLint.",
+  "text": "编辑器和 UI 仍会显示所有诊断。这个想法来自 {0}i18next-cli{/0} 和 ESLint 的批量抑制功能。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "编辑器和 UI 仍会显示所有诊断。这个想法来自 {0}i18next-cli{/0} 和 ESLint 的批量抑制功能。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ce85715cc06b6cce",
+  "source": "Terms with fixed translations. Translate prompts list them, and the {0} check compares values with them.",
+  "text": "具有固定译法的术语。翻译提示词会列出这些术语，{0} 检查会将值与其进行比对。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "具有固定译法的术语。翻译提示词会列出这些术语，{0} 检查会将值与其进行比对。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "61237efe8b756edf",
+  "source": "{0}: {1} when {2} is {3}, else {4}",
+  "text": "{0}：当 {2} 为 {1} 时取 {3}，否则取 {4}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：当 {2} 为 {1} 时取 {3}，否则取 {4}"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

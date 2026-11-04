@@ -1,0 +1,14 @@
+{
+  "hash": "4bcec0e13de83f73",
+  "source": "{0} in the generated plugin, for JS, TS, Vue, HTML and Svelte files",
+  "text": "生成的插件中的 {0}，适用于 JS、TS、Vue、HTML 和 Svelte 文件",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "生成的插件中的 {0}，适用于 JS、TS、Vue、HTML 和 Svelte 文件"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

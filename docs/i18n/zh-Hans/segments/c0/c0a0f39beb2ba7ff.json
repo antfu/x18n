@@ -1,0 +1,14 @@
+{
+  "hash": "c0a0f39beb2ba7ff",
+  "source": "The check takes options. Set them with the array form:",
+  "text": "该检查支持选项。使用数组形式进行设置：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该检查支持选项。使用数组形式进行设置："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

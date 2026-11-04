@@ -1,0 +1,14 @@
+{
+  "hash": "1d21ecdb53497d4d",
+  "source": "The preset for Joomla. It reads INI language files and Text::_ calls.",
+  "text": "Joomla 的预设。它会读取 INI 语言文件和 Text::_ 调用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Joomla 的预设。它会读取 INI 语言文件和 Text::_ 调用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

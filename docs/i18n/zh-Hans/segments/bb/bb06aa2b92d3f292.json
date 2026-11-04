@@ -1,0 +1,14 @@
+{
+  "hash": "bb06aa2b92d3f292",
+  "source": "The proposed value, required for {0}.",
+  "text": "建议的值，{0} 时必填。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "建议的值，{0} 时必填。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

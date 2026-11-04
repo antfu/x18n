@@ -1,0 +1,14 @@
+{
+  "hash": "8a23b26120be124b",
+  "source": "{0} runs this check alone. {1} skips it for one run.",
+  "text": "{0} 只运行此检查。{1} 在单次运行中跳过它。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 只运行此检查。{1} 在单次运行中跳过它。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

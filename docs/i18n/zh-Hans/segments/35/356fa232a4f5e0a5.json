@@ -1,0 +1,14 @@
+{
+  "hash": "356fa232a4f5e0a5",
+  "source": "Progress: translation progress per locale.",
+  "text": "Progress：各语言的翻译进度。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Progress：各语言的翻译进度。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

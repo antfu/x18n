@@ -1,0 +1,14 @@
+{
+  "hash": "f2480689c135e2d0",
+  "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
+  "text": "超过 {0} 的值会被截断。在原位模式下，这样的值会作为提示显示在键之后。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "超过 {0} 的值会被截断。在原位模式下，这样的值会作为提示显示在键之后。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

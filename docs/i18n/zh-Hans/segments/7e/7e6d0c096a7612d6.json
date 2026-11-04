@@ -1,0 +1,14 @@
+{
+  "hash": "7e6d0c096a7612d6",
+  "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
+  "text": "尚无任何键的文件所使用的键风格。{0} 写入 {1} 键。{2} 和 {3} 写入嵌套对象。已有键的文件保持其自身的风格。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "尚无任何键的文件所使用的键风格。{0} 写入 {1} 键。{2} 和 {3} 写入嵌套对象。已有键的文件保持其自身的风格。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "41fa8acf5c6735c8",
+  "source": "{0}: the files per scanner. A regex scanner shows {1} until a spec gives it extensions.",
+  "text": "{0}：每个扫描器对应的文件。正则扫描器在规范为其指定扩展名之前会显示 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：每个扫描器对应的文件。正则扫描器在规范为其指定扩展名之前会显示 {1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

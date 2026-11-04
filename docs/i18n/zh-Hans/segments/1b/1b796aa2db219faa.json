@@ -1,0 +1,14 @@
+{
+  "hash": "1b796aa2db219faa",
+  "source": "Decides if the preset applies. Without {0}, the preset applies only when listed in config.",
+  "text": "决定预设是否适用。如果没有 {0}，预设仅在配置中列出时才适用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "决定预设是否适用。如果没有 {0}，预设仅在配置中列出时才适用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

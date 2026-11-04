@@ -1,0 +1,14 @@
+{
+  "hash": "ef8de96816619439",
+  "source": "Rules such as {0}. When a key is used, the keys that a rule derives from it count as used too. A {1} matches any text: {2}.",
+  "text": "规则如 {0}。当一个键被引用时，规则由它派生出的键也算作已引用。{1} 可匹配任意文本：{2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "规则如 {0}。当一个键被引用时，规则由它派生出的键也算作已引用。{1} 可匹配任意文本：{2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

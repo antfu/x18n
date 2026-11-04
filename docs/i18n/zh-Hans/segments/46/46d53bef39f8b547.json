@@ -1,0 +1,14 @@
+{
+  "hash": "46d53bef39f8b547",
+  "source": "A named value a translate call passes to its message ({0} in {1}), which a placeholder reads.",
+  "text": "翻译调用传给其消息的命名值（{1} 中的 {0}），由占位符读取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻译调用传给其消息的命名值（{1} 中的 {0}），由占位符读取。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5cadcbe0f678ce5e",
+  "source": "more translate calls. Wildcards such as {0} are skipped.",
+  "text": "更多翻译调用。{0} 这样的通配符会被跳过。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "更多翻译调用。{0} 这样的通配符会被跳过。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

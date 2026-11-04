@@ -1,0 +1,14 @@
+{
+  "hash": "bf6f43b7f78c2968",
+  "source": "The translate prompt for a locale, as markdown.",
+  "text": "某个语言的翻译提示词，格式为 markdown。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某个语言的翻译提示词，格式为 markdown。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ff7140868c888b39",
+  "source": "{0} refuses values whose placeholders differ from the source value, and lists them in {1}. The agent fixes them and applies again. If the prompt says that more keys remain, the agent continues with {2}.",
+  "text": "{0} 会拒绝占位符与源值不一致的值，并将它们列在 {1} 中。智能体修复这些值后再次应用。如果提示说明还有更多键，智能体会继续执行 {2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会拒绝占位符与源值不一致的值，并将它们列在 {1} 中。智能体修复这些值后再次应用。如果提示说明还有更多键，智能体会继续执行 {2}。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

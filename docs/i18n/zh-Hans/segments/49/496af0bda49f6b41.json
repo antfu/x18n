@@ -1,0 +1,14 @@
+{
+  "hash": "496af0bda49f6b41",
+  "source": "The preset for @fluent/react. It reads Fluent .ftl files, <Localized> elements and getString calls.",
+  "text": "@fluent/react 的预设。它会读取 Fluent .ftl 文件、<Localized> 元素和 getString 调用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@fluent/react 的预设。它会读取 Fluent .ftl 文件、<Localized> 元素和 getString 调用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

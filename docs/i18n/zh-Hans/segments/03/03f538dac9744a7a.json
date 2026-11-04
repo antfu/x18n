@@ -1,0 +1,14 @@
+{
+  "hash": "03f538dac9744a7a",
+  "source": "{0}Concepts{/0}: the names that x18n uses, such as resource, key and usage.",
+  "text": "{0}概念{/0}：x18n 使用的名称，例如资源、键和引用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}概念{/0}：x18n 使用的名称，例如资源、键和引用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

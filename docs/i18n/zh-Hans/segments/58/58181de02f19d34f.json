@@ -1,0 +1,14 @@
+{
+  "hash": "58181de02f19d34f",
+  "source": "One key: its value in every locale with file and line (and its translation {0} and {1} when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
+  "text": "获取单个键：它在每种语言中的值及所在文件和行号（如果文件记录了翻译的 {0} 和 {1}，也会一并返回）、缺失该键的语言、代码中的引用（附带几行上下文）以及诊断。在创建或重命名键之前，请先用它检查该键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "获取单个键：它在每种语言中的值及所在文件和行号（如果文件记录了翻译的 {0} 和 {1}，也会一并返回）、缺失该键的语言、代码中的引用（附带几行上下文）以及诊断。在创建或重命名键之前，请先用它检查该键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a40ae5dac4d5eca9",
+  "source": "{0} returns a {1} with the namespace of its second argument.",
+  "text": "{0} 返回一个 {1}，其命名空间取自第二个参数。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 返回一个 {1}，其命名空间取自第二个参数。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

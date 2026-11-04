@@ -1,0 +1,14 @@
+{
+  "hash": "75e1c826be50d08b",
+  "source": "chrome-extension",
+  "text": "chrome-extension",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "chrome-extension"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "eaa68f5c64755ae7",
+  "source": "Invalid edit input. Check the input shape against the docs.",
+  "text": "编辑输入无效。请对照文档检查输入的结构。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "编辑输入无效。请对照文档检查输入的结构。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

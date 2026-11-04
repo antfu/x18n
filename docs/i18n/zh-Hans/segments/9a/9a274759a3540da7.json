@@ -1,0 +1,14 @@
+{
+  "hash": "9a274759a3540da7",
+  "source": "Plugin tools: {0} prints the TS equivalent.",
+  "text": "插件工具：{0} 会打印对应的 TS 写法。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插件工具：{0} 会打印对应的 TS 写法。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

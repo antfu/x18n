@@ -1,0 +1,14 @@
+{
+  "hash": "f7e897ae3902a6b9",
+  "source": "The check has the severity {0}, but it runs only when the config turns it on.",
+  "text": "该检查的严重级别为 {0}，但仅在配置中启用后才会运行。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该检查的严重级别为 {0}，但仅在配置中启用后才会运行。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

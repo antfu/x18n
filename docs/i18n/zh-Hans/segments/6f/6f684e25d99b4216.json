@@ -1,0 +1,14 @@
+{
+  "hash": "6f684e25d99b4216",
+  "source": "In TS and JS files, these names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. A call on {8} counts too:",
+  "text": "在 TS 和 JS 文件中，以下名称会被视为翻译调用：{0}、{1}、{2}、{3}、{4}、{5}、{6} 和 {7}。对 {8} 的调用也同样算作翻译调用：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 TS 和 JS 文件中，以下名称会被视为翻译调用：{0}、{1}、{2}、{3}、{4}、{5}、{6} 和 {7}。对 {8} 的调用也同样算作翻译调用："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

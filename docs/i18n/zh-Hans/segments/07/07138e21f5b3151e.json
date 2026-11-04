@@ -1,0 +1,14 @@
+{
+  "hash": "07138e21f5b3151e",
+  "source": "The translate calls are {0}, {1}, {2} and {3}, also from {4} and {5}. The {6} of {7} is a key too. {8} and {9} take the name of a format, not a key.",
+  "text": "翻译调用包括 {0}、{1}、{2} 和 {3}，也包括来自 {4} 和 {5} 的调用。{7} 的 {6} 也是一个键。{8} 和 {9} 接收的是格式名称，而不是键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻译调用包括 {0}、{1}、{2} 和 {3}，也包括来自 {4} 和 {5} 的调用。{7} 的 {6} 也是一个键。{8} 和 {9} 接收的是格式名称，而不是键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e204cff24fc63977",
+  "source": "Every built-in check of x18n check, with its default severity.",
+  "text": "x18n check 的所有内置检查及其默认严重级别。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n check 的所有内置检查及其默认严重级别。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

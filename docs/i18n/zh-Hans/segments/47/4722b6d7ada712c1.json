@@ -1,0 +1,14 @@
+{
+  "hash": "4722b6d7ada712c1",
+  "source": "{0}: the raw key text, its range, and whether the key is static, a prefix, or unknown,",
+  "text": "{0}：原始键文本、其范围，以及该键是静态键、前缀还是未知，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：原始键文本、其范围，以及该键是静态键、前缀还是未知，"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5d3f39e762b5ca67",
+  "source": "The preset for VS Code extensions. It reads vscode.l10n.t, package.nls.json files and l10n bundles.",
+  "text": "适用于 VS Code 扩展的预设。它可以读取 vscode.l10n.t、package.nls.json 文件和 l10n bundle。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "适用于 VS Code 扩展的预设。它可以读取 vscode.l10n.t、package.nls.json 文件和 l10n bundle。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

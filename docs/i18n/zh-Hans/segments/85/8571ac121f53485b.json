@@ -1,0 +1,14 @@
+{
+  "hash": "8571ac121f53485b",
+  "source": "Arguments that may hold the params object, in order; string arguments are skipped ({0}).",
+  "text": "可能保存参数对象的参数，按顺序排列；字符串参数会被跳过（{0}）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "可能保存参数对象的参数，按顺序排列；字符串参数会被跳过（{0}）。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

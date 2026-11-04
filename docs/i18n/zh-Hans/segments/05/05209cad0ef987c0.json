@@ -1,0 +1,14 @@
+{
+  "hash": "05209cad0ef987c0",
+  "source": "The preset for @gravity-ui/i18n. It reads i18n.i18n(keyset, key) calls, keyset functions and keyset folders.",
+  "text": "@gravity-ui/i18n 的预设。它会读取 i18n.i18n(keyset, key) 调用、keyset 函数和 keyset 文件夹。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@gravity-ui/i18n 的预设。它会读取 i18n.i18n(keyset, key) 调用、keyset 函数和 keyset 文件夹。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

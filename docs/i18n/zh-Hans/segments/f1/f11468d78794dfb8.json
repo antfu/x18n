@@ -1,0 +1,14 @@
+{
+  "hash": "f11468d78794dfb8",
+  "source": "Pass a function to {0} to take options. The function returns the plugin:",
+  "text": "向 {0} 传入一个函数即可接收选项。该函数返回插件：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "向 {0} 传入一个函数即可接收选项。该函数返回插件："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

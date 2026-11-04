@@ -1,0 +1,14 @@
+{
+  "hash": "bd15c6763aeb936f",
+  "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
+  "text": "{0} 的试运行：按项目列出它将删除的未使用键（每条消息附带一个位置）、因作用域内的计算键可能引用而保留的未使用键，以及警告。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 的试运行：按项目列出它将删除的未使用键（每条消息附带一个位置）、因作用域内的计算键可能引用而保留的未使用键，以及警告。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

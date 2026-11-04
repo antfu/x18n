@@ -1,0 +1,14 @@
+{
+  "hash": "6cac637501d4e756",
+  "source": "Every command that writes files first makes a plan. A plan is the list of file changes, made without writing anything. {0} prints the plan instead of applying it.",
+  "text": "每个会写入文件的命令都会先生成一个计划。计划是文件变更的列表，生成时不会写入任何内容。{0} 会打印计划而不是应用它。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每个会写入文件的命令都会先生成一个计划。计划是文件变更的列表，生成时不会写入任何内容。{0} 会打印计划而不是应用它。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

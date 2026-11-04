@@ -1,0 +1,14 @@
+{
+  "hash": "522ccf1da9eadbbf",
+  "source": "Key: the values of one key with the translation state and description the file records, its problems, and its usages with a few lines of code. \"Open in editor\" opens a usage in your editor. Each target locale has a button that copies a translate prompt for the key, and a button to review the value. The review thread of each locale shows under its value, with buttons to apply a suggestion or resolve a comment.",
+  "text": "键详情：一个键的各个值，以及文件中记录的翻译状态和描述、该键的问题，还有它的引用及几行代码。「Open in editor」会在编辑器中打开一处引用。每种目标语言都有一个按钮用于复制该键的翻译提示词，还有一个按钮用于审阅该值。每种语言的审阅讨论串显示在其值下方，并带有应用建议或解决评论的按钮。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "键详情：一个键的各个值，以及文件中记录的翻译状态和描述、该键的问题，还有它的引用及几行代码。「Open in editor」会在编辑器中打开一处引用。每种目标语言都有一个按钮用于复制该键的翻译提示词，还有一个按钮用于审阅该值。每种语言的审阅讨论串显示在其值下方，并带有应用建议或解决评论的按钮。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

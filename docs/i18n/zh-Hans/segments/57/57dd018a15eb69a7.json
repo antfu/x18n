@@ -1,0 +1,14 @@
+{
+  "hash": "57dd018a15eb69a7",
+  "source": "The check is off by default.",
+  "text": "该检查默认关闭。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该检查默认关闭。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

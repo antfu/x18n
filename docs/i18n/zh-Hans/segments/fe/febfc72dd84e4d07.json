@@ -1,0 +1,14 @@
+{
+  "hash": "febfc72dd84e4d07",
+  "source": "x18n writes prompts that describe translation work for an agent or an LLM, then checks the results.",
+  "text": "x18n 会编写描述翻译工作的提示词，供智能体或 LLM 使用，然后检查结果。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 会编写描述翻译工作的提示词，供智能体或 LLM 使用，然后检查结果。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "18f206f19a9c6a22",
+  "source": "Hard-string kinds the template applies to, for example {0}.",
+  "text": "模板适用的硬编码字符串类型，例如 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "模板适用的硬编码字符串类型，例如 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

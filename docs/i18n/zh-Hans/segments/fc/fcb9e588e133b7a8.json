@@ -1,0 +1,14 @@
+{
+  "hash": "fcb9e588e133b7a8",
+  "source": "No errors, and no more warnings than {0}.",
+  "text": "没有错误，且警告数不超过 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "没有错误，且警告数不超过 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

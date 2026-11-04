@@ -1,0 +1,14 @@
+{
+  "hash": "34493f4f50c78b87",
+  "source": "{0} is a regular expression. Every match is replaced.",
+  "text": "{0} 是一个正则表达式。每个匹配项都会被替换。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是一个正则表达式。每个匹配项都会被替换。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

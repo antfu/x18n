@@ -1,0 +1,14 @@
+{
+  "hash": "9131bcd495c10793",
+  "source": "The preset applies when the {0} has {1}, {2} or {3}.",
+  "text": "当 {0} 包含 {1}、{2} 或 {3} 时，会应用该预设。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当 {0} 包含 {1}、{2} 或 {3} 时，会应用该预设。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

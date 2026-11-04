@@ -1,0 +1,14 @@
+{
+  "hash": "20eb5dadfdbba814",
+  "source": "Longest slug, in characters. Default 40.",
+  "text": "slug 的最大长度，以字符计。默认值为 40。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "slug 的最大长度，以字符计。默认值为 40。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

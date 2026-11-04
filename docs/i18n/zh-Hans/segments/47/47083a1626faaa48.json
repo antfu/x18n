@@ -1,0 +1,14 @@
+{
+  "hash": "47083a1626faaa48",
+  "source": "Many formats can say what a message means, for the translator. The prompt shows that description under the source value:",
+  "text": "许多格式可以为译者说明消息的含义。提示词会在源值下方显示该描述：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "许多格式可以为译者说明消息的含义。提示词会在源值下方显示该描述："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

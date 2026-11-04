@@ -1,0 +1,14 @@
+{
+  "hash": "c082fd2653d01009",
+  "source": "The {0} format reads and writes these catalogs. Each {1} is a key, and its {2} is the value. The preset sets {3}, so a {4} or {5} in a {6} stays part of the key:",
+  "text": "{0} 格式用于读取和写入这些目录。每个 {1} 是一个键，其 {2} 是对应的值。该预设设置了 {3}，因此 {6} 中的 {4} 或 {5} 仍然属于键的一部分：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 格式用于读取和写入这些目录。每个 {1} 是一个键，其 {2} 是对应的值。该预设设置了 {3}，因此 {6} 中的 {4} 或 {5} 仍然属于键的一部分："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a176ea53018b3a86",
+  "source": "{0} and {1} return a translate function for the keyset.",
+  "text": "{0} 和 {1} 会返回该 keyset 的翻译函数。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 和 {1} 会返回该 keyset 的翻译函数。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

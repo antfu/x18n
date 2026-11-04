@@ -1,0 +1,14 @@
+{
+  "hash": "d9d8a012bfd1c59f",
+  "source": "prefix rename (fine in UI labels)",
+  "text": "prefix rename（用于 UI 标签时可以使用）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "prefix rename（用于 UI 标签时可以使用）"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

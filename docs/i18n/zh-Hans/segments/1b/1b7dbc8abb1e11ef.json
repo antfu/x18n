@@ -1,0 +1,14 @@
+{
+  "hash": "1b7dbc8abb1e11ef",
+  "source": "Sets one value. {0} defaults to the source locale.",
+  "text": "设置一个值。{0} 默认为源语言。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "设置一个值。{0} 默认为源语言。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

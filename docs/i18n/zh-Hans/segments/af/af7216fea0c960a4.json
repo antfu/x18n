@@ -1,0 +1,14 @@
+{
+  "hash": "af7216fea0c960a4",
+  "source": "Each review has a short random {0}. Commands such as {1} take it.",
+  "text": "每条审阅都有一个简短的随机 {0}。{1} 等命令接受它作为参数。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每条审阅都有一个简短的随机 {0}。{1} 等命令接受它作为参数。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

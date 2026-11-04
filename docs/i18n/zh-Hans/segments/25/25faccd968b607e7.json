@@ -1,0 +1,14 @@
+{
+  "hash": "25faccd968b607e7",
+  "source": "A project changed. {0} lists the keys that changed.",
+  "text": "某个项目已更改。{0} 列出已更改的键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某个项目已更改。{0} 列出已更改的键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

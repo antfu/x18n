@@ -1,0 +1,14 @@
+{
+  "hash": "26f77d5ccda678f0",
+  "source": "It writes:",
+  "text": "它会写入：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它会写入："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

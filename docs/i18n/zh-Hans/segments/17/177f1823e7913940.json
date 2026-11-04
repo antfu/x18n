@@ -1,0 +1,14 @@
+{
+  "hash": "177f1823e7913940",
+  "source": "{0} terms of the {1}, such as brand names.",
+  "text": "{1} 中的 {0} 术语，例如品牌名称。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1} 中的 {0} 术语，例如品牌名称。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

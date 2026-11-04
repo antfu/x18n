@@ -1,0 +1,14 @@
+{
+  "hash": "3402f4ed5b5e62bf",
+  "source": "The tagged template {0} and the text of {1} are usages.",
+  "text": "带标签的模板字符串 {0} 以及 {1} 的文本都属于引用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "带标签的模板字符串 {0} 以及 {1} 的文本都属于引用。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "468ec4dafc1daa7e",
+  "source": "This is a usage of {0}.",
+  "text": "这是对 {0} 的一次引用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "这是对 {0} 的一次引用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

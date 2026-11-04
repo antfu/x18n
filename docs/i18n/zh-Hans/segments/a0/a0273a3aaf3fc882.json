@@ -1,0 +1,14 @@
+{
+  "hash": "a0273a3aaf3fc882",
+  "source": "Project name from {0}. Required only in a monorepo with several projects.",
+  "text": "来自 {0} 的项目名称。仅在包含多个项目的 monorepo 中必填。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "来自 {0} 的项目名称。仅在包含多个项目的 monorepo 中必填。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

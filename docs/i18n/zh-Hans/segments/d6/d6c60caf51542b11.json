@@ -1,0 +1,14 @@
+{
+  "hash": "d6c60caf51542b11",
+  "source": "Review messages",
+  "text": "审阅消息",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "审阅消息"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

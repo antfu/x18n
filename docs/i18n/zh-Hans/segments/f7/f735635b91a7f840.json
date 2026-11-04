@@ -1,0 +1,14 @@
+{
+  "hash": "f735635b91a7f840",
+  "source": "The provider of a component reaches its own part of the file and its {0}, the components its template uses, by element or attribute selector, and what its {1} shows, down the tree. The nearest provider wins.",
+  "text": "组件的 provider 作用于文件中属于该组件的部分及其 {0}、其模板通过元素或属性选择器使用的组件，以及其 {1} 所显示的内容，并沿组件树向下生效。最近的 provider 优先。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "组件的 provider 作用于文件中属于该组件的部分及其 {0}、其模板通过元素或属性选择器使用的组件，以及其 {1} 所显示的内容，并沿组件树向下生效。最近的 provider 优先。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

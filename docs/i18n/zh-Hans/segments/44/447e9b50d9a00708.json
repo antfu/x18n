@@ -1,0 +1,14 @@
+{
+  "hash": "447e9b50d9a00708",
+  "source": "A project is one i18n setup: one root directory, one config and one set of locales. Most repositories have one project. A monorepo can have many. See {0}Monorepos{/0}.",
+  "text": "项目指一套 i18n 配置：一个根目录、一份配置和一组语言。大多数仓库只有一个项目，monorepo 可以有多个。参见{0}Monorepo{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "项目指一套 i18n 配置：一个根目录、一份配置和一组语言。大多数仓库只有一个项目，monorepo 可以有多个。参见{0}Monorepo{/0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

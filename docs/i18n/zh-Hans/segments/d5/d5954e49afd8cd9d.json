@@ -1,0 +1,14 @@
+{
+  "hash": "d5954e49afd8cd9d",
+  "source": "{0}VS Code{/0}: see translations in place in the editor.",
+  "text": "{0}VS Code{/0}：在编辑器中就地查看翻译。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}VS Code{/0}：在编辑器中就地查看翻译。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

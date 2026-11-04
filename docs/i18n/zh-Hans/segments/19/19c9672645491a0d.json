@@ -1,0 +1,14 @@
+{
+  "hash": "19c9672645491a0d",
+  "source": "Also translate stale translations (needs git history)",
+  "text": "同时翻译过期的翻译（需要 git 历史记录）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同时翻译过期的翻译（需要 git 历史记录）"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

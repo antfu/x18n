@@ -1,0 +1,14 @@
+{
+  "hash": "dd68d394a0e02c5a",
+  "source": "Locale files can be JSON, YAML, JavaScript or TypeScript. x18n reads a static object in a {0} or {1} file, also when {2} wraps it, and edits it in place:",
+  "text": "语言文件可以是 JSON、YAML、JavaScript 或 TypeScript。x18n 会读取 {0} 或 {1} 文件中的静态对象（包括被 {2} 包裹的情况），并直接在原文件中编辑：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言文件可以是 JSON、YAML、JavaScript 或 TypeScript。x18n 会读取 {0} 或 {1} 文件中的静态对象（包括被 {2} 包裹的情况），并直接在原文件中编辑："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

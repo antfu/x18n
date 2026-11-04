@@ -1,0 +1,14 @@
+{
+  "hash": "cbafec3bab2de2ec",
+  "source": "These usages are {0}, {1} and {2}. A used message also uses its attributes, so {3} is not unused.",
+  "text": "这些引用分别是 {0}、{1} 和 {2}。被引用的消息也会引用它的属性，因此 {3} 不算未使用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "这些引用分别是 {0}、{1} 和 {2}。被引用的消息也会引用它的属性，因此 {3} 不算未使用。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

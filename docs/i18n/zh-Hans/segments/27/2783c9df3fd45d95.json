@@ -1,0 +1,14 @@
+{
+  "hash": "2783c9df3fd45d95",
+  "source": "Add {0} to a YAML or JSON config. Your editor then shows the errors as you type.",
+  "text": "在 YAML 或 JSON 配置中添加 {0}。之后你的编辑器会在你输入时显示错误。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 YAML 或 JSON 配置中添加 {0}。之后你的编辑器会在你输入时显示错误。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

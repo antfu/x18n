@@ -1,0 +1,14 @@
+{
+  "hash": "428cd70d0e7699e5",
+  "source": "{0} on the JS and TS resource patterns. These resources are read-only.",
+  "text": "JS 和 TS 资源模式上的 {0}。这些资源是只读的。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JS 和 TS 资源模式上的 {0}。这些资源是只读的。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

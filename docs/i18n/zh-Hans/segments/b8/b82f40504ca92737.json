@@ -1,0 +1,14 @@
+{
+  "hash": "b82f40504ca92737",
+  "source": "A locale is a locale code, exactly as it is written in paths and files: {0}, {1}, {2}. x18n never changes the spelling of a code.",
+  "text": "语言即语言代码，与它在路径和文件中的写法完全一致：{0}、{1}、{2}。x18n 不会改动代码的拼写。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言即语言代码，与它在路径和文件中的写法完全一致：{0}、{1}、{2}。x18n 不会改动代码的拼写。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

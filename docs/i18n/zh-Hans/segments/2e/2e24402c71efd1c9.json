@@ -1,0 +1,14 @@
+{
+  "hash": "2e24402c71efd1c9",
+  "source": "Applies the items of an extraction plan.",
+  "text": "应用提取计划中的各项。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "应用提取计划中的各项。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

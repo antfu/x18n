@@ -1,0 +1,14 @@
+{
+  "hash": "9120ef7b62efdaa4",
+  "source": "{0} uses that file.",
+  "text": "{0} 使用指定的文件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 使用指定的文件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

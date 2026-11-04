@@ -1,0 +1,14 @@
+{
+  "hash": "ccc669aeaf1dedc3",
+  "source": "A file, or a block inside a file, that holds messages for one locale and one namespace.",
+  "text": "保存某一种语言、某一个命名空间的消息的文件，或文件中的一个块。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "保存某一种语言、某一个命名空间的消息的文件，或文件中的一个块。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "33d778bfeb3a3bae",
+  "source": "When true and detected, presets that come after it are not applied.",
+  "text": "为 true 且被检测到时，排在它之后的预设不会被应用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "为 true 且被检测到时，排在它之后的预设不会被应用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

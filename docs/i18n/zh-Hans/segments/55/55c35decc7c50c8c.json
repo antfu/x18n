@@ -1,0 +1,14 @@
+{
+  "hash": "55c35decc7c50c8c",
+  "source": "The {0} preset supports the {1}language files of Joomla{/1}.",
+  "text": "{0} 预设支持 {1}Joomla 的语言文件{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持 {1}Joomla 的语言文件{/1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

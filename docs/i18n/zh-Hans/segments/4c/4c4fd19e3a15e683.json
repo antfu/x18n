@@ -1,0 +1,14 @@
+{
+  "hash": "4c4fd19e3a15e683",
+  "source": "The open comments decide the state of a thread. The last open approval or change request wins: an approval after a change request clears it. Without one, an open suggestion makes the thread \"suggestion\", and an open comment makes it \"comments\". A thread whose comments are all resolved has no state.",
+  "text": "讨论串的状态由未解决的评论决定。最后一个未解决的批准或修改请求优先：修改请求之后的批准会将其清除。如果没有这两者，未解决的建议会使讨论串变为“建议”，未解决的评论会使其变为“评论”。所有评论都已解决的讨论串没有状态。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "讨论串的状态由未解决的评论决定。最后一个未解决的批准或修改请求优先：修改请求之后的批准会将其清除。如果没有这两者，未解决的建议会使讨论串变为“建议”，未解决的评论会使其变为“评论”。所有评论都已解决的讨论串没有状态。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

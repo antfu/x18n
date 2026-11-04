@@ -1,0 +1,14 @@
+{
+  "hash": "a161d2cce9434fe6",
+  "source": "Add a script to {0}:",
+  "text": "在 {0} 中添加一个脚本：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 {0} 中添加一个脚本："
+  },
+  "updatedAt": "2026-11-04T02:01:28.918Z"
+}

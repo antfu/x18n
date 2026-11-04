@@ -1,0 +1,14 @@
+{
+  "hash": "af682d7cc0eb0ca0",
+  "source": "Locale codes as written in paths. Filters the found locales.",
+  "text": "路径中书写的语言代码。用于筛选找到的语言。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "路径中书写的语言代码。用于筛选找到的语言。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

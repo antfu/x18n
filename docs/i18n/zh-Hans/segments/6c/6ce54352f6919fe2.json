@@ -1,0 +1,14 @@
+{
+  "hash": "6ce54352f6919fe2",
+  "source": "Lists review threads with their state. {0} and {1} filter them.",
+  "text": "列出审阅线程及其状态。{0} 和 {1} 可用于筛选。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "列出审阅线程及其状态。{0} 和 {1} 可用于筛选。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "558f3bbfaa22cb93",
+  "source": "The default export of the package is a plugin, a preset, or a function that takes options and returns one:",
+  "text": "包的默认导出是一个插件、一个预设，或是一个接收选项并返回插件或预设的函数：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "包的默认导出是一个插件、一个预设，或是一个接收选项并返回插件或预设的函数："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

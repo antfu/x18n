@@ -1,0 +1,14 @@
+{
+  "hash": "4d2ec4e655a1b10c",
+  "source": "The preset for i18nice and python-i18n. It reads {namespace}.{locale}.yml files with their top-level locale key, and i18n.t calls.",
+  "text": "适用于 i18nice 和 python-i18n 的预设。它会读取带有顶层语言键的 {namespace}.{locale}.yml 文件，以及 i18n.t 调用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "适用于 i18nice 和 python-i18n 的预设。它会读取带有顶层语言键的 {namespace}.{locale}.yml 文件，以及 i18n.t 调用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

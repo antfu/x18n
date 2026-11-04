@@ -1,0 +1,14 @@
+{
+  "hash": "0569515dd759eefc",
+  "source": "The preset for Globalize. It reads formatMessage and messageFormatter calls with paths such as greetings/hello.",
+  "text": "Globalize 的预设。它会读取 formatMessage 和 messageFormatter 调用中的 greetings/hello 等路径。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Globalize 的预设。它会读取 formatMessage 和 messageFormatter 调用中的 greetings/hello 等路径。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

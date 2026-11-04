@@ -1,0 +1,14 @@
+{
+  "hash": "9dfa617248b55b04",
+  "source": "In Rust files, the preset reads the {0} macro. The first argument can be the loader, or it can be absent when you use a wrapper macro:",
+  "text": "在 Rust 文件中，该预设会读取 {0} 宏。第一个参数可以是 loader；使用包装宏时，也可以省略它：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 Rust 文件中，该预设会读取 {0} 宏。第一个参数可以是 loader；使用包装宏时，也可以省略它："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

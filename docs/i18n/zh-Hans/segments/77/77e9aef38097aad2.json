@@ -1,0 +1,14 @@
+{
+  "hash": "77e9aef38097aad2",
+  "source": "Display data for a locale code. The first plugin that returns a value wins.",
+  "text": "语言代码的显示数据。第一个返回值的插件生效。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言代码的显示数据。第一个返回值的插件生效。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

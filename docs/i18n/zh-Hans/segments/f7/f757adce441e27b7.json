@@ -1,0 +1,14 @@
+{
+  "hash": "f757adce441e27b7",
+  "source": "Each locale needs the plural categories of its own language, from {0}. With {1} and {2} in English:",
+  "text": "每种语言都需要其自身语言的复数类别，来源于 {0}。以英语中的 {1} 和 {2} 为例：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每种语言都需要其自身语言的复数类别，来源于 {0}。以英语中的 {1} 和 {2} 为例："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

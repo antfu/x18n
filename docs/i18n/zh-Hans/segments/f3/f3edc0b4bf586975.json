@@ -1,0 +1,14 @@
+{
+  "hash": "f3edc0b4bf586975",
+  "source": "Work on one project of a monorepo.",
+  "text": "处理 monorepo 中的某一个项目。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "处理 monorepo 中的某一个项目。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

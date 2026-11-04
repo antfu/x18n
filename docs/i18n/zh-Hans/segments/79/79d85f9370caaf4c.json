@@ -1,0 +1,14 @@
+{
+  "hash": "79d85f9370caaf4c",
+  "source": "Run the command again with {0} to accept the default answer of each decision.",
+  "text": "加上 {0} 重新运行命令，即可接受每个决定的默认答案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "加上 {0} 重新运行命令，即可接受每个决定的默认答案。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

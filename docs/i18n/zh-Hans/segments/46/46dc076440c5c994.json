@@ -1,0 +1,14 @@
+{
+  "hash": "46dc076440c5c994",
+  "source": "Each problem starts with the path, the line and the column. The next line has the severity, the message and the check id. A code frame follows, with one line of context on each side. The last line counts the errors, the warnings and the files. Paths are relative to the current directory, so editors and terminals can open them.",
+  "text": "每个问题都以路径、行号和列号开头。下一行是严重级别、消息和检查 id。随后是代码片段，上下各带一行上下文。最后一行统计错误数、警告数和文件数。路径相对于当前目录，因此编辑器和终端可以直接打开。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每个问题都以路径、行号和列号开头。下一行是严重级别、消息和检查 id。随后是代码片段，上下各带一行上下文。最后一行统计错误数、警告数和文件数。路径相对于当前目录，因此编辑器和终端可以直接打开。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

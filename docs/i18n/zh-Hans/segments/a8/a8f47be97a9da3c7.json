@@ -1,0 +1,14 @@
+{
+  "hash": "a8f47be97a9da3c7",
+  "source": "The {0} line gives validation and completion in the editor. {1} prints the same JSON Schema.",
+  "text": "{0} 这一行可在编辑器中提供校验和自动补全。{1} 会输出相同的 JSON Schema。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 这一行可在编辑器中提供校验和自动补全。{1} 会输出相同的 JSON Schema。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

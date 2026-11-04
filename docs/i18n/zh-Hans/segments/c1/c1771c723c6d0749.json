@@ -1,0 +1,14 @@
+{
+  "hash": "c1771c723c6d0749",
+  "source": "{0} prints the {1} skill, so this works in any agent, with or without a skills system. See {2}The x18n skills{/2} for what the skill does. To set x18n up yourself, follow the steps below.",
+  "text": "{0} 会输出 {1} skill，因此无论智能体是否带有 skills 系统，都可以使用。关于该 skill 的作用，参见{2}x18n skills{/2}。如果想自己动手设置 x18n，请按照下面的步骤操作。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会输出 {1} skill，因此无论智能体是否带有 skills 系统，都可以使用。关于该 skill 的作用，参见{2}x18n skills{/2}。如果想自己动手设置 x18n，请按照下面的步骤操作。"
+  },
+  "updatedAt": "2026-11-04T02:09:14.276Z"
+}

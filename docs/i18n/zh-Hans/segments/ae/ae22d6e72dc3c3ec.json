@@ -1,0 +1,14 @@
+{
+  "hash": "ae22d6e72dc3c3ec",
+  "source": "The command prints the URL and a bearer token:",
+  "text": "该命令会打印 URL 和一个 bearer 令牌：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该命令会打印 URL 和一个 bearer 令牌："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

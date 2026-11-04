@@ -1,0 +1,14 @@
+{
+  "hash": "201cdc5e471e0870",
+  "source": "Locale file is not static. Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.",
+  "text": "语言文件不是静态的。请使用 JSON 或 YAML，或在资源模式上通过 `execute: true` 选择启用执行。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言文件不是静态的。请使用 JSON 或 YAML，或在资源模式上通过 `execute: true` 选择启用执行。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

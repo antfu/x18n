@@ -1,0 +1,14 @@
+{
+  "hash": "9576e95ca869bf25",
+  "source": "scope (that is a code region)",
+  "text": "scope（这指的是代码区域）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "scope（这指的是代码区域）"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

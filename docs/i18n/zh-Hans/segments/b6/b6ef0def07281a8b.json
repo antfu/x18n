@@ -1,0 +1,14 @@
+{
+  "hash": "b6ef0def07281a8b",
+  "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
+  "text": "控制流块的参数，例如 {0}、{1}、{2}、{3} 和 {4}，以及 {5} 声明；块的内容仍会被扫描，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "控制流块的参数，例如 {0}、{1}、{2}、{3} 和 {4}，以及 {5} 声明；块的内容仍会被扫描，"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

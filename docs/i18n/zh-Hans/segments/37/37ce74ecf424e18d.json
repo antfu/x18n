@@ -1,0 +1,14 @@
+{
+  "hash": "37ce74ecf424e18d",
+  "source": "Positional braces: {0}. Braces: {1}. Linked messages: {2} and {3}.",
+  "text": "位置花括号：{0}。花括号：{1}。链接消息：{2} 和 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "位置花括号：{0}。花括号：{1}。链接消息：{2} 和 {3}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

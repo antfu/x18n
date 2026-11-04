@@ -1,0 +1,14 @@
+{
+  "hash": "ab8bf326455af5b7",
+  "source": "{0}, {1}, {2} and {3} are translate calls with the key as the first argument.",
+  "text": "{0}、{1}、{2} 和 {3} 是翻译调用，第一个参数为键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2} 和 {3} 是翻译调用，第一个参数为键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d4ecd44620809e06",
+  "source": "the locales of its {0}fallback chain{/0}, such as {1} for {2} with {3},",
+  "text": "其{0}回退链{/0}中的语言，例如 {2} 在 {3} 下的 {1}，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "其{0}回退链{/0}中的语言，例如 {2} 在 {3} 下的 {1}，"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b128d510ad633c72",
+  "source": "Format id for the matching files, for example {0} or {1}. Without it, the file extension picks the format.",
+  "text": "匹配文件的格式 id，例如 {0} 或 {1}。未设置时，由文件扩展名决定格式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "匹配文件的格式 id，例如 {0} 或 {1}。未设置时，由文件扩展名决定格式。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

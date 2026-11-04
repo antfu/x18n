@@ -1,0 +1,14 @@
+{
+  "hash": "8dffa12b9c57651a",
+  "source": "x18n: Extract All Hard Strings in File",
+  "text": "x18n: 提取文件中的所有硬编码字符串",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: 提取文件中的所有硬编码字符串"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

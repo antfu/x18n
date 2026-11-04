@@ -1,0 +1,14 @@
+{
+  "hash": "a7039c45769a316f",
+  "source": "{0} extracts every candidate with its proposed key.",
+  "text": "{0} 会使用建议的键提取所有候选项。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会使用建议的键提取所有候选项。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

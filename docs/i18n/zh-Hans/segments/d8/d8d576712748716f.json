@@ -1,0 +1,14 @@
+{
+  "hash": "d8d576712748716f",
+  "source": "The versioned JSON output of the CLI, shared by the LSP, the UI and MCP.",
+  "text": "CLI 输出的带版本号的 JSON，由 LSP、UI 和 MCP 共用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI 输出的带版本号的 JSON，由 LSP、UI 和 MCP 共用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

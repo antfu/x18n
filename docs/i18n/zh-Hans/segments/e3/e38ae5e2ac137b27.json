@@ -1,0 +1,14 @@
+{
+  "hash": "e38ae5e2ac137b27",
+  "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
+  "text": "替换模板，优先于预设中的模板尝试。参见{0}提取模板{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "替换模板，优先于预设中的模板尝试。参见{0}提取模板{/0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

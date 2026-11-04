@@ -1,0 +1,14 @@
+{
+  "hash": "9f8d134759f83ab1",
+  "source": "Change the severity, or turn the check off, in {0}:",
+  "text": "你可以在 {0} 中更改严重级别，或关闭该检查：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "你可以在 {0} 中更改严重级别，或关闭该检查："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

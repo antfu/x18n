@@ -1,0 +1,14 @@
+{
+  "hash": "b35ed9be31f28ae9",
+  "source": "With the default separator {0}, the namespace is the first part of the key path. The key {1} in {2} is {3}. vue-i18n works this way.",
+  "text": "使用默认分隔符 {0} 时，命名空间是键路径的第一部分。{2} 中的键 {1} 是 {3}。vue-i18n 就是这样工作的。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用默认分隔符 {0} 时，命名空间是键路径的第一部分。{2} 中的键 {1} 是 {3}。vue-i18n 就是这样工作的。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

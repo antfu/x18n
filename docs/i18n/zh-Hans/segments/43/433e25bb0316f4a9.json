@@ -1,0 +1,14 @@
+{
+  "hash": "433e25bb0316f4a9",
+  "source": "One root config with projects, each project with its own locales and its own config.",
+  "text": "一个根配置包含多个项目，每个项目有各自的语言文件和各自的配置。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一个根配置包含多个项目，每个项目有各自的语言文件和各自的配置。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

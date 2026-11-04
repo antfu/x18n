@@ -1,0 +1,14 @@
+{
+  "hash": "1a32b3657f3260a2",
+  "source": "Where the locale files are. Each pattern feeds the {0} locale finder. Without patterns, the patterns of all applied presets add up. If they match no file, x18n looks for directories named like {1}.",
+  "text": "语言文件所在的位置。每个模式都会交给 {0} 语言查找器。如果没有设置模式，则会累加所有已应用预设的模式。如果这些模式没有匹配到任何文件，x18n 会查找名称类似 {1} 的目录。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言文件所在的位置。每个模式都会交给 {0} 语言查找器。如果没有设置模式，则会累加所有已应用预设的模式。如果这些模式没有匹配到任何文件，x18n 会查找名称类似 {1} 的目录。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

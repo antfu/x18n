@@ -1,0 +1,14 @@
+{
+  "hash": "5a452c1c7d62776c",
+  "source": "Only in these locales. Default: all.",
+  "text": "仅在这些语言中删除。默认：全部。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "仅在这些语言中删除。默认：全部。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

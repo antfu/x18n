@@ -1,0 +1,14 @@
+{
+  "hash": "f65c31c698b324e9",
+  "source": "Single braces: {0}. {1} is always available, as {2} passes it.",
+  "text": "单花括号：{0}。{1} 始终可用，因为 {2} 会传入它。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "单花括号：{0}。{1} 始终可用，因为 {2} 会传入它。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

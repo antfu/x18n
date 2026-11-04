@@ -1,0 +1,14 @@
+{
+  "hash": "e6947909407068b3",
+  "source": "The preset sets no resource patterns. Without {0} in the config, x18n looks for directories such as {1}.",
+  "text": "该预设不设置任何资源模式。如果配置中没有 {0}，x18n 会查找诸如 {1} 之类的目录。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该预设不设置任何资源模式。如果配置中没有 {0}，x18n 会查找诸如 {1} 之类的目录。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

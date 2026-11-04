@@ -1,0 +1,14 @@
+{
+  "hash": "b0fb27f5c8e83a97",
+  "source": "{0} prints the TypeScript version of a YAML plugin. It uses the same built-in functions, so the result behaves the same:",
+  "text": "{0} 会输出 YAML 插件对应的 TypeScript 版本。它使用相同的内置函数，因此行为一致：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会输出 YAML 插件对应的 TypeScript 版本。它使用相同的内置函数，因此行为一致："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "477ab3f866fc9d42",
+  "source": "The text in the file at {0}, used to detect stale plans.",
+  "text": "文件中位于 {0} 的文本，用于检测过期的计划。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "文件中位于 {0} 的文本，用于检测过期的计划。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

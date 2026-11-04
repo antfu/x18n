@@ -1,0 +1,14 @@
+{
+  "hash": "282c4ac7a2c3c70b",
+  "source": "{0} returns the path in the file of a key path. x18n writes edits to that path.",
+  "text": "{0} 返回某个键路径在文件中的路径。x18n 会把修改写入该路径。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 返回某个键路径在文件中的路径。x18n 会把修改写入该路径。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

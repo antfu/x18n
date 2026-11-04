@@ -1,0 +1,14 @@
+{
+  "hash": "3ebc25fbea7c0363",
+  "source": "The {0} preset supports the {1}i18n API of Chrome extensions{/1}, and of WebExtensions in other browsers.",
+  "text": "{0} 预设支持 {1}Chrome 扩展的 i18n API{/1}，也支持其他浏览器中的 WebExtension。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持 {1}Chrome 扩展的 i18n API{/1}，也支持其他浏览器中的 WebExtension。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "73bf1e3b2bb922d5",
+  "source": "A message with an open \"request change\" review.",
+  "text": "某条消息存在未关闭的「请求修改」审阅。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某条消息存在未关闭的「请求修改」审阅。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

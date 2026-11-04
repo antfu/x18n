@@ -1,0 +1,14 @@
+{
+  "hash": "2cf5d823cc74fa18",
+  "source": "{0}: an {1} folder next to a component. The component folder names the keyset, so {2} holds the keyset {3}.",
+  "text": "{0}：位于组件旁边的 {1} 文件夹。组件文件夹的名称即为 keyset 的名称，因此 {2} 存放 keyset {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：位于组件旁边的 {1} 文件夹。组件文件夹的名称即为 keyset 的名称，因此 {2} 存放 keyset {3}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

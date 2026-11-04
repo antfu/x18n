@@ -1,0 +1,14 @@
+{
+  "hash": "b670ef9471bb5d0c",
+  "source": "Type names that make a parameter a translate function, such as {0}.",
+  "text": "使参数成为翻译函数的类型名称，例如 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使参数成为翻译函数的类型名称，例如 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

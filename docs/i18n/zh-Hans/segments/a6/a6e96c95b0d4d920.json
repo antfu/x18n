@@ -1,0 +1,14 @@
+{
+  "hash": "a6e96c95b0d4d920",
+  "source": "Providers in a file that names no component, such as a shared list, reach the folder of that file and the folders under it.",
+  "text": "文件中未指明任何组件的 provider（例如共享列表），作用于该文件所在的文件夹及其下的各级文件夹。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "文件中未指明任何组件的 provider（例如共享列表），作用于该文件所在的文件夹及其下的各级文件夹。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

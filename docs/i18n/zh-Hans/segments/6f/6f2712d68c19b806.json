@@ -1,0 +1,14 @@
+{
+  "hash": "6f2712d68c19b806",
+  "source": "Print the JSON contract instead of human output",
+  "text": "输出 JSON 约定格式，而不是面向人的输出",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "输出 JSON 约定格式，而不是面向人的输出"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

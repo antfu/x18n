@@ -1,0 +1,14 @@
+{
+  "hash": "b0e8bf90966282e5",
+  "source": "Text of the message, as seen in the app, in any locale.",
+  "text": "消息的文本，即在应用中看到的内容，可以是任意语言。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "消息的文本，即在应用中看到的内容，可以是任意语言。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

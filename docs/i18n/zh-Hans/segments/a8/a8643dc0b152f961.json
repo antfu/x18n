@@ -1,0 +1,14 @@
+{
+  "hash": "a8643dc0b152f961",
+  "source": "{0}: comments keep their id, author, time and resolved state; {1} becomes {2}; a comment with a {3} becomes a {4}; a translation candidate becomes a {5} too.",
+  "text": "{0}：评论保留其 id、作者、时间和已解决状态；{1} 会变成 {2}；带有 {3} 的评论会变成 {4}；翻译候选项也会变成 {5}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：评论保留其 id、作者、时间和已解决状态；{1} 会变成 {2}；带有 {3} 的评论会变成 {4}；翻译候选项也会变成 {5}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

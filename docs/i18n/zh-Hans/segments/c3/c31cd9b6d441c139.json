@@ -1,0 +1,14 @@
+{
+  "hash": "c31cd9b6d441c139",
+  "source": "The preset for flutter_i18n. It reads JSON and YAML assets, FlutterI18n.translate and the I18nText widgets in Dart.",
+  "text": "flutter_i18n 的预设。它可以读取 JSON 和 YAML 资源文件，以及 Dart 中的 FlutterI18n.translate 和 I18nText 组件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "flutter_i18n 的预设。它可以读取 JSON 和 YAML 资源文件，以及 Dart 中的 FlutterI18n.translate 和 I18nText 组件。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

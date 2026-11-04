@@ -1,0 +1,14 @@
+{
+  "hash": "90367bbc48430e68",
+  "source": "The built-in formats read JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, PHP arrays, .NET resx, XLIFF, XMB and XTB, ARB and static JS or TS modules. They also read Vue {0} and {1} blocks. For a library or format that x18n does not support, {2}write a plugin{/2} in YAML or TypeScript.",
+  "text": "内置格式可读取 JSON、JSONC、JSON5、YAML、gettext PO、Java properties、Fluent FTL、INI、PHP 数组、.NET resx、XLIFF、XMB 和 XTB、ARB，以及静态 JS 或 TS 模块。它们还可以读取 Vue 的 {0} 和 {1} 块。对于 x18n 不支持的库或格式，可以用 YAML 或 TypeScript {2}编写插件{/2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "内置格式可读取 JSON、JSONC、JSON5、YAML、gettext PO、Java properties、Fluent FTL、INI、PHP 数组、.NET resx、XLIFF、XMB 和 XTB、ARB，以及静态 JS 或 TS 模块。它们还可以读取 Vue 的 {0} 和 {1} 块。对于 x18n 不支持的库或格式，可以用 YAML 或 TypeScript {2}编写插件{/2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

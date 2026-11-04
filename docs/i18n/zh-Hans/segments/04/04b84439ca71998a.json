@@ -1,0 +1,14 @@
+{
+  "hash": "04b84439ca71998a",
+  "source": "Paths in a project config are relative to the project directory. A project directory without a config file is a project with the root options and its own detection.",
+  "text": "项目配置中的路径相对于项目目录。没有配置文件的项目目录，是使用根配置选项并自行检测的项目。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "项目配置中的路径相对于项目目录。没有配置文件的项目目录，是使用根配置选项并自行检测的项目。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

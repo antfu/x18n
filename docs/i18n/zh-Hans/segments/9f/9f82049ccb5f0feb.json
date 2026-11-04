@@ -1,0 +1,14 @@
+{
+  "hash": "9f82049ccb5f0feb",
+  "source": "Display the help of a command",
+  "text": "显示命令的帮助",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "显示命令的帮助"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

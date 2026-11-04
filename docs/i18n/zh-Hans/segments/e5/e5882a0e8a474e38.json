@@ -1,0 +1,14 @@
+{
+  "hash": "e5882a0e8a474e38",
+  "source": "Also translate values that checks report in the target locale. Without ids, every check; with ids (comma separated), only those checks.",
+  "text": "同时翻译检查在目标语言中报告的值。不带 id 时包含所有检查；带 id（以逗号分隔）时仅包含这些检查。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同时翻译检查在目标语言中报告的值。不带 id 时包含所有检查；带 id（以逗号分隔）时仅包含这些检查。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

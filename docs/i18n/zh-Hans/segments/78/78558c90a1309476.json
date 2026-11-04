@@ -1,0 +1,14 @@
+{
+  "hash": "78558c90a1309476",
+  "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
+  "text": "作用域是带有默认命名空间或键前缀的一段代码区域。在 react-i18next 中，{0} 会使使用该 {3} 的代码中的 {1} 表示 {2}。在 next-intl 中，{4} 会使 {5} 表示 {6}。预设了解这些工厂函数。YAML 插件可以通过正则表达式添加作用域。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "作用域是带有默认命名空间或键前缀的一段代码区域。在 react-i18next 中，{0} 会使使用该 {3} 的代码中的 {1} 表示 {2}。在 next-intl 中，{4} 会使 {5} 表示 {6}。预设了解这些工厂函数。YAML 插件可以通过正则表达式添加作用域。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

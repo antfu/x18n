@@ -1,0 +1,14 @@
+{
+  "hash": "58d393b7395fa91c",
+  "source": "{0} (default), {1} for {2}, or {3} for a member chain on a root.",
+  "text": "{0}（默认）、用于 {2} 的 {1}，或用于根对象上成员链的 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}（默认）、用于 {2} 的 {1}，或用于根对象上成员链的 {3}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

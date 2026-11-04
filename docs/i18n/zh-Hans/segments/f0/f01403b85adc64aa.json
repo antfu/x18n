@@ -1,0 +1,14 @@
+{
+  "hash": "f01403b85adc64aa",
+  "source": "{0} receives the final, frozen config. Read plugin options from {1} here.",
+  "text": "{0} 接收最终的、已冻结的配置。请在这里从 {1} 读取插件选项。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 接收最终的、已冻结的配置。请在这里从 {1} 读取插件选项。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

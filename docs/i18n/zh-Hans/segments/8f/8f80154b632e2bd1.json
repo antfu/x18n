@@ -1,0 +1,14 @@
+{
+  "hash": "8f80154b632e2bd1",
+  "source": "{0} replaces a hard string with code from a template. A template has these tokens:",
+  "text": "{0} 会用模板生成的代码替换硬编码字符串。模板包含以下标记：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会用模板生成的代码替换硬编码字符串。模板包含以下标记："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

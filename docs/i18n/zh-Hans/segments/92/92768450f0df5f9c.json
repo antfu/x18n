@@ -1,0 +1,14 @@
+{
+  "hash": "92768450f0df5f9c",
+  "source": "Composite format items: {0}, {1}, {2}, {3} and {4}. {5} and {6} are literal braces, not placeholders.",
+  "text": "复合格式项：{0}、{1}、{2}、{3} 和 {4}。{5} 和 {6} 是字面的花括号，不是占位符。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "复合格式项：{0}、{1}、{2}、{3} 和 {4}。{5} 和 {6} 是字面的花括号，不是占位符。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

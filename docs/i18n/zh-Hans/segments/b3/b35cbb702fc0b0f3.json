@@ -1,0 +1,14 @@
+{
+  "hash": "b35cbb702fc0b0f3",
+  "source": "Skip the files that {0} files ignore. Default {1}. Set {2} to scan a checkout that git ignores, such as a clone of the sources in a translations repository.",
+  "text": "跳过被 {0} 文件忽略的文件。默认值为 {1}。若要扫描被 git 忽略的检出目录（例如翻译仓库中的源码克隆），请设置 {2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "跳过被 {0} 文件忽略的文件。默认值为 {1}。若要扫描被 git 忽略的检出目录（例如翻译仓库中的源码克隆），请设置 {2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

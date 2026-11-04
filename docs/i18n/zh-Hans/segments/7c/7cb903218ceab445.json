@@ -1,0 +1,14 @@
+{
+  "hash": "7cb903218ceab445",
+  "source": "Messages per prompt. Default 50.",
+  "text": "每个提示包含的消息数。默认为 50。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每个提示包含的消息数。默认为 50。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

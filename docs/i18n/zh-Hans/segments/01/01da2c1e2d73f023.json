@@ -1,0 +1,14 @@
+{
+  "hash": "01da2c1e2d73f023",
+  "source": "The locale shown in annotations and hovers. Per user.",
+  "text": "在标注和悬停提示中显示的语言，按用户设置。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在标注和悬停提示中显示的语言，按用户设置。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

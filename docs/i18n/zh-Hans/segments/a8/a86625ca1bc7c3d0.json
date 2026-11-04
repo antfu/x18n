@@ -1,0 +1,14 @@
+{
+  "hash": "a86625ca1bc7c3d0",
+  "source": "Finds usages in source files.",
+  "text": "在源文件中查找引用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在源文件中查找引用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

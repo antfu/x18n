@@ -1,0 +1,14 @@
+{
+  "hash": "6047114fba343127",
+  "source": "The locale code, as written in the path: {0}, {1}, {2}.",
+  "text": "语言代码，与路径中的写法一致：{0}、{1}、{2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言代码，与路径中的写法一致：{0}、{1}、{2}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

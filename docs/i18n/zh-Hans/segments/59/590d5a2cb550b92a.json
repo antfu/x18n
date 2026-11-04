@@ -1,0 +1,14 @@
+{
+  "hash": "590d5a2cb550b92a",
+  "source": "Suggests a value, for a human to apply.",
+  "text": "提出建议值，由人工决定是否应用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "提出建议值，由人工决定是否应用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

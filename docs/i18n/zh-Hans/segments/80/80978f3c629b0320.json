@@ -1,0 +1,14 @@
+{
+  "hash": "80978f3c629b0320",
+  "source": "{0}: x18n keeps resolved reviews, and {1} hides them. Key descriptions in the review file are dropped too. The command prints a note for each.",
+  "text": "{0}：x18n 会保留已解决的审阅，而 {1} 会将其隐藏。审阅文件中的键描述也会被丢弃。该命令会为每一项输出一条提示。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：x18n 会保留已解决的审阅，而 {1} 会将其隐藏。审阅文件中的键描述也会被丢弃。该命令会为每一项输出一条提示。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

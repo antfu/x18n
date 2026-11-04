@@ -1,0 +1,14 @@
+{
+  "hash": "ccbe028049531036",
+  "source": "Only report for these locales (repeatable)",
+  "text": "仅报告这些语言（可重复）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "仅报告这些语言（可重复）"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

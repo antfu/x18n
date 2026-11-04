@@ -1,0 +1,14 @@
+{
+  "hash": "25f4636e6bae755e",
+  "source": "Install the server once so that {0} is on your {1}:",
+  "text": "只需安装一次服务器，让 {0} 位于你的 {1} 中：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "只需安装一次服务器，让 {0} 位于你的 {1} 中："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

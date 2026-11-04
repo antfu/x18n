@@ -1,0 +1,14 @@
+{
+  "hash": "5c876f7edb63eff1",
+  "source": "Pick the output format. See {0}Reporters{/0}.",
+  "text": "选择输出格式。参见{0}报告器{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "选择输出格式。参见{0}报告器{/0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

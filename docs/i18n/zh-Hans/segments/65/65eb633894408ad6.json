@@ -1,0 +1,14 @@
+{
+  "hash": "65eb633894408ad6",
+  "source": "The resource patterns of all applied presets add up. For example, a project with {0} and {1} uses the patterns of both presets.",
+  "text": "所有已应用预设的资源模式会叠加在一起。例如，同时使用 {0} 和 {1} 的项目会使用这两个预设的模式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "所有已应用预设的资源模式会叠加在一起。例如，同时使用 {0} 和 {1} 的项目会使用这两个预设的模式。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

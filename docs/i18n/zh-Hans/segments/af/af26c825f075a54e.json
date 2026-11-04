@@ -1,0 +1,14 @@
+{
+  "hash": "af26c825f075a54e",
+  "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
+  "text": "对消息添加评论、批准消息、请求修改并建议新值，所有内容保存在随分支一起流转的文件中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对消息添加评论、批准消息、请求修改并建议新值，所有内容保存在随分支一起流转的文件中。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

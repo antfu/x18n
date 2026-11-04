@@ -1,0 +1,14 @@
+{
+  "hash": "e9ec9bbbf7d13f1b",
+  "source": "interpolations ({0}) and ICU messages ({1}),",
+  "text": "插值（{0}）和 ICU 消息（{1}），",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插值（{0}）和 ICU 消息（{1}），"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

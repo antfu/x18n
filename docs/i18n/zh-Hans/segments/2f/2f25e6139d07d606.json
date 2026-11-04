@@ -1,0 +1,14 @@
+{
+  "hash": "2f25e6139d07d606",
+  "source": "The {0} preset supports the {1}localization of Laravel{/1}.",
+  "text": "{0} 预设支持 {1}Laravel 的本地化{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持 {1}Laravel 的本地化{/1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

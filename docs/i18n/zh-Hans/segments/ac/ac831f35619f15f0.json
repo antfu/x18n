@@ -1,0 +1,14 @@
+{
+  "hash": "ac831f35619f15f0",
+  "source": "The preset for Polyglot.js. It reads polyglot.t calls and %{name} placeholders.",
+  "text": "Polyglot.js 的预设。它会读取 polyglot.t 调用和 %{name} 占位符。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Polyglot.js 的预设。它会读取 polyglot.t 调用和 %{name} 占位符。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

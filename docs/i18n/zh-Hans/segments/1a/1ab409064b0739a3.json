@@ -1,0 +1,14 @@
+{
+  "hash": "1ab409064b0739a3",
+  "source": "The message ends with the error code, for example {0}. The {1}error page{/1} of that code tells you what to do.",
+  "text": "消息以错误码结尾，例如 {0}。该错误码对应的{1}错误页面{/1}会告诉你该怎么做。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "消息以错误码结尾，例如 {0}。该错误码对应的{1}错误页面{/1}会告诉你该怎么做。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

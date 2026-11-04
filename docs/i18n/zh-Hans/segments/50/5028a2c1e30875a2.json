@@ -1,0 +1,14 @@
+{
+  "hash": "5028a2c1e30875a2",
+  "source": "{0} prints each problem with its file, line and column:",
+  "text": "{0} 会打印每个问题及其所在的文件、行和列：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会打印每个问题及其所在的文件、行和列："
+  },
+  "updatedAt": "2026-11-04T02:01:28.918Z"
+}

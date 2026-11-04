@@ -1,0 +1,14 @@
+{
+  "hash": "acb977b3522f8dfe",
+  "source": "Renaming a parent node, which renames every key under it.",
+  "text": "重命名父节点，其下的每个键都会随之重命名。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "重命名父节点，其下的每个键都会随之重命名。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

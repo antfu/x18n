@@ -1,0 +1,14 @@
+{
+  "hash": "d6cf33227e272202",
+  "source": "Include the value per locale.",
+  "text": "包含每种语言的值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "包含每种语言的值。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

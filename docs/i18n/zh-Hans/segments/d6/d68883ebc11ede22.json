@@ -1,0 +1,14 @@
+{
+  "hash": "d68883ebc11ede22",
+  "source": "A repeatable option takes several values: {0}. Options that take a list also accept commas: {1}.",
+  "text": "可重复的选项可以接受多个值：{0}。接受列表的选项也支持用逗号分隔：{1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "可重复的选项可以接受多个值：{0}。接受列表的选项也支持用逗号分隔：{1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

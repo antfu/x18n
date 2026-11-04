@@ -1,0 +1,14 @@
+{
+  "hash": "81abb3e549ad38bd",
+  "source": "A path that ends in {0} or {1} loads as a YAML plugin.",
+  "text": "以 {0} 或 {1} 结尾的路径会作为 YAML 插件加载。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以 {0} 或 {1} 结尾的路径会作为 YAML 插件加载。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

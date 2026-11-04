@@ -1,0 +1,14 @@
+{
+  "hash": "3ed4d784e38ada80",
+  "source": "{0} adds the translations that the {1} check reports. Each item shows the source text from when the translation last changed. {2} adds the values that checks report in the target locale, such as {3}, {4} and {5}. A check must be on to report: {6} runs the checks of the config. Each item shows the current value and what was reported:",
+  "text": "{0} 会添加 {1} 检查所报告的翻译。每一项都显示该翻译上次更改时的源文本。{2} 会添加检查在目标语言中报告的值，例如 {3}、{4} 和 {5}。检查必须处于开启状态才会报告：{6} 会运行配置中的检查。每一项都显示当前值和被报告的内容：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会添加 {1} 检查所报告的翻译。每一项都显示该翻译上次更改时的源文本。{2} 会添加检查在目标语言中报告的值，例如 {3}、{4} 和 {5}。检查必须处于开启状态才会报告：{6} 会运行配置中的检查。每一项都显示当前值和被报告的内容："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

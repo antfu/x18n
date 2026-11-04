@@ -1,0 +1,14 @@
+{
+  "hash": "a393a579578b609f",
+  "source": "Accept default answers for decisions",
+  "text": "对需要决策的问题接受默认答案",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对需要决策的问题接受默认答案"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "654364402038892b",
+  "source": "Files changed while the command ran. Run it again.",
+  "text": "命令运行期间文件发生了变化。请重新运行。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "命令运行期间文件发生了变化。请重新运行。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

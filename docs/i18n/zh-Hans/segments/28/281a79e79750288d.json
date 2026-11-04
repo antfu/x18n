@@ -1,0 +1,14 @@
+{
+  "hash": "281a79e79750288d",
+  "source": "Extraction templates: the code that replaces a hard string.",
+  "text": "提取模板：用于替换硬编码字符串的代码。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "提取模板：用于替换硬编码字符串的代码。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

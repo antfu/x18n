@@ -1,0 +1,14 @@
+{
+  "hash": "892672cf47434faa",
+  "source": "Nuxt DevTools 4 runs on Vite DevTools, so the same plugin works. Add it to the Vite config of Nuxt:",
+  "text": "Nuxt DevTools 4 基于 Vite DevTools 运行，因此同一个插件同样适用。将它添加到 Nuxt 的 Vite 配置中：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nuxt DevTools 4 基于 Vite DevTools 运行，因此同一个插件同样适用。将它添加到 Nuxt 的 Vite 配置中："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

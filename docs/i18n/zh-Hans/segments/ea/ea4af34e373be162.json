@@ -1,0 +1,14 @@
+{
+  "hash": "ea4af34e373be162",
+  "source": "One i18n setup with one root, one config and one set of locales. A monorepo can have many.",
+  "text": "一套 i18n 配置，包含一个根目录、一份配置和一组语言。一个 monorepo 可以有多个项目。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一套 i18n 配置，包含一个根目录、一份配置和一组语言。一个 monorepo 可以有多个项目。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

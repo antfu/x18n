@@ -1,0 +1,14 @@
+{
+  "hash": "6df1bb18a59ab97d",
+  "source": "Skill",
+  "text": "技能",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "技能"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

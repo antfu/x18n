@@ -1,0 +1,14 @@
+{
+  "hash": "4665ac3e9eb76864",
+  "source": "The first digit is the group:",
+  "text": "第一位数字表示分组：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "第一位数字表示分组："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

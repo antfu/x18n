@@ -1,0 +1,14 @@
+{
+  "hash": "ae9f2b97ee603869",
+  "source": "{0} needs {1} (or {2} to read stdin).",
+  "text": "{0} 需要 {1}（或使用 {2} 从 stdin 读取）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 需要 {1}（或使用 {2} 从 stdin 读取）。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

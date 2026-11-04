@@ -1,0 +1,14 @@
+{
+  "hash": "618556b36b78d6df",
+  "source": "{0} serves the tools over stdin and stdout. The agent starts the command itself. Most agents read a config like this one. The exact file and keys depend on the agent:",
+  "text": "{0} 通过 stdin 和 stdout 提供这些工具。智能体会自行启动该命令。大多数智能体都会读取类似下面的配置，具体的文件和键取决于智能体：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 通过 stdin 和 stdout 提供这些工具。智能体会自行启动该命令。大多数智能体都会读取类似下面的配置，具体的文件和键取决于智能体："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

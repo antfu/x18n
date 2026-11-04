@@ -1,0 +1,14 @@
+{
+  "hash": "3178094e7b9d5c55",
+  "source": "Set the separator and the default namespace with the {0} option. The i18next presets set both.",
+  "text": "使用 {0} 选项设置分隔符和默认命名空间。i18next 预设会同时设置这两项。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 选项设置分隔符和默认命名空间。i18next 预设会同时设置这两项。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

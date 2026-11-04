@@ -1,0 +1,14 @@
+{
+  "hash": "973f821ff3cec652",
+  "source": "Lines added once per file when missing, for example an import.",
+  "text": "缺失时每个文件只添加一次的行，例如 import 语句。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "缺失时每个文件只添加一次的行，例如 import 语句。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

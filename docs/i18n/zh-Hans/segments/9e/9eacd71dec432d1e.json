@@ -1,0 +1,14 @@
+{
+  "hash": "9eacd71dec432d1e",
+  "source": "x18n has one versioned JSON contract. The CLI prints it with {0}. The LSP {1} requests, the UI RPC functions and the MCP tools use the same shapes.",
+  "text": "x18n 只有一份带版本号的 JSON 契约。CLI 使用 {0} 输出它。LSP 的 {1} 请求、UI 的 RPC 函数和 MCP 工具都使用相同的结构。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 只有一份带版本号的 JSON 契约。CLI 使用 {0} 输出它。LSP 的 {1} 请求、UI 的 RPC 函数和 MCP 工具都使用相同的结构。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

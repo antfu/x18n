@@ -1,0 +1,14 @@
+{
+  "hash": "91bd5535bfa72b1a",
+  "source": "Reviews: every message with open {0}review{/0} comments, filtered by state. Keys can also be filtered to those with open reviews.",
+  "text": "审阅：每条带有未解决{0}审阅{/0}评论的消息，可按状态筛选。也可以将键筛选为有未解决审阅的键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "审阅：每条带有未解决{0}审阅{/0}评论的消息，可按状态筛选。也可以将键筛选为有未解决审阅的键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

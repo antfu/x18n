@@ -1,0 +1,14 @@
+{
+  "hash": "f211d9cb82e32c46",
+  "source": "Run {0} with no command to see the status of the project and the main commands.",
+  "text": "不带任何命令运行 {0}，即可查看项目状态和主要命令。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不带任何命令运行 {0}，即可查看项目状态和主要命令。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6cf2da57e74a0930",
+  "source": "Does a scanner read my source files?",
+  "text": "扫描器是否读取了我的源文件？",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "扫描器是否读取了我的源文件？"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e8fd9a7fbf3e26a1",
+  "source": "The canonical id of a message: namespace plus path. String form {0}. With {1} the path is one literal segment ({2}).",
+  "text": "消息的规范 id：命名空间加路径。字符串形式为 {0}。使用 {1} 时，路径是一个字面量段（{2}）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "消息的规范 id：命名空间加路径。字符串形式为 {0}。使用 {1} 时，路径是一个字面量段（{2}）。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

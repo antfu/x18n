@@ -1,0 +1,14 @@
+{
+  "hash": "0fbccdb9e9b3a5f7",
+  "source": "With {0}, every command prints one JSON document to stdout:",
+  "text": "使用 {0} 时，每个命令都会向 stdout 输出一个 JSON 文档：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 时，每个命令都会向 stdout 输出一个 JSON 文档："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

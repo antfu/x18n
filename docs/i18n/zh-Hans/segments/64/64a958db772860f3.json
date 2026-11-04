@@ -1,0 +1,14 @@
+{
+  "hash": "64a958db772860f3",
+  "source": "{0} lists the origin of each value: {1}, {2}, {3}, or {4}.",
+  "text": "{0} 会列出每个值的来源：{1}、{2}、{3} 或 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会列出每个值的来源：{1}、{2}、{3} 或 {4}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6b96e63024d19d45",
+  "source": "The {0} preset supports {1}i18nice{/1} and {2}python-i18n{/2}, the library that i18nice forked.",
+  "text": "{0} 预设支持 {1}i18nice{/1} 和 {2}python-i18n{/2}，后者是 i18nice 所派生自的库。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持 {1}i18nice{/1} 和 {2}python-i18n{/2}，后者是 i18nice 所派生自的库。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

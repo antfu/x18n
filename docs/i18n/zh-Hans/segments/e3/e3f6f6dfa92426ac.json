@@ -1,0 +1,14 @@
+{
+  "hash": "e3f6f6dfa92426ac",
+  "source": "Diagnostics, paged, filtered by check and locale.",
+  "text": "分页返回的诊断信息，可按检查和语言过滤。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "分页返回的诊断信息，可按检查和语言过滤。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

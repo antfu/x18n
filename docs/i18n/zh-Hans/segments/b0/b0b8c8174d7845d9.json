@@ -1,0 +1,14 @@
+{
+  "hash": "b0b8c8174d7845d9",
+  "source": "{0} lists the usages that x18n found in one file.",
+  "text": "{0} 列出 x18n 在某个文件中找到的引用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 列出 x18n 在某个文件中找到的引用。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

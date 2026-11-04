@@ -1,0 +1,14 @@
+{
+  "hash": "4dc26fefe58507ef",
+  "source": "Fail when there are more warnings",
+  "text": "警告数量超出时失败",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "警告数量超出时失败"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

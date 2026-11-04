@@ -1,0 +1,14 @@
+{
+  "hash": "713e64e2a31416d6",
+  "source": "The preset for es2015-i18n-tag. It reads i18n tagged templates in JS, TS and Vue files.",
+  "text": "es2015-i18n-tag 的预设。它会读取 JS、TS 和 Vue 文件中的 i18n 标签模板。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "es2015-i18n-tag 的预设。它会读取 JS、TS 和 Vue 文件中的 i18n 标签模板。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

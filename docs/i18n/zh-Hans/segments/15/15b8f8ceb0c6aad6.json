@@ -1,0 +1,14 @@
+{
+  "hash": "15b8f8ceb0c6aad6",
+  "source": "Locale files drift as a project grows:",
+  "text": "随着项目增长，语言文件会逐渐失去同步：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "随着项目增长，语言文件会逐渐失去同步："
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

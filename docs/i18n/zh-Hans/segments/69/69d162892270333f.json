@@ -1,0 +1,14 @@
+{
+  "hash": "69d162892270333f",
+  "source": "Fix the reported keys.",
+  "text": "修复报告中的键。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "修复报告中的键。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

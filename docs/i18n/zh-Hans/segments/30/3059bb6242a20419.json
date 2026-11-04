@@ -1,0 +1,14 @@
+{
+  "hash": "3059bb6242a20419",
+  "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
+  "text": "语言文件已成功解析，但其顶层不是消息对象。语言文件应包含嵌套的对象，其叶子节点为字符串、数字、布尔值或 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "语言文件已成功解析，但其顶层不是消息对象。语言文件应包含嵌套的对象，其叶子节点为字符串、数字、布尔值或 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5e50f9c2c06c7cc0",
+  "source": "A {0}TypeScript plugin{/0} is an object with full access to the plugin API. Use it for a new file format, a new check, a reporter, or any rule that data cannot express.",
+  "text": "{0}TypeScript 插件{/0}是一个可以完整访问插件 API 的对象。当需要支持新的文件格式、新的检查、报告器，或任何数据无法表达的规则时，请使用它。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}TypeScript 插件{/0}是一个可以完整访问插件 API 的对象。当需要支持新的文件格式、新的检查、报告器，或任何数据无法表达的规则时，请使用它。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

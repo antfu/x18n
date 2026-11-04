@@ -1,0 +1,14 @@
+{
+  "hash": "bd6c9ea14d54957f",
+  "source": "Find the key behind a text",
+  "text": "根据文本查找对应的键",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "根据文本查找对应的键"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

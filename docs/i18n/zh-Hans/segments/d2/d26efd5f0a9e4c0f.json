@@ -1,0 +1,14 @@
+{
+  "hash": "d26efd5f0a9e4c0f",
+  "source": "Globs of the source files to skip. Your list adds to the default list.",
+  "text": "要跳过的源文件的 glob。你的列表会追加到默认列表之后。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "要跳过的源文件的 glob。你的列表会追加到默认列表之后。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

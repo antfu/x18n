@@ -1,0 +1,14 @@
+{
+  "hash": "bd23a388eb1a19f4",
+  "source": "Leave out the values of related locales.",
+  "text": "省略相关语言的值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "省略相关语言的值。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

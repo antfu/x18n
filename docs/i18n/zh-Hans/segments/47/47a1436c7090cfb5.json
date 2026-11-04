@@ -1,0 +1,14 @@
+{
+  "hash": "47a1436c7090cfb5",
+  "source": "Envelope",
+  "text": "信封",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "信封"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "eb787b45b47f5087",
+  "source": "{0} with an {1} block in {2}",
+  "text": "{2} 中含 {1} 块的 {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{2} 中含 {1} 块的 {0}"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

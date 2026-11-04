@@ -1,0 +1,14 @@
+{
+  "hash": "42beac49af7b37a3",
+  "source": "The {0} preset supports {1}i18n-js{/1}, the JS companion of Rails I18n.",
+  "text": "{0} 预设支持 {1}i18n-js{/1}，即 Rails I18n 的 JS 配套库。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持 {1}i18n-js{/1}，即 Rails I18n 的 JS 配套库。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

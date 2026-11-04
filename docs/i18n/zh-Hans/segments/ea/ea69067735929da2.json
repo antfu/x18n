@@ -1,0 +1,14 @@
+{
+  "hash": "ea69067735929da2",
+  "source": "Case of slug keys. Default {0}.",
+  "text": "slug 键的大小写格式。默认值为 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "slug 键的大小写格式。默认值为 {0}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

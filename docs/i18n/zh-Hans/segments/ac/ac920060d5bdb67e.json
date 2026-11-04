@@ -1,0 +1,14 @@
+{
+  "hash": "ac920060d5bdb67e",
+  "source": "Plugins of the root config and of the project config both apply. Presets of the project config replace the presets of the root config.",
+  "text": "根配置的插件和项目配置的插件都会生效。项目配置的预设会替换根配置的预设。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "根配置的插件和项目配置的插件都会生效。项目配置的预设会替换根配置的预设。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

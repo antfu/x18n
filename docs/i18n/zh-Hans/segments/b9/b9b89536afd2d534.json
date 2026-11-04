@@ -1,0 +1,14 @@
+{
+  "hash": "b9b89536afd2d534",
+  "source": "Go to definition opens the message in the source locale.",
+  "text": "转到定义会打开源语言中的消息。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "转到定义会打开源语言中的消息。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

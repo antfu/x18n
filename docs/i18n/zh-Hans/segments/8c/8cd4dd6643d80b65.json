@@ -1,0 +1,14 @@
+{
+  "hash": "8cd4dd6643d80b65",
+  "source": "{0} shows where x18n found a key and its usages. If a usage is missing, the scanner does not know the callee. Add it to {1} or to the plugin.",
+  "text": "{0} 显示 x18n 在哪里找到了某个键及其引用。如果缺少某个引用，说明扫描器不认识被调用的函数。请将它添加到 {1} 或插件中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 显示 x18n 在哪里找到了某个键及其引用。如果缺少某个引用，说明扫描器不认识被调用的函数。请将它添加到 {1} 或插件中。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

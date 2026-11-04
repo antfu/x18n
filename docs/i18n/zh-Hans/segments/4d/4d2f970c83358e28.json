@@ -1,0 +1,14 @@
+{
+  "hash": "4d2f970c83358e28",
+  "source": "Lists of rules add to the earlier list: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} and {9}.",
+  "text": "规则列表会追加到之前的列表之后：{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}、{8} 和 {9}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "规则列表会追加到之前的列表之后：{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}、{8} 和 {9}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

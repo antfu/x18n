@@ -1,0 +1,14 @@
+{
+  "hash": "6a5888d29520febc",
+  "source": "The {0} preset supports {1}Transloco{/1} in Angular projects.",
+  "text": "{0} 预设支持 Angular 项目中的 {1}Transloco{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 预设支持 Angular 项目中的 {1}Transloco{/1}。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6c384aafdf2e668e",
+  "source": "Target value placeholders differ from the source value.",
+  "text": "目标值的占位符与源值不一致。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "目标值的占位符与源值不一致。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

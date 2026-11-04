@@ -1,0 +1,14 @@
+{
+  "hash": "6786376346c43e87",
+  "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
+  "text": "{0}、{1} 和 {2} 会先返回计划。使用 {3} 再次调用即可应用该计划。{4}MCP 工具{/4}列出了每个工具的输入字段。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1} 和 {2} 会先返回计划。使用 {3} 再次调用即可应用该计划。{4}MCP 工具{/4}列出了每个工具的输入字段。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

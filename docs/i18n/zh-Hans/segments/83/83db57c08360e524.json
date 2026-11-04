@@ -1,0 +1,14 @@
+{
+  "hash": "83db57c08360e524",
+  "source": "Use {0} as the project root. x18n does not look in parent directories.",
+  "text": "将 {0} 用作项目根目录。x18n 不会在父目录中查找。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将 {0} 用作项目根目录。x18n 不会在父目录中查找。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

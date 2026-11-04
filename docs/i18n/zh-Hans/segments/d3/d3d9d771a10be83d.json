@@ -1,0 +1,14 @@
+{
+  "hash": "d3d9d771a10be83d",
+  "source": "Read the field path in the message and compare the value with the {0}config reference{/0}.",
+  "text": "阅读消息中的字段路径，并将该值与{0}配置参考{/0}对照。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "阅读消息中的字段路径，并将该值与{0}配置参考{/0}对照。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}

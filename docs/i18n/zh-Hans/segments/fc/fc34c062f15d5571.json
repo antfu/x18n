@@ -1,0 +1,14 @@
+{
+  "hash": "fc34c062f15d5571",
+  "source": "{0} (stdio) and {1} (HTTP at {2}) serve these tools. {3}MCP{/3} explains how to connect an agent.",
+  "text": "{0}（stdio）和 {1}（HTTP，地址为 {2}）提供这些工具。{3}MCP{/3} 说明了如何连接智能体。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}（stdio）和 {1}（HTTP，地址为 {2}）提供这些工具。{3}MCP{/3} 说明了如何连接智能体。"
+  },
+  "updatedAt": "2026-11-04T02:01:46.209Z"
+}
