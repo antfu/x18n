@@ -99,7 +99,12 @@ function defaultDraft(): ConfigDraft {
 }
 
 function serializablePart(config: UserConfig): SerializableConfig {
-  const { presets, plugins, pluginConfigs, history, ...rest } = config
+  const { presets, plugins, pluginConfigs, history, ignoreKeys: patterns, ...fields } = config
+  // Regular expressions exist only in TS configs; the schema checks the globs.
+  const ignoreKeys = patterns?.filter(pattern => !(pattern instanceof RegExp)) as string[] | undefined
+  const rest = ignoreKeys === undefined
+    ? fields
+    : { ...fields, ignoreKeys }
   if (typeof history !== 'object')
     return { ...rest, history }
   const { providers, ...options } = history
