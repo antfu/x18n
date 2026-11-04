@@ -78,7 +78,31 @@
     "sort": "並び順",
     "sortKey": "キー",
     "sortRecent": "最近の変更",
-    "reviewed": "レビューあり"
+    "reviewed": "レビューあり",
+    "helpMenu": "右クリックまたは Shift+F10 で操作"
+  },
+  "menu": {
+    "keyLabel": "{key} の操作",
+    "valueLabel": "{locale} の {key} の操作",
+    "open": "キーを開く",
+    "rename": "キーの名前を変更",
+    "renameLabel": "{key} の新しい名前",
+    "copyKey": "キーをコピー",
+    "copyValue": "値をコピー",
+    "copyPrompt": "翻訳プロンプトをコピー",
+    "openFile": "エディターで開く",
+    "edit": "値を編集",
+    "review": "レビュー",
+    "comment": "コメント…",
+    "requestChange": "変更をリクエスト…",
+    "suggest": "値を提案…",
+    "markFresh": "最新としてマーク",
+    "fixes": "修正",
+    "loadingFixes": "修正を検索中…",
+    "deleteKey": "キーを削除",
+    "deleteValue": "{locale} から削除",
+    "confirm": "もう一度クリックして確定",
+    "failed": "実行できませんでした: {message}"
   },
   "locale": {
     "complete": "すべてのキーが翻訳済みです。",

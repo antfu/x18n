@@ -78,7 +78,31 @@
     "sort": "Tri",
     "sortKey": "Clé",
     "sortRecent": "Modifiées récemment",
-    "reviewed": "Avec revue"
+    "reviewed": "Avec revue",
+    "helpMenu": "Clic droit ou Maj+F10 pour les actions"
+  },
+  "menu": {
+    "keyLabel": "Actions pour {key}",
+    "valueLabel": "Actions pour {key} en {locale}",
+    "open": "Ouvrir la clé",
+    "rename": "Renommer la clé",
+    "renameLabel": "Nouveau nom pour {key}",
+    "copyKey": "Copier la clé",
+    "copyValue": "Copier la valeur",
+    "copyPrompt": "Copier le prompt de traduction",
+    "openFile": "Ouvrir dans l’éditeur",
+    "edit": "Modifier la valeur",
+    "review": "Relecture",
+    "comment": "Commenter…",
+    "requestChange": "Demander une modification…",
+    "suggest": "Suggérer une valeur…",
+    "markFresh": "Marquer comme à jour",
+    "fixes": "Corrections",
+    "loadingFixes": "Recherche de corrections…",
+    "deleteKey": "Supprimer la clé",
+    "deleteValue": "Supprimer en {locale}",
+    "confirm": "Cliquez à nouveau pour confirmer",
+    "failed": "Non effectué : {message}"
   },
   "locale": {
     "complete": "Toutes les clés sont traduites.",
