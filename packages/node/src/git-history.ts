@@ -5,6 +5,7 @@ import { execFile, spawn } from 'node:child_process'
 import { join } from 'node:path'
 import { hashText } from '@x18n/core'
 import { watch as chokidar } from 'chokidar'
+import { version } from '../package.json' with { type: 'json' }
 
 export interface GitHistoryOptions {
   /** Most commits to read, newest first. Default: every commit. */
@@ -397,9 +398,17 @@ export function gitHistory(): Plugin {
       : undefined
     const signature = [
       1,
-      [...resources].map(([path, r]) => [path, r.locale, r.namespace, r.format]).sort(),
+      version,
+      [...resources].map(([path, r]) => [
+        path,
+        r.locale,
+        r.namespace,
+        r.format,
+        r.keySeparator,
+      ]).sort(),
       ctx.config.namespace,
       ctx.config.keyStyle,
+      ctx.config.keySeparator,
     ]
     const cacheKey = `git-history:${hashText(JSON.stringify(signature))}`
     const cachedText = await cache?.get(cacheKey)
