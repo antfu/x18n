@@ -100,11 +100,12 @@ onMounted(async () => {
   <div class="h-full flex flex-col bg-base color-base font-sans text-sm">
     <header class="shrink-0 border-b border-base">
       <div class="h-12 flex items-center gap-6 border-b border-base px-4">
-        <NuxtLink to="/" class="focus-ring flex items-center gap-2.5 font-mono text-sm font-medium">
+        <NuxtLink to="/" class="focus-ring flex shrink-0 items-center gap-2.5 font-mono text-sm font-medium">
           <LogoMark class="size-6 shrink-0" />
           {{ t('app.name') }}
         </NuxtLink>
-        <nav class="flex items-center gap-1">
+        <!-- Longer labels (Turkish, German) in a narrow panel scroll here, not the whole page. -->
+        <nav class="flex min-w-0 items-center gap-1 of-x-auto">
           <NuxtLink
             v-for="item in nav"
             :key="item.to"
