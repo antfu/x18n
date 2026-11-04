@@ -6,15 +6,17 @@ import { applyEdit } from '../edit'
 import { t } from '../i18n'
 import { reviewTypeOrder, reviewTypes } from '../review'
 
-const { reviewKey, locale, current } = defineProps<{
+const { reviewKey, locale, current, initialType = 'comment' } = defineProps<{
   reviewKey: string
   locale: string
+  /** The review type selected when it opens. */
+  initialType?: ReviewType
   /** Starts the suggested value, so a suggestion edits the current one. */
   current?: MessageLeaf | undefined
 }>()
 const emit = defineEmits<{ close: [] }>()
 
-const type = ref<ReviewType>('comment')
+const type = ref<ReviewType>(initialType)
 const text = ref('')
 const suggestion = ref(current === undefined || current === null
   ? ''
@@ -27,7 +29,9 @@ const canSend = computed(() => !sending.value && (type.value === 'suggestion'
   ? suggestion.value !== '' && suggestion.value !== String(current ?? '')
   : type.value === 'approve' || text.value.trim() !== ''))
 
-onMounted(() => textField.value?.focus())
+onMounted(() => type.value === 'suggestion'
+  ? valueField.value?.select()
+  : textField.value?.focus())
 watch(type, async (next) => {
   await nextTick()
   if (next === 'suggestion')
