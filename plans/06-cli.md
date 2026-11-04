@@ -52,10 +52,22 @@ Found 1 error and 1 warning in 2 files.
 | `--reporter <id>` | `pretty` (default), `json`, `markdown`, `github`, `sarif`. Repeatable, with `--output <file>`. |
 | `--update-baseline` | Write the reported diagnostics into the baseline. Entries that `--only`, `--skip` or `--locale` leave out stay. |
 | `--baseline <file>` | Baseline file (default `.x18n/check-baseline.json` in the workspace root). |
+| `--fix` | Apply the `safe` fixes of the reported diagnostics (after `--locale`, `--only` and `--skip`, baseline or not) in one plan, then report what is left. |
+| `--fix=unsafe` | Also apply the `unsafe` fixes, which delete. |
+| `--dry-run` | With `--fix`: print the plan, write nothing. |
 
 While the baseline file exists, `check` reports and fails only on diagnostics it does not hold, and says how many it left out and how many of its entries no longer occur (`data.baseline` in `--json`). An entry is a path relative to the workspace root, a check id, a key, a locale and a message, with a count; no line, so moving code keeps it known, while one more identical diagnostic in the same file is new. The file is sorted for small diffs. The editor still shows every diagnostic. The idea comes from [i18next-cli](https://github.com/i18next/i18next-cli) `lint --update-baseline` and ESLint bulk suppressions.
 
-`x18n check` is read-only and has no `--fix`. Fixes go through explicit commands (`x18n delete`, `x18n fill`, `x18n rename`, ...) or through editor code actions.
+Without `--fix`, `x18n check` is read-only. Each fix of a diagnostic has a level ([03-plugins.md](./03-plugins.md)): `safe` fixes only add, `unsafe` fixes can lose data, and fixes without a level are offered in the editor only. The built-ins:
+
+| Check | Fix | Level |
+| --- | --- | --- |
+| `missing-key` | Add the key to the source locale with its default value or `''` (`replace: false`) | safe |
+| `unused-key` | Delete the key in every locale | unsafe; none when a scoped fully dynamic usage may reach it, as `delete --unused` keeps it |
+| `redundant-translation` | Delete the message from the locale | unsafe |
+| `missing-translation`, `review-changes-requested` | Add empty values or copy the source; resolve the review | editor only |
+
+So `x18n check --fix --only missing-key` adds the keys code uses, and `x18n check --fix=unsafe --only missing-key,unused-key` also deletes the ones it does not, like an extractor's `--clean`. The fixes go through `Project.planFixes` ([02-core.md](./02-core.md)). The summary goes to stderr, so stdout keeps only the report; `--json` adds `fix` to each project: `{ applied, fixed, skipped, files, warnings }`, where `skipped` counts the diagnostics whose only bulk fix is `unsafe`. `--fix` does not run with `--watch`. Fixes also go through explicit commands (`x18n delete`, `x18n fill`, `x18n rename`, ...) and editor code actions.
 
 ### Change
 

@@ -1865,10 +1865,12 @@ exports[`rpc functions > lists usages and the analysis 2`] = `
       "file": "src/App.vue",
       "fixes": [
         {
+          "level": "safe",
           "ops": [
             {
               "key": "app.titel",
               "locale": "en",
+              "replace": false,
               "type": "set",
               "value": "",
             },
@@ -1972,6 +1974,7 @@ exports[`rpc functions > lists usages and the analysis 2`] = `
       "file": "src/locales/en.json",
       "fixes": [
         {
+          "level": "unsafe",
           "ops": [
             {
               "key": "unused",
@@ -2000,6 +2003,7 @@ exports[`rpc functions > lists usages and the analysis 2`] = `
       "file": "src/locales/en.json",
       "fixes": [
         {
+          "level": "unsafe",
           "ops": [
             {
               "key": "linked",

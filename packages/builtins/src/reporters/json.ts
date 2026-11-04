@@ -20,6 +20,8 @@ export const jsonReporter: Reporter = {
           needsReview: c.needsReview.length,
           reviewed: c.reviewed.length,
         })),
+        // Optional: only with `--fix`.
+        ...input.fix && { fix: input.fix },
       })),
       // Optional: only when a baseline applies.
       ...ctx.baseline && {

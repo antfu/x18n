@@ -314,6 +314,8 @@ export interface CheckContext {
   readonly usages: () => Iterable<Usage>
   readonly coverage: () => readonly LocaleCoverage[]
   readonly unused: () => readonly KeyString[]
+  /** Fully dynamic usages in a scope (`keyPrefix`, namespace) that may reach the key. `planUnused` keeps a key they reach. */
+  readonly dynamicUsages: (key: KeyString) => readonly Usage[]
   /** Usages whose key is not defined in the source locale. */
   readonly undefinedUsages: () => readonly Usage[]
   readonly placeholders: (value: string) => readonly Placeholder[]
@@ -351,6 +353,21 @@ export interface ReportInput {
   readonly diagnostics: readonly Diagnostic[]
   readonly coverage: readonly LocaleCoverage[]
   readonly summary: ReportSummary
+  /** Set with `x18n check --fix`; `diagnostics` are then the ones left after the fixes (or before them, in a dry run). */
+  readonly fix?: FixSummary | undefined
+}
+
+/** What `x18n check --fix` did in a project. */
+export interface FixSummary {
+  /** False in a dry run. */
+  readonly applied: boolean
+  /** Diagnostics whose fix is in the plan. */
+  readonly fixed: number
+  /** Diagnostics left out because their only bulk fix is `unsafe` (pass `--fix=unsafe`). */
+  readonly skipped: number
+  /** Files the plan writes, relative to the project root. */
+  readonly files: readonly string[]
+  readonly warnings: readonly string[]
 }
 
 /** What a check baseline left out (`x18n check --baseline`). */

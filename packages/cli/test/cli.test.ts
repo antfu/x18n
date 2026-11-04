@@ -366,6 +366,55 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(json(await x18n(dir, ['keys', '--unused', '--json'])).data.projects[0].keys).not.toContain('unused')
   })
 
+  it('check --fix adds missing keys; --fix=unsafe also deletes unused ones; --dry-run writes nothing', async () => {
+    const dir = await fixture('vue-i18n')
+    const en = join(dir, 'src/locales/en.json')
+    const de = join(dir, 'src/locales/de.json')
+    const before = await readFile(en, 'utf8')
+
+    const dry = await x18n(dir, ['check', '--fix', '--dry-run'])
+    expect(dry.stderr).toContain('+     "titel": ""')
+    expect(dry.stderr).toContain('Would fix 1 problem in 1 file (dry run).\n2 problems only have an unsafe fix; run with --fix=unsafe to apply them.\n')
+    expect(dry.stdout).toContain('missing-key')
+    expect(await readFile(en, 'utf8')).toBe(before)
+
+    const safe = json(await x18n(dir, ['check', '--fix', '--json']))
+    expect(safe.data.projects[0].fix).toEqual({
+      applied: true,
+      fixed: 1,
+      skipped: 2,
+      files: ['src/locales/en.json'],
+      warnings: [],
+    })
+    expect(safe.diagnostics.map((d: { code: string }) => d.code)).not.toContain('missing-key')
+    expect(JSON.parse(await readFile(en, 'utf8')).app.titel).toBe('')
+    expect(JSON.parse(await readFile(en, 'utf8'))).toHaveProperty('unused')
+
+    const unsafe = await x18n(dir, [
+      'check',
+      '--fix=unsafe',
+      '--only',
+      'unused-key',
+    ])
+    expect(unsafe.stderr).toContain('Fixed 2 problems in 2 files.\n')
+    expect(unsafe.stdout).not.toContain('unused-key')
+    expect(JSON.parse(await readFile(en, 'utf8'))).not.toHaveProperty('unused')
+    expect(JSON.parse(await readFile(de, 'utf8'))).not.toHaveProperty('unused')
+  })
+
+  it('check refuses a --fix level it does not know, --fix with --watch and --dry-run without --fix', async () => {
+    const dir = await fixture('vue-i18n')
+    for (const args of [
+      ['--fix=hard'],
+      ['--fix', '--watch'],
+      ['--dry-run'],
+    ]) {
+      const result = await x18n(dir, ['check', ...args, '--json'])
+      expect(result.code).not.toBe(0)
+      expect(json(result).errors[0].name).toBe('X18N4008')
+    }
+  })
+
   it('delete without a key or --unused is a usage error', async () => {
     const dir = await fixture('vue-i18n')
     const result = await x18n(dir, ['delete', '--json'])

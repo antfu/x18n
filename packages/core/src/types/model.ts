@@ -173,9 +173,16 @@ export interface ExtractItem {
   readonly imports?: readonly string[]
 }
 
+/**
+ * How `x18n check --fix` may apply a fix. `safe` fixes only add, so `--fix` applies them; `unsafe` fixes can lose data, so
+ * only `--fix=unsafe` applies them. A fix without a level is offered in the editor and never applied in bulk.
+ */
+export type FixLevel = 'safe' | 'unsafe'
+
 export interface Fix {
   readonly title: string
   readonly ops: readonly EditOp[]
+  readonly level?: FixLevel | undefined
 }
 
 export interface Location {

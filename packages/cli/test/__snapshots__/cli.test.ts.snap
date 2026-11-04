@@ -59,12 +59,14 @@ exports[`x18n binary > keeps the JSON contract of every read command > check 1`]
       "fixes": [
         {
           "title": "Add \\"app.titel\\" to en",
+          "level": "safe",
           "ops": [
             {
               "type": "set",
               "key": "app.titel",
               "locale": "en",
-              "value": ""
+              "value": "",
+              "replace": false
             }
           ]
         }
@@ -165,6 +167,7 @@ exports[`x18n binary > keeps the JSON contract of every read command > check 1`]
       "fixes": [
         {
           "title": "Delete \\"unused\\" in every locale",
+          "level": "unsafe",
           "ops": [
             {
               "type": "delete",
@@ -193,6 +196,7 @@ exports[`x18n binary > keeps the JSON contract of every read command > check 1`]
       "fixes": [
         {
           "title": "Delete \\"linked\\" in every locale",
+          "level": "unsafe",
           "ops": [
             {
               "type": "delete",

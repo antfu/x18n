@@ -20,12 +20,15 @@ export const missingKey: Check = {
         fixes: [
           {
             title: `Add "${usage.key}" to ${ctx.sourceLocale}`,
+            // Only adds: `replace: false` skips the key, with a warning, where it would replace a message or other keys.
+            level: 'safe',
             ops: [
               {
                 type: 'set',
                 key: usage.key!,
                 locale: ctx.sourceLocale,
                 value: usage.defaultValue ?? '',
+                replace: false,
               },
             ],
           },
@@ -178,6 +181,7 @@ export const redundantTranslation: Check = {
             fixes: [
               {
                 title: `Remove "${message.key}" from ${message.locale}`,
+                level: 'unsafe',
                 ops: [
                   {
                     type: 'delete',
@@ -269,6 +273,10 @@ export const unusedKey: Check = {
         fixes: [
           {
             title: `Delete "${key}" in every locale`,
+            // A scoped dynamic usage may still reach the key: `delete --unused` keeps it, so the fix is offered, not applied in bulk.
+            level: ctx.dynamicUsages(key).length > 0
+              ? undefined
+              : 'unsafe',
             ops: [
               { type: 'delete', key, locales: 'all' },
             ],
