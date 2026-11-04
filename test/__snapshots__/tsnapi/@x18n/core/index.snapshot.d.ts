@@ -190,6 +190,10 @@ export interface FileScan {
   readonly path: string;
   readonly result: ScanResult;
 }
+export interface FileWrite {
+  readonly path: string;
+  readonly content: string;
+}
 export interface FinderContext {
   readonly host: Host;
   readonly config: ResolvedConfig;
@@ -495,6 +499,7 @@ export interface Plugin {
   readonly derivedKeys?: readonly string[] | undefined;
   readonly transformResource?: ResourceTransform | undefined;
   readonly translatePrompt?: ((_: PromptDraft, _: PromptContext) => void) | undefined;
+  readonly reviewEdit?: ((_: ReviewEdit, _: ReviewEditContext) => readonly FileWrite[] | undefined) | undefined;
   readonly localeInfo?: ((_: LocaleCode) => Partial<LocaleInfo> | undefined) | undefined;
 }
 export interface PluginConfigs {}
@@ -905,6 +910,18 @@ export interface ReviewData {
       readonly [locale: LocaleCode]: string;
     };
   };
+}
+export interface ReviewEdit {
+  readonly type: ReviewType | "resolve-review" | "apply-suggestion";
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly comment: ReviewComment;
+  readonly comments: readonly ReviewComment[];
+}
+export interface ReviewEditContext {
+  readonly message: (_: KeyString, _: LocaleCode) => Message | undefined;
+  readonly resource: (_: ResourceId) => Resource | undefined;
+  readonly text: (_: string) => string | undefined;
 }
 export interface ReviewFile {
   readonly $schema?: string | undefined;

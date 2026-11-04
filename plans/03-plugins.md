@@ -35,6 +35,8 @@ interface Plugin {
   readonly derivedKeys?: readonly string[]
   readonly transformResource?: ResourceTransform
   readonly translatePrompt?: (draft: PromptDraft, ctx: PromptContext) => void
+  /** Called for each review edit of a plan; the writes it returns go into the same plan (12-reviews.md). */
+  readonly reviewEdit?: (edit: ReviewEdit, ctx: ReviewEditContext) => readonly FileWrite[] | undefined
   /** Display data for a locale code (language name, flag, plural categories). The first plugin that returns a value wins; the built-in lenient parse is last. */
   readonly localeInfo?: (code: LocaleCode) => LocaleInfo | undefined
   /** 1.x: emit TS key types as the library's own augmentation (18-typegen.md). */

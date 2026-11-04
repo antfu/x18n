@@ -1,4 +1,4 @@
-import type { EditOp, HistoryProvider, KeyString, LocaleCode, MessageChange, Project, UserConfig } from '@x18n/core'
+import type { EditOp, Format, HistoryProvider, KeyString, LocaleCode, MessageChange, Plugin, Project, ReviewEdit, UserConfig } from '@x18n/core'
 import { renderPrompt } from '@x18n/core'
 import { describe, expect, it } from 'vitest'
 import { createTestProject, json } from './_utils'
@@ -325,5 +325,110 @@ describe('source records', () => {
     })
     expect(files.get('.x18n/reviews.yml')).toContain('sources:\n  login.title:\n    de: ')
     expect(stale(project)).toEqual(['save'])
+  })
+})
+
+describe('reviewEdit hook', () => {
+  const recordFormat: Format = {
+    id: 'record',
+    extensions: ['rec'],
+    parse: (text, ctx) => ({
+      tree: { [ctx.path.slice(ctx.path.lastIndexOf('/') + 1, -'.rec'.length)]: JSON.parse(text).text },
+    }),
+    edit: (text, ops) => {
+      const record = JSON.parse(text)
+      for (const op of ops) {
+        if (op.type === 'set')
+          record.text = op.value
+      }
+      return [
+        {
+          range: { start: 0, end: text.length },
+          text: json(record),
+        },
+      ]
+    },
+  }
+
+  function verifier(seen: ReviewEdit['type'][]): Plugin {
+    return {
+      name: 'verifier',
+      formats: [recordFormat],
+      reviewEdit(edit, ctx) {
+        seen.push(edit.type)
+        if (edit.type !== 'approve')
+          return undefined
+        const message = ctx.message(edit.key, edit.locale)
+        const path = message && ctx.resource(message.resource)?.path
+        const text = path && ctx.text(path)
+        if (!text)
+          return undefined
+        const record = JSON.parse(text)
+        if (record.text !== edit.comment.value)
+          return undefined
+        return [
+          {
+            path,
+            content: json({
+              ...record,
+              review: 'verified',
+              verifiedBy: edit.comment.author?.name,
+              updatedAt: edit.comment.time,
+            }),
+          },
+        ]
+      },
+    }
+  }
+
+  async function records(seen: ReviewEdit['type'][]): Promise<{ project: Project, files: Map<string, string> }> {
+    return createTestProject({
+      'records/en/save.rec': json({ text: 'Save' }),
+      'records/de/save.rec': json({ text: 'Speichern', review: 'draft' }),
+    }, {
+      locales: ['en', 'de'],
+      resources: [
+        { pattern: 'records/{locale}/*.rec', format: 'record' },
+      ],
+      keyStyle: 'flat',
+      write: { sort: false },
+      plugins: [
+        verifier(seen),
+      ],
+    })
+  }
+
+  it('lets a plugin write a resource in the plan of an approval', async () => {
+    const seen: ReviewEdit['type'][] = []
+    const { project, files } = await records(seen)
+    const plan = project.plan([
+      review('save', 'de', 'approve', { id: 'aaaaaa' }),
+    ])
+    expect(plan.changes.map(c => c.path)).toEqual(['records/de/save.rec', '.x18n/reviews.yml'])
+    expect(files.get('records/de/save.rec')).toContain('"draft"')
+    await project.apply(plan)
+    expect(seen).toEqual(['approve'])
+    expect(JSON.parse(files.get('records/de/save.rec')!)).toEqual({
+      text: 'Speichern',
+      review: 'verified',
+      verifiedBy: 'Ada',
+      updatedAt: time,
+    })
+    expect(project.message('save', 'de')?.value).toBe('Speichern')
+  })
+
+  it('passes change requests, suggestions and resolutions to the hook without a write', async () => {
+    const seen: ReviewEdit['type'][] = []
+    const { project, files } = await records(seen)
+    await run(project, review('save', 'de', 'request-change', { text: 'Use "Sichern".', id: 'aaaaaa' }), review('save', 'de', 'suggestion', { suggestion: 'Sichern', id: 'bbbbbb' }), review('save', 'de', 'comment', { text: 'Agreed.', id: 'cccccc' }))
+    await run(project, { type: 'resolve-review', id: 'aaaaaa' }, { type: 'apply-suggestion', id: 'bbbbbb' })
+    expect(seen).toEqual([
+      'request-change',
+      'suggestion',
+      'comment',
+      'resolve-review',
+      'apply-suggestion',
+    ])
+    expect(JSON.parse(files.get('records/de/save.rec')!)).toEqual({ text: 'Sichern', review: 'draft' })
   })
 })
