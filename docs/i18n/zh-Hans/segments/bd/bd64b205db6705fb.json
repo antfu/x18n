@@ -3,12 +3,16 @@
   "source": "A region of source code with a default namespace or key prefix.",
   "text": "源代码中带有默认命名空间或键前缀的区域。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "源代码中带有默认命名空间或键前缀的区域。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

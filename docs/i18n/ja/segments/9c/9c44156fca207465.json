@@ -3,12 +3,16 @@
   "source": "Make sure that a TS or JS config has a default export, for example {0}.",
   "text": "TS または JS の設定ファイルに default export があることを確認してください。例：{0}",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "TS または JS の設定ファイルに default export があることを確認してください。例：{0}"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

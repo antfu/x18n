@@ -3,12 +3,16 @@
   "source": "Accepted by the schema. x18n does not read it yet.",
   "text": "schema 接受该选项，但 x18n 目前尚未读取它。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "schema 接受该选项，但 x18n 目前尚未读取它。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

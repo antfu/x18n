@@ -3,12 +3,16 @@
   "source": "Locale file is not static. Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.",
   "text": "語系檔案不是靜態的。請使用 JSON 或 YAML，或在資源模式上設定 `execute: true` 以選擇啟用執行。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "語系檔案不是靜態的。請使用 JSON 或 YAML，或在資源模式上設定 `execute: true` 以選擇啟用執行。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

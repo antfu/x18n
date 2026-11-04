@@ -3,12 +3,16 @@
   "source": "x18n reads the i18n setup of a project, reports problems in its locale files and changes them safely.",
   "text": "x18n 會讀取專案的 i18n 設定，回報語系檔案中的問題，並安全地修改這些檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 會讀取專案的 i18n 設定，回報語系檔案中的問題，並安全地修改這些檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

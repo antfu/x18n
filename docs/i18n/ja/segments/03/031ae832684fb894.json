@@ -3,12 +3,16 @@
   "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
   "text": "{0} は、プランの各レビュー編集に対して、レビューデータに適用された後で実行されます。レビュー編集とは、新しいコメント、承認、変更リクエスト、提案、{1}、{2} です。{3} には、編集後のキー、ロケール、コメント、スレッドが含まれます。{4} と {5} はメッセージとそのファイルを検索し、{6} はプランが反映した後のファイルを返します。フックは {7} の書き込みを返します。この書き込みはレビューファイルと同じプランに入るため、ドライランで確認できます。メッセージごとにレビュー状態を保持するストアでは、承認が現在の値と一致したときに、そのメッセージを検証済みにできます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、プランの各レビュー編集に対して、レビューデータに適用された後で実行されます。レビュー編集とは、新しいコメント、承認、変更リクエスト、提案、{1}、{2} です。{3} には、編集後のキー、ロケール、コメント、スレッドが含まれます。{4} と {5} はメッセージとそのファイルを検索し、{6} はプランが反映した後のファイルを返します。フックは {7} の書き込みを返します。この書き込みはレビューファイルと同じプランに入るため、ドライランで確認できます。メッセージごとにレビュー状態を保持するストアでは、承認が現在の値と一致したときに、そのメッセージを検証済みにできます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

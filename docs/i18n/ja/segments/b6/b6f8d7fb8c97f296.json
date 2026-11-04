@@ -3,12 +3,16 @@
   "source": "Name a plugin package x18n-plugin-*, export a plugin or a factory, and let YAML and JSON configs load it by name.",
   "text": "パッケージ名を x18n-plugin-* にし、プラグインまたはファクトリをエクスポートすると、YAML や JSON の設定ファイルから名前でプラグインを読み込めます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "パッケージ名を x18n-plugin-* にし、プラグインまたはファクトリをエクスポートすると、YAML や JSON の設定ファイルから名前でプラグインを読み込めます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

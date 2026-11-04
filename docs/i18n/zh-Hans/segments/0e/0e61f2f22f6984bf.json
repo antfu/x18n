@@ -3,12 +3,16 @@
   "source": "Renames a key in every locale and every usage in code. {0} keeps the code.",
   "text": "在所有语言中重命名键，并更新代码中的所有引用。{0} 会保留代码不变。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在所有语言中重命名键，并更新代码中的所有引用。{0} 会保留代码不变。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

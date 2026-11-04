@@ -3,12 +3,16 @@
   "source": "Each skill tells the agent which decisions to leave to you, and to ask about them in one message.",
   "text": "每个 skill 都会告诉 agent 哪些决定要留给你，并在一条消息中统一向你询问。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "每个 skill 都会告诉 agent 哪些决定要留给你，并在一条消息中统一向你询问。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

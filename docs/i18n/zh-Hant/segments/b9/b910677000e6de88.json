@@ -3,12 +3,16 @@
   "source": "Your config adds to these defaults. For example, {0} in the config adds callees to the ones of the preset. See {1}How x18n merges the config{/1}.",
   "text": "你的設定會疊加在這些預設值之上。例如，設定中的 {0} 會在預設集的被呼叫者之外再新增被呼叫者。請參閱 {1}x18n 如何合併設定{/1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "你的設定會疊加在這些預設值之上。例如，設定中的 {0} 會在預設集的被呼叫者之外再新增被呼叫者。請參閱 {1}x18n 如何合併設定{/1}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

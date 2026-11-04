@@ -3,12 +3,16 @@
   "source": "{0} lists each key with its locales and files. {1} lists unused keys that a computed key in a scope may reach, with those usages; they stay. {2} names computed keys outside any scope, which may reach any key.",
   "text": "{0} 会列出每个键及其语言和文件。{1} 会列出某个作用域内的动态键可能访问到的未使用键，以及这些引用；这些键会被保留。{2} 会指出不在任何作用域内的动态键，它们可能访问到任意键。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 会列出每个键及其语言和文件。{1} 会列出某个作用域内的动态键可能访问到的未使用键，以及这些引用；这些键会被保留。{2} 会指出不在任何作用域内的动态键，它们可能访问到任意键。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

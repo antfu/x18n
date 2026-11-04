@@ -3,12 +3,16 @@
   "source": "Set {0} if the plugin needs Node APIs.",
   "text": "プラグインで Node の API が必要な場合は、{0} を設定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プラグインで Node の API が必要な場合は、{0} を設定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

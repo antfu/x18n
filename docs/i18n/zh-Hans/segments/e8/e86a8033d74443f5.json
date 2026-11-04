@@ -3,12 +3,16 @@
   "source": "The first {0} belongs to the first {1}. Here, the markdown goes to the summary file and the annotations go to stdout. The same markdown also suits a pull request comment.",
   "text": "第一个 {0} 属于第一个 {1}。此处 markdown 会写入摘要文件，注解则输出到 stdout。同样的 markdown 也适用于拉取请求评论。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "第一个 {0} 属于第一个 {1}。此处 markdown 会写入摘要文件，注解则输出到 stdout。同样的 markdown 也适用于拉取请求评论。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

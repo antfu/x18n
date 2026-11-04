@@ -3,12 +3,16 @@
   "source": "Users then set the options under {0}, and the plugin reads them in {1}:",
   "text": "之后用户在 {0} 下设置这些选项，插件在 {1} 中读取它们：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "之后用户在 {0} 下设置这些选项，插件在 {1} 中读取它们："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

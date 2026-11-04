@@ -3,12 +3,16 @@
   "source": "The preset for VS Code extensions. It reads vscode.l10n.t, package.nls.json files and l10n bundles.",
   "text": "VS Code 拡張機能向けのプリセットです。vscode.l10n.t、package.nls.json ファイル、l10n バンドルを読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "VS Code 拡張機能向けのプリセットです。vscode.l10n.t、package.nls.json ファイル、l10n バンドルを読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

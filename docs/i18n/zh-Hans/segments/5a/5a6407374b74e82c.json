@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0}. In a Laravel app, the {1} preset applies too, so the PHP and Vue sides share the same keys.",
   "text": "当项目依赖 {0} 时，该预设会生效。在 Laravel 应用中，{1} 预设也会生效，因此 PHP 端和 Vue 端共用相同的键。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当项目依赖 {0} 时，该预设会生效。在 Laravel 应用中，{1} 预设也会生效，因此 PHP 端和 Vue 端共用相同的键。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

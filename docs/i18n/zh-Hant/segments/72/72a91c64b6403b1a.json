@@ -3,12 +3,16 @@
   "source": "{0} changes how the tree of a file maps to keys. Use it for files that wrap the messages, such as a file whose messages sit under a top-level {1} key.",
   "text": "{0} 會改變檔案的樹狀結構對應到鍵的方式。適用於包裝訊息的檔案，例如訊息位於頂層 {1} 鍵之下的檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會改變檔案的樹狀結構對應到鍵的方式。適用於包裝訊息的檔案，例如訊息位於頂層 {1} 鍵之下的檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Defaults: namespace rules, derived keys and resource patterns.",
   "text": "預設值：命名空間規則、衍生鍵和資源模式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "預設值：命名空間規則、衍生鍵和資源模式。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

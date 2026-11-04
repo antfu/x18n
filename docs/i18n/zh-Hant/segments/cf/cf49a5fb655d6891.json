@@ -3,12 +3,16 @@
   "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
   "text": "在所有語系中刪除所有未使用的鍵（即 {0} 以 {1} 列出的鍵），也可以只刪除符合 {2} 或 {3} 的鍵。程式碼中的動態鍵可能涉及的鍵（範本字串前綴，或位於 {4} 或命名空間下的動態鍵）會保留不動，並列在 {5} 中；{6} 則列出可能涉及任何鍵的動態鍵。不會變更程式碼。未傳入 {7} 時會回傳計畫：{8} 會列出每個鍵及其語系與檔案。傳入 {9} 再次呼叫即可套用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在所有語系中刪除所有未使用的鍵（即 {0} 以 {1} 列出的鍵），也可以只刪除符合 {2} 或 {3} 的鍵。程式碼中的動態鍵可能涉及的鍵（範本字串前綴，或位於 {4} 或命名空間下的動態鍵）會保留不動，並列在 {5} 中；{6} 則列出可能涉及任何鍵的動態鍵。不會變更程式碼。未傳入 {7} 時會回傳計畫：{8} 會列出每個鍵及其語系與檔案。傳入 {9} 再次呼叫即可套用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

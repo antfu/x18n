@@ -3,12 +3,16 @@
   "source": "{0}, {1} and {2} read {3} from their first argument.",
   "text": "{0}、{1} 和 {2} 从第一个参数中读取 {3}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1} 和 {2} 从第一个参数中读取 {3}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

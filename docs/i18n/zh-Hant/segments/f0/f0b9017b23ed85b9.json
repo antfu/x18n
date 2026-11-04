@@ -3,12 +3,16 @@
   "source": "Resource is read-only. Edit the source of computed values, or use a writable format.",
   "text": "資源為唯讀。請編輯運算值的來源，或改用可寫入的格式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "資源為唯讀。請編輯運算值的來源，或改用可寫入的格式。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

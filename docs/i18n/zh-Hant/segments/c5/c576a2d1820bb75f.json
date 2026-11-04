@@ -3,12 +3,16 @@
   "source": "Print a prompt for an agent or LLM: {0}, {1}, or the skills {2} and {3}.",
   "text": "為 agent 或 LLM 印出提示詞：{0}、{1}，或 skills {2} 與 {3}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "為 agent 或 LLM 印出提示詞：{0}、{1}，或 skills {2} 與 {3}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

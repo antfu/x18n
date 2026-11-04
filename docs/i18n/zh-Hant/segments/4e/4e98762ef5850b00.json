@@ -3,12 +3,16 @@
   "source": "The {0} reporter writes SARIF 2.1.0. Upload it to show the diagnostics in the code scanning view of GitHub:",
   "text": "{0} reporter 會輸出 SARIF 2.1.0。上傳後，就能在 GitHub 的程式碼掃描檢視中顯示診斷：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} reporter 會輸出 SARIF 2.1.0。上傳後，就能在 GitHub 的程式碼掃描檢視中顯示診斷："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

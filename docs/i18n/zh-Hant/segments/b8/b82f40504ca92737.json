@@ -3,12 +3,16 @@
   "source": "A locale is a locale code, exactly as it is written in paths and files: {0}, {1}, {2}. x18n never changes the spelling of a code.",
   "text": "語系就是語系代碼，與它在路徑和檔案中的寫法完全相同：{0}、{1}、{2}。x18n 絕不會更改語系代碼的拼寫。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "語系就是語系代碼，與它在路徑和檔案中的寫法完全相同：{0}、{1}、{2}。x18n 絕不會更改語系代碼的拼寫。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

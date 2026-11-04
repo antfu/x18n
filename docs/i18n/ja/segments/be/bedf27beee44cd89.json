@@ -3,12 +3,16 @@
   "source": "{0} and the MCP tool {1} read messages per locale:",
   "text": "{0} と MCP ツール {1} は、ロケールごとのメッセージを読み込みます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} と MCP ツール {1} は、ロケールごとのメッセージを読み込みます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

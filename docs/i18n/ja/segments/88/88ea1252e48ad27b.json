@@ -3,12 +3,16 @@
   "source": "{0} describe how placeholders look in messages. {1} returns the placeholders of a value. {2} returns syntax errors, for the {3} check. {4} is the text that prompts show. {5} means that the placeholder names another key, which then counts as used.",
   "text": "{0} は、メッセージ内のプレースホルダーの形式を定義します。{1} は値に含まれるプレースホルダーを返します。{2} は {3} チェック用に構文エラーを返します。{4} はプロンプトに表示されるテキストです。{5} は、プレースホルダーが別のキーを指していることを示し、そのキーは使用済みとして扱われます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、メッセージ内のプレースホルダーの形式を定義します。{1} は値に含まれるプレースホルダーを返します。{2} は {3} チェック用に構文エラーを返します。{4} はプロンプトに表示されるテキストです。{5} は、プレースホルダーが別のキーを指していることを示し、そのキーは使用済みとして扱われます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

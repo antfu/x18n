@@ -3,12 +3,16 @@
   "source": "The committed file of known diagnostics ({0}); {1} then reports only new ones.",
   "text": "已提交的已知診斷檔案（{0}）；之後 {1} 只會回報新的診斷。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "已提交的已知診斷檔案（{0}）；之後 {1} 只會回報新的診斷。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

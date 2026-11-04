@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
   "text": "いずれかのロケールの値でキーを検索し、使用箇所とあわせて返します。{0} を指定しない限りあいまい検索です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "いずれかのロケールの値でキーを検索し、使用箇所とあわせて返します。{0} を指定しない限りあいまい検索です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A plugin can add rules and notes with the {0} hook. See {1}Capabilities{/1}.",
   "text": "外掛可以透過 {0} 掛鉤新增規則和備註。請參閱{1}功能{/1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "外掛可以透過 {0} 掛鉤新增規則和備註。請參閱{1}功能{/1}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

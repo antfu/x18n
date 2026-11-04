@@ -3,12 +3,16 @@
   "source": "x18n runs {0} for a preset inside the plugins of another preset. A preset that you list in {1} or {2} always applies.",
   "text": "x18n 会在另一个预设的插件内部为某个预设运行 {0}。你在 {1} 或 {2} 中列出的预设始终会生效。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 会在另一个预设的插件内部为某个预设运行 {0}。你在 {1} 或 {2} 中列出的预设始终会生效。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

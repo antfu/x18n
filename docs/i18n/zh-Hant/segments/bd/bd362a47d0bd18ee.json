@@ -3,12 +3,16 @@
   "source": "The {0}VS Code extension{/0} shows translations in place and treats keys like symbols: go to definition, find references and rename.",
   "text": "{0}VS Code 擴充功能{/0}會就地顯示翻譯，並把鍵當作符號處理：跳至定義、尋找參考和重新命名。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}VS Code 擴充功能{/0}會就地顯示翻譯，並把鍵當作符號處理：跳至定義、尋找參考和重新命名。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

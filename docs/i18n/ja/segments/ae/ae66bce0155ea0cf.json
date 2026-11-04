@@ -3,12 +3,16 @@
   "source": "In Kotlin and Java, {0}, {1} and {2}. In XML, {3}, {4} and {5}. {6} and {7} are the framework's, not usages. A {8} with a dot is {9} in code, which x18n does not map to {10}.",
   "text": "Kotlin と Java では、{0}、{1}、{2} が対象です。XML では、{3}、{4}、{5} が対象です。{6} と {7} はフレームワークのものであり、使用箇所ではありません。ドットを含む {8} はコード上では {9} となり、x18n は {10} に対応付けません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Kotlin と Java では、{0}、{1}、{2} が対象です。XML では、{3}、{4}、{5} が対象です。{6} と {7} はフレームワークのものであり、使用箇所ではありません。ドットを含む {8} はコード上では {9} となり、x18n は {10} に対応付けません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

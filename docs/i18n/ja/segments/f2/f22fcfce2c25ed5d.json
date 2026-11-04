@@ -3,12 +3,16 @@
   "source": "Decision id to option id, for decisions in the plan. Default: each decision's {0}.",
   "text": "プラン内の決定事項について、決定事項の ID からオプションの ID へのマッピングです。デフォルトは各決定事項の {0} です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プラン内の決定事項について、決定事項の ID からオプションの ID へのマッピングです。デフォルトは各決定事項の {0} です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A generated id changes with the text, so renaming such a key in x18n does not change the template. Custom ids are easier to manage.",
   "text": "生成された ID はテキストに応じて変わるため、x18n でこのようなキーの名前を変更しても、テンプレートは変更されません。カスタム ID のほうが管理しやすくなります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "生成された ID はテキストに応じて変わるため、x18n でこのようなキーの名前を変更しても、テンプレートは変更されません。カスタム ID のほうが管理しやすくなります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

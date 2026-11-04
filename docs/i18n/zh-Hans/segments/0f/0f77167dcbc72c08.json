@@ -3,12 +3,16 @@
   "source": "A plugin can add types for its check ids and its options through declaration merging. {0} then completes them:",
   "text": "插件可以通过声明合并为其检查 id 和选项添加类型。之后 {0} 就会为它们提供补全：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "插件可以通过声明合并为其检查 id 和选项添加类型。之后 {0} 就会为它们提供补全："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

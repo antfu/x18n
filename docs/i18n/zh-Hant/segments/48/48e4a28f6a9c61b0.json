@@ -3,12 +3,16 @@
   "source": "When {0} finds a key with the same meaning, the agent reuses it. Without {1}, {2} writes the source locale. Then use the key in code, for example {3}. To see which locales still lack keys, run {4}.",
   "text": "當 {0} 找到意義相同的鍵時，agent 會重複使用該鍵。沒有 {1} 時，{2} 會寫入來源語系。接著在程式碼中使用該鍵，例如 {3}。若要查看哪些語系仍缺少鍵，請執行 {4}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當 {0} 找到意義相同的鍵時，agent 會重複使用該鍵。沒有 {1} 時，{2} 會寫入來源語系。接著在程式碼中使用該鍵，例如 {3}。若要查看哪些語系仍缺少鍵，請執行 {4}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

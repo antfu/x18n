@@ -3,12 +3,16 @@
   "source": "The provider of a module reaches the components the file names, and a route's reaches the components named or lazy-loaded under it, through {0} too, and their children.",
   "text": "模組的 provider 會作用到檔案中列出的元件；路由的 provider 則會作用到其下指定或延遲載入的元件（也包括透過 {0}）及其子元件。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "模組的 provider 會作用到檔案中列出的元件；路由的 provider 則會作用到其下指定或延遲載入的元件（也包括透過 {0}）及其子元件。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Key order when x18n writes a file. {0} sorts by code point, {1} sorts with a locale-aware compare, {2} keeps the order.",
   "text": "x18n 寫入檔案時的鍵順序。{0} 依碼位排序，{1} 使用感知語系的比較方式排序，{2} 則保持原順序。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 寫入檔案時的鍵順序。{0} 依碼位排序，{1} 使用感知語系的比較方式排序，{2} 則保持原順序。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

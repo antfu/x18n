@@ -3,12 +3,16 @@
   "source": "With {0}, the value replaces the whole call, such as {1}, instead of only the key. Calls over several lines keep the key-only replacement.",
   "text": "使用 {0} 時，值會取代整個呼叫（例如 {1}），而不只是鍵。跨多行的呼叫仍只取代鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "使用 {0} 時，值會取代整個呼叫（例如 {1}），而不只是鍵。跨多行的呼叫仍只取代鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

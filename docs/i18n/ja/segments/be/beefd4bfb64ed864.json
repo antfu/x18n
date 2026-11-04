@@ -3,12 +3,16 @@
   "source": "In components and layouts, a key is always a global key. x18n does not know on which pages a component shows.",
   "text": "コンポーネントとレイアウトでは、キーは常にグローバルキーとして扱われます。x18n は、コンポーネントがどのページで表示されるかを把握できないためです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "コンポーネントとレイアウトでは、キーは常にグローバルキーとして扱われます。x18n は、コンポーネントがどのページで表示されるかを把握できないためです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

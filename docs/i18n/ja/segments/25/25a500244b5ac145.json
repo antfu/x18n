@@ -3,12 +3,16 @@
   "source": "Values of related locales shown next to each message, such as {0} for {1}: {2} (default) picks the locales of the same language, a list names them, {3} leaves them out.",
   "text": "各メッセージの横に表示する関連ロケールの値です。たとえば {1} に対する {0} のような場合に使います。{2}（デフォルト）は同じ言語のロケールを選び、リストを指定するとそのロケールを表示し、{3} は表示しません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "各メッセージの横に表示する関連ロケールの値です。たとえば {1} に対する {0} のような場合に使います。{2}（デフォルト）は同じ言語のロケールを選び、リストを指定するとそのロケールを表示し、{3} は表示しません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

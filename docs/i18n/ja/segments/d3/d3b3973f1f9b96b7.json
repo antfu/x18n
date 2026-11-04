@@ -3,12 +3,16 @@
   "source": "Fixed locale for every matching file, for patterns without {0} ({1}).",
   "text": "{0} を含まないパターン（{1}）で、一致するすべてのファイルに適用する固定のロケールです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} を含まないパターン（{1}）で、一致するすべてのファイルに適用する固定のロケールです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

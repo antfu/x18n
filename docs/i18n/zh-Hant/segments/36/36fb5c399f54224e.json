@@ -3,12 +3,16 @@
   "source": "The names are those in the first column of the table, in every config format. {0} turns every preset off.",
   "text": "名稱即為表格第一欄中的名稱，在所有設定格式中皆相同。{0} 會關閉所有預設集。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "名稱即為表格第一欄中的名稱，在所有設定格式中皆相同。{0} 會關閉所有預設集。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

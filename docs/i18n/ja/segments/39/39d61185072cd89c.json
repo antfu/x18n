@@ -3,12 +3,16 @@
   "source": "{0} produce diagnostics. A check has an {1}, a {2} and a {3} generator. {4} gives the keys, messages, usages, coverage, unused keys, placeholders, hard strings and file texts. It also gives {5}, the options from {6} in the config. See the {7}example{/7}.",
   "text": "{0} は診断を生成します。チェックには {1}、{2}、{3} ジェネレーターがあります。{4} は、キー、メッセージ、使用箇所、カバレッジ、未使用のキー、プレースホルダー、ハードコードされた文字列、ファイルのテキストを提供します。また、設定の {6} にあるオプションである {5} も提供します。{7}例{/7}を参照してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は診断を生成します。チェックには {1}、{2}、{3} ジェネレーターがあります。{4} は、キー、メッセージ、使用箇所、カバレッジ、未使用のキー、プレースホルダー、ハードコードされた文字列、ファイルのテキストを提供します。また、設定の {6} にあるオプションである {5} も提供します。{7}例{/7}を参照してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

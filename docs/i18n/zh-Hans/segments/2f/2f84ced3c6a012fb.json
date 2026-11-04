@@ -3,12 +3,16 @@
   "source": "Run the checks (missing translations, placeholder mismatches, invalid syntax, unused and undefined keys, ...) and return diagnostics, paged. After writing messages, call it with {0} and fix what it reports.",
   "text": "运行这些检查（缺失的翻译、占位符不匹配、语法无效、未使用和未定义的键等），并分页返回诊断。写入消息后，请使用 {0} 调用它，并修复它报告的问题。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "运行这些检查（缺失的翻译、占位符不匹配、语法无效、未使用和未定义的键等），并分页返回诊断。写入消息后，请使用 {0} 调用它，并修复它报告的问题。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

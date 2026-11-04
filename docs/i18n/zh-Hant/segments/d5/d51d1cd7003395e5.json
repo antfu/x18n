@@ -3,12 +3,16 @@
   "source": "x18n found the review file ({0}, default {1}), but it is not valid YAML or does not match the reviews schema. Until it is fixed, x18n does not write reviews, so the file never loses what it holds. Renames and deletes still work, but leave the file as it is.",
   "text": "x18n 找到了審閱檔案（{0}，預設為 {1}），但它不是有效的 YAML，或不符合 reviews schema。在修正之前，x18n 不會寫入審閱，因此檔案不會遺失其中的內容。重新命名與刪除仍可運作，但會保持該檔案不變。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 找到了審閱檔案（{0}，預設為 {1}），但它不是有效的 YAML，或不符合 reviews schema。在修正之前，x18n 不會寫入審閱，因此檔案不會遺失其中的內容。重新命名與刪除仍可運作，但會保持該檔案不變。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

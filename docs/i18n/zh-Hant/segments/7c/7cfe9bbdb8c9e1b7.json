@@ -3,12 +3,16 @@
   "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
   "text": "永不擷取的字串：可以是像 {0} 這樣的完整字串，或是與文字相符的 {1} 字串，例如 {2}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "永不擷取的字串：可以是像 {0} 這樣的完整字串，或是與文字相符的 {1} 字串，例如 {2}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

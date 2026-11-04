@@ -3,12 +3,16 @@
   "source": "{0} passes a {1} with the namespace and key prefix to its child function.",
   "text": "{0} は、名前空間とキーのプレフィックスを持つ {1} を子関数に渡します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、名前空間とキーのプレフィックスを持つ {1} を子関数に渡します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

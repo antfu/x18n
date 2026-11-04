@@ -3,12 +3,16 @@
   "source": "A capability with the id of an earlier one stops the load with {0}X18N1002{/0}. Set {1} on the later one to replace the earlier one.",
   "text": "如果某个能力的 id 与之前的能力相同，加载会以 {0}X18N1002{/0} 中止。在后一个能力上设置 {1} 可替换前一个。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "如果某个能力的 id 与之前的能力相同，加载会以 {0}X18N1002{/0} 中止。在后一个能力上设置 {1} 可替换前一个。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "More than one preset can apply. Some presets include the plugins of another preset: {0} and {1} include everything of {2}, and {3} includes everything of {4}. When two applied presets share a plugin, x18n adds that plugin one time.",
   "text": "可以同时应用多个预设。有些预设包含另一个预设的插件：{0} 和 {1} 包含 {2} 的全部内容，{3} 包含 {4} 的全部内容。当两个已应用的预设共用同一个插件时，x18n 只会添加该插件一次。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "可以同时应用多个预设。有些预设包含另一个预设的插件：{0} 和 {1} 包含 {2} 的全部内容，{3} 包含 {4} 的全部内容。当两个已应用的预设共用同一个插件时，x18n 只会添加该插件一次。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

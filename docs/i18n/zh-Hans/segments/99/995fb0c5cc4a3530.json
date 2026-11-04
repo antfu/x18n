@@ -3,12 +3,16 @@
   "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
   "text": "键之后传入的对象包含插值参数，{0} 检查会将这些参数与源消息的占位符进行比较。参数函数（{1}）和 {2} 标记会被忽略。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "键之后传入的对象包含插值参数，{0} 检查会将这些参数与源消息的占位符进行比较。参数函数（{1}）和 {2} 标记会被忽略。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

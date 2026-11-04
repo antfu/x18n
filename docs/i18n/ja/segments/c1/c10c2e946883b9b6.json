@@ -3,12 +3,16 @@
   "source": "JS and TS modules whose default export is an object literal",
   "text": "デフォルトエクスポートがオブジェクトリテラルである JS および TS モジュール",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "デフォルトエクスポートがオブジェクトリテラルである JS および TS モジュール"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

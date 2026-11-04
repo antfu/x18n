@@ -3,12 +3,16 @@
   "source": "x18n picks the first template that matches the kind ({0}) and the file ({1}). It tries the templates of {2} first, then those of the presets, then these defaults:",
   "text": "x18n 會選用第一個同時符合類型（{0}）和檔案（{1}）的範本。它會先嘗試 {2} 的範本，再嘗試預設集的範本，最後使用以下預設值：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 會選用第一個同時符合類型（{0}）和檔案（{1}）的範本。它會先嘗試 {2} 的範本，再嘗試預設集的範本，最後使用以下預設值："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

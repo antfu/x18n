@@ -3,12 +3,16 @@
   "source": "The preset applies when the project has an {0} and a {1} folder, unless the root {2} depends on React Native, Expo, Capacitor, Cordova or NativeScript, or there is a {3}: those apps have an {4} folder whose strings are not its messages. A {5} kept only for tooling does not stop detection. Otherwise, name it in the config:",
   "text": "當專案同時具有 {0} 和 {1} 資料夾時，會套用此預設集，除非根目錄的 {2} 相依於 React Native、Expo、Capacitor、Cordova 或 NativeScript，或存在 {3}：這些應用程式的 {4} 資料夾中的字串並不是它的訊息。僅為工具用途而保留的 {5} 不會阻止偵測。否則，請在設定中指定它：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當專案同時具有 {0} 和 {1} 資料夾時，會套用此預設集，除非根目錄的 {2} 相依於 React Native、Expo、Capacitor、Cordova 或 NativeScript，或存在 {3}：這些應用程式的 {4} 資料夾中的字串並不是它的訊息。僅為工具用途而保留的 {5} 不會阻止偵測。否則，請在設定中指定它："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

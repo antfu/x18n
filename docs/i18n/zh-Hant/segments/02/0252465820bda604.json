@@ -3,12 +3,16 @@
   "source": "Project settings live in the {0}config file{/0}. The VS Code settings change only the editor experience, and never override the config.",
   "text": "專案設定位於{0}設定檔{/0}中。VS Code 設定只會改變編輯器的使用體驗，不會覆寫設定檔。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "專案設定位於{0}設定檔{/0}中。VS Code 設定只會改變編輯器的使用體驗，不會覆寫設定檔。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

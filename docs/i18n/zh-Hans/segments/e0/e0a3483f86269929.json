@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}, with the values {2} and {3}. When x18n sets a value, it writes the {4} field and keeps the other fields. {5} adds {6} to {7}.",
   "text": "此文件包含键 {0} 和 {1}，其值分别为 {2} 和 {3}。x18n 设置值时，会写入 {4} 字段，并保留其他字段。{5} 会将 {6} 添加到 {7}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此文件包含键 {0} 和 {1}，其值分别为 {2} 和 {3}。x18n 设置值时，会写入 {4} 字段，并保留其他字段。{5} 会将 {6} 添加到 {7}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

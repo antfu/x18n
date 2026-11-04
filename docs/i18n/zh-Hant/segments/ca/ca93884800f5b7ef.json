@@ -3,12 +3,16 @@
   "source": "The check reports each message whose open review comments end in a change request, at the message in the reviewed locale. The quick fix resolves the request. A later approval by anyone clears it too. See {0}Reviews{/0}.",
   "text": "此檢查會回報每則審閱留言最後以要求變更作結的訊息，並標示在被審閱語系中的該則訊息上。快速修正會解決該要求。之後任何人的核准也會將其清除。請參閱 {0}審閱{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此檢查會回報每則審閱留言最後以要求變更作結的訊息，並標示在被審閱語系中的該則訊息上。快速修正會解決該要求。之後任何人的核准也會將其清除。請參閱 {0}審閱{/0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

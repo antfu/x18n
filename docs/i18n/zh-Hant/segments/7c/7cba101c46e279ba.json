@@ -3,12 +3,16 @@
   "source": "Success. For {0}: no errors, and no more warnings than {1}.",
   "text": "成功。對於 {0}：沒有錯誤，且警告數不超過 {1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "成功。對於 {0}：沒有錯誤，且警告數不超過 {1}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

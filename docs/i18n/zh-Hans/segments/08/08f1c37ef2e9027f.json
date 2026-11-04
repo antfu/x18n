@@ -3,12 +3,16 @@
   "source": "{0} gives {1} and {2} ({3} by default), and each {4} there is a target locale. {5} has no file for the source locale, so x18n reads the source text from the {6} of a target file. That reading is read-only: the source text lives in your code. Run {7} to add new messages to the files.",
   "text": "{0} 提供 {1} 和 {2}（默认为 {3}），其中每个 {4} 对应一个目标语言。{5} 中没有源语言的文件，因此 x18n 会从目标文件的 {6} 中读取源文本。这种读取是只读的：源文本保存在你的代码中。运行 {7} 可将新消息添加到这些文件中。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 提供 {1} 和 {2}（默认为 {3}），其中每个 {4} 对应一个目标语言。{5} 中没有源语言的文件，因此 x18n 会从目标文件的 {6} 中读取源文本。这种读取是只读的：源文本保存在你的代码中。运行 {7} 可将新消息添加到这些文件中。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

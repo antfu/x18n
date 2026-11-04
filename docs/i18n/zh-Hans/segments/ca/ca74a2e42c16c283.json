@@ -3,12 +3,16 @@
   "source": "{0} for a wrong translation (say why in {1}), {2} to propose a value (in {3}), {4} for a good one, {5} for anything else.",
   "text": "{0} 表示翻译有误（在 {1} 中说明原因），{2} 表示提出一个值（在 {3} 中给出），{4} 表示翻译良好，{5} 表示其他情况。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 表示翻译有误（在 {1} 中说明原因），{2} 表示提出一个值（在 {3} 中给出），{4} 表示翻译良好，{5} 表示其他情况。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

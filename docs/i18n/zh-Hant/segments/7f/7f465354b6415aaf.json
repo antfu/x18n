@@ -3,12 +3,16 @@
   "source": "A review command ran, but the project cannot write reviews. The message says why:",
   "text": "執行了審閱指令，但專案無法寫入審閱。訊息會說明原因：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "執行了審閱指令，但專案無法寫入審閱。訊息會說明原因："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

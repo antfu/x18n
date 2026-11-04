@@ -3,12 +3,16 @@
   "source": "Run matching JS/TS files in Node instead of reading them statically. Makes them read-only.",
   "text": "在 Node 中執行符合的 JS/TS 檔案，而不是以靜態方式讀取。這會使它們變為唯讀。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在 Node 中執行符合的 JS/TS 檔案，而不是以靜態方式讀取。這會使它們變為唯讀。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

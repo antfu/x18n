@@ -3,12 +3,16 @@
   "source": "Deletes a key in every locale. {0} limits it. Code is not changed.",
   "text": "すべてのロケールからキーを削除します。{0} で範囲を限定できます。コードは変更されません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "すべてのロケールからキーを削除します。{0} で範囲を限定できます。コードは変更されません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

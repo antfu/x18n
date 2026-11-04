@@ -3,12 +3,16 @@
   "source": "One or more path segments. {0} becomes the namespace {1}.",
   "text": "1 つ以上のパスセグメント。{0} は名前空間 {1} になります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "1 つ以上のパスセグメント。{0} は名前空間 {1} になります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

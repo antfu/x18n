@@ -3,12 +3,16 @@
   "source": "{0} serves the tools over stdin and stdout. The agent starts the command itself. Most agents read a config like this one. The exact file and keys depend on the agent:",
   "text": "{0} 透過 stdin 與 stdout 提供這些工具。agent 會自行啟動該指令。大多數 agent 會讀取類似下面的設定。確切的檔案與鍵取決於 agent：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 透過 stdin 與 stdout 提供這些工具。agent 會自行啟動該指令。大多數 agent 會讀取類似下面的設定。確切的檔案與鍵取決於 agent："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

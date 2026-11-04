@@ -3,12 +3,16 @@
   "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
   "text": "同一種語言的其他語系：與目標語系共用較多子標籤的優先（對 {3} 而言，{0} 和 {1} 先於 {2}），其次是較短的代碼，最後依字母順序排列。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "同一種語言的其他語系：與目標語系共用較多子標籤的優先（對 {3} 而言，{0} 和 {1} 先於 {2}），其次是較短的代碼，最後依字母順序排列。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The agent edits the keys in the plan file, and removes the items it does not want, before it applies the plan.",
   "text": "在套用計畫之前，agent 會編輯計畫檔案中的鍵，並移除不需要的項目。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在套用計畫之前，agent 會編輯計畫檔案中的鍵，並移除不需要的項目。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

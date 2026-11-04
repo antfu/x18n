@@ -3,12 +3,16 @@
   "source": "{0} (stdio) and {1} (HTTP at {2}) serve these tools. {3}MCP{/3} explains how to connect an agent.",
   "text": "{0}（stdio）和 {1}（HTTP，地址为 {2}）提供这些工具。{3}MCP{/3} 说明了如何连接 agent。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}（stdio）和 {1}（HTTP，地址为 {2}）提供这些工具。{3}MCP{/3} 说明了如何连接 agent。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

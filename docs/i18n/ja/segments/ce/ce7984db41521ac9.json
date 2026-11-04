@@ -3,12 +3,16 @@
   "source": "A Rails locale file starts with the locale code as its top-level key. The preset reads the messages under that key, so the keys do not start with the locale:",
   "text": "Rails のロケールファイルは、最上位のキーとしてロケールコードから始まります。プリセットはそのキーの下にあるメッセージを読み取るため、キーはロケールから始まりません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Rails のロケールファイルは、最上位のキーとしてロケールコードから始まります。プリセットはそのキーの下にあるメッセージを読み取るため、キーはロケールから始まりません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

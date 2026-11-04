@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}i18next{/1} without a framework binding. For React, see {2}react-i18next{/2}.",
   "text": "{0} 预设支持不带框架绑定的 {1}i18next{/1}。如果使用 React，请参阅 {2}react-i18next{/2}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 预设支持不带框架绑定的 {1}i18next{/1}。如果使用 React，请参阅 {2}react-i18next{/2}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

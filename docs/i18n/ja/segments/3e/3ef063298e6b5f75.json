@@ -3,12 +3,16 @@
   "source": "How x18n understood the project: presets, locale finders, formats, scanners, conflicts, errors and config origins.",
   "text": "x18n がプロジェクトをどのように解釈したかを表示します。プリセット、ロケールファインダー、フォーマット、スキャナー、競合、エラー、設定の出所が含まれます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n がプロジェクトをどのように解釈したかを表示します。プリセット、ロケールファインダー、フォーマット、スキャナー、競合、エラー、設定の出所が含まれます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

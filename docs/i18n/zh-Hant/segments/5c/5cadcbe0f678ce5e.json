@@ -3,12 +3,16 @@
   "source": "more translate calls. Wildcards such as {0} are skipped.",
   "text": "更多翻譯呼叫。萬用字元（例如 {0}）會被略過。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "更多翻譯呼叫。萬用字元（例如 {0}）會被略過。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

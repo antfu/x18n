@@ -3,12 +3,16 @@
   "source": "It asks you about key naming, glossary terms, tone per locale, deleting unused keys and large renames.",
   "text": "キーの命名、用語集の用語、ロケールごとのトーン、未使用キーの削除、大規模な名前変更については、あなたに質問します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "キーの命名、用語集の用語、ロケールごとのトーン、未使用キーの削除、大規模な名前変更については、あなたに質問します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} needs {1} to comment, approve, request a change or suggest; {2} needs {3} and {4} needs {5}.",
   "text": "{0} でコメント、承認、変更のリクエスト、提案を行うには {1} が必要です。{2} には {3} が、{4} には {5} が必要です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} でコメント、承認、変更のリクエスト、提案を行うには {1} が必要です。{2} には {3} が、{4} には {5} が必要です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

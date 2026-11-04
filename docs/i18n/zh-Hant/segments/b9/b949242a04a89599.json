@@ -3,12 +3,16 @@
   "source": "Before you use a key in code, find out whether it exists: {0}. To reuse a key with the same text, search the values: {1}.",
   "text": "在程式碼中使用某個鍵之前，先確認它是否存在：{0}。若要重複使用文字相同的鍵，請搜尋值：{1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在程式碼中使用某個鍵之前，先確認它是否存在：{0}。若要重複使用文字相同的鍵，請搜尋值：{1}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

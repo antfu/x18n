@@ -3,12 +3,16 @@
   "source": "The agent runs {0}, groups the diagnostics by check, and fixes the routine ones: missing keys and translations, placeholder mismatches and invalid syntax. It asks you before it deletes unused keys, adds glossary terms, changes the severity of a check, or makes warnings fail {1}CI{/1} with {2}.",
   "text": "agent 会运行 {0}，按检查对诊断结果分组，并修复常规问题：缺失的键和翻译、占位符不匹配以及无效语法。在删除未使用的键、添加术语表条目、更改某项检查的严重级别，或使用 {2} 让警告导致 {1}CI{/1} 失败之前，它会先征求你的意见。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "agent 会运行 {0}，按检查对诊断结果分组，并修复常规问题：缺失的键和翻译、占位符不匹配以及无效语法。在删除未使用的键、添加术语表条目、更改某项检查的严重级别，或使用 {2} 让警告导致 {1}CI{/1} 失败之前，它会先征求你的意见。"
   },
-  "updatedAt": "2026-11-04T04:17:23.246Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

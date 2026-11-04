@@ -3,12 +3,16 @@
   "source": "The resource patterns of all applied presets add up. For example, a project with {0} and {1} uses the patterns of both presets.",
   "text": "所有已套用預設集的資源模式會疊加在一起。例如，同時使用 {0} 和 {1} 的專案會採用這兩個預設集的模式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "所有已套用預設集的資源模式會疊加在一起。例如，同時使用 {0} 和 {1} 的專案會採用這兩個預設集的模式。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

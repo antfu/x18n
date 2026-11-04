@@ -3,12 +3,16 @@
   "source": "Read the output before you replace the YAML file. Check that the regular expressions in {0} came through unchanged.",
   "text": "在取代 YAML 檔案之前，請先閱讀輸出內容。請確認 {0} 中的正規表達式沒有被改動。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在取代 YAML 檔案之前，請先閱讀輸出內容。請確認 {0} 中的正規表達式沒有被改動。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

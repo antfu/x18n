@@ -3,12 +3,16 @@
   "source": "A scanner failed to parse a source file, so x18n did not find the usages in it.",
   "text": "掃描器無法解析某個原始碼檔案，因此 x18n 沒有找到該檔案中的使用處。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "掃描器無法解析某個原始碼檔案，因此 x18n 沒有找到該檔案中的使用處。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

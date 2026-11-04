@@ -3,12 +3,16 @@
   "source": "The preset for @nuxtjs/i18n. It adds everything of vue-i18n, and finds the locale directory of the Nuxt config.",
   "text": "@nuxtjs/i18n 向けのプリセットです。vue-i18n のすべての機能を追加し、Nuxt の設定からロケールディレクトリを検出します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "@nuxtjs/i18n 向けのプリセットです。vue-i18n のすべての機能を追加し、Nuxt の設定からロケールディレクトリを検出します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

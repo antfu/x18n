@@ -3,12 +3,16 @@
   "source": "Without {0}, the presets add their usual paths. The paths of all applied presets add up. If they match nothing, x18n looks for directories named {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10} or {11}, and guesses the pattern from the files in them.",
   "text": "未設定 {0} 時，預設集會加入其常用路徑，所有已套用預設集的路徑會累加。如果這些路徑都沒有符合的檔案，x18n 會尋找名為 {1}、{2}、{3}、{4}、{5}、{6}、{7}、{8}、{9}、{10} 或 {11} 的目錄，並根據其中的檔案推測模式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "未設定 {0} 時，預設集會加入其常用路徑，所有已套用預設集的路徑會累加。如果這些路徑都沒有符合的檔案，x18n 會尋找名為 {1}、{2}、{3}、{4}、{5}、{6}、{7}、{8}、{9}、{10} 或 {11} 的目錄，並根據其中的檔案推測模式。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

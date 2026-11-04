@@ -3,12 +3,16 @@
   "source": "The editor and the UI still show every diagnostic. The idea comes from {0}i18next-cli{/0} and the bulk suppressions of ESLint.",
   "text": "エディターと UI には、引き続きすべての診断が表示されます。この考え方は、{0}i18next-cli{/0} と ESLint の bulk suppressions に由来しています。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "エディターと UI には、引き続きすべての診断が表示されます。この考え方は、{0}i18next-cli{/0} と ESLint の bulk suppressions に由来しています。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

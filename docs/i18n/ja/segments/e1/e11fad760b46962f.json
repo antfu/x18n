@@ -3,12 +3,16 @@
   "source": "The status bar shows the display locale. Click it, or run \"x18n: Set Display Locale\", to change it. The pick holds for the current workspace and is kept in the extension's workspace state, so it never lands in {0} or in the repo. It overrides the {1} setting until that setting changes. To go back to the setting, or to the source locale when the setting is empty, pick \"Default\" or edit the setting.",
   "text": "ステータスバーには表示ロケールが表示されます。変更するには、それをクリックするか、「x18n: Set Display Locale」を実行してください。選択内容は現在のワークスペースで保持され、拡張機能のワークスペース状態に保存されるため、{0} やリポジトリには反映されません。この選択は、{1} 設定が変更されるまで、その設定より優先されます。設定に戻すには、設定が空の場合はソースロケールに戻すには、「Default」を選択するか、設定を編集してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ステータスバーには表示ロケールが表示されます。変更するには、それをクリックするか、「x18n: Set Display Locale」を実行してください。選択内容は現在のワークスペースで保持され、拡張機能のワークスペース状態に保存されるため、{0} やリポジトリには反映されません。この選択は、{1} 設定が変更されるまで、その設定より優先されます。設定に戻すには、設定が空の場合はソースロケールに戻すには、「Default」を選択するか、設定を編集してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

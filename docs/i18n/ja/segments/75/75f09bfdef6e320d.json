@@ -3,12 +3,16 @@
   "source": "On a project with many known problems, a baseline makes CI fail only on new ones. Write it once and commit it:",
   "text": "既知の問題が多数あるプロジェクトでは、ベースラインを使うと、CI が新しい問題に対してのみ失敗するようになります。一度書き出して、コミットしてください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "既知の問題が多数あるプロジェクトでは、ベースラインを使うと、CI が新しい問題に対してのみ失敗するようになります。一度書き出して、コミットしてください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

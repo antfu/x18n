@@ -3,12 +3,16 @@
   "source": "A YAML plugin is a data file that holds the declarative part of the plugin API. Name it {0}, and list its path in {1}:",
   "text": "YAML プラグインは、プラグイン API の宣言的な部分を保持するデータファイルです。ファイル名は {0} にし、そのパスを {1} に記載してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "YAML プラグインは、プラグイン API の宣言的な部分を保持するデータファイルです。ファイル名は {0} にし、そのパスを {1} に記載してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

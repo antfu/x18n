@@ -3,12 +3,16 @@
   "source": "{0} returns a devframe definition. Mount it in any hub, for example {1} from {2}:",
   "text": "{0} 會回傳一個 devframe 定義。將它掛載到任何 hub 中，例如來自 {2} 的 {1}：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會回傳一個 devframe 定義。將它掛載到任何 hub 中，例如來自 {2} 的 {1}："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

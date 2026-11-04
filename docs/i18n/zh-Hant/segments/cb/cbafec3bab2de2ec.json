@@ -3,12 +3,16 @@
   "source": "These usages are {0}, {1} and {2}. A used message also uses its attributes, so {3} is not unused.",
   "text": "這些使用處為 {0}、{1} 和 {2}。被使用的訊息也會使用其屬性，因此 {3} 並非未使用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "這些使用處為 {0}、{1} 和 {2}。被使用的訊息也會使用其屬性，因此 {3} 並非未使用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

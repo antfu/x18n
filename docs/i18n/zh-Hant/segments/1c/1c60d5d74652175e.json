@@ -3,12 +3,16 @@
   "source": "Each error of x18n has a code such as {0}. The CLI prints the code with why the error happened, a fix and a link to the page of the code. With {1}, the error is in {2} of the {3}envelope{/3}, with a {4} link to its page here.",
   "text": "x18n 的每個錯誤都有一個錯誤碼，例如 {0}。CLI 會印出錯誤碼、錯誤發生的原因、修正方式，以及該錯誤碼頁面的連結。使用 {1} 時，錯誤會放在{3}envelope{/3}的 {2} 中，並附上指向本站對應頁面的 {4} 連結。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 的每個錯誤都有一個錯誤碼，例如 {0}。CLI 會印出錯誤碼、錯誤發生的原因、修正方式，以及該錯誤碼頁面的連結。使用 {1} 時，錯誤會放在{3}envelope{/3}的 {2} 中，並附上指向本站對應頁面的 {4} 連結。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

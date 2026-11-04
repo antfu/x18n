@@ -3,12 +3,16 @@
   "source": "Returns the files that the migration from i18n-ally writes, as {0}. Nothing is written.",
   "text": "以 {0} 的形式回傳從 i18n-ally 遷移時會寫入的檔案。不會寫入任何內容。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "以 {0} 的形式回傳從 i18n-ally 遷移時會寫入的檔案。不會寫入任何內容。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "x18n follows this for page components. In {0}, {1} is {2} when {3} has {4}. Otherwise it is the global key {5}. The route name comes from the file path, as in Nuxt: {6} is {7}, {8} is {9}, and the route group in {10} is left out, so the route is {11}. Page components are the {12} files in {13} or {14} at the project root.",
   "text": "x18n 对页面组件遵循这一规则。在 {0} 中，当 {3} 包含 {4} 时，{1} 为 {2}。否则它就是全局键 {5}。路由名称来自文件路径，与 Nuxt 相同：{6} 对应 {7}，{8} 对应 {9}，{10} 中的路由分组会被省略，因此路由为 {11}。页面组件是项目根目录下 {13} 或 {14} 中的 {12} 文件。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 对页面组件遵循这一规则。在 {0} 中，当 {3} 包含 {4} 时，{1} 为 {2}。否则它就是全局键 {5}。路由名称来自文件路径，与 Nuxt 相同：{6} 对应 {7}，{8} 对应 {9}，{10} 中的路由分组会被省略，因此路由为 {11}。页面组件是项目根目录下 {13} 或 {14} 中的 {12} 文件。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

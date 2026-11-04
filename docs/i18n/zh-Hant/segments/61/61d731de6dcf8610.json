@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0}. The {1} preset includes this one. If both apply, x18n adds the shared plugins one time.",
   "text": "當專案相依於 {0} 時，會套用此預設集。{1} 預設集已包含此預設集。若兩者都適用，x18n 只會加入一次共用的外掛。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當專案相依於 {0} 時，會套用此預設集。{1} 預設集已包含此預設集。若兩者都適用，x18n 只會加入一次共用的外掛。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

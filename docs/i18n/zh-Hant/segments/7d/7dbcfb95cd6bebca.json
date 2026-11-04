@@ -3,12 +3,16 @@
   "source": "A message is the value of one key in one locale. {0} is the message of {1} in {2}. {3} is a placeholder. The {4} check makes sure that each translation keeps the placeholders of the source message.",
   "text": "訊息是某個鍵在某一個語系中的值。{0} 是 {1} 在 {2} 中的訊息。{3} 是佔位符。{4} 檢查會確保每個翻譯都保留來源訊息中的佔位符。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "訊息是某個鍵在某一個語系中的值。{0} 是 {1} 在 {2} 中的訊息。{3} 是佔位符。{4} 檢查會確保每個翻譯都保留來源訊息中的佔位符。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Items from {0}, keys and replacements edited as needed; drop items to skip them.",
   "text": "來自 {0} 的項目，可視需要編輯鍵與替換內容；移除項目即可略過它們。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "來自 {0} 的項目，可視需要編輯鍵與替換內容；移除項目即可略過它們。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

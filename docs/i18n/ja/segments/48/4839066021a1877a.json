@@ -3,12 +3,16 @@
   "source": "Keys (globs) excluded from all checks. {0} also takes regular expressions.",
   "text": "すべてのチェックから除外するキー（glob）です。{0} は正規表現も指定できます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "すべてのチェックから除外するキー（glob）です。{0} は正規表現も指定できます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

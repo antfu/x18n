@@ -3,12 +3,16 @@
   "source": "Set the separator and the default namespace with the {0} option. The i18next presets set both.",
   "text": "使用 {0} 選項設定分隔符號與預設命名空間。i18next 預設集會同時設定這兩者。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "使用 {0} 選項設定分隔符號與預設命名空間。i18next 預設集會同時設定這兩者。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
   "text": "プリセットのテンプレートより先に試される置換テンプレートです。{0}抽出テンプレート{/0}を参照してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プリセットのテンプレートより先に試される置換テンプレートです。{0}抽出テンプレート{/0}を参照してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

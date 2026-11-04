@@ -3,12 +3,16 @@
   "source": "Do not edit locale files by hand. These commands keep the format, the indent, the key style and the order of each file, and they check placeholders:",
   "text": "請勿手動編輯語系檔案。這些命令會保留每個檔案的格式、縮排、鍵的風格與順序，並檢查佔位符：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "請勿手動編輯語系檔案。這些命令會保留每個檔案的格式、縮排、鍵的風格與順序，並檢查佔位符："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

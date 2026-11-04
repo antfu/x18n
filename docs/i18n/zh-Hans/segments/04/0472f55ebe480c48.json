@@ -3,12 +3,16 @@
   "source": "{0} in {1} accepts more than YAML and JSON. These options take plugin objects and functions:",
   "text": "{1} 中的 {0} 支持的格式不止 YAML 和 JSON。以下选项可接受插件对象和函数：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{1} 中的 {0} 支持的格式不止 YAML 和 JSON。以下选项可接受插件对象和函数："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

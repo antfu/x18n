@@ -3,12 +3,16 @@
   "source": "to read the {0} output and the exit codes, to page large outputs, and to pick a project in a monorepo.",
   "text": "{0} の出力と終了コードを読むこと、大きな出力をページ分割して読むこと、モノレポでプロジェクトを選ぶこと。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} の出力と終了コードを読むこと、大きな出力をページ分割して読むこと、モノレポでプロジェクトを選ぶこと。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

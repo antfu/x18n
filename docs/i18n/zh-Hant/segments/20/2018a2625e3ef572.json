@@ -3,12 +3,16 @@
   "source": "The {0} check reports each message whose state is \"changes requested\". Its quick fix resolves the request.",
   "text": "{0} 檢查會回報每則狀態為「要求修改」的訊息。它的快速修正會解決該要求。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 檢查會回報每則狀態為「要求修改」的訊息。它的快速修正會解決該要求。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

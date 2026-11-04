@@ -3,12 +3,16 @@
   "source": "If your config has {0}, x18n uses only your patterns. They replace the patterns of every preset.",
   "text": "如果你的設定包含 {0}，x18n 只會使用你的模式，它們會取代所有預設集的模式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "如果你的設定包含 {0}，x18n 只會使用你的模式，它們會取代所有預設集的模式。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Locales with coverage, counts, diagnostics by check and detected presets. Call it first.",
   "text": "各語系的涵蓋率、數量、依檢查分類的診斷，以及偵測到的預設集。請最先呼叫。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "各語系的涵蓋率、數量、依檢查分類的診斷，以及偵測到的預設集。請最先呼叫。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

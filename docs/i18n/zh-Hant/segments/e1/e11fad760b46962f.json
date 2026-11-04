@@ -3,12 +3,16 @@
   "source": "The status bar shows the display locale. Click it, or run \"x18n: Set Display Locale\", to change it. The pick holds for the current workspace and is kept in the extension's workspace state, so it never lands in {0} or in the repo. It overrides the {1} setting until that setting changes. To go back to the setting, or to the source locale when the setting is empty, pick \"Default\" or edit the setting.",
   "text": "狀態列會顯示顯示語系。點擊它，或執行「x18n: Set Display Locale」即可變更。你的選擇僅適用於目前的工作區，並保存在擴充功能的工作區狀態中，因此不會寫入 {0} 或儲存庫。在該設定變更之前，它會覆寫 {1} 設定。若要回到設定值，或在設定為空時回到來源語系，請選擇「Default」或編輯該設定。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "狀態列會顯示顯示語系。點擊它，或執行「x18n: Set Display Locale」即可變更。你的選擇僅適用於目前的工作區，並保存在擴充功能的工作區狀態中，因此不會寫入 {0} 或儲存庫。在該設定變更之前，它會覆寫 {1} 設定。若要回到設定值，或在設定為空時回到來源語系，請選擇「Default」或編輯該設定。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

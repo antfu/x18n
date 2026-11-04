@@ -3,12 +3,16 @@
   "source": "Reviews are not available. Set `review.enabled` to true, and fix the review file if the check reports a problem with it.",
   "text": "無法使用審閱功能。請將 `review.enabled` 設為 true，如果檢查回報審閱檔案有問題，請修正該檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "無法使用審閱功能。請將 `review.enabled` 設為 true，如果檢查回報審閱檔案有問題，請修正該檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

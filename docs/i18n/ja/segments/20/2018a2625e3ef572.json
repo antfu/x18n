@@ -3,12 +3,16 @@
   "source": "The {0} check reports each message whose state is \"changes requested\". Its quick fix resolves the request.",
   "text": "{0} チェックは、状態が「changes requested」のメッセージをすべて報告します。クイックフィックスを使うと、その依頼を解決済みにできます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} チェックは、状態が「changes requested」のメッセージをすべて報告します。クイックフィックスを使うと、その依頼を解決済みにできます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, history provider, review store.",
   "text": "一种贡献类型：清单读取器、语言查找器、格式、扫描器、提取器、检查、报告器、占位符语法、历史提供者、审阅存储。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一种贡献类型：清单读取器、语言查找器、格式、扫描器、提取器、检查、报告器、占位符语法、历史提供者、审阅存储。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

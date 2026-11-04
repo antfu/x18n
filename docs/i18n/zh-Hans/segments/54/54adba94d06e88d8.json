@@ -3,12 +3,16 @@
   "source": "A linked message ({0}) and a nesting placeholder ({1}) name another key. That key then counts as used. The {2} check reports a linked message whose key does not exist, and ICU messages that do not parse or that lack an {3} case.",
   "text": "链接消息（{0}）和嵌套占位符（{1}）会指向另一个键，该键随即被视为已使用。{2} 检查会报告指向不存在的键的链接消息，以及无法解析或缺少 {3} 分支的 ICU 消息。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "链接消息（{0}）和嵌套占位符（{1}）会指向另一个键，该键随即被视为已使用。{2} 检查会报告指向不存在的键的链接消息，以及无法解析或缺少 {3} 分支的 ICU 消息。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

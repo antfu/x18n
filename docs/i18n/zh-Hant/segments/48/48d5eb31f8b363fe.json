@@ -3,12 +3,16 @@
   "source": "The preset for @lit/localize. It reads msg() with str and html, computes the same ids as lit-localize, and reads XLIFF per target locale.",
   "text": "@lit/localize 的預設集。它會讀取搭配 str 與 html 的 msg()，計算出與 lit-localize 相同的 id，並依每個目標語系讀取 XLIFF。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "@lit/localize 的預設集。它會讀取搭配 str 與 html 的 msg()，計算出與 lit-localize 相同的 id，並依每個目標語系讀取 XLIFF。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

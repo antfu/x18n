@@ -3,12 +3,16 @@
   "source": "With the i18next option {0}, a key such as {1} is literal: the {2} does not split it. The preset reads {3} and {4} from the init code and sets {5}, and {6} for {7}, so {8} is a key and not the namespace {9}. A string, such as {10}, becomes the key separator. Set {11} in the config to override it.",
   "text": "i18next のオプション {0} を使うと、{1} のようなキーはリテラルになります。{2} はキーを分割しません。プリセットは初期化コードから {3} と {4} を読み取り、{5} を設定し、{7} には {6} を設定するため、{8} は名前空間 {9} ではなくキーになります。{10} のような文字列はキー区切り文字になります。上書きするには、設定で {11} を設定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "i18next のオプション {0} を使うと、{1} のようなキーはリテラルになります。{2} はキーを分割しません。プリセットは初期化コードから {3} と {4} を読み取り、{5} を設定し、{7} には {6} を設定するため、{8} は名前空間 {9} ではなくキーになります。{10} のような文字列はキー区切り文字になります。上書きするには、設定で {11} を設定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A project without a library preset therefore has no translate calls, and x18n finds no usages. Add your calls in {0}:",
   "text": "因此，沒有函式庫預設集的專案不會有任何 translate 呼叫，x18n 也找不到任何使用處。請在 {0} 中加入你的呼叫：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "因此，沒有函式庫預設集的專案不會有任何 translate 呼叫，x18n 也找不到任何使用處。請在 {0} 中加入你的呼叫："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Text in inline {0} strings works the same way, in any kind of quotes and with escapes, and an inline template in double quotes gets {1}. ICUs get marked too. A sentence around an ICU ({2}) is two messages in Angular, so run {3} after it to add the ICU's own. These stay as they are: content with {4} or {5}, and an inline template with {6}, whose text is not known before the build.",
   "text": "內嵌 {0} 字串中的文字也以相同方式處理，支援任何種類的引號和跳脫字元，使用雙引號的內嵌範本會取得 {1}。ICU 也會被標記。ICU 前後的句子（{2}）在 Angular 中是兩則訊息，因此之後請執行 {3} 來加入 ICU 本身的訊息。以下情況會維持原樣：含有 {4} 或 {5} 的內容，以及含有 {6} 的內嵌範本，因為其文字在建置之前無法得知。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "內嵌 {0} 字串中的文字也以相同方式處理，支援任何種類的引號和跳脫字元，使用雙引號的內嵌範本會取得 {1}。ICU 也會被標記。ICU 前後的句子（{2}）在 Angular 中是兩則訊息，因此之後請執行 {3} 來加入 ICU 本身的訊息。以下情況會維持原樣：含有 {4} 或 {5} 的內容，以及含有 {6} 的內嵌範本，因為其文字在建置之前無法得知。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

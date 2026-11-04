@@ -3,12 +3,16 @@
   "source": "The review prompt asks the agent to compare existing translations with the source and the glossary. The agent does not change values itself. It leaves a {0}review{/0} for a human: {1} for a better value, or {2} for a problem without a clear fix. A human then applies or resolves each one, in the editor, the UI or with {3}. With {4}, the agent fixes values with {5} instead.",
   "text": "审阅提示会要求 agent 将现有翻译与源文本和术语表进行比较。agent 不会自行修改值，而是为人工留下{0}审阅{/0}：用 {1} 提出更好的值，或用 {2} 指出没有明确修复方案的问题。随后由人工在编辑器、UI 中或通过 {3} 应用或解决每一条审阅。使用 {4} 时，agent 改为用 {5} 修复值。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "审阅提示会要求 agent 将现有翻译与源文本和术语表进行比较。agent 不会自行修改值，而是为人工留下{0}审阅{/0}：用 {1} 提出更好的值，或用 {2} 指出没有明确修复方案的问题。随后由人工在编辑器、UI 中或通过 {3} 应用或解决每一条审阅。使用 {4} 时，agent 改为用 {5} 修复值。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

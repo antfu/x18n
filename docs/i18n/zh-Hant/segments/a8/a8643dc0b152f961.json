@@ -3,12 +3,16 @@
   "source": "{0}: comments keep their id, author, time and resolved state; {1} becomes {2}; a comment with a {3} becomes a {4}; a translation candidate becomes a {5} too.",
   "text": "{0}：留言會保留其 id、作者、時間和已解決狀態；{1} 會變成 {2}；含有 {3} 的留言會變成 {4}；翻譯候選項也會變成 {5}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}：留言會保留其 id、作者、時間和已解決狀態；{1} 會變成 {2}；含有 {3} 的留言會變成 {4}；翻譯候選項也會變成 {5}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

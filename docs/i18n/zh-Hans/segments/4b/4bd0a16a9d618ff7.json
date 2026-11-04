@@ -3,12 +3,16 @@
   "source": "{0}Migration from i18n-ally{/0}: convert existing i18n-ally settings.",
   "text": "{0}从 i18n-ally 迁移{/0}：转换现有的 i18n-ally 设置。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}从 i18n-ally 迁移{/0}：转换现有的 i18n-ally 设置。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset sets no resource patterns. Without {0} in the config, x18n looks for directories such as {1}.",
   "text": "此預設集不會設定任何資源模式。若設定檔中沒有 {0}，x18n 會尋找如 {1} 這類的目錄。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此預設集不會設定任何資源模式。若設定檔中沒有 {0}，x18n 會尋找如 {1} 這類的目錄。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

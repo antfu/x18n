@@ -3,12 +3,16 @@
   "source": "One reported issue with a code, severity and optional fixes.",
   "text": "一个已报告的问题，包含代码、严重程度和可选的修复。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一个已报告的问题，包含代码、严重程度和可选的修复。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

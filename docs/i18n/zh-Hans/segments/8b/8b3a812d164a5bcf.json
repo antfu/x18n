@@ -3,12 +3,16 @@
   "source": "When the project has a review file, every value that x18n writes into a target locale also records a hash of the source value in the {0} section. While the source value stays the same, the translation is up to date, even when git says it is older than the source. See {1}. {2} records the current source value without a change, for a translation that is still right after the source changed.",
   "text": "当项目有审阅文件时，x18n 写入目标语言的每个值，还会在 {0} 部分记录源值的哈希。只要源值不变，译文就是最新的，即使 git 显示它比源值更旧。参见 {1}。{2} 会在不做更改的情况下记录当前的源值，适用于源值变化后译文仍然正确的情况。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当项目有审阅文件时，x18n 写入目标语言的每个值，还会在 {0} 部分记录源值的哈希。只要源值不变，译文就是最新的，即使 git 显示它比源值更旧。参见 {1}。{2} 会在不做更改的情况下记录当前的源值，适用于源值变化后译文仍然正确的情况。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

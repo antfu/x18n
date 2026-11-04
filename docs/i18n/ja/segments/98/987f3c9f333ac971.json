@@ -3,12 +3,16 @@
   "source": "{0} without children renders the message as text. The {1} templates need {2} in the component. A string outside a component, such as a module-level constant, has no {3}: move it into the component before you extract it.",
   "text": "子要素のない {0} は、メッセージをテキストとして描画します。{1} テンプレートでは、コンポーネント内に {2} が必要です。モジュールレベルの定数など、コンポーネントの外にある文字列には {3} がありません。抽出する前に、コンポーネント内へ移動してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "子要素のない {0} は、メッセージをテキストとして描画します。{1} テンプレートでは、コンポーネント内に {2} が必要です。モジュールレベルの定数など、コンポーネントの外にある文字列には {3} がありません。抽出する前に、コンポーネント内へ移動してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

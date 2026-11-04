@@ -3,12 +3,16 @@
   "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
   "text": "取代範本，優先於預設集的範本嘗試。請參閱{0}擷取範本{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "取代範本，優先於預設集的範本嘗試。請參閱{0}擷取範本{/0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

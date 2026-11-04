@@ -3,12 +3,16 @@
   "source": "The default output directory is {0}. The report holds the state of the project at build time. Edit controls, prompts and \"Open in editor\" are not there.",
   "text": "預設輸出目錄為 {0}。報告包含建置當下的專案狀態，不包含編輯控制項、提示與「Open in editor」。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "預設輸出目錄為 {0}。報告包含建置當下的專案狀態，不包含編輯控制項、提示與「Open in editor」。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

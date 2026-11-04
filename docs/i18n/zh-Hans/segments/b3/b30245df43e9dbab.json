@@ -3,12 +3,16 @@
   "source": "Then run {0} (or {1}) in your CI. {2}CI{/2} shows a GitHub Actions workflow that puts the problems on the lines of a pull request.",
   "text": "然后在 CI 中运行 {0}（或 {1}）。{2}CI{/2} 展示了一个 GitHub Actions 工作流，可以把问题标注在 pull request 的对应行上。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "然后在 CI 中运行 {0}（或 {1}）。{2}CI{/2} 展示了一个 GitHub Actions 工作流，可以把问题标注在 pull request 的对应行上。"
   },
-  "updatedAt": "2026-11-04T02:01:28.918Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

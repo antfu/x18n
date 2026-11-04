@@ -3,12 +3,16 @@
   "source": "easy\\_localization keeps plural and gender forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. For this file, {8} uses {9} and {10}, so the {11} check reports neither:",
   "text": "easy\\_localization 會將複數與性別形式保存為巢狀鍵。預設集會加入衍生的鍵 {0}、{1}、{2}、{3}、{4}、{5}、{6} 和 {7}。以這個檔案為例，{8} 使用了 {9} 和 {10}，因此 {11} 檢查兩者都不會回報：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "easy\\_localization 會將複數與性別形式保存為巢狀鍵。預設集會加入衍生的鍵 {0}、{1}、{2}、{3}、{4}、{5}、{6} 和 {7}。以這個檔案為例，{8} 使用了 {9} 和 {10}，因此 {11} 檢查兩者都不會回報："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

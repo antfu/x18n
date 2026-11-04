@@ -3,12 +3,16 @@
   "source": "The library has no default directory. If your config has no {0}, the preset uses {1} and {2}. This is the default {3}, {4}. The file name and the folders under the directory are the namespace, so the key {5} in {6} is {7}. For another {8} or {9}, set {10}.",
   "text": "このライブラリにはデフォルトのディレクトリがありません。設定に {0} がない場合、プリセットは {1} と {2} を使用します。これがデフォルトの {3} である {4} です。ファイル名とディレクトリ配下のフォルダーが名前空間になるため、{6} 内のキー {5} は {7} になります。別の {8} や {9} を使う場合は、{10} を設定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このライブラリにはデフォルトのディレクトリがありません。設定に {0} がない場合、プリセットは {1} と {2} を使用します。これがデフォルトの {3} である {4} です。ファイル名とディレクトリ配下のフォルダーが名前空間になるため、{6} 内のキー {5} は {7} になります。別の {8} や {9} を使う場合は、{10} を設定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

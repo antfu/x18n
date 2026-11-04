@@ -3,12 +3,16 @@
   "source": "Style reference: up to five existing messages of the target locale, as examples of its tone. A value that is a copy of the source is never an example.",
   "text": "風格參考：目標語系中最多五則現有訊息，作為其語氣的範例。內容與來源相同的值不會被當作範例。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "風格參考：目標語系中最多五則現有訊息，作為其語氣的範例。內容與來源相同的值不會被當作範例。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

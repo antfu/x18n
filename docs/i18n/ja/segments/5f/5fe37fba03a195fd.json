@@ -3,12 +3,16 @@
   "source": "An agent without a skills system can still use two of the skills. The CLI prints them as plain markdown, without the front matter. The output of {0} also holds the references of the skill.",
   "text": "スキルの仕組みを持たないエージェントでも、2 つのスキルは使えます。CLI は、フロントマターを除いたプレーンな markdown として出力します。{0} の出力には、スキルのリファレンスも含まれます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "スキルの仕組みを持たないエージェントでも、2 つのスキルは使えます。CLI は、フロントマターを除いたプレーンな markdown として出力します。{0} の出力には、スキルのリファレンスも含まれます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

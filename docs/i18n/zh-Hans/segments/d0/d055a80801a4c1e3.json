@@ -3,12 +3,16 @@
   "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
   "text": "{0} 会拒绝占位符与源语言的值不一致的值，并且不会写入任何内容。它会列出被拒绝的值，并以退出码 1 退出。请修正这些值，或传入 {1} 强制写入。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 会拒绝占位符与源语言的值不一致的值，并且不会写入任何内容。它会列出被拒绝的值，并以退出码 1 退出。请修正这些值，或传入 {1} 强制写入。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

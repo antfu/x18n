@@ -3,12 +3,16 @@
   "source": "Project root (default: nearest config upward from the cwd)",
   "text": "專案根目錄（預設：從目前工作目錄向上尋找最近的設定檔）",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "專案根目錄（預設：從目前工作目錄向上尋找最近的設定檔）"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

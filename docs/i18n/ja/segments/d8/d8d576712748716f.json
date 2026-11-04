@@ -3,12 +3,16 @@
   "source": "The versioned JSON output of the CLI, shared by the LSP, the UI and MCP.",
   "text": "CLI のバージョン管理された JSON 出力です。LSP、UI、MCP で共通して使われます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "CLI のバージョン管理された JSON 出力です。LSP、UI、MCP で共通して使われます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

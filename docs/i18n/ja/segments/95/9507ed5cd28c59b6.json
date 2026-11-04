@@ -3,12 +3,16 @@
   "source": "{0}, {1}, {2}, {3} and {4} are translate calls. {5} takes the prefix as a string, or as the {6} property of an object.",
   "text": "{0}、{1}、{2}、{3}、{4} は translate 呼び出しです。{5} は、プレフィックスを文字列として、またはオブジェクトの {6} プロパティとして受け取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1}、{2}、{3}、{4} は translate 呼び出しです。{5} は、プレフィックスを文字列として、またはオブジェクトの {6} プロパティとして受け取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

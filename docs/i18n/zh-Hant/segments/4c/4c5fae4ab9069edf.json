@@ -3,12 +3,16 @@
   "source": "The fix adds the key with the default value written in the call ({0} or {1} with i18next), else with an empty value.",
   "text": "修正時會新增該鍵，並使用呼叫中寫明的預設值（{0}，或 i18next 的 {1}），否則使用空值。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "修正時會新增該鍵，並使用呼叫中寫明的預設值（{0}，或 i18next 的 {1}），否則使用空值。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

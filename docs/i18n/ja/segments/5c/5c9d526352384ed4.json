@@ -3,12 +3,16 @@
   "source": "It does not call machine translation services. Instead, it writes a {0}translate prompt{/0} for an agent or an LLM, and checks the result.",
   "text": "機械翻訳サービスは呼び出しません。代わりに、エージェントまたは LLM 向けの{0}翻訳プロンプト{/0}を書き出し、その結果をチェックします。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "機械翻訳サービスは呼び出しません。代わりに、エージェントまたは LLM 向けの{0}翻訳プロンプト{/0}を書き出し、その結果をチェックします。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

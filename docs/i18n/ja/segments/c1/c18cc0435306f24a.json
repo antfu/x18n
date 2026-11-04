@@ -3,12 +3,16 @@
   "source": "A key that does not match a naming rule (options: case, pattern).",
   "text": "命名規則に一致しないキー（オプション: case、pattern）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "命名規則に一致しないキー（オプション: case、pattern）。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

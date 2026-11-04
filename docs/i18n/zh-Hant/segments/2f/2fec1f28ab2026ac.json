@@ -3,12 +3,16 @@
   "source": "Open the monorepo root in the editor and it shows both projects. Each file belongs to the project with the deepest root that holds it, so hover, completion, diagnostics and the **Open UI** command use the project of the current file.",
   "text": "在編輯器中開啟 monorepo 根目錄，就會顯示兩個專案。每個檔案都屬於包含它且根目錄最深的專案，因此懸停提示、自動完成、診斷以及 **Open UI** 指令都會使用目前檔案所屬的專案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在編輯器中開啟 monorepo 根目錄，就會顯示兩個專案。每個檔案都屬於包含它且根目錄最深的專案，因此懸停提示、自動完成、診斷以及 **Open UI** 指令都會使用目前檔案所屬的專案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

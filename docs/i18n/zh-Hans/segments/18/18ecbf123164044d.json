@@ -3,12 +3,16 @@
   "source": "Print a JSON Schema: config (default), plugin or reviews.",
   "text": "打印 JSON Schema：config（默认）、plugin 或 reviews。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "打印 JSON Schema：config（默认）、plugin 或 reviews。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

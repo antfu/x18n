@@ -3,12 +3,16 @@
   "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as i18next does. With a resource pattern that has {2}, keys have the form {3}:",
   "text": "与 i18next 一样，该预设将命名空间分隔符设为 {0}，默认命名空间设为 {1}。如果资源模式中包含 {2}，键的形式为 {3}：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "与 i18next 一样，该预设将命名空间分隔符设为 {0}，默认命名空间设为 {1}。如果资源模式中包含 {2}，键的形式为 {3}："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

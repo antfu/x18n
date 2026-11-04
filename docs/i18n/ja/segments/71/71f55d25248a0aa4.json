@@ -3,12 +3,16 @@
   "source": "The review prompt asks the agent to compare existing translations with the source and the glossary. The agent does not change values itself. It leaves a {0}review{/0} for a human: {1} for a better value, or {2} for a problem without a clear fix. A human then applies or resolves each one, in the editor, the UI or with {3}. With {4}, the agent fixes values with {5} instead.",
   "text": "review プロンプトは、既存の翻訳をソースおよび用語集と比較するようエージェントに指示します。エージェント自身は値を変更しません。人間向けに{0}レビュー{/0}を残します。より良い値がある場合は {1}、明確な修正方法がない問題には {2} を使います。その後、人間がエディター、UI、または {3} で、それぞれを適用または解決します。{4} を指定すると、エージェントは代わりに {5} で値を修正します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "review プロンプトは、既存の翻訳をソースおよび用語集と比較するようエージェントに指示します。エージェント自身は値を変更しません。人間向けに{0}レビュー{/0}を残します。より良い値がある場合は {1}、明確な修正方法がない問題には {2} を使います。その後、人間がエディター、UI、または {3} で、それぞれを適用または解決します。{4} を指定すると、エージェントは代わりに {5} で値を修正します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

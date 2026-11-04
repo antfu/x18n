@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}angular-i18next{/1} on top of {2}, so plurals, namespaces and the init options work the same.",
   "text": "{0} 預設集在 {2} 之上支援 {1}angular-i18next{/1}，因此複數、命名空間與 init 選項的運作方式相同。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 預設集在 {2} 之上支援 {1}angular-i18next{/1}，因此複數、命名空間與 init 選項的運作方式相同。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

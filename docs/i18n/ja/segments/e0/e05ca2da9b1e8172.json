@@ -3,12 +3,16 @@
   "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
   "text": "作成者は、設定ファイルの {0} です。設定がない場合は git の {1} と {2} が使われます。{3} は両方を上書きします。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "作成者は、設定ファイルの {0} です。設定がない場合は git の {1} と {2} が使われます。{3} は両方を上書きします。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

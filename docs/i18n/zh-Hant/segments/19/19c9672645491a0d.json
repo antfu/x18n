@@ -3,12 +3,16 @@
   "source": "Also translate stale translations (needs git history)",
   "text": "同時翻譯過時翻譯（需要 git 歷史記錄）",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "同時翻譯過時翻譯（需要 git 歷史記錄）"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

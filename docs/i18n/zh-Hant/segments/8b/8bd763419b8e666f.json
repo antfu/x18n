@@ -3,12 +3,16 @@
   "source": "The preset for ember-intl. It reads the t helper in Handlebars and template-tag files, and intl.t in code.",
   "text": "ember-intl 的預設集。它會讀取 Handlebars 與 template-tag 檔案中的 t helper，以及程式碼中的 intl.t。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ember-intl 的預設集。它會讀取 Handlebars 與 template-tag 檔案中的 t helper，以及程式碼中的 intl.t。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

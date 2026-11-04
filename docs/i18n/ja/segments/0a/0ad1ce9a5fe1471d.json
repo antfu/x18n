@@ -3,12 +3,16 @@
   "source": "The source locale is the locale that is the source of truth. Checks compare the other locales with it, translate prompts translate from it, and go to definition opens its messages. Set it with {0}. The default is {1}.",
   "text": "ソースロケールは、信頼できる情報源となるロケールです。チェックは他のロケールをソースロケールと比較し、翻訳プロンプトはソースロケールから翻訳し、定義へ移動はソースロケールのメッセージを開きます。{0} で設定します。デフォルトは {1} です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ソースロケールは、信頼できる情報源となるロケールです。チェックは他のロケールをソースロケールと比較し、翻訳プロンプトはソースロケールから翻訳し、定義へ移動はソースロケールのメッセージを開きます。{0} で設定します。デフォルトは {1} です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

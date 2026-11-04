@@ -3,12 +3,16 @@
   "source": "A user-facing layer on the core: CLI, LSP, extension, UI, MCP.",
   "text": "核心之上面向使用者的一層：CLI、LSP、擴充功能、UI、MCP。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "核心之上面向使用者的一層：CLI、LSP、擴充功能、UI、MCP。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

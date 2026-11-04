@@ -3,12 +3,16 @@
   "source": "The locale that is the source of truth for checks and prompts.",
   "text": "チェックやプロンプトで信頼できる基準となるロケールです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "チェックやプロンプトで信頼できる基準となるロケールです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

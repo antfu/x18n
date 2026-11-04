@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0}, {1}, {2}, {3}, or any {4} package.",
   "text": "當專案相依於 {0}、{1}、{2}、{3} 或任何 {4} 套件時，就會套用此預設集。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當專案相依於 {0}、{1}、{2}、{3} 或任何 {4} 套件時，就會套用此預設集。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

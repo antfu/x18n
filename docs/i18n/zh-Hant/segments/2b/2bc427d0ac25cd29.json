@@ -3,12 +3,16 @@
   "source": "polyglot, ruby-i18n-js, ruby-rails, i18nice",
   "text": "polyglot、ruby-i18n-js、ruby-rails、i18nice",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "polyglot、ruby-i18n-js、ruby-rails、i18nice"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

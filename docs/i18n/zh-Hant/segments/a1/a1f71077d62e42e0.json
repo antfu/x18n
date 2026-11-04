@@ -3,12 +3,16 @@
   "source": "{0} writes a whole file. x18n uses it to create files, and when {1} is missing.",
   "text": "{0} 會寫入整個檔案。x18n 用它來建立檔案，以及在缺少 {1} 時使用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會寫入整個檔案。x18n 用它來建立檔案，以及在缺少 {1} 時使用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

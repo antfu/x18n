@@ -3,12 +3,16 @@
   "source": "The current contract version is {0}. A breaking change to any shape increases it. A new optional field does not.",
   "text": "目前的合約版本為 {0}。對任何結構做出破壞性變更時，版本會增加；新增選用欄位則不會。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "目前的合約版本為 {0}。對任何結構做出破壞性變更時，版本會增加；新增選用欄位則不會。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

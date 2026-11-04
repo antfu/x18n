@@ -3,12 +3,16 @@
   "source": "List plugins in the {0} option of the config. An entry is a path, a package name, {1}, or in TS a plugin object:",
   "text": "プラグインは、設定の {0} オプションに列挙します。エントリには、パス、パッケージ名、{1}、または TS ではプラグインオブジェクトを指定できます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プラグインは、設定の {0} オプションに列挙します。エントリには、パス、パッケージ名、{1}、または TS ではプラグインオブジェクトを指定できます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

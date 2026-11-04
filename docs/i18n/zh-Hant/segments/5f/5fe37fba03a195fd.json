@@ -3,12 +3,16 @@
   "source": "An agent without a skills system can still use two of the skills. The CLI prints them as plain markdown, without the front matter. The output of {0} also holds the references of the skill.",
   "text": "沒有技能系統的 agent 仍然可以使用其中兩項技能。CLI 會將它們以純 markdown 輸出，不含 front matter。{0} 的輸出也包含該技能的參考文件。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "沒有技能系統的 agent 仍然可以使用其中兩項技能。CLI 會將它們以純 markdown 輸出，不含 front matter。{0} 的輸出也包含該技能的參考文件。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

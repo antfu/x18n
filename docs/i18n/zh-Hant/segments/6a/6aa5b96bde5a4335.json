@@ -3,12 +3,16 @@
   "source": "Not an open suggestion. Apply only open reviews of type `suggestion`.",
   "text": "不是未解決的建議。只能套用類型為 `suggestion` 的未解決審閱。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "不是未解決的建議。只能套用類型為 `suggestion` 的未解決審閱。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

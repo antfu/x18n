@@ -3,12 +3,16 @@
   "source": "The last two lines are for agents: the server also serves {0}MCP over HTTP{/0} at {1}.",
   "text": "最後兩行是給 agents 使用的：伺服器也會在 {1} 提供 {0}MCP over HTTP{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "最後兩行是給 agents 使用的：伺服器也會在 {1} 提供 {0}MCP over HTTP{/0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

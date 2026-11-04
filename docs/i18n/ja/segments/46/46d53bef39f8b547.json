@@ -3,12 +3,16 @@
   "source": "A named value a translate call passes to its message ({0} in {1}), which a placeholder reads.",
   "text": "翻訳呼び出しがメッセージに渡す名前付きの値です（{1} 内の {0}）。プレースホルダーがこの値を読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "翻訳呼び出しがメッセージに渡す名前付きの値です（{1} 内の {0}）。プレースホルダーがこの値を読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

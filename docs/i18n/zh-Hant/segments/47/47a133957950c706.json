@@ -3,12 +3,16 @@
   "source": "In in-place mode, replace the whole translate call, such as {0}, instead of only the key. Keys whose call is not known keep the key-only replacement.",
   "text": "在就地取代模式下，取代整個翻譯呼叫（例如 {0}），而不只是取代鍵。若無法得知某個鍵的呼叫方式，則仍只取代該鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在就地取代模式下，取代整個翻譯呼叫（例如 {0}），而不只是取代鍵。若無法得知某個鍵的呼叫方式，則仍只取代該鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

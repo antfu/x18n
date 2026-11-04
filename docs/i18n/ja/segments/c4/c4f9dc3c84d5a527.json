@@ -3,12 +3,16 @@
   "source": "Keys, paged, filtered by a missing locale, unused keys, namespace or glob.",
   "text": "キーの一覧。ページ分割され、不足しているロケール、未使用のキー、名前空間、glob で絞り込めます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "キーの一覧。ページ分割され、不足しているロケール、未使用のキー、名前空間、glob で絞り込めます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Text of a value in any locale, ignoring case.",
   "text": "任意のロケールの値のテキストです。大文字小文字は区別しません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "任意のロケールの値のテキストです。大文字小文字は区別しません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

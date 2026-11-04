@@ -3,12 +3,16 @@
   "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
   "text": "agent 必须在项目根目录中启动该命令，或者传入 {0}。服务器会监视文件，因此能看到其他工具所做的修改。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "agent 必须在项目根目录中启动该命令，或者传入 {0}。服务器会监视文件，因此能看到其他工具所做的修改。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

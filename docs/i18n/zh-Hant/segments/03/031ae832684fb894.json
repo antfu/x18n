@@ -3,12 +3,16 @@
   "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
   "text": "{0} 會針對計畫中的每個審閱編輯執行，時機在該編輯套用到審閱資料之後：包括新的留言、核准、變更請求或建議、{1} 或 {2}。{3} 包含編輯後的鍵、語系、留言與討論串。{4} 和 {5} 用來找出訊息及其所在檔案，{6} 則回傳計畫處理後的檔案。此 hook 會回傳 {7} 寫入，這些寫入與審閱檔案會放進同一個計畫，因此試執行也能看到。若儲存區在每則訊息旁保存審閱狀態，則可在核准與目前的值相符時將其標記為已驗證：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會針對計畫中的每個審閱編輯執行，時機在該編輯套用到審閱資料之後：包括新的留言、核准、變更請求或建議、{1} 或 {2}。{3} 包含編輯後的鍵、語系、留言與討論串。{4} 和 {5} 用來找出訊息及其所在檔案，{6} 則回傳計畫處理後的檔案。此 hook 會回傳 {7} 寫入，這些寫入與審閱檔案會放進同一個計畫，因此試執行也能看到。若儲存區在每則訊息旁保存審閱狀態，則可在核准與目前的值相符時將其標記為已驗證："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

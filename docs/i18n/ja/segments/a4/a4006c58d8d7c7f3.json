@@ -3,12 +3,16 @@
   "source": "A loader that computes its messages (for example with {0}) is not static. x18n reports it as {1}.",
   "text": "メッセージを動的に計算するローダー（たとえば {0} を使用するもの）は静的ではありません。x18n はこれを {1} として報告します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "メッセージを動的に計算するローダー（たとえば {0} を使用するもの）は静的ではありません。x18n はこれを {1} として報告します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

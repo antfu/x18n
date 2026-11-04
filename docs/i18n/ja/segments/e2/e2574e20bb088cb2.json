@@ -3,12 +3,16 @@
   "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
   "text": "同じ言語のその他のロケール。ターゲットとサブタグを多く共有するものが先で（{3} の場合は {2} より {0} と {1} が先）、次にコードが短いもの、その後はアルファベット順です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "同じ言語のその他のロケール。ターゲットとサブタグを多く共有するものが先で（{3} の場合は {2} より {0} と {1} が先）、次にコードが短いもの、その後はアルファベット順です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

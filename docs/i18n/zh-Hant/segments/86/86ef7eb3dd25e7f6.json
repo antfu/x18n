@@ -3,12 +3,16 @@
   "source": "When x18n renames a key, its threads move with it. When x18n deletes a key, its threads go too.",
   "text": "當 x18n 重新命名鍵時，它的討論串會一併移動。當 x18n 刪除鍵時，它的討論串也會一併刪除。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當 x18n 重新命名鍵時，它的討論串會一併移動。當 x18n 刪除鍵時，它的討論串也會一併刪除。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

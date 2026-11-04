@@ -3,12 +3,16 @@
   "source": "The library has no default directory. If your config has no {0}, the preset uses {1} and {2}. This is the default {3}, {4}. The file name and the folders under the directory are the namespace, so the key {5} in {6} is {7}. For another {8} or {9}, set {10}.",
   "text": "该库没有默认目录。如果你的配置中没有 {0}，预设会使用 {1} 和 {2}。这是默认的 {3}，即 {4}。文件名和目录下的文件夹就是命名空间，因此 {6} 中的键 {5} 就是 {7}。如需使用其他 {8} 或 {9}，请设置 {10}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "该库没有默认目录。如果你的配置中没有 {0}，预设会使用 {1} 和 {2}。这是默认的 {3}，即 {4}。文件名和目录下的文件夹就是命名空间，因此 {6} 中的键 {5} 就是 {7}。如需使用其他 {8} 或 {9}，请设置 {10}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

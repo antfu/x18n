@@ -3,12 +3,16 @@
   "source": "Key glob: {0} inside a segment, {1} across segments.",
   "text": "鍵的 glob：{0} 比對單一區段內，{1} 跨區段比對。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "鍵的 glob：{0} 比對單一區段內，{1} 跨區段比對。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

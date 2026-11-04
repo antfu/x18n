@@ -3,12 +3,16 @@
   "source": "The names that count as translate calls in a file: declared names, same-file aliases, wrappers, typed params.",
   "text": "ファイル内で翻訳呼び出しとして扱われる名前です。宣言された名前、同一ファイル内のエイリアス、ラッパー、型付きパラメーターが含まれます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ファイル内で翻訳呼び出しとして扱われる名前です。宣言された名前、同一ファイル内のエイリアス、ラッパー、型付きパラメーターが含まれます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

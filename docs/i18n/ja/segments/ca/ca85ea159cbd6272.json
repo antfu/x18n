@@ -3,12 +3,16 @@
   "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
   "text": "レビューとは、1 つのメッセージ（1 つのロケールの 1 つのキー）に対するコメントです。メッセージに付いたコメントがそのスレッドになります。レビューには次の 4 種類があります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "レビューとは、1 つのメッセージ（1 つのロケールの 1 つのキー）に対するコメントです。メッセージに付いたコメントがそのスレッドになります。レビューには次の 4 種類があります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

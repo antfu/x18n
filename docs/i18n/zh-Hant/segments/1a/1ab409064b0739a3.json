@@ -3,12 +3,16 @@
   "source": "The message ends with the error code, for example {0}. The {1}error page{/1} of that code tells you what to do.",
   "text": "訊息結尾會附上錯誤碼，例如 {0}。該錯誤碼的{1}錯誤頁面{/1}會告訴你該如何處理。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "訊息結尾會附上錯誤碼，例如 {0}。該錯誤碼的{1}錯誤頁面{/1}會告訴你該如何處理。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

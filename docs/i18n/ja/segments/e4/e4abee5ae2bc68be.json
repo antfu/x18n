@@ -3,12 +3,16 @@
   "source": "Usage, config or plugin error. Errors without an x18n code also exit with 2.",
   "text": "使い方、設定、またはプラグインのエラーです。x18n のコードを持たないエラーも 2 で終了します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "使い方、設定、またはプラグインのエラーです。x18n のコードを持たないエラーも 2 で終了します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

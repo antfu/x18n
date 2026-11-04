@@ -3,12 +3,16 @@
   "source": "A key without a namespace, such as {0}, is in the {1} namespace. The preset reads {2} and {3} from the i18next init code (a file such as {4}). A key that is not in its own namespace is then looked up in the fallback namespaces, in order. Set {5} and {6} to override them:",
   "text": "沒有命名空間的鍵（例如 {0}）屬於 {1} 命名空間。此預設集會從 i18next 的初始化程式碼（例如 {4} 這類檔案）讀取 {2} 和 {3}。若鍵不在自己的命名空間中，就會依序在後備命名空間中查找。設定 {5} 和 {6} 即可覆寫它們：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "沒有命名空間的鍵（例如 {0}）屬於 {1} 命名空間。此預設集會從 i18next 的初始化程式碼（例如 {4} 這類檔案）讀取 {2} 和 {3}。若鍵不在自己的命名空間中，就會依序在後備命名空間中查找。設定 {5} 和 {6} 即可覆寫它們："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

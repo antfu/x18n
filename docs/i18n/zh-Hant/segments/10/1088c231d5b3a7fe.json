@@ -3,12 +3,16 @@
   "source": "Rules that rewrite the raw key text of a usage before x18n looks it up. This rule turns {0} into the key {1}:",
   "text": "在 x18n 查找之前，改寫某個使用處原始鍵文字的規則。這條規則會把 {0} 轉換為鍵 {1}：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在 x18n 查找之前，改寫某個使用處原始鍵文字的規則。這條規則會把 {0} 轉換為鍵 {1}："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

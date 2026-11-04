@@ -3,12 +3,16 @@
   "source": "Every framework of i18n-ally has a preset. For an unknown framework id, the command prints a note and leaves it out.",
   "text": "i18n-ally 的每個框架都有對應的預設集。若遇到未知的框架 id，命令會印出一則提示並略過該框架。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "i18n-ally 的每個框架都有對應的預設集。若遇到未知的框架 id，命令會印出一則提示並略過該框架。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

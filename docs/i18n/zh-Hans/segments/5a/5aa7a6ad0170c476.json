@@ -3,12 +3,16 @@
   "source": "Defaults for the config of the project: {0}, {1}, {2}, {3} and {4}. The config file of the project wins over them. {5} applies only when the config sets none.",
   "text": "项目配置的默认值：{0}、{1}、{2}、{3} 和 {4}。项目的配置文件优先于这些默认值。{5} 仅在配置中未设置时生效。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "项目配置的默认值：{0}、{1}、{2}、{3} 和 {4}。项目的配置文件优先于这些默认值。{5} 仅在配置中未设置时生效。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The language server works in any editor with an LSP client. See {0}editor setup{/0}.",
   "text": "語言伺服器可在任何具備 LSP 用戶端的編輯器中運作。請參閱{0}編輯器設定{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "語言伺服器可在任何具備 LSP 用戶端的編輯器中運作。請參閱{0}編輯器設定{/0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

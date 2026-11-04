@@ -3,12 +3,16 @@
   "source": "The engine is {0}. It does no file access itself and knows no editor. A surface is a layer that people or tools use on top of the engine:",
   "text": "エンジンは {0} です。ファイルへのアクセスは自身では行わず、エディターも認識しません。サーフェスとは、エンジンの上に重ねて、人やツールが使うレイヤーです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "エンジンは {0} です。ファイルへのアクセスは自身では行わず、エディターも認識しません。サーフェスとは、エンジンの上に重ねて、人やツールが使うレイヤーです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

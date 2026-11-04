@@ -3,12 +3,16 @@
   "source": "Key separator of matching files, over {0}. {1} for files keyed by whole sentences (Laravel {2}).",
   "text": "匹配文件的键分隔符，优先于 {0}。对于以整句作为键的文件（Laravel {2}），请使用 {1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "匹配文件的键分隔符，优先于 {0}。对于以整句作为键的文件（Laravel {2}），请使用 {1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

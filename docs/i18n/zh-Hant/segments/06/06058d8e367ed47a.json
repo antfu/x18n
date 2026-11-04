@@ -3,12 +3,16 @@
   "source": "The check skips a call whose params it cannot read, such as a variable or a spread ({0}), and a key whose source message is not a string, such as a plural key that only has {1} and {2}.",
   "text": "如果呼叫的參數無法讀取，例如變數或展開運算（{0}），或是來源訊息不是字串的鍵，例如只有 {1} 和 {2} 的複數鍵，此檢查會略過該呼叫。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "如果呼叫的參數無法讀取，例如變數或展開運算（{0}），或是來源訊息不是字串的鍵，例如只有 {1} 和 {2} 的複數鍵，此檢查會略過該呼叫。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

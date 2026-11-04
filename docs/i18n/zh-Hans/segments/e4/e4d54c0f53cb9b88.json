@@ -3,12 +3,16 @@
   "source": "Review not found. List review ids with `x18n review list` (agents: the `x18n_reviews` tool).",
   "text": "未找到审阅。使用 `x18n review list` 列出审阅 id（agents：使用 `x18n_reviews` 工具）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "未找到审阅。使用 `x18n review list` 列出审阅 id（agents：使用 `x18n_reviews` 工具）。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

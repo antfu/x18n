@@ -3,12 +3,16 @@
   "source": "A monorepo can hold several projects, for example a web app and a UI library, each with its own locale files. List them in the root config with {0}:",
   "text": "一个 monorepo 可以包含多个项目，例如一个 Web 应用和一个 UI 库，每个项目都有各自的语言文件。在根配置中用 {0} 列出它们：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一个 monorepo 可以包含多个项目，例如一个 Web 应用和一个 UI 库，每个项目都有各自的语言文件。在根配置中用 {0} 列出它们："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

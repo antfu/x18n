@@ -3,12 +3,16 @@
   "source": "Text in inline {0} strings works the same way, in any kind of quotes and with escapes, and an inline template in double quotes gets {1}. ICUs get marked too. A sentence around an ICU ({2}) is two messages in Angular, so run {3} after it to add the ICU's own. These stay as they are: content with {4} or {5}, and an inline template with {6}, whose text is not known before the build.",
   "text": "インライン {0} 文字列内のテキストも、どの種類の引用符でもエスケープがあっても同じように処理され、ダブルクォートで囲まれたインラインテンプレートには {1} が付きます。ICU もマークされます。ICU を囲む文（{2}）は Angular では 2 つのメッセージになるため、その後に {3} を実行して ICU 自体のメッセージを追加してください。次のものはそのまま残ります。{4} や {5} を含むコンテンツ、および {6} を含むインラインテンプレートです。これらのテキストはビルド前には確定しません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "インライン {0} 文字列内のテキストも、どの種類の引用符でもエスケープがあっても同じように処理され、ダブルクォートで囲まれたインラインテンプレートには {1} が付きます。ICU もマークされます。ICU を囲む文（{2}）は Angular では 2 つのメッセージになるため、その後に {3} を実行して ICU 自体のメッセージを追加してください。次のものはそのまま残ります。{4} や {5} を含むコンテンツ、および {6} を含むインラインテンプレートです。これらのテキストはビルド前には確定しません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

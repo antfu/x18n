@@ -3,12 +3,16 @@
   "source": "Coding agents are first-class users of x18n. An agent uses the same CLI as a human, with {0}. It never edits locale files by hand, and it checks its own work with {1}.",
   "text": "コーディングエージェントは x18n の第一級のユーザーです。エージェントは人間と同じ CLI を {0} 付きで使用します。ロケールファイルを手作業で編集することはなく、{1} で自分の作業を確認します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "コーディングエージェントは x18n の第一級のユーザーです。エージェントは人間と同じ CLI を {0} 付きで使用します。ロケールファイルを手作業で編集することはなく、{1} で自分の作業を確認します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

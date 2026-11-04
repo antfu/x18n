@@ -3,12 +3,16 @@
   "source": "x18n is a successor of {0}i18n-ally{/0}. It reads the same kinds of projects, and it moves the logic out of VS Code, so it also runs in CI, in the browser and for agents. {1} converts the i18n-ally settings of a project into an x18n config.",
   "text": "x18n 是 {0}i18n-ally{/0} 的後繼者。它能讀取相同類型的專案，並將邏輯從 VS Code 中抽離，因此也能在 CI、瀏覽器中以及供 agents 使用。{1} 會將專案的 i18n-ally 設定轉換為 x18n 設定。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 是 {0}i18n-ally{/0} 的後繼者。它能讀取相同類型的專案，並將邏輯從 VS Code 中抽離，因此也能在 CI、瀏覽器中以及供 agents 使用。{1} 會將專案的 i18n-ally 設定轉換為 x18n 設定。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

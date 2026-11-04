@@ -3,12 +3,16 @@
   "source": "A placeholder syntax tells x18n how placeholders look in messages. The {0} check and {1} compare the placeholders of each translation with the source value. Translate prompts list them.",
   "text": "プレースホルダー構文は、メッセージ内のプレースホルダーの形式を x18n に伝えます。{0} チェックと {1} は、各翻訳のプレースホルダーをソースの値と比較します。翻訳プロンプトにはそれらが一覧表示されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プレースホルダー構文は、メッセージ内のプレースホルダーの形式を x18n に伝えます。{0} チェックと {1} は、各翻訳のプレースホルダーをソースの値と比較します。翻訳プロンプトにはそれらが一覧表示されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The provider of a component reaches its own part of the file and its {0}, the components its template uses, by element or attribute selector, and what its {1} shows, down the tree. The nearest provider wins.",
   "text": "元件的 provider 會作用到檔案中屬於它自己的部分及其 {0}、其範本以元素或屬性選擇器使用的元件，以及其 {1} 所顯示的內容，並沿著樹往下延伸。最近的 provider 優先。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "元件的 provider 會作用到檔案中屬於它自己的部分及其 {0}、其範本以元素或屬性選擇器使用的元件，以及其 {1} 所顯示的內容，並沿著樹往下延伸。最近的 provider 優先。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

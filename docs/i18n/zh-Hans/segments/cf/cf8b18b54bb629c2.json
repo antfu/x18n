@@ -3,12 +3,16 @@
   "source": "These usages are {0}, {1} and {2}.",
   "text": "这些引用包括 {0}、{1} 和 {2}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "这些引用包括 {0}、{1} 和 {2}。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

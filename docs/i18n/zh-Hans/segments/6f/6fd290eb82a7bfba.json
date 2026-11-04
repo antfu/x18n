@@ -3,12 +3,16 @@
   "source": "Reads and writes the review file ({0}). The YAML one is built in.",
   "text": "读取和写入审阅文件（{0}）。内置 YAML 存储。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "读取和写入审阅文件（{0}）。内置 YAML 存储。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

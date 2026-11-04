@@ -3,12 +3,16 @@
   "source": "Write the matching reporter output to a file (repeatable)",
   "text": "対応するレポーターの出力をファイルに書き込む（複数指定可）",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "対応するレポーターの出力をファイルに書き込む（複数指定可）"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

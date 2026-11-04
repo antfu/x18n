@@ -3,12 +3,16 @@
   "source": "The templates add no import, because where {0} comes from depends on the adapter ({1} in React, {2} in Svelte).",
   "text": "テンプレートは import を追加しません。{0} の取得元はアダプターによって異なるためです（React では {1}、Svelte では {2}）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "テンプレートは import を追加しません。{0} の取得元はアダプターによって異なるためです（React では {1}、Svelte では {2}）。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

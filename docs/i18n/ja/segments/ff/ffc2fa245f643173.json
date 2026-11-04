@@ -3,12 +3,16 @@
   "source": "List commands page their output. {0} sets the page size. The output ends with a {1} value for the next page, and the JSON output has it as {2}:",
   "text": "一覧を表示するコマンドは、出力をページ分割します。{0} でページサイズを指定します。出力の末尾には次のページ用の {1} の値が表示され、JSON 出力では {2} として含まれます:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一覧を表示するコマンドは、出力をページ分割します。{0} でページサイズを指定します。出力の末尾には次のページ用の {1} の値が表示され、JSON 出力では {2} として含まれます:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

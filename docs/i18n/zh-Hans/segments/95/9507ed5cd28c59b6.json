@@ -3,12 +3,16 @@
   "source": "{0}, {1}, {2}, {3} and {4} are translate calls. {5} takes the prefix as a string, or as the {6} property of an object.",
   "text": "{0}、{1}、{2}、{3} 和 {4} 都是 translate 调用。{5} 接受字符串形式的前缀，也可以接受对象的 {6} 属性作为前缀。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1}、{2}、{3} 和 {4} 都是 translate 调用。{5} 接受字符串形式的前缀，也可以接受对象的 {6} 属性作为前缀。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

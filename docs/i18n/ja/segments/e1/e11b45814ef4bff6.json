@@ -3,12 +3,16 @@
   "source": "List message keys, paged. Filter by {0} locale (keys to translate), {1} (keys no code uses), {2} or a key {3}. Pass {4} to get the value per locale. A key whose format gives it a display label has {5}. Continue with {6}.",
   "text": "メッセージのキーをページ単位で一覧表示します。{0} ロケール（翻訳が必要なキー）、{1}（コードから使用されていないキー）、{2}、またはキーの {3} で絞り込めます。ロケールごとの値を取得するには {4} を渡してください。フォーマットによって表示ラベルが与えられているキーには {5} があります。続きを取得するには {6} を指定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "メッセージのキーをページ単位で一覧表示します。{0} ロケール（翻訳が必要なキー）、{1}（コードから使用されていないキー）、{2}、またはキーの {3} で絞り込めます。ロケールごとの値を取得するには {4} を渡してください。フォーマットによって表示ラベルが与えられているキーには {5} があります。続きを取得するには {6} を指定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

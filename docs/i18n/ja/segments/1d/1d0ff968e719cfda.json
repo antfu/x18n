@@ -3,12 +3,16 @@
   "source": "Plugins can use all of these syntaxes from {0}. A {1}YAML plugin{/1} can declare a shape such as {2}.",
   "text": "プラグインは {0} から、これらすべての構文を使用できます。{1}YAML プラグイン{/1}では、{2} のような形式を宣言できます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プラグインは {0} から、これらすべての構文を使用できます。{1}YAML プラグイン{/1}では、{2} のような形式を宣言できます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

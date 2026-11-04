@@ -3,12 +3,16 @@
   "source": "Usages with a dynamic key are not reported. A usage with a static prefix, such as {0}, is a prefix usage: it makes every key under {1} count as used, and it is never a missing key.",
   "text": "動的なキーを持つ使用箇所は報告されません。{0} のように静的なプレフィックスを持つ使用箇所はプレフィックス使用箇所として扱われ、{1} 配下のすべてのキーが使用済みとみなされます。これが missing-key として報告されることはありません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "動的なキーを持つ使用箇所は報告されません。{0} のように静的なプレフィックスを持つ使用箇所はプレフィックス使用箇所として扱われ、{1} 配下のすべてのキーが使用済みとみなされます。これが missing-key として報告されることはありません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

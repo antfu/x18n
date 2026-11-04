@@ -3,12 +3,16 @@
   "source": "Run the commands from the root of the monorepo. The CLI uses the first config file that it finds from the current directory upward. If you run it in {0}, it finds {1} first and loads that project alone, without the root options.",
   "text": "コマンドはモノレポのルートから実行してください。CLI は、現在のディレクトリから上位に向かって最初に見つかった設定ファイルを使用します。{0} で実行すると、先に {1} が見つかり、ルートのオプションなしでそのプロジェクトだけが読み込まれます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "コマンドはモノレポのルートから実行してください。CLI は、現在のディレクトリから上位に向かって最初に見つかった設定ファイルを使用します。{0} で実行すると、先に {1} が見つかり、ルートのオプションなしでそのプロジェクトだけが読み込まれます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset for fluent-vue. It reads Fluent .ftl files, <fluent> blocks in Vue files, and $t and $ta calls.",
   "text": "fluent-vue 用のプリセットです。Fluent の .ftl ファイル、Vue ファイル内の <fluent> ブロック、$t と $ta の呼び出しを読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "fluent-vue 用のプリセットです。Fluent の .ftl ファイル、Vue ファイル内の <fluent> ブロック、$t と $ta の呼び出しを読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

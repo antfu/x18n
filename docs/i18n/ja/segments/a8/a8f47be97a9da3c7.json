@@ -3,12 +3,16 @@
   "source": "The {0} line gives validation and completion in the editor. {1} prints the same JSON Schema.",
   "text": "{0} の行を追加すると、エディタで検証と補完が使えます。{1} は同じ JSON Schema を出力します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} の行を追加すると、エディタで検証と補完が使えます。{1} は同じ JSON Schema を出力します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

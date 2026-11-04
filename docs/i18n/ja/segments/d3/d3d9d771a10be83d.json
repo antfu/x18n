@@ -3,12 +3,16 @@
   "source": "Read the field path in the message and compare the value with the {0}config reference{/0}.",
   "text": "メッセージに含まれるフィールドパスを確認し、その値を{0}設定リファレンス{/0}と比較してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "メッセージに含まれるフィールドパスを確認し、その値を{0}設定リファレンス{/0}と比較してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

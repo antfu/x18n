@@ -3,12 +3,16 @@
   "source": "{0} writes nothing if a value drops or adds a placeholder. It lists the problems and exits with code 1. The check then finds syntax errors, such as an ICU plural without an {1} case.",
   "text": "如果某个值丢失或多出了占位符，{0} 不会写入任何内容。它会列出问题并以退出码 1 退出。随后检查会发现语法错误，例如缺少 {1} 分支的 ICU plural。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "如果某个值丢失或多出了占位符，{0} 不会写入任何内容。它会列出问题并以退出码 1 退出。随后检查会发现语法错误，例如缺少 {1} 分支的 ICU plural。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

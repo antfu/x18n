@@ -3,12 +3,16 @@
   "source": "Overview: the counts of keys, resources, usages and locales, the coverage per locale (split into reviewed, translated, to review and outdated when a format reports translation states), the diagnostics per check, the detected presets and the recent changes.",
   "text": "總覽：鍵、資源、使用處與語系的數量，每個語系的涵蓋率（當格式回報翻譯狀態時，會分為已審閱、已翻譯、待審閱與已過時），每項檢查的診斷、偵測到的預設集，以及最近的變更。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "總覽：鍵、資源、使用處與語系的數量，每個語系的涵蓋率（當格式回報翻譯狀態時，會分為已審閱、已翻譯、待審閱與已過時），每項檢查的診斷、偵測到的預設集，以及最近的變更。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The output lists the locales with their coverage, and the counts of resources, keys and usages.",
   "text": "出力には、ロケールとそのカバレッジ、リソース、キー、使用箇所の件数が表示されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "出力には、ロケールとそのカバレッジ、リソース、キー、使用箇所の件数が表示されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Install the {0}x18n extension{/0}, and turn i18n-ally off for the workspace.",
   "text": "{0}x18n 拡張機能{/0}をインストールし、ワークスペースで i18n-ally を無効にしてください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}x18n 拡張機能{/0}をインストールし、ワークスペースで i18n-ally を無効にしてください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

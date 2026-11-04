@@ -3,12 +3,16 @@
   "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
   "text": "エージェントは、プロジェクトのルートでコマンドを起動するか、{0} を渡す必要があります。サーバーはファイルを監視するため、他のツールによる編集も反映されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "エージェントは、プロジェクトのルートでコマンドを起動するか、{0} を渡す必要があります。サーバーはファイルを監視するため、他のツールによる編集も反映されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

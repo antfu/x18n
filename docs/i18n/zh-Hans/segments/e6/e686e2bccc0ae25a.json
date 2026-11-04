@@ -3,12 +3,16 @@
   "source": "A {0}format{/0} returns descriptions from {1}, a {2}resource transform{/2} from {3}, and a call spec names the property that holds one with {4}. A rule asks the agent to follow the description and not to translate it.",
   "text": "{0}format{/0} 通过 {1} 返回描述，{2}资源转换{/2}通过 {3} 返回描述，调用规范则通过 {4} 指定保存描述的属性。其中一条规则要求 agent 遵循描述，而不要翻译描述。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}format{/0} 通过 {1} 返回描述，{2}资源转换{/2}通过 {3} 返回描述，调用规范则通过 {4} 指定保存描述的属性。其中一条规则要求 agent 遵循描述，而不要翻译描述。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

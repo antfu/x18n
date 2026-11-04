@@ -3,12 +3,16 @@
   "source": "Each problem starts with the path, the line and the column. The next line has the severity, the message and the check id. A code frame follows, with one line of context on each side. The last line counts the errors, the warnings and the files. Paths are relative to the current directory, so editors and terminals can open them.",
   "text": "每個問題都以路徑、行號與欄號開頭。下一行包含嚴重程度、訊息與檢查 id。接著是程式碼框，上下各附一行上下文。最後一行統計錯誤、警告與檔案的數量。路徑是相對於目前目錄的，因此編輯器與終端機可以直接開啟。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "每個問題都以路徑、行號與欄號開頭。下一行包含嚴重程度、訊息與檢查 id。接著是程式碼框，上下各附一行上下文。最後一行統計錯誤、警告與檔案的數量。路徑是相對於目前目錄的，因此編輯器與終端機可以直接開啟。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

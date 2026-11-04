@@ -3,12 +3,16 @@
   "source": "Attribute names whose values are text, on top of those whose last word is {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7} and the like. Markup attributes outside this set are never extracted.",
   "text": "值为文本的属性名，作为补充，最后一个单词为 {0}、{1}、{2}、{3}、{4}、{5}、{6}、{7} 等的属性也视为文本属性。不在此集合内的标记属性不会被提取。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "值为文本的属性名，作为补充，最后一个单词为 {0}、{1}、{2}、{3}、{4}、{5}、{6}、{7} 等的属性也视为文本属性。不在此集合内的标记属性不会被提取。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

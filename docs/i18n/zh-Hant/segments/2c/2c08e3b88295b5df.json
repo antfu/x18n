@@ -3,12 +3,16 @@
   "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
   "text": "Python 的百分號格式化：{0}、{1}、{2}。{3}、空格前的 {4} 和 URL 跳脫字元（如 {5}），或 URL 中的 {6}，都視為文字。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Python 的百分號格式化：{0}、{1}、{2}。{3}、空格前的 {4} 和 URL 跳脫字元（如 {5}），或 URL 中的 {6}，都視為文字。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "JSON form of an error: the {0} of a nostics diagnostic, without {1}, {2} and {3}.",
   "text": "错误的 JSON 形式：即 nostics 诊断的 {0}，不含 {1}、{2} 和 {3}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "错误的 JSON 形式：即 nostics 诊断的 {0}，不含 {1}、{2} 和 {3}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

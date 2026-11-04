@@ -3,12 +3,16 @@
   "source": "The new message goes in the source file with Angular's placeholders, the same as {0} writes it. Elements that hold an element with {1} keep it, and their other text goes in an {2}, since Angular rejects an {3} element inside another one.",
   "text": "新訊息會連同 Angular 的佔位符寫入來源檔案，與 {0} 的寫法相同。包含帶有 {1} 之元素的元素會保留該屬性，其餘文字則放進 {2}，因為 Angular 不允許在一個 {3} 元素內再放另一個 {1} 元素。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "新訊息會連同 Angular 的佔位符寫入來源檔案，與 {0} 的寫法相同。包含帶有 {1} 之元素的元素會保留該屬性，其餘文字則放進 {2}，因為 Angular 不允許在一個 {3} 元素內再放另一個 {1} 元素。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

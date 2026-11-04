@@ -3,12 +3,16 @@
   "source": "Rename target already exists. Delete or rename the existing key first.",
   "text": "重新命名的目標已存在。請先刪除或重新命名現有的鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "重新命名的目標已存在。請先刪除或重新命名現有的鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

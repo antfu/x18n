@@ -3,12 +3,16 @@
   "source": "{0} returns a store. Components read it as {1}, so {2} and {3} count as translate calls. The second argument can set the namespace with {4}.",
   "text": "{0} 會回傳一個 store。元件以 {1} 的方式讀取它，因此 {2} 和 {3} 都會視為翻譯呼叫。第二個引數可以透過 {4} 設定命名空間。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會回傳一個 store。元件以 {1} 的方式讀取它，因此 {2} 和 {3} 都會視為翻譯呼叫。第二個引數可以透過 {4} 設定命名空間。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

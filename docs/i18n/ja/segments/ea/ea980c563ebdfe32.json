@@ -3,12 +3,16 @@
   "source": "f-strings, string concatenation and keys with escapes such as {0}",
   "text": "f-string、文字列連結、{0} のようなエスケープを含むキー",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "f-string、文字列連結、{0} のようなエスケープを含むキー"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

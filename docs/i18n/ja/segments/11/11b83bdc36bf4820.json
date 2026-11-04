@@ -3,12 +3,16 @@
   "source": "A plugin is an object that adds capabilities through the plugin API. A capability is one kind of contribution: a format, a locale finder, a scanner, an extractor, a check, a reporter or a placeholder syntax. A preset is a group of plugins for one library, with a rule that detects the library. See {0}Writing plugins{/0}.",
   "text": "プラグインとは、プラグイン API を通じて機能を追加するオブジェクトです。機能とは、フォーマット、ロケールファインダー、スキャナー、エクストラクター、チェック、レポーター、プレースホルダー構文のいずれかの拡張のことです。プリセットは、1 つのライブラリ向けのプラグインをまとめたもので、そのライブラリを検出するルールを持ちます。{0}プラグインの作成{/0}を参照してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プラグインとは、プラグイン API を通じて機能を追加するオブジェクトです。機能とは、フォーマット、ロケールファインダー、スキャナー、エクストラクター、チェック、レポーター、プレースホルダー構文のいずれかの拡張のことです。プリセットは、1 つのライブラリ向けのプラグインをまとめたもので、そのライブラリを検出するルールを持ちます。{0}プラグインの作成{/0}を参照してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

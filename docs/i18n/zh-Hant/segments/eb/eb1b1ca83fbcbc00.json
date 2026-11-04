@@ -3,12 +3,16 @@
   "source": "The keys of all {0} files share one key space, as {1} does not show in the key. Two files with the same key, such as {2} and {3}, give a {4}. So do two keys where one is the start of the other, such as {5} and {6}.",
   "text": "所有 {0} 檔案的鍵共用同一個鍵空間，因為 {1} 不會顯示在鍵中。兩個檔案有相同的鍵（例如 {2} 和 {3}）時，會產生 {4}。兩個鍵中一個是另一個的開頭（例如 {5} 和 {6}）時也一樣。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "所有 {0} 檔案的鍵共用同一個鍵空間，因為 {1} 不會顯示在鍵中。兩個檔案有相同的鍵（例如 {2} 和 {3}）時，會產生 {4}。兩個鍵中一個是另一個的開頭（例如 {5} 和 {6}）時也一樣。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

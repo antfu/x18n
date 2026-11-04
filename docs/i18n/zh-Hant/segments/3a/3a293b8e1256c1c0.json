@@ -3,12 +3,16 @@
   "source": "A TypeScript plugin is an object with a {0} and the capabilities it adds. {1} and {2} from {3} give it types. They return their argument unchanged.",
   "text": "TypeScript 外掛是一個物件，包含 {0} 以及它新增的功能。來自 {3} 的 {1} 和 {2} 為它提供型別，並且會原封不動地回傳傳入的引數。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "TypeScript 外掛是一個物件，包含 {0} 以及它新增的功能。來自 {3} 的 {1} 和 {2} 為它提供型別，並且會原封不動地回傳傳入的引數。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

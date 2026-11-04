@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}i18next-shopify{/1}, the i18next plugin for the Shopify message format.",
   "text": "{0} 預設集支援 {1}i18next-shopify{/1}，這是適用於 Shopify 訊息格式的 i18next 外掛。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 預設集支援 {1}i18next-shopify{/1}，這是適用於 Shopify 訊息格式的 i18next 外掛。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

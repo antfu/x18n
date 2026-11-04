@@ -3,12 +3,16 @@
   "source": "Overview: the counts of keys, resources, usages and locales, the coverage per locale (split into reviewed, translated, to review and outdated when a format reports translation states), the diagnostics per check, the detected presets and the recent changes.",
   "text": "概览：键、资源、引用和语言的数量，每种语言的覆盖率（当格式提供翻译状态时，会分为已审阅、已翻译、待审阅和已过期），每项检查的诊断，检测到的预设，以及最近的更改。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "概览：键、资源、引用和语言的数量，每种语言的覆盖率（当格式提供翻译状态时，会分为已审阅、已翻译、待审阅和已过期），每项检查的诊断，检测到的预设，以及最近的更改。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

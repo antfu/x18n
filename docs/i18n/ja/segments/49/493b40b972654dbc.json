@@ -3,12 +3,16 @@
   "source": "The command opens the browser with the auth link, so you are signed in with one click. A browser without the link asks for the 6-digit auth code from the terminal. The server keeps running until you stop it with Ctrl+C. It watches the files, so edits from the editor or the CLI show in the UI at once.",
   "text": "このコマンドは認証リンク付きでブラウザーを開くため、ワンクリックでサインインできます。リンクなしのブラウザーでは、ターミナルに表示される 6 桁の認証コードの入力を求められます。サーバーは Ctrl+C で停止するまで動き続けます。ファイルを監視しているため、エディターや CLI での編集はすぐに UI に反映されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このコマンドは認証リンク付きでブラウザーを開くため、ワンクリックでサインインできます。リンクなしのブラウザーでは、ターミナルに表示される 6 桁の認証コードの入力を求められます。サーバーは Ctrl+C で停止するまで動き続けます。ファイルを監視しているため、エディターや CLI での編集はすぐに UI に反映されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

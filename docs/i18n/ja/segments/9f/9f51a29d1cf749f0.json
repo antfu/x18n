@@ -3,12 +3,16 @@
   "source": "A scope folder is a key prefix in camelCase, as Transloco names it: the preset sets {0} to {1}, so {2} holds the keys {3}. For a scope with an alias, add a resource with a fixed namespace: {4}.",
   "text": "スコープフォルダーは、Transloco の命名に従った camelCase のキープレフィックスです。プリセットは {0} を {1} に設定するため、{2} はキー {3} を保持します。エイリアス付きのスコープには、名前空間を固定したリソースを追加してください: {4}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "スコープフォルダーは、Transloco の命名に従った camelCase のキープレフィックスです。プリセットは {0} を {1} に設定するため、{2} はキー {3} を保持します。エイリアス付きのスコープには、名前空間を固定したリソースを追加してください: {4}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

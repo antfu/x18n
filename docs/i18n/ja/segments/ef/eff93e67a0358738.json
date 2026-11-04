@@ -3,12 +3,16 @@
   "source": "Overview: the counts of keys, resources, usages and locales, the coverage per locale (split into reviewed, translated, to review and outdated when a format reports translation states), the diagnostics per check, the detected presets and the recent changes.",
   "text": "Overview: キー、リソース、使用箇所、ロケールの件数、ロケールごとのカバレッジ（フォーマットが翻訳状態を報告する場合は、レビュー済み、翻訳済み、要レビュー、古いに分けて表示）、チェックごとの診断、検出されたプリセット、最近の変更を表示します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Overview: キー、リソース、使用箇所、ロケールの件数、ロケールごとのカバレッジ（フォーマットが翻訳状態を報告する場合は、レビュー済み、翻訳済み、要レビュー、古いに分けて表示）、チェックごとの診断、検出されたプリセット、最近の変更を表示します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

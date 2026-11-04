@@ -3,12 +3,16 @@
   "source": "The preset for Ruby on Rails. It reads config/locales YAML files with their top-level locale key, t and I18n.t calls, and lazy lookups.",
   "text": "Ruby on Rails 的預設集。它會讀取 config/locales 中以語系鍵作為頂層鍵的 YAML 檔案、t 和 I18n.t 呼叫，以及 lazy lookup。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ruby on Rails 的預設集。它會讀取 config/locales 中以語系鍵作為頂層鍵的 YAML 檔案、t 和 I18n.t 呼叫，以及 lazy lookup。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

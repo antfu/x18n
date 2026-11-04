@@ -3,12 +3,16 @@
   "source": "A plan can hold decisions. A decision is a question that the command must answer before it writes, for example which file gets a new key. In a terminal, x18n asks you. With {0}, it takes the default answer. With {1}, or without a terminal, it stops with {2}X18N4003{/2}.",
   "text": "计划可以包含决策。决策是命令在写入之前必须回答的问题，例如哪个文件获得新键。在终端中，x18n 会询问你。使用 {0} 时，它会采用默认答案。使用 {1} 或没有终端时，它会停止并返回 {2}X18N4003{/2}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "计划可以包含决策。决策是命令在写入之前必须回答的问题，例如哪个文件获得新键。在终端中，x18n 会询问你。使用 {0} 时，它会采用默认答案。使用 {1} 或没有终端时，它会停止并返回 {2}X18N4003{/2}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

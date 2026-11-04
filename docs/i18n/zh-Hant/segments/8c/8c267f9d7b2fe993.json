@@ -3,12 +3,16 @@
   "source": "List plugins in the {0} option of the config. An entry is a path, a package name, {1}, or in TS a plugin object:",
   "text": "在設定的 {0} 選項中列出外掛。項目可以是路徑、套件名稱、{1}，或在 TS 中使用外掛物件：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在設定的 {0} 選項中列出外掛。項目可以是路徑、套件名稱、{1}，或在 TS 中使用外掛物件："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

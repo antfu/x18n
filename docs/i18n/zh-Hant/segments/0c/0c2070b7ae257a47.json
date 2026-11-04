@@ -3,12 +3,16 @@
   "source": "Locale codes as found, with display names and resources.",
   "text": "列出找到的語系代碼，以及其顯示名稱與資源。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "列出找到的語系代碼，以及其顯示名稱與資源。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

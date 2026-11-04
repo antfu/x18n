@@ -3,12 +3,16 @@
   "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
   "text": "当 {0} 为 {1}，或你在 {2} 中为该检查设置了严重级别时，该检查会开启。运行 {3} 可将报告的字符串转换为键。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当 {0} 为 {1}，或你在 {2} 中为该检查设置了严重级别时，该检查会开启。运行 {3} 可将报告的字符串转换为键。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

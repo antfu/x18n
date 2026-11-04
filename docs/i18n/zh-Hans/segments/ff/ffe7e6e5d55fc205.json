@@ -3,12 +3,16 @@
   "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
   "text": "从所有检查中排除的键：可以是 glob，也可以是针对完整键进行匹配的正则表达式（使用命名空间时为 {0}）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "从所有检查中排除的键：可以是 glob，也可以是针对完整键进行匹配的正则表达式（使用命名空间时为 {0}）。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

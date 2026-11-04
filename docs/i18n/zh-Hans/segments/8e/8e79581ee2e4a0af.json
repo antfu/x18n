@@ -3,12 +3,16 @@
   "source": "A severity is {0}, {1}, {2}, {3} or {4}. {5} (or {6}) turns every warning into an error. {7} removes keys from every check.",
   "text": "严重级别可以是 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）会将所有警告视为错误。{7} 会将键从所有检查中排除。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "严重级别可以是 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）会将所有警告视为错误。{7} 会将键从所有检查中排除。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

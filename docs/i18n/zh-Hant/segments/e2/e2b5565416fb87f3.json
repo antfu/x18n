@@ -3,12 +3,16 @@
   "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
   "text": "哪個引數存放鍵：可以是索引（預設為 {0}），或是用 {1} 指定物件引數的某個屬性。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "哪個引數存放鍵：可以是索引（預設為 {0}），或是用 {1} 指定物件引數的某個屬性。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

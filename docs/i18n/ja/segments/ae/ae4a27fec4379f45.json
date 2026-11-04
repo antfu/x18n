@@ -3,12 +3,16 @@
   "source": "{0} is a regular expression whose first group is a namespace. The code after each match, up to the next match, uses that namespace. This is the same as {1} of i18n-ally.",
   "text": "{0} は、最初のグループが名前空間になる正規表現です。各マッチの後から次のマッチまでのコードには、その名前空間が使われます。これは i18n-ally の {1} と同じです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、最初のグループが名前空間になる正規表現です。各マッチの後から次のマッチまでのコードには、その名前空間が使われます。これは i18n-ally の {1} と同じです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

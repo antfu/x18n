@@ -3,12 +3,16 @@
   "source": "The extension validates {0} against the config schema. With the Red Hat YAML extension installed, it also validates {1}, {2} and {3} files.",
   "text": "此擴充功能會依據設定結構描述驗證 {0}。若已安裝 Red Hat YAML 擴充功能，也會驗證 {1}、{2} 和 {3} 檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此擴充功能會依據設定結構描述驗證 {0}。若已安裝 Red Hat YAML 擴充功能，也會驗證 {1}、{2} 和 {3} 檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

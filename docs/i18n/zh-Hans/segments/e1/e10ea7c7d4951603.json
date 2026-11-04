@@ -3,12 +3,16 @@
   "source": "Key glob: {0} inside a segment, {1} across segments.",
   "text": "键的 glob 模式：{0} 匹配单个片段内部，{1} 可跨片段匹配。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "键的 glob 模式：{0} 匹配单个片段内部，{1} 可跨片段匹配。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

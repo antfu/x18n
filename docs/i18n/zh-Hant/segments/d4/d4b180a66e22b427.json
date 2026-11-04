@@ -3,12 +3,16 @@
   "source": "The preset sets {0} to {1}, so {2} uses the text itself as the key. Set {3} in the config to change it.",
   "text": "預設集會將 {0} 設為 {1}，因此 {2} 會使用文字本身作為鍵。若要變更，請在設定中設定 {3}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "預設集會將 {0} 設為 {1}，因此 {2} 會使用文字本身作為鍵。若要變更，請在設定中設定 {3}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

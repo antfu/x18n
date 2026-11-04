@@ -3,12 +3,16 @@
   "source": "A value adds or drops a placeholder compared to the source value, so {0} wrote nothing. The JSON output lists the values in {1}.",
   "text": "某個值與來源值相比新增或移除了佔位符，因此 {0} 未寫入任何內容。JSON 輸出會在 {1} 中列出這些值。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "某個值與來源值相比新增或移除了佔位符，因此 {0} 未寫入任何內容。JSON 輸出會在 {1} 中列出這些值。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

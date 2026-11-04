@@ -3,12 +3,16 @@
   "source": "The preset for Laravel. It reads PHP translation arrays and JSON strings, __ and trans calls, and :name placeholders.",
   "text": "Laravel 的預設集。它會讀取 PHP 翻譯陣列與 JSON 字串、__ 與 trans 呼叫，以及 :name 佔位符。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Laravel 的預設集。它會讀取 PHP 翻譯陣列與 JSON 字串、__ 與 trans 呼叫，以及 :name 佔位符。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

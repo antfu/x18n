@@ -3,12 +3,16 @@
   "source": "True when an existing key with the same source value is reused.",
   "text": "同じソースの値を持つ既存のキーを再利用する場合は true です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "同じソースの値を持つ既存のキーを再利用する場合は true です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

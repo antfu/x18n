@@ -3,12 +3,16 @@
   "source": "Run the command in the root of the project. First look at the result with {0}. It prints the files and writes nothing:",
   "text": "プロジェクトのルートでコマンドを実行してください。まず {0} で結果を確認します。ファイルは出力されるだけで、何も書き込まれません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プロジェクトのルートでコマンドを実行してください。まず {0} で結果を確認します。ファイルは出力されるだけで、何も書き込まれません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

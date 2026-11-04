@@ -3,12 +3,16 @@
   "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
   "text": "{0} 適用於每則訊息各存成一個檔案的儲存方式。它會傳回某個語系中單一鍵所在的檔案：一個 {1}，以及在該檔案不是依副檔名判定的格式時，用來建立它的 {2} id。該鍵的新訊息會寫入這個檔案，而不是已包含其他鍵的資源，且檔案不存在時會被建立。重新命名會將每則訊息移到新鍵的檔案，刪除後若該鍵的檔案變空，則會刪除該檔案。對於存放在共用檔案中的鍵，請傳回 {3}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 適用於每則訊息各存成一個檔案的儲存方式。它會傳回某個語系中單一鍵所在的檔案：一個 {1}，以及在該檔案不是依副檔名判定的格式時，用來建立它的 {2} id。該鍵的新訊息會寫入這個檔案，而不是已包含其他鍵的資源，且檔案不存在時會被建立。重新命名會將每則訊息移到新鍵的檔案，刪除後若該鍵的檔案變空，則會刪除該檔案。對於存放在共用檔案中的鍵，請傳回 {3}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

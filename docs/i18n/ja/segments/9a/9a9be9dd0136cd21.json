@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0}, or on any {1} package.",
   "text": "このプリセットは、プロジェクトが {0} または {1} パッケージのいずれかに依存している場合に適用されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このプリセットは、プロジェクトが {0} または {1} パッケージのいずれかに依存している場合に適用されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A resource is a file, or a block in a file, that holds the messages of one locale and one namespace. The {0} option tells x18n where the resources are. Each entry has a path pattern, relative to the project root:",
   "text": "资源是包含某一种语言和某一个命名空间的消息的文件，或文件中的一个块。{0} 选项告诉 x18n 资源在哪里。每个条目都有一个路径模式，相对于项目根目录：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "资源是包含某一种语言和某一个命名空间的消息的文件，或文件中的一个块。{0} 选项告诉 x18n 资源在哪里。每个条目都有一个路径模式，相对于项目根目录："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

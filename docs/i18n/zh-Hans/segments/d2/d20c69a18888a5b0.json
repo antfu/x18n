@@ -3,12 +3,16 @@
   "source": "The {0}ruby-rails{/0} preset uses a transform for the top-level locale key, and the {1}chrome-extension{/1} preset for the {2} field.",
   "text": "{0}ruby-rails{/0} 预设使用转换来处理顶层的语言键，{1}chrome-extension{/1} 预设则使用转换来处理 {2} 字段。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}ruby-rails{/0} 预设使用转换来处理顶层的语言键，{1}chrome-extension{/1} 预设则使用转换来处理 {2} 字段。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

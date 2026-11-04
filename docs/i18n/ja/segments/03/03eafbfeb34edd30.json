@@ -3,12 +3,16 @@
   "source": "The {0} reporter writes a summary with a coverage table per locale and a table of diagnostics. Write it to the job summary of GitHub Actions:",
   "text": "{0} レポーターは、ロケールごとのカバレッジ表と診断の表を含むサマリーを書き出します。これを GitHub Actions のジョブサマリーに書き込みます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} レポーターは、ロケールごとのカバレッジ表と診断の表を含むサマリーを書き出します。これを GitHub Actions のジョブサマリーに書き込みます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

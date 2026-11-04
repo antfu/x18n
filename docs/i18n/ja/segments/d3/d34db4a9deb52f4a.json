@@ -3,12 +3,16 @@
   "source": "The new message goes in the source file with Angular's placeholders, the same as {0} writes it. Elements that hold an element with {1} keep it, and their other text goes in an {2}, since Angular rejects an {3} element inside another one.",
   "text": "新しいメッセージは、{0} が書き出す場合と同様に、Angular のプレースホルダーを使ってソースファイルに追加されます。{1} を持つ要素を含む要素ではその要素が保持され、それ以外のテキストは {2} に入ります。Angular は {3} 要素が別の {1} 要素の内側にあることを許可しないためです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "新しいメッセージは、{0} が書き出す場合と同様に、Angular のプレースホルダーを使ってソースファイルに追加されます。{1} を持つ要素を含む要素ではその要素が保持され、それ以外のテキストは {2} に入ります。Angular は {3} 要素が別の {1} 要素の内側にあることを許可しないためです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The last two lines are for agents: the server also serves {0}MCP over HTTP{/0} at {1}.",
   "text": "最后两行面向 agents：服务器还会在 {1} 提供 {0}基于 HTTP 的 MCP{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "最后两行面向 agents：服务器还会在 {1} 提供 {0}基于 HTTP 的 MCP{/0}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

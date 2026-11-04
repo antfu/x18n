@@ -3,12 +3,16 @@
   "source": "Each plugin has a {0}. Names are unique, and the built-in plugins use the {1} prefix. Each capability has an {2}, unique within its kind. Two capabilities with the same id stop the load with {3}X18N1002{/3}, unless the later one sets {4}.",
   "text": "各プラグインには {0} があります。名前は一意で、組み込みプラグインには {1} プレフィックスが付きます。各機能には、その種類の中で一意な {2} があります。同じ ID を持つ機能が 2 つあると、後のものが {4} を設定していない限り、{3}X18N1002{/3} で読み込みが停止します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "各プラグインには {0} があります。名前は一意で、組み込みプラグインには {1} プレフィックスが付きます。各機能には、その種類の中で一意な {2} があります。同じ ID を持つ機能が 2 つあると、後のものが {4} を設定していない限り、{3}X18N1002{/3} で読み込みが停止します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

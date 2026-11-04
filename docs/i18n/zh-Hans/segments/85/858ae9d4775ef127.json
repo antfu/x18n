@@ -3,12 +3,16 @@
   "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
   "text": "当设置中包含正则扫描器、作用域、重构模板、语言旗帜或自定义框架时写入。配置会在 {0} 中列出它。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当设置中包含正则扫描器、作用域、重构模板、语言旗帜或自定义框架时写入。配置会在 {0} 中列出它。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

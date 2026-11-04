@@ -3,12 +3,16 @@
   "source": "Locales with coverage, counts, diagnostics by check and detected presets. Call it first.",
   "text": "カバレッジ付きのロケール、件数、チェックごとの診断、検出されたプリセット。最初に呼び出してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "カバレッジ付きのロケール、件数、チェックごとの診断、検出されたプリセット。最初に呼び出してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

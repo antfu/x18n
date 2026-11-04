@@ -3,12 +3,16 @@
   "source": "{0} reports this as an {1} diagnostic on the file.",
   "text": "{0} 會在該檔案上回報此問題，作為 {1} 診斷。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會在該檔案上回報此問題，作為 {1} 診斷。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

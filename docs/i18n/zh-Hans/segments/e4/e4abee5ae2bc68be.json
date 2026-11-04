@@ -3,12 +3,16 @@
   "source": "Usage, config or plugin error. Errors without an x18n code also exit with 2.",
   "text": "用法、配置或插件错误。没有 x18n 错误码的错误同样以退出码 2 退出。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "用法、配置或插件错误。没有 x18n 错误码的错误同样以退出码 2 退出。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

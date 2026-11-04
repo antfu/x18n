@@ -3,12 +3,16 @@
   "source": "x18n does not call machine translation services. Instead, it writes a translate prompt: plain markdown that describes the work, built from the state of the project. You paste it into an LLM, or an agent follows it. Then x18n checks the results.",
   "text": "x18n 不會呼叫機器翻譯服務。它會改為產生翻譯提示：一份依專案狀態建立、用來描述工作內容的純 markdown。你可以把它貼到 LLM，或讓 agent 依照它執行。之後 x18n 會檢查結果。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 不會呼叫機器翻譯服務。它會改為產生翻譯提示：一份依專案狀態建立、用來描述工作內容的純 markdown。你可以把它貼到 LLM，或讓 agent 依照它執行。之後 x18n 會檢查結果。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

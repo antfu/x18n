@@ -3,12 +3,16 @@
   "source": "Print a JSON Schema: config (default), plugin or reviews.",
   "text": "JSON Schema を出力します: config（デフォルト）、plugin、reviews。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "JSON Schema を出力します: config（デフォルト）、plugin、reviews。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

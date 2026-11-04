@@ -3,12 +3,16 @@
   "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
   "text": "對訊息留言、核准、要求修改並建議新值，所有內容都存放在隨分支一起移動的檔案中。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "對訊息留言、核准、要求修改並建議新值，所有內容都存放在隨分支一起移動的檔案中。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

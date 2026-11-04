@@ -3,12 +3,16 @@
   "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
   "text": "「x18n: Find Key by Text」は、アプリで見かけたテキストの元になっているキーを探します。任意のロケールで、テキストの一部を入力してください。検索では大文字と小文字を区別せず、あいまい一致で照合するため、文字が順番に現れていれば、隣り合っていなくても一致します。一覧には、キー、ロケール、使用箇所の数とともに、一致度の高いものから順に表示されます。キーを選択すると、その使用箇所が開きます。使用箇所が複数ある場合は、その中から選択します。コードで使われていないキーは、ロケールのエントリで開きます。このコマンドは選択中のテキストを初期値として開始し、Keys ビューにはそのためのボタンがあります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "「x18n: Find Key by Text」は、アプリで見かけたテキストの元になっているキーを探します。任意のロケールで、テキストの一部を入力してください。検索では大文字と小文字を区別せず、あいまい一致で照合するため、文字が順番に現れていれば、隣り合っていなくても一致します。一覧には、キー、ロケール、使用箇所の数とともに、一致度の高いものから順に表示されます。キーを選択すると、その使用箇所が開きます。使用箇所が複数ある場合は、その中から選択します。コードで使われていないキーは、ロケールのエントリで開きます。このコマンドは選択中のテキストを初期値として開始し、Keys ビューにはそのためのボタンがあります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

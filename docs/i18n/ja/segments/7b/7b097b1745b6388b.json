@@ -3,12 +3,16 @@
   "source": "The preset also adds a regex scanner for JSON files. It reads {0} references, so the strings of {1} count as usages:",
   "text": "このプリセットは、JSON ファイル用の正規表現スキャナーも追加します。{0} 参照を読み取るため、{1} の文字列も使用箇所として数えられます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このプリセットは、JSON ファイル用の正規表現スキャナーも追加します。{0} 参照を読み取るため、{1} の文字列も使用箇所として数えられます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "These features work in code and in locale files. The results show next to the results of TypeScript.",
   "text": "這些功能適用於程式碼與語系檔案。結果會顯示在 TypeScript 的結果旁邊。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "這些功能適用於程式碼與語系檔案。結果會顯示在 TypeScript 的結果旁邊。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

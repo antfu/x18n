@@ -3,12 +3,16 @@
   "source": "{0} adds the translations that the {1} check reports. Each item shows the source text from when the translation last changed. {2} adds the values that checks report in the target locale, such as {3}, {4} and {5}. A check must be on to report: {6} runs the checks of the config. Each item shows the current value and what was reported:",
   "text": "{0} 會加入 {1} 檢查所回報的翻譯。每個項目都會顯示翻譯上次變更時的來源文字。{2} 會加入檢查在目標語系中回報的值，例如 {3}、{4} 和 {5}。檢查必須已啟用才會回報：{6} 會執行設定中的檢查。每個項目都會顯示目前的值以及回報的內容：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會加入 {1} 檢查所回報的翻譯。每個項目都會顯示翻譯上次變更時的來源文字。{2} 會加入檢查在目標語系中回報的值，例如 {3}、{4} 和 {5}。檢查必須已啟用才會回報：{6} 會執行設定中的檢查。每個項目都會顯示目前的值以及回報的內容："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0} hooks of plugins and presets. Presets set defaults here, for example the call specs of their library.",
   "text": "外掛和預設集的 {0} 掛鉤。預設集會在此設定預設值，例如其函式庫的呼叫規格。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "外掛和預設集的 {0} 掛鉤。預設集會在此設定預設值，例如其函式庫的呼叫規格。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

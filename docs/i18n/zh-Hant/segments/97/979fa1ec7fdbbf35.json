@@ -3,12 +3,16 @@
   "source": "In Ruby files, the preset reads the same two calls with a regex.",
   "text": "在 Ruby 檔案中，此預設集會用正規表達式讀取相同的兩種呼叫。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在 Ruby 檔案中，此預設集會用正規表達式讀取相同的兩種呼叫。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

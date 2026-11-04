@@ -3,12 +3,16 @@
   "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}): {1} for every check, or a list of check ids.",
   "text": "ソースのコピー（{0}）など、翻訳先ロケールでチェックが報告した値も翻訳します。すべてのチェックを対象にする場合は {1}、そうでない場合はチェック ID のリストを指定します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ソースのコピー（{0}）など、翻訳先ロケールでチェックが報告した値も翻訳します。すべてのチェックを対象にする場合は {1}、そうでない場合はチェック ID のリストを指定します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

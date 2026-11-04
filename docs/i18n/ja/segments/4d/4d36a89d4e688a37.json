@@ -3,12 +3,16 @@
   "source": "The description comes from the source locale's resource, else from the resource of another locale, else from the code. The built-in formats and presets read:",
   "text": "説明は、ソースロケールのリソースから取得され、なければ他のロケールのリソース、それもなければコードから取得されます。組み込みのフォーマットとプリセットは、次の場所を読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "説明は、ソースロケールのリソースから取得され、なければ他のロケールのリソース、それもなければコードから取得されます。組み込みのフォーマットとプリセットは、次の場所を読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

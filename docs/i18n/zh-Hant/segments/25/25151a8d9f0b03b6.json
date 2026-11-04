@@ -3,12 +3,16 @@
   "source": "Write x18n.config.ts, or a YAML or JSON config, and learn how x18n finds and merges it.",
   "text": "撰寫 x18n.config.ts，或使用 YAML 或 JSON 設定檔，並了解 x18n 如何尋找與合併設定。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "撰寫 x18n.config.ts，或使用 YAML 或 JSON 設定檔，並了解 x18n 如何尋找與合併設定。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

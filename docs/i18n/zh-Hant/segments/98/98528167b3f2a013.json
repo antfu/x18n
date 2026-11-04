@@ -3,12 +3,16 @@
   "source": "values with no letters once placeholders, nesting references and tags are removed ({0}, {1}, {2}),",
   "text": "移除佔位符、巢狀參照和標籤後不含任何字母的值（{0}、{1}、{2}），",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "移除佔位符、巢狀參照和標籤後不含任何字母的值（{0}、{1}、{2}），"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A rename target already exists in at least one locale. x18n does not merge two keys.",
   "text": "少なくとも 1 つのロケールで、リネーム先がすでに存在しています。x18n は 2 つのキーをマージしません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "少なくとも 1 つのロケールで、リネーム先がすでに存在しています。x18n は 2 つのキーをマージしません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

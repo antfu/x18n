@@ -3,12 +3,16 @@
   "source": "{0} puts the {1}x18n UI{/1} in the devtools of your app, so you do not need a separate {2} server. The panel is the same UI with the same pages. It reads and writes the files of the project, and it updates when the files change.",
   "text": "{0} は{1}x18n UI{/1}をアプリの devtools に表示するため、別の {2} サーバーは不要です。このパネルは同じページを持つ同じ UI です。プロジェクトのファイルを読み書きし、ファイルが変更されると更新されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は{1}x18n UI{/1}をアプリの devtools に表示するため、別の {2} サーバーは不要です。このパネルは同じページを持つ同じ UI です。プロジェクトのファイルを読み書きし、ファイルが変更されると更新されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

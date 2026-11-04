@@ -3,12 +3,16 @@
   "source": "A dynamic usage with a static prefix ({0}pages.$\\{id\\}.title{1}). It makes every key under the prefix \"possibly\" used.",
   "text": "静的なプレフィックスを持つ動的な使用箇所です（{0}pages.$\\{id\\}.title{1}）。プレフィックス配下のすべてのキーが「使用されている可能性がある」ものとして扱われます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "静的なプレフィックスを持つ動的な使用箇所です（{0}pages.$\\{id\\}.title{1}）。プレフィックス配下のすべてのキーが「使用されている可能性がある」ものとして扱われます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

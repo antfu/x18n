@@ -3,12 +3,16 @@
   "source": "{0} refuses to replace an existing config. Pass {1} to replace it. See {2}Configuration{/2} for every way to change the setup.",
   "text": "{0} 不會取代既有的設定檔。傳入 {1} 即可取代。所有變更設定的方式請參閱{2}設定{/2}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 不會取代既有的設定檔。傳入 {1} 即可取代。所有變更設定的方式請參閱{2}設定{/2}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

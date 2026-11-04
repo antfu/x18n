@@ -3,12 +3,16 @@
   "source": "\"x18n: Translate with Agent\" opens the editor's chat in agent mode with the {0}translate prompt{/0} for a locale, or for one key from a hover or the Keys view. The agent translates the messages, writes them with {1} and runs {2}, as the prompt says. x18n itself calls no model. The agent needs the x18n CLI in the project. In an editor without the VS Code chat, the command copies the prompt instead.",
   "text": "「x18n: Translate with Agent」會以 agent 模式開啟編輯器的聊天，並帶入某個語系的{0}翻譯提示詞{/0}，或針對懸停提示或 Keys 檢視中的單一鍵。agent 會翻譯訊息，使用 {1} 寫入，並依提示詞的指示執行 {2}。x18n 本身不呼叫任何模型。agent 需要專案中有 x18n CLI。在沒有 VS Code 聊天的編輯器中，此命令會改為複製提示詞。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "「x18n: Translate with Agent」會以 agent 模式開啟編輯器的聊天，並帶入某個語系的{0}翻譯提示詞{/0}，或針對懸停提示或 Keys 檢視中的單一鍵。agent 會翻譯訊息，使用 {1} 寫入，並依提示詞的指示執行 {2}。x18n 本身不呼叫任何模型。agent 需要專案中有 x18n CLI。在沒有 VS Code 聊天的編輯器中，此命令會改為複製提示詞。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

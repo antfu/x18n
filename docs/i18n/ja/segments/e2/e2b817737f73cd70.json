@@ -3,12 +3,16 @@
   "source": "The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it.",
   "text": "ファイルに記述されたままの、ハードコードされた文字列のテキストです。変更されません。周囲のソースを保持するマークアップに使用します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ファイルに記述されたままの、ハードコードされた文字列のテキストです。変更されません。周囲のソースを保持するマークアップに使用します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

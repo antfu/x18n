@@ -3,12 +3,16 @@
   "source": "An agent skill is a markdown file that teaches a coding agent how to do a task. The {0} npm package ships three, in {1}. Their version always matches the version of the CLI that you install.",
   "text": "エージェントスキルは、コーディングエージェントにタスクの進め方を教える markdown ファイルです。{0} npm パッケージには、{1} に 3 つのスキルが同梱されています。スキルのバージョンは、インストールした CLI のバージョンと常に一致します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "エージェントスキルは、コーディングエージェントにタスクの進め方を教える markdown ファイルです。{0} npm パッケージには、{1} に 3 つのスキルが同梱されています。スキルのバージョンは、インストールした CLI のバージョンと常に一致します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

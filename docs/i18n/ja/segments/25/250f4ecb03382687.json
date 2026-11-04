@@ -3,12 +3,16 @@
   "source": "The {0} attribute picks the format: {1} (the default), {2}, {3} or {4}. Each block and locale is a resource, so edits from x18n write back into the block.",
   "text": "{0} 属性でフォーマットを指定します。指定できるのは {1}（デフォルト）、{2}、{3}、{4} です。各ブロックとロケールが 1 つのリソースになるため、x18n による編集はブロック内に書き戻されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 属性でフォーマットを指定します。指定できるのは {1}（デフォルト）、{2}、{3}、{4} です。各ブロックとロケールが 1 つのリソースになるため、x18n による編集はブロック内に書き戻されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

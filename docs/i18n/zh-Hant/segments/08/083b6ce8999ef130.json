@@ -3,12 +3,16 @@
   "source": "It is not a runtime i18n library. It reads and writes the files that your runtime library uses.",
   "text": "它不是執行階段的 i18n 函式庫，而是讀取和寫入你的執行階段函式庫所使用的檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "它不是執行階段的 i18n 函式庫，而是讀取和寫入你的執行階段函式庫所使用的檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

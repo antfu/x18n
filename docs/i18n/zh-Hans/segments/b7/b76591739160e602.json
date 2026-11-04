@@ -3,12 +3,16 @@
   "source": "{0}, {1} and {2}: in the catalog, their key holds the context too",
   "text": "{0}、{1} 和 {2}：在目录中，它们的键同时包含上下文",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1} 和 {2}：在目录中，它们的键同时包含上下文"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

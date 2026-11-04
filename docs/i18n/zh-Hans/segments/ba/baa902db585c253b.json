@@ -3,12 +3,16 @@
   "source": "A package can also ship a YAML plugin file. Users then list its path:",
   "text": "包也可以附带一个 YAML 插件文件。这时用户只需列出它的路径：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "包也可以附带一个 YAML 插件文件。这时用户只需列出它的路径："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

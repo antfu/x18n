@@ -3,12 +3,16 @@
   "source": "The code, such as {0}, or the JS error name of an error without a code.",
   "text": "{0} などのコード。コードを持たないエラーの場合は JS のエラー名です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} などのコード。コードを持たないエラーの場合は JS のエラー名です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Files that x18n cannot parse as locale files are errors. Source files that a scanner cannot parse are warnings. You cannot turn this diagnostic off in {0}. To skip a source file, exclude it with {1}.",
   "text": "x18n がロケールファイルとして解析できないファイルはエラーになります。スキャナーが解析できないソースファイルは警告になります。この診断は {0} では無効にできません。ソースファイルをスキップするには、{1} で除外してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n がロケールファイルとして解析できないファイルはエラーになります。スキャナーが解析できないソースファイルは警告になります。この診断は {0} では無効にできません。ソースファイルをスキップするには、{1} で除外してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

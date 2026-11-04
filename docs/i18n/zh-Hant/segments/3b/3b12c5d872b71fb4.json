@@ -3,12 +3,16 @@
   "source": "Keys and locales are sorted, so edits from two branches merge well.",
   "text": "鍵與語系會經過排序，因此來自兩個分支的編輯可以順利合併。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "鍵與語系會經過排序，因此來自兩個分支的編輯可以順利合併。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

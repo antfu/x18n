@@ -3,12 +3,16 @@
   "source": "A file, or a block inside a file, that holds messages for one locale and one namespace.",
   "text": "1 つのロケールと 1 つの名前空間のメッセージを保持するファイル、またはファイル内のブロックです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "1 つのロケールと 1 つの名前空間のメッセージを保持するファイル、またはファイル内のブロックです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

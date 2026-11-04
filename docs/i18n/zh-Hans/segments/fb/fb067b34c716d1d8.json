@@ -3,12 +3,16 @@
   "source": "The search covers every locale and ignores case. It is fuzzy by default, and values that contain the query rank first. {0} keeps only those values. Each match has the key, the matched locale and value, and the usages with file, line and column. The {1}MCP tool{/1} {2} does the same.",
   "text": "搜索覆盖所有语言，并忽略大小写。默认使用模糊匹配，包含查询内容的值排在最前。{0} 只保留这些值。每个匹配项包含键、匹配的语言和值，以及引用（含文件、行和列）。{1}MCP 工具{/1} {2} 的作用相同。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "搜索覆盖所有语言，并忽略大小写。默认使用模糊匹配，包含查询内容的值排在最前。{0} 只保留这些值。每个匹配项包含键、匹配的语言和值，以及引用（含文件、行和列）。{1}MCP 工具{/1} {2} 的作用相同。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

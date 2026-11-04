@@ -3,12 +3,16 @@
   "source": "This page lists every option of the config file. Read {0}Configuration{/0} first for the file names and how x18n finds them.",
   "text": "本頁列出設定檔的所有選項。請先閱讀{0}設定{/0}，了解檔案名稱以及 x18n 如何找到這些檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "本頁列出設定檔的所有選項。請先閱讀{0}設定{/0}，了解檔案名稱以及 x18n 如何找到這些檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A decision is needed and no answer was given. Run again with {0}.",
   "text": "判断が必要ですが、回答がありませんでした。{0} を付けて再実行してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "判断が必要ですが、回答がありませんでした。{0} を付けて再実行してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

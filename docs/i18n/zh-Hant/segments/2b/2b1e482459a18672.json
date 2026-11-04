@@ -3,12 +3,16 @@
   "source": "Report only for these locales. Diagnostics without a locale stay.",
   "text": "只回報這些語系的結果。沒有語系的診斷會保留。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "只回報這些語系的結果。沒有語系的診斷會保留。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

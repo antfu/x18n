@@ -3,12 +3,16 @@
   "source": "The reviews of one message, oldest first, with a state from its open reviews.",
   "text": "一則訊息的所有審閱，依時間由舊到新排列，並帶有根據其未解決審閱得出的狀態。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一則訊息的所有審閱，依時間由舊到新排列，並帶有根據其未解決審閱得出的狀態。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

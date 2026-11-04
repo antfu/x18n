@@ -3,12 +3,16 @@
   "source": "Percent braces: {0}. For the files above, the {1} check reports {2}, because {3} has no {4}.",
   "text": "パーセント波括弧: {0}。上記のファイルでは、{3} に {4} がないため、{1} チェックは {2} を報告します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "パーセント波括弧: {0}。上記のファイルでは、{3} に {4} がないため、{1} チェックは {2} を報告します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

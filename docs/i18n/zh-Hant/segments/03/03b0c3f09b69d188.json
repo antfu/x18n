@@ -3,12 +3,16 @@
   "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
   "text": "在檔案中，{0} 是一個鍵，{1} 是每個數量對應一個鍵（{2}），{3} 是每個項目對應一個鍵（{4}）。若刪除的項目不是最後一項，該項目會被清空，因此後面的項目會保留原本的索引。{5} 不是訊息，x18n 也不會寫入它。位於項目正上方的註解會作為給翻譯人員的說明。x18n 會讀取並寫入 Android 的跳脫字元（{6}、{7}、{8}、開頭的 {9}），保留 {10} 這類行內標記，並保留 CDATA。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在檔案中，{0} 是一個鍵，{1} 是每個數量對應一個鍵（{2}），{3} 是每個項目對應一個鍵（{4}）。若刪除的項目不是最後一項，該項目會被清空，因此後面的項目會保留原本的索引。{5} 不是訊息，x18n 也不會寫入它。位於項目正上方的註解會作為給翻譯人員的說明。x18n 會讀取並寫入 Android 的跳脫字元（{6}、{7}、{8}、開頭的 {9}），保留 {10} 這類行內標記，並保留 CDATA。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The Vue scanner reads the {0} blocks and every template expression. It also reads the {1} directive, and the key attribute of the {2} (or {3}) component, the {4} component and {5}.",
   "text": "Vue スキャナーは {0} ブロックとすべてのテンプレート式を読み取ります。また、{1} ディレクティブ、{2}（または {3}）コンポーネントのキー属性、{4} コンポーネント、{5} も読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Vue スキャナーは {0} ブロックとすべてのテンプレート式を読み取ります。また、{1} ディレクティブ、{2}（または {3}）コンポーネントのキー属性、{4} コンポーネント、{5} も読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

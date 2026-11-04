@@ -3,12 +3,16 @@
   "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
   "text": "{0}、{1} ... {2} 和 {3} 注释会像在其他文件中一样跳过文本。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1} ... {2} 和 {3} 注释会像在其他文件中一样跳过文本。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

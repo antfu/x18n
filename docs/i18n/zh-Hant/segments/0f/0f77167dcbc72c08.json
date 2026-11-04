@@ -3,12 +3,16 @@
   "source": "A plugin can add types for its check ids and its options through declaration merging. {0} then completes them:",
   "text": "外掛可以透過宣告合併（declaration merging）為其檢查 id 和選項新增型別。之後 {0} 就能自動補全這些內容：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "外掛可以透過宣告合併（declaration merging）為其檢查 id 和選項新增型別。之後 {0} 就能自動補全這些內容："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

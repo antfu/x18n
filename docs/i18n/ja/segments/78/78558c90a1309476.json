@@ -3,12 +3,16 @@
   "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
   "text": "スコープとは、デフォルトの名前空間またはキーのプレフィックスを持つコードの領域です。react-i18next では、{0} によって、その {3} を使うコード内で {1} が {2} を意味するようになります。next-intl では、{4} によって {5} が {6} を意味するようになります。プリセットはこれらのファクトリーを認識します。YAML プラグインは、正規表現でスコープを追加できます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "スコープとは、デフォルトの名前空間またはキーのプレフィックスを持つコードの領域です。react-i18next では、{0} によって、その {3} を使うコード内で {1} が {2} を意味するようになります。next-intl では、{4} によって {5} が {6} を意味するようになります。プリセットはこれらのファクトリーを認識します。YAML プラグインは、正規表現でスコープを追加できます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

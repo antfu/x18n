@@ -3,12 +3,16 @@
   "source": "Key separator of matching files, over {0}. {1} for files keyed by whole sentences (Laravel {2}).",
   "text": "一致するファイルのキー区切り文字です。{0} より優先されます。文全体をキーとするファイル（Laravel の {2}）には {1} を指定します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一致するファイルのキー区切り文字です。{0} より優先されます。文全体をキーとするファイル（Laravel の {2}）には {1} を指定します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

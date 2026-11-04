@@ -3,12 +3,16 @@
   "source": "The value of a message in a related locale is a good start for a translation: {0} when translating to {1}, {2} when translating to {3}. The prompt shows up to two of them under the source value:",
   "text": "関連ロケールのメッセージの値は、翻訳の良い出発点になります。{1} に翻訳する場合は {0}、{3} に翻訳する場合は {2} が該当します。プロンプトでは、ソースの値の下に最大 2 件まで表示されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "関連ロケールのメッセージの値は、翻訳の良い出発点になります。{1} に翻訳する場合は {0}、{3} に翻訳する場合は {2} が該当します。プロンプトでは、ソースの値の下に最大 2 件まで表示されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

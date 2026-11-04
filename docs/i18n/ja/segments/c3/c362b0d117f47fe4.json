@@ -3,12 +3,16 @@
   "source": "A value adds or drops a placeholder compared to the source value, so {0} wrote nothing. The JSON output lists the values in {1}.",
   "text": "ソースの値と比べてプレースホルダーが追加または削除されている値があるため、{0} は何も書き込みませんでした。JSON 出力では、該当する値が {1} に一覧表示されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ソースの値と比べてプレースホルダーが追加または削除されている値があるため、{0} は何も書き込みませんでした。JSON 出力では、該当する値が {1} に一覧表示されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

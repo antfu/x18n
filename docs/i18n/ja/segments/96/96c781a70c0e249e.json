@@ -3,12 +3,16 @@
   "source": "The preset includes everything of the {0} preset: the {1} namespace separator, the default namespace {2}, the derived keys {3}, the placeholders and the calls of i18next. If the {4} preset also applies, x18n adds these plugins one time.",
   "text": "このプリセットには、{0} プリセットのすべてが含まれます。つまり、{1} 名前空間セパレーター、デフォルトの名前空間 {2}、派生キー {3}、プレースホルダー、i18next の呼び出しです。{4} プリセットも適用される場合、x18n はこれらのプラグインを一度だけ追加します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このプリセットには、{0} プリセットのすべてが含まれます。つまり、{1} 名前空間セパレーター、デフォルトの名前空間 {2}、派生キー {3}、プレースホルダー、i18next の呼び出しです。{4} プリセットも適用される場合、x18n はこれらのプラグインを一度だけ追加します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

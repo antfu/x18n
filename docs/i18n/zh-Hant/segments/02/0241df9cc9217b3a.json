@@ -3,12 +3,16 @@
   "source": "Overview of the i18n project: locales with translation coverage, counts of keys, resources and usages, diagnostics by check, and detected presets. Call it first to learn project names, the source locale and locale codes.",
   "text": "i18n 專案概覽：各語系與其翻譯涵蓋率、鍵、資源與使用處的數量、依檢查分類的診斷，以及偵測到的預設集。請先呼叫此工具，以取得專案名稱、來源語系與語系代碼。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "i18n 專案概覽：各語系與其翻譯涵蓋率、鍵、資源與使用處的數量、依檢查分類的診斷，以及偵測到的預設集。請先呼叫此工具，以取得專案名稱、來源語系與語系代碼。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

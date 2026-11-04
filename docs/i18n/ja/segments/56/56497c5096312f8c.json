@@ -3,12 +3,16 @@
   "source": "If someone else changed the file, pull their changes first.",
   "text": "他のユーザーがファイルを変更した場合は、先にその変更を pull してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "他のユーザーがファイルを変更した場合は、先にその変更を pull してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

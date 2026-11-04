@@ -3,12 +3,16 @@
   "source": "For renames and deletes, run with {0} first and read the plan.",
   "text": "对于重命名和删除，先使用 {0} 运行并查看计划。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "对于重命名和删除，先使用 {0} 运行并查看计划。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Rules like {0}: when {1} is used the derived keys count as used. Rules apply repeatedly, so with {2} the key {3} derives from both {4} and {5}. {6} matches one key segment. {7} and {8} match a plural or ordinal category ({9}, {10}, {11}): each locale then needs the categories of its own language, and categories the language lacks are optional.",
   "text": "形如 {0} 的规则：使用 {1} 时，派生出的键视为已使用。规则会反复应用，因此对于 {2}，键 {3} 同时派生自 {4} 和 {5}。{6} 匹配一个键段。{7} 和 {8} 匹配复数或序数类别（{9}、{10}、{11}）：此时每个语言都需要其自身语言的类别，而该语言没有的类别是可选的。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "形如 {0} 的规则：使用 {1} 时，派生出的键视为已使用。规则会反复应用，因此对于 {2}，键 {3} 同时派生自 {4} 和 {5}。{6} 匹配一个键段。{7} 和 {8} 匹配复数或序数类别（{9}、{10}、{11}）：此时每个语言都需要其自身语言的类别，而该语言没有的类别是可选的。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

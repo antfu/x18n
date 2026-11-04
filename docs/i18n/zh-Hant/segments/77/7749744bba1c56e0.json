@@ -3,12 +3,16 @@
   "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
   "text": "這會將所有診斷寫入工作區根目錄中的 {0}。只要該檔案存在，{1} 就只會回報不在其中的診斷並因此失敗，同時說明略過了多少已知的診斷。診斷是依據其檔案、檢查、鍵、語系與訊息來判定是否已知，而不是依據行號，因此移動程式碼後它仍然屬於已知。同一個檔案中多出一個相同的診斷，則視為新的診斷。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "這會將所有診斷寫入工作區根目錄中的 {0}。只要該檔案存在，{1} 就只會回報不在其中的診斷並因此失敗，同時說明略過了多少已知的診斷。診斷是依據其檔案、檢查、鍵、語系與訊息來判定是否已知，而不是依據行號，因此移動程式碼後它仍然屬於已知。同一個檔案中多出一個相同的診斷，則視為新的診斷。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

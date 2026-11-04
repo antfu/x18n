@@ -3,12 +3,16 @@
   "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
   "text": "每個內建格式都有 {0}，編輯時只會變更它設定、新增或刪除的項目。註解、鍵的順序、引號和縮排都會保持原樣。新的鍵會依檔案的風格，放在其父層最後一個鍵之後。刪除鍵時，該行結尾的註解會一併移除。在 {1} 和 {2} 中，項目上方的註解屬於該項目，也會一併移除。只有 {3} 和 {4} 會重新寫入整個檔案，因此會遺失其中的註解。僅能讀取的格式會讓其資源成為唯讀。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "每個內建格式都有 {0}，編輯時只會變更它設定、新增或刪除的項目。註解、鍵的順序、引號和縮排都會保持原樣。新的鍵會依檔案的風格，放在其父層最後一個鍵之後。刪除鍵時，該行結尾的註解會一併移除。在 {1} 和 {2} 中，項目上方的註解屬於該項目，也會一併移除。只有 {3} 和 {4} 會重新寫入整個檔案，因此會遺失其中的註解。僅能讀取的格式會讓其資源成為唯讀。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

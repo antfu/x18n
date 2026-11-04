@@ -3,12 +3,16 @@
   "source": "The output lists the locales with their coverage, and the counts of resources, keys and usages.",
   "text": "输出内容会列出各个语言环境及其覆盖率，以及资源、键和引用的数量。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "输出内容会列出各个语言环境及其覆盖率，以及资源、键和引用的数量。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

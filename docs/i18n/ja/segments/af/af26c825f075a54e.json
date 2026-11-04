@@ -3,12 +3,16 @@
   "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
   "text": "メッセージへのコメント、承認、変更依頼、値の提案を、ブランチと一緒に移動するファイルで管理できます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "メッセージへのコメント、承認、変更依頼、値の提案を、ブランチと一緒に移動するファイルで管理できます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

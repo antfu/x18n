@@ -3,12 +3,16 @@
   "source": "To translate into a new locale, x18n creates the file next to the source file: {0}. If your neutral language is not English, set {1}.",
   "text": "新しいロケールに翻訳する場合、x18n はソースファイルと同じ場所にファイルを作成します。{0}。ニュートラル言語が英語でない場合は、{1} を設定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "新しいロケールに翻訳する場合、x18n はソースファイルと同じ場所にファイルを作成します。{0}。ニュートラル言語が英語でない場合は、{1} を設定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

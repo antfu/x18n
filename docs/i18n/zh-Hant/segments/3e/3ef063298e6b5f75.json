@@ -3,12 +3,16 @@
   "source": "How x18n understood the project: presets, locale finders, formats, scanners, conflicts, errors and config origins.",
   "text": "x18n 如何理解專案：預設集、語系搜尋器、格式、掃描器、衝突、錯誤與設定來源。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 如何理解專案：預設集、語系搜尋器、格式、掃描器、衝突、錯誤與設定來源。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

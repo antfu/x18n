@@ -3,12 +3,16 @@
   "source": "x18n reads a locale file without running it. The file must hold one static object, as the typesafe-i18n generator writes it:",
   "text": "x18n 讀取語系檔案時不會執行它。該檔案必須包含單一靜態物件，如同 typesafe-i18n 產生器所寫入的格式：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 讀取語系檔案時不會執行它。該檔案必須包含單一靜態物件，如同 typesafe-i18n 產生器所寫入的格式："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

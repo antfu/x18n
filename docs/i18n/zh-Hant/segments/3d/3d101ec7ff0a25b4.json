@@ -3,12 +3,16 @@
   "source": "History providers for stale translations: {0} turns them off; provider options such as {1} sit under their key; {2} adds providers asked first.",
   "text": "過時翻譯的歷史紀錄提供者：{0} 會將其關閉；提供者選項（例如 {1}）位於其鍵之下；{2} 會加入優先詢問的提供者。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "過時翻譯的歷史紀錄提供者：{0} 會將其關閉；提供者選項（例如 {1}）位於其鍵之下；{2} 會加入優先詢問的提供者。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

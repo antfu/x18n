@@ -3,12 +3,16 @@
   "source": "A format reads and writes one file format, such as JSON or YAML. A locale finder finds the resources. The built-in {0} finder uses the {1} patterns of the config. See {2}Configuration{/2}.",
   "text": "フォーマットは、JSON や YAML など、一つのファイル形式を読み書きします。ロケールファインダーはリソースを見つけます。組み込みの {0} ファインダーは、設定の {1} パターンを使用します。{2}設定{/2}を参照してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "フォーマットは、JSON や YAML など、一つのファイル形式を読み書きします。ロケールファインダーはリソースを見つけます。組み込みの {0} ファインダーは、設定の {1} パターンを使用します。{2}設定{/2}を参照してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

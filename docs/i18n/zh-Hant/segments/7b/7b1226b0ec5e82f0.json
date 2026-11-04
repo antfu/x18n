@@ -3,12 +3,16 @@
   "source": "Reviews: messages with open {0}review{/0} comments, with their state. Click one to open it in its locale file.",
   "text": "審閱：有未解決{0}審閱{/0}留言的訊息，並顯示其狀態。點擊其中一則，即可在其語系檔案中開啟。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "審閱：有未解決{0}審閱{/0}留言的訊息，並顯示其狀態。點擊其中一則，即可在其語系檔案中開啟。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

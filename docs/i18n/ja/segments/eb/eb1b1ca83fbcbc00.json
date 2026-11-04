@@ -3,12 +3,16 @@
   "source": "The keys of all {0} files share one key space, as {1} does not show in the key. Two files with the same key, such as {2} and {3}, give a {4}. So do two keys where one is the start of the other, such as {5} and {6}.",
   "text": "{1} はキーに現れないため、すべての {0} ファイルのキーは 1 つのキー空間を共有します。{2} と {3} のように、2 つのファイルに同じキーがあると {4} になります。{5} と {6} のように、一方のキーがもう一方のキーの先頭部分になっている 2 つのキーも同様です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{1} はキーに現れないため、すべての {0} ファイルのキーは 1 つのキー空間を共有します。{2} と {3} のように、2 つのファイルに同じキーがあると {4} になります。{5} と {6} のように、一方のキーがもう一方のキーの先頭部分になっている 2 つのキーも同様です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

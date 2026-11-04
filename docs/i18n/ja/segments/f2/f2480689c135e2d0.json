@@ -3,12 +3,16 @@
   "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
   "text": "{0} より長い値は切り詰められます。インプレースモードでは、そのような値はキーの後ろにヒントとして表示されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} より長い値は切り詰められます。インプレースモードでは、そのような値はキーの後ろにヒントとして表示されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

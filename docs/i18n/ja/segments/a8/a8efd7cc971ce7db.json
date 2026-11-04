@@ -3,12 +3,16 @@
   "source": "A message is a function on the {0} object. The name of the function is the key. The preset reads {1}, {2}, JSX, Vue, Svelte and Astro files.",
   "text": "メッセージは {0} オブジェクト上の関数です。関数名がキーになります。プリセットは {1}、{2}、JSX、Vue、Svelte、Astro のファイルを読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "メッセージは {0} オブジェクト上の関数です。関数名がキーになります。プリセットは {1}、{2}、JSX、Vue、Svelte、Astro のファイルを読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

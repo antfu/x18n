@@ -3,12 +3,16 @@
   "source": "A file changed after x18n made the plan, so x18n did not write anything. For {0}, the source file changed after you wrote the plan file.",
   "text": "x18n 建立計畫後有檔案發生變更，因此 x18n 沒有寫入任何內容。對於 {0}，是在你寫好計畫檔之後，來源檔案發生了變更。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 建立計畫後有檔案發生變更，因此 x18n 沒有寫入任何內容。對於 {0}，是在你寫好計畫檔之後，來源檔案發生了變更。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

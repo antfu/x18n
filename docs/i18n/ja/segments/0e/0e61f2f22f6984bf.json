@@ -3,12 +3,16 @@
   "source": "Renames a key in every locale and every usage in code. {0} keeps the code.",
   "text": "すべてのロケールのキーと、コード内のすべての使用箇所の名前を変更します。{0} を指定すると、コードは変更しません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "すべてのロケールのキーと、コード内のすべての使用箇所の名前を変更します。{0} を指定すると、コードは変更しません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

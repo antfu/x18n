@@ -3,12 +3,16 @@
   "source": "{0} lists translate calls for the AST scanners of JS, TS, JSX, Vue and Svelte files. Each entry has the shape of an item of {1}:",
   "text": "{0} は、JS、TS、JSX、Vue、Svelte ファイルの AST スキャナー向けに translate 呼び出しを列挙します。各エントリは {1} の項目と同じ形式です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、JS、TS、JSX、Vue、Svelte ファイルの AST スキャナー向けに translate 呼び出しを列挙します。各エントリは {1} の項目と同じ形式です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

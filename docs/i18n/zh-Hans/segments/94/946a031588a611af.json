@@ -3,12 +3,16 @@
   "source": "When the project root has an {0}i18next-cli{/0} config ({1}, {2}, {3}, {4} or {5}), the preset reads it. x18n does not run the file: it reads the object of {6} (or {7}) and skips values that are not literals, such as {8} or an {9} function.",
   "text": "当项目根目录中有 {0}i18next-cli{/0} 配置（{1}、{2}、{3}、{4} 或 {5}）时，该预设会读取它。x18n 不会运行该文件：它只读取 {6}（或 {7}）的对象，并跳过不是字面量的值，例如 {8} 或 {9} 函数。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当项目根目录中有 {0}i18next-cli{/0} 配置（{1}、{2}、{3}、{4} 或 {5}）时，该预设会读取它。x18n 不会运行该文件：它只读取 {6}（或 {7}）的对象，并跳过不是字面量的值，例如 {8} 或 {9} 函数。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Agents make that possible. A rewrite of this size used to need months, and now I can build it in my free time and still make it solid. Agents also would benefit from it: they edit locale files all day, and they need the key behind a text, the missing keys and a safe way to rename a key. So I brought the idea back, and this time I made it real.",
   "text": "agents 讓這件事成為可能。以前這種規模的重寫需要花上好幾個月，現在我可以利用空閒時間完成，而且依然能做得很扎實。agents 也會從中受益：它們整天都在編輯語系檔案，需要知道某段文字背後的鍵、缺少的鍵，以及一種安全的方式來重新命名鍵。所以我把這個想法重新拾起，而這一次，我把它做成了現實。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "agents 讓這件事成為可能。以前這種規模的重寫需要花上好幾個月，現在我可以利用空閒時間完成，而且依然能做得很扎實。agents 也會從中受益：它們整天都在編輯語系檔案，需要知道某段文字背後的鍵、缺少的鍵，以及一種安全的方式來重新命名鍵。所以我把這個想法重新拾起，而這一次，我把它做成了現實。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

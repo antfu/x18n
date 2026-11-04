@@ -3,12 +3,16 @@
   "source": "x18n validates every config against this schema, the serializable part of a TS config too. An unknown key is an error ({0}X18N0001{/0}), so a typo in a key name does not pass silently.",
   "text": "x18n 会根据此 schema 校验所有配置，TS 配置中可序列化的部分也不例外。未知的键会报错（{0}X18N0001{/0}），因此键名中的拼写错误不会被悄悄放过。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 会根据此 schema 校验所有配置，TS 配置中可序列化的部分也不例外。未知的键会报错（{0}X18N0001{/0}），因此键名中的拼写错误不会被悄悄放过。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
   "text": "語系檔案已成功解析，但其最上層不是訊息物件。語系檔案包含巢狀物件，其葉節點為字串、數字、布林值或 {0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "語系檔案已成功解析，但其最上層不是訊息物件。語系檔案包含巢狀物件，其葉節點為字串、數字、布林值或 {0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

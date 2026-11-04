@@ -3,12 +3,16 @@
   "source": "The review prompt holds the messages that {0} already has. It asks the agent to check the meaning, the placeholders, the glossary terms, the tone and the length of each one, and to leave a suggestion or a change request for each wrong one with {1} (with {2}, to fix it with {3}). Each item shows the source value, its placeholders, its description, its values in related locales and the current translation. The prompt accepts the same options as the translate prompt, with {4} in place of {5}.",
   "text": "審閱提示包含 {0} 已有的訊息。它會要求 agent 檢查每則訊息的意思、佔位符、詞彙表用語、語氣和長度，並對每個有誤的訊息使用 {1} 留下建議或變更請求（使用 {2} 時，則以 {3} 修正）。每個項目都會顯示來源值、其佔位符、描述、在相關語系中的值，以及目前的翻譯。此提示接受與翻譯提示相同的選項，只是以 {4} 取代 {5}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "審閱提示包含 {0} 已有的訊息。它會要求 agent 檢查每則訊息的意思、佔位符、詞彙表用語、語氣和長度，並對每個有誤的訊息使用 {1} 留下建議或變更請求（使用 {2} 時，則以 {3} 修正）。每個項目都會顯示來源值、其佔位符、描述、在相關語系中的值，以及目前的翻譯。此提示接受與翻譯提示相同的選項，只是以 {4} 取代 {5}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

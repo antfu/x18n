@@ -3,12 +3,16 @@
   "source": "The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in {0}.",
   "text": "ソースロケールに保存されるハードコードされた文字列のメッセージです。元のテキストで、テンプレート文字列の引数はプレースホルダーになります。{0} のように、デフォルト値に使用します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ソースロケールに保存されるハードコードされた文字列のメッセージです。元のテキストで、テンプレート文字列の引数はプレースホルダーになります。{0} のように、デフォルト値に使用します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

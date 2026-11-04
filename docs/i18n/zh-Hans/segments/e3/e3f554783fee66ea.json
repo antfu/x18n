@@ -3,12 +3,16 @@
   "source": "In XML views, JSON files, JS and TS, the preset reads {0} bindings. In JS and TS, it also reads {1}:",
   "text": "在 XML 视图、JSON 文件、JS 和 TS 中，预设会读取 {0} 绑定。在 JS 和 TS 中，它还会读取 {1}：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在 XML 视图、JSON 文件、JS 和 TS 中，预设会读取 {0} 绑定。在 JS 和 TS 中，它还会读取 {1}："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

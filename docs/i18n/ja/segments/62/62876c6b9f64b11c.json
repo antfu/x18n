@@ -3,12 +3,16 @@
   "source": "A message is a function on the {0} object. The path to the function is the key. In Svelte, the store is {1}. The preset reads {2}, {3}, JSX, Vue and Svelte files.",
   "text": "メッセージは {0} オブジェクトの関数です。その関数へのパスがキーになります。Svelte では、ストアは {1} です。プリセットは {2}、{3}、JSX、Vue、Svelte のファイルを読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "メッセージは {0} オブジェクトの関数です。その関数へのパスがキーになります。Svelte では、ストアは {1} です。プリセットは {2}、{3}、JSX、Vue、Svelte のファイルを読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

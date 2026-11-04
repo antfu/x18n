@@ -3,12 +3,16 @@
   "source": "Pass {0} to work on one project. Commands that write files ({1}, {2}, {3}, {4}, {5}, {6}, {7}) and {8} need one project. Without {9}, they stop with {10}X18N0003{/10}.",
   "text": "傳入 {0} 即可只處理單一專案。會寫入檔案的指令（{1}、{2}、{3}、{4}、{5}、{6}、{7}）以及 {8} 需要指定單一專案。若沒有 {9}，它們會停止並回報 {10}X18N0003{/10}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "傳入 {0} 即可只處理單一專案。會寫入檔案的指令（{1}、{2}、{3}、{4}、{5}、{6}、{7}）以及 {8} 需要指定單一專案。若沒有 {9}，它們會停止並回報 {10}X18N0003{/10}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

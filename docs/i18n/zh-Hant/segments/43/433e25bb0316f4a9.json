@@ -3,12 +3,16 @@
   "source": "One root config with projects, each project with its own locales and its own config.",
   "text": "一份根設定檔包含多個專案，每個專案各有自己的語系與設定。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "一份根設定檔包含多個專案，每個專案各有自己的語系與設定。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

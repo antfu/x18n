@@ -3,12 +3,16 @@
   "source": "the loops of {0}Agent workflows{/0}: add a key, translate, review, clean up, rename and extract,",
   "text": "{0}エージェントワークフロー{/0}のループ。キーの追加、翻訳、レビュー、クリーンアップ、名前の変更、抽出です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}エージェントワークフロー{/0}のループ。キーの追加、翻訳、レビュー、クリーンアップ、名前の変更、抽出です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

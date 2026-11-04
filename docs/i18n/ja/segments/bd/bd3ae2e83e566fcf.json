@@ -3,12 +3,16 @@
   "source": "Do not edit locale files directly. Use {0}, {1}, {2} and {3}. They keep the format, the key style, the order and the placeholders of each file.",
   "text": "ロケールファイルを直接編集しないでください。{0}、{1}、{2}、{3} を使用してください。これらは各ファイルのフォーマット、キーのスタイル、順序、プレースホルダーを保持します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ロケールファイルを直接編集しないでください。{0}、{1}、{2}、{3} を使用してください。これらは各ファイルのフォーマット、キーのスタイル、順序、プレースホルダーを保持します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

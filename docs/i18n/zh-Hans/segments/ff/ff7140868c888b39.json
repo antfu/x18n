@@ -3,12 +3,16 @@
   "source": "{0} refuses values whose placeholders differ from the source value, and lists them in {1}. The agent fixes them and applies again. If the prompt says that more keys remain, the agent continues with {2}.",
   "text": "{0} 会拒绝占位符与源值不同的值，并将它们列在 {1} 中。agent 修复这些问题后再次应用。如果提示信息说明仍有更多键，agent 会使用 {2} 继续。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 会拒绝占位符与源值不同的值，并将它们列在 {1} 中。agent 修复这些问题后再次应用。如果提示信息说明仍有更多键，agent 会使用 {2} 继续。"
   },
-  "updatedAt": "2026-11-04T04:17:23.246Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Delete a key (or every key under a parent) in all locales, or only in {0}. Code is not changed. Without {1} it returns the plan; call again with {2} to apply it.",
   "text": "在所有語系中刪除一個鍵（或某個父層底下的所有鍵），或僅在 {0} 中刪除。不會變更程式碼。未傳入 {1} 時會回傳計畫；傳入 {2} 再次呼叫即可套用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在所有語系中刪除一個鍵（或某個父層底下的所有鍵），或僅在 {0} 中刪除。不會變更程式碼。未傳入 {1} 時會回傳計畫；傳入 {2} 再次呼叫即可套用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

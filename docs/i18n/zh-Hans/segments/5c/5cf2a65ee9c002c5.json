@@ -3,12 +3,16 @@
   "source": "A locale code exactly as written in paths and files ({0}, {1}). Never normalized.",
   "text": "路径和文件中书写的语言代码，保持原样（{0}、{1}），从不做规范化。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "路径和文件中书写的语言代码，保持原样（{0}、{1}），从不做规范化。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Deletes every unused key that no computed key may reach.",
   "text": "刪除所有未使用且不會被任何動態鍵涵蓋的鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "刪除所有未使用且不會被任何動態鍵涵蓋的鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

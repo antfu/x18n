@@ -3,12 +3,16 @@
   "source": "Overview of the i18n project: locales with translation coverage, counts of keys, resources and usages, diagnostics by check, and detected presets. Call it first to learn project names, the source locale and locale codes.",
   "text": "i18n プロジェクトの概要です。翻訳カバレッジ付きのロケール、キー・リソース・使用箇所の件数、チェックごとの診断、検出されたプリセットを返します。プロジェクト名、ソースロケール、ロケールコードを把握するために、最初に呼び出してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "i18n プロジェクトの概要です。翻訳カバレッジ付きのロケール、キー・リソース・使用箇所の件数、チェックごとの診断、検出されたプリセットを返します。プロジェクト名、ソースロケール、ロケールコードを把握するために、最初に呼び出してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

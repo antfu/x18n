@@ -3,12 +3,16 @@
   "source": "Find keys by their value, best match first: the key behind a text seen in the app. Searches every locale, ignoring case, and matches fuzzily unless {0}. Each match has the matched locale and value, and the usages in code with file, line and column.",
   "text": "値からキーを検索し、最も一致するものから順に返します。アプリで見たテキストに対応するキーを探せます。大文字と小文字を区別せず全ロケールを検索し、{0} でない限りあいまい一致を行います。各一致には、一致したロケールと値、およびファイル・行・列付きのコード内の使用箇所が含まれます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "値からキーを検索し、最も一致するものから順に返します。アプリで見たテキストに対応するキーを探せます。大文字と小文字を区別せず全ロケールを検索し、{0} でない限りあいまい一致を行います。各一致には、一致したロケールと値、およびファイル・行・列付きのコード内の使用箇所が含まれます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

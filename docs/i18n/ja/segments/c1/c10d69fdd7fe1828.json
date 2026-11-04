@@ -3,12 +3,16 @@
   "source": "The client passes these fields in {0}. Each one is optional.",
   "text": "クライアントは、これらのフィールドを {0} で渡します。いずれも省略可能です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "クライアントは、これらのフィールドを {0} で渡します。いずれも省略可能です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

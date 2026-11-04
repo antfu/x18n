@@ -3,12 +3,16 @@
   "source": "{0} returns the display name, the flag or other data of a locale code. The first plugin that returns a value wins.",
   "text": "{0} は、ロケールコードの表示名、フラグ、その他のデータを返します。値を返した最初のプラグインが優先されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、ロケールコードの表示名、フラグ、その他のデータを返します。値を返した最初のプラグインが優先されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

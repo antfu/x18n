@@ -3,12 +3,16 @@
   "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
   "text": "チェックはジェネレーターです。yield された各値が診断になります。{0} がない場合、診断は {2} 内の {1} のメッセージを指します。チェック ID は診断コードでもあるため、{3} と {4} は組み込みのチェックと同じように使えます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "チェックはジェネレーターです。yield された各値が診断になります。{0} がない場合、診断は {2} 内の {1} のメッセージを指します。チェック ID は診断コードでもあるため、{3} と {4} は組み込みのチェックと同じように使えます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "the locales of its {0}fallback chain{/0}, such as {1} for {2} with {3},",
   "text": "{0}フォールバックチェーン{/0}に含まれるロケール（たとえば、{3} を指定した {2} に対する {1}）",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}フォールバックチェーン{/0}に含まれるロケール（たとえば、{3} を指定した {2} に対する {1}）"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

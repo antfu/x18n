@@ -3,12 +3,16 @@
   "source": "Make sure that the module exports a plugin, a preset, or a function that returns one.",
   "text": "請確認該模組匯出外掛、預設集，或會回傳其中之一的函式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "請確認該模組匯出外掛、預設集，或會回傳其中之一的函式。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0}glossary{/0} lists every name in one table.",
   "text": "すべての名前を一つの表にまとめたものは{0}用語集{/0}を参照してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "すべての名前を一つの表にまとめたものは{0}用語集{/0}を参照してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
   "text": "サマリー、ロケールごとのカバレッジ表、診断の表を出力します。プルリクエストのコメントやジョブサマリー向けです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "サマリー、ロケールごとのカバレッジ表、診断の表を出力します。プルリクエストのコメントやジョブサマリー向けです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

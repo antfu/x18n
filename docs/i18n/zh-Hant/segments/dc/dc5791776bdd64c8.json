@@ -3,12 +3,16 @@
   "source": "the {0} keys, the legacy {1} keys, and the {2} keys of the {3}i18n-ally-next{/3} fork, in {4},",
   "text": "{4} 中的 {0} 鍵、舊版的 {1} 鍵，以及 {3}i18n-ally-next{/3} 分支的 {2} 鍵，",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{4} 中的 {0} 鍵、舊版的 {1} 鍵，以及 {3}i18n-ally-next{/3} 分支的 {2} 鍵，"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

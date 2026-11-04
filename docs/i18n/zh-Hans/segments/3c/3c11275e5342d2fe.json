@@ -3,12 +3,16 @@
   "source": "CSS color of keys without a value. Empty uses the warning color of the theme.",
   "text": "没有值的键的 CSS 颜色。为空时使用主题的警告颜色。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "没有值的键的 CSS 颜色。为空时使用主题的警告颜色。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

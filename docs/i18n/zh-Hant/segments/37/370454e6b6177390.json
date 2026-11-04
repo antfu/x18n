@@ -3,12 +3,16 @@
   "source": "The editor and the UI still show every diagnostic. The idea comes from {0}i18next-cli{/0} and the bulk suppressions of ESLint.",
   "text": "編輯器與 UI 仍會顯示所有診斷。這個想法來自 {0}i18next-cli{/0}，以及 ESLint 的批次抑制功能。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "編輯器與 UI 仍會顯示所有診斷。這個想法來自 {0}i18next-cli{/0}，以及 ESLint 的批次抑制功能。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

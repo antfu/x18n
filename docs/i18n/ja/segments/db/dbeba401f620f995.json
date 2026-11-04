@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}next-intl{/1} and use-intl.",
   "text": "{0} プリセットは {1}next-intl{/1} と use-intl をサポートします。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} プリセットは {1}next-intl{/1} と use-intl をサポートします。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

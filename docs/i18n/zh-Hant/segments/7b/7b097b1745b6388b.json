@@ -3,12 +3,16 @@
   "source": "The preset also adds a regex scanner for JSON files. It reads {0} references, so the strings of {1} count as usages:",
   "text": "此預設集也會為 JSON 檔案新增正規表達式掃描器。它會讀取 {0} 參照，因此 {1} 的字串會被視為使用處：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此預設集也會為 JSON 檔案新增正規表達式掃描器。它會讀取 {0} 參照，因此 {1} 的字串會被視為使用處："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

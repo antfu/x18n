@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on any package of {0}, on every package of {1}, and has a file for each glob of {2}. With {3}, x18n tests no preset after it.",
   "text": "當專案相依於 {0} 中的任一套件、相依於 {1} 中的每個套件，且每個 {2} 的 glob 都有對應的檔案時，此預設集就會套用。使用 {3} 時，x18n 不會在它之後測試任何預設集。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當專案相依於 {0} 中的任一套件、相依於 {1} 中的每個套件，且每個 {2} 的 glob 都有對應的檔案時，此預設集就會套用。使用 {3} 時，x18n 不會在它之後測試任何預設集。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

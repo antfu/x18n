@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}Paraglide JS{/1} from inlang.",
   "text": "{0} プリセットは、inlang の {1}Paraglide JS{/1} をサポートします。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} プリセットは、inlang の {1}Paraglide JS{/1} をサポートします。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

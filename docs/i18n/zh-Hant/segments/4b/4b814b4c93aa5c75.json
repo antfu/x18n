@@ -3,12 +3,16 @@
   "source": "{0} reports invalid, untranslated and unused keys like {1}. Every command has JSON output.",
   "text": "{0} 會回報無效、未翻譯和未使用的鍵，就像 {1} 一樣。每個指令都支援 JSON 輸出。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會回報無效、未翻譯和未使用的鍵，就像 {1} 一樣。每個指令都支援 JSON 輸出。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

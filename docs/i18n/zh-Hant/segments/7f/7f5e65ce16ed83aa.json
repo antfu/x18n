@@ -3,12 +3,16 @@
   "source": "The preset for next-international. It reads useI18n, useScopedI18n and their server versions, and TS locale files.",
   "text": "next-international 的預設集。它會讀取 useI18n、useScopedI18n 及其伺服器端版本，以及 TS 語系檔案。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "next-international 的預設集。它會讀取 useI18n、useScopedI18n 及其伺服器端版本，以及 TS 語系檔案。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

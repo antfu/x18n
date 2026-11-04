@@ -3,12 +3,16 @@
   "source": "If your config has no {0}, the preset uses {1} and, for namespaces, {2}. The keys of a namespace start with the name of the namespace: {3}.",
   "text": "如果你的配置中没有 {0}，预设会使用 {1}；对于命名空间，则使用 {2}。命名空间的键以该命名空间的名称开头：{3}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "如果你的配置中没有 {0}，预设会使用 {1}；对于命名空间，则使用 {2}。命名空间的键以该命名空间的名称开头：{3}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

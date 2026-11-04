@@ -3,12 +3,16 @@
   "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
   "text": "將滑鼠懸停在鍵上會顯示它在各語系中的值與使用處數量，並附有連結，可在 UI 中開啟該鍵、複製翻譯提示詞，或使用 agent 翻譯。診斷與 {0} 的診斷相同。快速修正來自各項檢查，例如「Add the key to the source locale」或「Copy the source value」。程式碼動作也可以擷取硬編碼字串、擷取檔案中的所有硬編碼字串，或為字串加上忽略註解。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "將滑鼠懸停在鍵上會顯示它在各語系中的值與使用處數量，並附有連結，可在 UI 中開啟該鍵、複製翻譯提示詞，或使用 agent 翻譯。診斷與 {0} 的診斷相同。快速修正來自各項檢查，例如「Add the key to the source locale」或「Copy the source value」。程式碼動作也可以擷取硬編碼字串、擷取檔案中的所有硬編碼字串，或為字串加上忽略註解。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

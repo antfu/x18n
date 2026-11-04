@@ -3,12 +3,16 @@
   "source": "{0} returns the display name, the flag or other data of a locale code. The first plugin that returns a value wins.",
   "text": "{0} 根据语言代码返回显示名称、旗帜或其他数据。第一个返回值的插件生效。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 根据语言代码返回显示名称、旗帜或其他数据。第一个返回值的插件生效。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

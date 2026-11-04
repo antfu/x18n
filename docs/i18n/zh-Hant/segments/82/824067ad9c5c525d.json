@@ -3,12 +3,16 @@
   "source": "For a dynamic key such as {0}, the page prefix applies when the page file has {1}.",
   "text": "對於 {0} 這類動態鍵，當頁面檔案有 {1} 時，會套用頁面前綴。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "對於 {0} 這類動態鍵，當頁面檔案有 {1} 時，會套用頁面前綴。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "YAML and JSON configs reject unknown keys. If the field is a typo, fix the name.",
   "text": "YAML 和 JSON 配置会拒绝未知的键。如果该字段是拼写错误，请修正名称。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "YAML 和 JSON 配置会拒绝未知的键。如果该字段是拼写错误，请修正名称。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

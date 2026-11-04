@@ -3,12 +3,16 @@
   "source": "The names that count as translate calls in a file: declared names, same-file aliases, wrappers, typed params.",
   "text": "文件中被视为翻译调用的名称：已声明的名称、同文件别名、包装函数、带类型的参数。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "文件中被视为翻译调用的名称：已声明的名称、同文件别名、包装函数、带类型的参数。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

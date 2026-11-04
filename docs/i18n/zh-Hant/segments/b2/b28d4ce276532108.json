@@ -3,12 +3,16 @@
   "source": "The CLI with {0}. Every command prints the {1}JSON contract{/1}.",
   "text": "搭配 {0} 使用 CLI。每個命令都會輸出{1}JSON 契約{/1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "搭配 {0} 使用 CLI。每個命令都會輸出{1}JSON 契約{/1}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

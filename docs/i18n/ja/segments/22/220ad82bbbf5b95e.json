@@ -3,12 +3,16 @@
   "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
   "text": "{0} は、範囲と同様にキーで対応付けた {1} と {2} も返せます。状態（state）は翻訳がどこまで進んだかを表し、{3}、{4}、{5} のいずれかです。カバレッジはこれらを集計します。ラベル（label）は、ハッシュなど読みにくいキーに付ける名前です。UI と {6} は両方を表示します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、範囲と同様にキーで対応付けた {1} と {2} も返せます。状態（state）は翻訳がどこまで進んだかを表し、{3}、{4}、{5} のいずれかです。カバレッジはこれらを集計します。ラベル（label）は、ハッシュなど読みにくいキーに付ける名前です。UI と {6} は両方を表示します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

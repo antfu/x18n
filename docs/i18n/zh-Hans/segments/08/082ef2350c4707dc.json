@@ -3,12 +3,16 @@
   "source": "Fail a build on broken keys, annotate pull requests, upload SARIF and publish a static report.",
   "text": "在键损坏时让构建失败，为拉取请求添加注释，上传 SARIF，并发布静态报告。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在键损坏时让构建失败，为拉取请求添加注释，上传 SARIF，并发布静态报告。"
   },
-  "updatedAt": "2026-11-04T04:28:41.418Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

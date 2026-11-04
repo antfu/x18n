@@ -3,12 +3,16 @@
   "source": "Then run {0} (or {1}) in your CI. {2}CI{/2} shows a GitHub Actions workflow that puts the problems on the lines of a pull request.",
   "text": "その後、CI で {0}（または {1}）を実行してください。{2}CI{/2} では、プルリクエストの該当行に問題を表示する GitHub Actions ワークフローを紹介しています。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "その後、CI で {0}（または {1}）を実行してください。{2}CI{/2} では、プルリクエストの該当行に問題を表示する GitHub Actions ワークフローを紹介しています。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

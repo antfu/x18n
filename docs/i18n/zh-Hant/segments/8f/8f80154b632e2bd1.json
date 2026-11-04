@@ -3,12 +3,16 @@
   "source": "{0} replaces a hard string with code from a template. A template has these tokens:",
   "text": "{0} 會用範本產生的程式碼取代硬編碼字串。範本包含以下標記：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會用範本產生的程式碼取代硬編碼字串。範本包含以下標記："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

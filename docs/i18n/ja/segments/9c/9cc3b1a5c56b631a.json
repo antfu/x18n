@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, best first: fuzzy unless {0}, ignoring case. Each match has the matched value, its locale entry and the usages. At most 100.",
   "text": "任意のロケールの値で見つかったキーを、一致度の高い順に返します。{0} でない限り、大文字小文字を区別せずあいまい一致します。各一致には、一致した値、そのロケールのエントリ、使用箇所が含まれます。最大 100 件です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "任意のロケールの値で見つかったキーを、一致度の高い順に返します。{0} でない限り、大文字小文字を区別せずあいまい一致します。各一致には、一致した値、そのロケールのエントリ、使用箇所が含まれます。最大 100 件です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

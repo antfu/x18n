@@ -3,12 +3,16 @@
   "source": "The {0}shipped skills{/0}, which teach an agent to set up x18n, fix what {1} reports, and run the loops on this page.",
   "text": "{0}内置 skills{/0}，教 agent 设置 x18n、修复 {1} 报告的问题，并运行本页介绍的各个循环。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}内置 skills{/0}，教 agent 设置 x18n、修复 {1} 报告的问题，并运行本页介绍的各个循环。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

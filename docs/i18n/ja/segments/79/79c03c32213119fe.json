@@ -3,12 +3,16 @@
   "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
   "text": "呼び出し先は翻訳関数を返すファクトリです。たとえば {0} が {1} を返す場合です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "呼び出し先は翻訳関数を返すファクトリです。たとえば {0} が {1} を返す場合です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

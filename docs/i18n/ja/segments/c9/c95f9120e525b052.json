@@ -3,12 +3,16 @@
   "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
   "text": "リーフと親の両方になっているキー、または 1 つのロケールの複数のファイルにまたがって重複しているキー。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "リーフと親の両方になっているキー、または 1 つのロケールの複数のファイルにまたがって重複しているキー。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Japanese needs only {0}, and {1} is not reported missing there.",
   "text": "日本語に必要なのは {0} のみで、そこでは {1} は不足として報告されません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "日本語に必要なのは {0} のみで、そこでは {1} は不足として報告されません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "For an instance with another name, add its callees to {0}. A keyset function that a module exports, such as {1}, is not followed into the modules that import it.",
   "text": "別の名前のインスタンスを使う場合は、そのコール先を {0} に追加してください。モジュールがエクスポートする keyset 関数（{1} など）は、それをインポートするモジュールまで追跡されません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "別の名前のインスタンスを使う場合は、そのコール先を {0} に追加してください。モジュールがエクスポートする keyset 関数（{1} など）は、それをインポートするモジュールまで追跡されません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\".",
   "text": "注釈に表示するロケールです。空の場合はソースロケールを使用します。「x18n: Set Display Locale」を実行すると、設定を書き込まずにワークスペースごとに上書きできます。上書きは、この設定を変更するか「Default」を選ぶまで有効です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "注釈に表示するロケールです。空の場合はソースロケールを使用します。「x18n: Set Display Locale」を実行すると、設定を書き込まずにワークスペースごとに上書きできます。上書きは、この設定を変更するか「Default」を選ぶまで有効です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

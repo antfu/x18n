@@ -3,12 +3,16 @@
   "source": "The Svelte templates add no imports. Components get the store either from a module ({0}) or from the context ({1}), so x18n assumes {2} is already in scope.",
   "text": "Svelte 範本不會加入任何 import。元件取得 store 的方式不是從模組（{0}），就是從 context（{1}），因此 x18n 會假設 {2} 已在作用域內。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Svelte 範本不會加入任何 import。元件取得 store 的方式不是從模組（{0}），就是從 context（{1}），因此 x18n 會假設 {2} 已在作用域內。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

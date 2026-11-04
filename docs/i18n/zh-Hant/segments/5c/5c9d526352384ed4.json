@@ -3,12 +3,16 @@
   "source": "It does not call machine translation services. Instead, it writes a {0}translate prompt{/0} for an agent or an LLM, and checks the result.",
   "text": "它不會呼叫機器翻譯服務，而是為 agent 或 LLM 產生{0}翻譯提示詞{/0}，並檢查結果。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "它不會呼叫機器翻譯服務，而是為 agent 或 LLM 產生{0}翻譯提示詞{/0}，並檢查結果。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

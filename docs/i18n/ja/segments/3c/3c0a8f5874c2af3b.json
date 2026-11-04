@@ -3,12 +3,16 @@
   "source": "ICU MessageFormat: {0}, and plural, select and selectordinal arguments such as {1}. The {2} check reports unbalanced braces and a plural or select without an {3} case.",
   "text": "ICU MessageFormat では、{0} のほか、{1} のような plural、select、selectordinal 引数がサポートされます。{2} チェックは、波括弧の対応が取れていない場合や、{3} ケースのない plural または select を報告します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ICU MessageFormat では、{0} のほか、{1} のような plural、select、selectordinal 引数がサポートされます。{2} チェックは、波括弧の対応が取れていない場合や、{3} ケースのない plural または select を報告します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

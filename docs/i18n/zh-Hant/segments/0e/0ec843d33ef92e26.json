@@ -3,12 +3,16 @@
   "source": "{0} are rules such as {1}. When a key is used, the derived keys count as used.",
   "text": "{0} 是類似 {1} 的規則。當某個鍵被使用時，其衍生的鍵也會被視為已使用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 是類似 {1} 的規則。當某個鍵被使用時，其衍生的鍵也會被視為已使用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

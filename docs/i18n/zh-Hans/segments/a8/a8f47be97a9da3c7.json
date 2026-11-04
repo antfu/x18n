@@ -3,12 +3,16 @@
   "source": "The {0} line gives validation and completion in the editor. {1} prints the same JSON Schema.",
   "text": "{0} 这一行可在编辑器中提供校验和自动补全。{1} 会输出相同的 JSON Schema。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 这一行可在编辑器中提供校验和自动补全。{1} 会输出相同的 JSON Schema。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} puts the {1}x18n UI{/1} in the devtools of your app, so you do not need a separate {2} server. The panel is the same UI with the same pages. It reads and writes the files of the project, and it updates when the files change.",
   "text": "{0} 會將 {1}x18n UI{/1} 放進你應用程式的 devtools 中，因此你不需要另外執行 {2} 伺服器。此面板與其使用相同頁面的 UI 完全相同。它會讀取並寫入專案的檔案，並在檔案變更時更新。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會將 {1}x18n UI{/1} 放進你應用程式的 devtools 中，因此你不需要另外執行 {2} 伺服器。此面板與其使用相同頁面的 UI 完全相同。它會讀取並寫入專案的檔案，並在檔案變更時更新。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

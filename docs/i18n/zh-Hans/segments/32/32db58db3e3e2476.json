@@ -3,12 +3,16 @@
   "source": "x18n escapes {0} and {1} for the quotes around them. Inside {2} or {3} it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and {4}. Inside a quoted attribute, such as {5}, it also writes {6} and the attribute quote as entities. Outside quotes the value goes in as is.",
   "text": "x18n 会为 {0} 和 {1} 外围的引号对其进行转义。在 {2} 或 {3} 中，它会转义反斜杠、该引号和换行符。在模板字面量中，它会转义反斜杠、反引号和 {4}。在带引号的属性中，例如 {5}，它还会将 {6} 和属性引号写成实体。在引号之外，值会原样写入。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 会为 {0} 和 {1} 外围的引号对其进行转义。在 {2} 或 {3} 中，它会转义反斜杠、该引号和换行符。在模板字面量中，它会转义反斜杠、反引号和 {4}。在带引号的属性中，例如 {5}，它还会将 {6} 和属性引号写成实体。在引号之外，值会原样写入。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

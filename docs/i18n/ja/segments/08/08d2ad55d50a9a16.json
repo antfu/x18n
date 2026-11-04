@@ -3,12 +3,16 @@
   "source": "{0} finds hard-coded strings in source files and turns them into keys. Each candidate has a proposed key, a message and the replacement code.",
   "text": "{0} は、ソースファイル内のハードコードされた文字列を見つけ、キーに変換します。各候補には、提案されたキー、メッセージ、置き換え用のコードが含まれます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、ソースファイル内のハードコードされた文字列を見つけ、キーに変換します。各候補には、提案されたキー、メッセージ、置き換え用のコードが含まれます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

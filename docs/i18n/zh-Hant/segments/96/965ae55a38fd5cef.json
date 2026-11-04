@@ -3,12 +3,16 @@
   "source": "When i18n-ally reviews exist, and this file does not. The comments are converted to {0}x18n reviews{/0}.",
   "text": "當存在 i18n-ally 審閱，且此檔案不存在時。這些留言會轉換為 {0}x18n 審閱{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "當存在 i18n-ally 審閱，且此檔案不存在時。這些留言會轉換為 {0}x18n 審閱{/0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

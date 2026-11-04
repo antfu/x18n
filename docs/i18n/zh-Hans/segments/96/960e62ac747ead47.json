@@ -3,12 +3,16 @@
   "source": "If you list presets, x18n applies exactly the listed presets and detects none:",
   "text": "如果你列出了预设，x18n 只会应用所列的预设，不会再做检测：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "如果你列出了预设，x18n 只会应用所列的预设，不会再做检测："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

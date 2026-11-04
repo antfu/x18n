@@ -3,12 +3,16 @@
   "source": "GitHub Actions workflow commands. GitHub shows them as annotations on the changed lines.",
   "text": "GitHub Actions のワークフローコマンドです。GitHub は変更された行にアノテーションとして表示します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "GitHub Actions のワークフローコマンドです。GitHub は変更された行にアノテーションとして表示します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

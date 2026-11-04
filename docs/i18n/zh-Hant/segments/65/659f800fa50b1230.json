@@ -3,12 +3,16 @@
   "source": "The check compares the params a translate call passes with the placeholders of the source message. For {0}, it reports {1}: {2} is missing and {3} is unused.",
   "text": "此檢查會比對翻譯呼叫傳入的參數與來源訊息的佔位符。對於 {0}，它會回報 {1}：缺少 {2}，且 {3} 未被使用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此檢查會比對翻譯呼叫傳入的參數與來源訊息的佔位符。對於 {0}，它會回報 {1}：缺少 {2}，且 {3} 未被使用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

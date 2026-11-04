@@ -3,12 +3,16 @@
   "source": "Locale codes that differ only in spelling, such as zh_CN and zh-CN.",
   "text": "zh_CN と zh-CN のように、表記の違いしかないロケールコードです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "zh_CN と zh-CN のように、表記の違いしかないロケールコードです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

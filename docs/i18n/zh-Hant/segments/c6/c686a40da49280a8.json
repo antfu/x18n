@@ -3,12 +3,16 @@
   "source": "Sets many values from JSON: {0}. {1} reads stdin.",
   "text": "從 JSON 設定多個值：{0}。{1} 會從 stdin 讀取。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "從 JSON 設定多個值：{0}。{1} 會從 stdin 讀取。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

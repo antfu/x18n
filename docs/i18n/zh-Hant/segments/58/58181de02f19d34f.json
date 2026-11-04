@@ -3,12 +3,16 @@
   "source": "One key: its value in every locale with file and line (and its translation {0} and {1} when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
   "text": "單一鍵：它在每個語系中的值及其檔案與行號（若檔案有記錄，還包括其翻譯 {0} 與 {1}）、缺少該鍵的語系、程式碼中的使用處（附上幾行前後文），以及診斷。在建立或重新命名鍵之前，請先用它檢查該鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "單一鍵：它在每個語系中的值及其檔案與行號（若檔案有記錄，還包括其翻譯 {0} 與 {1}）、缺少該鍵的語系、程式碼中的使用處（附上幾行前後文），以及診斷。在建立或重新命名鍵之前，請先用它檢查該鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

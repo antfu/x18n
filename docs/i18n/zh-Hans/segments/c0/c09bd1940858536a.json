@@ -3,12 +3,16 @@
   "source": "This command writes the markdown report to {0} and prints the pretty output. See {1}CI{/1} for workflow examples.",
   "text": "此命令会将 markdown 报告写入 {0}，并输出 pretty 格式的结果。工作流示例请参阅 {1}CI{/1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此命令会将 markdown 报告写入 {0}，并输出 pretty 格式的结果。工作流示例请参阅 {1}CI{/1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

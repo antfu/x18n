@@ -3,12 +3,16 @@
   "source": "Tell the agent to run the command and follow what it prints. For example: \"Run {0} and follow the instructions it prints.\" The text always matches the version of the CLI that runs.",
   "text": "告诉 agent 运行该命令，并按照输出的内容操作。例如：「运行 {0}，并按照它输出的说明操作。」输出的文本始终与正在运行的 CLI 版本一致。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "告诉 agent 运行该命令，并按照输出的内容操作。例如：「运行 {0}，并按照它输出的说明操作。」输出的文本始终与正在运行的 CLI 版本一致。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

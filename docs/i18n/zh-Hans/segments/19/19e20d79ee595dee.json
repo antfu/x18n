@@ -3,12 +3,16 @@
   "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
   "text": "要添加的翻译调用，会追加到预设自带的调用之后。参见{0}支持的语法{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "要添加的翻译调用，会追加到预设自带的调用之后。参见{0}支持的语法{/0}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

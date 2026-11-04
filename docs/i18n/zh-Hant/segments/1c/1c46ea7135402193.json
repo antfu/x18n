@@ -3,12 +3,16 @@
   "source": "Change the config before it is final. Presets use this to set defaults.",
   "text": "在設定定案之前修改設定。預設集用它來設定預設值。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在設定定案之前修改設定。預設集用它來設定預設值。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

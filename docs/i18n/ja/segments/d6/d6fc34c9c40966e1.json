@@ -3,12 +3,16 @@
   "source": "See the item fields of {0}. For a library that x18n does not support, a {1}YAML plugin{/1} can hold the calls, placeholders and templates in one file.",
   "text": "{0} の item フィールドを参照してください。x18n がサポートしていないライブラリの場合は、{1}YAML プラグイン{/1}で呼び出し、プレースホルダー、テンプレートを 1 つのファイルにまとめて記述できます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} の item フィールドを参照してください。x18n がサポートしていないライブラリの場合は、{1}YAML プラグイン{/1}で呼び出し、プレースホルダー、テンプレートを 1 つのファイルにまとめて記述できます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

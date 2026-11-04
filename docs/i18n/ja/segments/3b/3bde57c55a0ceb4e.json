@@ -3,12 +3,16 @@
   "source": "These values replace what the preset finds in the init code. The x18n config wins over both.",
   "text": "これらの値は、プリセットが初期化コードから検出した値を置き換えます。x18n の設定は、どちらよりも優先されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "これらの値は、プリセットが初期化コードから検出した値を置き換えます。x18n の設定は、どちらよりも優先されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

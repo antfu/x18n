@@ -3,12 +3,16 @@
   "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
   "text": "將鍵拆分為路徑的依據：在巢狀檔案中，{0} 是 {1}。{2} 會讓鍵保持字面值，因此 {3} 或 {4} 是同一個鍵，新增的鍵只是一個屬性（i18next {5}、gettext）。資源模式可以設定自己的值。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "將鍵拆分為路徑的依據：在巢狀檔案中，{0} 是 {1}。{2} 會讓鍵保持字面值，因此 {3} 或 {4} 是同一個鍵，新增的鍵只是一個屬性（i18next {5}、gettext）。資源模式可以設定自己的值。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

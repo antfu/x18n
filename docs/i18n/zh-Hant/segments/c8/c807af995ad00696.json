@@ -3,12 +3,16 @@
   "source": "The engine is {0}. It does no file access itself and knows no editor. A surface is a layer that people or tools use on top of the engine:",
   "text": "引擎是 {0}。它本身不存取檔案，也不認識任何編輯器。介面是人或工具在引擎之上使用的一層：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "引擎是 {0}。它本身不存取檔案，也不認識任何編輯器。介面是人或工具在引擎之上使用的一層："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

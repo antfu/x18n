@@ -3,12 +3,16 @@
   "source": "x18n counts only calls that it knows as translate calls. It follows string constants ({0}, then {1}) and both branches of a condition ({2}). The callee set of a file is the set of names that count: the names of the presets and of {3}, same-file aliases such as {4}, functions returned by factories such as {5}, and parameters typed as translate functions.",
   "text": "x18n 只會計入它認得的翻譯呼叫。它會追蹤字串常數（{0}，接著是 {1}）以及條件的兩個分支（{2}）。檔案的被呼叫者集合是一組會被計入的名稱：包含預設集與 {3} 的名稱、同一檔案內的別名（例如 {4}）、由工廠函式回傳的函式（例如 {5}），以及型別為翻譯函式的參數。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 只會計入它認得的翻譯呼叫。它會追蹤字串常數（{0}，接著是 {1}）以及條件的兩個分支（{2}）。檔案的被呼叫者集合是一組會被計入的名稱：包含預設集與 {3} 的名稱、同一檔案內的別名（例如 {4}）、由工廠函式回傳的函式（例如 {5}），以及型別為翻譯函式的參數。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

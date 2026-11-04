@@ -3,12 +3,16 @@
   "source": "A file, or a block inside a file, that holds messages for one locale and one namespace.",
   "text": "存放單一語系與單一命名空間之訊息的檔案，或檔案中的一個區塊。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "存放單一語系與單一命名空間之訊息的檔案，或檔案中的一個區塊。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

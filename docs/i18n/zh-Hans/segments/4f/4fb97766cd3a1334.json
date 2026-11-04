@@ -3,12 +3,16 @@
   "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
   "text": "{0} 为整个文件设置命名空间和键前缀，因为组件通过 props 获取 {1}，而且它通常位于调用之上。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 为整个文件设置命名空间和键前缀，因为组件通过 props 获取 {1}，而且它通常位于调用之上。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

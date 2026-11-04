@@ -3,12 +3,16 @@
   "source": "{0} lists the usages of a key. {1} goes the other way: it finds keys by their value in any locale, and lists their usages. {2} lists the keys with no usage.",
   "text": "{0} 會列出某個鍵的使用處。{1} 則反過來：它會依任一語系中的值找出鍵，並列出這些鍵的使用處。{2} 會列出沒有使用處的鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 會列出某個鍵的使用處。{1} 則反過來：它會依任一語系中的值找出鍵，並列出這些鍵的使用處。{2} 會列出沒有使用處的鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

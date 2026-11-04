@@ -3,12 +3,16 @@
   "source": "Message syntax errors (ICU, linked messages, nesting).",
   "text": "訊息語法錯誤（ICU、連結訊息、巢狀結構）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "訊息語法錯誤（ICU、連結訊息、巢狀結構）。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

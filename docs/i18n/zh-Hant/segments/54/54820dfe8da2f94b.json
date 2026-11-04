@@ -3,12 +3,16 @@
   "source": "The preset for @solid-primitives/i18n. It reads t calls in Solid components and scripts, and {{name}} placeholders.",
   "text": "@solid-primitives/i18n 的預設集。它會讀取 Solid 元件和指令碼中的 t 呼叫，以及 {{name}} 佔位符。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "@solid-primitives/i18n 的預設集。它會讀取 Solid 元件和指令碼中的 t 呼叫，以及 {{name}} 佔位符。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

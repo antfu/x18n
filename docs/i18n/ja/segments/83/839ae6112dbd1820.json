@@ -3,12 +3,16 @@
   "source": "Go to implementation lists the message in every locale.",
   "text": "実装へ移動すると、すべてのロケールのメッセージが一覧表示されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "実装へ移動すると、すべてのロケールのメッセージが一覧表示されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

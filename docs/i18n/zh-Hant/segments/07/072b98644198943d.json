@@ -3,12 +3,16 @@
   "source": "The same in an inline Angular {0} in double quotes, which takes {1} ({2})",
   "text": "同上，但位於以雙引號包住的內嵌 Angular {0} 中，該處接受 {1}（{2}）",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "同上，但位於以雙引號包住的內嵌 Angular {0} 中，該處接受 {1}（{2}）"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

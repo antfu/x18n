@@ -3,12 +3,16 @@
   "source": "The command needs one project, but the name you gave matches none, or the workspace has several projects and you gave no name.",
   "text": "该命令需要指定一个项目，但你提供的名称没有匹配任何项目，或者工作区中有多个项目而你没有提供名称。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "该命令需要指定一个项目，但你提供的名称没有匹配任何项目，或者工作区中有多个项目而你没有提供名称。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

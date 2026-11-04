@@ -3,12 +3,16 @@
   "source": "Start the UI: browse and edit messages in the browser, with HTTP MCP at /\\_\\_mcp.",
   "text": "啟動 UI：在瀏覽器中瀏覽並編輯訊息，並在 /\\_\\_mcp 提供 HTTP MCP。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "啟動 UI：在瀏覽器中瀏覽並編輯訊息，並在 /\\_\\_mcp 提供 HTTP MCP。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

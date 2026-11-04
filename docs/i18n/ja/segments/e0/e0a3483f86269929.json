@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}, with the values {2} and {3}. When x18n sets a value, it writes the {4} field and keeps the other fields. {5} adds {6} to {7}.",
   "text": "このファイルにはキー {0} と {1} があり、値はそれぞれ {2} と {3} です。x18n が値を設定するときは、{4} フィールドに書き込み、その他のフィールドは保持します。{5} は {7} に {6} を追加します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このファイルにはキー {0} と {1} があり、値はそれぞれ {2} と {3} です。x18n が値を設定するときは、{4} フィールドに書き込み、その他のフィールドは保持します。{5} は {7} に {6} を追加します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

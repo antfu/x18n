@@ -3,12 +3,16 @@
   "source": "Usages with a dynamic key are not reported. A usage with a static prefix, such as {0}, is a prefix usage: it makes every key under {1} count as used, and it is never a missing key.",
   "text": "使用動態鍵的使用處不會被回報。帶有靜態前綴的使用處（例如 {0}）屬於前綴使用處：它會讓 {1} 底下的每個鍵都視為已使用，而且絕不會被視為缺少的鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "使用動態鍵的使用處不會被回報。帶有靜態前綴的使用處（例如 {0}）屬於前綴使用處：它會讓 {1} 底下的每個鍵都視為已使用，而且絕不會被視為缺少的鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

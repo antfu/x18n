@@ -3,12 +3,16 @@
   "source": "{0}. Language ids become extensions, for example {1} becomes {2}.",
   "text": "{0}。言語 ID は拡張子になります。例えば、{1} は {2} になります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}。言語 ID は拡張子になります。例えば、{1} は {2} になります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

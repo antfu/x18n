@@ -3,12 +3,16 @@
   "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
   "text": "資源不是訊息物件。語系檔案包含巢狀物件，其值為字串、數字、布林值或 null。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "資源不是訊息物件。語系檔案包含巢狀物件，其值為字串、數字、布林值或 null。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

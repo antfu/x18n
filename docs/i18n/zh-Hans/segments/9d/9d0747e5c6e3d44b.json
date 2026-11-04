@@ -3,12 +3,16 @@
   "source": "In PHP files, the preset reads {0} and the other static methods of {1}, and the legacy {2}:",
   "text": "在 PHP 文件中，该预设会读取 {0} 以及 {1} 的其他静态方法，还有旧版的 {2}：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在 PHP 文件中，该预设会读取 {0} 以及 {1} 的其他静态方法，还有旧版的 {2}："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

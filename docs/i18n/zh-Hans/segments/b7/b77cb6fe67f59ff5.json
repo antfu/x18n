@@ -3,12 +3,16 @@
   "source": "{0} prints the same data as JSON, with every preset that was not applied. The Project page of the {1}UI{/1} shows it too. The {2}language server{/2} returns the same text from {3}, and in VS Code \"x18n: Explain Projects\" prints it to the output channel.",
   "text": "{0} 会以 JSON 格式输出相同的数据，并包含所有未生效的预设。{1}UI{/1} 的 Project 页面也会显示这些数据。{2}语言服务器{/2}会通过 {3} 返回相同的文本，在 VS Code 中，\"x18n: Explain Projects\" 会将其输出到输出通道。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 会以 JSON 格式输出相同的数据，并包含所有未生效的预设。{1}UI{/1} 的 Project 页面也会显示这些数据。{2}语言服务器{/2}会通过 {3} 返回相同的文本，在 VS Code 中，\"x18n: Explain Projects\" 会将其输出到输出通道。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

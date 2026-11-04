@@ -3,12 +3,16 @@
   "source": "{0}: x18n keeps resolved reviews, and {1} hides them. Key descriptions in the review file are dropped too. The command prints a note for each.",
   "text": "{0}：x18n 會保留已解決的審閱，而 {1} 會將其隱藏。審閱檔案中的鍵描述也會被捨棄。命令會為每一項印出提示。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}：x18n 會保留已解決的審閱，而 {1} 會將其隱藏。審閱檔案中的鍵描述也會被捨棄。命令會為每一項印出提示。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

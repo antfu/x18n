@@ -3,12 +3,16 @@
   "source": "Asks for a change. The {0} check reports it until someone resolves it or approves.",
   "text": "请求变更。在有人解决该请求或批准之前，{0} 检查会一直报告它。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "请求变更。在有人解决该请求或批准之前，{0} 检查会一直报告它。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

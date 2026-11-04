@@ -3,12 +3,16 @@
   "source": "Resource could not be parsed. Fix the syntax error in the file.",
   "text": "無法解析資源。請修正檔案中的語法錯誤。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "無法解析資源。請修正檔案中的語法錯誤。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Turn every warning into an error. The config option {0} does the same.",
   "text": "すべての警告をエラーにします。設定オプション {0} でも同じことができます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "すべての警告をエラーにします。設定オプション {0} でも同じことができます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
   "text": "まだキーがないファイルのキースタイルです。{0} は {1} キーを書き込みます。{2} と {3} はネストされたオブジェクトを書き込みます。すでにキーがあるファイルは、そのファイル自身のスタイルを維持します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "まだキーがないファイルのキースタイルです。{0} は {1} キーを書き込みます。{2} と {3} はネストされたオブジェクトを書き込みます。すでにキーがあるファイルは、そのファイル自身のスタイルを維持します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

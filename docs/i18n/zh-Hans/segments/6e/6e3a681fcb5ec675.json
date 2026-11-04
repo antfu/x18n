@@ -3,12 +3,16 @@
   "source": "{0}, {1}: the numbered {2} elements of the XLIFF file, in order.",
   "text": "{0}、{1}：XLIFF 文件中带编号的 {2} 元素，按顺序排列。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1}：XLIFF 文件中带编号的 {2} 元素，按顺序排列。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

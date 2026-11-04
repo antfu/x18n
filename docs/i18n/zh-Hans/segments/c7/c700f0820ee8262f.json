@@ -3,12 +3,16 @@
   "source": "The built-in scanners are {0} (JS, TS, JSX), {1}, {2}, {3}, {4} and {5}. The {6} scanner finds hard strings in HTML and Angular templates; the {7} and {8} presets add it. Most libraries need no new scanner: a call spec in {9} or a regex scanner is enough.",
   "text": "内置扫描器有 {0}（JS、TS、JSX）、{1}、{2}、{3}、{4} 和 {5}。{6} 扫描器用于在 HTML 和 Angular 模板中查找硬编码字符串；{7} 和 {8} 预设会添加它。大多数库不需要新的扫描器：在 {9} 中添加调用规范或使用正则扫描器就足够了。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "内置扫描器有 {0}（JS、TS、JSX）、{1}、{2}、{3}、{4} 和 {5}。{6} 扫描器用于在 HTML 和 Angular 模板中查找硬编码字符串；{7} 和 {8} 预设会添加它。大多数库不需要新的扫描器：在 {9} 中添加调用规范或使用正则扫描器就足够了。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

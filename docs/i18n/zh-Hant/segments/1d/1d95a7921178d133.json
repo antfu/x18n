@@ -3,12 +3,16 @@
   "source": "A key with no usage, after keysInUse, derived keys and dynamic prefixes.",
   "text": "在考量 keysInUse、衍生鍵與動態前綴之後，沒有任何使用處的鍵。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在考量 keysInUse、衍生鍵與動態前綴之後，沒有任何使用處的鍵。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

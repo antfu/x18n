@@ -3,12 +3,16 @@
   "source": "Show the values of these locales (comma separated) next to each message, in place of the {0}related locales{/0} of the target.",
   "text": "在每条消息旁显示这些语言（以逗号分隔）的值，以代替目标语言的{0}相关语言{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在每条消息旁显示这些语言（以逗号分隔）的值，以代替目标语言的{0}相关语言{/0}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

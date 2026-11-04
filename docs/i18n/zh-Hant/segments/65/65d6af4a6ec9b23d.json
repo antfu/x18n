@@ -3,12 +3,16 @@
   "source": "{0} found errors or too many warnings, {1} rejected values, or the command failed with one of these errors.",
   "text": "{0} 發現錯誤或過多警告、{1} 拒絕了某些值，或指令因下列其中一個錯誤而失敗。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 發現錯誤或過多警告、{1} 拒絕了某些值，或指令因下列其中一個錯誤而失敗。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

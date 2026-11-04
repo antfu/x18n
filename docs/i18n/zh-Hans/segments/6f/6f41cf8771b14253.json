@@ -3,12 +3,16 @@
   "source": "Make sure that the module exports a plugin, a preset, or a function that returns one.",
   "text": "请确保该模块导出一个插件、一个预设，或返回其中之一的函数。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "请确保该模块导出一个插件、一个预设，或返回其中之一的函数。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

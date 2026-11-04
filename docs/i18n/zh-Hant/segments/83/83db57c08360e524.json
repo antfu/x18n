@@ -3,12 +3,16 @@
   "source": "Use {0} as the project root. x18n does not look in parent directories.",
   "text": "將 {0} 作為專案根目錄。x18n 不會往上層目錄尋找。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "將 {0} 作為專案根目錄。x18n 不會往上層目錄尋找。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

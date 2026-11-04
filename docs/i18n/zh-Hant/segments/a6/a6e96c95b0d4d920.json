@@ -3,12 +3,16 @@
   "source": "Providers in a file that names no component, such as a shared list, reach the folder of that file and the folders under it.",
   "text": "在未指定任何元件的檔案中（例如共用清單）的 provider，會作用到該檔案所在的資料夾及其下的資料夾。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "在未指定任何元件的檔案中（例如共用清單）的 provider，會作用到該檔案所在的資料夾及其下的資料夾。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

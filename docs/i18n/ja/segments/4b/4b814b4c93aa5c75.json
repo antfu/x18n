@@ -3,12 +3,16 @@
   "source": "{0} reports invalid, untranslated and unused keys like {1}. Every command has JSON output.",
   "text": "{0} は、{1} のように、無効なキー、未訳のキー、未使用のキーを報告します。すべてのコマンドが JSON 出力に対応しています。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、{1} のように、無効なキー、未訳のキー、未使用のキーを報告します。すべてのコマンドが JSON 出力に対応しています。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

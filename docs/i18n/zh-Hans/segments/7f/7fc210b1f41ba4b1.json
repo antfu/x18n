@@ -3,12 +3,16 @@
   "source": "x18n found a locale file, but no format reads its extension.",
   "text": "x18n 找到了一个语言文件，但没有任何格式可以读取其扩展名。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 找到了一个语言文件，但没有任何格式可以读取其扩展名。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

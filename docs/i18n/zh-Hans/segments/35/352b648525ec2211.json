@@ -3,12 +3,16 @@
   "source": "The source of the skills is in {0} of the repository. A test makes sure that every command and flag that the skills and their references name exists in the CLI.",
   "text": "技能的源码位于仓库的 {0} 中。测试会确保技能及其参考文档中提到的每个命令和标志都存在于 CLI 中。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "技能的源码位于仓库的 {0} 中。测试会确保技能及其参考文档中提到的每个命令和标志都存在于 CLI 中。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

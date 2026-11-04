@@ -3,12 +3,16 @@
   "source": "{0} and {1} are repeatable. The first {2} belongs to the first {3}, the second to the second, and so on. A reporter without an {4} prints to stdout:",
   "text": "{0} と {1} は複数回指定できます。最初の {2} は最初の {3} に、2 番目の {4} は 2 番目の {0} に対応し、以降も同様です。{1} を指定しないレポーターは stdout に出力します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} と {1} は複数回指定できます。最初の {2} は最初の {3} に、2 番目の {4} は 2 番目の {0} に対応し、以降も同様です。{1} を指定しないレポーターは stdout に出力します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

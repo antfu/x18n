@@ -3,12 +3,16 @@
   "source": "A source-locale key that target locales lack, or a plural form their language needs. One diagnostic per key, at the source entry.",
   "text": "目標語系缺少來源語系的鍵，或缺少其語言所需的複數形式。每個鍵只產生一則診斷，位於來源項目。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "目標語系缺少來源語系的鍵，或缺少其語言所需的複數形式。每個鍵只產生一則診斷，位於來源項目。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

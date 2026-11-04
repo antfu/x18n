@@ -3,12 +3,16 @@
   "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
   "text": "作者取自配置中的 {0}，否则取 git 的 {1} 和 {2}。{3} 会同时覆盖两者。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "作者取自配置中的 {0}，否则取 git 的 {1} 和 {2}。{3} 会同时覆盖两者。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

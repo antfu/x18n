@@ -3,12 +3,16 @@
   "source": "When a plugin does not work as you expect, ask x18n how it understood the project.",
   "text": "当插件的行为不符合预期时，可以询问 x18n 它是如何理解项目的。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当插件的行为不符合预期时，可以询问 x18n 它是如何理解项目的。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

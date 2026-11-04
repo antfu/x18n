@@ -3,12 +3,16 @@
   "source": "The preset for laravel-vue-i18n. It reads trans and $t calls in Vue and JS against the Laravel translation files.",
   "text": "laravel-vue-i18n 用のプリセットです。Laravel の翻訳ファイルを基準に、Vue と JS の trans と $t の呼び出しを読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "laravel-vue-i18n 用のプリセットです。Laravel の翻訳ファイルを基準に、Vue と JS の trans と $t の呼び出しを読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

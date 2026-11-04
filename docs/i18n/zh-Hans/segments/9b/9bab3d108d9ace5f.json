@@ -3,12 +3,16 @@
   "source": "The check reports one diagnostic per key, at the entry in the source locale, and lists the locales that lack the key. An empty string is not missing: the {0} check reports it.",
   "text": "该检查为每个键报告一条诊断，位置在源语言中的条目处，并列出缺少该键的语言。空字符串不算缺失，它由 {0} 检查报告。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "该检查为每个键报告一条诊断，位置在源语言中的条目处，并列出缺少该键的语言。空字符串不算缺失，它由 {0} 检查报告。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

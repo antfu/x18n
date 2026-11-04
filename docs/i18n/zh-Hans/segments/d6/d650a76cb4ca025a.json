@@ -3,12 +3,16 @@
   "source": "The preset applies when {0} or {1} has {2} or {3}. {4} alone does not count: it is also the name of an old npm package, and x18n merges the dependencies of all manifests. A project that uses only Babel or the {5} module of the standard library must list the preset:",
   "text": "当 {0} 或 {1} 包含 {2} 或 {3} 时，该预设会生效。仅有 {4} 不算：它同时也是一个旧 npm 包的名称，而 x18n 会合并所有清单文件中的依赖。只使用 Babel 或标准库 {5} 模块的项目必须手动列出该预设：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当 {0} 或 {1} 包含 {2} 或 {3} 时，该预设会生效。仅有 {4} 不算：它同时也是一个旧 npm 包的名称，而 x18n 会合并所有清单文件中的依赖。只使用 Babel 或标准库 {5} 模块的项目必须手动列出该预设："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

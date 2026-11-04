@@ -3,12 +3,16 @@
   "source": "This plugin supports a made-up library, {0}, with YAML locale files, a {1} function, a {2} factory and Handlebars templates:",
   "text": "這個外掛支援一個虛構的函式庫 {0}，包含 YAML 語系檔案、{1} 函式、{2} 工廠函式，以及 Handlebars 範本：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "這個外掛支援一個虛構的函式庫 {0}，包含 YAML 語系檔案、{1} 函式、{2} 工廠函式，以及 Handlebars 範本："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

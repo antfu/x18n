@@ -3,12 +3,16 @@
   "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
   "text": "{0} は、ファイル全体の名前空間とキーのプレフィックスを設定します。コンポーネントは props 経由で {1} を受け取り、多くの場合その呼び出しより上の階層にあるためです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、ファイル全体の名前空間とキーのプレフィックスを設定します。コンポーネントは props 経由で {1} を受け取り、多くの場合その呼び出しより上の階層にあるためです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

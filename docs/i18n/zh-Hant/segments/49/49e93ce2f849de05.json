@@ -3,12 +3,16 @@
   "source": "Apply extraction items from x18n\\_extract\\_plan: adds the messages to the source locale and rewrites the code. Fails when a file changed since the plan was made; plan again then.",
   "text": "套用來自 x18n\\_extract\\_plan 的擷取項目：將訊息加入來源語系並改寫程式碼。若檔案在建立計畫後已變更則會失敗，此時請重新建立計畫。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "套用來自 x18n\\_extract\\_plan 的擷取項目：將訊息加入來源語系並改寫程式碼。若檔案在建立計畫後已變更則會失敗，此時請重新建立計畫。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

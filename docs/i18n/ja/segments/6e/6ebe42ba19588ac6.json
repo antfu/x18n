@@ -3,12 +3,16 @@
   "source": "If a folder has {0} (or {1}) settings in {2} and no {3} file, the extension offers to migrate. It opens the files that it will write, and writes them only after you confirm. You can also run \"x18n: Migrate from i18n-ally\" from the command palette. See {4}Migration from i18n-ally{/4}.",
   "text": "フォルダーの {2} に {0}（または {1}）の設定があり、{3} ファイルがない場合、拡張機能は移行を提案します。書き込む予定のファイルを開き、確認後にのみ書き込みます。コマンドパレットから「x18n: Migrate from i18n-ally」を実行することもできます。{4}i18n-ally からの移行{/4}を参照してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "フォルダーの {2} に {0}（または {1}）の設定があり、{3} ファイルがない場合、拡張機能は移行を提案します。書き込む予定のファイルを開き、確認後にのみ書き込みます。コマンドパレットから「x18n: Migrate from i18n-ally」を実行することもできます。{4}i18n-ally からの移行{/4}を参照してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

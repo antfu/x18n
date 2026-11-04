@@ -3,12 +3,16 @@
   "source": "The source locale is never a related locale: the prompt shows it anyway. A value that is a copy of the source is left out. {0} names the related locales instead, which also works across languages, and {1} leaves them out. A rule asks the agent to keep what fits the target, and to change the spelling, words and forms that differ.",
   "text": "來源語系絕不會是相關語系，但提示仍會顯示它。與來源內容相同的副本值會被省略。{0} 會改為指定相關語系，這也適用於跨語言的情況，而 {1} 則不會顯示相關語系。有一條規則會要求 agent 保留符合目標語系的內容，並修改拼寫、用詞和形式上不同的部分。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "來源語系絕不會是相關語系，但提示仍會顯示它。與來源內容相同的副本值會被省略。{0} 會改為指定相關語系，這也適用於跨語言的情況，而 {1} 則不會顯示相關語系。有一條規則會要求 agent 保留符合目標語系的內容，並修改拼寫、用詞和形式上不同的部分。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Each entry of {0} is a translation file, as a path, a list of paths or {1}.",
   "text": "{0} 的每個項目都是一個翻譯檔案，可以是路徑、路徑清單或 {1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 的每個項目都是一個翻譯檔案，可以是路徑、路徑清單或 {1}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

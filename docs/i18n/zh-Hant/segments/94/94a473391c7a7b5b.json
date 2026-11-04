@@ -3,12 +3,16 @@
   "source": "The Vue scanner reads the {0} blocks and every template expression. It also reads the {1} directive, and the key attribute of the {2} (or {3}) component, the {4} component and {5}.",
   "text": "Vue 掃描器會讀取 {0} 區塊與每個 template 運算式。它也會讀取 {1} 指令，以及 {2}（或 {3}）元件的 key 屬性、{4} 元件與 {5}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Vue 掃描器會讀取 {0} 區塊與每個 template 運算式。它也會讀取 {1} 指令，以及 {2}（或 {3}）元件的 key 屬性、{4} 元件與 {5}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

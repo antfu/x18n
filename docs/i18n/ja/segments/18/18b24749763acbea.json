@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0} and {1} has an {2} block. Libraries such as ng-bootstrap depend on {3} without translating anything, so the dependency alone is not enough.",
   "text": "このプリセットは、プロジェクトが {0} に依存し、かつ {1} に {2} ブロックがある場合に適用されます。ng-bootstrap のようなライブラリは、何も訳さずに {3} に依存しているため、依存関係があるだけでは適用されません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このプリセットは、プロジェクトが {0} に依存し、かつ {1} に {2} ブロックがある場合に適用されます。ng-bootstrap のようなライブラリは、何も訳さずに {3} に依存しているため、依存関係があるだけでは適用されません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

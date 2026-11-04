@@ -3,12 +3,16 @@
   "source": "Many formats can say what a message means, for the translator. The prompt shows that description under the source value:",
   "text": "多くのフォーマットでは、メッセージの意味を訳者向けに記述できます。プロンプトでは、その説明がソースの値の下に表示されます：",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "多くのフォーマットでは、メッセージの意味を訳者向けに記述できます。プロンプトでは、その説明がソースの値の下に表示されます："
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "flutter\\_translate keeps plural forms as nested keys. From version 4, the forms are the Intl plural names {0}, {1}, {2}, {3}, {4} and {5}. Before version 4, they were {6}, {7}, {8} and {9}. The preset adds a derived key {10} for each of these forms, so the {11} check does not report the forms of a used key.",
   "text": "flutter\\_translate 将复数形式保存为嵌套键。从版本 4 开始，这些形式采用 Intl 的复数名称 {0}、{1}、{2}、{3}、{4} 和 {5}。在版本 4 之前，它们是 {6}、{7}、{8} 和 {9}。预设会为每个形式添加一个派生键 {10}，因此 {11} 检查不会报告已使用键的各个复数形式。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "flutter\\_translate 将复数形式保存为嵌套键。从版本 4 开始，这些形式采用 Intl 的复数名称 {0}、{1}、{2}、{3}、{4} 和 {5}。在版本 4 之前，它们是 {6}、{7}、{8} 和 {9}。预设会为每个形式添加一个派生键 {10}，因此 {11} 检查不会报告已使用键的各个复数形式。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

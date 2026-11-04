@@ -3,12 +3,16 @@
   "source": "{0} for a wrong translation (say why in {1}), {2} to propose a value (in {3}), {4} for a good one, {5} for anything else.",
   "text": "翻譯有誤時使用 {0}（在 {1} 中說明原因），要提出建議值時使用 {2}（在 {3} 中提供），翻譯良好時使用 {4}，其他情況使用 {5}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "翻譯有誤時使用 {0}（在 {1} 中說明原因），要提出建議值時使用 {2}（在 {3} 中提供），翻譯良好時使用 {4}，其他情況使用 {5}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

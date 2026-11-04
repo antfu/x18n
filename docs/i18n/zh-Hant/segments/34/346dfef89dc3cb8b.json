@@ -3,12 +3,16 @@
   "source": "Translate calls: the callee names that count as translate calls, and where the key, the namespace and the key prefix come from. These become {0}.",
   "text": "翻譯呼叫：被視為翻譯呼叫的被呼叫者名稱，以及鍵、命名空間和鍵前綴的來源。這些會成為 {0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "翻譯呼叫：被視為翻譯呼叫的被呼叫者名稱，以及鍵、命名空間和鍵前綴的來源。這些會成為 {0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

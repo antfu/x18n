@@ -3,12 +3,16 @@
   "source": "The preset always applies, unless an exclusive preset applied before it, or you list presets yourself. x18n tries the default templates last in every project, with or without this preset, so {0} always has a template.",
   "text": "此預設集一律會套用，除非在它之前已套用了獨佔預設集，或是你自行列出預設集。無論有沒有這個預設集，x18n 在每個專案中都會最後嘗試預設範本，因此 {0} 一律會有範本。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "此預設集一律會套用，除非在它之前已套用了獨佔預設集，或是你自行列出預設集。無論有沒有這個預設集，x18n 在每個專案中都會最後嘗試預設範本，因此 {0} 一律會有範本。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

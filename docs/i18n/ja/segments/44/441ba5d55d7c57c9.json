@@ -3,12 +3,16 @@
   "source": "Indent of written files: a number of spaces, or {0}. Without it, each file keeps its own indent.",
   "text": "書き込むファイルのインデントです。スペースの数、または {0} を指定します。指定しない場合、各ファイルは元のインデントを維持します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "書き込むファイルのインデントです。スペースの数、または {0} を指定します。指定しない場合、各ファイルは元のインデントを維持します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

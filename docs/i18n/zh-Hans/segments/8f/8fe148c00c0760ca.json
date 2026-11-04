@@ -3,12 +3,16 @@
   "source": "Fluent variables: {0}. For {1} in {2} and {3} in {4}, the {5} check reports {6}.",
   "text": "Fluent 变量：{0}。对于 {2} 中的 {1} 和 {4} 中的 {3}，{5} 检查会报告 {6}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Fluent 变量：{0}。对于 {2} 中的 {1} 和 {4} 中的 {3}，{5} 检查会报告 {6}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

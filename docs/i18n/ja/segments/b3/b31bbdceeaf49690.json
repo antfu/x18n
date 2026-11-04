@@ -3,12 +3,16 @@
   "source": "Unknown project. Pick a project name listed by `x18n status`, for example with `--project`.",
   "text": "不明なプロジェクトです。`x18n status` で表示されるプロジェクト名を、たとえば `--project` で指定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "不明なプロジェクトです。`x18n status` で表示されるプロジェクト名を、たとえば `--project` で指定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

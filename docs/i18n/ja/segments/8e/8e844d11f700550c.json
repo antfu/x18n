@@ -3,12 +3,16 @@
   "source": "elements whose content is translated already: {0} and {1}, Angular's {2} (and the attributes named in {3}), and {4},",
   "text": "内容がすでに翻訳されている要素: {0} と {1}、Angular の {2}（および {3} で指定された属性）、{4}、",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "内容がすでに翻訳されている要素: {0} と {1}、Angular の {2}（および {3} で指定された属性）、{4}、"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Project name from {0}. Required only in a monorepo with several projects.",
   "text": "來自 {0} 的專案名稱。僅在包含多個專案的 monorepo 中為必填。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "來自 {0} 的專案名稱。僅在包含多個專案的 monorepo 中為必填。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

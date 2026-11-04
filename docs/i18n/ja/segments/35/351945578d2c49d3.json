@@ -3,12 +3,16 @@
   "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
   "text": "置換後のコードです。{0} はキー、{1} は属性名、{2} はテンプレート文字列の引数、{3} はデフォルト値として使うハードコードされた文字列のメッセージ、{4} はファイルに書かれているとおりのテキスト、{5} はテンプレート文字列の本文としてのメッセージです。{6} と {7} は、前後の引用符に合わせてエスケープされます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "置換後のコードです。{0} はキー、{1} は属性名、{2} はテンプレート文字列の引数、{3} はデフォルト値として使うハードコードされた文字列のメッセージ、{4} はファイルに書かれているとおりのテキスト、{5} はテンプレート文字列の本文としてのメッセージです。{6} と {7} は、前後の引用符に合わせてエスケープされます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

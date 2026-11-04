@@ -3,12 +3,16 @@
   "source": "How the project was understood: presets, finders, formats, scanners, config origins.",
   "text": "プロジェクトがどのように解釈されたかを表示します。プリセット、ファインダー、フォーマット、スキャナー、設定の取得元が対象です。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プロジェクトがどのように解釈されたかを表示します。プリセット、ファインダー、フォーマット、スキャナー、設定の取得元が対象です。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

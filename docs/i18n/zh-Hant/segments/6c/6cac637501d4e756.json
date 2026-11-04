@@ -3,12 +3,16 @@
   "source": "Every command that writes files first makes a plan. A plan is the list of file changes, made without writing anything. {0} prints the plan instead of applying it.",
   "text": "每個會寫入檔案的命令都會先建立計畫。計畫是檔案變更的清單，建立時不會寫入任何內容。{0} 會印出計畫而不套用。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "每個會寫入檔案的命令都會先建立計畫。計畫是檔案變更的清單，建立時不會寫入任何內容。{0} 會印出計畫而不套用。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

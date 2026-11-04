@@ -3,12 +3,16 @@
   "source": "Or add a plugin that has a format for the extension.",
   "text": "または、その拡張子に対応するフォーマットを持つプラグインを追加してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "または、その拡張子に対応するフォーマットを持つプラグインを追加してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

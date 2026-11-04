@@ -3,12 +3,16 @@
   "source": "The open comments decide the state of a thread. The last open approval or change request wins: an approval after a change request clears it. Without one, an open suggestion makes the thread \"suggestion\", and an open comment makes it \"comments\". A thread whose comments are all resolved has no state.",
   "text": "スレッドの状態は、未解決のコメントによって決まります。未解決の承認または変更依頼のうち、最後のものが優先されます。変更依頼の後に承認があれば、変更依頼は取り消されます。どちらもない場合、未解決の提案があればスレッドは「suggestion」になり、未解決のコメントがあれば「comments」になります。コメントがすべて解決済みのスレッドには状態がありません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "スレッドの状態は、未解決のコメントによって決まります。未解決の承認または変更依頼のうち、最後のものが優先されます。変更依頼の後に承認があれば、変更依頼は取り消されます。どちらもない場合、未解決の提案があればスレッドは「suggestion」になり、未解決のコメントがあれば「comments」になります。コメントがすべて解決済みのスレッドには状態がありません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Changes the display locale. The server refreshes the inlay hints.",
   "text": "表示ロケールを変更します。サーバーはインレイヒントを更新します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "表示ロケールを変更します。サーバーはインレイヒントを更新します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

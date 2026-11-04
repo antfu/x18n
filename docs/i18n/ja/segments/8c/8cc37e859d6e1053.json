@@ -3,12 +3,16 @@
   "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
   "text": "テンプレート文字列の本文としてのメッセージです。各引数は、{1} の記述に従って {0} と表されます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "テンプレート文字列の本文としてのメッセージです。各引数は、{1} の記述に従って {0} と表されます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

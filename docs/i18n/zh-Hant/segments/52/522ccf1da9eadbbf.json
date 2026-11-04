@@ -3,12 +3,16 @@
   "source": "Key: the values of one key with the translation state and description the file records, its problems, and its usages with a few lines of code. \"Open in editor\" opens a usage in your editor. Each target locale has a button that copies a translate prompt for the key, and a button to review the value. The review thread of each locale shows under its value, with buttons to apply a suggestion or resolve a comment.",
   "text": "鍵詳情：單一鍵的各語系值、檔案中記錄的翻譯狀態與描述、問題，以及附有幾行程式碼的使用處。「Open in editor」會在你的編輯器中開啟某個使用處。每個目標語系都有一個複製該鍵翻譯提示的按鈕，以及一個審閱該值的按鈕。每個語系的審閱討論串會顯示在其值的下方，並附有套用建議或解決留言的按鈕。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "鍵詳情：單一鍵的各語系值、檔案中記錄的翻譯狀態與描述、問題，以及附有幾行程式碼的使用處。「Open in editor」會在你的編輯器中開啟某個使用處。每個目標語系都有一個複製該鍵翻譯提示的按鈕，以及一個審閱該值的按鈕。每個語系的審閱討論串會顯示在其值的下方，並附有套用建議或解決留言的按鈕。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Convert i18n-ally settings, custom frameworks and reviews into an x18n config with x18n migrate i18n-ally.",
   "text": "x18n migrate i18n-ally を使って、i18n-ally の設定、カスタムフレームワーク、レビューを x18n の設定に変換します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n migrate i18n-ally を使って、i18n-ally の設定、カスタムフレームワーク、レビューを x18n の設定に変換します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

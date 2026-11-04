@@ -3,12 +3,16 @@
   "source": "The server runs next to your language's own server. Point it at the file types that use or define messages. Each editor below starts it over stdio and can pass {0}initialization options{/0}.",
   "text": "このサーバーは、お使いの言語自体のサーバーと並べて実行します。メッセージを使用または定義するファイルタイプを指定してください。以下のエディターはいずれも stdio 経由でサーバーを起動し、{0}初期化オプション{/0}を渡せます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このサーバーは、お使いの言語自体のサーバーと並べて実行します。メッセージを使用または定義するファイルタイプを指定してください。以下のエディターはいずれも stdio 経由でサーバーを起動し、{0}初期化オプション{/0}を渡せます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

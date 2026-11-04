@@ -3,12 +3,16 @@
   "source": "A bare {0} is not read, because projects also name a keyset function {1}, and then {2} takes no keyset. A keyset that is no string literal, such as {3}, makes the usage dynamic.",
   "text": "單獨的 {0} 不會被讀取，因為專案也會將 keyset 函式命名為 {1}，而此時 {2} 不接受 keyset。若 keyset 不是字串字面值，例如 {3}，則該使用處會被視為動態。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "單獨的 {0} 不會被讀取，因為專案也會將 keyset 函式命名為 {1}，而此時 {2} 不接受 keyset。若 keyset 不是字串字面值，例如 {3}，則該使用處會被視為動態。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

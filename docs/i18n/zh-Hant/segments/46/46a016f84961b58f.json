@@ -3,12 +3,16 @@
   "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
   "text": "「x18n: Find Key by Text」可找出你在應用程式中看到的文字所對應的鍵。輸入部分文字即可，任何語系皆可。搜尋不分大小寫並採模糊比對，因此字母只需依序出現，不必相鄰。清單會優先顯示最相符的結果，並列出鍵、語系與使用處數量。選擇一個鍵即可開啟其使用處，或在多個使用處之間選擇。沒有任何程式碼使用的鍵會開啟其語系項目。此命令會以選取的文字開始，鍵檢視中也有對應的按鈕。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "「x18n: Find Key by Text」可找出你在應用程式中看到的文字所對應的鍵。輸入部分文字即可，任何語系皆可。搜尋不分大小寫並採模糊比對，因此字母只需依序出現，不必相鄰。清單會優先顯示最相符的結果，並列出鍵、語系與使用處數量。選擇一個鍵即可開啟其使用處，或在多個使用處之間選擇。沒有任何程式碼使用的鍵會開啟其語系項目。此命令會以選取的文字開始，鍵檢視中也有對應的按鈕。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

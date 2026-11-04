@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0} or {1}. x18n still tests the presets after it, such as {2} and {3}.",
   "text": "プロジェクトが {0} または {1} に依存している場合、このプリセットが適用されます。x18n は、その後に続く {2} や {3} などのプリセットも引き続き判定します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プロジェクトが {0} または {1} に依存している場合、このプリセットが適用されます。x18n は、その後に続く {2} や {3} などのプリセットも引き続き判定します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

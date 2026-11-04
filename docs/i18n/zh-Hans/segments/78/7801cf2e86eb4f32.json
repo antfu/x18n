@@ -3,12 +3,16 @@
   "source": "Every surface reads the same config and reports the same diagnostics. The CLI in CI, the editor and the UI always agree.",
   "text": "每个界面都读取相同的配置，并报告相同的诊断。CI 中的 CLI、编辑器和 UI 的结果始终一致。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "每个界面都读取相同的配置，并报告相同的诊断。CI 中的 CLI、编辑器和 UI 的结果始终一致。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

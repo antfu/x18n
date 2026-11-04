@@ -3,12 +3,16 @@
   "source": "The agent edits the keys in the plan file, and removes the items it does not want, before it applies the plan.",
   "text": "エージェントは、計画を適用する前に、計画ファイル内のキーを編集し、不要な項目を削除します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "エージェントは、計画を適用する前に、計画ファイル内のキーを編集し、不要な項目を削除します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

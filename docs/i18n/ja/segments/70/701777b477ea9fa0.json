@@ -3,12 +3,16 @@
   "source": "The preset applies when {0} has the dependency {1} or {2}. x18n reads {3}, {4}, {5}, {6} and the target dependency tables. For a renamed dependency, such as {7}, x18n sees the alias {8} and does not detect the preset, so list it.",
   "text": "このプリセットは、{0} に依存関係 {1} または {2} がある場合に適用されます。x18n は {3}、{4}、{5}、{6}、およびターゲット別の依存関係テーブルを読み取ります。{7} のように依存関係の名前を変更している場合、x18n はエイリアス {8} を認識するため、プリセットを検出しません。その場合はプリセットを明示的に指定してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このプリセットは、{0} に依存関係 {1} または {2} がある場合に適用されます。x18n は {3}、{4}、{5}、{6}、およびターゲット別の依存関係テーブルを読み取ります。{7} のように依存関係の名前を変更している場合、x18n はエイリアス {8} を認識するため、プリセットを検出しません。その場合はプリセットを明示的に指定してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

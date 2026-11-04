@@ -3,12 +3,16 @@
   "source": "{0} prints the TypeScript version of a YAML plugin. It uses the same built-in functions, so the result behaves the same:",
   "text": "{0} は、YAML プラグインの TypeScript 版を出力します。同じ組み込み関数を使用するため、結果の動作は変わりません。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、YAML プラグインの TypeScript 版を出力します。同じ組み込み関数を使用するため、結果の動作は変わりません。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

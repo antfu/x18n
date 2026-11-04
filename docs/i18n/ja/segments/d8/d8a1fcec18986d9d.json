@@ -3,12 +3,16 @@
   "source": "{0}: regions with a default namespace or key prefix. With {1}, the key prefix applies only to keys that it defines, and other keys resolve without it,",
   "text": "{0}: デフォルトの名前空間またはキープレフィックスを持つ領域。{1} を使うと、キープレフィックスはそれが定義するキーにのみ適用され、他のキーはプレフィックスなしで解決されます",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: デフォルトの名前空間またはキープレフィックスを持つ領域。{1} を使うと、キープレフィックスはそれが定義するキーにのみ適用され、他のキーはプレフィックスなしで解決されます"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Regex whose first group is the namespace of the code after it (i18n-ally {0}).",
   "text": "正则表达式，其第一个分组是其后代码所属的命名空间（i18n-ally {0}）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "正则表达式，其第一个分组是其后代码所属的命名空间（i18n-ally {0}）。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

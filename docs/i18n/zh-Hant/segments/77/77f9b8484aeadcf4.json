@@ -3,12 +3,16 @@
   "source": "Before x18n writes, it makes sure that no file changed since it made the plan. If a file changed, it writes nothing and stops with {0}X18N4004{/0}.",
   "text": "x18n 在寫入之前，會先確認自建立計畫以來沒有任何檔案變更。若有檔案變更，它不會寫入任何內容，並以 {0}X18N4004{/0} 停止。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 在寫入之前，會先確認自建立計畫以來沒有任何檔案變更。若有檔案變更，它不會寫入任何內容，並以 {0}X18N4004{/0} 停止。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

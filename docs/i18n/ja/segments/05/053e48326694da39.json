@@ -3,12 +3,16 @@
   "source": "If your config has {0}, x18n uses only your patterns. They replace the patterns of every preset.",
   "text": "設定に {0} がある場合、x18n はそのパターンのみを使用します。これらはすべてのプリセットのパターンを置き換えます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "設定に {0} がある場合、x18n はそのパターンのみを使用します。これらはすべてのプリセットのパターンを置き換えます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

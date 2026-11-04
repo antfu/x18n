@@ -3,12 +3,16 @@
   "source": "{0} returns the path in the file of a key path. x18n writes edits to that path.",
   "text": "{0} 回傳某個鍵路徑在檔案中的路徑。x18n 會將編輯寫入該路徑。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 回傳某個鍵路徑在檔案中的路徑。x18n 會將編輯寫入該路徑。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

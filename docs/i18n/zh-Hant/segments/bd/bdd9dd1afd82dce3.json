@@ -3,12 +3,16 @@
   "source": "x18n needs Node.js 22 or later. Run the commands in this page in the root directory of your project.",
   "text": "x18n 需要 Node.js 22 或更新版本。請在專案的根目錄執行本頁中的指令。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 需要 Node.js 22 或更新版本。請在專案的根目錄執行本頁中的指令。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

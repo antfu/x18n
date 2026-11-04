@@ -3,12 +3,16 @@
   "source": "Paths are relative to the config file. Package names resolve from the directory of the config file.",
   "text": "路徑相對於設定檔。套件名稱則從設定檔所在的目錄開始解析。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "路徑相對於設定檔。套件名稱則從設定檔所在的目錄開始解析。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

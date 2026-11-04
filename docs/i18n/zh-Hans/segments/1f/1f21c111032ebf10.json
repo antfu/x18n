@@ -3,12 +3,16 @@
   "source": "The preset applies when {0} requires {1}. The preset is exclusive: when it applies, x18n tests no preset after it.",
   "text": "当 {0} 依赖 {1} 时，该预设生效。此预设是排他的：生效后，x18n 不会再检测它之后的任何预设。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "当 {0} 依赖 {1} 时，该预设生效。此预设是排他的：生效后，x18n 不会再检测它之后的任何预设。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

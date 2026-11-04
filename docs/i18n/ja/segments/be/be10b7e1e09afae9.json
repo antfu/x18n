@@ -3,12 +3,16 @@
   "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
   "text": "プランの各レビュー編集に対して、op の順に呼び出されます。返された書き込みは同じプランに入ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "プランの各レビュー編集に対して、op の順に呼び出されます。返された書き込みは同じプランに入ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

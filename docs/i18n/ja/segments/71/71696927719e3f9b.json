@@ -3,12 +3,16 @@
   "source": "{0} turn the diagnostics and the coverage of each project into text, for {1}. {2} returns a string. {3} turns a project path into a path relative to the current directory, and {4} tells whether colors are allowed.",
   "text": "{0} は、各プロジェクトの診断とカバレッジを {1} 向けのテキストに変換します。{2} は文字列を返します。{3} はプロジェクトのパスをカレントディレクトリからの相対パスに変換し、{4} は色の使用が許可されているかどうかを返します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} は、各プロジェクトの診断とカバレッジを {1} 向けのテキストに変換します。{2} は文字列を返します。{3} はプロジェクトのパスをカレントディレクトリからの相対パスに変換し、{4} は色の使用が許可されているかどうかを返します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} reads the dependency names from a manifest file, for preset detection. The built-in readers cover {1}, {2}, {3}, {4}, {5}, {6} and {7}. A reader has an {8}, a {9} name and a {10} function.",
   "text": "{0} 从清单文件中读取依赖名称，用于预设检测。内置的读取器涵盖 {1}、{2}、{3}、{4}、{5}、{6} 和 {7}。读取器包含一个 {8}、一个 {9} 名称和一个 {10} 函数。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 从清单文件中读取依赖名称，用于预设检测。内置的读取器涵盖 {1}、{2}、{3}、{4}、{5}、{6} 和 {7}。读取器包含一个 {8}、一个 {9} 名称和一个 {10} 函数。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

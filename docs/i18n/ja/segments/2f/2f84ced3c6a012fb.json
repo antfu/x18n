@@ -3,12 +3,16 @@
   "source": "Run the checks (missing translations, placeholder mismatches, invalid syntax, unused and undefined keys, ...) and return diagnostics, paged. After writing messages, call it with {0} and fix what it reports.",
   "text": "チェック（翻訳の欠落、プレースホルダーの不一致、不正な構文、未使用および未定義のキーなど）を実行し、診断をページ単位で返します。メッセージを書き込んだ後は {0} を指定して呼び出し、報告された問題を修正してください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "チェック（翻訳の欠落、プレースホルダーの不一致、不正な構文、未使用および未定義のキーなど）を実行し、診断をページ単位で返します。メッセージを書き込んだ後は {0} を指定して呼び出し、報告された問題を修正してください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

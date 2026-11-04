@@ -3,12 +3,16 @@
   "source": "The translate calls are {0}, {1}, {2} and {3}, also from {4} and {5}. The {6} of {7} is a key too. {8} and {9} take the name of a format, not a key.",
   "text": "翻訳の呼び出しは {0}、{1}、{2}、{3} で、{4} と {5} からのものも対象です。{7} の {6} もキーとして扱われます。{8} と {9} はキーではなく、フォーマット名を受け取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "翻訳の呼び出しは {0}、{1}、{2}、{3} で、{4} と {5} からのものも対象です。{7} の {6} もキーとして扱われます。{8} と {9} はキーではなく、フォーマット名を受け取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

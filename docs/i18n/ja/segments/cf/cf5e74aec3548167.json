@@ -3,12 +3,16 @@
   "source": "The preset adds no resource patterns. Set {0} in the config, or let x18n guess the locale directories.",
   "text": "このプリセットはリソースパターンを追加しません。設定で {0} を指定するか、x18n にロケールディレクトリを推測させてください。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "このプリセットはリソースパターンを追加しません。設定で {0} を指定するか、x18n にロケールディレクトリを推測させてください。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

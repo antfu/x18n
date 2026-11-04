@@ -3,12 +3,16 @@
   "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
   "text": "检查是一个生成器。它产出的每个值都会成为一条诊断。如果没有 {0}，诊断会指向 {2} 中 {1} 的消息。检查 id 同时也是诊断代码，因此 {3} 和 {4} 的用法与内置检查相同。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "检查是一个生成器。它产出的每个值都会成为一条诊断。如果没有 {0}，诊断会指向 {2} 中 {1} 的消息。检查 id 同时也是诊断代码，因此 {3} 和 {4} 的用法与内置检查相同。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

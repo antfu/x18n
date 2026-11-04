@@ -3,12 +3,16 @@
   "source": "The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from {0}.",
   "text": "サーバーはキーをシンボルとして扱います。定義へ移動、実装へ移動、参照、名前変更（準備を含む）、ホバー、インレイヒント、キーの補完、コードアクション（クイックフィックスと抽出）、ドキュメントシンボル、ワークスペースシンボル、コードレンズ、診断に対応しています。診断は {0} によるものと同じです。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "サーバーはキーをシンボルとして扱います。定義へ移動、実装へ移動、参照、名前変更（準備を含む）、ホバー、インレイヒント、キーの補完、コードアクション（クイックフィックスと抽出）、ドキュメントシンボル、ワークスペースシンボル、コードレンズ、診断に対応しています。診断は {0} によるものと同じです。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

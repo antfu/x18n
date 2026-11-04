@@ -3,12 +3,16 @@
   "source": "The {0}shipped skills{/0}, which teach an agent to set up x18n, fix what {1} reports, and run the loops on this page.",
   "text": "エージェントに x18n のセットアップ、{1} が報告する問題の修正、このページのループの実行を教える、{0}同梱のスキル{/0}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "エージェントに x18n のセットアップ、{1} が報告する問題の修正、このページのループの実行を教える、{0}同梱のスキル{/0}。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

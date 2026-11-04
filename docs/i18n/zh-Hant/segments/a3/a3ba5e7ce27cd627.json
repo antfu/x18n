@@ -3,12 +3,16 @@
   "source": "The Vite plugin of laravel-vue-i18n writes {0} files from the PHP files while {1} runs. The preset adds {2} to {3} for each locale with PHP files, so these copies are not read as locales.",
   "text": "laravel-vue-i18n 的 Vite 外掛會在 {1} 執行時，根據 PHP 檔案寫出 {0} 檔案。此預設集會針對每個有 PHP 檔案的語系，將 {2} 加入 {3}，因此這些複本不會被當作語系讀取。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "laravel-vue-i18n 的 Vite 外掛會在 {1} 執行時，根據 PHP 檔案寫出 {0} 檔案。此預設集會針對每個有 PHP 檔案的語系，將 {2} 加入 {3}，因此這些複本不會被當作語系讀取。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

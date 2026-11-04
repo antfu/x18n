@@ -3,12 +3,16 @@
   "source": "Delete every unused key (matching the glob), except keys dynamic usages may reach",
   "text": "刪除所有未使用的鍵（符合 glob 者），但動態使用處可能存取到的鍵除外",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "刪除所有未使用的鍵（符合 glob 者），但動態使用處可能存取到的鍵除外"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

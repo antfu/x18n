@@ -3,12 +3,16 @@
   "source": "A project directory can have its own {0}. The project inherits the options of the root config, and its own config overrides them. The rules are the same as for one project: see {1}How x18n merges the config{/1}.",
   "text": "项目目录可以有自己的 {0}。项目会继承根配置的选项，而项目自己的配置会覆盖它们。规则与单个项目相同：参见 {1}x18n 如何合并配置{/1}。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "项目目录可以有自己的 {0}。项目会继承根配置的选项，而项目自己的配置会覆盖它们。规则与单个项目相同：参见 {1}x18n 如何合并配置{/1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

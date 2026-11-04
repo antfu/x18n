@@ -3,12 +3,16 @@
   "source": "What {0} prints for every workspace folder: load errors, presets, locale files and config. The server also logs it when it finds no locale files.",
   "text": "{0} がすべてのワークスペースフォルダーについて出力する内容です。読み込みエラー、プリセット、ロケールファイル、設定が含まれます。サーバーはロケールファイルが見つからない場合にも、これをログに出力します。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} がすべてのワークスペースフォルダーについて出力する内容です。読み込みエラー、プリセット、ロケールファイル、設定が含まれます。サーバーはロケールファイルが見つからない場合にも、これをログに出力します。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

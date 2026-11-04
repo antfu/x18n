@@ -3,12 +3,16 @@
   "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
   "text": "{0}、{1}、{2}、{3}、{4} などの制御フローブロックのパラメーターと {5} 宣言。ブロックの内容はスキャンされます。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}、{1}、{2}、{3}、{4} などの制御フローブロックのパラメーターと {5} 宣言。ブロックの内容はスキャンされます。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

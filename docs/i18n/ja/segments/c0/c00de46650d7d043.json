@@ -3,12 +3,16 @@
   "source": "Option names the library reads itself, which a message need not use ({0}, {1}).",
   "text": "ライブラリ自身が読み取るオプション名で、メッセージで使う必要はありません（{0}、{1}）。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ライブラリ自身が読み取るオプション名で、メッセージで使う必要はありません（{0}、{1}）。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

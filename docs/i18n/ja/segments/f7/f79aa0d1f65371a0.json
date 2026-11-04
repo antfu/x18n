@@ -3,12 +3,16 @@
   "source": "The preset for Transloco. It reads the transloco pipe, directive and structural directive with read scopes, and the translate function.",
   "text": "Transloco 向けのプリセットです。transloco パイプ、ディレクティブ、読み取りスコープ付きの構造ディレクティブ、および translate 関数を読み取ります。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Transloco 向けのプリセットです。transloco パイプ、ディレクティブ、読み取りスコープ付きの構造ディレクティブ、および translate 関数を読み取ります。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

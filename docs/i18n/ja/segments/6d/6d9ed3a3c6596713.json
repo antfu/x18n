@@ -3,12 +3,16 @@
   "source": "Author as {0} (default: review.author, then git user)",
   "text": "{0} として投稿します（デフォルト: review.author、次に git のユーザー）",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} として投稿します（デフォルト: review.author、次に git のユーザー）"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

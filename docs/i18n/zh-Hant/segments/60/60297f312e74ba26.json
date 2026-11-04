@@ -3,12 +3,16 @@
   "source": "Unused keys left alone because fully dynamic usages in a scope may reach them, sorted.",
   "text": "因範圍內完全動態的使用處可能用到而保留的未使用鍵，已排序。",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "因範圍內完全動態的使用處可能用到而保留的未使用鍵，已排序。"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }
