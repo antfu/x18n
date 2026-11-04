@@ -431,14 +431,18 @@ class PlanBuilder {
     }
   }
 
-  setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf): MessageLeaf | undefined {
-    this.touched.add(key)
+  /**
+   * Returns the value the set replaced in `before`. Undefined when `replace` is false and the value would replace other keys
+   * or a message on its path: the set is then skipped with a warning.
+   */
+  setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf, replace = true): { readonly before: MessageLeaf | undefined } | undefined {
     const existing = this.options.message(key, locale)
     if (existing) {
+      this.touched.add(key)
       const entry = this.workFor(this.targetOf(this.writable(existing.resource)))
       const before = leafAt(entry.tree, existing.storedPath)
       this.pushOp(entry, { type: 'set', path: existing.storedPath, value })
-      return before
+      return { before }
     }
     const target = this.pickTarget(key, locale)
     if (target.state)
@@ -446,12 +450,32 @@ class PlanBuilder {
     const entry = this.workFor(target)
     const stored = this.storedPathFor(entry, this.relativePath(key, target)!)
     const occupied = nodeAt(entry.tree, stored)
-    if (occupied !== undefined && !isMessageLeaf(occupied))
+    const parent = occupied !== undefined && !isMessageLeaf(occupied)
+    if (!replace) {
+      const leaf = stored.slice(0, -1).findIndex((_, i) => {
+        const node = nodeAt(entry.tree, stored.slice(0, i + 1))
+        return node !== undefined && isMessageLeaf(node)
+      })
+      if (leaf !== -1) {
+        const message = stored.slice(0, leaf + 1).join(keyJoiner(this.separatorOf(target)))
+        this.warnings.push(`"${key}" is not added: "${message}" is a message in ${target.path}, and adding "${key}" would replace it.`)
+        return undefined
+      }
+      if (parent) {
+        this.warnings.push(`"${key}" is not added: it is a parent of other keys in ${target.path}, and adding it would replace them.`)
+        return undefined
+      }
+    }
+    else if (parent) {
       this.warnings.push(`"${key}" is a parent of other keys in ${target.path}; they are replaced.`)
+    }
+    this.touched.add(key)
     this.pushOp(entry, { type: 'set', path: stored, value })
-    return isMessageLeaf(occupied)
-      ? occupied
-      : undefined
+    return {
+      before: isMessageLeaf(occupied)
+        ? occupied
+        : undefined,
+    }
   }
 
   deleteMessage(m: Message): void {
@@ -537,7 +561,7 @@ class PlanBuilder {
     const own = this.options.resolveKey(to, m.locale)
     if (!relative || (own && own.path !== s.resource.path)) {
       this.deleteMessage(m)
-      return this.setValue(to, m.locale, m.value)
+      return this.setValue(to, m.locale, m.value)?.before
     }
     const entry = this.workFor(this.targetOf(s))
     const separator = this.separatorOf(s.resource)
@@ -820,7 +844,9 @@ class PlanBuilder {
   }
 
   set(op: Extract<EditOp, { type: 'set' }>): void {
-    this.setValue(op.key, op.locale, op.value)
+    const replace = op.replace !== false
+    if (!this.setValue(op.key, op.locale, op.value, replace))
+      return
     if (op.locale === this.state.sourceLocale)
       this.plannedSource.set(op.key, op.value)
     else if (op.value !== '')
@@ -829,7 +855,7 @@ class PlanBuilder {
       return
     for (const locale of this.state.locales) {
       if (locale !== op.locale && !this.state.fallbacks[locale] && !this.options.message(op.key, locale))
-        this.setValue(op.key, locale, '')
+        this.setValue(op.key, locale, '', replace)
     }
   }
 
