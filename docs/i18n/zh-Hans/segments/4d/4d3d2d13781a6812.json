@@ -1,14 +1,14 @@
 {
   "hash": "4d3d2d13781a6812",
   "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}. When a message is used, its attributes count as used too, since {4} reads them.",
-  "text": "{0} 格式会把消息的 attribute 当作独立的 key 来读取：消息 {2} 上的 {1} 就是 key {3}。当某条消息被使用时，它的 attribute 也算作已使用，因为 {4} 会读取它们。",
+  "text": "{0} 格式会把消息的属性读作独立的键：消息 {2} 上的 {1} 就是键 {3}。使用某条消息时，它的属性也会算作已使用，因为 {4} 会读取这些属性。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 格式会把消息的 attribute 当作独立的 key 来读取：消息 {2} 上的 {1} 就是 key {3}。当某条消息被使用时，它的 attribute 也算作已使用，因为 {4} 会读取它们。"
+    "candidate": "{0} 格式会把消息的属性读作独立的键：消息 {2} 上的 {1} 就是键 {3}。使用某条消息时，它的属性也会算作已使用，因为 {4} 会读取这些属性。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

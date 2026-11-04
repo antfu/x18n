@@ -1,14 +1,14 @@
 {
   "hash": "86cb04bdd1fe9732",
   "source": "Where a key prefix comes from: {0}.",
-  "text": "key 前缀的来源：{0}。",
+  "text": "键前缀的来源：{0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "key 前缀的来源：{0}。"
+    "candidate": "键前缀的来源：{0}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

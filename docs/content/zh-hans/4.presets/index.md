@@ -85,8 +85,8 @@ export default defineConfig({
 
 每个预设页面都会列出该预设添加的内容：
 
-- 翻译调用：被视为翻译调用的被调用函数名，以及 key、命名空间和 key 前缀的来源。这些会成为 `usage.calls`。
-- 默认值：命名空间规则、派生的 key 和资源模式。
+- 翻译调用：被视为翻译调用的被调用函数名，以及键、命名空间和键前缀的来源。这些会成为 `usage.calls`。
+- 默认值：命名空间规则、派生键和资源模式。
 - 占位符：消息中占位符的语法。
 - 提取模板：用于替换硬编码字符串的代码。
 
@@ -122,7 +122,7 @@ export default defineConfig({
 | dotnet            | `{0}`, `{0:C}`, `{0,-10}`, `{name}`                       | dotnet-resx                                                                                                                            |
 | angular           | `{$INTERPOLATION}`, `{$START_LINK}`                       | angular-localize                                                                                                                       |
 
-链接消息（`@:key`）和嵌套占位符（`$t(key)`）会指向另一个 key，该 key 随即被视为已使用。[`invalid-syntax`](/zh-hans/checks/invalid-syntax) 检查会报告指向不存在的 key 的链接消息，以及无法解析或缺少 `other` 分支的 ICU 消息。
+链接消息（`@:key`）和嵌套占位符（`$t(key)`）会指向另一个键，该键随即被视为已使用。[`invalid-syntax`](/zh-hans/checks/invalid-syntax) 检查会报告指向不存在的键的链接消息，以及无法解析或缺少 `other` 分支的 ICU 消息。
 
 插件可以通过 `@x18n/builtins/placeholders` 使用所有这些语法。[YAML 插件](/zh-hans/plugins/yaml#placeholders)可以声明形如 `%{name}` 的结构。
 
@@ -132,7 +132,7 @@ export default defineConfig({
 
 | 标记         | 替换为                                                                          |
 | ---------- | ---------------------------------------------------------------------------- |
-| `{key}`    | 新的 key。                                                                      |
+| `{key}`    | 新的键。                                                                         |
 | `{attr}`   | 属性名，用于属性类型。                                                                  |
 | `{args}`   | 模板字符串的参数：`, { name: user.name }`，不含紧跟在 `(` 之后的 `, `。没有参数时为空。                 |
 | `{text}`   | 硬编码字符串的消息，与源语言中存储的一致：即原始文本，其中模板字符串的参数作为占位符。可用于默认值，如 `$t('{key}', '{text}')`。 |

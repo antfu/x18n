@@ -1,14 +1,14 @@
 {
   "hash": "273d3b1dc1144c2f",
   "source": "Show translated values next to or in place of keys in code.",
-  "text": "在代码中的 key 旁边或原位显示翻译后的值。",
+  "text": "在代码中的键旁边或原位置显示翻译后的值。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在代码中的 key 旁边或原位显示翻译后的值。"
+    "candidate": "在代码中的键旁边或原位置显示翻译后的值。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

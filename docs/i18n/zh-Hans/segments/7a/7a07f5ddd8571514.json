@@ -1,14 +1,14 @@
 {
   "hash": "7a07f5ddd8571514",
   "source": "Read keys and usages",
-  "text": "读取 key 和引用",
+  "text": "查看键和引用",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "读取 key 和引用"
+    "candidate": "查看键和引用"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

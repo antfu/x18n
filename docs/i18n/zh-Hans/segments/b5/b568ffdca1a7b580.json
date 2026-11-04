@@ -1,14 +1,14 @@
 {
   "hash": "b568ffdca1a7b580",
   "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}.",
-  "text": "{0} 格式会将消息的属性读取为独立的 key：消息 {2} 上的 {1} 就是 key {3}。",
+  "text": "{0} 格式会把消息的属性读取为独立的键：消息 {2} 上的 {1} 就是键 {3}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 格式会将消息的属性读取为独立的 key：消息 {2} 上的 {1} 就是 key {3}。"
+    "candidate": "{0} 格式会把消息的属性读取为独立的键：消息 {2} 上的 {1} 就是键 {3}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

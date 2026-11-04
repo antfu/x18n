@@ -1,14 +1,14 @@
 {
   "hash": "91380eb88d1a8d34",
   "source": "i18n-ally {0}: {1} in one locale adds the key with an empty value to the others.",
-  "text": "i18n-ally {0}：在一种语言中添加 {1} 时，会将该 key 以空值添加到其他语言中。",
+  "text": "i18n-ally 的 {0}：在一种语言中的 {1} 会将该键以空值添加到其他语言。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "i18n-ally {0}：在一种语言中添加 {1} 时，会将该 key 以空值添加到其他语言中。"
+    "candidate": "i18n-ally 的 {0}：在一种语言中的 {1} 会将该键以空值添加到其他语言。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

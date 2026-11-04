@@ -1,14 +1,14 @@
 {
   "hash": "d263ef358db3163a",
   "source": "Namespaces searched in order when a key written without a namespace is not in its own (i18next {0}).",
-  "text": "当未指定命名空间的 key 不在其自身的命名空间中时，按顺序搜索的命名空间（i18next {0}）。",
+  "text": "当未带命名空间书写的键不在其自身的命名空间中时，按顺序搜索的命名空间（i18next {0}）。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "当未指定命名空间的 key 不在其自身的命名空间中时，按顺序搜索的命名空间（i18next {0}）。"
+    "candidate": "当未带命名空间书写的键不在其自身的命名空间中时，按顺序搜索的命名空间（i18next {0}）。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

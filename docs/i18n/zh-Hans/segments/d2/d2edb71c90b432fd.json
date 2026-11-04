@@ -1,14 +1,14 @@
 {
   "hash": "d2edb71c90b432fd",
   "source": "Key separator of matching files, over {0}. {1} for files keyed by whole sentences (Laravel {2}).",
-  "text": "匹配文件的 key 分隔符，优先于 {0}。对于以整句作为 key 的文件（Laravel {2}），使用 {1}。",
+  "text": "匹配文件的键分隔符，优先于 {0}。对于以整句作为键的文件（Laravel {2}），请使用 {1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "匹配文件的 key 分隔符，优先于 {0}。对于以整句作为 key 的文件（Laravel {2}），使用 {1}。"
+    "candidate": "匹配文件的键分隔符，优先于 {0}。对于以整句作为键的文件（Laravel {2}），请使用 {1}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "ffe7e6e5d55fc205",
   "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
-  "text": "从所有检查中排除的 key：glob，或针对完整 key 进行匹配的正则表达式（带命名空间时为 {0}）。",
+  "text": "从所有检查中排除的键：可以是 glob，也可以是针对完整键进行匹配的正则表达式（使用命名空间时为 {0}）。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "从所有检查中排除的 key：glob，或针对完整 key 进行匹配的正则表达式（带命名空间时为 {0}）。"
+    "candidate": "从所有检查中排除的键：可以是 glob，也可以是针对完整键进行匹配的正则表达式（使用命名空间时为 {0}）。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "df1cf34625755e67",
   "source": "The raw key shows again on the cursor line and inside a selection.",
-  "text": "光标所在行和选区内会重新显示原始 key。",
+  "text": "光标所在行和选区内会重新显示原始键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "光标所在行和选区内会重新显示原始 key。"
+    "candidate": "光标所在行和选区内会重新显示原始键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

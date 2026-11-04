@@ -1,14 +1,14 @@
 {
   "hash": "5ded4ed871ddc8f9",
   "source": "Namespace of keys written without one, per glob of source files, before {0}: {1}.",
-  "text": "按源文件 glob 设置未指定命名空间的 key 所属的命名空间，优先于 {0}：{1}。",
+  "text": "按源文件的通配符指定未带命名空间书写的键所属的命名空间，优先于 {0}：{1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "按源文件 glob 设置未指定命名空间的 key 所属的命名空间，优先于 {0}：{1}。"
+    "candidate": "按源文件的通配符指定未带命名空间书写的键所属的命名空间，优先于 {0}：{1}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

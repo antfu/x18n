@@ -1,14 +1,14 @@
 {
   "hash": "b684a1a54af4fd55",
   "source": "Defaults: namespace rules, derived keys and resource patterns.",
-  "text": "默认值：命名空间规则、派生的 key 和资源模式。",
+  "text": "默认值：命名空间规则、派生键和资源模式。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "默认值：命名空间规则、派生的 key 和资源模式。"
+    "candidate": "默认值：命名空间规则、派生键和资源模式。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

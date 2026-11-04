@@ -1,14 +1,14 @@
 {
   "hash": "55677ca50ccd9042",
   "source": "Hard strings with a proposed key, message and replacement each.",
-  "text": "硬编码字符串，每个都附带建议的 key、消息和替换内容。",
+  "text": "硬编码字符串，每项都附带建议的键、消息和替换内容。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "硬编码字符串，每个都附带建议的 key、消息和替换内容。"
+    "candidate": "硬编码字符串，每项都附带建议的键、消息和替换内容。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "e02c0a7724e32b69",
   "source": "{0} returns a {1} with a namespace and a key prefix. {2} above is {3}.",
-  "text": "{0} 返回带有命名空间和 key 前缀的 {1}。上面的 {2} 就是 {3}。",
+  "text": "{0} 返回带有命名空间和键前缀的 {1}。上面的 {2} 即为 {3}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 返回带有命名空间和 key 前缀的 {1}。上面的 {2} 就是 {3}。"
+    "candidate": "{0} 返回带有命名空间和键前缀的 {1}。上面的 {2} 即为 {3}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

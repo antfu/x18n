@@ -1,14 +1,14 @@
 {
   "hash": "223c4d1baad213a2",
   "source": "Locale: the progress of one locale, its missing and empty keys, its placeholder and syntax problems, and a button that copies a translate prompt.",
-  "text": "语言：某一种语言的进度、缺失和为空的 key、占位符和语法问题，以及一个用于复制翻译提示词的按钮。",
+  "text": "语言：一种语言的进度、其缺失和为空的键、其占位符和语法问题，以及一个用于复制翻译提示词的按钮。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "语言：某一种语言的进度、缺失和为空的 key、占位符和语法问题，以及一个用于复制翻译提示词的按钮。"
+    "candidate": "语言：一种语言的进度、其缺失和为空的键、其占位符和语法问题，以及一个用于复制翻译提示词的按钮。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

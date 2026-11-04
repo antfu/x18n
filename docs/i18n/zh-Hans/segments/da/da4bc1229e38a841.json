@@ -1,14 +1,14 @@
 {
   "hash": "da4bc1229e38a841",
   "source": "Rename keys",
-  "text": "重命名 key",
+  "text": "重命名键",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "重命名 key"
+    "candidate": "重命名键"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

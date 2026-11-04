@@ -1,14 +1,14 @@
 {
   "hash": "ec9536358762a370",
   "source": "x18n reads the locale files of any project, finds where each key is used, and reports missing, unused and broken keys. A CLI, a language server, a VS Code extension, a UI and MCP tools share one engine.",
-  "text": "x18n 会读取任意项目的语言文件，找出每个 key 的使用位置，并报告缺失、未使用和损坏的 key。CLI、语言服务器、VS Code 扩展、UI 和 MCP 工具共用同一个引擎。",
+  "text": "x18n 可读取任意项目的语言文件，找出每个键的使用位置，并报告缺失、未使用和损坏的键。CLI、语言服务器、VS Code 扩展、UI 和 MCP 工具共用同一个引擎。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n 会读取任意项目的语言文件，找出每个 key 的使用位置，并报告缺失、未使用和损坏的 key。CLI、语言服务器、VS Code 扩展、UI 和 MCP 工具共用同一个引擎。"
+    "candidate": "x18n 可读取任意项目的语言文件，找出每个键的使用位置，并报告缺失、未使用和损坏的键。CLI、语言服务器、VS Code 扩展、UI 和 MCP 工具共用同一个引擎。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

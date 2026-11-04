@@ -1,14 +1,14 @@
 {
   "hash": "c9fe4b19b858da55",
   "source": "Fluent. A message attribute is the key {0}.",
-  "text": "Fluent。消息属性的 key 为 {0}。",
+  "text": "Fluent。消息属性的键为 {0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Fluent。消息属性的 key 为 {0}。"
+    "candidate": "Fluent。消息属性的键为 {0}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

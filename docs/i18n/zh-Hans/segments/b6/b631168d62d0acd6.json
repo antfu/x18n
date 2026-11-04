@@ -1,14 +1,14 @@
 {
   "hash": "b631168d62d0acd6",
   "source": "Key (or parent of keys) to rename.",
-  "text": "要重命名的 key（或 key 的父级）。",
+  "text": "要重命名的键（或键的父级）。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "要重命名的 key（或 key 的父级）。"
+    "candidate": "要重命名的键（或键的父级）。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "bd1c940bd59be09a",
   "source": "Rename (F2) renames the key in every locale file and every usage. On a parent key, it renames every key under it.",
-  "text": "重命名（F2）会在每个语言文件和每处引用中重命名该 key。对父级 key 执行时，会重命名其下的所有 key。",
+  "text": "重命名（F2）会在每个语言文件和每处引用中重命名该键。对父键重命名时，会重命名其下的所有键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "重命名（F2）会在每个语言文件和每处引用中重命名该 key。对父级 key 执行时，会重命名其下的所有 key。"
+    "candidate": "重命名（F2）会在每个语言文件和每处引用中重命名该键。对父键重命名时，会重命名其下的所有键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

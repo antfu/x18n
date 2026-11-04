@@ -1,14 +1,14 @@
 {
   "hash": "8e79581ee2e4a0af",
   "source": "A severity is {0}, {1}, {2}, {3} or {4}. {5} (or {6}) turns every warning into an error. {7} removes keys from every check.",
-  "text": "严重级别可以是 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）会把所有警告都视为错误。{7} 会从每项检查中排除这些 key。",
+  "text": "严重级别可以是 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）会将所有警告视为错误。{7} 会将键从所有检查中排除。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "严重级别可以是 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）会把所有警告都视为错误。{7} 会从每项检查中排除这些 key。"
+    "candidate": "严重级别可以是 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）会将所有警告视为错误。{7} 会将键从所有检查中排除。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

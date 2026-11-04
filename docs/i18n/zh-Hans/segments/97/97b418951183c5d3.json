@@ -1,14 +1,14 @@
 {
   "hash": "97b418951183c5d3",
   "source": "Show usage counts and missing locales above keys in resource files.",
-  "text": "在资源文件中的 key 上方显示引用次数和缺失的语言。",
+  "text": "在资源文件中的键上方显示引用次数和缺失的语言。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在资源文件中的 key 上方显示引用次数和缺失的语言。"
+    "candidate": "在资源文件中的键上方显示引用次数和缺失的语言。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

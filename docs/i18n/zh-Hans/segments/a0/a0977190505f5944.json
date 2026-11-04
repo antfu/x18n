@@ -1,14 +1,14 @@
 {
   "hash": "a0977190505f5944",
   "source": "Values, resources, usages and diagnostics of one key.",
-  "text": "单个 key 的值、资源、引用和诊断信息。",
+  "text": "某个键的值、资源、引用和诊断信息。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "单个 key 的值、资源、引用和诊断信息。"
+    "candidate": "某个键的值、资源、引用和诊断信息。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:09:14.276Z"
 }

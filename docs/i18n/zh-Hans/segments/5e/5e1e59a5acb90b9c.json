@@ -1,14 +1,14 @@
 {
   "hash": "5e1e59a5acb90b9c",
   "source": "Renames a key or a parent key in locale files and code.",
-  "text": "在语言文件和代码中重命名 key 或父 key。",
+  "text": "在语言文件和代码中重命名键或父键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在语言文件和代码中重命名 key 或父 key。"
+    "candidate": "在语言文件和代码中重命名键或父键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

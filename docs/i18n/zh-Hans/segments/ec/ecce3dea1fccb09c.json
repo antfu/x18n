@@ -1,14 +1,14 @@
 {
   "hash": "ecce3dea1fccb09c",
   "source": "x18n: Go to Next Key Usage",
-  "text": "x18n：跳转到下一个 key 引用",
+  "text": "x18n: 跳转到下一个键引用",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n：跳转到下一个 key 引用"
+    "candidate": "x18n: 跳转到下一个键引用"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

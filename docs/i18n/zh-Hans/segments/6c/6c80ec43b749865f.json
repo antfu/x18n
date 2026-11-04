@@ -1,14 +1,14 @@
 {
   "hash": "6c80ec43b749865f",
   "source": "A plural key is an object with the CLDR forms {0}, {1}, {2}, {3}, {4} and {5}. A usage of the key counts as a usage of each form.",
-  "text": "复数 key 是一个对象，包含 CLDR 形式 {0}、{1}、{2}、{3}、{4} 和 {5}。对该 key 的一处引用会被视为对每种形式的引用。",
+  "text": "复数键是一个包含 CLDR 形式 {0}、{1}、{2}、{3}、{4} 和 {5} 的对象。对该键的一次引用会被视为对每种形式的引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "复数 key 是一个对象，包含 CLDR 形式 {0}、{1}、{2}、{3}、{4} 和 {5}。对该 key 的一处引用会被视为对每种形式的引用。"
+    "candidate": "复数键是一个包含 CLDR 形式 {0}、{1}、{2}、{3}、{4} 和 {5} 的对象。对该键的一次引用会被视为对每种形式的引用。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

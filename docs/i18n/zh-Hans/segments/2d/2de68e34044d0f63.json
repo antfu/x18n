@@ -1,14 +1,14 @@
 {
   "hash": "2de68e34044d0f63",
   "source": "Every key across every locale in one table. Edit values in the browser, or publish a static, read-only report.",
-  "text": "所有语言的所有 key 集中在一张表中。可以在浏览器中编辑值，也可以发布静态的只读报告。",
+  "text": "在一张表格中查看所有语言的每个键。可在浏览器中编辑值，也可以发布静态的只读报告。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "所有语言的所有 key 集中在一张表中。可以在浏览器中编辑值，也可以发布静态的只读报告。"
+    "candidate": "在一张表格中查看所有语言的每个键。可在浏览器中编辑值，也可以发布静态的只读报告。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

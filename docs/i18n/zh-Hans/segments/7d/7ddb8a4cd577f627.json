@@ -1,14 +1,14 @@
 {
   "hash": "7ddb8a4cd577f627",
   "source": "The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from {0}.",
-  "text": "服务器将 key 视为符号。它支持跳转到定义、跳转到实现、查找引用、重命名（含预备重命名）、悬停提示、内嵌提示、key 补全、代码操作（快速修复和提取）、文档符号、工作区符号、代码镜头和诊断。诊断与 {0} 的结果相同。",
+  "text": "服务器将键视为符号。它支持转到定义、转到实现、引用、重命名（含准备重命名）、悬停提示、内嵌提示、键的补全、代码操作（快速修复和提取）、文档符号、工作区符号、代码镜头以及诊断。诊断与 {0} 给出的诊断相同。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "服务器将 key 视为符号。它支持跳转到定义、跳转到实现、查找引用、重命名（含预备重命名）、悬停提示、内嵌提示、key 补全、代码操作（快速修复和提取）、文档符号、工作区符号、代码镜头和诊断。诊断与 {0} 的结果相同。"
+    "candidate": "服务器将键视为符号。它支持转到定义、转到实现、引用、重命名（含准备重命名）、悬停提示、内嵌提示、键的补全、代码操作（快速修复和提取）、文档符号、工作区符号、代码镜头以及诊断。诊断与 {0} 给出的诊断相同。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "701b928c1fa61a52",
   "source": "In PHP and Blade files, the preset reads {0}, {1}, {2}, {3}, {4} and {5}. Laravel writes the keys of a nested file with a slash. The preset turns each slash into a dot:",
-  "text": "在 PHP 和 Blade 文件中，该预设会读取 {0}、{1}、{2}、{3}、{4} 和 {5}。Laravel 使用斜杠来写嵌套文件的 key。该预设会将每个斜杠转换为点：",
+  "text": "在 PHP 和 Blade 文件中，该预设会读取 {0}、{1}、{2}、{3}、{4} 和 {5}。Laravel 使用斜杠来写嵌套文件的键。该预设会将每个斜杠转换为点：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在 PHP 和 Blade 文件中，该预设会读取 {0}、{1}、{2}、{3}、{4} 和 {5}。Laravel 使用斜杠来写嵌套文件的 key。该预设会将每个斜杠转换为点："
+    "candidate": "在 PHP 和 Blade 文件中，该预设会读取 {0}、{1}、{2}、{3}、{4} 和 {5}。Laravel 使用斜杠来写嵌套文件的键。该预设会将每个斜杠转换为点："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

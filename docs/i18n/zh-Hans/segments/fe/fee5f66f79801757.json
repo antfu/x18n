@@ -1,14 +1,14 @@
 {
   "hash": "fee5f66f79801757",
   "source": "Current File: the keys of the open file, with their values.",
-  "text": "Current File：已打开文件中的 key 及其值。",
+  "text": "Current File：已打开文件中的键及其值。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Current File：已打开文件中的 key 及其值。"
+    "candidate": "Current File：已打开文件中的键及其值。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

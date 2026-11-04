@@ -5,9 +5,10 @@ terms:
     match: \bagents?\b
     decision: keep
   - term: key
-    note: a message identifier such as `nav.home`, not a keyboard key or a password; keep "key" or "keys" in English
+    note: a message identifier such as `nav.home`, not a keyboard key or a password
     match: \bkeys?\b
-    decision: keep
+    decision: translate
+    target: 键
   - term: usage
     note: one occurrence of a key in source code
     match: \busages?\b

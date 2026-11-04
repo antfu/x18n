@@ -1,14 +1,14 @@
 {
   "hash": "346dfef89dc3cb8b",
   "source": "Translate calls: the callee names that count as translate calls, and where the key, the namespace and the key prefix come from. These become {0}.",
-  "text": "翻译调用：被视为翻译调用的被调用函数名，以及 key、命名空间和 key 前缀的来源。这些会成为 {0}。",
+  "text": "翻译调用：被视为翻译调用的被调用函数名，以及键、命名空间和键前缀的来源。这些会成为 {0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "翻译调用：被视为翻译调用的被调用函数名，以及 key、命名空间和 key 前缀的来源。这些会成为 {0}。"
+    "candidate": "翻译调用：被视为翻译调用的被调用函数名，以及键、命名空间和键前缀的来源。这些会成为 {0}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

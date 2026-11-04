@@ -1,14 +1,14 @@
 {
   "hash": "f1eb1200890fb980",
   "source": "Only keys missing or empty in this locale.",
-  "text": "仅限在该语言中缺失或为空的 key。",
+  "text": "仅包含在该语言中缺失或为空的键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "仅限在该语言中缺失或为空的 key。"
+    "candidate": "仅包含在该语言中缺失或为空的键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

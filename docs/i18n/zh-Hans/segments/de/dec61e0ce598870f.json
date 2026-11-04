@@ -1,14 +1,14 @@
 {
   "hash": "dec61e0ce598870f",
   "source": "Locales with coverage, resources, keys and diagnostics.",
-  "text": "包含覆盖率、资源、key 和诊断信息的语言。",
+  "text": "显示各语言的覆盖率、资源、键和诊断信息。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "包含覆盖率、资源、key 和诊断信息的语言。"
+    "candidate": "显示各语言的覆盖率、资源、键和诊断信息。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

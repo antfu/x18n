@@ -1,14 +1,14 @@
 {
   "hash": "f04f8fa43662bb79",
   "source": "The x18n UI shows every key of a project across all locales, in one table. Translators and reviewers can edit values there, see where each key is used and copy translate prompts. The same UI runs in four ways:",
-  "text": "x18n UI 在一张表中展示项目的所有 key 及其在全部语言中的值。译者和审阅者可以在其中编辑值、查看每个 key 的引用位置，并复制翻译提示词。同一个 UI 有四种运行方式：",
+  "text": "x18n UI 在一张表中显示项目在所有语言下的每个键。翻译人员和审阅人员可以在其中编辑值、查看每个键的引用位置，并复制翻译提示词。同一个 UI 有四种运行方式：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n UI 在一张表中展示项目的所有 key 及其在全部语言中的值。译者和审阅者可以在其中编辑值、查看每个 key 的引用位置，并复制翻译提示词。同一个 UI 有四种运行方式："
+    "candidate": "x18n UI 在一张表中显示项目在所有语言下的每个键。翻译人员和审阅人员可以在其中编辑值、查看每个键的引用位置，并复制翻译提示词。同一个 UI 有四种运行方式："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

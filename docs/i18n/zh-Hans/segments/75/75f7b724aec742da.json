@@ -1,14 +1,14 @@
 {
   "hash": "75f7b724aec742da",
   "source": "True when an existing key with the same source value is reused.",
-  "text": "当复用了源值相同的现有 key 时为 true。",
+  "text": "当复用了源语言的值相同的现有键时为 True。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "当复用了源值相同的现有 key 时为 true。"
+    "candidate": "当复用了源语言的值相同的现有键时为 True。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

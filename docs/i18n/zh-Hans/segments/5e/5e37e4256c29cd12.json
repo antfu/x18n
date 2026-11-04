@@ -1,14 +1,14 @@
 {
   "hash": "5e37e4256c29cd12",
   "source": "{0}, {1}, {2}, {3} and {4} also take the key from an {5} property.",
-  "text": "{0}、{1}、{2}、{3} 和 {4} 也会从 {5} 属性中获取 key。",
+  "text": "{0}、{1}、{2}、{3} 和 {4} 也会从 {5} 属性中获取键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0}、{1}、{2}、{3} 和 {4} 也会从 {5} 属性中获取 key。"
+    "candidate": "{0}、{1}、{2}、{3} 和 {4} 也会从 {5} 属性中获取键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

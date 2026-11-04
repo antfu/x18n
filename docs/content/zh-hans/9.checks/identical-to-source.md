@@ -19,7 +19,7 @@ description: 目标值与源值相同，但在所有语言中都保持不变的�
 - 不超过五个字母的全大写短词（`OK`、`FAQ`），
 - `glossary` 中的 `doNotTranslate` 术语，例如品牌名称。
 
-在两种语言中写法相同的词，例如德语中的 "Plugins"，仍然会被报告。这就是该检查以 `info` 级别报告的原因，`strict` 不会将其视为错误。`ignoreKeys` 会从所有检查中移除这类 key。
+在两种语言中写法相同的词，例如德语中的 "Plugins"，仍然会被报告。因此该检查的报告级别为 `info`，`strict` 不会将其视为错误。`ignoreKeys` 会从所有检查中移除这类键。
 
 `x18n prompt translate --to <locale> --check identical-to-source` 会把报告的值放入翻译提示词中。参见 [翻译报告的值](/zh-hans/agents/prompts#translate-reported-values)。
 

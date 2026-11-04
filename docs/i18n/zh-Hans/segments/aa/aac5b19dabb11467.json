@@ -1,14 +1,14 @@
 {
   "hash": "aac5b19dabb11467",
   "source": "A key exists in English but not in German.",
-  "text": "某个 key 在英语中存在，但在德语中不存在。",
+  "text": "某个键在英文中存在，但在德文中不存在。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "某个 key 在英语中存在，但在德语中不存在。"
+    "candidate": "某个键在英文中存在，但在德文中不存在。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

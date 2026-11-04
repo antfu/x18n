@@ -1,14 +1,14 @@
 {
   "hash": "5f5935a9dde42f8f",
   "source": "A key that is missing in the source locale shows in a warning color.",
-  "text": "源语言中缺失的 key 会以警告颜色显示。",
+  "text": "源语言中缺失的键会以警告色显示。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "源语言中缺失的 key 会以警告颜色显示。"
+    "candidate": "源语言中缺失的键会以警告色显示。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

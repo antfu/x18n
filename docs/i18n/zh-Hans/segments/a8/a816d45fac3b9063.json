@@ -1,14 +1,14 @@
 {
   "hash": "a816d45fac3b9063",
   "source": "Deletes every unused key that no computed key may reach.",
-  "text": "删除所有未使用且不会被任何计算 key 访问到的 key。",
+  "text": "删除所有未使用且不可能被任何计算键访问到的键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "删除所有未使用且不会被任何计算 key 访问到的 key。"
+    "candidate": "删除所有未使用且不可能被任何计算键访问到的键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

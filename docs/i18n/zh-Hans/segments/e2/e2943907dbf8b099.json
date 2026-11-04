@@ -1,14 +1,14 @@
 {
   "hash": "e2943907dbf8b099",
   "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
-  "text": "{0} 用于每条消息一个文件的存储方式。它返回某个语言下一个 key 所在的文件：一个 {1}，以及当该文件不是其扩展名对应的格式时用于创建它的 {2} id。该 key 的新消息会写入这个文件，而不是已包含其他 key 的资源；文件不存在时会被创建。重命名会把每条消息移到新 key 的文件中，删除后若其 key 所在的文件变空，则删除该文件。对于位于共享文件中的 key，返回 {3}。",
+  "text": "{0} 适用于每条消息对应一个文件的存储方式。它返回某个键在某个语言下的文件：一个 {1}，以及当该文件的格式不是其扩展名对应的格式时用于创建它的 {2} id。该键的新消息会写入此文件，而不是已包含其他键的资源，且文件不存在时会被创建。重命名会把每条消息移动到新键对应的文件，而删除后若该键的文件变为空，则会删除该文件。对于存放在共享文件中的键，请返回 {3}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 用于每条消息一个文件的存储方式。它返回某个语言下一个 key 所在的文件：一个 {1}，以及当该文件不是其扩展名对应的格式时用于创建它的 {2} id。该 key 的新消息会写入这个文件，而不是已包含其他 key 的资源；文件不存在时会被创建。重命名会把每条消息移到新 key 的文件中，删除后若其 key 所在的文件变空，则删除该文件。对于位于共享文件中的 key，返回 {3}。"
+    "candidate": "{0} 适用于每条消息对应一个文件的存储方式。它返回某个键在某个语言下的文件：一个 {1}，以及当该文件的格式不是其扩展名对应的格式时用于创建它的 {2} id。该键的新消息会写入此文件，而不是已包含其他键的资源，且文件不存在时会被创建。重命名会把每条消息移动到新键对应的文件，而删除后若该键的文件变为空，则会删除该文件。对于存放在共享文件中的键，请返回 {3}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "70b6951ebea33fee",
   "source": "{0} and {1} come from {2}. Keys under {3} count as used, since AdonisJS reads them itself.",
-  "text": "{0} 和 {1} 来自 {2}。{3} 下的 key 会被视为已使用，因为 AdonisJS 会自行读取它们。",
+  "text": "{0} 和 {1} 来自 {2}。{3} 下的键会被视为已使用，因为 AdonisJS 会自行读取它们。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 和 {1} 来自 {2}。{3} 下的 key 会被视为已使用，因为 AdonisJS 会自行读取它们。"
+    "candidate": "{0} 和 {1} 来自 {2}。{3} 下的键会被视为已使用，因为 AdonisJS 会自行读取它们。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

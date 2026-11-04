@@ -1,14 +1,14 @@
 {
   "hash": "013d46afeefe20ee",
   "source": "Nesting: {0}. The nested key counts as used.",
-  "text": "嵌套：{0}。嵌套的 key 视为已使用。",
+  "text": "嵌套：{0}。被嵌套的键会被视为已使用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "嵌套：{0}。嵌套的 key 视为已使用。"
+    "candidate": "嵌套：{0}。被嵌套的键会被视为已使用。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

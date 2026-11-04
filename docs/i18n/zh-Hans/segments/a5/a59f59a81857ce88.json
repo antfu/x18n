@@ -1,14 +1,14 @@
 {
   "hash": "a59f59a81857ce88",
   "source": "A usage whose key is not defined in the source locale.",
-  "text": "引用的 key 未在源语言中定义。",
+  "text": "引用的键未在源语言中定义。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "引用的 key 未在源语言中定义。"
+    "candidate": "引用的键未在源语言中定义。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

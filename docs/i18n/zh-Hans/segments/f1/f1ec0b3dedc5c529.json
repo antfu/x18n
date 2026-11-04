@@ -1,14 +1,14 @@
 {
   "hash": "f1ec0b3dedc5c529",
   "source": "manage keys and translations while you work",
-  "text": "在工作过程中管理 key 和翻译",
+  "text": "在你工作时管理键和翻译",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在工作过程中管理 key 和翻译"
+    "candidate": "在你工作时管理键和翻译"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

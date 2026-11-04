@@ -1,14 +1,14 @@
 {
   "hash": "39d61185072cd89c",
   "source": "{0} produce diagnostics. A check has an {1}, a {2} and a {3} generator. {4} gives the keys, messages, usages, coverage, unused keys, placeholders, hard strings and file texts. It also gives {5}, the options from {6} in the config. See the {7}example{/7}.",
-  "text": "{0} 生成诊断。一个检查包含 {1}、{2} 和 {3} 生成器。{4} 提供 key、消息、引用、覆盖率、未使用的 key、占位符、硬编码字符串和文件文本。它还提供 {5}，即配置中 {6} 下的选项。参见{7}示例{/7}。",
+  "text": "{0} 用于生成诊断。一个检查包含 {1}、{2} 和 {3} 生成器。{4} 提供键、消息、引用、覆盖率、未使用的键、占位符、硬编码字符串和文件文本。它还提供 {5}，即配置中 {6} 下的选项。参见{7}示例{/7}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 生成诊断。一个检查包含 {1}、{2} 和 {3} 生成器。{4} 提供 key、消息、引用、覆盖率、未使用的 key、占位符、硬编码字符串和文件文本。它还提供 {5}，即配置中 {6} 下的选项。参见{7}示例{/7}。"
+    "candidate": "{0} 用于生成诊断。一个检查包含 {1}、{2} 和 {3} 生成器。{4} 提供键、消息、引用、覆盖率、未使用的键、占位符、硬编码字符串和文件文本。它还提供 {5}，即配置中 {6} 下的选项。参见{7}示例{/7}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -18,7 +18,7 @@ pnpx @x18n/cli migrate i18n-ally
 
 该命令会读取：
 
-- `.vscode/settings.json` 中的 `i18n-ally.*` keys、旧版 `vue-i18n-ally.*` keys，以及 [i18n-ally-next](https://github.com/Lydanne/i18n-ally-next) 分支的 `i18n-ally-next.*` keys，
+- `.vscode/settings.json` 中的 `i18n-ally.*` 键、旧版 `vue-i18n-ally.*` 键，以及 [i18n-ally-next](https://github.com/Lydanne/i18n-ally-next) 分支的 `i18n-ally-next.*` 键，
 - 根目录中每个 `*.code-workspace` 文件的 `settings`，
 - `.vscode/i18n-ally-custom-framework.yml`，或 `.vscode/i18n-ally-next-custom-framework.yml`，
 - `.vscode/i18n-ally-reviews.yml`，或 `.vscode/i18n-ally-next-reviews.yml`。
@@ -161,7 +161,7 @@ i18n-ally 的每个框架都有对应的预设。对于未知的框架 id，该�
 ## 被丢弃的内容 {#what-is-dropped}
 
 - `translate.*`：x18n 不调用任何翻译服务，而是为 agent 或 LLM 生成[翻译提示词](/zh-hans/agents/prompts)。该命令会输出一条提示。
-- `review.removeCommentOnResolved`：x18n 会保留已解决的审阅，而 `x18n review list --open` 会隐藏它们。审阅文件中的 key 描述也会被丢弃。该命令会为每一项输出一条提示。
+- `review.removeCommentOnResolved`：x18n 会保留已解决的审阅，而 `x18n review list --open` 会将其隐藏。审阅文件中的键描述也会被丢弃。该命令会为每一项输出一条提示。
 - `readonly`、`encoding`、`fullReloadOnChanged`、`includeSubfolders`、`ignoreFiles`、`editor.preferEditor`、`annotationDelimiter`、`languageTagSystem`、`targetPickingStrategy` 和 `extract.targetPickingStrategy`：x18n 的默认行为已涵盖这些设置，或者 x18n 没有对应的设置。该命令会为发现的每一项输出一条提示。x18n 按原样使用语言代码，因此不需要 `languageTagSystem`。
 
 本页未列出的设置不会被迁移。

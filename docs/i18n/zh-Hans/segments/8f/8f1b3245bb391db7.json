@@ -1,14 +1,14 @@
 {
   "hash": "8f1b3245bb391db7",
   "source": "Deletes the keys that {0} lists, in every locale, through {1}. Default: every project.",
-  "text": "通过 {1} 在所有语言中删除 {0} 列出的 key。默认：所有项目。",
+  "text": "通过 {1} 在每种语言中删除 {0} 列出的键。默认：所有项目。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "通过 {1} 在所有语言中删除 {0} 列出的 key。默认：所有项目。"
+    "candidate": "通过 {1} 在每种语言中删除 {0} 列出的键。默认：所有项目。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

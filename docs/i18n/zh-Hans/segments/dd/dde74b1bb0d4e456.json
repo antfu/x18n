@@ -1,14 +1,14 @@
 {
   "hash": "dde74b1bb0d4e456",
   "source": "The preset for i18next. It reads namespaces, getFixedT, typed TFunction parameters and plural keys.",
-  "text": "i18next 的预设。它会读取命名空间、getFixedT、带类型的 TFunction 参数以及复数 keys。",
+  "text": "i18next 的预设。它会读取命名空间、getFixedT、带类型的 TFunction 参数以及复数键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "i18next 的预设。它会读取命名空间、getFixedT、带类型的 TFunction 参数以及复数 keys。"
+    "candidate": "i18next 的预设。它会读取命名空间、getFixedT、带类型的 TFunction 参数以及复数键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

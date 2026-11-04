@@ -1,14 +1,14 @@
 {
   "hash": "86a8a522da1249aa",
   "source": "Checks report diagnostics. {0} puts them in {1} of the envelope, and its {2} holds a summary and the coverage per project, and {3} ({4} and {5} counts) when a {6}baseline{/6} applies. {7} puts the diagnostics of one key in {8}. Both use this shape:",
-  "text": "检查会报告诊断信息。{0} 将它们放在信封的 {1} 中，其 {2} 包含摘要和每个项目的覆盖率，并在应用 {6}基线{/6} 时包含 {3}（{4} 和 {5} 计数）。{7} 将某个 key 的诊断信息放在 {8} 中。两者使用以下结构：",
+  "text": "检查会报告诊断。{0} 将它们放在信封的 {1} 中，其 {2} 包含摘要和各项目的覆盖率，并在应用了{6}基线{/6}时包含 {3}（{4} 和 {5} 的计数）。{7} 将某个键的诊断放在 {8} 中。两者使用以下结构：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "检查会报告诊断信息。{0} 将它们放在信封的 {1} 中，其 {2} 包含摘要和每个项目的覆盖率，并在应用 {6}基线{/6} 时包含 {3}（{4} 和 {5} 计数）。{7} 将某个 key 的诊断信息放在 {8} 中。两者使用以下结构："
+    "candidate": "检查会报告诊断。{0} 将它们放在信封的 {1} 中，其 {2} 包含摘要和各项目的覆盖率，并在应用了{6}基线{/6}时包含 {3}（{4} 和 {5} 的计数）。{7} 将某个键的诊断放在 {8} 中。两者使用以下结构："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

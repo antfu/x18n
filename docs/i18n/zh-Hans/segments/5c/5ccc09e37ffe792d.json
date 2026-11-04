@@ -1,14 +1,14 @@
 {
   "hash": "5ccc09e37ffe792d",
   "source": "x18n: Delete Unused Keys",
-  "text": "x18n: Delete Unused Keys",
+  "text": "x18n: 删除未使用的键",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n: Delete Unused Keys"
+    "candidate": "x18n: 删除未使用的键"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

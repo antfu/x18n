@@ -1,14 +1,14 @@
 {
   "hash": "7f0be92fb89f6d3a",
   "source": "Lingui keys are often the source message itself. The macros and calls below are usages of {0} and {1}:",
-  "text": "Lingui 的 key 通常就是源消息本身。下面的宏和调用是对 {0} 和 {1} 的引用：",
+  "text": "Lingui 的键通常就是源消息本身。下面的宏和调用是 {0} 和 {1} 的引用：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Lingui 的 key 通常就是源消息本身。下面的宏和调用是对 {0} 和 {1} 的引用："
+    "candidate": "Lingui 的键通常就是源消息本身。下面的宏和调用是 {0} 和 {1} 的引用："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:09:14.276Z"
 }

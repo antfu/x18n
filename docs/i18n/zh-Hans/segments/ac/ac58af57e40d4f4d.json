@@ -1,14 +1,14 @@
 {
   "hash": "ac58af57e40d4f4d",
   "source": "A key is the id of a message. The example has the keys {0}, {1}, {2} and {3}. A key with child keys, such as {4}, is a parent key. Commands such as {5} and {6} work on a parent key too: they change every key under it.",
-  "text": "key 是消息的 id。示例中有 {0}、{1}、{2} 和 {3} 这几个 key。带有子 key 的 key（如 {4}）是父 key。{5} 和 {6} 等命令同样可以作用于父 key：它们会修改其下的每个 key。",
+  "text": "键是消息的 id。示例中有键 {0}、{1}、{2} 和 {3}。带有子键的键，例如 {4}，称为父键。{5} 和 {6} 等命令也可以作用于父键：它们会修改其下的所有键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "key 是消息的 id。示例中有 {0}、{1}、{2} 和 {3} 这几个 key。带有子 key 的 key（如 {4}）是父 key。{5} 和 {6} 等命令同样可以作用于父 key：它们会修改其下的每个 key。"
+    "candidate": "键是消息的 id。示例中有键 {0}、{1}、{2} 和 {3}。带有子键的键，例如 {4}，称为父键。{5} 和 {6} 等命令也可以作用于父键：它们会修改其下的所有键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

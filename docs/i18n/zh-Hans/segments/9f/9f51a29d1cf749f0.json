@@ -1,14 +1,14 @@
 {
   "hash": "9f51a29d1cf749f0",
   "source": "A scope folder is a key prefix in camelCase, as Transloco names it: the preset sets {0} to {1}, so {2} holds the keys {3}. For a scope with an alias, add a resource with a fixed namespace: {4}.",
-  "text": "scope 文件夹是 camelCase 形式的 key 前缀，与 Transloco 的命名方式一致：预设将 {0} 设为 {1}，因此 {2} 包含 keys {3}。对于带别名的 scope，请添加一个具有固定命名空间的资源：{4}。",
+  "text": "作用域文件夹是一个采用 camelCase 的键前缀，与 Transloco 的命名方式一致：预设会将 {0} 设为 {1}，因此 {2} 包含键 {3}。对于带有别名的作用域，请添加一个使用固定命名空间的资源：{4}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "scope 文件夹是 camelCase 形式的 key 前缀，与 Transloco 的命名方式一致：预设将 {0} 设为 {1}，因此 {2} 包含 keys {3}。对于带别名的 scope，请添加一个具有固定命名空间的资源：{4}。"
+    "candidate": "作用域文件夹是一个采用 camelCase 的键前缀，与 Transloco 的命名方式一致：预设会将 {0} 设为 {1}，因此 {2} 包含键 {3}。对于带有别名的作用域，请添加一个使用固定命名空间的资源：{4}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

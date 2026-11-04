@@ -1,14 +1,14 @@
 {
   "hash": "211b707c781ee5fa",
   "source": "Delete every unused key (matching the glob), except keys dynamic usages may reach",
-  "text": "删除所有未使用的 key（匹配 glob），但动态引用可能涉及的 key 除外",
+  "text": "删除所有未使用的键（匹配该 glob），动态用法可能引用到的键除外",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "删除所有未使用的 key（匹配 glob），但动态引用可能涉及的 key 除外"
+    "candidate": "删除所有未使用的键（匹配该 glob），动态用法可能引用到的键除外"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

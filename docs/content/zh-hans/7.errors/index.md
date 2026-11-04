@@ -17,29 +17,29 @@ x18n 的每个错误都有一个错误码，例如 `X18N0001`。CLI 会输出错
 - `3`：扫描源文件。
 - `4`：编辑。
 
-| 错误码                                  | 标题            | 退出码 |
-| ------------------------------------ | ------------- | --- |
-| [X18N0001](/zh-hans/errors/x18n0001) | 配置无效          | `2` |
-| [X18N0002](/zh-hans/errors/x18n0002) | 无法加载配置文件      | `2` |
-| [X18N0003](/zh-hans/errors/x18n0003) | 未知项目          | `2` |
-| [X18N1001](/zh-hans/errors/x18n1001) | 无法加载插件        | `2` |
-| [X18N1002](/zh-hans/errors/x18n1002) | 能力 id 重复      | `2` |
-| [X18N1003](/zh-hans/errors/x18n1003) | 未知预设          | `2` |
-| [X18N1004](/zh-hans/errors/x18n1004) | 无效的 YAML 插件   | `2` |
-| [X18N2001](/zh-hans/errors/x18n2001) | 资源没有对应的格式     | `1` |
-| [X18N2002](/zh-hans/errors/x18n2002) | 无法解析资源        | `1` |
-| [X18N2003](/zh-hans/errors/x18n2003) | 资源不是消息对象      | `1` |
-| [X18N2004](/zh-hans/errors/x18n2004) | 语言文件不是静态的     | `1` |
-| [X18N3001](/zh-hans/errors/x18n3001) | 无法扫描源文件       | `1` |
-| [X18N4001](/zh-hans/errors/x18n4001) | 资源为只读         | `1` |
-| [X18N4002](/zh-hans/errors/x18n4002) | 重命名的目标已存在     | `1` |
-| [X18N4003](/zh-hans/errors/x18n4003) | 需要做出决定        | `3` |
-| [X18N4004](/zh-hans/errors/x18n4004) | 计划已过期         | `4` |
-| [X18N4005](/zh-hans/errors/x18n4005) | 该 key 没有对应的资源 | `1` |
-| [X18N4006](/zh-hans/errors/x18n4006) | 未找到 key       | `1` |
-| [X18N4007](/zh-hans/errors/x18n4007) | 占位符不匹配        | `1` |
-| [X18N4008](/zh-hans/errors/x18n4008) | 编辑输入无效        | `1` |
-| [X18N5001](/zh-hans/errors/x18n5001) | 无法读取审阅文件      | `1` |
-| [X18N5003](/zh-hans/errors/x18n5003) | 审阅不可用         | `1` |
-| [X18N5004](/zh-hans/errors/x18n5004) | 未找到审阅         | `1` |
-| [X18N5005](/zh-hans/errors/x18n5005) | 不是未处理的建议      | `1` |
+| 错误码                                  | 标题          | 退出码 |
+| ------------------------------------ | ----------- | --- |
+| [X18N0001](/zh-hans/errors/x18n0001) | 配置无效        | `2` |
+| [X18N0002](/zh-hans/errors/x18n0002) | 无法加载配置文件    | `2` |
+| [X18N0003](/zh-hans/errors/x18n0003) | 未知项目        | `2` |
+| [X18N1001](/zh-hans/errors/x18n1001) | 无法加载插件      | `2` |
+| [X18N1002](/zh-hans/errors/x18n1002) | 能力 id 重复    | `2` |
+| [X18N1003](/zh-hans/errors/x18n1003) | 未知预设        | `2` |
+| [X18N1004](/zh-hans/errors/x18n1004) | 无效的 YAML 插件 | `2` |
+| [X18N2001](/zh-hans/errors/x18n2001) | 资源没有对应的格式   | `1` |
+| [X18N2002](/zh-hans/errors/x18n2002) | 无法解析资源      | `1` |
+| [X18N2003](/zh-hans/errors/x18n2003) | 资源不是消息对象    | `1` |
+| [X18N2004](/zh-hans/errors/x18n2004) | 语言文件不是静态的   | `1` |
+| [X18N3001](/zh-hans/errors/x18n3001) | 无法扫描源文件     | `1` |
+| [X18N4001](/zh-hans/errors/x18n4001) | 资源为只读       | `1` |
+| [X18N4002](/zh-hans/errors/x18n4002) | 重命名的目标已存在   | `1` |
+| [X18N4003](/zh-hans/errors/x18n4003) | 需要做出决定      | `3` |
+| [X18N4004](/zh-hans/errors/x18n4004) | 计划已过期       | `4` |
+| [X18N4005](/zh-hans/errors/x18n4005) | 该键没有对应的资源   | `1` |
+| [X18N4006](/zh-hans/errors/x18n4006) | 未找到键        | `1` |
+| [X18N4007](/zh-hans/errors/x18n4007) | 占位符不匹配      | `1` |
+| [X18N4008](/zh-hans/errors/x18n4008) | 编辑输入无效      | `1` |
+| [X18N5001](/zh-hans/errors/x18n5001) | 无法读取审阅文件    | `1` |
+| [X18N5003](/zh-hans/errors/x18n5003) | 审阅不可用       | `1` |
+| [X18N5004](/zh-hans/errors/x18n5004) | 未找到审阅       | `1` |
+| [X18N5005](/zh-hans/errors/x18n5005) | 不是未处理的建议    | `1` |

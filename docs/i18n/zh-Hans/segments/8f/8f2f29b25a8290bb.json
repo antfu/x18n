@@ -1,14 +1,14 @@
 {
   "hash": "8f2f29b25a8290bb",
   "source": "Keys for extracted strings",
-  "text": "提取字符串的 key",
+  "text": "提取字符串的键",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "提取字符串的 key"
+    "candidate": "提取字符串的键"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "351945578d2c49d3",
   "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
-  "text": "替换代码。{0} 是 key，{1} 是属性名，{2} 是模板字符串的参数，{3} 是硬编码字符串的消息（用于默认值），{4} 是文件中原样书写的文本，{5} 是作为模板字符串主体的消息。{6} 和 {7} 会针对其外层的引号进行转义。",
+  "text": "替换代码。{0} 为键，{1} 为属性名，{2} 为模板字符串的参数，{3} 为硬编码字符串的消息（用作默认值），{4} 为文件中原样书写的文本，{5} 为作为模板字符串主体的消息。{6} 和 {7} 会针对其两侧的引号进行转义。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "替换代码。{0} 是 key，{1} 是属性名，{2} 是模板字符串的参数，{3} 是硬编码字符串的消息（用于默认值），{4} 是文件中原样书写的文本，{5} 是作为模板字符串主体的消息。{6} 和 {7} 会针对其外层的引号进行转义。"
+    "candidate": "替换代码。{0} 为键，{1} 为属性名，{2} 为模板字符串的参数，{3} 为硬编码字符串的消息（用作默认值），{4} 为文件中原样书写的文本，{5} 为作为模板字符串主体的消息。{6} 和 {7} 会针对其两侧的引号进行转义。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

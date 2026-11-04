@@ -1,14 +1,14 @@
 {
   "hash": "16ffb26790274f9e",
   "source": "A hard string is text in source code that is probably meant to be a message, such as {0}. An extractor finds hard strings and builds the replacement code. {1} turns them into keys, and the {2} check reports them when {3} is on.",
-  "text": "硬编码字符串是源代码中很可能本应作为消息的文本，例如 {0}。提取器会找出硬编码字符串并生成替换代码。{1} 会将它们转换为 key，开启 {3} 时，{2} 检查会报告它们。",
+  "text": "硬编码字符串是源代码中很可能应当作为消息的文本，例如 {0}。提取器会查找硬编码字符串并生成替换代码。{1} 会把它们转换为键，开启 {3} 时，{2} 检查会报告它们。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "硬编码字符串是源代码中很可能本应作为消息的文本，例如 {0}。提取器会找出硬编码字符串并生成替换代码。{1} 会将它们转换为 key，开启 {3} 时，{2} 检查会报告它们。"
+    "candidate": "硬编码字符串是源代码中很可能应当作为消息的文本，例如 {0}。提取器会查找硬编码字符串并生成替换代码。{1} 会把它们转换为键，开启 {3} 时，{2} 检查会报告它们。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

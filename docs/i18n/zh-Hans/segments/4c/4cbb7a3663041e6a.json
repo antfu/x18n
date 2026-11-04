@@ -1,14 +1,14 @@
 {
   "hash": "4cbb7a3663041e6a",
   "source": "If your config has no {0}, the preset uses {1}. The locale can have a country, such as {2}. New files use nested keys.",
-  "text": "如果你的配置中没有 {0}，该预设会使用 {1}。语言可以带有国家或地区，例如 {2}。新文件使用嵌套的 keys。",
+  "text": "如果你的配置中没有 {0}，预设会使用 {1}。语言可以带有国家或地区，例如 {2}。新文件使用嵌套键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "如果你的配置中没有 {0}，该预设会使用 {1}。语言可以带有国家或地区，例如 {2}。新文件使用嵌套的 keys。"
+    "candidate": "如果你的配置中没有 {0}，预设会使用 {1}。语言可以带有国家或地区，例如 {2}。新文件使用嵌套键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

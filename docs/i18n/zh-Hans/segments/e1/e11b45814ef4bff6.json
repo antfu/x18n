@@ -1,14 +1,14 @@
 {
   "hash": "e11b45814ef4bff6",
   "source": "List message keys, paged. Filter by {0} locale (keys to translate), {1} (keys no code uses), {2} or a key {3}. Pass {4} to get the value per locale. A key whose format gives it a display label has {5}. Continue with {6}.",
-  "text": "分页列出消息 key。可按 {0} 语言（待翻译的 key）、{1}（没有代码引用的 key）、{2} 或 key {3} 过滤。传入 {4} 可获取每种语言的值。如果某个 key 的格式为其提供了显示标签，则会包含 {5}。使用 {6} 继续翻页。",
+  "text": "分页列出消息的键。可按 {0} 语言（需要翻译的键）、{1}（代码中没有引用的键）、{2} 或键 {3} 过滤。传入 {4} 可获取每种语言的值。若某个键的格式为其提供了显示标签，则会包含 {5}。使用 {6} 继续获取后续内容。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "分页列出消息 key。可按 {0} 语言（待翻译的 key）、{1}（没有代码引用的 key）、{2} 或 key {3} 过滤。传入 {4} 可获取每种语言的值。如果某个 key 的格式为其提供了显示标签，则会包含 {5}。使用 {6} 继续翻页。"
+    "candidate": "分页列出消息的键。可按 {0} 语言（需要翻译的键）、{1}（代码中没有引用的键）、{2} 或键 {3} 过滤。传入 {4} 可获取每种语言的值。若某个键的格式为其提供了显示标签，则会包含 {5}。使用 {6} 继续获取后续内容。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "0c0e6ec8956be69c",
   "source": "Keys (globs) that count as used, for example keys built at runtime.",
-  "text": "视为已使用的 key（glob），例如在运行时构建的 key。",
+  "text": "视为已使用的键（glob），例如在运行时构建的键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "视为已使用的 key（glob），例如在运行时构建的 key。"
+    "candidate": "视为已使用的键（glob），例如在运行时构建的键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

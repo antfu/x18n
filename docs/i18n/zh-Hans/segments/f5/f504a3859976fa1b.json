@@ -1,14 +1,14 @@
 {
   "hash": "f504a3859976fa1b",
   "source": "Run {0} to list the keys, or {1} to search.",
-  "text": "运行 {0} 列出所有 key，或运行 {1} 进行搜索。",
+  "text": "运行 {0} 列出所有键，或运行 {1} 进行搜索。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "运行 {0} 列出所有 key，或运行 {1} 进行搜索。"
+    "candidate": "运行 {0} 列出所有键，或运行 {1} 进行搜索。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

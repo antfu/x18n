@@ -1,14 +1,14 @@
 {
   "hash": "d74116160f2cdcf5",
   "source": "The selector form {0} reads the key {1}.",
-  "text": "选择器形式 {0} 会读取 key {1}。",
+  "text": "选择器形式 {0} 会读取键 {1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "选择器形式 {0} 会读取 key {1}。"
+    "candidate": "选择器形式 {0} 会读取键 {1}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "dc2868ad410d8dec",
   "source": "Add types for your check ids and options through declaration merging. See {0}Typed config keys{/0}.",
-  "text": "通过声明合并为你的检查 id 和选项添加类型。参见{0}带类型的配置 keys{/0}。",
+  "text": "通过声明合并为你的检查 id 和选项添加类型。参见{0}带类型的配置键{/0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "通过声明合并为你的检查 id 和选项添加类型。参见{0}带类型的配置 keys{/0}。"
+    "candidate": "通过声明合并为你的检查 id 和选项添加类型。参见{0}带类型的配置键{/0}。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

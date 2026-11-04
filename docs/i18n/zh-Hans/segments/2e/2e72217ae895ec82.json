@@ -1,14 +1,14 @@
 {
   "hash": "2e72217ae895ec82",
   "source": "Only keys without usages",
-  "text": "仅显示没有引用的 key",
+  "text": "仅没有引用的键",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "仅显示没有引用的 key"
+    "candidate": "仅没有引用的键"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:09:14.276Z"
 }

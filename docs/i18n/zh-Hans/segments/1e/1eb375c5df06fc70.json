@@ -1,14 +1,14 @@
 {
   "hash": "1eb375c5df06fc70",
   "source": "The preset adds the derived key rules {0}, {1} and {2}. When {3} is used, {4}, {5} and {6} count as used, and {7} is not reported missing. Suffixes stack, so context with plural ({8}) and ordinal plurals ({9}) also belong to {10}. Hovers and inline values show the {11} form, or another form when the locale has no {12}.",
-  "text": "预设添加了派生 key 规则 {0}、{1} 和 {2}。使用 {3} 时，{4}、{5} 和 {6} 都视为已使用，且不会将 {7} 报告为缺失。后缀可以叠加，因此带复数的上下文（{8}）和序数复数（{9}）也属于 {10}。悬停提示和行内值会显示 {11} 形式；如果该语言没有 {12}，则显示其他形式。",
+  "text": "该预设添加了派生键规则 {0}、{1} 和 {2}。使用 {3} 时，{4}、{5} 和 {6} 会被视为已使用，且 {7} 不会被报告为缺失。后缀可以叠加，因此带复数的上下文（{8}）和序数复数（{9}）也属于 {10}。悬停提示和内联值会显示 {11} 形式；如果该语言没有 {12}，则显示其他形式。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "预设添加了派生 key 规则 {0}、{1} 和 {2}。使用 {3} 时，{4}、{5} 和 {6} 都视为已使用，且不会将 {7} 报告为缺失。后缀可以叠加，因此带复数的上下文（{8}）和序数复数（{9}）也属于 {10}。悬停提示和行内值会显示 {11} 形式；如果该语言没有 {12}，则显示其他形式。"
+    "candidate": "该预设添加了派生键规则 {0}、{1} 和 {2}。使用 {3} 时，{4}、{5} 和 {6} 会被视为已使用，且 {7} 不会被报告为缺失。后缀可以叠加，因此带复数的上下文（{8}）和序数复数（{9}）也属于 {10}。悬停提示和内联值会显示 {11} 形式；如果该语言没有 {12}，则显示其他形式。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "14e1896324140faa",
   "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
-  "text": "'call'（默认）：key 是一个参数。'selector'：参数是 {0}。'accessor'：根对象上的成员链。",
+  "text": "'call'（默认）：键是一个参数。'selector'：参数是 {0}。'accessor'：根对象上的成员链。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "'call'（默认）：key 是一个参数。'selector'：参数是 {0}。'accessor'：根对象上的成员链。"
+    "candidate": "'call'（默认）：键是一个参数。'selector'：参数是 {0}。'accessor'：根对象上的成员链。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

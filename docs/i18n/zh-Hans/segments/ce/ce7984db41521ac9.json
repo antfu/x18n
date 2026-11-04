@@ -1,14 +1,14 @@
 {
   "hash": "ce7984db41521ac9",
   "source": "A Rails locale file starts with the locale code as its top-level key. The preset reads the messages under that key, so the keys do not start with the locale:",
-  "text": "Rails 的语言文件以语言代码作为顶层 key。该预设读取此 key 下的消息，因此这些 key 不以语言代码开头：",
+  "text": "Rails 的语言文件以语言代码作为顶层键。预设会读取该键下的消息，因此这些键不以语言开头：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Rails 的语言文件以语言代码作为顶层 key。该预设读取此 key 下的消息，因此这些 key 不以语言代码开头："
+    "candidate": "Rails 的语言文件以语言代码作为顶层键。预设会读取该键下的消息，因此这些键不以语言开头："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "8feba0f596b212ae",
   "source": "A {0} in a key splits it into a path: {1} is {2} inside {3}. In a nested file it is {4}, in a flat file {5}. Set {6} for another separator, or to {7} when keys are whole sentences, such as {8} in Laravel, i18next with {9}, or gettext:",
-  "text": "key 中的 {0} 会将其拆分为路径：{1} 即 {3} 中的 {2}。在嵌套文件中它是 {4}，在扁平文件中则是 {5}。可通过 {6} 设置其他分隔符；当 key 是完整句子时，也可将其设为 {7}，例如 Laravel 中的 {8}、使用 {9} 的 i18next，或 gettext：",
+  "text": "键中的 {0} 会把它拆分为路径：{1} 即 {2}（位于 {3} 内）。在嵌套文件中是 {4}，在扁平文件中是 {5}。可以设置 {6} 来使用其他分隔符；当键是完整的句子时（例如 Laravel 中的 {8}、使用 {9} 的 i18next，或 gettext），可将其设为 {7}：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "key 中的 {0} 会将其拆分为路径：{1} 即 {3} 中的 {2}。在嵌套文件中它是 {4}，在扁平文件中则是 {5}。可通过 {6} 设置其他分隔符；当 key 是完整句子时，也可将其设为 {7}，例如 Laravel 中的 {8}、使用 {9} 的 i18next，或 gettext："
+    "candidate": "键中的 {0} 会把它拆分为路径：{1} 即 {2}（位于 {3} 内）。在嵌套文件中是 {4}，在扁平文件中是 {5}。可以设置 {6} 来使用其他分隔符；当键是完整的句子时（例如 Laravel 中的 {8}、使用 {9} 的 i18next，或 gettext），可将其设为 {7}："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

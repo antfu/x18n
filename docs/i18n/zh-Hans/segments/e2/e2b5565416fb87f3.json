@@ -1,14 +1,14 @@
 {
   "hash": "e2b5565416fb87f3",
   "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
-  "text": "哪个参数保存 key：可以是索引（默认 {0}），也可以用 {1} 表示对象参数的某个属性。",
+  "text": "哪个参数包含键：可以是索引（默认 {0}），或用 {1} 表示对象参数的某个属性。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "哪个参数保存 key：可以是索引（默认 {0}），也可以用 {1} 表示对象参数的某个属性。"
+    "candidate": "哪个参数包含键：可以是索引（默认 {0}），或用 {1} 表示对象参数的某个属性。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "d5a2c3d385174591",
   "source": "Longest value shown in an annotation. Longer values are truncated, and in-place mode falls back to an after-key hint.",
-  "text": "标注中显示的最长值。更长的值会被截断，原位模式会回退为 key 后提示。",
+  "text": "注释中显示的值的最大长度。更长的值会被截断，原位替换模式会退回到键后提示。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "标注中显示的最长值。更长的值会被截断，原位模式会回退为 key 后提示。"
+    "candidate": "注释中显示的值的最大长度。更长的值会被截断，原位替换模式会退回到键后提示。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

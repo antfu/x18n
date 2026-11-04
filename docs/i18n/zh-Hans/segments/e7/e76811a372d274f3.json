@@ -1,14 +1,14 @@
 {
   "hash": "e76811a372d274f3",
   "source": "An XLIFF file with a target language, or with a {0}, is a translation file: x18n reads and writes its targets. A new target keeps the placeholder markup of its {1}, so {2}, {3} and {4} stay. JSON files hold their messages in {5}, and the {6} and {7} entries of ARB files are metadata. Keys are flat: the id {8} is one key.",
-  "text": "带有目标语言或带有 {0} 的 XLIFF 文件是翻译文件：x18n 会读取并写入其中的目标文本。新的目标文本会保留其 {1} 的占位符标记，因此 {2}、{3} 和 {4} 会保持不变。JSON 文件把消息放在 {5} 中，ARB 文件中的 {6} 和 {7} 条目是元数据。key 是扁平的：id {8} 就是一个 key。",
+  "text": "带有目标语言或 {0} 的 XLIFF 文件是翻译文件：x18n 会读取并写入其中的 target。新增的 target 会保留其 {1} 的占位符标记，因此 {2}、{3} 和 {4} 都会保留。JSON 文件将消息放在 {5} 中，ARB 文件的 {6} 和 {7} 条目是元数据。键是扁平的：id {8} 就是一个键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "带有目标语言或带有 {0} 的 XLIFF 文件是翻译文件：x18n 会读取并写入其中的目标文本。新的目标文本会保留其 {1} 的占位符标记，因此 {2}、{3} 和 {4} 会保持不变。JSON 文件把消息放在 {5} 中，ARB 文件中的 {6} 和 {7} 条目是元数据。key 是扁平的：id {8} 就是一个 key。"
+    "candidate": "带有目标语言或 {0} 的 XLIFF 文件是翻译文件：x18n 会读取并写入其中的 target。新增的 target 会保留其 {1} 的占位符标记，因此 {2}、{3} 和 {4} 都会保留。JSON 文件将消息放在 {5} 中，ARB 文件的 {6} 和 {7} 条目是元数据。键是扁平的：id {8} 就是一个键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

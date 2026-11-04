@@ -1,14 +1,14 @@
 {
   "hash": "0debf5a4e90f23ed",
   "source": "The preset for the Shopify format of i18next. It reads nested plural keys and {name} placeholders, plus everything of react-i18next.",
-  "text": "适用于 i18next 的 Shopify 格式的预设。它可以读取嵌套的复数 key 和 {name} 占位符，并支持 react-i18next 的全部功能。",
+  "text": "i18next Shopify 格式的预设。它支持读取嵌套的复数键和 {name} 占位符，并包含 react-i18next 的全部功能。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "适用于 i18next 的 Shopify 格式的预设。它可以读取嵌套的复数 key 和 {name} 占位符，并支持 react-i18next 的全部功能。"
+    "candidate": "i18next Shopify 格式的预设。它支持读取嵌套的复数键和 {name} 占位符，并包含 react-i18next 的全部功能。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "f941d59cd57ba7c1",
   "source": "When a key gets a value in a locale that has no file yet, x18n fills the locale into a pattern without globs. Otherwise it copies the path of the source file and replaces the locale in it.",
-  "text": "当某个 key 在尚无文件的语言中获得值时，x18n 会把该语言填入不含 glob 的模式中。否则，它会复制源文件的路径，并替换其中的语言。",
+  "text": "当某个键在尚无文件的语言中获得值时，如果模式不含 glob，x18n 会把该语言填入模式；否则，它会复制源文件的路径，并替换其中的语言。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "当某个 key 在尚无文件的语言中获得值时，x18n 会把该语言填入不含 glob 的模式中。否则，它会复制源文件的路径，并替换其中的语言。"
+    "candidate": "当某个键在尚无文件的语言中获得值时，如果模式不含 glob，x18n 会把该语言填入模式；否则，它会复制源文件的路径，并替换其中的语言。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

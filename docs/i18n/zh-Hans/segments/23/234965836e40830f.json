@@ -1,14 +1,14 @@
 {
   "hash": "234965836e40830f",
   "source": "A user often names a text that they see in the app, not a key. The agent searches the values:",
-  "text": "用户通常会说出在应用中看到的文本，而不是 key。agent 会搜索值：",
+  "text": "用户通常会指出在应用中看到的某段文本，而不是键。agent 会搜索值：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "用户通常会说出在应用中看到的文本，而不是 key。agent 会搜索值："
+    "candidate": "用户通常会指出在应用中看到的某段文本，而不是键。agent 会搜索值："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T04:17:23.246Z"
 }

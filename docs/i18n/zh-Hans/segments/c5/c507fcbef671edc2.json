@@ -1,14 +1,14 @@
 {
   "hash": "c507fcbef671edc2",
   "source": "Only keys matching a glob",
-  "text": "仅显示匹配 glob 的 key",
+  "text": "仅限匹配 glob 的键",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "仅显示匹配 glob 的 key"
+    "candidate": "仅限匹配 glob 的键"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

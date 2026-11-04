@@ -1,14 +1,14 @@
 {
   "hash": "acafc7b402dc95c1",
   "source": "Deletes a key in every locale. {0} limits it. Code is not changed.",
-  "text": "在所有语言中删除一个 key。{0} 可限制范围。代码不会被修改。",
+  "text": "在所有语言中删除键。{0} 可限定范围。代码不会被更改。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在所有语言中删除一个 key。{0} 可限制范围。代码不会被修改。"
+    "candidate": "在所有语言中删除键。{0} 可限定范围。代码不会被更改。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

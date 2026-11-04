@@ -11,7 +11,7 @@ description: 可能应该改为消息的硬编码字符串。启用 `extract.aut
 
 该检查的严重级别为 `info`，但仅在配置中启用后才会运行。
 
-当 `extract.autoDetect` 为 `true`，或者你在 `checks` 中为它设置了严重级别时，该检查会启用。运行 `x18n extract` 可将报告的字符串转换为 keys。
+当 `extract.autoDetect` 为 `true`，或你在 `checks` 中为该检查设置了严重级别时，该检查会开启。运行 `x18n extract` 可将报告的字符串转换为键。
 
 ## 配置 {#configure}
 

@@ -1,14 +1,14 @@
 {
   "hash": "a181302953b6b87e",
   "source": "The extension treats a key such as {0} like an imported symbol:",
-  "text": "扩展会像对待导入的符号一样对待 {0} 这样的 key：",
+  "text": "扩展会把 {0} 这样的键当作导入的符号来处理：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "扩展会像对待导入的符号一样对待 {0} 这样的 key："
+    "candidate": "扩展会把 {0} 这样的键当作导入的符号来处理："
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

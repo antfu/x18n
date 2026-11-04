@@ -1,14 +1,14 @@
 {
   "hash": "35896a5f90faeed2",
   "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
-  "text": "完全动态的 key（例如 {0}）没有静态前缀，任何检查都无法跟踪。启用此检查即可找出这类引用。",
+  "text": "完全动态的键（例如 {0}）没有静态前缀，任何检查都无法追踪它。启用此检查即可找出这类引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "完全动态的 key（例如 {0}）没有静态前缀，任何检查都无法跟踪。启用此检查即可找出这类引用。"
+    "candidate": "完全动态的键（例如 {0}）没有静态前缀，任何检查都无法追踪它。启用此检查即可找出这类引用。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:09:14.276Z"
 }

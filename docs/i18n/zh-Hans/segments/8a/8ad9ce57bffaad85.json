@@ -1,14 +1,14 @@
 {
   "hash": "8ad9ce57bffaad85",
   "source": "One key: values, missing locales, usages with code and diagnostics.",
-  "text": "单个 key：值、缺失的语言、带代码的引用以及诊断信息。",
+  "text": "单个键：值、缺失的语言，以及带代码和诊断信息的引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "单个 key：值、缺失的语言、带代码的引用以及诊断信息。"
+    "candidate": "单个键：值、缺失的语言，以及带代码和诊断信息的引用。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:09:14.276Z"
 }

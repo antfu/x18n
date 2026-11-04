@@ -1,14 +1,14 @@
 {
   "hash": "26dde11648a68435",
   "source": "In a terminal, {0} asks for each string: accept the proposed key, type another key, skip it, or stop.",
-  "text": "在终端中，{0} 会逐个询问每个字符串：接受建议的 key、输入其他 key、跳过或停止。",
+  "text": "在终端中，{0} 会针对每个字符串询问：接受建议的键、输入其他键、跳过或停止。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在终端中，{0} 会逐个询问每个字符串：接受建议的 key、输入其他 key、跳过或停止。"
+    "candidate": "在终端中，{0} 会针对每个字符串询问：接受建议的键、输入其他键、跳过或停止。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

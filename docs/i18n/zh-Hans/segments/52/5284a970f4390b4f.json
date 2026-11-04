@@ -1,14 +1,14 @@
 {
   "hash": "5284a970f4390b4f",
   "source": ".NET resources. Each string {0} is a key; files and images are skipped. Its {1} describes it.",
-  "text": ".NET 资源。每个字符串 {0} 是一个 key；文件和图片会被跳过。它的 {1} 用于描述它。",
+  "text": ".NET 资源。每个字符串 {0} 对应一个键；文件和图片会被跳过。其 {1} 用于描述该键。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": ".NET 资源。每个字符串 {0} 是一个 key；文件和图片会被跳过。它的 {1} 用于描述它。"
+    "candidate": ".NET 资源。每个字符串 {0} 对应一个键；文件和图片会被跳过。其 {1} 用于描述该键。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

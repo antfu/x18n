@@ -1,14 +1,14 @@
 {
   "hash": "8c93117dea7fcf37",
   "source": "A fully dynamic key that no check can follow.",
-  "text": "完全动态的 key，任何检查都无法跟踪。",
+  "text": "完全动态的键，任何检查都无法追踪。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "完全动态的 key，任何检查都无法跟踪。"
+    "candidate": "完全动态的键，任何检查都无法追踪。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }

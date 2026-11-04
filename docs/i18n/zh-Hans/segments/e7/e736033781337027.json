@@ -1,14 +1,14 @@
 {
   "hash": "e736033781337027",
   "source": "One level of the key tree, with translation counts.",
-  "text": "key 树的一个层级，附带翻译数量。",
+  "text": "键树的一层，附带翻译数量。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "key 树的一个层级，附带翻译数量。"
+    "candidate": "键树的一层，附带翻译数量。"
   },
-  "updatedAt": "2026-11-04T04:06:29.043Z"
+  "updatedAt": "2026-11-04T02:01:46.209Z"
 }
