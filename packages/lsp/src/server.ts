@@ -550,6 +550,7 @@ class Server {
   /** ---- Editor features ---- */
   async hover(params: TextDocumentPositionParams): Promise<Hover | null> {
     await this.ready
+    await this.flush(params.textDocument.uri)
     const at = this.at(params)
     const target = at && at.entry.project.keyAt(at.path, at.offset)
     if (!at || !target)
