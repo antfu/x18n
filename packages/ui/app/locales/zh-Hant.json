@@ -78,7 +78,31 @@
     "sort": "排序",
     "sortKey": "鍵",
     "sortRecent": "最近變更",
-    "reviewed": "有審閱"
+    "reviewed": "有審閱",
+    "helpMenu": "右鍵或 Shift+F10 開啟操作"
+  },
+  "menu": {
+    "keyLabel": "{key} 的操作",
+    "valueLabel": "{key} 在 {locale} 中的操作",
+    "open": "開啟鍵",
+    "rename": "重新命名鍵",
+    "renameLabel": "{key} 的新名稱",
+    "copyKey": "複製鍵",
+    "copyValue": "複製值",
+    "copyPrompt": "複製翻譯提示詞",
+    "openFile": "在編輯器中開啟",
+    "edit": "編輯值",
+    "review": "審閱",
+    "comment": "留言…",
+    "requestChange": "要求修改…",
+    "suggest": "建議一個值…",
+    "markFresh": "標記為最新",
+    "fixes": "修正",
+    "loadingFixes": "正在尋找修正…",
+    "deleteKey": "刪除鍵",
+    "deleteValue": "在 {locale} 中刪除",
+    "confirm": "再次點擊以確認",
+    "failed": "未完成：{message}"
   },
   "locale": {
     "complete": "所有鍵皆已翻譯。",

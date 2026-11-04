@@ -78,7 +78,31 @@
     "sort": "Orden",
     "sortKey": "Clave",
     "sortRecent": "Cambiadas recientemente",
-    "reviewed": "Con revisión"
+    "reviewed": "Con revisión",
+    "helpMenu": "Clic derecho o Mayús+F10 para acciones"
+  },
+  "menu": {
+    "keyLabel": "Acciones para {key}",
+    "valueLabel": "Acciones para {key} en {locale}",
+    "open": "Abrir clave",
+    "rename": "Renombrar clave",
+    "renameLabel": "Nuevo nombre para {key}",
+    "copyKey": "Copiar clave",
+    "copyValue": "Copiar valor",
+    "copyPrompt": "Copiar prompt de traducción",
+    "openFile": "Abrir en el editor",
+    "edit": "Editar valor",
+    "review": "Revisión",
+    "comment": "Comentar…",
+    "requestChange": "Pedir cambios…",
+    "suggest": "Sugerir un valor…",
+    "markFresh": "Marcar como actualizado",
+    "fixes": "Correcciones",
+    "loadingFixes": "Buscando correcciones…",
+    "deleteKey": "Eliminar clave",
+    "deleteValue": "Eliminar en {locale}",
+    "confirm": "Haz clic otra vez para confirmar",
+    "failed": "No se hizo: {message}"
   },
   "locale": {
     "complete": "Todas las claves están traducidas.",

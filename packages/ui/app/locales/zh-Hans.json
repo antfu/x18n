@@ -78,7 +78,31 @@
     "sort": "排序",
     "sortKey": "键",
     "sortRecent": "最近更改",
-    "reviewed": "有审阅"
+    "reviewed": "有审阅",
+    "helpMenu": "右键或 Shift+F10 打开操作"
+  },
+  "menu": {
+    "keyLabel": "{key} 的操作",
+    "valueLabel": "{key} 在 {locale} 中的操作",
+    "open": "打开键",
+    "rename": "重命名键",
+    "renameLabel": "{key} 的新名称",
+    "copyKey": "复制键",
+    "copyValue": "复制值",
+    "copyPrompt": "复制翻译提示词",
+    "openFile": "在编辑器中打开",
+    "edit": "编辑值",
+    "review": "审阅",
+    "comment": "评论…",
+    "requestChange": "请求修改…",
+    "suggest": "建议一个值…",
+    "markFresh": "标记为最新",
+    "fixes": "修复",
+    "loadingFixes": "正在查找修复…",
+    "deleteKey": "删除键",
+    "deleteValue": "在 {locale} 中删除",
+    "confirm": "再次点击以确认",
+    "failed": "未完成：{message}"
   },
   "locale": {
     "complete": "所有键均已翻译。",

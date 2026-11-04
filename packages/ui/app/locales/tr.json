@@ -79,7 +79,31 @@
     "sort": "Sırala",
     "sortKey": "Anahtar",
     "sortRecent": "Son değiştirilenler",
-    "reviewed": "İncelendi"
+    "reviewed": "İncelendi",
+    "helpMenu": "İşlemler için sağ tık veya Shift+F10"
+  },
+  "menu": {
+    "keyLabel": "{key} için işlemler",
+    "valueLabel": "{locale} dilinde {key} için işlemler",
+    "open": "Anahtarı aç",
+    "rename": "Anahtarı yeniden adlandır",
+    "renameLabel": "{key} için yeni ad",
+    "copyKey": "Anahtarı kopyala",
+    "copyValue": "Değeri kopyala",
+    "copyPrompt": "Çeviri istemini kopyala",
+    "openFile": "Düzenleyicide aç",
+    "edit": "Değeri düzenle",
+    "review": "İnceleme",
+    "comment": "Yorum yap…",
+    "requestChange": "Değişiklik iste…",
+    "suggest": "Değer öner…",
+    "markFresh": "Güncel olarak işaretle",
+    "fixes": "Düzeltmeler",
+    "loadingFixes": "Düzeltmeler aranıyor…",
+    "deleteKey": "Anahtarı sil",
+    "deleteValue": "{locale} dilinde sil",
+    "confirm": "Onaylamak için tekrar tıkla",
+    "failed": "Yapılamadı: {message}"
   },
   "value": {
     "missing": "eksik",

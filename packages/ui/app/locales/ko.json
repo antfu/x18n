@@ -78,7 +78,31 @@
     "sort": "정렬",
     "sortKey": "키",
     "sortRecent": "최근 변경",
-    "reviewed": "리뷰 있음"
+    "reviewed": "리뷰 있음",
+    "helpMenu": "오른쪽 클릭 또는 Shift+F10으로 작업"
+  },
+  "menu": {
+    "keyLabel": "{key} 작업",
+    "valueLabel": "{locale}의 {key} 작업",
+    "open": "키 열기",
+    "rename": "키 이름 바꾸기",
+    "renameLabel": "{key}의 새 이름",
+    "copyKey": "키 복사",
+    "copyValue": "값 복사",
+    "copyPrompt": "번역 프롬프트 복사",
+    "openFile": "편집기에서 열기",
+    "edit": "값 편집",
+    "review": "리뷰",
+    "comment": "댓글…",
+    "requestChange": "변경 요청…",
+    "suggest": "값 제안…",
+    "markFresh": "최신으로 표시",
+    "fixes": "수정",
+    "loadingFixes": "수정 사항 찾는 중…",
+    "deleteKey": "키 삭제",
+    "deleteValue": "{locale}에서 삭제",
+    "confirm": "확인하려면 다시 클릭",
+    "failed": "실행하지 못함: {message}"
   },
   "locale": {
     "complete": "모든 키가 번역되었습니다.",

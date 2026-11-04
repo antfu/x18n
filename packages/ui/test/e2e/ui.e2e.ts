@@ -51,6 +51,42 @@ test('edits a value on the key page with save and cancel', async ({ page }) => {
   }
 })
 
+test('the grid context menu renames a key and deletes a value', async ({ page }) => {
+  const { root, dispose } = await fixture()
+  const { info, child } = await startUi(root)
+  try {
+    await page.goto(info.link!)
+    await page.getByRole('link', { name: 'Keys', exact: true }).click()
+
+    await page.locator('[data-key="nav.about"] [data-col="0"]').click({ button: 'right' })
+    await page.getByRole('menu', { name: 'Actions for nav.about' }).getByRole('menuitem', { name: 'Rename key' }).click()
+    await page.getByLabel('New name for nav.about').fill('nav.aboutUs')
+    await page.keyboard.press('Enter')
+    await expect.poll(async () => JSON.parse(await readFile(join(root, 'src/locales/en.json'), 'utf8')).nav.aboutUs).toBe('About')
+    await expect.poll(() => readFile(join(root, 'src/App.vue'), 'utf8')).toContain(`v-t="'nav.aboutUs'"`)
+
+    // The keyboard opens the menu at the cursor cell.
+    const cell = page.locator('[data-key="nav.aboutUs"] [data-locale="de"]')
+    await cell.click()
+    await page.keyboard.press('Shift+F10')
+    const menu = page.getByRole('menu', { name: 'Actions for nav.aboutUs in de' })
+    const remove = menu.getByRole('menuitem', { name: 'Delete in de' })
+    await remove.click()
+    await menu.getByRole('menuitem', { name: 'Click again to confirm' }).click()
+    await expect(menu).toHaveCount(0)
+    await expect.poll(async () => JSON.parse(await readFile(join(root, 'src/locales/de.json'), 'utf8')).nav.aboutUs).toBeUndefined()
+
+    // A missing translation is reported on the source message; its fixes show on the cell they fill.
+    await page.locator('[data-key="pages.about.title"] [data-locale="de"]').click({ button: 'right' })
+    await page.getByRole('menuitem', { name: 'Copy the source value' }).click()
+    await expect.poll(async () => JSON.parse(await readFile(join(root, 'src/locales/de.json'), 'utf8')).pages?.about?.title).toBe('About us')
+  }
+  finally {
+    child.kill()
+    await dispose()
+  }
+})
+
 test('refuses unauthenticated clients', async ({ page, request }) => {
   const { root, dispose } = await fixture()
   const { info, child } = await startUi(root)

@@ -78,7 +78,31 @@
     "sort": "Sortierung",
     "sortKey": "Schlüssel",
     "sortRecent": "Zuletzt geändert",
-    "reviewed": "Mit Review"
+    "reviewed": "Mit Review",
+    "helpMenu": "Rechtsklick oder Umschalt+F10 für Aktionen"
+  },
+  "menu": {
+    "keyLabel": "Aktionen für {key}",
+    "valueLabel": "Aktionen für {key} in {locale}",
+    "open": "Schlüssel öffnen",
+    "rename": "Schlüssel umbenennen",
+    "renameLabel": "Neuer Name für {key}",
+    "copyKey": "Schlüssel kopieren",
+    "copyValue": "Wert kopieren",
+    "copyPrompt": "Übersetzungs-Prompt kopieren",
+    "openFile": "Im Editor öffnen",
+    "edit": "Wert bearbeiten",
+    "review": "Review",
+    "comment": "Kommentieren…",
+    "requestChange": "Änderung anfordern…",
+    "suggest": "Wert vorschlagen…",
+    "markFresh": "Als aktuell markieren",
+    "fixes": "Korrekturen",
+    "loadingFixes": "Suche nach Korrekturen…",
+    "deleteKey": "Schlüssel löschen",
+    "deleteValue": "In {locale} löschen",
+    "confirm": "Zum Bestätigen erneut klicken",
+    "failed": "Nicht ausgeführt: {message}"
   },
   "locale": {
     "complete": "Alle Schlüssel sind übersetzt.",

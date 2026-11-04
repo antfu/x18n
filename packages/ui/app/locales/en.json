@@ -79,7 +79,31 @@
     "sort": "Sort",
     "sortKey": "Key",
     "sortRecent": "Recently changed",
-    "reviewed": "Reviewed"
+    "reviewed": "Reviewed",
+    "helpMenu": "Right click or Shift+F10 for actions"
+  },
+  "menu": {
+    "keyLabel": "Actions for {key}",
+    "valueLabel": "Actions for {key} in {locale}",
+    "open": "Open key",
+    "rename": "Rename key",
+    "renameLabel": "New name for {key}",
+    "copyKey": "Copy key",
+    "copyValue": "Copy value",
+    "copyPrompt": "Copy translate prompt",
+    "openFile": "Open in editor",
+    "edit": "Edit value",
+    "review": "Review",
+    "comment": "Comment…",
+    "requestChange": "Request change…",
+    "suggest": "Suggest a value…",
+    "markFresh": "Mark as up to date",
+    "fixes": "Fixes",
+    "loadingFixes": "Looking for fixes…",
+    "deleteKey": "Delete key",
+    "deleteValue": "Delete in {locale}",
+    "confirm": "Click again to confirm",
+    "failed": "Not done: {message}"
   },
   "value": {
     "missing": "missing",
