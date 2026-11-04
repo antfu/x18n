@@ -1046,6 +1046,7 @@ export interface Planner {
 
 export function createPlanner(options: PlannerOptions): Planner {
   const texts = new Map<string, ReadonlyMap<string, string | undefined>>()
+  let textsRevision: number | undefined
 
   /** Gives new reviews an id and a time, so planning again (after decisions) writes the same comments. */
   function withReviewIds(ops: readonly EditOp[], data: ReviewData): readonly EditOp[] {
@@ -1098,6 +1099,10 @@ export function createPlanner(options: PlannerOptions): Planner {
   return {
     plan(ops, answers = {}) {
       const result = planWith(ops, answers)
+      if (result.plan.revision !== textsRevision) {
+        texts.clear()
+        textsRevision = result.plan.revision
+      }
       texts.set(result.plan.id, result.texts)
       return result.plan
     },
