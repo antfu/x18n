@@ -145,6 +145,24 @@ describe('key files', () => {
     expect(project.message('c3', 'fr')?.value).toBe('Bonjour')
   })
 
+  it('moves a key duplicated in one locale once, keeping the value that wins', async () => {
+    const { project, files } = await setup({
+      'store/en/a1.json': record('a1', 'Hello'),
+      'store/en/copy.json': record('a1', 'Copy'),
+    })
+    const winner = project.message('a1', 'en')!
+    const plan = await write(project, [
+      { type: 'rename', from: 'a1', to: 'c3' },
+    ])
+    expect(files.has('store/en/a1.json')).toBe(false)
+    expect(files.get('store/en/c3.json')).toBe(record('c3', String(winner.value)))
+    expect(project.message('c3', 'en')?.value).toBe(winner.value)
+    expect(project.message('a1', 'en')).toBeUndefined()
+    expect(plan.warnings).toEqual([
+      `Copies of "a1" in en have different values; "c3" keeps the one from ${winner.resource}.`,
+    ])
+  })
+
   it('deletes the file of a deleted key', async () => {
     const { project, files } = await setup({
       'store/en/a1.json': record('a1', 'Hello'),

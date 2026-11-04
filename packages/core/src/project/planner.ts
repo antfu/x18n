@@ -98,6 +98,13 @@ function nodeAt(tree: MessageTree, path: readonly string[]): MessageLeaf | Messa
   return node
 }
 
+function leafAt(tree: MessageTree, path: readonly string[]): MessageLeaf | undefined {
+  const node = nodeAt(tree, path)
+  return isMessageLeaf(node)
+    ? node
+    : undefined
+}
+
 /** True for flat files (`{ "a.b": "x" }`), false for nested ones, undefined when it cannot tell. */
 function isFlatTree(tree: MessageTree, separator: string): boolean | undefined {
   const entries = Object.entries(tree)
@@ -424,12 +431,14 @@ class PlanBuilder {
     }
   }
 
-  setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf): void {
+  setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf): MessageLeaf | undefined {
     this.touched.add(key)
     const existing = this.options.message(key, locale)
     if (existing) {
-      this.pushOp(this.workFor(this.targetOf(this.writable(existing.resource))), { type: 'set', path: existing.storedPath, value })
-      return
+      const entry = this.workFor(this.targetOf(this.writable(existing.resource)))
+      const before = leafAt(entry.tree, existing.storedPath)
+      this.pushOp(entry, { type: 'set', path: existing.storedPath, value })
+      return before
     }
     const target = this.pickTarget(key, locale)
     if (target.state)
@@ -440,6 +449,9 @@ class PlanBuilder {
     if (occupied !== undefined && !isMessageLeaf(occupied))
       this.warnings.push(`"${key}" is a parent of other keys in ${target.path}; they are replaced.`)
     this.pushOp(entry, { type: 'set', path: stored, value })
+    return isMessageLeaf(occupied)
+      ? occupied
+      : undefined
   }
 
   deleteMessage(m: Message): void {
@@ -505,43 +517,52 @@ class PlanBuilder {
   moveKey(from: KeyString, to: KeyString, renamed: ReadonlySet<string> = new Set()): void {
     this.touched.add(from)
     this.touched.add(to)
-    for (const [locale, list] of this.options.messages(from) ?? []) {
-      const m = list[0]!
-      if (renamed.has(m.resource))
-        continue
-      const s = this.writable(m.resource)
-      const relative = this.relativePath(to, s.resource)
-      const own = this.options.resolveKey(to, locale)
-      if (!relative || (own && own.path !== s.resource.path)) {
-        this.deleteMessage(m)
-        this.setValue(to, locale, m.value)
-        continue
+    for (const list of this.options.messages(from)?.values() ?? []) {
+      // The winning copy (`list[0]`) moves last, so where copies meet in one place its value is kept.
+      for (const m of [...list].reverse()) {
+        if (renamed.has(m.resource))
+          continue
+        const replaced = this.moveMessage(m, to)
+        if (replaced !== undefined && replaced !== m.value) {
+          const path = this.stateById.get(m.resource)?.resource.path ?? m.resource
+          this.warnings.push(`Copies of "${from}" in ${m.locale} have different values; "${to}" keeps the one from ${path}.`)
+        }
       }
-      const entry = this.workFor(this.targetOf(s))
-      const separator = this.separatorOf(s.resource)
-      const flat = separator !== false && m.storedPath.length === 1 && m.storedPath[0]!.includes(separator)
-      const next = flat
-        ? [
-            relative.join(separator),
-          ]
-        : this.options.toStored(s.resource, relative)
-      const sameParent = next.length === m.storedPath.length && next.slice(0, -1).every((segment, i) => segment === m.storedPath[i])
-      const last = next.at(-1)!
-      if (sameParent && m.range && (flat ? safeFlat : safeSegment).test(last)) {
-        entry.keyRenames.push({ range: m.range.key, text: last })
-        this.applyOps(entry, [
-          { type: 'delete', path: m.storedPath },
-          { type: 'set', path: next, value: m.value },
-        ])
-        continue
-      }
-      this.deleteMessage(m)
-      this.pushOp(entry, {
-        type: 'set',
-        path: this.storedPathFor(entry, relative),
-        value: m.value,
-      })
     }
+  }
+
+  moveMessage(m: Message, to: KeyString): MessageLeaf | undefined {
+    const s = this.writable(m.resource)
+    const relative = this.relativePath(to, s.resource)
+    const own = this.options.resolveKey(to, m.locale)
+    if (!relative || (own && own.path !== s.resource.path)) {
+      this.deleteMessage(m)
+      return this.setValue(to, m.locale, m.value)
+    }
+    const entry = this.workFor(this.targetOf(s))
+    const separator = this.separatorOf(s.resource)
+    const flat = separator !== false && m.storedPath.length === 1 && m.storedPath[0]!.includes(separator)
+    const next = flat
+      ? [
+          relative.join(separator),
+        ]
+      : this.options.toStored(s.resource, relative)
+    const sameParent = next.length === m.storedPath.length && next.slice(0, -1).every((segment, i) => segment === m.storedPath[i])
+    const last = next.at(-1)!
+    if (sameParent && m.range && (flat ? safeFlat : safeSegment).test(last)) {
+      const replaced = leafAt(entry.tree, next)
+      entry.keyRenames.push({ range: m.range.key, text: last })
+      this.applyOps(entry, [
+        { type: 'delete', path: m.storedPath },
+        { type: 'set', path: next, value: m.value },
+      ])
+      return replaced
+    }
+    this.deleteMessage(m)
+    const path = this.storedPathFor(entry, relative)
+    const replaced = leafAt(entry.tree, path)
+    this.pushOp(entry, { type: 'set', path, value: m.value })
+    return replaced
   }
 
   // ---- Usages ----
