@@ -1,0 +1,14 @@
+{
+  "hash": "e204cff24fc63977",
+  "source": "Every built-in check of x18n check, with its default severity.",
+  "text": "x18n check の組み込みチェックの一覧と、それぞれのデフォルトの重大度です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n check の組み込みチェックの一覧と、それぞれのデフォルトの重大度です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

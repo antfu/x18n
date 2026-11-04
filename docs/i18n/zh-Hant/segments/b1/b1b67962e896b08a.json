@@ -1,0 +1,14 @@
+{
+  "hash": "b1b67962e896b08a",
+  "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
+  "text": "程式碼中所寫預設值的來源；採用找到的第一個字串。對於 factory，則是回傳函式的預設值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "程式碼中所寫預設值的來源；採用找到的第一個字串。對於 factory，則是回傳函式的預設值。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

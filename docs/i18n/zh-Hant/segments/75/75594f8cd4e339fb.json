@@ -1,0 +1,14 @@
+{
+  "hash": "75594f8cd4e339fb",
+  "source": "A key from a PHP file starts with the path of the file: {0} gives {1}. In a JSON file, each key is a whole sentence: {2}.",
+  "text": "PHP 檔案中的鍵會以檔案路徑開頭：{0} 會得到 {1}。在 JSON 檔案中，每個鍵都是一整句話：{2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP 檔案中的鍵會以檔案路徑開頭：{0} 會得到 {1}。在 JSON 檔案中，每個鍵都是一整句話：{2}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

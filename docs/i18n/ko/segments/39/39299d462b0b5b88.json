@@ -1,0 +1,14 @@
+{
+  "hash": "39299d462b0b5b88",
+  "source": "The check reads the {0} config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when {1} is {2}. A term and a translation match as whole words, so \"Home\" does not match \"Homepage\".",
+  "text": "이 검사는 {0} 설정을 읽습니다. 소스 값에 있는 각 용어에 대해, 대상 값에 해당 용어의 번역이 들어 있기를 기대하며, {1}이(가) {2}이면 용어 자체가 들어 있어도 됩니다. 용어와 번역은 전체 단어 단위로 일치하므로 \"Home\"은 \"Homepage\"와 일치하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 검사는 {0} 설정을 읽습니다. 소스 값에 있는 각 용어에 대해, 대상 값에 해당 용어의 번역이 들어 있기를 기대하며, {1}이(가) {2}이면 용어 자체가 들어 있어도 됩니다. 용어와 번역은 전체 단어 단위로 일치하므로 \"Home\"은 \"Homepage\"와 일치하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

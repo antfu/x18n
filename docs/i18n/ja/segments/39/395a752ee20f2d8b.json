@@ -1,0 +1,14 @@
+{
+  "hash": "395a752ee20f2d8b",
+  "source": "{0} passes a {1} with the namespace and key prefix to its child function.",
+  "text": "{0} は、名前空間とキーのプレフィックスを持つ {1} を子関数に渡します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、名前空間とキーのプレフィックスを持つ {1} を子関数に渡します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

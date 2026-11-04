@@ -1,0 +1,14 @@
+{
+  "hash": "7f4182b1daaccf1e",
+  "source": "A translate call whose params differ from the placeholders of the source message.",
+  "text": "translate 호출의 파라미터가 원본 메시지의 플레이스홀더와 다른 경우입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "translate 호출의 파라미터가 원본 메시지의 플레이스홀더와 다른 경우입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

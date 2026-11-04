@@ -1,0 +1,14 @@
+{
+  "hash": "ae22d6e72dc3c3ec",
+  "source": "The command prints the URL and a bearer token:",
+  "text": "이 명령은 URL과 bearer 토큰을 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 명령은 URL과 bearer 토큰을 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

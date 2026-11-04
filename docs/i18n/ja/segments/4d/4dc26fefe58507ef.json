@@ -1,0 +1,14 @@
+{
+  "hash": "4dc26fefe58507ef",
+  "source": "Fail when there are more warnings",
+  "text": "警告がこれより多い場合に失敗にする",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "警告がこれより多い場合に失敗にする"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

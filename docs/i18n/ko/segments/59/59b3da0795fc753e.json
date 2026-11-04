@@ -1,0 +1,14 @@
+{
+  "hash": "59b3da0795fc753e",
+  "source": "With --unused: only keys of a namespace",
+  "text": "--unused 사용 시: 해당 네임스페이스의 키만",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "--unused 사용 시: 해당 네임스페이스의 키만"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

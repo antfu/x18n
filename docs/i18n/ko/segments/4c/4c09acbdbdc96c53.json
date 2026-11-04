@@ -1,0 +1,14 @@
+{
+  "hash": "4c09acbdbdc96c53",
+  "source": "{0} reads the {1} of each property.",
+  "text": "{0}은(는) 각 프로퍼티의 {1}을(를) 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 각 프로퍼티의 {1}을(를) 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "584114a9ce943820",
+  "source": "The skill tells the agent:",
+  "text": "このスキルは、エージェントに次のことを指示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このスキルは、エージェントに次のことを指示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

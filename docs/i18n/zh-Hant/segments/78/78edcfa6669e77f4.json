@@ -1,0 +1,14 @@
+{
+  "hash": "78edcfa6669e77f4",
+  "source": "The preset for Android string resources. It reads strings.xml, plurals and string arrays, and R.string and @string usages.",
+  "text": "適用於 Android 字串資源的預設集。它會讀取 strings.xml、plurals 與字串陣列，以及 R.string 和 @string 的使用處。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用於 Android 字串資源的預設集。它會讀取 strings.xml、plurals 與字串陣列，以及 R.string 和 @string 的使用處。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

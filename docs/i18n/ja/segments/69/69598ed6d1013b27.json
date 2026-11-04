@@ -1,0 +1,14 @@
+{
+  "hash": "69598ed6d1013b27",
+  "source": "Files changed during the command.",
+  "text": "コマンドの実行中に変更されたファイルです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コマンドの実行中に変更されたファイルです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

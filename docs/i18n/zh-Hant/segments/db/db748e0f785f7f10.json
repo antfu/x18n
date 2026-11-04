@@ -1,0 +1,14 @@
+{
+  "hash": "db748e0f785f7f10",
+  "source": "Thymeleaf reads {0} for the default language and {1} for the others, and writes keys as {2}:",
+  "text": "Thymeleaf 會讀取 {0} 作為預設語言，並讀取 {1} 作為其他語言，鍵的寫法為 {2}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Thymeleaf 會讀取 {0} 作為預設語言，並讀取 {1} 作為其他語言，鍵的寫法為 {2}："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

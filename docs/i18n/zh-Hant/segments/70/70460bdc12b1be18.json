@@ -1,0 +1,14 @@
+{
+  "hash": "70460bdc12b1be18",
+  "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
+  "text": "agent 必須在專案根目錄啟動該指令，或傳入 {0}。伺服器會監看檔案，因此能看到其他工具所做的編輯。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "agent 必須在專案根目錄啟動該指令，或傳入 {0}。伺服器會監看檔案，因此能看到其他工具所做的編輯。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

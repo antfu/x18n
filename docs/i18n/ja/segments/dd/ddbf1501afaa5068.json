@@ -1,0 +1,14 @@
+{
+  "hash": "ddbf1501afaa5068",
+  "source": "Print the files instead of writing",
+  "text": "ファイルを書き込まずに出力します",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイルを書き込まずに出力します"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

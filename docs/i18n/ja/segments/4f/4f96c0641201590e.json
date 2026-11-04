@@ -1,0 +1,14 @@
+{
+  "hash": "4f96c0641201590e",
+  "source": "Keep the term as it is in every locale.",
+  "text": "すべてのロケールで用語をそのまま残します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "すべてのロケールで用語をそのまま残します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

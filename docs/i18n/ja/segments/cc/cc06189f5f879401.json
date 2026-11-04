@@ -1,0 +1,14 @@
+{
+  "hash": "cc06189f5f879401",
+  "source": "Without a root config",
+  "text": "ルート設定がない場合",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ルート設定がない場合"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

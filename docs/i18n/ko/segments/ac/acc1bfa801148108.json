@@ -1,0 +1,14 @@
+{
+  "hash": "acc1bfa801148108",
+  "source": "Also translate stale translations: those older than their source message. Needs git history.",
+  "text": "오래된 번역, 즉 소스 메시지보다 오래된 번역도 함께 번역합니다. git 기록이 필요합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오래된 번역, 즉 소스 메시지보다 오래된 번역도 함께 번역합니다. git 기록이 필요합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

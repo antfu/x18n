@@ -1,0 +1,14 @@
+{
+  "hash": "cb2a3de80527211e",
+  "source": "The command needs one project, but the name you gave matches none, or the workspace has several projects and you gave no name.",
+  "text": "이 명령은 프로젝트 하나가 필요하지만, 지정한 이름과 일치하는 프로젝트가 없거나 워크스페이스에 프로젝트가 여러 개인데 이름을 지정하지 않았습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 명령은 프로젝트 하나가 필요하지만, 지정한 이름과 일치하는 프로젝트가 없거나 워크스페이스에 프로젝트가 여러 개인데 이름을 지정하지 않았습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

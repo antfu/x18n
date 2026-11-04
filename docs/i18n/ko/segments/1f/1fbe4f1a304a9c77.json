@@ -1,0 +1,14 @@
+{
+  "hash": "1fbe4f1a304a9c77",
+  "source": "{0} runs one check, for example the check of your plugin.",
+  "text": "{0}은(는) 예를 들어 작성한 플러그인의 검사처럼 검사 하나를 실행합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 예를 들어 작성한 플러그인의 검사처럼 검사 하나를 실행합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

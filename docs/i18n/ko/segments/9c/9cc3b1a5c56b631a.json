@@ -1,0 +1,14 @@
+{
+  "hash": "9cc3b1a5c56b631a",
+  "source": "Keys found by their value in any locale, best first: fuzzy unless {0}, ignoring case. Each match has the matched value, its locale entry and the usages. At most 100.",
+  "text": "모든 로케일에서 값으로 찾은 키를 가장 잘 일치하는 순으로 반환합니다. {0}가 아니면 대소문자를 무시하고 퍼지 매칭을 사용합니다. 각 일치 항목에는 일치한 값, 해당 로케일 항목, 사용처가 포함됩니다. 최대 100개입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일에서 값으로 찾은 키를 가장 잘 일치하는 순으로 반환합니다. {0}가 아니면 대소문자를 무시하고 퍼지 매칭을 사용합니다. 각 일치 항목에는 일치한 값, 해당 로케일 항목, 사용처가 포함됩니다. 최대 100개입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

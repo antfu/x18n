@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "伺服器會透過 {0} 執行這些指令。引數為單一物件。{1} 預設為第一個專案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "伺服器會透過 {0} 執行這些指令。引數為單一物件。{1} 預設為第一個專案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2fd2f3e264a62675",
+  "source": "Run the commands from the root of the monorepo. The CLI uses the first config file that it finds from the current directory upward. If you run it in {0}, it finds {1} first and loads that project alone, without the root options.",
+  "text": "請從 monorepo 的根目錄執行指令。CLI 會使用從目前目錄往上找到的第一個設定檔。如果你在 {0} 中執行，它會先找到 {1}，並且只載入該專案，不使用根設定檔的選項。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "請從 monorepo 的根目錄執行指令。CLI 會使用從目前目錄往上找到的第一個設定檔。如果你在 {0} 中執行，它會先找到 {1}，並且只載入該專案，不使用根設定檔的選項。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

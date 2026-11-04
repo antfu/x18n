@@ -1,0 +1,14 @@
+{
+  "hash": "44eeeaa73bb5ded6",
+  "source": "Text of a value in any locale, ignoring case.",
+  "text": "任意のロケールの値のテキストです。大文字小文字は区別しません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "任意のロケールの値のテキストです。大文字小文字は区別しません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

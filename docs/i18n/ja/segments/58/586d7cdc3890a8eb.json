@@ -1,0 +1,14 @@
+{
+  "hash": "586d7cdc3890a8eb",
+  "source": "The preset for i18n-js (ruby-i18n-js). It reads I18n.t and i18n.t calls and %{name} placeholders.",
+  "text": "i18n-js（ruby-i18n-js）用のプリセットです。I18n.t と i18n.t の呼び出し、および %{name} プレースホルダーを読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-js（ruby-i18n-js）用のプリセットです。I18n.t と i18n.t の呼び出し、および %{name} プレースホルダーを読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

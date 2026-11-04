@@ -1,0 +1,14 @@
+{
+  "hash": "1e2ea7e88b8db4da",
+  "source": "{0} in the config, so no built-in preset applies",
+  "text": "설정에 {0}이(가) 있으므로 기본 제공 프리셋이 적용되지 않습니다",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에 {0}이(가) 있으므로 기본 제공 프리셋이 적용되지 않습니다"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

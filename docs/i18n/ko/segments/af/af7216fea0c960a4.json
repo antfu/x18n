@@ -1,0 +1,14 @@
+{
+  "hash": "af7216fea0c960a4",
+  "source": "Each review has a short random {0}. Commands such as {1} take it.",
+  "text": "각 리뷰에는 짧은 임의의 {0}가 있습니다. {1} 같은 명령은 이를 인자로 받습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 리뷰에는 짧은 임의의 {0}가 있습니다. {1} 같은 명령은 이를 인자로 받습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

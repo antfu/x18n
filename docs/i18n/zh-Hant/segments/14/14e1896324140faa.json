@@ -1,0 +1,14 @@
+{
+  "hash": "14e1896324140faa",
+  "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
+  "text": "'call'（預設）：鍵是一個引數。'selector'：引數是 {0}。'accessor'：根物件上的成員鏈。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "'call'（預設）：鍵是一個引數。'selector'：引數是 {0}。'accessor'：根物件上的成員鏈。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "3bf1d901754b15fd",
+  "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
+  "text": "此次編輯的目標是唯讀資源。含有 {0} 的資源為唯讀，因為 x18n 無法寫入計算這些值的程式碼。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此次編輯的目標是唯讀資源。含有 {0} 的資源為唯讀，因為 x18n 無法寫入計算這些值的程式碼。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "49e93ce2f849de05",
+  "source": "Apply extraction items from x18n\\_extract\\_plan: adds the messages to the source locale and rewrites the code. Fails when a file changed since the plan was made; plan again then.",
+  "text": "x18n\\_extract\\_plan の抽出項目を適用します。メッセージをソースロケールに追加し、コードを書き換えます。プランの作成後にファイルが変更されていると失敗するため、その場合は再度プランを作成してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n\\_extract\\_plan の抽出項目を適用します。メッセージをソースロケールに追加し、コードを書き換えます。プランの作成後にファイルが変更されていると失敗するため、その場合は再度プランを作成してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

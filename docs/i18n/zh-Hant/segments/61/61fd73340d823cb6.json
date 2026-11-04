@@ -1,0 +1,14 @@
+{
+  "hash": "61fd73340d823cb6",
+  "source": "The preset includes everything of the {0} preset. If the {1} preset also applies, x18n adds the shared plugins one time.",
+  "text": "此預設集包含 {0} 預設集的所有內容。如果 {1} 預設集也適用，x18n 只會加入一次共用的外掛。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集包含 {0} 預設集的所有內容。如果 {1} 預設集也適用，x18n 只會加入一次共用的外掛。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

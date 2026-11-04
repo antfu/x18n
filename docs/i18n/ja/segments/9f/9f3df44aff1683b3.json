@@ -1,0 +1,14 @@
+{
+  "hash": "9f3df44aff1683b3",
+  "source": "Or restore the file from git.",
+  "text": "または、git からファイルを復元してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "または、git からファイルを復元してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

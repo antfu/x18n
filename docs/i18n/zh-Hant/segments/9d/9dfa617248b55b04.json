@@ -1,0 +1,14 @@
+{
+  "hash": "9dfa617248b55b04",
+  "source": "In Rust files, the preset reads the {0} macro. The first argument can be the loader, or it can be absent when you use a wrapper macro:",
+  "text": "在 Rust 檔案中，預設集會讀取 {0} 巨集。第一個引數可以是 loader；使用包裝巨集時，也可以省略：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 Rust 檔案中，預設集會讀取 {0} 巨集。第一個引數可以是 loader；使用包裝巨集時，也可以省略："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

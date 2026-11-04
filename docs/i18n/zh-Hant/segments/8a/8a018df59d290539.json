@@ -1,0 +1,14 @@
+{
+  "hash": "8a018df59d290539",
+  "source": "Flag emoji next to locales in hovers.",
+  "text": "在懸停提示中，於語系旁顯示旗幟表情符號。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在懸停提示中，於語系旁顯示旗幟表情符號。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

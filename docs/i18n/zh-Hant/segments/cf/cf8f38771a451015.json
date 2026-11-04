@@ -1,0 +1,14 @@
+{
+  "hash": "cf8f38771a451015",
+  "source": "A key with no usage, after keysInUse, derived keys and dynamic prefixes.",
+  "text": "在考量 keysInUse、衍生鍵與動態前綴後，仍沒有使用處的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在考量 keysInUse、衍生鍵與動態前綴後，仍沒有使用處的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dd75080cc755937a",
+  "source": "The preset for angular-i18next. It reads the pipes in Angular templates, injected services under any name, namespace and scope providers, translated titles and validation messages.",
+  "text": "angular-i18next 프리셋입니다. Angular 템플릿의 파이프, 임의의 이름으로 주입된 서비스, 네임스페이스 및 스코프 프로바이더, 번역된 타이틀과 유효성 검사 메시지를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "angular-i18next 프리셋입니다. Angular 템플릿의 파이프, 임의의 이름으로 주입된 서비스, 네임스페이스 및 스코프 프로바이더, 번역된 타이틀과 유효성 검사 메시지를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

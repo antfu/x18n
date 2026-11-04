@@ -1,0 +1,14 @@
+{
+  "hash": "b30245df43e9dbab",
+  "source": "Then run {0} (or {1}) in your CI. {2}CI{/2} shows a GitHub Actions workflow that puts the problems on the lines of a pull request.",
+  "text": "接著在你的 CI 中執行 {0}（或 {1}）。{2}CI{/2} 提供了一個 GitHub Actions workflow，可將問題標示在 pull request 的對應行上。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "接著在你的 CI 中執行 {0}（或 {1}）。{2}CI{/2} 提供了一個 GitHub Actions workflow，可將問題標示在 pull request 的對應行上。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

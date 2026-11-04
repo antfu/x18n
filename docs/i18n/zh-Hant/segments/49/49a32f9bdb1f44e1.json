@@ -1,0 +1,14 @@
+{
+  "hash": "49a32f9bdb1f44e1",
+  "source": "x18n reads JS and TS locale files as text and does not run them. A file that computes its messages cannot be read that way.",
+  "text": "x18n 會將 JS 和 TS 語系檔案當作文字讀取，不會執行它們。會動態計算訊息的檔案無法以這種方式讀取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 會將 JS 和 TS 語系檔案當作文字讀取，不會執行它們。會動態計算訊息的檔案無法以這種方式讀取。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

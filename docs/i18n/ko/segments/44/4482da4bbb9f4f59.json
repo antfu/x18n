@@ -1,0 +1,14 @@
+{
+  "hash": "4482da4bbb9f4f59",
+  "source": "{0} is the URL of the {1}error page{/1} of the code.",
+  "text": "{0}은 해당 코드의 {1}오류 페이지{/1} URL입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은 해당 코드의 {1}오류 페이지{/1} URL입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

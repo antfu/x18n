@@ -1,0 +1,14 @@
+{
+  "hash": "6fd290eb82a7bfba",
+  "source": "Reads and writes the review file ({0}). The YAML one is built in.",
+  "text": "レビューファイル（{0}）の読み書きを行います。YAML 形式のものが組み込まれています。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レビューファイル（{0}）の読み書きを行います。YAML 形式のものが組み込まれています。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

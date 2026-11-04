@@ -1,0 +1,14 @@
+{
+  "hash": "26aa8d9e862f28b1",
+  "source": "The server also accepts {0} and {1}. With {2}, the client listens on the port and the server connects to it. The server loads the projects of each workspace folder, the same way the CLI does.",
+  "text": "サーバーは {0} と {1} も受け付けます。{2} を指定すると、クライアントがポートで待ち受け、サーバーがそこに接続します。サーバーは CLI と同じ方法で、各ワークスペースフォルダーのプロジェクトを読み込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "サーバーは {0} と {1} も受け付けます。{2} を指定すると、クライアントがポートで待ち受け、サーバーがそこに接続します。サーバーは CLI と同じ方法で、各ワークスペースフォルダーのプロジェクトを読み込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

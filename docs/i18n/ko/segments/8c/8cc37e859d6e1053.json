@@ -1,0 +1,14 @@
+{
+  "hash": "8cc37e859d6e1053",
+  "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
+  "text": "템플릿 문자열의 본문으로 만든 메시지입니다. 각 인자는 {1}이 작성하는 방식대로 {0}로 표현됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "템플릿 문자열의 본문으로 만든 메시지입니다. 각 인자는 {1}이 작성하는 방식대로 {0}로 표현됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

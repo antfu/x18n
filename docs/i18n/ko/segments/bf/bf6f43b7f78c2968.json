@@ -1,0 +1,14 @@
+{
+  "hash": "bf6f43b7f78c2968",
+  "source": "The translate prompt for a locale, as markdown.",
+  "text": "로케일의 번역 프롬프트를 마크다운으로 반환합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일의 번역 프롬프트를 마크다운으로 반환합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ad4fd7b775b443b8",
+  "source": "The preset for Paraglide JS. It reads m.key() message calls and messages/{locale}.json files.",
+  "text": "Paraglide JS용 프리셋입니다. m.key() 메시지 호출과 messages/{locale}.json 파일을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Paraglide JS용 프리셋입니다. m.key() 메시지 호출과 messages/{locale}.json 파일을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

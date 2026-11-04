@@ -1,0 +1,14 @@
+{
+  "hash": "11b83bdc36bf4820",
+  "source": "A plugin is an object that adds capabilities through the plugin API. A capability is one kind of contribution: a format, a locale finder, a scanner, an extractor, a check, a reporter or a placeholder syntax. A preset is a group of plugins for one library, with a rule that detects the library. See {0}Writing plugins{/0}.",
+  "text": "外掛是透過外掛 API 新增功能的物件。功能（capability）是一種貢獻類型：格式、語系尋找器、掃描器、擷取器、檢查、回報器或佔位符語法。預設集是針對某個函式庫的一組外掛，並附有偵測該函式庫的規則。請參閱{0}撰寫外掛{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "外掛是透過外掛 API 新增功能的物件。功能（capability）是一種貢獻類型：格式、語系尋找器、掃描器、擷取器、檢查、回報器或佔位符語法。預設集是針對某個函式庫的一組外掛，並附有偵測該函式庫的規則。請參閱{0}撰寫外掛{/0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

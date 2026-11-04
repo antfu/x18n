@@ -1,0 +1,14 @@
+{
+  "hash": "98e7a6a0b63aee21",
+  "source": "{0} uploads the file also when the check step fails.",
+  "text": "{0}은(는) 검사 단계가 실패해도 파일을 업로드합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 검사 단계가 실패해도 파일을 업로드합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a393a579578b609f",
+  "source": "Accept default answers for decisions",
+  "text": "對需要決定的項目接受預設答案",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "對需要決定的項目接受預設答案"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

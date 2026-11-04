@@ -1,0 +1,14 @@
+{
+  "hash": "674a594feaaa8766",
+  "source": "Leave a review on one message for a human: {0} with the reason in {1}, or {2} with a better value in {3} (a human applies it), {4}, or {5}. Use it when a human should decide, instead of changing values yourself.",
+  "text": "사람을 위해 메시지 하나에 리뷰를 남깁니다. {1}에 사유를 적은 {0}, {2}에 더 나은 값을 담은 {3}(사람이 적용함), {4}, 또는 {5}를 사용할 수 있습니다. 직접 값을 변경하는 대신 사람이 결정해야 할 때 사용하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사람을 위해 메시지 하나에 리뷰를 남깁니다. {1}에 사유를 적은 {0}, {2}에 더 나은 값을 담은 {3}(사람이 적용함), {4}, 또는 {5}를 사용할 수 있습니다. 직접 값을 변경하는 대신 사람이 결정해야 할 때 사용하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

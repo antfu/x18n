@@ -1,0 +1,14 @@
+{
+  "hash": "382cd34519e85a22",
+  "source": "Only unused keys of this namespace.",
+  "text": "이 네임스페이스에서 사용되지 않는 키만 대상으로 합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 네임스페이스에서 사용되지 않는 키만 대상으로 합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

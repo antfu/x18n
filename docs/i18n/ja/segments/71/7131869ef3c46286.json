@@ -1,0 +1,14 @@
+{
+  "hash": "7131869ef3c46286",
+  "source": "the same under {0} and {1}",
+  "text": "{0} と {1} のどちらでも同じです",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} と {1} のどちらでも同じです"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

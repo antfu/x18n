@@ -1,0 +1,14 @@
+{
+  "hash": "a91fde33ed81f850",
+  "source": "Strings never extracted in the files of a glob, written as in {0}.",
+  "text": "在某個 glob 所指的檔案中永不擷取的字串，glob 的寫法與 {0} 相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在某個 glob 所指的檔案中永不擷取的字串，glob 的寫法與 {0} 相同。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

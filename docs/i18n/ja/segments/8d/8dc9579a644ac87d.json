@@ -1,0 +1,14 @@
+{
+  "hash": "8dc9579a644ac87d",
+  "source": "the {0} request of the {1}language server{/1}.",
+  "text": "{1}言語サーバー{/1}の {0} リクエスト",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1}言語サーバー{/1}の {0} リクエスト"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "36fb5c399f54224e",
+  "source": "The names are those in the first column of the table, in every config format. {0} turns every preset off.",
+  "text": "이름은 모든 설정 형식에서 표의 첫 번째 열에 있는 이름과 같습니다. {0}은(는) 모든 프리셋을 끕니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이름은 모든 설정 형식에서 표의 첫 번째 열에 있는 이름과 같습니다. {0}은(는) 모든 프리셋을 끕니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

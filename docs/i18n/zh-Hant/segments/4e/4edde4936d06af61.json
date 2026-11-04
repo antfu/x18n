@@ -1,0 +1,14 @@
+{
+  "hash": "4edde4936d06af61",
+  "source": "A block with {0} reads its messages from another file, relative to the {1} file. Without {2}, the file extension picks the format. Edits write to that file:",
+  "text": "帶有 {0} 的區塊會從另一個檔案讀取其訊息，路徑相對於 {1} 檔案。若沒有 {2}，則由副檔名決定格式。編輯內容會寫入該檔案：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "帶有 {0} 的區塊會從另一個檔案讀取其訊息，路徑相對於 {1} 檔案。若沒有 {2}，則由副檔名決定格式。編輯內容會寫入該檔案："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

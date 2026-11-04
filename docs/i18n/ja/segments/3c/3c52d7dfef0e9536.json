@@ -1,0 +1,14 @@
+{
+  "hash": "3c52d7dfef0e9536",
+  "source": "{0} turns the raw key text of a usage into the canonical key. The first plugin that returns a value wins.",
+  "text": "{0} は、使用箇所の生のキーテキストを正規のキーに変換します。値を返した最初のプラグインが優先されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、使用箇所の生のキーテキストを正規のキーに変換します。値を返した最初のプラグインが優先されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

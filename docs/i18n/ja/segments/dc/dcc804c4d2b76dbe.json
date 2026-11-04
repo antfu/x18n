@@ -1,0 +1,14 @@
+{
+  "hash": "dcc804c4d2b76dbe",
+  "source": "{0}Config reference{/0}: every option, with its type and default.",
+  "text": "{0}設定リファレンス{/0}: すべてのオプションと、その型およびデフォルト値。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}設定リファレンス{/0}: すべてのオプションと、その型およびデフォルト値。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

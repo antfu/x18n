@@ -1,0 +1,14 @@
+{
+  "hash": "7263ad2b8c5b19d5",
+  "source": "The preset for vue-i18n. It reads translate calls in script and template, v-t, i18n-t, and Vue <i18n> blocks.",
+  "text": "vue-i18n 的預設集。它會讀取 script 與 template 中的翻譯呼叫、v-t、i18n-t，以及 Vue <i18n> 區塊。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "vue-i18n 的預設集。它會讀取 script 與 template 中的翻譯呼叫、v-t、i18n-t，以及 Vue <i18n> 區塊。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

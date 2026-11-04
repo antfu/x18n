@@ -1,0 +1,14 @@
+{
+  "hash": "8571ac121f53485b",
+  "source": "Arguments that may hold the params object, in order; string arguments are skipped ({0}).",
+  "text": "params 객체를 담을 수 있는 인자를 순서대로 나열합니다. 문자열 인자는 건너뜁니다({0}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "params 객체를 담을 수 있는 인자를 순서대로 나열합니다. 문자열 인자는 건너뜁니다({0})."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

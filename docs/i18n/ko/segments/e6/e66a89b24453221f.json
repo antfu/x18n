@@ -1,0 +1,14 @@
+{
+  "hash": "e66a89b24453221f",
+  "source": "notification (client to server)",
+  "text": "알림 (클라이언트에서 서버로)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "알림 (클라이언트에서 서버로)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

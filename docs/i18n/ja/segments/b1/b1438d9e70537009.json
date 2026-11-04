@@ -1,0 +1,14 @@
+{
+  "hash": "b1438d9e70537009",
+  "source": "Translate missing messages",
+  "text": "不足しているメッセージを翻訳する",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不足しているメッセージを翻訳する"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

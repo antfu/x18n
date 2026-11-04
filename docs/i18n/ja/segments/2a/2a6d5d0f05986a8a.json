@@ -1,0 +1,14 @@
+{
+  "hash": "2a6d5d0f05986a8a",
+  "source": "The {0} preset supports {1}angular-i18next{/1} on top of {2}, so plurals, namespaces and the init options work the same.",
+  "text": "{0} プリセットは、{2} をベースに {1}angular-i18next{/1} をサポートします。そのため、複数形、名前空間、init オプションは同じように動作します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、{2} をベースに {1}angular-i18next{/1} をサポートします。そのため、複数形、名前空間、init オプションは同じように動作します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

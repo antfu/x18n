@@ -1,0 +1,14 @@
+{
+  "hash": "ac0d0b7a5385a678",
+  "source": "Invalid YAML plugin. Validate the file against `schema/plugin.json`.",
+  "text": "無効な YAML プラグインです。`schema/plugin.json` に対してファイルを検証してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "無効な YAML プラグインです。`schema/plugin.json` に対してファイルを検証してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

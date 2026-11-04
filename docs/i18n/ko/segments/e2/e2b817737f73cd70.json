@@ -1,0 +1,14 @@
+{
+  "hash": "e2b817737f73cd70",
+  "source": "The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it.",
+  "text": "파일에 작성된 그대로의 하드코딩된 문자열 텍스트입니다. 주변의 소스를 유지하는 마크업에 사용하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일에 작성된 그대로의 하드코딩된 문자열 텍스트입니다. 주변의 소스를 유지하는 마크업에 사용하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

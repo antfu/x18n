@@ -1,0 +1,14 @@
+{
+  "hash": "1b4eb59201ff3d6f",
+  "source": "it is a derived key of a used key ({0}, for example i18next {1} plural keys),",
+  "text": "使用されているキーの派生キーである（{0}、たとえば i18next の {1} の複数形キーなど）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用されているキーの派生キーである（{0}、たとえば i18next の {1} の複数形キーなど）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

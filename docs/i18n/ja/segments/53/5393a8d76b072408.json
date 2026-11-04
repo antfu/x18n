@@ -1,0 +1,14 @@
+{
+  "hash": "5393a8d76b072408",
+  "source": "Callee names never counted as translate calls.",
+  "text": "翻訳呼び出しとして数えない呼び出し先の名前です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻訳呼び出しとして数えない呼び出し先の名前です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

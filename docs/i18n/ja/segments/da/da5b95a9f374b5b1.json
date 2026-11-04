@@ -1,0 +1,14 @@
+{
+  "hash": "da5b95a9f374b5b1",
+  "source": "A decision is needed and no answer was given. Run again with {0}.",
+  "text": "判断が必要ですが、回答がありませんでした。{0} を付けて再実行してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "判断が必要ですが、回答がありませんでした。{0} を付けて再実行してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

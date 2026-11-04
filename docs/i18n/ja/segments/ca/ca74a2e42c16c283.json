@@ -1,0 +1,14 @@
+{
+  "hash": "ca74a2e42c16c283",
+  "source": "{0} for a wrong translation (say why in {1}), {2} to propose a value (in {3}), {4} for a good one, {5} for anything else.",
+  "text": "誤った翻訳には {0}（{1} に理由を書きます）、値を提案するには {2}（{3} に指定します）、良い翻訳には {4}、それ以外には {5} を指定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "誤った翻訳には {0}（{1} に理由を書きます）、値を提案するには {2}（{3} に指定します）、良い翻訳には {4}、それ以外には {5} を指定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

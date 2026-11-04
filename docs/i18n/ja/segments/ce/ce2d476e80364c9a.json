@@ -1,0 +1,14 @@
+{
+  "hash": "ce2d476e80364c9a",
+  "source": "Message syntax errors (ICU, linked messages, nesting).",
+  "text": "メッセージの構文エラー（ICU、リンクされたメッセージ、ネスト）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "メッセージの構文エラー（ICU、リンクされたメッセージ、ネスト）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

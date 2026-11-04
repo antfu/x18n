@@ -1,0 +1,14 @@
+{
+  "hash": "5393a8d76b072408",
+  "source": "Callee names never counted as translate calls.",
+  "text": "translate 호출로 간주하지 않는 호출 대상 이름입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "translate 호출로 간주하지 않는 호출 대상 이름입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

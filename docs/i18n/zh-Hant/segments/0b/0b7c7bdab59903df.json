@@ -1,0 +1,14 @@
+{
+  "hash": "0b7c7bdab59903df",
+  "source": "If your config has no {0}, the preset reads {1} from {2} (or {3}). Without {4}, the directory is {5}:",
+  "text": "如果你的設定中沒有 {0}，預設集會從 {2}（或 {3}）讀取 {1}。若沒有 {4}，目錄為 {5}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果你的設定中沒有 {0}，預設集會從 {2}（或 {3}）讀取 {1}。若沒有 {4}，目錄為 {5}："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

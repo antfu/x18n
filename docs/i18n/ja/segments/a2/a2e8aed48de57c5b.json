@@ -1,0 +1,14 @@
+{
+  "hash": "a2e8aed48de57c5b",
+  "source": "Key not found. List keys with `x18n keys` (agents: the `x18n_keys` tool).",
+  "text": "キーが見つかりません。`x18n keys` でキーを一覧表示してください（エージェントの場合は `x18n_keys` ツールを使用します）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーが見つかりません。`x18n keys` でキーを一覧表示してください（エージェントの場合は `x18n_keys` ツールを使用します）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

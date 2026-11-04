@@ -1,0 +1,14 @@
+{
+  "hash": "71696927719e3f9b",
+  "source": "{0} turn the diagnostics and the coverage of each project into text, for {1}. {2} returns a string. {3} turns a project path into a path relative to the current directory, and {4} tells whether colors are allowed.",
+  "text": "{0}은(는) 각 프로젝트의 진단과 커버리지를 {1}용 텍스트로 변환합니다. {2}은(는) 문자열을 반환합니다. {3}은(는) 프로젝트 경로를 현재 디렉터리 기준 상대 경로로 변환하고, {4}은(는) 색상 사용이 허용되는지 알려 줍니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 각 프로젝트의 진단과 커버리지를 {1}용 텍스트로 변환합니다. {2}은(는) 문자열을 반환합니다. {3}은(는) 프로젝트 경로를 현재 디렉터리 기준 상대 경로로 변환하고, {4}은(는) 색상 사용이 허용되는지 알려 줍니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

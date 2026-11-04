@@ -1,0 +1,14 @@
+{
+  "hash": "c10d69fdd7fe1828",
+  "source": "The client passes these fields in {0}. Each one is optional.",
+  "text": "クライアントは、これらのフィールドを {0} で渡します。いずれも省略可能です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "クライアントは、これらのフィールドを {0} で渡します。いずれも省略可能です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

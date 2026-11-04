@@ -1,0 +1,14 @@
+{
+  "hash": "03a418ccebaad172",
+  "source": "With {0}, the value replaces the whole call, such as {1}, instead of only the key. Calls over several lines keep the key-only replacement.",
+  "text": "{0} を使うと、値はキーだけでなく {1} のような呼び出し全体を置き換えます。複数行にわたる呼び出しでは、キーのみの置き換えのままです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を使うと、値はキーだけでなく {1} のような呼び出し全体を置き換えます。複数行にわたる呼び出しでは、キーのみの置き換えのままです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

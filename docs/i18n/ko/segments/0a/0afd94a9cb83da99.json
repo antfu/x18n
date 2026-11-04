@@ -1,0 +1,14 @@
+{
+  "hash": "0afd94a9cb83da99",
+  "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
+  "text": "검사는 제너레이터입니다. 검사가 yield하는 각 값은 진단이 됩니다. {0}이(가) 없으면 진단은 {2}에 있는 {1}의 메시지를 가리킵니다. 검사 id는 진단 코드이기도 하므로 {3}와(과) {4}은(는) 내장 검사와 동일하게 동작합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "검사는 제너레이터입니다. 검사가 yield하는 각 값은 진단이 됩니다. {0}이(가) 없으면 진단은 {2}에 있는 {1}의 메시지를 가리킵니다. 검사 id는 진단 코드이기도 하므로 {3}와(과) {4}은(는) 내장 검사와 동일하게 동작합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

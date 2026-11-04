@@ -1,0 +1,14 @@
+{
+  "hash": "61eff171a089f871",
+  "source": "Where the plugin can run. Default 'any'.",
+  "text": "外掛可執行的環境。預設為 'any'。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "外掛可執行的環境。預設為 'any'。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

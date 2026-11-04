@@ -1,0 +1,14 @@
+{
+  "hash": "5284a970f4390b4f",
+  "source": ".NET resources. Each string {0} is a key; files and images are skipped. Its {1} describes it.",
+  "text": ".NET リソース。各文字列 {0} がキーになります。ファイルと画像はスキップされます。{1} がその説明になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": ".NET リソース。各文字列 {0} がキーになります。ファイルと画像はスキップされます。{1} がその説明になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

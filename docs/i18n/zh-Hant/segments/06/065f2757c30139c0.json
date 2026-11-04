@@ -1,0 +1,14 @@
+{
+  "hash": "065f2757c30139c0",
+  "source": "The same rules apply to the {0} check. The {1} options of the config set the key style and the strings to ignore. The presets add the replacement code for their library. See {2}Extraction templates{/2}.",
+  "text": "相同的規則也適用於 {0} 檢查。設定中的 {1} 選項用來設定鍵的風格與要忽略的字串。預設集會加入其對應函式庫的取代程式碼。請參閱{2}擷取範本{/2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "相同的規則也適用於 {0} 檢查。設定中的 {1} 選項用來設定鍵的風格與要忽略的字串。預設集會加入其對應函式庫的取代程式碼。請參閱{2}擷取範本{/2}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "546bfe5380df9eda",
+  "source": "As in .NET satellite assemblies, {0} holds a locale only when {1} exists. Every other file holds the source locale, so {2} is not the locale {3}. With the default {4}, these files give the locales {5}, {6} and {7}:",
+  "text": "如同 .NET 衛星組件，只有在 {1} 存在時，{0} 才代表某個語系。其他所有檔案都代表來源語系，因此 {2} 不是語系 {3}。在預設的 {4} 下，這些檔案對應的語系為 {5}、{6} 和 {7}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如同 .NET 衛星組件，只有在 {1} 存在時，{0} 才代表某個語系。其他所有檔案都代表來源語系，因此 {2} 不是語系 {3}。在預設的 {4} 下，這些檔案對應的語系為 {5}、{6} 和 {7}："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

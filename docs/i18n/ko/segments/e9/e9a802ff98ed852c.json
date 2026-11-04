@@ -1,0 +1,14 @@
+{
+  "hash": "e9a802ff98ed852c",
+  "source": "Delete or rename it first, then run the rename again.",
+  "text": "기존 키를 먼저 삭제하거나 이름을 변경한 다음 이름 변경을 다시 실행하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "기존 키를 먼저 삭제하거나 이름을 변경한 다음 이름 변경을 다시 실행하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

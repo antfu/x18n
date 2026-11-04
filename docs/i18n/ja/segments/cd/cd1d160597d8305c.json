@@ -1,0 +1,14 @@
+{
+  "hash": "cd1d160597d8305c",
+  "source": "{0} returns a store. Components read it as {1}, so {2} and {3} count as translate calls. The second argument can set the namespace with {4}.",
+  "text": "{0} はストアを返します。コンポーネントは {1} としてストアを読み取るため、{2} と {3} は翻訳呼び出しとして扱われます。2 番目の引数では、{4} で名前空間を指定できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} はストアを返します。コンポーネントは {1} としてストアを読み取るため、{2} と {3} は翻訳呼び出しとして扱われます。2 番目の引数では、{4} で名前空間を指定できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

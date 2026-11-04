@@ -1,0 +1,14 @@
+{
+  "hash": "c1d0ebc28f4325b0",
+  "source": "Write the matching reporter output to a file (repeatable)",
+  "text": "해당 리포터의 출력을 파일에 기록 (반복 가능)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "해당 리포터의 출력을 파일에 기록 (반복 가능)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

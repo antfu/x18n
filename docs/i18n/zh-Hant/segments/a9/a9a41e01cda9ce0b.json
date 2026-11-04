@@ -1,0 +1,14 @@
+{
+  "hash": "a9a41e01cda9ce0b",
+  "source": "These come from the {0} branch, so they can name commands that your installed CLI does not have yet. Run the command again to update them.",
+  "text": "這些技能來自 {0} 分支，因此可能會提到你已安裝的 CLI 尚未提供的命令。再次執行該命令即可更新。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "這些技能來自 {0} 分支，因此可能會提到你已安裝的 CLI 尚未提供的命令。再次執行該命令即可更新。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

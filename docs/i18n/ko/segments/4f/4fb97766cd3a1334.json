@@ -1,0 +1,14 @@
+{
+  "hash": "4fb97766cd3a1334",
+  "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
+  "text": "{0}는 파일 전체에 대한 네임스페이스와 키 접두사를 설정합니다. 컴포넌트가 props를 통해 {1}를 받으며, 대개 호출보다 위에 있기 때문입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 파일 전체에 대한 네임스페이스와 키 접두사를 설정합니다. 컴포넌트가 props를 통해 {1}를 받으며, 대개 호출보다 위에 있기 때문입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

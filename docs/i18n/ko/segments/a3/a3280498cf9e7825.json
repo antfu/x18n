@@ -1,0 +1,14 @@
+{
+  "hash": "a3280498cf9e7825",
+  "source": "X18N0001: Invalid config",
+  "text": "X18N0001: 잘못된 설정",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N0001: 잘못된 설정"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

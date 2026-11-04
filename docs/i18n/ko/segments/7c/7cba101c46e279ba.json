@@ -1,0 +1,14 @@
+{
+  "hash": "7cba101c46e279ba",
+  "source": "Success. For {0}: no errors, and no more warnings than {1}.",
+  "text": "성공입니다. {0}의 경우: 오류가 없고 경고가 {1}보다 많지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "성공입니다. {0}의 경우: 오류가 없고 경고가 {1}보다 많지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

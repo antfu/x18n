@@ -1,0 +1,14 @@
+{
+  "hash": "55308f7cc54d91cb",
+  "source": "Find a key by its text",
+  "text": "テキストからキーを探す",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "テキストからキーを探す"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

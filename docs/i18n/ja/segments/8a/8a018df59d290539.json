@@ -1,0 +1,14 @@
+{
+  "hash": "8a018df59d290539",
+  "source": "Flag emoji next to locales in hovers.",
+  "text": "ホバー内のロケールの横に国旗の絵文字を表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ホバー内のロケールの横に国旗の絵文字を表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

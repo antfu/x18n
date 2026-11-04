@@ -1,0 +1,14 @@
+{
+  "hash": "d055a80801a4c1e3",
+  "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
+  "text": "{0} 會拒絕佔位符與來源值不同的值，且不會寫入任何內容。它會列出被拒絕的值，並以代碼 1 結束。請修正這些值，或傳入 {1} 強制寫入。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會拒絕佔位符與來源值不同的值，且不會寫入任何內容。它會列出被拒絕的值，並以代碼 1 結束。請修正這些值，或傳入 {1} 強制寫入。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

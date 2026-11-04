@@ -1,0 +1,14 @@
+{
+  "hash": "ab74345cd1dde95b",
+  "source": "Shapes follow the {0}JSON contract{/0} version. Positions and ranges use LSP conventions: zero-based lines and UTF-16 characters.",
+  "text": "結構遵循{0}JSON 合約{/0}版本。位置與範圍採用 LSP 慣例：行號從零開始，字元以 UTF-16 計算。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "結構遵循{0}JSON 合約{/0}版本。位置與範圍採用 LSP 慣例：行號從零開始，字元以 UTF-16 計算。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "cbafec3bab2de2ec",
+  "source": "These usages are {0}, {1} and {2}. A used message also uses its attributes, so {3} is not unused.",
+  "text": "이 사용처는 {0}, {1}, {2}입니다. 사용된 메시지는 해당 속성도 함께 사용하는 것으로 간주되므로 {3}은 미사용으로 처리되지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 사용처는 {0}, {1}, {2}입니다. 사용된 메시지는 해당 속성도 함께 사용하는 것으로 간주되므로 {3}은 미사용으로 처리되지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

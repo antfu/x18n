@@ -1,0 +1,14 @@
+{
+  "hash": "af485870919491f9",
+  "source": "If it is a path, make sure that it is relative to the config file and that the file exists.",
+  "text": "パスの場合は、設定ファイルからの相対パスであること、およびそのファイルが存在することを確認してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パスの場合は、設定ファイルからの相対パスであること、およびそのファイルが存在することを確認してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

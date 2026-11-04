@@ -1,0 +1,14 @@
+{
+  "hash": "0a546e4d43932f9a",
+  "source": "1-based, UTF-16 code units.",
+  "text": "從 1 開始，以 UTF-16 程式碼單元計算。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "從 1 開始，以 UTF-16 程式碼單元計算。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "3d101ec7ff0a25b4",
+  "source": "History providers for stale translations: {0} turns them off; provider options such as {1} sit under their key; {2} adds providers asked first.",
+  "text": "오래된 번역을 판단하기 위한 히스토리 제공자입니다. {0}은(는) 제공자를 끄고, {1} 같은 제공자 옵션은 해당 키 아래에 지정하며, {2}은(는) 가장 먼저 조회할 제공자를 추가합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오래된 번역을 판단하기 위한 히스토리 제공자입니다. {0}은(는) 제공자를 끄고, {1} 같은 제공자 옵션은 해당 키 아래에 지정하며, {2}은(는) 가장 먼저 조회할 제공자를 추가합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

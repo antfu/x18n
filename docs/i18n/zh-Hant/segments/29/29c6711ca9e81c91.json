@@ -1,0 +1,14 @@
+{
+  "hash": "29c6711ca9e81c91",
+  "source": "Translations that a component gives to {0} are not read.",
+  "text": "元件傳給 {0} 的翻譯不會被讀取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "元件傳給 {0} 的翻譯不會被讀取。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

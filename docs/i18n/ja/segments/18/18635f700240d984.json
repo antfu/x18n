@@ -1,0 +1,14 @@
+{
+  "hash": "18635f700240d984",
+  "source": "The preset for next-intl and use-intl. It reads useTranslations and getTranslations with their namespaces.",
+  "text": "next-intl と use-intl 向けのプリセットです。useTranslations と getTranslations を、その名前空間とともに読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-intl と use-intl 向けのプリセットです。useTranslations と getTranslations を、その名前空間とともに読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

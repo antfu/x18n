@@ -1,0 +1,14 @@
+{
+  "hash": "9d9a5036e2084ff7",
+  "source": "Run the {0} installed in the workspace's {1} instead of the bundled server, when there is one. Restart the server after changing this.",
+  "text": "若工作區的 {1} 中有安裝 {0}，則改為執行該版本，而不是內建的伺服器。變更此設定後請重新啟動伺服器。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若工作區的 {1} 中有安裝 {0}，則改為執行該版本，而不是內建的伺服器。變更此設定後請重新啟動伺服器。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

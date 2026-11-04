@@ -1,0 +1,14 @@
+{
+  "hash": "1f30dffd5f44d89f",
+  "source": "A project without a library preset therefore has no translate calls, and x18n finds no usages. Add your calls in {0}:",
+  "text": "따라서 라이브러리 프리셋이 없는 프로젝트에는 translate 호출이 없으므로 x18n이 사용처를 찾지 못합니다. 호출은 {0}에 추가하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "따라서 라이브러리 프리셋이 없는 프로젝트에는 translate 호출이 없으므로 x18n이 사용처를 찾지 못합니다. 호출은 {0}에 추가하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

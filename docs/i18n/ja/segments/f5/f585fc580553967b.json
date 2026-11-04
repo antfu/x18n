@@ -1,0 +1,14 @@
+{
+  "hash": "f585fc580553967b",
+  "source": "Use the source value instead of an empty string",
+  "text": "空文字列の代わりにソースの値を使用します",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "空文字列の代わりにソースの値を使用します"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

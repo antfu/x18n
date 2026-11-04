@@ -1,0 +1,14 @@
+{
+  "hash": "fbd27eb10eb7d8f0",
+  "source": "Placeholder mismatch. Keep every placeholder of the source value, or pass `--force`.",
+  "text": "プレースホルダーが一致していません。ソースの値のプレースホルダーをすべて保持するか、`--force` を指定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プレースホルダーが一致していません。ソースの値のプレースホルダーをすべて保持するか、`--force` を指定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

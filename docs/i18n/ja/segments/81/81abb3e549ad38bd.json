@@ -1,0 +1,14 @@
+{
+  "hash": "81abb3e549ad38bd",
+  "source": "A path that ends in {0} or {1} loads as a YAML plugin.",
+  "text": "{0} または {1} で終わるパスは、YAML プラグインとして読み込まれます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} または {1} で終わるパスは、YAML プラグインとして読み込まれます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

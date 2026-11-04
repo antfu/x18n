@@ -1,0 +1,14 @@
+{
+  "hash": "b631168d62d0acd6",
+  "source": "Key (or parent of keys) to rename.",
+  "text": "名前を変更するキー（またはキーの親）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "名前を変更するキー（またはキーの親）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

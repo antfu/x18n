@@ -1,0 +1,14 @@
+{
+  "hash": "fd0c7a0a8a01e1f2",
+  "source": "Report only diagnostics that are not in this baseline (default: .x18n/check-baseline.json, when it exists)",
+  "text": "이 베이스라인에 없는 진단만 보고 (기본값: .x18n/check-baseline.json, 파일이 있는 경우)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 베이스라인에 없는 진단만 보고 (기본값: .x18n/check-baseline.json, 파일이 있는 경우)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

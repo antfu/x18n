@@ -1,0 +1,14 @@
+{
+  "hash": "5bda4d9d749235fa",
+  "source": "The {0} CLI is for humans, CI and agents. Every command prints human output by default, and the {1}JSON contract{/1} with {2}. The {3}CLI reference{/3} lists every command and option.",
+  "text": "{0} CLI 適用於人類、CI 與 agents。每個指令預設都會輸出供人閱讀的內容，而 {1}JSON 規格{/1}搭配 {2}。{3}CLI 參考{/3}列出了所有指令與選項。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} CLI 適用於人類、CI 與 agents。每個指令預設都會輸出供人閱讀的內容，而 {1}JSON 規格{/1}搭配 {2}。{3}CLI 參考{/3}列出了所有指令與選項。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

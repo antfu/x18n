@@ -1,0 +1,14 @@
+{
+  "hash": "275ef1a9fd6067ad",
+  "source": "Locale (default: source locale)",
+  "text": "로케일 (기본값: 소스 로케일)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일 (기본값: 소스 로케일)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

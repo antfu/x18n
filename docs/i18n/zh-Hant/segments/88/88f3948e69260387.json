@@ -1,0 +1,14 @@
+{
+  "hash": "88f3948e69260387",
+  "source": "In JSON, HTML and CSS files, the preset reads {0} references, so the strings of {1} count as usages:",
+  "text": "在 JSON、HTML 和 CSS 檔案中，預設集會讀取 {0} 參照，因此 {1} 的字串會算作使用處：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 JSON、HTML 和 CSS 檔案中，預設集會讀取 {0} 參照，因此 {1} 的字串會算作使用處："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

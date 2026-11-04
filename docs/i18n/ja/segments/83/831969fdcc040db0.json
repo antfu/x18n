@@ -1,0 +1,14 @@
+{
+  "hash": "831969fdcc040db0",
+  "source": "Extraction writes to {0}. As in Laravel JSON files, the key is the source text ({1}): {2} becomes {3}. Set {4} to change this.",
+  "text": "抽出した内容は {0} に書き込まれます。Laravel の JSON ファイルと同様に、キーは元のテキスト（{1}）になります。{2} は {3} になります。変更するには {4} を設定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "抽出した内容は {0} に書き込まれます。Laravel の JSON ファイルと同様に、キーは元のテキスト（{1}）になります。{2} は {3} になります。変更するには {4} を設定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

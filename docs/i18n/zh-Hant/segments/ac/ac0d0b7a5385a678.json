@@ -1,0 +1,14 @@
+{
+  "hash": "ac0d0b7a5385a678",
+  "source": "Invalid YAML plugin. Validate the file against `schema/plugin.json`.",
+  "text": "無效的 YAML 外掛。請依據 `schema/plugin.json` 驗證該檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "無效的 YAML 外掛。請依據 `schema/plugin.json` 驗證該檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f3d8a7bd7d086477",
+  "source": "Leave out code around usages",
+  "text": "省略使用處周圍的程式碼",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "省略使用處周圍的程式碼"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

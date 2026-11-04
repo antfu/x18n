@@ -1,0 +1,14 @@
+{
+  "hash": "9c44156fca207465",
+  "source": "Make sure that a TS or JS config has a default export, for example {0}.",
+  "text": "TS 또는 JS 설정 파일에 default export가 있는지 확인하세요. 예: {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TS 또는 JS 설정 파일에 default export가 있는지 확인하세요. 예: {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

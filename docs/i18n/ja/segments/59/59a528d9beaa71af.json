@@ -1,0 +1,14 @@
+{
+  "hash": "59a528d9beaa71af",
+  "source": "The {0} hooks of plugins and presets. Presets set defaults here, for example the call specs of their library.",
+  "text": "プラグインとプリセットの {0} フック。プリセットはここでデフォルトを設定します。たとえば、対象ライブラリの呼び出し仕様です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインとプリセットの {0} フック。プリセットはここでデフォルトを設定します。たとえば、対象ライブラリの呼び出し仕様です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

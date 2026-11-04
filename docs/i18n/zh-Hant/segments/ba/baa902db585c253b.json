@@ -1,0 +1,14 @@
+{
+  "hash": "baa902db585c253b",
+  "source": "A package can also ship a YAML plugin file. Users then list its path:",
+  "text": "套件也可以附帶 YAML 外掛檔案。使用者只需列出其路徑：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "套件也可以附帶 YAML 外掛檔案。使用者只需列出其路徑："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

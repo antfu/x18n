@@ -1,0 +1,14 @@
+{
+  "hash": "904e22d205e3445a",
+  "source": "The preset for Nuxt I18n Micro. It reads the global and the page translation files, and the $t calls of pages and components.",
+  "text": "Nuxt I18n Micro 的預設集。它會讀取全域與頁面的翻譯檔案，以及頁面和元件中的 $t 呼叫。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nuxt I18n Micro 的預設集。它會讀取全域與頁面的翻譯檔案，以及頁面和元件中的 $t 呼叫。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

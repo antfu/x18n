@@ -1,0 +1,14 @@
+{
+  "hash": "a0eee9cdfca07261",
+  "source": "Keys found by their value in any locale, best match first, with their usages. {0} turns off fuzzy matching.",
+  "text": "모든 로케일에서 값으로 찾은 키를 일치도가 높은 순으로 사용처와 함께 표시합니다. {0}는 퍼지 매칭을 끕니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일에서 값으로 찾은 키를 일치도가 높은 순으로 사용처와 함께 표시합니다. {0}는 퍼지 매칭을 끕니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

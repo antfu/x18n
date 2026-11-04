@@ -1,0 +1,14 @@
+{
+  "hash": "83ec889a30835815",
+  "source": "{0} is the source locale. If your config has no {1}, the preset uses {2}, so {3}. Without {4}, the folder is {5}.",
+  "text": "{0} はソースロケールです。設定に {1} がない場合、プリセットは {2} を使用するため、{3}。{4} がない場合、フォルダーは {5} になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} はソースロケールです。設定に {1} がない場合、プリセットは {2} を使用するため、{3}。{4} がない場合、フォルダーは {5} になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

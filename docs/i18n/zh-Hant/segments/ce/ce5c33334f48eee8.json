@@ -1,0 +1,14 @@
+{
+  "hash": "ce5c33334f48eee8",
+  "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
+  "text": "{0}、{1} ... {2} 與 {3} 註解會像在其他檔案中一樣略過文字。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1} ... {2} 與 {3} 註解會像在其他檔案中一樣略過文字。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "81576f3af3410462",
+  "source": "A namespace is a named group of keys, usually taken from a file name. With the pattern {0}, the file {1} holds the namespace {2}.",
+  "text": "네임스페이스는 이름이 있는 키 그룹이며, 보통 파일 이름에서 가져옵니다. {0} 패턴을 사용하면 {1} 파일은 {2} 네임스페이스를 담습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "네임스페이스는 이름이 있는 키 그룹이며, 보통 파일 이름에서 가져옵니다. {0} 패턴을 사용하면 {1} 파일은 {2} 네임스페이스를 담습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

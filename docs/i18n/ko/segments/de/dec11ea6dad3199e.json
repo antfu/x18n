@@ -1,0 +1,14 @@
+{
+  "hash": "dec11ea6dad3199e",
+  "source": "Only these check ids (comma separated)",
+  "text": "지정한 검사 id만 실행 (쉼표로 구분)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "지정한 검사 id만 실행 (쉼표로 구분)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

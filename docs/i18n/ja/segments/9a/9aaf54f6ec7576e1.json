@@ -1,0 +1,14 @@
+{
+  "hash": "9aaf54f6ec7576e1",
+  "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
+  "text": "波括弧: {0}。二重波括弧: {1}。複数形における件数です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "波括弧: {0}。二重波括弧: {1}。複数形における件数です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

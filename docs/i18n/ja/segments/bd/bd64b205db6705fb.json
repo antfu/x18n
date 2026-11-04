@@ -1,0 +1,14 @@
+{
+  "hash": "bd64b205db6705fb",
+  "source": "A region of source code with a default namespace or key prefix.",
+  "text": "デフォルトの名前空間またはキーのプレフィックスを持つ、ソースコード上の領域です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "デフォルトの名前空間またはキーのプレフィックスを持つ、ソースコード上の領域です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

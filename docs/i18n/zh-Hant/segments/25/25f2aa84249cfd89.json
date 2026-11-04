@@ -1,0 +1,14 @@
+{
+  "hash": "25f2aa84249cfd89",
+  "source": "How to write results: the commands that write and check the translations.",
+  "text": "如何寫入結果：用來寫入並檢查翻譯的命令。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如何寫入結果：用來寫入並檢查翻譯的命令。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

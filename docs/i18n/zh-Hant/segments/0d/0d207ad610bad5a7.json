@@ -1,0 +1,14 @@
+{
+  "hash": "0d207ad610bad5a7",
+  "source": "translation (fine for non-source locales in prose), string",
+  "text": "translation（在說明文字中，用於非來源語系時可用）、string",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "translation（在說明文字中，用於非來源語系時可用）、string"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

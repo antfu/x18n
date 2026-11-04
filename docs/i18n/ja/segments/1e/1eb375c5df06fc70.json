@@ -1,0 +1,14 @@
+{
+  "hash": "1eb375c5df06fc70",
+  "source": "The preset adds the derived key rules {0}, {1} and {2}. When {3} is used, {4}, {5} and {6} count as used, and {7} is not reported missing. Suffixes stack, so context with plural ({8}) and ordinal plurals ({9}) also belong to {10}. Hovers and inline values show the {11} form, or another form when the locale has no {12}.",
+  "text": "プリセットは、派生キールール {0}、{1}、{2} を追加します。{3} が使われている場合、{4}、{5}、{6} も使用済みとして扱われ、{7} は不足として報告されません。サフィックスは重ねられるため、複数形付きのコンテキスト（{8}）や序数の複数形（{9}）も {10} に属します。ホバーとインライン値には {11} 形式が表示されます。ロケールに {12} がない場合は別の形式が表示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プリセットは、派生キールール {0}、{1}、{2} を追加します。{3} が使われている場合、{4}、{5}、{6} も使用済みとして扱われ、{7} は不足として報告されません。サフィックスは重ねられるため、複数形付きのコンテキスト（{8}）や序数の複数形（{9}）も {10} に属します。ホバーとインライン値には {11} 形式が表示されます。ロケールに {12} がない場合は別の形式が表示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

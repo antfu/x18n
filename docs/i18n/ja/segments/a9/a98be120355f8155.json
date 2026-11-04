@@ -1,0 +1,14 @@
+{
+  "hash": "a98be120355f8155",
+  "source": "The reviews of one message, oldest first, with a state from its open reviews.",
+  "text": "1 件のメッセージに対するレビューを古い順に並べたもので、未解決のレビューから決まる状態を持ちます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 件のメッセージに対するレビューを古い順に並べたもので、未解決のレビューから決まる状態を持ちます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

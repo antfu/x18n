@@ -1,0 +1,14 @@
+{
+  "hash": "616b2287c6505883",
+  "source": "With {0}, each value is tried in order. A component used under two parents with different providers has one key in x18n, from the nearest one found first. A provider with {1}, or a {2} that isn't a literal, can't be read.",
+  "text": "{0}를 사용하면 각 값을 순서대로 시도합니다. 프로바이더가 서로 다른 두 부모 아래에서 사용되는 컴포넌트는 x18n에서 키가 하나이며, 가장 먼저 발견된 가장 가까운 프로바이더의 것을 사용합니다. {1}가 있는 프로바이더나 리터럴이 아닌 {2}는 읽을 수 없습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}를 사용하면 각 값을 순서대로 시도합니다. 프로바이더가 서로 다른 두 부모 아래에서 사용되는 컴포넌트는 x18n에서 키가 하나이며, 가장 먼저 발견된 가장 가까운 프로바이더의 것을 사용합니다. {1}가 있는 프로바이더나 리터럴이 아닌 {2}는 읽을 수 없습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

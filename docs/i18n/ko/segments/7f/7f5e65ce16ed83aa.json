@@ -1,0 +1,14 @@
+{
+  "hash": "7f5e65ce16ed83aa",
+  "source": "The preset for next-international. It reads useI18n, useScopedI18n and their server versions, and TS locale files.",
+  "text": "next-international용 프리셋입니다. useI18n, useScopedI18n과 이들의 서버 버전, 그리고 TS 로케일 파일을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-international용 프리셋입니다. useI18n, useScopedI18n과 이들의 서버 버전, 그리고 TS 로케일 파일을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

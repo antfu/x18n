@@ -1,0 +1,14 @@
+{
+  "hash": "745bc4e92badd0d8",
+  "source": "Read commands work on every project:",
+  "text": "読み取り系のコマンドは、すべてのプロジェクトに対して動作します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "読み取り系のコマンドは、すべてのプロジェクトに対して動作します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

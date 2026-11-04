@@ -1,0 +1,14 @@
+{
+  "hash": "14e1896324140faa",
+  "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
+  "text": "'call'(기본값): 키가 인자입니다. 'selector': 인자가 {0}입니다. 'accessor': 루트에서 이어지는 멤버 체인입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "'call'(기본값): 키가 인자입니다. 'selector': 인자가 {0}입니다. 'accessor': 루트에서 이어지는 멤버 체인입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

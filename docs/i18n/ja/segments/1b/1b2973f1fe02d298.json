@@ -1,0 +1,14 @@
+{
+  "hash": "1b2973f1fe02d298",
+  "source": "How a namespace appears in code depends on the library:",
+  "text": "コード内での名前空間の現れ方は、ライブラリによって異なります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コード内での名前空間の現れ方は、ライブラリによって異なります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

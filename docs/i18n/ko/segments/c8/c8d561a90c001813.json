@@ -1,0 +1,14 @@
+{
+  "hash": "c8d561a90c001813",
+  "source": "Only keys missing or empty in a locale",
+  "text": "로케일에서 누락되었거나 비어 있는 키만",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일에서 누락되었거나 비어 있는 키만"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "3d2b462b1cc14dd8",
+  "source": "The ranges and values for in-place annotations in a source file.",
+  "text": "소스 파일의 인플레이스 주석에 쓸 범위와 값입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 파일의 인플레이스 주석에 쓸 범위와 값입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

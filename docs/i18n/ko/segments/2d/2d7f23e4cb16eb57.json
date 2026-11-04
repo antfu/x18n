@@ -1,0 +1,14 @@
+{
+  "hash": "2d7f23e4cb16eb57",
+  "source": "As in YAML. Plugins add their check ids to the type, so the editor completes them.",
+  "text": "YAML과 동일합니다. 플러그인이 검사 id를 타입에 추가하므로 편집기에서 자동 완성됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML과 동일합니다. 플러그인이 검사 id를 타입에 추가하므로 편집기에서 자동 완성됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

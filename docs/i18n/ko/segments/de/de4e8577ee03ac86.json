@@ -1,0 +1,14 @@
+{
+  "hash": "de4e8577ee03ac86",
+  "source": "the CLI: {0} and {1},",
+  "text": "CLI: {0} 및 {1}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI: {0} 및 {1}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

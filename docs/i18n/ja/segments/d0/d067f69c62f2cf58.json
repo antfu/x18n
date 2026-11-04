@@ -1,0 +1,14 @@
+{
+  "hash": "d067f69c62f2cf58",
+  "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
+  "text": "リソースがメッセージのオブジェクトではありません。ロケールファイルには、文字列、数値、真偽値、または null を値に持つネストされたオブジェクトを記述します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リソースがメッセージのオブジェクトではありません。ロケールファイルには、文字列、数値、真偽値、または null を値に持つネストされたオブジェクトを記述します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

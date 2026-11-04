@@ -1,0 +1,14 @@
+{
+  "hash": "260b9e5f72736d38",
+  "source": "react-intl puts the key in the {0} of a message descriptor:",
+  "text": "react-intl은 메시지 디스크립터의 {0}에 키를 넣습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "react-intl은 메시지 디스크립터의 {0}에 키를 넣습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

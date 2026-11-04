@@ -1,0 +1,14 @@
+{
+  "hash": "d26efd5f0a9e4c0f",
+  "source": "Globs of the source files to skip. Your list adds to the default list.",
+  "text": "スキップするソースファイルの glob です。指定したリストはデフォルトのリストに追加されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "スキップするソースファイルの glob です。指定したリストはデフォルトのリストに追加されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

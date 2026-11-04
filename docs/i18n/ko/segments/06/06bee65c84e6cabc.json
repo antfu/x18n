@@ -1,0 +1,14 @@
+{
+  "hash": "06bee65c84e6cabc",
+  "source": "Only unresolved comments, and only threads that have some.",
+  "text": "해결되지 않은 코멘트와, 해결되지 않은 코멘트가 있는 스레드만 표시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "해결되지 않은 코멘트와, 해결되지 않은 코멘트가 있는 스레드만 표시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

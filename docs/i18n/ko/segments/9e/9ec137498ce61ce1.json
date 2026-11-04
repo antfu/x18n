@@ -1,0 +1,14 @@
+{
+  "hash": "9ec137498ce61ce1",
+  "source": "URL of the JSON Schema, for validation in the editor. x18n ignores it.",
+  "text": "에디터에서 검증하기 위한 JSON Schema의 URL입니다. x18n은 이 값을 무시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에디터에서 검증하기 위한 JSON Schema의 URL입니다. x18n은 이 값을 무시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

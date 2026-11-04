@@ -1,0 +1,14 @@
+{
+  "hash": "70d2a41ecbd2c2bf",
+  "source": "Run {0} to see which config file x18n picked.",
+  "text": "{0}를 실행하여 x18n이 어떤 설정 파일을 선택했는지 확인하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}를 실행하여 x18n이 어떤 설정 파일을 선택했는지 확인하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

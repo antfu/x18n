@@ -1,0 +1,14 @@
+{
+  "hash": "8f80154b632e2bd1",
+  "source": "{0} replaces a hard string with code from a template. A template has these tokens:",
+  "text": "{0}은(는) 하드코딩된 문자열을 템플릿의 코드로 바꿉니다. 템플릿에는 다음 토큰이 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 하드코딩된 문자열을 템플릿의 코드로 바꿉니다. 템플릿에는 다음 토큰이 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

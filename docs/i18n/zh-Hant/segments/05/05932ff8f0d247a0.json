@@ -1,0 +1,14 @@
+{
+  "hash": "05932ff8f0d247a0",
+  "source": "Every command that writes files accepts {0}. It prints the changes as a small diff and writes nothing:",
+  "text": "每個會寫入檔案的命令都接受 {0}。它會以簡短的 diff 印出變更，且不寫入任何內容：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每個會寫入檔案的命令都接受 {0}。它會以簡短的 diff 印出變更，且不寫入任何內容："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

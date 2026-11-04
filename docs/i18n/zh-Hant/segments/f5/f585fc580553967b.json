@@ -1,0 +1,14 @@
+{
+  "hash": "f585fc580553967b",
+  "source": "Use the source value instead of an empty string",
+  "text": "使用來源值，而非空字串",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用來源值，而非空字串"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

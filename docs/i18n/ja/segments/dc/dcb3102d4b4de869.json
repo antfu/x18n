@@ -1,0 +1,14 @@
+{
+  "hash": "dcb3102d4b4de869",
+  "source": "Edit the source of the computed values by hand.",
+  "text": "計算される値の元になるコードを手作業で編集してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "計算される値の元になるコードを手作業で編集してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

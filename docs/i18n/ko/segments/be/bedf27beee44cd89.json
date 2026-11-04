@@ -1,0 +1,14 @@
+{
+  "hash": "bedf27beee44cd89",
+  "source": "{0} and the MCP tool {1} read messages per locale:",
+  "text": "{0}와 MCP 도구 {1}는 로케일별 메시지를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}와 MCP 도구 {1}는 로케일별 메시지를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

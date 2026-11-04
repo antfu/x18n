@@ -1,0 +1,14 @@
+{
+  "hash": "e76811a372d274f3",
+  "source": "An XLIFF file with a target language, or with a {0}, is a translation file: x18n reads and writes its targets. A new target keeps the placeholder markup of its {1}, so {2}, {3} and {4} stay. JSON files hold their messages in {5}, and the {6} and {7} entries of ARB files are metadata. Keys are flat: the id {8} is one key.",
+  "text": "具有目標語言或含有 {0} 的 XLIFF 檔案屬於翻譯檔案：x18n 會讀取並寫入其中的目標。新的目標會保留其 {1} 的佔位符標記，因此 {2}、{3} 和 {4} 都會保留。JSON 檔案將訊息存放在 {5} 中，而 ARB 檔案的 {6} 和 {7} 項目則是中繼資料。鍵是扁平的：id {8} 就是一個鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "具有目標語言或含有 {0} 的 XLIFF 檔案屬於翻譯檔案：x18n 會讀取並寫入其中的目標。新的目標會保留其 {1} 的佔位符標記，因此 {2}、{3} 和 {4} 都會保留。JSON 檔案將訊息存放在 {5} 中，而 ARB 檔案的 {6} 和 {7} 項目則是中繼資料。鍵是扁平的：id {8} 就是一個鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

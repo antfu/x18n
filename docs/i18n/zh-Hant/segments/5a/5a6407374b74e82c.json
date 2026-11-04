@@ -1,0 +1,14 @@
+{
+  "hash": "5a6407374b74e82c",
+  "source": "The preset applies when the project depends on {0}. In a Laravel app, the {1} preset applies too, so the PHP and Vue sides share the same keys.",
+  "text": "當專案依賴 {0} 時，會套用此預設集。在 Laravel 應用程式中，也會套用 {1} 預設集，讓 PHP 端與 Vue 端共用相同的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當專案依賴 {0} 時，會套用此預設集。在 Laravel 應用程式中，也會套用 {1} 預設集，讓 PHP 端與 Vue 端共用相同的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

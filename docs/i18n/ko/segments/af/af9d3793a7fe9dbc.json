@@ -1,0 +1,14 @@
+{
+  "hash": "af9d3793a7fe9dbc",
+  "source": "Only keys without usages in code.",
+  "text": "코드에 사용처가 없는 키만 포함합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코드에 사용처가 없는 키만 포함합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

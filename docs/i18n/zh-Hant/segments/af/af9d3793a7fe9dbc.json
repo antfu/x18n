@@ -1,0 +1,14 @@
+{
+  "hash": "af9d3793a7fe9dbc",
+  "source": "Only keys without usages in code.",
+  "text": "僅限程式碼中沒有使用處的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅限程式碼中沒有使用處的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

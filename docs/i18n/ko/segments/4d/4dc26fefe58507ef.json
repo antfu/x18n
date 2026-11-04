@@ -1,0 +1,14 @@
+{
+  "hash": "4dc26fefe58507ef",
+  "source": "Fail when there are more warnings",
+  "text": "경고가 이 값보다 많으면 실패",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "경고가 이 값보다 많으면 실패"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

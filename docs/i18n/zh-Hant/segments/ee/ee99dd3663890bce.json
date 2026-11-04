@@ -1,0 +1,14 @@
+{
+  "hash": "ee99dd3663890bce",
+  "source": "By default, errors fail the build and warnings do not. Three options change that:",
+  "text": "預設情況下，錯誤會讓建置失敗，警告則不會。以下三個選項可以改變這點：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "預設情況下，錯誤會讓建置失敗，警告則不會。以下三個選項可以改變這點："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

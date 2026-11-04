@@ -1,0 +1,14 @@
+{
+  "hash": "633729adef65f3cd",
+  "source": "Reviews live in {0}. Commit it: reviews then travel with the branch and show in pull requests.",
+  "text": "審閱存放在 {0}。請將它提交：審閱會隨分支一起移動，並顯示在 pull request 中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "審閱存放在 {0}。請將它提交：審閱會隨分支一起移動，並顯示在 pull request 中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

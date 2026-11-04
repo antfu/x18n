@@ -1,0 +1,14 @@
+{
+  "hash": "fadafdedaba6aae8",
+  "source": "Set {0} if the plugin needs Node APIs.",
+  "text": "플러그인에 Node API가 필요하면 {0}을(를) 설정하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인에 Node API가 필요하면 {0}을(를) 설정하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

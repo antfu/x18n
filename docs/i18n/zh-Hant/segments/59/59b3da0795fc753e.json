@@ -1,0 +1,14 @@
+{
+  "hash": "59b3da0795fc753e",
+  "source": "With --unused: only keys of a namespace",
+  "text": "搭配 --unused：僅限某個命名空間的鍵",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "搭配 --unused：僅限某個命名空間的鍵"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

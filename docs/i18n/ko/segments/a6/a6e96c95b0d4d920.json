@@ -1,0 +1,14 @@
+{
+  "hash": "a6e96c95b0d4d920",
+  "source": "Providers in a file that names no component, such as a shared list, reach the folder of that file and the folders under it.",
+  "text": "공유 목록처럼 컴포넌트가 명시되지 않은 파일의 프로바이더는 해당 파일의 폴더와 그 하위 폴더에 적용됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "공유 목록처럼 컴포넌트가 명시되지 않은 파일의 프로바이더는 해당 파일의 폴더와 그 하위 폴더에 적용됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

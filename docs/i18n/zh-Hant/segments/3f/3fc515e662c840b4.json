@@ -1,0 +1,14 @@
+{
+  "hash": "3fc515e662c840b4",
+  "source": "1-based line, for display.",
+  "text": "從 1 開始的行號，供顯示使用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "從 1 開始的行號，供顯示使用。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

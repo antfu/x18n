@@ -1,0 +1,14 @@
+{
+  "hash": "601de198870f317e",
+  "source": "Install the {0}x18n extension{/0}, and turn i18n-ally off for the workspace.",
+  "text": "安裝 {0}x18n 擴充功能{/0}，並在該工作區中停用 i18n-ally。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "安裝 {0}x18n 擴充功能{/0}，並在該工作區中停用 i18n-ally。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

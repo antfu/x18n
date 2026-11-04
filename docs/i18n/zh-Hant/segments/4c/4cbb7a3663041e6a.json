@@ -1,0 +1,14 @@
+{
+  "hash": "4cbb7a3663041e6a",
+  "source": "If your config has no {0}, the preset uses {1}. The locale can have a country, such as {2}. New files use nested keys.",
+  "text": "如果你的設定中沒有 {0}，預設集會使用 {1}。語系可以包含國家，例如 {2}。新檔案會使用巢狀鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果你的設定中沒有 {0}，預設集會使用 {1}。語系可以包含國家，例如 {2}。新檔案會使用巢狀鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

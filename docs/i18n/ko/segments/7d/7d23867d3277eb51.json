@@ -1,0 +1,14 @@
+{
+  "hash": "7d23867d3277eb51",
+  "source": "Reads and writes one file format.",
+  "text": "하나의 파일 형식을 읽고 씁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하나의 파일 형식을 읽고 씁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

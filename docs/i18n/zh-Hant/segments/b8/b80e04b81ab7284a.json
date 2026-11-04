@@ -1,0 +1,14 @@
+{
+  "hash": "b80e04b81ab7284a",
+  "source": "To use another separator, such as {0} with the i18next option {1}, set {2}. Completion writes keys with the same separator.",
+  "text": "若要使用其他分隔符號（例如搭配 i18next 選項 {1} 使用 {0}），請設定 {2}。自動完成寫入鍵時也會使用相同的分隔符號。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若要使用其他分隔符號（例如搭配 i18next 選項 {1} 使用 {0}），請設定 {2}。自動完成寫入鍵時也會使用相同的分隔符號。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

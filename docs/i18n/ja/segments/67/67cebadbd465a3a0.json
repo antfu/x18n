@@ -1,0 +1,14 @@
+{
+  "hash": "67cebadbd465a3a0",
+  "source": "A plural message is a key with the sub-keys {0}, {1}, {2} and {3}. When a usage names the key, these sub-keys count as used.",
+  "text": "複数形メッセージは、サブキー {0}、{1}、{2}、{3} を持つキーです。使用箇所がそのキーを指定している場合、これらのサブキーは使用されているものとして扱われます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "複数形メッセージは、サブキー {0}、{1}、{2}、{3} を持つキーです。使用箇所がそのキーを指定している場合、これらのサブキーは使用されているものとして扱われます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

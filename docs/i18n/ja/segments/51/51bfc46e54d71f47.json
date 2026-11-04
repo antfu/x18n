@@ -1,0 +1,14 @@
+{
+  "hash": "51bfc46e54d71f47",
+  "source": "File globs the template applies to.",
+  "text": "テンプレートを適用するファイルの glob です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "テンプレートを適用するファイルの glob です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

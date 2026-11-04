@@ -1,0 +1,14 @@
+{
+  "hash": "c61c45fa33748b60",
+  "source": "Separator between namespace and key in code. {0} merges the namespace into the key path. {1} keeps namespaces out of keys in code (i18next {2}), so a key may hold {3}. Default {4}.",
+  "text": "コード内で名前空間とキーを区切る文字です。{0} は名前空間をキーのパスに統合します。{1} は、コード内でキーに名前空間を含めません（i18next の {2}）。そのため、キーに {3} を含めることができます。デフォルトは {4} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コード内で名前空間とキーを区切る文字です。{0} は名前空間をキーのパスに統合します。{1} は、コード内でキーに名前空間を含めません（i18next の {2}）。そのため、キーに {3} を含めることができます。デフォルトは {4} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

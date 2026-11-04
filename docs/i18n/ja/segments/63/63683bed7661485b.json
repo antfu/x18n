@@ -1,0 +1,14 @@
+{
+  "hash": "63683bed7661485b",
+  "source": "Ignore the persistent cache in {0}.",
+  "text": "{0} の永続キャッシュを無視します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} の永続キャッシュを無視します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

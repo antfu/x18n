@@ -1,0 +1,14 @@
+{
+  "hash": "447e9b50d9a00708",
+  "source": "A project is one i18n setup: one root directory, one config and one set of locales. Most repositories have one project. A monorepo can have many. See {0}Monorepos{/0}.",
+  "text": "プロジェクトとは、一つの i18n 設定のことです。ルートディレクトリ、設定ファイル、ロケールのセットがそれぞれ一つずつ含まれます。ほとんどのリポジトリにはプロジェクトが一つあります。モノレポには複数のプロジェクトを置けます。{0}モノレポ{/0}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロジェクトとは、一つの i18n 設定のことです。ルートディレクトリ、設定ファイル、ロケールのセットがそれぞれ一つずつ含まれます。ほとんどのリポジトリにはプロジェクトが一つあります。モノレポには複数のプロジェクトを置けます。{0}モノレポ{/0}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4edde4936d06af61",
+  "source": "A block with {0} reads its messages from another file, relative to the {1} file. Without {2}, the file extension picks the format. Edits write to that file:",
+  "text": "{0} を指定したブロックは、{1} ファイルからの相対パスで指定した別のファイルからメッセージを読み込みます。{2} がない場合は、ファイルの拡張子によってフォーマットが決まります。編集内容はそのファイルに書き込まれます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を指定したブロックは、{1} ファイルからの相対パスで指定した別のファイルからメッセージを読み込みます。{2} がない場合は、ファイルの拡張子によってフォーマットが決まります。編集内容はそのファイルに書き込まれます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

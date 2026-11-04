@@ -1,0 +1,14 @@
+{
+  "hash": "04b5091cd37650d4",
+  "source": "A user-facing layer on the core: CLI, LSP, extension, UI, MCP.",
+  "text": "コアの上にあるユーザー向けのレイヤーです。CLI、LSP、拡張機能、UI、MCP が該当します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コアの上にあるユーザー向けのレイヤーです。CLI、LSP、拡張機能、UI、MCP が該当します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "291ec2ce1df34c81",
+  "source": "Sets one value. {0} picks the locale, and the default is the source locale. {1} reads stdin.",
+  "text": "1 つの値を設定します。{0} でロケールを指定します。デフォルトはソースロケールです。{1} は stdin から読み込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 つの値を設定します。{0} でロケールを指定します。デフォルトはソースロケールです。{1} は stdin から読み込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

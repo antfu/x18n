@@ -1,0 +1,14 @@
+{
+  "hash": "5980a6d7bbd0c5f6",
+  "source": "Add {0} as the first line of the file. Your editor then shows the errors.",
+  "text": "在檔案的第一行加入 {0}，編輯器就會顯示錯誤。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在檔案的第一行加入 {0}，編輯器就會顯示錯誤。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

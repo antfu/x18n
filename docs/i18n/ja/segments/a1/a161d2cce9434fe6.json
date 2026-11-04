@@ -1,0 +1,14 @@
+{
+  "hash": "a161d2cce9434fe6",
+  "source": "Add a script to {0}:",
+  "text": "{0} にスクリプトを追加します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} にスクリプトを追加します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

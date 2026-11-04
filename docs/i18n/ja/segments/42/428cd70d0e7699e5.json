@@ -1,0 +1,14 @@
+{
+  "hash": "428cd70d0e7699e5",
+  "source": "{0} on the JS and TS resource patterns. These resources are read-only.",
+  "text": "JS と TS のリソースパターンの {0}。これらのリソースは読み取り専用です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JS と TS のリソースパターンの {0}。これらのリソースは読み取り専用です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6b85b34835e7a7d5",
+  "source": "JSON form of an error: the {0} of a nostics diagnostic, without {1}, {2} and {3}.",
+  "text": "錯誤的 JSON 形式：即 nostics 診斷的 {0}，不含 {1}、{2} 和 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "錯誤的 JSON 形式：即 nostics 診斷的 {0}，不含 {1}、{2} 和 {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

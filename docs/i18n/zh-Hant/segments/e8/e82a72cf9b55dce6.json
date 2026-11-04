@@ -1,0 +1,14 @@
+{
+  "hash": "e82a72cf9b55dce6",
+  "source": "Rules like {0}: when {1} is used the derived keys count as used. Rules apply repeatedly, so with {2} the key {3} derives from both {4} and {5}. {6} matches one key segment. {7} and {8} match a plural or ordinal category ({9}, {10}, {11}): each locale then needs the categories of its own language, and categories the language lacks are optional.",
+  "text": "類似 {0} 的規則：當使用 {1} 時，衍生的鍵會視為已使用。規則會重複套用，因此使用 {2} 時，鍵 {3} 會同時由 {4} 和 {5} 衍生。{6} 比對一個鍵片段。{7} 和 {8} 比對複數或序數類別（{9}、{10}、{11}）：每個語系接著需要其自身語言的類別，而該語言所沒有的類別則為選用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "類似 {0} 的規則：當使用 {1} 時，衍生的鍵會視為已使用。規則會重複套用，因此使用 {2} 時，鍵 {3} 會同時由 {4} 和 {5} 衍生。{6} 比對一個鍵片段。{7} 和 {8} 比對複數或序數類別（{9}、{10}、{11}）：每個語系接著需要其自身語言的類別，而該語言所沒有的類別則為選用。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

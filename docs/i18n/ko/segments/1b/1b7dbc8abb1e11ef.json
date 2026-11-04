@@ -1,0 +1,14 @@
+{
+  "hash": "1b7dbc8abb1e11ef",
+  "source": "Sets one value. {0} defaults to the source locale.",
+  "text": "값 하나를 설정합니다. {0}의 기본값은 소스 로케일입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "값 하나를 설정합니다. {0}의 기본값은 소스 로케일입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

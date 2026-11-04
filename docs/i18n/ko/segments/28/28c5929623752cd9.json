@@ -1,0 +1,14 @@
+{
+  "hash": "28c5929623752cd9",
+  "source": "Completion suggests keys inside translate calls.",
+  "text": "자동 완성은 번역 호출 안에서 키를 제안합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "자동 완성은 번역 호출 안에서 키를 제안합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

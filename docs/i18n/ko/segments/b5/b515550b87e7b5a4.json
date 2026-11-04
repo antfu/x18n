@@ -1,0 +1,14 @@
+{
+  "hash": "b515550b87e7b5a4",
+  "source": "Where the namespace comes from: {0}.",
+  "text": "네임스페이스를 가져오는 위치: {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "네임스페이스를 가져오는 위치: {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

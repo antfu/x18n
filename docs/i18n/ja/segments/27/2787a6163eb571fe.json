@@ -1,0 +1,14 @@
+{
+  "hash": "2787a6163eb571fe",
+  "source": "Key of the reviewed message.",
+  "text": "レビュー対象のメッセージのキー。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レビュー対象のメッセージのキー。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

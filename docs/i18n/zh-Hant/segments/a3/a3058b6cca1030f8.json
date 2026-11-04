@@ -1,0 +1,14 @@
+{
+  "hash": "a3058b6cca1030f8",
+  "source": "It asks you about key naming, glossary terms, tone per locale, deleting unused keys and large renames.",
+  "text": "它會詢問你鍵的命名、詞彙表術語、各語系的語氣、刪除未使用的鍵，以及大規模的重新命名。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它會詢問你鍵的命名、詞彙表術語、各語系的語氣、刪除未使用的鍵，以及大規模的重新命名。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

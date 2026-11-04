@@ -1,0 +1,14 @@
+{
+  "hash": "7340cabea1d7e8fe",
+  "source": "{0} needs JSON in the shape {1}. Values are strings, numbers, booleans or {2}.",
+  "text": "{0}에는 {1} 형식의 JSON이 필요합니다. 값은 문자열, 숫자, 불리언 또는 {2}이어야 합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}에는 {1} 형식의 JSON이 필요합니다. 값은 문자열, 숫자, 불리언 또는 {2}이어야 합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

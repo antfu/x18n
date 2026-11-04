@@ -1,0 +1,14 @@
+{
+  "hash": "76b5503c2a13307e",
+  "source": "The {0} settings set the colors and borders of in-place values and missing keys. Empty settings use the colors of your theme.",
+  "text": "{0} 設定用來設定原處值與缺少的鍵的顏色和邊框。設定為空時會使用你的佈景主題的顏色。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 設定用來設定原處值與缺少的鍵的顏色和邊框。設定為空時會使用你的佈景主題的顏色。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

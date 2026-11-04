@@ -1,0 +1,14 @@
+{
+  "hash": "a8f47be97a9da3c7",
+  "source": "The {0} line gives validation and completion in the editor. {1} prints the same JSON Schema.",
+  "text": "{0} 줄은 에디터에서 유효성 검사와 자동 완성을 제공합니다. {1}는 동일한 JSON Schema를 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 줄은 에디터에서 유효성 검사와 자동 완성을 제공합니다. {1}는 동일한 JSON Schema를 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

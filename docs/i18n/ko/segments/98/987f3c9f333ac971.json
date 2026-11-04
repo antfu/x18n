@@ -1,0 +1,14 @@
+{
+  "hash": "987f3c9f333ac971",
+  "source": "{0} without children renders the message as text. The {1} templates need {2} in the component. A string outside a component, such as a module-level constant, has no {3}: move it into the component before you extract it.",
+  "text": "자식 요소가 없는 {0}은(는) 메시지를 텍스트로 렌더링합니다. {1} 템플릿에는 컴포넌트 안의 {2}이(가) 필요합니다. 모듈 수준 상수처럼 컴포넌트 밖에 있는 문자열에는 {3}이(가) 없습니다. 추출하기 전에 해당 문자열을 컴포넌트 안으로 옮기세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "자식 요소가 없는 {0}은(는) 메시지를 텍스트로 렌더링합니다. {1} 템플릿에는 컴포넌트 안의 {2}이(가) 필요합니다. 모듈 수준 상수처럼 컴포넌트 밖에 있는 문자열에는 {3}이(가) 없습니다. 추출하기 전에 해당 문자열을 컴포넌트 안으로 옮기세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

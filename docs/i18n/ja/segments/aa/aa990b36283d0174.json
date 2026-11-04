@@ -1,0 +1,14 @@
+{
+  "hash": "aa990b36283d0174",
+  "source": "A custom hook that wraps {0} is a call spec with a fixed namespace:",
+  "text": "{0} をラップするカスタムフックは、名前空間が固定された呼び出しスペックです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} をラップするカスタムフックは、名前空間が固定された呼び出しスペックです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

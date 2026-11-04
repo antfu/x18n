@@ -1,0 +1,14 @@
+{
+  "hash": "8b7eae77d222c93a",
+  "source": "Or move the messages to a JSON or YAML file.",
+  "text": "または、メッセージを JSON ファイルか YAML ファイルに移してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "または、メッセージを JSON ファイルか YAML ファイルに移してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

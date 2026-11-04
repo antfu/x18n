@@ -1,0 +1,14 @@
+{
+  "hash": "7b375a6fdfed6b73",
+  "source": "Rules: the placeholder syntaxes of the project, markup, tone, and the glossary. Presets add notes for their library, for example the plural suffixes of i18next.",
+  "text": "규칙: 프로젝트의 플레이스홀더 구문, 마크업, 어조, 용어집입니다. 프리셋은 해당 라이브러리에 대한 참고 사항을 추가합니다. 예를 들어 i18next의 복수형 접미사가 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "규칙: 프로젝트의 플레이스홀더 구문, 마크업, 어조, 용어집입니다. 프리셋은 해당 라이브러리에 대한 참고 사항을 추가합니다. 예를 들어 i18next의 복수형 접미사가 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

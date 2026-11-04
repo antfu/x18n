@@ -1,0 +1,14 @@
+{
+  "hash": "fcaad21af91eaaa1",
+  "source": "A key without a namespace, such as {0}, is in the {1} namespace. The preset reads {2} and {3} from the i18next init code (a file such as {4}). A key that is not in its own namespace is then looked up in the fallback namespaces, in order. Set {5} and {6} to override them:",
+  "text": "{0}처럼 네임스페이스가 없는 키는 {1} 네임스페이스에 속합니다. 이 프리셋은 i18next 초기화 코드({4} 같은 파일)에서 {2}와 {3}을 읽습니다. 자신의 네임스페이스에 없는 키는 폴백 네임스페이스에서 순서대로 조회됩니다. 이 값을 재정의하려면 {5}와 {6}을 설정하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}처럼 네임스페이스가 없는 키는 {1} 네임스페이스에 속합니다. 이 프리셋은 i18next 초기화 코드({4} 같은 파일)에서 {2}와 {3}을 읽습니다. 자신의 네임스페이스에 없는 키는 폴백 네임스페이스에서 순서대로 조회됩니다. 이 값을 재정의하려면 {5}와 {6}을 설정하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

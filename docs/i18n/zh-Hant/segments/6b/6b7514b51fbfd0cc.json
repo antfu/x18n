@@ -1,0 +1,14 @@
+{
+  "hash": "6b7514b51fbfd0cc",
+  "source": "The file name is the key prefix, as in AdonisJS: {0} in {1} is {2}, and {3} in {4} is {5}.",
+  "text": "與 AdonisJS 相同，檔案名稱就是鍵的前綴：{1} 中的 {0} 會是 {2}，而 {4} 中的 {3} 會是 {5}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "與 AdonisJS 相同，檔案名稱就是鍵的前綴：{1} 中的 {0} 會是 {2}，而 {4} 中的 {3} 會是 {5}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

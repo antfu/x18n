@@ -1,0 +1,14 @@
+{
+  "hash": "d8e51f059e716e74",
+  "source": "Finds resources.",
+  "text": "リソースを見つけます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リソースを見つけます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

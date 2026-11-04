@@ -1,0 +1,14 @@
+{
+  "hash": "5f5935a9dde42f8f",
+  "source": "A key that is missing in the source locale shows in a warning color.",
+  "text": "소스 로케일에 없는 키는 경고 색상으로 표시됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 로케일에 없는 키는 경고 색상으로 표시됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

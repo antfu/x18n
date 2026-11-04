@@ -1,0 +1,14 @@
+{
+  "hash": "98528167b3f2a013",
+  "source": "values with no letters once placeholders, nesting references and tags are removed ({0}, {1}, {2}),",
+  "text": "プレースホルダー、ネスト参照、タグを取り除くと文字が残らない値（{0}、{1}、{2}）、",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プレースホルダー、ネスト参照、タグを取り除くと文字が残らない値（{0}、{1}、{2}）、"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

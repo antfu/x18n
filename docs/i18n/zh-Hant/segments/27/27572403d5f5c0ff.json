@@ -1,0 +1,14 @@
+{
+  "hash": "27572403d5f5c0ff",
+  "source": "The preset also adds a locale finder for {0} blocks in {1} files. Each block is a resource of its locale, and edits from x18n write back into the block:",
+  "text": "此預設集也會為 {1} 檔案中的 {0} 區塊新增語系尋找器。每個區塊都是其語系的資源，x18n 的編輯會寫回該區塊：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集也會為 {1} 檔案中的 {0} 區塊新增語系尋找器。每個區塊都是其語系的資源，x18n 的編輯會寫回該區塊："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

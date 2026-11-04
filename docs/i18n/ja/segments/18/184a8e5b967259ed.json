@@ -1,0 +1,14 @@
+{
+  "hash": "184a8e5b967259ed",
+  "source": "{0} flags in the generated plugin",
+  "text": "生成されたプラグインの {0} フラグ",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "生成されたプラグインの {0} フラグ"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

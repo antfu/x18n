@@ -1,0 +1,14 @@
+{
+  "hash": "b0e8bf90966282e5",
+  "source": "Text of the message, as seen in the app, in any locale.",
+  "text": "アプリで表示されるメッセージのテキストです。ロケールは問いません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "アプリで表示されるメッセージのテキストです。ロケールは問いません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

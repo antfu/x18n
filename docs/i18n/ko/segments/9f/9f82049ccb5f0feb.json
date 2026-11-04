@@ -1,0 +1,14 @@
+{
+  "hash": "9f82049ccb5f0feb",
+  "source": "Display the help of a command",
+  "text": "명령의 도움말을 표시",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "명령의 도움말을 표시"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

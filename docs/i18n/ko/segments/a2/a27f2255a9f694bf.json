@@ -1,0 +1,14 @@
+{
+  "hash": "a27f2255a9f694bf",
+  "source": "It has no hosted service, no account and no telemetry.",
+  "text": "호스팅 서비스, 계정, 텔레메트리가 없습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "호스팅 서비스, 계정, 텔레메트리가 없습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

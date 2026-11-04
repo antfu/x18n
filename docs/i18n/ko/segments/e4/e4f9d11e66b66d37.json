@@ -1,0 +1,14 @@
+{
+  "hash": "e4f9d11e66b66d37",
+  "source": "Adds a comment.",
+  "text": "코멘트를 추가합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코멘트를 추가합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c52283e6b79553f9",
+  "source": "Type names that mark a parameter or prop as a translate function: {0}.",
+  "text": "パラメーターまたは prop を翻訳関数として扱う型名: {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パラメーターまたは prop を翻訳関数として扱う型名: {0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

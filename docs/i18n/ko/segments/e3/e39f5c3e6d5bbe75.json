@@ -1,0 +1,14 @@
+{
+  "hash": "e39f5c3e6d5bbe75",
+  "source": "{0} adds the markup Angular needs and keeps your template as it is. It marks a whole element as one message, so a sentence with a link or {1} stays together:",
+  "text": "{0}은 Angular에 필요한 마크업을 추가하며 템플릿은 그대로 유지합니다. 요소 전체를 하나의 메시지로 표시하므로 링크 또는 {1}가 있는 문장도 함께 유지됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은 Angular에 필요한 마크업을 추가하며 템플릿은 그대로 유지합니다. 요소 전체를 하나의 메시지로 표시하므로 링크 또는 {1}가 있는 문장도 함께 유지됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

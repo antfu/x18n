@@ -1,0 +1,14 @@
+{
+  "hash": "7cfe9bbdb8c9e1b7",
+  "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
+  "text": "추출하지 않는 문자열입니다. {0}처럼 정확히 일치하는 문자열이나, 텍스트와 일치하는 {2} 같은 {1} 문자열을 지정할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "추출하지 않는 문자열입니다. {0}처럼 정확히 일치하는 문자열이나, 텍스트와 일치하는 {2} 같은 {1} 문자열을 지정할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

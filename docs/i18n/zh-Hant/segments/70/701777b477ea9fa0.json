@@ -1,0 +1,14 @@
+{
+  "hash": "701777b477ea9fa0",
+  "source": "The preset applies when {0} has the dependency {1} or {2}. x18n reads {3}, {4}, {5}, {6} and the target dependency tables. For a renamed dependency, such as {7}, x18n sees the alias {8} and does not detect the preset, so list it.",
+  "text": "當 {0} 含有 {1} 或 {2} 相依套件時，會套用此預設集。x18n 會讀取 {3}、{4}、{5}、{6} 以及目標相依套件表。對於重新命名的相依套件（例如 {7}），x18n 只會看到別名 {8}，因此不會偵測到此預設集，請自行列出。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當 {0} 含有 {1} 或 {2} 相依套件時，會套用此預設集。x18n 會讀取 {3}、{4}、{5}、{6} 以及目標相依套件表。對於重新命名的相依套件（例如 {7}），x18n 只會看到別名 {8}，因此不會偵測到此預設集，請自行列出。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

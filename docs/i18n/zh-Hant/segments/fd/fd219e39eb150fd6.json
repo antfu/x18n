@@ -1,0 +1,14 @@
+{
+  "hash": "fd219e39eb150fd6",
+  "source": "Attribute names whose values are text, on top of those whose last word is {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7} and the like. Markup attributes outside this set are never extracted.",
+  "text": "值為文字的屬性名稱，用於補充那些最後一個單字為 {0}、{1}、{2}、{3}、{4}、{5}、{6}、{7} 等的屬性。不在此集合中的標記屬性一律不會被擷取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "值為文字的屬性名稱，用於補充那些最後一個單字為 {0}、{1}、{2}、{3}、{4}、{5}、{6}、{7} 等的屬性。不在此集合中的標記屬性一律不會被擷取。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5cf2a65ee9c002c5",
+  "source": "A locale code exactly as written in paths and files ({0}, {1}). Never normalized.",
+  "text": "パスやファイルに書かれているとおりのロケールコードです（{0}、{1}）。正規化はしません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パスやファイルに書かれているとおりのロケールコードです（{0}、{1}）。正規化はしません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

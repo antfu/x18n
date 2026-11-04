@@ -1,0 +1,14 @@
+{
+  "hash": "cac5921c7d6c21e2",
+  "source": "Apply an (edited) extraction plan",
+  "text": "（編集済みの）抽出プランを適用します",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "（編集済みの）抽出プランを適用します"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

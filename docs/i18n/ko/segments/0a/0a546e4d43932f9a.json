@@ -1,0 +1,14 @@
+{
+  "hash": "0a546e4d43932f9a",
+  "source": "1-based, UTF-16 code units.",
+  "text": "1부터 시작하며 UTF-16 코드 유닛 단위입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1부터 시작하며 UTF-16 코드 유닛 단위입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

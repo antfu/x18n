@@ -1,0 +1,14 @@
+{
+  "hash": "aac63d69cd606132",
+  "source": "This page lists every command of the {0} CLI. {1}CLI and x18n check{/1} explains how to use them. Run {2} to see the same text in a terminal.",
+  "text": "이 페이지는 {0} CLI의 모든 명령을 나열합니다. 사용 방법은 {1}CLI와 x18n check{/1}에서 설명합니다. 터미널에서 같은 내용을 보려면 {2}를 실행하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 페이지는 {0} CLI의 모든 명령을 나열합니다. 사용 방법은 {1}CLI와 x18n check{/1}에서 설명합니다. 터미널에서 같은 내용을 보려면 {2}를 실행하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

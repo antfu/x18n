@@ -1,0 +1,14 @@
+{
+  "hash": "4830f328078e4c39",
+  "source": "The callee returns translate functions, as {0} does.",
+  "text": "{0} のように、呼び出された関数が translate 関数を返します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} のように、呼び出された関数が translate 関数を返します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

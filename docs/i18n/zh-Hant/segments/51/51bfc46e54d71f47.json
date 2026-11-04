@@ -1,0 +1,14 @@
+{
+  "hash": "51bfc46e54d71f47",
+  "source": "File globs the template applies to.",
+  "text": "此範本適用的檔案 glob。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此範本適用的檔案 glob。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

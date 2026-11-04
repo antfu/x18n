@@ -1,0 +1,14 @@
+{
+  "hash": "ad4fd7b775b443b8",
+  "source": "The preset for Paraglide JS. It reads m.key() message calls and messages/{locale}.json files.",
+  "text": "Paraglide JS 的預設集。它會讀取 m.key() 訊息呼叫以及 messages/{locale}.json 檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Paraglide JS 的預設集。它會讀取 m.key() 訊息呼叫以及 messages/{locale}.json 檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "3ed1e59b9dcde884",
+  "source": "X18N4002: Rename target already exists",
+  "text": "X18N4002: 이름 변경 대상이 이미 존재합니다",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N4002: 이름 변경 대상이 이미 존재합니다"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "10ba26e42d65d37f",
+  "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
+  "text": "各語系中的值（含檔案與行號）、缺少該鍵的語系、使用處與診斷。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各語系中的值（含檔案與行號）、缺少該鍵的語系、使用處與診斷。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

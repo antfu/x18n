@@ -1,0 +1,14 @@
+{
+  "hash": "477ab3f866fc9d42",
+  "source": "The text in the file at {0}, used to detect stale plans.",
+  "text": "{0}에 있는 파일의 텍스트이며 오래된 계획을 감지하는 데 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}에 있는 파일의 텍스트이며 오래된 계획을 감지하는 데 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

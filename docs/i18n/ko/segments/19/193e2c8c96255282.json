@@ -1,0 +1,14 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0}는 {1}가 나열하는 키에서 {2}에 있는 키를 제외하고 삭제합니다. 또한 완전히 계산된 키가 스코프 안에서 도달할 수 있는 키도 유지합니다. {4} 아래의 {3}는 {5} 네임스페이스의 모든 키에 도달할 수 있고, {6} 아래에서는 {7} 아래의 모든 키에 도달할 수 있습니다. 먼저 {8}와 함께 실행하세요. 각 키를 로케일 및 파일과 함께 나열한 뒤, 유지되는 키를 이를 유지시키는 사용처와 함께 나열합니다. 스코프 밖의 완전히 계산된 키는 어떤 키에도 도달할 수 있으므로 계획에서 경고합니다. 이 키가 사용하는 키는 {9}에 나열하세요. 편집은 제자리에서 이루어지므로 주석과 서식이 유지됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 {1}가 나열하는 키에서 {2}에 있는 키를 제외하고 삭제합니다. 또한 완전히 계산된 키가 스코프 안에서 도달할 수 있는 키도 유지합니다. {4} 아래의 {3}는 {5} 네임스페이스의 모든 키에 도달할 수 있고, {6} 아래에서는 {7} 아래의 모든 키에 도달할 수 있습니다. 먼저 {8}와 함께 실행하세요. 각 키를 로케일 및 파일과 함께 나열한 뒤, 유지되는 키를 이를 유지시키는 사용처와 함께 나열합니다. 스코프 밖의 완전히 계산된 키는 어떤 키에도 도달할 수 있으므로 계획에서 경고합니다. 이 키가 사용하는 키는 {9}에 나열하세요. 편집은 제자리에서 이루어지므로 주석과 서식이 유지됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

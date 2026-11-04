@@ -1,0 +1,14 @@
+{
+  "hash": "925557b83f1e566e",
+  "source": "Extraction plan",
+  "text": "抽出プラン",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "抽出プラン"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

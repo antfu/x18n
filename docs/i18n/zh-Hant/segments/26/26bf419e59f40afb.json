@@ -1,0 +1,14 @@
+{
+  "hash": "26bf419e59f40afb",
+  "source": "{0}: {1}, {2}, {3} or {4}. Each segment of the key path must match.",
+  "text": "{0}：{1}、{2}、{3} 或 {4}。鍵路徑的每個區段都必須符合。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：{1}、{2}、{3} 或 {4}。鍵路徑的每個區段都必須符合。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

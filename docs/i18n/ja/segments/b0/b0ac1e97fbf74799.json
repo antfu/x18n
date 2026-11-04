@@ -1,0 +1,14 @@
+{
+  "hash": "b0ac1e97fbf74799",
+  "source": "Commands that write files ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}) always need one project in a monorepo.",
+  "text": "ファイルを書き込むコマンド（{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}）は、モノレポでは常に 1 つのプロジェクトの指定が必要です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイルを書き込むコマンド（{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}）は、モノレポでは常に 1 つのプロジェクトの指定が必要です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

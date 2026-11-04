@@ -1,0 +1,14 @@
+{
+  "hash": "c69c86a183769ee5",
+  "source": "The author is {0} in the config, else the git {1} and {2}. The CLI also takes {3}.",
+  "text": "作成者は、設定の {0} です。設定がない場合は、git の {1} と {2} が使われます。CLI では {3} も指定できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "作成者は、設定の {0} です。設定がない場合は、git の {1} と {2} が使われます。CLI では {3} も指定できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

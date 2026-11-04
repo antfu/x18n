@@ -1,0 +1,14 @@
+{
+  "hash": "e38ae5e2ac137b27",
+  "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
+  "text": "프리셋의 템플릿보다 먼저 적용되는 대체 템플릿입니다. {0}추출 템플릿{/0}을 참고하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프리셋의 템플릿보다 먼저 적용되는 대체 템플릿입니다. {0}추출 템플릿{/0}을 참고하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

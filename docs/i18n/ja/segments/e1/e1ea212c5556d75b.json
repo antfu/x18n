@@ -1,0 +1,14 @@
+{
+  "hash": "e1ea212c5556d75b",
+  "source": "Run {0} to see the result. Each preset shows as {1}, {2}, {3}, or {4}.",
+  "text": "{0} を実行すると結果を確認できます。各プリセットは {1}、{2}、{3}、{4} のいずれかで表示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を実行すると結果を確認できます。各プリセットは {1}、{2}、{3}、{4} のいずれかで表示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

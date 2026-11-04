@@ -1,0 +1,14 @@
+{
+  "hash": "0896df64ffb62309",
+  "source": "A diagnostic can carry fixes. A fix has a title and a list of edit operations. The editor shows fixes as quick fixes.",
+  "text": "診断には修正を含められます。修正にはタイトルと編集操作のリストがあります。エディターでは、修正はクイックフィックスとして表示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "診断には修正を含められます。修正にはタイトルと編集操作のリストがあります。エディターでは、修正はクイックフィックスとして表示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

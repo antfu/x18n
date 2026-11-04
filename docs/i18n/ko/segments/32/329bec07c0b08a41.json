@@ -1,0 +1,14 @@
+{
+  "hash": "329bec07c0b08a41",
+  "source": "{0} add {1}extraction templates{/1} for a library: the code that replaces a hard string, per kind of hard string and per file glob.",
+  "text": "{0}은(는) 라이브러리용 {1}추출 템플릿{/1}을 추가합니다. 추출 템플릿은 하드코딩된 문자열의 종류별, 파일 glob별로 하드코딩된 문자열을 대체하는 코드입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 라이브러리용 {1}추출 템플릿{/1}을 추가합니다. 추출 템플릿은 하드코딩된 문자열의 종류별, 파일 glob별로 하드코딩된 문자열을 대체하는 코드입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

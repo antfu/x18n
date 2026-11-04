@@ -1,0 +1,14 @@
+{
+  "hash": "3fc284701ec54012",
+  "source": "The tools that x18n mcp and the HTTP MCP endpoint of x18n ui serve.",
+  "text": "x18n mcp 與 x18n ui 的 HTTP MCP 端點所提供的工具。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n mcp 與 x18n ui 的 HTTP MCP 端點所提供的工具。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

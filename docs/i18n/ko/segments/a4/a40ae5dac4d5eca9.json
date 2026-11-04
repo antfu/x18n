@@ -1,0 +1,14 @@
+{
+  "hash": "a40ae5dac4d5eca9",
+  "source": "{0} returns a {1} with the namespace of its second argument.",
+  "text": "{0}은(는) 두 번째 인자의 네임스페이스를 가진 {1}을(를) 반환합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 두 번째 인자의 네임스페이스를 가진 {1}을(를) 반환합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

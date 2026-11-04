@@ -1,0 +1,14 @@
+{
+  "hash": "d11a29e638aa8b01",
+  "source": "In HTML templates, the preset reads the {0} pipe and the {1} directive:",
+  "text": "HTML 템플릿에서 이 프리셋은 {0} 파이프와 {1} 디렉티브를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "HTML 템플릿에서 이 프리셋은 {0} 파이프와 {1} 디렉티브를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

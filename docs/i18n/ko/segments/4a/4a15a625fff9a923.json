@@ -1,0 +1,14 @@
+{
+  "hash": "4a15a625fff9a923",
+  "source": "Hard-coded text gets into the UI without a key.",
+  "text": "하드코딩된 텍스트가 키 없이 UI에 들어갑니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하드코딩된 텍스트가 키 없이 UI에 들어갑니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

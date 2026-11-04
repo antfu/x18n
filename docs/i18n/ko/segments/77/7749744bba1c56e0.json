@@ -1,0 +1,14 @@
+{
+  "hash": "7749744bba1c56e0",
+  "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
+  "text": "이 명령은 모든 진단을 워크스페이스 루트의 {0}에 기록합니다. 이 파일이 존재하는 동안 {1}는 파일에 없는 진단에 대해서만 보고하고 실패하며, 제외한 알려진 진단의 개수도 알려 줍니다. 진단은 줄 번호가 아니라 파일, 검사, 키, 로케일, 메시지로 식별하므로 코드를 옮겨도 알려진 진단으로 유지됩니다. 같은 파일에 동일한 진단이 하나 더 생기면 새로운 진단으로 취급합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 명령은 모든 진단을 워크스페이스 루트의 {0}에 기록합니다. 이 파일이 존재하는 동안 {1}는 파일에 없는 진단에 대해서만 보고하고 실패하며, 제외한 알려진 진단의 개수도 알려 줍니다. 진단은 줄 번호가 아니라 파일, 검사, 키, 로케일, 메시지로 식별하므로 코드를 옮겨도 알려진 진단으로 유지됩니다. 같은 파일에 동일한 진단이 하나 더 생기면 새로운 진단으로 취급합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

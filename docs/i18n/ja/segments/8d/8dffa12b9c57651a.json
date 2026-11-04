@@ -1,0 +1,14 @@
+{
+  "hash": "8dffa12b9c57651a",
+  "source": "x18n: Extract All Hard Strings in File",
+  "text": "x18n: ファイル内のすべてのハードコードされた文字列を抽出",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: ファイル内のすべてのハードコードされた文字列を抽出"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a7ecf231081858b7",
+  "source": "Pass the token in the {0} header:",
+  "text": "토큰을 {0} 헤더에 전달하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "토큰을 {0} 헤더에 전달하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

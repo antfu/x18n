@@ -1,0 +1,14 @@
+{
+  "hash": "e11b45814ef4bff6",
+  "source": "List message keys, paged. Filter by {0} locale (keys to translate), {1} (keys no code uses), {2} or a key {3}. Pass {4} to get the value per locale. A key whose format gives it a display label has {5}. Continue with {6}.",
+  "text": "分頁列出訊息的鍵。可依缺少 {0} 語系（需要翻譯的鍵）、{1}（沒有程式碼使用的鍵）、{2} 或鍵的 {3} 篩選。傳入 {4} 可取得各語系的值。若某個鍵的格式為其提供顯示標籤，則會有 {5}。使用 {6} 繼續取得下一頁。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "分頁列出訊息的鍵。可依缺少 {0} 語系（需要翻譯的鍵）、{1}（沒有程式碼使用的鍵）、{2} 或鍵的 {3} 篩選。傳入 {4} 可取得各語系的值。若某個鍵的格式為其提供顯示標籤，則會有 {5}。使用 {6} 繼續取得下一頁。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

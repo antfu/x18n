@@ -1,0 +1,14 @@
+{
+  "hash": "ac2326df0c2c704c",
+  "source": "These usages are {0} and {1}.",
+  "text": "이러한 사용처는 {0}와 {1}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이러한 사용처는 {0}와 {1}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

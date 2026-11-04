@@ -1,0 +1,14 @@
+{
+  "hash": "f1407b709ed30fdb",
+  "source": "Keep every placeholder of the source value, with the same name, for example {0} or {1}.",
+  "text": "ソースの値のプレースホルダーを、{0} や {1} のように同じ名前ですべて保持してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ソースの値のプレースホルダーを、{0} や {1} のように同じ名前ですべて保持してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "1c5069689fdc8312",
+  "source": "How far a message got, as its format says: {0}, {1} or {2} (XLIFF {3}, PO {4}). Not the state of a review thread.",
+  "text": "메시지의 진행 정도를 해당 형식에서 정의한 대로 나타냅니다: {0}, {1}, {2} (XLIFF {3}, PO {4}). 리뷰 스레드의 상태가 아닙니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "메시지의 진행 정도를 해당 형식에서 정의한 대로 나타냅니다: {0}, {1}, {2} (XLIFF {3}, PO {4}). 리뷰 스레드의 상태가 아닙니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

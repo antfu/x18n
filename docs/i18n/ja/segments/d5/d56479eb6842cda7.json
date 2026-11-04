@@ -1,0 +1,14 @@
+{
+  "hash": "d56479eb6842cda7",
+  "source": "x18n looks for these file names, in this order. The first match wins:",
+  "text": "x18n は次のファイル名を、この順序で探します。最初に見つかったものが使われます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n は次のファイル名を、この順序で探します。最初に見つかったものが使われます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

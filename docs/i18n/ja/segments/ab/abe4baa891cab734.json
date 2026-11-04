@@ -1,0 +1,14 @@
+{
+  "hash": "abe4baa891cab734",
+  "source": "File extensions, without dot.",
+  "text": "ファイル拡張子です（ドットなし）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイル拡張子です（ドットなし）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "84effc913ae1b02b",
+  "source": "Rename the id in your own plugin.",
+  "text": "직접 작성한 플러그인에서 id의 이름을 변경하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "직접 작성한 플러그인에서 id의 이름을 변경하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

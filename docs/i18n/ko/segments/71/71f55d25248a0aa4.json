@@ -1,0 +1,14 @@
+{
+  "hash": "71f55d25248a0aa4",
+  "source": "The review prompt asks the agent to compare existing translations with the source and the glossary. The agent does not change values itself. It leaves a {0}review{/0} for a human: {1} for a better value, or {2} for a problem without a clear fix. A human then applies or resolves each one, in the editor, the UI or with {3}. With {4}, the agent fixes values with {5} instead.",
+  "text": "review 프롬프트는 에이전트에게 기존 번역을 소스 및 용어집과 비교하도록 요청합니다. 에이전트는 값을 직접 변경하지 않습니다. 사람이 확인할 수 있도록 {0}리뷰{/0}를 남깁니다. 더 나은 값은 {1}, 명확한 해결책이 없는 문제는 {2}입니다. 이후 사람이 에디터, UI 또는 {3}에서 각 리뷰를 적용하거나 해결합니다. {4}을(를) 사용하면 에이전트가 대신 {5}(으)로 값을 수정합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "review 프롬프트는 에이전트에게 기존 번역을 소스 및 용어집과 비교하도록 요청합니다. 에이전트는 값을 직접 변경하지 않습니다. 사람이 확인할 수 있도록 {0}리뷰{/0}를 남깁니다. 더 나은 값은 {1}, 명확한 해결책이 없는 문제는 {2}입니다. 이후 사람이 에디터, UI 또는 {3}에서 각 리뷰를 적용하거나 해결합니다. {4}을(를) 사용하면 에이전트가 대신 {5}(으)로 값을 수정합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "031ae832684fb894",
+  "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
+  "text": "{0}는 플랜의 각 리뷰 수정마다, 해당 수정이 리뷰 데이터에 적용된 후에 실행됩니다. 리뷰 수정에는 새 댓글, 승인, 변경 요청 또는 제안, {1} 또는 {2}가 있습니다. {3}에는 수정 후의 키, 로케일, 댓글, 스레드가 들어 있습니다. {4}와 {5}는 메시지와 해당 파일을 찾고, {6}는 플랜이 남긴 상태의 파일을 반환합니다. 훅은 {7} 쓰기를 반환하며, 이 쓰기는 리뷰 파일과 같은 플랜에 포함되므로 드라이 런에서도 확인할 수 있습니다. 각 메시지 옆에 리뷰 상태를 보관하는 스토어는 승인이 현재 값과 일치할 때 해당 메시지를 검증됨으로 표시할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 플랜의 각 리뷰 수정마다, 해당 수정이 리뷰 데이터에 적용된 후에 실행됩니다. 리뷰 수정에는 새 댓글, 승인, 변경 요청 또는 제안, {1} 또는 {2}가 있습니다. {3}에는 수정 후의 키, 로케일, 댓글, 스레드가 들어 있습니다. {4}와 {5}는 메시지와 해당 파일을 찾고, {6}는 플랜이 남긴 상태의 파일을 반환합니다. 훅은 {7} 쓰기를 반환하며, 이 쓰기는 리뷰 파일과 같은 플랜에 포함되므로 드라이 런에서도 확인할 수 있습니다. 각 메시지 옆에 리뷰 상태를 보관하는 스토어는 승인이 현재 값과 일치할 때 해당 메시지를 검증됨으로 표시할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

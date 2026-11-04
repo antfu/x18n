@@ -1,0 +1,14 @@
+{
+  "hash": "e05ca2da9b1e8172",
+  "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
+  "text": "作者取自設定中的 {0}，否則使用 git 的 {1} 和 {2}。{3} 會覆寫這兩者。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "作者取自設定中的 {0}，否則使用 git 的 {1} 和 {2}。{3} 會覆寫這兩者。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

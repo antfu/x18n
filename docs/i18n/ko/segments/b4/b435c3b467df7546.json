@@ -1,0 +1,14 @@
+{
+  "hash": "b435c3b467df7546",
+  "source": "Marks a comment resolved.",
+  "text": "코멘트를 해결됨으로 표시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코멘트를 해결됨으로 표시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

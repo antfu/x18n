@@ -1,0 +1,14 @@
+{
+  "hash": "77e0cda757954971",
+  "source": "Extracts every hard string of a file.",
+  "text": "ファイル内のハードコードされた文字列をすべて抽出します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイル内のハードコードされた文字列をすべて抽出します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

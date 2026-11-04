@@ -1,0 +1,14 @@
+{
+  "hash": "a1e87bcdb407e299",
+  "source": "Sets the value of a suggestion and resolves it.",
+  "text": "設定建議的值並將其標記為已解決。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定建議的值並將其標記為已解決。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

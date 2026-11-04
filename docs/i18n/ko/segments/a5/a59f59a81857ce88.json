@@ -1,0 +1,14 @@
+{
+  "hash": "a59f59a81857ce88",
+  "source": "A usage whose key is not defined in the source locale.",
+  "text": "소스 로케일에 정의되지 않은 키의 사용처입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 로케일에 정의되지 않은 키의 사용처입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

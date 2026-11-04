@@ -1,0 +1,14 @@
+{
+  "hash": "73746dbd7b6a5e6e",
+  "source": "and adds {0} and {1} to {2}.",
+  "text": "さらに、{0} と {1} を {2} に追加します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "さらに、{0} と {1} を {2} に追加します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

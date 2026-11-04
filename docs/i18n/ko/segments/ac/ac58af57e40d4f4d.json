@@ -1,0 +1,14 @@
+{
+  "hash": "ac58af57e40d4f4d",
+  "source": "A key is the id of a message. The example has the keys {0}, {1}, {2} and {3}. A key with child keys, such as {4}, is a parent key. Commands such as {5} and {6} work on a parent key too: they change every key under it.",
+  "text": "키는 메시지의 id입니다. 예시에는 {0}, {1}, {2}, {3} 키가 있습니다. {4}처럼 하위 키가 있는 키는 상위 키입니다. {5}와 {6} 같은 명령은 상위 키에도 사용할 수 있으며, 그 아래의 모든 키를 변경합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키는 메시지의 id입니다. 예시에는 {0}, {1}, {2}, {3} 키가 있습니다. {4}처럼 하위 키가 있는 키는 상위 키입니다. {5}와 {6} 같은 명령은 상위 키에도 사용할 수 있으며, 그 아래의 모든 키를 변경합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "334579bbdf513014",
+  "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
+  "text": "レビューのスレッドです。メッセージに対するコメント、承認、変更リクエスト、提案された値を、キーとロケールごとに各スレッドの状態とともに返します。未解決のものだけを取得するには {0} を指定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レビューのスレッドです。メッセージに対するコメント、承認、変更リクエスト、提案された値を、キーとロケールごとに各スレッドの状態とともに返します。未解決のものだけを取得するには {0} を指定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

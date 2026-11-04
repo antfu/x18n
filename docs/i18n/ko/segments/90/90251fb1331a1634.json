@@ -1,0 +1,14 @@
+{
+  "hash": "90251fb1331a1634",
+  "source": "A prefix usage is a usage with a computed key that starts with a static part. {0} is a prefix usage with the prefix {1}. x18n cannot know the value of {2}, so every key under {3} counts as possibly used. Neither {4} nor {5} is reported as unused.",
+  "text": "접두사 사용처는 정적 부분으로 시작하는 계산된 키를 사용하는 사용처입니다. {0}는 접두사 {1}을 가진 접두사 사용처입니다. x18n은 {2}의 값을 알 수 없으므로 {3} 아래의 모든 키를 사용되었을 수 있는 키로 간주합니다. {4}와 {5} 모두 미사용으로 보고되지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "접두사 사용처는 정적 부분으로 시작하는 계산된 키를 사용하는 사용처입니다. {0}는 접두사 {1}을 가진 접두사 사용처입니다. x18n은 {2}의 값을 알 수 없으므로 {3} 아래의 모든 키를 사용되었을 수 있는 키로 간주합니다. {4}와 {5} 모두 미사용으로 보고되지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

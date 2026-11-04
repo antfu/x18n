@@ -1,0 +1,14 @@
+{
+  "hash": "35896a5f90faeed2",
+  "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
+  "text": "{0}와 같은 완전한 동적 키에는 정적 접두사가 없습니다. 어떤 검사로도 이를 추적할 수 없습니다. 이러한 사용처를 찾으려면 이 검사를 켜세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}와 같은 완전한 동적 키에는 정적 접두사가 없습니다. 어떤 검사로도 이를 추적할 수 없습니다. 이러한 사용처를 찾으려면 이 검사를 켜세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

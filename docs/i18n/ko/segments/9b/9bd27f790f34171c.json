@@ -1,0 +1,14 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "미사용 키 일괄 삭제의 드라이 런이며, {0}가 이를 적용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "미사용 키 일괄 삭제의 드라이 런이며, {0}가 이를 적용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

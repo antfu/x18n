@@ -1,0 +1,14 @@
+{
+  "hash": "1ebc7271e8d6911a",
+  "source": "The JSON contract. {0} picks it too.",
+  "text": "JSON 形式の出力です。{0} でもこの形式が選ばれます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON 形式の出力です。{0} でもこの形式が選ばれます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

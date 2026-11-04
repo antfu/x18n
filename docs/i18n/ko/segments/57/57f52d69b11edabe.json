@@ -1,0 +1,14 @@
+{
+  "hash": "57f52d69b11edabe",
+  "source": "{0} fails the build when there are more than {1} warnings. Use it to stop the number of warnings from growing.",
+  "text": "{0}은(는) 경고가 {1}개를 초과하면 빌드를 실패시킵니다. 경고 수가 늘어나는 것을 막을 때 사용하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 경고가 {1}개를 초과하면 빌드를 실패시킵니다. 경고 수가 늘어나는 것을 막을 때 사용하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

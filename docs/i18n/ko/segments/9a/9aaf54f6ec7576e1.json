@@ -1,0 +1,14 @@
+{
+  "hash": "9aaf54f6ec7576e1",
+  "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
+  "text": "중괄호: {0}. 이중 중괄호: {1}, 복수형에서의 개수입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "중괄호: {0}. 이중 중괄호: {1}, 복수형에서의 개수입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

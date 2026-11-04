@@ -1,0 +1,14 @@
+{
+  "hash": "f504a3859976fa1b",
+  "source": "Run {0} to list the keys, or {1} to search.",
+  "text": "{0}을(를) 실행하여 키 목록을 확인하거나 {1}을(를) 사용하여 검색하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}을(를) 실행하여 키 목록을 확인하거나 {1}을(를) 사용하여 검색하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

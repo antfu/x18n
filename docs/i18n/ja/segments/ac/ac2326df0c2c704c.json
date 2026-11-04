@@ -1,0 +1,14 @@
+{
+  "hash": "ac2326df0c2c704c",
+  "source": "These usages are {0} and {1}.",
+  "text": "これらの使用箇所は {0} と {1} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "これらの使用箇所は {0} と {1} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

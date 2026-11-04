@@ -1,0 +1,14 @@
+{
+  "hash": "1008c19068ea4570",
+  "source": "Only unresolved reviews (list)",
+  "text": "해결되지 않은 리뷰만 (list)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "해결되지 않은 리뷰만 (list)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

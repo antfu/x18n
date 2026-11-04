@@ -1,0 +1,14 @@
+{
+  "hash": "a82989cc81635faf",
+  "source": "A preset can be exclusive. When an exclusive preset applies, x18n tests no preset after it. {0} and {1} are exclusive. {2} has no detection, so it applies only when you list it.",
+  "text": "プリセットは排他的にできます。排他的なプリセットが適用されると、x18n はそれより後のプリセットを確認しません。{0} と {1} は排他的です。{2} には検出機能がないため、一覧に指定した場合にのみ適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プリセットは排他的にできます。排他的なプリセットが適用されると、x18n はそれより後のプリセットを確認しません。{0} と {1} は排他的です。{2} には検出機能がないため、一覧に指定した場合にのみ適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

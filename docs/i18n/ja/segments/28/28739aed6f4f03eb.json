@@ -1,0 +1,14 @@
+{
+  "hash": "28739aed6f4f03eb",
+  "source": "A plan can hold decisions. A decision is a question that the command must answer before it writes, for example which file gets a new key. In a terminal, x18n asks you. With {0}, it takes the default answer. With {1}, or without a terminal, it stops with {2}X18N4003{/2}.",
+  "text": "プランには決定を含めることができます。決定とは、コマンドが書き込む前に答えなければならない問いのことで、たとえば新しいキーをどのファイルに追加するか、といったものです。ターミナルでは、x18n が質問します。{0} を指定すると、デフォルトの回答が使われます。{1} を指定した場合やターミナルがない場合は、{2}X18N4003{/2} で停止します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プランには決定を含めることができます。決定とは、コマンドが書き込む前に答えなければならない問いのことで、たとえば新しいキーをどのファイルに追加するか、といったものです。ターミナルでは、x18n が質問します。{0} を指定すると、デフォルトの回答が使われます。{1} を指定した場合やターミナルがない場合は、{2}X18N4003{/2} で停止します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

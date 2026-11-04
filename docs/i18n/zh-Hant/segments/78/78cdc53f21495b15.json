@@ -1,0 +1,14 @@
+{
+  "hash": "78cdc53f21495b15",
+  "source": "{0}. {1} becomes {2}.",
+  "text": "{0}。{1} 會變成 {2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}。{1} 會變成 {2}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

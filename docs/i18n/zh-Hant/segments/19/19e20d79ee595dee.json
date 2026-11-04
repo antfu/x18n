@@ -1,0 +1,14 @@
+{
+  "hash": "19e20d79ee595dee",
+  "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
+  "text": "要加入預設集既有項目之外的翻譯呼叫。請參閱{0}支援的語法{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "要加入預設集既有項目之外的翻譯呼叫。請參閱{0}支援的語法{/0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

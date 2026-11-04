@@ -1,0 +1,14 @@
+{
+  "hash": "2e72217ae895ec82",
+  "source": "Only keys without usages",
+  "text": "사용처가 없는 키만",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사용처가 없는 키만"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

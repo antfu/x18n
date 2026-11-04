@@ -1,0 +1,14 @@
+{
+  "hash": "4c4fd19e3a15e683",
+  "source": "The open comments decide the state of a thread. The last open approval or change request wins: an approval after a change request clears it. Without one, an open suggestion makes the thread \"suggestion\", and an open comment makes it \"comments\". A thread whose comments are all resolved has no state.",
+  "text": "열려 있는 댓글이 스레드의 상태를 결정합니다. 열려 있는 마지막 승인 또는 변경 요청이 우선하며, 변경 요청 뒤의 승인은 그 요청을 해제합니다. 둘 다 없으면 열려 있는 제안이 스레드를 \"suggestion\"으로, 열려 있는 댓글이 \"comments\"로 만듭니다. 댓글이 모두 해결된 스레드에는 상태가 없습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "열려 있는 댓글이 스레드의 상태를 결정합니다. 열려 있는 마지막 승인 또는 변경 요청이 우선하며, 변경 요청 뒤의 승인은 그 요청을 해제합니다. 둘 다 없으면 열려 있는 제안이 스레드를 \"suggestion\"으로, 열려 있는 댓글이 \"comments\"로 만듭니다. 댓글이 모두 해결된 스레드에는 상태가 없습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

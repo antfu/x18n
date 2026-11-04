@@ -1,0 +1,14 @@
+{
+  "hash": "049eb2117ca075c8",
+  "source": "The {0} preset supports {1}svelte-i18next{/1}, the Svelte store for i18next.",
+  "text": "{0} 預設集支援 {1}svelte-i18next{/1}，也就是 i18next 的 Svelte store。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 預設集支援 {1}svelte-i18next{/1}，也就是 i18next 的 Svelte store。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

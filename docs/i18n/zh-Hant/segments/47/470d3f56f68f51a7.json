@@ -1,0 +1,14 @@
+{
+  "hash": "470d3f56f68f51a7",
+  "source": "In {0}, {1} and {2} files, the preset reads the {3} helper, as a mustache and as a subexpression:",
+  "text": "在 {0}、{1} 和 {2} 檔案中，此預設集會讀取 {3} helper，包含 mustache 形式與 subexpression 形式：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 {0}、{1} 和 {2} 檔案中，此預設集會讀取 {3} helper，包含 mustache 形式與 subexpression 形式："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

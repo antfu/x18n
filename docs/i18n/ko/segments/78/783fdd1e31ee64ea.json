@@ -1,0 +1,14 @@
+{
+  "hash": "783fdd1e31ee64ea",
+  "source": "Where a key prefix comes from ({0} option, or next-intl {1}).",
+  "text": "키 접두사를 가져오는 위치입니다({0} 옵션 또는 next-intl {1}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키 접두사를 가져오는 위치입니다({0} 옵션 또는 next-intl {1})."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

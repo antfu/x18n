@@ -1,0 +1,14 @@
+{
+  "hash": "c18cc0435306f24a",
+  "source": "A key that does not match a naming rule (options: case, pattern).",
+  "text": "命名 규칙과 일치하지 않는 키입니다(옵션: case, pattern).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "命名 규칙과 일치하지 않는 키입니다(옵션: case, pattern)."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

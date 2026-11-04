@@ -1,0 +1,14 @@
+{
+  "hash": "e05ca2da9b1e8172",
+  "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
+  "text": "작성자는 설정의 {0}이며, 없으면 git {1}과 {2}를 사용합니다. {3}는 둘 다 덮어씁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "작성자는 설정의 {0}이며, 없으면 git {1}과 {2}를 사용합니다. {3}는 둘 다 덮어씁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

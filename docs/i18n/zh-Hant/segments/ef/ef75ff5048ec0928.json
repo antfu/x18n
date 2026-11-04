@@ -1,0 +1,14 @@
+{
+  "hash": "ef75ff5048ec0928",
+  "source": "CSS border color of in-place values. Empty draws no border.",
+  "text": "就地取代值的 CSS 邊框顏色。留空則不繪製邊框。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "就地取代值的 CSS 邊框顏色。留空則不繪製邊框。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

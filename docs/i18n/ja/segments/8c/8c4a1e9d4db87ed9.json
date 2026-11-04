@@ -1,0 +1,14 @@
+{
+  "hash": "8c4a1e9d4db87ed9",
+  "source": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n\\_extract\\_apply.",
+  "text": "ソースファイル内のハードコードされた文字列を見つけ、それぞれにキー、メッセージ、コードの置き換えを提案します。項目を確認し（キーを編集し、不要な項目を削除してください）、x18n\\_extract\\_apply に渡してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ソースファイル内のハードコードされた文字列を見つけ、それぞれにキー、メッセージ、コードの置き換えを提案します。項目を確認し（キーを編集し、不要な項目を削除してください）、x18n\\_extract\\_apply に渡してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

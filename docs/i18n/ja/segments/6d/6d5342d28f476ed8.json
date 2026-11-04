@@ -1,0 +1,14 @@
+{
+  "hash": "6d5342d28f476ed8",
+  "source": "Migrated from i18n-ally by {0}.",
+  "text": "{0} により i18n-ally から移行されました。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} により i18n-ally から移行されました。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

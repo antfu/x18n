@@ -1,0 +1,14 @@
+{
+  "hash": "ba1968f6f5ff4aff",
+  "source": "The preset for cargo-i18n with Fluent in Rust. It reads i18n.toml, the .ftl files and the fl! macro of i18n-embed-fl.",
+  "text": "Rust의 Fluent와 함께 사용하는 cargo-i18n용 프리셋입니다. i18n.toml, .ftl 파일, i18n-embed-fl의 fl! 매크로를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Rust의 Fluent와 함께 사용하는 cargo-i18n용 프리셋입니다. i18n.toml, .ftl 파일, i18n-embed-fl의 fl! 매크로를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

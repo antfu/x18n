@@ -1,0 +1,14 @@
+{
+  "hash": "091437d381a76cbf",
+  "source": "The key in the locale's resource; undefined while the locale lacks the message.",
+  "text": "該語系資源中的鍵；若該語系缺少此訊息則為 undefined。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "該語系資源中的鍵；若該語系缺少此訊息則為 undefined。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

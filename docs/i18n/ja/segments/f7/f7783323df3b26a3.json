@@ -1,0 +1,14 @@
+{
+  "hash": "f7783323df3b26a3",
+  "source": "The {0} format reads a file that returns an array literal, and writes edits back into the array. The path of a PHP file is the first part of its keys:",
+  "text": "{0} 形式は、配列リテラルを返すファイルを読み取り、編集内容を配列に書き戻します。PHP ファイルのパスは、そのキーの最初の部分になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 形式は、配列リテラルを返すファイルを読み取り、編集内容を配列に書き戻します。PHP ファイルのパスは、そのキーの最初の部分になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

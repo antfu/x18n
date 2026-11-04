@@ -1,0 +1,14 @@
+{
+  "hash": "a20a2325ef5cbca1",
+  "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}); optionally only these check ids (comma separated)",
+  "text": "ターゲットロケールでチェックが報告した値も翻訳します。たとえばソースのコピー（{0}）などです。指定したチェック id のみに限定することもできます（カンマ区切り）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ターゲットロケールでチェックが報告した値も翻訳します。たとえばソースのコピー（{0}）などです。指定したチェック id のみに限定することもできます（カンマ区切り）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

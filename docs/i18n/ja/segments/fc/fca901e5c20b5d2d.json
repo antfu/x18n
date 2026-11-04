@@ -1,0 +1,14 @@
+{
+  "hash": "fca901e5c20b5d2d",
+  "source": "The preset applies when the project depends on {0}, {1}, {2}, {3} or {4}.",
+  "text": "このプリセットは、プロジェクトが {0}、{1}、{2}、{3}、または {4} に依存している場合に適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、プロジェクトが {0}、{1}、{2}、{3}、または {4} に依存している場合に適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

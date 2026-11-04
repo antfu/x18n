@@ -1,0 +1,14 @@
+{
+  "hash": "5a3de78f4eb20388",
+  "source": "A bare {0} call, for example from {1}, is not read: x18n can't tell it apart from other functions named {2}. Call it as {3}, or add {4} to {5} in your config.",
+  "text": "{1} 등에서 사용하는 단독 {0} 호출은 읽지 않습니다. x18n은 이를 {2}라는 이름의 다른 함수와 구분할 수 없기 때문입니다. {3}처럼 호출하거나 설정의 {5}에 {4}을(를) 추가하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1} 등에서 사용하는 단독 {0} 호출은 읽지 않습니다. x18n은 이를 {2}라는 이름의 다른 함수와 구분할 수 없기 때문입니다. {3}처럼 호출하거나 설정의 {5}에 {4}을(를) 추가하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

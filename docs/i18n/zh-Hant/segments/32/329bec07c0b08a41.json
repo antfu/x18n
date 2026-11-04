@@ -1,0 +1,14 @@
+{
+  "hash": "329bec07c0b08a41",
+  "source": "{0} add {1}extraction templates{/1} for a library: the code that replaces a hard string, per kind of hard string and per file glob.",
+  "text": "{0} 會為函式庫加入{1}擷取範本{/1}：針對每種硬編碼字串和每個檔案 glob，提供用來取代硬編碼字串的程式碼。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會為函式庫加入{1}擷取範本{/1}：針對每種硬編碼字串和每個檔案 glob，提供用來取代硬編碼字串的程式碼。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

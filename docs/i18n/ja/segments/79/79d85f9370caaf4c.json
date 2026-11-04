@@ -1,0 +1,14 @@
+{
+  "hash": "79d85f9370caaf4c",
+  "source": "Run the command again with {0} to accept the default answer of each decision.",
+  "text": "{0} を付けてコマンドをもう一度実行し、各判断のデフォルトの回答を受け入れてください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を付けてコマンドをもう一度実行し、各判断のデフォルトの回答を受け入れてください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

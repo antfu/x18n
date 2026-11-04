@@ -1,0 +1,14 @@
+{
+  "hash": "601de198870f317e",
+  "source": "Install the {0}x18n extension{/0}, and turn i18n-ally off for the workspace.",
+  "text": "{0}x18n 확장 프로그램{/0}을 설치하고, 워크스페이스에서 i18n-ally를 끄세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}x18n 확장 프로그램{/0}을 설치하고, 워크스페이스에서 i18n-ally를 끄세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

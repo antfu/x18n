@@ -1,0 +1,14 @@
+{
+  "hash": "4e046c301bbcc8c0",
+  "source": "This file has the keys {0} and {1}.",
+  "text": "이 파일에는 {0} 및 {1} 키가 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 파일에는 {0} 및 {1} 키가 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "eff93e67a0358738",
+  "source": "Overview: the counts of keys, resources, usages and locales, the coverage per locale (split into reviewed, translated, to review and outdated when a format reports translation states), the diagnostics per check, the detected presets and the recent changes.",
+  "text": "개요: 키, 리소스, 사용처, 로케일의 개수, 로케일별 커버리지(형식이 번역 상태를 제공하는 경우 리뷰 완료, 번역됨, 리뷰 필요, 오래됨으로 구분), 검사별 진단, 감지된 프리셋, 최근 변경 사항을 보여 줍니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "개요: 키, 리소스, 사용처, 로케일의 개수, 로케일별 커버리지(형식이 번역 상태를 제공하는 경우 리뷰 완료, 번역됨, 리뷰 필요, 오래됨으로 구분), 검사별 진단, 감지된 프리셋, 최근 변경 사항을 보여 줍니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

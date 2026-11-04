@@ -1,0 +1,14 @@
+{
+  "hash": "7481a981ab22ec5f",
+  "source": "The default export can also be a function that returns the config, or a promise of it.",
+  "text": "預設匯出也可以是回傳設定的函式，或是解析為設定的 promise。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "預設匯出也可以是回傳設定的函式，或是解析為設定的 promise。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

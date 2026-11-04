@@ -1,0 +1,14 @@
+{
+  "hash": "93b809aafad87cdf",
+  "source": "short all-caps words of up to five letters ({0}, {1}),",
+  "text": "最多五個字母的全大寫短單字（{0}、{1}），",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "最多五個字母的全大寫短單字（{0}、{1}），"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

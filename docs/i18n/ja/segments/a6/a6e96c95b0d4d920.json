@@ -1,0 +1,14 @@
+{
+  "hash": "a6e96c95b0d4d920",
+  "source": "Providers in a file that names no component, such as a shared list, reach the folder of that file and the folders under it.",
+  "text": "共有リストなど、コンポーネントを指定しないファイル内のプロバイダーは、そのファイルのフォルダーとその配下のフォルダーに適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "共有リストなど、コンポーネントを指定しないファイル内のプロバイダーは、そのファイルのフォルダーとその配下のフォルダーに適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

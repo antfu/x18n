@@ -1,0 +1,14 @@
+{
+  "hash": "083b6ce8999ef130",
+  "source": "It is not a runtime i18n library. It reads and writes the files that your runtime library uses.",
+  "text": "런타임 i18n 라이브러리가 아닙니다. 런타임 라이브러리가 사용하는 파일을 읽고 쓸 뿐입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "런타임 i18n 라이브러리가 아닙니다. 런타임 라이브러리가 사용하는 파일을 읽고 쓸 뿐입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

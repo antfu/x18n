@@ -1,0 +1,14 @@
+{
+  "hash": "f97a1e8f8ddc631e",
+  "source": "{0} looks only in {1}, and uses it as the project root.",
+  "text": "{0} は {1} だけを探し、そのディレクトリをプロジェクトルートとして使います。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は {1} だけを探し、そのディレクトリをプロジェクトルートとして使います。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

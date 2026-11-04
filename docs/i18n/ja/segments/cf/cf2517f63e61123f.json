@@ -1,0 +1,14 @@
+{
+  "hash": "cf2517f63e61123f",
+  "source": "{0} writes the candidates to a file. Edit the keys, remove the items that you do not want, then run {1}.",
+  "text": "{0} は候補をファイルに書き出します。キーを編集し、不要な項目を削除してから、{1} を実行してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は候補をファイルに書き出します。キーを編集し、不要な項目を削除してから、{1} を実行してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

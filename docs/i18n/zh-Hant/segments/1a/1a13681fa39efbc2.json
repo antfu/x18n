@@ -1,0 +1,14 @@
+{
+  "hash": "1a13681fa39efbc2",
+  "source": "The preset for easy_localization in Flutter. It reads tr() and plural() calls in Dart, nested plural and gender keys, and {} placeholders.",
+  "text": "適用於 Flutter 中 easy_localization 的預設集。它會讀取 Dart 中的 tr() 與 plural() 呼叫、巢狀的複數與性別鍵，以及 {} 佔位符。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用於 Flutter 中 easy_localization 的預設集。它會讀取 Dart 中的 tr() 與 plural() 呼叫、巢狀的複數與性別鍵，以及 {} 佔位符。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

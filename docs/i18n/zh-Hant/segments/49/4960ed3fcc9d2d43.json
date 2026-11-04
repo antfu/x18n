@@ -1,0 +1,14 @@
+{
+  "hash": "4960ed3fcc9d2d43",
+  "source": "Rename a key (or every key under a parent) in all locales and usages.",
+  "text": "在所有語系與使用處中重新命名一個鍵（或某個父層下的所有鍵）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在所有語系與使用處中重新命名一個鍵（或某個父層下的所有鍵）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

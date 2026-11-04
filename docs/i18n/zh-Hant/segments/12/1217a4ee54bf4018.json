@@ -1,0 +1,14 @@
+{
+  "hash": "1217a4ee54bf4018",
+  "source": "Turns diagnostics and analysis into text output.",
+  "text": "將診斷與分析結果轉換為文字輸出。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將診斷與分析結果轉換為文字輸出。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

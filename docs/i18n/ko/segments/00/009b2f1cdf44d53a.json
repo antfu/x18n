@@ -1,0 +1,14 @@
+{
+  "hash": "009b2f1cdf44d53a",
+  "source": "x18n uses one name for each idea, in its code, docs, CLI output and UI. This page explains the names with one small project as the example:",
+  "text": "x18n은 코드, 문서, CLI 출력, UI에서 각 개념에 하나의 이름만 사용합니다. 이 페이지에서는 작은 프로젝트 하나를 예시로 들어 각 이름을 설명합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 코드, 문서, CLI 출력, UI에서 각 개념에 하나의 이름만 사용합니다. 이 페이지에서는 작은 프로젝트 하나를 예시로 들어 각 이름을 설명합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

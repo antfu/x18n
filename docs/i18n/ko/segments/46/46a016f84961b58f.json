@@ -1,0 +1,14 @@
+{
+  "hash": "46a016f84961b58f",
+  "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
+  "text": "\"x18n: Find Key by Text\"는 앱에서 보이는 텍스트에 해당하는 키를 찾습니다. 어떤 로케일이든 텍스트의 일부를 입력하세요. 검색은 대소문자를 구분하지 않고 퍼지 방식으로 일치시키므로, 글자가 순서대로 나타나기만 하면 되고 서로 붙어 있지 않아도 됩니다. 목록에는 가장 잘 일치하는 항목이 먼저 표시되며, 키, 로케일, 사용처 수가 함께 표시됩니다. 키를 선택하면 해당 사용처가 열리고, 사용처가 여러 개이면 그중에서 선택할 수 있습니다. 어떤 코드에서도 사용하지 않는 키는 로케일 항목에서 열립니다. 이 명령은 선택한 텍스트로 시작하며, Keys 뷰에도 이 명령을 실행하는 버튼이 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "\"x18n: Find Key by Text\"는 앱에서 보이는 텍스트에 해당하는 키를 찾습니다. 어떤 로케일이든 텍스트의 일부를 입력하세요. 검색은 대소문자를 구분하지 않고 퍼지 방식으로 일치시키므로, 글자가 순서대로 나타나기만 하면 되고 서로 붙어 있지 않아도 됩니다. 목록에는 가장 잘 일치하는 항목이 먼저 표시되며, 키, 로케일, 사용처 수가 함께 표시됩니다. 키를 선택하면 해당 사용처가 열리고, 사용처가 여러 개이면 그중에서 선택할 수 있습니다. 어떤 코드에서도 사용하지 않는 키는 로케일 항목에서 열립니다. 이 명령은 선택한 텍스트로 시작하며, Keys 뷰에도 이 명령을 실행하는 버튼이 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

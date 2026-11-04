@@ -1,0 +1,14 @@
+{
+  "hash": "72092e6e9784f4a0",
+  "source": "Text in an HTML or Angular template ({0}, {1}, {2}), or with no element of its own ({3})",
+  "text": "HTML 或 Angular 範本中的文字（{0}、{1}、{2}），或沒有自己所屬元素的文字（{3}）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "HTML 或 Angular 範本中的文字（{0}、{1}、{2}），或沒有自己所屬元素的文字（{3}）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

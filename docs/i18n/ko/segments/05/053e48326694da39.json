@@ -1,0 +1,14 @@
+{
+  "hash": "053e48326694da39",
+  "source": "If your config has {0}, x18n uses only your patterns. They replace the patterns of every preset.",
+  "text": "설정에 {0}이(가) 있으면 x18n은 사용자가 지정한 패턴만 사용합니다. 이 패턴은 모든 프리셋의 패턴을 대체합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에 {0}이(가) 있으면 x18n은 사용자가 지정한 패턴만 사용합니다. 이 패턴은 모든 프리셋의 패턴을 대체합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

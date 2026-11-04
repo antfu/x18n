@@ -1,0 +1,14 @@
+{
+  "hash": "8f80154b632e2bd1",
+  "source": "{0} replaces a hard string with code from a template. A template has these tokens:",
+  "text": "{0} は、ハードコードされた文字列をテンプレートから生成したコードに置き換えます。テンプレートでは次のトークンを使用できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、ハードコードされた文字列をテンプレートから生成したコードに置き換えます。テンプレートでは次のトークンを使用できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

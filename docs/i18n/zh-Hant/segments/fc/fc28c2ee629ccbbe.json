@@ -1,0 +1,14 @@
+{
+  "hash": "fc28c2ee629ccbbe",
+  "source": "Only unused keys matching this glob: {0} inside a segment, {1} across segments.",
+  "text": "僅符合此 glob 的未使用鍵：{0} 在單一區段內比對，{1} 跨區段比對。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅符合此 glob 的未使用鍵：{0} 在單一區段內比對，{1} 跨區段比對。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

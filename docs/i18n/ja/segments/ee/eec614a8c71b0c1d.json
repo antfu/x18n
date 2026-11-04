@@ -1,0 +1,14 @@
+{
+  "hash": "eec614a8c71b0c1d",
+  "source": "Find hard-coded strings and turn them into keys.",
+  "text": "ハードコードされた文字列を見つけ、キーに変換します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ハードコードされた文字列を見つけ、キーに変換します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

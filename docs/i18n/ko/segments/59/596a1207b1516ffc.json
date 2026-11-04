@@ -1,0 +1,14 @@
+{
+  "hash": "596a1207b1516ffc",
+  "source": "A YAML plugin is a data file that holds the declarative part of the plugin API. Name it {0}, and list its path in {1}:",
+  "text": "YAML 플러그인은 플러그인 API의 선언적 부분을 담는 데이터 파일입니다. 파일 이름을 {0}(으)로 짓고, 그 경로를 {1}에 나열하세요:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 플러그인은 플러그인 API의 선언적 부분을 담는 데이터 파일입니다. 파일 이름을 {0}(으)로 짓고, 그 경로를 {1}에 나열하세요:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "de5f33cc713e3e72",
+  "source": "{0}: {1}, {2} and {3} become {4}, {5} and {6}",
+  "text": "{0}: {1}, {2}, {3}은(는) 각각 {4}, {5}, {6}이(가) 됩니다",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: {1}, {2}, {3}은(는) 각각 {4}, {5}, {6}이(가) 됩니다"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

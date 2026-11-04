@@ -1,0 +1,14 @@
+{
+  "hash": "7c424bd77d71bf0c",
+  "source": "Fixed namespace for every matching file.",
+  "text": "一致するすべてのファイルに適用する固定の名前空間です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一致するすべてのファイルに適用する固定の名前空間です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f3b44763557b2742",
+  "source": "Without a config file, x18n reads the project's i18n-ally settings ({0} in {1}, and {2}), so an i18n-ally project works with no changes. The settings act as defaults: detection still adds what they leave out, and when their locale paths match no file, x18n looks for locale directories itself. Without i18n-ally settings either, x18n runs on detection alone. {3} prints what it uses: the config file, {4}, or {5}.",
+  "text": "沒有設定檔時，x18n 會讀取專案的 i18n-ally 設定（{1} 中的 {0}，以及 {2}），因此 i18n-ally 專案不需任何修改即可運作。這些設定會作為預設值：偵測仍會補上設定中沒有的項目，而當設定中的語系路徑沒有符合任何檔案時，x18n 會自行尋找語系目錄。如果也沒有 i18n-ally 設定，x18n 就只依靠偵測運作。{3} 會輸出它所使用的內容：設定檔、{4}，或 {5}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "沒有設定檔時，x18n 會讀取專案的 i18n-ally 設定（{1} 中的 {0}，以及 {2}），因此 i18n-ally 專案不需任何修改即可運作。這些設定會作為預設值：偵測仍會補上設定中沒有的項目，而當設定中的語系路徑沒有符合任何檔案時，x18n 會自行尋找語系目錄。如果也沒有 i18n-ally 設定，x18n 就只依靠偵測運作。{3} 會輸出它所使用的內容：設定檔、{4}，或 {5}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

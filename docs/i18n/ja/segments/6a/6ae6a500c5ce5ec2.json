@@ -1,0 +1,14 @@
+{
+  "hash": "6ae6a500c5ce5ec2",
+  "source": "YAML and JSON configs suit projects without Node dependencies, such as PHP, Ruby or Flutter projects. They hold the same options, except plugin objects. Presets and plugins are strings: a built-in preset name, a package name or a path.",
+  "text": "YAML と JSON の設定ファイルは、PHP、Ruby、Flutter のプロジェクトなど、Node の依存関係を持たないプロジェクトに適しています。プラグインオブジェクトを除き、同じオプションを指定できます。プリセットとプラグインは文字列で指定します。組み込みのプリセット名、パッケージ名、またはパスを使用してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML と JSON の設定ファイルは、PHP、Ruby、Flutter のプロジェクトなど、Node の依存関係を持たないプロジェクトに適しています。プラグインオブジェクトを除き、同じオプションを指定できます。プリセットとプラグインは文字列で指定します。組み込みのプリセット名、パッケージ名、またはパスを使用してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

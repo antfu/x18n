@@ -1,0 +1,14 @@
+{
+  "hash": "965ae55a38fd5cef",
+  "source": "When i18n-ally reviews exist, and this file does not. The comments are converted to {0}x18n reviews{/0}.",
+  "text": "i18n-ally 리뷰가 있고 이 파일이 없을 때입니다. 댓글은 {0}x18n 리뷰{/0}로 변환됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally 리뷰가 있고 이 파일이 없을 때입니다. 댓글은 {0}x18n 리뷰{/0}로 변환됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

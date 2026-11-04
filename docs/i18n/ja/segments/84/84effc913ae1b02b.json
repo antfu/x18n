@@ -1,0 +1,14 @@
+{
+  "hash": "84effc913ae1b02b",
+  "source": "Rename the id in your own plugin.",
+  "text": "自分のプラグインの id の名前を変更してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "自分のプラグインの id の名前を変更してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

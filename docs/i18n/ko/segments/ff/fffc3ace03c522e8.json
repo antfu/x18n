@@ -1,0 +1,14 @@
+{
+  "hash": "fffc3ace03c522e8",
+  "source": "Every format of {0} is supported:",
+  "text": "{0}의 모든 형식을 지원합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}의 모든 형식을 지원합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

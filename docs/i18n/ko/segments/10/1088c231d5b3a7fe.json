@@ -1,0 +1,14 @@
+{
+  "hash": "1088c231d5b3a7fe",
+  "source": "Rules that rewrite the raw key text of a usage before x18n looks it up. This rule turns {0} into the key {1}:",
+  "text": "x18n이 키를 조회하기 전에 사용처의 원시 키 텍스트를 다시 쓰는 규칙입니다. 이 규칙은 {0}을(를) 키 {1}(으)로 바꿉니다:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n이 키를 조회하기 전에 사용처의 원시 키 텍스트를 다시 쓰는 규칙입니다. 이 규칙은 {0}을(를) 키 {1}(으)로 바꿉니다:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

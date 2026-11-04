@@ -1,0 +1,14 @@
+{
+  "hash": "49fd3b6f7f413c4c",
+  "source": "Where the namespace comes from (call option, or factory argument when {0} is true), or a fixed namespace such as {1} for a hook that wraps {2}.",
+  "text": "名前空間の取得元（呼び出しオプション、または {0} が true の場合はファクトリの引数）、または {2} をラップするフックに対する {1} のような固定の名前空間です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "名前空間の取得元（呼び出しオプション、または {0} が true の場合はファクトリの引数）、または {2} をラップするフックに対する {1} のような固定の名前空間です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

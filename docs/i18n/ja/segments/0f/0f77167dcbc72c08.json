@@ -1,0 +1,14 @@
+{
+  "hash": "0f77167dcbc72c08",
+  "source": "A plugin can add types for its check ids and its options through declaration merging. {0} then completes them:",
+  "text": "プラグインは、宣言マージによってチェック ID とオプションの型を追加できます。すると {0} がそれらを補完します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインは、宣言マージによってチェック ID とオプションの型を追加できます。すると {0} がそれらを補完します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

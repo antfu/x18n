@@ -1,0 +1,14 @@
+{
+  "hash": "dac5bb00a65d4d1a",
+  "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
+  "text": "在檢視、選擇器、懸停提示與狀態列中顯示每個語系的旗幟。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在檢視、選擇器、懸停提示與狀態列中顯示每個語系的旗幟。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

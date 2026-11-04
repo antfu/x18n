@@ -1,0 +1,14 @@
+{
+  "hash": "ea5a06a90c159e3f",
+  "source": "A source-locale key that target locales lack, or a plural form their language needs. One diagnostic per key, at the source entry.",
+  "text": "ターゲットロケールに存在しないソースロケールのキー、またはそのロケールの言語で必要な複数形を報告します。診断はキーごとに 1 件、ソースのエントリに対して出力されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ターゲットロケールに存在しないソースロケールのキー、またはそのロケールの言語で必要な複数形を報告します。診断はキーごとに 1 件、ソースのエントリに対して出力されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

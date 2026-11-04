@@ -1,0 +1,14 @@
+{
+  "hash": "65d6af4a6ec9b23d",
+  "source": "{0} found errors or too many warnings, {1} rejected values, or the command failed with one of these errors.",
+  "text": "{0} でエラーまたは過剰な警告が見つかった、{1} で値が拒否された、またはコマンドがこれらのエラーのいずれかで失敗しました。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} でエラーまたは過剰な警告が見つかった、{1} で値が拒否された、またはコマンドがこれらのエラーのいずれかで失敗しました。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

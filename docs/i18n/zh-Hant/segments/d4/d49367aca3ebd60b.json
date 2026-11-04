@@ -1,0 +1,14 @@
+{
+  "hash": "d49367aca3ebd60b",
+  "source": "Adds a comment to the review thread of a message. {0} and {1} are filled in when planned.",
+  "text": "在訊息的審閱討論串中新增留言。規劃時會填入 {0} 和 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在訊息的審閱討論串中新增留言。規劃時會填入 {0} 和 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

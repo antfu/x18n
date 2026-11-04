@@ -1,0 +1,14 @@
+{
+  "hash": "4b5b9085b6c2be35",
+  "source": "Pass one of them with {0}.",
+  "text": "その中の 1 つを {0} で指定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "その中の 1 つを {0} で指定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

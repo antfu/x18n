@@ -1,0 +1,14 @@
+{
+  "hash": "013d46afeefe20ee",
+  "source": "Nesting: {0}. The nested key counts as used.",
+  "text": "중첩: {0}. 중첩된 키는 사용된 것으로 간주됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "중첩: {0}. 중첩된 키는 사용된 것으로 간주됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

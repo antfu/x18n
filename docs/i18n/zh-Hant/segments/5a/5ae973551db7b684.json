@@ -1,0 +1,14 @@
+{
+  "hash": "5ae973551db7b684",
+  "source": "Write a static, read-only report of the UI.",
+  "text": "產生 UI 的靜態唯讀報告。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "產生 UI 的靜態唯讀報告。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

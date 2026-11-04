@@ -1,0 +1,14 @@
+{
+  "hash": "75f7b724aec742da",
+  "source": "True when an existing key with the same source value is reused.",
+  "text": "소스 값이 같은 기존 키를 재사용하면 True입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 값이 같은 기존 키를 재사용하면 True입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

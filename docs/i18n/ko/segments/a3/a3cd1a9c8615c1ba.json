@@ -1,0 +1,14 @@
+{
+  "hash": "a3cd1a9c8615c1ba",
+  "source": "Set many messages at once: {0} is {1}, the same shape as {2}. Files keep their format, key style and order. When a value drops or adds placeholders compared to the source value, nothing is written and {3} lists them ({4}); fix the values, or pass {5}.",
+  "text": "여러 메시지를 한 번에 설정합니다. {0}는 {1}이며, {2}와 같은 형태입니다. 파일은 형식, 키 스타일, 순서를 그대로 유지합니다. 값이 소스 값과 비교해 플레이스홀더를 누락하거나 추가하면 아무것도 기록되지 않고 {3}에 해당 항목이 나열됩니다({4}). 값을 수정하거나 {5}을(를) 전달하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "여러 메시지를 한 번에 설정합니다. {0}는 {1}이며, {2}와 같은 형태입니다. 파일은 형식, 키 스타일, 순서를 그대로 유지합니다. 값이 소스 값과 비교해 플레이스홀더를 누락하거나 추가하면 아무것도 기록되지 않고 {3}에 해당 항목이 나열됩니다({4}). 값을 수정하거나 {5}을(를) 전달하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

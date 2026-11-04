@@ -1,0 +1,14 @@
+{
+  "hash": "ef2cd7ef350d21d3",
+  "source": "Who writes a review",
+  "text": "レビューの作成者",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レビューの作成者"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d5954e49afd8cd9d",
+  "source": "{0}VS Code{/0}: see translations in place in the editor.",
+  "text": "{0}VS Code{/0}: 에디터에서 번역을 바로 확인합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}VS Code{/0}: 에디터에서 번역을 바로 확인합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

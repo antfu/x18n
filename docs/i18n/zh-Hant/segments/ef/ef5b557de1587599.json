@@ -1,0 +1,14 @@
+{
+  "hash": "ef5b557de1587599",
+  "source": "{0}CLI and x18n check{/0}: read, add, rename and delete keys from the terminal.",
+  "text": "{0}CLI 與 x18n check{/0}：從終端機讀取、新增、重新命名和刪除鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}CLI 與 x18n check{/0}：從終端機讀取、新增、重新命名和刪除鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

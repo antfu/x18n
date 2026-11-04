@@ -1,0 +1,14 @@
+{
+  "hash": "86192fdb2c4447ed",
+  "source": "{0} puts the {1}x18n UI{/1} in the devtools of your app, so you do not need a separate {2} server. The panel is the same UI with the same pages. It reads and writes the files of the project, and it updates when the files change.",
+  "text": "{0}는 앱의 devtools 안에 {1}x18n UI{/1}를 표시하므로 별도의 {2} 서버가 필요하지 않습니다. 이 패널은 동일한 페이지를 가진 같은 UI입니다. 프로젝트의 파일을 읽고 쓰며, 파일이 변경되면 업데이트됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 앱의 devtools 안에 {1}x18n UI{/1}를 표시하므로 별도의 {2} 서버가 필요하지 않습니다. 이 패널은 동일한 페이지를 가진 같은 UI입니다. 프로젝트의 파일을 읽고 쓰며, 파일이 변경되면 업데이트됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "cec64dcc8a61952a",
+  "source": "{0}: edits.",
+  "text": "{0}：編輯。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：編輯。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

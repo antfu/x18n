@@ -1,0 +1,14 @@
+{
+  "hash": "25f4636e6bae755e",
+  "source": "Install the server once so that {0} is on your {1}:",
+  "text": "{0}가 {1}에 포함되도록 서버를 한 번 설치하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}가 {1}에 포함되도록 서버를 한 번 설치하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "15e4d309cdfb6cb6",
+  "source": "The check is on by default, with the severity {0}.",
+  "text": "このチェックはデフォルトで有効になっており、重大度は {0} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックはデフォルトで有効になっており、重大度は {0} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

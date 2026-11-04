@@ -1,0 +1,14 @@
+{
+  "hash": "d72f548fe061d38a",
+  "source": "Always. {0} or {1} writes {2} or {3} instead.",
+  "text": "一律寫入。{0} 或 {1} 則改為寫入 {2} 或 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一律寫入。{0} 或 {1} 則改為寫入 {2} 或 {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

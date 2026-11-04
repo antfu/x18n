@@ -1,0 +1,14 @@
+{
+  "hash": "b0b8c8174d7845d9",
+  "source": "{0} lists the usages that x18n found in one file.",
+  "text": "{0} は、x18n が 1 つのファイルで見つけた使用箇所を一覧表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、x18n が 1 つのファイルで見つけた使用箇所を一覧表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

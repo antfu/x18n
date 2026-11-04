@@ -1,0 +1,14 @@
+{
+  "hash": "2193c4d9441b354e",
+  "source": "Other forms per locale, matched at the start of a word: inflections and compound stems of the translation, or of the term under the source locale.",
+  "text": "ロケールごとのその他の形で、単語の先頭で照合されます。翻訳の活用形や複合語の語幹、またはソースロケールでの用語が対象です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールごとのその他の形で、単語の先頭で照合されます。翻訳の活用形や複合語の語幹、またはソースロケールでの用語が対象です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

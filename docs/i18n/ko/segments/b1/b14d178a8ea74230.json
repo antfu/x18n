@@ -1,0 +1,14 @@
+{
+  "hash": "b14d178a8ea74230",
+  "source": "Overrides on top of the {0} check set.",
+  "text": "{0} 검사 세트에 덧붙여 적용하는 재정의입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 검사 세트에 덧붙여 적용하는 재정의입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d5c5446134ca8ebb",
+  "source": "Only usages of this key.",
+  "text": "이 키의 사용처만 포함합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 키의 사용처만 포함합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

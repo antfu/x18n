@@ -1,0 +1,14 @@
+{
+  "hash": "89f7ca9f3459bea5",
+  "source": "The name of the plugin. It is required and must be unique.",
+  "text": "プラグインの名前です。必須で、一意である必要があります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインの名前です。必須で、一意である必要があります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

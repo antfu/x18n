@@ -1,0 +1,14 @@
+{
+  "hash": "d753f61e397c333b",
+  "source": "X18N1004: Invalid YAML plugin",
+  "text": "X18N1004: 잘못된 YAML 플러그인",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N1004: 잘못된 YAML 플러그인"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f17f56ddcb1a6bd3",
+  "source": "The preset also reads {0} blocks in {1} files. A block can hold one locale, or every locale:",
+  "text": "此預設集也會讀取 {1} 檔案中的 {0} 區塊。一個區塊可以只包含一個語系，也可以包含所有語系：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集也會讀取 {1} 檔案中的 {0} 區塊。一個區塊可以只包含一個語系，也可以包含所有語系："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

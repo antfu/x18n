@@ -1,0 +1,14 @@
+{
+  "hash": "c85920cbc3fb9628",
+  "source": "Skip these check ids.",
+  "text": "지정한 검사 id를 건너뜁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "지정한 검사 id를 건너뜁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

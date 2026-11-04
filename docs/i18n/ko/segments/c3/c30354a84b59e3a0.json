@@ -1,0 +1,14 @@
+{
+  "hash": "c30354a84b59e3a0",
+  "source": "If the file is generated or is not source code, exclude it with {0}.",
+  "text": "파일이 생성된 파일이거나 소스 코드가 아니라면 {0}로 제외하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일이 생성된 파일이거나 소스 코드가 아니라면 {0}로 제외하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

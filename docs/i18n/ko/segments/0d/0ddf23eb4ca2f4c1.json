@@ -1,0 +1,14 @@
+{
+  "hash": "0ddf23eb4ca2f4c1",
+  "source": "Writes many messages, in the shape of {0}. Refuses placeholder problems unless {1}.",
+  "text": "여러 메시지를 {0} 형태로 씁니다. {1}를 지정하지 않으면 플레이스홀더 문제가 있는 경우 쓰기를 거부합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "여러 메시지를 {0} 형태로 씁니다. {1}를 지정하지 않으면 플레이스홀더 문제가 있는 경우 쓰기를 거부합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "271a2ca96f310a2d",
+  "source": "A preset is a group of plugins with a {0} function. x18n runs {1} for the built-in presets when {2} is {3}, and for a preset inside the plugins of another preset. A preset or plugin that you list in {4} or {5} always applies, and {6} shows it as {7}.",
+  "text": "預設集是一組帶有 {0} 函式的外掛。當 {2} 為 {3} 時，x18n 會對內建預設集執行 {1}，也會對另一個預設集的外掛中所含的預設集執行。你在 {4} 或 {5} 中列出的預設集或外掛一律會套用，而 {6} 會將它顯示為 {7}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "預設集是一組帶有 {0} 函式的外掛。當 {2} 為 {3} 時，x18n 會對內建預設集執行 {1}，也會對另一個預設集的外掛中所含的預設集執行。你在 {4} 或 {5} 中列出的預設集或外掛一律會套用，而 {6} 會將它顯示為 {7}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

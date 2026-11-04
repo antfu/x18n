@@ -1,0 +1,14 @@
+{
+  "hash": "3ec98b2be21aef71",
+  "source": "Angular: {0}@angular/localize{/0}, {1}ngx-translate{/1}, {2}Transloco{/2} and {3}angular-i18next{/3}",
+  "text": "Angular: {0}@angular/localize{/0}、{1}ngx-translate{/1}、{2}Transloco{/2}、{3}angular-i18next{/3}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Angular: {0}@angular/localize{/0}、{1}ngx-translate{/1}、{2}Transloco{/2}、{3}angular-i18next{/3}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2b4a6e37dbfcbad2",
+  "source": "Each entry of {0} is a glob of directories, relative to the root config. Each matching directory is one project.",
+  "text": "{0} 的每個項目都是目錄的 glob，路徑相對於根設定檔。每個符合的目錄就是一個專案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 的每個項目都是目錄的 glob，路徑相對於根設定檔。每個符合的目錄就是一個專案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7cf920d8aadea29b",
+  "source": "The {0}CLI{/0}, the {1}VS Code extension{/1}, the {2}UI{/2} and {3}agents{/3} all read and write the same reviews.",
+  "text": "{0}CLI{/0}, {1}VS Code 확장{/1}, {2}UI{/2}, {3}에이전트{/3}는 모두 같은 리뷰를 읽고 씁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}CLI{/0}, {1}VS Code 확장{/1}, {2}UI{/2}, {3}에이전트{/3}는 모두 같은 리뷰를 읽고 씁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

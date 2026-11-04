@@ -1,0 +1,14 @@
+{
+  "hash": "ef75ff5048ec0928",
+  "source": "CSS border color of in-place values. Empty draws no border.",
+  "text": "インプレースの値の CSS ボーダーカラーです。空の場合は、ボーダーを描画しません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "インプレースの値の CSS ボーダーカラーです。空の場合は、ボーダーを描画しません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

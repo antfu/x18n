@@ -1,0 +1,14 @@
+{
+  "hash": "546cc20b19fa4235",
+  "source": "List commands take {0} and return {1}. Pass it as {2} to get the next page. This keeps the output of a large project small enough for the context of an agent:",
+  "text": "列表命令接受 {0} 並回傳 {1}。將它以 {2} 傳入即可取得下一頁。這能讓大型專案的輸出保持精簡，足以放入 agent 的上下文：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "列表命令接受 {0} 並回傳 {1}。將它以 {2} 傳入即可取得下一頁。這能讓大型專案的輸出保持精簡，足以放入 agent 的上下文："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

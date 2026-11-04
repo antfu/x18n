@@ -1,0 +1,14 @@
+{
+  "hash": "b568ffdca1a7b580",
+  "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}.",
+  "text": "{0} 格式會將訊息屬性視為獨立的鍵：訊息 {2} 上的 {1} 就是鍵 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 格式會將訊息屬性視為獨立的鍵：訊息 {2} 上的 {1} 就是鍵 {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

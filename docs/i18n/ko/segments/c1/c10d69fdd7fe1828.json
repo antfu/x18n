@@ -1,0 +1,14 @@
+{
+  "hash": "c10d69fdd7fe1828",
+  "source": "The client passes these fields in {0}. Each one is optional.",
+  "text": "클라이언트는 {0}에 다음 필드를 전달합니다. 모든 필드는 선택 사항입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "클라이언트는 {0}에 다음 필드를 전달합니다. 모든 필드는 선택 사항입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

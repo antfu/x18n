@@ -1,0 +1,14 @@
+{
+  "hash": "7fc210b1f41ba4b1",
+  "source": "x18n found a locale file, but no format reads its extension.",
+  "text": "x18n はロケールファイルを見つけましたが、その拡張子を読み取れるフォーマットがありません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n はロケールファイルを見つけましたが、その拡張子を読み取れるフォーマットがありません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

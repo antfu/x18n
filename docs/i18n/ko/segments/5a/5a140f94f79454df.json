@@ -1,0 +1,14 @@
+{
+  "hash": "5a140f94f79454df",
+  "source": "A rename changes every locale and every usage in code. A rename of a parent key, such as {0}, moves every key under it. A rename to a key that exists stops with exit code 1.",
+  "text": "이름 변경은 모든 로케일과 코드의 모든 사용처를 변경합니다. {0}와(과) 같은 상위 키의 이름을 변경하면 그 아래의 모든 키가 이동합니다. 이미 존재하는 키로 이름을 변경하면 종료 코드 1로 중단됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이름 변경은 모든 로케일과 코드의 모든 사용처를 변경합니다. {0}와(과) 같은 상위 키의 이름을 변경하면 그 아래의 모든 키가 이동합니다. 이미 존재하는 키로 이름을 변경하면 종료 코드 1로 중단됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fc46c58fee4dac70",
+  "source": "Prompts ask for results in the shape that {0} reads:",
+  "text": "프롬프트는 {0}이 읽는 형태로 결과를 요청합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프롬프트는 {0}이 읽는 형태로 결과를 요청합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

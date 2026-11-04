@@ -1,0 +1,14 @@
+{
+  "hash": "1ab409064b0739a3",
+  "source": "The message ends with the error code, for example {0}. The {1}error page{/1} of that code tells you what to do.",
+  "text": "メッセージの末尾にはエラーコードが付きます。例：{0}。対処方法は、そのコードの{1}エラーページ{/1}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "メッセージの末尾にはエラーコードが付きます。例：{0}。対処方法は、そのコードの{1}エラーページ{/1}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

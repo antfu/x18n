@@ -1,0 +1,14 @@
+{
+  "hash": "76b5503c2a13307e",
+  "source": "The {0} settings set the colors and borders of in-place values and missing keys. Empty settings use the colors of your theme.",
+  "text": "{0} の設定で、インプレースの値と見つからないキーの色や枠線を指定します。設定が空の場合は、テーマの色が使われます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} の設定で、インプレースの値と見つからないキーの色や枠線を指定します。設定が空の場合は、テーマの色が使われます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

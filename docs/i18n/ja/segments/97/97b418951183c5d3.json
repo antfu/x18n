@@ -1,0 +1,14 @@
+{
+  "hash": "97b418951183c5d3",
+  "source": "Show usage counts and missing locales above keys in resource files.",
+  "text": "リソースファイル内のキーの上に、使用箇所の数と不足しているロケールを表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リソースファイル内のキーの上に、使用箇所の数と不足しているロケールを表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dc1aa50872a006fa",
+  "source": "Write values even when their placeholders differ from the source value.",
+  "text": "플레이스홀더가 소스 값과 다르더라도 값을 기록합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플레이스홀더가 소스 값과 다르더라도 값을 기록합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

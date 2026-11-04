@@ -1,0 +1,14 @@
+{
+  "hash": "8d196ef5285c062c",
+  "source": "In templates, the {0} attribute and {1} attributes, with an optional meaning and description:",
+  "text": "在範本中，使用 {0} 屬性和 {1} 屬性，並可附上含義和描述：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在範本中，使用 {0} 屬性和 {1} 屬性，並可附上含義和描述："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

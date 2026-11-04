@@ -1,0 +1,14 @@
+{
+  "hash": "12cc58b5f1f0fc0d",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
+  "text": "不含 {0} 的模式（例如 {1}）代表來源語系。若要指定其他語系，請在該資源上設定 {2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不含 {0} 的模式（例如 {1}）代表來源語系。若要指定其他語系，請在該資源上設定 {2}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

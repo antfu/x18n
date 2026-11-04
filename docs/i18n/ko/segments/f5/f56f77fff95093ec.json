@@ -1,0 +1,14 @@
+{
+  "hash": "f56f77fff95093ec",
+  "source": "A format reads and writes one file format, such as JSON or YAML. A locale finder finds the resources. The built-in {0} finder uses the {1} patterns of the config. See {2}Configuration{/2}.",
+  "text": "포맷은 JSON이나 YAML 같은 하나의 파일 형식을 읽고 씁니다. 로케일 파인더는 리소스를 찾습니다. 기본 제공 {0} 파인더는 설정의 {1} 패턴을 사용합니다. {2}설정{/2}을 참고하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "포맷은 JSON이나 YAML 같은 하나의 파일 형식을 읽고 씁니다. 로케일 파인더는 리소스를 찾습니다. 기본 제공 {0} 파인더는 설정의 {1} 패턴을 사용합니다. {2}설정{/2}을 참고하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0a03de747bcf1602",
+  "source": "Duplicate capability id",
+  "text": "capability ID の重複",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "capability ID の重複"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "18b24749763acbea",
+  "source": "The preset applies when the project depends on {0} and {1} has an {2} block. Libraries such as ng-bootstrap depend on {3} without translating anything, so the dependency alone is not enough.",
+  "text": "이 프리셋은 프로젝트가 {0}에 의존하고 {1}에 {2} 블록이 있을 때 적용됩니다. ng-bootstrap 같은 라이브러리는 아무것도 번역하지 않으면서 {3}에 의존하므로, 의존성만으로는 충분하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 프로젝트가 {0}에 의존하고 {1}에 {2} 블록이 있을 때 적용됩니다. ng-bootstrap 같은 라이브러리는 아무것도 번역하지 않으면서 {3}에 의존하므로, 의존성만으로는 충분하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

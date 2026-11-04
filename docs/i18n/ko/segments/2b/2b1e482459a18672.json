@@ -1,0 +1,14 @@
+{
+  "hash": "2b1e482459a18672",
+  "source": "Report only for these locales. Diagnostics without a locale stay.",
+  "text": "지정한 로케일에 대해서만 보고합니다. 로케일이 없는 진단은 그대로 유지됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "지정한 로케일에 대해서만 보고합니다. 로케일이 없는 진단은 그대로 유지됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f4d7117b7b958485",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5} and {6}. As in Laravel, a slash in the key becomes a dot.",
+  "text": "次の名前が翻訳呼び出しとして扱われます。{0}、{1}、{2}、{3}、{4}、{5}、{6}。Laravel と同様に、キー内のスラッシュはドットになります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "次の名前が翻訳呼び出しとして扱われます。{0}、{1}、{2}、{3}、{4}、{5}、{6}。Laravel と同様に、キー内のスラッシュはドットになります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d9d8a012bfd1c59f",
+  "source": "prefix rename (fine in UI labels)",
+  "text": "プレフィックスのリネーム（UI のラベルでは問題ありません）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プレフィックスのリネーム（UI のラベルでは問題ありません）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

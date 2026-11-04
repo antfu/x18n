@@ -1,0 +1,14 @@
+{
+  "hash": "877ab0f6f959d318",
+  "source": "The command exits with code 1 when it finds errors. Warnings do not fail it. See {0}Checks{/0} for every check.",
+  "text": "發現錯誤時，此指令會以代碼 1 結束。警告不會導致失敗。所有檢查請參閱{0}檢查{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "發現錯誤時，此指令會以代碼 1 結束。警告不會導致失敗。所有檢查請參閱{0}檢查{/0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

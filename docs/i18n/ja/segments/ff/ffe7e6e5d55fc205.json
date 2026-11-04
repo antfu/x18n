@@ -1,0 +1,14 @@
+{
+  "hash": "ffe7e6e5d55fc205",
+  "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
+  "text": "すべてのチェックから除外するキーです。glob、またはキー全体に対して評価される正規表現を指定します（名前空間がある場合は {0}）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "すべてのチェックから除外するキーです。glob、またはキー全体に対して評価される正規表現を指定します（名前空間がある場合は {0}）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

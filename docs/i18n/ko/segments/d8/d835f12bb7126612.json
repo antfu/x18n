@@ -1,0 +1,14 @@
+{
+  "hash": "d835f12bb7126612",
+  "source": "These names count as translate calls: {0}, {1}, {2} and {3}.",
+  "text": "다음 이름은 번역 호출로 간주됩니다: {0}, {1}, {2}, {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "다음 이름은 번역 호출로 간주됩니다: {0}, {1}, {2}, {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

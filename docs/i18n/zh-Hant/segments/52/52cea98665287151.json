@@ -1,0 +1,14 @@
+{
+  "hash": "52cea98665287151",
+  "source": "Source file could not be scanned. Fix the syntax error, or exclude the file with `usage.exclude`.",
+  "text": "無法掃描原始碼檔案。請修正語法錯誤，或使用 `usage.exclude` 排除該檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "無法掃描原始碼檔案。請修正語法錯誤，或使用 `usage.exclude` 排除該檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

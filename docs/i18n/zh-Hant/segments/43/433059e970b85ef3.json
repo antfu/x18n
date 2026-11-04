@@ -1,0 +1,14 @@
+{
+  "hash": "433059e970b85ef3",
+  "source": "Tell the agent to run the command and follow what it prints. For example: \"Run {0} and follow the instructions it prints.\" The text always matches the version of the CLI that runs.",
+  "text": "請 agent 執行該命令，並依照輸出的內容操作。例如：「執行 {0}，並依照它輸出的指示操作。」輸出的文字一律與所執行的 CLI 版本相符。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "請 agent 執行該命令，並依照輸出的內容操作。例如：「執行 {0}，並依照它輸出的指示操作。」輸出的文字一律與所執行的 CLI 版本相符。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

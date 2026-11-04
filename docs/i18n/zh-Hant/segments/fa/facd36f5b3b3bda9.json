@@ -1,0 +1,14 @@
+{
+  "hash": "facd36f5b3b3bda9",
+  "source": "YAML and JSON configs are validated with a JSON Schema. Point your editor at it:",
+  "text": "YAML 和 JSON 設定檔會以 JSON Schema 驗證。請讓你的編輯器指向它：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 和 JSON 設定檔會以 JSON Schema 驗證。請讓你的編輯器指向它："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

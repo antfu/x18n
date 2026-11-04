@@ -1,0 +1,14 @@
+{
+  "hash": "af682d7cc0eb0ca0",
+  "source": "Locale codes as written in paths. Filters the found locales.",
+  "text": "パスに書かれているとおりのロケールコードです。見つかったロケールを絞り込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パスに書かれているとおりのロケールコードです。見つかったロケールを絞り込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

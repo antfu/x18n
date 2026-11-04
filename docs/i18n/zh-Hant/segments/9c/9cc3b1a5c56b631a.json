@@ -1,0 +1,14 @@
+{
+  "hash": "9cc3b1a5c56b631a",
+  "source": "Keys found by their value in any locale, best first: fuzzy unless {0}, ignoring case. Each match has the matched value, its locale entry and the usages. At most 100.",
+  "text": "依任一語系中的值找出的鍵，最相符者在前：除非設定 {0}，否則採模糊比對，並忽略大小寫。每筆符合結果包含符合的值、其語系項目與使用處。最多 100 筆。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "依任一語系中的值找出的鍵，最相符者在前：除非設定 {0}，否則採模糊比對，並忽略大小寫。每筆符合結果包含符合的值、其語系項目與使用處。最多 100 筆。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

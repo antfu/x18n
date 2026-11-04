@@ -1,0 +1,14 @@
+{
+  "hash": "a82163790fcf9762",
+  "source": "The CLI uses the same code for command input it cannot use: an unknown {0} id, an unknown {1} kind, a missing {2}, or an {3} that already exists when you run {4} or {5} without {6}.",
+  "text": "CLI는 사용할 수 없는 명령 입력에도 같은 코드를 사용합니다. 알 수 없는 {0} id, 알 수 없는 {1} 종류, 누락된 {2}, 또는 {5}를 {6} 없이 실행할 때 이미 존재하는 {3}이 그 예입니다. {4}를 실행할 때도 마찬가지입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI는 사용할 수 없는 명령 입력에도 같은 코드를 사용합니다. 알 수 없는 {0} id, 알 수 없는 {1} 종류, 누락된 {2}, 또는 {5}를 {6} 없이 실행할 때 이미 존재하는 {3}이 그 예입니다. {4}를 실행할 때도 마찬가지입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

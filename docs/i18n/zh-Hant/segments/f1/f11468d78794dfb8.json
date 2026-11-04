@@ -1,0 +1,14 @@
+{
+  "hash": "f11468d78794dfb8",
+  "source": "Pass a function to {0} to take options. The function returns the plugin:",
+  "text": "將函式傳給 {0} 即可接受選項。該函式會回傳外掛：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將函式傳給 {0} 即可接受選項。該函式會回傳外掛："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

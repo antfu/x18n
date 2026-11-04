@@ -1,0 +1,14 @@
+{
+  "hash": "a8643dc0b152f961",
+  "source": "{0}: comments keep their id, author, time and resolved state; {1} becomes {2}; a comment with a {3} becomes a {4}; a translation candidate becomes a {5} too.",
+  "text": "{0}：コメントは ID、作成者、時刻、解決済みの状態を保持します。{1} は {2} になります。{3} を持つコメントは {4} になります。翻訳候補も {5} になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：コメントは ID、作成者、時刻、解決済みの状態を保持します。{1} は {2} になります。{3} を持つコメントは {4} になります。翻訳候補も {5} になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

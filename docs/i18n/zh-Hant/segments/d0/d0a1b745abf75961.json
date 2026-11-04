@@ -1,0 +1,14 @@
+{
+  "hash": "d0a1b745abf75961",
+  "source": "Add missing keys with empty values.",
+  "text": "新增缺少的鍵，並以空值填入。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "新增缺少的鍵，並以空值填入。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

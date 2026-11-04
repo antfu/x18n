@@ -1,0 +1,14 @@
+{
+  "hash": "5a4b3cbd247e53cc",
+  "source": "This page lists every option of the config file. Read {0}Configuration{/0} first for the file names and how x18n finds them.",
+  "text": "このページでは、設定ファイルのすべてのオプションを説明します。ファイル名と x18n がそれらを見つける方法については、先に{0}設定{/0}を読んでください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このページでは、設定ファイルのすべてのオプションを説明します。ファイル名と x18n がそれらを見つける方法については、先に{0}設定{/0}を読んでください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

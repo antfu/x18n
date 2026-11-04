@@ -1,0 +1,14 @@
+{
+  "hash": "69efea8503fc055f",
+  "source": "{0}, as a string or as {1}, is the source locale. Angular's default is {2}.",
+  "text": "문자열 또는 {1} 형태의 {0}은 소스 로케일입니다. Angular의 기본값은 {2}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "문자열 또는 {1} 형태의 {0}은 소스 로케일입니다. Angular의 기본값은 {2}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

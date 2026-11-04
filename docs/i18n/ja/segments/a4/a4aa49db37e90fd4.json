@@ -1,0 +1,14 @@
+{
+  "hash": "a4aa49db37e90fd4",
+  "source": "A target message that last changed before its source message did.",
+  "text": "ソースメッセージより前に最後に変更された、ターゲットのメッセージです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ソースメッセージより前に最後に変更された、ターゲットのメッセージです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

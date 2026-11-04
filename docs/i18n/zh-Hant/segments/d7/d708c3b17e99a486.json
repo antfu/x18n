@@ -1,0 +1,14 @@
+{
+  "hash": "d708c3b17e99a486",
+  "source": "x18n does not create a translation file that is missing. As in Angular's guide, create it by copying the source file, then set the target language: {0} on {1} in XLIFF 1.2, {2} on {3} in XLIFF 2.0, {4} in JSON or {5} in ARB.",
+  "text": "x18n 不會建立缺少的翻譯檔案。如同 Angular 的指南，請複製來源檔案來建立，再設定目標語言：XLIFF 1.2 中為 {1} 上的 {0}，XLIFF 2.0 中為 {3} 上的 {2}，JSON 中為 {4}，ARB 中為 {5}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 不會建立缺少的翻譯檔案。如同 Angular 的指南，請複製來源檔案來建立，再設定目標語言：XLIFF 1.2 中為 {1} 上的 {0}，XLIFF 2.0 中為 {3} 上的 {2}，JSON 中為 {4}，ARB 中為 {5}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

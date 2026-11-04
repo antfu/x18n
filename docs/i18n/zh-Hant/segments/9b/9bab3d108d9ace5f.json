@@ -1,0 +1,14 @@
+{
+  "hash": "9bab3d108d9ace5f",
+  "source": "The check reports one diagnostic per key, at the entry in the source locale, and lists the locales that lack the key. An empty string is not missing: the {0} check reports it.",
+  "text": "此檢查會針對每個鍵回報一則診斷，位置在來源語系的項目上，並列出缺少該鍵的語系。空字串不算缺漏：{0} 檢查會回報空字串。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此檢查會針對每個鍵回報一則診斷，位置在來源語系的項目上，並列出缺少該鍵的語系。空字串不算缺漏：{0} 檢查會回報空字串。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

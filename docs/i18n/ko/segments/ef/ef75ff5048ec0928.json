@@ -1,0 +1,14 @@
+{
+  "hash": "ef75ff5048ec0928",
+  "source": "CSS border color of in-place values. Empty draws no border.",
+  "text": "in-place 값의 CSS 테두리 색상입니다. 비워 두면 테두리를 그리지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "in-place 값의 CSS 테두리 색상입니다. 비워 두면 테두리를 그리지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

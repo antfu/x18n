@@ -1,0 +1,14 @@
+{
+  "hash": "9507ed5cd28c59b6",
+  "source": "{0}, {1}, {2}, {3} and {4} are translate calls. {5} takes the prefix as a string, or as the {6} property of an object.",
+  "text": "{0}、{1}、{2}、{3} 和 {4} 都是翻譯呼叫。{5} 接受字串形式的前綴，或物件的 {6} 屬性。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2}、{3} 和 {4} 都是翻譯呼叫。{5} 接受字串形式的前綴，或物件的 {6} 屬性。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

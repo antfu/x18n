@@ -1,0 +1,14 @@
+{
+  "hash": "96c781a70c0e249e",
+  "source": "The preset includes everything of the {0} preset: the {1} namespace separator, the default namespace {2}, the derived keys {3}, the placeholders and the calls of i18next. If the {4} preset also applies, x18n adds these plugins one time.",
+  "text": "此預設集包含 {0} 預設集的所有內容：{1} 命名空間分隔符號、預設命名空間 {2}、衍生的鍵 {3}、佔位符，以及 i18next 的呼叫。如果 {4} 預設集也適用，x18n 只會加入這些外掛一次。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集包含 {0} 預設集的所有內容：{1} 命名空間分隔符號、預設命名空間 {2}、衍生的鍵 {3}、佔位符，以及 i18next 的呼叫。如果 {4} 預設集也適用，x18n 只會加入這些外掛一次。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

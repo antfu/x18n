@@ -1,0 +1,14 @@
+{
+  "hash": "ccfd933028c89a43",
+  "source": "In Vue templates, the preset also reads the {0} directive and the {1} component:",
+  "text": "Vue テンプレートでは、プリセットは {0} ディレクティブと {1} コンポーネントも読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Vue テンプレートでは、プリセットは {0} ディレクティブと {1} コンポーネントも読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

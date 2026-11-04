@@ -1,0 +1,14 @@
+{
+  "hash": "18c0783182513767",
+  "source": "Leave out the code around usages.",
+  "text": "使用箇所の周辺コードを省略します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用箇所の周辺コードを省略します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

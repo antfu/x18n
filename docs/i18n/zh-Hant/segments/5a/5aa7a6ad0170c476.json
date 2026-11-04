@@ -1,0 +1,14 @@
+{
+  "hash": "5aa7a6ad0170c476",
+  "source": "Defaults for the config of the project: {0}, {1}, {2}, {3} and {4}. The config file of the project wins over them. {5} applies only when the config sets none.",
+  "text": "專案設定的預設值：{0}、{1}、{2}、{3} 與 {4}。專案的設定檔優先於這些預設值。{5} 只會在設定未指定任何值時才生效。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "專案設定的預設值：{0}、{1}、{2}、{3} 與 {4}。專案的設定檔優先於這些預設值。{5} 只會在設定未指定任何值時才生效。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

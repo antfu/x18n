@@ -1,0 +1,14 @@
+{
+  "hash": "a27b992eebe2e204",
+  "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
+  "text": "このチェックは、{0} が {1} の場合、または {2} で重大度を設定した場合にオンになります。報告された文字列をキーに変換するには、{3} を実行してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックは、{0} が {1} の場合、または {2} で重大度を設定した場合にオンになります。報告された文字列をキーに変換するには、{3} を実行してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

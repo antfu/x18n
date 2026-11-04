@@ -1,0 +1,14 @@
+{
+  "hash": "e6338180e2716954",
+  "source": "Print candidates and proposed keys",
+  "text": "候補と提案されたキーを出力します",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "候補と提案されたキーを出力します"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

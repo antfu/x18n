@@ -1,0 +1,14 @@
+{
+  "hash": "b9843c99e6e1842d",
+  "source": "{0} changes a draft of the config before it is final. {1} is the config as the user wrote it, and {2} reads files. Presets set their defaults here. The config of the project is applied after every hook, so it wins.",
+  "text": "{0} 會在設定定案前修改設定草稿。{1} 是使用者撰寫的原始設定，{2} 會讀取檔案。預設集在這裡設定其預設值。專案本身的設定會在所有掛鉤之後套用，因此優先順序最高。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會在設定定案前修改設定草稿。{1} 是使用者撰寫的原始設定，{2} 會讀取檔案。預設集在這裡設定其預設值。專案本身的設定會在所有掛鉤之後套用，因此優先順序最高。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

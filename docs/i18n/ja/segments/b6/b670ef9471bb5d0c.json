@@ -1,0 +1,14 @@
+{
+  "hash": "b670ef9471bb5d0c",
+  "source": "Type names that make a parameter a translate function, such as {0}.",
+  "text": "パラメーターを translate 関数とみなす型名です（例：{0}）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パラメーターを translate 関数とみなす型名です（例：{0}）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

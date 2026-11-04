@@ -1,0 +1,14 @@
+{
+  "hash": "d8a1fcec18986d9d",
+  "source": "{0}: regions with a default namespace or key prefix. With {1}, the key prefix applies only to keys that it defines, and other keys resolve without it,",
+  "text": "{0}：具有預設命名空間或鍵前綴的區域。使用 {1} 時，鍵前綴只會套用於它所定義的鍵，其他鍵則不帶前綴進行解析，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：具有預設命名空間或鍵前綴的區域。使用 {1} 時，鍵前綴只會套用於它所定義的鍵，其他鍵則不帶前綴進行解析，"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

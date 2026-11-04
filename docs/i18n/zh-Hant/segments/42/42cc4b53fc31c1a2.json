@@ -1,0 +1,14 @@
+{
+  "hash": "42cc4b53fc31c1a2",
+  "source": "Check the namespace. In a namespaced project the key is {0}, for example {1}.",
+  "text": "檢查命名空間。在使用命名空間的專案中，鍵為 {0}，例如 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "檢查命名空間。在使用命名空間的專案中，鍵為 {0}，例如 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

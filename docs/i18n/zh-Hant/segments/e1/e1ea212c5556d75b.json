@@ -1,0 +1,14 @@
+{
+  "hash": "e1ea212c5556d75b",
+  "source": "Run {0} to see the result. Each preset shows as {1}, {2}, {3}, or {4}.",
+  "text": "執行 {0} 查看結果。每個預設集會顯示為 {1}、{2}、{3} 或 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "執行 {0} 查看結果。每個預設集會顯示為 {1}、{2}、{3} 或 {4}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

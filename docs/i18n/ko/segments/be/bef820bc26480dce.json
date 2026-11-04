@@ -1,0 +1,14 @@
+{
+  "hash": "bef820bc26480dce",
+  "source": "X18N1002: Duplicate capability id",
+  "text": "X18N1002: 중복된 capability id",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N1002: 중복된 capability id"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

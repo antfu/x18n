@@ -1,0 +1,14 @@
+{
+  "hash": "1f27c3c1a5e34b44",
+  "source": "The fallback preset. It adds the default extraction templates for plain JS, TS, JSX, Vue, Svelte and Astro files.",
+  "text": "後備預設集。它會為純 JS、TS、JSX、Vue、Svelte 和 Astro 檔案加入預設的擷取範本。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "後備預設集。它會為純 JS、TS、JSX、Vue、Svelte 和 Astro 檔案加入預設的擷取範本。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

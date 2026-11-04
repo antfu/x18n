@@ -1,0 +1,14 @@
+{
+  "hash": "065f2757c30139c0",
+  "source": "The same rules apply to the {0} check. The {1} options of the config set the key style and the strings to ignore. The presets add the replacement code for their library. See {2}Extraction templates{/2}.",
+  "text": "{0} チェックにも同じルールが適用されます。設定の {1} オプションで、キーのスタイルと無視する文字列を指定します。プリセットは、それぞれのライブラリ用の置き換えコードを追加します。{2}抽出テンプレート{/2}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} チェックにも同じルールが適用されます。設定の {1} オプションで、キーのスタイルと無視する文字列を指定します。プリセットは、それぞれのライブラリ用の置き換えコードを追加します。{2}抽出テンプレート{/2}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

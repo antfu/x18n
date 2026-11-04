@@ -1,0 +1,14 @@
+{
+  "hash": "1727709a4798060d",
+  "source": "The preset for Ruby on Rails. It reads config/locales YAML files with their top-level locale key, t and I18n.t calls, and lazy lookups.",
+  "text": "Ruby on Rails용 프리셋입니다. 최상위 로케일 키가 있는 config/locales YAML 파일, t 및 I18n.t 호출, 그리고 lazy lookup을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ruby on Rails용 프리셋입니다. 최상위 로케일 키가 있는 config/locales YAML 파일, t 및 I18n.t 호출, 그리고 lazy lookup을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

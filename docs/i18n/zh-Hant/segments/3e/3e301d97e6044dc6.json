@@ -1,0 +1,14 @@
+{
+  "hash": "3e301d97e6044dc6",
+  "source": "A message with a custom id ({0}) uses it. A message without one gets the id Angular computes from its text and meaning, and x18n computes the same: the {1} above is {2}. ICU expressions, nested elements, {3}, {4} and {5} blocks and custom placeholder names ({6}) count. An ICU inside text is a message of its own, as Angular extracts it.",
+  "text": "具有自訂 id（{0}）的訊息會使用該 id。沒有自訂 id 的訊息，則會取得 Angular 根據其文字和含義計算出的 id，x18n 的計算結果與其相同：上方的 {1} 為 {2}。ICU 運算式、巢狀元素、{3}、{4} 和 {5} 區塊，以及自訂佔位符名稱（{6}）都會納入計算。文字中的 ICU 本身就是一則獨立訊息，與 Angular 擷取的方式相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "具有自訂 id（{0}）的訊息會使用該 id。沒有自訂 id 的訊息，則會取得 Angular 根據其文字和含義計算出的 id，x18n 的計算結果與其相同：上方的 {1} 為 {2}。ICU 運算式、巢狀元素、{3}、{4} 和 {5} 區塊，以及自訂佔位符名稱（{6}）都會納入計算。文字中的 ICU 本身就是一則獨立訊息，與 Angular 擷取的方式相同。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

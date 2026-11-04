@@ -1,0 +1,14 @@
+{
+  "hash": "ee88aeeb939fdfcd",
+  "source": "Every command prints one document with the same envelope:",
+  "text": "每個命令都會輸出一份具有相同外層結構的文件：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每個命令都會輸出一份具有相同外層結構的文件："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

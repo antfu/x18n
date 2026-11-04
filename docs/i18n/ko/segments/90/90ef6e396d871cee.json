@@ -1,0 +1,14 @@
+{
+  "hash": "90ef6e396d871cee",
+  "source": "A parameter or prop with the type {0} is a translate function. Its first type argument is the namespace: {1}, or the first of {2}. Props work when typed inline ({3}) or with an interface or type of the same file.",
+  "text": "{0} 타입의 매개변수나 prop은 번역 함수입니다. 첫 번째 타입 인수는 네임스페이스이며, {1} 또는 {2}의 첫 번째 값입니다. prop은 인라인으로 타입을 지정({3})하거나 같은 파일의 interface 또는 type을 사용할 때 동작합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 타입의 매개변수나 prop은 번역 함수입니다. 첫 번째 타입 인수는 네임스페이스이며, {1} 또는 {2}의 첫 번째 값입니다. prop은 인라인으로 타입을 지정({3})하거나 같은 파일의 interface 또는 type을 사용할 때 동작합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

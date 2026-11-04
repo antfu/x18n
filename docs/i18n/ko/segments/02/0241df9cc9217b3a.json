@@ -1,0 +1,14 @@
+{
+  "hash": "0241df9cc9217b3a",
+  "source": "Overview of the i18n project: locales with translation coverage, counts of keys, resources and usages, diagnostics by check, and detected presets. Call it first to learn project names, the source locale and locale codes.",
+  "text": "i18n 프로젝트의 개요입니다. 번역 커버리지가 포함된 로케일, 키·리소스·사용처 개수, 검사별 진단, 감지된 프리셋을 제공합니다. 프로젝트 이름, 소스 로케일, 로케일 코드를 파악하려면 가장 먼저 호출하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n 프로젝트의 개요입니다. 번역 커버리지가 포함된 로케일, 키·리소스·사용처 개수, 검사별 진단, 감지된 프리셋을 제공합니다. 프로젝트 이름, 소스 로케일, 로케일 코드를 파악하려면 가장 먼저 호출하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fcb9e588e133b7a8",
+  "source": "No errors, and no more warnings than {0}.",
+  "text": "오류가 없고, 경고가 {0}개 이하입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오류가 없고, 경고가 {0}개 이하입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

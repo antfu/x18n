@@ -1,0 +1,14 @@
+{
+  "hash": "2b5b1e0e1ea61c78",
+  "source": "{0} detects the setup and writes {1}:",
+  "text": "{0} 會偵測專案設定並寫入 {1}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會偵測專案設定並寫入 {1}："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "47b03e86404beb32",
+  "source": "A key counts as used when:",
+  "text": "次のいずれかに当てはまるキーは、使用されているとみなされます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "次のいずれかに当てはまるキーは、使用されているとみなされます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

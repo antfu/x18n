@@ -1,0 +1,14 @@
+{
+  "hash": "4c5fae4ab9069edf",
+  "source": "The fix adds the key with the default value written in the call ({0} or {1} with i18next), else with an empty value.",
+  "text": "修正では、呼び出しに記述されたデフォルト値（{0}、または i18next の場合は {1}）を持つキーを追加します。デフォルト値がない場合は、空の値でキーを追加します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "修正では、呼び出しに記述されたデフォルト値（{0}、または i18next の場合は {1}）を持つキーを追加します。デフォルト値がない場合は、空の値でキーを追加します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

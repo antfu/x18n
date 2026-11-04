@@ -1,0 +1,14 @@
+{
+  "hash": "b949242a04a89599",
+  "source": "Before you use a key in code, find out whether it exists: {0}. To reuse a key with the same text, search the values: {1}.",
+  "text": "코드에서 키를 사용하기 전에 키가 존재하는지 확인하세요: {0}. 같은 텍스트의 키를 재사용하려면 값을 검색하세요: {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코드에서 키를 사용하기 전에 키가 존재하는지 확인하세요: {0}. 같은 텍스트의 키를 재사용하려면 값을 검색하세요: {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

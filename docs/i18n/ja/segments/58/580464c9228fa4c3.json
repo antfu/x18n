@@ -1,0 +1,14 @@
+{
+  "hash": "580464c9228fa4c3",
+  "source": "Show the status and the main commands.",
+  "text": "ステータスと主なコマンドを表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ステータスと主なコマンドを表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

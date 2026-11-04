@@ -1,0 +1,14 @@
+{
+  "hash": "e76811a372d274f3",
+  "source": "An XLIFF file with a target language, or with a {0}, is a translation file: x18n reads and writes its targets. A new target keeps the placeholder markup of its {1}, so {2}, {3} and {4} stay. JSON files hold their messages in {5}, and the {6} and {7} entries of ARB files are metadata. Keys are flat: the id {8} is one key.",
+  "text": "대상 언어가 있거나 {0}이 있는 XLIFF 파일은 번역 파일이며, x18n은 해당 파일의 타깃을 읽고 씁니다. 새 타깃은 {1}의 플레이스홀더 마크업을 그대로 유지하므로 {2}, {3}, {4}이 유지됩니다. JSON 파일은 메시지를 {5}에 담고, ARB 파일의 {6} 및 {7} 항목은 메타데이터입니다. 키는 평면 구조이며, ID {8}은 하나의 키입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "대상 언어가 있거나 {0}이 있는 XLIFF 파일은 번역 파일이며, x18n은 해당 파일의 타깃을 읽고 씁니다. 새 타깃은 {1}의 플레이스홀더 마크업을 그대로 유지하므로 {2}, {3}, {4}이 유지됩니다. JSON 파일은 메시지를 {5}에 담고, ARB 파일의 {6} 및 {7} 항목은 메타데이터입니다. 키는 평면 구조이며, ID {8}은 하나의 키입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

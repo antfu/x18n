@@ -1,0 +1,14 @@
+{
+  "hash": "d0a1b745abf75961",
+  "source": "Add missing keys with empty values.",
+  "text": "누락된 키를 빈 값으로 추가합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "누락된 키를 빈 값으로 추가합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4604cd4178998f78",
+  "source": "It does not run your source files or locale files. It parses them. Only a TS or JS config file and TS plugins run.",
+  "text": "소스 파일이나 로케일 파일을 실행하지 않고 파싱만 합니다. TS 또는 JS 설정 파일과 TS 플러그인만 실행됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 파일이나 로케일 파일을 실행하지 않고 파싱만 합니다. TS 또는 JS 설정 파일과 TS 플러그인만 실행됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

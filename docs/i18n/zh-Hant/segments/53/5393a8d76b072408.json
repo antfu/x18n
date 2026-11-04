@@ -1,0 +1,14 @@
+{
+  "hash": "5393a8d76b072408",
+  "source": "Callee names never counted as translate calls.",
+  "text": "永遠不會被視為翻譯呼叫的被呼叫者名稱。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "永遠不會被視為翻譯呼叫的被呼叫者名稱。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

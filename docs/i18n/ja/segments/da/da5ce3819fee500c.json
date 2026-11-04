@@ -1,0 +1,14 @@
+{
+  "hash": "da5ce3819fee500c",
+  "source": "Turns raw key text into canonical form. The first plugin that returns a value wins.",
+  "text": "生のキーテキストを正規の形式に変換します。値を返した最初のプラグインが優先されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "生のキーテキストを正規の形式に変換します。値を返した最初のプラグインが優先されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

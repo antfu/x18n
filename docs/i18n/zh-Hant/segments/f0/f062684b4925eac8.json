@@ -1,0 +1,14 @@
+{
+  "hash": "f062684b4925eac8",
+  "source": "Everything between the two comments. Without an end, everything to the end of the file.",
+  "text": "兩個註解之間的所有內容。若沒有結束註解，則略過到檔案結尾為止的所有內容。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "兩個註解之間的所有內容。若沒有結束註解，則略過到檔案結尾為止的所有內容。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

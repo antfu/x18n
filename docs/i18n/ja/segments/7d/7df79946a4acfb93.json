@@ -1,0 +1,14 @@
+{
+  "hash": "7df79946a4acfb93",
+  "source": "Report invalid, untranslated and unused keys, like {0}.",
+  "text": "{0} と同様に、無効なキー、未訳のキー、未使用のキーを報告します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} と同様に、無効なキー、未訳のキー、未使用のキーを報告します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

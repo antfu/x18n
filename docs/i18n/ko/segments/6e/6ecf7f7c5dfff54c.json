@@ -1,0 +1,14 @@
+{
+  "hash": "6ecf7f7c5dfff54c",
+  "source": "Explicit format id per file extension (without dot).",
+  "text": "파일 확장자(점 제외)별로 명시하는 포맷 id입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일 확장자(점 제외)별로 명시하는 포맷 id입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

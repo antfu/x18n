@@ -1,0 +1,14 @@
+{
+  "hash": "1ebc7271e8d6911a",
+  "source": "The JSON contract. {0} picks it too.",
+  "text": "JSON 규약입니다. {0}도 이 형식을 선택합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON 규약입니다. {0}도 이 형식을 선택합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5676355c46b2f7ac",
+  "source": "{0}, {1} and {2} are translate calls. The {3} option in the second argument sets the namespace.",
+  "text": "{0}, {1}, {2}는 번역 호출입니다. 두 번째 인수의 {3} 옵션은 네임스페이스를 지정합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}는 번역 호출입니다. 두 번째 인수의 {3} 옵션은 네임스페이스를 지정합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dc2868ad410d8dec",
+  "source": "Add types for your check ids and options through declaration merging. See {0}Typed config keys{/0}.",
+  "text": "宣言のマージ（declaration merging）で、チェック id とオプションの型を追加してください。{0}型付きの設定キー{/0}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "宣言のマージ（declaration merging）で、チェック id とオプションの型を追加してください。{0}型付きの設定キー{/0}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

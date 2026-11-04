@@ -1,0 +1,14 @@
+{
+  "hash": "2f4970a4878362ea",
+  "source": "Every CI can run {0}. Use the {1} reporter for the log, the {2} reporter for your own tools, and the {3} reporter for services that read SARIF. In a monorepo, {4} checks every project. Add {5} to check one.",
+  "text": "모든 CI에서 {0}을(를) 실행할 수 있습니다. 로그에는 {1} 리포터를, 자체 도구에는 {2} 리포터를, SARIF를 읽는 서비스에는 {3} 리포터를 사용하세요. 모노레포에서는 {4}이(가) 모든 프로젝트를 검사합니다. 하나만 검사하려면 {5}을(를) 추가하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 CI에서 {0}을(를) 실행할 수 있습니다. 로그에는 {1} 리포터를, 자체 도구에는 {2} 리포터를, SARIF를 읽는 서비스에는 {3} 리포터를 사용하세요. 모노레포에서는 {4}이(가) 모든 프로젝트를 검사합니다. 하나만 검사하려면 {5}을(를) 추가하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f57dff0e283c59fd",
+  "source": "GitHub Actions workflow commands. GitHub shows them as annotations on the changed lines.",
+  "text": "GitHub Actions 워크플로 명령입니다. GitHub는 이를 변경된 줄에 어노테이션으로 표시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "GitHub Actions 워크플로 명령입니다. GitHub는 이를 변경된 줄에 어노테이션으로 표시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

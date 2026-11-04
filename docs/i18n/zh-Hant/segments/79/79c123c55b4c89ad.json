@@ -1,0 +1,14 @@
+{
+  "hash": "79c123c55b4c89ad",
+  "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
+  "text": "此處的 {0} 為 {1}，並依該函式庫的方式退回：先退回到 {2}，再退回到原樣寫出的鍵。帶有自己命名空間的鍵，或帶有 {3} 和 {4} 的 pipe，會維持原樣。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此處的 {0} 為 {1}，並依該函式庫的方式退回：先退回到 {2}，再退回到原樣寫出的鍵。帶有自己命名空間的鍵，或帶有 {3} 和 {4} 的 pipe，會維持原樣。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

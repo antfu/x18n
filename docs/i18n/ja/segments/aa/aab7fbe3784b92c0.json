@@ -1,0 +1,14 @@
+{
+  "hash": "aab7fbe3784b92c0",
+  "source": "Translate and review prompts",
+  "text": "翻訳プロンプトとレビュープロンプト",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻訳プロンプトとレビュープロンプト"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "232007563d9dcacd",
+  "source": "Skip these check ids (comma separated)",
+  "text": "指定したチェック id をスキップ（カンマ区切り）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "指定したチェック id をスキップ（カンマ区切り）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

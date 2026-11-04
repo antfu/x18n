@@ -1,0 +1,14 @@
+{
+  "hash": "5cfca51f4f16639d",
+  "source": "In YAML, write regular expressions in single quotes, so that backslashes stay as they are.",
+  "text": "YAML에서는 백슬래시가 그대로 유지되도록 정규식을 작은따옴표로 감싸서 작성하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML에서는 백슬래시가 그대로 유지되도록 정규식을 작은따옴표로 감싸서 작성하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

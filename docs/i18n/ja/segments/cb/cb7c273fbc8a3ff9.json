@@ -1,0 +1,14 @@
+{
+  "hash": "cb7c273fbc8a3ff9",
+  "source": "Serve the MCP tools over stdio.",
+  "text": "MCP ツールを stdio で提供します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "MCP ツールを stdio で提供します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

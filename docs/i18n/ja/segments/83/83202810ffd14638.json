@@ -1,0 +1,14 @@
+{
+  "hash": "83202810ffd14638",
+  "source": "The source locale is never a related locale: the prompt shows it anyway. A value that is a copy of the source is left out. {0} names the related locales instead, which also works across languages, and {1} leaves them out. A rule asks the agent to keep what fits the target, and to change the spelling, words and forms that differ.",
+  "text": "ソースロケールは関連ロケールにはなりませんが、プロンプトには常に表示されます。ソースのコピーである値は除外されます。{0} は代わりに関連ロケールを指定します。この方法は言語をまたいでも使用でき、{1} は関連ロケールを除外します。ルールにより、エージェントはターゲットに合うものを残し、異なる綴り、単語、形だけを変更するようになります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ソースロケールは関連ロケールにはなりませんが、プロンプトには常に表示されます。ソースのコピーである値は除外されます。{0} は代わりに関連ロケールを指定します。この方法は言語をまたいでも使用でき、{1} は関連ロケールを除外します。ルールにより、エージェントはターゲットに合うものを残し、異なる綴り、単語、形だけを変更するようになります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

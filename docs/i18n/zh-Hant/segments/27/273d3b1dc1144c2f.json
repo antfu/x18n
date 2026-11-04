@@ -1,0 +1,14 @@
+{
+  "hash": "273d3b1dc1144c2f",
+  "source": "Show translated values next to or in place of keys in code.",
+  "text": "在程式碼中，於鍵的旁邊或直接取代鍵來顯示翻譯後的值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在程式碼中，於鍵的旁邊或直接取代鍵來顯示翻譯後的值。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

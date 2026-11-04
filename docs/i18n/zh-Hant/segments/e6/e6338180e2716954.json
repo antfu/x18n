@@ -1,0 +1,14 @@
+{
+  "hash": "e6338180e2716954",
+  "source": "Print candidates and proposed keys",
+  "text": "印出候選項目與建議的鍵",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "印出候選項目與建議的鍵"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

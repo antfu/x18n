@@ -1,0 +1,14 @@
+{
+  "hash": "26dde11648a68435",
+  "source": "In a terminal, {0} asks for each string: accept the proposed key, type another key, skip it, or stop.",
+  "text": "在終端機中，{0} 會逐一詢問每個字串：接受建議的鍵、輸入其他鍵、略過，或停止。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在終端機中，{0} 會逐一詢問每個字串：接受建議的鍵、輸入其他鍵、略過，或停止。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

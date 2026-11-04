@@ -1,0 +1,14 @@
+{
+  "hash": "9dd644d2d5fe8d62",
+  "source": "{0}, {1} and a type on the variable ({2}) are fine. When x18n adds or removes a key, it rewrites only the object and keeps the rest of the file. A new locale file that x18n writes is a plain {3}, without the type.",
+  "text": "{0}, {1} 및 변수의 타입({2})은 사용해도 됩니다. x18n이 키를 추가하거나 제거할 때는 객체만 다시 작성하고 파일의 나머지 부분은 그대로 유지합니다. x18n이 새로 작성하는 로케일 파일은 타입이 없는 일반 {3}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} 및 변수의 타입({2})은 사용해도 됩니다. x18n이 키를 추가하거나 제거할 때는 객체만 다시 작성하고 파일의 나머지 부분은 그대로 유지합니다. x18n이 새로 작성하는 로케일 파일은 타입이 없는 일반 {3}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

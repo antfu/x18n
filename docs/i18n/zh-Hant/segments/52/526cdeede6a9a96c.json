@@ -1,0 +1,14 @@
+{
+  "hash": "526cdeede6a9a96c",
+  "source": "Review threads show as editor comments on the key in each locale file. Reply to a thread to comment, approve, request a change or suggest a value; the buttons under the reply box pick the kind. A suggestion has an \"Apply Suggestion\" button that sets the value. \"Resolve\" closes a comment. \"x18n: Review Key\" starts a review from the cursor or from the Keys view. The language server writes reviews to {0} at once, and the hover of a key shows its review state per locale.",
+  "text": "審閱討論串會以編輯器留言的形式，顯示在每個語系檔案中對應的鍵上。回覆討論串即可留言、核准、要求變更或建議值；回覆框下方的按鈕用來選擇類型。建議含有「Apply Suggestion」按鈕，可設定該值。「Resolve」會關閉留言。「x18n: Review Key」會從游標位置或 Keys 檢視開始審閱。語言伺服器會立即將審閱寫入 {0}，而鍵的懸停提示會顯示各語系的審閱狀態。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "審閱討論串會以編輯器留言的形式，顯示在每個語系檔案中對應的鍵上。回覆討論串即可留言、核准、要求變更或建議值；回覆框下方的按鈕用來選擇類型。建議含有「Apply Suggestion」按鈕，可設定該值。「Resolve」會關閉留言。「x18n: Review Key」會從游標位置或 Keys 檢視開始審閱。語言伺服器會立即將審閱寫入 {0}，而鍵的懸停提示會顯示各語系的審閱狀態。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

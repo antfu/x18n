@@ -1,0 +1,14 @@
+{
+  "hash": "1c04251131034fd2",
+  "source": "{0} turns every preset off. See {1}Presets{/1} for the names, and for the preset functions in {2}.",
+  "text": "{0}은(는) 모든 프리셋을 끕니다. 프리셋 이름과 {2}의 프리셋 함수는 {1}프리셋{/1}을 참조하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 모든 프리셋을 끕니다. 프리셋 이름과 {2}의 프리셋 함수는 {1}프리셋{/1}을 참조하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

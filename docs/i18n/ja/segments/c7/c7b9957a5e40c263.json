@@ -1,0 +1,14 @@
+{
+  "hash": "c7b9957a5e40c263",
+  "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
+  "text": "または、リソースパターンに {0} を設定してください。その場合、x18n はこのファイルを Node で実行し、メッセージは読み取り専用になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "または、リソースパターンに {0} を設定してください。その場合、x18n はこのファイルを Node で実行し、メッセージは読み取り専用になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

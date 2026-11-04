@@ -1,0 +1,14 @@
+{
+  "hash": "1f0424445bcd23c8",
+  "source": "The preset for @nuxtjs/i18n. It adds everything of vue-i18n, and finds the locale directory of the Nuxt config.",
+  "text": "@nuxtjs/i18n 的預設集。包含 vue-i18n 的所有功能，並能從 Nuxt 設定中找到語系目錄。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@nuxtjs/i18n 的預設集。包含 vue-i18n 的所有功能，並能從 Nuxt 設定中找到語系目錄。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

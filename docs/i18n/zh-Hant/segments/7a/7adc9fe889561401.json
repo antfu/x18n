@@ -1,0 +1,14 @@
+{
+  "hash": "7adc9fe889561401",
+  "source": "A monorepo can hold several projects, for example a web app and a UI library, each with its own locale files. List them in the root config with {0}:",
+  "text": "一個 monorepo 可以包含多個專案，例如一個網頁應用程式和一個 UI 函式庫，各自擁有自己的語系檔案。請在根設定檔中使用 {0} 列出它們：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一個 monorepo 可以包含多個專案，例如一個網頁應用程式和一個 UI 函式庫，各自擁有自己的語系檔案。請在根設定檔中使用 {0} 列出它們："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

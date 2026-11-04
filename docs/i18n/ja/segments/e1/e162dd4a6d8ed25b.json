@@ -1,0 +1,14 @@
+{
+  "hash": "e162dd4a6d8ed25b",
+  "source": "Only in these locales (repeatable)",
+  "text": "指定したロケールのみ（複数指定可）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "指定したロケールのみ（複数指定可）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

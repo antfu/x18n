@@ -1,0 +1,14 @@
+{
+  "hash": "5084f671cabdbb73",
+  "source": "How {0} makes a new key: {1} from the text, {2} uses the text itself, {3}, or {4}. Default {5}.",
+  "text": "{0} が新しいキーを作成する方法です。{1} はテキストから生成し、{2} はテキスト自体を使用し、{3} または {4} を指定できます。デフォルトは {5} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} が新しいキーを作成する方法です。{1} はテキストから生成し、{2} はテキスト自体を使用し、{3} または {4} を指定できます。デフォルトは {5} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

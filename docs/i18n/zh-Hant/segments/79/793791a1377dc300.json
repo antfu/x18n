@@ -1,0 +1,14 @@
+{
+  "hash": "793791a1377dc300",
+  "source": "Default: the directory of the config file",
+  "text": "預設：設定檔所在的目錄",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "預設：設定檔所在的目錄"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

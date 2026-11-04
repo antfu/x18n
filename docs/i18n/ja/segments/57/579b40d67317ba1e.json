@@ -1,0 +1,14 @@
+{
+  "hash": "579b40d67317ba1e",
+  "source": "A scanner failed to parse a source file, so x18n did not find the usages in it.",
+  "text": "スキャナーがソースファイルの解析に失敗したため、x18n はそのファイル内の使用箇所を検出できませんでした。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "スキャナーがソースファイルの解析に失敗したため、x18n はそのファイル内の使用箇所を検出できませんでした。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

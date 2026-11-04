@@ -1,0 +1,14 @@
+{
+  "hash": "3631c397a8150fe2",
+  "source": "problem, error (unless severity is error)",
+  "text": "problem、error（嚴重程度為 error 時除外）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "problem、error（嚴重程度為 error 時除外）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2be3d420b39a0d7e",
+  "source": "The locale that is the source of truth for checks and prompts.",
+  "text": "검사와 프롬프트에서 기준이 되는 로케일입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "검사와 프롬프트에서 기준이 되는 로케일입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

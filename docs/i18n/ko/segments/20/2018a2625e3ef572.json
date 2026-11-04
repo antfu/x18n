@@ -1,0 +1,14 @@
+{
+  "hash": "2018a2625e3ef572",
+  "source": "The {0} check reports each message whose state is \"changes requested\". Its quick fix resolves the request.",
+  "text": "{0} 검사는 상태가 \"changes requested\"인 각 메시지를 보고합니다. 빠른 수정은 해당 요청을 해결 처리합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 검사는 상태가 \"changes requested\"인 각 메시지를 보고합니다. 빠른 수정은 해당 요청을 해결 처리합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

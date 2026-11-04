@@ -1,0 +1,14 @@
+{
+  "hash": "5408843f26d53223",
+  "source": "Finds hard strings and builds replacements.",
+  "text": "尋找硬編碼字串並建立替換內容。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "尋找硬編碼字串並建立替換內容。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

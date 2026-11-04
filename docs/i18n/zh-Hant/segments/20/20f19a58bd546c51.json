@@ -1,0 +1,14 @@
+{
+  "hash": "20f19a58bd546c51",
+  "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check, and the editor shows the same diagnostics.",
+  "text": "檢查會讀取專案並回報診斷。診斷是一則已回報的問題，包含代碼、嚴重程度，以及選用的修正方式。{0} 會執行所有檢查，編輯器也會顯示相同的診斷。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "檢查會讀取專案並回報診斷。診斷是一則已回報的問題，包含代碼、嚴重程度，以及選用的修正方式。{0} 會執行所有檢查，編輯器也會顯示相同的診斷。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

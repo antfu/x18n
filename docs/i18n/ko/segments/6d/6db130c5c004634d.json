@@ -1,0 +1,14 @@
+{
+  "hash": "6db130c5c004634d",
+  "source": "Each entry of {0} is a translation file, as a path, a list of paths or {1}.",
+  "text": "{0}의 각 항목은 번역 파일이며, 경로, 경로 목록 또는 {1}로 지정합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}의 각 항목은 번역 파일이며, 경로, 경로 목록 또는 {1}로 지정합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

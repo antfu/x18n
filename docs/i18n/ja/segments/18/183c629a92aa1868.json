@@ -1,0 +1,14 @@
+{
+  "hash": "183c629a92aa1868",
+  "source": "If your config has no {0}, the preset uses {1}. New files use nested keys.",
+  "text": "設定に {0} がない場合、プリセットは {1} を使用します。新しいファイルではネストされたキーを使用します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定に {0} がない場合、プリセットは {1} を使用します。新しいファイルではネストされたキーを使用します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

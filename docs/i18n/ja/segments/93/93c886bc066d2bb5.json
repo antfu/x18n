@@ -1,0 +1,14 @@
+{
+  "hash": "93c886bc066d2bb5",
+  "source": "In {0}, {1} and {2} files, the preset reads:",
+  "text": "{0}、{1}、{2} ファイルでは、プリセットは次を読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2} ファイルでは、プリセットは次を読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

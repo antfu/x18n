@@ -1,0 +1,14 @@
+{
+  "hash": "8c021e2063557f45",
+  "source": "{0} lists regex scanners for other file types. Each entry has {1} (without the dot) and {2}. A pattern is a regular expression whose first group is the key. Write {3} inside the group, as in {4}: x18n replaces {5} with a pattern for key characters. This is the same format as {6} of i18n-ally.",
+  "text": "{0} は、その他のファイルタイプ向けに正規表現スキャナーを列挙します。各エントリには {1}（ドットなし）と {2} を指定します。パターンは、最初のグループがキーになる正規表現です。グループ内には {4} のように {3} を記述します。x18n は {5} をキーに使える文字のパターンに置き換えます。これは i18n-ally の {6} と同じ形式です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、その他のファイルタイプ向けに正規表現スキャナーを列挙します。各エントリには {1}（ドットなし）と {2} を指定します。パターンは、最初のグループがキーになる正規表現です。グループ内には {4} のように {3} を記述します。x18n は {5} をキーに使える文字のパターンに置き換えます。これは i18n-ally の {6} と同じ形式です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

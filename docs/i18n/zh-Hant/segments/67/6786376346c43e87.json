@@ -1,0 +1,14 @@
+{
+  "hash": "6786376346c43e87",
+  "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
+  "text": "{0}、{1} 與 {2} 會先回傳計畫。第二次帶上 {3} 呼叫時才會套用。{4}MCP 工具{/4}列出了每個工具的輸入欄位。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1} 與 {2} 會先回傳計畫。第二次帶上 {3} 呼叫時才會套用。{4}MCP 工具{/4}列出了每個工具的輸入欄位。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

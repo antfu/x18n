@@ -1,0 +1,14 @@
+{
+  "hash": "09c2516ff6d1ece5",
+  "source": "The value an approval approved.",
+  "text": "승인에서 승인한 값입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "승인에서 승인한 값입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

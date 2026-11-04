@@ -1,0 +1,14 @@
+{
+  "hash": "baa902db585c253b",
+  "source": "A package can also ship a YAML plugin file. Users then list its path:",
+  "text": "パッケージに YAML プラグインファイルを同梱することもできます。その場合、ユーザーはそのパスを指定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パッケージに YAML プラグインファイルを同梱することもできます。その場合、ユーザーはそのパスを指定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

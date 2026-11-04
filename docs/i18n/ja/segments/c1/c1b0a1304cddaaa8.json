@@ -1,0 +1,14 @@
+{
+  "hash": "c1b0a1304cddaaa8",
+  "source": "{0} is the main format. {1} gives types and completion:",
+  "text": "{0} が主な形式です。{1} を使うと、型情報と補完が得られます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} が主な形式です。{1} を使うと、型情報と補完が得られます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

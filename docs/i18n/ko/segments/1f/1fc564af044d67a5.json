@@ -1,0 +1,14 @@
+{
+  "hash": "1fc564af044d67a5",
+  "source": "The whole call holding the key, when the scanner knows it.",
+  "text": "스캐너가 알고 있는 경우, 키를 포함하는 전체 호출입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "스캐너가 알고 있는 경우, 키를 포함하는 전체 호출입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

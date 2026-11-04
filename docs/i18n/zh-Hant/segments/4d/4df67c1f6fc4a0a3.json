@@ -1,0 +1,14 @@
+{
+  "hash": "4df67c1f6fc4a0a3",
+  "source": "When a plugin does not work as you expect, ask x18n how it understood the project.",
+  "text": "當外掛的行為不如預期時，可以詢問 x18n 它是如何理解專案的。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當外掛的行為不如預期時，可以詢問 x18n 它是如何理解專案的。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

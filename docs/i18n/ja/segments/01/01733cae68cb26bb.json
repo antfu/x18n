@@ -1,0 +1,14 @@
+{
+  "hash": "01733cae68cb26bb",
+  "source": "The project root. The default is the root of the host, and x18n searches upward for a config file from there. With {0}, x18n does not search upward.",
+  "text": "プロジェクトのルートです。デフォルトはホストのルートで、x18n はそこから上位のディレクトリに向かって設定ファイルを検索します。{0} を指定すると、x18n は上位のディレクトリを検索しません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロジェクトのルートです。デフォルトはホストのルートで、x18n はそこから上位のディレクトリに向かって設定ファイルを検索します。{0} を指定すると、x18n は上位のディレクトリを検索しません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

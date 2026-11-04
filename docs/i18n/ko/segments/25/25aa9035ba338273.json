@@ -1,0 +1,14 @@
+{
+  "hash": "25aa9035ba338273",
+  "source": "Use a name from the {0}presets list{/0}.",
+  "text": "{0}프리셋 목록{/0}에 있는 이름을 사용하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}프리셋 목록{/0}에 있는 이름을 사용하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

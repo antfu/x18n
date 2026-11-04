@@ -1,0 +1,14 @@
+{
+  "hash": "8b8b2fcbd909ec40",
+  "source": "The same as for {0}i18next{/0}: {1} and {2}.",
+  "text": "{0}i18next{/0} と同じです。{1} と {2} が対象です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}i18next{/0} と同じです。{1} と {2} が対象です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4736914dab37187f",
+  "source": "Objects merge key by key: {0}, {1}, {2}, {3} and {4}.",
+  "text": "物件會逐鍵合併：{0}、{1}、{2}、{3} 和 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "物件會逐鍵合併：{0}、{1}、{2}、{3} 和 {4}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

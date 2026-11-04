@@ -1,0 +1,14 @@
+{
+  "hash": "70d2a41ecbd2c2bf",
+  "source": "Run {0} to see which config file x18n picked.",
+  "text": "執行 {0} 查看 x18n 選用了哪個設定檔。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "執行 {0} 查看 x18n 選用了哪個設定檔。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

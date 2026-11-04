@@ -1,0 +1,14 @@
+{
+  "hash": "d245ecb45b861508",
+  "source": "{0} returns the tree of keys after parsing.",
+  "text": "{0} 回傳解析後的鍵樹狀結構。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 回傳解析後的鍵樹狀結構。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

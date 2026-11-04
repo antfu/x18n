@@ -1,0 +1,14 @@
+{
+  "hash": "e3f554783fee66ea",
+  "source": "In XML views, JSON files, JS and TS, the preset reads {0} bindings. In JS and TS, it also reads {1}:",
+  "text": "XML ビュー、JSON ファイル、JS、TS では、プリセットは {0} バインディングを読み取ります。JS と TS では、{1} も読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "XML ビュー、JSON ファイル、JS、TS では、プリセットは {0} バインディングを読み取ります。JS と TS では、{1} も読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

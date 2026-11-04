@@ -1,0 +1,14 @@
+{
+  "hash": "2a0285a92dcc840f",
+  "source": "Keep every placeholder of the source value, such as {0}, {1}, {2} or {3}.",
+  "text": "保留來源值中的每個佔位符，例如 {0}、{1}、{2} 或 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "保留來源值中的每個佔位符，例如 {0}、{1}、{2} 或 {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

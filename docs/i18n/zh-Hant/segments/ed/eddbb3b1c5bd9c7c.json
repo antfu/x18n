@@ -1,0 +1,14 @@
+{
+  "hash": "eddbb3b1c5bd9c7c",
+  "source": "x18n reads the locale files and the translate calls of your project. It reports missing, unused and broken keys, and changes locale files without breaking their format. For humans, CI and coding agents.",
+  "text": "x18n 會讀取專案中的語系檔案和翻譯呼叫，回報缺少、未使用和損壞的鍵，並在不破壞格式的情況下修改語系檔案。適用於人員、CI 和 coding agent。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 會讀取專案中的語系檔案和翻譯呼叫，回報缺少、未使用和損壞的鍵，並在不破壞格式的情況下修改語系檔案。適用於人員、CI 和 coding agent。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

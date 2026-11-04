@@ -1,0 +1,14 @@
+{
+  "hash": "6ce54352f6919fe2",
+  "source": "Lists review threads with their state. {0} and {1} filter them.",
+  "text": "리뷰 스레드를 상태와 함께 나열합니다. {0}와 {1}로 필터링할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리뷰 스레드를 상태와 함께 나열합니다. {0}와 {1}로 필터링할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

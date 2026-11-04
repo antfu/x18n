@@ -1,0 +1,14 @@
+{
+  "hash": "f895ba937b5e4249",
+  "source": "The agent edits the keys in the plan file, and removes the items it does not want, before it applies the plan.",
+  "text": "에이전트는 계획을 적용하기 전에 계획 파일의 키를 수정하고, 원하지 않는 항목을 제거합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에이전트는 계획을 적용하기 전에 계획 파일의 키를 수정하고, 원하지 않는 항목을 제거합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

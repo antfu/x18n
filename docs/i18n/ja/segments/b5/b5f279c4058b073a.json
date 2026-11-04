@@ -1,0 +1,14 @@
+{
+  "hash": "b5f279c4058b073a",
+  "source": "The input of an edit has the wrong shape.",
+  "text": "edit の入力の形式が正しくありません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "edit の入力の形式が正しくありません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

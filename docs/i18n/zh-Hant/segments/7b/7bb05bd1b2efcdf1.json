@@ -1,0 +1,14 @@
+{
+  "hash": "7bb05bd1b2efcdf1",
+  "source": "Aliases such as {0} are not resolved. x18n skips a {1} outside the project and a {2} file that is not JSON, JSON5 or YAML, such as {3} or {4}.",
+  "text": "不會解析如 {0} 這類別名。x18n 會略過專案以外的 {1}，以及不是 JSON、JSON5 或 YAML 的 {2} 檔案，例如 {3} 或 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不會解析如 {0} 這類別名。x18n 會略過專案以外的 {1}，以及不是 JSON、JSON5 或 YAML 的 {2} 檔案，例如 {3} 或 {4}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

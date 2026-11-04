@@ -1,0 +1,14 @@
+{
+  "hash": "89647556190c05b7",
+  "source": "A dynamic usage with a static prefix ({0}pages.$\\{id\\}.title{1}). It makes every key under the prefix \"possibly\" used.",
+  "text": "帶有靜態前綴的動態使用處（{0}pages.$\\{id\\}.title{1}）。它會讓該前綴下的每個鍵都被視為「可能」已使用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "帶有靜態前綴的動態使用處（{0}pages.$\\{id\\}.title{1}）。它會讓該前綴下的每個鍵都被視為「可能」已使用。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

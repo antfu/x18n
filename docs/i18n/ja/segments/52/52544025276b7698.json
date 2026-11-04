@@ -1,0 +1,14 @@
+{
+  "hash": "52544025276b7698",
+  "source": "The preset adds the {0} scanner, so extraction finds hard-coded text and text attributes ({1}, {2}, {3}, ...) in {4} templates. It skips:",
+  "text": "このプリセットは {0} スキャナーを追加するため、抽出時に {4} テンプレート内のハードコードされたテキストとテキスト属性（{1}、{2}、{3} など）が検出されます。次のものはスキップされます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは {0} スキャナーを追加するため、抽出時に {4} テンプレート内のハードコードされたテキストとテキスト属性（{1}、{2}、{3} など）が検出されます。次のものはスキップされます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

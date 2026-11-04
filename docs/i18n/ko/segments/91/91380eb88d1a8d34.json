@@ -1,0 +1,14 @@
+{
+  "hash": "91380eb88d1a8d34",
+  "source": "i18n-ally {0}: {1} in one locale adds the key with an empty value to the others.",
+  "text": "i18n-ally {0}: 한 로케일에 {1}하면 나머지 로케일에 빈 값으로 키를 추가합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally {0}: 한 로케일에 {1}하면 나머지 로케일에 빈 값으로 키를 추가합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

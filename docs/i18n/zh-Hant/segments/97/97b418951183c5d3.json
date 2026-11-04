@@ -1,0 +1,14 @@
+{
+  "hash": "97b418951183c5d3",
+  "source": "Show usage counts and missing locales above keys in resource files.",
+  "text": "在資源檔案中，於鍵上方顯示使用處數量與缺少的語系。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在資源檔案中，於鍵上方顯示使用處數量與缺少的語系。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

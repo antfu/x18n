@@ -1,0 +1,14 @@
+{
+  "hash": "7e552945f9a3c7e0",
+  "source": "x18n failed to load a plugin from {0} or {1}.",
+  "text": "x18n이 {0} 또는 {1}에서 플러그인을 로드하지 못했습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n이 {0} 또는 {1}에서 플러그인을 로드하지 못했습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

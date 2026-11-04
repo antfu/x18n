@@ -1,0 +1,14 @@
+{
+  "hash": "82bf753c85aa1009",
+  "source": "How x18n finds usages in source files.",
+  "text": "x18n이 소스 파일에서 사용처를 찾는 방법입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n이 소스 파일에서 사용처를 찾는 방법입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

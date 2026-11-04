@@ -1,0 +1,14 @@
+{
+  "hash": "2cdeb8e1ac251df5",
+  "source": "The preset finds every {0} file outside {1}, {2} and {3}. The {4} format reads the string {5} entries and writes edits in place. It keeps the schema, the headers, comments and the entries that hold files or images. x18n does not write a string under the name of such an entry, because two {6} with one name break the build. Keys stay flat, so a key can contain dots.",
+  "text": "このプリセットは、{1}、{2}、{3} の外にあるすべての {0} ファイルを検出します。{4} フォーマットは文字列の {5} エントリを読み取り、編集を元のファイル内に書き込みます。スキーマ、ヘッダー、コメント、およびファイルや画像を保持するエントリはそのまま残します。同じ名前の {6} が 2 つあるとビルドが失敗するため、x18n はそのようなエントリの名前で文字列を書き込みません。キーはフラットなので、キーにドットを含めることができます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、{1}、{2}、{3} の外にあるすべての {0} ファイルを検出します。{4} フォーマットは文字列の {5} エントリを読み取り、編集を元のファイル内に書き込みます。スキーマ、ヘッダー、コメント、およびファイルや画像を保持するエントリはそのまま残します。同じ名前の {6} が 2 つあるとビルドが失敗するため、x18n はそのようなエントリの名前で文字列を書き込みません。キーはフラットなので、キーにドットを含めることができます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

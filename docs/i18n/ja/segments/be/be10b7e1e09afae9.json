@@ -1,0 +1,14 @@
+{
+  "hash": "be10b7e1e09afae9",
+  "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
+  "text": "プランの各レビュー編集に対して、op の順に呼び出されます。返された書き込みは同じプランに入ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プランの各レビュー編集に対して、op の順に呼び出されます。返された書き込みは同じプランに入ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

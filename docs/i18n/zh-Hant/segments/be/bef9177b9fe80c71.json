@@ -1,0 +1,14 @@
+{
+  "hash": "bef9177b9fe80c71",
+  "source": "The locale that is the source of truth for checks, prompts and go to definition.",
+  "text": "作為檢查、提示和跳至定義依據的語系。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "作為檢查、提示和跳至定義依據的語系。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

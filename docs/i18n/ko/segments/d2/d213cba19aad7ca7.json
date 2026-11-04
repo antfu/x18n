@@ -1,0 +1,14 @@
+{
+  "hash": "d213cba19aad7ca7",
+  "source": "JSON with comments",
+  "text": "주석이 포함된 JSON",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "주석이 포함된 JSON"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

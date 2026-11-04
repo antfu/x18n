@@ -1,0 +1,14 @@
+{
+  "hash": "af26c825f075a54e",
+  "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
+  "text": "브랜치와 함께 이동하는 파일에서 메시지에 댓글을 달고, 승인하고, 변경을 요청하고, 값을 제안하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "브랜치와 함께 이동하는 파일에서 메시지에 댓글을 달고, 승인하고, 변경을 요청하고, 값을 제안하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "09c2516ff6d1ece5",
+  "source": "The value an approval approved.",
+  "text": "承認で承認された値です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "承認で承認された値です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0252465820bda604",
+  "source": "Project settings live in the {0}config file{/0}. The VS Code settings change only the editor experience, and never override the config.",
+  "text": "プロジェクトの設定は{0}設定ファイル{/0}にあります。VS Code の設定が変更するのはエディターでの表示のみで、設定ファイルの内容を上書きすることはありません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロジェクトの設定は{0}設定ファイル{/0}にあります。VS Code の設定が変更するのはエディターでの表示のみで、設定ファイルの内容を上書きすることはありません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

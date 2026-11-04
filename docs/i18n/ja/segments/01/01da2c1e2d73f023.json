@@ -1,0 +1,14 @@
+{
+  "hash": "01da2c1e2d73f023",
+  "source": "The locale shown in annotations and hovers. Per user.",
+  "text": "アノテーションやホバーに表示されるロケールです。ユーザーごとに設定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "アノテーションやホバーに表示されるロケールです。ユーザーごとに設定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

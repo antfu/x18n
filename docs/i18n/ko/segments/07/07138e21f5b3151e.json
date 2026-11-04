@@ -1,0 +1,14 @@
+{
+  "hash": "07138e21f5b3151e",
+  "source": "The translate calls are {0}, {1}, {2} and {3}, also from {4} and {5}. The {6} of {7} is a key too. {8} and {9} take the name of a format, not a key.",
+  "text": "번역 호출은 {0}, {1}, {2}, {3}이며, {4}와 {5}에서 호출하는 경우도 포함합니다. {7}의 {6}도 키입니다. {8}와 {9}는 키가 아니라 포맷 이름을 받습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "번역 호출은 {0}, {1}, {2}, {3}이며, {4}와 {5}에서 호출하는 경우도 포함합니다. {7}의 {6}도 키입니다. {8}와 {9}는 키가 아니라 포맷 이름을 받습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

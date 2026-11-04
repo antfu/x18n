@@ -1,0 +1,14 @@
+{
+  "hash": "ccfd933028c89a43",
+  "source": "In Vue templates, the preset also reads the {0} directive and the {1} component:",
+  "text": "在 Vue 範本中，預設集也會讀取 {0} 指令和 {1} 元件：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 Vue 範本中，預設集也會讀取 {0} 指令和 {1} 元件："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

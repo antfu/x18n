@@ -1,0 +1,14 @@
+{
+  "hash": "efadd9b73b750b6c",
+  "source": "flutter\\_translate keeps plural forms as nested keys. From version 4, the forms are the Intl plural names {0}, {1}, {2}, {3}, {4} and {5}. Before version 4, they were {6}, {7}, {8} and {9}. The preset adds a derived key {10} for each of these forms, so the {11} check does not report the forms of a used key.",
+  "text": "flutter\\_translate 將複數形式保存為巢狀鍵。從版本 4 開始，這些形式為 Intl 複數名稱 {0}、{1}、{2}、{3}、{4} 和 {5}。在版本 4 之前，則為 {6}、{7}、{8} 和 {9}。此預設集會為每個形式新增衍生鍵 {10}，因此 {11} 檢查不會回報已使用鍵的各個形式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "flutter\\_translate 將複數形式保存為巢狀鍵。從版本 4 開始，這些形式為 Intl 複數名稱 {0}、{1}、{2}、{3}、{4} 和 {5}。在版本 4 之前，則為 {6}、{7}、{8} 和 {9}。此預設集會為每個形式新增衍生鍵 {10}，因此 {11} 檢查不會回報已使用鍵的各個形式。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

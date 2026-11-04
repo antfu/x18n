@@ -1,0 +1,14 @@
+{
+  "hash": "863d9f6515280c85",
+  "source": "It also finds the locale files. If your config has no {0}, the preset reads {1} (or {2}) and looks for {3}:",
+  "text": "ロケールファイルも検出します。設定に {0} がない場合、このプリセットは {1}（または {2}）を読み取り、{3} を探します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルも検出します。設定に {0} がない場合、このプリセットは {1}（または {2}）を読み取り、{3} を探します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

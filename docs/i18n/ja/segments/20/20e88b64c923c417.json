@@ -1,0 +1,14 @@
+{
+  "hash": "20e88b64c923c417",
+  "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
+  "text": "サマリー、ロケールごとのカバレッジ表、診断の表を出力します。プルリクエストのコメントやジョブサマリー向けです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "サマリー、ロケールごとのカバレッジ表、診断の表を出力します。プルリクエストのコメントやジョブサマリー向けです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

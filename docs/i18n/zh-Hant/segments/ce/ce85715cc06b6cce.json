@@ -1,0 +1,14 @@
+{
+  "hash": "ce85715cc06b6cce",
+  "source": "Terms with fixed translations. Translate prompts list them, and the {0} check compares values with them.",
+  "text": "具有固定翻譯的詞彙。翻譯提示會列出這些詞彙，{0} 檢查會用它們來比對值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "具有固定翻譯的詞彙。翻譯提示會列出這些詞彙，{0} 檢查會用它們來比對值。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

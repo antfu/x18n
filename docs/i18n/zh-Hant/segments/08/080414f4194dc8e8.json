@@ -1,0 +1,14 @@
+{
+  "hash": "080414f4194dc8e8",
+  "source": "The preset for gettext in Python, as in Django, Flask-Babel and Babel. It reads .po catalogs, gettext calls and Django translate tags.",
+  "text": "適用於 Python 中 gettext 的預設集，例如 Django、Flask-Babel 和 Babel。它會讀取 .po 目錄、gettext 呼叫和 Django 的 translate 標籤。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用於 Python 中 gettext 的預設集，例如 Django、Flask-Babel 和 Babel。它會讀取 .po 目錄、gettext 呼叫和 Django 的 translate 標籤。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

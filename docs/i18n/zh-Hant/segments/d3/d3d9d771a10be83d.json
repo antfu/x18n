@@ -1,0 +1,14 @@
+{
+  "hash": "d3d9d771a10be83d",
+  "source": "Read the field path in the message and compare the value with the {0}config reference{/0}.",
+  "text": "閱讀訊息中的欄位路徑，並將該值與{0}設定參考{/0}比對。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "閱讀訊息中的欄位路徑，並將該值與{0}設定參考{/0}比對。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

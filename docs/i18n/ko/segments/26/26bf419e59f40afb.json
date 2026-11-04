@@ -1,0 +1,14 @@
+{
+  "hash": "26bf419e59f40afb",
+  "source": "{0}: {1}, {2}, {3} or {4}. Each segment of the key path must match.",
+  "text": "{0}: {1}, {2}, {3} 또는 {4}. 키 경로의 각 세그먼트가 일치해야 합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: {1}, {2}, {3} 또는 {4}. 키 경로의 각 세그먼트가 일치해야 합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

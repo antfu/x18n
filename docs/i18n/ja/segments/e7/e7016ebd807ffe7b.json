@@ -1,0 +1,14 @@
+{
+  "hash": "e7016ebd807ffe7b",
+  "source": "The config or the command line is invalid.",
+  "text": "設定またはコマンドラインが無効です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定またはコマンドラインが無効です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

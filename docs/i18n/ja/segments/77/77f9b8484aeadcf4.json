@@ -1,0 +1,14 @@
+{
+  "hash": "77f9b8484aeadcf4",
+  "source": "Before x18n writes, it makes sure that no file changed since it made the plan. If a file changed, it writes nothing and stops with {0}X18N4004{/0}.",
+  "text": "x18n は書き込む前に、プランを作成してからファイルが変更されていないことを確認します。ファイルが変更されていた場合は、何も書き込まずに {0}X18N4004{/0} で停止します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n は書き込む前に、プランを作成してからファイルが変更されていないことを確認します。ファイルが変更されていた場合は、何も書き込まずに {0}X18N4004{/0} で停止します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

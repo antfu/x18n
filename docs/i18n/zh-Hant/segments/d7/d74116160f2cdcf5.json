@@ -1,0 +1,14 @@
+{
+  "hash": "d74116160f2cdcf5",
+  "source": "The selector form {0} reads the key {1}.",
+  "text": "選擇器形式 {0} 會讀取鍵 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "選擇器形式 {0} 會讀取鍵 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

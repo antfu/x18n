@@ -1,0 +1,14 @@
+{
+  "hash": "6e3a681fcb5ec675",
+  "source": "{0}, {1}: the numbered {2} elements of the XLIFF file, in order.",
+  "text": "{0}、{1}：XLIFF ファイル内の番号付きの {2} 要素を、順番に指します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}：XLIFF ファイル内の番号付きの {2} 要素を、順番に指します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

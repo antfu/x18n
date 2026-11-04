@@ -1,0 +1,14 @@
+{
+  "hash": "f2480689c135e2d0",
+  "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
+  "text": "{0}보다 긴 값은 잘립니다. 제자리 모드에서는 이러한 값이 키 뒤에 힌트로 표시됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}보다 긴 값은 잘립니다. 제자리 모드에서는 이러한 값이 키 뒤에 힌트로 표시됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "1f06fa2fc15b45ba",
+  "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
+  "text": "キーを表示します。{0}、{1}、{2} で絞り込めます。{3} を指定すると、ロケールごとの値も表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーを表示します。{0}、{1}、{2} で絞り込めます。{3} を指定すると、ロケールごとの値も表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

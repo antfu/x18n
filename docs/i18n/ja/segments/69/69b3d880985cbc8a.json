@@ -1,0 +1,14 @@
+{
+  "hash": "69b3d880985cbc8a",
+  "source": "{0}: one folder per keyset. The folder {1} holds the keyset {2}.",
+  "text": "{0}：keyset ごとに 1 つのフォルダーを置きます。フォルダー {1} が keyset {2} を保持します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：keyset ごとに 1 つのフォルダーを置きます。フォルダー {1} が keyset {2} を保持します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

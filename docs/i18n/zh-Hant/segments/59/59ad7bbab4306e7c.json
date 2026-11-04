@@ -1,0 +1,14 @@
+{
+  "hash": "59ad7bbab4306e7c",
+  "source": "{0} and {1}, as Django writes them for the project and for each app",
+  "text": "{0} 和 {1}，即 Django 為專案及每個 app 所寫入的檔案",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 和 {1}，即 Django 為專案及每個 app 所寫入的檔案"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

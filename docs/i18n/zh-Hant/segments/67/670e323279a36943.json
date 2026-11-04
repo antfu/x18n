@@ -1,0 +1,14 @@
+{
+  "hash": "670e323279a36943",
+  "source": "Invalid config. Check the reported field against the config schema (`x18n schema config`).",
+  "text": "設定無效。請對照設定結構描述（`x18n schema config`）檢查回報的欄位。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定無效。請對照設定結構描述（`x18n schema config`）檢查回報的欄位。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

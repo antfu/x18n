@@ -1,0 +1,14 @@
+{
+  "hash": "5ae973551db7b684",
+  "source": "Write a static, read-only report of the UI.",
+  "text": "UI の静的な読み取り専用レポートを出力します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "UI の静的な読み取り専用レポートを出力します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

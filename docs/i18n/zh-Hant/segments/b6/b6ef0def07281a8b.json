@@ -1,0 +1,14 @@
+{
+  "hash": "b6ef0def07281a8b",
+  "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
+  "text": "控制流程區塊的參數，例如 {0}、{1}、{2}、{3} 與 {4}，以及 {5} 宣告；區塊的內容仍會被掃描，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "控制流程區塊的參數，例如 {0}、{1}、{2}、{3} 與 {4}，以及 {5} 宣告；區塊的內容仍會被掃描，"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

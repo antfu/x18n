@@ -1,0 +1,14 @@
+{
+  "hash": "370454e6b6177390",
+  "source": "The editor and the UI still show every diagnostic. The idea comes from {0}i18next-cli{/0} and the bulk suppressions of ESLint.",
+  "text": "에디터와 UI에서는 여전히 모든 진단이 표시됩니다. 이 아이디어는 {0}i18next-cli{/0}와 ESLint의 bulk suppressions에서 가져왔습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에디터와 UI에서는 여전히 모든 진단이 표시됩니다. 이 아이디어는 {0}i18next-cli{/0}와 ESLint의 bulk suppressions에서 가져왔습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7744fa0c3e756b93",
+  "source": "The preset applies when {0}, {1} or {2} has a {3} field. If your config has no {4}, x18n uses {5} as the source locale.",
+  "text": "このプリセットは、{0}、{1}、または {2} に {3} フィールドがある場合に適用されます。設定に {4} がない場合、x18n は {5} をソースロケールとして使用します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、{0}、{1}、または {2} に {3} フィールドがある場合に適用されます。設定に {4} がない場合、x18n は {5} をソースロケールとして使用します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

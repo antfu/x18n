@@ -1,0 +1,14 @@
+{
+  "hash": "4aacc0eb12d34752",
+  "source": "The message to store: template arguments become placeholders.",
+  "text": "저장할 메시지입니다. 템플릿 인수는 플레이스홀더가 됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "저장할 메시지입니다. 템플릿 인수는 플레이스홀더가 됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

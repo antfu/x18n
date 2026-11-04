@@ -1,0 +1,14 @@
+{
+  "hash": "26133ca78655a572",
+  "source": "{0} is the language server that the VS Code extension uses. Any editor with an LSP client can run it:",
+  "text": "{0} 是 VS Code 擴充功能所使用的語言伺服器。任何具備 LSP 用戶端的編輯器都能執行它：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是 VS Code 擴充功能所使用的語言伺服器。任何具備 LSP 用戶端的編輯器都能執行它："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

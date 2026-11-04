@@ -1,0 +1,14 @@
+{
+  "hash": "8a23b26120be124b",
+  "source": "{0} runs this check alone. {1} skips it for one run.",
+  "text": "{0}은(는) 이 검사만 실행합니다. {1}은(는) 한 번의 실행에서 이 검사를 건너뜁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 이 검사만 실행합니다. {1}은(는) 한 번의 실행에서 이 검사를 건너뜁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

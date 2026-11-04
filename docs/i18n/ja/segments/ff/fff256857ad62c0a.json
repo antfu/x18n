@@ -1,0 +1,14 @@
+{
+  "hash": "fff256857ad62c0a",
+  "source": "The {0} preset supports {1}i18next{/1} without a framework binding. For React, see {2}react-i18next{/2}.",
+  "text": "{0} プリセットは、フレームワークバインディングなしの {1}i18next{/1} をサポートします。React については {2}react-i18next{/2} を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、フレームワークバインディングなしの {1}i18next{/1} をサポートします。React については {2}react-i18next{/2} を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

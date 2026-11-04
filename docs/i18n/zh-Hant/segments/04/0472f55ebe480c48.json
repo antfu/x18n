@@ -1,0 +1,14 @@
+{
+  "hash": "0472f55ebe480c48",
+  "source": "{0} in {1} accepts more than YAML and JSON. These options take plugin objects and functions:",
+  "text": "{1} 中的 {0} 接受的格式不只有 YAML 和 JSON。這些選項可接受外掛物件與函式：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1} 中的 {0} 接受的格式不只有 YAML 和 JSON。這些選項可接受外掛物件與函式："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

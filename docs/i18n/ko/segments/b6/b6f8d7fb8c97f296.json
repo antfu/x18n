@@ -1,0 +1,14 @@
+{
+  "hash": "b6f8d7fb8c97f296",
+  "source": "Name a plugin package x18n-plugin-*, export a plugin or a factory, and let YAML and JSON configs load it by name.",
+  "text": "플러그인 패키지 이름을 x18n-plugin-*으로 짓고, 플러그인 또는 팩토리를 내보내면 YAML 및 JSON 설정에서 이름으로 불러올 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인 패키지 이름을 x18n-plugin-*으로 짓고, 플러그인 또는 팩토리를 내보내면 YAML 및 JSON 설정에서 이름으로 불러올 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9617bc338c230250",
+  "source": "A project directory can have its own {0}. The project inherits the options of the root config, and its own config overrides them. The rules are the same as for one project: see {1}How x18n merges the config{/1}.",
+  "text": "프로젝트 디렉터리에는 자체 {0}를 둘 수 있습니다. 프로젝트는 루트 설정의 옵션을 상속하며, 프로젝트 자체 설정이 이를 덮어씁니다. 규칙은 단일 프로젝트와 같습니다. {1}x18n이 설정을 병합하는 방식{/1}을 참고하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트 디렉터리에는 자체 {0}를 둘 수 있습니다. 프로젝트는 루트 설정의 옵션을 상속하며, 프로젝트 자체 설정이 이를 덮어씁니다. 규칙은 단일 프로젝트와 같습니다. {1}x18n이 설정을 병합하는 방식{/1}을 참고하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

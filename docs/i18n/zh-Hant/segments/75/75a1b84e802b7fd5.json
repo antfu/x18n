@@ -1,0 +1,14 @@
+{
+  "hash": "75a1b84e802b7fd5",
+  "source": "The preset for jekyll-multiple-languages-plugin. It reads _i18n YAML files and the t Liquid tag.",
+  "text": "jekyll-multiple-languages-plugin 的預設集。它會讀取 _i18n YAML 檔案與 t Liquid 標籤。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "jekyll-multiple-languages-plugin 的預設集。它會讀取 _i18n YAML 檔案與 t Liquid 標籤。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

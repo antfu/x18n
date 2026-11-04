@@ -1,0 +1,14 @@
+{
+  "hash": "83fd32d0e253ca04",
+  "source": "The committed file of known diagnostics ({0}); {1} then reports only new ones.",
+  "text": "알려진 진단을 기록해 커밋한 파일({0})이며, 이후 {1}는 새로운 진단만 보고합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "알려진 진단을 기록해 커밋한 파일({0})이며, 이후 {1}는 새로운 진단만 보고합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

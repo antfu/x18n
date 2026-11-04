@@ -1,0 +1,14 @@
+{
+  "hash": "5f3cc6cd6bed1d19",
+  "source": "This file has the key {0}. A file in a subdirectory, such as {1}, gives keys such as {2}. In a JSON file, such as {3}, each key is a whole sentence: {4}. The JSON patterns set {5}, so a sentence such as {6} is one key and x18n writes it as one property, while the PHP files keep {7} as the key separator.",
+  "text": "このファイルにはキー {0} があります。{1} のようにサブディレクトリにあるファイルでは、{2} のようなキーになります。{3} のような JSON ファイルでは、各キーが文全体になります（{4}）。JSON のパターンでは {5} を設定しているため、{6} のような文は 1 つのキーとなり、x18n は 1 つのプロパティとして書き込みます。一方、PHP ファイルではキーの区切り文字として {7} を維持します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このファイルにはキー {0} があります。{1} のようにサブディレクトリにあるファイルでは、{2} のようなキーになります。{3} のような JSON ファイルでは、各キーが文全体になります（{4}）。JSON のパターンでは {5} を設定しているため、{6} のような文は 1 つのキーとなり、x18n は 1 つのプロパティとして書き込みます。一方、PHP ファイルではキーの区切り文字として {7} を維持します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

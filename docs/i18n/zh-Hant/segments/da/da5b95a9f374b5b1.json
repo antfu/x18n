@@ -1,0 +1,14 @@
+{
+  "hash": "da5b95a9f374b5b1",
+  "source": "A decision is needed and no answer was given. Run again with {0}.",
+  "text": "需要做出決定，但未提供答案。請搭配 {0} 重新執行。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "需要做出決定，但未提供答案。請搭配 {0} 重新執行。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

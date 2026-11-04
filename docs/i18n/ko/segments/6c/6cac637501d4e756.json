@@ -1,0 +1,14 @@
+{
+  "hash": "6cac637501d4e756",
+  "source": "Every command that writes files first makes a plan. A plan is the list of file changes, made without writing anything. {0} prints the plan instead of applying it.",
+  "text": "파일을 쓰는 모든 명령은 먼저 계획을 만듭니다. 계획은 아무것도 쓰지 않고 만든 파일 변경 목록입니다. {0}는 계획을 적용하지 않고 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일을 쓰는 모든 명령은 먼저 계획을 만듭니다. 계획은 아무것도 쓰지 않고 만든 파일 변경 목록입니다. {0}는 계획을 적용하지 않고 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

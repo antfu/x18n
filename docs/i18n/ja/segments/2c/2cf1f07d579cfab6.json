@@ -1,0 +1,14 @@
+{
+  "hash": "2cf1f07d579cfab6",
+  "source": "Typed braces: {0}, {1}, {2}, {3} and {4}. The name is the part before {5} or {6}, so {7} in the base locale and {8} in a translation match. Plural parts such as {9} are not placeholders.",
+  "text": "型付きの波括弧: {0}、{1}、{2}、{3}、{4}。名前は {5} または {6} より前の部分なので、基準ロケールの {7} と翻訳の {8} は一致します。{9} のような複数形の部分はプレースホルダーではありません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "型付きの波括弧: {0}、{1}、{2}、{3}、{4}。名前は {5} または {6} より前の部分なので、基準ロケールの {7} と翻訳の {8} は一致します。{9} のような複数形の部分はプレースホルダーではありません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

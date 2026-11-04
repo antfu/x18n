@@ -1,0 +1,14 @@
+{
+  "hash": "38faf2aa42f9ace8",
+  "source": "The {0} preset applies to every project. It comes last in the detection order, so the presets of libraries come first.",
+  "text": "{0} 預設集適用於每個專案。它在偵測順序中排在最後，因此各函式庫的預設集會優先。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 預設集適用於每個專案。它在偵測順序中排在最後，因此各函式庫的預設集會優先。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

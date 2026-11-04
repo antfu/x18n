@@ -1,0 +1,14 @@
+{
+  "hash": "29bd391cb38bdf40",
+  "source": "Find keys by their value, best match first: the key behind a text seen in the app. Searches every locale, ignoring case, and matches fuzzily unless {0}. Each match has the matched locale and value, and the usages in code with file, line and column.",
+  "text": "依值尋找鍵，最相符的排在最前面：也就是在應用程式中看到的文字背後的鍵。會搜尋每個語系，不分大小寫，除非設定 {0}，否則採用模糊比對。每個符合項目包含符合的語系與值，以及程式碼中的使用處（含檔案、行號與欄號）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "依值尋找鍵，最相符的排在最前面：也就是在應用程式中看到的文字背後的鍵。會搜尋每個語系，不分大小寫，除非設定 {0}，否則採用模糊比對。每個符合項目包含符合的語系與值，以及程式碼中的使用處（含檔案、行號與欄號）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

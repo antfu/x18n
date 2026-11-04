@@ -1,0 +1,14 @@
+{
+  "hash": "3c52d7dfef0e9536",
+  "source": "{0} turns the raw key text of a usage into the canonical key. The first plugin that returns a value wins.",
+  "text": "{0}은(는) 사용처의 원시 키 텍스트를 정규 키로 변환합니다. 값을 반환하는 첫 번째 플러그인이 적용됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 사용처의 원시 키 텍스트를 정규 키로 변환합니다. 값을 반환하는 첫 번째 플러그인이 적용됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

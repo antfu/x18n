@@ -1,0 +1,14 @@
+{
+  "hash": "85977448aaef7533",
+  "source": "gettext catalogs. Each {0} is a key. Extracted ({1}) and translator ({2}) comments describe it. A {3} entry needs review.",
+  "text": "gettext カタログ。各 {0} がキーです。抽出コメント（{1}）と訳者コメント（{2}）がそれを説明します。{3} エントリはレビューが必要です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "gettext カタログ。各 {0} がキーです。抽出コメント（{1}）と訳者コメント（{2}）がそれを説明します。{3} エントリはレビューが必要です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

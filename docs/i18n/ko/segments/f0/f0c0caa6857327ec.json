@@ -1,0 +1,14 @@
+{
+  "hash": "f0c0caa6857327ec",
+  "source": "x18n validates every config against this schema, the serializable part of a TS config too. An unknown key is an error ({0}X18N0001{/0}), so a typo in a key name does not pass silently.",
+  "text": "x18n은 TS 구성의 직렬화 가능한 부분을 포함하여 모든 구성을 이 스키마로 검증합니다. 알 수 없는 키는 오류({0}X18N0001{/0})이므로 키 이름의 오타가 조용히 통과하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 TS 구성의 직렬화 가능한 부분을 포함하여 모든 구성을 이 스키마로 검증합니다. 알 수 없는 키는 오류({0}X18N0001{/0})이므로 키 이름의 오타가 조용히 통과하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

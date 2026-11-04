@@ -1,0 +1,14 @@
+{
+  "hash": "a20a2325ef5cbca1",
+  "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}); optionally only these check ids (comma separated)",
+  "text": "同時翻譯檢查在目標語系中回報的值，例如來源的複本（{0}）；也可僅限這些檢查 id（以逗號分隔）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同時翻譯檢查在目標語系中回報的值，例如來源的複本（{0}）；也可僅限這些檢查 id（以逗號分隔）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

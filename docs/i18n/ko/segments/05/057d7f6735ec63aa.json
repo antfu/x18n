@@ -1,0 +1,14 @@
+{
+  "hash": "057d7f6735ec63aa",
+  "source": "{0} returns {1} and {2}.",
+  "text": "{0}은(는) {1}과(와) {2}을(를) 반환합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) {1}과(와) {2}을(를) 반환합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

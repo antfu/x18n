@@ -1,0 +1,14 @@
+{
+  "hash": "2c08e3b88295b5df",
+  "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
+  "text": "Python のパーセント書式：{0}、{1}、{2}。{3}、スペースの前の {4}、{5} のような URL エスケープ、URL 内の {6} は、テキストとして扱われます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Python のパーセント書式：{0}、{1}、{2}。{3}、スペースの前の {4}、{5} のような URL エスケープ、URL 内の {6} は、テキストとして扱われます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

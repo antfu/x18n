@@ -1,0 +1,14 @@
+{
+  "hash": "0896df64ffb62309",
+  "source": "A diagnostic can carry fixes. A fix has a title and a list of edit operations. The editor shows fixes as quick fixes.",
+  "text": "診斷可以附帶修正。修正包含標題和一份編輯操作清單。編輯器會將修正顯示為快速修正。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "診斷可以附帶修正。修正包含標題和一份編輯操作清單。編輯器會將修正顯示為快速修正。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

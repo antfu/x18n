@@ -1,0 +1,14 @@
+{
+  "hash": "c1b0a1304cddaaa8",
+  "source": "{0} is the main format. {1} gives types and completion:",
+  "text": "{0}가 기본 형식입니다. {1}는 타입과 자동 완성을 제공합니다:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}가 기본 형식입니다. {1}는 타입과 자동 완성을 제공합니다:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

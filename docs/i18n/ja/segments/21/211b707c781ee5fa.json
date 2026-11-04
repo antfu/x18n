@@ -1,0 +1,14 @@
+{
+  "hash": "211b707c781ee5fa",
+  "source": "Delete every unused key (matching the glob), except keys dynamic usages may reach",
+  "text": "未使用のキーをすべて削除します（glob に一致するもの）。ただし、動的な使用箇所から参照される可能性のあるキーは除きます",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "未使用のキーをすべて削除します（glob に一致するもの）。ただし、動的な使用箇所から参照される可能性のあるキーは除きます"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

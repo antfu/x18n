@@ -1,0 +1,14 @@
+{
+  "hash": "f4ea5d0189390f61",
+  "source": "x18n: Extract Hard String",
+  "text": "x18n: ハードコードされた文字列を抽出",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: ハードコードされた文字列を抽出"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a816d45fac3b9063",
+  "source": "Deletes every unused key that no computed key may reach.",
+  "text": "刪除所有未使用且不會被任何動態鍵涵蓋的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "刪除所有未使用且不會被任何動態鍵涵蓋的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

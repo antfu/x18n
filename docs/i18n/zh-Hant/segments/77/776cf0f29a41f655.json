@@ -1,0 +1,14 @@
+{
+  "hash": "776cf0f29a41f655",
+  "source": "As in YAML, plus preset objects such as {0} from {1}. {2} and {3} entries are skipped.",
+  "text": "與 YAML 相同，另外可使用來自 {1} 的預設集物件，例如 {0}。{2} 和 {3} 項目會被略過。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "與 YAML 相同，另外可使用來自 {1} 的預設集物件，例如 {0}。{2} 和 {3} 項目會被略過。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

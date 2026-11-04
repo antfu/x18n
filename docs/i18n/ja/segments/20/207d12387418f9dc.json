@@ -1,0 +1,14 @@
+{
+  "hash": "207d12387418f9dc",
+  "source": "The preset for svelte-i18next. It reads the $i18n store in Svelte components, plus everything of i18next.",
+  "text": "svelte-i18next 用のプリセットです。Svelte コンポーネント内の $i18n ストアに加えて、i18next のすべての機能を読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "svelte-i18next 用のプリセットです。Svelte コンポーネント内の $i18n ストアに加えて、i18next のすべての機能を読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "bd3ae2e83e566fcf",
+  "source": "Do not edit locale files directly. Use {0}, {1}, {2} and {3}. They keep the format, the key style, the order and the placeholders of each file.",
+  "text": "不要直接編輯語系檔案。請使用 {0}、{1}、{2} 和 {3}。它們會保留每個檔案的格式、鍵的風格、順序與佔位符。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不要直接編輯語系檔案。請使用 {0}、{1}、{2} 和 {3}。它們會保留每個檔案的格式、鍵的風格、順序與佔位符。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

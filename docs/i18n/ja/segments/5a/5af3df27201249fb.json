@@ -1,0 +1,14 @@
+{
+  "hash": "5af3df27201249fb",
+  "source": "Hard strings in templates",
+  "text": "テンプレート内のハードコードされた文字列",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "テンプレート内のハードコードされた文字列"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

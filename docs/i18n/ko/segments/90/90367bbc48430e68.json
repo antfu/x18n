@@ -1,0 +1,14 @@
+{
+  "hash": "90367bbc48430e68",
+  "source": "The built-in formats read JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, PHP arrays, .NET resx, XLIFF, XMB and XTB, ARB and static JS or TS modules. They also read Vue {0} and {1} blocks. For a library or format that x18n does not support, {2}write a plugin{/2} in YAML or TypeScript.",
+  "text": "내장 포맷은 JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, PHP 배열, .NET resx, XLIFF, XMB 및 XTB, ARB, 정적 JS 또는 TS 모듈을 읽습니다. Vue의 {0} 블록과 {1} 블록도 읽습니다. x18n이 지원하지 않는 라이브러리나 포맷은 YAML 또는 TypeScript로 {2}플러그인을 작성{/2}하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "내장 포맷은 JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, PHP 배열, .NET resx, XLIFF, XMB 및 XTB, ARB, 정적 JS 또는 TS 모듈을 읽습니다. Vue의 {0} 블록과 {1} 블록도 읽습니다. x18n이 지원하지 않는 라이브러리나 포맷은 YAML 또는 TypeScript로 {2}플러그인을 작성{/2}하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

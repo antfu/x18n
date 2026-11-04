@@ -1,0 +1,14 @@
+{
+  "hash": "52544025276b7698",
+  "source": "The preset adds the {0} scanner, so extraction finds hard-coded text and text attributes ({1}, {2}, {3}, ...) in {4} templates. It skips:",
+  "text": "此預設集會加入 {0} 掃描器，因此擷取時能找出 {4} 範本中的硬編碼文字與文字屬性（{1}、{2}、{3} 等）。它會略過：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集會加入 {0} 掃描器，因此擷取時能找出 {4} 範本中的硬編碼文字與文字屬性（{1}、{2}、{3} 等）。它會略過："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

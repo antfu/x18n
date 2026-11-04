@@ -1,0 +1,14 @@
+{
+  "hash": "67a10261c53939bb",
+  "source": "the {0} of each {1} file in the root,",
+  "text": "루트에 있는 각 {1} 파일의 {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "루트에 있는 각 {1} 파일의 {0}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

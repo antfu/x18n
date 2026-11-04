@@ -1,0 +1,14 @@
+{
+  "hash": "be673bb5706ecf24",
+  "source": "{0}. {1} uses the same tokens. Without it, {2} picks {3} or {4}, and {5} adds {6}.",
+  "text": "{0}. {1}은(는) 같은 토큰을 사용합니다. 이 설정이 없으면 {2}이(가) {3} 또는 {4}을(를) 선택하고, {5}이(가) {6}을(를) 추가합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}. {1}은(는) 같은 토큰을 사용합니다. 이 설정이 없으면 {2}이(가) {3} 또는 {4}을(를) 선택하고, {5}이(가) {6}을(를) 추가합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

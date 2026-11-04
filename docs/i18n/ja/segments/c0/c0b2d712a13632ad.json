@@ -1,0 +1,14 @@
+{
+  "hash": "c0b2d712a13632ad",
+  "source": "Write the output of a reporter to a file.",
+  "text": "レポーターの出力をファイルに書き込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レポーターの出力をファイルに書き込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4660e3b8187c1957",
+  "source": "An approval of a value the message no longer has.",
+  "text": "メッセージにもう存在しない値の承認です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "メッセージにもう存在しない値の承認です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

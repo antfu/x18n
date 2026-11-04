@@ -1,0 +1,14 @@
+{
+  "hash": "2322b161bcd2b85a",
+  "source": "Only values containing the query, instead of a fuzzy match",
+  "text": "あいまい一致ではなく、クエリを含む値のみ",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "あいまい一致ではなく、クエリを含む値のみ"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

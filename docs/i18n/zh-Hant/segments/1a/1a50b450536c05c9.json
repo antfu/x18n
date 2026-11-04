@@ -1,0 +1,14 @@
+{
+  "hash": "1a50b450536c05c9",
+  "source": "{0} and {1} turn the plugin into a preset:",
+  "text": "{0} 與 {1} 會把外掛變成預設集：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 與 {1} 會把外掛變成預設集："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

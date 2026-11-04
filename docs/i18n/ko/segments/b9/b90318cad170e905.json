@@ -1,0 +1,14 @@
+{
+  "hash": "b90318cad170e905",
+  "source": "If the difference is on purpose, pass {0}.",
+  "text": "의도한 차이라면 {0}을(를) 전달하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "의도한 차이라면 {0}을(를) 전달하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

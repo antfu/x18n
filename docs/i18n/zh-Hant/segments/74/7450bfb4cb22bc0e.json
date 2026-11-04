@@ -1,0 +1,14 @@
+{
+  "hash": "7450bfb4cb22bc0e",
+  "source": "checkout, setup and install as above",
+  "text": "checkout、setup 和 install 同上",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "checkout、setup 和 install 同上"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ae5084cefc3036ee",
+  "source": "Describe a library in a *.x18n-plugin.yml file - resources, translate calls, regex scanners, scopes, placeholders and templates.",
+  "text": "*.x18n-plugin.yml ファイルでライブラリを記述します。リソース、translate 呼び出し、正規表現スキャナー、スコープ、プレースホルダー、テンプレートを定義できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "*.x18n-plugin.yml ファイルでライブラリを記述します。リソース、translate 呼び出し、正規表現スキャナー、スコープ、プレースホルダー、テンプレートを定義できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

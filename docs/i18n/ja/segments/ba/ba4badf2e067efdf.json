@@ -1,0 +1,14 @@
+{
+  "hash": "ba4badf2e067efdf",
+  "source": "{0} and {1} are translate calls.",
+  "text": "{0} と {1} は翻訳呼び出しです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} と {1} は翻訳呼び出しです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

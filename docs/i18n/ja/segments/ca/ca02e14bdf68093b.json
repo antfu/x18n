@@ -1,0 +1,14 @@
+{
+  "hash": "ca02e14bdf68093b",
+  "source": "An Angular element with text, marked with {0} as one message ({1})",
+  "text": "{0} で 1 つのメッセージとしてマークされた、テキストを持つ Angular 要素（{1}）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} で 1 つのメッセージとしてマークされた、テキストを持つ Angular 要素（{1}）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

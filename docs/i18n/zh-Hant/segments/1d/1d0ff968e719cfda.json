@@ -1,0 +1,14 @@
+{
+  "hash": "1d0ff968e719cfda",
+  "source": "Plugins can use all of these syntaxes from {0}. A {1}YAML plugin{/1} can declare a shape such as {2}.",
+  "text": "外掛可以透過 {0} 使用以上所有語法。{1}YAML 外掛{/1}可以宣告像 {2} 這樣的結構。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "外掛可以透過 {0} 使用以上所有語法。{1}YAML 外掛{/1}可以宣告像 {2} 這樣的結構。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

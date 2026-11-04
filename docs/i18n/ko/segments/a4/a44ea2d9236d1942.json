@@ -1,0 +1,14 @@
+{
+  "hash": "a44ea2d9236d1942",
+  "source": "The preset for SAPUI5 and OpenUI5. It reads .properties bundles, {i18n>key} bindings and getResourceBundle().getText calls.",
+  "text": "SAPUI5와 OpenUI5용 프리셋입니다. .properties 번들, {i18n>key} 바인딩, getResourceBundle().getText 호출을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "SAPUI5와 OpenUI5용 프리셋입니다. .properties 번들, {i18n>key} 바인딩, getResourceBundle().getText 호출을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

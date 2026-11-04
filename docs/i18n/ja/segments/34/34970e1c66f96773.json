@@ -1,0 +1,14 @@
+{
+  "hash": "34970e1c66f96773",
+  "source": "Locale codes to leave out, as written in paths.",
+  "text": "除外するロケールコードです。パスに書かれているとおりに指定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "除外するロケールコードです。パスに書かれているとおりに指定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

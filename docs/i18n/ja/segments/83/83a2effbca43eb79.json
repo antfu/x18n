@@ -1,0 +1,14 @@
+{
+  "hash": "83a2effbca43eb79",
+  "source": "These usages are {0}, {1}, {2} and {3}.",
+  "text": "これらの使用箇所は {0}、{1}、{2}、{3} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "これらの使用箇所は {0}、{1}、{2}、{3} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

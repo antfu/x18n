@@ -1,0 +1,14 @@
+{
+  "hash": "ae22d6e72dc3c3ec",
+  "source": "The command prints the URL and a bearer token:",
+  "text": "このコマンドは URL とベアラートークンを出力します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このコマンドは URL とベアラートークンを出力します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

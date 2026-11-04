@@ -1,0 +1,14 @@
+{
+  "hash": "5a452c1c7d62776c",
+  "source": "Only in these locales. Default: all.",
+  "text": "僅在這些語系中。預設：全部。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅在這些語系中。預設：全部。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

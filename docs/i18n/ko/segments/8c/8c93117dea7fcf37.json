@@ -1,0 +1,14 @@
+{
+  "hash": "8c93117dea7fcf37",
+  "source": "A fully dynamic key that no check can follow.",
+  "text": "어떤 검사로도 추적할 수 없는 완전한 동적 키입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "어떤 검사로도 추적할 수 없는 완전한 동적 키입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

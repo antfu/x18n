@@ -1,0 +1,14 @@
+{
+  "hash": "aea05359d754b836",
+  "source": "Reports when each message last changed, for stale translations. Git is the built-in one.",
+  "text": "回報每則訊息最後一次變更的時間，用於判斷過時翻譯。Git 是內建的提供者。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "回報每則訊息最後一次變更的時間，用於判斷過時翻譯。Git 是內建的提供者。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

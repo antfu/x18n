@@ -1,0 +1,14 @@
+{
+  "hash": "f7b9cc9af34f06e3",
+  "source": "Start with YAML. When the YAML plugin is not enough, {0} prints the same plugin in TypeScript. See {1}Debug a plugin{/1}.",
+  "text": "建議從 YAML 開始。當 YAML 外掛不敷使用時，{0} 會以 TypeScript 印出相同的外掛。請參閱{1}除錯外掛{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "建議從 YAML 開始。當 YAML 外掛不敷使用時，{0} 會以 TypeScript 印出相同的外掛。請參閱{1}除錯外掛{/1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

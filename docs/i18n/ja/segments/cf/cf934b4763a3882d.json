@@ -1,0 +1,14 @@
+{
+  "hash": "cf934b4763a3882d",
+  "source": "The locale codes as found, with display names and resources.",
+  "text": "検出されたロケールコードを、表示名とリソースとともに表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "検出されたロケールコードを、表示名とリソースとともに表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

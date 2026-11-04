@@ -1,0 +1,14 @@
+{
+  "hash": "55677ca50ccd9042",
+  "source": "Hard strings with a proposed key, message and replacement each.",
+  "text": "하드코딩된 문자열을 반환하며, 각 항목에 제안된 키, 메시지, 대체 코드가 포함됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하드코딩된 문자열을 반환하며, 각 항목에 제안된 키, 메시지, 대체 코드가 포함됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

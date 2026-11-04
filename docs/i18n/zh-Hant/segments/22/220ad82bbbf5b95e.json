@@ -1,0 +1,14 @@
+{
+  "hash": "220ad82bbbf5b95e",
+  "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
+  "text": "{0} 也可以傳回 {1} 和 {2}，其鍵的方式與範圍相同。狀態表示翻譯的進度：{3}、{4} 或 {5}；涵蓋率會統計這些狀態。標籤用於為不易閱讀的鍵（例如雜湊值）命名。UI 和 {6} 都會顯示兩者。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 也可以傳回 {1} 和 {2}，其鍵的方式與範圍相同。狀態表示翻譯的進度：{3}、{4} 或 {5}；涵蓋率會統計這些狀態。標籤用於為不易閱讀的鍵（例如雜湊值）命名。UI 和 {6} 都會顯示兩者。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

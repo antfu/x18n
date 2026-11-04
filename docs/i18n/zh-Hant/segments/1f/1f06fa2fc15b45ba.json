@@ -1,0 +1,14 @@
+{
+  "hash": "1f06fa2fc15b45ba",
+  "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
+  "text": "鍵。可用 {0}、{1} 與 {2} 篩選。{3} 會加上各語系的值。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "鍵。可用 {0}、{1} 與 {2} 篩選。{3} 會加上各語系的值。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

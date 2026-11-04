@@ -1,0 +1,14 @@
+{
+  "hash": "012e230fd1466a75",
+  "source": "Project root (default: nearest config upward from the cwd)",
+  "text": "프로젝트 루트 (기본값: cwd에서 위로 올라가며 가장 가까운 설정 파일)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트 루트 (기본값: cwd에서 위로 올라가며 가장 가까운 설정 파일)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

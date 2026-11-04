@@ -1,0 +1,14 @@
+{
+  "hash": "ea68a0f7aafca5a7",
+  "source": "Choose what fails the build",
+  "text": "ビルドを失敗させる条件を選ぶ",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ビルドを失敗させる条件を選ぶ"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

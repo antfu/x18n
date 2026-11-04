@@ -1,0 +1,14 @@
+{
+  "hash": "4604cd4178998f78",
+  "source": "It does not run your source files or locale files. It parses them. Only a TS or JS config file and TS plugins run.",
+  "text": "它不會執行你的原始碼檔案或語系檔案，只會解析它們。只有 TS 或 JS 設定檔和 TS 外掛會被執行。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它不會執行你的原始碼檔案或語系檔案，只會解析它們。只有 TS 或 JS 設定檔和 TS 外掛會被執行。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

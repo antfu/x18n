@@ -1,0 +1,14 @@
+{
+  "hash": "9d67a8c477272a3f",
+  "source": "{0} and {1} reach the pipes, as in the library:",
+  "text": "{0} 與 {1} 會作用到 pipe，與該函式庫的行為一致：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 與 {1} 會作用到 pipe，與該函式庫的行為一致："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

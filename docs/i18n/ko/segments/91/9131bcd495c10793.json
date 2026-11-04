@@ -1,0 +1,14 @@
+{
+  "hash": "9131bcd495c10793",
+  "source": "The preset applies when the {0} has {1}, {2} or {3}.",
+  "text": "이 프리셋은 {0}에 {1}, {2} 또는 {3}이(가) 있을 때 적용됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {0}에 {1}, {2} 또는 {3}이(가) 있을 때 적용됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

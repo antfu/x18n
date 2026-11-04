@@ -1,0 +1,14 @@
+{
+  "hash": "d1d66793c68a14ea",
+  "source": "If your config has no {0}, the preset uses {1}.",
+  "text": "설정에 {0}이(가) 없으면 프리셋은 {1}을(를) 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에 {0}이(가) 없으면 프리셋은 {1}을(를) 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

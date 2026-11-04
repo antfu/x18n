@@ -1,0 +1,14 @@
+{
+  "hash": "62876c6b9f64b11c",
+  "source": "A message is a function on the {0} object. The path to the function is the key. In Svelte, the store is {1}. The preset reads {2}, {3}, JSX, Vue and Svelte files.",
+  "text": "訊息是 {0} 物件上的函式。通往該函式的路徑就是鍵。在 Svelte 中，store 是 {1}。預設集會讀取 {2}、{3}、JSX、Vue 和 Svelte 檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "訊息是 {0} 物件上的函式。通往該函式的路徑就是鍵。在 Svelte 中，store 是 {1}。預設集會讀取 {2}、{3}、JSX、Vue 和 Svelte 檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

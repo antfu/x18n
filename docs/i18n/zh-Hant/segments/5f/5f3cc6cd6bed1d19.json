@@ -1,0 +1,14 @@
+{
+  "hash": "5f3cc6cd6bed1d19",
+  "source": "This file has the key {0}. A file in a subdirectory, such as {1}, gives keys such as {2}. In a JSON file, such as {3}, each key is a whole sentence: {4}. The JSON patterns set {5}, so a sentence such as {6} is one key and x18n writes it as one property, while the PHP files keep {7} as the key separator.",
+  "text": "此檔案具有鍵 {0}。位於子目錄中的檔案，例如 {1}，會產生如 {2} 的鍵。在 JSON 檔案中，例如 {3}，每個鍵都是一個完整的句子：{4}。JSON 模式設定了 {5}，因此像 {6} 這樣的句子是單一鍵，x18n 會把它寫成單一屬性，而 PHP 檔案則保留 {7} 作為鍵的分隔符號。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此檔案具有鍵 {0}。位於子目錄中的檔案，例如 {1}，會產生如 {2} 的鍵。在 JSON 檔案中，例如 {3}，每個鍵都是一個完整的句子：{4}。JSON 模式設定了 {5}，因此像 {6} 這樣的句子是單一鍵，x18n 會把它寫成單一屬性，而 PHP 檔案則保留 {7} 作為鍵的分隔符號。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

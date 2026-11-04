@@ -1,0 +1,14 @@
+{
+  "hash": "7e84feb7cb9eb4ee",
+  "source": "The root config of a monorepo, if there is one. See {0}Monorepos{/0}.",
+  "text": "모노레포의 루트 설정(있는 경우). {0}모노레포{/0}를 참조하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모노레포의 루트 설정(있는 경우). {0}모노레포{/0}를 참조하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

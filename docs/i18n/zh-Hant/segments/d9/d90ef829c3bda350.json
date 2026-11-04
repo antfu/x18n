@@ -1,0 +1,14 @@
+{
+  "hash": "d90ef829c3bda350",
+  "source": "{0}: the resources per format.",
+  "text": "{0}：各格式的資源。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：各格式的資源。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

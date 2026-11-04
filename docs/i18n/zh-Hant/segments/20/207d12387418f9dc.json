@@ -1,0 +1,14 @@
+{
+  "hash": "207d12387418f9dc",
+  "source": "The preset for svelte-i18next. It reads the $i18n store in Svelte components, plus everything of i18next.",
+  "text": "svelte-i18next 的預設集。它會讀取 Svelte 元件中的 $i18n store，以及 i18next 的所有功能。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "svelte-i18next 的預設集。它會讀取 Svelte 元件中的 $i18n store，以及 i18next 的所有功能。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

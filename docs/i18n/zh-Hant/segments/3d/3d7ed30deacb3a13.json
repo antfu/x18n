@@ -1,0 +1,14 @@
+{
+  "hash": "3d7ed30deacb3a13",
+  "source": "To delete all unused keys at once, show the user the plan first, and run it only when they confirm:",
+  "text": "若要一次刪除所有未使用的鍵，請先向使用者展示計畫，待他們確認後才執行：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若要一次刪除所有未使用的鍵，請先向使用者展示計畫，待他們確認後才執行："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

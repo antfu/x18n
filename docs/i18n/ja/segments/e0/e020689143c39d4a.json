@@ -1,0 +1,14 @@
+{
+  "hash": "e020689143c39d4a",
+  "source": "CSS color of in-place values. Empty uses the inlay hint color of the theme.",
+  "text": "インプレースの値の CSS カラーです。空の場合は、テーマのインレイヒントの色を使用します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "インプレースの値の CSS カラーです。空の場合は、テーマのインレイヒントの色を使用します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

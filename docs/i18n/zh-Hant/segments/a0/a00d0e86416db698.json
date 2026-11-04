@@ -1,0 +1,14 @@
+{
+  "hash": "a00d0e86416db698",
+  "source": "A capability is one kind of contribution to x18n. A plugin can add any number of them. This page describes each one. The types are at the end of the page.",
+  "text": "功能（capability）是對 x18n 的一種貢獻類型。一個外掛可以新增任意數量的功能。本頁說明每一種功能，型別列在頁面最後。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "功能（capability）是對 x18n 的一種貢獻類型。一個外掛可以新增任意數量的功能。本頁說明每一種功能，型別列在頁面最後。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9eacd71dec432d1e",
+  "source": "x18n has one versioned JSON contract. The CLI prints it with {0}. The LSP {1} requests, the UI RPC functions and the MCP tools use the same shapes.",
+  "text": "x18n에는 버전이 지정된 JSON 계약이 하나 있습니다. CLI는 {0}로 이를 출력합니다. LSP {1} 요청, UI RPC 함수, MCP 도구는 동일한 형태를 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n에는 버전이 지정된 JSON 계약이 하나 있습니다. CLI는 {0}로 이를 출력합니다. LSP {1} 요청, UI RPC 함수, MCP 도구는 동일한 형태를 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a8f47be97a9da3c7",
+  "source": "The {0} line gives validation and completion in the editor. {1} prints the same JSON Schema.",
+  "text": "{0} の行を追加すると、エディタで検証と補完が使えます。{1} は同じ JSON Schema を出力します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} の行を追加すると、エディタで検証と補完が使えます。{1} は同じ JSON Schema を出力します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

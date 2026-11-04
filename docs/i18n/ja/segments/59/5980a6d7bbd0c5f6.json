@@ -1,0 +1,14 @@
+{
+  "hash": "5980a6d7bbd0c5f6",
+  "source": "Add {0} as the first line of the file. Your editor then shows the errors.",
+  "text": "ファイルの先頭行に {0} を追加してください。エディターにエラーが表示されるようになります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイルの先頭行に {0} を追加してください。エディターにエラーが表示されるようになります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fc28c2ee629ccbbe",
+  "source": "Only unused keys matching this glob: {0} inside a segment, {1} across segments.",
+  "text": "このグロブに一致する未使用キーのみ。{0} は 1 つのセグメント内、{1} は複数のセグメントにまたがって一致します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このグロブに一致する未使用キーのみ。{0} は 1 つのセグメント内、{1} は複数のセグメントにまたがって一致します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

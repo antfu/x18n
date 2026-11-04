@@ -1,0 +1,14 @@
+{
+  "hash": "7a8410aba35831cb",
+  "source": "Which format reads them?",
+  "text": "어떤 포맷이 해당 파일을 읽나요?",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "어떤 포맷이 해당 파일을 읽나요?"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

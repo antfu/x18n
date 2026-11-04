@@ -1,0 +1,14 @@
+{
+  "hash": "da7397fa874b7d96",
+  "source": "{0} is the command name, for example {1} or {2}.",
+  "text": "{0} 是命令名稱，例如 {1} 或 {2}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是命令名稱，例如 {1} 或 {2}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a9290d498f721530",
+  "source": "Read the output before you replace the YAML file. Check that the regular expressions in {0} came through unchanged.",
+  "text": "YAML ファイルを置き換える前に、出力内容を確認してください。{0} の正規表現が変更されずに変換されていることを確かめてください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML ファイルを置き換える前に、出力内容を確認してください。{0} の正規表現が変更されずに変換されていることを確かめてください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

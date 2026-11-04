@@ -1,0 +1,14 @@
+{
+  "hash": "fd10e5cce377ea98",
+  "source": "{0}, else the first locale",
+  "text": "{0}，否則為第一個語系",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}，否則為第一個語系"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

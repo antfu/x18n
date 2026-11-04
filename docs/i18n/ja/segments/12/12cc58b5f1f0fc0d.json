@@ -1,0 +1,14 @@
+{
+  "hash": "12cc58b5f1f0fc0d",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
+  "text": "{0} を含まない {1} のようなパターンは、ソースロケールを保持します。別のロケールを指定するには、リソースに {2} を設定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を含まない {1} のようなパターンは、ソースロケールを保持します。別のロケールを指定するには、リソースに {2} を設定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

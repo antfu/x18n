@@ -1,0 +1,14 @@
+{
+  "hash": "ca02e14bdf68093b",
+  "source": "An Angular element with text, marked with {0} as one message ({1})",
+  "text": "以 {0} 標記為單一訊息、包含文字的 Angular 元素（{1}）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以 {0} 標記為單一訊息、包含文字的 Angular 元素（{1}）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

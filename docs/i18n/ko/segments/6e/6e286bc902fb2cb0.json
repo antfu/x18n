@@ -1,0 +1,14 @@
+{
+  "hash": "6e286bc902fb2cb0",
+  "source": "The preset for next-translate. It reads useTranslation, getT, Trans and namespaces with a `:` separator.",
+  "text": "next-translate용 프리셋입니다. useTranslation, getT, Trans와 `:` 구분자를 사용하는 네임스페이스를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-translate용 프리셋입니다. useTranslation, getT, Trans와 `:` 구분자를 사용하는 네임스페이스를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

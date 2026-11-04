@@ -1,0 +1,14 @@
+{
+  "hash": "750235b18d622296",
+  "source": "Review comments, approvals and suggested values on messages, kept in a file tracked in git.",
+  "text": "メッセージに対するレビューコメント、承認、提案された値です。git で管理されるファイルに保存されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "メッセージに対するレビューコメント、承認、提案された値です。git で管理されるファイルに保存されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7e84feb7cb9eb4ee",
+  "source": "The root config of a monorepo, if there is one. See {0}Monorepos{/0}.",
+  "text": "モノレポのルート設定（ある場合）。{0}モノレポ{/0}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "モノレポのルート設定（ある場合）。{0}モノレポ{/0}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

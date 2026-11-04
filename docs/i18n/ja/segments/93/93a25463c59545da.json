@@ -1,0 +1,14 @@
+{
+  "hash": "93a25463c59545da",
+  "source": "To change the value yourself, use {0}.",
+  "text": "値を自分で変更する場合は、{0} を使用してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "値を自分で変更する場合は、{0} を使用してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

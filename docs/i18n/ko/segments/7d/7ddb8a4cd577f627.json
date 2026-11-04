@@ -1,0 +1,14 @@
+{
+  "hash": "7ddb8a4cd577f627",
+  "source": "The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from {0}.",
+  "text": "서버는 키를 심볼로 취급합니다. 정의로 이동, 구현으로 이동, 참조, 이름 바꾸기(prepare 포함), 호버, 인레이 힌트, 키 자동 완성, 코드 액션(빠른 수정 및 추출), 문서 심볼, 워크스페이스 심볼, 코드 렌즈, 진단을 지원합니다. 진단은 {0}의 진단과 동일합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "서버는 키를 심볼로 취급합니다. 정의로 이동, 구현으로 이동, 참조, 이름 바꾸기(prepare 포함), 호버, 인레이 힌트, 키 자동 완성, 코드 액션(빠른 수정 및 추출), 문서 심볼, 워크스페이스 심볼, 코드 렌즈, 진단을 지원합니다. 진단은 {0}의 진단과 동일합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

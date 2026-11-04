@@ -1,0 +1,14 @@
+{
+  "hash": "98528167b3f2a013",
+  "source": "values with no letters once placeholders, nesting references and tags are removed ({0}, {1}, {2}),",
+  "text": "플레이스홀더, 중첩 참조, 태그를 제거하고 나면 글자가 없는 값({0}, {1}, {2}),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플레이스홀더, 중첩 참조, 태그를 제거하고 나면 글자가 없는 값({0}, {1}, {2}),"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

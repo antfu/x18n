@@ -1,0 +1,14 @@
+{
+  "hash": "fdd22fce6938d0ee",
+  "source": "Those of i18next: {0} and {1}.",
+  "text": "i18next のものは {0} と {1} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18next のものは {0} と {1} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

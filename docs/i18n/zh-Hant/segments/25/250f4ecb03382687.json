@@ -1,0 +1,14 @@
+{
+  "hash": "250f4ecb03382687",
+  "source": "The {0} attribute picks the format: {1} (the default), {2}, {3} or {4}. Each block and locale is a resource, so edits from x18n write back into the block.",
+  "text": "{0} 屬性用來指定格式：{1}（預設）、{2}、{3} 或 {4}。每個區塊與語系都是一個資源，因此 x18n 的編輯會寫回該區塊。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 屬性用來指定格式：{1}（預設）、{2}、{3} 或 {4}。每個區塊與語系都是一個資源，因此 x18n 的編輯會寫回該區塊。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

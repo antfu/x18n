@@ -1,0 +1,14 @@
+{
+  "hash": "92768450f0df5f9c",
+  "source": "Composite format items: {0}, {1}, {2}, {3} and {4}. {5} and {6} are literal braces, not placeholders.",
+  "text": "複合書式項目：{0}、{1}、{2}、{3}、{4}。{5} と {6} はリテラルの波括弧であり、プレースホルダーではありません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "複合書式項目：{0}、{1}、{2}、{3}、{4}。{5} と {6} はリテラルの波括弧であり、プレースホルダーではありません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

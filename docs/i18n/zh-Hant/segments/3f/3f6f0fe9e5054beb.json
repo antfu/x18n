@@ -1,0 +1,14 @@
+{
+  "hash": "3f6f0fe9e5054beb",
+  "source": "Only unresolved comments, and only threads that have some.",
+  "text": "僅未解決的留言，且僅限有未解決留言的討論串。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅未解決的留言，且僅限有未解決留言的討論串。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

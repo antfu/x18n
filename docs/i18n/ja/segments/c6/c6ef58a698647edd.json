@@ -1,0 +1,14 @@
+{
+  "hash": "c6ef58a698647edd",
+  "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these files. Keys stay flat.",
+  "text": "設定に {0} がない場合、プリセットは {1} と {2} を使用します。{3} フォーマットがこれらのファイルを読み書きします。キーはフラットなままです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定に {0} がない場合、プリセットは {1} と {2} を使用します。{3} フォーマットがこれらのファイルを読み書きします。キーはフラットなままです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

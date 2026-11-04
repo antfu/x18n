@@ -1,0 +1,14 @@
+{
+  "hash": "4c5aedbee6192927",
+  "source": "The {0} preset supports {1}Angular's built-in i18n{/1} with {2}.",
+  "text": "{0} 프리셋은 {2}를 사용하는 {1}Angular 기본 제공 i18n{/1}을 지원합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 프리셋은 {2}를 사용하는 {1}Angular 기본 제공 i18n{/1}을 지원합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

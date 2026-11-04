@@ -1,0 +1,14 @@
+{
+  "hash": "8b94c70d66efcfda",
+  "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these gettext catalogs. Each {4} is a key, and its {5} is the value. The preset sets {6}, so a {7} or {8} in a {9} stays part of the key:",
+  "text": "설정에 {0}이(가) 없으면 프리셋은 {1}과(와) {2}을(를) 사용합니다. {3} 형식은 이러한 gettext 카탈로그를 읽고 씁니다. 각 {4}은(는) 키이고, {5}은(는) 값입니다. 프리셋은 {6}을(를) 설정하므로 {9} 안의 {7} 또는 {8}도 키의 일부로 유지됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에 {0}이(가) 없으면 프리셋은 {1}과(와) {2}을(를) 사용합니다. {3} 형식은 이러한 gettext 카탈로그를 읽고 씁니다. 각 {4}은(는) 키이고, {5}은(는) 값입니다. 프리셋은 {6}을(를) 설정하므로 {9} 안의 {7} 또는 {8}도 키의 일부로 유지됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

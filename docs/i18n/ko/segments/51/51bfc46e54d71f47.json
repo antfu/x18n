@@ -1,0 +1,14 @@
+{
+  "hash": "51bfc46e54d71f47",
+  "source": "File globs the template applies to.",
+  "text": "템플릿을 적용할 파일 glob입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "템플릿을 적용할 파일 glob입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

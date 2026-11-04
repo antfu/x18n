@@ -1,0 +1,14 @@
+{
+  "hash": "585cb2443880b282",
+  "source": "Globalize separates the segments of a message path with a slash. The preset turns each slash into a dot, so this call is a usage of the key {0}:",
+  "text": "Globalize는 메시지 경로의 세그먼트를 슬래시로 구분합니다. 프리셋은 각 슬래시를 점으로 변환하므로 다음 호출은 키 {0}의 사용처입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Globalize는 메시지 경로의 세그먼트를 슬래시로 구분합니다. 프리셋은 각 슬래시를 점으로 변환하므로 다음 호출은 키 {0}의 사용처입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

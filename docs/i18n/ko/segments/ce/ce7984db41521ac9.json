@@ -1,0 +1,14 @@
+{
+  "hash": "ce7984db41521ac9",
+  "source": "A Rails locale file starts with the locale code as its top-level key. The preset reads the messages under that key, so the keys do not start with the locale:",
+  "text": "Rails 로케일 파일은 로케일 코드를 최상위 키로 하여 시작합니다. 이 프리셋은 해당 키 아래의 메시지를 읽으므로, 키는 로케일로 시작하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Rails 로케일 파일은 로케일 코드를 최상위 키로 하여 시작합니다. 이 프리셋은 해당 키 아래의 메시지를 읽으므로, 키는 로케일로 시작하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

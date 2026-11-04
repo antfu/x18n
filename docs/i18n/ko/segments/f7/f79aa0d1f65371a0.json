@@ -1,0 +1,14 @@
+{
+  "hash": "f79aa0d1f65371a0",
+  "source": "The preset for Transloco. It reads the transloco pipe, directive and structural directive with read scopes, and the translate function.",
+  "text": "Transloco용 프리셋입니다. transloco 파이프, 디렉티브, 읽기 스코프를 사용하는 구조 디렉티브, 그리고 translate 함수를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Transloco용 프리셋입니다. transloco 파이프, 디렉티브, 읽기 스코프를 사용하는 구조 디렉티브, 그리고 translate 함수를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

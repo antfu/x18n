@@ -1,0 +1,14 @@
+{
+  "hash": "d36b0e4a85a19745",
+  "source": "If the second one is meant to replace the first, set {0} on it.",
+  "text": "如果第二個外掛是要取代第一個，請在它上面設定 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果第二個外掛是要取代第一個，請在它上面設定 {0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

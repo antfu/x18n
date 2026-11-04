@@ -1,0 +1,14 @@
+{
+  "hash": "e2943907dbf8b099",
+  "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
+  "text": "{0} は、メッセージごとに 1 つのファイルを保持するストア向けです。あるロケールにおける 1 つのキーのファイルを返します。返すのは {1} と、拡張子のフォーマットでない場合にファイルを作成するための {2} ID です。そのキーの新しいメッセージは、すでに他のキーを保持しているリソースではなく、このファイルに格納され、ファイルが存在しない場合は作成されます。名前の変更では各メッセージが新しいキーのファイルへ移動し、削除によってそのキーのファイルが空になる場合はファイルが削除されます。共有ファイルに存在するキーには {3} を返してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、メッセージごとに 1 つのファイルを保持するストア向けです。あるロケールにおける 1 つのキーのファイルを返します。返すのは {1} と、拡張子のフォーマットでない場合にファイルを作成するための {2} ID です。そのキーの新しいメッセージは、すでに他のキーを保持しているリソースではなく、このファイルに格納され、ファイルが存在しない場合は作成されます。名前の変更では各メッセージが新しいキーのファイルへ移動し、削除によってそのキーのファイルが空になる場合はファイルが削除されます。共有ファイルに存在するキーには {3} を返してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

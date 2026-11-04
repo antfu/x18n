@@ -1,0 +1,14 @@
+{
+  "hash": "cd75d5c70cc886b4",
+  "source": "Name the package",
+  "text": "パッケージ名を付ける",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パッケージ名を付ける"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

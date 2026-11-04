@@ -1,0 +1,14 @@
+{
+  "hash": "f172c12e2bf225ca",
+  "source": "More than one preset can apply. Some presets include the plugins of another preset: {0} and {1} include everything of {2}, and {3} includes everything of {4}. When two applied presets share a plugin, x18n adds that plugin one time.",
+  "text": "複数のプリセットが適用されることがあります。一部のプリセットは、別のプリセットのプラグインを含みます。{0} と {1} は {2} のすべてを含み、{3} は {4} のすべてを含みます。適用された 2 つのプリセットが同じプラグインを共有している場合、x18n はそのプラグインを 1 回だけ追加します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "複数のプリセットが適用されることがあります。一部のプリセットは、別のプリセットのプラグインを含みます。{0} と {1} は {2} のすべてを含み、{3} は {4} のすべてを含みます。適用された 2 つのプリセットが同じプラグインを共有している場合、x18n はそのプラグインを 1 回だけ追加します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

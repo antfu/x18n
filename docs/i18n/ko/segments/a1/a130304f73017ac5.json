@@ -1,0 +1,14 @@
+{
+  "hash": "a130304f73017ac5",
+  "source": "rule (fine inside extraction scoring), lint",
+  "text": "규칙 (추출 점수 계산 내부에서는 사용 가능), 린트",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "규칙 (추출 점수 계산 내부에서는 사용 가능), 린트"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

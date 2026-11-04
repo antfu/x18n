@@ -1,0 +1,14 @@
+{
+  "hash": "26aa8d9e862f28b1",
+  "source": "The server also accepts {0} and {1}. With {2}, the client listens on the port and the server connects to it. The server loads the projects of each workspace folder, the same way the CLI does.",
+  "text": "伺服器也接受 {0} 和 {1}。使用 {2} 時，用戶端會監聽該連接埠，伺服器則連線到該連接埠。伺服器會載入每個工作區資料夾中的專案，方式與 CLI 相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "伺服器也接受 {0} 和 {1}。使用 {2} 時，用戶端會監聽該連接埠，伺服器則連線到該連接埠。伺服器會載入每個工作區資料夾中的專案，方式與 CLI 相同。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0f1ba7709ad68748",
+  "source": "Write the current diagnostics into the baseline",
+  "text": "將目前的診斷寫入基準",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將目前的診斷寫入基準"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

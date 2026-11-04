@@ -1,0 +1,14 @@
+{
+  "hash": "e7cb245af0f20ea6",
+  "source": "In {0} files, the preset reads calls of {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} and {10}, and the {11} forms of Python 2. The key is the first string argument, the source message:",
+  "text": "{0} ファイルでは、このプリセットは {1}、{2}、{3}、{4}、{5}、{6}、{7}、{8}、{9}、{10} の呼び出しと、Python 2 の {11} 形式を読み取ります。キーは最初の文字列引数、つまり元のメッセージです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ファイルでは、このプリセットは {1}、{2}、{3}、{4}、{5}、{6}、{7}、{8}、{9}、{10} の呼び出しと、Python 2 の {11} 形式を読み取ります。キーは最初の文字列引数、つまり元のメッセージです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9e682e3491d9841b",
+  "source": "ICU messages: {0}, {1}.",
+  "text": "ICU 訊息：{0}、{1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ICU 訊息：{0}、{1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

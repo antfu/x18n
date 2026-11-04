@@ -1,0 +1,14 @@
+{
+  "hash": "ca017a144e6bb00f",
+  "source": "The CLI starts in the current directory and goes up through the parent directories. It stops at the first config file, or at the directory that holds {0}. Two options change the search:",
+  "text": "CLI는 현재 디렉터리에서 시작하여 상위 디렉터리를 따라 올라갑니다. 처음 발견한 구성 파일에서 멈추거나, {0}가 있는 디렉터리에서 멈춥니다. 두 가지 옵션으로 탐색 방식을 변경할 수 있습니다:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI는 현재 디렉터리에서 시작하여 상위 디렉터리를 따라 올라갑니다. 처음 발견한 구성 파일에서 멈추거나, {0}가 있는 디렉터리에서 멈춥니다. 두 가지 옵션으로 탐색 방식을 변경할 수 있습니다:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

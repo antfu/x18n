@@ -1,0 +1,14 @@
+{
+  "hash": "eef0d88ed4bdfa32",
+  "source": "CSS color of values that replace a whole call ({0}). Empty uses {1}.",
+  "text": "호출 전체를 대체하는 값({0})의 CSS 색상입니다. 비워 두면 {1}을(를) 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "호출 전체를 대체하는 값({0})의 CSS 색상입니다. 비워 두면 {1}을(를) 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2f25e6139d07d606",
+  "source": "The {0} preset supports the {1}localization of Laravel{/1}.",
+  "text": "{0} プリセットは、{1}Laravel のローカライズ{/1}をサポートします。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、{1}Laravel のローカライズ{/1}をサポートします。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

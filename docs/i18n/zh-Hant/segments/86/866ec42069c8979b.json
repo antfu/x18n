@@ -1,0 +1,14 @@
+{
+  "hash": "866ec42069c8979b",
+  "source": "{0} has no locale in its name, so it holds the source locale. With the default {1}, these files give the locales {2} and {3}:",
+  "text": "{0} 的名稱中沒有語系，因此它存放的是來源語系。在預設的 {1} 下，這些檔案會產生 {2} 和 {3} 這兩個語系：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 的名稱中沒有語系，因此它存放的是來源語系。在預設的 {1} 下，這些檔案會產生 {2} 和 {3} 這兩個語系："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

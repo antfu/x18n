@@ -1,0 +1,14 @@
+{
+  "hash": "2647afe0025e1402",
+  "source": "Usages with a dynamic key are not reported. A usage with a static prefix, such as {0}, is a prefix usage: it makes every key under {1} count as used, and it is never a missing key.",
+  "text": "동적 키를 사용하는 사용처는 보고되지 않습니다. {0}처럼 정적 접두사가 있는 사용처는 접두사 사용처이며, {1} 아래의 모든 키를 사용된 것으로 간주하게 하고 missing key로 보고되지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "동적 키를 사용하는 사용처는 보고되지 않습니다. {0}처럼 정적 접두사가 있는 사용처는 접두사 사용처이며, {1} 아래의 모든 키를 사용된 것으로 간주하게 하고 missing key로 보고되지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

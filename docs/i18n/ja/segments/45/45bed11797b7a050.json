@@ -1,0 +1,14 @@
+{
+  "hash": "45bed11797b7a050",
+  "source": "The usages of a key, or every usage. {0} filters by file.",
+  "text": "指定したキーの使用箇所、またはすべての使用箇所を表示します。{0} でファイルによる絞り込みができます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "指定したキーの使用箇所、またはすべての使用箇所を表示します。{0} でファイルによる絞り込みができます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

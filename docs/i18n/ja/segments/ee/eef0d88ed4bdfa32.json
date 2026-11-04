@@ -1,0 +1,14 @@
+{
+  "hash": "eef0d88ed4bdfa32",
+  "source": "CSS color of values that replace a whole call ({0}). Empty uses {1}.",
+  "text": "呼び出し全体（{0}）を置き換える値の CSS カラーです。空の場合は {1} を使用します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "呼び出し全体（{0}）を置き換える値の CSS カラーです。空の場合は {1} を使用します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

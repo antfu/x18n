@@ -1,0 +1,14 @@
+{
+  "hash": "afb01d96a5729234",
+  "source": "Do not use {0} on your computer. Anything that reaches the port can then edit your files. The option is for CI and end-to-end tests only, and the command prints a warning.",
+  "text": "사용자의 컴퓨터에서는 {0}을(를) 사용하지 마세요. 그러면 해당 포트에 접근할 수 있는 모든 대상이 파일을 편집할 수 있습니다. 이 옵션은 CI와 엔드투엔드 테스트 전용이며, 명령은 경고를 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사용자의 컴퓨터에서는 {0}을(를) 사용하지 마세요. 그러면 해당 포트에 접근할 수 있는 모든 대상이 파일을 편집할 수 있습니다. 이 옵션은 CI와 엔드투엔드 테스트 전용이며, 명령은 경고를 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

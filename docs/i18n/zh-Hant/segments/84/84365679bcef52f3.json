@@ -1,0 +1,14 @@
+{
+  "hash": "84365679bcef52f3",
+  "source": "x18n runs {0} only for a preset inside the plugins of another preset. A preset that you list in {1} or {2} always applies.",
+  "text": "x18n 只會對另一個預設集之外掛內的預設集執行 {0}。你在 {1} 或 {2} 中列出的預設集一律會套用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 只會對另一個預設集之外掛內的預設集執行 {0}。你在 {1} 或 {2} 中列出的預設集一律會套用。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

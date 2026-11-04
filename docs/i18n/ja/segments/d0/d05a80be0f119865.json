@@ -1,0 +1,14 @@
+{
+  "hash": "d05a80be0f119865",
+  "source": "Do not edit locale files by hand. These commands keep the format, the indent, the key style and the order of each file, and they check placeholders:",
+  "text": "ロケールファイルを手作業で編集しないでください。以下のコマンドは、各ファイルの形式、インデント、キーのスタイル、順序を保ち、プレースホルダーもチェックします:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルを手作業で編集しないでください。以下のコマンドは、各ファイルの形式、インデント、キーのスタイル、順序を保ち、プレースホルダーもチェックします:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

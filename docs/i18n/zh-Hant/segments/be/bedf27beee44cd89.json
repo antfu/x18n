@@ -1,0 +1,14 @@
+{
+  "hash": "bedf27beee44cd89",
+  "source": "{0} and the MCP tool {1} read messages per locale:",
+  "text": "{0} 和 MCP 工具 {1} 會依語系讀取訊息：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 和 MCP 工具 {1} 會依語系讀取訊息："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

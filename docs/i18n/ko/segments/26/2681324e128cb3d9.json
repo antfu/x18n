@@ -1,0 +1,14 @@
+{
+  "hash": "2681324e128cb3d9",
+  "source": "next-international keeps messages in TS modules. The {0} format reads a module whose default export is an object literal, also with {1}, and writes edits back into the literal:",
+  "text": "next-international은 메시지를 TS 모듈에 보관합니다. {0} 형식은 기본 내보내기가 객체 리터럴인 모듈을 {1}와 함께 읽을 수도 있으며, 수정한 내용을 리터럴에 다시 기록합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-international은 메시지를 TS 모듈에 보관합니다. {0} 형식은 기본 내보내기가 객체 리터럴인 모듈을 {1}와 함께 읽을 수도 있으며, 수정한 내용을 리터럴에 다시 기록합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

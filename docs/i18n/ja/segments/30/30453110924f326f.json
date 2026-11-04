@@ -1,0 +1,14 @@
+{
+  "hash": "30453110924f326f",
+  "source": "Every framework of i18n-ally has a preset. For an unknown framework id, the command prints a note and leaves it out.",
+  "text": "i18n-ally のすべてのフレームワークにプリセットがあります。不明なフレームワーク ID の場合、コマンドは注記を出力し、そのフレームワークを除外します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally のすべてのフレームワークにプリセットがあります。不明なフレームワーク ID の場合、コマンドは注記を出力し、そのフレームワークを除外します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

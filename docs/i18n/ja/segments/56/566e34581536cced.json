@@ -1,0 +1,14 @@
+{
+  "hash": "566e34581536cced",
+  "source": "{0} holds the errors. In JSON mode, errors appear only here, so stdout is always valid JSON.",
+  "text": "{0} にはエラーが入ります。JSON モードでは、エラーはここにのみ出力されるため、stdout は常に有効な JSON になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} にはエラーが入ります。JSON モードでは、エラーはここにのみ出力されるため、stdout は常に有効な JSON になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

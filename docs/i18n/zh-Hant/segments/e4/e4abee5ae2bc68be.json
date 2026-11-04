@@ -1,0 +1,14 @@
+{
+  "hash": "e4abee5ae2bc68be",
+  "source": "Usage, config or plugin error. Errors without an x18n code also exit with 2.",
+  "text": "用法、設定或外掛錯誤。沒有 x18n 錯誤碼的錯誤也會以 2 結束。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "用法、設定或外掛錯誤。沒有 x18n 錯誤碼的錯誤也會以 2 結束。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

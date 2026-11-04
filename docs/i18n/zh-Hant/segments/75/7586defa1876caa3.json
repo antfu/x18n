@@ -1,0 +1,14 @@
+{
+  "hash": "7586defa1876caa3",
+  "source": "{0} leaves comments, approvals, change requests and suggested values on messages. See {1}Reviews{/1}.",
+  "text": "{0} 可在訊息上留下留言、核准、變更請求與建議值。請參閱{1}審閱{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 可在訊息上留下留言、核准、變更請求與建議值。請參閱{1}審閱{/1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

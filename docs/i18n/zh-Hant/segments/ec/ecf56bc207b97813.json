@@ -1,0 +1,14 @@
+{
+  "hash": "ecf56bc207b97813",
+  "source": "{0} needs a plan file written by {1}.",
+  "text": "{0} 需要由 {1} 寫入的計畫檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 需要由 {1} 寫入的計畫檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

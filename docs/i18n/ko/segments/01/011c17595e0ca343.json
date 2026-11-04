@@ -1,0 +1,14 @@
+{
+  "hash": "011c17595e0ca343",
+  "source": "The {0} preset supports {1}react-i18next{/1} and next-i18next.",
+  "text": "{0} 프리셋은 {1}react-i18next{/1}와 next-i18next를 지원합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 프리셋은 {1}react-i18next{/1}와 next-i18next를 지원합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

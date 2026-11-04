@@ -1,0 +1,14 @@
+{
+  "hash": "f68f24a548593279",
+  "source": "{0} checks every project, and reports them together.",
+  "text": "{0}은 모든 프로젝트를 검사하고 결과를 함께 보고합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은 모든 프로젝트를 검사하고 결과를 함께 보고합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

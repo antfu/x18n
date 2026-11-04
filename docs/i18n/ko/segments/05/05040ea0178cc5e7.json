@@ -1,0 +1,14 @@
+{
+  "hash": "05040ea0178cc5e7",
+  "source": "Do two plugins handle the same extension?",
+  "text": "두 플러그인이 같은 확장자를 처리하나요?",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "두 플러그인이 같은 확장자를 처리하나요?"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

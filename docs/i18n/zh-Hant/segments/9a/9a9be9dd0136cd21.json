@@ -1,0 +1,14 @@
+{
+  "hash": "9a9be9dd0136cd21",
+  "source": "The preset applies when the project depends on {0}, or on any {1} package.",
+  "text": "當專案相依於 {0}，或任何 {1} 套件時，就會套用此預設集。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當專案相依於 {0}，或任何 {1} 套件時，就會套用此預設集。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

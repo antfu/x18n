@@ -1,0 +1,14 @@
+{
+  "hash": "dcb3102d4b4de869",
+  "source": "Edit the source of the computed values by hand.",
+  "text": "手動編輯運算值的來源。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "手動編輯運算值的來源。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

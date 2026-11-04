@@ -1,0 +1,14 @@
+{
+  "hash": "340d05f745f7cc10",
+  "source": "The output lists the locales with their coverage, and the counts of resources, keys and usages.",
+  "text": "출력에는 로케일과 각 로케일의 커버리지, 그리고 리소스, 키, 사용처의 개수가 표시됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "출력에는 로케일과 각 로케일의 커버리지, 그리고 리소스, 키, 사용처의 개수가 표시됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

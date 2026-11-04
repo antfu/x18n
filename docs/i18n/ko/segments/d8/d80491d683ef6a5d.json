@@ -1,0 +1,14 @@
+{
+  "hash": "d80491d683ef6a5d",
+  "source": "Show the values of related locales next to each message, such as {0} for {1} (default); optionally of these locales instead (comma separated)",
+  "text": "각 메시지 옆에 관련 로케일의 값을 표시합니다. 예: {1}의 {0} (기본값). 대신 지정한 로케일의 값을 표시할 수도 있습니다 (쉼표로 구분)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 메시지 옆에 관련 로케일의 값을 표시합니다. 예: {1}의 {0} (기본값). 대신 지정한 로케일의 값을 표시할 수도 있습니다 (쉼표로 구분)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

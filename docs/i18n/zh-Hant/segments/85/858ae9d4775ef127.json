@@ -1,0 +1,14 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "當設定中包含 regex 掃描器、scope、重構範本、語系旗幟或自訂框架時。設定檔會將其列在 {0} 中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當設定中包含 regex 掃描器、scope、重構範本、語系旗幟或自訂框架時。設定檔會將其列在 {0} 中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

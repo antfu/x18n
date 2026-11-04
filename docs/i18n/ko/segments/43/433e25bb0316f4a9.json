@@ -1,0 +1,14 @@
+{
+  "hash": "433e25bb0316f4a9",
+  "source": "One root config with projects, each project with its own locales and its own config.",
+  "text": "하나의 루트 설정에 프로젝트를 나열하고, 각 프로젝트가 자체 로케일과 자체 설정을 가집니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하나의 루트 설정에 프로젝트를 나열하고, 각 프로젝트가 자체 로케일과 자체 설정을 가집니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

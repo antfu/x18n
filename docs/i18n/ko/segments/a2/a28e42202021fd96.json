@@ -1,0 +1,14 @@
+{
+  "hash": "a28e42202021fd96",
+  "source": "{0} of the previous prompt.",
+  "text": "이전 프롬프트의 {0}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이전 프롬프트의 {0}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

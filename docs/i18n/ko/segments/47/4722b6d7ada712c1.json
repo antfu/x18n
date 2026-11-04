@@ -1,0 +1,14 @@
+{
+  "hash": "4722b6d7ada712c1",
+  "source": "{0}: the raw key text, its range, and whether the key is static, a prefix, or unknown,",
+  "text": "{0}: 원시 키 텍스트, 해당 범위, 그리고 키가 정적인지, 접두사인지, 알 수 없는지 여부,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: 원시 키 텍스트, 해당 범위, 그리고 키가 정적인지, 접두사인지, 알 수 없는지 여부,"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f7783323df3b26a3",
+  "source": "The {0} format reads a file that returns an array literal, and writes edits back into the array. The path of a PHP file is the first part of its keys:",
+  "text": "{0} 형식은 배열 리터럴을 반환하는 파일을 읽고, 수정 내용을 배열에 다시 기록합니다. PHP 파일의 경로는 키의 첫 번째 부분이 됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 형식은 배열 리터럴을 반환하는 파일을 읽고, 수정 내용을 배열에 다시 기록합니다. PHP 파일의 경로는 키의 첫 번째 부분이 됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "79c03c32213119fe",
+  "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
+  "text": "被呼叫者是回傳翻譯函式的 factory，例如 {0} 回傳 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "被呼叫者是回傳翻譯函式的 factory，例如 {0} 回傳 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

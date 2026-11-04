@@ -1,0 +1,14 @@
+{
+  "hash": "34493f4f50c78b87",
+  "source": "{0} is a regular expression. Every match is replaced.",
+  "text": "{0} は正規表現です。一致した箇所はすべて置換されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は正規表現です。一致した箇所はすべて置換されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

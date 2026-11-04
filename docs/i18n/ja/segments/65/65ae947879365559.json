@@ -1,0 +1,14 @@
+{
+  "hash": "65ae947879365559",
+  "source": "The preset adds no placeholder syntax.",
+  "text": "このプリセットは、プレースホルダーの構文を追加しません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、プレースホルダーの構文を追加しません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

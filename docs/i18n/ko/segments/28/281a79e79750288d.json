@@ -1,0 +1,14 @@
+{
+  "hash": "281a79e79750288d",
+  "source": "Extraction templates: the code that replaces a hard string.",
+  "text": "추출 템플릿: 하드코딩된 문자열을 대체하는 코드입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "추출 템플릿: 하드코딩된 문자열을 대체하는 코드입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e5882a0e8a474e38",
+  "source": "Also translate values that checks report in the target locale. Without ids, every check; with ids (comma separated), only those checks.",
+  "text": "대상 로케일에서 검사가 보고하는 값도 함께 번역합니다. id를 지정하지 않으면 모든 검사가 대상이고, id를 지정하면(쉼표로 구분) 해당 검사만 대상입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "대상 로케일에서 검사가 보고하는 값도 함께 번역합니다. id를 지정하지 않으면 모든 검사가 대상이고, id를 지정하면(쉼표로 구분) 해당 검사만 대상입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

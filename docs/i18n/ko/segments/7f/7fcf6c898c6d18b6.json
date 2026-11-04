@@ -1,0 +1,14 @@
+{
+  "hash": "7fcf6c898c6d18b6",
+  "source": "The prompt holds the messages that are missing or empty in {0}, 50 at a time. A shortened example:",
+  "text": "프롬프트에는 {0}에서 누락되었거나 비어 있는 메시지가 한 번에 50개씩 담깁니다. 축약한 예시는 다음과 같습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프롬프트에는 {0}에서 누락되었거나 비어 있는 메시지가 한 번에 50개씩 담깁니다. 축약한 예시는 다음과 같습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

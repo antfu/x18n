@@ -1,0 +1,14 @@
+{
+  "hash": "37b38c91f857c385",
+  "source": "XMB ({0})",
+  "text": "XMB（{0}）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "XMB（{0}）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

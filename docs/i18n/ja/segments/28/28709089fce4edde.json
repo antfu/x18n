@@ -1,0 +1,14 @@
+{
+  "hash": "28709089fce4edde",
+  "source": "Client commands a hover may link to with {0} URLs.",
+  "text": "ホバーが {0} URL でリンクできるクライアントコマンド。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ホバーが {0} URL でリンクできるクライアントコマンド。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

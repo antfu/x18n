@@ -1,0 +1,14 @@
+{
+  "hash": "f3aa2c776f82fa58",
+  "source": "Output directory (default: .x18n/report)",
+  "text": "출력 디렉터리 (기본값: .x18n/report)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "출력 디렉터리 (기본값: .x18n/report)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

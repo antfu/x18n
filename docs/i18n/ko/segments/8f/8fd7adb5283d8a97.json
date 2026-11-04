@@ -1,0 +1,14 @@
+{
+  "hash": "8fd7adb5283d8a97",
+  "source": "The best-matching locale, source first on ties.",
+  "text": "가장 잘 일치하는 로케일이며, 동점이면 소스 로케일이 우선합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "가장 잘 일치하는 로케일이며, 동점이면 소스 로케일이 우선합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8fe148c00c0760ca",
+  "source": "Fluent variables: {0}. For {1} in {2} and {3} in {4}, the {5} check reports {6}.",
+  "text": "Fluent 변수: {0}. {2}의 {1}와(과) {4}의 {3}에 대해 {5} 검사는 {6}을(를) 보고합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Fluent 변수: {0}. {2}의 {1}와(과) {4}의 {3}에 대해 {5} 검사는 {6}을(를) 보고합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

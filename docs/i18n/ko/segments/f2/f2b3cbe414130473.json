@@ -1,0 +1,14 @@
+{
+  "hash": "f2b3cbe414130473",
+  "source": "detector",
+  "text": "감지기",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "감지기"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

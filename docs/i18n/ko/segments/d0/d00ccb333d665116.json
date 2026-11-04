@@ -1,0 +1,14 @@
+{
+  "hash": "d00ccb333d665116",
+  "source": "Parent key; omitted for the roots.",
+  "text": "부모 키입니다. 루트에서는 생략됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "부모 키입니다. 루트에서는 생략됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "edad127ac8d6bd3e",
+  "source": "Two plugins register a capability (a format, finder, scanner, check, reporter or placeholder syntax) with the same id.",
+  "text": "두 플러그인이 동일한 id로 capability(format, finder, scanner, 검사, reporter 또는 플레이스홀더 구문)를 등록했습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "두 플러그인이 동일한 id로 capability(format, finder, scanner, 검사, reporter 또는 플레이스홀더 구문)를 등록했습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2322b161bcd2b85a",
+  "source": "Only values containing the query, instead of a fuzzy match",
+  "text": "僅限包含查詢字串的值，而非模糊比對",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅限包含查詢字串的值，而非模糊比對"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

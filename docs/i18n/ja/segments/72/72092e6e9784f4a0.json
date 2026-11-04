@@ -1,0 +1,14 @@
+{
+  "hash": "72092e6e9784f4a0",
+  "source": "Text in an HTML or Angular template ({0}, {1}, {2}), or with no element of its own ({3})",
+  "text": "HTML または Angular テンプレート内のテキスト（{0}、{1}、{2}）、または独自の要素を持たないテキスト（{3}）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "HTML または Angular テンプレート内のテキスト（{0}、{1}、{2}）、または独自の要素を持たないテキスト（{3}）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

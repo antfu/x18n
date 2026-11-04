@@ -1,0 +1,14 @@
+{
+  "hash": "19e20d79ee595dee",
+  "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
+  "text": "プリセットの翻訳呼び出しに追加する翻訳呼び出しです。{0}サポートされる構文{/0}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プリセットの翻訳呼び出しに追加する翻訳呼び出しです。{0}サポートされる構文{/0}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "db748e0f785f7f10",
+  "source": "Thymeleaf reads {0} for the default language and {1} for the others, and writes keys as {2}:",
+  "text": "Thymeleaf は、デフォルト言語には {0} を、それ以外の言語には {1} を読み込み、キーを {2} の形式で記述します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Thymeleaf は、デフォルト言語には {0} を、それ以外の言語には {1} を読み込み、キーを {2} の形式で記述します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

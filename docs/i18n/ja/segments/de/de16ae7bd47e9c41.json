@@ -1,0 +1,14 @@
+{
+  "hash": "de16ae7bd47e9c41",
+  "source": "If a change needs a decision, such as the file for a new key, x18n asks in a terminal. {0} accepts the default answers. See {1}Plan and decision{/1}.",
+  "text": "新しいキーの保存先ファイルなど、変更に判断が必要な場合、x18n はターミナルで確認します。{0} を指定すると、デフォルトの回答を受け入れます。{1}プランと判断{/1}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "新しいキーの保存先ファイルなど、変更に判断が必要な場合、x18n はターミナルで確認します。{0} を指定すると、デフォルトの回答を受け入れます。{1}プランと判断{/1}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

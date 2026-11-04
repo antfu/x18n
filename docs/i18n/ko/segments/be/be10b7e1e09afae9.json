@@ -1,0 +1,14 @@
+{
+  "hash": "be10b7e1e09afae9",
+  "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
+  "text": "플랜의 각 리뷰 수정마다 op 순서대로 호출됩니다. 반환된 쓰기는 같은 플랜에 포함됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플랜의 각 리뷰 수정마다 op 순서대로 호출됩니다. 반환된 쓰기는 같은 플랜에 포함됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

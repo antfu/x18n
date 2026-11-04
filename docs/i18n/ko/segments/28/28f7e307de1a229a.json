@@ -1,0 +1,14 @@
+{
+  "hash": "28f7e307de1a229a",
+  "source": "{0} lists each key with its locales and files. {1} lists unused keys that a computed key in a scope may reach, with those usages; they stay. {2} names computed keys outside any scope, which may reach any key.",
+  "text": "{0}은(는) 각 키를 해당 로케일 및 파일과 함께 나열합니다. {1}은(는) 스코프 내의 계산된 키가 도달할 수 있는 사용하지 않는 키를 해당 사용처와 함께 나열하며, 이러한 키는 유지됩니다. {2}은(는) 스코프 밖의 계산된 키를 나타내며, 이 키는 모든 키에 도달할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 각 키를 해당 로케일 및 파일과 함께 나열합니다. {1}은(는) 스코프 내의 계산된 키가 도달할 수 있는 사용하지 않는 키를 해당 사용처와 함께 나열하며, 이러한 키는 유지됩니다. {2}은(는) 스코프 밖의 계산된 키를 나타내며, 이 키는 모든 키에 도달할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

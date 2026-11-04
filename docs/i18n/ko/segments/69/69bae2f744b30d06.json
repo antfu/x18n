@@ -1,0 +1,14 @@
+{
+  "hash": "69bae2f744b30d06",
+  "source": "A locale file has a syntax error. The message names the file and the position.",
+  "text": "로케일 파일에 구문 오류가 있습니다. 메시지에 파일과 위치가 표시됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일 파일에 구문 오류가 있습니다. 메시지에 파일과 위치가 표시됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

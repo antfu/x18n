@@ -1,0 +1,14 @@
+{
+  "hash": "9f2e11ba11964b95",
+  "source": "If your config has no {0}, the preset uses {1}, {2} and {3}. The {4} format reads and writes these files. All {5} files of a locale share one set of keys, as in a Fluent bundle.",
+  "text": "如果你的設定中沒有 {0}，預設集會使用 {1}、{2} 和 {3}。{4} 格式會讀取並寫入這些檔案。同一個語系的所有 {5} 檔案共用同一組鍵，就像 Fluent bundle 一樣。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果你的設定中沒有 {0}，預設集會使用 {1}、{2} 和 {3}。{4} 格式會讀取並寫入這些檔案。同一個語系的所有 {5} 檔案共用同一組鍵，就像 Fluent bundle 一樣。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

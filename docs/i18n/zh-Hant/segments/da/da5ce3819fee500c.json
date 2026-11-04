@@ -1,0 +1,14 @@
+{
+  "hash": "da5ce3819fee500c",
+  "source": "Turns raw key text into canonical form. The first plugin that returns a value wins.",
+  "text": "將原始的鍵文字轉換為標準形式。第一個回傳值的外掛優先。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將原始的鍵文字轉換為標準形式。第一個回傳值的外掛優先。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

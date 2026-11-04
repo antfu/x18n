@@ -1,0 +1,14 @@
+{
+  "hash": "44eeeaa73bb5ded6",
+  "source": "Text of a value in any locale, ignoring case.",
+  "text": "모든 로케일에 있는 값의 텍스트이며 대소문자를 무시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일에 있는 값의 텍스트이며 대소문자를 무시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

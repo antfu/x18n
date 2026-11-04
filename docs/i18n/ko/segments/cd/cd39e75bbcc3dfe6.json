@@ -1,0 +1,14 @@
+{
+  "hash": "cd39e75bbcc3dfe6",
+  "source": "How {0} folders name a namespace: {1} makes {2} into {3}, {4} keeps {5}, {6} makes {7} into {8}. Default {9}.",
+  "text": "{0} 폴더가 네임스페이스 이름을 정하는 방식입니다. {1}는 {2}를 {3}로 만들고, {4}는 {5}를 그대로 유지하며, {6}는 {7}를 {8}로 만듭니다. 기본값은 {9}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 폴더가 네임스페이스 이름을 정하는 방식입니다. {1}는 {2}를 {3}로 만들고, {4}는 {5}를 그대로 유지하며, {6}는 {7}를 {8}로 만듭니다. 기본값은 {9}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

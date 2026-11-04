@@ -1,0 +1,14 @@
+{
+  "hash": "81b5894c589ecac2",
+  "source": "In {0}, add the server, then add it to each language next to the server it already uses:",
+  "text": "{0} でサーバーを追加し、次に各言語で、すでに使用しているサーバーの隣にこのサーバーを追加してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} でサーバーを追加し、次に各言語で、すでに使用しているサーバーの隣にこのサーバーを追加してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

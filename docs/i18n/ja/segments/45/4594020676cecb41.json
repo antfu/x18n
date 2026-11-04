@@ -1,0 +1,14 @@
+{
+  "hash": "4594020676cecb41",
+  "source": "x18n: Rename Key Prefix",
+  "text": "x18n: キーのプレフィックスを変更",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: キーのプレフィックスを変更"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

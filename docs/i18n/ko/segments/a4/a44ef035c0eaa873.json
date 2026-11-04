@@ -1,0 +1,14 @@
+{
+  "hash": "a44ef035c0eaa873",
+  "source": "Re-write resources with the configured sort and indent.",
+  "text": "설정된 정렬 및 들여쓰기로 리소스를 다시 씁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정된 정렬 및 들여쓰기로 리소스를 다시 씁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

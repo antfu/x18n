@@ -1,0 +1,14 @@
+{
+  "hash": "3bf1d901754b15fd",
+  "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
+  "text": "編集の対象が読み取り専用のリソースです。{0} を含むリソースは、x18n が値を計算するコードを書き込めないため、読み取り専用になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "編集の対象が読み取り専用のリソースです。{0} を含むリソースは、x18n が値を計算するコードを書き込めないため、読み取り専用になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

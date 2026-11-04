@@ -1,0 +1,14 @@
+{
+  "hash": "5a71023fdb83f951",
+  "source": "Run x18n in the root of a project. It detects the i18n library from your dependencies and finds the locale files. {0}Read the guide{/0}.",
+  "text": "프로젝트의 루트에서 x18n을 실행하세요. 의존성에서 i18n 라이브러리를 감지하고 로케일 파일을 찾습니다. {0}가이드 읽기{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트의 루트에서 x18n을 실행하세요. 의존성에서 i18n 라이브러리를 감지하고 로케일 파일을 찾습니다. {0}가이드 읽기{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

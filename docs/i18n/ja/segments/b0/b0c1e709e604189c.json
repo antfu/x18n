@@ -1,0 +1,14 @@
+{
+  "hash": "b0c1e709e604189c",
+  "source": "Only usages in this file (path relative to the project root).",
+  "text": "このファイル内の使用箇所のみです（プロジェクトルートからの相対パス）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このファイル内の使用箇所のみです（プロジェクトルートからの相対パス）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "3ca096b0388ac86d",
+  "source": "Only keys of one namespace.",
+  "text": "僅包含單一命名空間的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅包含單一命名空間的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

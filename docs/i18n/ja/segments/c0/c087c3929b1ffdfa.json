@@ -1,0 +1,14 @@
+{
+  "hash": "c087c3929b1ffdfa",
+  "source": "Map the extension to a format id in the config: {0}.",
+  "text": "設定で拡張子をフォーマット id にマッピングしてください: {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定で拡張子をフォーマット id にマッピングしてください: {0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

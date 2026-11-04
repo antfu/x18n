@@ -1,0 +1,14 @@
+{
+  "hash": "26dde11648a68435",
+  "source": "In a terminal, {0} asks for each string: accept the proposed key, type another key, skip it, or stop.",
+  "text": "ターミナルでは、{0} が文字列ごとに確認します。提案されたキーを受け入れる、別のキーを入力する、スキップする、または中止することができます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ターミナルでは、{0} が文字列ごとに確認します。提案されたキーを受け入れる、別のキーを入力する、スキップする、または中止することができます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

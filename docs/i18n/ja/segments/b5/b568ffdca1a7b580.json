@@ -1,0 +1,14 @@
+{
+  "hash": "b568ffdca1a7b580",
+  "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}.",
+  "text": "{0} フォーマットは、メッセージの属性を独立したキーとして読み取ります。メッセージ {2} の {1} は、キー {3} になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} フォーマットは、メッセージの属性を独立したキーとして読み取ります。メッセージ {2} の {1} は、キー {3} になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

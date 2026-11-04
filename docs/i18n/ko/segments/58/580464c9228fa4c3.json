@@ -1,0 +1,14 @@
+{
+  "hash": "580464c9228fa4c3",
+  "source": "Show the status and the main commands.",
+  "text": "상태와 주요 명령을 표시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "상태와 주요 명령을 표시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

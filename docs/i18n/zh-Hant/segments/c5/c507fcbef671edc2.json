@@ -1,0 +1,14 @@
+{
+  "hash": "c507fcbef671edc2",
+  "source": "Only keys matching a glob",
+  "text": "僅限符合 glob 的鍵",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅限符合 glob 的鍵"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

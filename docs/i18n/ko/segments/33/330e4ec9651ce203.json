@@ -1,0 +1,14 @@
+{
+  "hash": "330e4ec9651ce203",
+  "source": "Fail when there are more than {0} warnings.",
+  "text": "경고가 {0}개를 초과하면 실패합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "경고가 {0}개를 초과하면 실패합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

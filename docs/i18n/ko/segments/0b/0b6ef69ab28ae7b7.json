@@ -1,0 +1,14 @@
+{
+  "hash": "0b6ef69ab28ae7b7",
+  "source": "Give the plugin a unique {0}, and do not use the {1} prefix of the built-in plugins.",
+  "text": "플러그인에 고유한 {0}을(를) 지정하고, 기본 제공 플러그인의 {1} 접두사는 사용하지 마세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인에 고유한 {0}을(를) 지정하고, 기본 제공 플러그인의 {1} 접두사는 사용하지 마세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

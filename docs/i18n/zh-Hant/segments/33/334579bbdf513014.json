@@ -1,0 +1,14 @@
+{
+  "hash": "334579bbdf513014",
+  "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
+  "text": "審閱討論串：訊息上的留言、核准、變更請求與建議值，依鍵與語系列出，並附上每個討論串的狀態。傳入 {0} 則只顯示未解決的討論串。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "審閱討論串：訊息上的留言、核准、變更請求與建議值，依鍵與語系列出，並附上每個討論串的狀態。傳入 {0} 則只顯示未解決的討論串。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

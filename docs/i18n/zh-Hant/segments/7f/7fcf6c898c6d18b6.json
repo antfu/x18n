@@ -1,0 +1,14 @@
+{
+  "hash": "7fcf6c898c6d18b6",
+  "source": "The prompt holds the messages that are missing or empty in {0}, 50 at a time. A shortened example:",
+  "text": "提示包含 {0} 中缺少或為空的訊息，每次 50 則。以下是精簡過的範例：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "提示包含 {0} 中缺少或為空的訊息，每次 50 則。以下是精簡過的範例："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

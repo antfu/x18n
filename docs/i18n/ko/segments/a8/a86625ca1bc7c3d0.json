@@ -1,0 +1,14 @@
+{
+  "hash": "a86625ca1bc7c3d0",
+  "source": "Finds usages in source files.",
+  "text": "소스 파일에서 사용처를 찾습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 파일에서 사용처를 찾습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a82989cc81635faf",
+  "source": "A preset can be exclusive. When an exclusive preset applies, x18n tests no preset after it. {0} and {1} are exclusive. {2} has no detection, so it applies only when you list it.",
+  "text": "預設集可以是獨佔的。套用獨佔預設集後，x18n 不會再測試排在它之後的任何預設集。{0} 與 {1} 是獨佔的。{2} 沒有偵測機制，因此只有在你將它列出時才會套用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "預設集可以是獨佔的。套用獨佔預設集後，x18n 不會再測試排在它之後的任何預設集。{0} 與 {1} 是獨佔的。{2} 沒有偵測機制，因此只有在你將它列出時才會套用。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

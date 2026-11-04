@@ -1,0 +1,14 @@
+{
+  "hash": "e020689143c39d4a",
+  "source": "CSS color of in-place values. Empty uses the inlay hint color of the theme.",
+  "text": "就地取代值的 CSS 顏色。留空則使用佈景主題的 inlay hint 顏色。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "就地取代值的 CSS 顏色。留空則使用佈景主題的 inlay hint 顏色。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

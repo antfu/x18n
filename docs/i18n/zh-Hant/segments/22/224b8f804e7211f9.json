@@ -1,0 +1,14 @@
+{
+  "hash": "224b8f804e7211f9",
+  "source": "YAML and JSON configs reject unknown keys. If the field is a typo, fix the name.",
+  "text": "YAML 與 JSON 設定會拒絕未知的鍵。如果該欄位是拼字錯誤，請修正名稱。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 與 JSON 設定會拒絕未知的鍵。如果該欄位是拼字錯誤，請修正名稱。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

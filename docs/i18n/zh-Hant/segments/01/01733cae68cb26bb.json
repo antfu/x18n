@@ -1,0 +1,14 @@
+{
+  "hash": "01733cae68cb26bb",
+  "source": "The project root. The default is the root of the host, and x18n searches upward for a config file from there. With {0}, x18n does not search upward.",
+  "text": "專案根目錄。預設為主機的根目錄，x18n 會從該處向上搜尋設定檔。使用 {0} 時，x18n 不會向上搜尋。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "專案根目錄。預設為主機的根目錄，x18n 會從該處向上搜尋設定檔。使用 {0} 時，x18n 不會向上搜尋。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2f7eba9d3d4d346a",
+  "source": "The source file is the one {0} writes: {1}, {2}, {3} or {4} in the {5} of the {6} target, after its {7} and {8} options.",
+  "text": "ソースファイルは {0} が書き出すファイルで、{6} ターゲットの {5} にある {1}、{2}、{3}、または {4} です。{7} オプションと {8} オプションが適用された後のものを指します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ソースファイルは {0} が書き出すファイルで、{6} ターゲットの {5} にある {1}、{2}、{3}、または {4} です。{7} オプションと {8} オプションが適用された後のものを指します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

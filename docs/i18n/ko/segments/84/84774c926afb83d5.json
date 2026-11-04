@@ -1,0 +1,14 @@
+{
+  "hash": "84774c926afb83d5",
+  "source": "Ask or note something.",
+  "text": "질문하거나 메모를 남깁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "질문하거나 메모를 남깁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

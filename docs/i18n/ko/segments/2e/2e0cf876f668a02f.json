@@ -1,0 +1,14 @@
+{
+  "hash": "2e0cf876f668a02f",
+  "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
+  "text": "키에 호버하면 각 로케일의 값과 사용처 수가 표시되며, UI에서 키 열기, 번역 프롬프트 복사, 에이전트로 번역하기 링크가 함께 표시됩니다. 진단은 {0}의 진단과 같습니다. 빠른 수정은 검사에서 제공되며, 예를 들어 \"Add the key to the source locale\" 또는 \"Copy the source value\"가 있습니다. 코드 액션으로 하드코딩된 문자열을 추출하거나, 파일의 모든 하드코딩된 문자열을 추출하거나, 문자열에 대한 무시 주석을 추가할 수도 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키에 호버하면 각 로케일의 값과 사용처 수가 표시되며, UI에서 키 열기, 번역 프롬프트 복사, 에이전트로 번역하기 링크가 함께 표시됩니다. 진단은 {0}의 진단과 같습니다. 빠른 수정은 검사에서 제공되며, 예를 들어 \"Add the key to the source locale\" 또는 \"Copy the source value\"가 있습니다. 코드 액션으로 하드코딩된 문자열을 추출하거나, 파일의 모든 하드코딩된 문자열을 추출하거나, 문자열에 대한 무시 주석을 추가할 수도 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "bcec13217529acde",
+  "source": "A YAML plugin ({0}): the declarative subset of the plugin API.",
+  "text": "YAML 플러그인({0}): 플러그인 API의 선언형 하위 집합입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 플러그인({0}): 플러그인 API의 선언형 하위 집합입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

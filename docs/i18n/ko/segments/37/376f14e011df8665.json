@@ -1,0 +1,14 @@
+{
+  "hash": "376f14e011df8665",
+  "source": "The preset for fluent-vue. It reads Fluent .ftl files, <fluent> blocks in Vue files, and $t and $ta calls.",
+  "text": "fluent-vue용 프리셋입니다. Fluent .ftl 파일, Vue 파일의 <fluent> 블록, $t 및 $ta 호출을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "fluent-vue용 프리셋입니다. Fluent .ftl 파일, Vue 파일의 <fluent> 블록, $t 및 $ta 호출을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

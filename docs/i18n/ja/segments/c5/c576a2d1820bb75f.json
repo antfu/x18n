@@ -1,0 +1,14 @@
+{
+  "hash": "c576a2d1820bb75f",
+  "source": "Print a prompt for an agent or LLM: {0}, {1}, or the skills {2} and {3}.",
+  "text": "エージェントまたは LLM 向けのプロンプトを出力します: {0}、{1}、またはスキル {2} と {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "エージェントまたは LLM 向けのプロンプトを出力します: {0}、{1}、またはスキル {2} と {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

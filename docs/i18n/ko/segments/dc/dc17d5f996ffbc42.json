@@ -1,0 +1,14 @@
+{
+  "hash": "dc17d5f996ffbc42",
+  "source": "Adds the missing keys of each locale with empty values. {0} copies the source value. {1} limits it.",
+  "text": "각 로케일에서 누락된 키를 빈 값으로 추가합니다. {0}는 소스 값을 복사합니다. {1}로 범위를 제한합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 로케일에서 누락된 키를 빈 값으로 추가합니다. {0}는 소스 값을 복사합니다. {1}로 범위를 제한합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "314dc23bdaade2f6",
+  "source": "An optional locale. A file without it belongs to the source locale.",
+  "text": "選用的語系。沒有此項的檔案屬於來源語系。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "選用的語系。沒有此項的檔案屬於來源語系。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

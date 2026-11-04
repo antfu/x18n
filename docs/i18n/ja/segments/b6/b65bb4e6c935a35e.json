@@ -1,0 +1,14 @@
+{
+  "hash": "b65bb4e6c935a35e",
+  "source": "Colors appear only in a terminal. x18n honors {0} and {1}.",
+  "text": "色が付くのはターミナルのみです。x18n は {0} と {1} に従います。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "色が付くのはターミナルのみです。x18n は {0} と {1} に従います。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

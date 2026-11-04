@@ -1,0 +1,14 @@
+{
+  "hash": "7396669f38911626",
+  "source": "The transform applies to every YAML resource of the project. A YAML file without the locale key of its locale has no keys.",
+  "text": "이 변환은 프로젝트의 모든 YAML 리소스에 적용됩니다. 해당 로케일의 로케일 키가 없는 YAML 파일에는 키가 없는 것으로 처리됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 변환은 프로젝트의 모든 YAML 리소스에 적용됩니다. 해당 로케일의 로케일 키가 없는 YAML 파일에는 키가 없는 것으로 처리됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

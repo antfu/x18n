@@ -1,0 +1,14 @@
+{
+  "hash": "b9ba19f738620182",
+  "source": "PHP files that return an array literal",
+  "text": "配列リテラルを返す PHP ファイル",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "配列リテラルを返す PHP ファイル"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

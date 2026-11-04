@@ -1,0 +1,14 @@
+{
+  "hash": "b0e8bf90966282e5",
+  "source": "Text of the message, as seen in the app, in any locale.",
+  "text": "앱에서 보이는 메시지의 텍스트이며, 어느 로케일이든 가능합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "앱에서 보이는 메시지의 텍스트이며, 어느 로케일이든 가능합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

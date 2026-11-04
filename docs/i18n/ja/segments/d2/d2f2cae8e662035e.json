@@ -1,0 +1,14 @@
+{
+  "hash": "d2f2cae8e662035e",
+  "source": "Reviews: {0}, {1}, {2}, {3}.",
+  "text": "レビュー: {0}、{1}、{2}、{3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レビュー: {0}、{1}、{2}、{3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

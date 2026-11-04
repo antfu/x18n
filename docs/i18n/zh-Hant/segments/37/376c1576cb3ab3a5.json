@@ -1,0 +1,14 @@
+{
+  "hash": "376c1576cb3ab3a5",
+  "source": "The server runs next to your language's own server. Point it at the file types that use or define messages. Each editor below starts it over stdio and can pass {0}initialization options{/0}.",
+  "text": "此伺服器與你所用語言本身的伺服器並行執行。請將它指向會使用或定義訊息的檔案類型。以下每個編輯器都透過 stdio 啟動它，並可傳入{0}初始化選項{/0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此伺服器與你所用語言本身的伺服器並行執行。請將它指向會使用或定義訊息的檔案類型。以下每個編輯器都透過 stdio 啟動它，並可傳入{0}初始化選項{/0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

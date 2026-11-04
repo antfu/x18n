@@ -1,0 +1,14 @@
+{
+  "hash": "dc17d5f996ffbc42",
+  "source": "Adds the missing keys of each locale with empty values. {0} copies the source value. {1} limits it.",
+  "text": "各ロケールで不足しているキーを、空の値で追加します。{0} を指定すると、ソースの値をコピーします。{1} で範囲を限定できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各ロケールで不足しているキーを、空の値で追加します。{0} を指定すると、ソースの値をコピーします。{1} で範囲を限定できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

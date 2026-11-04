@@ -1,0 +1,14 @@
+{
+  "hash": "f37933fdae13d07f",
+  "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
+  "text": "하나의 키가 리프이면서 동시에 부모이거나, 하나의 로케일 내 여러 파일에 중복되어 있는 경우입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하나의 키가 리프이면서 동시에 부모이거나, 하나의 로케일 내 여러 파일에 중복되어 있는 경우입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

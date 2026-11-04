@@ -1,0 +1,14 @@
+{
+  "hash": "c362b0d117f47fe4",
+  "source": "A value adds or drops a placeholder compared to the source value, so {0} wrote nothing. The JSON output lists the values in {1}.",
+  "text": "어떤 값이 원본 값과 비교하여 플레이스홀더를 추가하거나 누락했기 때문에 {0}은(는) 아무것도 쓰지 않았습니다. JSON 출력은 해당 값을 {1}에 나열합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "어떤 값이 원본 값과 비교하여 플레이스홀더를 추가하거나 누락했기 때문에 {0}은(는) 아무것도 쓰지 않았습니다. JSON 출력은 해당 값을 {1}에 나열합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

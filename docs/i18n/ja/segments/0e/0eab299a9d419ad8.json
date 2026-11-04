@@ -1,0 +1,14 @@
+{
+  "hash": "0eab299a9d419ad8",
+  "source": "Approves the current value. {0} is optional.",
+  "text": "現在の値を承認します。{0} は省略可能です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "現在の値を承認します。{0} は省略可能です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

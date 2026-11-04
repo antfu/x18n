@@ -1,0 +1,14 @@
+{
+  "hash": "97f4070d541bed62",
+  "source": "Every surface reads the same config and reports the same diagnostics. A fix that you make in the editor shows in the UI, and {0} in CI agrees with both.",
+  "text": "모든 인터페이스는 같은 설정을 읽고 같은 진단을 보고합니다. 에디터에서 적용한 수정은 UI에 반영되며, CI에서 실행하는 {0}도 두 결과와 일치합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 인터페이스는 같은 설정을 읽고 같은 진단을 보고합니다. 에디터에서 적용한 수정은 UI에 반영되며, CI에서 실행하는 {0}도 두 결과와 일치합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

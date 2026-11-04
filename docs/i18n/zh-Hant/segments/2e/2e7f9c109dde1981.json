@@ -1,0 +1,14 @@
+{
+  "hash": "2e7f9c109dde1981",
+  "source": "When more messages remain, the prompt says how many, and gives the command for the next batch with {0}.",
+  "text": "若還有剩餘的訊息，提示會說明數量，並給出以 {0} 取得下一批的命令。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若還有剩餘的訊息，提示會說明數量，並給出以 {0} 取得下一批的命令。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

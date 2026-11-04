@@ -1,0 +1,14 @@
+{
+  "hash": "e8c3d1c4536f11c3",
+  "source": "To check only some problems in a step, use {0}. To check one locale, use {1}:",
+  "text": "한 단계에서 일부 문제만 검사하려면 {0}을(를) 사용하세요. 하나의 로케일을 검사하려면 {1}을(를) 사용하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "한 단계에서 일부 문제만 검사하려면 {0}을(를) 사용하세요. 하나의 로케일을 검사하려면 {1}을(를) 사용하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

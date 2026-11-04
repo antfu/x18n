@@ -1,0 +1,14 @@
+{
+  "hash": "13b7b52e1a0c723a",
+  "source": "\"x18n: Open UI\" in {0}VS Code{/0}",
+  "text": "{0}VS Code{/0}에서 \"x18n: Open UI\" 실행",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}VS Code{/0}에서 \"x18n: Open UI\" 실행"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

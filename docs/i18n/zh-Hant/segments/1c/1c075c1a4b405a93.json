@@ -1,0 +1,14 @@
+{
+  "hash": "1c075c1a4b405a93",
+  "source": "x18n records which plugin changed which value. {0} shows it as {1}.",
+  "text": "x18n 會記錄哪個外掛修改了哪個值。{0} 會將其顯示為 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 會記錄哪個外掛修改了哪個值。{0} 會將其顯示為 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

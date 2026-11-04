@@ -1,0 +1,14 @@
+{
+  "hash": "0a8f603ae56c2cf1",
+  "source": "The gettext system of cargo-i18n (the {0} macro and {1} files) is not supported.",
+  "text": "不支援 cargo-i18n 的 gettext 系統（{0} 巨集與 {1} 檔案）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不支援 cargo-i18n 的 gettext 系統（{0} 巨集與 {1} 檔案）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

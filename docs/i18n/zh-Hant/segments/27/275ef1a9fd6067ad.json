@@ -1,0 +1,14 @@
+{
+  "hash": "275ef1a9fd6067ad",
+  "source": "Locale (default: source locale)",
+  "text": "語系（預設：來源語系）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "語系（預設：來源語系）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

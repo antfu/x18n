@@ -1,0 +1,14 @@
+{
+  "hash": "1ac5827f0cccede0",
+  "source": "Writes the resources again with the configured {0} and {1}.",
+  "text": "以設定的 {0} 與 {1} 重新寫入資源。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以設定的 {0} 與 {1} 重新寫入資源。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

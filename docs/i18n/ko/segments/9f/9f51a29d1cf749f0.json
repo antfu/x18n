@@ -1,0 +1,14 @@
+{
+  "hash": "9f51a29d1cf749f0",
+  "source": "A scope folder is a key prefix in camelCase, as Transloco names it: the preset sets {0} to {1}, so {2} holds the keys {3}. For a scope with an alias, add a resource with a fixed namespace: {4}.",
+  "text": "스코프 폴더는 Transloco가 이름을 짓는 방식대로 camelCase로 작성한 키 접두사입니다. 프리셋은 {0}을(를) {1}(으)로 설정하므로 {2}에는 키 {3}이(가) 들어 있습니다. 별칭이 있는 스코프에는 고정된 네임스페이스를 가진 리소스를 추가하세요: {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "스코프 폴더는 Transloco가 이름을 짓는 방식대로 camelCase로 작성한 키 접두사입니다. 프리셋은 {0}을(를) {1}(으)로 설정하므로 {2}에는 키 {3}이(가) 들어 있습니다. 별칭이 있는 스코프에는 고정된 네임스페이스를 가진 리소스를 추가하세요: {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

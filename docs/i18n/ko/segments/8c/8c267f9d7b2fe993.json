@@ -1,0 +1,14 @@
+{
+  "hash": "8c267f9d7b2fe993",
+  "source": "List plugins in the {0} option of the config. An entry is a path, a package name, {1}, or in TS a plugin object:",
+  "text": "설정의 {0} 옵션에 플러그인을 나열하세요. 항목은 경로, 패키지 이름, {1}이며, TS에서는 플러그인 객체도 사용할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정의 {0} 옵션에 플러그인을 나열하세요. 항목은 경로, 패키지 이름, {1}이며, TS에서는 플러그인 객체도 사용할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

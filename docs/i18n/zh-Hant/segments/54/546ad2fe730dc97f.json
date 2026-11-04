@@ -1,0 +1,14 @@
+{
+  "hash": "546ad2fe730dc97f",
+  "source": "The whole file, wherever the comment is.",
+  "text": "整個檔案，無論註解位於何處。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "整個檔案，無論註解位於何處。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

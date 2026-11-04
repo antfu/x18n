@@ -1,0 +1,14 @@
+{
+  "hash": "887e57e500a680e9",
+  "source": "Ruby: {0}Rails{/0} and {1}Jekyll{/1}",
+  "text": "Ruby: {0}Rails{/0}, {1}Jekyll{/1}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ruby: {0}Rails{/0}, {1}Jekyll{/1}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

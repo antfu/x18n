@@ -1,0 +1,14 @@
+{
+  "hash": "b45deb8eb4960ab4",
+  "source": "Svelte: {0}svelte-i18n and sveltekit-i18n{/0} and {1}svelte-i18next{/1}",
+  "text": "Svelte: {0}svelte-i18n 및 sveltekit-i18n{/0}, {1}svelte-i18next{/1}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Svelte: {0}svelte-i18n 및 sveltekit-i18n{/0}, {1}svelte-i18next{/1}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

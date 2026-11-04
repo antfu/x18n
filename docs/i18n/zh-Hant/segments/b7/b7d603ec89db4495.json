@@ -1,0 +1,14 @@
+{
+  "hash": "b7d603ec89db4495",
+  "source": "The preset adds no resource patterns. Set {0} in the config, or let x18n guess the locale directories. For example, x18n finds {1} without a config.",
+  "text": "此預設集不會新增資源模式。請在設定中指定 {0}，或讓 x18n 自動推測語系目錄。例如，x18n 在沒有設定的情況下也能找到 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集不會新增資源模式。請在設定中指定 {0}，或讓 x18n 自動推測語系目錄。例如，x18n 在沒有設定的情況下也能找到 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "cc851896808a0d70",
+  "source": "Detection reads the dependencies of the project's {0}, of the parent directories up to the git root, and of the workspace packages listed in {1} or the {2} field, so a monorepo that lists the i18n library in one app is detected from its root.",
+  "text": "偵測會讀取專案 {0} 中的相依套件，以及往上直到 git 根目錄的各層父目錄，還有 {1} 或 {2} 欄位中列出的工作區套件，因此即使 monorepo 只在其中一個應用程式中列出 i18n 函式庫，也能從根目錄偵測到。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "偵測會讀取專案 {0} 中的相依套件，以及往上直到 git 根目錄的各層父目錄，還有 {1} 或 {2} 欄位中列出的工作區套件，因此即使 monorepo 只在其中一個應用程式中列出 i18n 函式庫，也能從根目錄偵測到。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

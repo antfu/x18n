@@ -1,0 +1,14 @@
+{
+  "hash": "2322b161bcd2b85a",
+  "source": "Only values containing the query, instead of a fuzzy match",
+  "text": "퍼지 매칭 대신 쿼리를 포함하는 값만",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "퍼지 매칭 대신 쿼리를 포함하는 값만"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

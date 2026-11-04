@@ -1,0 +1,14 @@
+{
+  "hash": "d5478c54ee826eec",
+  "source": "Run only these check ids, for example {0}.",
+  "text": "指定したチェック ID のみを実行します。例: {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "指定したチェック ID のみを実行します。例: {0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

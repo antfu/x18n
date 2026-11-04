@@ -1,0 +1,14 @@
+{
+  "hash": "fdf083afa0c49521",
+  "source": "Report hard strings as {0} diagnostics.",
+  "text": "하드코딩된 문자열을 {0} 진단으로 보고합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하드코딩된 문자열을 {0} 진단으로 보고합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

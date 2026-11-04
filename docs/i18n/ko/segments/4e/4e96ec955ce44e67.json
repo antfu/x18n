@@ -1,0 +1,14 @@
+{
+  "hash": "4e96ec955ce44e67",
+  "source": "Did a file fail to parse?",
+  "text": "파일 파싱에 실패했나요?",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일 파싱에 실패했나요?"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

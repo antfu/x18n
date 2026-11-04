@@ -1,0 +1,14 @@
+{
+  "hash": "e0d3dd7bb4dcd4d1",
+  "source": "{0} in the config changes the severity of a single check, for example {1}.",
+  "text": "設定ファイルの {0} は、個々のチェックの重大度を変更します。例: {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定ファイルの {0} は、個々のチェックの重大度を変更します。例: {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

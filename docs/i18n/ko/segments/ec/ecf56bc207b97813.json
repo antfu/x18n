@@ -1,0 +1,14 @@
+{
+  "hash": "ecf56bc207b97813",
+  "source": "{0} needs a plan file written by {1}.",
+  "text": "{0}에는 {1}이(가) 작성한 계획 파일이 필요합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}에는 {1}이(가) 작성한 계획 파일이 필요합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

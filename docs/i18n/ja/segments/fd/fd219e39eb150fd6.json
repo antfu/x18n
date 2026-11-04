@@ -1,0 +1,14 @@
+{
+  "hash": "fd219e39eb150fd6",
+  "source": "Attribute names whose values are text, on top of those whose last word is {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7} and the like. Markup attributes outside this set are never extracted.",
+  "text": "値がテキストである属性名です。最後の単語が {0}、{1}、{2}、{3}、{4}、{5}、{6}、{7} などの属性に加えて指定します。このセット以外のマークアップ属性は抽出されません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "値がテキストである属性名です。最後の単語が {0}、{1}、{2}、{3}、{4}、{5}、{6}、{7} などの属性に加えて指定します。このセット以外のマークアップ属性は抽出されません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

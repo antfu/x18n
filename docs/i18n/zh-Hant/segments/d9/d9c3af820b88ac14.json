@@ -1,0 +1,14 @@
+{
+  "hash": "d9c3af820b88ac14",
+  "source": "Messages: the key, the source value, its placeholders, its description, its values in related locales, and the code around up to two usages. The code and the description help with short words such as \"Open\" or \"Save\", whose meaning depends on where they appear.",
+  "text": "訊息：鍵、來源值、其佔位符、說明、在相關語系中的值，以及最多兩處使用處周圍的程式碼。對於「Open」或「Save」這類簡短的字詞，其意義取決於出現的位置，程式碼與說明能幫助判斷。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "訊息：鍵、來源值、其佔位符、說明、在相關語系中的值，以及最多兩處使用處周圍的程式碼。對於「Open」或「Save」這類簡短的字詞，其意義取決於出現的位置，程式碼與說明能幫助判斷。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

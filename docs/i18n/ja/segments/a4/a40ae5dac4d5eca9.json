@@ -1,0 +1,14 @@
+{
+  "hash": "a40ae5dac4d5eca9",
+  "source": "{0} returns a {1} with the namespace of its second argument.",
+  "text": "{0} は、2 番目の引数の名前空間を持つ {1} を返します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、2 番目の引数の名前空間を持つ {1} を返します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

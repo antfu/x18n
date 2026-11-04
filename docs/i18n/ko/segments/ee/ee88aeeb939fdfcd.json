@@ -1,0 +1,14 @@
+{
+  "hash": "ee88aeeb939fdfcd",
+  "source": "Every command prints one document with the same envelope:",
+  "text": "모든 명령은 동일한 envelope를 가진 하나의 문서를 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 명령은 동일한 envelope를 가진 하나의 문서를 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

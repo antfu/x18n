@@ -1,0 +1,14 @@
+{
+  "hash": "2cb4efd1713a6464",
+  "source": "Paths are relative to the config file. Package names resolve from the directory of the config file.",
+  "text": "경로는 설정 파일을 기준으로 한 상대 경로입니다. 패키지 이름은 설정 파일이 있는 디렉터리에서 해석됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "경로는 설정 파일을 기준으로 한 상대 경로입니다. 패키지 이름은 설정 파일이 있는 디렉터리에서 해석됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

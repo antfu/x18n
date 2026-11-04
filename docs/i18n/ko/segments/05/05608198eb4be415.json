@@ -1,0 +1,14 @@
+{
+  "hash": "05608198eb4be415",
+  "source": "Which plugin set a config value?",
+  "text": "어떤 플러그인이 설정 값을 지정했나요?",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "어떤 플러그인이 설정 값을 지정했나요?"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

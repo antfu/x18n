@@ -1,0 +1,14 @@
+{
+  "hash": "9f8d134759f83ab1",
+  "source": "Change the severity, or turn the check off, in {0}:",
+  "text": "重大度を変更するか、このチェックを無効にするには、{0} で設定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "重大度を変更するか、このチェックを無効にするには、{0} で設定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

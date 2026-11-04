@@ -1,0 +1,14 @@
+{
+  "hash": "4cbb7a3663041e6a",
+  "source": "If your config has no {0}, the preset uses {1}. The locale can have a country, such as {2}. New files use nested keys.",
+  "text": "설정에 {0}이(가) 없으면 프리셋은 {1}을(를) 사용합니다. 로케일에는 {2}처럼 국가가 포함될 수 있습니다. 새 파일은 중첩된 키를 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에 {0}이(가) 없으면 프리셋은 {1}을(를) 사용합니다. 로케일에는 {2}처럼 국가가 포함될 수 있습니다. 새 파일은 중첩된 키를 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

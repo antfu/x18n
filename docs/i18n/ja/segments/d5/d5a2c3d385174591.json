@@ -1,0 +1,14 @@
+{
+  "hash": "d5a2c3d385174591",
+  "source": "Longest value shown in an annotation. Longer values are truncated, and in-place mode falls back to an after-key hint.",
+  "text": "注釈に表示する値の最大長です。これより長い値は切り詰められ、インプレースモードではキーの後ろに表示するヒントに切り替わります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "注釈に表示する値の最大長です。これより長い値は切り詰められ、インプレースモードではキーの後ろに表示するヒントに切り替わります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

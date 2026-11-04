@@ -1,0 +1,14 @@
+{
+  "hash": "6383141da973f0b2",
+  "source": "In code, {0} and {1}, and {2} on {3}, directly or through a variable:",
+  "text": "在程式碼中，可使用 {0} 和 {1}，以及 {3} 上的 {2}，可直接傳入或透過變數傳入：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在程式碼中，可使用 {0} 和 {1}，以及 {3} 上的 {2}，可直接傳入或透過變數傳入："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

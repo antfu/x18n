@@ -1,0 +1,14 @@
+{
+  "hash": "1f0424445bcd23c8",
+  "source": "The preset for @nuxtjs/i18n. It adds everything of vue-i18n, and finds the locale directory of the Nuxt config.",
+  "text": "@nuxtjs/i18n용 프리셋입니다. vue-i18n의 모든 기능을 추가하고 Nuxt 설정의 로케일 디렉터리를 찾습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@nuxtjs/i18n용 프리셋입니다. vue-i18n의 모든 기능을 추가하고 Nuxt 설정의 로케일 디렉터리를 찾습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

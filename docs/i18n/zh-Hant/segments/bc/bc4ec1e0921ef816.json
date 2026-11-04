@@ -1,0 +1,14 @@
+{
+  "hash": "bc4ec1e0921ef816",
+  "source": "Pass files or globs to limit the search: {0}. Files that users never see are never scanned: tests, fixtures, mocks, stories, configs and type declarations, by the conventions of common languages. For example {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, and directories such as {9}, {10}, {11}, {12}, {13} and {14}. Control comments, in any comment syntax, skip more:",
+  "text": "傳入檔案或 glob 可限制搜尋範圍：{0}。使用者看不到的檔案一律不會被掃描：依常見語言的慣例，包括測試、fixture、mock、stories、設定檔與型別宣告檔。例如 {1}、{2}、{3}、{4}、{5}、{6}、{7}、{8}，以及 {9}、{10}、{11}、{12}、{13} 和 {14} 等目錄。你也可以使用控制註解（任何註解語法皆可）來略過更多內容：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "傳入檔案或 glob 可限制搜尋範圍：{0}。使用者看不到的檔案一律不會被掃描：依常見語言的慣例，包括測試、fixture、mock、stories、設定檔與型別宣告檔。例如 {1}、{2}、{3}、{4}、{5}、{6}、{7}、{8}，以及 {9}、{10}、{11}、{12}、{13} 和 {14} 等目錄。你也可以使用控制註解（任何註解語法皆可）來略過更多內容："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0b67eb7817d4405b",
+  "source": "The preset for gettext in PHP. It reads .po catalogs and gettext, _ and __ calls. It applies only when you list it.",
+  "text": "適用於 PHP gettext 的預設集。它會讀取 .po 目錄，以及 gettext、_ 和 __ 呼叫。只有在你明確列出時才會套用。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用於 PHP gettext 的預設集。它會讀取 .po 目錄，以及 gettext、_ 和 __ 呼叫。只有在你明確列出時才會套用。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

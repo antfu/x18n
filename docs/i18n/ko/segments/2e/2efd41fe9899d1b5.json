@@ -1,0 +1,14 @@
+{
+  "hash": "2efd41fe9899d1b5",
+  "source": "Config file could not be loaded",
+  "text": "설정 파일을 불러올 수 없음",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정 파일을 불러올 수 없음"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

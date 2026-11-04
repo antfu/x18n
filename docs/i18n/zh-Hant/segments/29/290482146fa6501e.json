@@ -1,0 +1,14 @@
+{
+  "hash": "290482146fa6501e",
+  "source": "the {0} and {1} attributes",
+  "text": "{0} 和 {1} 屬性",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 和 {1} 屬性"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

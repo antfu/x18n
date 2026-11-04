@@ -1,0 +1,14 @@
+{
+  "hash": "20e88b64c923c417",
+  "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
+  "text": "包含摘要、各語系的涵蓋率表格，以及診斷表格。適用於 pull request 留言與工作摘要。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "包含摘要、各語系的涵蓋率表格，以及診斷表格。適用於 pull request 留言與工作摘要。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

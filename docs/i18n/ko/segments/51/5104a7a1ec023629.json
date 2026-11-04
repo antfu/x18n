@@ -1,0 +1,14 @@
+{
+  "hash": "5104a7a1ec023629",
+  "source": "The value of one key in one locale.",
+  "text": "하나의 로케일에서 하나의 키가 가지는 값입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하나의 로케일에서 하나의 키가 가지는 값입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

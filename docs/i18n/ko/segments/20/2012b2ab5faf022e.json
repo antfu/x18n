@@ -1,0 +1,14 @@
+{
+  "hash": "2012b2ab5faf022e",
+  "source": "review comment (fine in UI labels), note",
+  "text": "review comment (UI 레이블에서는 사용 가능), note",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "review comment (UI 레이블에서는 사용 가능), note"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

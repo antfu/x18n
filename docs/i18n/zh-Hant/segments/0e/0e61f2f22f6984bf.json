@@ -1,0 +1,14 @@
+{
+  "hash": "0e61f2f22f6984bf",
+  "source": "Renames a key in every locale and every usage in code. {0} keeps the code.",
+  "text": "在所有語系中重新命名鍵，並更新程式碼中的所有使用處。{0} 會保留程式碼不變。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在所有語系中重新命名鍵，並更新程式碼中的所有使用處。{0} 會保留程式碼不變。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

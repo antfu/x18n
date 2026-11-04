@@ -1,0 +1,14 @@
+{
+  "hash": "4d2ec4e655a1b10c",
+  "source": "The preset for i18nice and python-i18n. It reads {namespace}.{locale}.yml files with their top-level locale key, and i18n.t calls.",
+  "text": "i18nice と python-i18n 向けのプリセットです。トップレベルのロケールキーを持つ {namespace}.{locale}.yml ファイルと、i18n.t の呼び出しを読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18nice と python-i18n 向けのプリセットです。トップレベルのロケールキーを持つ {namespace}.{locale}.yml ファイルと、i18n.t の呼び出しを読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

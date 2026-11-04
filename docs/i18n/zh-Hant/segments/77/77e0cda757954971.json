@@ -1,0 +1,14 @@
+{
+  "hash": "77e0cda757954971",
+  "source": "Extracts every hard string of a file.",
+  "text": "擷取檔案中的所有硬編碼字串。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "擷取檔案中的所有硬編碼字串。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

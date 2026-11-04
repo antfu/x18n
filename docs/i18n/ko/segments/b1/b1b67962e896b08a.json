@@ -1,0 +1,14 @@
+{
+  "hash": "b1b67962e896b08a",
+  "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
+  "text": "코드에 작성된 기본값을 가져오는 위치입니다. 처음 발견된 문자열이 사용됩니다. 팩토리의 경우 반환되는 함수의 기본값입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코드에 작성된 기본값을 가져오는 위치입니다. 처음 발견된 문자열이 사용됩니다. 팩토리의 경우 반환되는 함수의 기본값입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

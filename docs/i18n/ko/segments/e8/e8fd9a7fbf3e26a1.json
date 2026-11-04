@@ -1,0 +1,14 @@
+{
+  "hash": "e8fd9a7fbf3e26a1",
+  "source": "The canonical id of a message: namespace plus path. String form {0}. With {1} the path is one literal segment ({2}).",
+  "text": "메시지의 정규 id로, 네임스페이스와 경로로 구성됩니다. 문자열 형식은 {0}입니다. {1}를 사용하면 경로는 하나의 리터럴 세그먼트({2})입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "메시지의 정규 id로, 네임스페이스와 경로로 구성됩니다. 문자열 형식은 {0}입니다. {1}를 사용하면 경로는 하나의 리터럴 세그먼트({2})입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

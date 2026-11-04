@@ -1,0 +1,14 @@
+{
+  "hash": "c8d561a90c001813",
+  "source": "Only keys missing or empty in a locale",
+  "text": "ロケールで欠落している、または空のキーのみ",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールで欠落している、または空のキーのみ"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

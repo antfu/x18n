@@ -1,0 +1,14 @@
+{
+  "hash": "3230c1363cb5a478",
+  "source": "Page size. Default 100.",
+  "text": "페이지 크기입니다. 기본값은 100입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "페이지 크기입니다. 기본값은 100입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

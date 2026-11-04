@@ -1,0 +1,14 @@
+{
+  "hash": "002d533b0f45132d",
+  "source": "Records that the translations of a key are up to date with the source value. {0} limits it.",
+  "text": "키의 번역이 원본 값을 기준으로 최신 상태임을 기록합니다. {0}로 범위를 제한할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키의 번역이 원본 값을 기준으로 최신 상태임을 기록합니다. {0}로 범위를 제한할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

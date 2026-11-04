@@ -1,0 +1,14 @@
+{
+  "hash": "507a89a39c99ca67",
+  "source": "This file has the keys {0}, {1} and {2}. When x18n writes a key, it writes it under the locale key of the file. A file without the locale key of its locale has no keys, so the preset does not support {3}.",
+  "text": "このファイルには、キー {0}、{1}、{2} があります。x18n がキーを書き込む場合は、ファイルのロケールキーの下に書き込みます。そのロケールのロケールキーがないファイルにはキーがないものとして扱われるため、プリセットは {3} をサポートしません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このファイルには、キー {0}、{1}、{2} があります。x18n がキーを書き込む場合は、ファイルのロケールキーの下に書き込みます。そのロケールのロケールキーがないファイルにはキーがないものとして扱われるため、プリセットは {3} をサポートしません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

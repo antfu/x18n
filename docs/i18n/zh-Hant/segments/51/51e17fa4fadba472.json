@@ -1,0 +1,14 @@
+{
+  "hash": "51e17fa4fadba472",
+  "source": "A message with an empty string value.",
+  "text": "值為空字串的訊息。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "值為空字串的訊息。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

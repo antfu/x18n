@@ -1,0 +1,14 @@
+{
+  "hash": "c686a40da49280a8",
+  "source": "Sets many values from JSON: {0}. {1} reads stdin.",
+  "text": "JSON から複数の値を設定します: {0}。{1} は stdin から読み込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON から複数の値を設定します: {0}。{1} は stdin から読み込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

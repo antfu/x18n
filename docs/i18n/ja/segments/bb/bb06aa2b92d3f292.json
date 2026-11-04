@@ -1,0 +1,14 @@
+{
+  "hash": "bb06aa2b92d3f292",
+  "source": "The proposed value, required for {0}.",
+  "text": "提案する値。{0} の場合は必須です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "提案する値。{0} の場合は必須です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

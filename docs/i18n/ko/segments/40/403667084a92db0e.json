@@ -1,0 +1,14 @@
+{
+  "hash": "403667084a92db0e",
+  "source": "Regex scanners for files that no AST scanner reads, such as PHP or Ruby templates.",
+  "text": "PHP나 Ruby 템플릿처럼 AST 스캐너가 읽지 않는 파일을 위한 정규식 스캐너입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP나 Ruby 템플릿처럼 AST 스캐너가 읽지 않는 파일을 위한 정규식 스캐너입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

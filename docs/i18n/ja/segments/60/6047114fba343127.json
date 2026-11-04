@@ -1,0 +1,14 @@
+{
+  "hash": "6047114fba343127",
+  "source": "The locale code, as written in the path: {0}, {1}, {2}.",
+  "text": "パスに記述されたとおりのロケールコード（{0}、{1}、{2} など）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "パスに記述されたとおりのロケールコード（{0}、{1}、{2} など）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

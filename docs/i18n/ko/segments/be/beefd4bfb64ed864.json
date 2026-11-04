@@ -1,0 +1,14 @@
+{
+  "hash": "beefd4bfb64ed864",
+  "source": "In components and layouts, a key is always a global key. x18n does not know on which pages a component shows.",
+  "text": "컴포넌트와 레이아웃에서 키는 항상 전역 키입니다. x18n은 컴포넌트가 어느 페이지에 표시되는지 알 수 없습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "컴포넌트와 레이아웃에서 키는 항상 전역 키입니다. x18n은 컴포넌트가 어느 페이지에 표시되는지 알 수 없습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

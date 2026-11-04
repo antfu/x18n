@@ -1,0 +1,14 @@
+{
+  "hash": "23dec3e80a0b935b",
+  "source": "An {0}, as in {1}, {2}, {3} and {4}:",
+  "text": "一個 {0}，如 {1}、{2}、{3} 和 {4}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一個 {0}，如 {1}、{2}、{3} 和 {4}："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

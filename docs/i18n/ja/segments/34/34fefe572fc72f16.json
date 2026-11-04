@@ -1,0 +1,14 @@
+{
+  "hash": "34fefe572fc72f16",
+  "source": "The {0}glossary{/0} lists every name in one table.",
+  "text": "すべての名前を一つの表にまとめたものは{0}用語集{/0}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "すべての名前を一つの表にまとめたものは{0}用語集{/0}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

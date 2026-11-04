@@ -1,0 +1,14 @@
+{
+  "hash": "f11468d78794dfb8",
+  "source": "Pass a function to {0} to take options. The function returns the plugin:",
+  "text": "オプションを受け取るには、{0} に関数を渡します。この関数はプラグインを返します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "オプションを受け取るには、{0} に関数を渡します。この関数はプラグインを返します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

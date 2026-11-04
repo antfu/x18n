@@ -1,0 +1,14 @@
+{
+  "hash": "4aa9c1dfe235931b",
+  "source": "The preset adds a locale finder for the two file layouts of VS Code:",
+  "text": "此預設集針對 VS Code 的兩種檔案配置新增了語系尋找器：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集針對 VS Code 的兩種檔案配置新增了語系尋找器："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

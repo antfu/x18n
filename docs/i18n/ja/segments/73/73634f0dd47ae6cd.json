@@ -1,0 +1,14 @@
+{
+  "hash": "73634f0dd47ae6cd",
+  "source": "x18n follows this for page components. In {0}, {1} is {2} when {3} has {4}. Otherwise it is the global key {5}. The route name comes from the file path, as in Nuxt: {6} is {7}, {8} is {9}, and the route group in {10} is left out, so the route is {11}. Page components are the {12} files in {13} or {14} at the project root.",
+  "text": "x18n はページコンポーネントに対してこの動作に従います。{0} では、{3} に {4} がある場合、{1} は {2} になります。ない場合は、グローバルキー {5} になります。ルート名は Nuxt と同様にファイルパスから決まります。{6} は {7}、{8} は {9} になり、{10} のルートグループは除外されるため、ルートは {11} になります。ページコンポーネントは、プロジェクトルートの {13} または {14} にある {12} ファイルです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n はページコンポーネントに対してこの動作に従います。{0} では、{3} に {4} がある場合、{1} は {2} になります。ない場合は、グローバルキー {5} になります。ルート名は Nuxt と同様にファイルパスから決まります。{6} は {7}、{8} は {9} になり、{10} のルートグループは除外されるため、ルートは {11} になります。ページコンポーネントは、プロジェクトルートの {13} または {14} にある {12} ファイルです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "20cf331d6fee5e99",
+  "source": "A plugin can add rules and notes with the {0} hook. See {1}Capabilities{/1}.",
+  "text": "プラグインは {0} フックでルールとメモを追加できます。{1}Capabilities{/1}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインは {0} フックでルールとメモを追加できます。{1}Capabilities{/1}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

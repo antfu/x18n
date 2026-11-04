@@ -1,0 +1,14 @@
+{
+  "hash": "93b809aafad87cdf",
+  "source": "short all-caps words of up to five letters ({0}, {1}),",
+  "text": "5 文字以下の短い全大文字の単語（{0}、{1}）、",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "5 文字以下の短い全大文字の単語（{0}、{1}）、"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

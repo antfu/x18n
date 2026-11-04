@@ -1,0 +1,14 @@
+{
+  "hash": "08b84dc592b19d42",
+  "source": "Print them as prompts",
+  "text": "以提示詞輸出",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以提示詞輸出"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

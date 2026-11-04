@@ -1,0 +1,14 @@
+{
+  "hash": "2c39c6630bb212c0",
+  "source": "The translate prompt tells the agent the plural categories of the target locale, for example \"i18next plural keys end in \\_one,\\_other for de; write one key per category.\"",
+  "text": "번역 프롬프트는 에이전트에게 대상 로케일의 복수형 범주를 알려 줍니다. 예: \"i18next plural keys end in \\_one,\\_other for de; write one key per category.\"",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "번역 프롬프트는 에이전트에게 대상 로케일의 복수형 범주를 알려 줍니다. 예: \"i18next plural keys end in \\_one,\\_other for de; write one key per category.\""
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "29f1f21e1f0aaba1",
+  "source": "With {0}, every key is literal: {1}, {2} and {3} are each one key, a new key is one property of the file, and no key is the parent of another. A resource pattern can set its own {4}, for example {5} on {6} while PHP files keep {7}. The {8}, {9}, {10} and {11} presets set literal keys where their libraries use them.",
+  "text": "{0}을(를) 사용하면 모든 키가 리터럴입니다. {1}, {2}, {3}은(는) 각각 하나의 키이고, 새 키는 파일의 속성 하나가 되며, 어떤 키도 다른 키의 부모가 아닙니다. 리소스 패턴은 자체 {4}을(를) 설정할 수 있습니다. 예를 들어 {6}에는 {5}을(를) 설정하고 PHP 파일에는 {7}을(를) 유지할 수 있습니다. {8}, {9}, {10}, {11} 프리셋은 해당 라이브러리가 리터럴 키를 사용하는 경우 리터럴 키를 설정합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}을(를) 사용하면 모든 키가 리터럴입니다. {1}, {2}, {3}은(는) 각각 하나의 키이고, 새 키는 파일의 속성 하나가 되며, 어떤 키도 다른 키의 부모가 아닙니다. 리소스 패턴은 자체 {4}을(를) 설정할 수 있습니다. 예를 들어 {6}에는 {5}을(를) 설정하고 PHP 파일에는 {7}을(를) 유지할 수 있습니다. {8}, {9}, {10}, {11} 프리셋은 해당 라이브러리가 리터럴 키를 사용하는 경우 리터럴 키를 설정합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

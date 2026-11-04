@@ -1,0 +1,14 @@
+{
+  "hash": "433059e970b85ef3",
+  "source": "Tell the agent to run the command and follow what it prints. For example: \"Run {0} and follow the instructions it prints.\" The text always matches the version of the CLI that runs.",
+  "text": "エージェントに、コマンドを実行して出力された内容に従うように伝えてください。例: 「{0} を実行して、出力される指示に従ってください。」このテキストは、実行している CLI のバージョンと常に一致します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "エージェントに、コマンドを実行して出力された内容に従うように伝えてください。例: 「{0} を実行して、出力される指示に従ってください。」このテキストは、実行している CLI のバージョンと常に一致します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

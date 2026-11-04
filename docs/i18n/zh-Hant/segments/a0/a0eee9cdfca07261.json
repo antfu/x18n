@@ -1,0 +1,14 @@
+{
+  "hash": "a0eee9cdfca07261",
+  "source": "Keys found by their value in any locale, best match first, with their usages. {0} turns off fuzzy matching.",
+  "text": "依任一語系中的值找出的鍵，最相符者排在最前，並附上其使用處。{0} 會關閉模糊比對。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "依任一語系中的值找出的鍵，最相符者排在最前，並附上其使用處。{0} 會關閉模糊比對。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

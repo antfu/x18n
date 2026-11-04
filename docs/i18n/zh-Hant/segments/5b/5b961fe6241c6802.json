@@ -1,0 +1,14 @@
+{
+  "hash": "5b961fe6241c6802",
+  "source": "In Astro components, such as with astro-i18next, the preset reads the calls in the {0} frontmatter, in {1} and in {2} template expressions.",
+  "text": "在 Astro 元件中（例如搭配 astro-i18next），此預設集會讀取 {0} frontmatter、{1} 以及 {2} 範本運算式中的呼叫。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 Astro 元件中（例如搭配 astro-i18next），此預設集會讀取 {0} frontmatter、{1} 以及 {2} 範本運算式中的呼叫。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

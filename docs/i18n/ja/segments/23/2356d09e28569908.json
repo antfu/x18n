@@ -1,0 +1,14 @@
+{
+  "hash": "2356d09e28569908",
+  "source": "the migration writes:",
+  "text": "移行により次の内容が書き込まれます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "移行により次の内容が書き込まれます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

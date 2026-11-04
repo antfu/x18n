@@ -1,0 +1,14 @@
+{
+  "hash": "f17f56ddcb1a6bd3",
+  "source": "The preset also reads {0} blocks in {1} files. A block can hold one locale, or every locale:",
+  "text": "이 프리셋은 {1} 파일의 {0} 블록도 읽습니다. 블록은 하나의 로케일 또는 모든 로케일을 담을 수 있습니다:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {1} 파일의 {0} 블록도 읽습니다. 블록은 하나의 로케일 또는 모든 로케일을 담을 수 있습니다:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

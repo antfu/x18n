@@ -1,0 +1,14 @@
+{
+  "hash": "2bfeae3e1669ab3a",
+  "source": "x18n has no resource where it can write the key in this locale.",
+  "text": "x18n 找不到可以寫入此語系中該鍵的資源。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 找不到可以寫入此語系中該鍵的資源。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

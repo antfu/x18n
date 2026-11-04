@@ -1,0 +1,14 @@
+{
+  "hash": "c3e7854d662f8bb8",
+  "source": "The {0} preset supports {1}Polyglot.js{/1} by Airbnb.",
+  "text": "{0} プリセットは、Airbnb の {1}Polyglot.js{/1} をサポートします。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、Airbnb の {1}Polyglot.js{/1} をサポートします。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

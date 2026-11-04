@@ -1,0 +1,14 @@
+{
+  "hash": "06bee65c84e6cabc",
+  "source": "Only unresolved comments, and only threads that have some.",
+  "text": "未解決のコメントのみ。未解決のコメントがあるスレッドだけが対象です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "未解決のコメントのみ。未解決のコメントがあるスレッドだけが対象です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d66eb187e2fab855",
+  "source": "A usage is one place in source code that uses a key. In the example, {0} is a usage of {1}. A scanner finds usages. The built-in scanners read JS, TS, JSX, Vue, Svelte and Astro files. For other file types, such as PHP templates, add a regex scanner in {2}.",
+  "text": "사용처는 소스 코드에서 키를 사용하는 한 곳을 말합니다. 예제에서 {0}는 {1}의 사용처입니다. 스캐너가 사용처를 찾습니다. 기본 제공 스캐너는 JS, TS, JSX, Vue, Svelte, Astro 파일을 읽습니다. PHP 템플릿 같은 다른 파일 형식에는 {2}에 정규식 스캐너를 추가하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사용처는 소스 코드에서 키를 사용하는 한 곳을 말합니다. 예제에서 {0}는 {1}의 사용처입니다. 스캐너가 사용처를 찾습니다. 기본 제공 스캐너는 JS, TS, JSX, Vue, Svelte, Astro 파일을 읽습니다. PHP 템플릿 같은 다른 파일 형식에는 {2}에 정규식 스캐너를 추가하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

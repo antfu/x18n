@@ -1,0 +1,14 @@
+{
+  "hash": "43f1c263a752e9d6",
+  "source": "x18n reads a locale file without running it. The file must hold one static object, as the typesafe-i18n generator writes it:",
+  "text": "x18n はロケールファイルを実行せずに読み取ります。ファイルには、typesafe-i18n ジェネレーターが書き出す形式の、静的なオブジェクトを 1 つだけ記述してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n はロケールファイルを実行せずに読み取ります。ファイルには、typesafe-i18n ジェネレーターが書き出す形式の、静的なオブジェクトを 1 つだけ記述してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

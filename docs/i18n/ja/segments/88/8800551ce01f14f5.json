@@ -1,0 +1,14 @@
+{
+  "hash": "8800551ce01f14f5",
+  "source": "The provider of a module reaches the components the file names, and a route's reaches the components named or lazy-loaded under it, through {0} too, and their children.",
+  "text": "モジュールのプロバイダーは、ファイルに記載されたコンポーネントに適用されます。ルートのプロバイダーは、その配下で指定または遅延ロードされるコンポーネントに、{0} 経由の場合も含めて適用され、その子コンポーネントにも適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "モジュールのプロバイダーは、ファイルに記載されたコンポーネントに適用されます。ルートのプロバイダーは、その配下で指定または遅延ロードされるコンポーネントに、{0} 経由の場合も含めて適用され、その子コンポーネントにも適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

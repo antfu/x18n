@@ -1,0 +1,14 @@
+{
+  "hash": "85c27ba09cd5f154",
+  "source": "Plan is stale. Files changed since the plan was made. Plan again.",
+  "text": "計畫已過期。自建立計畫後，檔案已有變更。請重新規劃。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "計畫已過期。自建立計畫後，檔案已有變更。請重新規劃。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

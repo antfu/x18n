@@ -1,0 +1,14 @@
+{
+  "hash": "6d9857e6e12239d3",
+  "source": "The preset reads {0} in the project root:",
+  "text": "이 프리셋은 프로젝트 루트의 {0}을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 프로젝트 루트의 {0}을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

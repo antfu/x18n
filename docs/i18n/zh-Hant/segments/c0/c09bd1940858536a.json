@@ -1,0 +1,14 @@
+{
+  "hash": "c09bd1940858536a",
+  "source": "This command writes the markdown report to {0} and prints the pretty output. See {1}CI{/1} for workflow examples.",
+  "text": "此命令會將 markdown 報告寫入 {0}，並印出 pretty 輸出。工作流程範例請參閱{1}CI{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此命令會將 markdown 報告寫入 {0}，並印出 pretty 輸出。工作流程範例請參閱{1}CI{/1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

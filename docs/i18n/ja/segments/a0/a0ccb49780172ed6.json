@@ -1,0 +1,14 @@
+{
+  "hash": "a0ccb49780172ed6",
+  "source": "{0} next to {1} in {2}, {3}, {4} and {5}",
+  "text": "{2}、{3}、{4}、{5} 内の {1} の隣にある {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{2}、{3}、{4}、{5} 内の {1} の隣にある {0}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

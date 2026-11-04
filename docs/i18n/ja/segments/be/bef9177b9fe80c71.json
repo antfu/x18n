@@ -1,0 +1,14 @@
+{
+  "hash": "bef9177b9fe80c71",
+  "source": "The locale that is the source of truth for checks, prompts and go to definition.",
+  "text": "チェック、プロンプト、定義へ移動の基準となるロケールです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "チェック、プロンプト、定義へ移動の基準となるロケールです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

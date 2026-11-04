@@ -1,0 +1,14 @@
+{
+  "hash": "d6fc34c9c40966e1",
+  "source": "See the item fields of {0}. For a library that x18n does not support, a {1}YAML plugin{/1} can hold the calls, placeholders and templates in one file.",
+  "text": "請參閱 {0} 的項目欄位。對於 x18n 不支援的函式庫，可以用 {1}YAML 外掛{/1}將呼叫、佔位符和範本放在同一個檔案中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "請參閱 {0} 的項目欄位。對於 x18n 不支援的函式庫，可以用 {1}YAML 外掛{/1}將呼叫、佔位符和範本放在同一個檔案中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

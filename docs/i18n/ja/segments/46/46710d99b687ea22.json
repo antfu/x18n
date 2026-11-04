@@ -1,0 +1,14 @@
+{
+  "hash": "46710d99b687ea22",
+  "source": "The skills are in {0} after you install {1}. Agents do not read {2}, so link the skills into the directory that your agent reads. {3}skills-npm{/3} does this for every package that ships skills:",
+  "text": "{1} をインストールすると、スキルは {0} に配置されます。エージェントは {2} を読まないため、エージェントが読み込むディレクトリにスキルをリンクしてください。{3}skills-npm{/3} は、スキルを同梱しているすべてのパッケージに対してこの作業を行います。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1} をインストールすると、スキルは {0} に配置されます。エージェントは {2} を読まないため、エージェントが読み込むディレクトリにスキルをリンクしてください。{3}skills-npm{/3} は、スキルを同梱しているすべてのパッケージに対してこの作業を行います。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

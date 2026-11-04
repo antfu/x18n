@@ -1,0 +1,14 @@
+{
+  "hash": "590a1f81f5edf500",
+  "source": "Replace an existing config",
+  "text": "既存の設定ファイルを置き換えます",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "既存の設定ファイルを置き換えます"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

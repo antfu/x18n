@@ -1,0 +1,14 @@
+{
+  "hash": "45bed11797b7a050",
+  "source": "The usages of a key, or every usage. {0} filters by file.",
+  "text": "한 키의 사용처 또는 모든 사용처를 표시합니다. {0}는 파일로 필터링합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "한 키의 사용처 또는 모든 사용처를 표시합니다. {0}는 파일로 필터링합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

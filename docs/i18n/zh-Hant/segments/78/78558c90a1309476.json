@@ -1,0 +1,14 @@
+{
+  "hash": "78558c90a1309476",
+  "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
+  "text": "範圍是指具有預設命名空間或鍵前綴的一段程式碼區域。在 react-i18next 中，{0} 會讓使用該 {3} 的程式碼中的 {1} 代表 {2}。在 next-intl 中，{4} 會讓 {5} 代表 {6}。預設集認得這些工廠函式。YAML 外掛可以透過正規表示式新增範圍。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "範圍是指具有預設命名空間或鍵前綴的一段程式碼區域。在 react-i18next 中，{0} 會讓使用該 {3} 的程式碼中的 {1} 代表 {2}。在 next-intl 中，{4} 會讓 {5} 代表 {6}。預設集認得這些工廠函式。YAML 外掛可以透過正規表示式新增範圍。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

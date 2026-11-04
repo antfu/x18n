@@ -1,0 +1,14 @@
+{
+  "hash": "d73a0f6de7dceb1a",
+  "source": "The command prints the TypeScript version of a YAML plugin, written with {0} and {1} and the same built-in functions that load the YAML file. Save the output to a {2} file, and list that file in {3} instead of the YAML file. Then extend it with any part of the plugin API.",
+  "text": "このコマンドは、YAML プラグインの TypeScript 版を出力します。出力は {0}、{1}、および YAML ファイルを読み込むのと同じ組み込み関数を使って書かれています。出力を {2} ファイルに保存し、YAML ファイルの代わりにそのファイルを {3} に記載してください。その後は、プラグイン API の任意の部分で拡張できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このコマンドは、YAML プラグインの TypeScript 版を出力します。出力は {0}、{1}、および YAML ファイルを読み込むのと同じ組み込み関数を使って書かれています。出力を {2} ファイルに保存し、YAML ファイルの代わりにそのファイルを {3} に記載してください。その後は、プラグイン API の任意の部分で拡張できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

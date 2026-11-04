@@ -1,0 +1,14 @@
+{
+  "hash": "681174df236cedbc",
+  "source": "With the default {0}, a file starts with the locale code as its top-level key. The preset reads the messages under that key, in YAML and JSON files whose name ends with {1}, {2} or {3}:",
+  "text": "기본 {0}에서는 파일이 로케일 코드를 최상위 키로 하여 시작합니다. 프리셋은 이름이 {1}, {2} 또는 {3}로 끝나는 YAML 및 JSON 파일에서 해당 키 아래의 메시지를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "기본 {0}에서는 파일이 로케일 코드를 최상위 키로 하여 시작합니다. 프리셋은 이름이 {1}, {2} 또는 {3}로 끝나는 YAML 및 JSON 파일에서 해당 키 아래의 메시지를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

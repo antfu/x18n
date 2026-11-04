@@ -1,0 +1,14 @@
+{
+  "hash": "b28d4ce276532108",
+  "source": "The CLI with {0}. Every command prints the {1}JSON contract{/1}.",
+  "text": "{0} を付けた CLI。すべてのコマンドが{1}JSON コントラクト{/1}を出力します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を付けた CLI。すべてのコマンドが{1}JSON コントラクト{/1}を出力します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

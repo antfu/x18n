@@ -1,0 +1,14 @@
+{
+  "hash": "d8149cfa0046e38e",
+  "source": "In HTML templates, the preset reads the {0} pipe, the {1} attribute directive, and {2} calls. The {3} option of the structural directive {4}, or {5} as it was called before, is a key prefix, and so is {6} on {7}. It applies to the {8} calls inside that element, and the nearest one wins:",
+  "text": "HTML テンプレートでは、プリセットは {0} パイプ、{1} 属性ディレクティブ、および {2} の呼び出しを読み取ります。構造ディレクティブ {4}（以前の名称は {5}）の {3} オプションはキープレフィックスであり、{7} の {6} も同様です。このプレフィックスはその要素内の {8} の呼び出しに適用され、最も近いものが優先されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "HTML テンプレートでは、プリセットは {0} パイプ、{1} 属性ディレクティブ、および {2} の呼び出しを読み取ります。構造ディレクティブ {4}（以前の名称は {5}）の {3} オプションはキープレフィックスであり、{7} の {6} も同様です。このプレフィックスはその要素内の {8} の呼び出しに適用され、最も近いものが優先されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

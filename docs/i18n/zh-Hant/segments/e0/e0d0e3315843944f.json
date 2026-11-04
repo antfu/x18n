@@ -1,0 +1,14 @@
+{
+  "hash": "e0d0e3315843944f",
+  "source": "Glossary: the entries of the {0} config, with their translation in the target locale.",
+  "text": "詞彙表：{0} 設定中的項目，以及它們在目標語系中的翻譯。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "詞彙表：{0} 設定中的項目，以及它們在目標語系中的翻譯。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

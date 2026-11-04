@@ -1,0 +1,14 @@
+{
+  "hash": "ab817692bb70b8df",
+  "source": "With another separator, the project is namespaced. Keys then have the form {0}, for example {1}. i18next works this way, with {2} as the separator and {3} as the default namespace.",
+  "text": "구분자가 다르면 프로젝트는 네임스페이스를 사용합니다. 이 경우 키는 {0} 형식이며, 예를 들면 {1}입니다. i18next가 이 방식으로 동작하며, 구분자는 {2}, 기본 네임스페이스는 {3}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "구분자가 다르면 프로젝트는 네임스페이스를 사용합니다. 이 경우 키는 {0} 형식이며, 예를 들면 {1}입니다. i18next가 이 방식으로 동작하며, 구분자는 {2}, 기본 네임스페이스는 {3}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

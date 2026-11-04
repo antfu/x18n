@@ -1,0 +1,14 @@
+{
+  "hash": "731b4d56f95bd1f0",
+  "source": "The key is the whole string, so a key can be the source text: {0}.",
+  "text": "키는 문자열 전체이므로 키가 소스 텍스트일 수 있습니다: {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키는 문자열 전체이므로 키가 소스 텍스트일 수 있습니다: {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

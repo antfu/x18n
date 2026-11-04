@@ -1,0 +1,14 @@
+{
+  "hash": "55677ca50ccd9042",
+  "source": "Hard strings with a proposed key, message and replacement each.",
+  "text": "ハードコードされた文字列を、提案されたキー、メッセージ、置換内容とともに返します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ハードコードされた文字列を、提案されたキー、メッセージ、置換内容とともに返します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

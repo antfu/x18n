@@ -1,0 +1,14 @@
+{
+  "hash": "a4006c58d8d7c7f3",
+  "source": "A loader that computes its messages (for example with {0}) is not static. x18n reports it as {1}.",
+  "text": "메시지를 계산하는 로더(예: {0} 사용)는 정적이지 않습니다. x18n은 이를 {1}로 보고합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "메시지를 계산하는 로더(예: {0} 사용)는 정적이지 않습니다. x18n은 이를 {1}로 보고합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

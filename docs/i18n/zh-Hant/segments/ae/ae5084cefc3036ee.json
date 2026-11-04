@@ -1,0 +1,14 @@
+{
+  "hash": "ae5084cefc3036ee",
+  "source": "Describe a library in a *.x18n-plugin.yml file - resources, translate calls, regex scanners, scopes, placeholders and templates.",
+  "text": "在 *.x18n-plugin.yml 檔案中描述一個函式庫：資源、translate 呼叫、regex 掃描器、作用域、佔位符與範本。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 *.x18n-plugin.yml 檔案中描述一個函式庫：資源、translate 呼叫、regex 掃描器、作用域、佔位符與範本。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

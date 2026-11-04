@@ -1,0 +1,14 @@
+{
+  "hash": "8c817cb95a5984ed",
+  "source": "The command never deletes i18n-ally files or settings. At the end, it lists the i18n-ally settings that you can remove. If an {0} file exists, the command stops. Pass {1} to replace it.",
+  "text": "이 명령은 i18n-ally 파일이나 설정을 삭제하지 않습니다. 마지막에 제거할 수 있는 i18n-ally 설정을 나열합니다. {0} 파일이 이미 있으면 명령이 중단됩니다. 파일을 교체하려면 {1}을(를) 전달하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 명령은 i18n-ally 파일이나 설정을 삭제하지 않습니다. 마지막에 제거할 수 있는 i18n-ally 설정을 나열합니다. {0} 파일이 이미 있으면 명령이 중단됩니다. 파일을 교체하려면 {1}을(를) 전달하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

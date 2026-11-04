@@ -1,0 +1,14 @@
+{
+  "hash": "e10ea7c7d4951603",
+  "source": "Key glob: {0} inside a segment, {1} across segments.",
+  "text": "키 glob입니다. 세그먼트 내에서는 {0}, 세그먼트 간에는 {1}를 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키 glob입니다. 세그먼트 내에서는 {0}, 세그먼트 간에는 {1}를 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

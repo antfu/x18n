@@ -1,0 +1,14 @@
+{
+  "hash": "46d53bef39f8b547",
+  "source": "A named value a translate call passes to its message ({0} in {1}), which a placeholder reads.",
+  "text": "번역 호출이 메시지({0}, {1} 안)에 전달하는 이름 있는 값으로, 플레이스홀더가 이를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "번역 호출이 메시지({0}, {1} 안)에 전달하는 이름 있는 값으로, 플레이스홀더가 이를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "725b424f8ec40fe2",
+  "source": "{0} lists placeholder shapes. Each shape holds the word {1} where the placeholder name goes: {2}, {3}, {4} or {5}.",
+  "text": "{0}은(는) 플레이스홀더의 형태를 나열합니다. 각 형태에서 플레이스홀더 이름이 들어갈 자리에 단어 {1}이(가) 들어갑니다: {2}, {3}, {4} 또는 {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 플레이스홀더의 형태를 나열합니다. 각 형태에서 플레이스홀더 이름이 들어갈 자리에 단어 {1}이(가) 들어갑니다: {2}, {3}, {4} 또는 {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

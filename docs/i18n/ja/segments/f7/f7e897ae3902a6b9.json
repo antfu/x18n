@@ -1,0 +1,14 @@
+{
+  "hash": "f7e897ae3902a6b9",
+  "source": "The check has the severity {0}, but it runs only when the config turns it on.",
+  "text": "このチェックの重大度は {0} ですが、設定で有効にした場合にのみ実行されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックの重大度は {0} ですが、設定で有効にした場合にのみ実行されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

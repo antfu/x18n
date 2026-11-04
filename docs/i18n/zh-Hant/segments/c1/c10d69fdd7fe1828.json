@@ -1,0 +1,14 @@
+{
+  "hash": "c10d69fdd7fe1828",
+  "source": "The client passes these fields in {0}. Each one is optional.",
+  "text": "用戶端在 {0} 中傳入這些欄位。每個欄位皆為選填。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "用戶端在 {0} 中傳入這些欄位。每個欄位皆為選填。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

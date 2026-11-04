@@ -1,0 +1,14 @@
+{
+  "hash": "0a4307f2100f580f",
+  "source": "A string in {0} is not the name of a built-in preset, and x18n has no plugin loader in this runtime.",
+  "text": "{0}의 문자열이 기본 제공 프리셋의 이름이 아니며, 이 런타임에는 x18n의 플러그인 로더가 없습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}의 문자열이 기본 제공 프리셋의 이름이 아니며, 이 런타임에는 x18n의 플러그인 로더가 없습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

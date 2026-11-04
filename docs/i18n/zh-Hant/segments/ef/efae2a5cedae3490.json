@@ -1,0 +1,14 @@
+{
+  "hash": "efae2a5cedae3490",
+  "source": "Extract hard-coded strings",
+  "text": "擷取硬編碼字串",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "擷取硬編碼字串"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

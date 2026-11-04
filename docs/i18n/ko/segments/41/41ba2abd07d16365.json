@@ -1,0 +1,14 @@
+{
+  "hash": "41ba2abd07d16365",
+  "source": "x18n counts only calls that it knows as translate calls. It follows string constants ({0}, then {1}) and both branches of a condition ({2}). The callee set of a file is the set of names that count: the names of the presets and of {3}, same-file aliases such as {4}, functions returned by factories such as {5}, and parameters typed as translate functions.",
+  "text": "x18n은 번역 호출로 인식하는 호출만 계산합니다. 문자열 상수({0}, 그다음 {1})와 조건식의 두 분기({2})를 따라갑니다. 파일의 호출 대상 집합은 인정되는 이름의 집합으로, 프리셋과 {3}의 이름, {4}처럼 같은 파일 안의 별칭, {5}처럼 팩토리가 반환하는 함수, 번역 함수로 타입이 지정된 매개변수로 구성됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 번역 호출로 인식하는 호출만 계산합니다. 문자열 상수({0}, 그다음 {1})와 조건식의 두 분기({2})를 따라갑니다. 파일의 호출 대상 집합은 인정되는 이름의 집합으로, 프리셋과 {3}의 이름, {4}처럼 같은 파일 안의 별칭, {5}처럼 팩토리가 반환하는 함수, 번역 함수로 타입이 지정된 매개변수로 구성됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

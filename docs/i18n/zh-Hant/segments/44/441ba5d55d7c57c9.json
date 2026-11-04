@@ -1,0 +1,14 @@
+{
+  "hash": "441ba5d55d7c57c9",
+  "source": "Indent of written files: a number of spaces, or {0}. Without it, each file keeps its own indent.",
+  "text": "寫入檔案的縮排：空格數，或 {0}。若未設定，每個檔案會保留各自的縮排。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "寫入檔案的縮排：空格數，或 {0}。若未設定，每個檔案會保留各自的縮排。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

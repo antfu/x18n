@@ -1,0 +1,14 @@
+{
+  "hash": "8cd4dd6643d80b65",
+  "source": "{0} shows where x18n found a key and its usages. If a usage is missing, the scanner does not know the callee. Add it to {1} or to the plugin.",
+  "text": "{0} 會顯示 x18n 在哪裡找到某個鍵及其使用處。如果缺少某個使用處，代表 scanner 不認得該被呼叫的函式。請將它加入 {1} 或外掛中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會顯示 x18n 在哪裡找到某個鍵及其使用處。如果缺少某個使用處，代表 scanner 不認得該被呼叫的函式。請將它加入 {1} 或外掛中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

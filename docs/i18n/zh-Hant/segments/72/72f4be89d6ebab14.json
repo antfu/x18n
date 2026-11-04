@@ -1,0 +1,14 @@
+{
+  "hash": "72f4be89d6ebab14",
+  "source": "doctor",
+  "text": "doctor",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "doctor"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

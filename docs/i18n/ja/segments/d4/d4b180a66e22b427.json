@@ -1,0 +1,14 @@
+{
+  "hash": "d4b180a66e22b427",
+  "source": "The preset sets {0} to {1}, so {2} uses the text itself as the key. Set {3} in the config to change it.",
+  "text": "プリセットは {0} を {1} に設定するため、{2} はテキスト自体をキーとして使用します。変更するには、設定で {3} を指定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プリセットは {0} を {1} に設定するため、{2} はテキスト自体をキーとして使用します。変更するには、設定で {3} を指定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

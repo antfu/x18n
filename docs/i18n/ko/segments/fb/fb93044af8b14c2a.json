@@ -1,0 +1,14 @@
+{
+  "hash": "fb93044af8b14c2a",
+  "source": "The finder looks for these names in any directory, except {0}.",
+  "text": "파인더는 {0}를 제외한 모든 디렉터리에서 이 이름들을 찾습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파인더는 {0}를 제외한 모든 디렉터리에서 이 이름들을 찾습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

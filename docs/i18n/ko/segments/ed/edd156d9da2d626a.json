@@ -1,0 +1,14 @@
+{
+  "hash": "edd156d9da2d626a",
+  "source": "A name or member path, or a list of them: {0}, {1}, {2}.",
+  "text": "이름 또는 멤버 경로, 또는 그 목록입니다: {0}, {1}, {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이름 또는 멤버 경로, 또는 그 목록입니다: {0}, {1}, {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

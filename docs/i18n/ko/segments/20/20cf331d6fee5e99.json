@@ -1,0 +1,14 @@
+{
+  "hash": "20cf331d6fee5e99",
+  "source": "A plugin can add rules and notes with the {0} hook. See {1}Capabilities{/1}.",
+  "text": "플러그인은 {0} 훅으로 규칙과 노트를 추가할 수 있습니다. {1}Capabilities{/1}를 참조하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인은 {0} 훅으로 규칙과 노트를 추가할 수 있습니다. {1}Capabilities{/1}를 참조하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

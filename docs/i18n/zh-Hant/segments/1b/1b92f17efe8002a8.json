@@ -1,0 +1,14 @@
+{
+  "hash": "1b92f17efe8002a8",
+  "source": "A translation drops a placeholder, so {0} becomes {1}.",
+  "text": "翻譯漏掉了佔位符，使 {0} 變成 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻譯漏掉了佔位符，使 {0} 變成 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

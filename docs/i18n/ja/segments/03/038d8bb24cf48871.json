@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "コメントのある行と次の行の文字列。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コメントのある行と次の行の文字列。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

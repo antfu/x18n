@@ -1,0 +1,14 @@
+{
+  "hash": "9e9fafde936ad355",
+  "source": "The {0} preset supports {1}i18next-shopify{/1}, the i18next plugin for the Shopify message format.",
+  "text": "{0} プリセットは、Shopify メッセージフォーマット用の i18next プラグインである {1}i18next-shopify{/1} をサポートします。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、Shopify メッセージフォーマット用の i18next プラグインである {1}i18next-shopify{/1} をサポートします。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

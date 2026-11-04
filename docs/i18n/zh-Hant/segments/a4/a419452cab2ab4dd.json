@@ -1,0 +1,14 @@
+{
+  "hash": "a419452cab2ab4dd",
+  "source": "A YAML plugin file does not match the plugin schema. The message names the file, the field and the problem.",
+  "text": "YAML 外掛檔案不符合外掛 schema。訊息會指出檔案、欄位以及問題所在。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 外掛檔案不符合外掛 schema。訊息會指出檔案、欄位以及問題所在。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

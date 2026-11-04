@@ -1,0 +1,14 @@
+{
+  "hash": "e38a39f95d66cb12",
+  "source": "x18n uses one name for each idea, in code, docs and UI. The \"Not\" column lists names that x18n avoids for the same idea. {0}Concepts{/0} explains the most important ones with examples.",
+  "text": "x18n では、コード、ドキュメント、UI のすべてで、1 つの概念に 1 つの名前を使います。「Not」列には、同じ概念に対して x18n が使わない名前を挙げています。{0}コンセプト{/0}では、特に重要な用語を例とともに説明しています。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n では、コード、ドキュメント、UI のすべてで、1 つの概念に 1 つの名前を使います。「Not」列には、同じ概念に対して x18n が使わない名前を挙げています。{0}コンセプト{/0}では、特に重要な用語を例とともに説明しています。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

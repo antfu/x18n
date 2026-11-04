@@ -1,0 +1,14 @@
+{
+  "hash": "fac772a4be23fd89",
+  "source": "Write a config",
+  "text": "設定ファイルを作成する",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定ファイルを作成する"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

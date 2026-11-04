@@ -1,0 +1,14 @@
+{
+  "hash": "f57dff0e283c59fd",
+  "source": "GitHub Actions workflow commands. GitHub shows them as annotations on the changed lines.",
+  "text": "GitHub Actions のワークフローコマンドです。GitHub は変更された行にアノテーションとして表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "GitHub Actions のワークフローコマンドです。GitHub は変更された行にアノテーションとして表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

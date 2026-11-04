@@ -1,0 +1,14 @@
+{
+  "hash": "253afa788af7ac1f",
+  "source": "Add the plugin after {0}:",
+  "text": "{0} の後にプラグインを追加してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} の後にプラグインを追加してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

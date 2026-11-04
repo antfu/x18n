@@ -1,0 +1,14 @@
+{
+  "hash": "b492cc293fad1a00",
+  "source": "A message with an open \"request change\" review.",
+  "text": "未解決の「変更リクエスト」レビューが残っているメッセージです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "未解決の「変更リクエスト」レビューが残っているメッセージです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f37933fdae13d07f",
+  "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
+  "text": "リーフと親の両方として使われているキー、または 1 つのロケールの複数のファイルで重複しているキーです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リーフと親の両方として使われているキー、または 1 つのロケールの複数のファイルで重複しているキーです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

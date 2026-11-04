@@ -1,0 +1,14 @@
+{
+  "hash": "3402f4ed5b5e62bf",
+  "source": "The tagged template {0} and the text of {1} are usages.",
+  "text": "태그드 템플릿 {0}과 {1}의 텍스트가 사용처입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "태그드 템플릿 {0}과 {1}의 텍스트가 사용처입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

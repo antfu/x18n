@@ -1,0 +1,14 @@
+{
+  "hash": "b77cb6fe67f59ff5",
+  "source": "{0} prints the same data as JSON, with every preset that was not applied. The Project page of the {1}UI{/1} shows it too. The {2}language server{/2} returns the same text from {3}, and in VS Code \"x18n: Explain Projects\" prints it to the output channel.",
+  "text": "{0} は同じデータを JSON として出力し、適用されなかったすべてのプリセットも含めます。{1}UI{/1} の Project ページにも同じ内容が表示されます。{2}言語サーバー{/2} は {3} から同じテキストを返し、VS Code では \"x18n: Explain Projects\" が出力チャンネルに内容を出力します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は同じデータを JSON として出力し、適用されなかったすべてのプリセットも含めます。{1}UI{/1} の Project ページにも同じ内容が表示されます。{2}言語サーバー{/2} は {3} から同じテキストを返し、VS Code では \"x18n: Explain Projects\" が出力チャンネルに内容を出力します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

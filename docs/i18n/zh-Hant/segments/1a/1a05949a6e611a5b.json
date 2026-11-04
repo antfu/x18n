@@ -1,0 +1,14 @@
+{
+  "hash": "1a05949a6e611a5b",
+  "source": "Records that translations are up to date with the current source value. Default: every translated locale.",
+  "text": "記錄翻譯已與目前的來源值同步。預設：所有已翻譯的語系。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "記錄翻譯已與目前的來源值同步。預設：所有已翻譯的語系。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

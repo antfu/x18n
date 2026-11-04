@@ -1,0 +1,14 @@
+{
+  "hash": "012d89aae64baa47",
+  "source": "Unknown preset. Use a preset name listed in the docs, or a preset object.",
+  "text": "不明なプリセットです。ドキュメントに記載されているプリセット名、またはプリセットオブジェクトを使用してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不明なプリセットです。ドキュメントに記載されているプリセット名、またはプリセットオブジェクトを使用してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7340cabea1d7e8fe",
+  "source": "{0} needs JSON in the shape {1}. Values are strings, numbers, booleans or {2}.",
+  "text": "{0} には {1} の形式の JSON が必要です。値には文字列、数値、真偽値、または {2} を指定できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} には {1} の形式の JSON が必要です。値には文字列、数値、真偽値、または {2} を指定できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

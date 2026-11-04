@@ -1,0 +1,14 @@
+{
+  "hash": "0afad17d174061e7",
+  "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
+  "text": "모든 로케일에서 값으로 찾은 키와 해당 사용처를 반환합니다. {0}를 지정하지 않으면 유사 검색으로 찾습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일에서 값으로 찾은 키와 해당 사용처를 반환합니다. {0}를 지정하지 않으면 유사 검색으로 찾습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

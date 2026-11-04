@@ -1,0 +1,14 @@
+{
+  "hash": "4c09acbdbdc96c53",
+  "source": "{0} reads the {1} of each property.",
+  "text": "{0} 會讀取每個屬性的 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會讀取每個屬性的 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

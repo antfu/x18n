@@ -1,0 +1,14 @@
+{
+  "hash": "128e972d8d18b3d9",
+  "source": "Browse and edit every key across locales in the browser with x18n ui, or publish a read-only report with x18n build.",
+  "text": "x18n ui로 브라우저에서 모든 로케일의 키를 탐색하고 편집하거나, x18n build로 읽기 전용 리포트를 게시하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n ui로 브라우저에서 모든 로케일의 키를 탐색하고 편집하거나, x18n build로 읽기 전용 리포트를 게시하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

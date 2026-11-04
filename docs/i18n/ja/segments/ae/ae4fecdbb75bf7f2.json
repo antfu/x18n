@@ -1,0 +1,14 @@
+{
+  "hash": "ae4fecdbb75bf7f2",
+  "source": "{0} find resources. {1} returns candidates: a path, a locale, a namespace, and optionally a format id, a block inside the file, and a read-only flag. {2} returns the path of a new file for a locale and namespace, for edits that create files. {3} is the existing resource that the new file would otherwise copy, usually the source file of the key. Return a path only if {4} would find that file again.",
+  "text": "{0} はリソースを見つけます。{1} は候補を返します。候補には、パス、ロケール、名前空間があり、必要に応じてフォーマット ID、ファイル内のブロック、読み取り専用フラグを含められます。{2} は、ファイルを作成する編集のために、ロケールと名前空間に対する新しいファイルのパスを返します。{3} は、そうしなければ新しいファイルがコピーすることになる既存のリソースで、通常はキーのソースファイルです。{4} がそのファイルを再び見つけられる場合にのみ、パスを返してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} はリソースを見つけます。{1} は候補を返します。候補には、パス、ロケール、名前空間があり、必要に応じてフォーマット ID、ファイル内のブロック、読み取り専用フラグを含められます。{2} は、ファイルを作成する編集のために、ロケールと名前空間に対する新しいファイルのパスを返します。{3} は、そうしなければ新しいファイルがコピーすることになる既存のリソースで、通常はキーのソースファイルです。{4} がそのファイルを再び見つけられる場合にのみ、パスを返してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

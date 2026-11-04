@@ -1,0 +1,14 @@
+{
+  "hash": "3f3b1282fd97dbd5",
+  "source": "Results go to stdout. Logs and progress go to stderr, so {0} works.",
+  "text": "結果輸出至 stdout。記錄與進度輸出至 stderr，因此 {0} 可正常運作。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "結果輸出至 stdout。記錄與進度輸出至 stderr，因此 {0} 可正常運作。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

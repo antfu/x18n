@@ -1,0 +1,14 @@
+{
+  "hash": "85600c2e2c483545",
+  "source": "The preset reads {0} as text. If the value is computed, set {1} in the config.",
+  "text": "此預設集會將 {0} 當作文字讀取。如果該值是動態計算出來的，請在設定中設定 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集會將 {0} 當作文字讀取。如果該值是動態計算出來的，請在設定中設定 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

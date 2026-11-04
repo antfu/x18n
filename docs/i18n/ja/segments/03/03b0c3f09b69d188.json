@@ -1,0 +1,14 @@
+{
+  "hash": "03b0c3f09b69d188",
+  "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
+  "text": "ファイル内では、{0} は 1 つのキー、{1} は数量（{2}）ごとに 1 つのキー、{3} は項目（{4}）ごとに 1 つのキーになります。末尾より前の項目を削除すると、その項目は空になり、後続の項目のインデックスは変わりません。{5} はメッセージではなく、x18n は書き込みません。エントリの直前にあるコメントは、ローカライズ担当者向けの説明として扱われます。x18n は Android のエスケープ（{6}、{7}、{8}、先頭の {9}）を読み書きし、{10} などのインラインマークアップと CDATA を保持します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイル内では、{0} は 1 つのキー、{1} は数量（{2}）ごとに 1 つのキー、{3} は項目（{4}）ごとに 1 つのキーになります。末尾より前の項目を削除すると、その項目は空になり、後続の項目のインデックスは変わりません。{5} はメッセージではなく、x18n は書き込みません。エントリの直前にあるコメントは、ローカライズ担当者向けの説明として扱われます。x18n は Android のエスケープ（{6}、{7}、{8}、先頭の {9}）を読み書きし、{10} などのインラインマークアップと CDATA を保持します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

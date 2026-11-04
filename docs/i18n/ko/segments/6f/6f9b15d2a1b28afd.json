@@ -1,0 +1,14 @@
+{
+  "hash": "6f9b15d2a1b28afd",
+  "source": "{0} and {1} are repeatable. The first {2} belongs to the first {3}, the second to the second, and so on. A reporter without an {4} prints to stdout:",
+  "text": "{0}와 {1}는 여러 번 지정할 수 있습니다. 첫 번째 {2}는 첫 번째 {3}에, 두 번째 {4}는 두 번째 {0}에 대응하는 식입니다. {1}가 없는 리포터는 stdout으로 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}와 {1}는 여러 번 지정할 수 있습니다. 첫 번째 {2}는 첫 번째 {3}에, 두 번째 {4}는 두 번째 {0}에 대응하는 식입니다. {1}가 없는 리포터는 stdout으로 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

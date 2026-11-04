@@ -1,0 +1,14 @@
+{
+  "hash": "acc25191a8908a0c",
+  "source": "{0}. See {1}Framework map{/1}.",
+  "text": "{0}. {1}프레임워크 매핑{/1}을 참고하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}. {1}프레임워크 매핑{/1}을 참고하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

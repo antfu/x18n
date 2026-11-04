@@ -1,0 +1,14 @@
+{
+  "hash": "750235b18d622296",
+  "source": "Review comments, approvals and suggested values on messages, kept in a file tracked in git.",
+  "text": "訊息上的審閱留言、核准與建議值，儲存在由 git 追蹤的檔案中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "訊息上的審閱留言、核准與建議值，儲存在由 git 追蹤的檔案中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

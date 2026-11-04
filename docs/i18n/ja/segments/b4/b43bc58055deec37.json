@@ -1,0 +1,14 @@
+{
+  "hash": "b43bc58055deec37",
+  "source": "{0} tells if the transform applies to a resource. Without it, the transform applies to every resource.",
+  "text": "{0} は、トランスフォームがリソースに適用されるかどうかを示します。指定しない場合、トランスフォームはすべてのリソースに適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、トランスフォームがリソースに適用されるかどうかを示します。指定しない場合、トランスフォームはすべてのリソースに適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

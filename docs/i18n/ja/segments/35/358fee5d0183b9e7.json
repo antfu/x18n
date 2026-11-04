@@ -1,0 +1,14 @@
+{
+  "hash": "358fee5d0183b9e7",
+  "source": "Unique, kebab-case. Built-ins use the {0} prefix.",
+  "text": "一意で kebab-case にします。組み込みのものは {0} プレフィックスを使用します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一意で kebab-case にします。組み込みのものは {0} プレフィックスを使用します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9c8bf01e8272cbeb",
+  "source": "Config file could not be loaded. Fix the syntax error, or run `x18n doctor` for details.",
+  "text": "無法載入設定檔。請修正語法錯誤，或執行 `x18n doctor` 查看詳細資訊。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "無法載入設定檔。請修正語法錯誤，或執行 `x18n doctor` 查看詳細資訊。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

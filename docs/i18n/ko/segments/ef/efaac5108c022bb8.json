@@ -1,0 +1,14 @@
+{
+  "hash": "efaac5108c022bb8",
+  "source": "x18n does not call machine translation services. Instead, it writes a translate prompt: plain markdown that describes the work, built from the state of the project. You paste it into an LLM, or an agent follows it. Then x18n checks the results.",
+  "text": "x18n은 기계 번역 서비스를 호출하지 않습니다. 대신 번역 프롬프트를 작성합니다. 번역 프롬프트는 프로젝트의 상태를 바탕으로 만든, 작업을 설명하는 일반 마크다운입니다. 이를 LLM에 붙여넣거나 에이전트가 따르게 하면 됩니다. 그런 다음 x18n이 결과를 검사합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 기계 번역 서비스를 호출하지 않습니다. 대신 번역 프롬프트를 작성합니다. 번역 프롬프트는 프로젝트의 상태를 바탕으로 만든, 작업을 설명하는 일반 마크다운입니다. 이를 LLM에 붙여넣거나 에이전트가 따르게 하면 됩니다. 그런 다음 x18n이 결과를 검사합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

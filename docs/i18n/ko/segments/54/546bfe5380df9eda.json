@@ -1,0 +1,14 @@
+{
+  "hash": "546bfe5380df9eda",
+  "source": "As in .NET satellite assemblies, {0} holds a locale only when {1} exists. Every other file holds the source locale, so {2} is not the locale {3}. With the default {4}, these files give the locales {5}, {6} and {7}:",
+  "text": ".NET 위성 어셈블리와 마찬가지로 {0}는 {1}가 존재할 때만 로케일을 나타냅니다. 그 밖의 모든 파일은 소스 로케일을 담고 있으므로 {2}는 로케일 {3}이 아닙니다. 기본 {4}에서는 이 파일들이 로케일 {5}, {6}, {7}을 제공합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": ".NET 위성 어셈블리와 마찬가지로 {0}는 {1}가 존재할 때만 로케일을 나타냅니다. 그 밖의 모든 파일은 소스 로케일을 담고 있으므로 {2}는 로케일 {3}이 아닙니다. 기본 {4}에서는 이 파일들이 로케일 {5}, {6}, {7}을 제공합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

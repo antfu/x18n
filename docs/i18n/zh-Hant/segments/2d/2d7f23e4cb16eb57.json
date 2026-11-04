@@ -1,0 +1,14 @@
+{
+  "hash": "2d7f23e4cb16eb57",
+  "source": "As in YAML. Plugins add their check ids to the type, so the editor completes them.",
+  "text": "與 YAML 相同。外掛會將其檢查 id 加入型別中，因此編輯器可以自動補全。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "與 YAML 相同。外掛會將其檢查 id 加入型別中，因此編輯器可以自動補全。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

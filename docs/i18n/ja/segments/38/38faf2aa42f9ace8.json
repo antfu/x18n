@@ -1,0 +1,14 @@
+{
+  "hash": "38faf2aa42f9ace8",
+  "source": "The {0} preset applies to every project. It comes last in the detection order, so the presets of libraries come first.",
+  "text": "{0} プリセットはすべてのプロジェクトに適用されます。検出順序では最後に位置するため、ライブラリのプリセットが先に検出されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットはすべてのプロジェクトに適用されます。検出順序では最後に位置するため、ライブラリのプリセットが先に検出されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

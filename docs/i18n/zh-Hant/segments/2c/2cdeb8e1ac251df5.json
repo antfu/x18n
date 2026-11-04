@@ -1,0 +1,14 @@
+{
+  "hash": "2cdeb8e1ac251df5",
+  "source": "The preset finds every {0} file outside {1}, {2} and {3}. The {4} format reads the string {5} entries and writes edits in place. It keeps the schema, the headers, comments and the entries that hold files or images. x18n does not write a string under the name of such an entry, because two {6} with one name break the build. Keys stay flat, so a key can contain dots.",
+  "text": "此預設集會找出 {1}、{2} 和 {3} 之外的所有 {0} 檔案。{4} 格式會讀取字串 {5} 項目，並直接就地寫入修改。它會保留結構描述、標頭、註解，以及存放檔案或圖片的項目。x18n 不會以這類項目的名稱寫入字串，因為兩個同名的 {6} 會導致建置失敗。鍵維持扁平結構，因此鍵可以包含點。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集會找出 {1}、{2} 和 {3} 之外的所有 {0} 檔案。{4} 格式會讀取字串 {5} 項目，並直接就地寫入修改。它會保留結構描述、標頭、註解，以及存放檔案或圖片的項目。x18n 不會以這類項目的名稱寫入字串，因為兩個同名的 {6} 會導致建置失敗。鍵維持扁平結構，因此鍵可以包含點。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

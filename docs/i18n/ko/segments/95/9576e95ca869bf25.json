@@ -1,0 +1,14 @@
+{
+  "hash": "9576e95ca869bf25",
+  "source": "scope (that is a code region)",
+  "text": "scope (코드 영역을 뜻하는 용어)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "scope (코드 영역을 뜻하는 용어)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

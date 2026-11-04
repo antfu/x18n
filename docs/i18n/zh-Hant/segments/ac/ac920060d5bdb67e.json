@@ -1,0 +1,14 @@
+{
+  "hash": "ac920060d5bdb67e",
+  "source": "Plugins of the root config and of the project config both apply. Presets of the project config replace the presets of the root config.",
+  "text": "根設定檔與專案設定中的外掛都會生效。專案設定中的預設集會取代根設定檔中的預設集。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "根設定檔與專案設定中的外掛都會生效。專案設定中的預設集會取代根設定檔中的預設集。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

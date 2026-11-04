@@ -1,0 +1,14 @@
+{
+  "hash": "c0a0f39beb2ba7ff",
+  "source": "The check takes options. Set them with the array form:",
+  "text": "이 검사는 옵션을 받습니다. 배열 형식으로 설정하세요:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 검사는 옵션을 받습니다. 배열 형식으로 설정하세요:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

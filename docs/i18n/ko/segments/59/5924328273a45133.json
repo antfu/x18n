@@ -1,0 +1,14 @@
+{
+  "hash": "5924328273a45133",
+  "source": "Plugins and presets that a module exports load in Node only. A plugin can set {0} to tell x18n that it needs Node, so that runtimes without Node skip it.",
+  "text": "모듈이 export하는 플러그인과 프리셋은 Node에서만 로드됩니다. 플러그인에 {0}을(를) 설정하면 Node가 필요하다는 사실을 x18n에 알릴 수 있으며, Node가 없는 런타임에서는 해당 플러그인을 건너뜁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모듈이 export하는 플러그인과 프리셋은 Node에서만 로드됩니다. 플러그인에 {0}을(를) 설정하면 Node가 필요하다는 사실을 x18n에 알릴 수 있으며, Node가 없는 런타임에서는 해당 플러그인을 건너뜁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

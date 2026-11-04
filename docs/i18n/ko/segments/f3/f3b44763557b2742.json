@@ -1,0 +1,14 @@
+{
+  "hash": "f3b44763557b2742",
+  "source": "Without a config file, x18n reads the project's i18n-ally settings ({0} in {1}, and {2}), so an i18n-ally project works with no changes. The settings act as defaults: detection still adds what they leave out, and when their locale paths match no file, x18n looks for locale directories itself. Without i18n-ally settings either, x18n runs on detection alone. {3} prints what it uses: the config file, {4}, or {5}.",
+  "text": "구성 파일이 없으면 x18n은 프로젝트의 i18n-ally 설정({1}의 {0}와 {2})을 읽으므로, i18n-ally 프로젝트는 변경 없이 동작합니다. 이 설정은 기본값으로 사용됩니다. 설정에 없는 항목은 감지로 추가되며, 설정의 로케일 경로와 일치하는 파일이 없으면 x18n이 로케일 디렉터리를 직접 찾습니다. i18n-ally 설정도 없으면 x18n은 감지만으로 실행됩니다. {3}는 사용 중인 항목(구성 파일, {4} 또는 {5})을 출력합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "구성 파일이 없으면 x18n은 프로젝트의 i18n-ally 설정({1}의 {0}와 {2})을 읽으므로, i18n-ally 프로젝트는 변경 없이 동작합니다. 이 설정은 기본값으로 사용됩니다. 설정에 없는 항목은 감지로 추가되며, 설정의 로케일 경로와 일치하는 파일이 없으면 x18n이 로케일 디렉터리를 직접 찾습니다. i18n-ally 설정도 없으면 x18n은 감지만으로 실행됩니다. {3}는 사용 중인 항목(구성 파일, {4} 또는 {5})을 출력합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

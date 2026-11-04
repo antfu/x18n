@@ -1,0 +1,14 @@
+{
+  "hash": "4d1d6e6af8188b24",
+  "source": "Did x18n find my locale files?",
+  "text": "x18n はロケールファイルを見つけたか",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n はロケールファイルを見つけたか"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

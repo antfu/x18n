@@ -1,0 +1,14 @@
+{
+  "hash": "54adba94d06e88d8",
+  "source": "A linked message ({0}) and a nesting placeholder ({1}) name another key. That key then counts as used. The {2} check reports a linked message whose key does not exist, and ICU messages that do not parse or that lack an {3} case.",
+  "text": "링크된 메시지({0})와 중첩 플레이스홀더({1})는 다른 키를 가리킵니다. 그러면 해당 키는 사용된 것으로 간주됩니다. {2} 검사는 존재하지 않는 키를 가리키는 링크된 메시지와, 파싱되지 않거나 {3} case가 없는 ICU 메시지를 보고합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "링크된 메시지({0})와 중첩 플레이스홀더({1})는 다른 키를 가리킵니다. 그러면 해당 키는 사용된 것으로 간주됩니다. {2} 검사는 존재하지 않는 키를 가리키는 링크된 메시지와, 파싱되지 않거나 {3} case가 없는 ICU 메시지를 보고합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

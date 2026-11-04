@@ -1,0 +1,14 @@
+{
+  "hash": "a7ecf231081858b7",
+  "source": "Pass the token in the {0} header:",
+  "text": "將 token 放在 {0} 標頭中傳入：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將 token 放在 {0} 標頭中傳入："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

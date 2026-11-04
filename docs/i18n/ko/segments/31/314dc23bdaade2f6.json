@@ -1,0 +1,14 @@
+{
+  "hash": "314dc23bdaade2f6",
+  "source": "An optional locale. A file without it belongs to the source locale.",
+  "text": "선택적 로케일입니다. 로케일이 없는 파일은 소스 로케일에 속합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "선택적 로케일입니다. 로케일이 없는 파일은 소스 로케일에 속합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

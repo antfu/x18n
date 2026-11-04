@@ -1,0 +1,14 @@
+{
+  "hash": "9eea6e2020353ce3",
+  "source": "Scanners that load their module when a file they scan is first scanned.",
+  "text": "在第一次掃描其負責的檔案時才載入其模組的掃描器。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在第一次掃描其負責的檔案時才載入其模組的掃描器。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

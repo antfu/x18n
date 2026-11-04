@@ -1,0 +1,14 @@
+{
+  "hash": "47b03e86404beb32",
+  "source": "A key counts as used when:",
+  "text": "符合以下任一條件的鍵，會被視為已使用：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "符合以下任一條件的鍵，會被視為已使用："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

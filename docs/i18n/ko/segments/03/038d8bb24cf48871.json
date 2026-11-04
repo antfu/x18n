@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "주석이 있는 줄과 다음 줄의 문자열입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "주석이 있는 줄과 다음 줄의 문자열입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

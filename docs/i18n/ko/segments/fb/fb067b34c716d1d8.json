@@ -1,0 +1,14 @@
+{
+  "hash": "fb067b34c716d1d8",
+  "source": "The search covers every locale and ignores case. It is fuzzy by default, and values that contain the query rank first. {0} keeps only those values. Each match has the key, the matched locale and value, and the usages with file, line and column. The {1}MCP tool{/1} {2} does the same.",
+  "text": "검색은 모든 로케일을 대상으로 하며 대소문자를 구분하지 않습니다. 기본적으로 퍼지 검색이며, 쿼리를 포함하는 값이 먼저 표시됩니다. {0}은(는) 해당 값만 남깁니다. 각 일치 항목에는 키, 일치한 로케일과 값, 파일, 줄, 열이 포함된 사용처가 들어 있습니다. {1}MCP 도구{/1} {2}도 같은 작업을 수행합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "검색은 모든 로케일을 대상으로 하며 대소문자를 구분하지 않습니다. 기본적으로 퍼지 검색이며, 쿼리를 포함하는 값이 먼저 표시됩니다. {0}은(는) 해당 값만 남깁니다. 각 일치 항목에는 키, 일치한 로케일과 값, 파일, 줄, 열이 포함된 사용처가 들어 있습니다. {1}MCP 도구{/1} {2}도 같은 작업을 수행합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

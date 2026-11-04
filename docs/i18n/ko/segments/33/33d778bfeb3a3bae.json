@@ -1,0 +1,14 @@
+{
+  "hash": "33d778bfeb3a3bae",
+  "source": "When true and detected, presets that come after it are not applied.",
+  "text": "true이고 감지된 경우, 그 뒤에 오는 프리셋은 적용되지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "true이고 감지된 경우, 그 뒤에 오는 프리셋은 적용되지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

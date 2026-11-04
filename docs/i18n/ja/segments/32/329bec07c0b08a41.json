@@ -1,0 +1,14 @@
+{
+  "hash": "329bec07c0b08a41",
+  "source": "{0} add {1}extraction templates{/1} for a library: the code that replaces a hard string, per kind of hard string and per file glob.",
+  "text": "{0} は、ライブラリ向けの{1}抽出テンプレート{/1}を追加します。これは、ハードコードされた文字列を置き換えるコードで、ハードコードされた文字列の種類ごと、ファイルの glob ごとに定義します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、ライブラリ向けの{1}抽出テンプレート{/1}を追加します。これは、ハードコードされた文字列を置き換えるコードで、ハードコードされた文字列の種類ごと、ファイルの glob ごとに定義します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

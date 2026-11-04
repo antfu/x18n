@@ -1,0 +1,14 @@
+{
+  "hash": "546cc20b19fa4235",
+  "source": "List commands take {0} and return {1}. Pass it as {2} to get the next page. This keeps the output of a large project small enough for the context of an agent:",
+  "text": "一覧表示系のコマンドは {0} を受け取り、{1} を返します。次のページを取得するには、これを {2} として渡してください。これにより、大規模なプロジェクトでも、出力をエージェントのコンテキストに収まる小さなサイズに保てます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一覧表示系のコマンドは {0} を受け取り、{1} を返します。次のページを取得するには、これを {2} として渡してください。これにより、大規模なプロジェクトでも、出力をエージェントのコンテキストに収まる小さなサイズに保てます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

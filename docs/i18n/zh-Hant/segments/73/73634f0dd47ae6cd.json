@@ -1,0 +1,14 @@
+{
+  "hash": "73634f0dd47ae6cd",
+  "source": "x18n follows this for page components. In {0}, {1} is {2} when {3} has {4}. Otherwise it is the global key {5}. The route name comes from the file path, as in Nuxt: {6} is {7}, {8} is {9}, and the route group in {10} is left out, so the route is {11}. Page components are the {12} files in {13} or {14} at the project root.",
+  "text": "x18n 對頁面元件也遵循這個規則。在 {0} 中，當 {3} 有 {4} 時，{1} 為 {2}。否則它就是全域鍵 {5}。路由名稱來自檔案路徑，與 Nuxt 相同：{6} 對應 {7}，{8} 對應 {9}，而 {10} 中的路由群組會被省略，因此路由為 {11}。頁面元件是專案根目錄下 {13} 或 {14} 中的 {12} 檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 對頁面元件也遵循這個規則。在 {0} 中，當 {3} 有 {4} 時，{1} 為 {2}。否則它就是全域鍵 {5}。路由名稱來自檔案路徑，與 Nuxt 相同：{6} 對應 {7}，{8} 對應 {9}，而 {10} 中的路由群組會被省略，因此路由為 {11}。頁面元件是專案根目錄下 {13} 或 {14} 中的 {12} 檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

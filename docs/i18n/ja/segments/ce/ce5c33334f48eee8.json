@@ -1,0 +1,14 @@
+{
+  "hash": "ce5c33334f48eee8",
+  "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
+  "text": "{0}、{1} ... {2} および {3} コメントでは、他のファイルと同様にテキストがスキップされます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1} ... {2} および {3} コメントでは、他のファイルと同様にテキストがスキップされます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

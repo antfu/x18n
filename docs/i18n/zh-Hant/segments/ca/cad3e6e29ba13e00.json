@@ -1,0 +1,14 @@
+{
+  "hash": "cad3e6e29ba13e00",
+  "source": "Words that are the same in both languages, such as \"Plugins\" in German, are still reported. That is why the check reports at {0}, which {1} does not turn into an error. {2} removes such keys, from every check.",
+  "text": "在兩種語言中相同的單字（例如德文中的「Plugins」）仍會被回報。這就是此檢查以 {0} 等級回報的原因，{1} 不會將其視為錯誤。{2} 會從每一項檢查中移除這類鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在兩種語言中相同的單字（例如德文中的「Plugins」）仍會被回報。這就是此檢查以 {0} 等級回報的原因，{1} 不會將其視為錯誤。{2} 會從每一項檢查中移除這類鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

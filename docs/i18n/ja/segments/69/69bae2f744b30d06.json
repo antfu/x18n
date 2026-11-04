@@ -1,0 +1,14 @@
+{
+  "hash": "69bae2f744b30d06",
+  "source": "A locale file has a syntax error. The message names the file and the position.",
+  "text": "ロケールファイルに構文エラーがあります。エラーメッセージには、ファイル名と位置が示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルに構文エラーがあります。エラーメッセージには、ファイル名と位置が示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

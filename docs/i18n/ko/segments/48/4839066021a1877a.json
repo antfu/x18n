@@ -1,0 +1,14 @@
+{
+  "hash": "4839066021a1877a",
+  "source": "Keys (globs) excluded from all checks. {0} also takes regular expressions.",
+  "text": "모든 검사에서 제외할 키(glob)입니다. {0}은(는) 정규식도 받습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 검사에서 제외할 키(glob)입니다. {0}은(는) 정규식도 받습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

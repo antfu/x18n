@@ -1,0 +1,14 @@
+{
+  "hash": "ee99dd3663890bce",
+  "source": "By default, errors fail the build and warnings do not. Three options change that:",
+  "text": "デフォルトでは、エラーはビルドを失敗させ、警告は失敗させません。次の 3 つのオプションでこの動作を変更できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "デフォルトでは、エラーはビルドを失敗させ、警告は失敗させません。次の 3 つのオプションでこの動作を変更できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

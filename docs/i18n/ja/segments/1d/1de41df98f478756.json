@@ -1,0 +1,14 @@
+{
+  "hash": "1de41df98f478756",
+  "source": "The current contract version is {0}. A breaking change to any shape increases it. A new optional field does not.",
+  "text": "現在のコントラクトのバージョンは {0} です。いずれかの形式に破壊的変更があると、バージョンが上がります。オプションのフィールドを追加しても上がりません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "現在のコントラクトのバージョンは {0} です。いずれかの形式に破壊的変更があると、バージョンが上がります。オプションのフィールドを追加しても上がりません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

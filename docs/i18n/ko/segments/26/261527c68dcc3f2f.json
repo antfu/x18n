@@ -1,0 +1,14 @@
+{
+  "hash": "261527c68dcc3f2f",
+  "source": "Start the dev server and open Vite DevTools. The x18n panel is in the dock. Vite DevTools signs you in with its own auth code. The panel then needs no other sign-in.",
+  "text": "개발 서버를 시작하고 Vite DevTools를 여세요. x18n 패널은 dock에 있습니다. Vite DevTools는 자체 인증 코드로 로그인을 처리하므로 패널에는 별도의 로그인이 필요하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "개발 서버를 시작하고 Vite DevTools를 여세요. x18n 패널은 dock에 있습니다. Vite DevTools는 자체 인증 코드로 로그인을 처리하므로 패널에는 별도의 로그인이 필요하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

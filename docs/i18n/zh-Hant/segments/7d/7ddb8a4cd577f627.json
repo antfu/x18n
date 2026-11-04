@@ -1,0 +1,14 @@
+{
+  "hash": "7ddb8a4cd577f627",
+  "source": "The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from {0}.",
+  "text": "伺服器將鍵視為符號。它支援跳至定義、跳至實作、參考、重新命名（含準備重新命名）、懸停提示、內嵌提示、鍵的自動完成、程式碼動作（快速修正與擷取）、文件符號、工作區符號、程式碼透鏡以及診斷。診斷與 {0} 所產生的相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "伺服器將鍵視為符號。它支援跳至定義、跳至實作、參考、重新命名（含準備重新命名）、懸停提示、內嵌提示、鍵的自動完成、程式碼動作（快速修正與擷取）、文件符號、工作區符號、程式碼透鏡以及診斷。診斷與 {0} 所產生的相同。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

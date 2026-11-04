@@ -1,0 +1,14 @@
+{
+  "hash": "863d9f6515280c85",
+  "source": "It also finds the locale files. If your config has no {0}, the preset reads {1} (or {2}) and looks for {3}:",
+  "text": "또한 로케일 파일을 찾습니다. 설정에 {0}가 없으면 프리셋은 {1}(또는 {2})을 읽고 {3}을 찾습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "또한 로케일 파일을 찾습니다. 설정에 {0}가 없으면 프리셋은 {1}(또는 {2})을 읽고 {3}을 찾습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

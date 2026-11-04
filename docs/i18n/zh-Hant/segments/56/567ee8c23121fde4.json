@@ -1,0 +1,14 @@
+{
+  "hash": "567ee8c23121fde4",
+  "source": "A {0} is a string (a built-in preset name, a package name or a path), or {1}. A {2} is a severity ({3}, {4}, {5}, {6} or {7}), or {8}.",
+  "text": "{0} 是字串（內建預設集名稱、套件名稱或路徑），或 {1}。{2} 是嚴重程度（{3}、{4}、{5}、{6} 或 {7}），或 {8}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是字串（內建預設集名稱、套件名稱或路徑），或 {1}。{2} 是嚴重程度（{3}、{4}、{5}、{6} 或 {7}），或 {8}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

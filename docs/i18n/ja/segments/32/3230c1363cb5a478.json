@@ -1,0 +1,14 @@
+{
+  "hash": "3230c1363cb5a478",
+  "source": "Page size. Default 100.",
+  "text": "ページサイズです。デフォルトは 100 です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ページサイズです。デフォルトは 100 です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

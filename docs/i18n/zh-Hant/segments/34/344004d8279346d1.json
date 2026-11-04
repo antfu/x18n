@@ -1,0 +1,14 @@
+{
+  "hash": "344004d8279346d1",
+  "source": "For an instance with another name, add its callees to {0}. A keyset function that a module exports, such as {1}, is not followed into the modules that import it.",
+  "text": "對於使用其他名稱的實例，請將其 callee 加入 {0}。模組所匯出的 keyset 函式（例如 {1}）不會被追蹤到匯入它的模組中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "對於使用其他名稱的實例，請將其 callee 加入 {0}。模組所匯出的 keyset 函式（例如 {1}）不會被追蹤到匯入它的模組中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

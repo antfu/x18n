@@ -1,0 +1,14 @@
+{
+  "hash": "62e5d10bbde08df0",
+  "source": "A {0}, as in {1}:",
+  "text": "{0}는 {1}와 같습니다:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 {1}와 같습니다:"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

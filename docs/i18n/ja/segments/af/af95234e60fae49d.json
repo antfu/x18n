@@ -1,0 +1,14 @@
+{
+  "hash": "af95234e60fae49d",
+  "source": "Run {0} to list the project names.",
+  "text": "{0} を実行して、プロジェクト名の一覧を表示してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を実行して、プロジェクト名の一覧を表示してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

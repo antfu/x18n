@@ -1,0 +1,14 @@
+{
+  "hash": "9617bc338c230250",
+  "source": "A project directory can have its own {0}. The project inherits the options of the root config, and its own config overrides them. The rules are the same as for one project: see {1}How x18n merges the config{/1}.",
+  "text": "專案目錄可以有自己的 {0}。專案會繼承根設定檔的選項，而專案自己的設定會覆寫這些選項。規則與單一專案相同：請參閱 {1}x18n 如何合併設定{/1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "專案目錄可以有自己的 {0}。專案會繼承根設定檔的選項，而專案自己的設定會覆寫這些選項。規則與單一專案相同：請參閱 {1}x18n 如何合併設定{/1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

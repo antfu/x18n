@@ -1,0 +1,14 @@
+{
+  "hash": "d94cce3c3581f6b0",
+  "source": "Keys to delete, sorted, with one location per message.",
+  "text": "삭제할 키이며, 정렬되어 있고 메시지마다 위치가 하나씩 포함됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "삭제할 키이며, 정렬되어 있고 메시지마다 위치가 하나씩 포함됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

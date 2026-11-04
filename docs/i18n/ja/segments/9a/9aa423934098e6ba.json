@@ -1,0 +1,14 @@
+{
+  "hash": "9aa423934098e6ba",
+  "source": "A plugin is an object that adds capabilities. A capability is one kind of contribution, such as a format, a scanner or a check. See {0}Capabilities{/0}.",
+  "text": "プラグインは機能を追加するオブジェクトです。機能（capability）は、フォーマット、スキャナー、チェックなど、1 種類の拡張を指します。{0}Capabilities{/0}を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインは機能を追加するオブジェクトです。機能（capability）は、フォーマット、スキャナー、チェックなど、1 種類の拡張を指します。{0}Capabilities{/0}を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

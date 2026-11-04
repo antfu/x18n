@@ -1,0 +1,14 @@
+{
+  "hash": "6e7dad6217e8634d",
+  "source": "{0} writes a static, read-only copy of the {1}UI{/1}. Upload it as an artifact, or deploy it to any static host:",
+  "text": "{0} は、{1}UI{/1} の静的な読み取り専用のコピーを書き出します。アーティファクトとしてアップロードするか、任意の静的ホストにデプロイしてください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、{1}UI{/1} の静的な読み取り専用のコピーを書き出します。アーティファクトとしてアップロードするか、任意の静的ホストにデプロイしてください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

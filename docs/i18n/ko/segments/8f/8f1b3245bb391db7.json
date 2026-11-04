@@ -1,0 +1,14 @@
+{
+  "hash": "8f1b3245bb391db7",
+  "source": "Deletes the keys that {0} lists, in every locale, through {1}. Default: every project.",
+  "text": "{0}가 나열한 키를 {1}를 통해 모든 로케일에서 삭제합니다. 기본값은 모든 프로젝트입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}가 나열한 키를 {1}를 통해 모든 로케일에서 삭제합니다. 기본값은 모든 프로젝트입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

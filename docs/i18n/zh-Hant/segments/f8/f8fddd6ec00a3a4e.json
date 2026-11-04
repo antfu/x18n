@@ -1,0 +1,14 @@
+{
+  "hash": "f8fddd6ec00a3a4e",
+  "source": "Run the command again. x18n makes a new plan from the current files.",
+  "text": "再次執行該命令。x18n 會根據目前的檔案建立新的計畫。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "再次執行該命令。x18n 會根據目前的檔案建立新的計畫。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

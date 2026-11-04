@@ -1,0 +1,14 @@
+{
+  "hash": "fc8073d1ecdd6fdf",
+  "source": "A translation that last changed before its source message, by the history providers (git).",
+  "text": "히스토리 제공자(git)에 따라 소스 메시지보다 먼저 마지막으로 변경된 번역입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "히스토리 제공자(git)에 따라 소스 메시지보다 먼저 마지막으로 변경된 번역입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

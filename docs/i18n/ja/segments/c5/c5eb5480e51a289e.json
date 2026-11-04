@@ -1,0 +1,14 @@
+{
+  "hash": "c5eb5480e51a289e",
+  "source": "The preset applies when the {0} has {1}.",
+  "text": "このプリセットは、{0} に {1} が含まれている場合に適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、{0} に {1} が含まれている場合に適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

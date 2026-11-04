@@ -1,0 +1,14 @@
+{
+  "hash": "ea9b23a8e6c2457e",
+  "source": "The names that count as translate calls in a file: declared names, same-file aliases, wrappers, typed params.",
+  "text": "在檔案中被視為翻譯呼叫的名稱：宣告的名稱、同檔案別名、包裝函式、具型別的參數。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在檔案中被視為翻譯呼叫的名稱：宣告的名稱、同檔案別名、包裝函式、具型別的參數。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

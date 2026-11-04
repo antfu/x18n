@@ -1,0 +1,14 @@
+{
+  "hash": "7e2bb3589f375d26",
+  "source": "An in-place annotation hides a key in code and shows its value in the display locale. The display locale is the locale that annotations and hovers show. It is your own choice, and it defaults to the source locale.",
+  "text": "原處標註會在程式碼中隱藏鍵，並以顯示語系顯示其值。顯示語系是標註與懸停提示所顯示的語系。你可以自行選擇，預設為來源語系。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "原處標註會在程式碼中隱藏鍵，並以顯示語系顯示其值。顯示語系是標註與懸停提示所顯示的語系。你可以自行選擇，預設為來源語系。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

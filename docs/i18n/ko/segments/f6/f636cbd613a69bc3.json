@@ -1,0 +1,14 @@
+{
+  "hash": "f636cbd613a69bc3",
+  "source": "Fix the syntax error that the message names.",
+  "text": "메시지에 명시된 구문 오류를 수정하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "메시지에 명시된 구문 오류를 수정하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

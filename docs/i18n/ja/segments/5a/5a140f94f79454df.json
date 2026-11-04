@@ -1,0 +1,14 @@
+{
+  "hash": "5a140f94f79454df",
+  "source": "A rename changes every locale and every usage in code. A rename of a parent key, such as {0}, moves every key under it. A rename to a key that exists stops with exit code 1.",
+  "text": "名前の変更は、すべてのロケールとコード内のすべての使用箇所に反映されます。{0} のような親キーの名前を変更すると、その下のすべてのキーも移動します。既存のキーへの名前変更は、終了コード 1 で停止します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "名前の変更は、すべてのロケールとコード内のすべての使用箇所に反映されます。{0} のような親キーの名前を変更すると、その下のすべてのキーも移動します。既存のキーへの名前変更は、終了コード 1 で停止します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

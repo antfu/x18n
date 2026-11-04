@@ -1,0 +1,14 @@
+{
+  "hash": "28c5929623752cd9",
+  "source": "Completion suggests keys inside translate calls.",
+  "text": "補完では、translate 呼び出しの中でキーが候補として表示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "補完では、translate 呼び出しの中でキーが候補として表示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

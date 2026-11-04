@@ -1,0 +1,14 @@
+{
+  "hash": "eaa68f5c64755ae7",
+  "source": "Invalid edit input. Check the input shape against the docs.",
+  "text": "잘못된 편집 입력입니다. 입력 형식을 문서와 비교하여 확인하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "잘못된 편집 입력입니다. 입력 형식을 문서와 비교하여 확인하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

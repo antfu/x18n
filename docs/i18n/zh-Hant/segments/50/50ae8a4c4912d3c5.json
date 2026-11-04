@@ -1,0 +1,14 @@
+{
+  "hash": "50ae8a4c4912d3c5",
+  "source": "A {0}YAML plugin{/0} is a data file. It covers the common cases: detection, resource patterns, translate calls, regex scanners, scopes, placeholders and extraction templates. It needs no code and no build, and an editor validates it with a JSON Schema. It works in YAML and JSON projects without Node dependencies.",
+  "text": "{0}YAML 外掛{/0}是一個資料檔案，涵蓋常見情境：偵測、資源模式、translate 呼叫、正規表示式掃描器、範圍、佔位符與擷取範本。它不需要撰寫程式，也不需要建置，編輯器可以用 JSON Schema 驗證它。它可用於 YAML 與 JSON 專案，且不需要 Node 相依套件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}YAML 外掛{/0}是一個資料檔案，涵蓋常見情境：偵測、資源模式、translate 呼叫、正規表示式掃描器、範圍、佔位符與擷取範本。它不需要撰寫程式，也不需要建置，編輯器可以用 JSON Schema 驗證它。它可用於 YAML 與 JSON 專案，且不需要 Node 相依套件。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

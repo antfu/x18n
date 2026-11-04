@@ -1,0 +1,14 @@
+{
+  "hash": "904e22d205e3445a",
+  "source": "The preset for Nuxt I18n Micro. It reads the global and the page translation files, and the $t calls of pages and components.",
+  "text": "Nuxt I18n Micro용 프리셋입니다. 전역 번역 파일과 페이지 번역 파일, 그리고 페이지와 컴포넌트의 $t 호출을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nuxt I18n Micro용 프리셋입니다. 전역 번역 파일과 페이지 번역 파일, 그리고 페이지와 컴포넌트의 $t 호출을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

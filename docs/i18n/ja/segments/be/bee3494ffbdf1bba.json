@@ -1,0 +1,14 @@
+{
+  "hash": "bee3494ffbdf1bba",
+  "source": "Monorepo: directories (globs) that are projects inheriting this config.",
+  "text": "モノレポ用の設定です。この設定を継承するプロジェクトのディレクトリ（glob）を指定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "モノレポ用の設定です。この設定を継承するプロジェクトのディレクトリ（glob）を指定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0ddf23eb4ca2f4c1",
+  "source": "Writes many messages, in the shape of {0}. Refuses placeholder problems unless {1}.",
+  "text": "{0} の形式で、複数のメッセージを書き込みます。{1} を指定しない限り、プレースホルダーに問題がある場合は拒否します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} の形式で、複数のメッセージを書き込みます。{1} を指定しない限り、プレースホルダーに問題がある場合は拒否します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

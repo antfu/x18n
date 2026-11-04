@@ -1,0 +1,14 @@
+{
+  "hash": "a181302953b6b87e",
+  "source": "The extension treats a key such as {0} like an imported symbol:",
+  "text": "擴充功能會將 {0} 這樣的鍵視為匯入的符號：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "擴充功能會將 {0} 這樣的鍵視為匯入的符號："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

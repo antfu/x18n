@@ -1,0 +1,14 @@
+{
+  "hash": "abded637629cadb3",
+  "source": "Make sure that the top level of the file is an object, not an array or a string.",
+  "text": "請確認檔案的最上層是物件，而不是陣列或字串。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "請確認檔案的最上層是物件，而不是陣列或字串。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

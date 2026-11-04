@@ -1,0 +1,14 @@
+{
+  "hash": "d94cce3c3581f6b0",
+  "source": "Keys to delete, sorted, with one location per message.",
+  "text": "削除するキーです。ソート済みで、メッセージごとに 1 つの場所が付きます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "削除するキーです。ソート済みで、メッセージごとに 1 つの場所が付きます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

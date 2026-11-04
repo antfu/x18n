@@ -1,0 +1,14 @@
+{
+  "hash": "e02c0a7724e32b69",
+  "source": "{0} returns a {1} with a namespace and a key prefix. {2} above is {3}.",
+  "text": "{0} は、名前空間とキーのプレフィックスを持つ {1} を返します。上記の {2} は {3} です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、名前空間とキーのプレフィックスを持つ {1} を返します。上記の {2} は {3} です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

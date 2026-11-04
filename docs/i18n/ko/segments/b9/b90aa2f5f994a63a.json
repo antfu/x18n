@@ -1,0 +1,14 @@
+{
+  "hash": "b90aa2f5f994a63a",
+  "source": "x18n reads the i18n setup of a project, reports problems in its locale files and changes them safely.",
+  "text": "x18n은 프로젝트의 i18n 설정을 읽고, 로케일 파일의 문제를 보고하며, 파일을 안전하게 변경합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 프로젝트의 i18n 설정을 읽고, 로케일 파일의 문제를 보고하며, 파일을 안전하게 변경합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

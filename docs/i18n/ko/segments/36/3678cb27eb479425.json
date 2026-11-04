@@ -1,0 +1,14 @@
+{
+  "hash": "3678cb27eb479425",
+  "source": "The preset for svelte-i18n. It reads the $_ store and its aliases in Svelte components and scripts.",
+  "text": "svelte-i18n용 프리셋입니다. Svelte 컴포넌트와 스크립트에서 $_ 스토어와 그 별칭을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "svelte-i18n용 프리셋입니다. Svelte 컴포넌트와 스크립트에서 $_ 스토어와 그 별칭을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

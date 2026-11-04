@@ -1,0 +1,14 @@
+{
+  "hash": "36f2812d3b4ef373",
+  "source": "Use another baseline file than {0}.",
+  "text": "使用 {0} 以外的 baseline 檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 以外的 baseline 檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

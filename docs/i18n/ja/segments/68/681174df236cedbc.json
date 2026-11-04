@@ -1,0 +1,14 @@
+{
+  "hash": "681174df236cedbc",
+  "source": "With the default {0}, a file starts with the locale code as its top-level key. The preset reads the messages under that key, in YAML and JSON files whose name ends with {1}, {2} or {3}:",
+  "text": "デフォルトの {0} では、ファイルはトップレベルキーとしてロケールコードで始まります。プリセットは、そのキーの下にあるメッセージを、名前が {1}、{2}、{3} で終わる YAML ファイルと JSON ファイルから読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "デフォルトの {0} では、ファイルはトップレベルキーとしてロケールコードで始まります。プリセットは、そのキーの下にあるメッセージを、名前が {1}、{2}、{3} で終わる YAML ファイルと JSON ファイルから読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

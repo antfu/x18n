@@ -1,0 +1,14 @@
+{
+  "hash": "fc23bdc2a095bf12",
+  "source": "Only values containing the query. By default a fuzzy match also counts.",
+  "text": "僅限包含查詢內容的值。預設也會計入模糊比對。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅限包含查詢內容的值。預設也會計入模糊比對。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

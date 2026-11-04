@@ -1,0 +1,14 @@
+{
+  "hash": "d0e482dc2b712d53",
+  "source": "{0} lists translate calls for the AST scanners of JS, TS, JSX, Vue and Svelte files. Each entry has the shape of an item of {1}:",
+  "text": "{0} 列出 JS、TS、JSX、Vue 與 Svelte 檔案的 AST 掃描器所使用的 translate 呼叫。每個項目的結構與 {1} 的項目相同：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 列出 JS、TS、JSX、Vue 與 Svelte 檔案的 AST 掃描器所使用的 translate 呼叫。每個項目的結構與 {1} 的項目相同："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

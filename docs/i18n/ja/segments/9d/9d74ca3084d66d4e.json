@@ -1,0 +1,14 @@
+{
+  "hash": "9d74ca3084d66d4e",
+  "source": "x18n runs {0} for a preset inside the plugins of another preset. A preset that you list in {1} or {2} always applies.",
+  "text": "x18n は、別のプリセットのプラグイン内にあるプリセットに対して {0} を実行します。{1} または {2} に指定したプリセットは常に適用されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n は、別のプリセットのプラグイン内にあるプリセットに対して {0} を実行します。{1} または {2} に指定したプリセットは常に適用されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

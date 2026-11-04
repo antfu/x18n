@@ -1,0 +1,14 @@
+{
+  "hash": "fdaa6dc1880d5523",
+  "source": "Say that the current value is right.",
+  "text": "현재 값이 올바르다고 알립니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "현재 값이 올바르다고 알립니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

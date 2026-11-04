@@ -1,0 +1,14 @@
+{
+  "hash": "d650a76cb4ca025a",
+  "source": "The preset applies when {0} or {1} has {2} or {3}. {4} alone does not count: it is also the name of an old npm package, and x18n merges the dependencies of all manifests. A project that uses only Babel or the {5} module of the standard library must list the preset:",
+  "text": "이 프리셋은 {0} 또는 {1}에 {2} 또는 {3}가 있을 때 적용됩니다. {4}만으로는 해당되지 않습니다. 이 이름은 오래된 npm 패키지의 이름이기도 하며, x18n은 모든 매니페스트의 의존성을 병합하기 때문입니다. Babel만 사용하거나 표준 라이브러리의 {5} 모듈만 사용하는 프로젝트는 프리셋을 직접 나열해야 합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {0} 또는 {1}에 {2} 또는 {3}가 있을 때 적용됩니다. {4}만으로는 해당되지 않습니다. 이 이름은 오래된 npm 패키지의 이름이기도 하며, x18n은 모든 매니페스트의 의존성을 병합하기 때문입니다. Babel만 사용하거나 표준 라이브러리의 {5} 모듈만 사용하는 프로젝트는 프리셋을 직접 나열해야 합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

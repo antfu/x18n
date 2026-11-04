@@ -1,0 +1,14 @@
+{
+  "hash": "41436d25b8e91cb5",
+  "source": "Open the file and fix the syntax error.",
+  "text": "파일을 열고 구문 오류를 수정하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일을 열고 구문 오류를 수정하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

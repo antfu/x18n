@@ -1,0 +1,14 @@
+{
+  "hash": "9b94c8f1432c0f82",
+  "source": "X18N0002: Config file could not be loaded",
+  "text": "X18N0002: 설정 파일을 불러올 수 없습니다",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N0002: 설정 파일을 불러올 수 없습니다"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

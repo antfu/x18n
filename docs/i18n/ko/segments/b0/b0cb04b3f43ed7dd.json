@@ -1,0 +1,14 @@
+{
+  "hash": "b0cb04b3f43ed7dd",
+  "source": "Braces: {0}. The placeholders of i18next stay: {1} and {2}.",
+  "text": "중괄호: {0}. i18next의 플레이스홀더는 그대로 유지됩니다: {1} 및 {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "중괄호: {0}. i18next의 플레이스홀더는 그대로 유지됩니다: {1} 및 {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

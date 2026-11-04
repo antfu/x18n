@@ -1,0 +1,14 @@
+{
+  "hash": "e250d88f2077aa22",
+  "source": "{0} is a usage of {1}.",
+  "text": "{0} 是 {1} 的一個使用處。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是 {1} 的一個使用處。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

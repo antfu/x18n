@@ -1,0 +1,14 @@
+{
+  "hash": "33ee8d8de2ba09b4",
+  "source": "Which argument holds the key. Default 0.",
+  "text": "키를 담고 있는 인자입니다. 기본값은 0입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키를 담고 있는 인자입니다. 기본값은 0입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

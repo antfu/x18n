@@ -1,0 +1,14 @@
+{
+  "hash": "e5b896af7c9e05cc",
+  "source": "The preset for react-i18next and next-i18next. It reads useTranslation, Trans and Translation, plus everything of i18next.",
+  "text": "react-i18next와 next-i18next를 위한 프리셋입니다. useTranslation, Trans, Translation은 물론 i18next의 모든 기능을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "react-i18next와 next-i18next를 위한 프리셋입니다. useTranslation, Trans, Translation은 물론 i18next의 모든 기능을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

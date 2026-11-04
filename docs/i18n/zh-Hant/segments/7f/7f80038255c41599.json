@@ -1,0 +1,14 @@
+{
+  "hash": "7f80038255c41599",
+  "source": "to use x18n instead of editing locale files by hand, to check whether a key exists before it uses one, to find a key by the text that the app shows, to keep placeholders, and to write keys in full instead of composing them at runtime,",
+  "text": "使用 x18n，而不是手動編輯語系檔案；在使用某個鍵之前先確認它是否存在；依照應用程式顯示的文字尋找鍵；保留佔位符；並完整寫出鍵，而不是在執行階段組合鍵，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 x18n，而不是手動編輯語系檔案；在使用某個鍵之前先確認它是否存在；依照應用程式顯示的文字尋找鍵；保留佔位符；並完整寫出鍵，而不是在執行階段組合鍵，"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b7b36a2f8253faef",
+  "source": "Where the params passed to the message are. For factories, those of the returned functions.",
+  "text": "傳給訊息的參數所在位置。對於 factory，則是回傳函式的參數。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "傳給訊息的參數所在位置。對於 factory，則是回傳函式的參數。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b882310fa17f0e09",
+  "source": "History providers for stale translations. {0} turns every provider off. Options of a provider sit under its key, such as {1} (or {2}).",
+  "text": "古い翻訳を検出するための履歴プロバイダーです。{0} を指定すると、すべてのプロバイダーが無効になります。プロバイダーのオプションは、{1}（または {2}）のようにそのキーの下に記述します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "古い翻訳を検出するための履歴プロバイダーです。{0} を指定すると、すべてのプロバイダーが無効になります。プロバイダーのオプションは、{1}（または {2}）のようにそのキーの下に記述します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

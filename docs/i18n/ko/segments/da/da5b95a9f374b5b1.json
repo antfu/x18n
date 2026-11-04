@@ -1,0 +1,14 @@
+{
+  "hash": "da5b95a9f374b5b1",
+  "source": "A decision is needed and no answer was given. Run again with {0}.",
+  "text": "결정이 필요하지만 답변이 제공되지 않았습니다. {0}와 함께 다시 실행하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "결정이 필요하지만 답변이 제공되지 않았습니다. {0}와 함께 다시 실행하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

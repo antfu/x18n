@@ -1,0 +1,14 @@
+{
+  "hash": "7e7e96465799a5b4",
+  "source": "Say that the value is wrong, and why.",
+  "text": "値が誤っていることと、その理由を示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "値が誤っていることと、その理由を示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

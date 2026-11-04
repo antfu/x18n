@@ -1,0 +1,14 @@
+{
+  "hash": "4660e3b8187c1957",
+  "source": "An approval of a value the message no longer has.",
+  "text": "메시지에 더 이상 없는 값에 대한 승인입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "메시지에 더 이상 없는 값에 대한 승인입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d650a76cb4ca025a",
+  "source": "The preset applies when {0} or {1} has {2} or {3}. {4} alone does not count: it is also the name of an old npm package, and x18n merges the dependencies of all manifests. A project that uses only Babel or the {5} module of the standard library must list the preset:",
+  "text": "當 {0} 或 {1} 含有 {2} 或 {3} 時，就會套用此預設集。只有 {4} 並不算：它同時也是一個舊 npm 套件的名稱，而 x18n 會合併所有資訊清單的相依項目。只使用 Babel 或標準函式庫的 {5} 模組的專案，必須明確列出此預設集：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當 {0} 或 {1} 含有 {2} 或 {3} 時，就會套用此預設集。只有 {4} 並不算：它同時也是一個舊 npm 套件的名稱，而 x18n 會合併所有資訊清單的相依項目。只使用 Babel 或標準函式庫的 {5} 模組的專案，必須明確列出此預設集："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a50dbc5ad07906c9",
+  "source": "{0} returns the descriptions that the tree of the file holds beside the messages, keyed by {1} of their path in the file. The chrome-extension preset reads {2} next to {3} this way.",
+  "text": "{0} は、ファイルのツリーがメッセージと並んで保持している説明を、ファイル内のパスの {1} をキーとして返します。chrome-extension プリセットは、この方法で {3} の隣にある {2} を読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、ファイルのツリーがメッセージと並んで保持している説明を、ファイル内のパスの {1} をキーとして返します。chrome-extension プリセットは、この方法で {3} の隣にある {2} を読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

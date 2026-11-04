@@ -1,0 +1,14 @@
+{
+  "hash": "eb787b45b47f5087",
+  "source": "{0} with an {1} block in {2}",
+  "text": "{2}에 {1} 블록이 있는 {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{2}에 {1} 블록이 있는 {0}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

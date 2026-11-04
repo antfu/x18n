@@ -1,0 +1,14 @@
+{
+  "hash": "1ebc7271e8d6911a",
+  "source": "The JSON contract. {0} picks it too.",
+  "text": "JSON 格式的輸出約定。{0} 也會選用此格式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON 格式的輸出約定。{0} 也會選用此格式。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

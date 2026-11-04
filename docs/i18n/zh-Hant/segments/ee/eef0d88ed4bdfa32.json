@@ -1,0 +1,14 @@
+{
+  "hash": "eef0d88ed4bdfa32",
+  "source": "CSS color of values that replace a whole call ({0}). Empty uses {1}.",
+  "text": "取代整個呼叫（{0}）的值的 CSS 顏色。留空則使用 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "取代整個呼叫（{0}）的值的 CSS 顏色。留空則使用 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

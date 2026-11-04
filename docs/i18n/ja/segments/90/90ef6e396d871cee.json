@@ -1,0 +1,14 @@
+{
+  "hash": "90ef6e396d871cee",
+  "source": "A parameter or prop with the type {0} is a translate function. Its first type argument is the namespace: {1}, or the first of {2}. Props work when typed inline ({3}) or with an interface or type of the same file.",
+  "text": "型が {0} のパラメータまたは props は、翻訳関数として扱われます。最初の型引数が名前空間です：{1}、または {2} の最初の要素です。props は、インラインで型を指定した場合（{3}）、または同じファイル内の interface や type を使った場合に機能します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "型が {0} のパラメータまたは props は、翻訳関数として扱われます。最初の型引数が名前空間です：{1}、または {2} の最初の要素です。props は、インラインで型を指定した場合（{3}）、または同じファイル内の interface や type を使った場合に機能します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

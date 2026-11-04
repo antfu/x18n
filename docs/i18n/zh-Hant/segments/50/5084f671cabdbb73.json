@@ -1,0 +1,14 @@
+{
+  "hash": "5084f671cabdbb73",
+  "source": "How {0} makes a new key: {1} from the text, {2} uses the text itself, {3}, or {4}. Default {5}.",
+  "text": "{0} 如何產生新的鍵：{1} 由文字產生，{2} 直接使用文字本身，{3}，或 {4}。預設為 {5}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 如何產生新的鍵：{1} 由文字產生，{2} 直接使用文字本身，{3}，或 {4}。預設為 {5}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

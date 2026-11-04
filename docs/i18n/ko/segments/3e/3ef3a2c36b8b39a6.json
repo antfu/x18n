@@ -1,0 +1,14 @@
+{
+  "hash": "3ef3a2c36b8b39a6",
+  "source": "{0} lists the projects, the locales with their coverage and the counts of diagnostics. {1} lists every diagnostic.",
+  "text": "{0}은(는) 프로젝트, 커버리지가 포함된 로케일, 진단 개수를 나열합니다. {1}은(는) 모든 진단을 나열합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 프로젝트, 커버리지가 포함된 로케일, 진단 개수를 나열합니다. {1}은(는) 모든 진단을 나열합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "596a1207b1516ffc",
+  "source": "A YAML plugin is a data file that holds the declarative part of the plugin API. Name it {0}, and list its path in {1}:",
+  "text": "YAML 外掛是一種資料檔，用來存放外掛 API 中屬於宣告式的部分。請將它命名為 {0}，並把它的路徑列在 {1} 中：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 外掛是一種資料檔，用來存放外掛 API 中屬於宣告式的部分。請將它命名為 {0}，並把它的路徑列在 {1} 中："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

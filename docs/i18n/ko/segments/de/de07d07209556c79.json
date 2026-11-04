@@ -1,0 +1,14 @@
+{
+  "hash": "de07d07209556c79",
+  "source": "Checks",
+  "text": "검사",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "검사"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

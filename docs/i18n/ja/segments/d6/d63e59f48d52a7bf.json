@@ -1,0 +1,14 @@
+{
+  "hash": "d63e59f48d52a7bf",
+  "source": "The command reads:",
+  "text": "このコマンドは次を読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このコマンドは次を読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

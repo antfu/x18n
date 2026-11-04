@@ -1,0 +1,14 @@
+{
+  "hash": "aac63d69cd606132",
+  "source": "This page lists every command of the {0} CLI. {1}CLI and x18n check{/1} explains how to use them. Run {2} to see the same text in a terminal.",
+  "text": "本頁列出 {0} CLI 的所有指令。{1}CLI 與 x18n check{/1} 說明如何使用這些指令。執行 {2} 可在終端機中看到相同的內容。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "本頁列出 {0} CLI 的所有指令。{1}CLI 與 x18n check{/1} 說明如何使用這些指令。執行 {2} 可在終端機中看到相同的內容。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

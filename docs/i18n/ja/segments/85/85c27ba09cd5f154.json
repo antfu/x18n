@@ -1,0 +1,14 @@
+{
+  "hash": "85c27ba09cd5f154",
+  "source": "Plan is stale. Files changed since the plan was made. Plan again.",
+  "text": "プランが古くなっています。プランの作成後にファイルが変更されました。もう一度プランを作成してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プランが古くなっています。プランの作成後にファイルが変更されました。もう一度プランを作成してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

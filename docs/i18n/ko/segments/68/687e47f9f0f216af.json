@@ -1,0 +1,14 @@
+{
+  "hash": "687e47f9f0f216af",
+  "source": "Start of the page (from {0})",
+  "text": "페이지 시작 위치 ({0}부터)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "페이지 시작 위치 ({0}부터)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

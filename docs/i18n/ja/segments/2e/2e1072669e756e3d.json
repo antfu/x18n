@@ -1,0 +1,14 @@
+{
+  "hash": "2e1072669e756e3d",
+  "source": "{0} exports {1}, {2}, {3}, and the types {4}, {5}, {6}, {7}, {8}, {9}, {10} and {11}. The full plugin API, with every context type, is in {12}. {13}Capabilities{/13} describes each part.",
+  "text": "{0} は {1}、{2}、{3}、および型 {4}、{5}、{6}、{7}、{8}、{9}、{10}、{11} をエクスポートします。すべてのコンテキスト型を含むプラグイン API の全体は {12} にあります。各部分については {13}機能{/13} を参照してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は {1}、{2}、{3}、および型 {4}、{5}、{6}、{7}、{8}、{9}、{10}、{11} をエクスポートします。すべてのコンテキスト型を含むプラグイン API の全体は {12} にあります。各部分については {13}機能{/13} を参照してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c1d0ebc28f4325b0",
+  "source": "Write the matching reporter output to a file (repeatable)",
+  "text": "將對應的 reporter 輸出寫入檔案（可重複使用）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將對應的 reporter 輸出寫入檔案（可重複使用）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

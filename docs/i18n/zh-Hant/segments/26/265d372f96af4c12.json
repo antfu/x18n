@@ -1,0 +1,14 @@
+{
+  "hash": "265d372f96af4c12",
+  "source": "The {0} hook changes a draft of the config before it is final. Presets use it to set defaults: the config of the project wins over them. {1} receives the dependencies of the project and can test files with {2}.",
+  "text": "{0} 鉤子（hook）會在設定定案之前修改設定的草稿。預設集用它來設定預設值：專案本身的設定優先於這些預設值。{1} 會接收專案的相依套件，並可使用 {2} 測試檔案。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 鉤子（hook）會在設定定案之前修改設定的草稿。預設集用它來設定預設值：專案本身的設定優先於這些預設值。{1} 會接收專案的相依套件，並可使用 {2} 測試檔案。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

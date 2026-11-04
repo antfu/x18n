@@ -1,0 +1,14 @@
+{
+  "hash": "17ab1b9ab5c49c63",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3}, because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "懸停提示會顯示每個語系的值以及使用處的數量。只有當用戶端在 {3} 中列出 {0}、{1} 和 {2} 時，才會連結到它們，因為無法執行 {4} URL 的用戶端會把它當作連結開啟並失敗。預設為不提供連結。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "懸停提示會顯示每個語系的值以及使用處的數量。只有當用戶端在 {3} 中列出 {0}、{1} 和 {2} 時，才會連結到它們，因為無法執行 {4} URL 的用戶端會把它當作連結開啟並失敗。預設為不提供連結。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

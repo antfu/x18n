@@ -1,0 +1,14 @@
+{
+  "hash": "2b9ded79ecde4134",
+  "source": "Style reference: up to five existing messages of the target locale, as examples of its tone. A value that is a copy of the source is never an example.",
+  "text": "スタイル参照: 対象ロケールの既存メッセージを最大 5 件、トーンの例として示します。ソースのコピーである値は例として使われません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "スタイル参照: 対象ロケールの既存メッセージを最大 5 件、トーンの例として示します。ソースのコピーである値は例として使われません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

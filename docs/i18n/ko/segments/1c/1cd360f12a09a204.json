@@ -1,0 +1,14 @@
+{
+  "hash": "1cd360f12a09a204",
+  "source": "Bind host (default: localhost)",
+  "text": "바인딩할 호스트 (기본값: localhost)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "바인딩할 호스트 (기본값: localhost)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

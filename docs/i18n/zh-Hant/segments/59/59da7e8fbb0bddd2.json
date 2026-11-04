@@ -1,0 +1,14 @@
+{
+  "hash": "59da7e8fbb0bddd2",
+  "source": "These usages are {0}, {1}, {2}, {3} and {4}. The generated {5} constants are not read.",
+  "text": "這些使用處包括 {0}、{1}、{2}、{3} 和 {4}。產生的 {5} 常數不會被讀取。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "這些使用處包括 {0}、{1}、{2}、{3} 和 {4}。產生的 {5} 常數不會被讀取。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4aa9c1dfe235931b",
+  "source": "The preset adds a locale finder for the two file layouts of VS Code:",
+  "text": "이 프리셋은 VS Code의 두 가지 파일 구조를 위한 로케일 파인더를 추가합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 VS Code의 두 가지 파일 구조를 위한 로케일 파인더를 추가합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

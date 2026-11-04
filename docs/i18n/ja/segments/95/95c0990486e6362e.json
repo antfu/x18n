@@ -1,0 +1,14 @@
+{
+  "hash": "95c0990486e6362e",
+  "source": "{0}, {1} and {2} read {3} from their first argument.",
+  "text": "{0}、{1}、{2} は、最初の引数から {3} を読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2} は、最初の引数から {3} を読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "eebf448044285ac1",
+  "source": "Attribute names whose values are never extracted, even text ones such as {0}.",
+  "text": "値を抽出しない属性名です。{0} のようにテキストを値に持つ属性も対象外になります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "値を抽出しない属性名です。{0} のようにテキストを値に持つ属性も対象外になります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

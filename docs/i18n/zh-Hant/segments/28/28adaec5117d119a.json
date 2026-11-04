@@ -1,0 +1,14 @@
+{
+  "hash": "28adaec5117d119a",
+  "source": "In a project with namespaces, a key may hold {0} after its namespace. In code, {1} names the namespace {2}. With {3} (i18next {4}), code never names a namespace, so {5} is the key {6}.",
+  "text": "在使用命名空間的專案中，鍵在命名空間之後可以包含 {0}。在程式碼中，{1} 指的是命名空間 {2}。使用 {3}（i18next 的 {4}）時，程式碼不會指定命名空間，因此 {5} 就是鍵 {6}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在使用命名空間的專案中，鍵在命名空間之後可以包含 {0}。在程式碼中，{1} 指的是命名空間 {2}。使用 {3}（i18next 的 {4}）時，程式碼不會指定命名空間，因此 {5} 就是鍵 {6}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

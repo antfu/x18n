@@ -1,0 +1,14 @@
+{
+  "hash": "b43bc58055deec37",
+  "source": "{0} tells if the transform applies to a resource. Without it, the transform applies to every resource.",
+  "text": "{0} 用來判斷轉換是否適用於某個資源。若未提供，轉換會套用到每個資源。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 用來判斷轉換是否適用於某個資源。若未提供，轉換會套用到每個資源。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

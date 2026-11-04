@@ -1,0 +1,14 @@
+{
+  "hash": "973f821ff3cec652",
+  "source": "Lines added once per file when missing, for example an import.",
+  "text": "파일에 없을 때 파일당 한 번만 추가되는 줄입니다. 예: import 문.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일에 없을 때 파일당 한 번만 추가되는 줄입니다. 예: import 문."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

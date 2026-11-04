@@ -1,0 +1,14 @@
+{
+  "hash": "d13070a3326010db",
+  "source": "Locales show with their flag in the views, the locale pickers, hovers and the status bar. Set {0} to {1} to hide the flags.",
+  "text": "語系會在檢視、語系選擇器、懸停提示與狀態列中連同旗幟一起顯示。將 {0} 設為 {1} 即可隱藏旗幟。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "語系會在檢視、語系選擇器、懸停提示與狀態列中連同旗幟一起顯示。將 {0} 設為 {1} 即可隱藏旗幟。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

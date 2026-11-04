@@ -1,0 +1,14 @@
+{
+  "hash": "acb977b3522f8dfe",
+  "source": "Renaming a parent node, which renames every key under it.",
+  "text": "親ノードの名前を変更し、その配下のすべてのキーの名前も変更することです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "親ノードの名前を変更し、その配下のすべてのキーの名前も変更することです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

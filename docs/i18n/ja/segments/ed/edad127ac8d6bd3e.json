@@ -1,0 +1,14 @@
+{
+  "hash": "edad127ac8d6bd3e",
+  "source": "Two plugins register a capability (a format, finder, scanner, check, reporter or placeholder syntax) with the same id.",
+  "text": "2 つのプラグインが、同じ id で capability（format、finder、scanner、チェック、reporter、プレースホルダー構文）を登録しています。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "2 つのプラグインが、同じ id で capability（format、finder、scanner、チェック、reporter、プレースホルダー構文）を登録しています。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

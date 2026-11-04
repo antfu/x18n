@@ -1,0 +1,14 @@
+{
+  "hash": "d2edb71c90b432fd",
+  "source": "Key separator of matching files, over {0}. {1} for files keyed by whole sentences (Laravel {2}).",
+  "text": "符合檔案的鍵分隔符號，優先於 {0}。以整句作為鍵的檔案請使用 {1}（Laravel {2}）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "符合檔案的鍵分隔符號，優先於 {0}。以整句作為鍵的檔案請使用 {1}（Laravel {2}）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

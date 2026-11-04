@@ -1,0 +1,14 @@
+{
+  "hash": "7481a981ab22ec5f",
+  "source": "The default export can also be a function that returns the config, or a promise of it.",
+  "text": "デフォルトエクスポートには、設定を返す関数や、設定の Promise も指定できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "デフォルトエクスポートには、設定を返す関数や、設定の Promise も指定できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

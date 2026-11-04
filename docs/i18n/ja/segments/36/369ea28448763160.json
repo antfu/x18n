@@ -1,0 +1,14 @@
+{
+  "hash": "369ea28448763160",
+  "source": "A plugin package lets other projects use your plugin with one line of config.",
+  "text": "プラグインをパッケージとして公開すると、他のプロジェクトで設定 1 行だけでそのプラグインを使えるようになります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインをパッケージとして公開すると、他のプロジェクトで設定 1 行だけでそのプラグインを使えるようになります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "10dd6139bcb22430",
+  "source": "A message with an empty string value.",
+  "text": "値が空文字列のメッセージです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "値が空文字列のメッセージです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

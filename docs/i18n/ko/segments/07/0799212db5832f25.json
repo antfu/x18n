@@ -1,0 +1,14 @@
+{
+  "hash": "0799212db5832f25",
+  "source": "Key order when x18n writes a file. {0} sorts by code point, {1} sorts with a locale-aware compare, {2} keeps the order.",
+  "text": "x18n이 파일을 작성할 때의 키 순서입니다. {0}는 코드 포인트 순으로 정렬하고, {1}는 로케일을 고려한 비교로 정렬하며, {2}는 순서를 유지합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n이 파일을 작성할 때의 키 순서입니다. {0}는 코드 포인트 순으로 정렬하고, {1}는 로케일을 고려한 비교로 정렬하며, {2}는 순서를 유지합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

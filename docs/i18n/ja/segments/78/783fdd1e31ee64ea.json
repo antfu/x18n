@@ -1,0 +1,14 @@
+{
+  "hash": "783fdd1e31ee64ea",
+  "source": "Where a key prefix comes from ({0} option, or next-intl {1}).",
+  "text": "キープレフィックスの取得元（{0} オプション、または next-intl の {1}）です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キープレフィックスの取得元（{0} オプション、または next-intl の {1}）です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

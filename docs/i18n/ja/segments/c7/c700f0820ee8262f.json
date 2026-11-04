@@ -1,0 +1,14 @@
+{
+  "hash": "c700f0820ee8262f",
+  "source": "The built-in scanners are {0} (JS, TS, JSX), {1}, {2}, {3}, {4} and {5}. The {6} scanner finds hard strings in HTML and Angular templates; the {7} and {8} presets add it. Most libraries need no new scanner: a call spec in {9} or a regex scanner is enough.",
+  "text": "組み込みのスキャナーは {0}（JS、TS、JSX）、{1}、{2}、{3}、{4}、{5} です。{6} スキャナーは HTML と Angular テンプレート内のハードコードされた文字列を検出します。{7} と {8} のプリセットがこれを追加します。ほとんどのライブラリでは新しいスキャナーは不要で、{9} の呼び出し仕様か正規表現スキャナーで十分です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "組み込みのスキャナーは {0}（JS、TS、JSX）、{1}、{2}、{3}、{4}、{5} です。{6} スキャナーは HTML と Angular テンプレート内のハードコードされた文字列を検出します。{7} と {8} のプリセットがこれを追加します。ほとんどのライブラリでは新しいスキャナーは不要で、{9} の呼び出し仕様か正規表現スキャナーで十分です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

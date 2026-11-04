@@ -1,0 +1,14 @@
+{
+  "hash": "d05a80be0f119865",
+  "source": "Do not edit locale files by hand. These commands keep the format, the indent, the key style and the order of each file, and they check placeholders:",
+  "text": "로케일 파일을 직접 편집하지 마세요. 다음 명령은 각 파일의 포맷, 들여쓰기, 키 스타일, 순서를 유지하며 플레이스홀더를 검사합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일 파일을 직접 편집하지 마세요. 다음 명령은 각 파일의 포맷, 들여쓰기, 키 스타일, 순서를 유지하며 플레이스홀더를 검사합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

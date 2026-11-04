@@ -1,0 +1,14 @@
+{
+  "hash": "4722e512c210f04e",
+  "source": "The preset applies when the project has a {0}, {1} or {2} file and a {3} file.",
+  "text": "當專案中有 {0}、{1} 或 {2} 檔案，以及 {3} 檔案時，就會套用此預設集。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當專案中有 {0}、{1} 或 {2} 檔案，以及 {3} 檔案時，就會套用此預設集。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

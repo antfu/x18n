@@ -1,0 +1,14 @@
+{
+  "hash": "e3826d0c431dd71a",
+  "source": "set x18n up, or migrate from i18n-ally",
+  "text": "x18n을 설정하거나 i18n-ally에서 마이그레이션합니다",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n을 설정하거나 i18n-ally에서 마이그레이션합니다"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

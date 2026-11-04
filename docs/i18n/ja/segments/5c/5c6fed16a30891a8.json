@@ -1,0 +1,14 @@
+{
+  "hash": "5c6fed16a30891a8",
+  "source": "In TS and JS files, these names count as translate calls: {0}, {1}, {2}, {3} and {4}.",
+  "text": "TS ファイルと JS ファイルでは、次の名前が translate の呼び出しとして扱われます: {0}、{1}、{2}、{3}、{4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TS ファイルと JS ファイルでは、次の名前が translate の呼び出しとして扱われます: {0}、{1}、{2}、{3}、{4}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

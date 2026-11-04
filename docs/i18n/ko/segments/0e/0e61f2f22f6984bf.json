@@ -1,0 +1,14 @@
+{
+  "hash": "0e61f2f22f6984bf",
+  "source": "Renames a key in every locale and every usage in code. {0} keeps the code.",
+  "text": "모든 로케일의 키와 코드의 모든 사용처 이름을 변경합니다. {0}는 코드를 유지합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일의 키와 코드의 모든 사용처 이름을 변경합니다. {0}는 코드를 유지합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

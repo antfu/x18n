@@ -1,0 +1,14 @@
+{
+  "hash": "271a2ca96f310a2d",
+  "source": "A preset is a group of plugins with a {0} function. x18n runs {1} for the built-in presets when {2} is {3}, and for a preset inside the plugins of another preset. A preset or plugin that you list in {4} or {5} always applies, and {6} shows it as {7}.",
+  "text": "プリセットは、{0} 関数を持つプラグインのグループです。x18n は、{2} が {3} の場合は組み込みプリセットに対して、また別のプリセットのプラグインに含まれるプリセットに対して {1} を実行します。{4} や {5} に列挙したプリセットまたはプラグインは常に適用され、{6} では {7} と表示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プリセットは、{0} 関数を持つプラグインのグループです。x18n は、{2} が {3} の場合は組み込みプリセットに対して、また別のプリセットのプラグインに含まれるプリセットに対して {1} を実行します。{4} や {5} に列挙したプリセットまたはプラグインは常に適用され、{6} では {7} と表示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9a9be9dd0136cd21",
+  "source": "The preset applies when the project depends on {0}, or on any {1} package.",
+  "text": "이 프리셋은 프로젝트가 {0}에 의존하거나 {1} 패키지 중 하나에 의존할 때 적용됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 프로젝트가 {0}에 의존하거나 {1} 패키지 중 하나에 의존할 때 적용됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

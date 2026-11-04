@@ -1,0 +1,14 @@
+{
+  "hash": "9aaf54f6ec7576e1",
+  "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
+  "text": "大括號：{0}。雙大括號：{1}，即複數形式中的數量。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "大括號：{0}。雙大括號：{1}，即複數形式中的數量。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "34fefe572fc72f16",
+  "source": "The {0}glossary{/0} lists every name in one table.",
+  "text": "{0}용어집{/0}에서 모든 이름을 하나의 표로 확인할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}용어집{/0}에서 모든 이름을 하나의 표로 확인할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

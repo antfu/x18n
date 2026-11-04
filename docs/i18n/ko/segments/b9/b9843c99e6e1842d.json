@@ -1,0 +1,14 @@
+{
+  "hash": "b9843c99e6e1842d",
+  "source": "{0} changes a draft of the config before it is final. {1} is the config as the user wrote it, and {2} reads files. Presets set their defaults here. The config of the project is applied after every hook, so it wins.",
+  "text": "{0}은(는) 설정이 확정되기 전에 설정의 초안을 변경합니다. {1}은(는) 사용자가 작성한 그대로의 설정이며, {2}은(는) 파일을 읽습니다. 프리셋은 여기에서 기본값을 설정합니다. 프로젝트의 설정은 모든 훅 이후에 적용되므로 우선합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 설정이 확정되기 전에 설정의 초안을 변경합니다. {1}은(는) 사용자가 작성한 그대로의 설정이며, {2}은(는) 파일을 읽습니다. 프리셋은 여기에서 기본값을 설정합니다. 프로젝트의 설정은 모든 훅 이후에 적용되므로 우선합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

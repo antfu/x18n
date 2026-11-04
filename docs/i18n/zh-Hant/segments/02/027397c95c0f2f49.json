@@ -1,0 +1,14 @@
+{
+  "hash": "027397c95c0f2f49",
+  "source": "Path pattern with {0}, {1}, {2}, {3} and {4} tokens and globs.",
+  "text": "含有 {0}、{1}、{2}、{3} 和 {4} 標記及 glob 的路徑模式。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "含有 {0}、{1}、{2}、{3} 和 {4} 標記及 glob 的路徑模式。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

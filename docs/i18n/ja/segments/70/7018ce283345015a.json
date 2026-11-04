@@ -1,0 +1,14 @@
+{
+  "hash": "7018ce283345015a",
+  "source": "Editor decoration that hides a key and shows its display-locale value.",
+  "text": "キーを非表示にし、表示ロケールの値を表示するエディターの装飾です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーを非表示にし、表示ロケールの値を表示するエディターの装飾です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

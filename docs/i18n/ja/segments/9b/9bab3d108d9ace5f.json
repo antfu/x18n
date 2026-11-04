@@ -1,0 +1,14 @@
+{
+  "hash": "9bab3d108d9ace5f",
+  "source": "The check reports one diagnostic per key, at the entry in the source locale, and lists the locales that lack the key. An empty string is not missing: the {0} check reports it.",
+  "text": "このチェックは、キーごとに 1 件の診断をソースロケールのエントリに対して報告し、そのキーが存在しないロケールを一覧表示します。空文字列は欠落として扱われません。空文字列は {0} チェックが報告します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックは、キーごとに 1 件の診断をソースロケールのエントリに対して報告し、そのキーが存在しないロケールを一覧表示します。空文字列は欠落として扱われません。空文字列は {0} チェックが報告します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

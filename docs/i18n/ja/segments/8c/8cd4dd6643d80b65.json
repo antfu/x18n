@@ -1,0 +1,14 @@
+{
+  "hash": "8cd4dd6643d80b65",
+  "source": "{0} shows where x18n found a key and its usages. If a usage is missing, the scanner does not know the callee. Add it to {1} or to the plugin.",
+  "text": "{0} は、x18n がキーとその使用箇所をどこで見つけたかを表示します。使用箇所が見つからない場合、スキャナーが呼び出し先を認識していません。{1} またはプラグインに追加してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、x18n がキーとその使用箇所をどこで見つけたかを表示します。使用箇所が見つからない場合、スキャナーが呼び出し先を認識していません。{1} またはプラグインに追加してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

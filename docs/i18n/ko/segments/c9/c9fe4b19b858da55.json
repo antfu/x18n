@@ -1,0 +1,14 @@
+{
+  "hash": "c9fe4b19b858da55",
+  "source": "Fluent. A message attribute is the key {0}.",
+  "text": "Fluent. 메시지 속성은 키 {0}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Fluent. 메시지 속성은 키 {0}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

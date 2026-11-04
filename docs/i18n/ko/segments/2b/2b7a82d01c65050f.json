@@ -1,0 +1,14 @@
+{
+  "hash": "2b7a82d01c65050f",
+  "source": "Copy this prompt to your coding agent. It sets x18n up for you:",
+  "text": "이 프롬프트를 코딩 에이전트에 복사하세요. 에이전트가 x18n을 대신 설정합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프롬프트를 코딩 에이전트에 복사하세요. 에이전트가 x18n을 대신 설정합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

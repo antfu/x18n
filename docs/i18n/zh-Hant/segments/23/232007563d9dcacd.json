@@ -1,0 +1,14 @@
+{
+  "hash": "232007563d9dcacd",
+  "source": "Skip these check ids (comma separated)",
+  "text": "略過這些檢查 id（以逗號分隔）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "略過這些檢查 id（以逗號分隔）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

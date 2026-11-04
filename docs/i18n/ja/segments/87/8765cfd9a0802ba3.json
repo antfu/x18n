@@ -1,0 +1,14 @@
+{
+  "hash": "8765cfd9a0802ba3",
+  "source": "The preset reads the {0} block of every project in {1}:",
+  "text": "このプリセットは、{1} にあるすべてのプロジェクトの {0} ブロックを読み込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、{1} にあるすべてのプロジェクトの {0} ブロックを読み込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

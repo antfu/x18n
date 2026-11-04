@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "서버는 이 명령들을 {0}를 통해 실행합니다. 인자는 객체 하나입니다. {1}의 기본값은 첫 번째 프로젝트입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "서버는 이 명령들을 {0}를 통해 실행합니다. 인자는 객체 하나입니다. {1}의 기본값은 첫 번째 프로젝트입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

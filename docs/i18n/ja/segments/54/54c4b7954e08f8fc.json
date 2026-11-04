@@ -1,0 +1,14 @@
+{
+  "hash": "54c4b7954e08f8fc",
+  "source": "The {0} preset supports {1}@fluent/react{/1}, the React binding of {2}Project Fluent{/2}.",
+  "text": "{0} プリセットは、{2}Project Fluent{/2} の React バインディングである {1}@fluent/react{/1} をサポートします。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、{2}Project Fluent{/2} の React バインディングである {1}@fluent/react{/1} をサポートします。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

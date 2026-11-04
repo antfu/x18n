@@ -1,0 +1,14 @@
+{
+  "hash": "c95f9120e525b052",
+  "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
+  "text": "同時為葉節點與父節點的鍵，或在同一語系的多個檔案中重複的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同時為葉節點與父節點的鍵，或在同一語系的多個檔案中重複的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

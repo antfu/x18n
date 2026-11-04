@@ -1,0 +1,14 @@
+{
+  "hash": "a9a41e01cda9ce0b",
+  "source": "These come from the {0} branch, so they can name commands that your installed CLI does not have yet. Run the command again to update them.",
+  "text": "これらは {0} ブランチから取得されるため、インストール済みの CLI にまだ存在しないコマンドが含まれている場合があります。更新するには、コマンドをもう一度実行してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "これらは {0} ブランチから取得されるため、インストール済みの CLI にまだ存在しないコマンドが含まれている場合があります。更新するには、コマンドをもう一度実行してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

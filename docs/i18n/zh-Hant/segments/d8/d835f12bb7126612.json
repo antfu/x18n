@@ -1,0 +1,14 @@
+{
+  "hash": "d835f12bb7126612",
+  "source": "These names count as translate calls: {0}, {1}, {2} and {3}.",
+  "text": "以下名稱會被視為翻譯呼叫：{0}、{1}、{2} 和 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以下名稱會被視為翻譯呼叫：{0}、{1}、{2} 和 {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

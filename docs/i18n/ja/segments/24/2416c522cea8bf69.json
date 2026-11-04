@@ -1,0 +1,14 @@
+{
+  "hash": "2416c522cea8bf69",
+  "source": "{0} is a translate call, and so is the tagged template {1}.",
+  "text": "{0} は翻訳呼び出しであり、タグ付きテンプレート {1} も同様です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は翻訳呼び出しであり、タグ付きテンプレート {1} も同様です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

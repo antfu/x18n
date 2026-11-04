@@ -1,0 +1,14 @@
+{
+  "hash": "5388b7546a9eb6c8",
+  "source": "Locale of the message (repeatable for mark-fresh)",
+  "text": "메시지의 로케일 (mark-fresh에서는 반복 가능)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "메시지의 로케일 (mark-fresh에서는 반복 가능)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

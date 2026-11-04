@@ -1,0 +1,14 @@
+{
+  "hash": "b492cc293fad1a00",
+  "source": "A message with an open \"request change\" review.",
+  "text": "열려 있는 \"변경 요청\" 리뷰가 있는 메시지입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "열려 있는 \"변경 요청\" 리뷰가 있는 메시지입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

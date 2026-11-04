@@ -1,0 +1,14 @@
+{
+  "hash": "03827aa3ecd0e563",
+  "source": "Code scanning",
+  "text": "程式碼掃描",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "程式碼掃描"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "596b0d93fd243c5d",
+  "source": "This plugin adds a check that reports messages that still contain {0}:",
+  "text": "此外掛新增一個檢查，用來回報仍包含 {0} 的訊息：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此外掛新增一個檢查，用來回報仍包含 {0} 的訊息："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

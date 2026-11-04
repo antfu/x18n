@@ -1,0 +1,14 @@
+{
+  "hash": "f585fc580553967b",
+  "source": "Use the source value instead of an empty string",
+  "text": "빈 문자열 대신 소스 값을 사용합니다",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "빈 문자열 대신 소스 값을 사용합니다"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

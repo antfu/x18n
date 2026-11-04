@@ -1,0 +1,14 @@
+{
+  "hash": "1d21ecdb53497d4d",
+  "source": "The preset for Joomla. It reads INI language files and Text::_ calls.",
+  "text": "Joomla 用のプリセットです。INI 言語ファイルと Text::_ の呼び出しを読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Joomla 用のプリセットです。INI 言語ファイルと Text::_ の呼び出しを読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

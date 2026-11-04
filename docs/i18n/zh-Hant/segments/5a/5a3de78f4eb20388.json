@@ -1,0 +1,14 @@
+{
+  "hash": "5a3de78f4eb20388",
+  "source": "A bare {0} call, for example from {1}, is not read: x18n can't tell it apart from other functions named {2}. Call it as {3}, or add {4} to {5} in your config.",
+  "text": "單獨的 {0} 呼叫（例如來自 {1}）不會被讀取：x18n 無法將它與其他名為 {2} 的函式區分開來。請以 {3} 的方式呼叫，或在設定的 {5} 中加入 {4}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "單獨的 {0} 呼叫（例如來自 {1}）不會被讀取：x18n 無法將它與其他名為 {2} 的函式區分開來。請以 {3} 的方式呼叫，或在設定的 {5} 中加入 {4}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

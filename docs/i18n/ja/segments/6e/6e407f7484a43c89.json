@@ -1,0 +1,14 @@
+{
+  "hash": "6e407f7484a43c89",
+  "source": "{0} marks a plugin that needs Node. Runtimes without Node skip it.",
+  "text": "{0} は、Node が必要なプラグインを示します。Node のないランタイムではスキップされます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、Node が必要なプラグインを示します。Node のないランタイムではスキップされます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

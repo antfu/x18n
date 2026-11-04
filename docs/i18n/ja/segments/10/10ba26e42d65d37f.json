@@ -1,0 +1,14 @@
+{
+  "hash": "10ba26e42d65d37f",
+  "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
+  "text": "各ロケールの値をファイルと行番号付きで表示し、さらにそのキーがないロケール、使用箇所、診断を表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各ロケールの値をファイルと行番号付きで表示し、さらにそのキーがないロケール、使用箇所、診断を表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

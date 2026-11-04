@@ -1,0 +1,14 @@
+{
+  "hash": "3678cb27eb479425",
+  "source": "The preset for svelte-i18n. It reads the $_ store and its aliases in Svelte components and scripts.",
+  "text": "svelte-i18n 的預設集。它會讀取 Svelte 元件與腳本中的 $_ store 及其別名。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "svelte-i18n 的預設集。它會讀取 Svelte 元件與腳本中的 $_ store 及其別名。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dac5bb00a65d4d1a",
+  "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
+  "text": "보기, 선택기, 호버, 상태 표시줄에 각 로케일의 국기를 표시합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "보기, 선택기, 호버, 상태 표시줄에 각 로케일의 국기를 표시합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

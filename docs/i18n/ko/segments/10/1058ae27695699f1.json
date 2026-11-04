@@ -1,0 +1,14 @@
+{
+  "hash": "1058ae27695699f1",
+  "source": "extracted ({0}) and translator ({1}) comments",
+  "text": "추출된 주석({0})과 번역가 주석({1})",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "추출된 주석({0})과 번역가 주석({1})"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

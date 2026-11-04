@@ -1,0 +1,14 @@
+{
+  "hash": "6b001c11f5b07cec",
+  "source": "Agents make that possible. A rewrite of this size used to need months, and now I can build it in my free time and still make it solid. Agents also would benefit from it: they edit locale files all day, and they need the key behind a text, the missing keys and a safe way to rename a key. So I brought the idea back, and this time I made it real.",
+  "text": "それを可能にしたのがエージェントです。この規模の書き直しにはかつて数か月が必要でしたが、今では空き時間で作り、しかも堅牢に仕上げられます。エージェントにとってもこれは有益です。エージェントは一日中ロケールファイルを編集しており、テキストに対応するキー、不足しているキー、キーを安全にリネームする方法を必要とするからです。そこでこのアイデアを復活させ、今度こそ実現しました。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "それを可能にしたのがエージェントです。この規模の書き直しにはかつて数か月が必要でしたが、今では空き時間で作り、しかも堅牢に仕上げられます。エージェントにとってもこれは有益です。エージェントは一日中ロケールファイルを編集しており、テキストに対応するキー、不足しているキー、キーを安全にリネームする方法を必要とするからです。そこでこのアイデアを復活させ、今度こそ実現しました。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

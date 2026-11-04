@@ -1,0 +1,14 @@
+{
+  "hash": "a1f04b1b2a616b8d",
+  "source": "the MCP tool {0},",
+  "text": "MCP 도구 {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "MCP 도구 {0}"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

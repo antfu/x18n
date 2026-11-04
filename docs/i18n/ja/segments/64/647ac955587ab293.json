@@ -1,0 +1,14 @@
+{
+  "hash": "647ac955587ab293",
+  "source": "This is a usage of the key {0}.",
+  "text": "これはキー {0} の使用箇所です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "これはキー {0} の使用箇所です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

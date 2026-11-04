@@ -1,0 +1,14 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "설정에 정규식 스캐너, 스코프, 리팩터 템플릿, 로케일 플래그 또는 사용자 정의 프레임워크가 있을 때입니다. 설정은 이를 {0}에 나열합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에 정규식 스캐너, 스코프, 리팩터 템플릿, 로케일 플래그 또는 사용자 정의 프레임워크가 있을 때입니다. 설정은 이를 {0}에 나열합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

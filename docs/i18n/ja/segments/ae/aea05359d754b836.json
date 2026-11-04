@@ -1,0 +1,14 @@
+{
+  "hash": "aea05359d754b836",
+  "source": "Reports when each message last changed, for stale translations. Git is the built-in one.",
+  "text": "古い翻訳を検出するために、各メッセージが最後に変更された時点を報告します。組み込みのものは Git です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "古い翻訳を検出するために、各メッセージが最後に変更された時点を報告します。組み込みのものは Git です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

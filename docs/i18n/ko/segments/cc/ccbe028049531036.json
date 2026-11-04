@@ -1,0 +1,14 @@
+{
+  "hash": "ccbe028049531036",
+  "source": "Only report for these locales (repeatable)",
+  "text": "지정한 로케일에 대해서만 보고 (반복 가능)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "지정한 로케일에 대해서만 보고 (반복 가능)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

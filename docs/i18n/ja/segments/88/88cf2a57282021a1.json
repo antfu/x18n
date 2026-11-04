@@ -1,0 +1,14 @@
+{
+  "hash": "88cf2a57282021a1",
+  "source": "Install \"x18n\" by antfu from the VS Code Marketplace or Open VSX. The extension id is {0}. It needs VS Code 1.100 or later.",
+  "text": "VS Code Marketplace または Open VSX から antfu の「x18n」をインストールしてください。拡張機能の ID は {0} です。VS Code 1.100 以降が必要です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "VS Code Marketplace または Open VSX から antfu の「x18n」をインストールしてください。拡張機能の ID は {0} です。VS Code 1.100 以降が必要です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

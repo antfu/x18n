@@ -1,0 +1,14 @@
+{
+  "hash": "202dd4d56b832892",
+  "source": "Rename target already exists. Delete or rename the existing key first.",
+  "text": "이름 변경 대상이 이미 존재합니다. 기존 키를 먼저 삭제하거나 이름을 변경하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이름 변경 대상이 이미 존재합니다. 기존 키를 먼저 삭제하거나 이름을 변경하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

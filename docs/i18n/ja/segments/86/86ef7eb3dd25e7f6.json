@@ -1,0 +1,14 @@
+{
+  "hash": "86ef7eb3dd25e7f6",
+  "source": "When x18n renames a key, its threads move with it. When x18n deletes a key, its threads go too.",
+  "text": "x18n がキーの名前を変更すると、そのスレッドも一緒に移動します。x18n がキーを削除すると、そのスレッドも削除されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n がキーの名前を変更すると、そのスレッドも一緒に移動します。x18n がキーを削除すると、そのスレッドも削除されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

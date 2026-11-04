@@ -1,0 +1,14 @@
+{
+  "hash": "65224dabe7b55910",
+  "source": "A template can add {0}: lines that x18n adds once to the file when they are missing, such as {1}.",
+  "text": "템플릿은 {0}을(를) 추가할 수 있습니다. 이는 파일에 없을 때 x18n이 한 번만 추가하는 줄이며, 예를 들면 {1}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "템플릿은 {0}을(를) 추가할 수 있습니다. 이는 파일에 없을 때 x18n이 한 번만 추가하는 줄이며, 예를 들면 {1}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

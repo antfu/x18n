@@ -1,0 +1,14 @@
+{
+  "hash": "569f96cecccee45c",
+  "source": "In JS, TS and Vue files, the preset reads the {0} tagged template. The text of the template is the key:",
+  "text": "JS, TS, Vue 파일에서 이 프리셋은 {0} 태그드 템플릿을 읽습니다. 템플릿의 텍스트가 키입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JS, TS, Vue 파일에서 이 프리셋은 {0} 태그드 템플릿을 읽습니다. 템플릿의 텍스트가 키입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

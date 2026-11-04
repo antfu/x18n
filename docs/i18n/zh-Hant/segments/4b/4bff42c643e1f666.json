@@ -1,0 +1,14 @@
+{
+  "hash": "4bff42c643e1f666",
+  "source": "Colon: {0}, as in {1}.",
+  "text": "冒號：{0}，如 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "冒號：{0}，如 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

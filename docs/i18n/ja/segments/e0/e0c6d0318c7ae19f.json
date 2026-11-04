@@ -1,0 +1,14 @@
+{
+  "hash": "e0c6d0318c7ae19f",
+  "source": "If x18n finds the wrong files, or none, run {0}. It shows the detected presets, the resources that each locale finder found, and the source files that each scanner read.",
+  "text": "x18n が誤ったファイルを検出する場合や、何も検出しない場合は、{0} を実行してください。検出されたプリセット、各ロケールファインダーが見つけたリソース、各スキャナーが読み込んだソースファイルが表示されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n が誤ったファイルを検出する場合や、何も検出しない場合は、{0} を実行してください。検出されたプリセット、各ロケールファインダーが見つけたリソース、各スキャナーが読み込んだソースファイルが表示されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

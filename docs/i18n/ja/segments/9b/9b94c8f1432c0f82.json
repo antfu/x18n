@@ -1,0 +1,14 @@
+{
+  "hash": "9b94c8f1432c0f82",
+  "source": "X18N0002: Config file could not be loaded",
+  "text": "X18N0002: 設定ファイルを読み込めませんでした",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N0002: 設定ファイルを読み込めませんでした"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

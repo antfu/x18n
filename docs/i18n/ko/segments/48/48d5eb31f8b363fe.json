@@ -1,0 +1,14 @@
+{
+  "hash": "48d5eb31f8b363fe",
+  "source": "The preset for @lit/localize. It reads msg() with str and html, computes the same ids as lit-localize, and reads XLIFF per target locale.",
+  "text": "@lit/localize용 프리셋입니다. str 및 html과 함께 사용하는 msg()를 읽고, lit-localize와 동일한 id를 계산하며, 대상 로케일별 XLIFF를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@lit/localize용 프리셋입니다. str 및 html과 함께 사용하는 msg()를 읽고, lit-localize와 동일한 id를 계산하며, 대상 로케일별 XLIFF를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

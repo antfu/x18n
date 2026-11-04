@@ -1,0 +1,14 @@
+{
+  "hash": "92e2a78268123b4e",
+  "source": "Messages per prompt. The default is 50.",
+  "text": "1 つのプロンプトに含めるメッセージ数です。デフォルトは 50 です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 つのプロンプトに含めるメッセージ数です。デフォルトは 50 です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

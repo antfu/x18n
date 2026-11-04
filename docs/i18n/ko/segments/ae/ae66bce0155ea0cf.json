@@ -1,0 +1,14 @@
+{
+  "hash": "ae66bce0155ea0cf",
+  "source": "In Kotlin and Java, {0}, {1} and {2}. In XML, {3}, {4} and {5}. {6} and {7} are the framework's, not usages. A {8} with a dot is {9} in code, which x18n does not map to {10}.",
+  "text": "Kotlin과 Java에서는 {0}, {1}, {2}입니다. XML에서는 {3}, {4}, {5}입니다. {6}와 {7}은 프레임워크의 것이므로 사용처가 아닙니다. 점이 있는 {8}은 코드에서 {9}이며, x18n은 이를 {10}에 매핑하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Kotlin과 Java에서는 {0}, {1}, {2}입니다. XML에서는 {3}, {4}, {5}입니다. {6}와 {7}은 프레임워크의 것이므로 사용처가 아닙니다. 점이 있는 {8}은 코드에서 {9}이며, x18n은 이를 {10}에 매핑하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

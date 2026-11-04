@@ -1,0 +1,14 @@
+{
+  "hash": "34813948cd99f1a3",
+  "source": "A translation is stale when it last changed before its source message did. Inside a git repo, x18n reads the commits that touched the locale files and compares the parsed messages, so reformatting, sorting and moving keys between files do not count. Uncommitted edits count as changed now. A message without history is never stale.",
+  "text": "翻訳が古いとは、その翻訳の最終変更がソースメッセージの最終変更より前であることを指します。git リポジトリ内では、x18n はロケールファイルに触れたコミットを読み取り、パース済みのメッセージを比較します。そのため、フォーマットの変更、並べ替え、ファイル間でのキーの移動は変更として扱われません。コミットされていない編集は、現在変更されたものとして扱われます。履歴のないメッセージが古い翻訳になることはありません。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻訳が古いとは、その翻訳の最終変更がソースメッセージの最終変更より前であることを指します。git リポジトリ内では、x18n はロケールファイルに触れたコミットを読み取り、パース済みのメッセージを比較します。そのため、フォーマットの変更、並べ替え、ファイル間でのキーの移動は変更として扱われません。コミットされていない編集は、現在変更されたものとして扱われます。履歴のないメッセージが古い翻訳になることはありません。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

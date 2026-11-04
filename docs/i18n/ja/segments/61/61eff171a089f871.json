@@ -1,0 +1,14 @@
+{
+  "hash": "61eff171a089f871",
+  "source": "Where the plugin can run. Default 'any'.",
+  "text": "プラグインを実行できる場所です。デフォルトは 'any' です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインを実行できる場所です。デフォルトは 'any' です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

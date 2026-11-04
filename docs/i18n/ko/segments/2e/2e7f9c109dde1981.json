@@ -1,0 +1,14 @@
+{
+  "hash": "2e7f9c109dde1981",
+  "source": "When more messages remain, the prompt says how many, and gives the command for the next batch with {0}.",
+  "text": "남은 메시지가 더 있으면 프롬프트에 그 개수가 표시되고, {0}로 다음 배치를 가져오는 명령이 제공됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "남은 메시지가 더 있으면 프롬프트에 그 개수가 표시되고, {0}로 다음 배치를 가져오는 명령이 제공됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

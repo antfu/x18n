@@ -1,0 +1,14 @@
+{
+  "hash": "f0c5aa7e84287628",
+  "source": "With {0} in the project, {1} is a usage, under any name for {2}.",
+  "text": "프로젝트에 {0}가 있으면 {2}에 어떤 이름을 쓰더라도 {1}는 사용처입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트에 {0}가 있으면 {2}에 어떤 이름을 쓰더라도 {1}는 사용처입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

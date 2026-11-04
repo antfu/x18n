@@ -1,0 +1,14 @@
+{
+  "hash": "a181302953b6b87e",
+  "source": "The extension treats a key such as {0} like an imported symbol:",
+  "text": "拡張機能は、{0} のようなキーをインポートされたシンボルと同じように扱います。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "拡張機能は、{0} のようなキーをインポートされたシンボルと同じように扱います。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

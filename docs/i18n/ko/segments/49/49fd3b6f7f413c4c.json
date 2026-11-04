@@ -1,0 +1,14 @@
+{
+  "hash": "49fd3b6f7f413c4c",
+  "source": "Where the namespace comes from (call option, or factory argument when {0} is true), or a fixed namespace such as {1} for a hook that wraps {2}.",
+  "text": "네임스페이스를 가져오는 위치입니다(호출 옵션, 또는 {0}가 true일 때 팩토리 인자). 또는 {2}를 감싸는 훅에 사용하는 {1}와 같은 고정 네임스페이스입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "네임스페이스를 가져오는 위치입니다(호출 옵션, 또는 {0}가 true일 때 팩토리 인자). 또는 {2}를 감싸는 훅에 사용하는 {1}와 같은 고정 네임스페이스입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

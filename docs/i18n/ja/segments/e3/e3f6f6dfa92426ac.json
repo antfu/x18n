@@ -1,0 +1,14 @@
+{
+  "hash": "e3f6f6dfa92426ac",
+  "source": "Diagnostics, paged, filtered by check and locale.",
+  "text": "診断の一覧。ページ分割され、チェックとロケールで絞り込めます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "診断の一覧。ページ分割され、チェックとロケールで絞り込めます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

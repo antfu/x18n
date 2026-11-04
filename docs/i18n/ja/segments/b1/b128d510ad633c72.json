@@ -1,0 +1,14 @@
+{
+  "hash": "b128d510ad633c72",
+  "source": "Format id for the matching files, for example {0} or {1}. Without it, the file extension picks the format.",
+  "text": "一致するファイルのフォーマット ID です。例: {0}、{1}。指定しない場合は、ファイルの拡張子からフォーマットが決まります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一致するファイルのフォーマット ID です。例: {0}、{1}。指定しない場合は、ファイルの拡張子からフォーマットが決まります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

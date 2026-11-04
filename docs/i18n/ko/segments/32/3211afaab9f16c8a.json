@@ -1,0 +1,14 @@
+{
+  "hash": "3211afaab9f16c8a",
+  "source": "In code, the services and pipes a class injects, whatever their name:",
+  "text": "코드에서는 클래스가 주입하는 서비스와 파이프를 이름과 관계없이 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코드에서는 클래스가 주입하는 서비스와 파이프를 이름과 관계없이 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

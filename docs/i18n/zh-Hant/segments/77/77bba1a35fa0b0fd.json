@@ -1,0 +1,14 @@
+{
+  "hash": "77bba1a35fa0b0fd",
+  "source": "The check runs only when the project has at least one scanner.",
+  "text": "只有在專案至少有一個掃描器時，才會執行此檢查。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "只有在專案至少有一個掃描器時，才會執行此檢查。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

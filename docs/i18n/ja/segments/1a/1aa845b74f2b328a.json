@@ -1,0 +1,14 @@
+{
+  "hash": "1aa845b74f2b328a",
+  "source": "A resource is a file, or a block in a file, that holds the messages of one locale and one namespace. The {0} option tells x18n where the resources are. Each entry has a path pattern, relative to the project root:",
+  "text": "リソースとは、1 つのロケールと 1 つの名前空間のメッセージを保持するファイル、またはファイル内のブロックです。{0} オプションで、リソースの場所を x18n に伝えます。各エントリには、プロジェクトルートからの相対パスのパターンを指定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リソースとは、1 つのロケールと 1 つの名前空間のメッセージを保持するファイル、またはファイル内のブロックです。{0} オプションで、リソースの場所を x18n に伝えます。各エントリには、プロジェクトルートからの相対パスのパターンを指定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

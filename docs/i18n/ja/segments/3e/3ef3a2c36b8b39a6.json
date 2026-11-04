@@ -1,0 +1,14 @@
+{
+  "hash": "3ef3a2c36b8b39a6",
+  "source": "{0} lists the projects, the locales with their coverage and the counts of diagnostics. {1} lists every diagnostic.",
+  "text": "{0} は、プロジェクト、各ロケールとそのカバレッジ、診断の件数を一覧表示します。{1} は、すべての診断を一覧表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、プロジェクト、各ロケールとそのカバレッジ、診断の件数を一覧表示します。{1} は、すべての診断を一覧表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

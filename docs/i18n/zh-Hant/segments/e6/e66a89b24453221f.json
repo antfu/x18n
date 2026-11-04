@@ -1,0 +1,14 @@
+{
+  "hash": "e66a89b24453221f",
+  "source": "notification (client to server)",
+  "text": "通知（用戶端至伺服器）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "通知（用戶端至伺服器）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "751e18c66666c991",
+  "source": "An approval records the value it approved. When the value changes later, the approval is stale, and the thread shows \"approved, changed since\".",
+  "text": "核准會記錄它所核准的值。之後該值變更時，核准即已過期，討論串會顯示「已核准，之後有變更」。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "核准會記錄它所核准的值。之後該值變更時，核准即已過期，討論串會顯示「已核准，之後有變更」。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f7783323df3b26a3",
+  "source": "The {0} format reads a file that returns an array literal, and writes edits back into the array. The path of a PHP file is the first part of its keys:",
+  "text": "{0} 格式會讀取回傳陣列字面值的檔案，並把編輯內容寫回該陣列。PHP 檔案的路徑是其鍵的第一個部分：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 格式會讀取回傳陣列字面值的檔案，並把編輯內容寫回該陣列。PHP 檔案的路徑是其鍵的第一個部分："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

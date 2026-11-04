@@ -1,0 +1,14 @@
+{
+  "hash": "79c03c32213119fe",
+  "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
+  "text": "呼び出し先は翻訳関数を返すファクトリです。たとえば {0} が {1} を返す場合です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "呼び出し先は翻訳関数を返すファクトリです。たとえば {0} が {1} を返す場合です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

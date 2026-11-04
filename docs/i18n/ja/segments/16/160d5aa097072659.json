@@ -1,0 +1,14 @@
+{
+  "hash": "160d5aa097072659",
+  "source": "List keys.",
+  "text": "キーを一覧表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーを一覧表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

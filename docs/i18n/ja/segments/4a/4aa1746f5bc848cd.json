@@ -1,0 +1,14 @@
+{
+  "hash": "4aa1746f5bc848cd",
+  "source": "What was dropped or needs attention, for the report.",
+  "text": "レポート向けの、除外されたもの、または注意が必要なものです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レポート向けの、除外されたもの、または注意が必要なものです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

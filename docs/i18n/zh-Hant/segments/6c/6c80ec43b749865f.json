@@ -1,0 +1,14 @@
+{
+  "hash": "6c80ec43b749865f",
+  "source": "A plural key is an object with the CLDR forms {0}, {1}, {2}, {3}, {4} and {5}. A usage of the key counts as a usage of each form.",
+  "text": "複數鍵是包含 CLDR 形式 {0}、{1}、{2}、{3}、{4} 和 {5} 的物件。鍵的一個使用處會被視為每個形式的使用處。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "複數鍵是包含 CLDR 形式 {0}、{1}、{2}、{3}、{4} 和 {5} 的物件。鍵的一個使用處會被視為每個形式的使用處。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

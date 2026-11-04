@@ -1,0 +1,14 @@
+{
+  "hash": "ca85ea159cbd6272",
+  "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
+  "text": "審閱是針對單一訊息（某個語系中的某個鍵）的留言。一則訊息上的留言組成它的討論串。審閱有四種類型：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "審閱是針對單一訊息（某個語系中的某個鍵）的留言。一則訊息上的留言組成它的討論串。審閱有四種類型："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

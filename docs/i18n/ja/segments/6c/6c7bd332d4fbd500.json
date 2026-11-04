@@ -1,0 +1,14 @@
+{
+  "hash": "6c7bd332d4fbd500",
+  "source": "Resource could not be parsed. Fix the syntax error in the file.",
+  "text": "リソースを解析できませんでした。ファイルの構文エラーを修正してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リソースを解析できませんでした。ファイルの構文エラーを修正してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

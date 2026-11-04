@@ -1,0 +1,14 @@
+{
+  "hash": "cb5e7e4d28e7c990",
+  "source": "locale file (fine in prose for users), dictionary",
+  "text": "locale file (사용자 대상 본문에서는 사용 가능), dictionary",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "locale file (사용자 대상 본문에서는 사용 가능), dictionary"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

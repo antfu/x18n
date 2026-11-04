@@ -1,0 +1,14 @@
+{
+  "hash": "7c424bd77d71bf0c",
+  "source": "Fixed namespace for every matching file.",
+  "text": "일치하는 모든 파일에 적용할 고정 네임스페이스입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "일치하는 모든 파일에 적용할 고정 네임스페이스입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

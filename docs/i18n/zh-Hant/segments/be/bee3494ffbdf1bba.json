@@ -1,0 +1,14 @@
+{
+  "hash": "bee3494ffbdf1bba",
+  "source": "Monorepo: directories (globs) that are projects inheriting this config.",
+  "text": "Monorepo：繼承此設定的專案目錄（glob）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Monorepo：繼承此設定的專案目錄（glob）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

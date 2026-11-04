@@ -1,0 +1,14 @@
+{
+  "hash": "057d7f6735ec63aa",
+  "source": "{0} returns {1} and {2}.",
+  "text": "{0} は {1} と {2} を返します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は {1} と {2} を返します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

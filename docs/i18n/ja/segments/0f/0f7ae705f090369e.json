@@ -1,0 +1,14 @@
+{
+  "hash": "0f7ae705f090369e",
+  "source": "Single braces: {0}.",
+  "text": "単一の波括弧: {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "単一の波括弧: {0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

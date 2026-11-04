@@ -1,0 +1,14 @@
+{
+  "hash": "4d36a89d4e688a37",
+  "source": "The description comes from the source locale's resource, else from the resource of another locale, else from the code. The built-in formats and presets read:",
+  "text": "설명은 소스 로케일의 리소스에서 가져오고, 없으면 다른 로케일의 리소스에서, 그래도 없으면 코드에서 가져옵니다. 기본 제공 형식과 프리셋은 다음을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설명은 소스 로케일의 리소스에서 가져오고, 없으면 다른 로케일의 리소스에서, 그래도 없으면 코드에서 가져옵니다. 기본 제공 형식과 프리셋은 다음을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

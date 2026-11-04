@@ -1,0 +1,14 @@
+{
+  "hash": "34fefe572fc72f16",
+  "source": "The {0}glossary{/0} lists every name in one table.",
+  "text": "{0}詞彙表{/0}以一張表格列出所有名稱。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}詞彙表{/0}以一張表格列出所有名稱。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

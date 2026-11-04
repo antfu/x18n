@@ -1,0 +1,14 @@
+{
+  "hash": "104534480ce3f623",
+  "source": "YAML: {0} as the first line.",
+  "text": "YAML: 先頭行に {0} を記述します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML: 先頭行に {0} を記述します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d1e40e018f1a7f19",
+  "source": "The preset adds none, as an extracted key needs its keyset as a separate argument. Set {0} for your keyset functions.",
+  "text": "此預設集不會新增任何項目，因為擷取出的鍵需要將其 keyset 作為獨立的引數。請為你的 keyset 函式設定 {0}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集不會新增任何項目，因為擷取出的鍵需要將其 keyset 作為獨立的引數。請為你的 keyset 函式設定 {0}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

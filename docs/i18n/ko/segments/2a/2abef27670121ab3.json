@@ -1,0 +1,14 @@
+{
+  "hash": "2abef27670121ab3",
+  "source": "{0} of the previous page.",
+  "text": "이전 페이지의 {0}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이전 페이지의 {0}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

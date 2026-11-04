@@ -1,0 +1,14 @@
+{
+  "hash": "dfe74841cec450f6",
+  "source": "Rename target already exists",
+  "text": "リネーム先がすでに存在します",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リネーム先がすでに存在します"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

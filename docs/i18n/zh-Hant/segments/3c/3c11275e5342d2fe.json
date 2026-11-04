@@ -1,0 +1,14 @@
+{
+  "hash": "3c11275e5342d2fe",
+  "source": "CSS color of keys without a value. Empty uses the warning color of the theme.",
+  "text": "沒有值的鍵的 CSS 顏色。留空則使用佈景主題的警告顏色。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "沒有值的鍵的 CSS 顏色。留空則使用佈景主題的警告顏色。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

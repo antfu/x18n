@@ -1,0 +1,14 @@
+{
+  "hash": "2c8d81e973baebaf",
+  "source": "{0} and {1} do the same.",
+  "text": "{0} 和 {1} 的作用相同。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 和 {1} 的作用相同。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

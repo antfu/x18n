@@ -1,0 +1,14 @@
+{
+  "hash": "091437d381a76cbf",
+  "source": "The key in the locale's resource; undefined while the locale lacks the message.",
+  "text": "로케일의 리소스에 있는 키입니다. 로케일에 메시지가 없는 동안에는 undefined입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일의 리소스에 있는 키입니다. 로케일에 메시지가 없는 동안에는 undefined입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

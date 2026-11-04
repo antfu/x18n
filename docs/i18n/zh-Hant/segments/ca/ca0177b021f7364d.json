@@ -1,0 +1,14 @@
+{
+  "hash": "ca0177b021f7364d",
+  "source": "the \"Copy Translate Prompt\" and \"Translate with Agent\" commands and the hover links in {0}VS Code{/0},",
+  "text": "{0}VS Code{/0} 中的「Copy Translate Prompt」和「Translate with Agent」命令，以及懸停連結，",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}VS Code{/0} 中的「Copy Translate Prompt」和「Translate with Agent」命令，以及懸停連結，"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b9ba19f738620182",
+  "source": "PHP files that return an array literal",
+  "text": "배열 리터럴을 반환하는 PHP 파일",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "배열 리터럴을 반환하는 PHP 파일"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

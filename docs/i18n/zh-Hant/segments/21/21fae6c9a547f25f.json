@@ -1,0 +1,14 @@
+{
+  "hash": "21fae6c9a547f25f",
+  "source": "A resolved review stays in the file with {0}.",
+  "text": "已解決的審閱會以 {0} 保留在檔案中。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "已解決的審閱會以 {0} 保留在檔案中。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

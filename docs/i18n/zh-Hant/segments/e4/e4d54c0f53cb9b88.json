@@ -1,0 +1,14 @@
+{
+  "hash": "e4d54c0f53cb9b88",
+  "source": "Review not found. List review ids with `x18n review list` (agents: the `x18n_reviews` tool).",
+  "text": "找不到審閱。使用 `x18n review list` 列出審閱 id（agents：使用 `x18n_reviews` 工具）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "找不到審閱。使用 `x18n review list` 列出審閱 id（agents：使用 `x18n_reviews` 工具）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4a15a625fff9a923",
+  "source": "Hard-coded text gets into the UI without a key.",
+  "text": "寫死的文字進入了 UI，卻沒有對應的鍵。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "寫死的文字進入了 UI，卻沒有對應的鍵。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

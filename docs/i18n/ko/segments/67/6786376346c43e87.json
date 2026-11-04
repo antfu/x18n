@@ -1,0 +1,14 @@
+{
+  "hash": "6786376346c43e87",
+  "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
+  "text": "{0}, {1}, {2}는 먼저 계획을 반환합니다. {3}를 지정해 다시 호출하면 계획이 적용됩니다. 각 도구의 입력 필드는 {4}MCP 도구{/4}에서 확인할 수 있습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}는 먼저 계획을 반환합니다. {3}를 지정해 다시 호출하면 계획이 적용됩니다. 각 도구의 입력 필드는 {4}MCP 도구{/4}에서 확인할 수 있습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

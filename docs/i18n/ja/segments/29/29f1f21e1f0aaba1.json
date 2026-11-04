@@ -1,0 +1,14 @@
+{
+  "hash": "29f1f21e1f0aaba1",
+  "source": "With {0}, every key is literal: {1}, {2} and {3} are each one key, a new key is one property of the file, and no key is the parent of another. A resource pattern can set its own {4}, for example {5} on {6} while PHP files keep {7}. The {8}, {9}, {10} and {11} presets set literal keys where their libraries use them.",
+  "text": "{0} を指定すると、すべてのキーがリテラルとして扱われます。{1}、{2}、{3} はそれぞれ 1 つのキーであり、新しいキーはファイルの 1 つのプロパティになり、あるキーが別のキーの親になることはありません。リソースパターンには独自の {4} を設定できます。たとえば {6} では {5} を指定し、PHP ファイルでは {7} のままにできます。{8}、{9}、{10}、{11} プリセットは、各ライブラリがリテラルキーを使う箇所でリテラルキーを設定します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を指定すると、すべてのキーがリテラルとして扱われます。{1}、{2}、{3} はそれぞれ 1 つのキーであり、新しいキーはファイルの 1 つのプロパティになり、あるキーが別のキーの親になることはありません。リソースパターンには独自の {4} を設定できます。たとえば {6} では {5} を指定し、PHP ファイルでは {7} のままにできます。{8}、{9}、{10}、{11} プリセットは、各ライブラリがリテラルキーを使う箇所でリテラルキーを設定します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

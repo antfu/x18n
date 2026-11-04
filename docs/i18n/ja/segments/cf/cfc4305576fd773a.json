@@ -1,0 +1,14 @@
+{
+  "hash": "cfc4305576fd773a",
+  "source": "One reported issue with a code, severity and optional fixes.",
+  "text": "コード、重大度、および任意の修正を持つ、報告された 1 件の問題です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コード、重大度、および任意の修正を持つ、報告された 1 件の問題です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

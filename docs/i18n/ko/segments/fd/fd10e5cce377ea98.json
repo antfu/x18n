@@ -1,0 +1,14 @@
+{
+  "hash": "fd10e5cce377ea98",
+  "source": "{0}, else the first locale",
+  "text": "{0}, 없으면 첫 번째 로케일",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, 없으면 첫 번째 로케일"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

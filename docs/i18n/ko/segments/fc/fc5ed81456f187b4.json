@@ -1,0 +1,14 @@
+{
+  "hash": "fc5ed81456f187b4",
+  "source": "In JS and TS files, {0} is a translate call, also as {1}.",
+  "text": "JS 및 TS 파일에서는 {0}이(가) 번역 호출이며, {1} 형태도 해당됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JS 및 TS 파일에서는 {0}이(가) 번역 호출이며, {1} 형태도 해당됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6f9b15d2a1b28afd",
+  "source": "{0} and {1} are repeatable. The first {2} belongs to the first {3}, the second to the second, and so on. A reporter without an {4} prints to stdout:",
+  "text": "{0} 與 {1} 可重複使用。第一個 {2} 對應第一個 {3}，第二個對應第二個，依此類推。沒有 {4} 的 reporter 會輸出到 stdout：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 與 {1} 可重複使用。第一個 {2} 對應第一個 {3}，第二個對應第二個，依此類推。沒有 {4} 的 reporter 會輸出到 stdout："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

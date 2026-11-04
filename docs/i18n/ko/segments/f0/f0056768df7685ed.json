@@ -1,0 +1,14 @@
+{
+  "hash": "f0056768df7685ed",
+  "source": "Duplicate capability id. Rename the id, or set `override: true` on the later one.",
+  "text": "capability id가 중복되었습니다. id의 이름을 변경하거나 나중에 등록된 항목에 `override: true`를 설정하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "capability id가 중복되었습니다. id의 이름을 변경하거나 나중에 등록된 항목에 `override: true`를 설정하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9dd644d2d5fe8d62",
+  "source": "{0}, {1} and a type on the variable ({2}) are fine. When x18n adds or removes a key, it rewrites only the object and keeps the rest of the file. A new locale file that x18n writes is a plain {3}, without the type.",
+  "text": "{0}、{1} 以及變數上的型別（{2}）都沒有問題。當 x18n 新增或移除鍵時，只會重寫該物件，並保留檔案的其餘部分。x18n 寫入的新語系檔案是單純的 {3}，不含型別。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1} 以及變數上的型別（{2}）都沒有問題。當 x18n 新增或移除鍵時，只會重寫該物件，並保留檔案的其餘部分。x18n 寫入的新語系檔案是單純的 {3}，不含型別。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

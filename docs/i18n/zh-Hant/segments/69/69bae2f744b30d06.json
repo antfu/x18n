@@ -1,0 +1,14 @@
+{
+  "hash": "69bae2f744b30d06",
+  "source": "A locale file has a syntax error. The message names the file and the position.",
+  "text": "語系檔案有語法錯誤。訊息中會指出檔案名稱與錯誤位置。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "語系檔案有語法錯誤。訊息中會指出檔案名稱與錯誤位置。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

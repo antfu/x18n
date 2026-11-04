@@ -1,0 +1,14 @@
+{
+  "hash": "5e7bfaf1e322fddb",
+  "source": "The {0} prop of {1} is a key. These names count as translate calls: {2}, {3} and {4}. {5} returns {6}, and {7} gives the {8} prop.",
+  "text": "{1} 的 {0} prop 是一個鍵。以下名稱會被視為翻譯呼叫：{2}、{3} 和 {4}。{5} 會回傳 {6}，而 {7} 會提供 {8} prop。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1} 的 {0} prop 是一個鍵。以下名稱會被視為翻譯呼叫：{2}、{3} 和 {4}。{5} 會回傳 {6}，而 {7} 會提供 {8} prop。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

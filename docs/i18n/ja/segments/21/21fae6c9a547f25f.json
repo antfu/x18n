@@ -1,0 +1,14 @@
+{
+  "hash": "21fae6c9a547f25f",
+  "source": "A resolved review stays in the file with {0}.",
+  "text": "解決済みのレビューは、{0} が付いた状態でファイルに残ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "解決済みのレビューは、{0} が付いた状態でファイルに残ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

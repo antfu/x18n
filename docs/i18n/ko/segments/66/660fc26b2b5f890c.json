@@ -1,0 +1,14 @@
+{
+  "hash": "660fc26b2b5f890c",
+  "source": "x18n reads only the {0} in the project root. In a workspace with one {1} per crate, set {2} yourself.",
+  "text": "x18n은 프로젝트 루트의 {0}만 읽습니다. 크레이트마다 {1}이 하나씩 있는 워크스페이스에서는 {2}을 직접 설정하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 프로젝트 루트의 {0}만 읽습니다. 크레이트마다 {1}이 하나씩 있는 워크스페이스에서는 {2}을 직접 설정하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

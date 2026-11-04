@@ -1,0 +1,14 @@
+{
+  "hash": "136a24350449b9e1",
+  "source": "A rename target already exists in at least one locale. x18n does not merge two keys.",
+  "text": "하나 이상의 로케일에 이름 변경 대상이 이미 존재합니다. x18n은 두 키를 병합하지 않습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하나 이상의 로케일에 이름 변경 대상이 이미 존재합니다. x18n은 두 키를 병합하지 않습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

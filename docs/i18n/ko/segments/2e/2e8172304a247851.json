@@ -1,0 +1,14 @@
+{
+  "hash": "2e8172304a247851",
+  "source": "to keep a terms table: the {0} in the config. The agent reads it before it translates, proposes new terms with translations, adds the ones you approve, and turns on the {1} check,",
+  "text": "용어 표를 유지하도록 합니다. 용어 표는 설정의 {0}입니다. 에이전트는 번역하기 전에 이 표를 읽고, 번역과 함께 새 용어를 제안하며, 사용자가 승인한 용어를 추가하고, {1} 검사를 켭니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "용어 표를 유지하도록 합니다. 용어 표는 설정의 {0}입니다. 에이전트는 번역하기 전에 이 표를 읽고, 번역과 함께 새 용어를 제안하며, 사용자가 승인한 용어를 추가하고, {1} 검사를 켭니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

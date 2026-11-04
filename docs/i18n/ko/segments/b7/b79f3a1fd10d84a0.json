@@ -1,0 +1,14 @@
+{
+  "hash": "b79f3a1fd10d84a0",
+  "source": "Project root, relative to the config file.",
+  "text": "설정 파일을 기준으로 한 프로젝트 루트입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정 파일을 기준으로 한 프로젝트 루트입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

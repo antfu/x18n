@@ -1,0 +1,14 @@
+{
+  "hash": "d419a4dbde0babfa",
+  "source": "A decision is needed. Answer the listed decisions, or pass `--yes` to accept defaults.",
+  "text": "判断が必要です。表示された判断に回答するか、`--yes` を渡してデフォルトを受け入れてください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "判断が必要です。表示された判断に回答するか、`--yes` を渡してデフォルトを受け入れてください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

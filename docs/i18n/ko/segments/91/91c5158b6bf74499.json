@@ -1,0 +1,14 @@
+{
+  "hash": "91c5158b6bf74499",
+  "source": "Only usages in a file",
+  "text": "파일 하나의 사용처만",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일 하나의 사용처만"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

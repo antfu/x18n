@@ -1,0 +1,14 @@
+{
+  "hash": "1fb8eabe92bb0489",
+  "source": "{0} is {1} in the config.",
+  "text": "설정에서 {0}이(가) {1}입니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "설정에서 {0}이(가) {1}입니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

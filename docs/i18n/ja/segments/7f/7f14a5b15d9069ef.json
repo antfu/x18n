@@ -1,0 +1,14 @@
+{
+  "hash": "7f14a5b15d9069ef",
+  "source": "A key that does not match a naming rule (options: case, pattern).",
+  "text": "命名規則に一致しないキー（オプション: case、pattern）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "命名規則に一致しないキー（オプション: case、pattern）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

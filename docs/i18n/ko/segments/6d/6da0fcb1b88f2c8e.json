@@ -1,0 +1,14 @@
+{
+  "hash": "6da0fcb1b88f2c8e",
+  "source": "Use this config file.",
+  "text": "이 설정 파일을 사용합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 설정 파일을 사용합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

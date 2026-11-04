@@ -1,0 +1,14 @@
+{
+  "hash": "9d9a5036e2084ff7",
+  "source": "Run the {0} installed in the workspace's {1} instead of the bundled server, when there is one. Restart the server after changing this.",
+  "text": "번들된 서버 대신 워크스페이스의 {1}에 설치된 {0}을(를) 사용합니다(있는 경우). 이 설정을 변경한 후에는 서버를 다시 시작하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "번들된 서버 대신 워크스페이스의 {1}에 설치된 {0}을(를) 사용합니다(있는 경우). 이 설정을 변경한 후에는 서버를 다시 시작하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

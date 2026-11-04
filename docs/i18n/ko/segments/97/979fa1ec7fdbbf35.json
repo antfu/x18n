@@ -1,0 +1,14 @@
+{
+  "hash": "979fa1ec7fdbbf35",
+  "source": "In Ruby files, the preset reads the same two calls with a regex.",
+  "text": "Ruby 파일에서는 프리셋이 정규식으로 같은 두 가지 호출을 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ruby 파일에서는 프리셋이 정규식으로 같은 두 가지 호출을 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

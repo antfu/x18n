@@ -1,0 +1,14 @@
+{
+  "hash": "f0b9017b23ed85b9",
+  "source": "Resource is read-only. Edit the source of computed values, or use a writable format.",
+  "text": "リソースが読み取り専用です。計算される値の元になるコードを編集するか、書き込み可能な形式を使用してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "リソースが読み取り専用です。計算される値の元になるコードを編集するか、書き込み可能な形式を使用してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

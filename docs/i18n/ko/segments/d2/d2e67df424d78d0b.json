@@ -1,0 +1,14 @@
+{
+  "hash": "d2e67df424d78d0b",
+  "source": "The {0} preset supports {1}Lingui{/1}.",
+  "text": "{0} 프리셋은 {1}Lingui{/1}를 지원합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 프리셋은 {1}Lingui{/1}를 지원합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

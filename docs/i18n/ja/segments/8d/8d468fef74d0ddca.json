@@ -1,0 +1,14 @@
+{
+  "hash": "8d468fef74d0ddca",
+  "source": "With the {0}LSP{/0} package, in {1}:",
+  "text": "{0}LSP{/0} パッケージを使用する場合は、{1} に次のように記述します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}LSP{/0} パッケージを使用する場合は、{1} に次のように記述します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

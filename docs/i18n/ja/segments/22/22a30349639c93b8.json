@@ -1,0 +1,14 @@
+{
+  "hash": "22a30349639c93b8",
+  "source": "On a project with many known problems, commit a {0}baseline{/0} with {1}. The build then fails only on new diagnostics.",
+  "text": "既知の問題が多いプロジェクトでは、{1} で{0}ベースライン{/0}をコミットしてください。以降、ビルドは新しい診断に対してのみ失敗します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "既知の問題が多いプロジェクトでは、{1} で{0}ベースライン{/0}をコミットしてください。以降、ビルドは新しい診断に対してのみ失敗します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

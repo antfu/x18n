@@ -1,0 +1,14 @@
+{
+  "hash": "77e9aef38097aad2",
+  "source": "Display data for a locale code. The first plugin that returns a value wins.",
+  "text": "語系代碼的顯示資料。第一個回傳值的外掛優先。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "語系代碼的顯示資料。第一個回傳值的外掛優先。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

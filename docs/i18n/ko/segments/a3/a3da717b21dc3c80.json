@@ -1,0 +1,14 @@
+{
+  "hash": "a3da717b21dc3c80",
+  "source": "{0}: positions where key completion makes sense,",
+  "text": "{0}: 키 자동 완성이 의미 있는 위치,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: 키 자동 완성이 의미 있는 위치,"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a4006c58d8d7c7f3",
+  "source": "A loader that computes its messages (for example with {0}) is not static. x18n reports it as {1}.",
+  "text": "以動態方式計算訊息的載入器（例如使用 {0}）不是靜態的。x18n 會將它回報為 {1}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以動態方式計算訊息的載入器（例如使用 {0}）不是靜態的。x18n 會將它回報為 {1}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

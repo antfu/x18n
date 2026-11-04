@@ -1,0 +1,14 @@
+{
+  "hash": "429e3e7130dcb2ab",
+  "source": "The preset applies when {0} has the dependency {1}.",
+  "text": "이 프리셋은 {0}에 {1} 의존성이 있을 때 적용됩니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {0}에 {1} 의존성이 있을 때 적용됩니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b6ef0def07281a8b",
+  "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
+  "text": "{0}, {1}, {2}, {3}, {4} 같은 제어 흐름 블록의 매개변수와 {5} 선언. 블록의 내용은 스캔합니다,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3}, {4} 같은 제어 흐름 블록의 매개변수와 {5} 선언. 블록의 내용은 스캔합니다,"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

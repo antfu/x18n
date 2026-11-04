@@ -1,0 +1,14 @@
+{
+  "hash": "c507fcbef671edc2",
+  "source": "Only keys matching a glob",
+  "text": "glob과 일치하는 키만",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "glob과 일치하는 키만"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

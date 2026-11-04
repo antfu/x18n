@@ -1,0 +1,14 @@
+{
+  "hash": "75f09bfdef6e320d",
+  "source": "On a project with many known problems, a baseline makes CI fail only on new ones. Write it once and commit it:",
+  "text": "알려진 문제가 많은 프로젝트에서는 베이스라인을 사용하면 CI가 새로운 문제에 대해서만 실패합니다. 한 번 작성한 뒤 커밋하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "알려진 문제가 많은 프로젝트에서는 베이스라인을 사용하면 CI가 새로운 문제에 대해서만 실패합니다. 한 번 작성한 뒤 커밋하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

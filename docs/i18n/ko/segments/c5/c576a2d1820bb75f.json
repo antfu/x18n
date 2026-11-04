@@ -1,0 +1,14 @@
+{
+  "hash": "c576a2d1820bb75f",
+  "source": "Print a prompt for an agent or LLM: {0}, {1}, or the skills {2} and {3}.",
+  "text": "에이전트 또는 LLM용 프롬프트를 출력합니다: {0}, {1} 또는 스킬 {2}와 {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에이전트 또는 LLM용 프롬프트를 출력합니다: {0}, {1} 또는 스킬 {2}와 {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "18b24749763acbea",
+  "source": "The preset applies when the project depends on {0} and {1} has an {2} block. Libraries such as ng-bootstrap depend on {3} without translating anything, so the dependency alone is not enough.",
+  "text": "當專案相依於 {0}，且 {1} 含有 {2} 區塊時，就會套用此預設集。ng-bootstrap 等函式庫雖然相依於 {3}，但並不翻譯任何內容，因此只有相依關係並不足夠。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當專案相依於 {0}，且 {1} 含有 {2} 區塊時，就會套用此預設集。ng-bootstrap 等函式庫雖然相依於 {3}，但並不翻譯任何內容，因此只有相依關係並不足夠。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "bd1c940bd59be09a",
+  "source": "Rename (F2) renames the key in every locale file and every usage. On a parent key, it renames every key under it.",
+  "text": "名前の変更（F2）を行うと、すべてのロケールファイルとすべての使用箇所でキーの名前が変更されます。親キーに対して実行すると、その配下のすべてのキーの名前が変更されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "名前の変更（F2）を行うと、すべてのロケールファイルとすべての使用箇所でキーの名前が変更されます。親キーに対して実行すると、その配下のすべてのキーの名前が変更されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

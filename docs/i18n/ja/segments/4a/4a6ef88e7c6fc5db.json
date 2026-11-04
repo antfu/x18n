@@ -1,0 +1,14 @@
+{
+  "hash": "4a6ef88e7c6fc5db",
+  "source": "A question in a plan that a surface must answer before apply.",
+  "text": "適用の前にサーフェスが回答しなければならない、プラン内の質問です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用の前にサーフェスが回答しなければならない、プラン内の質問です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

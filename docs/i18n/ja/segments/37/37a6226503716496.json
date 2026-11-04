@@ -1,0 +1,14 @@
+{
+  "hash": "37a6226503716496",
+  "source": "If your config has no {0}, the preset uses these patterns:",
+  "text": "設定に {0} がない場合、プリセットは次のパターンを使用します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定に {0} がない場合、プリセットは次のパターンを使用します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

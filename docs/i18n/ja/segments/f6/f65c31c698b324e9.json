@@ -1,0 +1,14 @@
+{
+  "hash": "f65c31c698b324e9",
+  "source": "Single braces: {0}. {1} is always available, as {2} passes it.",
+  "text": "波括弧が 1 つの場合: {0}。{2} が渡すため、{1} は常に利用できます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "波括弧が 1 つの場合: {0}。{2} が渡すため、{1} は常に利用できます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

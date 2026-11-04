@@ -1,0 +1,14 @@
+{
+  "hash": "a1e87bcdb407e299",
+  "source": "Sets the value of a suggestion and resolves it.",
+  "text": "제안의 값을 설정하고 해결 처리합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "제안의 값을 설정하고 해결 처리합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

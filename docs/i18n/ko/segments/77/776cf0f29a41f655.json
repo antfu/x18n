@@ -1,0 +1,14 @@
+{
+  "hash": "776cf0f29a41f655",
+  "source": "As in YAML, plus preset objects such as {0} from {1}. {2} and {3} entries are skipped.",
+  "text": "YAML과 동일하며, {1}의 {0} 같은 프리셋 객체도 사용할 수 있습니다. {2} 및 {3} 항목은 건너뜁니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML과 동일하며, {1}의 {0} 같은 프리셋 객체도 사용할 수 있습니다. {2} 및 {3} 항목은 건너뜁니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

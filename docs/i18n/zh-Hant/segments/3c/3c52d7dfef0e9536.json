@@ -1,0 +1,14 @@
+{
+  "hash": "3c52d7dfef0e9536",
+  "source": "{0} turns the raw key text of a usage into the canonical key. The first plugin that returns a value wins.",
+  "text": "{0} 會將使用處的原始鍵文字轉換為標準鍵。第一個回傳值的外掛生效。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會將使用處的原始鍵文字轉換為標準鍵。第一個回傳值的外掛生效。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

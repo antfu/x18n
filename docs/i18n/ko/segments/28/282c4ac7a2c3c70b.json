@@ -1,0 +1,14 @@
+{
+  "hash": "282c4ac7a2c3c70b",
+  "source": "{0} returns the path in the file of a key path. x18n writes edits to that path.",
+  "text": "{0}는 키 경로에 해당하는 파일 내 경로를 반환합니다. x18n은 해당 경로에 수정 내용을 기록합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 키 경로에 해당하는 파일 내 경로를 반환합니다. x18n은 해당 경로에 수정 내용을 기록합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

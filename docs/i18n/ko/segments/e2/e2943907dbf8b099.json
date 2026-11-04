@@ -1,0 +1,14 @@
+{
+  "hash": "e2943907dbf8b099",
+  "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
+  "text": "{0}은(는) 메시지마다 파일 하나를 두는 저장소를 위한 것입니다. 한 로케일에서 키 하나의 파일을 반환합니다. 즉 {1}와(과), 확장자의 포맷이 아닐 때 파일을 생성하는 데 사용할 {2} id입니다. 해당 키의 새 메시지는 이미 다른 키를 담고 있는 리소스가 아니라 그 파일에 저장되며, 파일이 없으면 생성됩니다. 이름 변경은 각 메시지를 새 키의 파일로 옮기고, 삭제로 키의 파일이 비게 되면 그 파일을 삭제합니다. 공유 파일에 있는 키에는 {3}을(를) 반환하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 메시지마다 파일 하나를 두는 저장소를 위한 것입니다. 한 로케일에서 키 하나의 파일을 반환합니다. 즉 {1}와(과), 확장자의 포맷이 아닐 때 파일을 생성하는 데 사용할 {2} id입니다. 해당 키의 새 메시지는 이미 다른 키를 담고 있는 리소스가 아니라 그 파일에 저장되며, 파일이 없으면 생성됩니다. 이름 변경은 각 메시지를 새 키의 파일로 옮기고, 삭제로 키의 파일이 비게 되면 그 파일을 삭제합니다. 공유 파일에 있는 키에는 {3}을(를) 반환하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2e9f4c5086525293",
+  "source": "To change the severity of a check for every run, use {0} in the config. See {1}Checks{/1}.",
+  "text": "모든 실행에 대해 검사의 심각도를 변경하려면 설정에서 {0}를 사용하세요. {1}검사{/1}를 참고하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 실행에 대해 검사의 심각도를 변경하려면 설정에서 {0}를 사용하세요. {1}검사{/1}를 참고하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

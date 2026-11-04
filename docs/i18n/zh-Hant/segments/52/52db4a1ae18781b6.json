@@ -1,0 +1,14 @@
+{
+  "hash": "52db4a1ae18781b6",
+  "source": "{0}Agent workflows{/0}: let a coding agent translate and clean up messages.",
+  "text": "{0}Agent 工作流程{/0}：讓程式碼 agent 翻譯並清理訊息。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Agent 工作流程{/0}：讓程式碼 agent 翻譯並清理訊息。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

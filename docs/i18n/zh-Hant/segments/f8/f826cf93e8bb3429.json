@@ -1,0 +1,14 @@
+{
+  "hash": "f826cf93e8bb3429",
+  "source": "The value of a message in a related locale is a good start for a translation: {0} when translating to {1}, {2} when translating to {3}. The prompt shows up to two of them under the source value:",
+  "text": "相關語系中的訊息值是很好的翻譯起點：翻譯成 {1} 時參考 {0}，翻譯成 {3} 時參考 {2}。提示會在來源值下方顯示最多兩個相關值：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "相關語系中的訊息值是很好的翻譯起點：翻譯成 {1} 時參考 {0}，翻譯成 {3} 時參考 {2}。提示會在來源值下方顯示最多兩個相關值："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

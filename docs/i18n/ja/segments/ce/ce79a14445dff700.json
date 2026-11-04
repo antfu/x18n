@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "サーバーはこれらを {0} 経由で実行します。引数は 1 つのオブジェクトです。{1} のデフォルトは最初のプロジェクトです。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "サーバーはこれらを {0} 経由で実行します。引数は 1 つのオブジェクトです。{1} のデフォルトは最初のプロジェクトです。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

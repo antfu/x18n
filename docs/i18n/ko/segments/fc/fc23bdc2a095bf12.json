@@ -1,0 +1,14 @@
+{
+  "hash": "fc23bdc2a095bf12",
+  "source": "Only values containing the query. By default a fuzzy match also counts.",
+  "text": "쿼리를 포함하는 값만 포함합니다. 기본적으로 퍼지 매칭도 일치로 간주합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "쿼리를 포함하는 값만 포함합니다. 기본적으로 퍼지 매칭도 일치로 간주합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

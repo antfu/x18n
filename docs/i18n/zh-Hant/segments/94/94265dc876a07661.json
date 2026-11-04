@@ -1,0 +1,14 @@
+{
+  "hash": "94265dc876a07661",
+  "source": "Plugins to add: a package name, a path to a module or to a YAML plugin, or {0}. Paths are relative to the config file.",
+  "text": "要加入的外掛：套件名稱、模組路徑、YAML 外掛路徑，或 {0}。路徑相對於設定檔。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "要加入的外掛：套件名稱、模組路徑、YAML 外掛路徑，或 {0}。路徑相對於設定檔。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

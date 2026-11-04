@@ -1,0 +1,14 @@
+{
+  "hash": "1b0e89d986292e97",
+  "source": "A rename or delete of a parent key changes every key under it. {0} moves {1} to {2}, and updates prefix usages such as {3}. A rename to a key that exists stops with {4}X18N4002{/4}.",
+  "text": "重新命名或刪除父鍵，會變更其底下的所有鍵。{0} 會將 {1} 移至 {2}，並更新前綴使用處，例如 {3}。若重新命名為已存在的鍵，會以 {4}X18N4002{/4} 中止。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "重新命名或刪除父鍵，會變更其底下的所有鍵。{0} 會將 {1} 移至 {2}，並更新前綴使用處，例如 {3}。若重新命名為已存在的鍵，會以 {4}X18N4002{/4} 中止。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

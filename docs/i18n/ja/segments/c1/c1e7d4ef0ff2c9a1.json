@@ -1,0 +1,14 @@
+{
+  "hash": "c1e7d4ef0ff2c9a1",
+  "source": "run x18n check and fix what it reports",
+  "text": "x18n check を実行し、報告された問題を修正する",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n check を実行し、報告された問題を修正する"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

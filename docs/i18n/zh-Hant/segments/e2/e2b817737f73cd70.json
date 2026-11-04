@@ -1,0 +1,14 @@
+{
+  "hash": "e2b817737f73cd70",
+  "source": "The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it.",
+  "text": "硬編碼字串在檔案中的原始文字，不做任何變更。可用於需要保留周圍原始碼的標記。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "硬編碼字串在檔案中的原始文字，不做任何變更。可用於需要保留周圍原始碼的標記。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

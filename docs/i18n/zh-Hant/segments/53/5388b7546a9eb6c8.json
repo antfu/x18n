@@ -1,0 +1,14 @@
+{
+  "hash": "5388b7546a9eb6c8",
+  "source": "Locale of the message (repeatable for mark-fresh)",
+  "text": "訊息的語系（mark-fresh 可重複使用）",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "訊息的語系（mark-fresh 可重複使用）"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

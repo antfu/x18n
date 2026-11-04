@@ -1,0 +1,14 @@
+{
+  "hash": "ffc2fa245f643173",
+  "source": "List commands page their output. {0} sets the page size. The output ends with a {1} value for the next page, and the JSON output has it as {2}:",
+  "text": "목록 명령은 출력을 페이지로 나눕니다. {0}는 페이지 크기를 설정합니다. 출력 끝에는 다음 페이지를 위한 {1} 값이 표시되며, JSON 출력에서는 {2}로 나타납니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "목록 명령은 출력을 페이지로 나눕니다. {0}는 페이지 크기를 설정합니다. 출력 끝에는 다음 페이지를 위한 {1} 값이 표시되며, JSON 출력에서는 {2}로 나타납니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2964f3cfefd9e531",
+  "source": "Skip authentication (CI and e2e only)",
+  "text": "인증을 건너뜁니다 (CI 및 e2e 전용)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "인증을 건너뜁니다 (CI 및 e2e 전용)"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

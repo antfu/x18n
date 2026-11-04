@@ -1,0 +1,14 @@
+{
+  "hash": "6a05e9d4eb0038ca",
+  "source": "blame, freshness source",
+  "text": "blame、鮮度の取得元",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "blame、鮮度の取得元"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

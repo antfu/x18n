@@ -1,0 +1,14 @@
+{
+  "hash": "68f7a32ab586514b",
+  "source": "One comment on one message: a {0}, an {1}, a {2} or a {3}.",
+  "text": "針對一則訊息的一則留言：{0}、{1}、{2} 或 {3}。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "針對一則訊息的一則留言：{0}、{1}、{2} 或 {3}。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

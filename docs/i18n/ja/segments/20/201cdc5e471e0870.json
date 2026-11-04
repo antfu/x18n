@@ -1,0 +1,14 @@
+{
+  "hash": "201cdc5e471e0870",
+  "source": "Locale file is not static. Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.",
+  "text": "ロケールファイルが静的ではありません。JSON または YAML を使用するか、リソースパターンに `execute: true` を指定して実行を有効にしてください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルが静的ではありません。JSON または YAML を使用するか、リソースパターンに `execute: true` を指定して実行を有効にしてください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "27ab0cbf6bf9670d",
+  "source": "The preset for Laravel. It reads PHP translation arrays and JSON strings, __ and trans calls, and :name placeholders.",
+  "text": "Laravel 用のプリセットです。PHP の翻訳配列と JSON 文字列、__ と trans の呼び出し、:name プレースホルダーを読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Laravel 用のプリセットです。PHP の翻訳配列と JSON 文字列、__ と trans の呼び出し、:name プレースホルダーを読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5284a970f4390b4f",
+  "source": ".NET resources. Each string {0} is a key; files and images are skipped. Its {1} describes it.",
+  "text": ".NET 리소스. 각 문자열 {0}은(는) 하나의 키이며, 파일과 이미지는 건너뜁니다. {1}이(가) 이를 설명합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": ".NET 리소스. 각 문자열 {0}은(는) 하나의 키이며, 파일과 이미지는 건너뜁니다. {1}이(가) 이를 설명합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

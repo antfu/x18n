@@ -1,0 +1,14 @@
+{
+  "hash": "2d6ef3d0f339e05e",
+  "source": "With the default {0}, x18n tests each preset in the order of the table. Most presets apply when the project depends on one of the listed packages. x18n reads the dependencies, dev dependencies and peer dependencies in {1}, the dependencies in {2}, {3}, {4} and {5}, and the Python requirements in {6} ({7}, {8}, {9} and the Poetry dependency tables) and {10}. Python package names compare in their normalized form, so {11} is {12}. The manifests in the parent directories, up to the git root, count too.",
+  "text": "使用預設的 {0} 時，x18n 會依照表格的順序逐一測試每個預設集。大多數預設集在專案依賴所列套件之一時套用。x18n 會讀取 {1} 中的 dependencies、dev dependencies 與 peer dependencies，讀取 {2}、{3}、{4} 與 {5} 中的依賴項目，以及 {6}（{7}、{8}、{9} 與 Poetry 的依賴表）和 {10} 中的 Python 需求。Python 套件名稱以正規化形式比較，因此 {11} 等同於 {12}。上層目錄中的資訊清單（直到 git 根目錄）也會納入計算。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用預設的 {0} 時，x18n 會依照表格的順序逐一測試每個預設集。大多數預設集在專案依賴所列套件之一時套用。x18n 會讀取 {1} 中的 dependencies、dev dependencies 與 peer dependencies，讀取 {2}、{3}、{4} 與 {5} 中的依賴項目，以及 {6}（{7}、{8}、{9} 與 Poetry 的依賴表）和 {10} 中的 Python 需求。Python 套件名稱以正規化形式比較，因此 {11} 等同於 {12}。上層目錄中的資訊清單（直到 git 根目錄）也會納入計算。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

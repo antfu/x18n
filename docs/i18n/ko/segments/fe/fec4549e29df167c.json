@@ -1,0 +1,14 @@
+{
+  "hash": "fec4549e29df167c",
+  "source": "Users then set the options under {0}, and the plugin reads them in {1}:",
+  "text": "그러면 사용자는 {0} 아래에 옵션을 설정하고, 플러그인은 {1}에서 이를 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "그러면 사용자는 {0} 아래에 옵션을 설정하고, 플러그인은 {1}에서 이를 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

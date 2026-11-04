@@ -1,0 +1,14 @@
+{
+  "hash": "1cb08c5cc7b14c65",
+  "source": "With {0}, stdout is one JSON document, also when the command fails.",
+  "text": "{0} を指定すると、コマンドが失敗した場合も、stdout は 1 つの JSON ドキュメントになります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} を指定すると、コマンドが失敗した場合も、stdout は 1 つの JSON ドキュメントになります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

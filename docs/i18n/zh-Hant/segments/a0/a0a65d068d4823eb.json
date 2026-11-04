@@ -1,0 +1,14 @@
+{
+  "hash": "a0a65d068d4823eb",
+  "source": "Fix the problem that the message names. A merge conflict in the file is a common cause.",
+  "text": "修正訊息中指出的問題。檔案中的合併衝突是常見的原因。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "修正訊息中指出的問題。檔案中的合併衝突是常見的原因。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

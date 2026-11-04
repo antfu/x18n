@@ -1,0 +1,14 @@
+{
+  "hash": "81472ba9cdf64702",
+  "source": "The engine: domain model, plugin API, analysis, and {0}.",
+  "text": "엔진입니다. 도메인 모델, 플러그인 API, 분석 및 {0}을(를) 포함합니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "엔진입니다. 도메인 모델, 플러그인 API, 분석 및 {0}을(를) 포함합니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

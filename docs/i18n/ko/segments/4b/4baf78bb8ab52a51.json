@@ -1,0 +1,14 @@
+{
+  "hash": "4baf78bb8ab52a51",
+  "source": "In {0}, {1}, {2} and {3} templates, the preset reads the same calls, as in Jinja {4}, and the Django tags {5} and {6}, also with {7} or {8}.",
+  "text": "{0}, {1}, {2}, {3} 템플릿에서 이 프리셋은 Jinja {4}처럼 동일한 호출을 읽으며, {7} 또는 {8}이 함께 사용된 경우를 포함하여 Django 태그 {5} 및 {6}도 읽습니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3} 템플릿에서 이 프리셋은 Jinja {4}처럼 동일한 호출을 읽으며, {7} 또는 {8}이 함께 사용된 경우를 포함하여 Django 태그 {5} 및 {6}도 읽습니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

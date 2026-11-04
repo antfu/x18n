@@ -1,0 +1,14 @@
+{
+  "hash": "e8c3d1c4536f11c3",
+  "source": "To check only some problems in a step, use {0}. To check one locale, use {1}:",
+  "text": "若要在某個步驟中只檢查部分問題，請使用 {0}。若要檢查單一語系，請使用 {1}：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若要在某個步驟中只檢查部分問題，請使用 {0}。若要檢查單一語系，請使用 {1}："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

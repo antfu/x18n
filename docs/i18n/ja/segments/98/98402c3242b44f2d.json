@@ -1,0 +1,14 @@
+{
+  "hash": "98402c3242b44f2d",
+  "source": "To open files from the UI in your editor, set {0}, {1} or {2} before you start the server.",
+  "text": "UI からエディターでファイルを開くには、サーバーを起動する前に {0}、{1}、または {2} を設定してください。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "UI からエディターでファイルを開くには、サーバーを起動する前に {0}、{1}、または {2} を設定してください。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

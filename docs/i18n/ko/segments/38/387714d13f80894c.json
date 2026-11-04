@@ -1,0 +1,14 @@
+{
+  "hash": "387714d13f80894c",
+  "source": "Run {0} and make sure that x18n found your locale files and presets.",
+  "text": "{0}을(를) 실행하여 x18n이 로케일 파일과 프리셋을 찾았는지 확인하세요.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}을(를) 실행하여 x18n이 로케일 파일과 프리셋을 찾았는지 확인하세요."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "90bace03d4078cff",
+  "source": "If the specifier is a package name, install the package in the project.",
+  "text": "如果 specifier 是套件名稱，請在專案中安裝該套件。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果 specifier 是套件名稱，請在專案中安裝該套件。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

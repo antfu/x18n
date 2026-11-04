@@ -1,0 +1,14 @@
+{
+  "hash": "25faccd968b607e7",
+  "source": "A project changed. {0} lists the keys that changed.",
+  "text": "プロジェクトが変更されました。{0} は変更されたキーの一覧です。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロジェクトが変更されました。{0} は変更されたキーの一覧です。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

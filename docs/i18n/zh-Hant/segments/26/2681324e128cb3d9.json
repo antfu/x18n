@@ -1,0 +1,14 @@
+{
+  "hash": "2681324e128cb3d9",
+  "source": "next-international keeps messages in TS modules. The {0} format reads a module whose default export is an object literal, also with {1}, and writes edits back into the literal:",
+  "text": "next-international 將訊息存放在 TS 模組中。{0} 格式會讀取預設匯出為物件字面值的模組，也支援 {1}，並將編輯內容寫回該字面值：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-international 將訊息存放在 TS 模組中。{0} 格式會讀取預設匯出為物件字面值的模組，也支援 {1}，並將編輯內容寫回該字面值："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

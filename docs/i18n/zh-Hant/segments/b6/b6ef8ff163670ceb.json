@@ -1,0 +1,14 @@
+{
+  "hash": "b6ef8ff163670ceb",
+  "source": "The templates add no import, because where {0} comes from depends on the adapter ({1} in React, {2} in Svelte).",
+  "text": "範本不會加入 import，因為 {0} 的來源取決於轉接器（React 中是 {1}，Svelte 中是 {2}）。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "範本不會加入 import，因為 {0} 的來源取決於轉接器（React 中是 {1}，Svelte 中是 {2}）。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

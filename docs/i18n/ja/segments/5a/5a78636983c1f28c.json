@@ -1,0 +1,14 @@
+{
+  "hash": "5a78636983c1f28c",
+  "source": "{0}, {1} and {2} show every project.",
+  "text": "{0}、{1}、{2} はすべてのプロジェクトを表示します。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2} はすべてのプロジェクトを表示します。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

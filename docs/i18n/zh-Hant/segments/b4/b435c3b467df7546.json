@@ -1,0 +1,14 @@
+{
+  "hash": "b435c3b467df7546",
+  "source": "Marks a comment resolved.",
+  "text": "將留言標示為已解決。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將留言標示為已解決。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

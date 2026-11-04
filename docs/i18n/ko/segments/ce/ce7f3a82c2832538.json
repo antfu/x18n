@@ -1,0 +1,14 @@
+{
+  "hash": "ce7f3a82c2832538",
+  "source": "Other folders, such as {0} and {1}, are not locales. A new locale gets the folder Android expects.",
+  "text": "{0}, {1} 같은 다른 폴더는 로케일이 아닙니다. 새 로케일에는 Android가 요구하는 폴더가 만들어집니다.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} 같은 다른 폴더는 로케일이 아닙니다. 새 로케일에는 Android가 요구하는 폴더가 만들어집니다."
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

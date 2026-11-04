@@ -1,0 +1,14 @@
+{
+  "hash": "22939a0ad98eba74",
+  "source": "Resource defaults",
+  "text": "리소스 기본값",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리소스 기본값"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

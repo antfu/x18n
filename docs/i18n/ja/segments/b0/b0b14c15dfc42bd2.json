@@ -1,0 +1,14 @@
+{
+  "hash": "b0b14c15dfc42bd2",
+  "source": "Batch set from JSON {0}; {1} reads stdin.",
+  "text": "JSON の {0} からまとめて設定します。{1} は stdin から読み込みます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON の {0} からまとめて設定します。{1} は stdin から読み込みます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

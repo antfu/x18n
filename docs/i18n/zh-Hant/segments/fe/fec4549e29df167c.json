@@ -1,0 +1,14 @@
+{
+  "hash": "fec4549e29df167c",
+  "source": "Users then set the options under {0}, and the plugin reads them in {1}:",
+  "text": "使用者接著在 {0} 下設定選項，外掛則在 {1} 中讀取這些選項：",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用者接著在 {0} 下設定選項，外掛則在 {1} 中讀取這些選項："
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

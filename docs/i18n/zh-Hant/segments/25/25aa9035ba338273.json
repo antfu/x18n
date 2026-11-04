@@ -1,0 +1,14 @@
+{
+  "hash": "25aa9035ba338273",
+  "source": "Use a name from the {0}presets list{/0}.",
+  "text": "請使用{0}預設集清單{/0}中的名稱。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "請使用{0}預設集清單{/0}中的名稱。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

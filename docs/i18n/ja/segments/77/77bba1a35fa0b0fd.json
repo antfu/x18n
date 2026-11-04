@@ -1,0 +1,14 @@
+{
+  "hash": "77bba1a35fa0b0fd",
+  "source": "The check runs only when the project has at least one scanner.",
+  "text": "このチェックは、プロジェクトにスキャナーが1つ以上ある場合にのみ実行されます。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックは、プロジェクトにスキャナーが1つ以上ある場合にのみ実行されます。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

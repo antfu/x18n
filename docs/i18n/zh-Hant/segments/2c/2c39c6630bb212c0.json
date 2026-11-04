@@ -1,0 +1,14 @@
+{
+  "hash": "2c39c6630bb212c0",
+  "source": "The translate prompt tells the agent the plural categories of the target locale, for example \"i18next plural keys end in \\_one,\\_other for de; write one key per category.\"",
+  "text": "翻譯提示會告知 agent 目標語系的複數類別，例如「i18next plural keys end in \\_one,\\_other for de; write one key per category.」",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻譯提示會告知 agent 目標語系的複數類別，例如「i18next plural keys end in \\_one,\\_other for de; write one key per category.」"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

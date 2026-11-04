@@ -1,0 +1,14 @@
+{
+  "hash": "39299d462b0b5b88",
+  "source": "The check reads the {0} config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when {1} is {2}. A term and a translation match as whole words, so \"Home\" does not match \"Homepage\".",
+  "text": "此檢查會讀取 {0} 設定。對於來源值中的每個術語，它會預期目標值包含該術語的翻譯；當 {1} 為 {2} 時，則預期包含術語本身。術語與翻譯是以完整單字比對，因此「Home」不會符合「Homepage」。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此檢查會讀取 {0} 設定。對於來源值中的每個術語，它會預期目標值包含該術語的翻譯；當 {1} 為 {2} 時，則預期包含術語本身。術語與翻譯是以完整單字比對，因此「Home」不會符合「Homepage」。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}

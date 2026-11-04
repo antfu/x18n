@@ -1,0 +1,14 @@
+{
+  "hash": "dd671202af7415ac",
+  "source": "The preset for Chrome and WebExtension locales. It reads _locales/*/messages.json, getMessage calls and __MSG_name__ references.",
+  "text": "ChromeおよびWebExtensionのロケール用のプリセットです。_locales/*/messages.json、getMessage の呼び出し、__MSG_name__ の参照を読み取ります。",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ChromeおよびWebExtensionのロケール用のプリセットです。_locales/*/messages.json、getMessage の呼び出し、__MSG_name__ の参照を読み取ります。"
+  },
+  "updatedAt": "2026-11-04T05:47:31.360Z"
+}
