@@ -6,6 +6,7 @@ import CodeSnippet from '../components/CodeSnippet.vue'
 import FilePath from '../components/FilePath.vue'
 import UiPage from '../components/ui/UiPage.vue'
 import UiSegmented from '../components/ui/UiSegmented.vue'
+import VirtualList from '../components/VirtualList.vue'
 import { t } from '../i18n'
 import { backend, projectName, useLive } from '../state'
 
@@ -26,6 +27,7 @@ const undefinedByKey = computed(() => {
 })
 const dynamic = computed(() => (usages.value ?? []).filter(u => u.dynamic !== false))
 const all = computed(() => (usages.value ?? []).filter(u => !filter.value || u.path.includes(filter.value) || (u.key ?? u.raw).includes(filter.value)))
+const unused = computed(() => analysis.value?.unused ?? [])
 
 // The bulk delete: a dry run first, then the write after the user confirms.
 const deletion = ref<UnusedDeletionView>()
@@ -87,13 +89,17 @@ const tabs = computed(() => [
       <p class="border-b border-base px-4 py-2 text-xs color-muted">
         {{ t('usages.missingHint') }}
       </p>
-      <div v-for="[key, list] in undefinedByKey" :key="key" class="grid gap-2 border-b border-base px-4 py-3">
-        <span class="font-mono font-medium color-error">{{ key }}</span>
-        <div v-for="(usage, i) in list" :key="i" class="grid gap-1">
-          <FilePath :path="usage.path" :line="usage.line" :column="usage.column" />
-          <CodeSnippet :usage="usage" />
-        </div>
-      </div>
+      <VirtualList :items="undefinedByKey" :estimate="160" :get-key="([k]) => k">
+        <template #default="{ item: [key, list] }">
+          <div class="grid gap-2 border-b border-base px-4 py-3">
+            <span class="font-mono font-medium color-error">{{ key }}</span>
+            <div v-for="(usage, i) in list" :key="i" class="grid gap-1">
+              <FilePath :path="usage.path" :line="usage.line" :column="usage.column" />
+              <CodeSnippet :usage="usage" />
+            </div>
+          </div>
+        </template>
+      </VirtualList>
     </template>
 
     <template v-else-if="tab === 'unused'">
@@ -136,33 +142,45 @@ const tabs = computed(() => [
           </button>
         </div>
       </div>
-      <NuxtLink v-for="key in analysis?.unused" :key="key" :to="`/keys/${encodeURIComponent(key)}`" class="focus-ring flex items-center gap-2 border-b border-base px-4 py-1.5 font-mono text-xs transition-colors hover:bg-hover">
-        <span class="i-ph-ghost-duotone color-faint" />
-        {{ key }}
-      </NuxtLink>
+      <VirtualList :items="unused" :estimate="29" :get-key="k => k">
+        <template #default="{ item: key }">
+          <NuxtLink :to="`/keys/${encodeURIComponent(key)}`" class="focus-ring flex items-center gap-2 border-b border-base px-4 py-1.5 font-mono text-xs transition-colors hover:bg-hover">
+            <span class="i-ph-ghost-duotone color-faint" />
+            {{ key }}
+          </NuxtLink>
+        </template>
+      </VirtualList>
     </template>
 
     <template v-else-if="tab === 'dynamic'">
       <p class="border-b border-base px-4 py-2 text-xs color-muted">
         {{ t('usages.dynamicHint') }}
       </p>
-      <div v-for="(usage, i) in dynamic" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
-        <div class="flex items-center gap-2">
-          <FilePath :path="usage.path" :line="usage.line" />
-          <code class="font-mono text-xs color-info">{{ usage.raw }}</code>
-        </div>
-        <CodeSnippet :usage="usage" />
-      </div>
+      <VirtualList :items="dynamic" :estimate="140">
+        <template #default="{ item: usage }">
+          <div class="grid gap-1 border-b border-base px-4 py-3">
+            <div class="flex items-center gap-2">
+              <FilePath :path="usage.path" :line="usage.line" />
+              <code class="font-mono text-xs color-info">{{ usage.raw }}</code>
+            </div>
+            <CodeSnippet :usage="usage" />
+          </div>
+        </template>
+      </VirtualList>
     </template>
 
     <template v-else>
-      <div v-for="(usage, i) in all" :key="i" class="grid grid-cols-[minmax(0,22rem)_1fr] items-center gap-4 border-b border-base px-4 py-1 transition-colors hover:bg-hover">
-        <FilePath :path="usage.path" :line="usage.line" />
-        <NuxtLink v-if="usage.key" :to="`/keys/${encodeURIComponent(usage.key)}`" class="truncate font-mono text-xs hover:underline">
-          {{ usage.key }}
-        </NuxtLink>
-        <span v-else class="truncate font-mono text-xs color-muted">{{ usage.raw }}</span>
-      </div>
+      <VirtualList :items="all" :estimate="29">
+        <template #default="{ item: usage }">
+          <div class="grid grid-cols-[minmax(0,22rem)_1fr] items-center gap-4 border-b border-base px-4 py-1 transition-colors hover:bg-hover">
+            <FilePath :path="usage.path" :line="usage.line" />
+            <NuxtLink v-if="usage.key" :to="`/keys/${encodeURIComponent(usage.key)}`" class="truncate font-mono text-xs hover:underline">
+              {{ usage.key }}
+            </NuxtLink>
+            <span v-else class="truncate font-mono text-xs color-muted">{{ usage.raw }}</span>
+          </div>
+        </template>
+      </VirtualList>
     </template>
   </UiPage>
 </template>

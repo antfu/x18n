@@ -1,6 +1,7 @@
 import type { Answers, Diagnostic, EditOp, KeyString, LineIndex, LocaleCode, LocaleCoverage, MessageChange, MessageState, Plan, ReviewState, Usage, UsageMatch, WireDiagnostic } from '@x18n/core'
-import type { AnalysisView, ApplyView, ExplainView, HistoryView, KeyDetail, KeyTable, PlanView, ProjectSummary, Snippet, UiProject, UnusedDeletionQuery, UnusedDeletionView, UsageView } from './types'
+import type { AnalysisView, ApplyView, DiagnosticCount, DiagnosticPage, DiagnosticQuery, ExplainView, HistoryView, KeyDetail, KeyTable, PlanView, ProjectSummary, Snippet, UiProject, UnusedDeletionQuery, UnusedDeletionView, UsageView } from './types'
 import { createLineIndex, errors, placeholderProblems, toWireDiagnostic } from '@x18n/core'
+import { diagnosticPageSize, localeProblemCodes } from './constants'
 
 /** The named project, or the only one. */
 export function pickProject(projects: readonly UiProject[], name: string | undefined): UiProject {
@@ -88,13 +89,19 @@ function recentChangeGroups(project: UiProject['project']): ProjectSummary['chan
     }))
 }
 
-export function summarize({ name, project }: UiProject): ProjectSummary {
-  const analysis = project.analyze()
-  const byCode = new Map<string, ProjectSummary['diagnostics']['byCode'][number]>()
-  for (const d of analysis.diagnostics) {
+function countByCode(diagnostics: readonly Diagnostic[]): DiagnosticCount[] {
+  const byCode = new Map<string, DiagnosticCount>()
+  for (const d of diagnostics) {
     const entry = byCode.get(d.code)
     byCode.set(d.code, { code: d.code, severity: d.severity, count: (entry?.count ?? 0) + 1 })
   }
+  return [
+    ...byCode.values(),
+  ].sort((a, b) => b.count - a.count || a.code.localeCompare(b.code))
+}
+
+export function summarize({ name, project }: UiProject): ProjectSummary {
+  const analysis = project.analyze()
   const count = (severities: readonly string[]): number => analysis.diagnostics.filter(d => severities.includes(d.severity)).length
   return {
     name,
@@ -125,9 +132,7 @@ export function summarize({ name, project }: UiProject): ProjectSummary {
       errors: count(['error']),
       warnings: count(['warning']),
       infos: count(['info', 'hint']),
-      byCode: [
-        ...byCode.values(),
-      ].sort((a, b) => b.count - a.count || a.code.localeCompare(b.code)),
+      byCode: countByCode(analysis.diagnostics),
     },
     presets: project.explain().presets.filter(p => p.reason === 'listed' || p.reason === 'detected').map(p => p.name),
     changes: recentChangeGroups(project),
@@ -173,7 +178,13 @@ export function keyTable({ name, project }: UiProject): KeyTable {
     locales: project.locales,
     rows: project.keys().map((key) => {
       const info = project.get(key)
-      const times = project.locales.flatMap(locale => project.history(key, locale)?.updatedAt ?? []).map(at => Math.min(at, now))
+      // A plain loop: no arrays per key, and no `Math.max(...spread)` on large projects.
+      let changedAt: number | undefined
+      for (const locale of project.locales) {
+        const at = project.history(key, locale)?.updatedAt
+        if (at !== undefined)
+          changedAt = Math.max(changedAt ?? -Infinity, Math.min(at, now))
+      }
       const states: Record<LocaleCode, MessageState> = {}
       for (const m of info?.messages ?? []) {
         if (m.state)
@@ -188,9 +199,7 @@ export function keyTable({ name, project }: UiProject): KeyTable {
         unused: unused.has(key),
         diagnostics: diagnostics.get(key) ?? 0,
         outdated: outdated.get(key) ?? [],
-        changedAt: times.length
-          ? Math.max(...times)
-          : undefined,
+        changedAt,
         reviews: reviews.get(key) ?? {},
         states,
       }
@@ -297,10 +306,61 @@ export function analysisView(p: UiProject): AnalysisView {
   const analysis = p.project.analyze()
   return {
     project: p.name,
-    diagnostics: wire(p, analysis.diagnostics),
     unused: analysis.unused,
     undefinedUsages: analysis.undefinedUsages.map(u => usageView(p, u)),
   }
+}
+
+const sortedDiagnostics = new WeakMap<object, Diagnostic[]>()
+
+/** Diagnostics of the project, errors first and otherwise in analysis order; sorted once per analysis. */
+function byErrorsFirst(p: UiProject): Diagnostic[] {
+  const analysis = p.project.analyze()
+  let sorted = sortedDiagnostics.get(analysis)
+  if (!sorted) {
+    sorted = analysis.diagnostics.toSorted((a, b) => Number(b.severity === 'error') - Number(a.severity === 'error'))
+    sortedDiagnostics.set(analysis, sorted)
+  }
+  return sorted
+}
+
+/** One page of the diagnostics that match the query; only that page is converted to the wire shape. */
+export function diagnosticPage(p: UiProject, query: DiagnosticQuery): DiagnosticPage {
+  const page = query.page ?? 0
+  const inLocale = query.locale === undefined
+    ? byErrorsFirst(p)
+    : byErrorsFirst(p).filter(d => d.locale === query.locale)
+  const codes = query.codes && new Set(query.codes)
+  const matching = codes
+    ? inLocale.filter(d => codes.has(d.code))
+    : inLocale
+  return {
+    project: p.name,
+    total: matching.length,
+    page,
+    pageSize: diagnosticPageSize,
+    byCode: countByCode(inLocale),
+    items: wire(p, matching.slice(page * diagnosticPageSize, (page + 1) * diagnosticPageSize)),
+  }
+}
+
+/** Every query the SPA sends for a project, for the static build: all pages of all diagnostics, of each code, and of each locale's problems. */
+export function diagnosticQueries(p: UiProject): DiagnosticQuery[] {
+  const all = byErrorsFirst(p)
+  const out: DiagnosticQuery[] = []
+  const add = (filter: Omit<DiagnosticQuery, 'project' | 'page'>, count: number): void => {
+    for (let page = 0; page === 0 || page * diagnosticPageSize < count; page++)
+      out.push({ project: p.name, ...filter, page })
+  }
+  add({}, all.length)
+  for (const { code, count } of countByCode(all)) {
+    add({
+      codes: [code],
+    }, count)
+  }
+  for (const locale of p.project.locales)
+    add({ codes: localeProblemCodes, locale }, all.filter(d => d.locale === locale && localeProblemCodes.includes(d.code)).length)
+  return out
 }
 
 export function explainView(p: UiProject): ExplainView {

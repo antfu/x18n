@@ -40,7 +40,6 @@ export interface AgentSetQuery extends ProjectQuery {
 export interface AgentUsagesQuery extends UsageQuery, PageQuery {}
 export interface AnalysisView {
   readonly project: string;
-  readonly diagnostics: readonly WireDiagnostic[];
   readonly unused: readonly KeyString[];
   readonly undefinedUsages: readonly UsageView[];
 }
@@ -63,15 +62,29 @@ export interface ChangeView {
   readonly type: FileChange["type"];
   readonly path: string;
 }
+export interface DiagnosticCount {
+  readonly code: string;
+  readonly severity: Severity;
+  readonly count: number;
+}
 export interface DiagnosticCounts {
   readonly errors: number;
   readonly warnings: number;
   readonly infos: number;
-  readonly byCode: readonly {
-    readonly code: string;
-    readonly severity: Severity;
-    readonly count: number;
-  }[];
+  readonly byCode: readonly DiagnosticCount[];
+}
+export interface DiagnosticPage {
+  readonly project: string;
+  readonly total: number;
+  readonly page: number;
+  readonly pageSize: number;
+  readonly byCode: readonly DiagnosticCount[];
+  readonly items: readonly WireDiagnostic[];
+}
+export interface DiagnosticQuery extends ProjectQuery {
+  readonly codes?: readonly string[] | undefined;
+  readonly locale?: LocaleCode | undefined;
+  readonly page?: number | undefined;
 }
 export interface ExplainList {
   readonly projects: readonly ExplainView[];

@@ -1,7 +1,7 @@
 import type { ExtractCandidate } from '@x18n/builtins/extractors'
 import type { ReviewThread } from '@x18n/core'
 import type { DevframeRpcClient } from 'devframe/client'
-import type { AnalysisView, ApplyQuery, ApplyView, ExplainList, ExtractApplyQuery, KeyDetail, KeyTable, OpenQuery, PlanQuery, PlanView, ProjectList, UnusedDeletionQuery, UnusedDeletionView, UsageView, X18nState } from '../src/node/types'
+import type { AnalysisView, ApplyQuery, ApplyView, DiagnosticPage, DiagnosticQuery, ExplainList, ExtractApplyQuery, KeyDetail, KeyTable, OpenQuery, PlanQuery, PlanView, ProjectList, UnusedDeletionQuery, UnusedDeletionView, UsageView, X18nState } from '../src/node/types'
 import { connectDevframe } from 'devframe/client'
 import { shallowRef } from 'vue'
 
@@ -14,6 +14,7 @@ export interface UiBackend {
   readonly key: (project: string, key: string) => Promise<KeyDetail | null>
   readonly usages: (project: string) => Promise<UsageView[]>
   readonly analysis: (project: string) => Promise<AnalysisView>
+  readonly diagnostics: (project: string, query: Omit<DiagnosticQuery, 'project'>) => Promise<DiagnosticPage>
   /** Every review thread, resolved comments included. */
   readonly reviews: (project: string) => Promise<ReviewThread[]>
   readonly explain: () => Promise<ExplainList>
@@ -28,14 +29,21 @@ export interface UiBackend {
   readonly onChange: (listener: (state: X18nState) => void) => () => void
 }
 
-// Static dumps are keyed by the exact arguments, so reads always pass `{ project }` and nothing else.
-function reads(rpc: DevframeRpcClient): Pick<UiBackend, 'project' | 'keys' | 'key' | 'usages' | 'analysis' | 'reviews' | 'explain' | 'extractCandidates'> {
+// Static dumps are keyed by the exact arguments, so reads always pass `{ project }` and nothing else,
+// and diagnostics pass the fields of a query only when set, with `page` always (see `diagnosticQueries`).
+function reads(rpc: DevframeRpcClient): Pick<UiBackend, 'project' | 'keys' | 'key' | 'usages' | 'analysis' | 'diagnostics' | 'reviews' | 'explain' | 'extractCandidates'> {
   return {
     project: () => rpc.call('x18n:project'),
     keys: project => rpc.call('x18n:keys', { project }),
     key: (project, key) => rpc.call('x18n:key', { project, key }),
     usages: project => rpc.call('x18n:usages', { project }),
     analysis: project => rpc.call('x18n:analysis', { project }),
+    diagnostics: (project, { codes, locale, page }) => rpc.call('x18n:diagnostics', {
+      project,
+      ...codes && { codes },
+      ...locale !== undefined && { locale },
+      page: page ?? 0,
+    }),
     reviews: project => rpc.call('x18n:reviews', { project }),
     explain: () => rpc.call('x18n:explain'),
     extractCandidates: project => rpc.call('x18n:extract-candidates', { project }),

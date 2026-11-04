@@ -6,38 +6,27 @@ import CopyPrompt from '../components/CopyPrompt.vue'
 import FilePath from '../components/FilePath.vue'
 import LocaleFlag from '../components/LocaleFlag.vue'
 import UiPage from '../components/ui/UiPage.vue'
+import VirtualList from '../components/VirtualList.vue'
+import { useDiagnostics } from '../diagnostics'
 import { t } from '../i18n'
 import { fixPrompt } from '../prompt'
-import { useLive } from '../state'
 
 const route = useRoute()
 const router = useRouter()
-const analysis = useLive((b, project) => b.analysis(project))
 
 const code = computed(() => typeof route.query.code === 'string'
   ? route.query.code
   : undefined)
-const all = computed(() => analysis.value?.diagnostics ?? [])
-
-const codes = computed(() => {
-  const groups = new Map<string, { code: string, severity: string, count: number }>()
-  for (const d of all.value) {
-    const group = groups.get(d.code) ?? { code: d.code, severity: d.severity, count: 0 }
-    group.count++
-    groups.set(d.code, group)
-  }
-  return [
-    ...groups.values(),
-  ].sort((a, b) => b.count - a.count)
-})
-
-const rows = computed(() => all.value
-  .filter(d => !code.value || d.code === code.value)
-  .toSorted((a, b) => (a.severity === b.severity
-    ? 0
-    : a.severity === 'error'
-      ? -1
-      : 1)))
+// The server sends the diagnostics a page at a time, errors first: a large project has tens of thousands.
+// The list mounts the rows in view and asks for the next page when its end comes into view.
+const { data, more } = useDiagnostics(() => code.value === undefined
+  ? {}
+  : {
+      codes: [code.value],
+    })
+const codes = computed(() => data.value?.byCode ?? [])
+const all = computed(() => codes.value.reduce((sum, c) => sum + c.count, 0))
+const rows = computed(() => data.value?.items ?? [])
 
 function select(next: string | undefined): void {
   void router.replace({
@@ -49,10 +38,10 @@ function select(next: string | undefined): void {
 </script>
 
 <template>
-  <UiPage v-if="analysis">
+  <UiPage v-if="data">
     <div class="flex flex-wrap items-center gap-2 border-b border-base px-4 py-3">
       <button type="button" class="btn h-7" :class="code ? 'btn-ghost' : 'border-strong'" @click="select(undefined)">
-        {{ t('diagnostics.all', { count: all.length }) }}
+        {{ t('diagnostics.all', { count: all }) }}
       </button>
       <button
         v-for="c in codes"
@@ -72,20 +61,24 @@ function select(next: string | undefined): void {
     <p v-if="!rows.length" class="border-b border-base px-4 py-3 color-muted">
       {{ t('overview.clean') }}
     </p>
-    <div v-for="(d, i) in rows" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
-      <div class="flex items-center gap-2">
-        <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
-        <span class="font-mono text-xs color-muted">{{ d.code }}</span>
-        <span class="flex-auto" />
-        <span v-if="d.locale" class="inline-flex items-center gap-1.5 font-mono text-xs"><LocaleFlag :code="d.locale" />{{ d.locale }}</span>
-      </div>
-      <p>{{ d.message }}</p>
-      <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
-        <NuxtLink v-if="d.key" :to="`/keys/${encodeURIComponent(d.key)}`" class="focus-ring font-mono text-xs hover:underline">
-          {{ d.key }}
-        </NuxtLink>
-        <FilePath v-if="d.file" :path="d.file" :line="d.range?.line" :column="d.range?.column" />
-      </div>
-    </div>
+    <VirtualList :items="rows" :estimate="88" @end="more">
+      <template #default="{ item: d }">
+        <div class="grid gap-1 border-b border-base px-4 py-3">
+          <div class="flex items-center gap-2">
+            <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
+            <span class="font-mono text-xs color-muted">{{ d.code }}</span>
+            <span class="flex-auto" />
+            <span v-if="d.locale" class="inline-flex items-center gap-1.5 font-mono text-xs"><LocaleFlag :code="d.locale" />{{ d.locale }}</span>
+          </div>
+          <p>{{ d.message }}</p>
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <NuxtLink v-if="d.key" :to="`/keys/${encodeURIComponent(d.key)}`" class="focus-ring font-mono text-xs hover:underline">
+              {{ d.key }}
+            </NuxtLink>
+            <FilePath v-if="d.file" :path="d.file" :line="d.range?.line" :column="d.range?.column" />
+          </div>
+        </div>
+      </template>
+    </VirtualList>
   </UiPage>
 </template>

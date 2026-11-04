@@ -29,6 +29,7 @@ it('writes a static report with the SPA and the dumped data', async () => {
     const manifest = JSON.parse(await readFile(join(outDir, '__rpc-dump/index.json'), 'utf8'))
     expect(Object.keys(manifest).filter(name => name.startsWith('x18n:')).sort()).toEqual([
       'x18n:analysis',
+      'x18n:diagnostics',
       'x18n:explain',
       'x18n:extract-candidates',
       'x18n:key',
@@ -42,6 +43,10 @@ it('writes a static report with the SPA and the dumped data', async () => {
     expect(project.projects[0]).toMatchObject({ name: 'vue-i18n', sourceLocale: 'en', keys: 8 })
     const keys = JSON.parse(await readFile(join(outDir, Object.values<string>(manifest['x18n:keys'].records)[0]!), 'utf8')).output
     expect(keys.rows.find((row: { key: string }) => row.key === 'nav.home').values).toEqual({ en: 'Home', de: 'Start' })
+    // Every query the SPA sends is dumped: page 0 of all diagnostics at least, and one per check and per locale.
+    const diagnostics = workspace.projects[0]!.project.analyze().diagnostics
+    const codes = new Set(diagnostics.map(d => d.code))
+    expect(Object.keys(manifest['x18n:diagnostics'].records)).toHaveLength(1 + codes.size + workspace.projects[0]!.project.locales.length)
     workspace.projects.forEach(p => p.project.dispose())
   }
   finally {
