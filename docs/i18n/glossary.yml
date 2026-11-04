@@ -1,5 +1,6 @@
 # Terminology of the docs, in x18n's `glossary` shape (see `x18n.config.ts` at the repo root and
-# plans/glossary.md). The zh-Hans terms match the UI's own `packages/ui/app/locales/zh-Hans.json`.
+# plans/glossary.md). Translations match the UI's own `packages/ui/app/locales/<locale>.json`; locale-only
+# decisions that need diglot fields (`match`, `keep`) are in `<locale>/glossary.yml`.
 - term: x18n
   doNotTranslate: true
 - term: devframe
@@ -21,65 +22,218 @@
   note: a message identifier such as `nav.home`, not a keyboard key or a password
   translations:
     zh-Hans: 键
+    zh-Hant: 鍵
+    ja: キー
+    ko: 키
+    ru: ключ
+    fr: clé
+    de: Schlüssel
+    it: chiave
+    pt-BR: chave
+    es: clave
 - term: message
   note: the value of one key in one locale
   translations:
     zh-Hans: 消息
+    zh-Hant: 訊息
+    ja: メッセージ
+    ko: 메시지
+    ru: сообщение
+    fr: message
+    de: Message
+    it: messaggio
+    pt-BR: mensagem
+    es: mensaje
 - term: locale
   note: a language (and region) code such as `de` or `pt-BR`
   translations:
     zh-Hans: 语言
+    zh-Hant: 語系
+    ja: ロケール
+    ko: 로케일
+    ru: локаль
+    fr: langue
+    de: Sprache
+    it: lingua
+    pt-BR: idioma
+    es: idioma
 - term: source locale
   note: the locale every other locale is translated from
   translations:
     zh-Hans: 源语言
+    zh-Hant: 來源語系
+    ja: ソースロケール
+    ko: 소스 로케일
+    ru: исходная локаль
+    fr: langue source
+    de: Quellsprache
+    it: lingua di origine
+    pt-BR: idioma de origem
+    es: idioma de origen
 - term: resource
   note: a file, or a block inside a file, holding the messages of one locale and one namespace
   translations:
     zh-Hans: 资源
+    zh-Hant: 資源
+    ja: リソース
+    ko: 리소스
+    ru: ресурс
+    fr: ressource
+    de: Ressource
+    it: risorsa
+    pt-BR: recurso
+    es: recurso
 - term: namespace
   note: a group of keys, often one file per locale
   translations:
     zh-Hans: 命名空间
+    zh-Hant: 命名空間
+    ja: 名前空間
+    ko: 네임스페이스
+    ru: пространство имён
+    fr: espace de noms
+    de: Namespace
+    it: namespace
+    pt-BR: namespace
+    es: espacio de nombres
 - term: usage
   note: one occurrence of a key in source code
   translations:
     zh-Hans: 引用
+    zh-Hant: 使用處
+    ja: 使用箇所
+    ko: 사용처
+    ru: использование
+    fr: utilisation
+    de: Verwendung
+    it: utilizzo
+    pt-BR: uso
+    es: uso
 - term: preset
   note: a detected or listed group of plugins for one i18n library, such as vue-i18n
   translations:
     zh-Hans: 预设
+    zh-Hant: 預設集
+    ja: プリセット
+    ko: 프리셋
+    ru: пресет
+    fr: preset
+    de: Preset
+    it: preset
+    pt-BR: preset
+    es: preset
 - term: plugin
   translations:
     zh-Hans: 插件
+    zh-Hant: 外掛
+    ja: プラグイン
+    ko: 플러그인
+    ru: плагин
+    fr: plugin
+    de: Plugin
+    it: plugin
+    pt-BR: plugin
+    es: plugin
 - term: placeholder
   note: a variable in a message, such as `{name}`
   translations:
     zh-Hans: 占位符
+    zh-Hant: 佔位符
+    ja: プレースホルダー
+    ko: 플레이스홀더
+    ru: плейсхолдер
+    fr: espace réservé
+    de: Platzhalter
+    it: segnaposto
+    pt-BR: placeholder
+    es: marcador de posición
 - term: diagnostic
   note: one reported issue with a code and a severity
   translations:
     zh-Hans: 诊断
+    zh-Hant: 診斷
+    ja: 診断
+    ko: 진단
+    ru: диагностика
+    fr: diagnostic
+    de: Diagnose
+    it: diagnostica
+    pt-BR: diagnóstico
+    es: diagnóstico
 - term: check
   note: an x18n check that produces diagnostics, as run by `x18n check`
   translations:
     zh-Hans: 检查
+    zh-Hant: 檢查
+    ja: チェック
+    ko: 검사
+    ru: проверка
+    fr: vérification
+    de: Prüfung
+    it: controllo
+    pt-BR: verificação
+    es: comprobación
 - term: review
   note: a comment, approval, change request or suggestion on one message
   translations:
     zh-Hans: 审阅
+    zh-Hant: 審閱
+    ja: レビュー
+    ko: 리뷰
+    ru: ревью
+    fr: relecture
+    de: Review
+    it: revisione
+    pt-BR: revisão
+    es: revisión
 - term: surface
   note: a user-facing layer on the core - the CLI, the language server, the VS Code extension, the UI or MCP
   translations:
     zh-Hans: 界面
+    zh-Hant: 介面
+    ja: サーフェス
+    ko: 인터페이스
+    ru: интерфейс
+    fr: interface
+    de: Oberfläche
+    it: interfaccia
+    pt-BR: interface
+    es: interfaz
 - term: hard string
   note: text in source code that should probably be a message
   translations:
     zh-Hans: 硬编码字符串
+    zh-Hant: 硬編碼字串
+    ja: ハードコードされた文字列
+    ko: 하드코딩된 문자열
+    ru: захардкоженная строка
+    fr: chaîne en dur
+    de: hartcodierter String
+    it: stringa hardcoded
+    pt-BR: string fixa no código
+    es: cadena codificada
 - term: stale translation
   note: a target message that last changed before its source message did
   translations:
     zh-Hans: 过时翻译
+    zh-Hant: 過時翻譯
+    ja: 古い翻訳
+    ko: 오래된 번역
+    ru: устаревший перевод
+    fr: traduction obsolète
+    de: veraltete Übersetzung
+    it: traduzione obsoleta
+    pt-BR: tradução desatualizada
+    es: traducción desactualizada
 - term: language server
   translations:
     zh-Hans: 语言服务器
+    zh-Hant: 語言伺服器
+    ja: 言語サーバー
+    ko: 언어 서버
+    ru: языковой сервер
+    fr: serveur de langage
+    de: Language Server
+    it: language server
+    pt-BR: servidor de linguagem
+    es: servidor de lenguaje

@@ -43,6 +43,17 @@ function localizeLinks(nodes: readonly unknown[], prefix: string, routes: Set<st
   }
 }
 
+/** Drops the `lang` of table cells, which markdown tables cannot carry. */
+function unmarkCells(nodes: readonly unknown[]): void {
+  for (const node of nodes) {
+    if (!Array.isArray(node))
+      continue
+    if (node[0] === 'td' || node[0] === 'th')
+      delete (node[1] as Record<string, unknown>).lang
+    unmarkCells(node.slice(2))
+  }
+}
+
 /** Inline code in markdown: a fence longer than any backtick run in `value`, padded where needed. */
 function inlineCode(value: string): string {
   const longest = Math.max(0, ...Array.from(value.matchAll(/`+/g), m => m[0].length))
@@ -120,6 +131,7 @@ export async function translatedPages(pages: Map<string, string> = new Map()): P
         },
       })
       localizeLinks(translated.nodes, `/${slug}`, routes)
+      unmarkCells(translated.nodes)
       const expected = structuredClone(translated.nodes)
       const rendered = await renderDocument(translated)
       // Rendering must not change the document, or the page would show something else than its records.

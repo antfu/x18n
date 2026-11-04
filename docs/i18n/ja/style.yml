@@ -1,0 +1,7 @@
+rules:
+  - 'Write Japanese for developers in the polite です・ます form, neutral and direct. Use the imperative-polite form for instructions (「実行してください」).'
+  - 'Use full-width punctuation (、。「」（）) in Japanese prose, and half-width punctuation inside code, paths and English names.'
+  - 'Put one space between CJK characters and adjacent Latin letters or digits, except next to full-width punctuation.'
+  - 'Keep code identifiers, file and directory names, package names, CLI commands and flags, configuration keys, check ids and error codes in English.'
+  - 'Keep the names of i18n libraries and frameworks (vue-i18n, i18next, next-intl, Nuxt, React, Angular, ...) in English.'
+  - Translate headings concisely; do not add terminal punctuation to headings.

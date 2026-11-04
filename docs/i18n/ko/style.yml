@@ -1,0 +1,6 @@
+rules:
+  - 'Write Korean for developers in the formal 합니다체, neutral and direct. Write instructions as 하세요/하십시오 consistently within a page (prefer 하세요).'
+  - Keep a space between Korean words and adjacent Latin letters or code where it reads naturally.
+  - 'Keep code identifiers, file and directory names, package names, CLI commands and flags, configuration keys, check ids and error codes in English.'
+  - 'Keep the names of i18n libraries and frameworks (vue-i18n, i18next, next-intl, Nuxt, React, Angular, ...) in English.'
+  - Translate headings concisely; do not add terminal punctuation to headings.

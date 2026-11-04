@@ -6,7 +6,7 @@ import { LandingCta, LandingFaq, LandingFeatureCard, LandingFeatures, LandingHer
 
 definePageMeta({
   // The slugs of `utils/locales.ts`, other than English.
-  path: '/:locale(zh-hans)',
+  path: '/:locale(zh-hans|zh-hant|ja|ko|ru|fr|de|it|pt-br|es)',
 })
 
 const landingComponents = {

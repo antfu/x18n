@@ -1,7 +1,18 @@
 import { defineConfig } from '@diglot/core'
 
 export default defineConfig({
-  locales: ['zh-Hans'],
+  locales: [
+    'zh-Hans',
+    'zh-Hant',
+    'ja',
+    'ko',
+    'ru',
+    'fr',
+    'de',
+    'it',
+    'pt-BR',
+    'es',
+  ],
   sources: [
     {
       name: 'docs',

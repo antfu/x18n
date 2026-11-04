@@ -1,0 +1,7 @@
+rules:
+  - 'Address the reader as "du" (lowercase) and use the imperative for instructions ("Führe ... aus", "Füge ... hinzu").'
+  - 'Use established German developer vocabulary; keep English terms that German developers use as is (Pull Request, Monorepo, Build) and capitalise nouns.'
+  - Use German quotation marks („“) for quoted prose.
+  - 'Keep code identifiers, file and directory names, package names, CLI commands and flags, configuration keys, check ids and error codes in English.'
+  - 'Keep the names of i18n libraries and frameworks (vue-i18n, i18next, next-intl, Nuxt, React, Angular, ...) in English.'
+  - Translate headings concisely; do not add terminal punctuation to headings.

@@ -27,7 +27,7 @@ export default antfu(
       // Written by diglot (docs/i18n) and docs/scripts/translate.ts.
       'docs/i18n/*/segments',
       'docs/i18n/.diglot',
-      'docs/content/zh-hans',
+      'docs/content/{zh-hans,zh-hant,ja,ko,ru,fr,de,it,pt-br,es}',
     ],
   },
   {
