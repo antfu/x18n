@@ -10,4 +10,8 @@ export default defineConfig({
   plugins: [
     diglot({ root: 'i18n' }),
   ],
+  checks: {
+    // Product names, check ids and code-like segments read the same in every locale.
+    'identical-to-source': 'off',
+  },
 })
