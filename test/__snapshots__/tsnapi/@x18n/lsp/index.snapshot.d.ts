@@ -38,7 +38,7 @@ export interface FileKey {
   readonly value: string | undefined;
   readonly missing: boolean;
   readonly dynamic: boolean;
-  readonly usages?: number;
+  readonly usages?: number | undefined;
 }
 export interface FileKeysResult {
   readonly keys: readonly FileKey[];

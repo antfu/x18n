@@ -577,7 +577,7 @@ const methodDocs = {
     kind: 'request',
     params: 'DocumentParams',
     result: 'FileKeysResult',
-    doc: 'The keys and hard strings of one file.',
+    doc: 'The keys and hard strings of one file, with the usage count of each key.',
   },
   usageReport: {
     kind: 'request',
@@ -771,6 +771,8 @@ The client passes these fields in \`initializationOptions\`. Each one is optiona
 \`\`\`ts
 ${declaration(server, 'Settings')}
 \`\`\`
+
+A hover shows the value per locale and the number of usages. It links to \`x18n.openKey\`, \`x18n.copyTranslatePrompt\` and \`x18n.translateWithAgent\` only when the client lists them in \`hoverCommands\`, because a client that cannot run a \`command:\` URL opens it as a link and fails. The default is no links.
 
 ## Custom methods
 

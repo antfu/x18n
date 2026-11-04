@@ -76,7 +76,8 @@ export interface FileKey {
   readonly value: string | undefined
   readonly missing: boolean
   readonly dynamic: boolean
-  readonly usages?: number
+  /** Usages of the key in the project; prefix usages that may reach it count too. Omitted for dynamic entries. */
+  readonly usages?: number | undefined
 }
 
 export interface FileKeysResult {
