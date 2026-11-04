@@ -220,6 +220,7 @@ describe('project read path', () => {
         a: 'A',
         b: 'B',
         skip: { me: 'x' },
+        step: { s01: 'One', s02: 'Two' },
       }),
       'locales/de.json': json({}),
     }
@@ -228,7 +229,7 @@ describe('project read path', () => {
         { pattern: 'locales/{locale}.json' },
       ],
       strict: true,
-      ignoreKeys: ['skip.**'],
+      ignoreKeys: ['skip.**', /^step\.s\d{2}$/],
       checks: { 'empty-translation': 'off' },
     })
     expect(project.analyze().diagnostics.map(d => `${d.severity}:${d.key}`)).toEqual(['error:a', 'error:b'])

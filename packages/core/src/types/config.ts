@@ -192,7 +192,7 @@ export interface SerializableConfig {
   readonly checks?: { readonly [checkId: string]: CheckSetting } | undefined
   /** Turn every warning into an error. */
   readonly strict?: boolean | undefined
-  /** Keys (globs) excluded from all checks. */
+  /** Keys (globs) excluded from all checks. `x18n.config.ts` also takes regular expressions. */
   readonly ignoreKeys?: readonly string[] | undefined
   readonly glossary?: readonly GlossaryEntry[] | undefined
   /** History providers for stale translations. `false` turns every provider off. Options of a provider sit under its key, such as `git: { maxDepth, since }` (or `git: false`). */
@@ -225,9 +225,14 @@ export interface HistorySettings extends HistoryOptions {
 export type PresetOption = Preset | PluginSpecifier | false | undefined
 export type PluginOption = Plugin | Preset | PluginSpecifier | false | undefined
 
+/** A key glob (`*` inside a segment, `**` across segments), or a regular expression tested against the whole key. */
+export type KeyPattern = string | RegExp
+
 /** The config accepted by `defineConfig`: the serializable part plus plugin objects. */
-export interface UserConfig extends Omit<SerializableConfig, 'presets' | 'plugins' | 'checks' | 'history'> {
+export interface UserConfig extends Omit<SerializableConfig, 'presets' | 'plugins' | 'checks' | 'history' | 'ignoreKeys'> {
   readonly presets?: 'auto' | readonly PresetOption[] | undefined
+  /** Keys excluded from all checks: globs, or regular expressions tested against the whole key (`ns:a.b` when namespaced). */
+  readonly ignoreKeys?: readonly KeyPattern[] | undefined
   /** History providers for stale translations: `false` turns them off; provider options such as `git` sit under their key; `providers` adds providers asked first. */
   readonly history?: boolean | (HistoryOptions & { readonly providers?: readonly HistoryProvider[] | undefined }) | undefined
   readonly plugins?: readonly PluginOption[] | undefined
@@ -269,7 +274,7 @@ export interface ResolvedConfig {
   readonly extract: ExtractOptions
   readonly checks: { readonly [checkId: string]: CheckSetting }
   readonly strict: boolean
-  readonly ignoreKeys: readonly string[]
+  readonly ignoreKeys: readonly KeyPattern[]
   readonly glossary: readonly GlossaryEntry[]
   readonly history: false | HistorySettings
   readonly review: { readonly enabled: boolean, readonly file: string, readonly author: ReviewAuthor | undefined }

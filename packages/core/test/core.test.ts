@@ -28,6 +28,17 @@ describe('keys', () => {
     expect(match('deep.a.b.c')).toBe(true)
   })
 
+  it('matches regular expressions against the whole key', () => {
+    const match = keyMatcher([/^errors\.billing\.(free|premium)\.failed$/, 'a11y.**'])
+    expect(match('errors.billing.free.failed')).toBe(true)
+    expect(match('errors.billing.plus.failed')).toBe(false)
+    expect(match('a11y.skip.link')).toBe(true)
+    // `g` would make `test` remember `lastIndex` between keys.
+    const global = keyMatcher([/^placeholders\./g])
+    expect(global('placeholders.city')).toBe(true)
+    expect(global('placeholders.email')).toBe(true)
+  })
+
   it('keeps literal keys whole with keySeparator false', () => {
     expect(splitKey('common:Note: x.y', true, false)).toEqual({
       namespace: 'common',

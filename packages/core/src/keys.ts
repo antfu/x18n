@@ -1,4 +1,4 @@
-import type { KeySeparator } from './types/config'
+import type { KeyPattern, KeySeparator } from './types/config'
 import type { KeyId, KeyString } from './types/model'
 
 /** The text between path segments in a key string: the separator, or `.` when keys are literal. */
@@ -134,13 +134,19 @@ export function globToRegExp(glob: string, separator = '/'): RegExp {
   return new RegExp(`^${out}$`)
 }
 
-/** Matcher over key globs: `*` stays inside a segment, `**` spans segments. With literal keys (`separator: false`) `*` spans the whole key. */
-export function keyMatcher(globs: readonly string[], separator: KeySeparator = '.'): (key: KeyString) => boolean {
-  if (globs.length === 0)
+/**
+ * Matcher over key patterns. In a glob `*` stays inside a segment and `**` spans segments; with literal keys
+ * (`separator: false`) `*` spans the whole key. A regular expression is tested against the whole key as is.
+ */
+export function keyMatcher(patterns: readonly KeyPattern[], separator: KeySeparator = '.'): (key: KeyString) => boolean {
+  if (patterns.length === 0)
     return () => false
-  const regexes = globs.map(glob => globToRegExp(glob, separator === false
-    ? '\u0000'
-    : separator))
+  const regexes = patterns.map(pattern => pattern instanceof RegExp
+    // `g` and `y` make `test` stateful through `lastIndex`.
+    ? new RegExp(pattern.source, pattern.flags.replace(/[gy]/g, ''))
+    : globToRegExp(pattern, separator === false
+        ? '\u0000'
+        : separator))
   return key => regexes.some(re => re.test(key))
 }
 
