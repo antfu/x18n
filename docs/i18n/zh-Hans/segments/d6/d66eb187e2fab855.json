@@ -1,14 +1,14 @@
 {
   "hash": "d66eb187e2fab855",
   "source": "A usage is one place in source code that uses a key. In the example, {0} is a usage of {1}. A scanner finds usages. The built-in scanners read JS, TS, JSX, Vue, Svelte and Astro files. For other file types, such as PHP templates, add a regex scanner in {2}.",
-  "text": "引用是源代码中使用某个键的一处位置。在示例中，{0} 是 {1} 的一处引用。扫描器负责查找引用。内置扫描器可读取 JS、TS、JSX、Vue、Svelte 和 Astro 文件。对于其他文件类型，例如 PHP 模板，请在 {2} 中添加正则扫描器。",
+  "text": "引用是源代码中使用某个 key 的一处位置。在示例中，{0} 是 {1} 的一处引用。引用由扫描器找出。内置扫描器会读取 JS、TS、JSX、Vue、Svelte 和 Astro 文件。对于其他文件类型（如 PHP 模板），请在 {2} 中添加正则表达式扫描器。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "引用是源代码中使用某个键的一处位置。在示例中，{0} 是 {1} 的一处引用。扫描器负责查找引用。内置扫描器可读取 JS、TS、JSX、Vue、Svelte 和 Astro 文件。对于其他文件类型，例如 PHP 模板，请在 {2} 中添加正则扫描器。"
+    "candidate": "引用是源代码中使用某个 key 的一处位置。在示例中，{0} 是 {1} 的一处引用。引用由扫描器找出。内置扫描器会读取 JS、TS、JSX、Vue、Svelte 和 Astro 文件。对于其他文件类型（如 PHP 模板），请在 {2} 中添加正则表达式扫描器。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "c4311fa5b89a3e3c",
   "source": "Rename a key (or every key under a parent) in all locales, and its usages in code unless {0}. Without {1} it returns the plan (files to change, decisions, warnings); call again with {2} to apply it.",
-  "text": "在所有语言环境中重命名一个键（或某个父级下的所有键），并同时重命名代码中对它的引用，除非 {0}。如果不带 {1}，它会返回执行计划（需要修改的文件、待确认的决策和警告）；再次调用并带上 {2} 即可应用。",
+  "text": "在所有语言中重命名一个 key（或某个父级下的所有 key），并同时更新代码中的引用，除非设置 {0}。未传入 {1} 时，它会返回计划（要更改的文件、决策和警告）；再次使用 {2} 调用即可应用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在所有语言环境中重命名一个键（或某个父级下的所有键），并同时重命名代码中对它的引用，除非 {0}。如果不带 {1}，它会返回执行计划（需要修改的文件、待确认的决策和警告）；再次调用并带上 {2} 即可应用。"
+    "candidate": "在所有语言中重命名一个 key（或某个父级下的所有 key），并同时更新代码中的引用，除非设置 {0}。未传入 {1} 时，它会返回计划（要更改的文件、决策和警告）；再次使用 {2} 调用即可应用。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

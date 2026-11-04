@@ -1,14 +1,14 @@
 {
   "hash": "4736914dab37187f",
   "source": "Objects merge key by key: {0}, {1}, {2}, {3} and {4}.",
-  "text": "对象按键逐项合并：{0}、{1}、{2}、{3} 和 {4}。",
+  "text": "对象按 key 逐项合并：{0}、{1}、{2}、{3} 和 {4}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "对象按键逐项合并：{0}、{1}、{2}、{3} 和 {4}。"
+    "candidate": "对象按 key 逐项合并：{0}、{1}、{2}、{3} 和 {4}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

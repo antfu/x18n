@@ -1,14 +1,14 @@
 {
   "hash": "f0fd37ae3a024e26",
   "source": "The agent skills that ship in @x18n/cli and teach an agent to set up x18n, check translations and manage them.",
-  "text": "随 @x18n/cli 一起发布的智能体技能，教智能体设置 x18n、检查翻译并管理翻译。",
+  "text": "@x18n/cli 中附带的 agent skills，用于教 agent 设置 x18n、检查翻译并管理翻译。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "随 @x18n/cli 一起发布的智能体技能，教智能体设置 x18n、检查翻译并管理翻译。"
+    "candidate": "@x18n/cli 中附带的 agent skills，用于教 agent 设置 x18n、检查翻译并管理翻译。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

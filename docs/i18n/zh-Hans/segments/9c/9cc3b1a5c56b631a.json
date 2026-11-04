@@ -1,14 +1,14 @@
 {
   "hash": "9cc3b1a5c56b631a",
   "source": "Keys found by their value in any locale, best first: fuzzy unless {0}, ignoring case. Each match has the matched value, its locale entry and the usages. At most 100.",
-  "text": "按键在任意语言中的值查找键，最佳匹配优先：除非设置了 {0}，否则为模糊匹配，且忽略大小写。每个匹配项包含匹配到的值、对应的语言条目以及引用。最多 100 个。",
+  "text": "按值在任意语言中查找 key，最佳匹配优先：除非设置了 {0}，否则为模糊匹配，并忽略大小写。每个匹配项包含匹配的值、其所属语言的条目和引用。最多 100 条。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "按键在任意语言中的值查找键，最佳匹配优先：除非设置了 {0}，否则为模糊匹配，且忽略大小写。每个匹配项包含匹配到的值、对应的语言条目以及引用。最多 100 个。"
+    "candidate": "按值在任意语言中查找 key，最佳匹配优先：除非设置了 {0}，否则为模糊匹配，并忽略大小写。每个匹配项包含匹配的值、其所属语言的条目和引用。最多 100 条。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

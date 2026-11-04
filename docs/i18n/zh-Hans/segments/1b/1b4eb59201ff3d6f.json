@@ -1,14 +1,14 @@
 {
   "hash": "1b4eb59201ff3d6f",
   "source": "it is a derived key of a used key ({0}, for example i18next {1} plural keys),",
-  "text": "该键是某个已使用键的派生键（{0}，例如 i18next 的 {1} 复数键），",
+  "text": "它是某个已使用 key 的派生 key（{0}，例如 i18next 的 {1} 复数 key），",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "该键是某个已使用键的派生键（{0}，例如 i18next 的 {1} 复数键），"
+    "candidate": "它是某个已使用 key 的派生 key（{0}，例如 i18next 的 {1} 复数 key），"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

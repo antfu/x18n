@@ -1,14 +1,14 @@
 {
   "hash": "94a473391c7a7b5b",
   "source": "The Vue scanner reads the {0} blocks and every template expression. It also reads the {1} directive, and the key attribute of the {2} (or {3}) component, the {4} component and {5}.",
-  "text": "Vue 扫描器会读取 {0} 块和所有模板表达式。它还会读取 {1} 指令、{2}（或 {3}）组件的 key 属性、{4} 组件以及 {5}。",
+  "text": "Vue scanner 会读取 {0} 块和所有模板表达式，同时也会读取 {1} 指令、{2}（或 {3}）组件的 key 属性、{4} 组件以及 {5}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Vue 扫描器会读取 {0} 块和所有模板表达式。它还会读取 {1} 指令、{2}（或 {3}）组件的 key 属性、{4} 组件以及 {5}。"
+    "candidate": "Vue scanner 会读取 {0} 块和所有模板表达式，同时也会读取 {1} 指令、{2}（或 {3}）组件的 key 属性、{4} 组件以及 {5}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

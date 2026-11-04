@@ -1,14 +1,14 @@
 {
   "hash": "bcbb433f3a7dd962",
   "source": "Linked messages: {0} and {1}. The linked key counts as used, and the {2} check reports a linked key that does not exist.",
-  "text": "链接消息：{0} 和 {1}。被链接的键会计为已使用，而 {2} 检查会报告不存在的被链接键。",
+  "text": "链接消息：{0} 和 {1}。被链接的 key 会被视为已使用，如果被链接的 key 不存在，{2} 检查会报告。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "链接消息：{0} 和 {1}。被链接的键会计为已使用，而 {2} 检查会报告不存在的被链接键。"
+    "candidate": "链接消息：{0} 和 {1}。被链接的 key 会被视为已使用，如果被链接的 key 不存在，{2} 检查会报告。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

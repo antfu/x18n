@@ -1,14 +1,14 @@
 {
   "hash": "c576a2d1820bb75f",
   "source": "Print a prompt for an agent or LLM: {0}, {1}, or the skills {2} and {3}.",
-  "text": "为智能体或 LLM 输出提示词：{0}、{1}，或技能 {2} 和 {3}。",
+  "text": "为 agent 或 LLM 输出提示词：{0}、{1}，或 skills {2} 和 {3}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "为智能体或 LLM 输出提示词：{0}、{1}，或技能 {2} 和 {3}。"
+    "candidate": "为 agent 或 LLM 输出提示词：{0}、{1}，或 skills {2} 和 {3}。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

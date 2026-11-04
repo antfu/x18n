@@ -1,14 +1,14 @@
 {
   "hash": "396cd65dfba54298",
   "source": "Full key, for example {0} or {1}.",
-  "text": "完整的键，例如 {0} 或 {1}。",
+  "text": "完整的 key，例如 {0} 或 {1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "完整的键，例如 {0} 或 {1}。"
+    "candidate": "完整的 key，例如 {0} 或 {1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

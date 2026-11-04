@@ -1,14 +1,14 @@
 {
   "hash": "ea5a06a90c159e3f",
   "source": "A source-locale key that target locales lack, or a plural form their language needs. One diagnostic per key, at the source entry.",
-  "text": "源语言中的键在目标语言中缺失，或缺少目标语言所需的复数形式。每个键只报告一条诊断，位置在源语言的条目处。",
+  "text": "源语言中的 key 在目标语言中缺失，或缺少目标语言所需的复数形式。每个 key 报告一条诊断，位置在源语言条目处。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "源语言中的键在目标语言中缺失，或缺少目标语言所需的复数形式。每个键只报告一条诊断，位置在源语言的条目处。"
+    "candidate": "源语言中的 key 在目标语言中缺失，或缺少目标语言所需的复数形式。每个 key 报告一条诊断，位置在源语言条目处。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

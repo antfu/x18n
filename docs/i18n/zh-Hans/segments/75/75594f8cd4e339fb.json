@@ -1,14 +1,14 @@
 {
   "hash": "75594f8cd4e339fb",
   "source": "A key from a PHP file starts with the path of the file: {0} gives {1}. In a JSON file, each key is a whole sentence: {2}.",
-  "text": "PHP 文件中的键以文件路径开头：{0} 对应 {1}。在 JSON 文件中，每个键都是一整句话：{2}。",
+  "text": "来自 PHP 文件的 key 以文件路径开头：{0} 会生成 {1}。在 JSON 文件中，每个 key 都是一整句话：{2}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "PHP 文件中的键以文件路径开头：{0} 对应 {1}。在 JSON 文件中，每个键都是一整句话：{2}。"
+    "candidate": "来自 PHP 文件的 key 以文件路径开头：{0} 会生成 {1}。在 JSON 文件中，每个 key 都是一整句话：{2}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

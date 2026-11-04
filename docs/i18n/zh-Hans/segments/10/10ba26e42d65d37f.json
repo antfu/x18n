@@ -1,14 +1,14 @@
 {
   "hash": "10ba26e42d65d37f",
   "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
-  "text": "每种语言中的值及其文件和行号、缺少该键的语言、引用以及诊断。",
+  "text": "每种语言中的值（含文件和行号）、缺少该 key 的语言、引用和诊断。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "每种语言中的值及其文件和行号、缺少该键的语言、引用以及诊断。"
+    "candidate": "每种语言中的值（含文件和行号）、缺少该 key 的语言、引用和诊断。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

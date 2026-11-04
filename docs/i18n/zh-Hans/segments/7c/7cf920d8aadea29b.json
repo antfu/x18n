@@ -1,14 +1,14 @@
 {
   "hash": "7cf920d8aadea29b",
   "source": "The {0}CLI{/0}, the {1}VS Code extension{/1}, the {2}UI{/2} and {3}agents{/3} all read and write the same reviews.",
-  "text": "{0}CLI{/0}、{1}VS Code 扩展{/1}、{2}UI{/2} 和{3}智能体{/3}都会读取和写入同一份评审。",
+  "text": "{0}CLI{/0}、{1}VS Code 扩展{/1}、{2}UI{/2} 和 {3}agents{/3} 读写的都是同一份审阅。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0}CLI{/0}、{1}VS Code 扩展{/1}、{2}UI{/2} 和{3}智能体{/3}都会读取和写入同一份评审。"
+    "candidate": "{0}CLI{/0}、{1}VS Code 扩展{/1}、{2}UI{/2} 和 {3}agents{/3} 读写的都是同一份审阅。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

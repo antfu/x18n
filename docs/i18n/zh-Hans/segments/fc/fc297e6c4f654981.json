@@ -1,14 +1,14 @@
 {
   "hash": "fc297e6c4f654981",
   "source": "Patterns with a {0} placeholder (i18n-ally {1}), or a regex whose first group is the key.",
-  "text": "带有 {0} 占位符的模式（i18n-ally 的 {1}），或第一个分组为键的正则表达式。",
+  "text": "带有 {0} 占位符的模式（i18n-ally {1}），或第一个捕获组为 key 的正则表达式。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "带有 {0} 占位符的模式（i18n-ally 的 {1}），或第一个分组为键的正则表达式。"
+    "candidate": "带有 {0} 占位符的模式（i18n-ally {1}），或第一个捕获组为 key 的正则表达式。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

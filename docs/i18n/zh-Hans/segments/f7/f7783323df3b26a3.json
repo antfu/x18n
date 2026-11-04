@@ -1,14 +1,14 @@
 {
   "hash": "f7783323df3b26a3",
   "source": "The {0} format reads a file that returns an array literal, and writes edits back into the array. The path of a PHP file is the first part of its keys:",
-  "text": "{0} 格式会读取返回数组字面量的文件，并将修改写回该数组。PHP 文件的路径是其键的第一部分：",
+  "text": "{0} 格式会读取返回数组字面量的文件，并将修改写回该数组。PHP 文件的路径是其 key 的第一部分：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 格式会读取返回数组字面量的文件，并将修改写回该数组。PHP 文件的路径是其键的第一部分："
+    "candidate": "{0} 格式会读取返回数组字面量的文件，并将修改写回该数组。PHP 文件的路径是其 key 的第一部分："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "eec614a8c71b0c1d",
   "source": "Find hard-coded strings and turn them into keys.",
-  "text": "查找硬编码的字符串并将其转换为键。",
+  "text": "查找硬编码字符串并将其转换为 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "查找硬编码的字符串并将其转换为键。"
+    "candidate": "查找硬编码字符串并将其转换为 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

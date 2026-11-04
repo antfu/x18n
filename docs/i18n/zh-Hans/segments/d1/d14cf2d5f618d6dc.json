@@ -1,14 +1,14 @@
 {
   "hash": "d14cf2d5f618d6dc",
   "source": "An agent skill is a markdown file that teaches a coding agent how to do a task. The {0} npm package ships three, in {1}. Their version always matches the version of the CLI that you install.",
-  "text": "智能体技能是一个 markdown 文件，用来教编码智能体如何完成某项任务。{0} npm 包在 {1} 中提供了三个技能。它们的版本始终与你安装的 CLI 版本一致。",
+  "text": "agent skill 是一个 markdown 文件，用于教编码 agent 如何完成某项任务。npm 包 {0} 在 {1} 中附带了三个 skill。它们的版本始终与你安装的 CLI 版本一致。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "智能体技能是一个 markdown 文件，用来教编码智能体如何完成某项任务。{0} npm 包在 {1} 中提供了三个技能。它们的版本始终与你安装的 CLI 版本一致。"
+    "candidate": "agent skill 是一个 markdown 文件，用于教编码 agent 如何完成某项任务。npm 包 {0} 在 {1} 中附带了三个 skill。它们的版本始终与你安装的 CLI 版本一致。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

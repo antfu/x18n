@@ -1,14 +1,14 @@
 {
   "hash": "efaac5108c022bb8",
   "source": "x18n does not call machine translation services. Instead, it writes a translate prompt: plain markdown that describes the work, built from the state of the project. You paste it into an LLM, or an agent follows it. Then x18n checks the results.",
-  "text": "x18n 不会调用机器翻译服务，而是编写一份翻译提示词：根据项目当前状态生成、用于描述翻译工作的纯 markdown 文本。你可以把它粘贴到 LLM 中，也可以让智能体按它执行。之后 x18n 会检查结果。",
+  "text": "x18n 不会调用机器翻译服务，而是生成一份翻译提示词：它是根据项目状态构建的纯 markdown，用来描述要完成的工作。你可以把它粘贴到 LLM 中，也可以让 agent 按它执行。之后 x18n 会检查结果。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n 不会调用机器翻译服务，而是编写一份翻译提示词：根据项目当前状态生成、用于描述翻译工作的纯 markdown 文本。你可以把它粘贴到 LLM 中，也可以让智能体按它执行。之后 x18n 会检查结果。"
+    "candidate": "x18n 不会调用机器翻译服务，而是生成一份翻译提示词：它是根据项目状态构建的纯 markdown，用来描述要完成的工作。你可以把它粘贴到 LLM 中，也可以让 agent 按它执行。之后 x18n 会检查结果。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

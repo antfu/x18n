@@ -1,14 +1,14 @@
 {
   "hash": "c66c7e1c51756a50",
   "source": "No resource for the key. Add a resource pattern for the locale, or create the locale file.",
-  "text": "该键没有对应的资源。请为该语言添加资源模式，或创建该语言的文件。",
+  "text": "该 key 没有对应的资源。请为该语言添加资源模式，或创建该语言的文件。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "该键没有对应的资源。请为该语言添加资源模式，或创建该语言的文件。"
+    "candidate": "该 key 没有对应的资源。请为该语言添加资源模式，或创建该语言的文件。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

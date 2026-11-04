@@ -1,14 +1,14 @@
 {
   "hash": "492d040c3da7fc92",
   "source": "{0} exits with code 1 when it finds errors, so any CI fails on broken keys without more setup. The examples on this page use GitHub Actions. They assume that {1} is a dev dependency of the project. See {2}Getting started{/2}.",
-  "text": "{0} 在发现错误时以退出码 1 退出，因此任何 CI 都无需额外配置，就会在 key 损坏时失败。本页的示例使用 GitHub Actions，并假定 {1} 已是项目的开发依赖。参见{2}快速开始{/2}。",
+  "text": "{0} 在发现错误时会以退出码 1 退出，因此任何 CI 都能在 key 出错时失败，无需额外配置。本页的示例使用 GitHub Actions，并假设 {1} 是项目的开发依赖。请参阅{2}快速开始{/2}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 在发现错误时以退出码 1 退出，因此任何 CI 都无需额外配置，就会在 key 损坏时失败。本页的示例使用 GitHub Actions，并假定 {1} 已是项目的开发依赖。参见{2}快速开始{/2}。"
+    "candidate": "{0} 在发现错误时会以退出码 1 退出，因此任何 CI 都能在 key 出错时失败，无需额外配置。本页的示例使用 GitHub Actions，并假设 {1} 是项目的开发依赖。请参阅{2}快速开始{/2}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

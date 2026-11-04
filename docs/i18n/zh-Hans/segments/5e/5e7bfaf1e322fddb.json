@@ -1,14 +1,14 @@
 {
   "hash": "5e7bfaf1e322fddb",
   "source": "The {0} prop of {1} is a key. These names count as translate calls: {2}, {3} and {4}. {5} returns {6}, and {7} gives the {8} prop.",
-  "text": "{1} 的 {0} 属性是一个键。以下名称会被视为翻译调用：{2}、{3} 和 {4}。{5} 返回 {6}，而 {7} 提供 {8} 属性。",
+  "text": "{1} 的 {0} prop 是一个 key。以下名称会被视为翻译调用：{2}、{3} 和 {4}。{5} 返回 {6}，{7} 则给出 {8} prop。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{1} 的 {0} 属性是一个键。以下名称会被视为翻译调用：{2}、{3} 和 {4}。{5} 返回 {6}，而 {7} 提供 {8} 属性。"
+    "candidate": "{1} 的 {0} prop 是一个 key。以下名称会被视为翻译调用：{2}、{3} 和 {4}。{5} 返回 {6}，{7} 则给出 {8} prop。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "731b4d56f95bd1f0",
   "source": "The key is the whole string, so a key can be the source text: {0}.",
-  "text": "键就是整个字符串，因此键可以是源文本：{0}。",
+  "text": "key 就是整个字符串，因此 key 可以是源文本：{0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "键就是整个字符串，因此键可以是源文本：{0}。"
+    "candidate": "key 就是整个字符串，因此 key 可以是源文本：{0}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

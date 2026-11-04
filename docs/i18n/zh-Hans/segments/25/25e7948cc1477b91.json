@@ -1,14 +1,14 @@
 {
   "hash": "25e7948cc1477b91",
   "source": "No resource for the key",
-  "text": "该键没有对应的资源",
+  "text": "该 key 没有对应的资源",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "该键没有对应的资源"
+    "candidate": "该 key 没有对应的资源"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

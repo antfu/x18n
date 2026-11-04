@@ -1,14 +1,14 @@
 {
   "hash": "995fb0c5cc4a3530",
   "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
-  "text": "键之后传入的对象包含插值参数，{0} 检查会将这些参数与源消息的占位符进行比较。参数函数（{1}）和 {2} 标记会被忽略。",
+  "text": "key 之后传入的对象包含插值参数，{0}检查会将这些参数与源消息中的占位符进行比较。参数函数（{1}）不会被处理，{2}标记同样会被忽略。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "键之后传入的对象包含插值参数，{0} 检查会将这些参数与源消息的占位符进行比较。参数函数（{1}）和 {2} 标记会被忽略。"
+    "candidate": "key 之后传入的对象包含插值参数，{0}检查会将这些参数与源消息中的占位符进行比较。参数函数（{1}）不会被处理，{2}标记同样会被忽略。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

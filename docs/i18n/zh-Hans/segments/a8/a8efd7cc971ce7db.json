@@ -1,14 +1,14 @@
 {
   "hash": "a8efd7cc971ce7db",
   "source": "A message is a function on the {0} object. The name of the function is the key. The preset reads {1}, {2}, JSX, Vue, Svelte and Astro files.",
-  "text": "消息是 {0} 对象上的一个函数，函数名就是键。该预设会读取 {1}、{2}、JSX、Vue、Svelte 和 Astro 文件。",
+  "text": "消息是 {0} 对象上的一个函数，函数名即 key。该预设会读取 {1}、{2}、JSX、Vue、Svelte 和 Astro 文件。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "消息是 {0} 对象上的一个函数，函数名就是键。该预设会读取 {1}、{2}、JSX、Vue、Svelte 和 Astro 文件。"
+    "candidate": "消息是 {0} 对象上的一个函数，函数名即 key。该预设会读取 {1}、{2}、JSX、Vue、Svelte 和 Astro 文件。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

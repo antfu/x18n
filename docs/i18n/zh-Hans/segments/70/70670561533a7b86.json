@@ -1,14 +1,14 @@
 {
   "hash": "70670561533a7b86",
   "source": "Usages in code, paged: of one {0} (usages with a computed key under a prefix of it are marked {1}), of one file ({2}), or all. Each usage has file, line, column and a code snippet.",
-  "text": "分页列出代码中的引用：可针对某个 {0}（在其前缀下使用计算键的引用会标记为 {1}）、某个文件（{2}），或全部。每条引用包含文件、行号、列号和代码片段。",
+  "text": "分页列出代码中的引用：针对某个 {0}（在其前缀下使用计算 key 的引用会标记为 {1}）、某个文件（{2}），或全部。每条引用包含文件、行号、列号和代码片段。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "分页列出代码中的引用：可针对某个 {0}（在其前缀下使用计算键的引用会标记为 {1}）、某个文件（{2}），或全部。每条引用包含文件、行号、列号和代码片段。"
+    "candidate": "分页列出代码中的引用：针对某个 {0}（在其前缀下使用计算 key 的引用会标记为 {1}）、某个文件（{2}），或全部。每条引用包含文件、行号、列号和代码片段。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

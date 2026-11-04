@@ -1,14 +1,14 @@
 {
   "hash": "edfd51403cc79608",
   "source": "Keys with dots",
-  "text": "含点号的键",
+  "text": "包含点号的 keys",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "含点号的键"
+    "candidate": "包含点号的 keys"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

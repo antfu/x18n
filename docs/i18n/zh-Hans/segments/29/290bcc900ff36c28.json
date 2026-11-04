@@ -1,14 +1,14 @@
 {
   "hash": "290bcc900ff36c28",
   "source": "An agent can work with x18n in three ways:",
-  "text": "智能体可以通过三种方式使用 x18n：",
+  "text": "agent 可以通过三种方式使用 x18n：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "智能体可以通过三种方式使用 x18n："
+    "candidate": "agent 可以通过三种方式使用 x18n："
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "83da37546f97ab63",
   "source": "Coding agents are first-class users of x18n. An agent uses the same CLI as a human, with {0}. It never edits locale files by hand, and it checks its own work with {1}.",
-  "text": "编码智能体是 x18n 的一等用户。智能体使用与人类相同的 CLI，并带上 {0}。它从不手动编辑语言文件，而是用 {1} 检查自己的工作。",
+  "text": "Coding agent 是 x18n 的一等用户。agent 使用与人类相同的 CLI，并带上 {0}。它从不手动编辑语言文件，而是用 {1} 检查自己的工作。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "编码智能体是 x18n 的一等用户。智能体使用与人类相同的 CLI，并带上 {0}。它从不手动编辑语言文件，而是用 {1} 检查自己的工作。"
+    "candidate": "Coding agent 是 x18n 的一等用户。agent 使用与人类相同的 CLI，并带上 {0}。它从不手动编辑语言文件，而是用 {1} 检查自己的工作。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

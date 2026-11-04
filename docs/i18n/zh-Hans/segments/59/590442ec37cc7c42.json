@@ -1,14 +1,14 @@
 {
   "hash": "590442ec37cc7c42",
   "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
-  "text": "提取：硬编码字符串，每个字符串附带一个建议的键。编辑这些键，取消勾选要跳过的字符串，然后提取其余字符串。",
+  "text": "提取：硬编码字符串，每个字符串附带一个建议的 key。可以编辑 key，取消勾选要跳过的字符串，然后提取其余字符串。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "提取：硬编码字符串，每个字符串附带一个建议的键。编辑这些键，取消勾选要跳过的字符串，然后提取其余字符串。"
+    "candidate": "提取：硬编码字符串，每个字符串附带一个建议的 key。可以编辑 key，取消勾选要跳过的字符串，然后提取其余字符串。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

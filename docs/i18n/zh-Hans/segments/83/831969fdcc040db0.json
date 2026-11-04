@@ -1,14 +1,14 @@
 {
   "hash": "831969fdcc040db0",
   "source": "Extraction writes to {0}. As in Laravel JSON files, the key is the source text ({1}): {2} becomes {3}. Set {4} to change this.",
-  "text": "提取结果会写入 {0}。与 Laravel 的 JSON 文件一样，键就是源文本（{1}）：{2} 会变成 {3}。设置 {4} 可以更改此行为。",
+  "text": "提取结果会写入 {0}。与 Laravel 的 JSON 文件一样，key 就是源文本（{1}）：{2} 会变成 {3}。设置 {4} 可更改此行为。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "提取结果会写入 {0}。与 Laravel 的 JSON 文件一样，键就是源文本（{1}）：{2} 会变成 {3}。设置 {4} 可以更改此行为。"
+    "candidate": "提取结果会写入 {0}。与 Laravel 的 JSON 文件一样，key 就是源文本（{1}）：{2} 会变成 {3}。设置 {4} 可更改此行为。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

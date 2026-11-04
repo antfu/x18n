@@ -1,14 +1,14 @@
 {
   "hash": "128e972d8d18b3d9",
   "source": "Browse and edit every key across locales in the browser with x18n ui, or publish a read-only report with x18n build.",
-  "text": "使用 x18n ui 在浏览器中浏览和编辑所有语言的每个键，或使用 x18n build 发布只读报告。",
+  "text": "使用 x18n ui 在浏览器中浏览并编辑所有语言的 key，或使用 x18n build 发布只读报告。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "使用 x18n ui 在浏览器中浏览和编辑所有语言的每个键，或使用 x18n build 发布只读报告。"
+    "candidate": "使用 x18n ui 在浏览器中浏览并编辑所有语言的 key，或使用 x18n build 发布只读报告。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

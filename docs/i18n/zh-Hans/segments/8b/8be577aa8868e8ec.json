@@ -1,14 +1,14 @@
 {
   "hash": "8be577aa8868e8ec",
   "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as next-translate does. A key without a namespace is in {2}.",
-  "text": "与 next-translate 一样，该预设将命名空间分隔符设为 {0}，并将默认命名空间设为 {1}。没有命名空间的键属于 {2}。",
+  "text": "与 next-translate 一样，该预设将命名空间分隔符设为 {0}，并将默认命名空间设为 {1}。没有命名空间的 key 属于 {2}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "与 next-translate 一样，该预设将命名空间分隔符设为 {0}，并将默认命名空间设为 {1}。没有命名空间的键属于 {2}。"
+    "candidate": "与 next-translate 一样，该预设将命名空间分隔符设为 {0}，并将默认命名空间设为 {1}。没有命名空间的 key 属于 {2}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

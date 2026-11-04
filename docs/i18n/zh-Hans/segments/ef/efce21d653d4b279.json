@@ -1,14 +1,14 @@
 {
   "hash": "efce21d653d4b279",
   "source": "With a key read from a property: the property beside it that describes the message for translators, such as {0} for {1}.",
-  "text": "当键从属性中读取时：与之相邻、为译者描述消息的属性，例如 {1} 的 {0}。",
+  "text": "当 key 从属性中读取时：紧邻该属性、用于向译者描述消息的属性，例如 {1} 对应的 {0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "当键从属性中读取时：与之相邻、为译者描述消息的属性，例如 {1} 的 {0}。"
+    "candidate": "当 key 从属性中读取时：紧邻该属性、用于向译者描述消息的属性，例如 {1} 对应的 {0}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

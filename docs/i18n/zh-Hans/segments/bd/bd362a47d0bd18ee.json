@@ -1,14 +1,14 @@
 {
   "hash": "bd362a47d0bd18ee",
   "source": "The {0}VS Code extension{/0} shows translations in place and treats keys like symbols: go to definition, find references and rename.",
-  "text": "{0}VS Code 扩展{/0}会就地显示翻译，并像对待符号一样对待键：跳转到定义、查找引用和重命名。",
+  "text": "{0}VS Code 扩展{/0}会就地显示翻译，并将 key 视为符号：支持转到定义、查找引用和重命名。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0}VS Code 扩展{/0}会就地显示翻译，并像对待符号一样对待键：跳转到定义、查找引用和重命名。"
+    "candidate": "{0}VS Code 扩展{/0}会就地显示翻译，并将 key 视为符号：支持转到定义、查找引用和重命名。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

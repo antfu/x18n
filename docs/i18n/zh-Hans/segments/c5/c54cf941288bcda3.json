@@ -1,14 +1,14 @@
 {
   "hash": "c54cf941288bcda3",
   "source": "The key does not exist in any locale.",
-  "text": "该键在任何语言中都不存在。",
+  "text": "该 key 在任何语言中都不存在。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "该键在任何语言中都不存在。"
+    "candidate": "该 key 在任何语言中都不存在。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

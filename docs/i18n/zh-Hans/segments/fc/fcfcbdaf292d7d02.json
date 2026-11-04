@@ -1,14 +1,14 @@
 {
   "hash": "fcfcbdaf292d7d02",
   "source": "Rules for agents",
-  "text": "智能体规则",
+  "text": "agent 规则",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "智能体规则"
+    "candidate": "agent 规则"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "5b021d7818536ffa",
   "source": "A key stays in the files after the code stops using it.",
-  "text": "代码不再使用某个键后，该键仍留在文件中。",
+  "text": "代码不再使用某个 key 后，它仍留在文件中。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "代码不再使用某个键后，该键仍留在文件中。"
+    "candidate": "代码不再使用某个 key 后，它仍留在文件中。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

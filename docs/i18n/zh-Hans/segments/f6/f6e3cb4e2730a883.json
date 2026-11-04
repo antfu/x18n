@@ -1,14 +1,14 @@
 {
   "hash": "f6e3cb4e2730a883",
   "source": "Keys: the key tree of the project. Edit, open, delete, copy a prompt or translate with an agent from the context menu of a key.",
-  "text": "Keys：项目的键树。可在键的右键菜单中编辑、打开、删除、复制提示词，或用智能体翻译。",
+  "text": "Keys：项目的 key 树。可在 key 的右键菜单中编辑、打开、删除、复制提示词，或用 agent 翻译。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Keys：项目的键树。可在键的右键菜单中编辑、打开、删除、复制提示词，或用智能体翻译。"
+    "candidate": "Keys：项目的 key 树。可在 key 的右键菜单中编辑、打开、删除、复制提示词，或用 agent 翻译。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

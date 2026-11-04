@@ -1,14 +1,14 @@
 {
   "hash": "e3a1a79b789c2978",
   "source": "Translations in place of keys, go to definition, find references and rename across code and every locale file.",
-  "text": "用翻译内容代替键显示，支持跳转到定义、查找引用，以及在代码和所有语言文件中重命名。",
+  "text": "在代码中以翻译内容代替 key 显示，支持跳转到定义、查找引用，并可在代码和所有语言文件中重命名。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "用翻译内容代替键显示，支持跳转到定义、查找引用，以及在代码和所有语言文件中重命名。"
+    "candidate": "在代码中以翻译内容代替 key 显示，支持跳转到定义、查找引用，并可在代码和所有语言文件中重命名。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

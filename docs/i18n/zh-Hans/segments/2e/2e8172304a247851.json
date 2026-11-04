@@ -1,14 +1,14 @@
 {
   "hash": "2e8172304a247851",
   "source": "to keep a terms table: the {0} in the config. The agent reads it before it translates, proposes new terms with translations, adds the ones you approve, and turns on the {1} check,",
-  "text": "维护一张术语表：即配置中的 {0}。智能体在翻译前会先读取它，提出带翻译的新术语，添加你批准的术语，并启用 {1} 检查；",
+  "text": "维护一张术语表：即配置中的 {0}。agent 在翻译之前先读取它，提出带翻译的新术语，添加你批准的术语，并启用 {1} 检查，",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "维护一张术语表：即配置中的 {0}。智能体在翻译前会先读取它，提出带翻译的新术语，添加你批准的术语，并启用 {1} 检查；"
+    "candidate": "维护一张术语表：即配置中的 {0}。agent 在翻译之前先读取它，提出带翻译的新术语，添加你批准的术语，并启用 {1} 检查，"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

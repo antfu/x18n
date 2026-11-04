@@ -1,14 +1,14 @@
 {
   "hash": "ace9754c8a29dcf5",
   "source": "Run \"x18n: Toggle In-place Annotations\" to switch between in-place mode and hints after the key.",
-  "text": "运行 \"x18n: Toggle In-place Annotations\" 可在原位模式和键后提示之间切换。",
+  "text": "运行 \"x18n: Toggle In-place Annotations\"，可在原位模式和 key 后提示之间切换。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "运行 \"x18n: Toggle In-place Annotations\" 可在原位模式和键后提示之间切换。"
+    "candidate": "运行 \"x18n: Toggle In-place Annotations\"，可在原位模式和 key 后提示之间切换。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

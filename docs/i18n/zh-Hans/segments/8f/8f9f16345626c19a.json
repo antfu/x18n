@@ -1,14 +1,14 @@
 {
   "hash": "8f9f16345626c19a",
   "source": "Locale to the locale it falls back to, such as {0}. A locale with a fallback holds only overrides: a key it lacks or leaves empty is not missing when the fallback chain has it. {1} falls back to the nearest parent language that exists: {2} to {3}, {4} to {5} or {6}.",
-  "text": "语言到其回退语言的映射，例如 {0}。设置了回退的语言只保存覆盖项：如果回退链中有某个键，则该语言缺少或留空此键不算缺失。{1} 会回退到最近的、存在的父级语言：{2} 回退到 {3}，{4} 回退到 {5} 或 {6}。",
+  "text": "语言及其回退语言，例如 {0}。设置了回退的语言只保存覆盖项：当回退链中存在某个 key 时，该语言缺少或留空这个 key 不算缺失。{1} 会回退到最近的、实际存在的父级语言：{2} 回退到 {3}，{4} 回退到 {5} 或 {6}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "语言到其回退语言的映射，例如 {0}。设置了回退的语言只保存覆盖项：如果回退链中有某个键，则该语言缺少或留空此键不算缺失。{1} 会回退到最近的、存在的父级语言：{2} 回退到 {3}，{4} 回退到 {5} 或 {6}。"
+    "candidate": "语言及其回退语言，例如 {0}。设置了回退的语言只保存覆盖项：当回退链中存在某个 key 时，该语言缺少或留空这个 key 不算缺失。{1} 会回退到最近的、实际存在的父级语言：{2} 回退到 {3}，{4} 回退到 {5} 或 {6}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

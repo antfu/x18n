@@ -1,14 +1,14 @@
 {
   "hash": "2787a6163eb571fe",
   "source": "Key of the reviewed message.",
-  "text": "被审阅消息的键。",
+  "text": "被审阅消息的 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "被审阅消息的键。"
+    "candidate": "被审阅消息的 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

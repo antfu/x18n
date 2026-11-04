@@ -1,14 +1,14 @@
 {
   "hash": "28c5929623752cd9",
   "source": "Completion suggests keys inside translate calls.",
-  "text": "补全会在翻译调用中提示键。",
+  "text": "补全会在翻译调用中建议 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "补全会在翻译调用中提示键。"
+    "candidate": "补全会在翻译调用中建议 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

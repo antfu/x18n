@@ -1,14 +1,14 @@
 {
   "hash": "f0c0caa6857327ec",
   "source": "x18n validates every config against this schema, the serializable part of a TS config too. An unknown key is an error ({0}X18N0001{/0}), so a typo in a key name does not pass silently.",
-  "text": "x18n 会根据此 schema 校验所有配置，TS 配置中可序列化的部分也不例外。未知的键会报错（{0}X18N0001{/0}），因此键名中的拼写错误不会被悄悄放过。",
+  "text": "x18n 会根据此 schema 校验每一份配置，TS 配置中可序列化的部分也不例外。未知的 key 会报错（{0}X18N0001{/0}），因此 key 名称拼写错误不会被悄悄放过。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n 会根据此 schema 校验所有配置，TS 配置中可序列化的部分也不例外。未知的键会报错（{0}X18N0001{/0}），因此键名中的拼写错误不会被悄悄放过。"
+    "candidate": "x18n 会根据此 schema 校验每一份配置，TS 配置中可序列化的部分也不例外。未知的 key 会报错（{0}X18N0001{/0}），因此 key 名称拼写错误不会被悄悄放过。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

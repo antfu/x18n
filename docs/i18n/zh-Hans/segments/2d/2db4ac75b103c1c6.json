@@ -1,14 +1,14 @@
 {
   "hash": "2db4ac75b103c1c6",
   "source": "x18n: Find Key by Text",
-  "text": "x18n: 按文本查找键",
+  "text": "x18n：按文本查找 key",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "x18n: 按文本查找键"
+    "candidate": "x18n：按文本查找 key"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

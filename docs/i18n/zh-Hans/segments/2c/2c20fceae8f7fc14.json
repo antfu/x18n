@@ -1,14 +1,14 @@
 {
   "hash": "2c20fceae8f7fc14",
   "source": "Nuxt I18n Micro loads the global translations and the translations of the current page. A page key overrides a global key with the same name.",
-  "text": "Nuxt I18n Micro 会加载全局翻译和当前页面的翻译。页面键会覆盖同名的全局键。",
+  "text": "Nuxt I18n Micro 会加载全局翻译和当前页面的翻译。同名时，页面 key 会覆盖全局 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Nuxt I18n Micro 会加载全局翻译和当前页面的翻译。页面键会覆盖同名的全局键。"
+    "candidate": "Nuxt I18n Micro 会加载全局翻译和当前页面的翻译。同名时，页面 key 会覆盖全局 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

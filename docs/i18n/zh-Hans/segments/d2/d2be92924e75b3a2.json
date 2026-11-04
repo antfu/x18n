@@ -1,14 +1,14 @@
 {
   "hash": "d2be92924e75b3a2",
   "source": "Let your agent install it",
-  "text": "让你的智能体来安装",
+  "text": "让你的 agent 来安装",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "让你的智能体来安装"
+    "candidate": "让你的 agent 来安装"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

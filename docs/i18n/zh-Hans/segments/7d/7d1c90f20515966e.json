@@ -1,14 +1,14 @@
 {
   "hash": "7d1c90f20515966e",
   "source": "The agent checks what x18n detects with {0}, writes a config only when detection needs help, adds {1} to the scripts, and reports the first {2} result. It asks you about the source locale, the locales, the config format and CI.",
-  "text": "智能体会用 {0} 检查 x18n 检测到的内容，仅在检测需要帮助时才编写配置，将 {1} 添加到 scripts 中，并报告 {2} 的首次结果。它会向你询问源语言、语言列表、配置格式和 CI。",
+  "text": "agent 用 {0} 检查 x18n 检测到的内容，仅在检测需要帮助时才编写配置，将 {1} 添加到 scripts 中，并报告 {2} 的首次运行结果。它会向你询问源语言、语言列表、配置格式和 CI。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "智能体会用 {0} 检查 x18n 检测到的内容，仅在检测需要帮助时才编写配置，将 {1} 添加到 scripts 中，并报告 {2} 的首次结果。它会向你询问源语言、语言列表、配置格式和 CI。"
+    "candidate": "agent 用 {0} 检查 x18n 检测到的内容，仅在检测需要帮助时才编写配置，将 {1} 添加到 scripts 中，并报告 {2} 的首次运行结果。它会向你询问源语言、语言列表、配置格式和 CI。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

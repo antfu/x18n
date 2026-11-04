@@ -1,14 +1,14 @@
 {
   "hash": "90251fb1331a1634",
   "source": "A prefix usage is a usage with a computed key that starts with a static part. {0} is a prefix usage with the prefix {1}. x18n cannot know the value of {2}, so every key under {3} counts as possibly used. Neither {4} nor {5} is reported as unused.",
-  "text": "前缀引用是指带有计算得出的键、且键以静态部分开头的引用。{0} 是前缀为 {1} 的前缀引用。x18n 无法得知 {2} 的值，因此 {3} 下的每个键都会被视为可能已被使用。{4} 和 {5} 都不会被报告为未使用。",
+  "text": "前缀引用是指带有计算得出的 key 的引用，该 key 以静态部分开头。{0} 是前缀为 {1} 的前缀引用。x18n 无法得知 {2} 的值，因此 {3} 下的每个 key 都视为可能被使用。{4} 和 {5} 都不会被报告为未使用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "前缀引用是指带有计算得出的键、且键以静态部分开头的引用。{0} 是前缀为 {1} 的前缀引用。x18n 无法得知 {2} 的值，因此 {3} 下的每个键都会被视为可能已被使用。{4} 和 {5} 都不会被报告为未使用。"
+    "candidate": "前缀引用是指带有计算得出的 key 的引用，该 key 以静态部分开头。{0} 是前缀为 {1} 的前缀引用。x18n 无法得知 {2} 的值，因此 {3} 下的每个 key 都视为可能被使用。{4} 和 {5} 都不会被报告为未使用。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

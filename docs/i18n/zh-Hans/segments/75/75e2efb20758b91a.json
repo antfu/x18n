@@ -1,14 +1,14 @@
 {
   "hash": "75e2efb20758b91a",
   "source": "{0} and {1} return a translate function. Their argument is a key prefix, which next-intl calls a namespace:",
-  "text": "{0} 和 {1} 会返回一个 translate 函数。它们的参数是键前缀，next-intl 将其称为命名空间：",
+  "text": "{0} 和 {1} 会返回一个翻译函数。它们的参数是 key 前缀，next-intl 称之为命名空间：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 和 {1} 会返回一个 translate 函数。它们的参数是键前缀，next-intl 将其称为命名空间："
+    "candidate": "{0} 和 {1} 会返回一个翻译函数。它们的参数是 key 前缀，next-intl 称之为命名空间："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

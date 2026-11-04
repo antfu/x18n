@@ -1,14 +1,14 @@
 {
   "hash": "6af53c337c538fc5",
   "source": "Deletes a key or a parent key.",
-  "text": "删除一个键或父键。",
+  "text": "删除 key 或父 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "删除一个键或父键。"
+    "candidate": "删除 key 或父 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

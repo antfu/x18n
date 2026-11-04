@@ -1,14 +1,14 @@
 {
   "hash": "d3ad4fd161269348",
   "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
-  "text": "键：一张表，每个键一行，每种语言一列。可以搜索键和值，并按命名空间、缺少该键的语言、未使用的键、有问题的键或翻译状态进行筛选。如果某个键的格式为其提供了标签，则显示该标签，搜索也会匹配标签。选中单元格并按 Enter 即可编辑。使用方向键或 {0} 和 {1} 移动，按 Esc 取消，按 {2} 打开键，按 {3} 搜索。",
+  "text": "Keys：一张表格，每个 key 占一行，每种语言占一列。可以搜索 key 和值，并按命名空间、缺少该 key 的语言、未使用的 key、有问题的 key 或翻译状态进行筛选。如果某个 key 的格式为其提供了标签，则会显示该标签，搜索也会匹配它。选中单元格并按 Enter 即可编辑。使用方向键或 {0} 和 {1} 移动，按 Esc 取消，按 {2} 打开 key，按 {3} 搜索。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "键：一张表，每个键一行，每种语言一列。可以搜索键和值，并按命名空间、缺少该键的语言、未使用的键、有问题的键或翻译状态进行筛选。如果某个键的格式为其提供了标签，则显示该标签，搜索也会匹配标签。选中单元格并按 Enter 即可编辑。使用方向键或 {0} 和 {1} 移动，按 Esc 取消，按 {2} 打开键，按 {3} 搜索。"
+    "candidate": "Keys：一张表格，每个 key 占一行，每种语言占一列。可以搜索 key 和值，并按命名空间、缺少该 key 的语言、未使用的 key、有问题的 key 或翻译状态进行筛选。如果某个 key 的格式为其提供了标签，则会显示该标签，搜索也会匹配它。选中单元格并按 Enter 即可编辑。使用方向键或 {0} 和 {1} 移动，按 Esc 取消，按 {2} 打开 key，按 {3} 搜索。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

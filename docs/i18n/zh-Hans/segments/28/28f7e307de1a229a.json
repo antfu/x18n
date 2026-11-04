@@ -1,14 +1,14 @@
 {
   "hash": "28f7e307de1a229a",
   "source": "{0} lists each key with its locales and files. {1} lists unused keys that a computed key in a scope may reach, with those usages; they stay. {2} names computed keys outside any scope, which may reach any key.",
-  "text": "{0} 会列出每个键及其语言和文件。{1} 会列出某个作用域内的动态键可能访问到的未使用键，以及这些引用；这些键会被保留。{2} 会指出不在任何作用域内的动态键，它们可能访问到任意键。",
+  "text": "{0} 列出每个 key 及其所在的语言和文件。{1} 列出某个范围内的动态 key 可能涉及的未使用 key，以及这些引用；这些 key 会保留。{2} 指出不在任何范围内的动态 key，它们可能涉及任意 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 会列出每个键及其语言和文件。{1} 会列出某个作用域内的动态键可能访问到的未使用键，以及这些引用；这些键会被保留。{2} 会指出不在任何作用域内的动态键，它们可能访问到任意键。"
+    "candidate": "{0} 列出每个 key 及其所在的语言和文件。{1} 列出某个范围内的动态 key 可能涉及的未使用 key，以及这些引用；这些 key 会保留。{2} 指出不在任何范围内的动态 key，它们可能涉及任意 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

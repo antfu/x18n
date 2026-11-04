@@ -1,14 +1,14 @@
 {
   "hash": "7c171186ead215a9",
   "source": "Translate with an agent",
-  "text": "用智能体翻译",
+  "text": "用 agent 翻译",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "用智能体翻译"
+    "candidate": "用 agent 翻译"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

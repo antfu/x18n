@@ -1,14 +1,14 @@
 {
   "hash": "647ac955587ab293",
   "source": "This is a usage of the key {0}.",
-  "text": "这是对键 {0} 的一处引用。",
+  "text": "这是对 key {0} 的一次引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "这是对键 {0} 的一处引用。"
+    "candidate": "这是对 key {0} 的一次引用。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

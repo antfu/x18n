@@ -1,14 +1,14 @@
 {
   "hash": "a9889c869365f888",
   "source": "The key or key prefix at a position, in code or in a locale file.",
-  "text": "某个位置上的键或键前缀，可位于代码或语言文件中。",
+  "text": "某个位置上的 key 或 key 前缀，可以在代码中，也可以在语言文件中。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "某个位置上的键或键前缀，可位于代码或语言文件中。"
+    "candidate": "某个位置上的 key 或 key 前缀，可以在代码中，也可以在语言文件中。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

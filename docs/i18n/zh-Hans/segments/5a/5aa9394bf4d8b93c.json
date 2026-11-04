@@ -1,14 +1,14 @@
 {
   "hash": "5aa9394bf4d8b93c",
   "source": "Usages: keys used in code but not defined, unused keys, usages with a computed key, and every usage.",
-  "text": "引用：代码中使用但未定义的键、未使用的键、使用计算键的引用，以及所有引用。",
+  "text": "引用：代码中使用但未定义的 key、未使用的 key、使用计算得出的 key 的引用，以及所有引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "引用：代码中使用但未定义的键、未使用的键、使用计算键的引用，以及所有引用。"
+    "candidate": "引用：代码中使用但未定义的 key、未使用的 key、使用计算得出的 key 的引用，以及所有引用。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

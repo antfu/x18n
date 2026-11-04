@@ -1,14 +1,14 @@
 {
   "hash": "af0777041effe765",
   "source": "Items from {0}, keys and replacements edited as needed; drop items to skip them.",
-  "text": "来自 {0} 的条目，可按需编辑键和替换内容；删除条目即可跳过它们。",
+  "text": "来自 {0} 的条目，可按需编辑 key 和替换内容；删除条目即可跳过它们。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "来自 {0} 的条目，可按需编辑键和替换内容；删除条目即可跳过它们。"
+    "candidate": "来自 {0} 的条目，可按需编辑 key 和替换内容；删除条目即可跳过它们。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

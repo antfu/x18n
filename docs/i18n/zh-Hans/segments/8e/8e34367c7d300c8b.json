@@ -1,14 +1,14 @@
 {
   "hash": "8e34367c7d300c8b",
   "source": "Two more prompts print the shipped {0}skills{/0}, for agents that have no skills system:",
-  "text": "另有两个提示会输出随附的{0}技能{/0}，适用于没有技能系统的智能体：",
+  "text": "另有两个提示词会输出内置的{0}技能{/0}，供没有技能系统的 agent 使用：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "另有两个提示会输出随附的{0}技能{/0}，适用于没有技能系统的智能体："
+    "candidate": "另有两个提示词会输出内置的{0}技能{/0}，供没有技能系统的 agent 使用："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

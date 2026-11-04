@@ -1,14 +1,14 @@
 {
   "hash": "48e4a28f6a9c61b0",
   "source": "When {0} finds a key with the same meaning, the agent reuses it. Without {1}, {2} writes the source locale. Then use the key in code, for example {3}. To see which locales still lack keys, run {4}.",
-  "text": "当 {0} 找到含义相同的键时，智能体会复用它。如果没有 {1}，{2} 会写入源语言。然后在代码中使用该键，例如 {3}。要查看哪些语言仍缺少键，请运行 {4}。",
+  "text": "当 {0} 找到含义相同的 key 时，agent 会复用它。如果没有 {1}，{2} 会写入源语言。然后在代码中使用该 key，例如 {3}。若要查看哪些语言仍缺少 key，请运行 {4}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "当 {0} 找到含义相同的键时，智能体会复用它。如果没有 {1}，{2} 会写入源语言。然后在代码中使用该键，例如 {3}。要查看哪些语言仍缺少键，请运行 {4}。"
+    "candidate": "当 {0} 找到含义相同的 key 时，agent 会复用它。如果没有 {1}，{2} 会写入源语言。然后在代码中使用该 key，例如 {3}。若要查看哪些语言仍缺少 key，请运行 {4}。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

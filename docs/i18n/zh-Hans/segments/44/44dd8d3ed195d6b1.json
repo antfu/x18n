@@ -1,14 +1,14 @@
 {
   "hash": "44dd8d3ed195d6b1",
   "source": "{0} prints the same schema. A default is the value before presets run. Presets add resources, call specs, derived keys and extraction templates on top of it.",
-  "text": "{0} 会输出同一份 schema。默认值是预设运行之前的值。预设会在此基础上添加资源、调用规范、派生键和提取模板。",
+  "text": "{0} 会输出相同的 schema。默认值是预设运行之前的值。预设会在其基础上添加资源、调用规范、派生 key 和提取模板。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 会输出同一份 schema。默认值是预设运行之前的值。预设会在此基础上添加资源、调用规范、派生键和提取模板。"
+    "candidate": "{0} 会输出相同的 schema。默认值是预设运行之前的值。预设会在其基础上添加资源、调用规范、派生 key 和提取模板。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "2b7a82d01c65050f",
   "source": "Copy this prompt to your coding agent. It sets x18n up for you:",
-  "text": "将下面的提示词复制给你的编码智能体，它会为你完成 x18n 的安装与配置：",
+  "text": "将下面的提示词复制给你的编码 agent，它会为你完成 x18n 的设置：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "将下面的提示词复制给你的编码智能体，它会为你完成 x18n 的安装与配置："
+    "candidate": "将下面的提示词复制给你的编码 agent，它会为你完成 x18n 的设置："
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

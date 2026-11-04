@@ -1,14 +1,14 @@
 {
   "hash": "395a752ee20f2d8b",
   "source": "{0} passes a {1} with the namespace and key prefix to its child function.",
-  "text": "{0} 会把带有命名空间和键前缀的 {1} 传给它的子函数。",
+  "text": "{0} 会将带有命名空间和 key 前缀的 {1} 传给它的子函数。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 会把带有命名空间和键前缀的 {1} 传给它的子函数。"
+    "candidate": "{0} 会将带有命名空间和 key 前缀的 {1} 传给它的子函数。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

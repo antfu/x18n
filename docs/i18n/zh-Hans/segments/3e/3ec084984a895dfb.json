@@ -1,14 +1,14 @@
 {
   "hash": "3ec084984a895dfb",
   "source": "In a view under {0}, a key that starts with {1} is a lazy lookup. x18n adds the path of the view to the key, as Rails does:",
-  "text": "在 {0} 下的视图中，以 {1} 开头的键是惰性查找。x18n 会像 Rails 一样，将视图的路径添加到键中：",
+  "text": "在 {0} 下的视图中，以 {1} 开头的 key 是 lazy lookup。x18n 会像 Rails 一样，把视图的路径添加到该 key 中：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "在 {0} 下的视图中，以 {1} 开头的键是惰性查找。x18n 会像 Rails 一样，将视图的路径添加到键中："
+    "candidate": "在 {0} 下的视图中，以 {1} 开头的 key 是 lazy lookup。x18n 会像 Rails 一样，把视图的路径添加到该 key 中："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

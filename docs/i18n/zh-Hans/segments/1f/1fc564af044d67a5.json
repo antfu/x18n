@@ -1,14 +1,14 @@
 {
   "hash": "1fc564af044d67a5",
   "source": "The whole call holding the key, when the scanner knows it.",
-  "text": "包含该键的完整调用，前提是扫描器能识别。",
+  "text": "包含该 key 的完整调用，前提是扫描器能够识别。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "包含该键的完整调用，前提是扫描器能识别。"
+    "candidate": "包含该 key 的完整调用，前提是扫描器能够识别。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

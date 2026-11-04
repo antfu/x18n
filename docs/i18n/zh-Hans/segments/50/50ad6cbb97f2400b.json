@@ -1,14 +1,14 @@
 {
   "hash": "50ad6cbb97f2400b",
   "source": "the \"Copy translate prompt\" button on the locale and key pages of the {0}UI{/0},",
-  "text": "{0}UI{/0} 的语言页面和键页面上的“Copy translate prompt”按钮，",
+  "text": "{0}UI{/0} 的语言页面和 key 页面上的「复制翻译提示词」按钮，",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0}UI{/0} 的语言页面和键页面上的“Copy translate prompt”按钮，"
+    "candidate": "{0}UI{/0} 的语言页面和 key 页面上的「复制翻译提示词」按钮，"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

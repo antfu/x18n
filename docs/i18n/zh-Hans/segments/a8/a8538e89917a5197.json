@@ -1,14 +1,14 @@
 {
   "hash": "a8538e89917a5197",
   "source": "Unused keys, and used keys that are not defined, sorted by project and key.",
-  "text": "未使用的键，以及已使用但未定义的键，按项目和键排序。",
+  "text": "未使用的 key，以及已被引用但未定义的 key，按项目和 key 排序。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "未使用的键，以及已使用但未定义的键，按项目和键排序。"
+    "candidate": "未使用的 key，以及已被引用但未定义的 key，按项目和 key 排序。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

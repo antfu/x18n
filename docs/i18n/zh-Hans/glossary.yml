@@ -1,10 +1,13 @@
-# zh-Hans terms that need diglot-only fields (`match`); an entry here replaces the shared one in ../glossary.yml.
+# zh-Hans terms that need diglot-only fields (`match`, `decision: keep` for this locale only); an entry here replaces the shared one in ../glossary.yml.
 terms:
   - term: agent
-    note: an AI coding agent, such as Claude Code or Cursor
+    note: an AI coding agent, such as Claude Code or Cursor; keep "agent" or "agents" in English
     match: \bagents?\b
-    decision: translate
-    target: 智能体
+    decision: keep
+  - term: key
+    note: a message identifier such as `nav.home`, not a keyboard key or a password; keep "key" or "keys" in English
+    match: \bkeys?\b
+    decision: keep
   - term: usage
     note: one occurrence of a key in source code
     match: \busages?\b

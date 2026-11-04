@@ -1,14 +1,14 @@
 {
   "hash": "34039eb4a2578813",
   "source": "Usage Report: unused keys, and used keys that are not defined, sorted by key. \"x18n: Delete Unused Keys\" (the trash icon of the view) lists what it would delete and asks first. The edit lands in the open editors, so you can undo it before you save.",
-  "text": "Usage Report：未使用的键，以及已使用但未定义的键，按键排序。「x18n: Delete Unused Keys」（视图中的垃圾桶图标）会先列出将要删除的内容并征求确认。修改会应用到已打开的编辑器中，因此你可以在保存之前撤销。",
+  "text": "Usage Report：未使用的 key，以及已使用但未定义的 key，按 key 排序。\"x18n: Delete Unused Keys\"（视图中的垃圾桶图标）会列出将要删除的内容并先行确认。改动会写入已打开的编辑器，因此你可以在保存前撤销。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Usage Report：未使用的键，以及已使用但未定义的键，按键排序。「x18n: Delete Unused Keys」（视图中的垃圾桶图标）会先列出将要删除的内容并征求确认。修改会应用到已打开的编辑器中，因此你可以在保存之前撤销。"
+    "candidate": "Usage Report：未使用的 key，以及已使用但未定义的 key，按 key 排序。\"x18n: Delete Unused Keys\"（视图中的垃圾桶图标）会列出将要删除的内容并先行确认。改动会写入已打开的编辑器，因此你可以在保存前撤销。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

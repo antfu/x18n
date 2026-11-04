@@ -1,14 +1,14 @@
 {
   "hash": "7018ce283345015a",
   "source": "Editor decoration that hides a key and shows its display-locale value.",
-  "text": "编辑器装饰，隐藏键并显示其在显示语言下的值。",
+  "text": "编辑器装饰，用于隐藏 key 并显示其在显示语言下的值。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "编辑器装饰，隐藏键并显示其在显示语言下的值。"
+    "candidate": "编辑器装饰，用于隐藏 key 并显示其在显示语言下的值。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

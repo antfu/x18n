@@ -1,14 +1,14 @@
 {
   "hash": "7a93a3ec51220eac",
   "source": "A key glob uses {0} inside one segment and {1} across segments: {2}.",
-  "text": "键 glob 在单个段内使用 {0}，跨段使用 {1}：{2}。",
+  "text": "key glob 在单个片段内使用 {0}，跨片段使用 {1}：{2}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "键 glob 在单个段内使用 {0}，跨段使用 {1}：{2}。"
+    "candidate": "key glob 在单个片段内使用 {0}，跨片段使用 {1}：{2}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

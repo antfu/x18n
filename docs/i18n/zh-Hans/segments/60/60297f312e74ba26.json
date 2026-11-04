@@ -1,14 +1,14 @@
 {
   "hash": "60297f312e74ba26",
   "source": "Unused keys left alone because fully dynamic usages in a scope may reach them, sorted.",
-  "text": "因作用域内的完全动态用法可能引用而保留的未使用键，已排序。",
+  "text": "因某个作用域内完全动态的引用可能访问到而被保留的未使用 key，已排序。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "因作用域内的完全动态用法可能引用而保留的未使用键，已排序。"
+    "candidate": "因某个作用域内完全动态的引用可能访问到而被保留的未使用 key，已排序。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

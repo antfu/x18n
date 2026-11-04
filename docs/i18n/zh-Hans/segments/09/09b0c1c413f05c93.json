@@ -1,14 +1,14 @@
 {
   "hash": "09b0c1c413f05c93",
   "source": "One occurrence of a key in source code.",
-  "text": "某个键在源代码中的一次出现。",
+  "text": "某个 key 在源代码中的一次出现。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "某个键在源代码中的一次出现。"
+    "candidate": "某个 key 在源代码中的一次出现。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

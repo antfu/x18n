@@ -19,8 +19,6 @@
   doNotTranslate: true
 - term: key
   note: a message identifier such as `nav.home`, not a keyboard key or a password
-  translations:
-    zh-Hans: 键
 - term: message
   note: the value of one key in one locale
   translations:

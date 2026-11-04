@@ -1,14 +1,14 @@
 {
   "hash": "681174df236cedbc",
   "source": "With the default {0}, a file starts with the locale code as its top-level key. The preset reads the messages under that key, in YAML and JSON files whose name ends with {1}, {2} or {3}:",
-  "text": "使用默认的 {0} 时，文件以语言代码作为顶层键开头。预设会读取该键下的消息，文件为 YAML 和 JSON 文件，文件名以 {1}、{2} 或 {3} 结尾：",
+  "text": "使用默认的 {0} 时，文件以语言代码作为顶层 key 开头。预设会读取该 key 下的消息，适用于文件名以 {1}、{2} 或 {3} 结尾的 YAML 和 JSON 文件：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "使用默认的 {0} 时，文件以语言代码作为顶层键开头。预设会读取该键下的消息，文件为 YAML 和 JSON 文件，文件名以 {1}、{2} 或 {3} 结尾："
+    "candidate": "使用默认的 {0} 时，文件以语言代码作为顶层 key 开头。预设会读取该 key 下的消息，适用于文件名以 {1}、{2} 或 {3} 结尾的 YAML 和 JSON 文件："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

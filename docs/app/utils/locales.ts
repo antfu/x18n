@@ -22,7 +22,6 @@ export const docsLocales: DocsLocale[] = [
     labels: {
       'Guide': '指南',
       'Surfaces': '界面',
-      'Agents': '智能体',
       'Presets': '预设',
       'Plugins': '插件',
       'Reference': '参考',

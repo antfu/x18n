@@ -1,14 +1,14 @@
 {
   "hash": "d5c5446134ca8ebb",
   "source": "Only usages of this key.",
-  "text": "仅包含该键的引用。",
+  "text": "仅限该 key 的引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "仅包含该键的引用。"
+    "candidate": "仅限该 key 的引用。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

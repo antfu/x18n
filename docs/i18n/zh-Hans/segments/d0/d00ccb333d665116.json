@@ -1,14 +1,14 @@
 {
   "hash": "d00ccb333d665116",
   "source": "Parent key; omitted for the roots.",
-  "text": "父键；根键省略此项。",
+  "text": "父 key；根 key 则省略。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "父键；根键省略此项。"
+    "candidate": "父 key；根 key 则省略。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

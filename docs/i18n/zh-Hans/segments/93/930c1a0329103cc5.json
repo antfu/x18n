@@ -1,14 +1,14 @@
 {
   "hash": "930c1a0329103cc5",
   "source": "Key and message",
-  "text": "键和消息",
+  "text": "key 与消息",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "键和消息"
+    "candidate": "key 与消息"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

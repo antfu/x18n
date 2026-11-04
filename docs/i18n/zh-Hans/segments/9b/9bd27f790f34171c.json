@@ -1,14 +1,14 @@
 {
   "hash": "9bd27f790f34171c",
   "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
-  "text": "批量删除未使用键的试运行；{0} 会实际执行删除。",
+  "text": "批量删除未使用 key 的试运行；{0} 会实际执行删除。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "批量删除未使用键的试运行；{0} 会实际执行删除。"
+    "candidate": "批量删除未使用 key 的试运行；{0} 会实际执行删除。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

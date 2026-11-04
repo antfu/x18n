@@ -1,14 +1,14 @@
 {
   "hash": "da5ce3819fee500c",
   "source": "Turns raw key text into canonical form. The first plugin that returns a value wins.",
-  "text": "将原始键文本转换为规范形式。第一个返回值的插件生效。",
+  "text": "将原始 key 文本转换为规范形式。第一个返回值的插件生效。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "将原始键文本转换为规范形式。第一个返回值的插件生效。"
+    "candidate": "将原始 key 文本转换为规范形式。第一个返回值的插件生效。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

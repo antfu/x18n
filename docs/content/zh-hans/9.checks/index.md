@@ -26,27 +26,27 @@ export default defineConfig({
 })
 ```
 
-严重级别可以是 `error`、`warning`、`info`、`hint` 或 `off`。`strict: true`（或 `x18n check --strict`）会将所有警告视为错误。`ignoreKeys` 会将键从所有检查中排除。
+严重级别可以是 `error`、`warning`、`info`、`hint` 或 `off`。`strict: true`（或 `x18n check --strict`）会把所有警告都视为错误。`ignoreKeys` 会从每项检查中排除这些 key。
 
-| 检查                                                                   | 默认值       | 说明                                                |
-| -------------------------------------------------------------------- | --------- | ------------------------------------------------- |
-| [missing-key](/zh-hans/checks/missing-key)                           | `error`   | 某处引用的键未在源语言中定义。                                   |
-| [invalid-syntax](/zh-hans/checks/invalid-syntax)                     | `error`   | 消息语法错误（ICU、链接消息、嵌套）。                              |
-| [placeholder-mismatch](/zh-hans/checks/placeholder-mismatch)         | `error`   | 目标语言值的占位符与源语言值不一致。                                |
-| [param-mismatch](/zh-hans/checks/param-mismatch)                     | `warning` | 某个翻译调用的参数与源消息的占位符不一致。                             |
-| [key-conflict](/zh-hans/checks/key-conflict)                         | `error`   | 某个键既是叶子节点又是父节点，或在同一语言的多个文件中重复。                    |
-| [missing-translation](/zh-hans/checks/missing-translation)           | `warning` | 目标语言缺少源语言中的某个键，或缺少其语言所需的复数形式。每个键只报告一条诊断，位于源语言条目处。 |
-| [stale-translation](/zh-hans/checks/stale-translation)               | `warning` | 根据历史记录提供方（git），某条译文的最后修改早于其源消息。                   |
-| [review-changes-requested](/zh-hans/checks/review-changes-requested) | `info`    | 某条消息存在未关闭的「请求修改」审阅。                               |
-| [empty-translation](/zh-hans/checks/empty-translation)               | `warning` | 值为空字符串的消息。                                        |
-| [redundant-translation](/zh-hans/checks/redundant-translation)       | `warning` | 某个设有回退语言的语言中，其消息与回退目标的消息相同，因此可以删除。                |
-| [unused-key](/zh-hans/checks/unused-key)                             | `warning` | 在考虑 keysInUse、派生键和动态前缀之后，仍没有任何引用的键。               |
-| [locale-code-conflict](/zh-hans/checks/locale-code-conflict)         | `warning` | 仅拼写不同的语言代码，例如 zh_CN 和 zh-CN。                      |
-| [dynamic-key](/zh-hans/checks/dynamic-key)                           | `off`     | 完全动态的键，任何检查都无法追踪。                                 |
-| [identical-to-source](/zh-hans/checks/identical-to-source)           | `info`    | 目标值与源值相同，但在所有语言中都保持不变的值除外。                        |
-| [key-style](/zh-hans/checks/key-style)                               | `off`     | 不符合命名规则的键（选项：case、pattern）。                       |
-| [hard-string](/zh-hans/checks/hard-string)                           | `info`    | 可能应该改为消息的硬编码字符串。启用 `extract.autoDetect` 时开启。      |
-| [glossary](/zh-hans/checks/glossary)                                 | `warning` | 术语的翻译与术语表不一致。                                     |
-| [invalid-resource](/zh-hans/checks/invalid-resource)                 | `error`   | x18n 无法读取、解析或扫描的语言文件或源文件。                         |
+| 检查                                                                   | 默认值       | 说明                                                   |
+| -------------------------------------------------------------------- | --------- | ---------------------------------------------------- |
+| [missing-key](/zh-hans/checks/missing-key)                           | `error`   | 引用了未在源语言中定义的 key。                                    |
+| [invalid-syntax](/zh-hans/checks/invalid-syntax)                     | `error`   | 消息语法错误（ICU、链接消息、嵌套）。                                 |
+| [placeholder-mismatch](/zh-hans/checks/placeholder-mismatch)         | `error`   | 目标语言值的占位符与源语言值不一致。                                   |
+| [param-mismatch](/zh-hans/checks/param-mismatch)                     | `warning` | 某个翻译调用的参数与源消息的占位符不一致。                                |
+| [key-conflict](/zh-hans/checks/key-conflict)                         | `error`   | 某个 key 既是叶子节点又是父节点，或在同一语言的多个文件中重复定义。                 |
+| [missing-translation](/zh-hans/checks/missing-translation)           | `warning` | 目标语言缺少的源语言 key，或其语言所需的复数形式。每个 key 只产生一条诊断，位于源语言的条目上。 |
+| [stale-translation](/zh-hans/checks/stale-translation)               | `warning` | 根据历史记录提供方（git），某条译文的最后修改早于其源消息。                      |
+| [review-changes-requested](/zh-hans/checks/review-changes-requested) | `info`    | 某条消息存在未关闭的「请求修改」审阅。                                  |
+| [empty-translation](/zh-hans/checks/empty-translation)               | `warning` | 值为空字符串的消息。                                           |
+| [redundant-translation](/zh-hans/checks/redundant-translation)       | `warning` | 某个设有回退语言的语言中，其消息与回退目标的消息相同，因此可以删除。                   |
+| [unused-key](/zh-hans/checks/unused-key)                             | `warning` | 在考虑 keysInUse、派生 key 和动态前缀之后，仍没有任何引用的 key。           |
+| [locale-code-conflict](/zh-hans/checks/locale-code-conflict)         | `warning` | 仅拼写不同的语言代码，例如 zh_CN 和 zh-CN。                         |
+| [dynamic-key](/zh-hans/checks/dynamic-key)                           | `off`     | 完全动态的 key，任何检查都无法跟踪。                                 |
+| [identical-to-source](/zh-hans/checks/identical-to-source)           | `info`    | 目标值与源值相同，但在所有语言中都保持不变的值除外。                           |
+| [key-style](/zh-hans/checks/key-style)                               | `off`     | 不符合命名规则的 key（选项：case、pattern）。                       |
+| [hard-string](/zh-hans/checks/hard-string)                           | `info`    | 可能应该改为消息的硬编码字符串。启用 `extract.autoDetect` 时开启。         |
+| [glossary](/zh-hans/checks/glossary)                                 | `warning` | 术语的翻译与术语表不一致。                                        |
+| [invalid-resource](/zh-hans/checks/invalid-resource)                 | `error`   | x18n 无法读取、解析或扫描的语言文件或源文件。                            |
 
 `x18n check --reporter` 的报告器有 `pretty`、`json`、`markdown`、`github`、`sarif`。参见 [CLI 与 x18n check](/zh-hans/surfaces/cli#reporters)。

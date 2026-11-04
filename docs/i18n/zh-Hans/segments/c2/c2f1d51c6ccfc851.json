@@ -1,14 +1,14 @@
 {
   "hash": "c2f1d51c6ccfc851",
   "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
-  "text": "将键拆分为路径的方式：{0} 在嵌套文件中是 {1}。{2} 会使键保持字面形式，因此 {3} 或 {4} 是单个键，新键只对应一个属性（i18next {5}、gettext）。资源模式可以设置自己的值。",
+  "text": "将 key 拆分为路径的规则：在嵌套文件中，{0} 为 {1}。{2} 会让 key 保持字面形式，因此 {3} 或 {4} 是同一个 key，新 key 只对应一个属性（i18next {5}、gettext）。资源模式可以设置自己的规则。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "将键拆分为路径的方式：{0} 在嵌套文件中是 {1}。{2} 会使键保持字面形式，因此 {3} 或 {4} 是单个键，新键只对应一个属性（i18next {5}、gettext）。资源模式可以设置自己的值。"
+    "candidate": "将 key 拆分为路径的规则：在嵌套文件中，{0} 为 {1}。{2} 会让 key 保持字面形式，因此 {3} 或 {4} 是同一个 key，新 key 只对应一个属性（i18next {5}、gettext）。资源模式可以设置自己的规则。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

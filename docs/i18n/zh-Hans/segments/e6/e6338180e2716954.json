@@ -1,14 +1,14 @@
 {
   "hash": "e6338180e2716954",
   "source": "Print candidates and proposed keys",
-  "text": "打印候选项和建议的键",
+  "text": "输出候选项和建议的 key",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "打印候选项和建议的键"
+    "candidate": "输出候选项和建议的 key"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

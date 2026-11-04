@@ -1,14 +1,14 @@
 {
   "hash": "8f7440dd4cc10a57",
   "source": "The plan has a decision (a question such as \"which file gets the new key\"), and the command got no answer. This happens with {0}, or when stdin is not a terminal.",
-  "text": "计划中包含一个需要决定的问题（例如“新键应写入哪个文件”），但命令没有得到答案。使用 {0} 时，或 stdin 不是终端时，就会出现这种情况。",
+  "text": "计划中有一个需要决定的问题（例如「新的 key 应该放进哪个文件」），但命令没有得到答案。使用 {0} 时，或者 stdin 不是终端时，就会出现这种情况。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "计划中包含一个需要决定的问题（例如“新键应写入哪个文件”），但命令没有得到答案。使用 {0} 时，或 stdin 不是终端时，就会出现这种情况。"
+    "candidate": "计划中有一个需要决定的问题（例如「新的 key 应该放进哪个文件」），但命令没有得到答案。使用 {0} 时，或者 stdin 不是终端时，就会出现这种情况。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

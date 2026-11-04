@@ -1,14 +1,14 @@
 {
   "hash": "2f4871816c8f9879",
   "source": "How {0} finds hard strings and makes keys.",
-  "text": "{0} 如何查找硬编码字符串并生成键。",
+  "text": "{0} 如何查找硬编码字符串并生成 key。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 如何查找硬编码字符串并生成键。"
+    "candidate": "{0} 如何查找硬编码字符串并生成 key。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

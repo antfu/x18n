@@ -1,14 +1,14 @@
 {
   "hash": "a7c563fc3057e3b4",
   "source": "A generated id changes with the text, so renaming such a key in x18n does not change the template. Custom ids are easier to manage.",
-  "text": "生成的 id 会随文本变化，因此在 x18n 中重命名这样的键不会修改模板。自定义 id 更易于管理。",
+  "text": "自动生成的 id 会随文本变化，因此在 x18n 中重命名这样的 key 不会修改模板。自定义 id 更易于管理。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "生成的 id 会随文本变化，因此在 x18n 中重命名这样的键不会修改模板。自定义 id 更易于管理。"
+    "candidate": "自动生成的 id 会随文本变化，因此在 x18n 中重命名这样的 key 不会修改模板。自定义 id 更易于管理。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

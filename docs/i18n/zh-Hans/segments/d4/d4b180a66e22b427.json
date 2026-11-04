@@ -1,14 +1,14 @@
 {
   "hash": "d4b180a66e22b427",
   "source": "The preset sets {0} to {1}, so {2} uses the text itself as the key. Set {3} in the config to change it.",
-  "text": "预设会将 {0} 设为 {1}，因此 {2} 使用文本本身作为键。如需更改，请在配置中设置 {3}。",
+  "text": "该预设将 {0} 设置为 {1}，因此 {2} 使用文本本身作为 key。如需更改，请在配置中设置 {3}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "预设会将 {0} 设为 {1}，因此 {2} 使用文本本身作为键。如需更改，请在配置中设置 {3}。"
+    "candidate": "该预设将 {0} 设置为 {1}，因此 {2} 使用文本本身作为 key。如需更改，请在配置中设置 {3}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

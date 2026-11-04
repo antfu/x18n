@@ -1,14 +1,14 @@
 {
   "hash": "877537d3e6c5732b",
   "source": "CSS border color of keys without a value. Empty draws no border.",
-  "text": "没有值的键的 CSS 边框颜色。为空则不绘制边框。",
+  "text": "没有值的 key 的 CSS 边框颜色。为空时不绘制边框。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "没有值的键的 CSS 边框颜色。为空则不绘制边框。"
+    "candidate": "没有值的 key 的 CSS 边框颜色。为空时不绘制边框。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

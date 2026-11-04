@@ -1,14 +1,14 @@
 {
   "hash": "5a140f94f79454df",
   "source": "A rename changes every locale and every usage in code. A rename of a parent key, such as {0}, moves every key under it. A rename to a key that exists stops with exit code 1.",
-  "text": "重命名会更改每个语言以及代码中的每处引用。重命名父键（例如 {0}）会移动其下的所有键。重命名为已存在的键时，会以退出码 1 终止。",
+  "text": "重命名会修改所有语言和代码中的所有引用。重命名父 key（例如 {0}）会移动其下的所有 key。如果重命名为已存在的 key，则会以退出码 1 停止。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "重命名会更改每个语言以及代码中的每处引用。重命名父键（例如 {0}）会移动其下的所有键。重命名为已存在的键时，会以退出码 1 终止。"
+    "candidate": "重命名会修改所有语言和代码中的所有引用。重命名父 key（例如 {0}）会移动其下的所有 key。如果重命名为已存在的 key，则会以退出码 1 停止。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "0ec843d33ef92e26",
   "source": "{0} are rules such as {1}. When a key is used, the derived keys count as used.",
-  "text": "{0} 是诸如 {1} 的规则。使用某个键时，派生键会被视为已使用。",
+  "text": "{0} 是诸如 {1} 的规则。当某个 key 被使用时，派生的 key 也被视为已使用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 是诸如 {1} 的规则。使用某个键时，派生键会被视为已使用。"
+    "candidate": "{0} 是诸如 {1} 的规则。当某个 key 被使用时，派生的 key 也被视为已使用。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "0afad17d174061e7",
   "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
-  "text": "按值在任意语言中查找到的键，除非 {0}，否则为模糊匹配，并附带其引用。",
+  "text": "根据任意语言中的值查找 key，除非使用 {0}，否则为模糊匹配，并附带其引用。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "按值在任意语言中查找到的键，除非 {0}，否则为模糊匹配，并附带其引用。"
+    "candidate": "根据任意语言中的值查找 key，除非使用 {0}，否则为模糊匹配，并附带其引用。"
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

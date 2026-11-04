@@ -1,14 +1,14 @@
 {
   "hash": "b3b48971f9be535b",
   "source": "{0} holds the result. {1} holds the errors, each with its code in {2}, the reason in {3}, a {4} and a {5} link. The exit code tells the agent what to do next:",
-  "text": "{0} 保存结果。{1} 保存错误，每条错误包含 {2} 中的错误码、{3} 中的原因，以及一个 {4} 和一个 {5} 链接。退出码会告诉智能体下一步该做什么：",
+  "text": "{0} 保存结果。{1} 保存错误，每个错误包含 {2} 中的错误码、{3} 中的原因，以及 {4} 和 {5} 链接。退出码会告诉 agent 下一步该做什么：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0} 保存结果。{1} 保存错误，每条错误包含 {2} 中的错误码、{3} 中的原因，以及一个 {4} 和一个 {5} 链接。退出码会告诉智能体下一步该做什么："
+    "candidate": "{0} 保存结果。{1} 保存错误，每个错误包含 {2} 中的错误码、{3} 中的原因，以及 {4} 和 {5} 链接。退出码会告诉 agent 下一步该做什么："
   },
-  "updatedAt": "2026-11-04T02:09:14.276Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "47b03e86404beb32",
   "source": "A key counts as used when:",
-  "text": "满足以下任一条件的键会被视为已使用：",
+  "text": "满足以下任一条件时，key 视为已使用：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "满足以下任一条件的键会被视为已使用："
+    "candidate": "满足以下任一条件时，key 视为已使用："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

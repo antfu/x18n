@@ -1,14 +1,14 @@
 {
   "hash": "1f06fa2fc15b45ba",
   "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
-  "text": "键。可用 {0}、{1} 和 {2} 过滤。{3} 会添加每种语言的值。",
+  "text": "key 列表。{0}、{1} 和 {2} 可用于筛选。{3} 会添加每种语言的值。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "键。可用 {0}、{1} 和 {2} 过滤。{3} 会添加每种语言的值。"
+    "candidate": "key 列表。{0}、{1} 和 {2} 可用于筛选。{3} 会添加每种语言的值。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

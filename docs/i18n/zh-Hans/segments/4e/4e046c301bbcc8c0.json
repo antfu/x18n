@@ -1,14 +1,14 @@
 {
   "hash": "4e046c301bbcc8c0",
   "source": "This file has the keys {0} and {1}.",
-  "text": "此文件包含键 {0} 和 {1}。",
+  "text": "此文件包含 key {0} 和 {1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "此文件包含键 {0} 和 {1}。"
+    "candidate": "此文件包含 key {0} 和 {1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

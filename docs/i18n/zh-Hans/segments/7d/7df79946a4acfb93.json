@@ -1,14 +1,14 @@
 {
   "hash": "7df79946a4acfb93",
   "source": "Report invalid, untranslated and unused keys, like {0}.",
-  "text": "报告无效、未翻译和未使用的键，例如 {0}。",
+  "text": "报告无效、未翻译和未使用的 key，类似 {0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "报告无效、未翻译和未使用的键，例如 {0}。"
+    "candidate": "报告无效、未翻译和未使用的 key，类似 {0}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

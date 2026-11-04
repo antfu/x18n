@@ -1,14 +1,14 @@
 {
   "hash": "6b001c11f5b07cec",
   "source": "Agents make that possible. A rewrite of this size used to need months, and now I can build it in my free time and still make it solid. Agents also would benefit from it: they edit locale files all day, and they need the key behind a text, the missing keys and a safe way to rename a key. So I brought the idea back, and this time I made it real.",
-  "text": "智能体让这件事成为可能。这种规模的重写过去需要几个月，而现在我可以利用业余时间完成，并且依然能保证质量。智能体也能从中受益：它们整天都在编辑语言文件，需要知道某段文本对应的键、缺失的键，以及一种安全重命名键的方式。所以我重新拾起了这个想法，这一次我把它变成了现实。",
+  "text": "agents 让这一切成为可能。这种规模的重写过去需要几个月，现在我可以利用业余时间完成，而且依然能做得扎实。agents 也会从中受益：它们整天都在编辑语言文件，需要知道某段文本背后的 key、缺失的 keys，以及重命名 key 的安全方式。所以我把这个想法重新拿了出来，这一次我把它变成了现实。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "智能体让这件事成为可能。这种规模的重写过去需要几个月，而现在我可以利用业余时间完成，并且依然能保证质量。智能体也能从中受益：它们整天都在编辑语言文件，需要知道某段文本对应的键、缺失的键，以及一种安全重命名键的方式。所以我重新拾起了这个想法，这一次我把它变成了现实。"
+    "candidate": "agents 让这一切成为可能。这种规模的重写过去需要几个月，现在我可以利用业余时间完成，而且依然能做得扎实。agents 也会从中受益：它们整天都在编辑语言文件，需要知道某段文本背后的 key、缺失的 keys，以及重命名 key 的安全方式。所以我把这个想法重新拿了出来，这一次我把它变成了现实。"
   },
-  "updatedAt": "2026-11-04T02:01:28.918Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "db748e0f785f7f10",
   "source": "Thymeleaf reads {0} for the default language and {1} for the others, and writes keys as {2}:",
-  "text": "Thymeleaf 的默认语言读取 {0}，其他语言读取 {1}，并以 {2} 的形式书写键：",
+  "text": "Thymeleaf 从 {0} 读取默认语言，从 {1} 读取其他语言，并将 keys 写成 {2}：",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "Thymeleaf 的默认语言读取 {0}，其他语言读取 {1}，并以 {2} 的形式书写键："
+    "candidate": "Thymeleaf 从 {0} 读取默认语言，从 {1} 读取其他语言，并将 keys 写成 {2}："
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

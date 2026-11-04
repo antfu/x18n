@@ -1,14 +1,14 @@
 {
   "hash": "ad6964035bbafd05",
   "source": "A rule asks the agent to leave out a value that is right as it is, such as a word that is the same in both languages. To stop a key from being reported, add it to {0}, or add the term to the {1} with {2}.",
-  "text": "规则会要求智能体省略本身正确的值，例如在两种语言中写法相同的词。若要停止报告某个键，请将其添加到 {0}，或使用 {2} 将该术语添加到 {1}。",
+  "text": "其中一条规则要求 agent 省略本身已经正确的值，例如两种语言中相同的词。若要不再报告某个 key，请将它添加到 {0}，或者使用 {2} 将该术语添加到 {1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "规则会要求智能体省略本身正确的值，例如在两种语言中写法相同的词。若要停止报告某个键，请将其添加到 {0}，或使用 {2} 将该术语添加到 {1}。"
+    "candidate": "其中一条规则要求 agent 省略本身已经正确的值，例如两种语言中相同的词。若要不再报告某个 key，请将它添加到 {0}，或者使用 {2} 将该术语添加到 {1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

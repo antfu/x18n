@@ -1,14 +1,14 @@
 {
   "hash": "d1e40e018f1a7f19",
   "source": "The preset adds none, as an extracted key needs its keyset as a separate argument. Set {0} for your keyset functions.",
-  "text": "该预设不会添加任何内容，因为提取出的键需要将其 keyset 作为单独的参数。请为你的 keyset 函数设置 {0}。",
+  "text": "该预设不会添加任何内容，因为提取出的 key 需要将其 keyset 作为单独的参数。请为你的 keyset 函数设置 {0}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "该预设不会添加任何内容，因为提取出的键需要将其 keyset 作为单独的参数。请为你的 keyset 函数设置 {0}。"
+    "candidate": "该预设不会添加任何内容，因为提取出的 key 需要将其 keyset 作为单独的参数。请为你的 keyset 函数设置 {0}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "080fcc19889d85a4",
   "source": "Namespace of keys written without one.",
-  "text": "未带命名空间书写的键所属的命名空间。",
+  "text": "未指定命名空间的 key 所属的命名空间。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "未带命名空间书写的键所属的命名空间。"
+    "candidate": "未指定命名空间的 key 所属的命名空间。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

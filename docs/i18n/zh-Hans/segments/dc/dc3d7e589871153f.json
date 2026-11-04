@@ -1,14 +1,14 @@
 {
   "hash": "dc3d7e589871153f",
   "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
-  "text": "每种内置格式都有 {0}，编辑时只会更改它设置、添加或删除的条目。注释、键的顺序、引号和缩进保持不变。新键会按文件的风格放在其父级最后一个键之后。删除键时，其行尾的注释会一并删除。在 {1} 和 {2} 中，条目上方的注释属于该条目，也会一并删除。只有 {3} 和 {4} 会重写整个文件，这会丢弃其中的注释。只能读取的格式会使其资源变为只读。",
+  "text": "每种内置格式都有 {0}，编辑只会更改它设置、添加或删除的条目。注释、key 顺序、引号和缩进保持不变。新 key 会按文件的风格放在其父级最后一个 key 之后。删除 key 时，会一并删除其行尾的注释。在 {1} 和 {2} 中，条目上方的注释属于该条目，也会一并删除。只有 {3} 和 {4} 会重新写入整个文件，这会丢弃其中的注释。只能读取的格式会使其资源变为只读。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "每种内置格式都有 {0}，编辑时只会更改它设置、添加或删除的条目。注释、键的顺序、引号和缩进保持不变。新键会按文件的风格放在其父级最后一个键之后。删除键时，其行尾的注释会一并删除。在 {1} 和 {2} 中，条目上方的注释属于该条目，也会一并删除。只有 {3} 和 {4} 会重写整个文件，这会丢弃其中的注释。只能读取的格式会使其资源变为只读。"
+    "candidate": "每种内置格式都有 {0}，编辑只会更改它设置、添加或删除的条目。注释、key 顺序、引号和缩进保持不变。新 key 会按文件的风格放在其父级最后一个 key 之后。删除 key 时，会一并删除其行尾的注释。在 {1} 和 {2} 中，条目上方的注释属于该条目，也会一并删除。只有 {3} 和 {4} 会重新写入整个文件，这会丢弃其中的注释。只能读取的格式会使其资源变为只读。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

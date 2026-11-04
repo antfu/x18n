@@ -1,14 +1,14 @@
 {
   "hash": "86e122c4cdeaf83f",
   "source": "The {0}MCP server{/0} gives the same tools to coding agents.",
-  "text": "{0}MCP 服务器{/0}为编码智能体提供同样的工具。",
+  "text": "{0}MCP server{/0} 向 coding agent 提供同样的工具。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "{0}MCP 服务器{/0}为编码智能体提供同样的工具。"
+    "candidate": "{0}MCP server{/0} 向 coding agent 提供同样的工具。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

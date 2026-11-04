@@ -1,14 +1,14 @@
 {
   "hash": "a3cd1a9c8615c1ba",
   "source": "Set many messages at once: {0} is {1}, the same shape as {2}. Files keep their format, key style and order. When a value drops or adds placeholders compared to the source value, nothing is written and {3} lists them ({4}); fix the values, or pass {5}.",
-  "text": "一次设置多条消息：{0} 为 {1}，结构与 {2} 相同。文件会保持原有的格式、键风格和顺序。当某个值相对于源值减少或增加了占位符时，不会写入任何内容，并由 {3} 列出这些情况（{4}）；请修正这些值，或传入 {5}。",
+  "text": "一次设置多条消息：{0} 为 {1}，结构与 {2} 相同。文件会保持其格式、key 风格和顺序。如果某个值相比源语言的值减少或增加了占位符，则不会写入任何内容，并由 {3} 列出这些情况（{4}）；请修正这些值，或传入 {5}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "一次设置多条消息：{0} 为 {1}，结构与 {2} 相同。文件会保持原有的格式、键风格和顺序。当某个值相对于源值减少或增加了占位符时，不会写入任何内容，并由 {3} 列出这些情况（{4}）；请修正这些值，或传入 {5}。"
+    "candidate": "一次设置多条消息：{0} 为 {1}，结构与 {2} 相同。文件会保持其格式、key 风格和顺序。如果某个值相比源语言的值减少或增加了占位符，则不会写入任何内容，并由 {3} 列出这些情况（{4}）；请修正这些值，或传入 {5}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

@@ -1,14 +1,14 @@
 {
   "hash": "42cc4b53fc31c1a2",
   "source": "Check the namespace. In a namespaced project the key is {0}, for example {1}.",
-  "text": "检查命名空间。在使用命名空间的项目中，键的格式为 {0}，例如 {1}。",
+  "text": "检查命名空间。在使用命名空间的项目中，key 的格式为 {0}，例如 {1}。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "检查命名空间。在使用命名空间的项目中，键的格式为 {0}，例如 {1}。"
+    "candidate": "检查命名空间。在使用命名空间的项目中，key 的格式为 {0}，例如 {1}。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }

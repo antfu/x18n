@@ -1,14 +1,14 @@
 {
   "hash": "d94cce3c3581f6b0",
   "source": "Keys to delete, sorted, with one location per message.",
-  "text": "要删除的键，已排序，每条消息附带一个位置。",
+  "text": "要删除的 key，已排序，每条消息附带一个位置。",
   "origin": "mt",
   "review": "none",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
-    "candidate": "要删除的键，已排序，每条消息附带一个位置。"
+    "candidate": "要删除的 key，已排序，每条消息附带一个位置。"
   },
-  "updatedAt": "2026-11-04T02:01:46.209Z"
+  "updatedAt": "2026-11-04T04:06:29.043Z"
 }
