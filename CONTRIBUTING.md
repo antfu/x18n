@@ -34,6 +34,14 @@ After you edit code, reload the host window (Cmd/Ctrl+R). The watcher has alread
 
 The extension is bundled to CJS, so `import.meta` is empty at runtime. Code in `@x18n/node` and the packages below it MUST NOT rely on `import.meta` at module load without a fallback.
 
+### Docs translations
+
+The docs are written in English, in `docs/content`. [diglot](https://github.com/danielroe/diglot) translates them segment by segment (headings, paragraphs, list items, table cells): `docs/i18n` holds its config, glossary and style rules, and one record per locale and segment in `docs/i18n/<locale>/segments`. `pnpm -C docs run generate` applies the records to the English pages and writes `docs/content/<locale>` (for example `docs/content/zh-hans`, served at `/zh-hans`). Do not edit those pages. A segment without a record keeps its English text.
+
+A new or changed English segment shows in English on the translated pages until it has a record. To fix a translation, change the `text` of its record, set `review` to `edited` and `origin` to `human`, and run `pnpm -C docs run generate`. `pnpm -C docs run i18n:status` shows the coverage of each locale, and `pnpm -C docs run i18n:validate` checks every record.
+
+To add a locale, add it to `locales` in `docs/i18n/diglot.config.ts`, add `docs/i18n/<locale>/locale.yml` and `style.yml`, and add it to `docs/app/utils/locales.ts` and to the `path` of `docs/app/pages/[locale].vue`.
+
 ### Working on the Zed extension
 
 The Zed registry builds the WASM module from `packages/zed`. Do not commit `extension.wasm`. This package uses Rust and Node's test runner. From `packages/zed`, run `pnpm test`, `cargo test`, `cargo fmt --check`, `cargo clippy --all-targets -- -D warnings`, and `cargo build --release --target wasm32-wasip2`. See its [README](./packages/zed/README.md) for local installation and editor checks.
