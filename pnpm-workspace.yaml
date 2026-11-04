@@ -27,6 +27,7 @@ minimumReleaseAgeExclude:
   - '@diglot/core@0.1.4'
   - '@diglot/mdast@0.1.4'
   - '@diglot/store@0.1.4'
+  - '@diglot/x18n@0.1.4'
 
 trustPolicy: no-downgrade
 # Older releases of Nuxt and comark-docs dependencies predate provenance publishing;
@@ -144,6 +145,7 @@ catalogs:
     '@diglot/comark': ^0.1.4
     '@diglot/core': ^0.1.4
     '@diglot/store': ^0.1.4
+    '@diglot/x18n': ^0.1.4
     comark-docs: github:comarkdown/comark-docs#4fcfb4f9600295700ac0a9152e562b258ef6fc88
     comark-linter: ^0.7.6
     satori: ^0.63.0
