@@ -96,6 +96,15 @@ function display(value: unknown): string | undefined {
       : JSON.stringify(value)
 }
 
+/** One locale's value as it appears in completion documentation. */
+function localeValueText(value: string | undefined): string {
+  return value === undefined
+    ? '_missing_'
+    : value === ''
+      ? '_empty_'
+      : value.replace(/\r?\n/g, ' ')
+}
+
 const timeUnits = [
   ['year', 31_536e6],
   ['month', 2_592e6],
@@ -307,6 +316,7 @@ class Server {
         inlayHintProvider: true,
         completionProvider: {
           triggerCharacters: ['.', '\'', '"', '`', ':'],
+          resolveProvider: true,
         },
         codeActionProvider: {
           codeActionKinds: [CodeActionKind.QuickFix, CodeActionKind.RefactorExtract],
@@ -689,9 +699,57 @@ class Server {
             : { detail: source },
           textEdit: { range, newText: insert },
           filterText: insert,
+          // The full key and project root survive namespace stripping;
+          // resolve uses them for the all-locale docs.
+          data: { project: at.entry.name, root: at.entry.root, key },
         },
       ]
     })
+  }
+
+  /**
+   * Resolve a completion item to its all-locale documentation. Blink and other
+   * clients ask only for the selected item, so the full translation table is
+   * not part of every completion response.
+   */
+  async resolveCompletionItem(item: CompletionItem): Promise<CompletionItem> {
+    await this.ready
+    const data = item.data as { project?: string, root?: string, key?: string } | undefined
+    if (data?.key === undefined)
+      return item
+    const key = data.key as KeyString
+    const entry = data.root !== undefined
+      ? this.projects.find(project => project.root === data.root)
+      : data.project !== undefined
+        ? this.entryByName(data.project)
+        : undefined
+    if (!entry) {
+      item.documentation = {
+        kind: 'markdown',
+        value: `**x18n** \`${key}\`\n\n_unknown project_`,
+      }
+      return item
+    }
+    if (entry.project.get(key) === undefined) {
+      item.documentation = {
+        kind: 'markdown',
+        value: `**x18n** \`${key}\`\n\n_key no longer exists_`,
+      }
+      return item
+    }
+    const lines = [`**x18n** \`${key}\``]
+    for (const locale of entry.project.locales) {
+      const value = display(entry.project.lookup(key, locale)?.value)
+      const flag = this.settings.showFlags
+        ? entry.project.localeInfo(locale).flag
+        : undefined
+      lines.push(`- ${flag ?? ''} **${locale}** ${localeValueText(value)}`)
+    }
+    item.documentation = {
+      kind: 'markdown',
+      value: lines.join('\n'),
+    }
+    return item
   }
 
   async codeActions(params: { textDocument: { uri: string }, range: Range, context: { diagnostics: Diagnostic[] } }): Promise<CodeAction[]> {
@@ -1318,6 +1376,7 @@ export function setupServer(connection: Connection, options: ServerOptions = {})
   connection.onHover(params => server.hover(params))
   connection.languages.inlayHint.on(params => server.inlayHints(params))
   connection.onCompletion(params => server.completion(params))
+  connection.onCompletionResolve(item => server.resolveCompletionItem(item))
   connection.onCodeAction(params => server.codeActions(params))
   connection.onDocumentSymbol(params => server.documentSymbols(params))
   connection.onWorkspaceSymbol(params => server.workspaceSymbols(params))
