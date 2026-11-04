@@ -165,6 +165,13 @@ describe('agent tools', () => {
     await expect(ctx.agent.invoke('x18n:get', { key: 'nope' })).rejects.toThrow('Key not found')
   })
 
+  it('rejects a page size that would not advance the cursor', async () => {
+    for (const limit of [0, -1, 1.5]) {
+      await expect(ctx.agent.invoke('x18n:keys', { limit })).rejects.toThrow(/Expected >=1|Invalid integer/)
+      await expect(ctx.agent.invoke('x18n:translate_prompt', { locale: 'de', limit })).rejects.toThrow(/Expected >=1|Invalid integer/)
+    }
+  })
+
   it('returns placeholder problems instead of writing', async () => {
     const before = await readFile(join(root, 'src/locales/de.json'), 'utf8')
     expect(wire(await ctx.agent.invoke('x18n:set_messages', {

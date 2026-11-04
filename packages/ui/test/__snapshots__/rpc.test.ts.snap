@@ -34,7 +34,8 @@ exports[`agent tools > names the tools for MCP 1`] = `
         },
         "limit": {
           "description": "Page size. Default 100.",
-          "type": "number",
+          "minimum": 1,
+          "type": "integer",
         },
         "missing": {
           "description": "Only keys missing or empty in this locale.",
@@ -99,7 +100,8 @@ exports[`agent tools > names the tools for MCP 1`] = `
         },
         "limit": {
           "description": "Page size. Default 100.",
-          "type": "number",
+          "minimum": 1,
+          "type": "integer",
         },
         "project": {
           "description": "Project name from \`x18n_status\`. Required only in a monorepo with several projects.",
@@ -133,7 +135,8 @@ exports[`agent tools > names the tools for MCP 1`] = `
         },
         "limit": {
           "description": "Page size. Default 100.",
-          "type": "number",
+          "minimum": 1,
+          "type": "integer",
         },
         "path": {
           "description": "Only usages in this file (path relative to the project root).",
@@ -161,7 +164,8 @@ exports[`agent tools > names the tools for MCP 1`] = `
         },
         "limit": {
           "description": "Page size. Default 100.",
-          "type": "number",
+          "minimum": 1,
+          "type": "integer",
         },
         "locale": {
           "description": "Only diagnostics for these locales.",
@@ -227,7 +231,8 @@ exports[`agent tools > names the tools for MCP 1`] = `
         },
         "limit": {
           "description": "Messages per prompt. Default 50.",
-          "type": "number",
+          "minimum": 1,
+          "type": "integer",
         },
         "locale": {
           "description": "Target locale code, as listed by \`x18n_status\`.",
