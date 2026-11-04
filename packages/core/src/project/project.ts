@@ -9,6 +9,7 @@ import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
 import type { ResourceState } from './analysis'
 import type { ReviewSource } from './planner'
 import type { UsageResolver } from './usages'
+import { version } from '../../package.json' with { type: 'json' }
 import { errors, isX18nError, toErrorInfo } from '../errors'
 import { fuzzyScore } from '../fuzzy'
 import { isKeyUnder, joinKey, keyMatcher, keySeparatorOf, pathMatcher, splitKeyPath } from '../keys'
@@ -109,8 +110,10 @@ export function createProject(options: CreateProjectOptions): Project {
   const { basesOf, formOf } = derivedKeys(config.usage.derivedKeys)
   const scanSignature = hashText(JSON.stringify({
     usage: config.usage,
+    extract: config.extract,
     namespace: config.namespace,
     scanners: registry.scanners.map(s => s.id),
+    version,
     v: 1,
   }))
   const localeFilter = (code: LocaleCode): boolean =>
