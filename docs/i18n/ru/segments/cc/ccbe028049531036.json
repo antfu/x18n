@@ -1,0 +1,14 @@
+{
+  "hash": "ccbe028049531036",
+  "source": "Only report for these locales (repeatable)",
+  "text": "Сообщать только по этим локалям (можно повторять)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщать только по этим локалям (можно повторять)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

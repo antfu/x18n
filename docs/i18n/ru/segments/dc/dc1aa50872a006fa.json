@@ -1,0 +1,14 @@
+{
+  "hash": "dc1aa50872a006fa",
+  "source": "Write values even when their placeholders differ from the source value.",
+  "text": "Записать значения, даже если их плейсхолдеры отличаются от исходного значения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Записать значения, даже если их плейсхолдеры отличаются от исходного значения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

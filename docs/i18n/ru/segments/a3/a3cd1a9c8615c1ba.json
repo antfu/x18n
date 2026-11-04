@@ -1,0 +1,14 @@
+{
+  "hash": "a3cd1a9c8615c1ba",
+  "source": "Set many messages at once: {0} is {1}, the same shape as {2}. Files keep their format, key style and order. When a value drops or adds placeholders compared to the source value, nothing is written and {3} lists them ({4}); fix the values, or pass {5}.",
+  "text": "Задайте сразу много сообщений: {0} — это {1}, той же формы, что и {2}. Файлы сохраняют свой формат, стиль ключей и порядок. Если в значении по сравнению с исходным пропали или добавились плейсхолдеры, ничего не записывается, а {3} перечисляет их ({4}); исправьте значения или передайте {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Задайте сразу много сообщений: {0} — это {1}, той же формы, что и {2}. Файлы сохраняют свой формат, стиль ключей и порядок. Если в значении по сравнению с исходным пропали или добавились плейсхолдеры, ничего не записывается, а {3} перечисляет их ({4}); исправьте значения или передайте {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

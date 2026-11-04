@@ -1,0 +1,14 @@
+{
+  "hash": "7cfe9bbdb8c9e1b7",
+  "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
+  "text": "Chaînes jamais extraites : une chaîne exacte comme {0}, ou une chaîne {1} comme {2} qui correspond au texte.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaînes jamais extraites : une chaîne exacte comme {0}, ou une chaîne {1} comme {2} qui correspond au texte."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

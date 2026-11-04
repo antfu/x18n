@@ -1,0 +1,14 @@
+{
+  "hash": "a9290d498f721530",
+  "source": "Read the output before you replace the YAML file. Check that the regular expressions in {0} came through unchanged.",
+  "text": "Прочитайте вывод, прежде чем заменять YAML-файл. Убедитесь, что регулярные выражения в {0} перенеслись без изменений.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Прочитайте вывод, прежде чем заменять YAML-файл. Убедитесь, что регулярные выражения в {0} перенеслись без изменений."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

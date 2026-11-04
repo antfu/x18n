@@ -1,0 +1,14 @@
+{
+  "hash": "76b5503c2a13307e",
+  "source": "The {0} settings set the colors and borders of in-place values and missing keys. Empty settings use the colors of your theme.",
+  "text": "Настройки {0} задают цвета и рамки значений в тексте и отсутствующих ключей. Пустые настройки используют цвета вашей темы.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Настройки {0} задают цвета и рамки значений в тексте и отсутствующих ключей. Пустые настройки используют цвета вашей темы."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0a8f603ae56c2cf1",
+  "source": "The gettext system of cargo-i18n (the {0} macro and {1} files) is not supported.",
+  "text": "Das gettext-System von cargo-i18n (das Makro {0} und {1}-Dateien) wird nicht unterstützt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das gettext-System von cargo-i18n (das Makro {0} und {1}-Dateien) wird nicht unterstützt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8dc678f5f3221633",
+  "source": "As in YAML, plus plugin and preset objects, for example from {0}.",
+  "text": "Как в YAML, плюс объекты плагинов и пресетов, например из {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Как в YAML, плюс объекты плагинов и пресетов, например из {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

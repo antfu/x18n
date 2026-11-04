@@ -1,0 +1,14 @@
+{
+  "hash": "71768ee96275f7cf",
+  "source": "x18n is a successor of {0}i18n-ally{/0}. It reads the same kinds of projects, and it moves the logic out of VS Code, so it also runs in CI, in the browser and for agents. {1} converts the i18n-ally settings of a project into an x18n config.",
+  "text": "x18n — преемник {0}i18n-ally{/0}. Он работает с теми же типами проектов, а логику выносит из VS Code, поэтому его можно запускать в CI, в браузере и для агентов. {1} преобразует настройки i18n-ally проекта в конфигурацию x18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n — преемник {0}i18n-ally{/0}. Он работает с теми же типами проектов, а логику выносит из VS Code, поэтому его можно запускать в CI, в браузере и для агентов. {1} преобразует настройки i18n-ally проекта в конфигурацию x18n."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

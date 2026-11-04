@@ -1,0 +1,14 @@
+{
+  "hash": "e020689143c39d4a",
+  "source": "CSS color of in-place values. Empty uses the inlay hint color of the theme.",
+  "text": "CSS-Farbe von In-place-Werten. Leer verwendet die Farbe der Inlay Hints des Themes.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CSS-Farbe von In-place-Werten. Leer verwendet die Farbe der Inlay Hints des Themes."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

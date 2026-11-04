@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "Les chaînes situées sur la ligne du commentaire et sur la ligne suivante.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les chaînes situées sur la ligne du commentaire et sur la ligne suivante."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8c93117dea7fcf37",
+  "source": "A fully dynamic key that no check can follow.",
+  "text": "Une clé entièrement dynamique qu'aucune vérification ne peut suivre.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une clé entièrement dynamique qu'aucune vérification ne peut suivre."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

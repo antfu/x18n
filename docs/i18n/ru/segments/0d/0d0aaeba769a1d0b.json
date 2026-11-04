@@ -1,0 +1,14 @@
+{
+  "hash": "0d0aaeba769a1d0b",
+  "source": "Only one store is active: the last one, so a plugin's store replaces the built-in one.",
+  "text": "Активно только одно хранилище: последнее, поэтому хранилище плагина заменяет встроенное.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Активно только одно хранилище: последнее, поэтому хранилище плагина заменяет встроенное."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

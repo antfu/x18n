@@ -1,0 +1,14 @@
+{
+  "hash": "f3b44763557b2742",
+  "source": "Without a config file, x18n reads the project's i18n-ally settings ({0} in {1}, and {2}), so an i18n-ally project works with no changes. The settings act as defaults: detection still adds what they leave out, and when their locale paths match no file, x18n looks for locale directories itself. Without i18n-ally settings either, x18n runs on detection alone. {3} prints what it uses: the config file, {4}, or {5}.",
+  "text": "Без файла конфигурации x18n читает настройки i18n-ally проекта ({0} в {1} и {2}), поэтому проект с i18n-ally работает без изменений. Эти настройки действуют как значения по умолчанию: автоопределение всё равно добавляет то, чего в них нет, а если их пути к локалям не совпадают ни с одним файлом, x18n сам ищет каталоги с локалями. Если нет и настроек i18n-ally, x18n работает только на основе автоопределения. {3} выводит, что именно используется: файл конфигурации, {4} или {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Без файла конфигурации x18n читает настройки i18n-ally проекта ({0} в {1} и {2}), поэтому проект с i18n-ally работает без изменений. Эти настройки действуют как значения по умолчанию: автоопределение всё равно добавляет то, чего в них нет, а если их пути к локалям не совпадают ни с одним файлом, x18n сам ищет каталоги с локалями. Если нет и настроек i18n-ally, x18n работает только на основе автоопределения. {3} выводит, что именно используется: файл конфигурации, {4} или {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c507fcbef671edc2",
+  "source": "Only keys matching a glob",
+  "text": "Только ключи, соответствующие glob-шаблону",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только ключи, соответствующие glob-шаблону"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dec11ea6dad3199e",
+  "source": "Only these check ids (comma separated)",
+  "text": "Uniquement ces ids de vérification (séparés par des virgules)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uniquement ces ids de vérification (séparés par des virgules)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

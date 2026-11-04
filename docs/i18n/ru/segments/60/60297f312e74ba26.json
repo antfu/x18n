@@ -1,0 +1,14 @@
+{
+  "hash": "60297f312e74ba26",
+  "source": "Unused keys left alone because fully dynamic usages in a scope may reach them, sorted.",
+  "text": "Неиспользуемые ключи, которые оставлены, потому что до них могут дотянуться полностью динамические использования в области видимости; отсортированы.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Неиспользуемые ключи, которые оставлены, потому что до них могут дотянуться полностью динамические использования в области видимости; отсортированы."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0472f55ebe480c48",
+  "source": "{0} in {1} accepts more than YAML and JSON. These options take plugin objects and functions:",
+  "text": "{0} dans {1} accepte plus que YAML et JSON. Ces options prennent des objets plugin et des fonctions :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} dans {1} accepte plus que YAML et JSON. Ces options prennent des objets plugin et des fonctions :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

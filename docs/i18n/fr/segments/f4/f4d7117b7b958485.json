@@ -1,0 +1,14 @@
+{
+  "hash": "f4d7117b7b958485",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5} and {6}. As in Laravel, a slash in the key becomes a dot.",
+  "text": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2}, {3}, {4}, {5} et {6}. Comme dans Laravel, une barre oblique dans la clé devient un point.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2}, {3}, {4}, {5} et {6}. Comme dans Laravel, une barre oblique dans la clé devient un point."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

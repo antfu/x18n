@@ -1,0 +1,14 @@
+{
+  "hash": "fbd27eb10eb7d8f0",
+  "source": "Placeholder mismatch. Keep every placeholder of the source value, or pass `--force`.",
+  "text": "Incohérence d'espaces réservés. Conservez tous les espaces réservés de la valeur source, ou passez `--force`.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Incohérence d'espaces réservés. Conservez tous les espaces réservés de la valeur source, ou passez `--force`."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

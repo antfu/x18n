@@ -1,0 +1,14 @@
+{
+  "hash": "cf5e74aec3548167",
+  "source": "The preset adds no resource patterns. Set {0} in the config, or let x18n guess the locale directories.",
+  "text": "Пресет не добавляет шаблонов ресурсов. Укажите {0} в конфигурации или позвольте x18n самому определить каталоги локалей.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет не добавляет шаблонов ресурсов. Укажите {0} в конфигурации или позвольте x18n самому определить каталоги локалей."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

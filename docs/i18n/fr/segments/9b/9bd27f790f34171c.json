@@ -1,0 +1,14 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "Simulation de la suppression en masse des clés inutilisées ; {0} l'applique.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Simulation de la suppression en masse des clés inutilisées ; {0} l'applique."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

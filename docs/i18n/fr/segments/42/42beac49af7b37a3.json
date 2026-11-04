@@ -1,0 +1,14 @@
+{
+  "hash": "42beac49af7b37a3",
+  "source": "The {0} preset supports {1}i18n-js{/1}, the JS companion of Rails I18n.",
+  "text": "Le preset {0} prend en charge {1}i18n-js{/1}, le compagnon JavaScript de Rails I18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}i18n-js{/1}, le compagnon JavaScript de Rails I18n."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

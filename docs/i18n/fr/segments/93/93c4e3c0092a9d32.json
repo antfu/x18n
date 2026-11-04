@@ -1,0 +1,14 @@
+{
+  "hash": "93c4e3c0092a9d32",
+  "source": "The VS Code extension.",
+  "text": "L'extension VS Code.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'extension VS Code."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

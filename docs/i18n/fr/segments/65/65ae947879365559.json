@@ -1,0 +1,14 @@
+{
+  "hash": "65ae947879365559",
+  "source": "The preset adds no placeholder syntax.",
+  "text": "Le preset n'ajoute aucune syntaxe d'espace réservé.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset n'ajoute aucune syntaxe d'espace réservé."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

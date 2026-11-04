@@ -1,0 +1,14 @@
+{
+  "hash": "94a473391c7a7b5b",
+  "source": "The Vue scanner reads the {0} blocks and every template expression. It also reads the {1} directive, and the key attribute of the {2} (or {3}) component, the {4} component and {5}.",
+  "text": "Le scanner Vue lit les blocs {0} et chaque expression de template. Il lit aussi la directive {1}, ainsi que l'attribut de clé du composant {2} (ou {3}), du composant {4} et de {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le scanner Vue lit les blocs {0} et chaque expression de template. Il lit aussi la directive {1}, ainsi que l'attribut de clé du composant {2} (ou {3}), du composant {4} et de {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

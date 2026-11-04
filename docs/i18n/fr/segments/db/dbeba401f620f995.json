@@ -1,0 +1,14 @@
+{
+  "hash": "dbeba401f620f995",
+  "source": "The {0} preset supports {1}next-intl{/1} and use-intl.",
+  "text": "Le preset {0} prend en charge {1}next-intl{/1} et use-intl.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}next-intl{/1} et use-intl."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

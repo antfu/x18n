@@ -1,0 +1,14 @@
+{
+  "hash": "1ebc7271e8d6911a",
+  "source": "The JSON contract. {0} picks it too.",
+  "text": "Der JSON-Vertrag. {0} wählt ihn ebenfalls.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der JSON-Vertrag. {0} wählt ihn ebenfalls."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

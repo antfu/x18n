@@ -1,0 +1,14 @@
+{
+  "hash": "b35ed9be31f28ae9",
+  "source": "With the default separator {0}, the namespace is the first part of the key path. The key {1} in {2} is {3}. vue-i18n works this way.",
+  "text": "При разделителе по умолчанию {0} пространство имён — это первая часть пути ключа. Ключ {1} в {2} — это {3}. Так работает vue-i18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "При разделителе по умолчанию {0} пространство имён — это первая часть пути ключа. Ключ {1} в {2} — это {3}. Так работает vue-i18n."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

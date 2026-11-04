@@ -1,0 +1,14 @@
+{
+  "hash": "fc28c2ee629ccbbe",
+  "source": "Only unused keys matching this glob: {0} inside a segment, {1} across segments.",
+  "text": "Только неиспользуемые ключи, соответствующие этому glob-шаблону: {0} внутри сегмента, {1} across сегментов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только неиспользуемые ключи, соответствующие этому glob-шаблону: {0} внутри сегмента, {1} across сегментов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

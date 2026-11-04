@@ -1,0 +1,14 @@
+{
+  "hash": "c2e7536ce14c4077",
+  "source": "Every command accepts these options.",
+  "text": "Все команды принимают следующие параметры.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Все команды принимают следующие параметры."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

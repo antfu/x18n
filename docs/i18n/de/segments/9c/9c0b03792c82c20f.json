@@ -1,0 +1,14 @@
+{
+  "hash": "9c0b03792c82c20f",
+  "source": "The library has no default directory. If your config has no {0}, the preset uses {1} and {2}. This is the default {3}, {4}. The file name and the folders under the directory are the namespace, so the key {5} in {6} is {7}. For another {8} or {9}, set {10}.",
+  "text": "Die Bibliothek hat kein Standardverzeichnis. Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1} und {2}. Das ist das Standard-{3}, {4}. Der Dateiname und die Ordner unter dem Verzeichnis bilden den namespace, also ist der Schlüssel {5} in {6} gleich {7}. Für ein anderes {8} oder {9} setze {10}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Bibliothek hat kein Standardverzeichnis. Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1} und {2}. Das ist das Standard-{3}, {4}. Der Dateiname und die Ordner unter dem Verzeichnis bilden den namespace, also ist der Schlüssel {5} in {6} gleich {7}. Für ein anderes {8} oder {9} setze {10}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

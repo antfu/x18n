@@ -1,0 +1,14 @@
+{
+  "hash": "f4d7117b7b958485",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5} and {6}. As in Laravel, a slash in the key becomes a dot.",
+  "text": "Diese Namen zählen als Übersetzungsaufrufe: {0}, {1}, {2}, {3}, {4}, {5} und {6}. Wie in Laravel wird ein Schrägstrich im Schlüssel zu einem Punkt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Diese Namen zählen als Übersetzungsaufrufe: {0}, {1}, {2}, {3}, {4}, {5} und {6}. Wie in Laravel wird ein Schrägstrich im Schlüssel zu einem Punkt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

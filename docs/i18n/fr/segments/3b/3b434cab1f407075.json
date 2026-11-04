@@ -1,0 +1,14 @@
+{
+  "hash": "3b434cab1f407075",
+  "source": "A different file, or {0} to turn reviews off.",
+  "text": "Un autre fichier, ou {0} pour désactiver les relectures.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un autre fichier, ou {0} pour désactiver les relectures."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

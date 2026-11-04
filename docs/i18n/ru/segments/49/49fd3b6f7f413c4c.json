@@ -1,0 +1,14 @@
+{
+  "hash": "49fd3b6f7f413c4c",
+  "source": "Where the namespace comes from (call option, or factory argument when {0} is true), or a fixed namespace such as {1} for a hook that wraps {2}.",
+  "text": "Откуда берётся пространство имён (опция вызова или аргумент фабрики, когда {0} равно true) или фиксированное пространство имён, например {1}, для хука, который оборачивает {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Откуда берётся пространство имён (опция вызова или аргумент фабрики, когда {0} равно true) или фиксированное пространство имён, например {1}, для хука, который оборачивает {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

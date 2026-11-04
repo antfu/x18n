@@ -1,0 +1,14 @@
+{
+  "hash": "3c3f14c020221dd7",
+  "source": "In {0}, each message is an object with a {1} field and other fields, such as {2}. The preset reads the {3} field as the value of the key:",
+  "text": "Dans {0}, chaque message est un objet avec un champ {1} et d'autres champs, tels que {2}. Le preset lit le champ {3} comme valeur de la clé :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dans {0}, chaque message est un objet avec un champ {1} et d'autres champs, tels que {2}. Le preset lit le champ {3} comme valeur de la clé :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

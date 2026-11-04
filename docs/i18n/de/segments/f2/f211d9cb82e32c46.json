@@ -1,0 +1,14 @@
+{
+  "hash": "f211d9cb82e32c46",
+  "source": "Run {0} with no command to see the status of the project and the main commands.",
+  "text": "Führe {0} ohne Befehl aus, um den Status des Projekts und die wichtigsten Befehle zu sehen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führe {0} ohne Befehl aus, um den Status des Projekts und die wichtigsten Befehle zu sehen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

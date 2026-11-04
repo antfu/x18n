@@ -1,0 +1,14 @@
+{
+  "hash": "85c27ba09cd5f154",
+  "source": "Plan is stale. Files changed since the plan was made. Plan again.",
+  "text": "Le plan est obsolète. Des fichiers ont changé depuis la création du plan. Planifiez à nouveau.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le plan est obsolète. Des fichiers ont changé depuis la création du plan. Planifiez à nouveau."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

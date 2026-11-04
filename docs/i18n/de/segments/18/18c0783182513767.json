@@ -1,0 +1,14 @@
+{
+  "hash": "18c0783182513767",
+  "source": "Leave out the code around usages.",
+  "text": "Lass den Code rund um Verwendungen weg.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lass den Code rund um Verwendungen weg."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f79a4788e3e8105e",
+  "source": "A form that a language does not have, such as {0} in English, is optional in every locale.",
+  "text": "Форма, которой нет в языке, например {0} в английском, необязательна в любой локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Форма, которой нет в языке, например {0} в английском, необязательна в любой локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

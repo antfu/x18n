@@ -1,0 +1,14 @@
+{
+  "hash": "082ef2350c4707dc",
+  "source": "Fail a build on broken keys, annotate pull requests, upload SARIF and publish a static report.",
+  "text": "Lass einen Build bei fehlerhaften Schlüsseln fehlschlagen, annotiere Pull Requests, lade SARIF hoch und veröffentliche einen statischen Report.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lass einen Build bei fehlerhaften Schlüsseln fehlschlagen, annotiere Pull Requests, lade SARIF hoch und veröffentliche einen statischen Report."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

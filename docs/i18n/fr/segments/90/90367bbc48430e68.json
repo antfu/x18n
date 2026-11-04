@@ -1,0 +1,14 @@
+{
+  "hash": "90367bbc48430e68",
+  "source": "The built-in formats read JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, PHP arrays, .NET resx, XLIFF, XMB and XTB, ARB and static JS or TS modules. They also read Vue {0} and {1} blocks. For a library or format that x18n does not support, {2}write a plugin{/2} in YAML or TypeScript.",
+  "text": "Les formats intégrés lisent JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, les tableaux PHP, .NET resx, XLIFF, XMB et XTB, ARB, ainsi que les modules JS ou TS statiques. Ils lisent aussi les blocs Vue {0} et {1}. Pour une bibliothèque ou un format que x18n ne prend pas en charge, {2}écrivez un plugin{/2} en YAML ou en TypeScript.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les formats intégrés lisent JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, les tableaux PHP, .NET resx, XLIFF, XMB et XTB, ARB, ainsi que les modules JS ou TS statiques. Ils lisent aussi les blocs Vue {0} et {1}. Pour une bibliothèque ou un format que x18n ne prend pas en charge, {2}écrivez un plugin{/2} en YAML ou en TypeScript."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

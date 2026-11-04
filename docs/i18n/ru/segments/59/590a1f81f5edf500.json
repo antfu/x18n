@@ -1,0 +1,14 @@
+{
+  "hash": "590a1f81f5edf500",
+  "source": "Replace an existing config",
+  "text": "Заменить существующий конфиг",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Заменить существующий конфиг"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

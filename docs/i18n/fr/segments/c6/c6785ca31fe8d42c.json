@@ -1,0 +1,14 @@
+{
+  "hash": "c6785ca31fe8d42c",
+  "source": "Astro: {0}i18next{/0} (also with astro-i18next) and {1}Paraglide{/1}",
+  "text": "Astro : {0}i18next{/0} (aussi avec astro-i18next) et {1}Paraglide{/1}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Astro : {0}i18next{/0} (aussi avec astro-i18next) et {1}Paraglide{/1}"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

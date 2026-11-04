@@ -1,0 +1,14 @@
+{
+  "hash": "ad320bcbd59cf70f",
+  "source": "Fix each field that the message lists. See {0}YAML plugins{/0}.",
+  "text": "Исправьте каждое поле, которое указано в сообщении. См. {0}YAML-плагины{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Исправьте каждое поле, которое указано в сообщении. См. {0}YAML-плагины{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

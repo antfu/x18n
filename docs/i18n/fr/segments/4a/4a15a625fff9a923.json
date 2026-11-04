@@ -1,0 +1,14 @@
+{
+  "hash": "4a15a625fff9a923",
+  "source": "Hard-coded text gets into the UI without a key.",
+  "text": "Du texte écrit en dur se retrouve dans l'UI sans clé.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Du texte écrit en dur se retrouve dans l'UI sans clé."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

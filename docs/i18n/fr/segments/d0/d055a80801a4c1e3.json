@@ -1,0 +1,14 @@
+{
+  "hash": "d055a80801a4c1e3",
+  "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
+  "text": "{0} refuse les valeurs dont les espaces réservés diffèrent de ceux de la valeur source, et n'écrit rien. Elle liste les valeurs rejetées et se termine avec le code 1. Corrigez-les, ou passez {1} pour les écrire quand même.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} refuse les valeurs dont les espaces réservés diffèrent de ceux de la valeur source, et n'écrit rien. Elle liste les valeurs rejetées et se termine avec le code 1. Corrigez-les, ou passez {1} pour les écrire quand même."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

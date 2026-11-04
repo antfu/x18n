@@ -1,0 +1,14 @@
+{
+  "hash": "c73c1b7338a9d218",
+  "source": "Only these files (globs relative to the project root). Default: every scanned file.",
+  "text": "Nur diese Dateien (Globs relativ zum Projektstamm). Standard: jede gescannte Datei.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur diese Dateien (Globs relativ zum Projektstamm). Standard: jede gescannte Datei."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

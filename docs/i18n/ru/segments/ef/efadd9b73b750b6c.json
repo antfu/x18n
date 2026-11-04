@@ -1,0 +1,14 @@
+{
+  "hash": "efadd9b73b750b6c",
+  "source": "flutter\\_translate keeps plural forms as nested keys. From version 4, the forms are the Intl plural names {0}, {1}, {2}, {3}, {4} and {5}. Before version 4, they were {6}, {7}, {8} and {9}. The preset adds a derived key {10} for each of these forms, so the {11} check does not report the forms of a used key.",
+  "text": "flutter\\_translate хранит формы множественного числа во вложенных ключах. Начиная с версии 4 это названия форм множественного числа из Intl: {0}, {1}, {2}, {3}, {4} и {5}. До версии 4 использовались {6}, {7}, {8} и {9}. Пресет добавляет производный ключ {10} для каждой из этих форм, поэтому проверка {11} не сообщает о формах используемого ключа.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "flutter\\_translate хранит формы множественного числа во вложенных ключах. Начиная с версии 4 это названия форм множественного числа из Intl: {0}, {1}, {2}, {3}, {4} и {5}. До версии 4 использовались {6}, {7}, {8} и {9}. Пресет добавляет производный ключ {10} для каждой из этих форм, поэтому проверка {11} не сообщает о формах используемого ключа."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

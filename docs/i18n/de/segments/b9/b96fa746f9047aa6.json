@@ -1,0 +1,14 @@
+{
+  "hash": "b96fa746f9047aa6",
+  "source": "The arguments of a template string: {0}, without the {1} right after {2}. Empty when there are none.",
+  "text": "Die Argumente eines Template-Strings: {0}, ohne das {1} direkt nach {2}. Leer, wenn es keine gibt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Argumente eines Template-Strings: {0}, ohne das {1} direkt nach {2}. Leer, wenn es keine gibt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

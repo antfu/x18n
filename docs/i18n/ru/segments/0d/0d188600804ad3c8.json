@@ -1,0 +1,14 @@
+{
+  "hash": "0d188600804ad3c8",
+  "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
+  "text": "Заменять ключи в коде их значениями для отображаемой локали. Исходный ключ отображается в строке с курсором и внутри выделения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Заменять ключи в коде их значениями для отображаемой локали. Исходный ключ отображается в строке с курсором и внутри выделения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

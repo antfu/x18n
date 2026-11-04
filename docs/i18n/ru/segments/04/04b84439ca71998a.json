@@ -1,0 +1,14 @@
+{
+  "hash": "04b84439ca71998a",
+  "source": "Paths in a project config are relative to the project directory. A project directory without a config file is a project with the root options and its own detection.",
+  "text": "Пути в конфиге проекта указываются относительно каталога проекта. Каталог проекта без файла конфигурации — это проект с опциями корневого конфига и собственным определением.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пути в конфиге проекта указываются относительно каталога проекта. Каталог проекта без файла конфигурации — это проект с опциями корневого конфига и собственным определением."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

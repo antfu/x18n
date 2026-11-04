@@ -1,0 +1,14 @@
+{
+  "hash": "3a293b8e1256c1c0",
+  "source": "A TypeScript plugin is an object with a {0} and the capabilities it adds. {1} and {2} from {3} give it types. They return their argument unchanged.",
+  "text": "Плагин на TypeScript — это объект с {0} и возможностями, которые он добавляет. {1} и {2} из {3} задают ему типы. Они возвращают свой аргумент без изменений.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Плагин на TypeScript — это объект с {0} и возможностями, которые он добавляет. {1} и {2} из {3} задают ему типы. Они возвращают свой аргумент без изменений."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

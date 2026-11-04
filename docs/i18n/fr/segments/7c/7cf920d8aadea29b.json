@@ -1,0 +1,14 @@
+{
+  "hash": "7cf920d8aadea29b",
+  "source": "The {0}CLI{/0}, the {1}VS Code extension{/1}, the {2}UI{/2} and {3}agents{/3} all read and write the same reviews.",
+  "text": "Le {0}CLI{/0}, l'{1}extension VS Code{/1}, l'{2}UI{/2} et les {3}agents{/3} lisent et écrivent tous les mêmes relectures.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le {0}CLI{/0}, l'{1}extension VS Code{/1}, l'{2}UI{/2} et les {3}agents{/3} lisent et écrivent tous les mêmes relectures."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

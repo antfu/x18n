@@ -1,0 +1,14 @@
+{
+  "hash": "a0eee9cdfca07261",
+  "source": "Keys found by their value in any locale, best match first, with their usages. {0} turns off fuzzy matching.",
+  "text": "Ключи, найденные по их значению в любой локали, сначала наиболее подходящие, вместе с их использованиями. {0} отключает нечёткое сопоставление.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключи, найденные по их значению в любой локали, сначала наиболее подходящие, вместе с их использованиями. {0} отключает нечёткое сопоставление."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

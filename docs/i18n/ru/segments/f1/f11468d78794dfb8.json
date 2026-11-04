@@ -1,0 +1,14 @@
+{
+  "hash": "f11468d78794dfb8",
+  "source": "Pass a function to {0} to take options. The function returns the plugin:",
+  "text": "Передайте функцию в {0}, чтобы принимать параметры. Функция возвращает плагин:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Передайте функцию в {0}, чтобы принимать параметры. Функция возвращает плагин:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

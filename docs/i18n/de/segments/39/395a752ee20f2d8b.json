@@ -1,0 +1,14 @@
+{
+  "hash": "395a752ee20f2d8b",
+  "source": "{0} passes a {1} with the namespace and key prefix to its child function.",
+  "text": "{0} übergibt ein {1} mit dem Namespace und dem Schlüsselpräfix an seine Kindfunktion.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} übergibt ein {1} mit dem Namespace und dem Schlüsselpräfix an seine Kindfunktion."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

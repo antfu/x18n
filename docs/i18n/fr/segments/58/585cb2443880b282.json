@@ -1,0 +1,14 @@
+{
+  "hash": "585cb2443880b282",
+  "source": "Globalize separates the segments of a message path with a slash. The preset turns each slash into a dot, so this call is a usage of the key {0}:",
+  "text": "Globalize sépare les segments d'un chemin de message par une barre oblique. Le preset transforme chaque barre oblique en point, donc cet appel est une utilisation de la clé {0} :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Globalize sépare les segments d'un chemin de message par une barre oblique. Le preset transforme chaque barre oblique en point, donc cet appel est une utilisation de la clé {0} :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

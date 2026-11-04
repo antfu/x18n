@@ -1,0 +1,14 @@
+{
+  "hash": "f1e446238d8dd724",
+  "source": "{0} returns a {1} with a namespace and a key prefix.",
+  "text": "{0} gibt ein {1} mit einem Namespace und einem Schlüsselpräfix zurück.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} gibt ein {1} mit einem Namespace und einem Schlüsselpräfix zurück."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

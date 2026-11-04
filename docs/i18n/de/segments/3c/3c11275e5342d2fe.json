@@ -1,0 +1,14 @@
+{
+  "hash": "3c11275e5342d2fe",
+  "source": "CSS color of keys without a value. Empty uses the warning color of the theme.",
+  "text": "CSS-Farbe von Schlüsseln ohne Wert. Leer verwendet die Warnfarbe des Themes.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CSS-Farbe von Schlüsseln ohne Wert. Leer verwendet die Warnfarbe des Themes."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "57dd018a15eb69a7",
+  "source": "The check is off by default.",
+  "text": "Cette vérification est désactivée par défaut.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cette vérification est désactivée par défaut."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

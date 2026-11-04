@@ -1,0 +1,14 @@
+{
+  "hash": "ba3c23f8d34fe408",
+  "source": "Re-write resources with the configured sort and indent.",
+  "text": "Réécrit les ressources avec le tri et l'indentation configurés.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Réécrit les ressources avec le tri et l'indentation configurés."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "793791a1377dc300",
+  "source": "Default: the directory of the config file",
+  "text": "Standard: das Verzeichnis der Konfigurationsdatei",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Standard: das Verzeichnis der Konfigurationsdatei"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

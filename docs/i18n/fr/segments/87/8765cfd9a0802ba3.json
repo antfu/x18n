@@ -1,0 +1,14 @@
+{
+  "hash": "8765cfd9a0802ba3",
+  "source": "The preset reads the {0} block of every project in {1}:",
+  "text": "Le preset lit le bloc {0} de chaque projet de {1} :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset lit le bloc {0} de chaque projet de {1} :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "38fd0bbfede61bf5",
+  "source": "{0} returns the display name, the flag or other data of a locale code. The first plugin that returns a value wins.",
+  "text": "{0} gibt den Anzeigenamen, die Flagge oder andere Daten zu einem Sprachcode zurück. Das erste Plugin, das einen Wert zurückgibt, gewinnt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} gibt den Anzeigenamen, die Flagge oder andere Daten zu einem Sprachcode zurück. Das erste Plugin, das einen Wert zurückgibt, gewinnt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

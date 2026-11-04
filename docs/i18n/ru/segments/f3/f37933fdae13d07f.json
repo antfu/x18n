@@ -1,0 +1,14 @@
+{
+  "hash": "f37933fdae13d07f",
+  "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
+  "text": "Ключ, который одновременно является листом и родителем либо дублируется в файлах одной локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ, который одновременно является листом и родителем либо дублируется в файлах одной локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6b7514b51fbfd0cc",
+  "source": "The file name is the key prefix, as in AdonisJS: {0} in {1} is {2}, and {3} in {4} is {5}.",
+  "text": "Имя файла является префиксом ключа, как в AdonisJS: {0} в {1} — это {2}, а {3} в {4} — это {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Имя файла является префиксом ключа, как в AdonisJS: {0} в {1} — это {2}, а {3} в {4} — это {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

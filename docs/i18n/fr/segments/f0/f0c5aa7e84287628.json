@@ -1,0 +1,14 @@
+{
+  "hash": "f0c5aa7e84287628",
+  "source": "With {0} in the project, {1} is a usage, under any name for {2}.",
+  "text": "Avec {0} dans le projet, {1} est une utilisation, sous n'importe quel nom pour {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Avec {0} dans le projet, {1} est une utilisation, sous n'importe quel nom pour {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

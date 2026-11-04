@@ -1,0 +1,14 @@
+{
+  "hash": "9131bcd495c10793",
+  "source": "The preset applies when the {0} has {1}, {2} or {3}.",
+  "text": "Le preset s'applique lorsque {0} contient {1}, {2} ou {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset s'applique lorsque {0} contient {1}, {2} ou {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

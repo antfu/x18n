@@ -1,0 +1,14 @@
+{
+  "hash": "3c11275e5342d2fe",
+  "source": "CSS color of keys without a value. Empty uses the warning color of the theme.",
+  "text": "Couleur CSS des clés sans valeur. Vide utilise la couleur d'avertissement du thème.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Couleur CSS des clés sans valeur. Vide utilise la couleur d'avertissement du thème."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

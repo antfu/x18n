@@ -1,0 +1,14 @@
+{
+  "hash": "acafc7b402dc95c1",
+  "source": "Deletes a key in every locale. {0} limits it. Code is not changed.",
+  "text": "Удаляет ключ во всех локалях. {0} ограничивает удаление. Код не изменяется.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Удаляет ключ во всех локалях. {0} ограничивает удаление. Код не изменяется."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

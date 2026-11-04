@@ -1,0 +1,14 @@
+{
+  "hash": "944a67debbac48fb",
+  "source": "Reviews are not available. Set `review.enabled` to true, and fix the review file if the check reports a problem with it.",
+  "text": "Ревью недоступны. Установите `review.enabled` в true и исправьте файл ревью, если проверка сообщает о проблеме с ним.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ревью недоступны. Установите `review.enabled` в true и исправьте файл ревью, если проверка сообщает о проблеме с ним."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

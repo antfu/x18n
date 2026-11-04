@@ -1,0 +1,14 @@
+{
+  "hash": "dc2868ad410d8dec",
+  "source": "Add types for your check ids and options through declaration merging. See {0}Typed config keys{/0}.",
+  "text": "Ajoutez des types pour les ids de vos vérifications et vos options par fusion de déclarations. Voir {0}Clés de configuration typées{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ajoutez des types pour les ids de vos vérifications et vos options par fusion de déclarations. Voir {0}Clés de configuration typées{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

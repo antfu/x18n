@@ -1,0 +1,14 @@
+{
+  "hash": "44dd8d3ed195d6b1",
+  "source": "{0} prints the same schema. A default is the value before presets run. Presets add resources, call specs, derived keys and extraction templates on top of it.",
+  "text": "{0} выводит ту же схему. Значение по умолчанию — это значение до применения пресетов. Пресеты добавляют к нему ресурсы, описания вызовов, производные ключи и шаблоны извлечения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} выводит ту же схему. Значение по умолчанию — это значение до применения пресетов. Пресеты добавляют к нему ресурсы, описания вызовов, производные ключи и шаблоны извлечения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

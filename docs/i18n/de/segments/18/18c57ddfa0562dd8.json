@@ -1,0 +1,14 @@
+{
+  "hash": "18c57ddfa0562dd8",
+  "source": "The {0} preset supports {1}vue-i18n{/1} and petite-vue-i18n.",
+  "text": "Das {0}-Preset unterstützt {1}vue-i18n{/1} und petite-vue-i18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt {1}vue-i18n{/1} und petite-vue-i18n."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

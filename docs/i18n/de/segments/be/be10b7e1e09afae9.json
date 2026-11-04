@@ -1,0 +1,14 @@
+{
+  "hash": "be10b7e1e09afae9",
+  "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
+  "text": "Wird für jede Review-Änderung eines Plans in der Reihenfolge der Operationen aufgerufen. Die zurückgegebenen Schreibvorgänge werden in denselben Plan aufgenommen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wird für jede Review-Änderung eines Plans in der Reihenfolge der Operationen aufgerufen. Die zurückgegebenen Schreibvorgänge werden in denselben Plan aufgenommen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

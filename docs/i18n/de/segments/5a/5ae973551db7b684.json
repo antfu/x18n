@@ -1,0 +1,14 @@
+{
+  "hash": "5ae973551db7b684",
+  "source": "Write a static, read-only report of the UI.",
+  "text": "Schreibe einen statischen, schreibgeschützten Report der UI.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schreibe einen statischen, schreibgeschützten Report der UI."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8edd23e16f3ed99e",
+  "source": "In templates, in {0} files and inline, the {1}, {2} and {3} pipes:",
+  "text": "In Templates, in {0}-Dateien und inline die Pipes {1}, {2} und {3}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In Templates, in {0}-Dateien und inline die Pipes {1}, {2} und {3}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

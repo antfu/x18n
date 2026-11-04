@@ -1,0 +1,14 @@
+{
+  "hash": "172db8b792c6c623",
+  "source": "Each tool takes one object. A {0} after a field name marks an optional field. The safety level tells the agent what a call does: {1} changes nothing, {2} writes files, {3} can remove data and asks for {4}.",
+  "text": "Каждый инструмент принимает один объект. {0} после имени поля обозначает необязательное поле. Уровень безопасности сообщает агенту, что делает вызов: {1} ничего не меняет, {2} записывает файлы, {3} может удалить данные и запрашивает {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Каждый инструмент принимает один объект. {0} после имени поля обозначает необязательное поле. Уровень безопасности сообщает агенту, что делает вызов: {1} ничего не меняет, {2} записывает файлы, {3} может удалить данные и запрашивает {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

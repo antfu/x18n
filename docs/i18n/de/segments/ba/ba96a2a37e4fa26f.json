@@ -1,0 +1,14 @@
+{
+  "hash": "ba96a2a37e4fa26f",
+  "source": "A resource is a file, or a block inside a file, that holds the messages of one locale and one namespace. In the example, {0} and {1} are resources. A Vue {2} block is also a resource.",
+  "text": "Eine Ressource ist eine Datei oder ein Block innerhalb einer Datei, der die Messages einer Sprache und eines Namespace enthält. Im Beispiel sind {0} und {1} Ressourcen. Auch ein Vue-{2}-Block ist eine Ressource.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Ressource ist eine Datei oder ein Block innerhalb einer Datei, der die Messages einer Sprache und eines Namespace enthält. Im Beispiel sind {0} und {1} Ressourcen. Auch ein Vue-{2}-Block ist eine Ressource."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

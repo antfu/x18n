@@ -1,0 +1,14 @@
+{
+  "hash": "06058d8e367ed47a",
+  "source": "The check skips a call whose params it cannot read, such as a variable or a spread ({0}), and a key whose source message is not a string, such as a plural key that only has {1} and {2}.",
+  "text": "Die Prüfung überspringt einen Aufruf, dessen Parameter sie nicht lesen kann, etwa eine Variable oder einen Spread ({0}), sowie einen Schlüssel, dessen Quell-Message kein String ist, etwa einen Plural-Schlüssel, der nur {1} und {2} hat.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Prüfung überspringt einen Aufruf, dessen Parameter sie nicht lesen kann, etwa eine Variable oder einen Spread ({0}), sowie einen Schlüssel, dessen Quell-Message kein String ist, etwa einen Plural-Schlüssel, der nur {1} und {2} hat."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

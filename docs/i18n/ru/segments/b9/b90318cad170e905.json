@@ -1,0 +1,14 @@
+{
+  "hash": "b90318cad170e905",
+  "source": "If the difference is on purpose, pass {0}.",
+  "text": "Если отличие сделано намеренно, передайте {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если отличие сделано намеренно, передайте {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

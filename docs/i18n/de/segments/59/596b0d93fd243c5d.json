@@ -1,0 +1,14 @@
+{
+  "hash": "596b0d93fd243c5d",
+  "source": "This plugin adds a check that reports messages that still contain {0}:",
+  "text": "Dieses Plugin fügt eine Prüfung hinzu, die messages meldet, die noch {0} enthalten:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dieses Plugin fügt eine Prüfung hinzu, die messages meldet, die noch {0} enthalten:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

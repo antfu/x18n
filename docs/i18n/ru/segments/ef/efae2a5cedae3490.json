@@ -1,0 +1,14 @@
+{
+  "hash": "efae2a5cedae3490",
+  "source": "Extract hard-coded strings",
+  "text": "Извлеките захардкоженные строки",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Извлеките захардкоженные строки"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

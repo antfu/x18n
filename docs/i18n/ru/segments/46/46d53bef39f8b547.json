@@ -1,0 +1,14 @@
+{
+  "hash": "46d53bef39f8b547",
+  "source": "A named value a translate call passes to its message ({0} in {1}), which a placeholder reads.",
+  "text": "Именованное значение, которое вызов функции перевода передаёт в своё сообщение ({0} в {1}) и которое читает плейсхолдер.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Именованное значение, которое вызов функции перевода передаёт в своё сообщение ({0} в {1}) и которое читает плейсхолдер."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

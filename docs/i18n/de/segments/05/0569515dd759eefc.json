@@ -1,0 +1,14 @@
+{
+  "hash": "0569515dd759eefc",
+  "source": "The preset for Globalize. It reads formatMessage and messageFormatter calls with paths such as greetings/hello.",
+  "text": "Das Preset für Globalize. Es liest formatMessage- und messageFormatter-Aufrufe mit Pfaden wie greetings/hello.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset für Globalize. Es liest formatMessage- und messageFormatter-Aufrufe mit Pfaden wie greetings/hello."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

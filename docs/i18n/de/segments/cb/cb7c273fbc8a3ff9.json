@@ -1,0 +1,14 @@
+{
+  "hash": "cb7c273fbc8a3ff9",
+  "source": "Serve the MCP tools over stdio.",
+  "text": "Stelle die MCP-Tools über stdio bereit.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stelle die MCP-Tools über stdio bereit."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

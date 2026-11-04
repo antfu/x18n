@@ -1,0 +1,14 @@
+{
+  "hash": "a8efd7cc971ce7db",
+  "source": "A message is a function on the {0} object. The name of the function is the key. The preset reads {1}, {2}, JSX, Vue, Svelte and Astro files.",
+  "text": "Сообщение — это функция объекта {0}. Имя функции является ключом. Пресет читает файлы {1}, {2}, JSX, Vue, Svelte и Astro.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщение — это функция объекта {0}. Имя функции является ключом. Пресет читает файлы {1}, {2}, JSX, Vue, Svelte и Astro."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

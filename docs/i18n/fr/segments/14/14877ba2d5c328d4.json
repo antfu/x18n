@@ -1,0 +1,14 @@
+{
+  "hash": "14877ba2d5c328d4",
+  "source": "Check again when a file changes.",
+  "text": "Relance la vérification lorsqu'un fichier change.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Relance la vérification lorsqu'un fichier change."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

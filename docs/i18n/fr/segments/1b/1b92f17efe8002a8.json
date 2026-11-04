@@ -1,0 +1,14 @@
+{
+  "hash": "1b92f17efe8002a8",
+  "source": "A translation drops a placeholder, so {0} becomes {1}.",
+  "text": "Une traduction perd un espace réservé, si bien que {0} devient {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une traduction perd un espace réservé, si bien que {0} devient {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

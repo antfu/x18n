@@ -1,0 +1,14 @@
+{
+  "hash": "88ea1252e48ad27b",
+  "source": "{0} describe how placeholders look in messages. {1} returns the placeholders of a value. {2} returns syntax errors, for the {3} check. {4} is the text that prompts show. {5} means that the placeholder names another key, which then counts as used.",
+  "text": "{0} описывают, как плейсхолдеры выглядят в сообщениях. {1} возвращает плейсхолдеры значения. {2} возвращает синтаксические ошибки для проверки {3}. {4} — текст, который показывают подсказки. {5} означает, что плейсхолдер указывает на другой ключ, который тогда считается используемым.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} описывают, как плейсхолдеры выглядят в сообщениях. {1} возвращает плейсхолдеры значения. {2} возвращает синтаксические ошибки для проверки {3}. {4} — текст, который показывают подсказки. {5} означает, что плейсхолдер указывает на другой ключ, который тогда считается используемым."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

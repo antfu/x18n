@@ -1,0 +1,14 @@
+{
+  "hash": "a8d1ca842a2062a8",
+  "source": "In TS and JS files, {0} tagged templates, and the inline {1} of a component:",
+  "text": "In TS- und JS-Dateien {0}-Tagged-Templates und das Inline-{1} einer Komponente:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In TS- und JS-Dateien {0}-Tagged-Templates und das Inline-{1} einer Komponente:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

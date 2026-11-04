@@ -1,0 +1,14 @@
+{
+  "hash": "5b75c7a88a2c89ec",
+  "source": "Renames every key under a prefix, in locale files and code.",
+  "text": "Renomme toutes les clés sous un préfixe, dans les fichiers de langue et dans le code.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renomme toutes les clés sous un préfixe, dans les fichiers de langue et dans le code."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

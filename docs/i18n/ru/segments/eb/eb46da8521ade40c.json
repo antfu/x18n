@@ -1,0 +1,14 @@
+{
+  "hash": "eb46da8521ade40c",
+  "source": "Write the current diagnostics into the baseline. See {0}Baseline{/0}.",
+  "text": "Записывает текущие диагностики в baseline. См. {0}Baseline{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Записывает текущие диагностики в baseline. См. {0}Baseline{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "69d162892270333f",
+  "source": "Fix the reported keys.",
+  "text": "Исправьте указанные ключи.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Исправьте указанные ключи."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

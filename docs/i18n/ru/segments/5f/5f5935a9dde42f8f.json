@@ -1,0 +1,14 @@
+{
+  "hash": "5f5935a9dde42f8f",
+  "source": "A key that is missing in the source locale shows in a warning color.",
+  "text": "Ключ, которого нет в исходной локали, отображается цветом предупреждения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ, которого нет в исходной локали, отображается цветом предупреждения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

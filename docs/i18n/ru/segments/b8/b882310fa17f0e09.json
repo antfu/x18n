@@ -1,0 +1,14 @@
+{
+  "hash": "b882310fa17f0e09",
+  "source": "History providers for stale translations. {0} turns every provider off. Options of a provider sit under its key, such as {1} (or {2}).",
+  "text": "Провайдеры истории для устаревших переводов. {0} отключает все провайдеры. Параметры провайдера задаются под его ключом, например {1} (или {2}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Провайдеры истории для устаревших переводов. {0} отключает все провайдеры. Параметры провайдера задаются под его ключом, например {1} (или {2})."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "08d2ad55d50a9a16",
+  "source": "{0} finds hard-coded strings in source files and turns them into keys. Each candidate has a proposed key, a message and the replacement code.",
+  "text": "{0} trouve les chaînes codées en dur dans les fichiers source et les transforme en clés. Chaque candidat comporte une clé proposée, un message et le code de remplacement.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} trouve les chaînes codées en dur dans les fichiers source et les transforme en clés. Chaque candidat comporte une clé proposée, un message et le code de remplacement."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

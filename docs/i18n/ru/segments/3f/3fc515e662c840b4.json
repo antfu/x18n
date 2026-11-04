@@ -1,0 +1,14 @@
+{
+  "hash": "3fc515e662c840b4",
+  "source": "1-based line, for display.",
+  "text": "Строка с нумерацией с 1, для отображения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Строка с нумерацией с 1, для отображения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

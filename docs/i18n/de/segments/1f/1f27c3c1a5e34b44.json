@@ -1,0 +1,14 @@
+{
+  "hash": "1f27c3c1a5e34b44",
+  "source": "The fallback preset. It adds the default extraction templates for plain JS, TS, JSX, Vue, Svelte and Astro files.",
+  "text": "Das Fallback-preset. Es fügt die Standard-Extraktionsvorlagen für einfache JS-, TS-, JSX-, Vue-, Svelte- und Astro-Dateien hinzu.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Fallback-preset. Es fügt die Standard-Extraktionsvorlagen für einfache JS-, TS-, JSX-, Vue-, Svelte- und Astro-Dateien hinzu."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

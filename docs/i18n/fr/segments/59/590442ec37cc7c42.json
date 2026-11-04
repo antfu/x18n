@@ -1,0 +1,14 @@
+{
+  "hash": "590442ec37cc7c42",
+  "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
+  "text": "Extract : les chaînes en dur avec une clé proposée pour chacune. Modifiez les clés, décochez les chaînes à ignorer et extrayez le reste.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extract : les chaînes en dur avec une clé proposée pour chacune. Modifiez les clés, décochez les chaînes à ignorer et extrayez le reste."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

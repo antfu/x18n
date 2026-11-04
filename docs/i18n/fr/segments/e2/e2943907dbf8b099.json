@@ -1,0 +1,14 @@
+{
+  "hash": "e2943907dbf8b099",
+  "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
+  "text": "{0} est destiné aux stockages qui conservent un fichier par message. Il renvoie le fichier d'une clé dans une langue : un {1}, et l'id {2} avec lequel le créer lorsque ce n'est pas le format de son extension. Un nouveau message de la clé est placé dans ce fichier plutôt que dans une ressource qui contient déjà d'autres clés, et le fichier est créé s'il n'existe pas. Un renommage déplace chaque message vers le fichier de la nouvelle clé, et une suppression qui laisse vide le fichier de sa clé supprime ce fichier. Renvoyez {3} pour les clés qui se trouvent dans des fichiers partagés.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} est destiné aux stockages qui conservent un fichier par message. Il renvoie le fichier d'une clé dans une langue : un {1}, et l'id {2} avec lequel le créer lorsque ce n'est pas le format de son extension. Un nouveau message de la clé est placé dans ce fichier plutôt que dans une ressource qui contient déjà d'autres clés, et le fichier est créé s'il n'existe pas. Un renommage déplace chaque message vers le fichier de la nouvelle clé, et une suppression qui laisse vide le fichier de sa clé supprime ce fichier. Renvoyez {3} pour les clés qui se trouvent dans des fichiers partagés."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

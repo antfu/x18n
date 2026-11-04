@@ -1,0 +1,14 @@
+{
+  "hash": "713e64e2a31416d6",
+  "source": "The preset for es2015-i18n-tag. It reads i18n tagged templates in JS, TS and Vue files.",
+  "text": "Le preset pour es2015-i18n-tag. Il lit les gabarits étiquetés i18n dans les fichiers JS, TS et Vue.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset pour es2015-i18n-tag. Il lit les gabarits étiquetés i18n dans les fichiers JS, TS et Vue."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

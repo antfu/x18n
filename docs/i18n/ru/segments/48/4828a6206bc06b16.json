@@ -1,0 +1,14 @@
+{
+  "hash": "4828a6206bc06b16",
+  "source": "{0} find usages in source files. A scanner has an {1}, the file {2} it reads ({3} for every file), and {4}. {5} holds the call specs of the project. The result holds:",
+  "text": "{0} находят использования в исходных файлах. У сканера есть {1}, {2} файла, которые он читает ({3} для всех файлов), и {4}. {5} содержит call specs проекта. Результат содержит:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} находят использования в исходных файлах. У сканера есть {1}, {2} файла, которые он читает ({3} для всех файлов), и {4}. {5} содержит call specs проекта. Результат содержит:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

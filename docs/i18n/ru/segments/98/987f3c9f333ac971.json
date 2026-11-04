@@ -1,0 +1,14 @@
+{
+  "hash": "987f3c9f333ac971",
+  "source": "{0} without children renders the message as text. The {1} templates need {2} in the component. A string outside a component, such as a module-level constant, has no {3}: move it into the component before you extract it.",
+  "text": "{0} без дочерних элементов отображает сообщение как текст. Шаблонам {1} нужен {2} в компоненте. У строки вне компонента, например у константы уровня модуля, нет {3}: перенесите её в компонент, прежде чем извлекать.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} без дочерних элементов отображает сообщение как текст. Шаблонам {1} нужен {2} в компоненте. У строки вне компонента, например у константы уровня модуля, нет {3}: перенесите её в компонент, прежде чем извлекать."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

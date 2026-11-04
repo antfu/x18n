@@ -1,0 +1,14 @@
+{
+  "hash": "a393a579578b609f",
+  "source": "Accept default answers for decisions",
+  "text": "Принимать ответы по умолчанию на запросы решений",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Принимать ответы по умолчанию на запросы решений"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

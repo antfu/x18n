@@ -1,0 +1,14 @@
+{
+  "hash": "ef75ff5048ec0928",
+  "source": "CSS border color of in-place values. Empty draws no border.",
+  "text": "CSS-цвет рамки значений, заменяющих ключи на месте. Пустое значение означает отсутствие рамки.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CSS-цвет рамки значений, заменяющих ключи на месте. Пустое значение означает отсутствие рамки."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

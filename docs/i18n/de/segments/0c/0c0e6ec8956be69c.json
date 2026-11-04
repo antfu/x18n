@@ -1,0 +1,14 @@
+{
+  "hash": "0c0e6ec8956be69c",
+  "source": "Keys (globs) that count as used, for example keys built at runtime.",
+  "text": "Schlüssel (Globs), die als verwendet gelten, zum Beispiel zur Laufzeit zusammengesetzte Schlüssel.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schlüssel (Globs), die als verwendet gelten, zum Beispiel zur Laufzeit zusammengesetzte Schlüssel."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

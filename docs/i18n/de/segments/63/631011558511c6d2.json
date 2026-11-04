@@ -1,0 +1,14 @@
+{
+  "hash": "631011558511c6d2",
+  "source": "Returns the files that the migration from i18n-ally writes, as {0}. Nothing is written.",
+  "text": "Gibt die Dateien zurück, die die Migration von i18n-ally schreibt, als {0}. Es wird nichts geschrieben.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gibt die Dateien zurück, die die Migration von i18n-ally schreibt, als {0}. Es wird nichts geschrieben."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

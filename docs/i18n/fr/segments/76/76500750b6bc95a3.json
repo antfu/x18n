@@ -1,0 +1,14 @@
+{
+  "hash": "76500750b6bc95a3",
+  "source": "Rust: {0}cargo-i18n{/0} (Fluent)",
+  "text": "Rust : {0}cargo-i18n{/0} (Fluent)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Rust : {0}cargo-i18n{/0} (Fluent)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

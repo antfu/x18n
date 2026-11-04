@@ -1,0 +1,14 @@
+{
+  "hash": "c0a0f39beb2ba7ff",
+  "source": "The check takes options. Set them with the array form:",
+  "text": "Die Prüfung akzeptiert Optionen. Setze sie in der Array-Form:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Prüfung akzeptiert Optionen. Setze sie in der Array-Form:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

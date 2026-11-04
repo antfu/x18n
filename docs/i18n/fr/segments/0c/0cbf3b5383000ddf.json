@@ -1,0 +1,14 @@
+{
+  "hash": "0cbf3b5383000ddf",
+  "source": "Project name in a monorepo. Default: the directory name.",
+  "text": "Nom du projet dans un monorepo. Par défaut : le nom du répertoire.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nom du projet dans un monorepo. Par défaut : le nom du répertoire."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

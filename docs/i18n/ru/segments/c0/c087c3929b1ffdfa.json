@@ -1,0 +1,14 @@
+{
+  "hash": "c087c3929b1ffdfa",
+  "source": "Map the extension to a format id in the config: {0}.",
+  "text": "Сопоставьте расширение с id формата в конфигурации: {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сопоставьте расширение с id формата в конфигурации: {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

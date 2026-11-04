@@ -1,0 +1,14 @@
+{
+  "hash": "776cf0f29a41f655",
+  "source": "As in YAML, plus preset objects such as {0} from {1}. {2} and {3} entries are skipped.",
+  "text": "Как в YAML, плюс объекты пресетов, например {0} из {1}. Записи {2} и {3} пропускаются.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Как в YAML, плюс объекты пресетов, например {0} из {1}. Записи {2} и {3} пропускаются."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

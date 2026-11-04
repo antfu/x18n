@@ -1,0 +1,14 @@
+{
+  "hash": "5a452c1c7d62776c",
+  "source": "Only in these locales. Default: all.",
+  "text": "Только в этих локалях. По умолчанию: во всех.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только в этих локалях. По умолчанию: во всех."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

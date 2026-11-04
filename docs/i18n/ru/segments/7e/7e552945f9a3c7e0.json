@@ -1,0 +1,14 @@
+{
+  "hash": "7e552945f9a3c7e0",
+  "source": "x18n failed to load a plugin from {0} or {1}.",
+  "text": "x18n не удалось загрузить плагин из {0} или {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n не удалось загрузить плагин из {0} или {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

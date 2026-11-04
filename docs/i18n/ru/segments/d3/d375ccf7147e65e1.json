@@ -1,0 +1,14 @@
+{
+  "hash": "d375ccf7147e65e1",
+  "source": "At least one error, or more warnings than {0}.",
+  "text": "Есть хотя бы одна ошибка или предупреждений больше {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Есть хотя бы одна ошибка или предупреждений больше {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

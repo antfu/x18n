@@ -1,0 +1,14 @@
+{
+  "hash": "b7b36a2f8253faef",
+  "source": "Where the params passed to the message are. For factories, those of the returned functions.",
+  "text": "Где находятся параметры, передаваемые в сообщение. Для фабрик — параметры возвращаемых функций.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Где находятся параметры, передаваемые в сообщение. Для фабрик — параметры возвращаемых функций."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

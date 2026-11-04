@@ -1,0 +1,14 @@
+{
+  "hash": "5471e86a82522953",
+  "source": "easy\\_localization keeps plural and gender forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. For this file, {8} uses {9} and {10}, so the {11} check reports neither:",
+  "text": "easy\\_localization хранит формы plural и gender как вложенные ключи. Пресет добавляет производные ключи {0}, {1}, {2}, {3}, {4}, {5}, {6} и {7}. Для этого файла {8} использует {9} и {10}, поэтому проверка {11} не сообщает ни об одном из них:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "easy\\_localization хранит формы plural и gender как вложенные ключи. Пресет добавляет производные ключи {0}, {1}, {2}, {3}, {4}, {5}, {6} и {7}. Для этого файла {8} использует {9} и {10}, поэтому проверка {11} не сообщает ни об одном из них:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

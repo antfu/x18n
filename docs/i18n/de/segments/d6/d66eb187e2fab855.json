@@ -1,0 +1,14 @@
+{
+  "hash": "d66eb187e2fab855",
+  "source": "A usage is one place in source code that uses a key. In the example, {0} is a usage of {1}. A scanner finds usages. The built-in scanners read JS, TS, JSX, Vue, Svelte and Astro files. For other file types, such as PHP templates, add a regex scanner in {2}.",
+  "text": "Eine Verwendung ist eine Stelle im Quellcode, die einen Schlüssel verwendet. Im Beispiel ist {0} eine Verwendung von {1}. Ein Scanner findet Verwendungen. Die integrierten Scanner lesen JS-, TS-, JSX-, Vue-, Svelte- und Astro-Dateien. Für andere Dateitypen, zum Beispiel PHP-Templates, füge in {2} einen Regex-Scanner hinzu.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Verwendung ist eine Stelle im Quellcode, die einen Schlüssel verwendet. Im Beispiel ist {0} eine Verwendung von {1}. Ein Scanner findet Verwendungen. Die integrierten Scanner lesen JS-, TS-, JSX-, Vue-, Svelte- und Astro-Dateien. Für andere Dateitypen, zum Beispiel PHP-Templates, füge in {2} einen Regex-Scanner hinzu."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

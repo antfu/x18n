@@ -1,0 +1,14 @@
+{
+  "hash": "65ae947879365559",
+  "source": "The preset adds no placeholder syntax.",
+  "text": "Пресет не добавляет синтаксис плейсхолдеров.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет не добавляет синтаксис плейсхолдеров."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

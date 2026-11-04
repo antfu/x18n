@@ -1,0 +1,14 @@
+{
+  "hash": "af9d3793a7fe9dbc",
+  "source": "Only keys without usages in code.",
+  "text": "Nur Schlüssel ohne Verwendungen im Code.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur Schlüssel ohne Verwendungen im Code."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

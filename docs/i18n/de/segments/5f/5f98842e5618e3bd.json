@@ -1,0 +1,14 @@
+{
+  "hash": "5f98842e5618e3bd",
+  "source": "Continue from {0}",
+  "text": "Ab {0} fortsetzen",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ab {0} fortsetzen"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

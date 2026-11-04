@@ -1,0 +1,14 @@
+{
+  "hash": "6e28a0e0ef9e64e6",
+  "source": "Add support for a library, a file format or a check with a YAML plugin or a TypeScript plugin.",
+  "text": "Добавьте поддержку библиотеки, формата файлов или проверки с помощью YAML-плагина или TypeScript-плагина.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Добавьте поддержку библиотеки, формата файлов или проверки с помощью YAML-плагина или TypeScript-плагина."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "18ecbf123164044d",
+  "source": "Print a JSON Schema: config (default), plugin or reviews.",
+  "text": "Выводит JSON Schema: config (по умолчанию), plugin или reviews.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Выводит JSON Schema: config (по умолчанию), plugin или reviews."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c686a40da49280a8",
+  "source": "Sets many values from JSON: {0}. {1} reads stdin.",
+  "text": "Задаёт много значений из JSON: {0}. {1} читает stdin.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Задаёт много значений из JSON: {0}. {1} читает stdin."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

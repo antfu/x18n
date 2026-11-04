@@ -1,0 +1,14 @@
+{
+  "hash": "a0a65d068d4823eb",
+  "source": "Fix the problem that the message names. A merge conflict in the file is a common cause.",
+  "text": "Behebe das Problem, das die Meldung nennt. Eine häufige Ursache ist ein Merge-Konflikt in der Datei.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Behebe das Problem, das die Meldung nennt. Eine häufige Ursache ist ein Merge-Konflikt in der Datei."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

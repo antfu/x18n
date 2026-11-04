@@ -1,0 +1,14 @@
+{
+  "hash": "bd15c6763aeb936f",
+  "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
+  "text": "Simulation de {0} : par projet, les clés inutilisées qu'elle supprime avec un emplacement par message, les clés inutilisées qu'elle conserve car des clés calculées dans une portée peuvent les atteindre, et les avertissements.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Simulation de {0} : par projet, les clés inutilisées qu'elle supprime avec un emplacement par message, les clés inutilisées qu'elle conserve car des clés calculées dans une portée peuvent les atteindre, et les avertissements."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

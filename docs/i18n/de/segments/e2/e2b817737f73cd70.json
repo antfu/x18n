@@ -1,0 +1,14 @@
+{
+  "hash": "e2b817737f73cd70",
+  "source": "The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it.",
+  "text": "Der Text des hartcodierten Strings, wie er in der Datei steht, unverändert. Verwende ihn für Markup, das den Quelltext um sich herum beibehält.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Text des hartcodierten Strings, wie er in der Datei steht, unverändert. Verwende ihn für Markup, das den Quelltext um sich herum beibehält."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

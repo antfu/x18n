@@ -1,0 +1,14 @@
+{
+  "hash": "42cc4b53fc31c1a2",
+  "source": "Check the namespace. In a namespaced project the key is {0}, for example {1}.",
+  "text": "Проверьте пространство имён. В проекте с пространствами имён ключ имеет вид {0}, например {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверьте пространство имён. В проекте с пространствами имён ключ имеет вид {0}, например {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

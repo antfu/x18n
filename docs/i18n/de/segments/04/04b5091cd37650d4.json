@@ -1,0 +1,14 @@
+{
+  "hash": "04b5091cd37650d4",
+  "source": "A user-facing layer on the core: CLI, LSP, extension, UI, MCP.",
+  "text": "Eine nutzerseitige Schicht auf dem Core: CLI, LSP, Erweiterung, UI, MCP.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine nutzerseitige Schicht auf dem Core: CLI, LSP, Erweiterung, UI, MCP."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

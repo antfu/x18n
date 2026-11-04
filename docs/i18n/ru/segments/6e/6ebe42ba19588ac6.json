@@ -1,0 +1,14 @@
+{
+  "hash": "6ebe42ba19588ac6",
+  "source": "If a folder has {0} (or {1}) settings in {2} and no {3} file, the extension offers to migrate. It opens the files that it will write, and writes them only after you confirm. You can also run \"x18n: Migrate from i18n-ally\" from the command palette. See {4}Migration from i18n-ally{/4}.",
+  "text": "Если в папке есть настройки {0} (или {1}) в {2} и нет файла {3}, расширение предложит выполнить миграцию. Оно открывает файлы, которые будет записывать, и записывает их только после вашего подтверждения. Также вы можете запустить «x18n: Migrate from i18n-ally» из палитры команд. См. {4}Миграция с i18n-ally{/4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если в папке есть настройки {0} (или {1}) в {2} и нет файла {3}, расширение предложит выполнить миграцию. Оно открывает файлы, которые будет записывать, и записывает их только после вашего подтверждения. Также вы можете запустить «x18n: Migrate from i18n-ally» из палитры команд. См. {4}Миграция с i18n-ally{/4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "37ce74ecf424e18d",
+  "source": "Positional braces: {0}. Braces: {1}. Linked messages: {2} and {3}.",
+  "text": "Позиционные скобки: {0}. Скобки: {1}. Связанные сообщения: {2} и {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Позиционные скобки: {0}. Скобки: {1}. Связанные сообщения: {2} и {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

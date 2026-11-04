@@ -1,0 +1,14 @@
+{
+  "hash": "6f684e25d99b4216",
+  "source": "In TS and JS files, these names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. A call on {8} counts too:",
+  "text": "В файлах TS и JS вызовами translate считаются следующие имена: {0}, {1}, {2}, {3}, {4}, {5}, {6} и {7}. Вызов у {8} тоже учитывается:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В файлах TS и JS вызовами translate считаются следующие имена: {0}, {1}, {2}, {3}, {4}, {5}, {6} и {7}. Вызов у {8} тоже учитывается:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

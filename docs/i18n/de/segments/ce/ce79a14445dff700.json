@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "Der Server führt diese über {0} aus. Das Argument ist ein einzelnes Objekt. {1} ist standardmäßig das erste Projekt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Server führt diese über {0} aus. Das Argument ist ein einzelnes Objekt. {1} ist standardmäßig das erste Projekt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2b4a6e37dbfcbad2",
+  "source": "Each entry of {0} is a glob of directories, relative to the root config. Each matching directory is one project.",
+  "text": "Jeder Eintrag in {0} ist ein Glob von Verzeichnissen, relativ zur Root-Konfiguration. Jedes passende Verzeichnis ist ein Projekt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jeder Eintrag in {0} ist ein Glob von Verzeichnissen, relativ zur Root-Konfiguration. Jedes passende Verzeichnis ist ein Projekt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

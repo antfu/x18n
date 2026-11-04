@@ -1,0 +1,14 @@
+{
+  "hash": "02e20475da21766e",
+  "source": "In-place annotations",
+  "text": "Аннотации в тексте кода",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Аннотации в тексте кода"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c362b0d117f47fe4",
+  "source": "A value adds or drops a placeholder compared to the source value, so {0} wrote nothing. The JSON output lists the values in {1}.",
+  "text": "Ein Wert fügt im Vergleich zum Quellwert einen Platzhalter hinzu oder lässt einen weg, deshalb hat {0} nichts geschrieben. Die JSON-Ausgabe listet die Werte in {1} auf.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Wert fügt im Vergleich zum Quellwert einen Platzhalter hinzu oder lässt einen weg, deshalb hat {0} nichts geschrieben. Die JSON-Ausgabe listet die Werte in {1} auf."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

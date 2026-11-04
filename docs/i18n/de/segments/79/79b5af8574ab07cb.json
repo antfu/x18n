@@ -1,0 +1,14 @@
+{
+  "hash": "79b5af8574ab07cb",
+  "source": "X18N4004: Plan is stale",
+  "text": "X18N4004: Plan ist veraltet",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N4004: Plan ist veraltet"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

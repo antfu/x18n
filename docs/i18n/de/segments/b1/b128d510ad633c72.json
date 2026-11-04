@@ -1,0 +1,14 @@
+{
+  "hash": "b128d510ad633c72",
+  "source": "Format id for the matching files, for example {0} or {1}. Without it, the file extension picks the format.",
+  "text": "Format-ID für die passenden Dateien, zum Beispiel {0} oder {1}. Ohne Angabe bestimmt die Dateiendung das Format.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Format-ID für die passenden Dateien, zum Beispiel {0} oder {1}. Ohne Angabe bestimmt die Dateiendung das Format."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

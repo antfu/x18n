@@ -1,0 +1,14 @@
+{
+  "hash": "8ae7b9cbd51f3f50",
+  "source": "Deletes every unused key in every locale, except keys that computed keys in code may reach. {0} and the glob limit it.",
+  "text": "Удаляет все неиспользуемые ключи во всех локалях, кроме ключей, до которых могут дотянуться вычисляемые ключи в коде. {0} и glob-шаблон ограничивают удаление.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Удаляет все неиспользуемые ключи во всех локалях, кроме ключей, до которых могут дотянуться вычисляемые ключи в коде. {0} и glob-шаблон ограничивают удаление."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

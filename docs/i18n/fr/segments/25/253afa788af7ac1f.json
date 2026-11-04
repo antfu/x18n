@@ -1,0 +1,14 @@
+{
+  "hash": "253afa788af7ac1f",
+  "source": "Add the plugin after {0}:",
+  "text": "Ajoutez le plugin après {0} :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ajoutez le plugin après {0} :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

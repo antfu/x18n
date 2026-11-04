@@ -1,0 +1,14 @@
+{
+  "hash": "54a4f24f846960d0",
+  "source": "Run this command in the root of the project:",
+  "text": "Exécutez cette commande à la racine du projet :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exécutez cette commande à la racine du projet :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

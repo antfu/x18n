@@ -1,0 +1,14 @@
+{
+  "hash": "960e62ac747ead47",
+  "source": "If you list presets, x18n applies exactly the listed presets and detects none:",
+  "text": "Si vous listez des presets, x18n applique exactement les presets listés et n'en détecte aucun :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si vous listez des presets, x18n applique exactement les presets listés et n'en détecte aucun :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e6338180e2716954",
+  "source": "Print candidates and proposed keys",
+  "text": "Вывести кандидатов и предлагаемые ключи",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Вывести кандидатов и предлагаемые ключи"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

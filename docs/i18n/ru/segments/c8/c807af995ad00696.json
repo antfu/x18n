@@ -1,0 +1,14 @@
+{
+  "hash": "c807af995ad00696",
+  "source": "The engine is {0}. It does no file access itself and knows no editor. A surface is a layer that people or tools use on top of the engine:",
+  "text": "Движок — это {0}. Он сам не обращается к файлам и ничего не знает о редакторах. Интерфейс — это слой поверх движка, которым пользуются люди или инструменты:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Движок — это {0}. Он сам не обращается к файлам и ничего не знает о редакторах. Интерфейс — это слой поверх движка, которым пользуются люди или инструменты:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

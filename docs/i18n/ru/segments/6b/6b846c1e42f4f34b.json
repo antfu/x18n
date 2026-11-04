@@ -1,0 +1,14 @@
+{
+  "hash": "6b846c1e42f4f34b",
+  "source": "In a monorepo, pass {0} to each tool. {1} lists the project names.",
+  "text": "В monorepo передавайте {0} каждому инструменту. {1} выводит список имён проектов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В monorepo передавайте {0} каждому инструменту. {1} выводит список имён проектов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

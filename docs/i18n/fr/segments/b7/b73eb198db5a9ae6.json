@@ -1,0 +1,14 @@
+{
+  "hash": "b73eb198db5a9ae6",
+  "source": "parser (only for the read half)",
+  "text": "parser (uniquement pour la partie lecture)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "parser (uniquement pour la partie lecture)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

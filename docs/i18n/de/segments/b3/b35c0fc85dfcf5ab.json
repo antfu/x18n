@@ -1,0 +1,14 @@
+{
+  "hash": "b35c0fc85dfcf5ab",
+  "source": "A message in a locale with a fallback that equals the message it falls back to, so it can be removed.",
+  "text": "Eine message in einer Sprache mit Fallback, die dem message entspricht, auf das zurückgegriffen wird, und daher entfernt werden kann.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine message in einer Sprache mit Fallback, die dem message entspricht, auf das zurückgegriffen wird, und daher entfernt werden kann."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6e3491e4ca3eb6cc",
+  "source": "The {0}language server{/0} gives the same features to any editor with an LSP client.",
+  "text": "Le {0}serveur de langage{/0} offre les mêmes fonctionnalités à tout éditeur doté d'un client LSP.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le {0}serveur de langage{/0} offre les mêmes fonctionnalités à tout éditeur doté d'un client LSP."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

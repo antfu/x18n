@@ -1,0 +1,14 @@
+{
+  "hash": "afb01d96a5729234",
+  "source": "Do not use {0} on your computer. Anything that reaches the port can then edit your files. The option is for CI and end-to-end tests only, and the command prints a warning.",
+  "text": "Не используйте {0} на своём компьютере. Тогда любой, кто доберётся до порта, сможет редактировать ваши файлы. Эта опция предназначена только для CI и сквозных тестов, а команда выводит предупреждение.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Не используйте {0} на своём компьютере. Тогда любой, кто доберётся до порта, сможет редактировать ваши файлы. Эта опция предназначена только для CI и сквозных тестов, а команда выводит предупреждение."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

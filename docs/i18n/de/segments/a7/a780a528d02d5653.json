@@ -1,0 +1,14 @@
+{
+  "hash": "a780a528d02d5653",
+  "source": "Application Resource Bundle (JSON). The {0} of {1} describes {2}.",
+  "text": "Application Resource Bundle (JSON). Das {0} von {1} beschreibt {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Application Resource Bundle (JSON). Das {0} von {1} beschreibt {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

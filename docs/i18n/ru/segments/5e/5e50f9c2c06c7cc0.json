@@ -1,0 +1,14 @@
+{
+  "hash": "5e50f9c2c06c7cc0",
+  "source": "A {0}TypeScript plugin{/0} is an object with full access to the plugin API. Use it for a new file format, a new check, a reporter, or any rule that data cannot express.",
+  "text": "{0}TypeScript-плагин{/0} — это объект с полным доступом к API плагинов. Используйте его для нового формата файлов, новой проверки, репортера или любого правила, которое нельзя выразить данными.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}TypeScript-плагин{/0} — это объект с полным доступом к API плагинов. Используйте его для нового формата файлов, новой проверки, репортера или любого правила, которое нельзя выразить данными."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

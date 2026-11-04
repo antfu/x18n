@@ -1,0 +1,14 @@
+{
+  "hash": "7c424bd77d71bf0c",
+  "source": "Fixed namespace for every matching file.",
+  "text": "Espace de noms fixe pour chaque fichier correspondant.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Espace de noms fixe pour chaque fichier correspondant."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

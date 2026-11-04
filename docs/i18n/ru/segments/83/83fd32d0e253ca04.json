@@ -1,0 +1,14 @@
+{
+  "hash": "83fd32d0e253ca04",
+  "source": "The committed file of known diagnostics ({0}); {1} then reports only new ones.",
+  "text": "Закоммиченный файл с известными диагностиками ({0}); после этого {1} сообщает только о новых.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Закоммиченный файл с известными диагностиками ({0}); после этого {1} сообщает только о новых."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

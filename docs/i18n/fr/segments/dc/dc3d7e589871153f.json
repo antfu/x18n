@@ -1,0 +1,14 @@
+{
+  "hash": "dc3d7e589871153f",
+  "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
+  "text": "Chaque format intégré a {0}, et une modification ne change que les entrées qu'elle définit, ajoute ou supprime. Les commentaires, l'ordre des clés, les guillemets et l'indentation restent tels quels. Une nouvelle clé est placée après la dernière clé de son parent, dans le style du fichier. Une clé supprimée emporte avec elle le commentaire situé à la fin de sa ligne. Dans {1} et {2}, les commentaires au-dessus d'une entrée lui appartiennent et sont supprimés aussi. Seuls {3} et {4} réécrivent un fichier entier, ce qui supprime ses commentaires. Un format qui ne fait que lire rend ses ressources en lecture seule.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaque format intégré a {0}, et une modification ne change que les entrées qu'elle définit, ajoute ou supprime. Les commentaires, l'ordre des clés, les guillemets et l'indentation restent tels quels. Une nouvelle clé est placée après la dernière clé de son parent, dans le style du fichier. Une clé supprimée emporte avec elle le commentaire situé à la fin de sa ligne. Dans {1} et {2}, les commentaires au-dessus d'une entrée lui appartiennent et sont supprimés aussi. Seuls {3} et {4} réécrivent un fichier entier, ce qui supprime ses commentaires. Un format qui ne fait que lire rend ses ressources en lecture seule."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

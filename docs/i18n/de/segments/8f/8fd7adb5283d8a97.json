@@ -1,0 +1,14 @@
+{
+  "hash": "8fd7adb5283d8a97",
+  "source": "The best-matching locale, source first on ties.",
+  "text": "Die am besten passende Sprache, bei Gleichstand die Quellsprache zuerst.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die am besten passende Sprache, bei Gleichstand die Quellsprache zuerst."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

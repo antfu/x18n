@@ -1,0 +1,14 @@
+{
+  "hash": "7dbcfb95cd6bebca",
+  "source": "A message is the value of one key in one locale. {0} is the message of {1} in {2}. {3} is a placeholder. The {4} check makes sure that each translation keeps the placeholders of the source message.",
+  "text": "Eine Message ist der Wert eines Schlüssels in einer Sprache. {0} ist die Message von {1} in {2}. {3} ist ein Platzhalter. Die Prüfung {4} stellt sicher, dass jede Übersetzung die Platzhalter der Quell-Message beibehält.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Message ist der Wert eines Schlüssels in einer Sprache. {0} ist die Message von {1} in {2}. {3} ist ein Platzhalter. Die Prüfung {4} stellt sicher, dass jede Übersetzung die Platzhalter der Quell-Message beibehält."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

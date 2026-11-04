@@ -1,0 +1,14 @@
+{
+  "hash": "e736033781337027",
+  "source": "One level of the key tree, with translation counts.",
+  "text": "Un niveau de l'arborescence des clés, avec le nombre de traductions.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un niveau de l'arborescence des clés, avec le nombre de traductions."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

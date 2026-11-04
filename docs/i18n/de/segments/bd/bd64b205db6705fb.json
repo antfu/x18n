@@ -1,0 +1,14 @@
+{
+  "hash": "bd64b205db6705fb",
+  "source": "A region of source code with a default namespace or key prefix.",
+  "text": "Ein Bereich im Quellcode mit einem Standard-Namespace oder Schlüsselpräfix.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Bereich im Quellcode mit einem Standard-Namespace oder Schlüsselpräfix."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

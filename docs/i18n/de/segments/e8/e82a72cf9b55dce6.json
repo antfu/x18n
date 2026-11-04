@@ -1,0 +1,14 @@
+{
+  "hash": "e82a72cf9b55dce6",
+  "source": "Rules like {0}: when {1} is used the derived keys count as used. Rules apply repeatedly, so with {2} the key {3} derives from both {4} and {5}. {6} matches one key segment. {7} and {8} match a plural or ordinal category ({9}, {10}, {11}): each locale then needs the categories of its own language, and categories the language lacks are optional.",
+  "text": "Regeln wie {0}: Wenn {1} verwendet wird, gelten die abgeleiteten Schlüssel als verwendet. Regeln werden wiederholt angewendet, sodass sich bei {2} der Schlüssel {3} sowohl von {4} als auch von {5} ableitet. {6} passt auf ein Schlüsselsegment. {7} und {8} passen auf eine Plural- oder Ordinalkategorie ({9}, {10}, {11}): Jede Sprache benötigt dann die Kategorien ihrer eigenen Sprache, und Kategorien, die die Sprache nicht kennt, sind optional.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Regeln wie {0}: Wenn {1} verwendet wird, gelten die abgeleiteten Schlüssel als verwendet. Regeln werden wiederholt angewendet, sodass sich bei {2} der Schlüssel {3} sowohl von {4} als auch von {5} ableitet. {6} passt auf ein Schlüsselsegment. {7} und {8} passen auf eine Plural- oder Ordinalkategorie ({9}, {10}, {11}): Jede Sprache benötigt dann die Kategorien ihrer eigenen Sprache, und Kategorien, die die Sprache nicht kennt, sind optional."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "395a752ee20f2d8b",
+  "source": "{0} passes a {1} with the namespace and key prefix to its child function.",
+  "text": "{0} transmet un {1} avec l'espace de noms et le préfixe de clé à sa fonction enfant.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} transmet un {1} avec l'espace de noms et le préfixe de clé à sa fonction enfant."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

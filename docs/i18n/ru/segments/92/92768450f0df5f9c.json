@@ -1,0 +1,14 @@
+{
+  "hash": "92768450f0df5f9c",
+  "source": "Composite format items: {0}, {1}, {2}, {3} and {4}. {5} and {6} are literal braces, not placeholders.",
+  "text": "Элементы составного формата: {0}, {1}, {2}, {3} и {4}. {5} и {6} — это литеральные фигурные скобки, а не плейсхолдеры.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Элементы составного формата: {0}, {1}, {2}, {3} и {4}. {5} и {6} — это литеральные фигурные скобки, а не плейсхолдеры."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

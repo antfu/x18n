@@ -1,0 +1,14 @@
+{
+  "hash": "3c1a7be55b8a978a",
+  "source": "Add a resource pattern in {0} that covers the locale, for example {1}.",
+  "text": "Добавьте в {0} шаблон ресурса, охватывающий эту локаль, например {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Добавьте в {0} шаблон ресурса, охватывающий эту локаль, например {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

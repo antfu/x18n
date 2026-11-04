@@ -1,0 +1,14 @@
+{
+  "hash": "877537d3e6c5732b",
+  "source": "CSS border color of keys without a value. Empty draws no border.",
+  "text": "CSS-цвет рамки ключей без значения. Пустое значение означает отсутствие рамки.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CSS-цвет рамки ключей без значения. Пустое значение означает отсутствие рамки."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

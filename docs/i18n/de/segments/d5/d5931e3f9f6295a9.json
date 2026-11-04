@@ -1,0 +1,14 @@
+{
+  "hash": "d5931e3f9f6295a9",
+  "source": "{0} needs {1} to comment, approve, request a change or suggest; {2} needs {3} and {4} needs {5}.",
+  "text": "{0} benötigt {1}, um zu kommentieren, zu genehmigen, eine Änderung anzufordern oder etwas vorzuschlagen; {2} benötigt {3} und {4} benötigt {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} benötigt {1}, um zu kommentieren, zu genehmigen, eine Änderung anzufordern oder etwas vorzuschlagen; {2} benötigt {3} und {4} benötigt {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

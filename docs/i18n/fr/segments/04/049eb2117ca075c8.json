@@ -1,0 +1,14 @@
+{
+  "hash": "049eb2117ca075c8",
+  "source": "The {0} preset supports {1}svelte-i18next{/1}, the Svelte store for i18next.",
+  "text": "Le preset {0} prend en charge {1}svelte-i18next{/1}, le store Svelte pour i18next.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}svelte-i18next{/1}, le store Svelte pour i18next."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

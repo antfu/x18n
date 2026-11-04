@@ -1,0 +1,14 @@
+{
+  "hash": "20eb5dadfdbba814",
+  "source": "Longest slug, in characters. Default 40.",
+  "text": "Максимальная длина slug в символах. По умолчанию 40.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Максимальная длина slug в символах. По умолчанию 40."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

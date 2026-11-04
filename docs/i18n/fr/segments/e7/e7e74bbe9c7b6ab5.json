@@ -1,0 +1,14 @@
+{
+  "hash": "e7e74bbe9c7b6ab5",
+  "source": "For renames and deletes, run with {0} first and read the plan.",
+  "text": "Pour les renommages et les suppressions, lancez d'abord la commande avec {0} et lisez le plan.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Pour les renommages et les suppressions, lancez d'abord la commande avec {0} et lisez le plan."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

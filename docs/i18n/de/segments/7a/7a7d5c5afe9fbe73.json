@@ -1,0 +1,14 @@
+{
+  "hash": "7a7d5c5afe9fbe73",
+  "source": "The {0} preset supports {1}Globalize{/1}.",
+  "text": "Das {0}-Preset unterstützt {1}Globalize{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt {1}Globalize{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

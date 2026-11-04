@@ -1,0 +1,14 @@
+{
+  "hash": "77e0cda757954971",
+  "source": "Extracts every hard string of a file.",
+  "text": "Извлекает все захардкоженные строки файла.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Извлекает все захардкоженные строки файла."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "027397c95c0f2f49",
+  "source": "Path pattern with {0}, {1}, {2}, {3} and {4} tokens and globs.",
+  "text": "Pfadmuster mit den Tokens {0}, {1}, {2}, {3} und {4} sowie Globs.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Pfadmuster mit den Tokens {0}, {1}, {2}, {3} und {4} sowie Globs."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

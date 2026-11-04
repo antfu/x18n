@@ -1,0 +1,14 @@
+{
+  "hash": "e76811a372d274f3",
+  "source": "An XLIFF file with a target language, or with a {0}, is a translation file: x18n reads and writes its targets. A new target keeps the placeholder markup of its {1}, so {2}, {3} and {4} stay. JSON files hold their messages in {5}, and the {6} and {7} entries of ARB files are metadata. Keys are flat: the id {8} is one key.",
+  "text": "Eine XLIFF-Datei mit einer Zielsprache oder mit einem {0} ist eine Übersetzungsdatei: x18n liest und schreibt ihre Targets. Ein neues Target behält das Platzhalter-Markup seines {1}, sodass {2}, {3} und {4} erhalten bleiben. JSON-Dateien enthalten ihre Messages in {5}, und die Einträge {6} und {7} in ARB-Dateien sind Metadaten. Schlüssel sind flach: Die ID {8} ist ein einzelner Schlüssel.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine XLIFF-Datei mit einer Zielsprache oder mit einem {0} ist eine Übersetzungsdatei: x18n liest und schreibt ihre Targets. Ein neues Target behält das Platzhalter-Markup seines {1}, sodass {2}, {3} und {4} erhalten bleiben. JSON-Dateien enthalten ihre Messages in {5}, und die Einträge {6} und {7} in ARB-Dateien sind Metadaten. Schlüssel sind flach: Die ID {8} ist ein einzelner Schlüssel."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

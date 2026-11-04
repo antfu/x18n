@@ -1,0 +1,14 @@
+{
+  "hash": "c7b9957a5e40c263",
+  "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
+  "text": "Или задайте {0} в шаблоне ресурса. Тогда x18n запустит файл в Node, а сообщения станут доступны только для чтения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Или задайте {0} в шаблоне ресурса. Тогда x18n запустит файл в Node, а сообщения станут доступны только для чтения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

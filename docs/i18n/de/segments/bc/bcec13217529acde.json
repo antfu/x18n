@@ -1,0 +1,14 @@
+{
+  "hash": "bcec13217529acde",
+  "source": "A YAML plugin ({0}): the declarative subset of the plugin API.",
+  "text": "Ein YAML-plugin ({0}): die deklarative Teilmenge der plugin-API.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein YAML-plugin ({0}): die deklarative Teilmenge der plugin-API."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

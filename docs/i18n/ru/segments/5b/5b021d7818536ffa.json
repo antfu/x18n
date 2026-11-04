@@ -1,0 +1,14 @@
+{
+  "hash": "5b021d7818536ffa",
+  "source": "A key stays in the files after the code stops using it.",
+  "text": "Ключ остаётся в файлах после того, как код перестаёт его использовать.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ остаётся в файлах после того, как код перестаёт его использовать."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

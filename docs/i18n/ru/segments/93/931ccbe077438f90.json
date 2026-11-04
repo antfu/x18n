@@ -1,0 +1,14 @@
+{
+  "hash": "931ccbe077438f90",
+  "source": "In CI, fetch the full history: a shallow clone (the {0} default) reports nothing. Set {1}. Limit the walk with {2}, or turn history off with {3}. {4} adds stale translations to the prompt, with the source text from when they last changed.",
+  "text": "В CI загружайте полную историю: неполный клон (shallow clone, по умолчанию {0}) ничего не выявит. Задайте {1}. Ограничьте глубину обхода с помощью {2} или отключите историю с помощью {3}. {4} добавляет устаревшие переводы в промпт вместе с исходным текстом на момент их последнего изменения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В CI загружайте полную историю: неполный клон (shallow clone, по умолчанию {0}) ничего не выявит. Задайте {1}. Ограничьте глубину обхода с помощью {2} или отключите историю с помощью {3}. {4} добавляет устаревшие переводы в промпт вместе с исходным текстом на момент их последнего изменения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

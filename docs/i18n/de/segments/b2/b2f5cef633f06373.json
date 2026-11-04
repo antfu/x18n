@@ -1,0 +1,14 @@
+{
+  "hash": "b2f5cef633f06373",
+  "source": "Remove the i18n-ally settings that the command listed.",
+  "text": "Entferne die i18n-ally-Einstellungen, die der Befehl aufgelistet hat.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Entferne die i18n-ally-Einstellungen, die der Befehl aufgelistet hat."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

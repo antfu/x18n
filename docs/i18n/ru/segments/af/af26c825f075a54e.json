@@ -1,0 +1,14 @@
+{
+  "hash": "af26c825f075a54e",
+  "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
+  "text": "Комментируйте сообщения, одобряйте их, запрашивайте изменения и предлагайте значения в файле, который перемещается вместе с веткой.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Комментируйте сообщения, одобряйте их, запрашивайте изменения и предлагайте значения в файле, который перемещается вместе с веткой."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dac5bb00a65d4d1a",
+  "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
+  "text": "Показывать флаг каждой локали в представлениях, списках выбора, всплывающих подсказках и строке состояния.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Показывать флаг каждой локали в представлениях, списках выбора, всплывающих подсказках и строке состояния."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ba3c23f8d34fe408",
+  "source": "Re-write resources with the configured sort and indent.",
+  "text": "Перезапишите ресурсы с настроенными сортировкой и отступом.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Перезапишите ресурсы с настроенными сортировкой и отступом."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

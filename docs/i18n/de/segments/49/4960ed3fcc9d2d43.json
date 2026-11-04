@@ -1,0 +1,14 @@
+{
+  "hash": "4960ed3fcc9d2d43",
+  "source": "Rename a key (or every key under a parent) in all locales and usages.",
+  "text": "Benenne einen Schlüssel (oder jeden Schlüssel unter einem übergeordneten Schlüssel) in allen Sprachen und Verwendungen um.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Benenne einen Schlüssel (oder jeden Schlüssel unter einem übergeordneten Schlüssel) in allen Sprachen und Verwendungen um."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

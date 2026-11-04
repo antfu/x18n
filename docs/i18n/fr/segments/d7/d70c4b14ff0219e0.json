@@ -1,0 +1,14 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "Si une modification supprime ou ajoute un espace réservé par rapport à la valeur source, l'UI ne l'enregistre pas. Elle affiche le problème, et vous pouvez tout de même enregistrer la valeur.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si une modification supprime ou ajoute un espace réservé par rapport à la valeur source, l'UI ne l'enregistre pas. Elle affiche le problème, et vous pouvez tout de même enregistrer la valeur."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

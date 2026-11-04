@@ -1,0 +1,14 @@
+{
+  "hash": "86315199dc831455",
+  "source": "In a monorepo, {0} lists several projects. Pass {1} to commands that write files.",
+  "text": "В monorepo {0} выводит несколько проектов. Передавайте {1} командам, которые записывают файлы.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В monorepo {0} выводит несколько проектов. Передавайте {1} командам, которые записывают файлы."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

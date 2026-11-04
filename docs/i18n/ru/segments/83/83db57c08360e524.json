@@ -1,0 +1,14 @@
+{
+  "hash": "83db57c08360e524",
+  "source": "Use {0} as the project root. x18n does not look in parent directories.",
+  "text": "Использовать {0} как корень проекта. x18n не ищет в родительских каталогах.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Использовать {0} как корень проекта. x18n не ищет в родительских каталогах."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

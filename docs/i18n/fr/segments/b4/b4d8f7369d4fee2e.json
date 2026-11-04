@@ -1,0 +1,14 @@
+{
+  "hash": "b4d8f7369d4fee2e",
+  "source": "Delete a key (or every key under a parent) in all locales, or only in {0}. Code is not changed. Without {1} it returns the plan; call again with {2} to apply it.",
+  "text": "Supprime une clé (ou toutes les clés sous un parent) dans toutes les langues, ou seulement dans {0}. Le code n'est pas modifié. Sans {1}, elle renvoie le plan ; appelez de nouveau avec {2} pour l'appliquer.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Supprime une clé (ou toutes les clés sous un parent) dans toutes les langues, ou seulement dans {0}. Le code n'est pas modifié. Sans {1}, elle renvoie le plan ; appelez de nouveau avec {2} pour l'appliquer."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

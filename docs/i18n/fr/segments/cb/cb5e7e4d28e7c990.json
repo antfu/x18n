@@ -1,0 +1,14 @@
+{
+  "hash": "cb5e7e4d28e7c990",
+  "source": "locale file (fine in prose for users), dictionary",
+  "text": "fichier de langue (acceptable en prose pour les utilisateurs), dictionnaire",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "fichier de langue (acceptable en prose pour les utilisateurs), dictionnaire"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

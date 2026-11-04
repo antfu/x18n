@@ -1,0 +1,14 @@
+{
+  "hash": "61eff171a089f871",
+  "source": "Where the plugin can run. Default 'any'.",
+  "text": "Где может работать плагин. По умолчанию 'any'.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Где может работать плагин. По умолчанию 'any'."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "719a7f8eddad7f6d",
+  "source": "Everything that depends on an i18n library or a file format comes from plugins. The built-in {0}presets{/0} are plugins too. Write your own plugin when x18n does not know your library, your file format or your conventions.",
+  "text": "Всё, что зависит от i18n-библиотеки или формата файлов, приходит из плагинов. Встроенные {0}пресеты{/0} — тоже плагины. Напишите собственный плагин, если x18n не знает вашу библиотеку, формат файлов или ваши соглашения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Всё, что зависит от i18n-библиотеки или формата файлов, приходит из плагинов. Встроенные {0}пресеты{/0} — тоже плагины. Напишите собственный плагин, если x18n не знает вашу библиотеку, формат файлов или ваши соглашения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

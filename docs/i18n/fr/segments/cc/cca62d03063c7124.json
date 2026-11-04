@@ -1,0 +1,14 @@
+{
+  "hash": "cca62d03063c7124",
+  "source": "The {0} preset supports {1}react-intl{/1} and the FormatJS packages.",
+  "text": "Le preset {0} prend en charge {1}react-intl{/1} et les packages FormatJS.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}react-intl{/1} et les packages FormatJS."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

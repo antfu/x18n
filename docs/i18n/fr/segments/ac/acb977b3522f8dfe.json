@@ -1,0 +1,14 @@
+{
+  "hash": "acb977b3522f8dfe",
+  "source": "Renaming a parent node, which renames every key under it.",
+  "text": "Renommage d'un nœud parent, qui renomme toutes les clés situées en dessous.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renommage d'un nœud parent, qui renomme toutes les clés situées en dessous."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "32db58db3e3e2476",
+  "source": "x18n escapes {0} and {1} for the quotes around them. Inside {2} or {3} it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and {4}. Inside a quoted attribute, such as {5}, it also writes {6} and the attribute quote as entities. Outside quotes the value goes in as is.",
+  "text": "x18n экранирует {0} и {1} с учётом окружающих их кавычек. Внутри {2} или {3} он экранирует обратные косые черты, эту кавычку и переводы строк. Внутри шаблонного литерала он экранирует обратные косые черты, обратные кавычки и {4}. Внутри атрибута в кавычках, например {5}, он также записывает {6} и кавычку атрибута в виде сущностей. Вне кавычек значение подставляется как есть.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n экранирует {0} и {1} с учётом окружающих их кавычек. Внутри {2} или {3} он экранирует обратные косые черты, эту кавычку и переводы строк. Внутри шаблонного литерала он экранирует обратные косые черты, обратные кавычки и {4}. Внутри атрибута в кавычках, например {5}, он также записывает {6} и кавычку атрибута в виде сущностей. Вне кавычек значение подставляется как есть."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

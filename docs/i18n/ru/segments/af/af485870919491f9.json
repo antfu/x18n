@@ -1,0 +1,14 @@
+{
+  "hash": "af485870919491f9",
+  "source": "If it is a path, make sure that it is relative to the config file and that the file exists.",
+  "text": "Если это путь, убедитесь, что он указан относительно файла конфигурации и что файл существует.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если это путь, убедитесь, что он указан относительно файла конфигурации и что файл существует."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

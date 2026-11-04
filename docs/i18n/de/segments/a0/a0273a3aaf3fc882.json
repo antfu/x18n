@@ -1,0 +1,14 @@
+{
+  "hash": "a0273a3aaf3fc882",
+  "source": "Project name from {0}. Required only in a monorepo with several projects.",
+  "text": "Projektname aus {0}. Nur in einem Monorepo mit mehreren Projekten erforderlich.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Projektname aus {0}. Nur in einem Monorepo mit mehreren Projekten erforderlich."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

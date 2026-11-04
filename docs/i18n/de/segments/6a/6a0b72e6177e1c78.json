@@ -1,0 +1,14 @@
+{
+  "hash": "6a0b72e6177e1c78",
+  "source": "Show the values of these locales (comma separated) next to each message, in place of the {0}related locales{/0} of the target.",
+  "text": "Zeige die Werte dieser Sprachen (kommagetrennt) neben jeder message an, anstelle der {0}verwandten Sprachen{/0} der Zielsprache.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Zeige die Werte dieser Sprachen (kommagetrennt) neben jeder message an, anstelle der {0}verwandten Sprachen{/0} der Zielsprache."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

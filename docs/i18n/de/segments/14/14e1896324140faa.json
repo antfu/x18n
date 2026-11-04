@@ -1,0 +1,14 @@
+{
+  "hash": "14e1896324140faa",
+  "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
+  "text": "'call' (Standard): Der Schlüssel ist ein Argument. 'selector': Das Argument ist {0}. 'accessor': Member-Kette auf einem Root.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "'call' (Standard): Der Schlüssel ist ein Argument. 'selector': Das Argument ist {0}. 'accessor': Member-Kette auf einem Root."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

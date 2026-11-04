@@ -1,0 +1,14 @@
+{
+  "hash": "b9ba19f738620182",
+  "source": "PHP files that return an array literal",
+  "text": "PHP-файлы, возвращающие литерал массива",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP-файлы, возвращающие литерал массива"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

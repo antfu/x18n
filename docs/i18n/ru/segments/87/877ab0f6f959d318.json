@@ -1,0 +1,14 @@
+{
+  "hash": "877ab0f6f959d318",
+  "source": "The command exits with code 1 when it finds errors. Warnings do not fail it. See {0}Checks{/0} for every check.",
+  "text": "Если команда находит ошибки, она завершается с кодом 1. Предупреждения не приводят к сбою. Все проверки описаны в разделе {0}Проверки{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если команда находит ошибки, она завершается с кодом 1. Предупреждения не приводят к сбою. Все проверки описаны в разделе {0}Проверки{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

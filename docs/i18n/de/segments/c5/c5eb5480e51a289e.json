@@ -1,0 +1,14 @@
+{
+  "hash": "c5eb5480e51a289e",
+  "source": "The preset applies when the {0} has {1}.",
+  "text": "Das Preset greift, wenn {0} {1} enthält.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset greift, wenn {0} {1} enthält."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

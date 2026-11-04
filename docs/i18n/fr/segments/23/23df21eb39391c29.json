@@ -1,0 +1,14 @@
+{
+  "hash": "23df21eb39391c29",
+  "source": "Single values ({0}, {1}, {2}, {3}) replace the earlier value.",
+  "text": "Les valeurs simples ({0}, {1}, {2}, {3}) remplacent la valeur précédente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les valeurs simples ({0}, {1}, {2}, {3}) remplacent la valeur précédente."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

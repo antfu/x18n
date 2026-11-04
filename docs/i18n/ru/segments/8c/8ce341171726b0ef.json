@@ -1,0 +1,14 @@
+{
+  "hash": "8ce341171726b0ef",
+  "source": "Reuse a key when the same text exists as a source value. Default true.",
+  "text": "Переиспользовать ключ, если такой же текст уже есть среди значений исходной локали. По умолчанию true.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Переиспользовать ключ, если такой же текст уже есть среди значений исходной локали. По умолчанию true."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

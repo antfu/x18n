@@ -1,0 +1,14 @@
+{
+  "hash": "17af468a0e7e2bec",
+  "source": "The host to bind to. The default is {0}.",
+  "text": "Хост, к которому нужно привязаться. По умолчанию {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Хост, к которому нужно привязаться. По умолчанию {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

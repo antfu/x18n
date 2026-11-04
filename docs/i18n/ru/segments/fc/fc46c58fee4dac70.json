@@ -1,0 +1,14 @@
+{
+  "hash": "fc46c58fee4dac70",
+  "source": "Prompts ask for results in the shape that {0} reads:",
+  "text": "Промпты просят вернуть результаты в виде, который читает {0}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Промпты просят вернуть результаты в виде, который читает {0}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

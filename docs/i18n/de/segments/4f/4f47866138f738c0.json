@@ -1,0 +1,14 @@
+{
+  "hash": "4f47866138f738c0",
+  "source": "Run the check in CI",
+  "text": "Die Prüfung in der CI ausführen",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Prüfung in der CI ausführen"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

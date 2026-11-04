@@ -1,0 +1,14 @@
+{
+  "hash": "d11a29e638aa8b01",
+  "source": "In HTML templates, the preset reads the {0} pipe and the {1} directive:",
+  "text": "In HTML-Templates liest das Preset die {0}-Pipe und die {1}-Direktive:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In HTML-Templates liest das Preset die {0}-Pipe und die {1}-Direktive:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

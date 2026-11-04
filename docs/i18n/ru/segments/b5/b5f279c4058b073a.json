@@ -1,0 +1,14 @@
+{
+  "hash": "b5f279c4058b073a",
+  "source": "The input of an edit has the wrong shape.",
+  "text": "Входные данные для edit имеют неверную структуру.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Входные данные для edit имеют неверную структуру."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "37a6226503716496",
+  "source": "If your config has no {0}, the preset uses these patterns:",
+  "text": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset diese Muster:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset diese Muster:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "29f1f21e1f0aaba1",
+  "source": "With {0}, every key is literal: {1}, {2} and {3} are each one key, a new key is one property of the file, and no key is the parent of another. A resource pattern can set its own {4}, for example {5} on {6} while PHP files keep {7}. The {8}, {9}, {10} and {11} presets set literal keys where their libraries use them.",
+  "text": "С {0} каждый ключ считается буквальным: {1}, {2} и {3} — это по одному ключу, новый ключ — одно свойство файла, и ни один ключ не является родителем другого. Шаблон ресурса может задать собственный {4}, например {5} для {6}, пока PHP-файлы сохраняют {7}. Пресеты {8}, {9}, {10} и {11} задают буквальные ключи там, где их библиотеки их используют.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "С {0} каждый ключ считается буквальным: {1}, {2} и {3} — это по одному ключу, новый ключ — одно свойство файла, и ни один ключ не является родителем другого. Шаблон ресурса может задать собственный {4}, например {5} для {6}, пока PHP-файлы сохраняют {7}. Пресеты {8}, {9}, {10} и {11} задают буквальные ключи там, где их библиотеки их используют."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

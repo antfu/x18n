@@ -1,0 +1,14 @@
+{
+  "hash": "2e0cf876f668a02f",
+  "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
+  "text": "Ein Hover über einem Schlüssel zeigt seinen Wert in jeder Sprache und die Anzahl der Verwendungen, mit Links, um den Schlüssel in der UI zu öffnen, einen Übersetzungs-Prompt zu kopieren und ihn mit einem agent zu übersetzen. Die Diagnosen entsprechen denen von {0}. Quick Fixes stammen aus den Prüfungen, zum Beispiel „Add the key to the source locale“ oder „Copy the source value“. Code Actions können außerdem einen hartcodierten String extrahieren, jeden hartcodierten String der Datei extrahieren oder einen Ignore-Kommentar für einen String hinzufügen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Hover über einem Schlüssel zeigt seinen Wert in jeder Sprache und die Anzahl der Verwendungen, mit Links, um den Schlüssel in der UI zu öffnen, einen Übersetzungs-Prompt zu kopieren und ihn mit einem agent zu übersetzen. Die Diagnosen entsprechen denen von {0}. Quick Fixes stammen aus den Prüfungen, zum Beispiel „Add the key to the source locale“ oder „Copy the source value“. Code Actions können außerdem einen hartcodierten String extrahieren, jeden hartcodierten String der Datei extrahieren oder einen Ignore-Kommentar für einen String hinzufügen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

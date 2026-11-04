@@ -1,0 +1,14 @@
+{
+  "hash": "6f41cf8771b14253",
+  "source": "Make sure that the module exports a plugin, a preset, or a function that returns one.",
+  "text": "Stelle sicher, dass das Modul ein Plugin, ein Preset oder eine Funktion exportiert, die eines davon zurückgibt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stelle sicher, dass das Modul ein Plugin, ein Preset oder eine Funktion exportiert, die eines davon zurückgibt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

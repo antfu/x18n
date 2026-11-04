@@ -1,0 +1,14 @@
+{
+  "hash": "d055a80801a4c1e3",
+  "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
+  "text": "{0} отклоняет значения, плейсхолдеры которых отличаются от плейсхолдеров исходного значения, и ничего не записывает. Команда перечисляет отклонённые значения и завершается с кодом 1. Исправьте их или передайте {1}, чтобы всё равно записать их.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} отклоняет значения, плейсхолдеры которых отличаются от плейсхолдеров исходного значения, и ничего не записывает. Команда перечисляет отклонённые значения и завершается с кодом 1. Исправьте их или передайте {1}, чтобы всё равно записать их."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "20e88b64c923c417",
+  "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
+  "text": "Сводка, таблица покрытия по каждой локали и таблица диагностик. Для комментариев к pull request и сводок заданий.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сводка, таблица покрытия по каждой локали и таблица диагностик. Для комментариев к pull request и сводок заданий."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

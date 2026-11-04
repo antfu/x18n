@@ -1,0 +1,14 @@
+{
+  "hash": "58d393b7395fa91c",
+  "source": "{0} (default), {1} for {2}, or {3} for a member chain on a root.",
+  "text": "{0} (Standard), {1} für {2} oder {3} für eine Member-Kette auf einem Root.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} (Standard), {1} für {2} oder {3} für eine Member-Kette auf einem Root."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "62c20621e3b14af9",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4} and {5}. {6} returns {7}, {8}, {9} and {10}.",
+  "text": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2}, {3}, {4} et {5}. {6} renvoie {7}, {8}, {9} et {10}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2}, {3}, {4} et {5}. {6} renvoie {7}, {8}, {9} et {10}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "Wenn die Einstellungen Regex-Scanner, Scopes, Refactor-Vorlagen, Sprach-Flags oder ein eigenes Framework enthalten. Die Konfiguration listet es in {0} auf.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn die Einstellungen Regex-Scanner, Scopes, Refactor-Vorlagen, Sprach-Flags oder ein eigenes Framework enthalten. Die Konfiguration listet es in {0} auf."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

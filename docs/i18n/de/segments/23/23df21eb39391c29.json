@@ -1,0 +1,14 @@
+{
+  "hash": "23df21eb39391c29",
+  "source": "Single values ({0}, {1}, {2}, {3}) replace the earlier value.",
+  "text": "Einzelwerte ({0}, {1}, {2}, {3}) ersetzen den früheren Wert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Einzelwerte ({0}, {1}, {2}, {3}) ersetzen den früheren Wert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

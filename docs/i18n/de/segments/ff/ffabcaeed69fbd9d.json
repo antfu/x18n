@@ -1,0 +1,14 @@
+{
+  "hash": "ffabcaeed69fbd9d",
+  "source": "{0}Exit codes{/0} lists the codes of every command.",
+  "text": "{0}Exit-Codes{/0} listet die Codes jedes Befehls auf.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Exit-Codes{/0} listet die Codes jedes Befehls auf."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "48efc3915f53af9a",
+  "source": "A target value that equals the source value, except values that stay the same in every language.",
+  "text": "Ein Zielwert, der dem Quellwert entspricht, außer bei Werten, die in allen Sprachen gleich bleiben.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Zielwert, der dem Quellwert entspricht, außer bei Werten, die in allen Sprachen gleich bleiben."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

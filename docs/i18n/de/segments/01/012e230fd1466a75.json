@@ -1,0 +1,14 @@
+{
+  "hash": "012e230fd1466a75",
+  "source": "Project root (default: nearest config upward from the cwd)",
+  "text": "Projektstamm (Standard: nächstgelegene Konfiguration aufwärts vom aktuellen Arbeitsverzeichnis)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Projektstamm (Standard: nächstgelegene Konfiguration aufwärts vom aktuellen Arbeitsverzeichnis)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

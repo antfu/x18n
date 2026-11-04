@@ -1,0 +1,14 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "Когда в настройках есть regex-сканеры, области (scopes), шаблоны рефакторинга, флаги локалей или пользовательский фреймворк. Конфигурация перечисляет их в {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Когда в настройках есть regex-сканеры, области (scopes), шаблоны рефакторинга, флаги локалей или пользовательский фреймворк. Конфигурация перечисляет их в {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

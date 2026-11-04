@@ -1,0 +1,14 @@
+{
+  "hash": "f1407b709ed30fdb",
+  "source": "Keep every placeholder of the source value, with the same name, for example {0} or {1}.",
+  "text": "Behalte jeden Platzhalter des Quellwerts mit demselben Namen bei, zum Beispiel {0} oder {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Behalte jeden Platzhalter des Quellwerts mit demselben Namen bei, zum Beispiel {0} oder {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

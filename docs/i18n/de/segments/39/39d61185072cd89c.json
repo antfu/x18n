@@ -1,0 +1,14 @@
+{
+  "hash": "39d61185072cd89c",
+  "source": "{0} produce diagnostics. A check has an {1}, a {2} and a {3} generator. {4} gives the keys, messages, usages, coverage, unused keys, placeholders, hard strings and file texts. It also gives {5}, the options from {6} in the config. See the {7}example{/7}.",
+  "text": "{0} erzeugen Diagnosen. Eine Prüfung hat eine {1}, eine {2} und einen {3}-Generator. {4} liefert die Schlüssel, Messages, Verwendungen, Abdeckung, ungenutzten Schlüssel, Platzhalter, hartcodierten Strings und Dateitexte. Außerdem liefert es {5}, die Optionen aus {6} in der Konfiguration. Siehe das {7}Beispiel{/7}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} erzeugen Diagnosen. Eine Prüfung hat eine {1}, eine {2} und einen {3}-Generator. {4} liefert die Schlüssel, Messages, Verwendungen, Abdeckung, ungenutzten Schlüssel, Platzhalter, hartcodierten Strings und Dateitexte. Außerdem liefert es {5}, die Optionen aus {6} in der Konfiguration. Siehe das {7}Beispiel{/7}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

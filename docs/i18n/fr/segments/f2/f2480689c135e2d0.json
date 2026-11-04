@@ -1,0 +1,14 @@
+{
+  "hash": "f2480689c135e2d0",
+  "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
+  "text": "Les valeurs plus longues que {0} sont tronquées. En mode sur place, une telle valeur s'affiche sous forme d'indice après la clé.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les valeurs plus longues que {0} sont tronquées. En mode sur place, une telle valeur s'affiche sous forme d'indice après la clé."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

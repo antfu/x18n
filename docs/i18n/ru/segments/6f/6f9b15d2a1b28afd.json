@@ -1,0 +1,14 @@
+{
+  "hash": "6f9b15d2a1b28afd",
+  "source": "{0} and {1} are repeatable. The first {2} belongs to the first {3}, the second to the second, and so on. A reporter without an {4} prints to stdout:",
+  "text": "{0} и {1} можно повторять. Первый {2} относится к первому {3}, второй — ко второму и так далее. Репортер без {4} выводит результат в stdout:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} и {1} можно повторять. Первый {2} относится к первому {3}, второй — ко второму и так далее. Репортер без {4} выводит результат в stdout:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

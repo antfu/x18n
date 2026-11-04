@@ -1,0 +1,14 @@
+{
+  "hash": "a816d45fac3b9063",
+  "source": "Deletes every unused key that no computed key may reach.",
+  "text": "Удаляет все неиспользуемые ключи, до которых не может дотянуться ни один вычисляемый ключ.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Удаляет все неиспользуемые ключи, до которых не может дотянуться ни один вычисляемый ключ."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

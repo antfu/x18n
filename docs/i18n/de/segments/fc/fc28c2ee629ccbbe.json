@@ -1,0 +1,14 @@
+{
+  "hash": "fc28c2ee629ccbbe",
+  "source": "Only unused keys matching this glob: {0} inside a segment, {1} across segments.",
+  "text": "Nur ungenutzte Schlüssel, die zu diesem Glob passen: {0} innerhalb eines Segments, {1} über Segmente hinweg.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur ungenutzte Schlüssel, die zu diesem Glob passen: {0} innerhalb eines Segments, {1} über Segmente hinweg."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

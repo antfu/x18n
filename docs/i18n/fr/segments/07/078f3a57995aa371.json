@@ -1,0 +1,14 @@
+{
+  "hash": "078f3a57995aa371",
+  "source": "If the file is not a locale file, change {0} so that its pattern does not match the file.",
+  "text": "Si le fichier n'est pas un fichier de langue, modifiez {0} pour que son motif ne corresponde pas au fichier.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si le fichier n'est pas un fichier de langue, modifiez {0} pour que son motif ne corresponde pas au fichier."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

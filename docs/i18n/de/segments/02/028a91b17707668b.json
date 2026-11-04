@@ -1,0 +1,14 @@
+{
+  "hash": "028a91b17707668b",
+  "source": "The {0} preset supports {1}ngx-translate{/1} in Angular projects.",
+  "text": "Das {0}-Preset unterstützt {1}ngx-translate{/1} in Angular-Projekten.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt {1}ngx-translate{/1} in Angular-Projekten."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d13070a3326010db",
+  "source": "Locales show with their flag in the views, the locale pickers, hovers and the status bar. Set {0} to {1} to hide the flags.",
+  "text": "Локали отображаются с флагом в представлениях, средствах выбора локали, подсказках при наведении и строке состояния. Установите {0} в {1}, чтобы скрыть флаги.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Локали отображаются с флагом в представлениях, средствах выбора локали, подсказках при наведении и строке состояния. Установите {0} в {1}, чтобы скрыть флаги."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

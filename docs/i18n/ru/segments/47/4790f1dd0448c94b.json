@@ -1,0 +1,14 @@
+{
+  "hash": "4790f1dd0448c94b",
+  "source": "x18n knows no i18n library and no file format by itself. Plugins add that knowledge. A preset is a group of plugins for one library. x18n detects the presets from the dependencies of the project:",
+  "text": "x18n сам по себе не знает ни библиотек i18n, ни форматов файлов. Эти знания добавляют плагины. Пресет — это группа плагинов для одной библиотеки. x18n определяет пресеты по зависимостям проекта:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n сам по себе не знает ни библиотек i18n, ни форматов файлов. Эти знания добавляют плагины. Пресет — это группа плагинов для одной библиотеки. x18n определяет пресеты по зависимостям проекта:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

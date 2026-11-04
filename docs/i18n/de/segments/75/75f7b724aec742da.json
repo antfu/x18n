@@ -1,0 +1,14 @@
+{
+  "hash": "75f7b724aec742da",
+  "source": "True when an existing key with the same source value is reused.",
+  "text": "True, wenn ein vorhandener Schlüssel mit demselben Quellwert wiederverwendet wird.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "True, wenn ein vorhandener Schlüssel mit demselben Quellwert wiederverwendet wird."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

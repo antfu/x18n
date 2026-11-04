@@ -1,0 +1,14 @@
+{
+  "hash": "60a97972768ad397",
+  "source": "A target value equal to the source value is often an untranslated copy. The check skips:",
+  "text": "Значение в целевой локали, равное исходному, часто оказывается непереведённой копией. Проверка пропускает:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Значение в целевой локали, равное исходному, часто оказывается непереведённой копией. Проверка пропускает:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

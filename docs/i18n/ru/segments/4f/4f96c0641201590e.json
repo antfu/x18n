@@ -1,0 +1,14 @@
+{
+  "hash": "4f96c0641201590e",
+  "source": "Keep the term as it is in every locale.",
+  "text": "Оставлять термин без изменений в каждой локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Оставлять термин без изменений в каждой локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

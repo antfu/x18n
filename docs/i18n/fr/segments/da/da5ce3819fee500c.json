@@ -1,0 +1,14 @@
+{
+  "hash": "da5ce3819fee500c",
+  "source": "Turns raw key text into canonical form. The first plugin that returns a value wins.",
+  "text": "Convertit le texte brut d'une clé en forme canonique. Le premier plugin qui renvoie une valeur l'emporte.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Convertit le texte brut d'une clé en forme canonique. Le premier plugin qui renvoie une valeur l'emporte."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

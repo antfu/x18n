@@ -1,0 +1,14 @@
+{
+  "hash": "84effc913ae1b02b",
+  "source": "Rename the id in your own plugin.",
+  "text": "Переименуйте id в своём плагине.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Переименуйте id в своём плагине."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

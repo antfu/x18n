@@ -1,0 +1,14 @@
+{
+  "hash": "842fe490863f8360",
+  "source": "A fully dynamic usage, such as {0}, has no static part. No check can follow it. The {1} check, off by default, lists such usages. To mark keys as used that only code at runtime builds, add globs to {2}. Or mark them in the code with a comment. {3} before a string marks that string as a key. {4} before an expression, such as an array, marks every string in it:",
+  "text": "Eine vollständig dynamische Verwendung, wie {0}, hat keinen statischen Teil. Keine Prüfung kann ihr folgen. Die Prüfung {1}, standardmäßig deaktiviert, listet solche Verwendungen auf. Um Schlüssel als verwendet zu markieren, die nur Code zur Laufzeit erzeugt, füge Globs zu {2} hinzu. Oder markiere sie im Code mit einem Kommentar. {3} vor einem String markiert diesen String als Schlüssel. {4} vor einem Ausdruck, etwa einem Array, markiert jeden String darin:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine vollständig dynamische Verwendung, wie {0}, hat keinen statischen Teil. Keine Prüfung kann ihr folgen. Die Prüfung {1}, standardmäßig deaktiviert, listet solche Verwendungen auf. Um Schlüssel als verwendet zu markieren, die nur Code zur Laufzeit erzeugt, füge Globs zu {2} hinzu. Oder markiere sie im Code mit einem Kommentar. {3} vor einem String markiert diesen String als Schlüssel. {4} vor einem Ausdruck, etwa einem Array, markiert jeden String darin:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

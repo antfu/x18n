@@ -1,0 +1,14 @@
+{
+  "hash": "596a1207b1516ffc",
+  "source": "A YAML plugin is a data file that holds the declarative part of the plugin API. Name it {0}, and list its path in {1}:",
+  "text": "YAML-плагин — это файл с данными, который содержит декларативную часть API плагинов. Назовите его {0} и укажите путь к нему в {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML-плагин — это файл с данными, который содержит декларативную часть API плагинов. Назовите его {0} и укажите путь к нему в {1}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

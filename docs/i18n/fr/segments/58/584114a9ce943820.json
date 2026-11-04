@@ -1,0 +1,14 @@
+{
+  "hash": "584114a9ce943820",
+  "source": "The skill tells the agent:",
+  "text": "Le skill indique à l'agent :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le skill indique à l'agent :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

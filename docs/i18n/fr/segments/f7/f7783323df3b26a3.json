@@ -1,0 +1,14 @@
+{
+  "hash": "f7783323df3b26a3",
+  "source": "The {0} format reads a file that returns an array literal, and writes edits back into the array. The path of a PHP file is the first part of its keys:",
+  "text": "Le format {0} lit un fichier qui renvoie un tableau littéral et réécrit les modifications dans le tableau. Le chemin d'un fichier PHP constitue la première partie de ses clés :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le format {0} lit un fichier qui renvoie un tableau littéral et réécrit les modifications dans le tableau. Le chemin d'un fichier PHP constitue la première partie de ses clés :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

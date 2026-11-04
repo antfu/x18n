@@ -1,0 +1,14 @@
+{
+  "hash": "ef8de96816619439",
+  "source": "Rules such as {0}. When a key is used, the keys that a rule derives from it count as used too. A {1} matches any text: {2}.",
+  "text": "Правила вида {0}. Когда ключ используется, ключи, которые правило из него выводит, тоже считаются используемыми. {1} соответствует любому тексту: {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Правила вида {0}. Когда ключ используется, ключи, которые правило из него выводит, тоже считаются используемыми. {1} соответствует любому тексту: {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

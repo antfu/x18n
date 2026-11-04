@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "Сервер выполняет их через {0}. Аргумент — один объект. {1} по умолчанию указывает на первый проект.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сервер выполняет их через {0}. Аргумент — один объект. {1} по умолчанию указывает на первый проект."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

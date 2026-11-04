@@ -1,0 +1,14 @@
+{
+  "hash": "7f465354b6415aaf",
+  "source": "A review command ran, but the project cannot write reviews. The message says why:",
+  "text": "Une commande de relecture a été exécutée, mais le projet ne peut pas écrire de relectures. Le message indique pourquoi :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une commande de relecture a été exécutée, mais le projet ne peut pas écrire de relectures. Le message indique pourquoi :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

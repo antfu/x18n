@@ -1,0 +1,14 @@
+{
+  "hash": "4781ad1ac1930ea2",
+  "source": "{0} applies only reviews of type {1} that are not resolved yet.",
+  "text": "{0} применяет только ревью типа {1}, которые ещё не разрешены.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} применяет только ревью типа {1}, которые ещё не разрешены."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

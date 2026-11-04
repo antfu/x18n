@@ -1,0 +1,14 @@
+{
+  "hash": "6f2712d68c19b806",
+  "source": "Print the JSON contract instead of human output",
+  "text": "Gib den JSON-Vertrag statt der menschenlesbaren Ausgabe aus",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gib den JSON-Vertrag statt der menschenlesbaren Ausgabe aus"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

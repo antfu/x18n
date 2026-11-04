@@ -1,0 +1,14 @@
+{
+  "hash": "7f465354b6415aaf",
+  "source": "A review command ran, but the project cannot write reviews. The message says why:",
+  "text": "Ein Review-Befehl wurde ausgeführt, aber das Projekt kann keine Reviews schreiben. Die Meldung nennt den Grund:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Review-Befehl wurde ausgeführt, aber das Projekt kann keine Reviews schreiben. Die Meldung nennt den Grund:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

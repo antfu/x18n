@@ -1,0 +1,14 @@
+{
+  "hash": "a86625ca1bc7c3d0",
+  "source": "Finds usages in source files.",
+  "text": "Находит использования в исходных файлах.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Находит использования в исходных файлах."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

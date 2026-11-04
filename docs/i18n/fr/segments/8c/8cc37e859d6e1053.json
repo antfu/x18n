@@ -1,0 +1,14 @@
+{
+  "hash": "8cc37e859d6e1053",
+  "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
+  "text": "Le message comme corps d'une chaîne de modèle, chaque argument s'écrivant {0}, comme {1} l'écrit.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le message comme corps d'une chaîne de modèle, chaque argument s'écrivant {0}, comme {1} l'écrit."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

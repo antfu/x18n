@@ -1,0 +1,14 @@
+{
+  "hash": "a419452cab2ab4dd",
+  "source": "A YAML plugin file does not match the plugin schema. The message names the file, the field and the problem.",
+  "text": "Eine YAML-plugin-Datei entspricht nicht dem plugin-Schema. Die message nennt die Datei, das Feld und das Problem.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine YAML-plugin-Datei entspricht nicht dem plugin-Schema. Die message nennt die Datei, das Feld und das Problem."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

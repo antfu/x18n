@@ -1,0 +1,14 @@
+{
+  "hash": "cf604915f4f6cc48",
+  "source": "locales of the source locale's language ({0} and {1} against {2}),",
+  "text": "локали того же языка, что и исходная локаль ({0} и {1} при {2}),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "локали того же языка, что и исходная локаль ({0} и {1} при {2}),"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

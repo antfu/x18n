@@ -1,0 +1,14 @@
+{
+  "hash": "496af0bda49f6b41",
+  "source": "The preset for @fluent/react. It reads Fluent .ftl files, <Localized> elements and getString calls.",
+  "text": "Das Preset für @fluent/react. Es liest Fluent-.ftl-Dateien, <Localized>-Elemente und getString-Aufrufe.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset für @fluent/react. Es liest Fluent-.ftl-Dateien, <Localized>-Elemente und getString-Aufrufe."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2e7f9c109dde1981",
+  "source": "When more messages remain, the prompt says how many, and gives the command for the next batch with {0}.",
+  "text": "Wenn weitere messages übrig bleiben, nennt der Prompt ihre Anzahl und gibt mit {0} den Befehl für den nächsten Stapel an.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn weitere messages übrig bleiben, nennt der Prompt ihre Anzahl und gibt mit {0} den Befehl für den nächsten Stapel an."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

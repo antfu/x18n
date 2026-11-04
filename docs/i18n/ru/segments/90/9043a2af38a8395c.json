@@ -1,0 +1,14 @@
+{
+  "hash": "9043a2af38a8395c",
+  "source": "The built-in finders are {0} (the {1} patterns), {2} (Vue {3} blocks), {4} (fluent-vue {5} blocks) and {6} (VS Code {7}).",
+  "text": "Встроенные средства поиска: {0} (шаблоны {1}), {2} (блоки Vue {3}), {4} (блоки fluent-vue {5}) и {6} (VS Code {7}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Встроенные средства поиска: {0} (шаблоны {1}), {2} (блоки Vue {3}), {4} (блоки fluent-vue {5}) и {6} (VS Code {7})."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

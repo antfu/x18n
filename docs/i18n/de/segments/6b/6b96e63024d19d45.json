@@ -1,0 +1,14 @@
+{
+  "hash": "6b96e63024d19d45",
+  "source": "The {0} preset supports {1}i18nice{/1} and {2}python-i18n{/2}, the library that i18nice forked.",
+  "text": "Das {0}-Preset unterstützt {1}i18nice{/1} und {2}python-i18n{/2}, die Bibliothek, von der i18nice abgespalten wurde.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt {1}i18nice{/1} und {2}python-i18n{/2}, die Bibliothek, von der i18nice abgespalten wurde."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

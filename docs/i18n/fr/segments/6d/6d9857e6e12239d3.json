@@ -1,0 +1,14 @@
+{
+  "hash": "6d9857e6e12239d3",
+  "source": "The preset reads {0} in the project root:",
+  "text": "Le preset lit {0} à la racine du projet :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset lit {0} à la racine du projet :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

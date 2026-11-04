@@ -1,0 +1,14 @@
+{
+  "hash": "3c932cb07569096d",
+  "source": "Run x18n check on a project, write a config with x18n init, and run the check in CI.",
+  "text": "Lancez x18n check sur un projet, écrivez une configuration avec x18n init et exécutez la vérification en CI.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lancez x18n check sur un projet, écrivez une configuration avec x18n init et exécutez la vérification en CI."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

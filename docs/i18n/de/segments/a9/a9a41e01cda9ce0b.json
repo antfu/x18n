@@ -1,0 +1,14 @@
+{
+  "hash": "a9a41e01cda9ce0b",
+  "source": "These come from the {0} branch, so they can name commands that your installed CLI does not have yet. Run the command again to update them.",
+  "text": "Diese stammen aus dem Branch {0}, daher können sie Befehle nennen, die dein installiertes CLI noch nicht kennt. Führe den Befehl erneut aus, um sie zu aktualisieren.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Diese stammen aus dem Branch {0}, daher können sie Befehle nennen, die dein installiertes CLI noch nicht kennt. Führe den Befehl erneut aus, um sie zu aktualisieren."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

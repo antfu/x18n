@@ -1,0 +1,14 @@
+{
+  "hash": "5cadcbe0f678ce5e",
+  "source": "more translate calls. Wildcards such as {0} are skipped.",
+  "text": "weitere Übersetzungsaufrufe. Wildcards wie {0} werden übersprungen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "weitere Übersetzungsaufrufe. Wildcards wie {0} werden übersprungen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

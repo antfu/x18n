@@ -1,0 +1,14 @@
+{
+  "hash": "85600c2e2c483545",
+  "source": "The preset reads {0} as text. If the value is computed, set {1} in the config.",
+  "text": "Le preset lit {0} comme du texte. Si la valeur est calculée, définissez {1} dans la configuration.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset lit {0} comme du texte. Si la valeur est calculée, définissez {1} dans la configuration."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

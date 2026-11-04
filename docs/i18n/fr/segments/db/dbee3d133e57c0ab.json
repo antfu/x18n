@@ -1,0 +1,14 @@
+{
+  "hash": "dbee3d133e57c0ab",
+  "source": "Resource is read-only",
+  "text": "La ressource est en lecture seule",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La ressource est en lecture seule"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

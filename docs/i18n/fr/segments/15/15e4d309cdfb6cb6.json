@@ -1,0 +1,14 @@
+{
+  "hash": "15e4d309cdfb6cb6",
+  "source": "The check is on by default, with the severity {0}.",
+  "text": "La vérification est activée par défaut, avec la sévérité {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La vérification est activée par défaut, avec la sévérité {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

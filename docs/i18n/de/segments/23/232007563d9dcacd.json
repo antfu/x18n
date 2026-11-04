@@ -1,0 +1,14 @@
+{
+  "hash": "232007563d9dcacd",
+  "source": "Skip these check ids (comma separated)",
+  "text": "Diese Prüfungs-IDs überspringen (durch Kommas getrennt)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Diese Prüfungs-IDs überspringen (durch Kommas getrennt)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

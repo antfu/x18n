@@ -1,0 +1,14 @@
+{
+  "hash": "a82163790fcf9762",
+  "source": "The CLI uses the same code for command input it cannot use: an unknown {0} id, an unknown {1} kind, a missing {2}, or an {3} that already exists when you run {4} or {5} without {6}.",
+  "text": "Die CLI verwendet denselben Code für Befehlseingaben, die sie nicht verarbeiten kann: eine unbekannte {0}-ID, eine unbekannte {1}-Art, ein fehlendes {2} oder ein {3}, das bereits existiert, wenn du {4} oder {5} ohne {6} ausführst.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die CLI verwendet denselben Code für Befehlseingaben, die sie nicht verarbeiten kann: eine unbekannte {0}-ID, eine unbekannte {1}-Art, ein fehlendes {2} oder ein {3}, das bereits existiert, wenn du {4} oder {5} ohne {6} ausführst."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

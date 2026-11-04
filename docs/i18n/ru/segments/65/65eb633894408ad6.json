@@ -1,0 +1,14 @@
+{
+  "hash": "65eb633894408ad6",
+  "source": "The resource patterns of all applied presets add up. For example, a project with {0} and {1} uses the patterns of both presets.",
+  "text": "Шаблоны ресурсов всех применённых пресетов суммируются. Например, проект с {0} и {1} использует шаблоны обоих пресетов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Шаблоны ресурсов всех применённых пресетов суммируются. Например, проект с {0} и {1} использует шаблоны обоих пресетов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fb067b34c716d1d8",
+  "source": "The search covers every locale and ignores case. It is fuzzy by default, and values that contain the query rank first. {0} keeps only those values. Each match has the key, the matched locale and value, and the usages with file, line and column. The {1}MCP tool{/1} {2} does the same.",
+  "text": "Поиск охватывает все локали и не учитывает регистр. По умолчанию он нечёткий, а значения, содержащие запрос, идут первыми. {0} оставляет только такие значения. Каждое совпадение содержит ключ, локаль и значение, в которых оно найдено, а также использования с файлом, строкой и столбцом. {1}MCP-инструмент{/1} {2} делает то же самое.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Поиск охватывает все локали и не учитывает регистр. По умолчанию он нечёткий, а значения, содержащие запрос, идут первыми. {0} оставляет только такие значения. Каждое совпадение содержит ключ, локаль и значение, в которых оно найдено, а также использования с файлом, строкой и столбцом. {1}MCP-инструмент{/1} {2} делает то же самое."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

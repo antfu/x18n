@@ -1,0 +1,14 @@
+{
+  "hash": "f17f56ddcb1a6bd3",
+  "source": "The preset also reads {0} blocks in {1} files. A block can hold one locale, or every locale:",
+  "text": "Пресет также считывает блоки {0} в файлах {1}. Блок может содержать одну локаль или все локали:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет также считывает блоки {0} в файлах {1}. Блок может содержать одну локаль или все локали:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

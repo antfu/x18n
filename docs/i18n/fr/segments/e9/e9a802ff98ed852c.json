@@ -1,0 +1,14 @@
+{
+  "hash": "e9a802ff98ed852c",
+  "source": "Delete or rename it first, then run the rename again.",
+  "text": "Supprimez-la ou renommez-la d'abord, puis relancez le renommage.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Supprimez-la ou renommez-la d'abord, puis relancez le renommage."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

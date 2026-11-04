@@ -1,0 +1,14 @@
+{
+  "hash": "2a0285a92dcc840f",
+  "source": "Keep every placeholder of the source value, such as {0}, {1}, {2} or {3}.",
+  "text": "Conservez tous les espaces réservés de la valeur source, comme {0}, {1}, {2} ou {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Conservez tous les espaces réservés de la valeur source, comme {0}, {1}, {2} ou {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

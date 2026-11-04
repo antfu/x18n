@@ -1,0 +1,14 @@
+{
+  "hash": "dac5bb00a65d4d1a",
+  "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
+  "text": "Affiche le drapeau de chaque langue dans les vues, les sélecteurs, les info-bulles et la barre d'état.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Affiche le drapeau de chaque langue dans les vues, les sélecteurs, les info-bulles et la barre d'état."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

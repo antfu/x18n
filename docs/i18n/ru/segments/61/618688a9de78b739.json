@@ -1,0 +1,14 @@
+{
+  "hash": "618688a9de78b739",
+  "source": "workspace (that is the editor's word), app",
+  "text": "workspace (так называется рабочая область в редакторе), app",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "workspace (так называется рабочая область в редакторе), app"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

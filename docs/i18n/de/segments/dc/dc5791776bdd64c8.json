@@ -1,0 +1,14 @@
+{
+  "hash": "dc5791776bdd64c8",
+  "source": "the {0} keys, the legacy {1} keys, and the {2} keys of the {3}i18n-ally-next{/3} fork, in {4},",
+  "text": "die {0}-Schlüssel, die veralteten {1}-Schlüssel und die {2}-Schlüssel des Forks {3}i18n-ally-next{/3} in {4},",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "die {0}-Schlüssel, die veralteten {1}-Schlüssel und die {2}-Schlüssel des Forks {3}i18n-ally-next{/3} in {4},"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7749744bba1c56e0",
+  "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
+  "text": "Эта команда записывает все диагностики в {0} в корне рабочей области. Пока файл существует, {1} сообщает и завершается с ошибкой только для диагностик, которых в нём нет, и указывает, сколько известных пропущено. Диагностика считается известной по файлу, проверке, ключу, локали и сообщению, но не по строке, поэтому перемещение кода не делает её новой. Ещё одна такая же диагностика в том же файле считается новой.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Эта команда записывает все диагностики в {0} в корне рабочей области. Пока файл существует, {1} сообщает и завершается с ошибкой только для диагностик, которых в нём нет, и указывает, сколько известных пропущено. Диагностика считается известной по файлу, проверке, ключу, локали и сообщению, но не по строке, поэтому перемещение кода не делает её новой. Ещё одна такая же диагностика в том же файле считается новой."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

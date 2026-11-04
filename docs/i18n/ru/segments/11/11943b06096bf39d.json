@@ -1,0 +1,14 @@
+{
+  "hash": "11943b06096bf39d",
+  "source": "adapter, driver, fs",
+  "text": "адаптер, драйвер, файловая система",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "адаптер, драйвер, файловая система"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

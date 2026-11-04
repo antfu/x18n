@@ -1,0 +1,14 @@
+{
+  "hash": "77f9b8484aeadcf4",
+  "source": "Before x18n writes, it makes sure that no file changed since it made the plan. If a file changed, it writes nothing and stops with {0}X18N4004{/0}.",
+  "text": "Bevor x18n schreibt, stellt es sicher, dass sich seit der Erstellung des Plans keine Datei geändert hat. Wenn sich eine Datei geändert hat, schreibt es nichts und bricht mit {0}X18N4004{/0} ab.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Bevor x18n schreibt, stellt es sicher, dass sich seit der Erstellung des Plans keine Datei geändert hat. Wenn sich eine Datei geändert hat, schreibt es nichts und bricht mit {0}X18N4004{/0} ab."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

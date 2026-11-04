@@ -1,0 +1,14 @@
+{
+  "hash": "0bd02be058eaeb63",
+  "source": "The preset always applies, unless an exclusive preset applied before it, or you list presets yourself. x18n tries the default templates last in every project, with or without this preset, so {0} always has a template.",
+  "text": "Le preset s'applique toujours, sauf si un preset exclusif a été appliqué avant lui, ou si vous listez vous-même les presets. x18n essaie les modèles par défaut en dernier dans chaque projet, avec ou sans ce preset, donc {0} dispose toujours d'un modèle.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset s'applique toujours, sauf si un preset exclusif a été appliqué avant lui, ou si vous listez vous-même les presets. x18n essaie les modèles par défaut en dernier dans chaque projet, avec ou sans ce preset, donc {0} dispose toujours d'un modèle."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

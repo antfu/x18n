@@ -1,0 +1,14 @@
+{
+  "hash": "1f27c3c1a5e34b44",
+  "source": "The fallback preset. It adds the default extraction templates for plain JS, TS, JSX, Vue, Svelte and Astro files.",
+  "text": "Le preset de repli. Il ajoute les modèles d'extraction par défaut pour les fichiers JS, TS, JSX, Vue, Svelte et Astro simples.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset de repli. Il ajoute les modèles d'extraction par défaut pour les fichiers JS, TS, JSX, Vue, Svelte et Astro simples."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

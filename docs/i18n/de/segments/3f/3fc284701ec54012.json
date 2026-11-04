@@ -1,0 +1,14 @@
+{
+  "hash": "3fc284701ec54012",
+  "source": "The tools that x18n mcp and the HTTP MCP endpoint of x18n ui serve.",
+  "text": "Die Tools, die x18n mcp und der HTTP-MCP-Endpunkt von x18n ui bereitstellen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Tools, die x18n mcp und der HTTP-MCP-Endpunkt von x18n ui bereitstellen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "09b0c1c413f05c93",
+  "source": "One occurrence of a key in source code.",
+  "text": "Одно вхождение ключа в исходном коде.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Одно вхождение ключа в исходном коде."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "1a2fd0d38c5ffa86",
+  "source": "{0} puts the reported values on the translate prompt. See {1}Translate reported values{/1}.",
+  "text": "{0} setzt die gemeldeten Werte in den Prompt zum Übersetzen. Siehe {1}Gemeldete Werte übersetzen{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} setzt die gemeldeten Werte in den Prompt zum Übersetzen. Siehe {1}Gemeldete Werte übersetzen{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

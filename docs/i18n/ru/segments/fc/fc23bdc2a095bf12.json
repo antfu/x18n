@@ -1,0 +1,14 @@
+{
+  "hash": "fc23bdc2a095bf12",
+  "source": "Only values containing the query. By default a fuzzy match also counts.",
+  "text": "Только значения, содержащие запрос. По умолчанию учитывается и нечёткое совпадение.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только значения, содержащие запрос. По умолчанию учитывается и нечёткое совпадение."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

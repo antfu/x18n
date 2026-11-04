@@ -1,0 +1,14 @@
+{
+  "hash": "e5882a0e8a474e38",
+  "source": "Also translate values that checks report in the target locale. Without ids, every check; with ids (comma separated), only those checks.",
+  "text": "Также переводить значения, о которых проверки сообщают в целевой локали. Без id — все проверки; с id (через запятую) — только указанные проверки.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Также переводить значения, о которых проверки сообщают в целевой локали. Без id — все проверки; с id (через запятую) — только указанные проверки."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

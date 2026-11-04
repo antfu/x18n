@@ -1,0 +1,14 @@
+{
+  "hash": "1217a4ee54bf4018",
+  "source": "Turns diagnostics and analysis into text output.",
+  "text": "Преобразует диагностики и результаты анализа в текстовый вывод.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Преобразует диагностики и результаты анализа в текстовый вывод."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

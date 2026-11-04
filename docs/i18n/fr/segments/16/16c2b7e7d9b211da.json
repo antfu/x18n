@@ -1,0 +1,14 @@
+{
+  "hash": "16c2b7e7d9b211da",
+  "source": "The code, such as {0}, or the JS error name of an error without a code.",
+  "text": "Le code, tel que {0}, ou le nom de l'erreur JS pour une erreur sans code.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le code, tel que {0}, ou le nom de l'erreur JS pour une erreur sans code."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

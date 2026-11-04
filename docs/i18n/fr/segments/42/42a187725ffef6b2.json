@@ -1,0 +1,14 @@
+{
+  "hash": "42a187725ffef6b2",
+  "source": "Port (default: a free one from 9999)",
+  "text": "Port (par défaut : un port libre à partir de 9999)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Port (par défaut : un port libre à partir de 9999)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

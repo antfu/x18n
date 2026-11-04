@@ -1,0 +1,14 @@
+{
+  "hash": "8eddc05360135488",
+  "source": "The preset has no detection. It applies only when you list it in {0}. The preset is exclusive: x18n applies no listed preset after it.",
+  "text": "Le preset n'a pas de détection. Il ne s'applique que si vous le listez dans {0}. Le preset est exclusif : x18n n'applique aucun preset listé après lui.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset n'a pas de détection. Il ne s'applique que si vous le listez dans {0}. Le preset est exclusif : x18n n'applique aucun preset listé après lui."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

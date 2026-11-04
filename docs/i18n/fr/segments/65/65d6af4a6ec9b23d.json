@@ -1,0 +1,14 @@
+{
+  "hash": "65d6af4a6ec9b23d",
+  "source": "{0} found errors or too many warnings, {1} rejected values, or the command failed with one of these errors.",
+  "text": "{0} a trouvé des erreurs ou trop d'avertissements, {1} des valeurs rejetées, ou la commande a échoué avec l'une de ces erreurs.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} a trouvé des erreurs ou trop d'avertissements, {1} des valeurs rejetées, ou la commande a échoué avec l'une de ces erreurs."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

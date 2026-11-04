@@ -1,0 +1,14 @@
+{
+  "hash": "eef0d88ed4bdfa32",
+  "source": "CSS color of values that replace a whole call ({0}). Empty uses {1}.",
+  "text": "CSS-Farbe von Werten, die einen ganzen Aufruf ersetzen ({0}). Leer verwendet {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CSS-Farbe von Werten, die einen ganzen Aufruf ersetzen ({0}). Leer verwendet {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

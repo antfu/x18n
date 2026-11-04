@@ -1,0 +1,14 @@
+{
+  "hash": "7a93a3ec51220eac",
+  "source": "A key glob uses {0} inside one segment and {1} across segments: {2}.",
+  "text": "Ein Schlüssel-Glob verwendet {0} innerhalb eines Segments und {1} über Segmente hinweg: {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Schlüssel-Glob verwendet {0} innerhalb eines Segments und {1} über Segmente hinweg: {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

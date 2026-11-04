@@ -1,0 +1,14 @@
+{
+  "hash": "4e046c301bbcc8c0",
+  "source": "This file has the keys {0} and {1}.",
+  "text": "Ce fichier contient les clés {0} et {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ce fichier contient les clés {0} et {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

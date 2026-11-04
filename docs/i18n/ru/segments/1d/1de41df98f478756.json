@@ -1,0 +1,14 @@
+{
+  "hash": "1de41df98f478756",
+  "source": "The current contract version is {0}. A breaking change to any shape increases it. A new optional field does not.",
+  "text": "Текущая версия контракта — {0}. Обратно несовместимое изменение любой структуры увеличивает её. Новое необязательное поле — не увеличивает.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Текущая версия контракта — {0}. Обратно несовместимое изменение любой структуры увеличивает её. Новое необязательное поле — не увеличивает."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

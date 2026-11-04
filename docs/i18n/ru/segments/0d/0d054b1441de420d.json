@@ -1,0 +1,14 @@
+{
+  "hash": "0d054b1441de420d",
+  "source": "Sets the suggested value and resolves the suggestion.",
+  "text": "Устанавливает предложенное значение и закрывает предложение.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Устанавливает предложенное значение и закрывает предложение."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

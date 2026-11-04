@@ -1,0 +1,14 @@
+{
+  "hash": "2787a6163eb571fe",
+  "source": "Key of the reviewed message.",
+  "text": "Clé du message relu.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Clé du message relu."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

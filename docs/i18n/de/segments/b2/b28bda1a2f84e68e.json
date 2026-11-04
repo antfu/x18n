@@ -1,0 +1,14 @@
+{
+  "hash": "b28bda1a2f84e68e",
+  "source": "Japanese needs only {0}, and {1} is not reported missing there.",
+  "text": "Japanisch benötigt nur {0}, und {1} wird dort nicht als fehlend gemeldet.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Japanisch benötigt nur {0}, und {1} wird dort nicht als fehlend gemeldet."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

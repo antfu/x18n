@@ -1,0 +1,14 @@
+{
+  "hash": "946a031588a611af",
+  "source": "When the project root has an {0}i18next-cli{/0} config ({1}, {2}, {3}, {4} or {5}), the preset reads it. x18n does not run the file: it reads the object of {6} (or {7}) and skips values that are not literals, such as {8} or an {9} function.",
+  "text": "Если в корне проекта есть конфигурация {0}i18next-cli{/0} ({1}, {2}, {3}, {4} или {5}), пресет считывает её. x18n не запускает этот файл: он читает объект {6} (или {7}) и пропускает значения, которые не являются литералами, например {8} или функцию {9}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если в корне проекта есть конфигурация {0}i18next-cli{/0} ({1}, {2}, {3}, {4} или {5}), пресет считывает её. x18n не запускает этот файл: он читает объект {6} (или {7}) и пропускает значения, которые не являются литералами, например {8} или функцию {9}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

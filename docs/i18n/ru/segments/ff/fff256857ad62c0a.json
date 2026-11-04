@@ -1,0 +1,14 @@
+{
+  "hash": "fff256857ad62c0a",
+  "source": "The {0} preset supports {1}i18next{/1} without a framework binding. For React, see {2}react-i18next{/2}.",
+  "text": "Пресет {0} поддерживает {1}i18next{/1} без привязки к фреймворку. Для React см. {2}react-i18next{/2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет {0} поддерживает {1}i18next{/1} без привязки к фреймворку. Для React см. {2}react-i18next{/2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "59b3da0795fc753e",
+  "source": "With --unused: only keys of a namespace",
+  "text": "Mit --unused: nur Schlüssel eines Namespace",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mit --unused: nur Schlüssel eines Namespace"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

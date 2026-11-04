@@ -1,0 +1,14 @@
+{
+  "hash": "5c9d526352384ed4",
+  "source": "It does not call machine translation services. Instead, it writes a {0}translate prompt{/0} for an agent or an LLM, and checks the result.",
+  "text": "Il n'appelle pas de services de traduction automatique. Il écrit à la place un {0}prompt de traduction{/0} pour un agent ou un LLM, puis vérifie le résultat.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il n'appelle pas de services de traduction automatique. Il écrit à la place un {0}prompt de traduction{/0} pour un agent ou un LLM, puis vérifie le résultat."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

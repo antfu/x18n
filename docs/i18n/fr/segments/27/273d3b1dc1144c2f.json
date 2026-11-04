@@ -1,0 +1,14 @@
+{
+  "hash": "273d3b1dc1144c2f",
+  "source": "Show translated values next to or in place of keys in code.",
+  "text": "Affiche les valeurs traduites à côté des clés dans le code, ou à leur place.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Affiche les valeurs traduites à côté des clés dans le code, ou à leur place."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

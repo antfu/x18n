@@ -1,0 +1,14 @@
+{
+  "hash": "1f2c62b3cc2fd407",
+  "source": "{0} reads the dependency names from a manifest file, for preset detection. The built-in readers cover {1}, {2}, {3}, {4}, {5}, {6} and {7}. A reader has an {8}, a {9} name and a {10} function.",
+  "text": "{0} liest die Namen der Abhängigkeiten aus einer Manifest-Datei, um Presets zu erkennen. Die integrierten Reader decken {1}, {2}, {3}, {4}, {5}, {6} und {7} ab. Ein Reader hat eine {8}, einen {9}-Namen und eine {10}-Funktion.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} liest die Namen der Abhängigkeiten aus einer Manifest-Datei, um Presets zu erkennen. Die integrierten Reader decken {1}, {2}, {3}, {4}, {5}, {6} und {7} ab. Ein Reader hat eine {8}, einen {9}-Namen und eine {10}-Funktion."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

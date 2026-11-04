@@ -1,0 +1,14 @@
+{
+  "hash": "e56c988e489f4610",
+  "source": "Also translate stale translations: those older than their source message.",
+  "text": "Также переводить устаревшие переводы — те, что старше исходного сообщения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Также переводить устаревшие переводы — те, что старше исходного сообщения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

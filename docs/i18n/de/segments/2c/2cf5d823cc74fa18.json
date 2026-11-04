@@ -1,0 +1,14 @@
+{
+  "hash": "2cf5d823cc74fa18",
+  "source": "{0}: an {1} folder next to a component. The component folder names the keyset, so {2} holds the keyset {3}.",
+  "text": "{0}: ein Ordner {1} neben einer Komponente. Der Name des Komponentenordners bestimmt das Keyset, also enthält {2} das Keyset {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: ein Ordner {1} neben einer Komponente. Der Name des Komponentenordners bestimmt das Keyset, also enthält {2} das Keyset {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

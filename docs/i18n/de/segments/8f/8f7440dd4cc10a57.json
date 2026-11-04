@@ -1,0 +1,14 @@
+{
+  "hash": "8f7440dd4cc10a57",
+  "source": "The plan has a decision (a question such as \"which file gets the new key\"), and the command got no answer. This happens with {0}, or when stdin is not a terminal.",
+  "text": "Der Plan enthält eine Entscheidung (eine Frage wie „In welche Datei kommt der neue Schlüssel?“), und der Befehl hat keine Antwort erhalten. Das passiert bei {0} oder wenn stdin kein Terminal ist.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Plan enthält eine Entscheidung (eine Frage wie „In welche Datei kommt der neue Schlüssel?“), und der Befehl hat keine Antwort erhalten. Das passiert bei {0} oder wenn stdin kein Terminal ist."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

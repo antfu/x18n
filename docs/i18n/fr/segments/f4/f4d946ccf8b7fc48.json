@@ -1,0 +1,14 @@
+{
+  "hash": "f4d946ccf8b7fc48",
+  "source": "Find all references lists every usage in code. It does not list the locale files; use Go to implementation for those.",
+  "text": "Find all references liste chaque utilisation dans le code. Il ne liste pas les fichiers de langue ; utilisez Go to implementation pour ceux-ci.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Find all references liste chaque utilisation dans le code. Il ne liste pas les fichiers de langue ; utilisez Go to implementation pour ceux-ci."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

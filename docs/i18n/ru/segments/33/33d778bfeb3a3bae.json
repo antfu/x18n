@@ -1,0 +1,14 @@
+{
+  "hash": "33d778bfeb3a3bae",
+  "source": "When true and detected, presets that come after it are not applied.",
+  "text": "Если true и пресет обнаружен, следующие за ним пресеты не применяются.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если true и пресет обнаружен, следующие за ним пресеты не применяются."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

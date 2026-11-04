@@ -1,0 +1,14 @@
+{
+  "hash": "580464c9228fa4c3",
+  "source": "Show the status and the main commands.",
+  "text": "Показывает статус и основные команды.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Показывает статус и основные команды."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

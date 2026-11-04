@@ -1,0 +1,14 @@
+{
+  "hash": "b492cc293fad1a00",
+  "source": "A message with an open \"request change\" review.",
+  "text": "Eine message mit einem offenen „Request change“-review.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine message mit einem offenen „Request change“-review."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "56497c5096312f8c",
+  "source": "If someone else changed the file, pull their changes first.",
+  "text": "Falls jemand anderes die Datei geändert hat, hole zuerst dessen Änderungen per Pull.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Falls jemand anderes die Datei geändert hat, hole zuerst dessen Änderungen per Pull."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

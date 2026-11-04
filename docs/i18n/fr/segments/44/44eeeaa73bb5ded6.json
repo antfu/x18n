@@ -1,0 +1,14 @@
+{
+  "hash": "44eeeaa73bb5ded6",
+  "source": "Text of a value in any locale, ignoring case.",
+  "text": "Texte d'une valeur dans n'importe quelle langue, sans tenir compte de la casse.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Texte d'une valeur dans n'importe quelle langue, sans tenir compte de la casse."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

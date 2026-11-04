@@ -1,0 +1,14 @@
+{
+  "hash": "1d95a7921178d133",
+  "source": "A key with no usage, after keysInUse, derived keys and dynamic prefixes.",
+  "text": "Ключ без использований — с учётом keysInUse, производных ключей и динамических префиксов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ без использований — с учётом keysInUse, производных ключей и динамических префиксов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

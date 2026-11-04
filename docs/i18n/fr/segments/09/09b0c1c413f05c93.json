@@ -1,0 +1,14 @@
+{
+  "hash": "09b0c1c413f05c93",
+  "source": "One occurrence of a key in source code.",
+  "text": "Une occurrence d'une clé dans le code source.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une occurrence d'une clé dans le code source."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "77bba1a35fa0b0fd",
+  "source": "The check runs only when the project has at least one scanner.",
+  "text": "La vérification ne s'exécute que lorsque le projet possède au moins un scanner.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La vérification ne s'exécute que lorsque le projet possède au moins un scanner."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c90316e3df622186",
+  "source": "Plan is stale",
+  "text": "Le plan est obsolète",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le plan est obsolète"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7fa15afd1627f9a9",
+  "source": "The preset applies when the project depends on {0}, {1}, {2}, {3}, or any {4} package.",
+  "text": "Das Preset greift, wenn das Projekt von {0}, {1}, {2}, {3} oder einem beliebigen {4}-Paket abhängt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset greift, wenn das Projekt von {0}, {1}, {2}, {3} oder einem beliebigen {4}-Paket abhängt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2745282801d66bd3",
+  "source": "A preset is a group of plugins for one i18n library. The default is {0}: x18n runs the detection of every built-in preset against the dependencies in {1}, {2}, {3}, {4}, {5}, {6} and {7}. The manifests in the parent directories, up to the git root, count too. In a monorepo, this finds the dependencies of the workspace root.",
+  "text": "Пресет — это группа плагинов для одной i18n-библиотеки. По умолчанию используется {0}: x18n запускает определение каждого встроенного пресета по зависимостям из {1}, {2}, {3}, {4}, {5}, {6} и {7}. Манифесты в родительских каталогах до корня git тоже учитываются. В monorepo так находятся зависимости корня рабочей области.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет — это группа плагинов для одной i18n-библиотеки. По умолчанию используется {0}: x18n запускает определение каждого встроенного пресета по зависимостям из {1}, {2}, {3}, {4}, {5}, {6} и {7}. Манифесты в родительских каталогах до корня git тоже учитываются. В monorepo так находятся зависимости корня рабочей области."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

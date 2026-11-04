@@ -1,0 +1,14 @@
+{
+  "hash": "6ce54352f6919fe2",
+  "source": "Lists review threads with their state. {0} and {1} filter them.",
+  "text": "Выводит список веток ревью с их состоянием. {0} и {1} фильтруют его.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Выводит список веток ревью с их состоянием. {0} и {1} фильтруют его."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "54c5150734c3adda",
+  "source": "Detect the setup and write x18n.config.ts.",
+  "text": "Erkenne das Setup und schreibe x18n.config.ts.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Erkenne das Setup und schreibe x18n.config.ts."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

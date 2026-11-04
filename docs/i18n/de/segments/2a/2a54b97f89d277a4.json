@@ -1,0 +1,14 @@
+{
+  "hash": "2a54b97f89d277a4",
+  "source": "Then list {0} in {1} instead of the YAML file. See {2}TypeScript plugins{/2}.",
+  "text": "Führe dann {0} in {1} statt der YAML-Datei auf. Siehe {2}TypeScript-plugins{/2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führe dann {0} in {1} statt der YAML-Datei auf. Siehe {2}TypeScript-plugins{/2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

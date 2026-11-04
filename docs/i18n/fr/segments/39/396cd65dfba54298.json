@@ -1,0 +1,14 @@
+{
+  "hash": "396cd65dfba54298",
+  "source": "Full key, for example {0} or {1}.",
+  "text": "Clé complète, par exemple {0} ou {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Clé complète, par exemple {0} ou {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

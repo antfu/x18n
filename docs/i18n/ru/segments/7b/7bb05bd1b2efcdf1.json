@@ -1,0 +1,14 @@
+{
+  "hash": "7bb05bd1b2efcdf1",
+  "source": "Aliases such as {0} are not resolved. x18n skips a {1} outside the project and a {2} file that is not JSON, JSON5 or YAML, such as {3} or {4}.",
+  "text": "Алиасы вроде {0} не разрешаются. x18n пропускает {1} за пределами проекта и файл {2}, который не является JSON, JSON5 или YAML, например {3} или {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Алиасы вроде {0} не разрешаются. x18n пропускает {1} за пределами проекта и файл {2}, который не является JSON, JSON5 или YAML, например {3} или {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

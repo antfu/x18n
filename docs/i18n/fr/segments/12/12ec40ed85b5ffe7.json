@@ -1,0 +1,14 @@
+{
+  "hash": "12ec40ed85b5ffe7",
+  "source": "The display locale is the locale that the editor shows in annotations and hovers. Each user picks it for themselves. It defaults to the source locale.",
+  "text": "La langue d'affichage est la langue que l'éditeur affiche dans les annotations et les info-bulles. Chaque utilisateur choisit la sienne. Par défaut, il s'agit de la langue source.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La langue d'affichage est la langue que l'éditeur affiche dans les annotations et les info-bulles. Chaque utilisateur choisit la sienne. Par défaut, il s'agit de la langue source."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

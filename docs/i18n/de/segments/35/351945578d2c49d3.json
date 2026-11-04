@@ -1,0 +1,14 @@
+{
+  "hash": "351945578d2c49d3",
+  "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
+  "text": "Ersetzungscode. {0} ist der Schlüssel, {1} der Attributname, {2} die Argumente eines Template-Strings, {3} die Message des hartcodierten Strings, für einen Standardwert, {4} der Text, wie er in der Datei steht, und {5} die Message als Rumpf eines Template-Strings. {6} und {7} werden für die sie umgebenden Anführungszeichen maskiert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ersetzungscode. {0} ist der Schlüssel, {1} der Attributname, {2} die Argumente eines Template-Strings, {3} die Message des hartcodierten Strings, für einen Standardwert, {4} der Text, wie er in der Datei steht, und {5} die Message als Rumpf eines Template-Strings. {6} und {7} werden für die sie umgebenden Anführungszeichen maskiert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

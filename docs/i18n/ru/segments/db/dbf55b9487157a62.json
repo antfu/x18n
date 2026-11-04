@@ -1,0 +1,14 @@
+{
+  "hash": "dbf55b9487157a62",
+  "source": "Give each check, format and reporter a unique id. Prefix the ids with the name of your plugin to avoid conflicts.",
+  "text": "Задайте каждой проверке, формату и репортеру уникальный id. Чтобы избежать конфликтов, добавляйте к id имя вашего плагина в качестве префикса.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Задайте каждой проверке, формату и репортеру уникальный id. Чтобы избежать конфликтов, добавляйте к id имя вашего плагина в качестве префикса."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

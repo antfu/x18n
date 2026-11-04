@@ -1,0 +1,14 @@
+{
+  "hash": "d36b0e4a85a19745",
+  "source": "If the second one is meant to replace the first, set {0} on it.",
+  "text": "Если второй должен заменить первый, задайте для него {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если второй должен заменить первый, задайте для него {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

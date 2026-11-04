@@ -1,0 +1,14 @@
+{
+  "hash": "8ebbd0cb132ddcc6",
+  "source": "Message syntax errors (ICU, linked messages, nesting).",
+  "text": "Синтаксические ошибки в сообщениях (ICU, связанные сообщения, вложенность).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Синтаксические ошибки в сообщениях (ICU, связанные сообщения, вложенность)."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

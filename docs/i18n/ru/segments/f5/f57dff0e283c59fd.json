@@ -1,0 +1,14 @@
+{
+  "hash": "f57dff0e283c59fd",
+  "source": "GitHub Actions workflow commands. GitHub shows them as annotations on the changed lines.",
+  "text": "Команды рабочего процесса GitHub Actions. GitHub показывает их как аннотации к изменённым строкам.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Команды рабочего процесса GitHub Actions. GitHub показывает их как аннотации к изменённым строкам."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

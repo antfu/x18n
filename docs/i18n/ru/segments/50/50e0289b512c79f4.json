@@ -1,0 +1,14 @@
+{
+  "hash": "50e0289b512c79f4",
+  "source": "{0} reports this as an {1} warning on the file.",
+  "text": "{0} сообщает об этом как о предупреждении {1} для файла.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} сообщает об этом как о предупреждении {1} для файла."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

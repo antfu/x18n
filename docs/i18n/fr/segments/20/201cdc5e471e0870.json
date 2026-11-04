@@ -1,0 +1,14 @@
+{
+  "hash": "201cdc5e471e0870",
+  "source": "Locale file is not static. Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.",
+  "text": "Le fichier de langue n'est pas statique. Utilisez JSON ou YAML, ou activez l'exécution avec `execute : true` sur le motif de ressource.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le fichier de langue n'est pas statique. Utilisez JSON ou YAML, ou activez l'exécution avec `execute : true` sur le motif de ressource."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

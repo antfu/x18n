@@ -1,0 +1,14 @@
+{
+  "hash": "f6558184de209609",
+  "source": "The {0} preset supports {1}jekyll-multiple-languages-plugin{/1}.",
+  "text": "Пресет {0} поддерживает {1}jekyll-multiple-languages-plugin{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет {0} поддерживает {1}jekyll-multiple-languages-plugin{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

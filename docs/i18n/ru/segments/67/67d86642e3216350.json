@@ -1,0 +1,14 @@
+{
+  "hash": "67d86642e3216350",
+  "source": "Project settings live in one config file. The CLI, the editor and the UI read the same file, so they always agree. Editor settings change only the editor experience. They never override the config.",
+  "text": "Настройки проекта хранятся в одном файле конфигурации. CLI, редактор и UI читают один и тот же файл, поэтому всегда согласованы. Настройки редактора меняют только работу в редакторе. Они никогда не переопределяют конфигурацию.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Настройки проекта хранятся в одном файле конфигурации. CLI, редактор и UI читают один и тот же файл, поэтому всегда согласованы. Настройки редактора меняют только работу в редакторе. Они никогда не переопределяют конфигурацию."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

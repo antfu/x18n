@@ -1,0 +1,14 @@
+{
+  "hash": "a28c0199061c7008",
+  "source": "{0} lists the usages of a key. {1} goes the other way: it finds keys by their value in any locale, and lists their usages. {2} lists the keys with no usage.",
+  "text": "{0} выводит использования ключа. {1} работает в обратную сторону: находит ключи по их значению в любой локали и выводит их использования. {2} выводит ключи без использований.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} выводит использования ключа. {1} работает в обратную сторону: находит ключи по их значению в любой локали и выводит их использования. {2} выводит ключи без использований."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

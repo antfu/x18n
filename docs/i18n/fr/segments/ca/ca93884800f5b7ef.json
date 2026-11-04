@@ -1,0 +1,14 @@
+{
+  "hash": "ca93884800f5b7ef",
+  "source": "The check reports each message whose open review comments end in a change request, at the message in the reviewed locale. The quick fix resolves the request. A later approval by anyone clears it too. See {0}Reviews{/0}.",
+  "text": "La vérification signale chaque message dont les commentaires de relecture ouverts se terminent par une demande de modification, au niveau du message dans la langue relue. Le correctif rapide résout la demande. Une approbation ultérieure, par n'importe qui, l'efface également. Consultez {0}Relectures{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La vérification signale chaque message dont les commentaires de relecture ouverts se terminent par une demande de modification, au niveau du message dans la langue relue. Le correctif rapide résout la demande. Une approbation ultérieure, par n'importe qui, l'efface également. Consultez {0}Relectures{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "af485870919491f9",
+  "source": "If it is a path, make sure that it is relative to the config file and that the file exists.",
+  "text": "Wenn es ein Pfad ist, stelle sicher, dass er relativ zur Konfigurationsdatei angegeben ist und dass die Datei existiert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn es ein Pfad ist, stelle sicher, dass er relativ zur Konfigurationsdatei angegeben ist und dass die Datei existiert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

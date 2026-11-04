@@ -1,0 +1,14 @@
+{
+  "hash": "2bfeae3e1669ab3a",
+  "source": "x18n has no resource where it can write the key in this locale.",
+  "text": "У x18n нет ресурса, в который можно записать ключ для этой локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "У x18n нет ресурса, в который можно записать ключ для этой локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

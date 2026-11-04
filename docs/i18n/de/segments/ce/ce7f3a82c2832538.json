@@ -1,0 +1,14 @@
+{
+  "hash": "ce7f3a82c2832538",
+  "source": "Other folders, such as {0} and {1}, are not locales. A new locale gets the folder Android expects.",
+  "text": "Andere Ordner, wie {0} und {1}, sind keine Sprachen. Eine neue Sprache erhält den Ordner, den Android erwartet.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Andere Ordner, wie {0} und {1}, sind keine Sprachen. Eine neue Sprache erhält den Ordner, den Android erwartet."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

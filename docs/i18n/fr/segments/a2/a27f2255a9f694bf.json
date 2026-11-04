@@ -1,0 +1,14 @@
+{
+  "hash": "a27f2255a9f694bf",
+  "source": "It has no hosted service, no account and no telemetry.",
+  "text": "Il n'a ni service hébergé, ni compte, ni télémétrie.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il n'a ni service hébergé, ni compte, ni télémétrie."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

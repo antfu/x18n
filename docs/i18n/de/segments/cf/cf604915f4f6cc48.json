@@ -1,0 +1,14 @@
+{
+  "hash": "cf604915f4f6cc48",
+  "source": "locales of the source locale's language ({0} and {1} against {2}),",
+  "text": "Sprachen, die zur Sprache der Quellsprache gehören ({0} und {1} gegenüber {2}),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sprachen, die zur Sprache der Quellsprache gehören ({0} und {1} gegenüber {2}),"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8ebbd0cb132ddcc6",
+  "source": "Message syntax errors (ICU, linked messages, nesting).",
+  "text": "Syntaxfehler in messages (ICU, verknüpfte messages, Verschachtelung).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Syntaxfehler in messages (ICU, verknüpfte messages, Verschachtelung)."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

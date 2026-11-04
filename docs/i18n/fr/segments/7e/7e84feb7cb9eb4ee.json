@@ -1,0 +1,14 @@
+{
+  "hash": "7e84feb7cb9eb4ee",
+  "source": "The root config of a monorepo, if there is one. See {0}Monorepos{/0}.",
+  "text": "La configuration racine d'un monorepo, s'il y en a une. Consultez {0}Monorepos{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La configuration racine d'un monorepo, s'il y en a une. Consultez {0}Monorepos{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

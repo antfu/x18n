@@ -1,0 +1,14 @@
+{
+  "hash": "a002151655ff6d93",
+  "source": "Pass {0} to work on one project. Commands that write files ({1}, {2}, {3}, {4}, {5}, {6}, {7}) and {8} need one project. Without {9}, they stop with {10}X18N0003{/10}.",
+  "text": "Passez {0} pour travailler sur un seul projet. Les commandes qui écrivent des fichiers ({1}, {2}, {3}, {4}, {5}, {6}, {7}) et {8} nécessitent un seul projet. Sans {9}, elles s'arrêtent avec {10}X18N0003{/10}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Passez {0} pour travailler sur un seul projet. Les commandes qui écrivent des fichiers ({1}, {2}, {3}, {4}, {5}, {6}, {7}) et {8} nécessitent un seul projet. Sans {9}, elles s'arrêtent avec {10}X18N0003{/10}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

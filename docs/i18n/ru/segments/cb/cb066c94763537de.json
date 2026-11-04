@@ -1,0 +1,14 @@
+{
+  "hash": "cb066c94763537de",
+  "source": "{0}: {1}, {2}, {3}, or {4} after an exclusive preset.",
+  "text": "{0}: {1}, {2}, {3} или {4} после эксклюзивного пресета.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: {1}, {2}, {3} или {4} после эксклюзивного пресета."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

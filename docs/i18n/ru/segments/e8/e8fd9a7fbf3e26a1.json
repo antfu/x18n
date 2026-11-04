@@ -1,0 +1,14 @@
+{
+  "hash": "e8fd9a7fbf3e26a1",
+  "source": "The canonical id of a message: namespace plus path. String form {0}. With {1} the path is one literal segment ({2}).",
+  "text": "Канонический идентификатор сообщения: пространство имён плюс путь. Строковая форма: {0}. При {1} путь представляет собой один буквальный сегмент ({2}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Канонический идентификатор сообщения: пространство имён плюс путь. Строковая форма: {0}. При {1} путь представляет собой один буквальный сегмент ({2})."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

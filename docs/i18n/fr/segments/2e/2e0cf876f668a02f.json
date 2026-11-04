@@ -1,0 +1,14 @@
+{
+  "hash": "2e0cf876f668a02f",
+  "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
+  "text": "Une info-bulle sur une clé affiche sa valeur dans chaque langue et le nombre d'utilisations, avec des liens pour ouvrir la clé dans l'interface, copier un prompt de traduction et la traduire avec un agent. Les diagnostics sont les mêmes que ceux de {0}. Les correctifs rapides proviennent des vérifications, par exemple « Add the key to the source locale » ou « Copy the source value ». Les actions de code permettent aussi d'extraire une chaîne en dur, d'extraire toutes les chaînes en dur du fichier ou d'ajouter un commentaire d'exclusion pour une chaîne.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une info-bulle sur une clé affiche sa valeur dans chaque langue et le nombre d'utilisations, avec des liens pour ouvrir la clé dans l'interface, copier un prompt de traduction et la traduire avec un agent. Les diagnostics sont les mêmes que ceux de {0}. Les correctifs rapides proviennent des vérifications, par exemple « Add the key to the source locale » ou « Copy the source value ». Les actions de code permettent aussi d'extraire une chaîne en dur, d'extraire toutes les chaînes en dur du fichier ou d'ajouter un commentaire d'exclusion pour une chaîne."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

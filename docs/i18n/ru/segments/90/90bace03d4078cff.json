@@ -1,0 +1,14 @@
+{
+  "hash": "90bace03d4078cff",
+  "source": "If the specifier is a package name, install the package in the project.",
+  "text": "Если спецификатор — это имя пакета, установите пакет в проект.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если спецификатор — это имя пакета, установите пакет в проект."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ef8de96816619439",
+  "source": "Rules such as {0}. When a key is used, the keys that a rule derives from it count as used too. A {1} matches any text: {2}.",
+  "text": "Des règles comme {0}. Lorsqu'une clé est utilisée, les clés qu'une règle en dérive comptent aussi comme utilisées. Un {1} correspond à n'importe quel texte : {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Des règles comme {0}. Lorsqu'une clé est utilisée, les clés qu'une règle en dérive comptent aussi comme utilisées. Un {1} correspond à n'importe quel texte : {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

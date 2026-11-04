@@ -1,0 +1,14 @@
+{
+  "hash": "aa990b36283d0174",
+  "source": "A custom hook that wraps {0} is a call spec with a fixed namespace:",
+  "text": "Ein eigener Hook, der {0} umschließt, ist eine Call Spec mit festem Namespace:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein eigener Hook, der {0} umschließt, ist eine Call Spec mit festem Namespace:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

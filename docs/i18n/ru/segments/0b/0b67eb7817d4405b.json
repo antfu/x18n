@@ -1,0 +1,14 @@
+{
+  "hash": "0b67eb7817d4405b",
+  "source": "The preset for gettext in PHP. It reads .po catalogs and gettext, _ and __ calls. It applies only when you list it.",
+  "text": "Пресет для gettext в PHP. Он читает каталоги .po и вызовы gettext, _ и __. Применяется только тогда, когда вы указываете его в списке.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет для gettext в PHP. Он читает каталоги .po и вызовы gettext, _ и __. Применяется только тогда, когда вы указываете его в списке."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

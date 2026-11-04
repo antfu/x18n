@@ -1,0 +1,14 @@
+{
+  "hash": "618556b36b78d6df",
+  "source": "{0} serves the tools over stdin and stdout. The agent starts the command itself. Most agents read a config like this one. The exact file and keys depend on the agent:",
+  "text": "{0} предоставляет инструменты через stdin и stdout. Агент сам запускает команду. Большинство агентов читают конфигурацию, похожую на эту. Точный файл и ключи зависят от агента:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} предоставляет инструменты через stdin и stdout. Агент сам запускает команду. Большинство агентов читают конфигурацию, похожую на эту. Точный файл и ключи зависят от агента:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

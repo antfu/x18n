@@ -1,0 +1,14 @@
+{
+  "hash": "4722b6d7ada712c1",
+  "source": "{0}: the raw key text, its range, and whether the key is static, a prefix, or unknown,",
+  "text": "{0}: den rohen Schlüsseltext, seinen Bereich und ob der Schlüssel statisch, ein Präfix oder unbekannt ist,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: den rohen Schlüsseltext, seinen Bereich und ob der Schlüssel statisch, ein Präfix oder unbekannt ist,"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

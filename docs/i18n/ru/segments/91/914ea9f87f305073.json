@@ -1,0 +1,14 @@
+{
+  "hash": "914ea9f87f305073",
+  "source": "The default. The path and position, the severity badge with the message and check id, a code frame, then a summary.",
+  "text": "Формат по умолчанию. Путь и позиция, бейдж серьёзности с сообщением и идентификатором проверки, фрагмент кода, затем сводка.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Формат по умолчанию. Путь и позиция, бейдж серьёзности с сообщением и идентификатором проверки, фрагмент кода, затем сводка."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

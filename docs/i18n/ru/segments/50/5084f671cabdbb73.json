@@ -1,0 +1,14 @@
+{
+  "hash": "5084f671cabdbb73",
+  "source": "How {0} makes a new key: {1} from the text, {2} uses the text itself, {3}, or {4}. Default {5}.",
+  "text": "Как {0} создаёт новый ключ: {1} из текста, {2} использует сам текст, {3} или {4}. По умолчанию {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Как {0} создаёт новый ключ: {1} из текста, {2} использует сам текст, {3} или {4}. По умолчанию {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

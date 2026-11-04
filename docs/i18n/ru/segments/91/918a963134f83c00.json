@@ -1,0 +1,14 @@
+{
+  "hash": "918a963134f83c00",
+  "source": "{0} runs a plugin before the others, and {1} runs it after them.",
+  "text": "{0} запускает плагин раньше остальных, а {1} — после них.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} запускает плагин раньше остальных, а {1} — после них."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

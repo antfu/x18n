@@ -1,0 +1,14 @@
+{
+  "hash": "fbf2714a18aa303d",
+  "source": "The {0} preset supports {1}cargo-i18n{/1} with the Fluent system: the {2} and {3} crates.",
+  "text": "Пресет {0} поддерживает {1}cargo-i18n{/1} с системой Fluent: крейты {2} и {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет {0} поддерживает {1}cargo-i18n{/1} с системой Fluent: крейты {2} и {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b0b14c15dfc42bd2",
+  "source": "Batch set from JSON {0}; {1} reads stdin.",
+  "text": "Définition par lot à partir du JSON {0} ; {1} lit stdin.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Définition par lot à partir du JSON {0} ; {1} lit stdin."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

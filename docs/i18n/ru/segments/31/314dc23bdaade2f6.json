@@ -1,0 +1,14 @@
+{
+  "hash": "314dc23bdaade2f6",
+  "source": "An optional locale. A file without it belongs to the source locale.",
+  "text": "Необязательная локаль. Файл без неё относится к исходной локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Необязательная локаль. Файл без неё относится к исходной локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

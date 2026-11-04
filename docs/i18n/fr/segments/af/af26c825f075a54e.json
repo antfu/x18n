@@ -1,0 +1,14 @@
+{
+  "hash": "af26c825f075a54e",
+  "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
+  "text": "Commentez des messages, approuvez-les, demandez des modifications et suggérez des valeurs, dans un fichier qui suit la branche.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Commentez des messages, approuvez-les, demandez des modifications et suggérez des valeurs, dans un fichier qui suit la branche."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

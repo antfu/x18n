@@ -1,0 +1,14 @@
+{
+  "hash": "598d1b95e603319b",
+  "source": "The {0} preset supports {1}Nuxt I18n Micro{/1}, a light i18n module for Nuxt.",
+  "text": "Пресет {0} поддерживает {1}Nuxt I18n Micro{/1} — легковесный i18n-модуль для Nuxt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет {0} поддерживает {1}Nuxt I18n Micro{/1} — легковесный i18n-модуль для Nuxt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

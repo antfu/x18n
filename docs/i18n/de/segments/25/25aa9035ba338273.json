@@ -1,0 +1,14 @@
+{
+  "hash": "25aa9035ba338273",
+  "source": "Use a name from the {0}presets list{/0}.",
+  "text": "Verwende einen Namen aus der {0}Preset-Liste{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Verwende einen Namen aus der {0}Preset-Liste{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

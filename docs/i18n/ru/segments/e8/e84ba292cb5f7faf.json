@@ -1,0 +1,14 @@
+{
+  "hash": "e84ba292cb5f7faf",
+  "source": "{0} turns every warning into an error.",
+  "text": "{0} превращает каждое предупреждение в ошибку.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} превращает каждое предупреждение в ошибку."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

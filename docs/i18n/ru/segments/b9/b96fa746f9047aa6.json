@@ -1,0 +1,14 @@
+{
+  "hash": "b96fa746f9047aa6",
+  "source": "The arguments of a template string: {0}, without the {1} right after {2}. Empty when there are none.",
+  "text": "Аргументы строки-шаблона: {0}, без {1} сразу после {2}. Если аргументов нет, значение пустое.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Аргументы строки-шаблона: {0}, без {1} сразу после {2}. Если аргументов нет, значение пустое."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

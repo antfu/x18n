@@ -1,0 +1,14 @@
+{
+  "hash": "82bf753c85aa1009",
+  "source": "How x18n finds usages in source files.",
+  "text": "Comment x18n trouve les utilisations dans les fichiers source.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Comment x18n trouve les utilisations dans les fichiers source."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

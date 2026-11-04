@@ -1,0 +1,14 @@
+{
+  "hash": "ecf56bc207b97813",
+  "source": "{0} needs a plan file written by {1}.",
+  "text": "Для {0} требуется файл плана, созданный командой {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Для {0} требуется файл плана, созданный командой {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

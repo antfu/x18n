@@ -1,0 +1,14 @@
+{
+  "hash": "1fc564af044d67a5",
+  "source": "The whole call holding the key, when the scanner knows it.",
+  "text": "Der gesamte Aufruf, der den Schlüssel enthält, wenn der Scanner ihn kennt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der gesamte Aufruf, der den Schlüssel enthält, wenn der Scanner ihn kennt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

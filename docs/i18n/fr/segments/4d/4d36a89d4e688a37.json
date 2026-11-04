@@ -1,0 +1,14 @@
+{
+  "hash": "4d36a89d4e688a37",
+  "source": "The description comes from the source locale's resource, else from the resource of another locale, else from the code. The built-in formats and presets read:",
+  "text": "La description provient de la ressource de la langue source, sinon de la ressource d'une autre langue, sinon du code. Les formats et presets intégrés lisent :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La description provient de la ressource de la langue source, sinon de la ressource d'une autre langue, sinon du code. Les formats et presets intégrés lisent :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

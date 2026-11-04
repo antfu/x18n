@@ -1,0 +1,14 @@
+{
+  "hash": "a1b34c623fceb1a7",
+  "source": "{0} and {1} are translate calls:",
+  "text": "{0} und {1} sind Übersetzungsaufrufe:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} und {1} sind Übersetzungsaufrufe:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

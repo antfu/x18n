@@ -1,0 +1,14 @@
+{
+  "hash": "c5111550f6ef9210",
+  "source": "Safety: {0}",
+  "text": "Безопасность: {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Безопасность: {0}"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

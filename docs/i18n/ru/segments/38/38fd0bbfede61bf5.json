@@ -1,0 +1,14 @@
+{
+  "hash": "38fd0bbfede61bf5",
+  "source": "{0} returns the display name, the flag or other data of a locale code. The first plugin that returns a value wins.",
+  "text": "{0} возвращает отображаемое имя, флаг или другие данные для кода локали. Побеждает первый плагин, вернувший значение.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} возвращает отображаемое имя, флаг или другие данные для кода локали. Побеждает первый плагин, вернувший значение."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

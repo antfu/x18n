@@ -1,0 +1,14 @@
+{
+  "hash": "5e37e4256c29cd12",
+  "source": "{0}, {1}, {2}, {3} and {4} also take the key from an {5} property.",
+  "text": "{0}, {1}, {2}, {3} et {4} prennent aussi la clé depuis une propriété {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3} et {4} prennent aussi la clé depuis une propriété {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

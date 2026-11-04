@@ -1,0 +1,14 @@
+{
+  "hash": "2ba22298c06df796",
+  "source": "The {0} preset supports {1}@gravity-ui/i18n{/1}.",
+  "text": "Le preset {0} prend en charge {1}@gravity-ui/i18n{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}@gravity-ui/i18n{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

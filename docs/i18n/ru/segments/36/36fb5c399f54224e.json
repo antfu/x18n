@@ -1,0 +1,14 @@
+{
+  "hash": "36fb5c399f54224e",
+  "source": "The names are those in the first column of the table, in every config format. {0} turns every preset off.",
+  "text": "Имена — те, что указаны в первом столбце таблицы, во всех форматах конфигурации. {0} отключает все пресеты.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Имена — те, что указаны в первом столбце таблицы, во всех форматах конфигурации. {0} отключает все пресеты."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

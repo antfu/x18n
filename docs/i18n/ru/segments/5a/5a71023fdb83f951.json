@@ -1,0 +1,14 @@
+{
+  "hash": "5a71023fdb83f951",
+  "source": "Run x18n in the root of a project. It detects the i18n library from your dependencies and finds the locale files. {0}Read the guide{/0}.",
+  "text": "Запустите x18n в корне проекта. Он определяет i18n-библиотеку по вашим зависимостям и находит файлы локалей. {0}Читайте руководство{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Запустите x18n в корне проекта. Он определяет i18n-библиотеку по вашим зависимостям и находит файлы локалей. {0}Читайте руководство{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

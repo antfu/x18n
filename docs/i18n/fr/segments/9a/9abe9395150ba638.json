@@ -1,0 +1,14 @@
+{
+  "hash": "9abe9395150ba638",
+  "source": "The review prompt holds the messages that {0} already has. It asks the agent to check the meaning, the placeholders, the glossary terms, the tone and the length of each one, and to leave a suggestion or a change request for each wrong one with {1} (with {2}, to fix it with {3}). Each item shows the source value, its placeholders, its description, its values in related locales and the current translation. The prompt accepts the same options as the translate prompt, with {4} in place of {5}.",
+  "text": "Le prompt de relecture contient les messages que {0} possède déjà. Il demande à l'agent de vérifier le sens, les espaces réservés, les termes du glossaire, le ton et la longueur de chacun, et de laisser pour chaque message erroné une suggestion ou une demande de modification avec {1} (avec {2}, pour le corriger avec {3}). Chaque élément affiche la valeur source, ses espaces réservés, sa description, ses valeurs dans les langues apparentées et la traduction actuelle. Le prompt accepte les mêmes options que le prompt de traduction, avec {4} à la place de {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le prompt de relecture contient les messages que {0} possède déjà. Il demande à l'agent de vérifier le sens, les espaces réservés, les termes du glossaire, le ton et la longueur de chacun, et de laisser pour chaque message erroné une suggestion ou une demande de modification avec {1} (avec {2}, pour le corriger avec {3}). Chaque élément affiche la valeur source, ses espaces réservés, sa description, ses valeurs dans les langues apparentées et la traduction actuelle. Le prompt accepte les mêmes options que le prompt de traduction, avec {4} à la place de {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

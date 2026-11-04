@@ -1,0 +1,14 @@
+{
+  "hash": "d499d03957114f85",
+  "source": "Print the plan instead of writing",
+  "text": "Den Plan ausgeben, statt zu schreiben",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Den Plan ausgeben, statt zu schreiben"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

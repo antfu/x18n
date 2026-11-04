@@ -1,0 +1,14 @@
+{
+  "hash": "ac58af57e40d4f4d",
+  "source": "A key is the id of a message. The example has the keys {0}, {1}, {2} and {3}. A key with child keys, such as {4}, is a parent key. Commands such as {5} and {6} work on a parent key too: they change every key under it.",
+  "text": "Ein Schlüssel ist die ID einer Message. Das Beispiel enthält die Schlüssel {0}, {1}, {2} und {3}. Ein Schlüssel mit untergeordneten Schlüsseln, wie {4}, ist ein übergeordneter Schlüssel. Befehle wie {5} und {6} funktionieren auch mit einem übergeordneten Schlüssel: Sie ändern jeden Schlüssel darunter.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Schlüssel ist die ID einer Message. Das Beispiel enthält die Schlüssel {0}, {1}, {2} und {3}. Ein Schlüssel mit untergeordneten Schlüsseln, wie {4}, ist ein übergeordneter Schlüssel. Befehle wie {5} und {6} funktionieren auch mit einem übergeordneten Schlüssel: Sie ändern jeden Schlüssel darunter."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

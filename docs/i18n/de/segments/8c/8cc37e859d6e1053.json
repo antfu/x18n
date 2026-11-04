@@ -1,0 +1,14 @@
+{
+  "hash": "8cc37e859d6e1053",
+  "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
+  "text": "Die Message als Rumpf eines Template-Strings, wobei jedes Argument als {0} steht, so wie {1} es schreibt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Message als Rumpf eines Template-Strings, wobei jedes Argument als {0} steht, so wie {1} es schreibt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

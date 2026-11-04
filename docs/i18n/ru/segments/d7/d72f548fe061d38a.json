@@ -1,0 +1,14 @@
+{
+  "hash": "d72f548fe061d38a",
+  "source": "Always. {0} or {1} writes {2} or {3} instead.",
+  "text": "Всегда. {0} или {1} записывает вместо него {2} или {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Всегда. {0} или {1} записывает вместо него {2} или {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

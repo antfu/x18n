@@ -1,0 +1,14 @@
+{
+  "hash": "5ded4ed871ddc8f9",
+  "source": "Namespace of keys written without one, per glob of source files, before {0}: {1}.",
+  "text": "Espace de noms des clés écrites sans espace de noms, par glob de fichiers source, avant {0} : {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Espace de noms des clés écrites sans espace de noms, par glob de fichiers source, avant {0} : {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

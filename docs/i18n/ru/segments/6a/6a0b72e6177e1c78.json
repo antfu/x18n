@@ -1,0 +1,14 @@
+{
+  "hash": "6a0b72e6177e1c78",
+  "source": "Show the values of these locales (comma separated) next to each message, in place of the {0}related locales{/0} of the target.",
+  "text": "Показывать значения этих локалей (через запятую) рядом с каждым сообщением вместо {0}связанных локалей{/0} целевой локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Показывать значения этих локалей (через запятую) рядом с каждым сообщением вместо {0}связанных локалей{/0} целевой локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

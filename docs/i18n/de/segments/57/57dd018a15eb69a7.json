@@ -1,0 +1,14 @@
+{
+  "hash": "57dd018a15eb69a7",
+  "source": "The check is off by default.",
+  "text": "Die Prüfung ist standardmäßig deaktiviert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Prüfung ist standardmäßig deaktiviert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

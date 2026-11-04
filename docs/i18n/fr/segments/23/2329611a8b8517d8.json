@@ -1,0 +1,14 @@
+{
+  "hash": "2329611a8b8517d8",
+  "source": "{0} writes a static, read-only copy of the UI:",
+  "text": "{0} écrit une copie statique en lecture seule de l'UI :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} écrit une copie statique en lecture seule de l'UI :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

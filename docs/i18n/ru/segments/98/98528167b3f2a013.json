@@ -1,0 +1,14 @@
+{
+  "hash": "98528167b3f2a013",
+  "source": "values with no letters once placeholders, nesting references and tags are removed ({0}, {1}, {2}),",
+  "text": "значения без букв после удаления плейсхолдеров, ссылок на вложенные сообщения и тегов ({0}, {1}, {2}),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "значения без букв после удаления плейсхолдеров, ссылок на вложенные сообщения и тегов ({0}, {1}, {2}),"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

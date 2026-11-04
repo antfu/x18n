@@ -1,0 +1,14 @@
+{
+  "hash": "cd6c3c5afad3d1a1",
+  "source": "Angular placeholders: {0}, {1}, {2}. XLIFF and XMB placeholders read the same way.",
+  "text": "Плейсхолдеры Angular: {0}, {1}, {2}. Плейсхолдеры XLIFF и XMB читаются так же.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Плейсхолдеры Angular: {0}, {1}, {2}. Плейсхолдеры XLIFF и XMB читаются так же."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

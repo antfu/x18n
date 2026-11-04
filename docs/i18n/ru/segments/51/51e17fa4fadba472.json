@@ -1,0 +1,14 @@
+{
+  "hash": "51e17fa4fadba472",
+  "source": "A message with an empty string value.",
+  "text": "Сообщение с пустой строкой в качестве значения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщение с пустой строкой в качестве значения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

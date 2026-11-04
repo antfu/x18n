@@ -1,0 +1,14 @@
+{
+  "hash": "001e76e23ba3f16d",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11} and {12}. {13} is a factory: the {14}, {15}, {16} and {17} that it returns count too.",
+  "text": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11} et {12}. {13} est une fabrique : les {14}, {15}, {16} et {17} qu'elle renvoie comptent aussi.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11} et {12}. {13} est une fabrique : les {14}, {15}, {16} et {17} qu'elle renvoie comptent aussi."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

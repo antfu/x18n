@@ -1,0 +1,14 @@
+{
+  "hash": "b670ef9471bb5d0c",
+  "source": "Type names that make a parameter a translate function, such as {0}.",
+  "text": "Имена типов, по которым параметр считается функцией перевода, например {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Имена типов, по которым параметр считается функцией перевода, например {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

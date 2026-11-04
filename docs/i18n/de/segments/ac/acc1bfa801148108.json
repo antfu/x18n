@@ -1,0 +1,14 @@
+{
+  "hash": "acc1bfa801148108",
+  "source": "Also translate stale translations: those older than their source message. Needs git history.",
+  "text": "Übersetze auch veraltete Übersetzungen: solche, die älter sind als ihre Quell-message. Benötigt die git-Historie.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Übersetze auch veraltete Übersetzungen: solche, die älter sind als ihre Quell-message. Benötigt die git-Historie."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

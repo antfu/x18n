@@ -1,0 +1,14 @@
+{
+  "hash": "9d9a5036e2084ff7",
+  "source": "Run the {0} installed in the workspace's {1} instead of the bundled server, when there is one. Restart the server after changing this.",
+  "text": "Запускать {0}, установленный в {1} рабочего пространства, вместо встроенного сервера, если он есть. После изменения этой настройки перезапустите сервер.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Запускать {0}, установленный в {1} рабочего пространства, вместо встроенного сервера, если он есть. После изменения этой настройки перезапустите сервер."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

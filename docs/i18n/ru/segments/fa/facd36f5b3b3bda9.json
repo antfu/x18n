@@ -1,0 +1,14 @@
+{
+  "hash": "facd36f5b3b3bda9",
+  "source": "YAML and JSON configs are validated with a JSON Schema. Point your editor at it:",
+  "text": "Конфигурации в форматах YAML и JSON проверяются по JSON Schema. Подключите её в редакторе:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Конфигурации в форматах YAML и JSON проверяются по JSON Schema. Подключите её в редакторе:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

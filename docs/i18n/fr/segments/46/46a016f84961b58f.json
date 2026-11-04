@@ -1,0 +1,14 @@
+{
+  "hash": "46a016f84961b58f",
+  "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
+  "text": "« x18n : Find Key by Text » trouve la clé associée à un texte que vous voyez dans l'application. Saisissez une partie du texte, dans n'importe quelle langue. La recherche ignore la casse et utilise une correspondance approximative : les lettres doivent apparaître dans l'ordre, mais pas forcément les unes à côté des autres. La liste affiche d'abord les meilleures correspondances, avec la clé, la langue et le nombre d'utilisations. Choisissez une clé pour ouvrir son utilisation, ou choisissez parmi ses utilisations. Une clé qu'aucun code n'utilise s'ouvre à son entrée dans la langue. La commande démarre avec le texte sélectionné, et la vue Keys comporte un bouton pour la lancer.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "« x18n : Find Key by Text » trouve la clé associée à un texte que vous voyez dans l'application. Saisissez une partie du texte, dans n'importe quelle langue. La recherche ignore la casse et utilise une correspondance approximative : les lettres doivent apparaître dans l'ordre, mais pas forcément les unes à côté des autres. La liste affiche d'abord les meilleures correspondances, avec la clé, la langue et le nombre d'utilisations. Choisissez une clé pour ouvrir son utilisation, ou choisissez parmi ses utilisations. Une clé qu'aucun code n'utilise s'ouvre à son entrée dans la langue. La commande démarre avec le texte sélectionné, et la vue Keys comporte un bouton pour la lancer."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "78558c90a1309476",
+  "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
+  "text": "Une portée est une région de code avec un espace de noms ou un préfixe de clé par défaut. Dans react-i18next, {0} fait que {1} signifie {2} dans le code qui utilise ce {3}. Dans next-intl, {4} fait que {5} signifie {6}. Les presets connaissent ces fabriques. Un plugin YAML peut ajouter des portées avec une expression régulière.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une portée est une région de code avec un espace de noms ou un préfixe de clé par défaut. Dans react-i18next, {0} fait que {1} signifie {2} dans le code qui utilise ce {3}. Dans next-intl, {4} fait que {5} signifie {6}. Les presets connaissent ces fabriques. Un plugin YAML peut ajouter des portées avec une expression régulière."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

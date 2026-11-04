@@ -1,0 +1,14 @@
+{
+  "hash": "a91fde33ed81f850",
+  "source": "Strings never extracted in the files of a glob, written as in {0}.",
+  "text": "Chaînes jamais extraites dans les fichiers d'un glob, écrit comme dans {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaînes jamais extraites dans les fichiers d'un glob, écrit comme dans {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

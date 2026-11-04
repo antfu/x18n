@@ -1,0 +1,14 @@
+{
+  "hash": "670e323279a36943",
+  "source": "Invalid config. Check the reported field against the config schema (`x18n schema config`).",
+  "text": "Недопустимая конфигурация. Проверьте указанное поле по схеме конфигурации (`x18n schema config`).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Недопустимая конфигурация. Проверьте указанное поле по схеме конфигурации (`x18n schema config`)."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

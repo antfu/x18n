@@ -1,0 +1,14 @@
+{
+  "hash": "a3ba5e7ce27cd627",
+  "source": "The Vite plugin of laravel-vue-i18n writes {0} files from the PHP files while {1} runs. The preset adds {2} to {3} for each locale with PHP files, so these copies are not read as locales.",
+  "text": "Vite-плагин laravel-vue-i18n записывает файлы {0} из PHP-файлов во время работы {1}. Пресет добавляет {2} в {3} для каждой локали с PHP-файлами, чтобы эти копии не считались локалями.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Vite-плагин laravel-vue-i18n записывает файлы {0} из PHP-файлов во время работы {1}. Пресет добавляет {2} в {3} для каждой локали с PHP-файлами, чтобы эти копии не считались локалями."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

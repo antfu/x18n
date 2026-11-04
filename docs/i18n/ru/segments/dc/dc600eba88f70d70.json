@@ -1,0 +1,14 @@
+{
+  "hash": "dc600eba88f70d70",
+  "source": "Name the package {0}, or {1}. Then YAML and JSON configs can load it by name, and users can find it on npm.",
+  "text": "Назовите пакет {0} или {1}. Тогда конфигурации YAML и JSON смогут загружать его по имени, а пользователи — находить его в npm.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Назовите пакет {0} или {1}. Тогда конфигурации YAML и JSON смогут загружать его по имени, а пользователи — находить его в npm."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

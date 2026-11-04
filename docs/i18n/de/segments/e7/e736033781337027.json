@@ -1,0 +1,14 @@
+{
+  "hash": "e736033781337027",
+  "source": "One level of the key tree, with translation counts.",
+  "text": "Eine Ebene des Schlüsselbaums, mit Anzahl der Übersetzungen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Ebene des Schlüsselbaums, mit Anzahl der Übersetzungen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

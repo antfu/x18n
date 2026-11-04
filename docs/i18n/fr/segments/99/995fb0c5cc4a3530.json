@@ -1,0 +1,14 @@
+{
+  "hash": "995fb0c5cc4a3530",
+  "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
+  "text": "L'objet passé après la clé contient les paramètres d'interpolation, que la vérification {0} compare avec les espaces réservés du message source. Une fonction de paramètres ({1}) est ignorée, tout comme le marqueur {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'objet passé après la clé contient les paramètres d'interpolation, que la vérification {0} compare avec les espaces réservés du message source. Une fonction de paramètres ({1}) est ignorée, tout comme le marqueur {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

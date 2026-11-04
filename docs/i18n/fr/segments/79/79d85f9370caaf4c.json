@@ -1,0 +1,14 @@
+{
+  "hash": "79d85f9370caaf4c",
+  "source": "Run the command again with {0} to accept the default answer of each decision.",
+  "text": "Relancez la commande avec {0} pour accepter la réponse par défaut de chaque décision.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Relancez la commande avec {0} pour accepter la réponse par défaut de chaque décision."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

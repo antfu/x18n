@@ -1,0 +1,14 @@
+{
+  "hash": "5cfca51f4f16639d",
+  "source": "In YAML, write regular expressions in single quotes, so that backslashes stay as they are.",
+  "text": "En YAML, écrivez les expressions régulières entre apostrophes simples afin que les barres obliques inverses restent telles quelles.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En YAML, écrivez les expressions régulières entre apostrophes simples afin que les barres obliques inverses restent telles quelles."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

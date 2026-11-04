@@ -1,0 +1,14 @@
+{
+  "hash": "7801cf2e86eb4f32",
+  "source": "Every surface reads the same config and reports the same diagnostics. The CLI in CI, the editor and the UI always agree.",
+  "text": "Каждый интерфейс читает одну и ту же конфигурацию и сообщает об одних и тех же диагностиках. CLI в CI, редактор и UI всегда согласованы.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Каждый интерфейс читает одну и ту же конфигурацию и сообщает об одних и тех же диагностиках. CLI в CI, редактор и UI всегда согласованы."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

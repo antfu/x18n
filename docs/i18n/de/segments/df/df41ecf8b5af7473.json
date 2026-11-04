@@ -1,0 +1,14 @@
+{
+  "hash": "df41ecf8b5af7473",
+  "source": "Or pass a preset object from a TS config, for example {0}.",
+  "text": "Oder übergib ein Preset-Objekt aus einer TS-Konfiguration, zum Beispiel {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Oder übergib ein Preset-Objekt aus einer TS-Konfiguration, zum Beispiel {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

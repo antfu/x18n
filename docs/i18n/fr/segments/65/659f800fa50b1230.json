@@ -1,0 +1,14 @@
+{
+  "hash": "659f800fa50b1230",
+  "source": "The check compares the params a translate call passes with the placeholders of the source message. For {0}, it reports {1}: {2} is missing and {3} is unused.",
+  "text": "La vérification compare les paramètres qu'un appel de traduction transmet avec les espaces réservés du message source. Pour {0}, elle signale {1} : {2} est manquant et {3} est inutilisé.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La vérification compare les paramètres qu'un appel de traduction transmet avec les espaces réservés du message source. Pour {0}, elle signale {1} : {2} est manquant et {3} est inutilisé."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

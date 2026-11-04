@@ -1,0 +1,14 @@
+{
+  "hash": "d2edb71c90b432fd",
+  "source": "Key separator of matching files, over {0}. {1} for files keyed by whole sentences (Laravel {2}).",
+  "text": "Разделитель ключей в подходящих файлах, переопределяет {0}. {1} для файлов, ключами в которых служат целые предложения (Laravel {2}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Разделитель ключей в подходящих файлах, переопределяет {0}. {1} для файлов, ключами в которых служат целые предложения (Laravel {2})."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

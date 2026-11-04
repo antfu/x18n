@@ -1,0 +1,14 @@
+{
+  "hash": "ce7984db41521ac9",
+  "source": "A Rails locale file starts with the locale code as its top-level key. The preset reads the messages under that key, so the keys do not start with the locale:",
+  "text": "Un fichier de langue Rails commence par le code de la langue comme clé de premier niveau. Le preset lit les messages sous cette clé, de sorte que les clés ne commencent pas par la langue :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un fichier de langue Rails commence par le code de la langue comme clé de premier niveau. Le preset lit les messages sous cette clé, de sorte que les clés ne commencent pas par la langue :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

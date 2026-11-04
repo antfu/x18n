@@ -1,0 +1,14 @@
+{
+  "hash": "8abb31361f5ea882",
+  "source": "x18n reads the i18n setup of a project: the locale files, and the translate calls in the code. It shows every key across locales, finds where each key is used, and reports keys that are missing, unused or broken. It also changes locale files for you, without breaking their format.",
+  "text": "x18n lit la configuration i18n d'un projet : les fichiers de langue et les appels de traduction dans le code. Il affiche chaque clé pour toutes les langues, trouve où chaque clé est utilisée et signale les clés manquantes, inutilisées ou cassées. Il modifie aussi les fichiers de langue à votre place, sans casser leur format.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n lit la configuration i18n d'un projet : les fichiers de langue et les appels de traduction dans le code. Il affiche chaque clé pour toutes les langues, trouve où chaque clé est utilisée et signale les clés manquantes, inutilisées ou cassées. Il modifie aussi les fichiers de langue à votre place, sans casser leur format."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

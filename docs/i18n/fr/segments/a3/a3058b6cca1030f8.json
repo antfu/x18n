@@ -1,0 +1,14 @@
+{
+  "hash": "a3058b6cca1030f8",
+  "source": "It asks you about key naming, glossary terms, tone per locale, deleting unused keys and large renames.",
+  "text": "Il vous interroge sur le nommage des clés, les termes du glossaire, le ton par langue, la suppression des clés inutilisées et les renommages importants.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il vous interroge sur le nommage des clés, les termes du glossaire, le ton par langue, la suppression des clés inutilisées et les renommages importants."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

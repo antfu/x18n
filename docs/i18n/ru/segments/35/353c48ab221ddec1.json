@@ -1,0 +1,14 @@
+{
+  "hash": "353c48ab221ddec1",
+  "source": "How a coding agent finds keys by their text, finds missing keys, adds and translates messages, and checks its work with the x18n CLI.",
+  "text": "Как агент для написания кода находит ключи по их тексту, находит отсутствующие ключи, добавляет и переводит сообщения и проверяет свою работу с помощью x18n CLI.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Как агент для написания кода находит ключи по их тексту, находит отсутствующие ключи, добавляет и переводит сообщения и проверяет свою работу с помощью x18n CLI."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

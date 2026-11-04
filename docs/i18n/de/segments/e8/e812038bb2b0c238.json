@@ -1,0 +1,14 @@
+{
+  "hash": "e812038bb2b0c238",
+  "source": "Scanners",
+  "text": "Scanner",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Scanner"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

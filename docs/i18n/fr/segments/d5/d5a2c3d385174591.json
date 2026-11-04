@@ -1,0 +1,14 @@
+{
+  "hash": "d5a2c3d385174591",
+  "source": "Longest value shown in an annotation. Longer values are truncated, and in-place mode falls back to an after-key hint.",
+  "text": "Longueur maximale d'une valeur affichée dans une annotation. Les valeurs plus longues sont tronquées, et le mode de remplacement se rabat sur un indice après la clé.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Longueur maximale d'une valeur affichée dans une annotation. Les valeurs plus longues sont tronquées, et le mode de remplacement se rabat sur un indice après la clé."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

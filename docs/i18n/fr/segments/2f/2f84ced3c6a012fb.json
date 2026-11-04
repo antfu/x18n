@@ -1,0 +1,14 @@
+{
+  "hash": "2f84ced3c6a012fb",
+  "source": "Run the checks (missing translations, placeholder mismatches, invalid syntax, unused and undefined keys, ...) and return diagnostics, paged. After writing messages, call it with {0} and fix what it reports.",
+  "text": "Exécute les vérifications (traductions manquantes, espaces réservés incohérents, syntaxe invalide, clés inutilisées et non définies, ...) et renvoie les diagnostics, par pages. Après avoir écrit des messages, appelez-le avec {0} et corrigez ce qu'il signale.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exécute les vérifications (traductions manquantes, espaces réservés incohérents, syntaxe invalide, clés inutilisées et non définies, ...) et renvoie les diagnostics, par pages. Après avoir écrit des messages, appelez-le avec {0} et corrigez ce qu'il signale."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

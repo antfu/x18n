@@ -1,0 +1,14 @@
+{
+  "hash": "73746dbd7b6a5e6e",
+  "source": "and adds {0} and {1} to {2}.",
+  "text": "und fügt {0} und {1} zu {2} hinzu.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "und fügt {0} und {1} zu {2} hinzu."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

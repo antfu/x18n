@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "Strings in der Zeile des Kommentars und in der nächsten Zeile.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Strings in der Zeile des Kommentars und in der nächsten Zeile."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

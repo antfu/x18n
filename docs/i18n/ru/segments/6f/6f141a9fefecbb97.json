@@ -1,0 +1,14 @@
+{
+  "hash": "6f141a9fefecbb97",
+  "source": "The term as written in source values.",
+  "text": "Термин в том виде, как он записан в исходных значениях.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Термин в том виде, как он записан в исходных значениях."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

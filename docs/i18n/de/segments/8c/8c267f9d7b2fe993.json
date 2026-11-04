@@ -1,0 +1,14 @@
+{
+  "hash": "8c267f9d7b2fe993",
+  "source": "List plugins in the {0} option of the config. An entry is a path, a package name, {1}, or in TS a plugin object:",
+  "text": "Führe Plugins in der Option {0} der Konfiguration auf. Ein Eintrag ist ein Pfad, ein Paketname, {1} oder, in TS, ein Plugin-Objekt:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führe Plugins in der Option {0} der Konfiguration auf. Ein Eintrag ist ein Pfad, ein Paketname, {1} oder, in TS, ein Plugin-Objekt:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

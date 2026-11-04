@@ -1,0 +1,14 @@
+{
+  "hash": "a2e8aed48de57c5b",
+  "source": "Key not found. List keys with `x18n keys` (agents: the `x18n_keys` tool).",
+  "text": "Clé introuvable. Listez les clés avec `x18n keys` (agents : l'outil `x18n_keys`).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Clé introuvable. Listez les clés avec `x18n keys` (agents : l'outil `x18n_keys`)."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

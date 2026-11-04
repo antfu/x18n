@@ -1,0 +1,14 @@
+{
+  "hash": "11b83bdc36bf4820",
+  "source": "A plugin is an object that adds capabilities through the plugin API. A capability is one kind of contribution: a format, a locale finder, a scanner, an extractor, a check, a reporter or a placeholder syntax. A preset is a group of plugins for one library, with a rule that detects the library. See {0}Writing plugins{/0}.",
+  "text": "Плагин — это объект, который добавляет возможности через API плагинов. Возможность — это один вид вклада: формат, поиск локалей, сканер, экстрактор, проверка, репортер или синтаксис плейсхолдеров. Пресет — это группа плагинов для одной библиотеки с правилом, которое её определяет. См. {0}Написание плагинов{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Плагин — это объект, который добавляет возможности через API плагинов. Возможность — это один вид вклада: формат, поиск локалей, сканер, экстрактор, проверка, репортер или синтаксис плейсхолдеров. Пресет — это группа плагинов для одной библиотеки с правилом, которое её определяет. См. {0}Написание плагинов{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

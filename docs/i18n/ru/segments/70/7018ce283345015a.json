@@ -1,0 +1,14 @@
+{
+  "hash": "7018ce283345015a",
+  "source": "Editor decoration that hides a key and shows its display-locale value.",
+  "text": "Декорация в редакторе, которая скрывает ключ и показывает значение для локали отображения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Декорация в редакторе, которая скрывает ключ и показывает значение для локали отображения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

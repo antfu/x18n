@@ -1,0 +1,14 @@
+{
+  "hash": "0ad1ce9a5fe1471d",
+  "source": "The source locale is the locale that is the source of truth. Checks compare the other locales with it, translate prompts translate from it, and go to definition opens its messages. Set it with {0}. The default is {1}.",
+  "text": "Die Quellsprache ist die Sprache, die als maßgebliche Quelle dient. Prüfungen vergleichen die anderen Sprachen mit ihr, Übersetzungs-Prompts übersetzen aus ihr, und „Gehe zu Definition“ öffnet ihre Messages. Lege sie mit {0} fest. Der Standardwert ist {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Quellsprache ist die Sprache, die als maßgebliche Quelle dient. Prüfungen vergleichen die anderen Sprachen mit ihr, Übersetzungs-Prompts übersetzen aus ihr, und „Gehe zu Definition“ öffnet ihre Messages. Lege sie mit {0} fest. Der Standardwert ist {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

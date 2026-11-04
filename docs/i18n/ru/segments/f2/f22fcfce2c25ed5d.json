@@ -1,0 +1,14 @@
+{
+  "hash": "f22fcfce2c25ed5d",
+  "source": "Decision id to option id, for decisions in the plan. Default: each decision's {0}.",
+  "text": "Соответствие id решения и id варианта для решений из плана. По умолчанию: {0} каждого решения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Соответствие id решения и id варианта для решений из плана. По умолчанию: {0} каждого решения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

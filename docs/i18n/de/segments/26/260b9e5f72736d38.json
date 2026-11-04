@@ -1,0 +1,14 @@
+{
+  "hash": "260b9e5f72736d38",
+  "source": "react-intl puts the key in the {0} of a message descriptor:",
+  "text": "react-intl legt den Schlüssel im {0} eines Message-Descriptors ab:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "react-intl legt den Schlüssel im {0} eines Message-Descriptors ab:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

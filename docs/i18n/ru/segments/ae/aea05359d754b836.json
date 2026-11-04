@@ -1,0 +1,14 @@
+{
+  "hash": "aea05359d754b836",
+  "source": "Reports when each message last changed, for stale translations. Git is the built-in one.",
+  "text": "Сообщает, когда каждое сообщение менялось в последний раз, для выявления устаревших переводов. Встроенный провайдер — Git.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщает, когда каждое сообщение менялось в последний раз, для выявления устаревших переводов. Встроенный провайдер — Git."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

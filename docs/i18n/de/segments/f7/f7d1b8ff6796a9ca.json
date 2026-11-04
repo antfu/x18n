@@ -1,0 +1,14 @@
+{
+  "hash": "f7d1b8ff6796a9ca",
+  "source": "{0} is a usage of its {1}.",
+  "text": "{0} ist eine Verwendung seines {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ist eine Verwendung seines {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

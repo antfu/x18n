@@ -1,0 +1,14 @@
+{
+  "hash": "bcec13217529acde",
+  "source": "A YAML plugin ({0}): the declarative subset of the plugin API.",
+  "text": "YAML-плагин ({0}): декларативное подмножество API плагинов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML-плагин ({0}): декларативное подмножество API плагинов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

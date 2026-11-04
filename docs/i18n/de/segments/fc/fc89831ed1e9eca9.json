@@ -1,0 +1,14 @@
+{
+  "hash": "fc89831ed1e9eca9",
+  "source": "Only values containing the query; by default a fuzzy match also counts.",
+  "text": "Nur Werte, die die Suchanfrage enthalten; standardmäßig zählt auch ein Fuzzy-Treffer.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur Werte, die die Suchanfrage enthalten; standardmäßig zählt auch ein Fuzzy-Treffer."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

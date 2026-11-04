@@ -1,0 +1,14 @@
+{
+  "hash": "d3d9d771a10be83d",
+  "source": "Read the field path in the message and compare the value with the {0}config reference{/0}.",
+  "text": "Прочитайте путь к полю в сообщении и сравните значение со {0}справочником по конфигурации{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Прочитайте путь к полю в сообщении и сравните значение со {0}справочником по конфигурации{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

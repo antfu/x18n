@@ -1,0 +1,14 @@
+{
+  "hash": "d5a2c3d385174591",
+  "source": "Longest value shown in an annotation. Longer values are truncated, and in-place mode falls back to an after-key hint.",
+  "text": "Längster Wert, der in einer Annotation angezeigt wird. Längere Werte werden gekürzt, und der In-place-Modus weicht auf einen Hinweis nach dem Schlüssel aus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Längster Wert, der in einer Annotation angezeigt wird. Längere Werte werden gekürzt, und der In-place-Modus weicht auf einen Hinweis nach dem Schlüssel aus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

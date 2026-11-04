@@ -1,0 +1,14 @@
+{
+  "hash": "90758b0599214cce",
+  "source": "The extension starts in a workspace that has an {0} file or a {1}. It reads the same config as the CLI, so the editor and {2} report the same diagnostics.",
+  "text": "L'extension démarre dans un espace de travail qui contient un fichier {0} ou un {1}. Elle lit la même configuration que le CLI, de sorte que l'éditeur et {2} signalent les mêmes diagnostics.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'extension démarre dans un espace de travail qui contient un fichier {0} ou un {1}. Elle lit la même configuration que le CLI, de sorte que l'éditeur et {2} signalent les mêmes diagnostics."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

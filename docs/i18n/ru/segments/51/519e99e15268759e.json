@@ -1,0 +1,14 @@
+{
+  "hash": "519e99e15268759e",
+  "source": "markdown (default) or json",
+  "text": "markdown (по умолчанию) или json",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "markdown (по умолчанию) или json"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

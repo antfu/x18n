@@ -1,0 +1,14 @@
+{
+  "hash": "67cebadbd465a3a0",
+  "source": "A plural message is a key with the sub-keys {0}, {1}, {2} and {3}. When a usage names the key, these sub-keys count as used.",
+  "text": "Сообщение во множественном числе — это ключ с вложенными ключами {0}, {1}, {2} и {3}. Когда использование указывает такой ключ, эти вложенные ключи считаются использованными.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщение во множественном числе — это ключ с вложенными ключами {0}, {1}, {2} и {3}. Когда использование указывает такой ключ, эти вложенные ключи считаются использованными."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

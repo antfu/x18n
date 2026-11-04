@@ -1,0 +1,14 @@
+{
+  "hash": "cafc392e7b5a6e3c",
+  "source": "Add {0} as the first line. Your editor then shows the errors.",
+  "text": "Füge {0} als erste Zeile hinzu. Dein Editor zeigt dir dann die Fehler an.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Füge {0} als erste Zeile hinzu. Dein Editor zeigt dir dann die Fehler an."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

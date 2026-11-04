@@ -1,0 +1,14 @@
+{
+  "hash": "d4fdbef3822e1993",
+  "source": "Print the JSON contract.",
+  "text": "Affiche le contrat JSON.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Affiche le contrat JSON."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

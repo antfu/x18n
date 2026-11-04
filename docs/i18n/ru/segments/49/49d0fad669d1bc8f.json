@@ -1,0 +1,14 @@
+{
+  "hash": "49d0fad669d1bc8f",
+  "source": "Start the UI: browse and edit messages in the browser, with HTTP MCP at /\\_\\_mcp.",
+  "text": "Запустите UI: просматривайте и редактируйте сообщения в браузере, HTTP MCP доступен по адресу /\\_\\_mcp.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Запустите UI: просматривайте и редактируйте сообщения в браузере, HTTP MCP доступен по адресу /\\_\\_mcp."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

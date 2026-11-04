@@ -1,0 +1,14 @@
+{
+  "hash": "78edcfa6669e77f4",
+  "source": "The preset for Android string resources. It reads strings.xml, plurals and string arrays, and R.string and @string usages.",
+  "text": "Das Preset für Android-String-Ressourcen. Es liest strings.xml, Plurals und String-Arrays sowie R.string- und @string-Verwendungen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset für Android-String-Ressourcen. Es liest strings.xml, Plurals und String-Arrays sowie R.string- und @string-Verwendungen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

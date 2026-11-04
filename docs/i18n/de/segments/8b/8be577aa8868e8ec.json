@@ -1,0 +1,14 @@
+{
+  "hash": "8be577aa8868e8ec",
+  "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as next-translate does. A key without a namespace is in {2}.",
+  "text": "Das Preset setzt das Namespace-Trennzeichen auf {0} und den Standard-Namespace auf {1}, so wie next-translate es tut. Ein Schlüssel ohne Namespace gehört zu {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset setzt das Namespace-Trennzeichen auf {0} und den Standard-Namespace auf {1}, so wie next-translate es tut. Ein Schlüssel ohne Namespace gehört zu {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

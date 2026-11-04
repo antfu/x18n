@@ -1,0 +1,14 @@
+{
+  "hash": "f7e897ae3902a6b9",
+  "source": "The check has the severity {0}, but it runs only when the config turns it on.",
+  "text": "La vérification a la sévérité {0}, mais elle ne s'exécute que si la configuration l'active.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La vérification a la sévérité {0}, mais elle ne s'exécute que si la configuration l'active."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

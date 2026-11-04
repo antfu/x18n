@@ -1,0 +1,14 @@
+{
+  "hash": "4123b66e33fd39dc",
+  "source": "{0}, {1} and {2} in {3}, in every module. The folder gives the locale:",
+  "text": "{0}, {1} und {2} in {3}, in jedem Modul. Der Ordner bestimmt die Sprache:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} und {2} in {3}, in jedem Modul. Der Ordner bestimmt die Sprache:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

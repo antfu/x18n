@@ -1,0 +1,14 @@
+{
+  "hash": "d4ecd44620809e06",
+  "source": "the locales of its {0}fallback chain{/0}, such as {1} for {2} with {3},",
+  "text": "локали из её {0}цепочки фолбэков{/0}, например {1} для {2} с {3},",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "локали из её {0}цепочки фолбэков{/0}, например {1} для {2} с {3},"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

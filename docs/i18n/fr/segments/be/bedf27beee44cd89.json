@@ -1,0 +1,14 @@
+{
+  "hash": "bedf27beee44cd89",
+  "source": "{0} and the MCP tool {1} read messages per locale:",
+  "text": "{0} et l'outil MCP {1} lisent les messages par langue :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} et l'outil MCP {1} lisent les messages par langue :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

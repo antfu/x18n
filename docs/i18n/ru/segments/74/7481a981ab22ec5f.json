@@ -1,0 +1,14 @@
+{
+  "hash": "7481a981ab22ec5f",
+  "source": "The default export can also be a function that returns the config, or a promise of it.",
+  "text": "Экспорт по умолчанию также может быть функцией, которая возвращает конфигурацию, или промисом с ней.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Экспорт по умолчанию также может быть функцией, которая возвращает конфигурацию, или промисом с ней."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "acafc7b402dc95c1",
+  "source": "Deletes a key in every locale. {0} limits it. Code is not changed.",
+  "text": "Löscht einen Schlüssel in jeder Sprache. {0} schränkt das ein. Der Code wird nicht geändert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Löscht einen Schlüssel in jeder Sprache. {0} schränkt das ein. Der Code wird nicht geändert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

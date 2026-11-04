@@ -1,0 +1,14 @@
+{
+  "hash": "f895ba937b5e4249",
+  "source": "The agent edits the keys in the plan file, and removes the items it does not want, before it applies the plan.",
+  "text": "Перед применением плана агент редактирует ключи в файле плана и удаляет элементы, которые ему не нужны.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Перед применением плана агент редактирует ключи в файле плана и удаляет элементы, которые ему не нужны."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e6947909407068b3",
+  "source": "The preset sets no resource patterns. Without {0} in the config, x18n looks for directories such as {1}.",
+  "text": "Das Preset legt keine Ressourcen-Muster fest. Ohne {0} in der Konfiguration sucht x18n nach Verzeichnissen wie {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset legt keine Ressourcen-Muster fest. Ohne {0} in der Konfiguration sucht x18n nach Verzeichnissen wie {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

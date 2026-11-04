@@ -1,0 +1,14 @@
+{
+  "hash": "d2d09a4126be328f",
+  "source": "In a YAML or JSON config, use the package name. Pass options as the second item of a tuple:",
+  "text": "Verwende in einer YAML- oder JSON-Konfiguration den Paketnamen. Übergib Optionen als zweites Element eines Tupels:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Verwende in einer YAML- oder JSON-Konfiguration den Paketnamen. Übergib Optionen als zweites Element eines Tupels:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

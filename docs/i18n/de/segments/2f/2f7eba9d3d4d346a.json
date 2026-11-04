@@ -1,0 +1,14 @@
+{
+  "hash": "2f7eba9d3d4d346a",
+  "source": "The source file is the one {0} writes: {1}, {2}, {3} or {4} in the {5} of the {6} target, after its {7} and {8} options.",
+  "text": "Die Quelldatei ist die, die {0} schreibt: {1}, {2}, {3} oder {4} im {5} des {6}-Targets, nach dessen Optionen {7} und {8}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Quelldatei ist die, die {0} schreibt: {1}, {2}, {3} oder {4} im {5} des {6}-Targets, nach dessen Optionen {7} und {8}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "bf96b70954b2c472",
+  "source": "The preset for react-intl (FormatJS). It reads formatMessage, FormattedMessage, defineMessage and defineMessages.",
+  "text": "Le preset pour react-intl (FormatJS). Il lit formatMessage, FormattedMessage, defineMessage et defineMessages.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset pour react-intl (FormatJS). Il lit formatMessage, FormattedMessage, defineMessage et defineMessages."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

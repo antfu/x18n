@@ -1,0 +1,14 @@
+{
+  "hash": "b620a06544d8d382",
+  "source": "Fix the syntax error in the file.",
+  "text": "Исправьте синтаксическую ошибку в файле.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Исправьте синтаксическую ошибку в файле."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

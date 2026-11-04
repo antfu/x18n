@@ -1,0 +1,14 @@
+{
+  "hash": "a181302953b6b87e",
+  "source": "The extension treats a key such as {0} like an imported symbol:",
+  "text": "L'extension traite une clé telle que {0} comme un symbole importé :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'extension traite une clé telle que {0} comme un symbole importé :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

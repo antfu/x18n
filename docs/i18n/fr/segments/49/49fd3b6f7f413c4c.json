@@ -1,0 +1,14 @@
+{
+  "hash": "49fd3b6f7f413c4c",
+  "source": "Where the namespace comes from (call option, or factory argument when {0} is true), or a fixed namespace such as {1} for a hook that wraps {2}.",
+  "text": "Origine de l'espace de noms (option d'appel, ou argument de la fabrique quand {0} vaut true), ou espace de noms fixe comme {1} pour un hook qui enveloppe {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Origine de l'espace de noms (option d'appel, ou argument de la fabrique quand {0} vaut true), ou espace de noms fixe comme {1} pour un hook qui enveloppe {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

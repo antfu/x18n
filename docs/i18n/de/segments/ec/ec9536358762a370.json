@@ -1,0 +1,14 @@
+{
+  "hash": "ec9536358762a370",
+  "source": "x18n reads the locale files of any project, finds where each key is used, and reports missing, unused and broken keys. A CLI, a language server, a VS Code extension, a UI and MCP tools share one engine.",
+  "text": "x18n liest die Sprachdateien jedes Projekts, findet heraus, wo jeder Schlüssel verwendet wird, und meldet fehlende, ungenutzte und fehlerhafte Schlüssel. Eine CLI, ein language server, eine VS Code-Erweiterung, eine UI und MCP-Tools teilen sich eine Engine.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n liest die Sprachdateien jedes Projekts, findet heraus, wo jeder Schlüssel verwendet wird, und meldet fehlende, ungenutzte und fehlerhafte Schlüssel. Eine CLI, ein language server, eine VS Code-Erweiterung, eine UI und MCP-Tools teilen sich eine Engine."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

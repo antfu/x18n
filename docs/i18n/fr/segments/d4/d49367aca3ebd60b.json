@@ -1,0 +1,14 @@
+{
+  "hash": "d49367aca3ebd60b",
+  "source": "Adds a comment to the review thread of a message. {0} and {1} are filled in when planned.",
+  "text": "Ajoute un commentaire au fil de relecture d'un message. {0} et {1} sont renseignés lorsqu'ils sont prévus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ajoute un commentaire au fil de relecture d'un message. {0} et {1} sont renseignés lorsqu'ils sont prévus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

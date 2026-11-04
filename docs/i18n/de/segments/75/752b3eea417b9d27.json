@@ -1,0 +1,14 @@
+{
+  "hash": "752b3eea417b9d27",
+  "source": "Pick one project in a monorepo",
+  "text": "Wähle ein Projekt in einem Monorepo aus",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wähle ein Projekt in einem Monorepo aus"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

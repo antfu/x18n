@@ -1,0 +1,14 @@
+{
+  "hash": "b90d7c53e7ed3286",
+  "source": "Another path, or a package name, is imported as a module. Its default export is a plugin, a preset, or a function that takes the options and returns one.",
+  "text": "Другой путь или имя пакета импортируется как модуль. Его экспорт по умолчанию — это плагин, пресет или функция, которая принимает параметры и возвращает плагин или пресет.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Другой путь или имя пакета импортируется как модуль. Его экспорт по умолчанию — это плагин, пресет или функция, которая принимает параметры и возвращает плагин или пресет."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

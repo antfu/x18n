@@ -1,0 +1,14 @@
+{
+  "hash": "79619eb836f0588c",
+  "source": "{0} converts {1} into {2}. See {3}Migration{/3}.",
+  "text": "{0} wandelt {1} in {2} um. Siehe {3}Migration{/3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} wandelt {1} in {2} um. Siehe {3}Migration{/3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

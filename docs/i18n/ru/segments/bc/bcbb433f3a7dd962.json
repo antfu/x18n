@@ -1,0 +1,14 @@
+{
+  "hash": "bcbb433f3a7dd962",
+  "source": "Linked messages: {0} and {1}. The linked key counts as used, and the {2} check reports a linked key that does not exist.",
+  "text": "Связанные сообщения: {0} и {1}. Связанный ключ считается используемым, а проверка {2} сообщает о связанном ключе, которого не существует.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Связанные сообщения: {0} и {1}. Связанный ключ считается используемым, а проверка {2} сообщает о связанном ключе, которого не существует."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "Если при редактировании плейсхолдер удаляется или добавляется по сравнению с исходным значением, UI не сохраняет правку. Он показывает проблему, и вы всё равно можете сохранить значение.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если при редактировании плейсхолдер удаляется или добавляется по сравнению с исходным значением, UI не сохраняет правку. Он показывает проблему, и вы всё равно можете сохранить значение."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

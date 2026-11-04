@@ -1,0 +1,14 @@
+{
+  "hash": "6bd2f4d7dec61e98",
+  "source": "With {0}, a namespace can sit in folders. The preset sets {1} to {2}, so {3} is the namespace {4}, as in {5}.",
+  "text": "Mit {0} kann ein Namespace in Ordnern liegen. Das Preset setzt {1} auf {2}, sodass {3} der Namespace {4} ist, wie in {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mit {0} kann ein Namespace in Ordnern liegen. Das Preset setzt {1} auf {2}, sodass {3} der Namespace {4} ist, wie in {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

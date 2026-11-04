@@ -1,0 +1,14 @@
+{
+  "hash": "52bba896c0242514",
+  "source": "{0} is a usage of {1}, and {2} is a usage of {3}. x18n removes the extension ({4}, {5}, {6}) and the {7} of a partial name, so {8} in {9} is a usage of {10}.",
+  "text": "{0} — это использование {1}, а {2} — это использование {3}. x18n удаляет расширение ({4}, {5}, {6}) и {7} в имени partial, поэтому {8} в {9} — это использование {10}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} — это использование {1}, а {2} — это использование {3}. x18n удаляет расширение ({4}, {5}, {6}) и {7} в имени partial, поэтому {8} в {9} — это использование {10}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

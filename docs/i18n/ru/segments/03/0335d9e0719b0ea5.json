@@ -1,0 +1,14 @@
+{
+  "hash": "0335d9e0719b0ea5",
+  "source": "The config, or the input of a command, does not match what x18n expects. The message names the field and the problem, for example {0}.",
+  "text": "Конфигурация или входные данные команды не соответствуют ожиданиям x18n. В сообщении указаны поле и проблема, например {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Конфигурация или входные данные команды не соответствуют ожиданиям x18n. В сообщении указаны поле и проблема, например {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

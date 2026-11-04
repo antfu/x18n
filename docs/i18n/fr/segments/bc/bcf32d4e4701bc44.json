@@ -1,0 +1,14 @@
+{
+  "hash": "bcf32d4e4701bc44",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give its files another locale, set {2}:",
+  "text": "Un motif sans {0}, tel que {1}, désigne la langue source. Pour attribuer une autre langue à ses fichiers, définissez {2} :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un motif sans {0}, tel que {1}, désigne la langue source. Pour attribuer une autre langue à ses fichiers, définissez {2} :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

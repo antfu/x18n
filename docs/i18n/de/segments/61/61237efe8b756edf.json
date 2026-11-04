@@ -1,0 +1,14 @@
+{
+  "hash": "61237efe8b756edf",
+  "source": "{0}: {1} when {2} is {3}, else {4}",
+  "text": "{0}: {1}, wenn {2} {3} ist, sonst {4}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: {1}, wenn {2} {3} ist, sonst {4}"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

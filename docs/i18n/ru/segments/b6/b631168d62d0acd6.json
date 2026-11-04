@@ -1,0 +1,14 @@
+{
+  "hash": "b631168d62d0acd6",
+  "source": "Key (or parent of keys) to rename.",
+  "text": "Ключ (или родитель ключей) для переименования.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ (или родитель ключей) для переименования."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b65bb4e6c935a35e",
+  "source": "Colors appear only in a terminal. x18n honors {0} and {1}.",
+  "text": "Цвета отображаются только в терминале. x18n учитывает {0} и {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Цвета отображаются только в терминале. x18n учитывает {0} и {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

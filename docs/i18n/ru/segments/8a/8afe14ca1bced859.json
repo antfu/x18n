@@ -1,0 +1,14 @@
+{
+  "hash": "8afe14ca1bced859",
+  "source": "{0} and {1} are translate calls in JS and TS:",
+  "text": "{0} и {1} — это вызовы перевода в JS и TS:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} и {1} — это вызовы перевода в JS и TS:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

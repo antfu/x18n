@@ -1,0 +1,14 @@
+{
+  "hash": "0afad17d174061e7",
+  "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
+  "text": "Ключи, найденные по значению в любой локали, с нечётким поиском, если не указан {0}, вместе с их использованиями.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключи, найденные по значению в любой локали, с нечётким поиском, если не указан {0}, вместе с их использованиями."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

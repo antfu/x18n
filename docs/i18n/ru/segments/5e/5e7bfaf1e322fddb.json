@@ -1,0 +1,14 @@
+{
+  "hash": "5e7bfaf1e322fddb",
+  "source": "The {0} prop of {1} is a key. These names count as translate calls: {2}, {3} and {4}. {5} returns {6}, and {7} gives the {8} prop.",
+  "text": "Проп {0} компонента {1} — это ключ. Эти имена считаются вызовами перевода: {2}, {3} и {4}. {5} возвращает {6}, а {7} даёт проп {8}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проп {0} компонента {1} — это ключ. Эти имена считаются вызовами перевода: {2}, {3} и {4}. {5} возвращает {6}, а {7} даёт проп {8}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

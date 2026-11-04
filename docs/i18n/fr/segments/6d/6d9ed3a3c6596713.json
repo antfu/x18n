@@ -1,0 +1,14 @@
+{
+  "hash": "6d9ed3a3c6596713",
+  "source": "Author as {0} (default: review.author, then git user)",
+  "text": "Auteur sous la forme {0} (par défaut : review.author, puis l'utilisateur git)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Auteur sous la forme {0} (par défaut : review.author, puis l'utilisateur git)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

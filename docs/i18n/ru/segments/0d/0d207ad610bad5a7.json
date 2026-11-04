@@ -1,0 +1,14 @@
+{
+  "hash": "0d207ad610bad5a7",
+  "source": "translation (fine for non-source locales in prose), string",
+  "text": "translation (допустимо для неисходных локалей в тексте), string",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "translation (допустимо для неисходных локалей в тексте), string"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "21813d5f0d1a13ff",
+  "source": "A project that has no {0}, such as a PHP or Ruby project, can use YAML or JSON instead. These files need no installed package:",
+  "text": "Ein Projekt ohne {0}, etwa ein PHP- oder Ruby-Projekt, kann stattdessen YAML oder JSON verwenden. Diese Dateien benötigen kein installiertes Paket:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Projekt ohne {0}, etwa ein PHP- oder Ruby-Projekt, kann stattdessen YAML oder JSON verwenden. Diese Dateien benötigen kein installiertes Paket:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

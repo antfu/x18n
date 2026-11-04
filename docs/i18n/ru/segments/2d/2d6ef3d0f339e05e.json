@@ -1,0 +1,14 @@
+{
+  "hash": "2d6ef3d0f339e05e",
+  "source": "With the default {0}, x18n tests each preset in the order of the table. Most presets apply when the project depends on one of the listed packages. x18n reads the dependencies, dev dependencies and peer dependencies in {1}, the dependencies in {2}, {3}, {4} and {5}, and the Python requirements in {6} ({7}, {8}, {9} and the Poetry dependency tables) and {10}. Python package names compare in their normalized form, so {11} is {12}. The manifests in the parent directories, up to the git root, count too.",
+  "text": "При значении {0} по умолчанию x18n проверяет каждый пресет в порядке следования в таблице. Большинство пресетов применяются, когда проект зависит от одного из перечисленных пакетов. x18n читает dependencies, dev dependencies и peer dependencies в {1}, зависимости в {2}, {3}, {4} и {5}, а также Python-требования в {6} ({7}, {8}, {9} и таблицы зависимостей Poetry) и {10}. Имена Python-пакетов сравниваются в нормализованном виде, поэтому {11} — это {12}. Манифесты в родительских каталогах вплоть до корня git тоже учитываются.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "При значении {0} по умолчанию x18n проверяет каждый пресет в порядке следования в таблице. Большинство пресетов применяются, когда проект зависит от одного из перечисленных пакетов. x18n читает dependencies, dev dependencies и peer dependencies в {1}, зависимости в {2}, {3}, {4} и {5}, а также Python-требования в {6} ({7}, {8}, {9} и таблицы зависимостей Poetry) и {10}. Имена Python-пакетов сравниваются в нормализованном виде, поэтому {11} — это {12}. Манифесты в родительских каталогах вплоть до корня git тоже учитываются."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "454260cc95f853aa",
+  "source": "Plugin could not be loaded. Install the plugin package, or check the path.",
+  "text": "Impossible de charger le plugin. Installez le package du plugin ou vérifiez le chemin.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Impossible de charger le plugin. Installez le package du plugin ou vérifiez le chemin."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

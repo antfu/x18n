@@ -1,0 +1,14 @@
+{
+  "hash": "d2d09a4126be328f",
+  "source": "In a YAML or JSON config, use the package name. Pass options as the second item of a tuple:",
+  "text": "В конфигурации YAML или JSON укажите имя пакета. Передайте параметры вторым элементом кортежа:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В конфигурации YAML или JSON укажите имя пакета. Передайте параметры вторым элементом кортежа:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

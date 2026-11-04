@@ -1,0 +1,14 @@
+{
+  "hash": "c0b2d712a13632ad",
+  "source": "Write the output of a reporter to a file.",
+  "text": "Schreibe die Ausgabe eines Reporters in eine Datei.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schreibe die Ausgabe eines Reporters in eine Datei."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

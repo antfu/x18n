@@ -1,0 +1,14 @@
+{
+  "hash": "3f3b1282fd97dbd5",
+  "source": "Results go to stdout. Logs and progress go to stderr, so {0} works.",
+  "text": "Les résultats vont sur stdout. Les journaux et la progression vont sur stderr, de sorte que {0} fonctionne.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les résultats vont sur stdout. Les journaux et la progression vont sur stderr, de sorte que {0} fonctionne."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

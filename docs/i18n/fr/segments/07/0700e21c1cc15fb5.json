@@ -1,0 +1,14 @@
+{
+  "hash": "0700e21c1cc15fb5",
+  "source": "Path relative to the project root.",
+  "text": "Chemin relatif à la racine du projet.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chemin relatif à la racine du projet."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

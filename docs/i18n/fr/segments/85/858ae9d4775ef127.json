@@ -1,0 +1,14 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "Lorsque les paramètres contiennent des scanners regex, des portées, des modèles de refactorisation, des drapeaux de langue ou un framework personnalisé. La configuration l'indique dans {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lorsque les paramètres contiennent des scanners regex, des portées, des modèles de refactorisation, des drapeaux de langue ou un framework personnalisé. La configuration l'indique dans {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

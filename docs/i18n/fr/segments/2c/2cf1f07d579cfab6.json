@@ -1,0 +1,14 @@
+{
+  "hash": "2cf1f07d579cfab6",
+  "source": "Typed braces: {0}, {1}, {2}, {3} and {4}. The name is the part before {5} or {6}, so {7} in the base locale and {8} in a translation match. Plural parts such as {9} are not placeholders.",
+  "text": "Accolades typées : {0}, {1}, {2}, {3} et {4}. Le nom est la partie avant {5} ou {6}, donc {7} dans la langue de base et {8} dans une traduction correspondent. Les parties de pluriel telles que {9} ne sont pas des espaces réservés.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Accolades typées : {0}, {1}, {2}, {3} et {4}. Le nom est la partie avant {5} ou {6}, donc {7} dans la langue de base et {8} dans une traduction correspondent. Les parties de pluriel telles que {9} ne sont pas des espaces réservés."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

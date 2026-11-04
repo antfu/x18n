@@ -1,0 +1,14 @@
+{
+  "hash": "49e93ce2f849de05",
+  "source": "Apply extraction items from x18n\\_extract\\_plan: adds the messages to the source locale and rewrites the code. Fails when a file changed since the plan was made; plan again then.",
+  "text": "Applique les éléments d'extraction issus de x18n\\_extract\\_plan : ajoute les messages à la langue source et réécrit le code. Échoue lorsqu'un fichier a changé depuis la création du plan ; recréez alors un plan.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Applique les éléments d'extraction issus de x18n\\_extract\\_plan : ajoute les messages à la langue source et réécrit le code. Échoue lorsqu'un fichier a changé depuis la création du plan ; recréez alors un plan."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

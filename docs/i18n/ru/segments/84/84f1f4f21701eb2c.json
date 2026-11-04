@@ -1,0 +1,14 @@
+{
+  "hash": "84f1f4f21701eb2c",
+  "source": "Each plugin has a {0}. Names are unique, and the built-in plugins use the {1} prefix. Each capability has an {2}, unique within its kind. Two capabilities with the same id stop the load with {3}X18N1002{/3}, unless the later one sets {4}.",
+  "text": "У каждого плагина есть {0}. Имена уникальны, а встроенные плагины используют префикс {1}. У каждой возможности есть {2}, уникальный в пределах её вида. Две возможности с одинаковым идентификатором прерывают загрузку с ошибкой {3}X18N1002{/3}, если только более поздняя не задаёт {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "У каждого плагина есть {0}. Имена уникальны, а встроенные плагины используют префикс {1}. У каждой возможности есть {2}, уникальный в пределах её вида. Две возможности с одинаковым идентификатором прерывают загрузку с ошибкой {3}X18N1002{/3}, если только более поздняя не задаёт {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

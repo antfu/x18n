@@ -1,0 +1,14 @@
+{
+  "hash": "fdf083afa0c49521",
+  "source": "Report hard strings as {0} diagnostics.",
+  "text": "Melde hartcodierte Strings als {0}-Diagnosen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Melde hartcodierte Strings als {0}-Diagnosen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

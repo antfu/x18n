@@ -1,0 +1,14 @@
+{
+  "hash": "97fd8da1b784b48e",
+  "source": "outdated key (fine in UI labels)",
+  "text": "clé périmée (acceptable dans les libellés de l'interface utilisateur)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "clé périmée (acceptable dans les libellés de l'interface utilisateur)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

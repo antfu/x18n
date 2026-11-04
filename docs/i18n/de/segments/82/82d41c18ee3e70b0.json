@@ -1,0 +1,14 @@
+{
+  "hash": "82d41c18ee3e70b0",
+  "source": "A check",
+  "text": "Eine Prüfung",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Prüfung"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

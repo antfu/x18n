@@ -1,0 +1,14 @@
+{
+  "hash": "36f2812d3b4ef373",
+  "source": "Use another baseline file than {0}.",
+  "text": "Utilise un autre fichier de baseline que {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Utilise un autre fichier de baseline que {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

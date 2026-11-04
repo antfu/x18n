@@ -1,0 +1,14 @@
+{
+  "hash": "b9b89536afd2d534",
+  "source": "Go to definition opens the message in the source locale.",
+  "text": "Go to definition öffnet die message in der Quellsprache.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Go to definition öffnet die message in der Quellsprache."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

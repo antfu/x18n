@@ -1,0 +1,14 @@
+{
+  "hash": "9ebea7d27887c05e",
+  "source": "Run {0} to list open suggestions.",
+  "text": "Führe {0} aus, um offene Suggestions aufzulisten.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führe {0} aus, um offene Suggestions aufzulisten."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

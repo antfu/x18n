@@ -1,0 +1,14 @@
+{
+  "hash": "128403e69c5fe396",
+  "source": "The language server.",
+  "text": "Der language server.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der language server."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

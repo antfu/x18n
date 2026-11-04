@@ -1,0 +1,14 @@
+{
+  "hash": "bac4bd3937fdd126",
+  "source": "A translate call whose params differ from the placeholders of the source message.",
+  "text": "Un appel de traduction dont les paramètres diffèrent des espaces réservés du message source.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un appel de traduction dont les paramètres diffèrent des espaces réservés du message source."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

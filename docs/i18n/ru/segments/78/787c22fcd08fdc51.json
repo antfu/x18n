@@ -1,0 +1,14 @@
+{
+  "hash": "787c22fcd08fdc51",
+  "source": "Target locale code, as listed by {0}.",
+  "text": "Код целевой локали из списка, который возвращает {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Код целевой локали из списка, который возвращает {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

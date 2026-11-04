@@ -1,0 +1,14 @@
+{
+  "hash": "ce5c33334f48eee8",
+  "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
+  "text": "Die Kommentare {0}, {1} ... {2} und {3} überspringen Text wie in anderen Dateien.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Kommentare {0}, {1} ... {2} und {3} überspringen Text wie in anderen Dateien."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

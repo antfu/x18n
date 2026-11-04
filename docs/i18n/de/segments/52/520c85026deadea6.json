@@ -1,0 +1,14 @@
+{
+  "hash": "520c85026deadea6",
+  "source": "Turn every warning into an error. The config option {0} does the same.",
+  "text": "Wandle jede Warnung in einen Fehler um. Die Konfigurationsoption {0} bewirkt dasselbe.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wandle jede Warnung in einen Fehler um. Die Konfigurationsoption {0} bewirkt dasselbe."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

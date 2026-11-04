@@ -1,0 +1,14 @@
+{
+  "hash": "30b6fc55b2a48719",
+  "source": "an indexer on a localizer: {0}, {1}, {2}, {3}, {4} and {5}",
+  "text": "einen Indexer auf einem Localizer: {0}, {1}, {2}, {3}, {4} und {5}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "einen Indexer auf einem Localizer: {0}, {1}, {2}, {3}, {4} und {5}"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

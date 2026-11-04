@@ -1,0 +1,14 @@
+{
+  "hash": "ca85ea159cbd6272",
+  "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
+  "text": "Ревью — это комментарий к одному сообщению: одному ключу в одной локали. Комментарии к сообщению образуют его тред. У ревью один из четырёх типов:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ревью — это комментарий к одному сообщению: одному ключу в одной локали. Комментарии к сообщению образуют его тред. У ревью один из четырёх типов:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

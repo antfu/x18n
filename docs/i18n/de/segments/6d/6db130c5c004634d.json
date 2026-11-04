@@ -1,0 +1,14 @@
+{
+  "hash": "6db130c5c004634d",
+  "source": "Each entry of {0} is a translation file, as a path, a list of paths or {1}.",
+  "text": "Jeder Eintrag von {0} ist eine Übersetzungsdatei, angegeben als Pfad, als Liste von Pfaden oder als {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jeder Eintrag von {0} ist eine Übersetzungsdatei, angegeben als Pfad, als Liste von Pfaden oder als {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

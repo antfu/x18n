@@ -1,0 +1,14 @@
+{
+  "hash": "f062684b4925eac8",
+  "source": "Everything between the two comments. Without an end, everything to the end of the file.",
+  "text": "Всё между двумя комментариями. Без закрывающего комментария — всё до конца файла.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Всё между двумя комментариями. Без закрывающего комментария — всё до конца файла."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

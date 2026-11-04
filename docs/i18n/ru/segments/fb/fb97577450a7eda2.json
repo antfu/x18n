@@ -1,0 +1,14 @@
+{
+  "hash": "fb97577450a7eda2",
+  "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these files.",
+  "text": "Если в вашей конфигурации нет {0}, пресет использует {1} и {2}. Формат {3} читает и записывает эти файлы.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если в вашей конфигурации нет {0}, пресет использует {1} и {2}. Формат {3} читает и записывает эти файлы."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

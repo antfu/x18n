@@ -1,0 +1,14 @@
+{
+  "hash": "6de0aad05f172a8d",
+  "source": "Vite DevTools, Nuxt DevTools or a devframe hub, see {0}DevTools{/0}",
+  "text": "Vite DevTools, Nuxt DevTools ou un hub devframe, voir {0}DevTools{/0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Vite DevTools, Nuxt DevTools ou un hub devframe, voir {0}DevTools{/0}"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

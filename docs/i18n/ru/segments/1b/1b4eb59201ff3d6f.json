@@ -1,0 +1,14 @@
+{
+  "hash": "1b4eb59201ff3d6f",
+  "source": "it is a derived key of a used key ({0}, for example i18next {1} plural keys),",
+  "text": "он является производным ключом используемого ключа ({0}, например, ключи множественных форм {1} в i18next),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "он является производным ключом используемого ключа ({0}, например, ключи множественных форм {1} в i18next),"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

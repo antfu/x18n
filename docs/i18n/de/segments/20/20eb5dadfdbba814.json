@@ -1,0 +1,14 @@
+{
+  "hash": "20eb5dadfdbba814",
+  "source": "Longest slug, in characters. Default 40.",
+  "text": "Längster Slug in Zeichen. Standard: 40.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Längster Slug in Zeichen. Standard: 40."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8666174bd0ae4797",
+  "source": "Text in source code that should probably be a message.",
+  "text": "Text im Quellcode, der wahrscheinlich eine Message sein sollte.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Text im Quellcode, der wahrscheinlich eine Message sein sollte."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

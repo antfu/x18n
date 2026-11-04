@@ -1,0 +1,14 @@
+{
+  "hash": "16642c90c5fe91c1",
+  "source": "Percent braces: {0}. For the files above, the {1} check reports {2}, because {3} has no {4}.",
+  "text": "Percent braces: {0}. Для приведённых выше файлов проверка {1} сообщает {2}, потому что в {3} нет {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Percent braces: {0}. Для приведённых выше файлов проверка {1} сообщает {2}, потому что в {3} нет {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

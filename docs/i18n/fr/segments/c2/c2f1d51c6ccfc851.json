@@ -1,0 +1,14 @@
+{
+  "hash": "c2f1d51c6ccfc851",
+  "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
+  "text": "Ce qui découpe une clé en chemin : {0} correspond à {1} dans un fichier imbriqué. {2} rend les clés littérales, de sorte que {3} ou {4} forme une seule clé et qu'une nouvelle clé est une seule propriété (i18next {5}, gettext). Un motif de ressource peut définir le sien.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ce qui découpe une clé en chemin : {0} correspond à {1} dans un fichier imbriqué. {2} rend les clés littérales, de sorte que {3} ou {4} forme une seule clé et qu'une nouvelle clé est une seule propriété (i18next {5}, gettext). Un motif de ressource peut définir le sien."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

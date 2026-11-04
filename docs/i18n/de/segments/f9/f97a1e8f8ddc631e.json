@@ -1,0 +1,14 @@
+{
+  "hash": "f97a1e8f8ddc631e",
+  "source": "{0} looks only in {1}, and uses it as the project root.",
+  "text": "{0} sucht nur in {1} und verwendet es als Projektwurzel.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} sucht nur in {1} und verwendet es als Projektwurzel."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

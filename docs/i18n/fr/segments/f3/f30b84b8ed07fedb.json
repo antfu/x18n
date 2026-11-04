@@ -1,0 +1,14 @@
+{
+  "hash": "f30b84b8ed07fedb",
+  "source": "Run again with {0} to accept the defaults.",
+  "text": "Relancez avec {0} pour accepter les valeurs par défaut.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Relancez avec {0} pour accepter les valeurs par défaut."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

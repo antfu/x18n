@@ -1,0 +1,14 @@
+{
+  "hash": "17ab1b9ab5c49c63",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3}, because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "Ein Hover zeigt den Wert pro Sprache und die Anzahl der Verwendungen. Er verlinkt nur dann auf {0}, {1} und {2}, wenn der Client sie in {3} auflistet, da ein Client, der eine {4}-URL nicht ausführen kann, sie als Link öffnet und scheitert. Standardmäßig gibt es keine Links.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Hover zeigt den Wert pro Sprache und die Anzahl der Verwendungen. Er verlinkt nur dann auf {0}, {1} und {2}, wenn der Client sie in {3} auflistet, da ein Client, der eine {4}-URL nicht ausführen kann, sie als Link öffnet und scheitert. Standardmäßig gibt es keine Links."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

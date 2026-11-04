@@ -1,0 +1,14 @@
+{
+  "hash": "f2fc691c6ce726bd",
+  "source": "{0} refuses to replace an existing config. Pass {1} to replace it. See {2}Configuration{/2} for every way to change the setup.",
+  "text": "{0} отказывается заменять существующую конфигурацию. Передайте {1}, чтобы заменить её. Все способы изменить настройку описаны в разделе {2}Конфигурация{/2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} отказывается заменять существующую конфигурацию. Передайте {1}, чтобы заменить её. Все способы изменить настройку описаны в разделе {2}Конфигурация{/2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

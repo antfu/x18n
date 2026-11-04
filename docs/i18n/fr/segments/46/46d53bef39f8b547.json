@@ -1,0 +1,14 @@
+{
+  "hash": "46d53bef39f8b547",
+  "source": "A named value a translate call passes to its message ({0} in {1}), which a placeholder reads.",
+  "text": "Valeur nommée qu'un appel de traduction transmet à son message ({0} dans {1}), et qu'un espace réservé lit.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Valeur nommée qu'un appel de traduction transmet à son message ({0} dans {1}), et qu'un espace réservé lit."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

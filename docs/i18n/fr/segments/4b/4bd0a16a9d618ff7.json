@@ -1,0 +1,14 @@
+{
+  "hash": "4bd0a16a9d618ff7",
+  "source": "{0}Migration from i18n-ally{/0}: convert existing i18n-ally settings.",
+  "text": "{0}Migration depuis i18n-ally{/0} : convertissez les paramètres i18n-ally existants.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Migration depuis i18n-ally{/0} : convertissez les paramètres i18n-ally existants."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

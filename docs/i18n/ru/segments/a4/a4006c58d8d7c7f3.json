@@ -1,0 +1,14 @@
+{
+  "hash": "a4006c58d8d7c7f3",
+  "source": "A loader that computes its messages (for example with {0}) is not static. x18n reports it as {1}.",
+  "text": "Загрузчик, который вычисляет свои сообщения (например, с помощью {0}), не является статическим. x18n сообщает о нём как о {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Загрузчик, который вычисляет свои сообщения (например, с помощью {0}), не является статическим. x18n сообщает о нём как о {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

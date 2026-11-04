@@ -1,0 +1,14 @@
+{
+  "hash": "4df67c1f6fc4a0a3",
+  "source": "When a plugin does not work as you expect, ask x18n how it understood the project.",
+  "text": "Если плагин работает не так, как вы ожидаете, спросите x18n, как он понял проект.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если плагин работает не так, как вы ожидаете, спросите x18n, как он понял проект."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

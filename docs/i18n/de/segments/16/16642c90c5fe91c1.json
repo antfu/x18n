@@ -1,0 +1,14 @@
+{
+  "hash": "16642c90c5fe91c1",
+  "source": "Percent braces: {0}. For the files above, the {1} check reports {2}, because {3} has no {4}.",
+  "text": "Prozent-Klammern: {0}. Für die obigen Dateien meldet die Prüfung {1} den Wert {2}, weil {3} kein {4} hat.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Prozent-Klammern: {0}. Für die obigen Dateien meldet die Prüfung {1} den Wert {2}, weil {3} kein {4} hat."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

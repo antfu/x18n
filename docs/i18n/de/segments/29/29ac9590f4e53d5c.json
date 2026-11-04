@@ -1,0 +1,14 @@
+{
+  "hash": "29ac9590f4e53d5c",
+  "source": "Files that x18n cannot parse as locale files are errors. Source files that a scanner cannot parse are warnings. You cannot turn this diagnostic off in {0}. To skip a source file, exclude it with {1}.",
+  "text": "Dateien, die x18n nicht als Sprachdateien parsen kann, sind Fehler. Quelldateien, die ein Scanner nicht parsen kann, sind Warnungen. Du kannst diese Diagnose in {0} nicht ausschalten. Um eine Quelldatei zu überspringen, schließe sie mit {1} aus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dateien, die x18n nicht als Sprachdateien parsen kann, sind Fehler. Quelldateien, die ein Scanner nicht parsen kann, sind Warnungen. Du kannst diese Diagnose in {0} nicht ausschalten. Um eine Quelldatei zu überspringen, schließe sie mit {1} aus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

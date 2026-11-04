@@ -1,0 +1,14 @@
+{
+  "hash": "184c41b416a3f08f",
+  "source": "A keyset is the first part of the key. {0} is a usage of {1}, both in {2} and in one {3} with {4}.",
+  "text": "Ein Keyset ist der erste Teil des Schlüssels. {0} ist eine Verwendung von {1}, sowohl in {2} als auch in einem {3} mit {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Keyset ist der erste Teil des Schlüssels. {0} ist eine Verwendung von {1}, sowohl in {2} als auch in einem {3} mit {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

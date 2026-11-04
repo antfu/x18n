@@ -1,0 +1,14 @@
+{
+  "hash": "34970e1c66f96773",
+  "source": "Locale codes to leave out, as written in paths.",
+  "text": "Sprachcodes, die ausgelassen werden sollen, wie sie in Pfaden geschrieben werden.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sprachcodes, die ausgelassen werden sollen, wie sie in Pfaden geschrieben werden."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7e5c6b26793a029d",
+  "source": "Produces diagnostics from project state. {0} runs all checks.",
+  "text": "Produit des diagnostics à partir de l'état du projet. {0} exécute toutes les vérifications.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Produit des diagnostics à partir de l'état du projet. {0} exécute toutes les vérifications."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

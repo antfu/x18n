@@ -1,0 +1,14 @@
+{
+  "hash": "93b809aafad87cdf",
+  "source": "short all-caps words of up to five letters ({0}, {1}),",
+  "text": "les mots courts en majuscules d'au plus cinq lettres ({0}, {1}),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "les mots courts en majuscules d'au plus cinq lettres ({0}, {1}),"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e7016ebd807ffe7b",
+  "source": "The config or the command line is invalid.",
+  "text": "Конфигурация или командная строка некорректна.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Конфигурация или командная строка некорректна."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

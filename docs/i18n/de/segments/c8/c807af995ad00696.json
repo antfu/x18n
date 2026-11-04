@@ -1,0 +1,14 @@
+{
+  "hash": "c807af995ad00696",
+  "source": "The engine is {0}. It does no file access itself and knows no editor. A surface is a layer that people or tools use on top of the engine:",
+  "text": "Die Engine ist {0}. Sie greift selbst nicht auf Dateien zu und kennt keinen Editor. Eine Oberfläche ist eine Schicht, die Menschen oder Tools auf der Engine verwenden:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Engine ist {0}. Sie greift selbst nicht auf Dateien zu und kennt keinen Editor. Eine Oberfläche ist eine Schicht, die Menschen oder Tools auf der Engine verwenden:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

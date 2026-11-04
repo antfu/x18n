@@ -1,0 +1,14 @@
+{
+  "hash": "372c1783f66bd6bd",
+  "source": "{0}s of the unit, except location notes. A {1} note reads as {2}.",
+  "text": "{0}s der Einheit, außer Notizen zur Position. Eine {1}-Notiz wird als {2} gelesen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}s der Einheit, außer Notizen zur Position. Eine {1}-Notiz wird als {2} gelesen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

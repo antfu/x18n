@@ -1,0 +1,14 @@
+{
+  "hash": "1b7dbc8abb1e11ef",
+  "source": "Sets one value. {0} defaults to the source locale.",
+  "text": "Задаёт одно значение. {0} по умолчанию равен исходной локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Задаёт одно значение. {0} по умолчанию равен исходной локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

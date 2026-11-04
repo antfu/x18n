@@ -1,0 +1,14 @@
+{
+  "hash": "ff7140868c888b39",
+  "source": "{0} refuses values whose placeholders differ from the source value, and lists them in {1}. The agent fixes them and applies again. If the prompt says that more keys remain, the agent continues with {2}.",
+  "text": "{0} lehnt Werte ab, deren Platzhalter sich vom Quellwert unterscheiden, und listet sie in {1} auf. Der agent korrigiert sie und wendet sie erneut an. Wenn der Prompt angibt, dass noch weitere Schlüssel übrig sind, macht der agent mit {2} weiter.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} lehnt Werte ab, deren Platzhalter sich vom Quellwert unterscheiden, und listet sie in {1} auf. Der agent korrigiert sie und wendet sie erneut an. Wenn der Prompt angibt, dass noch weitere Schlüssel übrig sind, macht der agent mit {2} weiter."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

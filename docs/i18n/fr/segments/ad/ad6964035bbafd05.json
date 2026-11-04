@@ -1,0 +1,14 @@
+{
+  "hash": "ad6964035bbafd05",
+  "source": "A rule asks the agent to leave out a value that is right as it is, such as a word that is the same in both languages. To stop a key from being reported, add it to {0}, or add the term to the {1} with {2}.",
+  "text": "Une règle demande à l'agent d'écarter une valeur qui est correcte telle quelle, comme un mot identique dans les deux langues. Pour empêcher qu'une clé soit signalée, ajoutez-la à {0}, ou ajoutez le terme au {1} avec {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une règle demande à l'agent d'écarter une valeur qui est correcte telle quelle, comme un mot identique dans les deux langues. Pour empêcher qu'une clé soit signalée, ajoutez-la à {0}, ou ajoutez le terme au {1} avec {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

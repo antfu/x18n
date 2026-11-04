@@ -1,0 +1,14 @@
+{
+  "hash": "c60969351b23fe8c",
+  "source": "Include the value per locale",
+  "text": "Den Wert pro Sprache einbeziehen",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Den Wert pro Sprache einbeziehen"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

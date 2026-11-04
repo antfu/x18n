@@ -1,0 +1,14 @@
+{
+  "hash": "4b163ba5d9f7c661",
+  "source": "The CLI exits with code {0}.",
+  "text": "CLI завершается с кодом {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI завершается с кодом {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

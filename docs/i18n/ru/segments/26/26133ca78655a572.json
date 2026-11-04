@@ -1,0 +1,14 @@
+{
+  "hash": "26133ca78655a572",
+  "source": "{0} is the language server that the VS Code extension uses. Any editor with an LSP client can run it:",
+  "text": "{0} — это языковой сервер, который использует расширение для VS Code. Его можно запустить в любом редакторе с клиентом LSP:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} — это языковой сервер, который использует расширение для VS Code. Его можно запустить в любом редакторе с клиентом LSP:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

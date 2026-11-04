@@ -1,0 +1,14 @@
+{
+  "hash": "9576e95ca869bf25",
+  "source": "scope (that is a code region)",
+  "text": "scope (das ist ein Code-Bereich)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "scope (das ist ein Code-Bereich)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

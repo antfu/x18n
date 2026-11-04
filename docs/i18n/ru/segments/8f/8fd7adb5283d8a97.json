@@ -1,0 +1,14 @@
+{
+  "hash": "8fd7adb5283d8a97",
+  "source": "The best-matching locale, source first on ties.",
+  "text": "Наиболее подходящая локаль; при равенстве первой идёт исходная.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Наиболее подходящая локаль; при равенстве первой идёт исходная."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

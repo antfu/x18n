@@ -1,0 +1,14 @@
+{
+  "hash": "bdd9dd1afd82dce3",
+  "source": "x18n needs Node.js 22 or later. Run the commands in this page in the root directory of your project.",
+  "text": "Для x18n нужен Node.js 22 или новее. Выполняйте команды из этой страницы в корневом каталоге вашего проекта.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Для x18n нужен Node.js 22 или новее. Выполняйте команды из этой страницы в корневом каталоге вашего проекта."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

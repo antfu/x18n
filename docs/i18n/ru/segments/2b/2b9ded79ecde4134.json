@@ -1,0 +1,14 @@
+{
+  "hash": "2b9ded79ecde4134",
+  "source": "Style reference: up to five existing messages of the target locale, as examples of its tone. A value that is a copy of the source is never an example.",
+  "text": "Образец стиля: до пяти существующих сообщений целевой локали как примеры её тона. Значение, являющееся копией исходного, никогда не используется как пример.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Образец стиля: до пяти существующих сообщений целевой локали как примеры её тона. Значение, являющееся копией исходного, никогда не используется как пример."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

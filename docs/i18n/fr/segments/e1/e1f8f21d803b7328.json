@@ -1,0 +1,14 @@
+{
+  "hash": "e1f8f21d803b7328",
+  "source": "If the patterns of the presets match no file, x18n guesses the locale directories, as it does without presets. See {0}Locale files{/0}.",
+  "text": "Si les motifs des presets ne correspondent à aucun fichier, x18n devine les répertoires de langues, comme il le fait sans preset. Consultez {0}Fichiers de langue{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si les motifs des presets ne correspondent à aucun fichier, x18n devine les répertoires de langues, comme il le fait sans preset. Consultez {0}Fichiers de langue{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

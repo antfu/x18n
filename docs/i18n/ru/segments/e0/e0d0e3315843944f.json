@@ -1,0 +1,14 @@
+{
+  "hash": "e0d0e3315843944f",
+  "source": "Glossary: the entries of the {0} config, with their translation in the target locale.",
+  "text": "Глоссарий: записи из конфигурации {0} с их переводом на целевую локаль.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Глоссарий: записи из конфигурации {0} с их переводом на целевую локаль."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

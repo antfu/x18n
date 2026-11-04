@@ -1,0 +1,14 @@
+{
+  "hash": "6f141a9fefecbb97",
+  "source": "The term as written in source values.",
+  "text": "Der Begriff, wie er in den Quellwerten steht.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Begriff, wie er in den Quellwerten steht."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

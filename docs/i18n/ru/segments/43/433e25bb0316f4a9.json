@@ -1,0 +1,14 @@
+{
+  "hash": "433e25bb0316f4a9",
+  "source": "One root config with projects, each project with its own locales and its own config.",
+  "text": "Один корневой конфиг с проектами, у каждого проекта — свои локали и свой конфиг.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Один корневой конфиг с проектами, у каждого проекта — свои локали и свой конфиг."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

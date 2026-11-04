@@ -1,0 +1,14 @@
+{
+  "hash": "49a6efe6eff55c8e",
+  "source": "The {0} preset supports {1}Android string resources{/1}.",
+  "text": "Le preset {0} prend en charge les {1}ressources de chaînes Android{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge les {1}ressources de chaînes Android{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

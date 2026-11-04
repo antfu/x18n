@@ -1,0 +1,14 @@
+{
+  "hash": "ce753f8bfb895ab4",
+  "source": "Run matching JS/TS files in Node instead of reading them statically. Makes them read-only.",
+  "text": "Führt passende JS/TS-Dateien in Node aus, statt sie statisch zu lesen. Macht sie schreibgeschützt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führt passende JS/TS-Dateien in Node aus, statt sie statisch zu lesen. Macht sie schreibgeschützt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b0e8bf90966282e5",
+  "source": "Text of the message, as seen in the app, in any locale.",
+  "text": "Текст сообщения, как он виден в приложении, в любой локали.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Текст сообщения, как он виден в приложении, в любой локали."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

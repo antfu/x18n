@@ -1,0 +1,14 @@
+{
+  "hash": "92768450f0df5f9c",
+  "source": "Composite format items: {0}, {1}, {2}, {3} and {4}. {5} and {6} are literal braces, not placeholders.",
+  "text": "Composite-Format-Elemente: {0}, {1}, {2}, {3} und {4}. {5} und {6} sind literale geschweifte Klammern, keine Platzhalter.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Composite-Format-Elemente: {0}, {1}, {2}, {3} und {4}. {5} und {6} sind literale geschweifte Klammern, keine Platzhalter."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

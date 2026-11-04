@@ -1,0 +1,14 @@
+{
+  "hash": "86e122c4cdeaf83f",
+  "source": "The {0}MCP server{/0} gives the same tools to coding agents.",
+  "text": "{0}Сервер MCP{/0} предоставляет те же инструменты агентам, пишущим код.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Сервер MCP{/0} предоставляет те же инструменты агентам, пишущим код."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

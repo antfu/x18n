@@ -1,0 +1,14 @@
+{
+  "hash": "d3ad4fd161269348",
+  "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
+  "text": "Keys : un tableau avec une ligne par clé et une colonne par langue. Recherchez dans les clés et les valeurs, et filtrez par espace de noms, par langue dans laquelle la clé manque, par clés inutilisées, par clés avec problèmes ou par état de traduction. Une clé dont le format fournit un libellé affiche ce libellé, et la recherche le prend en compte. Sélectionnez une cellule et appuyez sur Entrée pour la modifier. Utilisez les flèches ou {0} et {1} pour vous déplacer, Échap pour annuler, {2} pour ouvrir la clé et {3} pour rechercher.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Keys : un tableau avec une ligne par clé et une colonne par langue. Recherchez dans les clés et les valeurs, et filtrez par espace de noms, par langue dans laquelle la clé manque, par clés inutilisées, par clés avec problèmes ou par état de traduction. Une clé dont le format fournit un libellé affiche ce libellé, et la recherche le prend en compte. Sélectionnez une cellule et appuyez sur Entrée pour la modifier. Utilisez les flèches ou {0} et {1} pour vous déplacer, Échap pour annuler, {2} pour ouvrir la clé et {3} pour rechercher."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

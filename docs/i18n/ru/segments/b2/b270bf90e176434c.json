@@ -1,0 +1,14 @@
+{
+  "hash": "b270bf90e176434c",
+  "source": "The {0} preset supports {1}Paraglide JS{/1} from inlang.",
+  "text": "Пресет {0} поддерживает {1}Paraglide JS{/1} от inlang.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет {0} поддерживает {1}Paraglide JS{/1} от inlang."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d3b3973f1f9b96b7",
+  "source": "Fixed locale for every matching file, for patterns without {0} ({1}).",
+  "text": "Фиксированная локаль для всех подходящих файлов, для шаблонов без {0} ({1}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Фиксированная локаль для всех подходящих файлов, для шаблонов без {0} ({1})."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

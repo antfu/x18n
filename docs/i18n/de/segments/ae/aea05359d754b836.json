@@ -1,0 +1,14 @@
+{
+  "hash": "aea05359d754b836",
+  "source": "Reports when each message last changed, for stale translations. Git is the built-in one.",
+  "text": "Meldet, wann sich jede message zuletzt geändert hat, für veraltete Übersetzungen. Git ist der integrierte Provider.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Meldet, wann sich jede message zuletzt geändert hat, für veraltete Übersetzungen. Git ist der integrierte Provider."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

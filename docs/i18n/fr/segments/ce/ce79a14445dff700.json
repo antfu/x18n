@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "Le serveur les exécute via {0}. L'argument est un objet. {1} correspond par défaut au premier projet.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le serveur les exécute via {0}. L'argument est un objet. {1} correspond par défaut au premier projet."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

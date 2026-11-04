@@ -1,0 +1,14 @@
+{
+  "hash": "69bae2f744b30d06",
+  "source": "A locale file has a syntax error. The message names the file and the position.",
+  "text": "В файле локали есть синтаксическая ошибка. В сообщении указаны файл и позиция.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В файле локали есть синтаксическая ошибка. В сообщении указаны файл и позиция."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

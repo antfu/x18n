@@ -1,0 +1,14 @@
+{
+  "hash": "080414f4194dc8e8",
+  "source": "The preset for gettext in Python, as in Django, Flask-Babel and Babel. It reads .po catalogs, gettext calls and Django translate tags.",
+  "text": "Das Preset für gettext in Python, etwa in Django, Flask-Babel und Babel. Es liest .po-Kataloge, gettext-Aufrufe und Django-Translate-Tags.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset für gettext in Python, etwa in Django, Flask-Babel und Babel. Es liest .po-Kataloge, gettext-Aufrufe und Django-Translate-Tags."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

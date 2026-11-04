@@ -1,0 +1,14 @@
+{
+  "hash": "334579bbdf513014",
+  "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
+  "text": "Review-Threads: Kommentare, Freigaben, Änderungsanfragen und vorgeschlagene Werte zu Messages, pro Schlüssel und Sprache, jeweils mit dem Status des Threads. Übergib {0}, um nur ungelöste anzuzeigen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Review-Threads: Kommentare, Freigaben, Änderungsanfragen und vorgeschlagene Werte zu Messages, pro Schlüssel und Sprache, jeweils mit dem Status des Threads. Übergib {0}, um nur ungelöste anzuzeigen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

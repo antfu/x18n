@@ -1,0 +1,14 @@
+{
+  "hash": "ccc669aeaf1dedc3",
+  "source": "A file, or a block inside a file, that holds messages for one locale and one namespace.",
+  "text": "Un fichier, ou un bloc à l'intérieur d'un fichier, qui contient les messages d'une langue et d'un espace de noms.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un fichier, ou un bloc à l'intérieur d'un fichier, qui contient les messages d'une langue et d'un espace de noms."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

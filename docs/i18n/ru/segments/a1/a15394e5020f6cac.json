@@ -1,0 +1,14 @@
+{
+  "hash": "a15394e5020f6cac",
+  "source": "The text that describes translation work for an agent or LLM.",
+  "text": "Текст, описывающий работу по переводу для агента или LLM.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Текст, описывающий работу по переводу для агента или LLM."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

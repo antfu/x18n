@@ -1,0 +1,14 @@
+{
+  "hash": "da5ce3819fee500c",
+  "source": "Turns raw key text into canonical form. The first plugin that returns a value wins.",
+  "text": "Приводит исходный текст ключа к каноническому виду. Побеждает первый плагин, вернувший значение.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Приводит исходный текст ключа к каноническому виду. Побеждает первый плагин, вернувший значение."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

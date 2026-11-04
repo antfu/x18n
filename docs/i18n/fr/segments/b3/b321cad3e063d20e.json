@@ -1,0 +1,14 @@
+{
+  "hash": "b321cad3e063d20e",
+  "source": "x18n found a config file, but it failed to run or read it. The message holds the error from the loader.",
+  "text": "x18n a trouvé un fichier de configuration, mais n'a pas réussi à l'exécuter ou à le lire. Le message contient l'erreur renvoyée par le chargeur.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n a trouvé un fichier de configuration, mais n'a pas réussi à l'exécuter ou à le lire. Le message contient l'erreur renvoyée par le chargeur."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

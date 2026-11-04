@@ -1,0 +1,14 @@
+{
+  "hash": "aac5b19dabb11467",
+  "source": "A key exists in English but not in German.",
+  "text": "Ein Schlüssel existiert auf Englisch, aber nicht auf Deutsch.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Schlüssel existiert auf Englisch, aber nicht auf Deutsch."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

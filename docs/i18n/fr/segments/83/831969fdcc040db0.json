@@ -1,0 +1,14 @@
+{
+  "hash": "831969fdcc040db0",
+  "source": "Extraction writes to {0}. As in Laravel JSON files, the key is the source text ({1}): {2} becomes {3}. Set {4} to change this.",
+  "text": "L'extraction écrit dans {0}. Comme dans les fichiers JSON de Laravel, la clé est le texte source ({1}) : {2} devient {3}. Définissez {4} pour modifier ce comportement.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'extraction écrit dans {0}. Comme dans les fichiers JSON de Laravel, la clé est le texte source ({1}) : {2} devient {3}. Définissez {4} pour modifier ce comportement."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

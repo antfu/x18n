@@ -1,0 +1,14 @@
+{
+  "hash": "d36b0e4a85a19745",
+  "source": "If the second one is meant to replace the first, set {0} on it.",
+  "text": "Si le second plugin est censé remplacer le premier, définissez {0} sur celui-ci.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si le second plugin est censé remplacer le premier, définissez {0} sur celui-ci."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f4638d3b23d43f17",
+  "source": "In {0}, {1}, {2} and {3} files, the preset reads {4}, {5}, {6} and {7}.",
+  "text": "Dans les fichiers {0}, {1}, {2} et {3}, le preset lit {4}, {5}, {6} et {7}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dans les fichiers {0}, {1}, {2} et {3}, le preset lit {4}, {5}, {6} et {7}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

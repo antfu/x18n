@@ -1,0 +1,14 @@
+{
+  "hash": "3642a49d99c94289",
+  "source": "Default: every project.",
+  "text": "По умолчанию: все проекты.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "По умолчанию: все проекты."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

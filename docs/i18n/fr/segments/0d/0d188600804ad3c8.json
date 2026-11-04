@@ -1,0 +1,14 @@
+{
+  "hash": "0d188600804ad3c8",
+  "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
+  "text": "Remplace les clés dans le code par leur valeur dans la langue d'affichage. La clé brute s'affiche sur la ligne du curseur et dans les sélections.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Remplace les clés dans le code par leur valeur dans la langue d'affichage. La clé brute s'affiche sur la ligne du curseur et dans les sélections."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

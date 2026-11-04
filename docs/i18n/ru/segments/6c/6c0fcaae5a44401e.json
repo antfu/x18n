@@ -1,0 +1,14 @@
+{
+  "hash": "6c0fcaae5a44401e",
+  "source": "A target value that equals the source value, except values that stay the same in every language.",
+  "text": "Значение в целевой локали совпадает с исходным, кроме значений, которые одинаковы во всех языках.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Значение в целевой локали совпадает с исходным, кроме значений, которые одинаковы во всех языках."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

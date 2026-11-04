@@ -1,0 +1,14 @@
+{
+  "hash": "a130304f73017ac5",
+  "source": "rule (fine inside extraction scoring), lint",
+  "text": "правило (допустимо при оценке извлечения), линт",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "правило (допустимо при оценке извлечения), линт"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

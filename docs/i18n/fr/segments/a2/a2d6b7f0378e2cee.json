@@ -1,0 +1,14 @@
+{
+  "hash": "a2d6b7f0378e2cee",
+  "source": "Convert i18n-ally settings, custom frameworks and reviews into an x18n config with x18n migrate i18n-ally.",
+  "text": "Convertissez les paramètres d'i18n-ally, les frameworks personnalisés et les relectures en une configuration x18n avec x18n migrate i18n-ally.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Convertissez les paramètres d'i18n-ally, les frameworks personnalisés et les relectures en une configuration x18n avec x18n migrate i18n-ally."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

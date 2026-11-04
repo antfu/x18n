@@ -1,0 +1,14 @@
+{
+  "hash": "e8e612b07471426a",
+  "source": "A file changed after x18n made the plan, so x18n did not write anything. For {0}, the source file changed after you wrote the plan file.",
+  "text": "Файл изменился после того, как x18n составил план, поэтому x18n ничего не записал. Для {0} исходный файл изменился после того, как вы записали файл плана.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Файл изменился после того, как x18n составил план, поэтому x18n ничего не записал. Для {0} исходный файл изменился после того, как вы записали файл плана."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

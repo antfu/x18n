@@ -1,0 +1,14 @@
+{
+  "hash": "f504a3859976fa1b",
+  "source": "Run {0} to list the keys, or {1} to search.",
+  "text": "Выполните {0}, чтобы вывести список ключей, или {1} для поиска.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Выполните {0}, чтобы вывести список ключей, или {1} для поиска."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

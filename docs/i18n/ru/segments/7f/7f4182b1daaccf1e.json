@@ -1,0 +1,14 @@
+{
+  "hash": "7f4182b1daaccf1e",
+  "source": "A translate call whose params differ from the placeholders of the source message.",
+  "text": "Вызов функции перевода, параметры которого не совпадают с плейсхолдерами исходного сообщения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Вызов функции перевода, параметры которого не совпадают с плейсхолдерами исходного сообщения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

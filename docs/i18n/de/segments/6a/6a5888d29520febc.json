@@ -1,0 +1,14 @@
+{
+  "hash": "6a5888d29520febc",
+  "source": "The {0} preset supports {1}Transloco{/1} in Angular projects.",
+  "text": "Das Preset {0} unterstützt {1}Transloco{/1} in Angular-Projekten.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset {0} unterstützt {1}Transloco{/1} in Angular-Projekten."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

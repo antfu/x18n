@@ -1,0 +1,14 @@
+{
+  "hash": "5a3de78f4eb20388",
+  "source": "A bare {0} call, for example from {1}, is not read: x18n can't tell it apart from other functions named {2}. Call it as {3}, or add {4} to {5} in your config.",
+  "text": "Ein einzelner {0}-Aufruf, zum Beispiel von {1}, wird nicht gelesen: x18n kann ihn nicht von anderen Funktionen mit dem Namen {2} unterscheiden. Rufe ihn als {3} auf oder füge {4} in deiner Konfiguration zu {5} hinzu.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein einzelner {0}-Aufruf, zum Beispiel von {1}, wird nicht gelesen: x18n kann ihn nicht von anderen Funktionen mit dem Namen {2} unterscheiden. Rufe ihn als {3} auf oder füge {4} in deiner Konfiguration zu {5} hinzu."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

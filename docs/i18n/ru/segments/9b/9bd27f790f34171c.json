@@ -1,0 +1,14 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "Пробный запуск массового удаления неиспользуемых ключей; {0} применяет его.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пробный запуск массового удаления неиспользуемых ключей; {0} применяет его."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

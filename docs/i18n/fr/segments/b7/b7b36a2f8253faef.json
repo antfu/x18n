@@ -1,0 +1,14 @@
+{
+  "hash": "b7b36a2f8253faef",
+  "source": "Where the params passed to the message are. For factories, those of the returned functions.",
+  "text": "Emplacement des paramètres passés au message. Pour les fabriques, ceux des fonctions retournées.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Emplacement des paramètres passés au message. Pour les fabriques, ceux des fonctions retournées."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8f9f16345626c19a",
+  "source": "Locale to the locale it falls back to, such as {0}. A locale with a fallback holds only overrides: a key it lacks or leaves empty is not missing when the fallback chain has it. {1} falls back to the nearest parent language that exists: {2} to {3}, {4} to {5} or {6}.",
+  "text": "Ordnet einer Sprache die Sprache zu, auf die sie zurückfällt, etwa {0}. Eine Sprache mit Fallback enthält nur Überschreibungen: Ein Schlüssel, der ihr fehlt oder den sie leer lässt, fehlt nicht, wenn die Fallback-Kette ihn enthält. {1} fällt auf die nächstgelegene übergeordnete Sprache zurück, die existiert: {2} auf {3}, {4} auf {5} oder {6}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ordnet einer Sprache die Sprache zu, auf die sie zurückfällt, etwa {0}. Eine Sprache mit Fallback enthält nur Überschreibungen: Ein Schlüssel, der ihr fehlt oder den sie leer lässt, fehlt nicht, wenn die Fallback-Kette ihn enthält. {1} fällt auf die nächstgelegene übergeordnete Sprache zurück, die existiert: {2} auf {3}, {4} auf {5} oder {6}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

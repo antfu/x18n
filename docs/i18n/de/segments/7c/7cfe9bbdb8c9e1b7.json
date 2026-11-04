@@ -1,0 +1,14 @@
+{
+  "hash": "7cfe9bbdb8c9e1b7",
+  "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
+  "text": "Strings, die nie extrahiert werden: ein exakter String wie {0} oder ein {1}-String wie {2}, der auf den Text passt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Strings, die nie extrahiert werden: ein exakter String wie {0} oder ein {1}-String wie {2}, der auf den Text passt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

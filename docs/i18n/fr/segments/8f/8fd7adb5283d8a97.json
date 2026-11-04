@@ -1,0 +1,14 @@
+{
+  "hash": "8fd7adb5283d8a97",
+  "source": "The best-matching locale, source first on ties.",
+  "text": "La langue qui correspond le mieux, la langue source en premier en cas d'égalité.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La langue qui correspond le mieux, la langue source en premier en cas d'égalité."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

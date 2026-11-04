@@ -1,0 +1,14 @@
+{
+  "hash": "bef9177b9fe80c71",
+  "source": "The locale that is the source of truth for checks, prompts and go to definition.",
+  "text": "La langue qui fait référence pour les vérifications, les prompts et l'accès à la définition.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La langue qui fait référence pour les vérifications, les prompts et l'accès à la définition."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

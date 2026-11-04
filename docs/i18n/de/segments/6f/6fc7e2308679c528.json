@@ -1,0 +1,14 @@
+{
+  "hash": "6fc7e2308679c528",
+  "source": "The proposed value, for {0}. Keep every placeholder.",
+  "text": "Der vorgeschlagene Wert für {0}. Behalte jeden Platzhalter bei.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der vorgeschlagene Wert für {0}. Behalte jeden Platzhalter bei."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "de16ae7bd47e9c41",
+  "source": "If a change needs a decision, such as the file for a new key, x18n asks in a terminal. {0} accepts the default answers. See {1}Plan and decision{/1}.",
+  "text": "Если для изменения нужно принять решение, например выбрать файл для нового ключа, x18n спрашивает об этом в терминале. {0} принимает ответы по умолчанию. См. {1}План и решение{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если для изменения нужно принять решение, например выбрать файл для нового ключа, x18n спрашивает об этом в терминале. {0} принимает ответы по умолчанию. См. {1}План и решение{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

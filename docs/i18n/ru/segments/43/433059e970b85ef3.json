@@ -1,0 +1,14 @@
+{
+  "hash": "433059e970b85ef3",
+  "source": "Tell the agent to run the command and follow what it prints. For example: \"Run {0} and follow the instructions it prints.\" The text always matches the version of the CLI that runs.",
+  "text": "Скажите агенту запустить команду и выполнить то, что она выведет. Например: «Запусти {0} и следуй выведенным инструкциям.» Текст всегда соответствует версии запущенного CLI.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Скажите агенту запустить команду и выполнить то, что она выведет. Например: «Запусти {0} и следуй выведенным инструкциям.» Текст всегда соответствует версии запущенного CLI."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

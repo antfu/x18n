@@ -1,0 +1,14 @@
+{
+  "hash": "c082fd2653d01009",
+  "source": "The {0} format reads and writes these catalogs. Each {1} is a key, and its {2} is the value. The preset sets {3}, so a {4} or {5} in a {6} stays part of the key:",
+  "text": "Le format {0} lit et écrit ces catalogues. Chaque {1} est une clé, et son {2} est la valeur. Le preset définit {3}, donc un {4} ou un {5} dans un {6} reste une partie de la clé :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le format {0} lit et écrit ces catalogues. Chaque {1} est une clé, et son {2} est la valeur. Le preset définit {3}, donc un {4} ou un {5} dans un {6} reste une partie de la clé :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

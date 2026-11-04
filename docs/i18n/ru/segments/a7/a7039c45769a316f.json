@@ -1,0 +1,14 @@
+{
+  "hash": "a7039c45769a316f",
+  "source": "{0} extracts every candidate with its proposed key.",
+  "text": "{0} извлекает всех кандидатов с предложенными ключами.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} извлекает всех кандидатов с предложенными ключами."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

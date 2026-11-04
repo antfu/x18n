@@ -1,0 +1,14 @@
+{
+  "hash": "352b648525ec2211",
+  "source": "The source of the skills is in {0} of the repository. A test makes sure that every command and flag that the skills and their references name exists in the CLI.",
+  "text": "Der Quelltext der Skills liegt in {0} des Repositorys. Ein Test stellt sicher, dass jeder Befehl und jedes Flag, die die Skills und ihre Referenzen nennen, im CLI existieren.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Quelltext der Skills liegt in {0} des Repositorys. Ein Test stellt sicher, dass jeder Befehl und jedes Flag, die die Skills und ihre Referenzen nennen, im CLI existieren."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

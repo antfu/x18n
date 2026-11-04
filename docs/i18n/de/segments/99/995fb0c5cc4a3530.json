@@ -1,0 +1,14 @@
+{
+  "hash": "995fb0c5cc4a3530",
+  "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
+  "text": "Das Objekt, das nach dem Schlüssel übergeben wird, enthält die Interpolationsparameter, die die Prüfung {0} mit den Platzhaltern der Quell-message vergleicht. Eine Parameter-Funktion ({1}) wird ignoriert, ebenso der Marker {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Objekt, das nach dem Schlüssel übergeben wird, enthält die Interpolationsparameter, die die Prüfung {0} mit den Platzhaltern der Quell-message vergleicht. Eine Parameter-Funktion ({1}) wird ignoriert, ebenso der Marker {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c460718c5c158975",
+  "source": "{0}. Language ids become extensions, for example {1} becomes {2}.",
+  "text": "{0}. Les ids de langage deviennent des extensions, par exemple {1} devient {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}. Les ids de langage deviennent des extensions, par exemple {1} devient {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "183c629a92aa1868",
+  "source": "If your config has no {0}, the preset uses {1}. New files use nested keys.",
+  "text": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1}. Neue Dateien verwenden verschachtelte Schlüssel.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1}. Neue Dateien verwenden verschachtelte Schlüssel."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

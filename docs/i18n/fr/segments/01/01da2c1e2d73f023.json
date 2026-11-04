@@ -1,0 +1,14 @@
+{
+  "hash": "01da2c1e2d73f023",
+  "source": "The locale shown in annotations and hovers. Per user.",
+  "text": "La langue affichée dans les annotations et les info-bulles. Propre à chaque utilisateur.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La langue affichée dans les annotations et les info-bulles. Propre à chaque utilisateur."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

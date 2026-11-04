@@ -1,0 +1,14 @@
+{
+  "hash": "b910677000e6de88",
+  "source": "Your config adds to these defaults. For example, {0} in the config adds callees to the ones of the preset. See {1}How x18n merges the config{/1}.",
+  "text": "Ваша конфигурация дополняет эти значения по умолчанию. Например, {0} в конфигурации добавляет вызываемые функции к тем, что заданы в пресете. См. {1}Как x18n объединяет конфигурацию{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ваша конфигурация дополняет эти значения по умолчанию. Например, {0} в конфигурации добавляет вызываемые функции к тем, что заданы в пресете. См. {1}Как x18n объединяет конфигурацию{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

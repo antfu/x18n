@@ -1,0 +1,14 @@
+{
+  "hash": "e205770dcdf212aa",
+  "source": "Read the JSON output, not the human output.",
+  "text": "Lies die JSON-Ausgabe, nicht die Ausgabe für Menschen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lies die JSON-Ausgabe, nicht die Ausgabe für Menschen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

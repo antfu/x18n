@@ -1,0 +1,14 @@
+{
+  "hash": "95c0990486e6362e",
+  "source": "{0}, {1} and {2} read {3} from their first argument.",
+  "text": "{0}, {1} und {2} lesen {3} aus ihrem ersten Argument.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} und {2} lesen {3} aus ihrem ersten Argument."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

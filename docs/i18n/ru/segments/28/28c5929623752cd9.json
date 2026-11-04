@@ -1,0 +1,14 @@
+{
+  "hash": "28c5929623752cd9",
+  "source": "Completion suggests keys inside translate calls.",
+  "text": "Автодополнение предлагает ключи внутри вызовов функций перевода.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Автодополнение предлагает ключи внутри вызовов функций перевода."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

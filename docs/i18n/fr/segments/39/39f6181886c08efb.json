@@ -1,0 +1,14 @@
+{
+  "hash": "39f6181886c08efb",
+  "source": "If the language server finds no locale files, it writes to the x18n output channel what {0} would print: the presets it applied, the files each locale finder found, config load errors and config origins. Run \"x18n: Explain Projects\" to print the same text at any time.",
+  "text": "Si le serveur de langage ne trouve aucun fichier de langue, il écrit dans le canal de sortie x18n ce que {0} afficherait : les presets appliqués, les fichiers trouvés par chaque détecteur de langues, les erreurs de chargement de la configuration et les origines de la configuration. Exécutez « x18n : Explain Projects » pour afficher le même texte à tout moment.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si le serveur de langage ne trouve aucun fichier de langue, il écrit dans le canal de sortie x18n ce que {0} afficherait : les presets appliqués, les fichiers trouvés par chaque détecteur de langues, les erreurs de chargement de la configuration et les origines de la configuration. Exécutez « x18n : Explain Projects » pour afficher le même texte à tout moment."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

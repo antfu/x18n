@@ -1,0 +1,14 @@
+{
+  "hash": "8a1e574e98d93049",
+  "source": "Trace the communication between VS Code and the x18n language server.",
+  "text": "Protokolliert die Kommunikation zwischen VS Code und dem x18n language server.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Protokolliert die Kommunikation zwischen VS Code und dem x18n language server."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

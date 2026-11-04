@@ -1,0 +1,14 @@
+{
+  "hash": "3b12c5d872b71fb4",
+  "source": "Keys and locales are sorted, so edits from two branches merge well.",
+  "text": "Ключи и локали отсортированы, поэтому изменения из двух веток хорошо сливаются.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключи и локали отсортированы, поэтому изменения из двух веток хорошо сливаются."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ff7140868c888b39",
+  "source": "{0} refuses values whose placeholders differ from the source value, and lists them in {1}. The agent fixes them and applies again. If the prompt says that more keys remain, the agent continues with {2}.",
+  "text": "{0} отклоняет значения, плейсхолдеры которых отличаются от плейсхолдеров исходного значения, и перечисляет их в {1}. Агент исправляет их и применяет снова. Если в промпте сказано, что остались ещё ключи, агент продолжает с {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} отклоняет значения, плейсхолдеры которых отличаются от плейсхолдеров исходного значения, и перечисляет их в {1}. Агент исправляет их и применяет снова. Если в промпте сказано, что остались ещё ключи, агент продолжает с {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

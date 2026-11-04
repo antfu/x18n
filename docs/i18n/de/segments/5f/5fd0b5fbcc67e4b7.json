@@ -1,0 +1,14 @@
+{
+  "hash": "5fd0b5fbcc67e4b7",
+  "source": "Target value placeholders differ from the source value.",
+  "text": "Die Platzhalter des Zielwerts weichen vom Quellwert ab.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Platzhalter des Zielwerts weichen vom Quellwert ab."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

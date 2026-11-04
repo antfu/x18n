@@ -1,0 +1,14 @@
+{
+  "hash": "e2574e20bb088cb2",
+  "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
+  "text": "les autres langues du même idiome : celles qui partagent le plus de sous-balises avec la cible d'abord ({0} et {1} avant {2} pour {3}), puis les codes les plus courts, puis par ordre alphabétique.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "les autres langues du même idiome : celles qui partagent le plus de sous-balises avec la cible d'abord ({0} et {1} avant {2} pour {3}), puis les codes les plus courts, puis par ordre alphabétique."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

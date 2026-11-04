@@ -1,0 +1,14 @@
+{
+  "hash": "97289ae296011a6e",
+  "source": "Each hard string has a kind, which tells where it is:",
+  "text": "Jeder hartcodierte String hat eine Art, die angibt, wo er steht:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jeder hartcodierte String hat eine Art, die angibt, wo er steht:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

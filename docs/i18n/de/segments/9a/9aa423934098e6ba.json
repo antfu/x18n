@@ -1,0 +1,14 @@
+{
+  "hash": "9aa423934098e6ba",
+  "source": "A plugin is an object that adds capabilities. A capability is one kind of contribution, such as a format, a scanner or a check. See {0}Capabilities{/0}.",
+  "text": "Ein Plugin ist ein Objekt, das Fähigkeiten hinzufügt. Eine Capability ist eine Art von Beitrag, etwa ein Format, ein Scanner oder eine Prüfung. Siehe {0}Capabilities{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Plugin ist ein Objekt, das Fähigkeiten hinzufügt. Eine Capability ist eine Art von Beitrag, etwa ein Format, ein Scanner oder eine Prüfung. Siehe {0}Capabilities{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

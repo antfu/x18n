@@ -1,0 +1,14 @@
+{
+  "hash": "2db4ac75b103c1c6",
+  "source": "x18n: Find Key by Text",
+  "text": "x18n: Найти ключ по тексту",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: Найти ключ по тексту"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

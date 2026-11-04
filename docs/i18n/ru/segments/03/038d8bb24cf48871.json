@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "Строки в строке с комментарием и в следующей строке.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Строки в строке с комментарием и в следующей строке."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

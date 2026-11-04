@@ -1,0 +1,14 @@
+{
+  "hash": "e82a72cf9b55dce6",
+  "source": "Rules like {0}: when {1} is used the derived keys count as used. Rules apply repeatedly, so with {2} the key {3} derives from both {4} and {5}. {6} matches one key segment. {7} and {8} match a plural or ordinal category ({9}, {10}, {11}): each locale then needs the categories of its own language, and categories the language lacks are optional.",
+  "text": "Règles comme {0} : quand {1} est utilisée, les clés dérivées sont considérées comme utilisées. Les règles s'appliquent de façon répétée, donc avec {2} la clé {3} dérive à la fois de {4} et de {5}. {6} correspond à un segment de clé. {7} et {8} correspondent à une catégorie de pluriel ou d'ordinal ({9}, {10}, {11}) : chaque langue a alors besoin des catégories de sa propre langue, et les catégories qui n'existent pas dans la langue sont facultatives.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Règles comme {0} : quand {1} est utilisée, les clés dérivées sont considérées comme utilisées. Les règles s'appliquent de façon répétée, donc avec {2} la clé {3} dérive à la fois de {4} et de {5}. {6} correspond à un segment de clé. {7} et {8} correspondent à une catégorie de pluriel ou d'ordinal ({9}, {10}, {11}) : chaque langue a alors besoin des catégories de sa propre langue, et les catégories qui n'existent pas dans la langue sont facultatives."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

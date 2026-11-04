@@ -1,0 +1,14 @@
+{
+  "hash": "47083a1626faaa48",
+  "source": "Many formats can say what a message means, for the translator. The prompt shows that description under the source value:",
+  "text": "Многие форматы позволяют указать для переводчика, что означает сообщение. Промпт показывает это описание под исходным значением:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Многие форматы позволяют указать для переводчика, что означает сообщение. Промпт показывает это описание под исходным значением:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

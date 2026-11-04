@@ -1,0 +1,14 @@
+{
+  "hash": "2be3d420b39a0d7e",
+  "source": "The locale that is the source of truth for checks and prompts.",
+  "text": "Локаль, которая служит источником истины для проверок и промптов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Локаль, которая служит источником истины для проверок и промптов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

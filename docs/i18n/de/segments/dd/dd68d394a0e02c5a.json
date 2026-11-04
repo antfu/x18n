@@ -1,0 +1,14 @@
+{
+  "hash": "dd68d394a0e02c5a",
+  "source": "Locale files can be JSON, YAML, JavaScript or TypeScript. x18n reads a static object in a {0} or {1} file, also when {2} wraps it, and edits it in place:",
+  "text": "Sprachdateien können JSON, YAML, JavaScript oder TypeScript sein. x18n liest ein statisches Objekt in einer {0}- oder {1}-Datei, auch wenn {2} es umschließt, und bearbeitet es direkt an Ort und Stelle:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sprachdateien können JSON, YAML, JavaScript oder TypeScript sein. x18n liest ein statisches Objekt in einer {0}- oder {1}-Datei, auch wenn {2} es umschließt, und bearbeitet es direkt an Ort und Stelle:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

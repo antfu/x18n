@@ -1,0 +1,14 @@
+{
+  "hash": "83da37546f97ab63",
+  "source": "Coding agents are first-class users of x18n. An agent uses the same CLI as a human, with {0}. It never edits locale files by hand, and it checks its own work with {1}.",
+  "text": "Coding-Agents sind erstklassige Nutzer von x18n. Ein agent verwendet dieselbe CLI wie ein Mensch, mit {0}. Er bearbeitet Sprachdateien nie von Hand und überprüft seine eigene Arbeit mit {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Coding-Agents sind erstklassige Nutzer von x18n. Ein agent verwendet dieselbe CLI wie ein Mensch, mit {0}. Er bearbeitet Sprachdateien nie von Hand und überprüft seine eigene Arbeit mit {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

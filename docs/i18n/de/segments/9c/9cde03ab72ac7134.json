@@ -1,0 +1,14 @@
+{
+  "hash": "9cde03ab72ac7134",
+  "source": "The translate prompt holds only messages without a value. A value can still be wrong: a copy of the source text, pasted in to fill a gap or taken from the wrong side of a merge, or a value older than its source message. {0} and {1} add such messages:",
+  "text": "Der Translate-Prompt enthält nur messages ohne Wert. Ein Wert kann trotzdem falsch sein: eine Kopie des Quelltexts, die eingefügt wurde, um eine Lücke zu füllen, oder von der falschen Seite eines Merge übernommen wurde, oder ein Wert, der älter ist als seine Quell-message. {0} und {1} fügen solche messages hinzu:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Translate-Prompt enthält nur messages ohne Wert. Ein Wert kann trotzdem falsch sein: eine Kopie des Quelltexts, die eingefügt wurde, um eine Lücke zu füllen, oder von der falschen Seite eines Merge übernommen wurde, oder ein Wert, der älter ist als seine Quell-message. {0} und {1} fügen solche messages hinzu:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4665ac3e9eb76864",
+  "source": "The first digit is the group:",
+  "text": "Die erste Ziffer gibt die Gruppe an:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die erste Ziffer gibt die Gruppe an:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "3ab1dbdcc3cb84e4",
+  "source": "The extension validates {0} against the config schema. With the Red Hat YAML extension installed, it also validates {1}, {2} and {3} files.",
+  "text": "Расширение проверяет {0} по схеме конфигурации. Если установлено расширение Red Hat YAML, оно также проверяет файлы {1}, {2} и {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Расширение проверяет {0} по схеме конфигурации. Если установлено расширение Red Hat YAML, оно также проверяет файлы {1}, {2} и {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

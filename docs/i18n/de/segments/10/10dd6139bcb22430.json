@@ -1,0 +1,14 @@
+{
+  "hash": "10dd6139bcb22430",
+  "source": "A message with an empty string value.",
+  "text": "Eine message mit einem leeren String als Wert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine message mit einem leeren String als Wert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2f4871816c8f9879",
+  "source": "How {0} finds hard strings and makes keys.",
+  "text": "Как {0} находит захардкоженные строки и создаёт ключи.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Как {0} находит захардкоженные строки и создаёт ключи."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

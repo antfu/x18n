@@ -1,0 +1,14 @@
+{
+  "hash": "16c2b7e7d9b211da",
+  "source": "The code, such as {0}, or the JS error name of an error without a code.",
+  "text": "Der Code, zum Beispiel {0}, oder der JS-Fehlername eines Fehlers ohne Code.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Code, zum Beispiel {0}, oder der JS-Fehlername eines Fehlers ohne Code."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

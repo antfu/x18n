@@ -1,0 +1,14 @@
+{
+  "hash": "546bfe5380df9eda",
+  "source": "As in .NET satellite assemblies, {0} holds a locale only when {1} exists. Every other file holds the source locale, so {2} is not the locale {3}. With the default {4}, these files give the locales {5}, {6} and {7}:",
+  "text": "Wie bei .NET-Satellite-Assemblies enthält {0} nur dann eine Sprache, wenn {1} existiert. Jede andere Datei enthält die Quellsprache, daher ist {2} nicht die Sprache {3}. Mit dem Standardwert {4} ergeben diese Dateien die Sprachen {5}, {6} und {7}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wie bei .NET-Satellite-Assemblies enthält {0} nur dann eine Sprache, wenn {1} existiert. Jede andere Datei enthält die Quellsprache, daher ist {2} nicht die Sprache {3}. Mit dem Standardwert {4} ergeben diese Dateien die Sprachen {5}, {6} und {7}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

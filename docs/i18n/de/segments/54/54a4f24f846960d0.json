@@ -1,0 +1,14 @@
+{
+  "hash": "54a4f24f846960d0",
+  "source": "Run this command in the root of the project:",
+  "text": "Führe diesen Befehl im Stammverzeichnis des Projekts aus:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führe diesen Befehl im Stammverzeichnis des Projekts aus:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

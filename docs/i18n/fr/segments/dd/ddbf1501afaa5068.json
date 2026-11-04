@@ -1,0 +1,14 @@
+{
+  "hash": "ddbf1501afaa5068",
+  "source": "Print the files instead of writing",
+  "text": "Affiche les fichiers au lieu de les écrire",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Affiche les fichiers au lieu de les écrire"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

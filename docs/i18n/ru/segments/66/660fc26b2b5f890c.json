@@ -1,0 +1,14 @@
+{
+  "hash": "660fc26b2b5f890c",
+  "source": "x18n reads only the {0} in the project root. In a workspace with one {1} per crate, set {2} yourself.",
+  "text": "x18n читает только {0} в корне проекта. В workspace с отдельным {1} для каждого крейта укажите {2} самостоятельно.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n читает только {0} в корне проекта. В workspace с отдельным {1} для каждого крейта укажите {2} самостоятельно."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7018ce283345015a",
+  "source": "Editor decoration that hides a key and shows its display-locale value.",
+  "text": "Editor-Dekoration, die einen Schlüssel ausblendet und stattdessen den Wert der Anzeigesprache zeigt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Editor-Dekoration, die einen Schlüssel ausblendet und stattdessen den Wert der Anzeigesprache zeigt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

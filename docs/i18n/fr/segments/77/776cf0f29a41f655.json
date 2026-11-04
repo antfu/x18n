@@ -1,0 +1,14 @@
+{
+  "hash": "776cf0f29a41f655",
+  "source": "As in YAML, plus preset objects such as {0} from {1}. {2} and {3} entries are skipped.",
+  "text": "Comme en YAML, plus des objets preset tels que {0} de {1}. Les entrées {2} et {3} sont ignorées.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Comme en YAML, plus des objets preset tels que {0} de {1}. Les entrées {2} et {3} sont ignorées."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

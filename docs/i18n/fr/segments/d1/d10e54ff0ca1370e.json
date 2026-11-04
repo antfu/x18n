@@ -1,0 +1,14 @@
+{
+  "hash": "d10e54ff0ca1370e",
+  "source": "A placeholder syntax tells x18n how placeholders look in messages. The {0} check and {1} compare the placeholders of each translation with the source value. Translate prompts list them.",
+  "text": "Une syntaxe d'espaces réservés indique à x18n à quoi ressemblent les espaces réservés dans les messages. La vérification {0} et {1} comparent les espaces réservés de chaque traduction avec la valeur source. Les prompts de traduction les listent.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une syntaxe d'espaces réservés indique à x18n à quoi ressemblent les espaces réservés dans les messages. La vérification {0} et {1} comparent les espaces réservés de chaque traduction avec la valeur source. Les prompts de traduction les listent."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a15394e5020f6cac",
+  "source": "The text that describes translation work for an agent or LLM.",
+  "text": "Le texte qui décrit le travail de traduction pour un agent ou un LLM.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le texte qui décrit le travail de traduction pour un agent ou un LLM."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

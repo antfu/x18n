@@ -1,0 +1,14 @@
+{
+  "hash": "958d5fde11cec20c",
+  "source": "The preset applies when the project depends on {0} or {1}.",
+  "text": "Пресет применяется, если проект зависит от {0} или {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет применяется, если проект зависит от {0} или {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

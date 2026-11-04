@@ -1,0 +1,14 @@
+{
+  "hash": "7e98cb0bc3383b62",
+  "source": "The preset applies when the project depends on {0} or {1}. It is not exclusive: x18n still tests the presets after it.",
+  "text": "Das Preset wird angewendet, wenn das Projekt von {0} oder {1} abhängt. Es ist nicht exklusiv: x18n prüft danach weiterhin die übrigen Presets.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset wird angewendet, wenn das Projekt von {0} oder {1} abhängt. Es ist nicht exklusiv: x18n prüft danach weiterhin die übrigen Presets."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2e9f4c5086525293",
+  "source": "To change the severity of a check for every run, use {0} in the config. See {1}Checks{/1}.",
+  "text": "Чтобы изменить серьёзность проверки для всех запусков, используйте {0} в конфигурации. См. {1}Проверки{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Чтобы изменить серьёзность проверки для всех запусков, используйте {0} в конфигурации. См. {1}Проверки{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

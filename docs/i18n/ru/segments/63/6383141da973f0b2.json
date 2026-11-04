@@ -1,0 +1,14 @@
+{
+  "hash": "6383141da973f0b2",
+  "source": "In code, {0} and {1}, and {2} on {3}, directly or through a variable:",
+  "text": "В коде: {0} и {1}, а также {2} для {3}, напрямую или через переменную:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В коде: {0} и {1}, а также {2} для {3}, напрямую или через переменную:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

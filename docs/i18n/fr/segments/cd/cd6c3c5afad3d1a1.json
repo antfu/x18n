@@ -1,0 +1,14 @@
+{
+  "hash": "cd6c3c5afad3d1a1",
+  "source": "Angular placeholders: {0}, {1}, {2}. XLIFF and XMB placeholders read the same way.",
+  "text": "Espaces réservés Angular : {0}, {1}, {2}. Les espaces réservés XLIFF et XMB se lisent de la même façon.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Espaces réservés Angular : {0}, {1}, {2}. Les espaces réservés XLIFF et XMB se lisent de la même façon."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

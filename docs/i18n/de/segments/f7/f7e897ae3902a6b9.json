@@ -1,0 +1,14 @@
+{
+  "hash": "f7e897ae3902a6b9",
+  "source": "The check has the severity {0}, but it runs only when the config turns it on.",
+  "text": "Die Prüfung hat den Schweregrad {0}, läuft aber nur, wenn die Konfiguration sie aktiviert.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Prüfung hat den Schweregrad {0}, läuft aber nur, wenn die Konfiguration sie aktiviert."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

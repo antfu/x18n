@@ -1,0 +1,14 @@
+{
+  "hash": "6bd2f4d7dec61e98",
+  "source": "With {0}, a namespace can sit in folders. The preset sets {1} to {2}, so {3} is the namespace {4}, as in {5}.",
+  "text": "С {0} пространство имён может находиться в папках. Пресет устанавливает {1} в {2}, поэтому {3} — это пространство имён {4}, как в {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "С {0} пространство имён может находиться в папках. Пресет устанавливает {1} в {2}, поэтому {3} — это пространство имён {4}, как в {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

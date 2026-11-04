@@ -1,0 +1,14 @@
+{
+  "hash": "3077164efb42b177",
+  "source": "The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in {0}.",
+  "text": "Le message de la chaîne en dur, tel qu'il est stocké dans la langue source : le texte d'origine, avec les arguments d'une chaîne de modèle sous forme d'espaces réservés. Utilisez-le pour une valeur par défaut, comme dans {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le message de la chaîne en dur, tel qu'il est stocké dans la langue source : le texte d'origine, avec les arguments d'une chaîne de modèle sous forme d'espaces réservés. Utilisez-le pour une valeur par défaut, comme dans {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

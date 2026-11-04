@@ -1,0 +1,14 @@
+{
+  "hash": "e2574e20bb088cb2",
+  "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
+  "text": "die anderen Sprachen derselben Sprachfamilie: zuerst die, die mehr Subtags mit dem Ziel gemeinsam haben ({0} und {1} vor {2} für {3}), dann die kürzeren Codes, dann in alphabetischer Reihenfolge.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "die anderen Sprachen derselben Sprachfamilie: zuerst die, die mehr Subtags mit dem Ziel gemeinsam haben ({0} und {1} vor {2} für {3}), dann die kürzeren Codes, dann in alphabetischer Reihenfolge."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

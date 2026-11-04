@@ -1,0 +1,14 @@
+{
+  "hash": "05271259e998f5a1",
+  "source": "The {0} preset supports {1}@nuxtjs/i18n{/1}, the i18n module for Nuxt.",
+  "text": "Le preset {0} prend en charge {1}@nuxtjs/i18n{/1}, le module i18n pour Nuxt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}@nuxtjs/i18n{/1}, le module i18n pour Nuxt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

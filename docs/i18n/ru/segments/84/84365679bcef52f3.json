@@ -1,0 +1,14 @@
+{
+  "hash": "84365679bcef52f3",
+  "source": "x18n runs {0} only for a preset inside the plugins of another preset. A preset that you list in {1} or {2} always applies.",
+  "text": "x18n запускает {0} только для пресета, находящегося среди плагинов другого пресета. Пресет, который вы указали в {1} или {2}, применяется всегда.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n запускает {0} только для пресета, находящегося среди плагинов другого пресета. Пресет, который вы указали в {1} или {2}, применяется всегда."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "14e1896324140faa",
+  "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
+  "text": "'call' (par défaut) : la clé est un argument. 'selector' : l'argument est {0}. 'accessor' : chaîne de membres sur une racine.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "'call' (par défaut) : la clé est un argument. 'selector' : l'argument est {0}. 'accessor' : chaîne de membres sur une racine."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

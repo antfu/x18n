@@ -1,0 +1,14 @@
+{
+  "hash": "ae8d4cf33ee36d73",
+  "source": "The {0} preset supports gettext in Python projects: {1}Django{/1}, {2}Flask-Babel{/2} and {3}Babel{/3}.",
+  "text": "Пресет {0} поддерживает gettext в проектах на Python: {1}Django{/1}, {2}Flask-Babel{/2} и {3}Babel{/3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет {0} поддерживает gettext в проектах на Python: {1}Django{/1}, {2}Flask-Babel{/2} и {3}Babel{/3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

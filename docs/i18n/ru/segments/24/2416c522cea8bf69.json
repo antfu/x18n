@@ -1,0 +1,14 @@
+{
+  "hash": "2416c522cea8bf69",
+  "source": "{0} is a translate call, and so is the tagged template {1}.",
+  "text": "{0} — это вызов функции перевода, как и тегированный шаблон {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} — это вызов функции перевода, как и тегированный шаблон {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

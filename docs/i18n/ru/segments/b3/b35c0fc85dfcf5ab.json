@@ -1,0 +1,14 @@
+{
+  "hash": "b35c0fc85dfcf5ab",
+  "source": "A message in a locale with a fallback that equals the message it falls back to, so it can be removed.",
+  "text": "Сообщение в локали с fallback, которое совпадает с сообщением, на которое выполняется откат, поэтому его можно удалить.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщение в локали с fallback, которое совпадает с сообщением, на которое выполняется откат, поэтому его можно удалить."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

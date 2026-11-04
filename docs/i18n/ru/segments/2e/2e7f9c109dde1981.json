@@ -1,0 +1,14 @@
+{
+  "hash": "2e7f9c109dde1981",
+  "source": "When more messages remain, the prompt says how many, and gives the command for the next batch with {0}.",
+  "text": "Если остаются ещё сообщения, промпт сообщает, сколько их, и указывает команду для следующей порции с {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если остаются ещё сообщения, промпт сообщает, сколько их, и указывает команду для следующей порции с {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

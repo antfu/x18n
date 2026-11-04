@@ -1,0 +1,14 @@
+{
+  "hash": "5c876f7edb63eff1",
+  "source": "Pick the output format. See {0}Reporters{/0}.",
+  "text": "Wähle das Ausgabeformat. Siehe {0}Reporter{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wähle das Ausgabeformat. Siehe {0}Reporter{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

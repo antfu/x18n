@@ -1,0 +1,14 @@
+{
+  "hash": "fcb9e588e133b7a8",
+  "source": "No errors, and no more warnings than {0}.",
+  "text": "Ошибок нет, а предупреждений не больше {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ошибок нет, а предупреждений не больше {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

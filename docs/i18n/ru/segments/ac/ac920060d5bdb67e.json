@@ -1,0 +1,14 @@
+{
+  "hash": "ac920060d5bdb67e",
+  "source": "Plugins of the root config and of the project config both apply. Presets of the project config replace the presets of the root config.",
+  "text": "Плагины корневого конфига и конфига проекта применяются вместе. Пресеты конфига проекта заменяют пресеты корневого конфига.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Плагины корневого конфига и конфига проекта применяются вместе. Пресеты конфига проекта заменяют пресеты корневого конфига."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

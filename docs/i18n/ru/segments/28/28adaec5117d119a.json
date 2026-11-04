@@ -1,0 +1,14 @@
+{
+  "hash": "28adaec5117d119a",
+  "source": "In a project with namespaces, a key may hold {0} after its namespace. In code, {1} names the namespace {2}. With {3} (i18next {4}), code never names a namespace, so {5} is the key {6}.",
+  "text": "В проекте с пространствами имён ключ может содержать {0} после своего пространства имён. В коде {1} указывает пространство имён {2}. С {3} (i18next {4}) код никогда не указывает пространство имён, поэтому {5} — это ключ {6}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В проекте с пространствами имён ключ может содержать {0} после своего пространства имён. В коде {1} указывает пространство имён {2}. С {3} (i18next {4}) код никогда не указывает пространство имён, поэтому {5} — это ключ {6}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

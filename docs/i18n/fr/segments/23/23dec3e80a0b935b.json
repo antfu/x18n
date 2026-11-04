@@ -1,0 +1,14 @@
+{
+  "hash": "23dec3e80a0b935b",
+  "source": "An {0}, as in {1}, {2}, {3} and {4}:",
+  "text": "Un {0}, comme dans {1}, {2}, {3} et {4} :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un {0}, comme dans {1}, {2}, {3} et {4} :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

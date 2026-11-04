@@ -1,0 +1,14 @@
+{
+  "hash": "7c3c4b7551e5bf07",
+  "source": "A capability with the id of an earlier one stops the load with {0}X18N1002{/0}. Set {1} on the later one to replace the earlier one.",
+  "text": "Eine Capability mit der ID einer früheren Capability bricht das Laden mit {0}X18N1002{/0} ab. Setze {1} bei der späteren, um die frühere zu ersetzen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Capability mit der ID einer früheren Capability bricht das Laden mit {0}X18N1002{/0} ab. Setze {1} bei der späteren, um die frühere zu ersetzen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

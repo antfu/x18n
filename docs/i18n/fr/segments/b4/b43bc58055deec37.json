@@ -1,0 +1,14 @@
+{
+  "hash": "b43bc58055deec37",
+  "source": "{0} tells if the transform applies to a resource. Without it, the transform applies to every resource.",
+  "text": "{0} indique si la transformation s'applique à une ressource. Sans lui, la transformation s'applique à toutes les ressources.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} indique si la transformation s'applique à une ressource. Sans lui, la transformation s'applique à toutes les ressources."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

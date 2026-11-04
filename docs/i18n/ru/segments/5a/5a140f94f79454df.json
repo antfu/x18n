@@ -1,0 +1,14 @@
+{
+  "hash": "5a140f94f79454df",
+  "source": "A rename changes every locale and every usage in code. A rename of a parent key, such as {0}, moves every key under it. A rename to a key that exists stops with exit code 1.",
+  "text": "Переименование изменяет все локали и все использования в коде. Переименование родительского ключа, например {0}, переносит все ключи под ним. Переименование в существующий ключ завершается с кодом выхода 1.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Переименование изменяет все локали и все использования в коде. Переименование родительского ключа, например {0}, переносит все ключи под ним. Переименование в существующий ключ завершается с кодом выхода 1."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

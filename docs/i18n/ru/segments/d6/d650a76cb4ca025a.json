@@ -1,0 +1,14 @@
+{
+  "hash": "d650a76cb4ca025a",
+  "source": "The preset applies when {0} or {1} has {2} or {3}. {4} alone does not count: it is also the name of an old npm package, and x18n merges the dependencies of all manifests. A project that uses only Babel or the {5} module of the standard library must list the preset:",
+  "text": "Пресет применяется, когда в {0} или {1} есть {2} или {3}. Одного {4} недостаточно: так же называется старый npm-пакет, а x18n объединяет зависимости всех манифестов. Проект, который использует только Babel или модуль {5} из стандартной библиотеки, должен явно указать пресет:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет применяется, когда в {0} или {1} есть {2} или {3}. Одного {4} недостаточно: так же называется старый npm-пакет, а x18n объединяет зависимости всех манифестов. Проект, который использует только Babel или модуль {5} из стандартной библиотеки, должен явно указать пресет:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

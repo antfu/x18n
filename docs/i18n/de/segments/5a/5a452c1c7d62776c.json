@@ -1,0 +1,14 @@
+{
+  "hash": "5a452c1c7d62776c",
+  "source": "Only in these locales. Default: all.",
+  "text": "Nur in diesen Sprachen. Standard: alle.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur in diesen Sprachen. Standard: alle."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "70d2a41ecbd2c2bf",
+  "source": "Run {0} to see which config file x18n picked.",
+  "text": "Lancez {0} pour voir quel fichier de configuration x18n a retenu.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lancez {0} pour voir quel fichier de configuration x18n a retenu."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

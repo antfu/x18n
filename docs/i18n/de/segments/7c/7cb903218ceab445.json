@@ -1,0 +1,14 @@
+{
+  "hash": "7cb903218ceab445",
+  "source": "Messages per prompt. Default 50.",
+  "text": "messages pro Prompt. Standard ist 50.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "messages pro Prompt. Standard ist 50."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

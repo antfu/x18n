@@ -1,0 +1,14 @@
+{
+  "hash": "8eddc05360135488",
+  "source": "The preset has no detection. It applies only when you list it in {0}. The preset is exclusive: x18n applies no listed preset after it.",
+  "text": "У пресета нет автоопределения. Он применяется только тогда, когда вы указываете его в {0}. Пресет является эксклюзивным: после него x18n не применяет ни один из перечисленных пресетов.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "У пресета нет автоопределения. Он применяется только тогда, когда вы указываете его в {0}. Пресет является эксклюзивным: после него x18n не применяет ни один из перечисленных пресетов."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

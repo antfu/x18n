@@ -1,0 +1,14 @@
+{
+  "hash": "783fdd1e31ee64ea",
+  "source": "Where a key prefix comes from ({0} option, or next-intl {1}).",
+  "text": "Откуда берётся префикс ключа (опция {0} или {1} в next-intl).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Откуда берётся префикс ключа (опция {0} или {1} в next-intl)."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

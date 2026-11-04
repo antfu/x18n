@@ -1,0 +1,14 @@
+{
+  "hash": "af7216fea0c960a4",
+  "source": "Each review has a short random {0}. Commands such as {1} take it.",
+  "text": "Jedes Review hat eine kurze zufällige {0}. Befehle wie {1} erwarten sie.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jedes Review hat eine kurze zufällige {0}. Befehle wie {1} erwarten sie."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

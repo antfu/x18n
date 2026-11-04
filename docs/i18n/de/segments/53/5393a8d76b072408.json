@@ -1,0 +1,14 @@
+{
+  "hash": "5393a8d76b072408",
+  "source": "Callee names never counted as translate calls.",
+  "text": "Namen aufgerufener Funktionen, die nie als Übersetzungsaufrufe gezählt werden.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Namen aufgerufener Funktionen, die nie als Übersetzungsaufrufe gezählt werden."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

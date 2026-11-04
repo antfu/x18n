@@ -1,0 +1,14 @@
+{
+  "hash": "546ad2fe730dc97f",
+  "source": "The whole file, wherever the comment is.",
+  "text": "Весь файл, где бы ни находился комментарий.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Весь файл, где бы ни находился комментарий."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

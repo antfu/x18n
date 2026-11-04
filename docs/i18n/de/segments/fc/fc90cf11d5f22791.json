@@ -1,0 +1,14 @@
+{
+  "hash": "fc90cf11d5f22791",
+  "source": "Regex whose first group is the namespace of the code after it (i18n-ally {0}).",
+  "text": "Regex, deren erste Gruppe der namespace des darauf folgenden Codes ist (i18n-ally {0}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Regex, deren erste Gruppe der namespace des darauf folgenden Codes ist (i18n-ally {0})."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

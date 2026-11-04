@@ -1,0 +1,14 @@
+{
+  "hash": "f585fc580553967b",
+  "source": "Use the source value instead of an empty string",
+  "text": "Den Quellwert statt eines leeren Strings verwenden",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Den Quellwert statt eines leeren Strings verwenden"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

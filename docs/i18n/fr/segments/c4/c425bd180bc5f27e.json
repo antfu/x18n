@@ -1,0 +1,14 @@
+{
+  "hash": "c425bd180bc5f27e",
+  "source": "{0} makes a new token each time it starts. Keep the token to yourself: anything with the token can edit the files of the project.",
+  "text": "{0} génère un nouveau jeton à chaque démarrage. Gardez le jeton pour vous : tout ce qui possède le jeton peut modifier les fichiers du projet.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} génère un nouveau jeton à chaque démarrage. Gardez le jeton pour vous : tout ce qui possède le jeton peut modifier les fichiers du projet."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

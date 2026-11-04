@@ -1,0 +1,14 @@
+{
+  "hash": "eb635a845a7b556d",
+  "source": "The side-effect-free result of planning edits: file changes plus decisions.",
+  "text": "Das seiteneffektfreie Ergebnis der Planung von Änderungen: Dateiänderungen plus Entscheidungen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das seiteneffektfreie Ergebnis der Planung von Änderungen: Dateiänderungen plus Entscheidungen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

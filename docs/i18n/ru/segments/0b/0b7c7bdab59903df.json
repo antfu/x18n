@@ -1,0 +1,14 @@
+{
+  "hash": "0b7c7bdab59903df",
+  "source": "If your config has no {0}, the preset reads {1} from {2} (or {3}). Without {4}, the directory is {5}:",
+  "text": "Если в вашем конфиге нет {0}, пресет читает {1} из {2} (или {3}). Без {4} используется директория {5}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если в вашем конфиге нет {0}, пресет читает {1} из {2} (или {3}). Без {4} используется директория {5}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

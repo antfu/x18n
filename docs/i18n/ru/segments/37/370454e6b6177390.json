@@ -1,0 +1,14 @@
+{
+  "hash": "370454e6b6177390",
+  "source": "The editor and the UI still show every diagnostic. The idea comes from {0}i18next-cli{/0} and the bulk suppressions of ESLint.",
+  "text": "Редактор и UI по-прежнему показывают все диагностики. Идея взята из {0}i18next-cli{/0} и массовых подавлений в ESLint.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Редактор и UI по-прежнему показывают все диагностики. Идея взята из {0}i18next-cli{/0} и массовых подавлений в ESLint."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

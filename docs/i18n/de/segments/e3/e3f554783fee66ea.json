@@ -1,0 +1,14 @@
+{
+  "hash": "e3f554783fee66ea",
+  "source": "In XML views, JSON files, JS and TS, the preset reads {0} bindings. In JS and TS, it also reads {1}:",
+  "text": "In XML-Views, JSON-Dateien, JS und TS liest das Preset {0}-Bindings. In JS und TS liest es zusätzlich {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In XML-Views, JSON-Dateien, JS und TS liest das Preset {0}-Bindings. In JS und TS liest es zusätzlich {1}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ee99dd3663890bce",
+  "source": "By default, errors fail the build and warnings do not. Three options change that:",
+  "text": "Par défaut, les erreurs font échouer le build, mais pas les avertissements. Trois options modifient ce comportement :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Par défaut, les erreurs font échouer le build, mais pas les avertissements. Trois options modifient ce comportement :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

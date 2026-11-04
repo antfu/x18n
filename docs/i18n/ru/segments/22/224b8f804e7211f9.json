@@ -1,0 +1,14 @@
+{
+  "hash": "224b8f804e7211f9",
+  "source": "YAML and JSON configs reject unknown keys. If the field is a typo, fix the name.",
+  "text": "Конфигурации YAML и JSON отклоняют неизвестные ключи. Если поле содержит опечатку, исправьте имя.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Конфигурации YAML и JSON отклоняют неизвестные ключи. Если поле содержит опечатку, исправьте имя."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "52ae1ab42da0edf6",
+  "source": "php-joomla, php-gettext",
+  "text": "php-joomla и php-gettext",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "php-joomla и php-gettext"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7e6d0c096a7612d6",
+  "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
+  "text": "Style de clés d'un fichier qui n'a pas encore de clés. {0} écrit des clés {1}. {2} et {3} écrivent des objets imbriqués. Un fichier qui a déjà des clés conserve son propre style.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Style de clés d'un fichier qui n'a pas encore de clés. {0} écrit des clés {1}. {2} et {3} écrivent des objets imbriqués. Un fichier qui a déjà des clés conserve son propre style."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d49367aca3ebd60b",
+  "source": "Adds a comment to the review thread of a message. {0} and {1} are filled in when planned.",
+  "text": "Добавляет комментарий в ветку ревью сообщения. {0} и {1} заполняются, когда запланировано.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Добавляет комментарий в ветку ревью сообщения. {0} и {1} заполняются, когда запланировано."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

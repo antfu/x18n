@@ -1,0 +1,14 @@
+{
+  "hash": "b403915f36d33fc8",
+  "source": "The target locale. Required for {0}.",
+  "text": "Целевая локаль. Обязательна для {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Целевая локаль. Обязательна для {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

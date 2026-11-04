@@ -1,0 +1,14 @@
+{
+  "hash": "ab237d49a4ec4ac5",
+  "source": "x18n: Set Display Locale",
+  "text": "x18n: Задать локаль отображения",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: Задать локаль отображения"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

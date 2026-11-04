@@ -1,0 +1,14 @@
+{
+  "hash": "9ebea7d27887c05e",
+  "source": "Run {0} to list open suggestions.",
+  "text": "Запустите {0}, чтобы вывести список открытых предложений.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Запустите {0}, чтобы вывести список открытых предложений."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

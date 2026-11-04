@@ -1,0 +1,14 @@
+{
+  "hash": "4736914dab37187f",
+  "source": "Objects merge key by key: {0}, {1}, {2}, {3} and {4}.",
+  "text": "Les objets sont fusionnés clé par clé : {0}, {1}, {2}, {3} et {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les objets sont fusionnés clé par clé : {0}, {1}, {2}, {3} et {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

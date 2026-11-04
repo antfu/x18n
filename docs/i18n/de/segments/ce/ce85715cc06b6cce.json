@@ -1,0 +1,14 @@
+{
+  "hash": "ce85715cc06b6cce",
+  "source": "Terms with fixed translations. Translate prompts list them, and the {0} check compares values with them.",
+  "text": "Begriffe mit festen Übersetzungen. Translate-Prompts listen sie auf, und die Prüfung {0} vergleicht Werte mit ihnen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Begriffe mit festen Übersetzungen. Translate-Prompts listen sie auf, und die Prüfung {0} vergleicht Werte mit ihnen."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

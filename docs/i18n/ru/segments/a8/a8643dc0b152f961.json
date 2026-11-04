@@ -1,0 +1,14 @@
+{
+  "hash": "a8643dc0b152f961",
+  "source": "{0}: comments keep their id, author, time and resolved state; {1} becomes {2}; a comment with a {3} becomes a {4}; a translation candidate becomes a {5} too.",
+  "text": "{0}: комментарии сохраняют свой id, автора, время и состояние resolved; {1} становится {2}; комментарий с {3} становится {4}; кандидат на перевод тоже становится {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: комментарии сохраняют свой id, автора, время и состояние resolved; {1} становится {2}; комментарий с {3} становится {4}; кандидат на перевод тоже становится {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

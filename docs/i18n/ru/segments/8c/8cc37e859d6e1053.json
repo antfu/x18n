@@ -1,0 +1,14 @@
+{
+  "hash": "8cc37e859d6e1053",
+  "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
+  "text": "Сообщение как тело строки-шаблона, где каждый аргумент записан как {0}, так, как его пишет {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сообщение как тело строки-шаблона, где каждый аргумент записан как {0}, так, как его пишет {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

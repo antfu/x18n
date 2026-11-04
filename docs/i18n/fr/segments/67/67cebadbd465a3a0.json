@@ -1,0 +1,14 @@
+{
+  "hash": "67cebadbd465a3a0",
+  "source": "A plural message is a key with the sub-keys {0}, {1}, {2} and {3}. When a usage names the key, these sub-keys count as used.",
+  "text": "Un message pluriel est une clé avec les sous-clés {0}, {1}, {2} et {3}. Lorsqu'une utilisation nomme la clé, ces sous-clés sont considérées comme utilisées.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un message pluriel est une clé avec les sous-clés {0}, {1}, {2} et {3}. Lorsqu'une utilisation nomme la clé, ces sous-clés sont considérées comme utilisées."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

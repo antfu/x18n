@@ -1,0 +1,14 @@
+{
+  "hash": "83ec889a30835815",
+  "source": "{0} is the source locale. If your config has no {1}, the preset uses {2}, so {3}. Without {4}, the folder is {5}.",
+  "text": "{0} ist die Quellsprache. Wenn deine Konfiguration kein {1} enthält, verwendet das Preset {2}, also {3}. Ohne {4} ist der Ordner {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ist die Quellsprache. Wenn deine Konfiguration kein {1} enthält, verwendet das Preset {2}, also {3}. Ohne {4} ist der Ordner {5}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

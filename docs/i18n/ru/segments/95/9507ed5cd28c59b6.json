@@ -1,0 +1,14 @@
+{
+  "hash": "9507ed5cd28c59b6",
+  "source": "{0}, {1}, {2}, {3} and {4} are translate calls. {5} takes the prefix as a string, or as the {6} property of an object.",
+  "text": "{0}, {1}, {2}, {3} и {4} — это вызовы функции перевода. {5} принимает префикс в виде строки или в виде свойства {6} объекта.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3} и {4} — это вызовы функции перевода. {5} принимает префикс в виде строки или в виде свойства {6} объекта."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

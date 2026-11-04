@@ -1,0 +1,14 @@
+{
+  "hash": "e4f9d11e66b66d37",
+  "source": "Adds a comment.",
+  "text": "Ajoute un commentaire.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ajoute un commentaire."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

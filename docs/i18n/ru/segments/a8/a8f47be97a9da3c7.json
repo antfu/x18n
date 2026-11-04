@@ -1,0 +1,14 @@
+{
+  "hash": "a8f47be97a9da3c7",
+  "source": "The {0} line gives validation and completion in the editor. {1} prints the same JSON Schema.",
+  "text": "Строка {0} включает в редакторе проверку и автодополнение. {1} выводит ту же JSON Schema.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Строка {0} включает в редакторе проверку и автодополнение. {1} выводит ту же JSON Schema."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

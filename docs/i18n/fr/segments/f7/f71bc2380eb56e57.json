@@ -1,0 +1,14 @@
+{
+  "hash": "f71bc2380eb56e57",
+  "source": "The {0} preset supports {1}gettext{/1} in PHP projects.",
+  "text": "Le preset {0} prend en charge {1}gettext{/1} dans les projets PHP.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}gettext{/1} dans les projets PHP."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

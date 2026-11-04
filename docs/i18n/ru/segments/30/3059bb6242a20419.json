@@ -1,0 +1,14 @@
+{
+  "hash": "3059bb6242a20419",
+  "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
+  "text": "Файл локали был разобран, но его верхний уровень не является объектом сообщений. Файл локали содержит вложенные объекты, листьями которых являются строки, числа, булевы значения или {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Файл локали был разобран, но его верхний уровень не является объектом сообщений. Файл локали содержит вложенные объекты, листьями которых являются строки, числа, булевы значения или {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

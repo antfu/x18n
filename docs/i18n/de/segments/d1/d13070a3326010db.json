@@ -1,0 +1,14 @@
+{
+  "hash": "d13070a3326010db",
+  "source": "Locales show with their flag in the views, the locale pickers, hovers and the status bar. Set {0} to {1} to hide the flags.",
+  "text": "Sprachen werden in den Ansichten, den Sprachauswahlen, Hovers und der Statusleiste mit ihrer Flagge angezeigt. Setze {0} auf {1}, um die Flaggen auszublenden.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sprachen werden in den Ansichten, den Sprachauswahlen, Hovers und der Statusleiste mit ihrer Flagge angezeigt. Setze {0} auf {1}, um die Flaggen auszublenden."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

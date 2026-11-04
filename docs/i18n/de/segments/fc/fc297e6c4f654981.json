@@ -1,0 +1,14 @@
+{
+  "hash": "fc297e6c4f654981",
+  "source": "Patterns with a {0} placeholder (i18n-ally {1}), or a regex whose first group is the key.",
+  "text": "Muster mit einem {0}-Platzhalter (i18n-ally {1}) oder ein Regex, dessen erste Gruppe der Schlüssel ist.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Muster mit einem {0}-Platzhalter (i18n-ally {1}) oder ein Regex, dessen erste Gruppe der Schlüssel ist."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

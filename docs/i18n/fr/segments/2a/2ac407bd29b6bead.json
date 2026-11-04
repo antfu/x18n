@@ -1,0 +1,14 @@
+{
+  "hash": "2ac407bd29b6bead",
+  "source": "Text in an Astro template",
+  "text": "Texte dans un modèle Astro",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Texte dans un modèle Astro"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

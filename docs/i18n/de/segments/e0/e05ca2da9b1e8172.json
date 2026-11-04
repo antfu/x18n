@@ -1,0 +1,14 @@
+{
+  "hash": "e05ca2da9b1e8172",
+  "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
+  "text": "Der Autor ist {0} aus der Konfiguration, sonst git {1} und {2}. {3} überschreibt beides.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Autor ist {0} aus der Konfiguration, sonst git {1} und {2}. {3} überschreibt beides."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2cb4efd1713a6464",
+  "source": "Paths are relative to the config file. Package names resolve from the directory of the config file.",
+  "text": "Pfade sind relativ zur Konfigurationsdatei. Paketnamen werden ausgehend vom Verzeichnis der Konfigurationsdatei aufgelöst.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Pfade sind relativ zur Konfigurationsdatei. Paketnamen werden ausgehend vom Verzeichnis der Konfigurationsdatei aufgelöst."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

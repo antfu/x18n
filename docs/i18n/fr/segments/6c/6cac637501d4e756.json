@@ -1,0 +1,14 @@
+{
+  "hash": "6cac637501d4e756",
+  "source": "Every command that writes files first makes a plan. A plan is the list of file changes, made without writing anything. {0} prints the plan instead of applying it.",
+  "text": "Toute commande qui écrit des fichiers commence par établir un plan. Un plan est la liste des modifications de fichiers, établie sans rien écrire. {0} affiche le plan au lieu de l'appliquer.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Toute commande qui écrit des fichiers commence par établir un plan. Un plan est la liste des modifications de fichiers, établie sans rien écrire. {0} affiche le plan au lieu de l'appliquer."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

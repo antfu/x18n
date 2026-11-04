@@ -1,0 +1,14 @@
+{
+  "hash": "cb92969f27d46924",
+  "source": "The {0} preset supports the localization of {1}VS Code extensions{/1}: {2} in code, and {3} references in {4}.",
+  "text": "Das {0}-Preset unterstützt die Lokalisierung von {1}VS Code Extensions{/1}: {2} im Code und {3}-Referenzen in {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt die Lokalisierung von {1}VS Code Extensions{/1}: {2} im Code und {3}-Referenzen in {4}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

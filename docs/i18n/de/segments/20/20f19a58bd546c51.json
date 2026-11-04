@@ -1,0 +1,14 @@
+{
+  "hash": "20f19a58bd546c51",
+  "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check, and the editor shows the same diagnostics.",
+  "text": "Eine Prüfung liest das Projekt und meldet Diagnosen. Eine Diagnose ist ein gemeldetes Problem mit einem Code, einem Schweregrad und optionalen Fixes. {0} führt jede Prüfung aus, und der Editor zeigt dieselben Diagnosen an.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Prüfung liest das Projekt und meldet Diagnosen. Eine Diagnose ist ein gemeldetes Problem mit einem Code, einem Schweregrad und optionalen Fixes. {0} führt jede Prüfung aus, und der Editor zeigt dieselben Diagnosen an."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

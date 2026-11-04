@@ -1,0 +1,14 @@
+{
+  "hash": "71696927719e3f9b",
+  "source": "{0} turn the diagnostics and the coverage of each project into text, for {1}. {2} returns a string. {3} turns a project path into a path relative to the current directory, and {4} tells whether colors are allowed.",
+  "text": "{0} превращают диагностики и покрытие каждого проекта в текст для {1}. {2} возвращает строку. {3} превращает путь проекта в путь относительно текущего каталога, а {4} сообщает, разрешён ли цвет.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} превращают диагностики и покрытие каждого проекта в текст для {1}. {2} возвращает строку. {3} превращает путь проекта в путь относительно текущего каталога, а {4} сообщает, разрешён ли цвет."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

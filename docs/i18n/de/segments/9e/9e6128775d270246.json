@@ -1,0 +1,14 @@
+{
+  "hash": "9e6128775d270246",
+  "source": "In {0}, {1} and {2} files, the preset reads the {3} tag:",
+  "text": "In {0}-, {1}- und {2}-Dateien liest das Preset den Tag {3}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In {0}-, {1}- und {2}-Dateien liest das Preset den Tag {3}:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

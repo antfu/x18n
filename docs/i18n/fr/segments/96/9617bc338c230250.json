@@ -1,0 +1,14 @@
+{
+  "hash": "9617bc338c230250",
+  "source": "A project directory can have its own {0}. The project inherits the options of the root config, and its own config overrides them. The rules are the same as for one project: see {1}How x18n merges the config{/1}.",
+  "text": "Un répertoire de projet peut avoir son propre {0}. Le projet hérite des options de la configuration racine, et sa propre configuration les remplace. Les règles sont les mêmes que pour un seul projet : consultez {1}Comment x18n fusionne la configuration{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un répertoire de projet peut avoir son propre {0}. Le projet hérite des options de la configuration racine, et sa propre configuration les remplace. Les règles sont les mêmes que pour un seul projet : consultez {1}Comment x18n fusionne la configuration{/1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "19e20d79ee595dee",
+  "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
+  "text": "Вызовы перевода, которые добавляются к вызовам из пресетов. См. {0}Поддерживаемый синтаксис{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Вызовы перевода, которые добавляются к вызовам из пресетов. См. {0}Поддерживаемый синтаксис{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

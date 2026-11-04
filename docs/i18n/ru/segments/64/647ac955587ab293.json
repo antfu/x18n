@@ -1,0 +1,14 @@
+{
+  "hash": "647ac955587ab293",
+  "source": "This is a usage of the key {0}.",
+  "text": "Это использование ключа {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Это использование ключа {0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fc5ed81456f187b4",
+  "source": "In JS and TS files, {0} is a translate call, also as {1}.",
+  "text": "В файлах JS и TS {0} считается вызовом перевода, в том числе в виде {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В файлах JS и TS {0} считается вызовом перевода, в том числе в виде {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

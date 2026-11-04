@@ -1,0 +1,14 @@
+{
+  "hash": "27572403d5f5c0ff",
+  "source": "The preset also adds a locale finder for {0} blocks in {1} files. Each block is a resource of its locale, and edits from x18n write back into the block:",
+  "text": "Das Preset fügt außerdem einen Sprachen-Finder für {0}-Blöcke in {1}-Dateien hinzu. Jeder Block ist eine Ressource seiner Sprache, und Änderungen durch x18n werden in den Block zurückgeschrieben:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset fügt außerdem einen Sprachen-Finder für {0}-Blöcke in {1}-Dateien hinzu. Jeder Block ist eine Ressource seiner Sprache, und Änderungen durch x18n werden in den Block zurückgeschrieben:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

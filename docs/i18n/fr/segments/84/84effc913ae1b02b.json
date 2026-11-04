@@ -1,0 +1,14 @@
+{
+  "hash": "84effc913ae1b02b",
+  "source": "Rename the id in your own plugin.",
+  "text": "Renommez l'identifiant dans votre propre plugin.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renommez l'identifiant dans votre propre plugin."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

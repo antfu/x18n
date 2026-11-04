@@ -1,0 +1,14 @@
+{
+  "hash": "3f6f0fe9e5054beb",
+  "source": "Only unresolved comments, and only threads that have some.",
+  "text": "Uniquement les commentaires non résolus, et uniquement les fils qui en contiennent.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uniquement les commentaires non résolus, et uniquement les fils qui en contiennent."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

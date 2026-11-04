@@ -1,0 +1,14 @@
+{
+  "hash": "6c80ec43b749865f",
+  "source": "A plural key is an object with the CLDR forms {0}, {1}, {2}, {3}, {4} and {5}. A usage of the key counts as a usage of each form.",
+  "text": "Ключ множественного числа — это объект с формами CLDR {0}, {1}, {2}, {3}, {4} и {5}. Использование такого ключа считается использованием каждой формы.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ множественного числа — это объект с формами CLDR {0}, {1}, {2}, {3}, {4} и {5}. Использование такого ключа считается использованием каждой формы."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

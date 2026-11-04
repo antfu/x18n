@@ -1,0 +1,14 @@
+{
+  "hash": "330e4ec9651ce203",
+  "source": "Fail when there are more than {0} warnings.",
+  "text": "Échoue s'il y a plus de {0} avertissements.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Échoue s'il y a plus de {0} avertissements."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

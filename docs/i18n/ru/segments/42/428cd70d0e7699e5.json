@@ -1,0 +1,14 @@
+{
+  "hash": "428cd70d0e7699e5",
+  "source": "{0} on the JS and TS resource patterns. These resources are read-only.",
+  "text": "{0} в шаблонах ресурсов JS и TS. Эти ресурсы доступны только для чтения.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} в шаблонах ресурсов JS и TS. Эти ресурсы доступны только для чтения."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

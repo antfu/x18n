@@ -1,0 +1,14 @@
+{
+  "hash": "2cb4efd1713a6464",
+  "source": "Paths are relative to the config file. Package names resolve from the directory of the config file.",
+  "text": "Пути указываются относительно файла конфигурации. Имена пакетов разрешаются из каталога файла конфигурации.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пути указываются относительно файла конфигурации. Имена пакетов разрешаются из каталога файла конфигурации."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

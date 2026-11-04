@@ -1,0 +1,14 @@
+{
+  "hash": "010e7aa4d417e0dc",
+  "source": "In Dart files, the preset reads {0}, {1}, {2} and {3}:",
+  "text": "Dans les fichiers Dart, le preset lit {0}, {1}, {2} et {3} :",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dans les fichiers Dart, le preset lit {0}, {1}, {2} et {3} :"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

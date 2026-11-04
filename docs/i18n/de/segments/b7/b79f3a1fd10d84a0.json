@@ -1,0 +1,14 @@
+{
+  "hash": "b79f3a1fd10d84a0",
+  "source": "Project root, relative to the config file.",
+  "text": "Projektstamm, relativ zur Konfigurationsdatei.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Projektstamm, relativ zur Konfigurationsdatei."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

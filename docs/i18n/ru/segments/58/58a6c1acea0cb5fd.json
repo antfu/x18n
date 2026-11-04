@@ -1,0 +1,14 @@
+{
+  "hash": "58a6c1acea0cb5fd",
+  "source": "language, lang (except in i18n-ally migration text)",
+  "text": "language, lang (кроме текста о миграции с i18n-ally)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "language, lang (кроме текста о миграции с i18n-ally)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

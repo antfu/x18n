@@ -1,0 +1,14 @@
+{
+  "hash": "54adba94d06e88d8",
+  "source": "A linked message ({0}) and a nesting placeholder ({1}) name another key. That key then counts as used. The {2} check reports a linked message whose key does not exist, and ICU messages that do not parse or that lack an {3} case.",
+  "text": "Связанное сообщение ({0}) и вложенный плейсхолдер ({1}) указывают на другой ключ. После этого такой ключ считается используемым. Проверка {2} сообщает о связанном сообщении, ключ которого не существует, а также об ICU-сообщениях, которые не разбираются или в которых нет ветки {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Связанное сообщение ({0}) и вложенный плейсхолдер ({1}) указывают на другой ключ. После этого такой ключ считается используемым. Проверка {2} сообщает о связанном сообщении, ключ которого не существует, а также об ICU-сообщениях, которые не разбираются или в которых нет ветки {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

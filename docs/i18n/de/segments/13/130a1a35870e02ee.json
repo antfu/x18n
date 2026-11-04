@@ -1,0 +1,14 @@
+{
+  "hash": "130a1a35870e02ee",
+  "source": "The value; {0} reads stdin",
+  "text": "Der Wert; {0} liest von stdin",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Wert; {0} liest von stdin"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

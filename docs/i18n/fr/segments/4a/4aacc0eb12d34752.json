@@ -1,0 +1,14 @@
+{
+  "hash": "4aacc0eb12d34752",
+  "source": "The message to store: template arguments become placeholders.",
+  "text": "Le message à stocker : les arguments du modèle deviennent des espaces réservés.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le message à stocker : les arguments du modèle deviennent des espaces réservés."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

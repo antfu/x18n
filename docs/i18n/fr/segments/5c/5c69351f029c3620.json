@@ -1,0 +1,14 @@
+{
+  "hash": "5c69351f029c3620",
+  "source": "Only these check ids, for example {0}, {1}, {2}.",
+  "text": "Uniquement ces identifiants de vérification, par exemple {0}, {1}, {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uniquement ces identifiants de vérification, par exemple {0}, {1}, {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

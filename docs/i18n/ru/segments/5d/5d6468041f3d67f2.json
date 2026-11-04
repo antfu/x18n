@@ -1,0 +1,14 @@
+{
+  "hash": "5d6468041f3d67f2",
+  "source": "The preset for flutter_translate. It reads translate() and translatePlural() calls in Dart and nested plural keys.",
+  "text": "Пресет для flutter_translate. Он читает вызовы translate() и translatePlural() в Dart и вложенные ключи множественного числа.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет для flutter_translate. Он читает вызовы translate() и translatePlural() в Dart и вложенные ключи множественного числа."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

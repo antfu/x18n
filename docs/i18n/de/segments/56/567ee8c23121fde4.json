@@ -1,0 +1,14 @@
+{
+  "hash": "567ee8c23121fde4",
+  "source": "A {0} is a string (a built-in preset name, a package name or a path), or {1}. A {2} is a severity ({3}, {4}, {5}, {6} or {7}), or {8}.",
+  "text": "Ein {0} ist ein String (ein integrierter Preset-Name, ein Paketname oder ein Pfad) oder {1}. Ein {2} ist ein Schweregrad ({3}, {4}, {5}, {6} oder {7}) oder {8}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein {0} ist ein String (ein integrierter Preset-Name, ein Paketname oder ein Pfad) oder {1}. Ein {2} ist ein Schweregrad ({3}, {4}, {5}, {6} oder {7}) oder {8}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

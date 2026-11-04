@@ -1,0 +1,14 @@
+{
+  "hash": "49a32f9bdb1f44e1",
+  "source": "x18n reads JS and TS locale files as text and does not run them. A file that computes its messages cannot be read that way.",
+  "text": "x18n lit les fichiers de langue JS et TS comme du texte et ne les exécute pas. Un fichier qui calcule ses messages ne peut pas être lu de cette façon.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n lit les fichiers de langue JS et TS comme du texte et ne les exécute pas. Un fichier qui calcule ses messages ne peut pas être lu de cette façon."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

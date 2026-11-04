@@ -1,0 +1,14 @@
+{
+  "hash": "85977448aaef7533",
+  "source": "gettext catalogs. Each {0} is a key. Extracted ({1}) and translator ({2}) comments describe it. A {3} entry needs review.",
+  "text": "Catalogues gettext. Chaque {0} est une clé. Les commentaires extraits ({1}) et ceux du traducteur ({2}) la décrivent. Une entrée {3} nécessite une relecture.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Catalogues gettext. Chaque {0} est une clé. Les commentaires extraits ({1}) et ceux du traducteur ({2}) la décrivent. Une entrée {3} nécessite une relecture."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

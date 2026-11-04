@@ -1,0 +1,14 @@
+{
+  "hash": "f941d59cd57ba7c1",
+  "source": "When a key gets a value in a locale that has no file yet, x18n fills the locale into a pattern without globs. Otherwise it copies the path of the source file and replaces the locale in it.",
+  "text": "Wenn ein Schlüssel einen Wert in einer Sprache erhält, für die es noch keine Datei gibt, setzt x18n die Sprache in ein Muster ohne Globs ein. Andernfalls kopiert es den Pfad der Quelldatei und ersetzt darin die Sprache.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn ein Schlüssel einen Wert in einer Sprache erhält, für die es noch keine Datei gibt, setzt x18n die Sprache in ein Muster ohne Globs ein. Andernfalls kopiert es den Pfad der Quelldatei und ersetzt darin die Sprache."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

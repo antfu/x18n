@@ -1,0 +1,14 @@
+{
+  "hash": "d0fa3ccf547dce16",
+  "source": "The hub owns the auth gate and the URL. The panel is at {0}, for example {1}.",
+  "text": "Le hub gère la barrière d'authentification et l'URL. Le panneau se trouve à l'adresse {0}, par exemple {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le hub gère la barrière d'authentification et l'URL. Le panneau se trouve à l'adresse {0}, par exemple {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

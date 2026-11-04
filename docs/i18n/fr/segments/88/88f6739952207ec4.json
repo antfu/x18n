@@ -1,0 +1,14 @@
+{
+  "hash": "88f6739952207ec4",
+  "source": "notification (server to client)",
+  "text": "notification (du serveur vers le client)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "notification (du serveur vers le client)"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

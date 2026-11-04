@@ -1,0 +1,14 @@
+{
+  "hash": "57f52d69b11edabe",
+  "source": "{0} fails the build when there are more than {1} warnings. Use it to stop the number of warnings from growing.",
+  "text": "{0} fait échouer le build lorsqu'il y a plus de {1} avertissements. Utilisez-le pour empêcher le nombre d'avertissements d'augmenter.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} fait échouer le build lorsqu'il y a plus de {1} avertissements. Utilisez-le pour empêcher le nombre d'avertissements d'augmenter."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

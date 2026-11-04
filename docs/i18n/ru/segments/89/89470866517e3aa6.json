@@ -1,0 +1,14 @@
+{
+  "hash": "89470866517e3aa6",
+  "source": "Run {0} to list review ids.",
+  "text": "Выполните {0}, чтобы получить список идентификаторов ревью.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Выполните {0}, чтобы получить список идентификаторов ревью."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

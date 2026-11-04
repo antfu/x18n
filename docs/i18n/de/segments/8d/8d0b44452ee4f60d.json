@@ -1,0 +1,14 @@
+{
+  "hash": "8d0b44452ee4f60d",
+  "source": "The last two lines are for agents: the server also serves {0}MCP over HTTP{/0} at {1}.",
+  "text": "Die letzten beiden Zeilen sind für agents: Der Server stellt auch {0}MCP über HTTP{/0} unter {1} bereit.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die letzten beiden Zeilen sind für agents: Der Server stellt auch {0}MCP über HTTP{/0} unter {1} bereit."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

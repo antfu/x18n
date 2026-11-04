@@ -1,0 +1,14 @@
+{
+  "hash": "675582ea59748837",
+  "source": "Turn every warning into an error.",
+  "text": "Transforme chaque avertissement en erreur.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Transforme chaque avertissement en erreur."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

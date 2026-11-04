@@ -1,0 +1,14 @@
+{
+  "hash": "013d46afeefe20ee",
+  "source": "Nesting: {0}. The nested key counts as used.",
+  "text": "Вложенность: {0}. Вложенный ключ считается используемым.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Вложенность: {0}. Вложенный ключ считается используемым."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

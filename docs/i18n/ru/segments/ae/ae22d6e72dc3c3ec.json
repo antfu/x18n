@@ -1,0 +1,14 @@
+{
+  "hash": "ae22d6e72dc3c3ec",
+  "source": "The command prints the URL and a bearer token:",
+  "text": "Команда выводит URL и bearer-токен:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Команда выводит URL и bearer-токен:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

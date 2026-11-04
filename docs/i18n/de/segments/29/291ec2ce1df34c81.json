@@ -1,0 +1,14 @@
+{
+  "hash": "291ec2ce1df34c81",
+  "source": "Sets one value. {0} picks the locale, and the default is the source locale. {1} reads stdin.",
+  "text": "Setzt einen Wert. {0} wählt die Sprache, standardmäßig die Quellsprache. {1} liest von stdin.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Setzt einen Wert. {0} wählt die Sprache, standardmäßig die Quellsprache. {1} liest von stdin."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

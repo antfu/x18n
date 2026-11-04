@@ -1,0 +1,14 @@
+{
+  "hash": "6c80ec43b749865f",
+  "source": "A plural key is an object with the CLDR forms {0}, {1}, {2}, {3}, {4} and {5}. A usage of the key counts as a usage of each form.",
+  "text": "Une clé plurielle est un objet avec les formes CLDR {0}, {1}, {2}, {3}, {4} et {5}. Une utilisation de la clé compte comme une utilisation de chaque forme.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une clé plurielle est un objet avec les formes CLDR {0}, {1}, {2}, {3}, {4} et {5}. Une utilisation de la clé compte comme une utilisation de chaque forme."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

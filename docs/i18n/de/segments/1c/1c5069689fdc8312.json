@@ -1,0 +1,14 @@
+{
+  "hash": "1c5069689fdc8312",
+  "source": "How far a message got, as its format says: {0}, {1} or {2} (XLIFF {3}, PO {4}). Not the state of a review thread.",
+  "text": "Wie weit eine Message fortgeschritten ist, so wie es ihr Format angibt: {0}, {1} oder {2} (XLIFF {3}, PO {4}). Nicht der Status eines Review-Threads.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wie weit eine Message fortgeschritten ist, so wie es ihr Format angibt: {0}, {1} oder {2} (XLIFF {3}, PO {4}). Nicht der Status eines Review-Threads."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

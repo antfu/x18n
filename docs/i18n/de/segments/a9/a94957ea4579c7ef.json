@@ -1,0 +1,14 @@
+{
+  "hash": "a94957ea4579c7ef",
+  "source": "The {0} preset supports {1} in its XLIFF mode.",
+  "text": "Das Preset {0} unterstützt {1} in seinem XLIFF-Modus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset {0} unterstützt {1} in seinem XLIFF-Modus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

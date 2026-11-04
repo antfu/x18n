@@ -1,0 +1,14 @@
+{
+  "hash": "0ddf23eb4ca2f4c1",
+  "source": "Writes many messages, in the shape of {0}. Refuses placeholder problems unless {1}.",
+  "text": "Écrit plusieurs messages, sous la forme de {0}. Refuse les problèmes d'espace réservé sauf avec {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Écrit plusieurs messages, sous la forme de {0}. Refuse les problèmes d'espace réservé sauf avec {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

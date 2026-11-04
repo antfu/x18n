@@ -1,0 +1,14 @@
+{
+  "hash": "09c2516ff6d1ece5",
+  "source": "The value an approval approved.",
+  "text": "Der Wert, den eine Freigabe freigegeben hat.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Wert, den eine Freigabe freigegeben hat."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

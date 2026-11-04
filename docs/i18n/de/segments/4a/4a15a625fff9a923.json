@@ -1,0 +1,14 @@
+{
+  "hash": "4a15a625fff9a923",
+  "source": "Hard-coded text gets into the UI without a key.",
+  "text": "Hartcodierter Text gelangt ohne Schlüssel in die UI.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Hartcodierter Text gelangt ohne Schlüssel in die UI."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

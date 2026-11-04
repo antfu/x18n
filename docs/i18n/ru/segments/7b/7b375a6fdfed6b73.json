@@ -1,0 +1,14 @@
+{
+  "hash": "7b375a6fdfed6b73",
+  "source": "Rules: the placeholder syntaxes of the project, markup, tone, and the glossary. Presets add notes for their library, for example the plural suffixes of i18next.",
+  "text": "Правила: синтаксис плейсхолдеров проекта, разметка, тон и глоссарий. Пресеты добавляют заметки для своей библиотеки, например суффиксы множественного числа в i18next.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Правила: синтаксис плейсхолдеров проекта, разметка, тон и глоссарий. Пресеты добавляют заметки для своей библиотеки, например суффиксы множественного числа в i18next."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

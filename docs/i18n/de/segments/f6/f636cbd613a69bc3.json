@@ -1,0 +1,14 @@
+{
+  "hash": "f636cbd613a69bc3",
+  "source": "Fix the syntax error that the message names.",
+  "text": "Behebe den Syntaxfehler, den die message nennt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Behebe den Syntaxfehler, den die message nennt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9a274759a3540da7",
+  "source": "Plugin tools: {0} prints the TS equivalent.",
+  "text": "plugin-Tools: {0} gibt das TS-Äquivalent aus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "plugin-Tools: {0} gibt das TS-Äquivalent aus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

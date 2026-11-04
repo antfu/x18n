@@ -1,0 +1,14 @@
+{
+  "hash": "344004d8279346d1",
+  "source": "For an instance with another name, add its callees to {0}. A keyset function that a module exports, such as {1}, is not followed into the modules that import it.",
+  "text": "Для экземпляра с другим именем добавьте его вызываемые функции в {0}. Функция keyset, которую экспортирует модуль, например {1}, не отслеживается в модулях, которые её импортируют.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Для экземпляра с другим именем добавьте его вызываемые функции в {0}. Функция keyset, которую экспортирует модуль, например {1}, не отслеживается в модулях, которые её импортируют."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

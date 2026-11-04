@@ -1,0 +1,14 @@
+{
+  "hash": "dc3d7e589871153f",
+  "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
+  "text": "Jedes integrierte Format hat {0}, und eine Änderung betrifft nur die Einträge, die sie setzt, hinzufügt oder löscht. Kommentare, Reihenfolge der Schlüssel, Anführungszeichen und Einrückung bleiben unverändert. Ein neuer Schlüssel steht im Stil der Datei nach dem letzten Schlüssel seines übergeordneten Elements. Ein gelöschter Schlüssel nimmt den Kommentar am Ende seiner Zeile mit. In {1} und {2} gehören die Kommentare über einem Eintrag zu ihm und werden ebenfalls entfernt. Nur {3} und {4} schreiben eine ganze Datei neu, wodurch ihre Kommentare verloren gehen. Ein Format, das nur liest, macht seine Ressourcen schreibgeschützt.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jedes integrierte Format hat {0}, und eine Änderung betrifft nur die Einträge, die sie setzt, hinzufügt oder löscht. Kommentare, Reihenfolge der Schlüssel, Anführungszeichen und Einrückung bleiben unverändert. Ein neuer Schlüssel steht im Stil der Datei nach dem letzten Schlüssel seines übergeordneten Elements. Ein gelöschter Schlüssel nimmt den Kommentar am Ende seiner Zeile mit. In {1} und {2} gehören die Kommentare über einem Eintrag zu ihm und werden ebenfalls entfernt. Nur {3} und {4} schreiben eine ganze Datei neu, wodurch ihre Kommentare verloren gehen. Ein Format, das nur liest, macht seine Ressourcen schreibgeschützt."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

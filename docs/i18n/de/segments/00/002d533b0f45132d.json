@@ -1,0 +1,14 @@
+{
+  "hash": "002d533b0f45132d",
+  "source": "Records that the translations of a key are up to date with the source value. {0} limits it.",
+  "text": "Hält fest, dass die Übersetzungen eines Schlüssels mit dem Quellwert aktuell sind. {0} schränkt dies ein.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Hält fest, dass die Übersetzungen eines Schlüssels mit dem Quellwert aktuell sind. {0} schränkt dies ein."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

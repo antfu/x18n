@@ -1,0 +1,14 @@
+{
+  "hash": "c10c2e946883b9b6",
+  "source": "JS and TS modules whose default export is an object literal",
+  "text": "JS- und TS-Module, deren Default-Export ein Objektliteral ist",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JS- und TS-Module, deren Default-Export ein Objektliteral ist"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2efd41fe9899d1b5",
+  "source": "Config file could not be loaded",
+  "text": "Konfigurationsdatei konnte nicht geladen werden",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Konfigurationsdatei konnte nicht geladen werden"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "81576f3af3410462",
+  "source": "A namespace is a named group of keys, usually taken from a file name. With the pattern {0}, the file {1} holds the namespace {2}.",
+  "text": "Un espace de noms est un groupe de clés nommé, généralement tiré d'un nom de fichier. Avec le motif {0}, le fichier {1} contient l'espace de noms {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un espace de noms est un groupe de clés nommé, généralement tiré d'un nom de fichier. Avec le motif {0}, le fichier {1} contient l'espace de noms {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

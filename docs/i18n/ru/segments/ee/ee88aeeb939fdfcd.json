@@ -1,0 +1,14 @@
+{
+  "hash": "ee88aeeb939fdfcd",
+  "source": "Every command prints one document with the same envelope:",
+  "text": "Каждая команда выводит один документ с одинаковой оболочкой:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Каждая команда выводит один документ с одинаковой оболочкой:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

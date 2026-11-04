@@ -1,0 +1,14 @@
+{
+  "hash": "250f4ecb03382687",
+  "source": "The {0} attribute picks the format: {1} (the default), {2}, {3} or {4}. Each block and locale is a resource, so edits from x18n write back into the block.",
+  "text": "Атрибут {0} выбирает формат: {1} (по умолчанию), {2}, {3} или {4}. Каждый блок и каждая локаль — это ресурс, поэтому изменения из x18n записываются обратно в блок.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Атрибут {0} выбирает формат: {1} (по умолчанию), {2}, {3} или {4}. Каждый блок и каждая локаль — это ресурс, поэтому изменения из x18n записываются обратно в блок."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

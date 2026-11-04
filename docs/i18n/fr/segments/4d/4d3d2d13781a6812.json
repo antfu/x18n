@@ -1,0 +1,14 @@
+{
+  "hash": "4d3d2d13781a6812",
+  "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}. When a message is used, its attributes count as used too, since {4} reads them.",
+  "text": "Le format {0} lit l'attribut d'un message comme une clé à part entière : {1} sur le message {2} est la clé {3}. Quand un message est utilisé, ses attributs comptent aussi comme utilisés, puisque {4} les lit.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le format {0} lit l'attribut d'un message comme une clé à part entière : {1} sur le message {2} est la clé {3}. Quand un message est utilisé, ses attributs comptent aussi comme utilisés, puisque {4} les lit."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

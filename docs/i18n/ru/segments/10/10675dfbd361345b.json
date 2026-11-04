@@ -1,0 +1,14 @@
+{
+  "hash": "10675dfbd361345b",
+  "source": "Page keys under {0}, such as {1}",
+  "text": "Ключи страниц в {0}, например {1}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключи страниц в {0}, например {1}"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

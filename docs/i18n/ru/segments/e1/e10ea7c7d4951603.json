@@ -1,0 +1,14 @@
+{
+  "hash": "e10ea7c7d4951603",
+  "source": "Key glob: {0} inside a segment, {1} across segments.",
+  "text": "Glob ключа: {0} внутри сегмента, {1} между сегментами.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Glob ключа: {0} внутри сегмента, {1} между сегментами."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

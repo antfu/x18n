@@ -1,0 +1,14 @@
+{
+  "hash": "abded637629cadb3",
+  "source": "Make sure that the top level of the file is an object, not an array or a string.",
+  "text": "Убедитесь, что верхний уровень файла — это объект, а не массив или строка.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Убедитесь, что верхний уровень файла — это объект, а не массив или строка."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

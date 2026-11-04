@@ -1,0 +1,14 @@
+{
+  "hash": "e2b5565416fb87f3",
+  "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
+  "text": "L'argument qui contient la clé : un indice (par défaut {0}), ou {1} pour une propriété d'un argument de type objet.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'argument qui contient la clé : un indice (par défaut {0}), ou {1} pour une propriété d'un argument de type objet."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

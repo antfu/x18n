@@ -1,0 +1,14 @@
+{
+  "hash": "d499d03957114f85",
+  "source": "Print the plan instead of writing",
+  "text": "Вывести план вместо записи",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Вывести план вместо записи"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

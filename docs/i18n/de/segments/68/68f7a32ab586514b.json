@@ -1,0 +1,14 @@
+{
+  "hash": "68f7a32ab586514b",
+  "source": "One comment on one message: a {0}, an {1}, a {2} or a {3}.",
+  "text": "Ein Kommentar zu einer message: ein {0}, ein {1}, ein {2} oder ein {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Kommentar zu einer message: ein {0}, ein {1}, ein {2} oder ein {3}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

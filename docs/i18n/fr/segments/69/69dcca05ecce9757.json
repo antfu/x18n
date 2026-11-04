@@ -1,0 +1,14 @@
+{
+  "hash": "69dcca05ecce9757",
+  "source": "The preset does not read {0} and other data annotations, or strongly typed classes with other names than {1}.",
+  "text": "Le preset ne lit pas {0} ni les autres annotations de données, ni les classes fortement typées dont le nom diffère de {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset ne lit pas {0} ni les autres annotations de données, ni les classes fortement typées dont le nom diffère de {1}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

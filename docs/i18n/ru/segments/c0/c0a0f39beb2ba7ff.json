@@ -1,0 +1,14 @@
+{
+  "hash": "c0a0f39beb2ba7ff",
+  "source": "The check takes options. Set them with the array form:",
+  "text": "Проверка принимает параметры. Задайте их в форме массива:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверка принимает параметры. Задайте их в форме массива:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "bf2787b9cd033267",
+  "source": "The files use relative paths. Serve the directory from any static host and any path, for example GitHub Pages or the artifacts of a CI job. See {0}CI{/0}.",
+  "text": "Les fichiers utilisent des chemins relatifs. Servez le répertoire depuis n'importe quel hébergeur statique et à n'importe quel chemin, par exemple GitHub Pages ou les artefacts d'un job de CI. Voir {0}CI{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les fichiers utilisent des chemins relatifs. Servez le répertoire depuis n'importe quel hébergeur statique et à n'importe quel chemin, par exemple GitHub Pages ou les artefacts d'un job de CI. Voir {0}CI{/0}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

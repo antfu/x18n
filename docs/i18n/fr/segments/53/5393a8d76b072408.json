@@ -1,0 +1,14 @@
+{
+  "hash": "5393a8d76b072408",
+  "source": "Callee names never counted as translate calls.",
+  "text": "Noms d'appelés jamais comptés comme des appels de traduction.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Noms d'appelés jamais comptés comme des appels de traduction."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

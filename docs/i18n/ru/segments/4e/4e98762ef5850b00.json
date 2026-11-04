@@ -1,0 +1,14 @@
+{
+  "hash": "4e98762ef5850b00",
+  "source": "The {0} reporter writes SARIF 2.1.0. Upload it to show the diagnostics in the code scanning view of GitHub:",
+  "text": "Репортер {0} записывает SARIF 2.1.0. Загрузите его, чтобы показать диагностики в представлении code scanning на GitHub:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Репортер {0} записывает SARIF 2.1.0. Загрузите его, чтобы показать диагностики в представлении code scanning на GitHub:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

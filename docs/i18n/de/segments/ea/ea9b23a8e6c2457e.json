@@ -1,0 +1,14 @@
+{
+  "hash": "ea9b23a8e6c2457e",
+  "source": "The names that count as translate calls in a file: declared names, same-file aliases, wrappers, typed params.",
+  "text": "Die Namen, die in einer Datei als Translate-Aufrufe zählen: deklarierte Namen, Aliase in derselben Datei, Wrapper, typisierte Params.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Namen, die in einer Datei als Translate-Aufrufe zählen: deklarierte Namen, Aliase in derselben Datei, Wrapper, typisierte Params."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

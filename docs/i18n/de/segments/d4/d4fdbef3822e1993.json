@@ -1,0 +1,14 @@
+{
+  "hash": "d4fdbef3822e1993",
+  "source": "Print the JSON contract.",
+  "text": "Gib den JSON-Vertrag aus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gib den JSON-Vertrag aus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

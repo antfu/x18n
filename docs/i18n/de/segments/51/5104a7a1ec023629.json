@@ -1,0 +1,14 @@
+{
+  "hash": "5104a7a1ec023629",
+  "source": "The value of one key in one locale.",
+  "text": "Der Wert eines Schlüssels in einer Sprache.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Wert eines Schlüssels in einer Sprache."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

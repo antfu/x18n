@@ -1,0 +1,14 @@
+{
+  "hash": "ce7f3a82c2832538",
+  "source": "Other folders, such as {0} and {1}, are not locales. A new locale gets the folder Android expects.",
+  "text": "Les autres dossiers, comme {0} et {1}, ne sont pas des langues. Une nouvelle langue reçoit le dossier qu'Android attend.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les autres dossiers, comme {0} et {1}, ne sont pas des langues. Une nouvelle langue reçoit le dossier qu'Android attend."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

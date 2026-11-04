@@ -1,0 +1,14 @@
+{
+  "hash": "546ad2fe730dc97f",
+  "source": "The whole file, wherever the comment is.",
+  "text": "Die gesamte Datei, egal wo der Kommentar steht.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die gesamte Datei, egal wo der Kommentar steht."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

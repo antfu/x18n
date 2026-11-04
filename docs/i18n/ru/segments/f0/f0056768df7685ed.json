@@ -1,0 +1,14 @@
+{
+  "hash": "f0056768df7685ed",
+  "source": "Duplicate capability id. Rename the id, or set `override: true` on the later one.",
+  "text": "Дублирующийся id возможности. Переименуйте id или задайте `override: true` для более позднего.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Дублирующийся id возможности. Переименуйте id или задайте `override: true` для более позднего."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

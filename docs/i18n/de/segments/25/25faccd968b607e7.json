@@ -1,0 +1,14 @@
+{
+  "hash": "25faccd968b607e7",
+  "source": "A project changed. {0} lists the keys that changed.",
+  "text": "Ein Projekt hat sich geändert. {0} listet die Schlüssel auf, die sich geändert haben.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Projekt hat sich geändert. {0} listet die Schlüssel auf, die sich geändert haben."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

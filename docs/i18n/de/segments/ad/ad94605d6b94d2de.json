@@ -1,0 +1,14 @@
+{
+  "hash": "ad94605d6b94d2de",
+  "source": "Run {0} again.",
+  "text": "Führe {0} erneut aus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Führe {0} erneut aus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

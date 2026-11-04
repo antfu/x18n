@@ -1,0 +1,14 @@
+{
+  "hash": "89f7ca9f3459bea5",
+  "source": "The name of the plugin. It is required and must be unique.",
+  "text": "Название плагина. Обязательное поле, должно быть уникальным.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Название плагина. Обязательное поле, должно быть уникальным."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

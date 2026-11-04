@@ -1,0 +1,14 @@
+{
+  "hash": "4768e7123b6082d0",
+  "source": "XLIFF 1.2 and 2.0. Each unit id is a key. A file with a target language or a {0} reads its targets, otherwise its sources. Placeholders read as {1}. The {2} and {3} notes describe a unit, and the {4} of a target (1.2) or segment (2.0) is its translation state.",
+  "text": "XLIFF 1.2 und 2.0. Jede Unit-ID ist ein Schlüssel. Eine Datei mit einer Zielsprache oder einem {0} liest ihre Targets, sonst ihre Sources. Platzhalter werden als {1} gelesen. Die Notizen {2} und {3} beschreiben eine Unit, und das {4} eines Targets (1.2) oder Segments (2.0) ist sein Übersetzungsstatus.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "XLIFF 1.2 und 2.0. Jede Unit-ID ist ein Schlüssel. Eine Datei mit einer Zielsprache oder einem {0} liest ihre Targets, sonst ihre Sources. Platzhalter werden als {1} gelesen. Die Notizen {2} und {3} beschreiben eine Unit, und das {4} eines Targets (1.2) oder Segments (2.0) ist sein Übersetzungsstatus."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

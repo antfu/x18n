@@ -1,0 +1,14 @@
+{
+  "hash": "70b6951ebea33fee",
+  "source": "{0} and {1} come from {2}. Keys under {3} count as used, since AdonisJS reads them itself.",
+  "text": "{0} und {1} stammen aus {2}. Schlüssel unter {3} gelten als verwendet, da AdonisJS sie selbst liest.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} und {1} stammen aus {2}. Schlüssel unter {3} gelten als verwendet, da AdonisJS sie selbst liest."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

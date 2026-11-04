@@ -1,0 +1,14 @@
+{
+  "hash": "42beac49af7b37a3",
+  "source": "The {0} preset supports {1}i18n-js{/1}, the JS companion of Rails I18n.",
+  "text": "Das {0}-Preset unterstützt {1}i18n-js{/1}, das JavaScript-Pendant zu Rails I18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt {1}i18n-js{/1}, das JavaScript-Pendant zu Rails I18n."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

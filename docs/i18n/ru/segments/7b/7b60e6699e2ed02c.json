@@ -1,0 +1,14 @@
+{
+  "hash": "7b60e6699e2ed02c",
+  "source": "Interpolation: {0}, {1} and {2}.",
+  "text": "Интерполяция: {0}, {1} и {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Интерполяция: {0}, {1} и {2}."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

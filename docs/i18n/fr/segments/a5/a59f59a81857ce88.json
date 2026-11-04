@@ -1,0 +1,14 @@
+{
+  "hash": "a59f59a81857ce88",
+  "source": "A usage whose key is not defined in the source locale.",
+  "text": "Une utilisation dont la clé n'est pas définie dans la langue source.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une utilisation dont la clé n'est pas définie dans la langue source."
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

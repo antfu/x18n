@@ -1,0 +1,14 @@
+{
+  "hash": "00492d6b69915027",
+  "source": "Reporters",
+  "text": "Reporter",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reporter"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}

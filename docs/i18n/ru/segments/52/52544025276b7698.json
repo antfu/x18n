@@ -1,0 +1,14 @@
+{
+  "hash": "52544025276b7698",
+  "source": "The preset adds the {0} scanner, so extraction finds hard-coded text and text attributes ({1}, {2}, {3}, ...) in {4} templates. It skips:",
+  "text": "Пресет добавляет сканер {0}, поэтому при извлечении находится захардкоженный текст и текстовые атрибуты ({1}, {2}, {3}, ...) в шаблонах {4}. Пропускаются:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет добавляет сканер {0}, поэтому при извлечении находится захардкоженный текст и текстовые атрибуты ({1}, {2}, {3}, ...) в шаблонах {4}. Пропускаются:"
+  },
+  "updatedAt": "2026-11-04T05:47:51.390Z"
+}
