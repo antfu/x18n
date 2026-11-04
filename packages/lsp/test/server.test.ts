@@ -345,6 +345,48 @@ describe('language server', () => {
     await expect.poll(() => diagnostics.get(uri('src/main.ts'))?.map(d => d.message), { timeout: 3000 }).toEqual(['"brand.new" is not defined in en.'])
   })
 
+  it('flushes an open document before hover', async () => {
+    const content = await text('src/App.vue')
+    const edited = content.replace('</template>', '<p>{{ $t(\'app.title\') }}</p>\n</template>')
+    expect(edited).not.toBe(content)
+    const index = createLineIndex(edited)
+    await client.sendNotification('textDocument/didOpen', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+        languageId: 'vue',
+        version: 1,
+        text: content,
+      },
+    })
+    await client.sendNotification('textDocument/didChange', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+        version: 2,
+      },
+      contentChanges: [
+        { text: edited },
+      ],
+    })
+    const hover: { contents: { value: string } } = await client.sendRequest('textDocument/hover', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+      position: index.position(edited.lastIndexOf('app.title')),
+    })
+    expect(hover.contents.value).toContain('app.title')
+    await client.sendNotification('textDocument/didClose', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+    })
+    await client.sendRequest('textDocument/hover', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+      position: { line: 0, character: 0 },
+    })
+  })
+
   // Last: `shutdown` stops the UI server.
   it('adds, lists and resolves reviews, with their diagnostic and hover', async () => {
     await client.sendRequest('workspace/executeCommand', {
