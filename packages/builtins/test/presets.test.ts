@@ -1087,6 +1087,41 @@ describe('namespaces', () => {
     expect(project.analyze().undefinedUsages).toEqual([])
   })
 
+  it('ngx-translate: an operand of a concatenation is not a key', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        real: { key: 'Real' },
+      }),
+      'src/app/app.component.html': [
+        `<p>{{ 'salesHub.links.' + link.id + '.title' | translate }}</p>`,
+        `<p>{{ 'salesHub.links.' + link.id + '.text' | translate }}</p>`,
+        `<p>{{ 'a.' +'b' | translate }}</p>`,
+        `<p>{{ 'a.' +`,
+        `  'b' | translate }}</p>`,
+        `<p>{{ 'real.key' | translate }}</p>`,
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['real.key'])
+    expect(project.analyze().undefinedUsages).toEqual([])
+  })
+
+  it('ngx-translate: a key beside a concatenation still matches', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        else: { key: 'E' },
+        beside: { key: 'B' },
+      }),
+      'src/app/app.component.html': [
+        `<p>{{ ok ? 'a.' + id : 'else.key' | translate }}</p>`,
+        `<p>{{ ('a.' + id | translate) + ('beside.key' | translate) }}</p>`,
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual(['beside.key', 'else.key'])
+    expect(project.analyze().unused).toEqual([])
+  })
+
   it('ngx-translate: every branch of a nested ternary before pipe', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@angular/core', '@ngx-translate/core'),
