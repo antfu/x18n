@@ -198,9 +198,7 @@
     "viewAll": "Ver todos",
     "copyFix": "Copiar prompt de correção",
     "fixHint": "Copia um prompt para um LLM ou agente que corrige todos os diagnósticos deste projeto",
-    "fixCodeHint": "Copia um prompt para um LLM ou agente que corrige os diagnósticos {code}",
-    "showMore": "Mostrar mais {count}",
-    "shown": "{shown} de {total} exibidos"
+    "fixCodeHint": "Copia um prompt para um LLM ou agente que corrige os diagnósticos {code}"
   },
   "review": {
     "add": "Revisar",
@@ -246,5 +244,9 @@
     "translated": "Traduzido",
     "needsReview": "A revisar",
     "reviewed": "Revisado"
+  },
+  "list": {
+    "showMore": "Mostrar mais {count}",
+    "shown": "{shown} de {total} exibidos"
   }
 }

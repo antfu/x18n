@@ -4,9 +4,11 @@ import { computed, ref } from 'vue'
 import { NuxtLink } from '#components'
 import CodeSnippet from '../components/CodeSnippet.vue'
 import FilePath from '../components/FilePath.vue'
+import ShowMore from '../components/ShowMore.vue'
 import UiPage from '../components/ui/UiPage.vue'
 import UiSegmented from '../components/ui/UiSegmented.vue'
 import { t } from '../i18n'
+import { listStep, useShowMore } from '../show-more'
 import { backend, projectName, useLive } from '../state'
 
 const analysis = useLive((b, project) => b.analysis(project))
@@ -26,6 +28,13 @@ const undefinedByKey = computed(() => {
 })
 const dynamic = computed(() => (usages.value ?? []).filter(u => u.dynamic !== false))
 const all = computed(() => (usages.value ?? []).filter(u => !filter.value || u.path.includes(filter.value) || (u.key ?? u.raw).includes(filter.value)))
+const unused = computed(() => analysis.value?.unused ?? [])
+
+// Each tab mounts its list a part at a time, from the start again when the tab or the filter changes.
+const { shown: shownUndefined, more: moreUndefined } = useShowMore(undefinedByKey, () => tab.value)
+const { shown: shownUnused, more: moreUnused } = useShowMore(unused, () => tab.value)
+const { shown: shownDynamic, more: moreDynamic } = useShowMore(dynamic, () => tab.value)
+const { shown: shownAll, more: moreAll } = useShowMore(all, () => [tab.value, filter.value])
 
 // The bulk delete: a dry run first, then the write after the user confirms.
 const deletion = ref<UnusedDeletionView>()
@@ -87,13 +96,14 @@ const tabs = computed(() => [
       <p class="border-b border-base px-4 py-2 text-xs color-muted">
         {{ t('usages.missingHint') }}
       </p>
-      <div v-for="[key, list] in undefinedByKey" :key="key" class="grid gap-2 border-b border-base px-4 py-3">
+      <div v-for="[key, list] in shownUndefined" :key="key" class="grid gap-2 border-b border-base px-4 py-3">
         <span class="font-mono font-medium color-error">{{ key }}</span>
         <div v-for="(usage, i) in list" :key="i" class="grid gap-1">
           <FilePath :path="usage.path" :line="usage.line" :column="usage.column" />
           <CodeSnippet :usage="usage" />
         </div>
       </div>
+      <ShowMore :shown="shownUndefined.length" :total="undefinedByKey.length" :step="listStep" @more="moreUndefined" />
     </template>
 
     <template v-else-if="tab === 'unused'">
@@ -136,33 +146,36 @@ const tabs = computed(() => [
           </button>
         </div>
       </div>
-      <NuxtLink v-for="key in analysis?.unused" :key="key" :to="`/keys/${encodeURIComponent(key)}`" class="focus-ring flex items-center gap-2 border-b border-base px-4 py-1.5 font-mono text-xs transition-colors hover:bg-hover">
+      <NuxtLink v-for="key in shownUnused" :key="key" :to="`/keys/${encodeURIComponent(key)}`" class="focus-ring flex items-center gap-2 border-b border-base px-4 py-1.5 font-mono text-xs transition-colors hover:bg-hover">
         <span class="i-ph-ghost-duotone color-faint" />
         {{ key }}
       </NuxtLink>
+      <ShowMore :shown="shownUnused.length" :total="unused.length" :step="listStep" @more="moreUnused" />
     </template>
 
     <template v-else-if="tab === 'dynamic'">
       <p class="border-b border-base px-4 py-2 text-xs color-muted">
         {{ t('usages.dynamicHint') }}
       </p>
-      <div v-for="(usage, i) in dynamic" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
+      <div v-for="(usage, i) in shownDynamic" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
         <div class="flex items-center gap-2">
           <FilePath :path="usage.path" :line="usage.line" />
           <code class="font-mono text-xs color-info">{{ usage.raw }}</code>
         </div>
         <CodeSnippet :usage="usage" />
       </div>
+      <ShowMore :shown="shownDynamic.length" :total="dynamic.length" :step="listStep" @more="moreDynamic" />
     </template>
 
     <template v-else>
-      <div v-for="(usage, i) in all" :key="i" class="grid grid-cols-[minmax(0,22rem)_1fr] items-center gap-4 border-b border-base px-4 py-1 transition-colors hover:bg-hover">
+      <div v-for="(usage, i) in shownAll" :key="i" class="grid grid-cols-[minmax(0,22rem)_1fr] items-center gap-4 border-b border-base px-4 py-1 transition-colors hover:bg-hover">
         <FilePath :path="usage.path" :line="usage.line" />
         <NuxtLink v-if="usage.key" :to="`/keys/${encodeURIComponent(usage.key)}`" class="truncate font-mono text-xs hover:underline">
           {{ usage.key }}
         </NuxtLink>
         <span v-else class="truncate font-mono text-xs color-muted">{{ usage.raw }}</span>
       </div>
+      <ShowMore :shown="shownAll.length" :total="all.length" :step="listStep" @more="moreAll" />
     </template>
   </UiPage>
 </template>

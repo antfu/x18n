@@ -1,11 +1,11 @@
 import type { DevframeNodeContext } from 'devframe'
-import type { ApplyQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectList, ProjectQuery, PromptQuery, ReviewQuery, UiLocation, UiProject, UnusedDeletionQuery, UsageQuery } from './types'
+import type { ApplyQuery, DiagnosticQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectList, ProjectQuery, PromptQuery, ReviewQuery, UiLocation, UiProject, UnusedDeletionQuery, UsageQuery } from './types'
 import { extractItems, findCandidates } from '@x18n/builtins/extractors'
 import { renderPrompt } from '@x18n/core'
 import { defineRpcFunction } from 'devframe'
 import * as v from 'valibot'
-import { ApplyQuerySchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, OpenQuerySchema, PlanQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UnusedDeletionSchema, UsageQuerySchema } from './schemas'
-import { analysisView, applyOps, explainView, keyDetail, keyTable, pickProject, previewOps, summarize, unusedDeletionView, usageViews } from './views'
+import { ApplyQuerySchema, DiagnosticQuerySchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, OpenQuerySchema, PlanQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UnusedDeletionSchema, UsageQuerySchema } from './schemas'
+import { analysisView, applyOps, diagnosticPage, diagnosticQueries, explainView, keyDetail, keyTable, pickProject, previewOps, summarize, unusedDeletionView, usageViews } from './views'
 
 export interface RpcOptions {
   readonly openInEditor?: ((location: UiLocation) => Promise<void>) | undefined
@@ -71,6 +71,18 @@ export function registerRpc(ctx: DevframeNodeContext, projects: readonly UiProje
     handler: (query: ProjectQuery) => analysisView(pickProject(projects, v.parse(ProjectQuerySchema, query).project)),
     dump: () => ({
       inputs: perProject(),
+    }),
+  }))
+  rpc.register(defineRpcFunction({
+    name: 'diagnostics',
+    type: 'query',
+    jsonSerializable: true,
+    handler: (query: DiagnosticQuery) => {
+      const { project, ...filter } = v.parse(DiagnosticQuerySchema, query)
+      return diagnosticPage(pickProject(projects, project), filter)
+    },
+    dump: () => ({
+      inputs: projects.flatMap(p => diagnosticQueries(p).map((query): [DiagnosticQuery] => [query])),
     }),
   }))
   rpc.register(defineRpcFunction({

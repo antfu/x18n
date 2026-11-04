@@ -60,6 +60,36 @@ describe('rpc functions', () => {
     expect(wire(await ctx.rpc.invokeLocal('x18n:analysis', { project }))).toMatchSnapshot()
   })
 
+  it('pages diagnostics, errors first, filtered by code and locale', async () => {
+    const all = await ctx.rpc.invokeLocal('x18n:diagnostics', { project, page: 0 })
+    expect(wire(all)).toMatchSnapshot()
+    expect(all.total).toBe(all.byCode.reduce((sum, c) => sum + c.count, 0))
+    expect(all.items.length).toBe(Math.min(all.total, all.pageSize))
+    const severities = all.items.map(d => d.severity === 'error')
+    expect(severities).toEqual(severities.toSorted((a, b) => Number(b) - Number(a)))
+
+    const code = all.byCode[0]!.code
+    const byCode = await ctx.rpc.invokeLocal('x18n:diagnostics', {
+      project,
+      codes: [code],
+      page: 0,
+    })
+    expect(byCode.total).toBe(all.byCode[0]!.count)
+    expect(byCode.items.every(d => d.code === code)).toBe(true)
+    // Counts stay those of every code, so the page can offer the others.
+    expect(byCode.byCode).toEqual(all.byCode)
+
+    const locale = all.items.find(d => d.locale !== undefined)!.locale!
+    const inLocale = await ctx.rpc.invokeLocal('x18n:diagnostics', { project, locale, page: 0 })
+    expect(inLocale.items.length).toBeGreaterThan(0)
+    expect(inLocale.items.every(d => d.locale === locale)).toBe(true)
+
+    const past = await ctx.rpc.invokeLocal('x18n:diagnostics', { project, page: 1 })
+    expect(past.items).toEqual([])
+    expect(past.total).toBe(all.total)
+    await expect(ctx.rpc.invokeLocal('x18n:diagnostics', { project, page: -1 })).rejects.toThrow()
+  })
+
   it('explains the project', async () => {
     expect(wire(await ctx.rpc.invokeLocal('x18n:explain'))).toMatchSnapshot()
   })

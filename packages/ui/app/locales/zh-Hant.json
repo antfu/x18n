@@ -198,9 +198,7 @@
     "viewAll": "檢視全部",
     "copyFix": "複製修復提示詞",
     "fixHint": "複製提示詞，供 LLM 或代理修復此專案的所有診斷",
-    "fixCodeHint": "複製提示詞，供 LLM 或代理修復 {code} 診斷",
-    "showMore": "再顯示 {count} 筆",
-    "shown": "已顯示 {shown} / {total}"
+    "fixCodeHint": "複製提示詞，供 LLM 或代理修復 {code} 診斷"
   },
   "review": {
     "add": "審閱",
@@ -246,5 +244,9 @@
     "translated": "已翻譯",
     "needsReview": "待審校",
     "reviewed": "已審校"
+  },
+  "list": {
+    "showMore": "再顯示 {count} 筆",
+    "shown": "已顯示 {shown} / {total}"
   }
 }

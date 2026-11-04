@@ -198,9 +198,7 @@
     "viewAll": "모두 보기",
     "copyFix": "수정 프롬프트 복사",
     "fixHint": "이 프로젝트의 모든 진단을 수정하는 LLM 또는 에이전트용 프롬프트를 복사합니다",
-    "fixCodeHint": "{code} 진단을 수정하는 LLM 또는 에이전트용 프롬프트를 복사합니다",
-    "showMore": "{count}개 더 보기",
-    "shown": "{total}개 중 {shown}개 표시"
+    "fixCodeHint": "{code} 진단을 수정하는 LLM 또는 에이전트용 프롬프트를 복사합니다"
   },
   "review": {
     "add": "리뷰",
@@ -246,5 +244,9 @@
     "translated": "번역됨",
     "needsReview": "검토 필요",
     "reviewed": "검토됨"
+  },
+  "list": {
+    "showMore": "{count}개 더 보기",
+    "shown": "{total}개 중 {shown}개 표시"
   }
 }

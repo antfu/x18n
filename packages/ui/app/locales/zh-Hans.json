@@ -198,9 +198,7 @@
     "viewAll": "查看全部",
     "copyFix": "复制修复提示词",
     "fixHint": "复制提示词，供 LLM 或智能体修复此项目的所有诊断",
-    "fixCodeHint": "复制提示词，供 LLM 或智能体修复 {code} 诊断",
-    "showMore": "再显示 {count} 条",
-    "shown": "已显示 {shown} / {total}"
+    "fixCodeHint": "复制提示词，供 LLM 或智能体修复 {code} 诊断"
   },
   "review": {
     "add": "审阅",
@@ -246,5 +244,9 @@
     "translated": "已翻译",
     "needsReview": "待审校",
     "reviewed": "已审校"
+  },
+  "list": {
+    "showMore": "再显示 {count} 条",
+    "shown": "已显示 {shown} / {total}"
   }
 }

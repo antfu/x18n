@@ -32,6 +32,15 @@ export interface KeyQuery extends ProjectQuery {
   readonly key: KeyString
 }
 
+export interface DiagnosticQuery extends ProjectQuery {
+  /** Only diagnostics with one of these codes. */
+  readonly codes?: readonly string[] | undefined
+  /** Only diagnostics of this locale. */
+  readonly locale?: LocaleCode | undefined
+  /** Zero-based page of `diagnosticPageSize` items; default 0. */
+  readonly page?: number | undefined
+}
+
 export interface UsageQuery extends ProjectQuery {
   readonly key?: KeyString | undefined
   readonly path?: string | undefined
@@ -189,7 +198,7 @@ export interface DiagnosticCounts {
   readonly warnings: number
   /** Infos and hints. */
   readonly infos: number
-  readonly byCode: readonly { readonly code: string, readonly severity: Severity, readonly count: number }[]
+  readonly byCode: readonly DiagnosticCount[]
 }
 
 export interface ProjectSummary {
@@ -298,9 +307,26 @@ export interface KeyDetail {
   readonly reviews: readonly ReviewThread[]
 }
 
+export interface DiagnosticCount {
+  readonly code: string
+  readonly severity: Severity
+  readonly count: number
+}
+
+/** One page of the diagnostics that match a query, errors first. */
+export interface DiagnosticPage {
+  readonly project: string
+  /** Diagnostics that match the query, on every page. */
+  readonly total: number
+  readonly page: number
+  readonly pageSize: number
+  /** Counts per code of the diagnostics that match the locale, whatever the codes asked for. */
+  readonly byCode: readonly DiagnosticCount[]
+  readonly items: readonly WireDiagnostic[]
+}
+
 export interface AnalysisView {
   readonly project: string
-  readonly diagnostics: readonly WireDiagnostic[]
   readonly unused: readonly KeyString[]
   /** Usages whose key is not defined in the source locale. */
   readonly undefinedUsages: readonly UsageView[]
@@ -352,6 +378,7 @@ declare module 'devframe' {
     'x18n:key': (query: KeyQuery) => KeyDetail | null
     'x18n:usages': (query: UsageQuery) => UsageView[]
     'x18n:analysis': (query: ProjectQuery) => AnalysisView
+    'x18n:diagnostics': (query: DiagnosticQuery) => DiagnosticPage
     'x18n:explain': () => ExplainList
     'x18n:reviews': (query: ReviewQuery) => ReviewThread[]
     'x18n:translate-prompt': (query: PromptQuery) => string

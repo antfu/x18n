@@ -178,6 +178,14 @@ test('the static report renders keys without edit controls', async ({ page }) =>
     await expect(page.locator('[data-placeholder]', { hasText: '{name}' })).toBeVisible()
     await expect(page.getByTitle('Edit', { exact: true })).toHaveCount(0)
     await expect(page.getByRole('button', { name: 'Copy translate prompt' })).toHaveCount(0)
+    // Diagnostics come a page at a time; the SPA must ask exactly what the build dumped.
+    await page.goto(`${server.url}#/diagnostics`)
+    await expect(page.getByText('placeholder-mismatch').first()).toBeVisible()
+    await page.getByRole('button', { name: /unused-key/ }).click()
+    await expect(page.locator('main').getByText('is not used.').first()).toBeVisible()
+    await expect(page.locator('main').getByText('has different placeholders')).toHaveCount(0)
+    await page.goto(`${server.url}#/locales/de`)
+    await expect(page.getByText(/placeholder-mismatch/).first()).toBeVisible()
   }
   finally {
     server.close()

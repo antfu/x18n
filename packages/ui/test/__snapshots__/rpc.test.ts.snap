@@ -1859,7 +1859,67 @@ exports[`rpc functions > lists usages and the analysis 1`] = `
 
 exports[`rpc functions > lists usages and the analysis 2`] = `
 {
-  "diagnostics": [
+  "project": "vue-i18n",
+  "undefinedUsages": [
+    {
+      "column": 15,
+      "dynamic": false,
+      "key": "app.titel",
+      "kind": "call",
+      "length": 9,
+      "line": 17,
+      "path": "src/App.vue",
+      "possible": false,
+      "raw": "app.titel",
+      "snippet": {
+        "line": 15,
+        "lines": [
+          "    </nav>",
+          "    <p>{{ $t(\`pages.\${page}.title\`) }}</p>",
+          "    <p>{{ $t('app.titel') }}</p>",
+          "    <p>{{ title }}</p>",
+          "  </header>",
+        ],
+      },
+    },
+  ],
+  "unused": [
+    "linked",
+    "unused",
+  ],
+}
+`;
+
+exports[`rpc functions > pages diagnostics, errors first, filtered by code and locale 1`] = `
+{
+  "byCode": [
+    {
+      "code": "unused-key",
+      "count": 2,
+      "severity": "warning",
+    },
+    {
+      "code": "empty-translation",
+      "count": 1,
+      "severity": "warning",
+    },
+    {
+      "code": "missing-key",
+      "count": 1,
+      "severity": "error",
+    },
+    {
+      "code": "missing-translation",
+      "count": 1,
+      "severity": "warning",
+    },
+    {
+      "code": "placeholder-mismatch",
+      "count": 1,
+      "severity": "error",
+    },
+  ],
+  "items": [
     {
       "code": "missing-key",
       "file": "src/App.vue",
@@ -2024,34 +2084,10 @@ exports[`rpc functions > lists usages and the analysis 2`] = `
       "severity": "warning",
     },
   ],
+  "page": 0,
+  "pageSize": 200,
   "project": "vue-i18n",
-  "undefinedUsages": [
-    {
-      "column": 15,
-      "dynamic": false,
-      "key": "app.titel",
-      "kind": "call",
-      "length": 9,
-      "line": 17,
-      "path": "src/App.vue",
-      "possible": false,
-      "raw": "app.titel",
-      "snippet": {
-        "line": 15,
-        "lines": [
-          "    </nav>",
-          "    <p>{{ $t(\`pages.\${page}.title\`) }}</p>",
-          "    <p>{{ $t('app.titel') }}</p>",
-          "    <p>{{ title }}</p>",
-          "  </header>",
-        ],
-      },
-    },
-  ],
-  "unused": [
-    "linked",
-    "unused",
-  ],
+  "total": 6,
 }
 `;
 

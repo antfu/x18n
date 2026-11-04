@@ -198,9 +198,7 @@
     "viewAll": "すべて表示",
     "copyFix": "修正プロンプトをコピー",
     "fixHint": "このプロジェクトのすべての診断を修正する LLM やエージェント向けのプロンプトをコピーします",
-    "fixCodeHint": "{code} の診断を修正する LLM やエージェント向けのプロンプトをコピーします",
-    "showMore": "さらに {count} 件を表示",
-    "shown": "{total} 件中 {shown} 件を表示"
+    "fixCodeHint": "{code} の診断を修正する LLM やエージェント向けのプロンプトをコピーします"
   },
   "review": {
     "add": "レビュー",
@@ -246,5 +244,9 @@
     "translated": "翻訳済み",
     "needsReview": "要レビュー",
     "reviewed": "レビュー済み"
+  },
+  "list": {
+    "showMore": "さらに {count} 件を表示",
+    "shown": "{total} 件中 {shown} 件を表示"
   }
 }

@@ -1,4 +1,4 @@
-import type { AgentCheckQuery, AgentDeleteQuery, AgentKeysQuery, AgentRenameQuery, AgentReviewQuery, AgentSearchQuery, AgentSetQuery, AgentUsagesQuery, ApplyQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectQuery, PromptQuery, ReviewQuery, UnusedDeletionQuery, UsageQuery } from './types'
+import type { AgentCheckQuery, AgentDeleteQuery, AgentKeysQuery, AgentRenameQuery, AgentReviewQuery, AgentSearchQuery, AgentSetQuery, AgentUsagesQuery, ApplyQuery, DiagnosticQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectQuery, PromptQuery, ReviewQuery, UnusedDeletionQuery, UsageQuery } from './types'
 import * as v from 'valibot'
 
 function text(description: string): v.SchemaWithPipe<readonly [v.StringSchema<undefined>, v.DescriptionAction<string, string>]> {
@@ -22,6 +22,13 @@ export const ProjectQuerySchema: v.GenericSchema<ProjectQuery> = v.object({ proj
 export const KeyQuerySchema: v.GenericSchema<KeyQuery> = v.object({
   project,
   key: text('Full key, for example `nav.home` or `common:save`.'),
+})
+
+export const DiagnosticQuerySchema: v.GenericSchema<DiagnosticQuery> = v.object({
+  project,
+  codes: v.optional(v.array(v.string())),
+  locale: v.optional(v.string()),
+  page: v.optional(v.pipe(v.number(), v.integer(), v.minValue(0))),
 })
 
 export const UsageQuerySchema: v.GenericSchema<UsageQuery> = v.object({

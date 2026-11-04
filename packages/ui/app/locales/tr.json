@@ -135,9 +135,7 @@
     "viewAll": "Tümünü gör",
     "copyFix": "Düzeltme istemini kopyala",
     "fixHint": "Bu projedeki tüm tanılamaları düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala",
-    "fixCodeHint": "{code} tanılamalarını düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala",
-    "showMore": "{count} tane daha göster",
-    "shown": "{total} öğeden {shown} tanesi gösteriliyor"
+    "fixCodeHint": "{code} tanılamalarını düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala"
   },
   "usages": {
     "missing": "Tanımlı değil ({count})",
@@ -246,5 +244,9 @@
     "translated": "Çevrildi",
     "needsReview": "İnceleme gerekiyor",
     "reviewed": "İncelendi"
+  },
+  "list": {
+    "showMore": "{count} tane daha göster",
+    "shown": "{total} öğeden {shown} tanesi gösteriliyor"
   }
 }
