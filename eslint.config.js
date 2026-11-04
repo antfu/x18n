@@ -24,6 +24,10 @@ export default antfu(
       // Sample user projects for tests.
       'test/fixtures',
       'playground',
+      // Written by diglot (docs/i18n) and docs/scripts/translate.ts.
+      'docs/i18n/*/segments',
+      'docs/i18n/.diglot',
+      'docs/content/zh-hans',
     ],
   },
   {

@@ -1,0 +1,17 @@
+# zh-Hans terms that need diglot-only fields (`match`); an entry here replaces the shared one in ../glossary.yml.
+terms:
+  - term: agent
+    note: an AI coding agent, such as Claude Code or Cursor
+    match: \bagents?\b
+    decision: translate
+    target: 智能体
+  - term: usage
+    note: one occurrence of a key in source code
+    match: \busages?\b
+    decision: translate
+    target: 引用
+  - term: surface
+    note: a user-facing layer on the core - the CLI, the language server, the VS Code extension, the UI or MCP
+    match: \bsurfaces?\b
+    decision: translate
+    target: 界面

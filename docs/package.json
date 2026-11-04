@@ -7,9 +7,15 @@
     "dev": "pnpm run generate && nuxt dev",
     "docs:build": "pnpm run generate && nuxt build",
     "docs:serve": "nuxt preview",
-    "lint": "comark-lint \"content/**/*.md\""
+    "lint": "comark-lint \"content/**/*.md\"",
+    "i18n:status": "diglot status --cwd i18n",
+    "i18n:validate": "diglot validate --cwd i18n"
   },
   "devDependencies": {
+    "@diglot/cli": "catalog:docs",
+    "@diglot/comark": "catalog:docs",
+    "@diglot/core": "catalog:docs",
+    "@diglot/store": "catalog:docs",
     "@iconify-json/bxl": "catalog:frontend",
     "@iconify-json/catppuccin": "catalog:frontend",
     "@iconify-json/circle-flags": "catalog:frontend",

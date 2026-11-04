@@ -1,0 +1,85 @@
+# Terminology of the docs, in x18n's `glossary` shape (see `x18n.config.ts` at the repo root and
+# plans/glossary.md). The zh-Hans terms match the UI's own `packages/ui/app/locales/zh-Hans.json`.
+- term: x18n
+  doNotTranslate: true
+- term: devframe
+  doNotTranslate: true
+- term: Vite DevTools
+  doNotTranslate: true
+- term: Nuxt DevTools
+  doNotTranslate: true
+- term: VS Code
+  doNotTranslate: true
+- term: MCP
+  note: Model Context Protocol
+  doNotTranslate: true
+- term: CLI
+  doNotTranslate: true
+- term: LSP
+  doNotTranslate: true
+- term: key
+  note: a message identifier such as `nav.home`, not a keyboard key or a password
+  translations:
+    zh-Hans: 键
+- term: message
+  note: the value of one key in one locale
+  translations:
+    zh-Hans: 消息
+- term: locale
+  note: a language (and region) code such as `de` or `pt-BR`
+  translations:
+    zh-Hans: 语言
+- term: source locale
+  note: the locale every other locale is translated from
+  translations:
+    zh-Hans: 源语言
+- term: resource
+  note: a file, or a block inside a file, holding the messages of one locale and one namespace
+  translations:
+    zh-Hans: 资源
+- term: namespace
+  note: a group of keys, often one file per locale
+  translations:
+    zh-Hans: 命名空间
+- term: usage
+  note: one occurrence of a key in source code
+  translations:
+    zh-Hans: 引用
+- term: preset
+  note: a detected or listed group of plugins for one i18n library, such as vue-i18n
+  translations:
+    zh-Hans: 预设
+- term: plugin
+  translations:
+    zh-Hans: 插件
+- term: placeholder
+  note: a variable in a message, such as `{name}`
+  translations:
+    zh-Hans: 占位符
+- term: diagnostic
+  note: one reported issue with a code and a severity
+  translations:
+    zh-Hans: 诊断
+- term: check
+  note: an x18n check that produces diagnostics, as run by `x18n check`
+  translations:
+    zh-Hans: 检查
+- term: review
+  note: a comment, approval, change request or suggestion on one message
+  translations:
+    zh-Hans: 审阅
+- term: surface
+  note: a user-facing layer on the core - the CLI, the language server, the VS Code extension, the UI or MCP
+  translations:
+    zh-Hans: 界面
+- term: hard string
+  note: text in source code that should probably be a message
+  translations:
+    zh-Hans: 硬编码字符串
+- term: stale translation
+  note: a target message that last changed before its source message did
+  translations:
+    zh-Hans: 过时翻译
+- term: language server
+  translations:
+    zh-Hans: 语言服务器
