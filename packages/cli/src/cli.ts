@@ -111,6 +111,8 @@ export function createCli(): CAC {
     .option('--output <file>', 'Write the matching reporter output to a file (repeatable)')
     .option('--baseline <file>', 'Report only diagnostics that are not in this baseline (default: .x18n/check-baseline.json, when it exists)')
     .option('--update-baseline', 'Write the current diagnostics into the baseline')
+    .option('--fix [level]', 'Apply the safe fixes of the reported diagnostics; --fix=unsafe also applies fixes that delete')
+    .option('--dry-run', 'With --fix: print the fixes instead of writing them')
     .action(run('check', check))
 
   cli.command('set <key>', 'Set one value')

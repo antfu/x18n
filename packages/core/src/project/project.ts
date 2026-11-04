@@ -17,6 +17,7 @@ import { isMessageLeaf, isMessageTree, pathId, walkLeaves } from '../message-tre
 import { extensionOf } from '../plugins'
 import { hashText, rangeContains } from '../text'
 import { createAnalyzer } from './analysis'
+import { planFixes } from './fixes'
 import { createHistory } from './history'
 import { createPlanner } from './planner'
 import { buildPrompt } from './prompt'
@@ -842,6 +843,7 @@ export function createProject(options: CreateProjectOptions): Project {
     formOf,
     localeInfo,
     text: path => fileTexts.get(path) ?? files.get(path)?.text,
+    namespaced: () => namespaced,
   })
 
   function keys(query: Parameters<Project['keys']>[0] = {}): KeyString[] {
@@ -1266,6 +1268,11 @@ export function createProject(options: CreateProjectOptions): Project {
       namespaced,
       ignoreKeys: config.ignoreKeys,
       locations: key => project.locations(key),
+      plan: ops => planner.plan(ops),
+    }, query),
+    planFixes: (diagnostics, query) => planFixes(diagnostics, {
+      usages: idx().usages,
+      namespaced,
       plan: ops => planner.plan(ops),
     }, query),
     apply: (plan, applyOptions) => planner.apply(plan, applyOptions?.answers ?? {}),

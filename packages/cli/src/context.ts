@@ -109,7 +109,7 @@ export async function readInput(source: string): Promise<string> {
 }
 
 /** Answers for the plan's decisions: defaults with `--yes`, a prompt in a TTY, else an error. */
-async function answer(plan: Plan, options: GlobalOptions): Promise<Answers> {
+export async function answer(plan: Plan, options: GlobalOptions): Promise<Answers> {
   const answers: Record<string, string> = {}
   if (plan.decisions.length === 0)
     return answers
@@ -139,7 +139,7 @@ async function answer(plan: Plan, options: GlobalOptions): Promise<Answers> {
 }
 
 /** Changes as a small line diff, for `--dry-run` and the summary after a write. */
-function formatPlan(project: Project, root: string, plan: Plan): string {
+export function formatPlan(project: Project, root: string, plan: Plan): string {
   const lines: string[] = []
   for (const change of plan.changes) {
     const path = displayPath(root, change.path)

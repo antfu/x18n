@@ -126,6 +126,22 @@ export interface UnusedDeletion {
   readonly kept: readonly KeptUnusedKey[]
 }
 
+/** Which fixes `planFixes` applies. */
+export interface FixQuery {
+  /** Also apply `unsafe` fixes (`x18n check --fix=unsafe`). */
+  readonly unsafe?: boolean | undefined
+}
+
+/** The fixes of many diagnostics, as one plan: review it (dry run), then pass `plan` to `apply`. */
+export interface FixPlan {
+  /** Deletes first, then the other ops, each planned once. */
+  readonly plan: Plan
+  /** The diagnostics whose fix is in the plan. */
+  readonly fixed: readonly Diagnostic[]
+  /** Diagnostics left out because their only bulk fix is `unsafe` and the query does not allow it. */
+  readonly skipped: readonly Diagnostic[]
+}
+
 export interface ProjectExplanation {
   readonly name: string
   readonly root: string
@@ -246,6 +262,8 @@ export interface Project {
   readonly plan: (ops: readonly EditOp[]) => Plan
   /** Plans the deletion of the unused keys (`analyze().unused`), minus `ignoreKeys` and keys a scoped fully dynamic usage may reach. */
   readonly planUnused: (query?: UnusedQuery) => UnusedDeletion
+  /** Plans the first fix of each diagnostic that has a `safe` fix, or also an `unsafe` one with `unsafe: true` (`x18n check --fix`). */
+  readonly planFixes: (diagnostics: readonly Diagnostic[], query?: FixQuery) => FixPlan
   readonly apply: (plan: Plan, options?: { readonly answers?: Answers | undefined }) => Promise<ApplyResult>
   /** Re-reads the given files. Hosts with `watch` call this; the LSP calls it for open buffers. */
   readonly update: (events: readonly FileEvent[]) => Promise<ProjectChange | undefined>

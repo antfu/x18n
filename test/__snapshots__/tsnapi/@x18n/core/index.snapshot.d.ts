@@ -77,6 +77,7 @@ export interface CheckContext {
   readonly usages: () => Iterable<Usage>;
   readonly coverage: () => readonly LocaleCoverage[];
   readonly unused: () => readonly KeyString[];
+  readonly dynamicUsages: (_: KeyString) => readonly Usage[];
   readonly undefinedUsages: () => readonly Usage[];
   readonly placeholders: (_: string) => readonly Placeholder[];
   readonly placeholderSyntaxes: readonly PlaceholderSyntax[];
@@ -202,6 +203,22 @@ export interface FinderContext {
 export interface Fix {
   readonly title: string;
   readonly ops: readonly EditOp[];
+  readonly level?: FixLevel | undefined;
+}
+export interface FixPlan {
+  readonly plan: Plan;
+  readonly fixed: readonly Diagnostic[];
+  readonly skipped: readonly Diagnostic[];
+}
+export interface FixQuery {
+  readonly unsafe?: boolean | undefined;
+}
+export interface FixSummary {
+  readonly applied: boolean;
+  readonly fixed: number;
+  readonly skipped: number;
+  readonly files: readonly string[];
+  readonly warnings: readonly string[];
 }
 export interface Format {
   readonly id: string;
@@ -631,6 +648,7 @@ export interface Project {
   readonly owns: (_: string) => boolean;
   readonly plan: (_: readonly EditOp[]) => Plan;
   readonly planUnused: (_?: UnusedQuery) => UnusedDeletion;
+  readonly planFixes: (_: readonly Diagnostic[], _?: FixQuery) => FixPlan;
   readonly apply: (_: Plan, _?: {
     readonly answers?: Answers | undefined;
   }) => Promise<ApplyResult>;
@@ -761,6 +779,7 @@ export interface ReportInput {
   readonly diagnostics: readonly Diagnostic[];
   readonly coverage: readonly LocaleCoverage[];
   readonly summary: ReportSummary;
+  readonly fix?: FixSummary | undefined;
 }
 export interface ReportSummary {
   readonly errors: number;
@@ -1169,6 +1188,7 @@ export type EditOp = {
   readonly key: KeyString;
   readonly locale: LocaleCode;
   readonly value: MessageLeaf;
+  readonly replace?: boolean;
 } | {
   readonly type: "rename";
   readonly from: KeyString;
@@ -1223,6 +1243,7 @@ export type FileChange = {
   readonly type: "delete";
   readonly path: string;
 };
+export type FixLevel = "safe" | "unsafe";
 export type HistoryOptions = Partial<HistoryConfigs>;
 export type JsonPrimitive = string | number | boolean | null;
 export type JsonValue = JsonPrimitive | readonly JsonValue[] | JsonObject;

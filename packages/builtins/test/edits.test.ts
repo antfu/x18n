@@ -334,6 +334,99 @@ describe('in-place edits', () => {
     expect(JSON.parse(files.get('locales/de.json')!)).toEqual({ a: 'Ä', b: '' })
   })
 
+  it('replace: false skips a set under a message, also one planned earlier in the same plan', async () => {
+    const { project, files } = await createTestProject({
+      'locales/en.json': json({ a: 'A' }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    const plan = await write(project, [
+      {
+        type: 'set',
+        key: 'a.b',
+        locale: 'en',
+        value: '',
+        replace: false,
+      },
+      {
+        type: 'set',
+        key: 'x',
+        locale: 'en',
+        value: '',
+        replace: false,
+      },
+      {
+        type: 'set',
+        key: 'x.y',
+        locale: 'en',
+        value: '',
+        replace: false,
+      },
+    ])
+    expect(plan.warnings).toEqual([
+      '"a.b" is not added: "a" is a message in locales/en.json, and adding "a.b" would replace it.',
+      '"x.y" is not added: "x" is a message in locales/en.json, and adding "x.y" would replace it.',
+    ])
+    expect(plan.keys).toEqual(['x'])
+    expect(JSON.parse(files.get('locales/en.json')!)).toEqual({ a: 'A', x: '' })
+  })
+
+  it('replace: false skips a set over other keys; the default replaces them with a warning', async () => {
+    const { project } = await createTestProject({
+      'locales/en.json': json({
+        a: { b: 'B' },
+      }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    const skipped = project.plan([
+      {
+        type: 'set',
+        key: 'a',
+        locale: 'en',
+        value: '',
+        replace: false,
+      },
+    ])
+    expect(skipped.warnings).toEqual(['"a" is not added: it is a parent of other keys in locales/en.json, and adding it would replace them.'])
+    expect(skipped.changes).toEqual([])
+    const replaced = project.plan([
+      {
+        type: 'set',
+        key: 'a',
+        locale: 'en',
+        value: '',
+      },
+    ])
+    expect(replaced.warnings).toEqual(['"a" is a parent of other keys in locales/en.json; they are replaced.'])
+    expect(replaced.changes).toHaveLength(1)
+  })
+
+  it('replace: false adds a key beside a message in a flat resource', async () => {
+    const { project, files } = await createTestProject({
+      'locales/en.json': json({ 'a': 'A', 'm.n': 'N' }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    const plan = await write(project, [
+      {
+        type: 'set',
+        key: 'a.b',
+        locale: 'en',
+        value: '',
+        replace: false,
+      },
+    ])
+    expect(plan.warnings).toEqual([])
+    expect(JSON.parse(files.get('locales/en.json')!)).toEqual({ 'a': 'A', 'm.n': 'N', 'a.b': '' })
+  })
+
   it('refuses stale plans and read-only resources', async () => {
     const { project, files } = await createTestProject({
       'locales/en.json': json({ a: 'A' }),

@@ -133,8 +133,9 @@ export interface Usage {
 
 export type Severity = 'error' | 'warning' | 'info' | 'hint'
 
+/** A `set` with `replace: false` is skipped, with a warning, when it would replace other keys or a message on its path. */
 export type EditOp
-  = | { readonly type: 'set', readonly key: KeyString, readonly locale: LocaleCode, readonly value: MessageLeaf }
+  = | { readonly type: 'set', readonly key: KeyString, readonly locale: LocaleCode, readonly value: MessageLeaf, readonly replace?: boolean }
     | { readonly type: 'rename', readonly from: KeyString, readonly to: KeyString, readonly usages?: boolean }
     | { readonly type: 'rename-prefix', readonly from: KeyString, readonly to: KeyString, readonly usages?: boolean }
     | { readonly type: 'delete', readonly key: KeyString, readonly locales?: 'all' | readonly LocaleCode[] }
@@ -172,9 +173,16 @@ export interface ExtractItem {
   readonly imports?: readonly string[]
 }
 
+/**
+ * How `x18n check --fix` may apply a fix. `safe` fixes only add, so `--fix` applies them; `unsafe` fixes can lose data, so
+ * only `--fix=unsafe` applies them. A fix without a level is offered in the editor and never applied in bulk.
+ */
+export type FixLevel = 'safe' | 'unsafe'
+
 export interface Fix {
   readonly title: string
   readonly ops: readonly EditOp[]
+  readonly level?: FixLevel | undefined
 }
 
 export interface Location {

@@ -7,6 +7,7 @@ import type { Analysis } from '../types/project'
 import { keyMatcher } from '../keys'
 import { fallbackChain } from '../locale'
 import { isOutdated } from './history'
+import { dynamicReach } from './unused'
 import { categoriesOf } from './usages'
 
 export interface ResourceState {
@@ -59,6 +60,8 @@ export interface AnalyzerOptions {
   readonly formOf: (key: KeyString) => PluralForm | undefined
   readonly localeInfo: (code: LocaleCode) => LocaleInfo
   readonly text: (path: string) => string | undefined
+  /** Whether keys carry a namespace; a scoped dynamic usage reaches only keys of its namespace. */
+  readonly namespaced: () => boolean
 }
 
 function levelOf(setting: CheckSetting | undefined): { level: Severity | 'off', options: JsonObject } | undefined {
@@ -276,6 +279,7 @@ export function createAnalyzer(options: AnalyzerOptions): { readonly analyze: ()
     const unused = hasScanners
       ? allKeys.filter(key => !isUsed(key))
       : []
+    const reach = dynamicReach(state.usages, options.namespaced())
     const undefinedUsages = state.usages.filter(usage =>
       usage.dynamic === false && usage.key !== undefined && !isDefined(usage.key))
 
@@ -312,6 +316,7 @@ export function createAnalyzer(options: AnalyzerOptions): { readonly analyze: ()
       usages: () => state.usages,
       coverage: () => coverage,
       unused: () => unused,
+      dynamicUsages: reach.reaching,
       undefinedUsages: () => undefinedUsages,
       placeholders,
       placeholderSyntaxes: registry.placeholders,

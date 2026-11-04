@@ -35,6 +35,45 @@ function scopeMatcher(usage: Usage, namespaced: boolean): ((key: KeyString) => b
   }
 }
 
+/** Fully dynamic usages (`t(key)`), split by whether a scope bounds the keys they may reach. */
+export interface DynamicReach {
+  /** The scoped fully dynamic usages that may reach `key`. */
+  readonly reaching: (key: KeyString) => readonly Usage[]
+  /** Fully dynamic usages without a scope: they may reach any key. */
+  readonly unscoped: readonly Usage[]
+}
+
+export function dynamicReach(usages: readonly Usage[], namespaced: boolean): DynamicReach {
+  const scoped: { usage: Usage, reaches: (key: KeyString) => boolean }[] = []
+  const unscoped: Usage[] = []
+  for (const usage of usages) {
+    if (usage.dynamic !== 'unknown')
+      continue
+    const reaches = scopeMatcher(usage, namespaced)
+    if (reaches)
+      scoped.push({ usage, reaches })
+    else
+      unscoped.push(usage)
+  }
+  return {
+    reaching: key => scoped.filter(s => s.reaches(key)).map(s => s.usage),
+    unscoped,
+  }
+}
+
+/** The plan warning for deleting unused keys while fully dynamic usages without a scope may reach any key. */
+export function unscopedWarning(unscoped: readonly Usage[]): string {
+  const files = [
+    ...new Set(unscoped.map(usage => usage.path)),
+  ].sort()
+  const shown = files.length > 5
+    ? `${files.slice(0, 5).join(', ')} and ${files.length - 5} more files`
+    : files.join(', ')
+  return `${unscoped.length} usage${unscoped.length === 1
+    ? ' has'
+    : 's have'} a fully dynamic key (in ${shown}) that may reach any key; list the keys they use in \`usage.keysInUse\` to keep them.`
+}
+
 export function planUnusedDeletion(options: UnusedDeletionOptions, query: UnusedQuery = {}): UnusedDeletion {
   const ignored = keyMatcher(options.ignoreKeys)
   const match = query.glob
@@ -44,22 +83,11 @@ export function planUnusedDeletion(options: UnusedDeletionOptions, query: Unused
     && (match === undefined || match(key))
     && (query.namespace === undefined || splitKey(key, options.namespaced).namespace === query.namespace)).sort()
 
-  const scoped: { usage: Usage, reaches: (key: KeyString) => boolean }[] = []
-  const unscoped: Usage[] = []
-  for (const usage of options.usages) {
-    if (usage.dynamic !== 'unknown')
-      continue
-    const reaches = scopeMatcher(usage, options.namespaced)
-    if (reaches)
-      scoped.push({ usage, reaches })
-    else
-      unscoped.push(usage)
-  }
-
+  const reach = dynamicReach(options.usages, options.namespaced)
   const keys: UnusedKeyDeletion[] = []
   const kept: KeptUnusedKey[] = []
   for (const key of candidates) {
-    const usages = scoped.filter(s => s.reaches(key)).map(s => s.usage)
+    const usages = reach.reaching(key)
     if (usages.length > 0) {
       kept.push({ key, usages })
       continue
@@ -71,23 +99,14 @@ export function planUnusedDeletion(options: UnusedDeletionOptions, query: Unused
   }
 
   const plan = options.plan(keys.map(({ key }) => ({ type: 'delete', key, locales: 'all' })))
-  if (unscoped.length === 0 || keys.length === 0)
+  if (reach.unscoped.length === 0 || keys.length === 0)
     return { plan, keys, kept }
-  const files = [
-    ...new Set(unscoped.map(usage => usage.path)),
-  ].sort()
-  const shown = files.length > 5
-    ? `${files.slice(0, 5).join(', ')} and ${files.length - 5} more files`
-    : files.join(', ')
-  const warning = `${unscoped.length} usage${unscoped.length === 1
-    ? ' has'
-    : 's have'} a fully dynamic key (in ${shown}) that may reach any key; list the keys they use in \`usage.keysInUse\` to keep them.`
   return {
     plan: {
       ...plan,
       warnings: [
         ...plan.warnings,
-        warning,
+        unscopedWarning(reach.unscoped),
       ],
     },
     keys,

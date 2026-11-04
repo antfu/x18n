@@ -116,7 +116,9 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 
 ## D20 - `x18n check` is the typecheck of i18n
 
-- tsc-style output, `--watch`, read-only (no `--fix`).
+- tsc-style output, `--watch`. Read-only unless `--fix` is passed: `--fix` applies the fixes marked `safe`, `--fix=unsafe` also the ones marked `unsafe`; fixes without a level stay editor code actions.
+- Considered: no `--fix` at all, with one command per fix (`fill --from-usages`, `delete --unused`, `sync`); one flat `--fix` like ESLint's.
+- Why `--fix`: fixes are already ops on the diagnostics, so one generic flag covers every check, plugin checks included, and `--only` picks which. Why levels, as in Biome: a fix that only adds is safe in hooks and CI, a fix that deletes (unused keys, translations) loses data, so it takes an explicit opt-in.
 - `recommended` set: invalid keys and broken messages are errors; untranslated and unused keys are warnings. `strict` turns warnings into errors.
 - Untranslated keys are reported once per key, at the source entry.
 - The editor shows exactly the same diagnostics.

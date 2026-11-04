@@ -1,4 +1,4 @@
-import type { BaselineSummary, Diagnostic, Reporter, ReportInput } from '@x18n/core'
+import type { BaselineSummary, Diagnostic, FixSummary, Reporter, ReportInput } from '@x18n/core'
 import type { LoadedProject, Workspace } from '@x18n/node'
 import type { Baseline, Located } from '../baseline'
 import type { GlobalOptions } from '../context'
@@ -7,7 +7,7 @@ import { join, relative, resolve } from 'node:path'
 import process from 'node:process'
 import { errors } from '@x18n/core'
 import { applyBaseline, createBaseline, readBaseline, writeBaseline } from '../baseline'
-import { cwd, displayPath, openWorkspace, out, useColor } from '../context'
+import { answer, cwd, displayPath, formatPlan, openWorkspace, out, useColor } from '../context'
 
 export interface CheckOptions extends GlobalOptions {
   readonly watch?: boolean | undefined
@@ -20,6 +20,9 @@ export interface CheckOptions extends GlobalOptions {
   readonly output?: string | readonly string[] | undefined
   readonly baseline?: string | undefined
   readonly updateBaseline?: boolean | undefined
+  /** `--fix` applies safe fixes, `--fix=unsafe` also unsafe ones. */
+  readonly fix?: boolean | string | undefined
+  readonly dryRun?: boolean | undefined
 }
 
 function list(value: string | readonly string[] | undefined): string[] {
@@ -57,7 +60,9 @@ function locate(workspace: Workspace, options: CheckOptions): (Located & { reado
   })
 }
 
-function reportInputs(workspace: Workspace, options: CheckOptions, baseline: Baseline | undefined): { inputs: ReportInput[], summary: BaselineSummary | undefined } {
+type Fixes = ReadonlyMap<LoadedProject, FixSummary>
+
+function reportInputs(workspace: Workspace, options: CheckOptions, baseline: Baseline | undefined, fixes?: Fixes): { inputs: ReportInput[], summary: BaselineSummary | undefined } {
   const located = locate(workspace, options)
   const applied = baseline && applyBaseline(located, baseline, entry => reported(entry, options))
   const kept = applied?.kept ?? located
@@ -77,6 +82,7 @@ function reportInputs(workspace: Workspace, options: CheckOptions, baseline: Bas
           ? [d.location.path]
           : [])).size,
       },
+      fix: fixes?.get(loaded),
     }
   })
   return { inputs, summary: applied && { suppressed: applied.suppressed, fixed: applied.fixed } }
@@ -92,8 +98,8 @@ function needsHistory(loaded: LoadedProject, options: CheckOptions): boolean {
   return level !== 'off' && (only.length === 0 || only.includes('stale-translation')) && !list(options.skip).includes('stale-translation')
 }
 
-async function report(workspace: Workspace, options: CheckOptions, baseline: Baseline | undefined): Promise<number> {
-  const { inputs, summary } = reportInputs(workspace, options, baseline)
+async function report(workspace: Workspace, options: CheckOptions, baseline: Baseline | undefined, fixes?: Fixes): Promise<number> {
+  const { inputs, summary } = reportInputs(workspace, options, baseline, fixes)
   const reporterIds = list(options.reporter)
   const ids = reporterIds.length
     ? reporterIds
@@ -149,12 +155,84 @@ async function updateBaseline(workspace: Workspace, options: CheckOptions, file:
   return baseline
 }
 
+function plural(count: number, word: string): string {
+  return `${count} ${word}${count === 1
+    ? ''
+    : 's'}`
+}
+
+/** `--fix` or `--fix=unsafe`; anything else is refused before the workspace loads. */
+function fixLevel(options: CheckOptions): 'safe' | 'unsafe' | undefined {
+  if (options.fix === undefined || options.fix === false) {
+    if (options.dryRun)
+      throw errors.X18N4008({ reason: '--dry-run previews fixes; pass it with --fix' })
+    return undefined
+  }
+  if (options.fix !== true && options.fix !== 'unsafe')
+    throw errors.X18N4008({ reason: `--fix takes no value or "unsafe", not "${String(options.fix)}"` })
+  if (options.watch)
+    throw errors.X18N4008({ reason: '--fix writes once; leave out --watch' })
+  return options.fix === true
+    ? 'safe'
+    : 'unsafe'
+}
+
+/**
+ * Plans the fixes of the diagnostics this run reports (after `--locale`, `--only` and `--skip`, before the baseline) and
+ * applies them, or prints them with `--dry-run`. The summary goes to stderr, so stdout keeps only the report.
+ */
+async function fix(workspace: Workspace, options: CheckOptions, level: 'safe' | 'unsafe'): Promise<Fixes> {
+  const fixes = new Map<LoadedProject, FixSummary>()
+  for (const loaded of workspace.projects) {
+    const { plan, fixed, skipped } = loaded.project.planFixes(filterDiagnostics(loaded.project.analyze().diagnostics, options), {
+      unsafe: level === 'unsafe',
+    })
+    const files = plan.changes.map(change => change.path)
+    if (!options.dryRun && plan.changes.length > 0)
+      await loaded.project.apply(plan, { answers: await answer(plan, options) })
+    fixes.set(loaded, {
+      applied: !options.dryRun,
+      fixed: fixed.length,
+      skipped: skipped.length,
+      files,
+      warnings: plan.warnings,
+    })
+    if (options.json)
+      continue
+    const lines: string[] = []
+    if (options.dryRun && plan.changes.length > 0)
+      lines.push(formatPlan(loaded.project, loaded.root, plan))
+    else
+      lines.push(...plan.warnings.map(w => `warning: ${w}`))
+    const prefix = workspace.projects.length > 1
+      ? `${loaded.name}: `
+      : ''
+    const count = `${plural(fixed.length, 'problem')} in ${plural(files.length, 'file')}`
+    lines.push(`${prefix}${fixed.length === 0
+      ? 'No problems to fix.'
+      : options.dryRun
+        ? `Would fix ${count} (dry run).`
+        : `Fixed ${count}.`}`)
+    if (skipped.length > 0) {
+      lines.push(`${prefix}${plural(skipped.length, 'problem')} only ${skipped.length === 1
+        ? 'has'
+        : 'have'} an unsafe fix; run with --fix=unsafe to apply ${skipped.length === 1
+        ? 'it'
+        : 'them'}.`)
+    }
+    process.stderr.write(`${lines.join('\n')}\n`)
+  }
+  return fixes
+}
+
 export async function check(options: CheckOptions): Promise<number> {
+  const level = fixLevel(options)
   const workspace = await openWorkspace(options)
   await Promise.all(workspace.projects.filter(loaded => needsHistory(loaded, options)).map(async (loaded) => {
     await loaded.project.loadHistory({ watch: options.watch })
     await loaded.host.flush()
   }))
+  const fixes = level && await fix(workspace, options, level)
   const file = baselineFile(workspace, options)
   // An invalid file is no reason to refuse writing a new one.
   let baseline = await readBaseline(file).catch((error: unknown) => {
@@ -164,7 +242,7 @@ export async function check(options: CheckOptions): Promise<number> {
   })
   if (options.updateBaseline)
     baseline = await updateBaseline(workspace, options, file, baseline)
-  const code = await report(workspace, options, baseline)
+  const code = await report(workspace, options, baseline, fixes)
   if (!options.watch)
     return code
   const rerun = async (): Promise<void> => {
