@@ -3,12 +3,16 @@
   "source": "The output answers the usual questions:",
   "text": "A saída responde às perguntas mais comuns:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A saída responde às perguntas mais comuns:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

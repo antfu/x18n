@@ -3,12 +3,16 @@
   "source": "set up x18n in a project, or migrate from i18n-ally",
   "text": "configurar o x18n em um projeto ou migrar do i18n-ally",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "configurar o x18n em um projeto ou migrar do i18n-ally"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

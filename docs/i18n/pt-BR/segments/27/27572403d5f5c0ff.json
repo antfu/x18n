@@ -3,12 +3,16 @@
   "source": "The preset also adds a locale finder for {0} blocks in {1} files. Each block is a resource of its locale, and edits from x18n write back into the block:",
   "text": "O preset também adiciona um localizador de idiomas para blocos {0} em arquivos {1}. Cada bloco é um recurso do seu idioma, e as edições do x18n são gravadas de volta no bloco:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset também adiciona um localizador de idiomas para blocos {0} em arquivos {1}. Cada bloco é um recurso do seu idioma, e as edições do x18n são gravadas de volta no bloco:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

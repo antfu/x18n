@@ -3,12 +3,16 @@
   "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
   "text": "Ein vollständig dynamischer Schlüssel wie {0} hat kein statisches Präfix. Keine Prüfung kann ihm folgen. Aktiviere diese Prüfung, um solche Verwendungen zu finden.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein vollständig dynamischer Schlüssel wie {0} hat kein statisches Präfix. Keine Prüfung kann ihm folgen. Aktiviere diese Prüfung, um solche Verwendungen zu finden."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

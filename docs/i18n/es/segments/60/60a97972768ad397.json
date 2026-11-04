@@ -3,12 +3,16 @@
   "source": "A target value equal to the source value is often an untranslated copy. The check skips:",
   "text": "Un valor de destino igual al valor de origen suele ser una copia sin traducir. La comprobación omite:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un valor de destino igual al valor de origen suele ser una copia sin traducir. La comprobación omite:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

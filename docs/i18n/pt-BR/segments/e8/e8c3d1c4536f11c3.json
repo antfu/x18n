@@ -3,12 +3,16 @@
   "source": "To check only some problems in a step, use {0}. To check one locale, use {1}:",
   "text": "Para verificar apenas alguns problemas em uma etapa, use {0}. Para verificar um idioma, use {1}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Para verificar apenas alguns problemas em uma etapa, use {0}. Para verificar um idioma, use {1}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

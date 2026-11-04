@@ -3,12 +3,16 @@
   "source": "A key is the id of a message. The example has the keys {0}, {1}, {2} and {3}. A key with child keys, such as {4}, is a parent key. Commands such as {5} and {6} work on a parent key too: they change every key under it.",
   "text": "Uma chave é o id de uma mensagem. O exemplo tem as chaves {0}, {1}, {2} e {3}. Uma chave com chaves filhas, como {4}, é uma chave pai. Comandos como {5} e {6} também funcionam em uma chave pai: eles alteram todas as chaves abaixo dela.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Uma chave é o id de uma mensagem. O exemplo tem as chaves {0}, {1}, {2} e {3}. Uma chave com chaves filhas, como {4}, é uma chave pai. Comandos como {5} e {6} também funcionam em uma chave pai: eles alteram todas as chaves abaixo dela."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Aliases such as {0} are not resolved. x18n skips a {1} outside the project and a {2} file that is not JSON, JSON5 or YAML, such as {3} or {4}.",
   "text": "Los alias como {0} no se resuelven. x18n omite un {1} fuera del proyecto y un archivo {2} que no sea JSON, JSON5 o YAML, como {3} o {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Los alias como {0} no se resuelven. x18n omite un {1} fuera del proyecto y un archivo {2} que no sea JSON, JSON5 o YAML, como {3} o {4}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The check reports each message whose open review comments end in a change request, at the message in the reviewed locale. The quick fix resolves the request. A later approval by anyone clears it too. See {0}Reviews{/0}.",
   "text": "La comprobación informa de cada mensaje cuyos comentarios de revisión abiertos terminan en una solicitud de cambios, en el mensaje del idioma revisado. La corrección rápida resuelve la solicitud. Una aprobación posterior de cualquier persona también la elimina. Consulta {0}Revisiones{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La comprobación informa de cada mensaje cuyos comentarios de revisión abiertos terminan en una solicitud de cambios, en el mensaje del idioma revisado. La corrección rápida resuelve la solicitud. Una aprobación posterior de cualquier persona también la elimina. Consulta {0}Revisiones{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

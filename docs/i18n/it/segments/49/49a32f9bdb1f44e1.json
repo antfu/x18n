@@ -3,12 +3,16 @@
   "source": "x18n reads JS and TS locale files as text and does not run them. A file that computes its messages cannot be read that way.",
   "text": "x18n legge i file di lingua JS e TS come testo e non li esegue. Un file che calcola i propri messaggi non può essere letto in questo modo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n legge i file di lingua JS e TS come testo e non li esegue. Un file che calcola i propri messaggi non può essere letto in questo modo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

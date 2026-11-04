@@ -3,12 +3,16 @@
   "source": "translation (fine for non-source locales in prose), string",
   "text": "tradução (aceitável para idiomas que não são de origem em texto corrido), string",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "tradução (aceitável para idiomas que não são de origem em texto corrido), string"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

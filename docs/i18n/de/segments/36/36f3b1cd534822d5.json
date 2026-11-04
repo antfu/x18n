@@ -3,12 +3,16 @@
   "source": "How x18n writes locale files.",
   "text": "Wie x18n Sprachdateien schreibt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wie x18n Sprachdateien schreibt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

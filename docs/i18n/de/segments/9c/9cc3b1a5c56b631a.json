@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, best first: fuzzy unless {0}, ignoring case. Each match has the matched value, its locale entry and the usages. At most 100.",
   "text": "Schlüssel, die anhand ihres Werts in einer beliebigen Sprache gefunden werden, beste zuerst: Fuzzy, außer bei {0}, ohne Beachtung der Groß- und Kleinschreibung. Jeder Treffer enthält den gefundenen Wert, seinen Spracheintrag und die Verwendungen. Höchstens 100.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Schlüssel, die anhand ihres Werts in einer beliebigen Sprache gefunden werden, beste zuerst: Fuzzy, außer bei {0}, ohne Beachtung der Groß- und Kleinschreibung. Jeder Treffer enthält den gefundenen Wert, seinen Spracheintrag und die Verwendungen. Höchstens 100."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

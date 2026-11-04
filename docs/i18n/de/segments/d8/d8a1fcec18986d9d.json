@@ -3,12 +3,16 @@
   "source": "{0}: regions with a default namespace or key prefix. With {1}, the key prefix applies only to keys that it defines, and other keys resolve without it,",
   "text": "{0}: Bereiche mit einem Standard-Namespace oder Schlüsselpräfix. Mit {1} gilt das Schlüsselpräfix nur für Schlüssel, die es definiert, und andere Schlüssel werden ohne es aufgelöst,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: Bereiche mit einem Standard-Namespace oder Schlüsselpräfix. Mit {1} gilt das Schlüsselpräfix nur für Schlüssel, die es definiert, und andere Schlüssel werden ohne es aufgelöst,"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

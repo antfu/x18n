@@ -3,12 +3,16 @@
   "source": "Write plugins and presets in TypeScript with definePlugin and definePreset, with typed options.",
   "text": "Escreva plugins e presets em TypeScript com definePlugin e definePreset, com opções tipadas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Escreva plugins e presets em TypeScript com definePlugin e definePreset, com opções tipadas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

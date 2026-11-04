@@ -3,12 +3,16 @@
   "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
   "text": "{0}, {1} e {2} retornam primeiro o plano. Uma segunda chamada com {3} o aplica. {4}Ferramentas MCP{/4} lista os campos de entrada de cada ferramenta.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}, {1} e {2} retornam primeiro o plano. Uma segunda chamada com {3} o aplica. {4}Ferramentas MCP{/4} lista os campos de entrada de cada ferramenta."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

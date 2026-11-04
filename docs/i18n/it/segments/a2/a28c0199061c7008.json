@@ -3,12 +3,16 @@
   "source": "{0} lists the usages of a key. {1} goes the other way: it finds keys by their value in any locale, and lists their usages. {2} lists the keys with no usage.",
   "text": "{0} elenca gli utilizzi di una chiave. {1} fa il contrario: trova le chiavi in base al loro valore in qualsiasi lingua ed elenca i loro utilizzi. {2} elenca le chiavi senza utilizzi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} elenca gli utilizzi di una chiave. {1} fa il contrario: trova le chiavi in base al loro valore in qualsiasi lingua ed elenca i loro utilizzi. {2} elenca le chiavi senza utilizzi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

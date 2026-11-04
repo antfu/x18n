@@ -3,12 +3,16 @@
   "source": "The {0} check reports each message whose state is \"changes requested\". Its quick fix resolves the request.",
   "text": "Die Prüfung {0} meldet jede message, deren Status „changes requested“ ist. Ihr Quick Fix löst die Anforderung auf.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Prüfung {0} meldet jede message, deren Status „changes requested“ ist. Ihr Quick Fix löst die Anforderung auf."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

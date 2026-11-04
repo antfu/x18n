@@ -3,12 +3,16 @@
   "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
   "text": "Codice di sostituzione. {0} è la chiave, {1} il nome dell'attributo, {2} gli argomenti di una template string, {3} il messaggio della stringa hardcoded, per un valore predefinito, {4} il testo così come è scritto nel file e {5} il messaggio come corpo di una template string. {6} e {7} vengono sottoposti a escape per le virgolette che li circondano.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Codice di sostituzione. {0} è la chiave, {1} il nome dell'attributo, {2} gli argomenti di una template string, {3} il messaggio della stringa hardcoded, per un valore predefinito, {4} il testo così come è scritto nel file e {5} il messaggio come corpo di una template string. {6} e {7} vengono sottoposti a escape per le virgolette che li circondano."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

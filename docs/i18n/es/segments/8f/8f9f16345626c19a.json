@@ -3,12 +3,16 @@
   "source": "Locale to the locale it falls back to, such as {0}. A locale with a fallback holds only overrides: a key it lacks or leaves empty is not missing when the fallback chain has it. {1} falls back to the nearest parent language that exists: {2} to {3}, {4} to {5} or {6}.",
   "text": "Idioma al que recurre cada idioma como alternativa, como {0}. Un idioma con alternativa contiene solo sobrescrituras: una clave que le falta o que deja vacía no se considera ausente si la cadena de alternativas la tiene. {1} recurre al idioma padre más cercano que exista: {2} a {3}, {4} a {5} o {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Idioma al que recurre cada idioma como alternativa, como {0}. Un idioma con alternativa contiene solo sobrescrituras: una clave que le falta o que deja vacía no se considera ausente si la cadena de alternativas la tiene. {1} recurre al idioma padre más cercano que exista: {2} a {3}, {4} a {5} o {6}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

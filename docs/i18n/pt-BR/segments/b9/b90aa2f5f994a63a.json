@@ -3,12 +3,16 @@
   "source": "x18n reads the i18n setup of a project, reports problems in its locale files and changes them safely.",
   "text": "O x18n lê a configuração de i18n de um projeto, relata problemas nos arquivos de idioma e os altera com segurança.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O x18n lê a configuração de i18n de um projeto, relata problemas nos arquivos de idioma e os altera com segurança."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

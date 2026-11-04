@@ -3,12 +3,16 @@
   "source": "A template can add {0}: lines that x18n adds once to the file when they are missing, such as {1}.",
   "text": "Um template pode adicionar {0}: linhas que o x18n adiciona uma única vez ao arquivo quando estão ausentes, como {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um template pode adicionar {0}: linhas que o x18n adiciona uma única vez ao arquivo quando estão ausentes, como {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

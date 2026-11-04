@@ -3,12 +3,16 @@
   "source": "x18n does not call machine translation services. Instead, it writes a translate prompt: plain markdown that describes the work, built from the state of the project. You paste it into an LLM, or an agent follows it. Then x18n checks the results.",
   "text": "x18n non richiama servizi di traduzione automatica. Scrive invece un prompt di traduzione: un markdown semplice che descrive il lavoro, costruito a partire dallo stato del progetto. Lo incolli in un LLM, oppure lo segue un agente. Poi x18n controlla i risultati.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n non richiama servizi di traduzione automatica. Scrive invece un prompt di traduzione: un markdown semplice che descrive il lavoro, costruito a partire dallo stato del progetto. Lo incolli in un LLM, oppure lo segue un agente. Poi x18n controlla i risultati."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

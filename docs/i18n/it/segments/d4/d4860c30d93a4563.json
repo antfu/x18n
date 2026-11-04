@@ -3,12 +3,16 @@
   "source": "A bare {0} is not read, because projects also name a keyset function {1}, and then {2} takes no keyset. A keyset that is no string literal, such as {3}, makes the usage dynamic.",
   "text": "Un {0} da solo non viene letto, perché nei progetti si chiama {1} anche una funzione keyset, e in quel caso {2} non accetta alcun keyset. Un keyset che non è un letterale stringa, come {3}, rende l'utilizzo dinamico.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un {0} da solo non viene letto, perché nei progetti si chiama {1} anche una funzione keyset, e in quel caso {2} non accetta alcun keyset. Un keyset che non è un letterale stringa, come {3}, rende l'utilizzo dinamico."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Strings never extracted in the files of a glob, written as in {0}.",
   "text": "Strings, die in den Dateien eines Globs nie extrahiert werden, geschrieben wie in {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Strings, die in den Dateien eines Globs nie extrahiert werden, geschrieben wie in {0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

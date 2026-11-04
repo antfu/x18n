@@ -3,12 +3,16 @@
   "source": "A {0}format{/0} returns descriptions from {1}, a {2}resource transform{/2} from {3}, and a call spec names the property that holds one with {4}. A rule asks the agent to follow the description and not to translate it.",
   "text": "Um {0}format{/0} retorna descrições de {1}, uma {2}resource transform{/2} de {3}, e uma call spec indica a propriedade que contém uma descrição com {4}. Uma regra pede ao agente que siga a descrição e não a traduza.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um {0}format{/0} retorna descrições de {1}, uma {2}resource transform{/2} de {3}, e uma call spec indica a propriedade que contém uma descrição com {4}. Uma regra pede ao agente que siga a descrição e não a traduza."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

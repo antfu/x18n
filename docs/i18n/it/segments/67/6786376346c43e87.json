@@ -3,12 +3,16 @@
   "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
   "text": "{0}, {1} e {2} restituiscono prima il piano. Una seconda chiamata con {3} lo applica. {4}Strumenti MCP{/4} elenca i campi di input di ogni strumento.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}, {1} e {2} restituiscono prima il piano. Una seconda chiamata con {3} lo applica. {4}Strumenti MCP{/4} elenca i campi di input di ogni strumento."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

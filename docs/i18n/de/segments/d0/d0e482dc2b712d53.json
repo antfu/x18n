@@ -3,12 +3,16 @@
   "source": "{0} lists translate calls for the AST scanners of JS, TS, JSX, Vue and Svelte files. Each entry has the shape of an item of {1}:",
   "text": "{0} listet Translate-Aufrufe für die AST-Scanner von JS-, TS-, JSX-, Vue- und Svelte-Dateien auf. Jeder Eintrag hat die Form eines Elements von {1}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} listet Translate-Aufrufe für die AST-Scanner von JS-, TS-, JSX-, Vue- und Svelte-Dateien auf. Jeder Eintrag hat die Form eines Elements von {1}:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

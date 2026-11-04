@@ -3,12 +3,16 @@
   "source": "The preset for svelte-i18next. It reads the $i18n store in Svelte components, plus everything of i18next.",
   "text": "O preset para svelte-i18next. Ele lê o store $i18n em componentes Svelte, além de tudo do i18next.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset para svelte-i18next. Ele lê o store $i18n em componentes Svelte, além de tudo do i18next."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

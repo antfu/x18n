@@ -3,12 +3,16 @@
   "source": "The check has the severity {0}, but it runs only when the config turns it on.",
   "text": "A verificação tem a severidade {0}, mas só é executada quando a configuração a ativa.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A verificação tem a severidade {0}, mas só é executada quando a configuração a ativa."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0}Config reference{/0}: every option, with its type and default.",
   "text": "{0}Konfigurationsreferenz{/0}: jede Option mit Typ und Standardwert.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}Konfigurationsreferenz{/0}: jede Option mit Typ und Standardwert."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

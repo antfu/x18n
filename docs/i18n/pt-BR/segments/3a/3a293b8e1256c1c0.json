@@ -3,12 +3,16 @@
   "source": "A TypeScript plugin is an object with a {0} and the capabilities it adds. {1} and {2} from {3} give it types. They return their argument unchanged.",
   "text": "Um plugin em TypeScript é um objeto com um {0} e as capacidades que ele adiciona. {1} e {2} de {3} fornecem os tipos. Eles retornam o argumento sem alterações.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um plugin em TypeScript é um objeto com um {0} e as capacidades que ele adiciona. {1} e {2} de {3} fornecem os tipos. Eles retornam o argumento sem alterações."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

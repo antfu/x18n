@@ -3,12 +3,16 @@
   "source": "Show usage counts and missing locales above keys in resource files.",
   "text": "Mostra il numero di utilizzi e le lingue mancanti sopra le chiavi nei file di risorse.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Mostra il numero di utilizzi e le lingue mancanti sopra le chiavi nei file di risorse."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

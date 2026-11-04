@@ -3,12 +3,16 @@
   "source": "The agent runs {0}, groups the diagnostics by check, and fixes the routine ones: missing keys and translations, placeholder mismatches and invalid syntax. It asks you before it deletes unused keys, adds glossary terms, changes the severity of a check, or makes warnings fail {1}CI{/1} with {2}.",
   "text": "O agente executa {0}, agrupa os diagnósticos por verificação e corrige os rotineiros: chaves e traduções ausentes, placeholders divergentes e sintaxe inválida. Ele pergunta a você antes de excluir chaves não usadas, adicionar termos ao glossário, alterar a severidade de uma verificação ou fazer com que avisos façam o {1}CI{/1} falhar com {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O agente executa {0}, agrupa os diagnósticos por verificação e corrige os rotineiros: chaves e traduções ausentes, placeholders divergentes e sintaxe inválida. Ele pergunta a você antes de excluir chaves não usadas, adicionar termos ao glossário, alterar a severidade de uma verificação ou fazer com que avisos façam o {1}CI{/1} falhar com {2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

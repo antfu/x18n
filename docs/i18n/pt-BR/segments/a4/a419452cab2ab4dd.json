@@ -3,12 +3,16 @@
   "source": "A YAML plugin file does not match the plugin schema. The message names the file, the field and the problem.",
   "text": "Um arquivo de plugin YAML não corresponde ao schema de plugin. A mensagem indica o arquivo, o campo e o problema.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um arquivo de plugin YAML não corresponde ao schema de plugin. A mensagem indica o arquivo, o campo e o problema."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

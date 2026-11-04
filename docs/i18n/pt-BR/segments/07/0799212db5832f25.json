@@ -3,12 +3,16 @@
   "source": "Key order when x18n writes a file. {0} sorts by code point, {1} sorts with a locale-aware compare, {2} keeps the order.",
   "text": "Ordem das chaves quando o x18n grava um arquivo. {0} ordena por code point, {1} ordena com uma comparação que considera o idioma, {2} mantém a ordem.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ordem das chaves quando o x18n grava um arquivo. {0} ordena por code point, {1} ordena com uma comparação que considera o idioma, {2} mantém a ordem."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

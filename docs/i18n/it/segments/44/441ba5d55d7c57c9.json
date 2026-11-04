@@ -3,12 +3,16 @@
   "source": "Indent of written files: a number of spaces, or {0}. Without it, each file keeps its own indent.",
   "text": "Indentazione dei file scritti: un numero di spazi, oppure {0}. Senza questa opzione, ogni file mantiene la propria indentazione.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Indentazione dei file scritti: un numero di spazi, oppure {0}. Senza questa opzione, ogni file mantiene la propria indentazione."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

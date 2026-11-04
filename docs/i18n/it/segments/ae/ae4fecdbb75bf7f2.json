@@ -3,12 +3,16 @@
   "source": "{0} find resources. {1} returns candidates: a path, a locale, a namespace, and optionally a format id, a block inside the file, and a read-only flag. {2} returns the path of a new file for a locale and namespace, for edits that create files. {3} is the existing resource that the new file would otherwise copy, usually the source file of the key. Return a path only if {4} would find that file again.",
   "text": "{0} trovano le risorse. {1} restituisce dei candidati: un percorso, una lingua, un namespace e, facoltativamente, un id del formato, un blocco all'interno del file e un flag di sola lettura. {2} restituisce il percorso di un nuovo file per una lingua e un namespace, per le modifiche che creano file. {3} è la risorsa esistente che altrimenti il nuovo file copierebbe, di solito il file sorgente della chiave. Restituisci un percorso solo se {4} ritroverebbe quel file.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} trovano le risorse. {1} restituisce dei candidati: un percorso, una lingua, un namespace e, facoltativamente, un id del formato, un blocco all'interno del file e un flag di sola lettura. {2} restituisce il percorso di un nuovo file per una lingua e un namespace, per le modifiche che creano file. {3} è la risorsa esistente che altrimenti il nuovo file copierebbe, di solito il file sorgente della chiave. Restituisci un percorso solo se {4} ritroverebbe quel file."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

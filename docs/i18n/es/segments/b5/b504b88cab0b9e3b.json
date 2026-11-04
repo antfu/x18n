@@ -3,12 +3,16 @@
   "source": "To find the key behind a text that you see in the app, search the values. The search covers every locale and ignores case. It matches fuzzily, so the letters of the query need to appear in order, but not next to each other. Values that contain the query rank first. {0} keeps only those values. Each match lists its usages as {1}:",
   "text": "Para encontrar la clave de un texto que ves en la aplicación, busca en los valores. La búsqueda abarca todos los idiomas e ignora las mayúsculas y minúsculas. La coincidencia es aproximada: las letras de la consulta deben aparecer en orden, pero no necesariamente juntas. Los valores que contienen la consulta aparecen primero. {0} conserva solo esos valores. Cada coincidencia muestra sus usos como {1}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Para encontrar la clave de un texto que ves en la aplicación, busca en los valores. La búsqueda abarca todos los idiomas e ignora las mayúsculas y minúsculas. La coincidencia es aproximada: las letras de la consulta deben aparecer en orden, pero no necesariamente juntas. Los valores que contienen la consulta aparecen primero. {0} conserva solo esos valores. Cada coincidencia muestra sus usos como {1}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

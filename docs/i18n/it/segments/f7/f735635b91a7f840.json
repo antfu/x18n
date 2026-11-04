@@ -3,12 +3,16 @@
   "source": "The provider of a component reaches its own part of the file and its {0}, the components its template uses, by element or attribute selector, and what its {1} shows, down the tree. The nearest provider wins.",
   "text": "Il provider di un componente raggiunge la propria parte del file e il relativo {0}, i componenti usati dal suo template, tramite selettore di elemento o di attributo, e ciò che mostra il suo {1}, lungo l'albero. Vince il provider più vicino.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il provider di un componente raggiunge la propria parte del file e il relativo {0}, i componenti usati dal suo template, tramite selettore di elemento o di attributo, e ciò che mostra il suo {1}, lungo l'albero. Vince il provider più vicino."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

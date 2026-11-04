@@ -3,12 +3,16 @@
   "source": "A message without an {0} gets the id {1} computes from its text and its tag. {2} is its description for translators. Only files that mention {3} are read.",
   "text": "Un mensaje sin {0} recibe el id que {1} calcula a partir de su texto y su etiqueta. {2} es su descripción para los traductores. Solo se leen los archivos que mencionan {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un mensaje sin {0} recibe el id que {1} calcula a partir de su texto y su etiqueta. {2} es su descripción para los traductores. Solo se leen los archivos que mencionan {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

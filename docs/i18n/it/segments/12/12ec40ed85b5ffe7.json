@@ -3,12 +3,16 @@
   "source": "The display locale is the locale that the editor shows in annotations and hovers. Each user picks it for themselves. It defaults to the source locale.",
   "text": "La lingua di visualizzazione è la lingua che l'editor mostra nelle annotazioni e negli hover. Ogni utente la sceglie per sé. Per impostazione predefinita è la lingua di origine.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La lingua di visualizzazione è la lingua che l'editor mostra nelle annotazioni e negli hover. Ogni utente la sceglie per sé. Per impostazione predefinita è la lingua di origine."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

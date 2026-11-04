@@ -3,12 +3,16 @@
   "source": "A loader that computes its messages (for example with {0}) is not static. x18n reports it as {1}.",
   "text": "Um loader que calcula suas mensagens (por exemplo, com {0}) não é estático. O x18n o relata como {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um loader que calcula suas mensagens (por exemplo, com {0}) não é estático. O x18n o relata como {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

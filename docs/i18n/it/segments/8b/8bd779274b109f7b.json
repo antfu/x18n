@@ -3,12 +3,16 @@
   "source": "Locales with coverage, and the counts of resources, keys, usages and diagnostics.",
   "text": "Le lingue con la copertura e il numero di risorse, chiavi, utilizzi e diagnostiche.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le lingue con la copertura e il numero di risorse, chiavi, utilizzi e diagnostiche."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

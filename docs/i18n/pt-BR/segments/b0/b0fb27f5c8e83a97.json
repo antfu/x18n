@@ -3,12 +3,16 @@
   "source": "{0} prints the TypeScript version of a YAML plugin. It uses the same built-in functions, so the result behaves the same:",
   "text": "{0} imprime a versão em TypeScript de um plugin YAML. Ele usa as mesmas funções integradas, então o resultado se comporta da mesma forma:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} imprime a versão em TypeScript de um plugin YAML. Ele usa as mesmas funções integradas, então o resultado se comporta da mesma forma:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
   "text": "{0} imposta il namespace e il prefisso di chiave per l'intero file, perché il componente riceve il suo {1} tramite props e spesso si trova sopra la chiamata.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} imposta il namespace e il prefisso di chiave per l'intero file, perché il componente riceve il suo {1} tramite props e spesso si trova sopra la chiamata."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

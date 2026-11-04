@@ -3,12 +3,16 @@
   "source": "The locale that is the source of truth for checks, prompts and go to definition.",
   "text": "La lingua che è la fonte di verità per i controlli, i prompt e il go to definition.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La lingua che è la fonte di verità per i controlli, i prompt e il go to definition."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

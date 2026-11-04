@@ -3,12 +3,16 @@
   "source": "A plugin is an object that adds capabilities. A capability is one kind of contribution, such as a format, a scanner or a check. See {0}Capabilities{/0}.",
   "text": "Un plugin è un oggetto che aggiunge funzionalità. Una capability è un tipo di contributo, come un formato, uno scanner o un controllo. Vedi {0}Capability{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un plugin è un oggetto che aggiunge funzionalità. Una capability è un tipo di contributo, come un formato, uno scanner o un controllo. Vedi {0}Capability{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

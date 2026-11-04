@@ -3,12 +3,16 @@
   "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}): {1} for every check, or a list of check ids.",
   "text": "Traduce también los valores que las comprobaciones señalan en el idioma de destino, como las copias del origen ({0}): {1} para todas las comprobaciones, o una lista de ids de comprobación.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Traduce también los valores que las comprobaciones señalan en el idioma de destino, como las copias del origen ({0}): {1} para todas las comprobaciones, o una lista de ids de comprobación."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

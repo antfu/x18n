@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}, with the values {2} and {3}. When x18n sets a value, it writes the {4} field and keeps the other fields. {5} adds {6} to {7}.",
   "text": "Diese Datei enthält die Schlüssel {0} und {1} mit den Werten {2} und {3}. Wenn x18n einen Wert setzt, schreibt es das Feld {4} und behält die anderen Felder bei. {5} fügt {6} zu {7} hinzu.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Diese Datei enthält die Schlüssel {0} und {1} mit den Werten {2} und {3}. Wenn x18n einen Wert setzt, schreibt es das Feld {4} und behält die anderen Felder bei. {5} fügt {6} zu {7} hinzu."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

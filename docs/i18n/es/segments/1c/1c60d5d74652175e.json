@@ -3,12 +3,16 @@
   "source": "Each error of x18n has a code such as {0}. The CLI prints the code with why the error happened, a fix and a link to the page of the code. With {1}, the error is in {2} of the {3}envelope{/3}, with a {4} link to its page here.",
   "text": "Cada error de x18n tiene un código como {0}. La CLI muestra el código junto con el motivo del error, una solución y un enlace a la página del código. Con {1}, el error aparece en {2} del {3}envelope{/3}, con un enlace {4} a su página aquí.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cada error de x18n tiene un código como {0}. La CLI muestra el código junto con el motivo del error, una solución y un enlace a la página del código. Con {1}, el error aparece en {2} del {3}envelope{/3}, con un enlace {4} a su página aquí."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

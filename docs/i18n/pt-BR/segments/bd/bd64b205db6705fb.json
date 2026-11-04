@@ -3,12 +3,16 @@
   "source": "A region of source code with a default namespace or key prefix.",
   "text": "Uma região do código-fonte com um namespace ou prefixo de chave padrão.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Uma região do código-fonte com um namespace ou prefixo de chave padrão."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

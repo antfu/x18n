@@ -3,12 +3,16 @@
   "source": "To change the severity of a check for every run, use {0} in the config. See {1}Checks{/1}.",
   "text": "Per cambiare la severità di un controllo a ogni esecuzione, usa {0} nella configurazione. Vedi {1}Controlli{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Per cambiare la severità di un controllo a ogni esecuzione, usa {0} nella configurazione. Vedi {1}Controlli{/1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

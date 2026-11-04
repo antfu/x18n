@@ -3,12 +3,16 @@
   "source": "A named value a translate call passes to its message ({0} in {1}), which a placeholder reads.",
   "text": "Ein benannter Wert, den ein Translate-Aufruf an seine Message übergibt ({0} in {1}) und den ein Platzhalter liest.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein benannter Wert, den ein Translate-Aufruf an seine Message übergibt ({0} in {1}) und den ein Platzhalter liest."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

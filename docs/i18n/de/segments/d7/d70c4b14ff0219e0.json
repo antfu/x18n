@@ -3,12 +3,16 @@
   "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
   "text": "Wenn eine Änderung im Vergleich zum Quellwert einen Platzhalter entfernt oder hinzufügt, speichert die UI sie nicht. Sie zeigt das Problem an, und du kannst den Wert trotzdem speichern.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wenn eine Änderung im Vergleich zum Quellwert einen Platzhalter entfernt oder hinzufügt, speichert die UI sie nicht. Sie zeigt das Problem an, und du kannst den Wert trotzdem speichern."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "In in-place mode, replace the whole translate call, such as {0}, instead of only the key. Keys whose call is not known keep the key-only replacement.",
   "text": "No modo in-place, substitui a chamada de tradução inteira, como {0}, em vez de apenas a chave. As chaves cuja chamada não é conhecida mantêm a substituição apenas da chave.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "No modo in-place, substitui a chamada de tradução inteira, como {0}, em vez de apenas a chave. As chaves cuja chamada não é conhecida mantêm a substituição apenas da chave."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

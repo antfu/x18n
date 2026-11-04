@@ -3,12 +3,16 @@
   "source": "A form that a language does not have, such as {0} in English, is optional in every locale.",
   "text": "Uma forma que um idioma não tem, como {0} em inglês, é opcional em todos os idiomas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Uma forma que um idioma não tem, como {0} em inglês, é opcional em todos os idiomas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "List plugins in the {0} option of the config. An entry is a path, a package name, {1}, or in TS a plugin object:",
   "text": "Liste os plugins na opção {0} da configuração. Uma entrada é um caminho, um nome de pacote, {1} ou, em TS, um objeto de plugin:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Liste os plugins na opção {0} da configuração. Uma entrada é um caminho, um nome de pacote, {1} ou, em TS, um objeto de plugin:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

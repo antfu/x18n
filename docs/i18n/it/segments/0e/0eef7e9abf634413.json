@@ -3,12 +3,16 @@
   "source": "The preset adds the {0} scanner, which finds text and text attributes as described for {1}ngx-translate{/1}.",
   "text": "Il preset aggiunge lo scanner {0}, che trova testi e attributi di testo come descritto per {1}ngx-translate{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset aggiunge lo scanner {0}, che trova testi e attributi di testo come descritto per {1}ngx-translate{/1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Each tool takes one object. A {0} after a field name marks an optional field. The safety level tells the agent what a call does: {1} changes nothing, {2} writes files, {3} can remove data and asks for {4}.",
   "text": "Cada herramienta recibe un objeto. Un {0} después del nombre de un campo indica que es opcional. El nivel de seguridad indica al agente qué hace una llamada: {1} no cambia nada, {2} escribe archivos, {3} puede eliminar datos y pide {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cada herramienta recibe un objeto. Un {0} después del nombre de un campo indica que es opcional. El nivel de seguridad indica al agente qué hace una llamada: {1} no cambia nada, {2} escribe archivos, {3} puede eliminar datos y pide {4}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Delete a key (or every key under a parent) in all locales, or only in {0}. Code is not changed. Without {1} it returns the plan; call again with {2} to apply it.",
   "text": "Elimina una clave (o todas las claves bajo una clave padre) en todos los idiomas, o solo en {0}. El código no se modifica. Sin {1} devuelve el plan; vuelve a llamar con {2} para aplicarlo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Elimina una clave (o todas las claves bajo una clave padre) en todos los idiomas, o solo en {0}. El código no se modifica. Sin {1} devuelve el plan; vuelve a llamar con {2} para aplicarlo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

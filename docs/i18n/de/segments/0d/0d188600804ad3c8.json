@@ -3,12 +3,16 @@
   "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
   "text": "Ersetzt Schlüssel im Code durch ihren Wert in der Anzeigesprache. Der unveränderte Schlüssel wird in der Cursorzeile und innerhalb von Auswahlen angezeigt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ersetzt Schlüssel im Code durch ihren Wert in der Anzeigesprache. Der unveränderte Schlüssel wird in der Cursorzeile und innerhalb von Auswahlen angezeigt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

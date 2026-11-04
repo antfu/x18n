@@ -3,12 +3,16 @@
   "source": "With the default {0}, x18n tests each preset in the order of the table. Most presets apply when the project depends on one of the listed packages. x18n reads the dependencies, dev dependencies and peer dependencies in {1}, the dependencies in {2}, {3}, {4} and {5}, and the Python requirements in {6} ({7}, {8}, {9} and the Poetry dependency tables) and {10}. Python package names compare in their normalized form, so {11} is {12}. The manifests in the parent directories, up to the git root, count too.",
   "text": "Con el valor predeterminado {0}, x18n prueba cada preset en el orden de la tabla. La mayoría de los presets se aplican cuando el proyecto depende de uno de los paquetes indicados. x18n lee las dependencias, las dependencias de desarrollo y las peer dependencies de {1}, las dependencias de {2}, {3}, {4} y {5}, y los requisitos de Python en {6} ({7}, {8}, {9} y las tablas de dependencias de Poetry) y {10}. Los nombres de los paquetes de Python se comparan en su forma normalizada, así que {11} es {12}. También cuentan los manifiestos de los directorios superiores, hasta la raíz de git.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Con el valor predeterminado {0}, x18n prueba cada preset en el orden de la tabla. La mayoría de los presets se aplican cuando el proyecto depende de uno de los paquetes indicados. x18n lee las dependencias, las dependencias de desarrollo y las peer dependencies de {1}, las dependencias de {2}, {3}, {4} y {5}, y los requisitos de Python en {6} ({7}, {8}, {9} y las tablas de dependencias de Poetry) y {10}. Los nombres de los paquetes de Python se comparan en su forma normalizada, así que {11} es {12}. También cuentan los manifiestos de los directorios superiores, hasta la raíz de git."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

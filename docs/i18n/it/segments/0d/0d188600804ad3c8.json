@@ -3,12 +3,16 @@
   "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
   "text": "Sostituisci le chiavi nel codice con il loro valore nella lingua di visualizzazione. La chiave originale viene mostrata sulla riga del cursore e all'interno delle selezioni.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Sostituisci le chiavi nel codice con il loro valore nella lingua di visualizzazione. La chiave originale viene mostrata sulla riga del cursore e all'interno delle selezioni."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

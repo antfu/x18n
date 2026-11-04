@@ -3,12 +3,16 @@
   "source": "Arguments that may hold the params object, in order; string arguments are skipped ({0}).",
   "text": "Argomenti che possono contenere l'oggetto dei parametri, in ordine; gli argomenti di tipo stringa vengono saltati ({0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Argomenti che possono contenere l'oggetto dei parametri, in ordine; gli argomenti di tipo stringa vengono saltati ({0})."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

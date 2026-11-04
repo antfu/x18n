@@ -3,12 +3,16 @@
   "source": "Regex whose first group is the namespace of the code after it (i18n-ally {0}).",
   "text": "Regex cujo primeiro grupo é o namespace do código que vem depois dela (i18n-ally {0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Regex cujo primeiro grupo é o namespace do código que vem depois dela (i18n-ally {0})."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

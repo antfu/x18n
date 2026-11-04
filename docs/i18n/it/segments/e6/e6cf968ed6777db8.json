@@ -3,12 +3,16 @@
   "source": "x18n builds the final config of a project in this order. A later layer wins:",
   "text": "x18n costruisce la configurazione finale di un progetto in quest'ordine. Un livello successivo ha la precedenza:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n costruisce la configurazione finale di un progetto in quest'ordine. Un livello successivo ha la precedenza:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

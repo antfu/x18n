@@ -3,12 +3,16 @@
   "source": "YAML and JSON configs reject unknown keys. If the field is a typo, fix the name.",
   "text": "YAML- und JSON-Konfigurationen lehnen unbekannte Schlüssel ab. Wenn das Feld ein Tippfehler ist, korrigiere den Namen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "YAML- und JSON-Konfigurationen lehnen unbekannte Schlüssel ab. Wenn das Feld ein Tippfehler ist, korrigiere den Namen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

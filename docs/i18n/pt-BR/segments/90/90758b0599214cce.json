@@ -3,12 +3,16 @@
   "source": "The extension starts in a workspace that has an {0} file or a {1}. It reads the same config as the CLI, so the editor and {2} report the same diagnostics.",
   "text": "A extensão inicia em um workspace que tenha um arquivo {0} ou um {1}. Ela lê a mesma configuração da CLI, então o editor e o {2} reportam os mesmos diagnósticos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A extensão inicia em um workspace que tenha um arquivo {0} ou um {1}. Ela lê a mesma configuração da CLI, então o editor e o {2} reportam os mesmos diagnósticos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

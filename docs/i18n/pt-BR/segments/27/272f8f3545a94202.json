@@ -3,12 +3,16 @@
   "source": "The calls of {0}react-i18next{/0}. For this file, {1} uses {2} and {3}, so the {4} check reports neither:",
   "text": "As chamadas do {0}react-i18next{/0}. Para este arquivo, {1} usa {2} e {3}, então a verificação {4} não reporta nenhum dos dois:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "As chamadas do {0}react-i18next{/0}. Para este arquivo, {1} usa {2} e {3}, então a verificação {4} não reporta nenhum dos dois:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

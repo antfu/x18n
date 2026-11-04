@@ -3,12 +3,16 @@
   "source": "Keys, paged, filtered by a missing locale, unused keys, namespace or glob.",
   "text": "Claves, paginadas, filtradas por un idioma faltante, claves sin usar, espacio de nombres o glob.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Claves, paginadas, filtradas por un idioma faltante, claves sin usar, espacio de nombres o glob."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

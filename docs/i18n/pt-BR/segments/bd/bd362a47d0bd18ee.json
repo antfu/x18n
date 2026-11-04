@@ -3,12 +3,16 @@
   "source": "The {0}VS Code extension{/0} shows translations in place and treats keys like symbols: go to definition, find references and rename.",
   "text": "A {0}extensão do VS Code{/0} mostra as traduções no próprio lugar e trata as chaves como símbolos: ir para a definição, encontrar referências e renomear.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A {0}extensão do VS Code{/0} mostra as traduções no próprio lugar e trata as chaves como símbolos: ir para a definição, encontrar referências e renomear."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

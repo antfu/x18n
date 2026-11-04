@@ -3,12 +3,16 @@
   "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
   "text": "Python-Prozentformatierung: {0}, {1}, {2}. {3}, ein {4} vor einem Leerzeichen und URL-Escapes wie {5} oder {6} in einer URL sind Text.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Python-Prozentformatierung: {0}, {1}, {2}. {3}, ein {4} vor einem Leerzeichen und URL-Escapes wie {5} oder {6} in einer URL sind Text."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

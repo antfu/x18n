@@ -3,12 +3,16 @@
   "source": "The same rules apply to the {0} check. The {1} options of the config set the key style and the strings to ignore. The presets add the replacement code for their library. See {2}Extraction templates{/2}.",
   "text": "Las mismas reglas se aplican a la comprobación {0}. Las opciones {1} de la configuración establecen el estilo de las claves y las cadenas que se ignoran. Los presets añaden el código de sustitución de su biblioteca. Consulta {2}Plantillas de extracción{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Las mismas reglas se aplican a la comprobación {0}. Las opciones {1} de la configuración establecen el estilo de las claves y las cadenas que se ignoran. Los presets añaden el código de sustitución de su biblioteca. Consulta {2}Plantillas de extracción{/2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

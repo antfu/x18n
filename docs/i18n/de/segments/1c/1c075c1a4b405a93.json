@@ -3,12 +3,16 @@
   "source": "x18n records which plugin changed which value. {0} shows it as {1}.",
   "text": "x18n zeichnet auf, welches Plugin welchen Wert geändert hat. {0} zeigt es als {1} an.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n zeichnet auf, welches Plugin welchen Wert geändert hat. {0} zeigt es als {1} an."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

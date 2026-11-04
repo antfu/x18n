@@ -3,12 +3,16 @@
   "source": "{0} finds hard-coded strings in source files and turns them into keys. Each candidate has a proposed key, a message and the replacement code.",
   "text": "{0} findet hartcodierte Strings in Quelldateien und wandelt sie in Schlüssel um. Jeder Kandidat hat einen vorgeschlagenen Schlüssel, eine Message und den Ersetzungscode.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} findet hartcodierte Strings in Quelldateien und wandelt sie in Schlüssel um. Jeder Kandidat hat einen vorgeschlagenen Schlüssel, eine Message und den Ersetzungscode."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

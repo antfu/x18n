@@ -3,12 +3,16 @@
   "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
   "text": "O servidor executa estes comandos por meio de {0}. O argumento é um único objeto. {1} assume como padrão o primeiro projeto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O servidor executa estes comandos por meio de {0}. O argumento é um único objeto. {1} assume como padrão o primeiro projeto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

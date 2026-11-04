@@ -3,12 +3,16 @@
   "source": "Run x18n check on a project, write a config with x18n init, and run the check in CI.",
   "text": "Ejecuta x18n check en un proyecto, escribe una configuración con x18n init y ejecuta la comprobación en CI.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ejecuta x18n check en un proyecto, escribe una configuración con x18n init y ejecuta la comprobación en CI."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

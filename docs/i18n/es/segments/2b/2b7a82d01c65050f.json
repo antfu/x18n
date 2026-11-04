@@ -3,12 +3,16 @@
   "source": "Copy this prompt to your coding agent. It sets x18n up for you:",
   "text": "Copia este prompt en tu agente de programación. Él configura x18n por ti:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Copia este prompt en tu agente de programación. Él configura x18n por ti:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

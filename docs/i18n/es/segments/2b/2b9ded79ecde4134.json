@@ -3,12 +3,16 @@
   "source": "Style reference: up to five existing messages of the target locale, as examples of its tone. A value that is a copy of the source is never an example.",
   "text": "Referencia de estilo: hasta cinco mensajes existentes del idioma de destino, como ejemplos de su tono. Un valor que sea una copia del origen nunca se usa como ejemplo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Referencia de estilo: hasta cinco mensajes existentes del idioma de destino, como ejemplos de su tono. Un valor que sea una copia del origen nunca se usa como ejemplo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

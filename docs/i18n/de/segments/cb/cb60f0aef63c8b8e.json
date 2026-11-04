@@ -3,12 +3,16 @@
   "source": "The x18n language server: standard features, settings and the custom x18n/* protocol.",
   "text": "Der x18n language server: Standardfunktionen, Einstellungen und das benutzerdefinierte x18n/*-Protokoll.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Der x18n language server: Standardfunktionen, Einstellungen und das benutzerdefinierte x18n/*-Protokoll."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

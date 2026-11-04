@@ -3,12 +3,16 @@
   "source": "{0} writes nothing if a value drops or adds a placeholder. It lists the problems and exits with code 1. The check then finds syntax errors, such as an ICU plural without an {1} case.",
   "text": "{0} schreibt nichts, wenn ein Wert einen Platzhalter weglässt oder hinzufügt. Es listet die Probleme auf und beendet sich mit dem Exit-Code 1. Die Prüfung findet danach Syntaxfehler, etwa einen ICU-Plural ohne {1}-Fall.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} schreibt nichts, wenn ein Wert einen Platzhalter weglässt oder hinzufügt. Es listet die Probleme auf und beendet sich mit dem Exit-Code 1. Die Prüfung findet danach Syntaxfehler, etwa einen ICU-Plural ohne {1}-Fall."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

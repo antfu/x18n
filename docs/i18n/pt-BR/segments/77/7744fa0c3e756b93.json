@@ -3,12 +3,16 @@
   "source": "The preset applies when {0}, {1} or {2} has a {3} field. If your config has no {4}, x18n uses {5} as the source locale.",
   "text": "O preset é aplicado quando {0}, {1} ou {2} tem um campo {3}. Se a sua configuração não tiver {4}, o x18n usa {5} como idioma de origem.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset é aplicado quando {0}, {1} ou {2} tem um campo {3}. Se a sua configuração não tiver {4}, o x18n usa {5} como idioma de origem."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The TS config imports {0} from {1}, so the package must be installed in the project before you write an {2}.",
   "text": "La configurazione TS importa {0} da {1}, quindi il pacchetto deve essere installato nel progetto prima di scrivere un {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La configurazione TS importa {0} da {1}, quindi il pacchetto deve essere installato nel progetto prima di scrivere un {2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

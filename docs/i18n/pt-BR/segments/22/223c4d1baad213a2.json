@@ -3,12 +3,16 @@
   "source": "Locale: the progress of one locale, its missing and empty keys, its placeholder and syntax problems, and a button that copies a translate prompt.",
   "text": "Locale: o progresso de um idioma, suas chaves ausentes e vazias, seus problemas de placeholder e de sintaxe, e um botão que copia um prompt de tradução.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Locale: o progresso de um idioma, suas chaves ausentes e vazias, seus problemas de placeholder e de sintaxe, e um botão que copia um prompt de tradução."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

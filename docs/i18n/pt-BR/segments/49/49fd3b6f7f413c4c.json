@@ -3,12 +3,16 @@
   "source": "Where the namespace comes from (call option, or factory argument when {0} is true), or a fixed namespace such as {1} for a hook that wraps {2}.",
   "text": "De onde vem o namespace (opção da chamada, ou argumento da factory quando {0} é true), ou um namespace fixo como {1} para um hook que encapsula {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "De onde vem o namespace (opção da chamada, ou argumento da factory quando {0} é true), ou um namespace fixo como {1} para um hook que encapsula {2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

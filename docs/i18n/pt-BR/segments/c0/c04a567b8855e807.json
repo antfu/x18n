@@ -3,12 +3,16 @@
   "source": "{0} returns the message tree, and optionally the text range of each key and value, and the description of each message. The ranges power go to definition and diagnostics. A description is what the file says about a message for translators, such as a note or a comment beside it. {1}Translate prompts{/1} show it.",
   "text": "{0} retorna a árvore de mensagens e, opcionalmente, o intervalo de texto de cada chave e valor, e a descrição de cada mensagem. Os intervalos habilitam ir para a definição e os diagnósticos. Uma descrição é o que o arquivo diz sobre uma mensagem para os tradutores, como uma nota ou um comentário ao lado dela. Os {1}prompts de tradução{/1} a exibem.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} retorna a árvore de mensagens e, opcionalmente, o intervalo de texto de cada chave e valor, e a descrição de cada mensagem. Os intervalos habilitam ir para a definição e os diagnósticos. Uma descrição é o que o arquivo diz sobre uma mensagem para os tradutores, como uma nota ou um comentário ao lado dela. Os {1}prompts de tradução{/1} a exibem."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

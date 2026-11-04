@@ -3,12 +3,16 @@
   "source": "The engine is {0}. It does no file access itself and knows no editor. A surface is a layer that people or tools use on top of the engine:",
   "text": "Il motore è {0}. Non accede ai file da solo e non conosce alcun editor. Un'interfaccia è un livello che persone o strumenti usano sopra il motore:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il motore è {0}. Non accede ai file da solo e non conosce alcun editor. Un'interfaccia è un livello che persone o strumenti usano sopra il motore:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

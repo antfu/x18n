@@ -3,12 +3,16 @@
   "source": "interpolations ({0}) and ICU messages ({1}),",
   "text": "interpolações ({0}) e mensagens ICU ({1}),",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "interpolações ({0}) e mensagens ICU ({1}),"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Read the field path in the message and compare the value with the {0}config reference{/0}.",
   "text": "Leia o caminho do campo na mensagem e compare o valor com a {0}referência de configuração{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Leia o caminho do campo na mensagem e compare o valor com a {0}referência de configuração{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

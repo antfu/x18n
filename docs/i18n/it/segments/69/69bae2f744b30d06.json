@@ -3,12 +3,16 @@
   "source": "A locale file has a syntax error. The message names the file and the position.",
   "text": "Un file di lingua contiene un errore di sintassi. Il messaggio indica il file e la posizione.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un file di lingua contiene un errore di sintassi. Il messaggio indica il file e la posizione."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

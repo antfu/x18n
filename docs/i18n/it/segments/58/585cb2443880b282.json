@@ -3,12 +3,16 @@
   "source": "Globalize separates the segments of a message path with a slash. The preset turns each slash into a dot, so this call is a usage of the key {0}:",
   "text": "Globalize separa i segmenti del percorso di un messaggio con una barra. Il preset trasforma ogni barra in un punto, quindi questa chiamata è un utilizzo della chiave {0}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Globalize separa i segmenti del percorso di un messaggio con una barra. Il preset trasforma ogni barra in un punto, quindi questa chiamata è un utilizzo della chiave {0}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

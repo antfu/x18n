@@ -3,12 +3,16 @@
   "source": "Start the dev server and open Vite DevTools. The x18n panel is in the dock. Vite DevTools signs you in with its own auth code. The panel then needs no other sign-in.",
   "text": "Avvia il server di sviluppo e apri Vite DevTools. Il pannello di x18n si trova nel dock. Vite DevTools ti fa accedere con il proprio codice di autenticazione. Il pannello non richiede quindi nessun altro accesso.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Avvia il server di sviluppo e apri Vite DevTools. Il pannello di x18n si trova nel dock. Vite DevTools ti fa accedere con il proprio codice di autenticazione. Il pannello non richiede quindi nessun altro accesso."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

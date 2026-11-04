@@ -3,12 +3,16 @@
   "source": "When a plugin does not work as you expect, ask x18n how it understood the project.",
   "text": "Wenn ein Plugin nicht so funktioniert, wie du es erwartest, frage x18n, wie es das Projekt verstanden hat.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wenn ein Plugin nicht so funktioniert, wie du es erwartest, frage x18n, wie es das Projekt verstanden hat."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

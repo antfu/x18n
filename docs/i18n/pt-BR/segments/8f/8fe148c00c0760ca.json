@@ -3,12 +3,16 @@
   "source": "Fluent variables: {0}. For {1} in {2} and {3} in {4}, the {5} check reports {6}.",
   "text": "Variáveis do Fluent: {0}. Para {1} em {2} e {3} em {4}, a verificação {5} reporta {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Variáveis do Fluent: {0}. Para {1} em {2} e {3} em {4}, a verificação {5} reporta {6}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

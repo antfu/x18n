@@ -3,12 +3,16 @@
   "source": "{0}, {1} and {2} are translate calls. The {3} option in the second argument sets the namespace.",
   "text": "{0}, {1} und {2} sind Übersetzungsaufrufe. Die Option {3} im zweiten Argument legt den Namespace fest.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}, {1} und {2} sind Übersetzungsaufrufe. Die Option {3} im zweiten Argument legt den Namespace fest."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

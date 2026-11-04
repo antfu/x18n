@@ -3,12 +3,16 @@
   "source": "If your config has no {0}, the preset uses {1} and, for namespaces, {2}. The keys of a namespace start with the name of the namespace: {3}.",
   "text": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1} und für Namespaces {2}. Die Schlüssel eines Namespace beginnen mit dem Namen des Namespace: {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1} und für Namespaces {2}. Die Schlüssel eines Namespace beginnen mit dem Namen des Namespace: {3}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "It also finds the locale files. If your config has no {0}, the preset reads {1} (or {2}) and looks for {3}:",
   "text": "Ele também encontra os arquivos de idioma. Se a sua configuração não tiver {0}, o preset lê {1} (ou {2}) e procura em {3}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ele também encontra os arquivos de idioma. Se a sua configuração não tiver {0}, o preset lê {1} (ou {2}) e procura em {3}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

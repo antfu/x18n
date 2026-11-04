@@ -3,12 +3,16 @@
   "source": "See how x18n understood a project with x18n doctor and explain, and move a YAML plugin to TypeScript with x18n plugin eject.",
   "text": "Scopri come x18n ha interpretato un progetto con x18n doctor ed explain, e converti un plugin YAML in TypeScript con x18n plugin eject.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Scopri come x18n ha interpretato un progetto con x18n doctor ed explain, e converti un plugin YAML in TypeScript con x18n plugin eject."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

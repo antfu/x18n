@@ -3,12 +3,16 @@
   "source": "These come from the {0} branch, so they can name commands that your installed CLI does not have yet. Run the command again to update them.",
   "text": "Queste provengono dal branch {0}, quindi possono citare comandi che la CLI installata non ha ancora. Esegui di nuovo il comando per aggiornarle.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Queste provengono dal branch {0}, quindi possono citare comandi che la CLI installata non ha ancora. Esegui di nuovo il comando per aggiornarle."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

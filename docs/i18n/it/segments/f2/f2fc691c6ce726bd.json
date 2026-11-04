@@ -3,12 +3,16 @@
   "source": "{0} refuses to replace an existing config. Pass {1} to replace it. See {2}Configuration{/2} for every way to change the setup.",
   "text": "{0} si rifiuta di sostituire una configurazione esistente. Passa {1} per sostituirla. Consulta {2}Configurazione{/2} per tutti i modi di modificare la configurazione.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} si rifiuta di sostituire una configurazione esistente. Passa {1} per sostituirla. Consulta {2}Configurazione{/2} per tutti i modi di modificare la configurazione."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

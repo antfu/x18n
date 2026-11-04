@@ -3,12 +3,16 @@
   "source": "A translate call whose params differ from the placeholders of the source message.",
   "text": "Ein translate-Aufruf, dessen Parameter von den Platzhaltern der Quell-Message abweichen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein translate-Aufruf, dessen Parameter von den Platzhaltern der Quell-Message abweichen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

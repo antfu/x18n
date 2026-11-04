@@ -3,12 +3,16 @@
   "source": "The {0} reporter writes SARIF 2.1.0. Upload it to show the diagnostics in the code scanning view of GitHub:",
   "text": "Der Reporter {0} schreibt SARIF 2.1.0. Lade die Datei hoch, um die Diagnosen in der Code-Scanning-Ansicht von GitHub anzuzeigen:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Der Reporter {0} schreibt SARIF 2.1.0. Lade die Datei hoch, um die Diagnosen in der Code-Scanning-Ansicht von GitHub anzuzeigen:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

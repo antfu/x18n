@@ -3,12 +3,16 @@
   "source": "The preset adds no resource patterns. Set {0} in the config, or let x18n guess the locale directories:",
   "text": "Il preset non aggiunge pattern di risorse. Imposta {0} nella configurazione, oppure lascia che x18n individui le directory delle lingue:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset non aggiunge pattern di risorse. Imposta {0} nella configurazione, oppure lascia che x18n individui le directory delle lingue:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

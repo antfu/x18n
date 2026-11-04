@@ -3,12 +3,16 @@
   "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
   "text": "Isso grava todos os diagnósticos em {0}, na raiz do workspace. Enquanto o arquivo existir, {1} reporta e falha apenas nos diagnósticos que não estão nele, e informa quantos conhecidos foram deixados de fora. Um diagnóstico é identificado por seu arquivo, verificação, chave, idioma e mensagem, não por sua linha, então mover código o mantém conhecido. Mais um diagnóstico idêntico no mesmo arquivo é novo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Isso grava todos os diagnósticos em {0}, na raiz do workspace. Enquanto o arquivo existir, {1} reporta e falha apenas nos diagnósticos que não estão nele, e informa quantos conhecidos foram deixados de fora. Um diagnóstico é identificado por seu arquivo, verificação, chave, idioma e mensagem, não por sua linha, então mover código o mantém conhecido. Mais um diagnóstico idêntico no mesmo arquivo é novo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

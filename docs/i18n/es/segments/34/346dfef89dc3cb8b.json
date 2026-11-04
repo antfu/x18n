@@ -3,12 +3,16 @@
   "source": "Translate calls: the callee names that count as translate calls, and where the key, the namespace and the key prefix come from. These become {0}.",
   "text": "Llamadas de traducción: los nombres de las funciones llamadas que cuentan como llamadas de traducción, y de dónde proceden la clave, el espacio de nombres y el prefijo de clave. Estos pasan a ser {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Llamadas de traducción: los nombres de las funciones llamadas que cuentan como llamadas de traducción, y de dónde proceden la clave, el espacio de nombres y el prefijo de clave. Estos pasan a ser {0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

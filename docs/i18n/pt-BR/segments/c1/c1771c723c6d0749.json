@@ -3,12 +3,16 @@
   "source": "{0} prints the {1} skill, so this works in any agent, with or without a skills system. See {2}The x18n skills{/2} for what the skill does. To set x18n up yourself, follow the steps below.",
   "text": "{0} exibe a skill {1}, então isso funciona em qualquer agente, com ou sem um sistema de skills. Veja {2}As skills do x18n{/2} para saber o que a skill faz. Para configurar o x18n você mesmo, siga os passos abaixo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} exibe a skill {1}, então isso funciona em qualquer agente, com ou sem um sistema de skills. Veja {2}As skills do x18n{/2} para saber o que a skill faz. Para configurar o x18n você mesmo, siga os passos abaixo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Extensions: {0}Chrome and WebExtensions{/0} and {1}VS Code{/1} ({2} and {3})",
   "text": "Extensiones: {0}Chrome y WebExtensions{/0} y {1}VS Code{/1} ({2} y {3})",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Extensiones: {0}Chrome y WebExtensions{/0} y {1}VS Code{/1} ({2} y {3})"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

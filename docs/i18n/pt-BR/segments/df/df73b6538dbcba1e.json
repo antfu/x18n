@@ -3,12 +3,16 @@
   "source": "Put {0} in the {1} of the package, so that the plugin uses the x18n version of the project.",
   "text": "Coloque {0} em {1} do pacote, para que o plugin use a versão do x18n do projeto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Coloque {0} em {1} do pacote, para que o plugin use a versão do x18n do projeto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

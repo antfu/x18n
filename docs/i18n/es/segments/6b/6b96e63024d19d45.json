@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}i18nice{/1} and {2}python-i18n{/2}, the library that i18nice forked.",
   "text": "El preset {0} es compatible con {1}i18nice{/1} y {2}python-i18n{/2}, la biblioteca de la que i18nice es un fork.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El preset {0} es compatible con {1}i18nice{/1} y {2}python-i18n{/2}, la biblioteca de la que i18nice es un fork."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

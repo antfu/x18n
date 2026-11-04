@@ -3,12 +3,16 @@
   "source": "\"x18n: Translate with Agent\" opens the editor's chat in agent mode with the {0}translate prompt{/0} for a locale, or for one key from a hover or the Keys view. The agent translates the messages, writes them with {1} and runs {2}, as the prompt says. x18n itself calls no model. The agent needs the x18n CLI in the project. In an editor without the VS Code chat, the command copies the prompt instead.",
   "text": "\"x18n: Translate with Agent\" apre la chat dell'editor in modalità agente con il {0}prompt di traduzione{/0} per una lingua, oppure per una singola chiave da un hover o dalla vista Keys. L'agente traduce i messaggi, li scrive con {1} ed esegue {2}, come indica il prompt. x18n stesso non chiama alcun modello. L'agente ha bisogno della CLI di x18n nel progetto. In un editor senza la chat di VS Code, il comando copia invece il prompt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "\"x18n: Translate with Agent\" apre la chat dell'editor in modalità agente con il {0}prompt di traduzione{/0} per una lingua, oppure per una singola chiave da un hover o dalla vista Keys. L'agente traduce i messaggi, li scrive con {1} ed esegue {2}, come indica il prompt. x18n stesso non chiama alcun modello. L'agente ha bisogno della CLI di x18n nel progetto. In un editor senza la chat di VS Code, il comando copia invece il prompt."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

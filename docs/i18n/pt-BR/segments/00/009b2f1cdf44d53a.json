@@ -3,12 +3,16 @@
   "source": "x18n uses one name for each idea, in its code, docs, CLI output and UI. This page explains the names with one small project as the example:",
   "text": "O x18n usa um nome para cada ideia, no código, na documentação, na saída da CLI e na UI. Esta página explica os nomes usando um pequeno projeto como exemplo:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O x18n usa um nome para cada ideia, no código, na documentação, na saída da CLI e na UI. Esta página explica os nomes usando um pequeno projeto como exemplo:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

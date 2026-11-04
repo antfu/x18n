@@ -3,12 +3,16 @@
   "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
   "text": "Chiamato per ogni modifica di revisione di un piano, nell'ordine delle operazioni. Le scritture che restituisce confluiscono nello stesso piano.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chiamato per ogni modifica di revisione di un piano, nell'ordine delle operazioni. Le scritture che restituisce confluiscono nello stesso piano."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

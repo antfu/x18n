@@ -3,12 +3,16 @@
   "source": "A plan can hold decisions. A decision is a question that the command must answer before it writes, for example which file gets a new key. In a terminal, x18n asks you. With {0}, it takes the default answer. With {1}, or without a terminal, it stops with {2}X18N4003{/2}.",
   "text": "Un plan puede contener decisiones. Una decisión es una pregunta que el comando debe responder antes de escribir, por ejemplo, qué archivo recibe una clave nueva. En un terminal, x18n te pregunta. Con {0}, toma la respuesta predeterminada. Con {1}, o sin un terminal, se detiene con {2}X18N4003{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un plan puede contener decisiones. Una decisión es una pregunta que el comando debe responder antes de escribir, por ejemplo, qué archivo recibe una clave nueva. En un terminal, x18n te pregunta. Con {0}, toma la respuesta predeterminada. Con {1}, o sin un terminal, se detiene con {2}X18N4003{/2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

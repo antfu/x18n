@@ -3,12 +3,16 @@
   "source": "If your config has no {0}, the preset uses {1}, {2} and {3}. The {4} format reads and writes these files. All {5} files of a locale share one set of keys, as in a Fluent bundle.",
   "text": "Se la tua configurazione non ha {0}, il preset usa {1}, {2} e {3}. Il formato {4} legge e scrive questi file. Tutti i file {5} di una lingua condividono un unico insieme di chiavi, come in un bundle Fluent.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Se la tua configurazione non ha {0}, il preset usa {1}, {2} e {3}. Il formato {4} legge e scrive questi file. Tutti i file {5} di una lingua condividono un unico insieme di chiavi, come in un bundle Fluent."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Asks for a change. The {0} check reports it until someone resolves it or approves.",
   "text": "Solicita un cambio. La comprobación {0} lo notifica hasta que alguien lo resuelva o lo apruebe.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Solicita un cambio. La comprobación {0} lo notifica hasta que alguien lo resuelva o lo apruebe."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

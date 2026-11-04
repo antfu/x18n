@@ -3,12 +3,16 @@
   "source": "Run only these check ids, for example {0}.",
   "text": "Führe nur diese Prüf-IDs aus, zum Beispiel {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Führe nur diese Prüf-IDs aus, zum Beispiel {0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

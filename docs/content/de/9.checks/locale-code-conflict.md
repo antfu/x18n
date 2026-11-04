@@ -1,5 +1,5 @@
 ---
-title: locale-code-conflict
+title: Sprachcode-Konflikt
 description: Sprachcodes, die sich nur in der Schreibweise unterscheiden, wie zh_CN und zh-CN.
 ---
 

@@ -3,12 +3,16 @@
   "source": "With {0}, a namespace can sit in folders. The preset sets {1} to {2}, so {3} is the namespace {4}, as in {5}.",
   "text": "Con {0}, un namespace può trovarsi in cartelle. Il preset imposta {1} su {2}, quindi {3} è il namespace {4}, come in {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Con {0}, un namespace può trovarsi in cartelle. Il preset imposta {1} su {2}, quindi {3} è il namespace {4}, come in {5}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

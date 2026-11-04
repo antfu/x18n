@@ -3,12 +3,16 @@
   "source": "x18n writes prompts that describe translation work for an agent or an LLM, then checks the results.",
   "text": "x18n escribe prompts que describen el trabajo de traducción para un agente o un LLM y después comprueba los resultados.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n escribe prompts que describen el trabajo de traducción para un agente o un LLM y después comprueba los resultados."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

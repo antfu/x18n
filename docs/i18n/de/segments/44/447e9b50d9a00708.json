@@ -3,12 +3,16 @@
   "source": "A project is one i18n setup: one root directory, one config and one set of locales. Most repositories have one project. A monorepo can have many. See {0}Monorepos{/0}.",
   "text": "Ein Projekt ist ein i18n-Setup: ein Stammverzeichnis, eine Konfiguration und eine Menge von Sprachen. Die meisten Repositories haben ein Projekt. Ein Monorepo kann mehrere haben. Siehe {0}Monorepos{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Projekt ist ein i18n-Setup: ein Stammverzeichnis, eine Konfiguration und eine Menge von Sprachen. Die meisten Repositories haben ein Projekt. Ein Monorepo kann mehrere haben. Siehe {0}Monorepos{/0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

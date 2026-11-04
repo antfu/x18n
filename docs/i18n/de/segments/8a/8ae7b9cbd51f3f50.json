@@ -3,12 +3,16 @@
   "source": "Deletes every unused key in every locale, except keys that computed keys in code may reach. {0} and the glob limit it.",
   "text": "Löscht jeden ungenutzten Schlüssel in jeder Sprache, außer Schlüsseln, die berechnete Schlüssel im Code erreichen könnten. {0} und der Glob schränken das ein.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Löscht jeden ungenutzten Schlüssel in jeder Sprache, außer Schlüsseln, die berechnete Schlüssel im Code erreichen könnten. {0} und der Glob schränken das ein."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

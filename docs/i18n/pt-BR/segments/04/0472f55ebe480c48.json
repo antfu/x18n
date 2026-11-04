@@ -3,12 +3,16 @@
   "source": "{0} in {1} accepts more than YAML and JSON. These options take plugin objects and functions:",
   "text": "{0} em {1} aceita mais do que YAML e JSON. Estas opções aceitam objetos de plugin e funções:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} em {1} aceita mais do que YAML e JSON. Estas opções aceitam objetos de plugin e funções:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

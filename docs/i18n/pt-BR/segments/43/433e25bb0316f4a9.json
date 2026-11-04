@@ -3,12 +3,16 @@
   "source": "One root config with projects, each project with its own locales and its own config.",
   "text": "Uma configuração raiz com projetos, cada projeto com seus próprios idiomas e sua própria configuração.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Uma configuração raiz com projetos, cada projeto com seus próprios idiomas e sua própria configuração."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

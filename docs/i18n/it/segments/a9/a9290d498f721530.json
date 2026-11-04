@@ -3,12 +3,16 @@
   "source": "Read the output before you replace the YAML file. Check that the regular expressions in {0} came through unchanged.",
   "text": "Leggi l'output prima di sostituire il file YAML. Verifica che le espressioni regolari in {0} siano rimaste invariate.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Leggi l'output prima di sostituire il file YAML. Verifica che le espressioni regolari in {0} siano rimaste invariate."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

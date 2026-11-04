@@ -3,12 +3,16 @@
   "source": "Angular placeholders: {0}, {1}, {2}. XLIFF and XMB placeholders read the same way.",
   "text": "Placeholders do Angular: {0}, {1}, {2}. Os placeholders de XLIFF e XMB são lidos da mesma forma.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Placeholders do Angular: {0}, {1}, {2}. Os placeholders de XLIFF e XMB são lidos da mesma forma."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it.",
   "text": "Il testo della stringa hardcoded così come è scritto nel file, senza modifiche. Usalo per il markup che mantiene il sorgente intorno.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il testo della stringa hardcoded così come è scritto nel file, senza modifiche. Usalo per il markup che mantiene il sorgente intorno."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

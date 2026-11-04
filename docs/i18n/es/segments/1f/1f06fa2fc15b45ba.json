@@ -3,12 +3,16 @@
   "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
   "text": "Claves. {0}, {1} y {2} las filtran. {3} añade el valor por idioma.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Claves. {0}, {1} y {2} las filtran. {3} añade el valor por idioma."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

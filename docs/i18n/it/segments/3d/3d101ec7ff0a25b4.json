@@ -3,12 +3,16 @@
   "source": "History providers for stale translations: {0} turns them off; provider options such as {1} sit under their key; {2} adds providers asked first.",
   "text": "Provider di cronologia per le traduzioni obsolete: {0} li disattiva; le opzioni dei provider come {1} si trovano sotto la loro chiave; {2} aggiunge provider interrogati per primi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Provider di cronologia per le traduzioni obsolete: {0} li disattiva; le opzioni dei provider come {1} si trovano sotto la loro chiave; {2} aggiunge provider interrogati per primi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

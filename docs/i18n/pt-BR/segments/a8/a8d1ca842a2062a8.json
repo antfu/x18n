@@ -3,12 +3,16 @@
   "source": "In TS and JS files, {0} tagged templates, and the inline {1} of a component:",
   "text": "Em arquivos TS e JS, os template literals marcados com {0} e o {1} inline de um componente:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Em arquivos TS e JS, os template literals marcados com {0} e o {1} inline de um componente:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

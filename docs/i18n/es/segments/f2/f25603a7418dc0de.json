@@ -3,12 +3,16 @@
   "source": "a linked message or nesting placeholder ({0}, {1}) names it.",
   "text": "un mensaje vinculado o un marcador de posición de anidamiento ({0}, {1}) la nombra.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "un mensaje vinculado o un marcador de posición de anidamiento ({0}, {1}) la nombra."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

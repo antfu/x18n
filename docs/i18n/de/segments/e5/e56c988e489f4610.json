@@ -3,12 +3,16 @@
   "source": "Also translate stale translations: those older than their source message.",
   "text": "Übersetzt auch veraltete Übersetzungen: solche, die älter sind als ihre Quell-message.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Übersetzt auch veraltete Übersetzungen: solche, die älter sind als ihre Quell-message."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

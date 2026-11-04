@@ -3,12 +3,16 @@
   "source": "Translations in place of keys, go to definition, find references and rename across code and every locale file.",
   "text": "Übersetzungen anstelle von Schlüsseln, Gehe zu Definition, Referenzen finden und Umbenennen im Code und in jeder Sprachdatei.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Übersetzungen anstelle von Schlüsseln, Gehe zu Definition, Referenzen finden und Umbenennen im Code und in jeder Sprachdatei."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "It asks you about key naming, glossary terms, tone per locale, deleting unused keys and large renames.",
   "text": "Er fragt dich nach der Benennung von Schlüsseln, Glossarbegriffen, dem Ton pro Sprache, dem Löschen ungenutzter Schlüssel und umfangreichen Umbenennungen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Er fragt dich nach der Benennung von Schlüsseln, Glossarbegriffen, dem Ton pro Sprache, dem Löschen ungenutzter Schlüssel und umfangreichen Umbenennungen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

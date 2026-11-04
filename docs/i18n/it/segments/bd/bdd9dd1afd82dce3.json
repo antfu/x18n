@@ -3,12 +3,16 @@
   "source": "x18n needs Node.js 22 or later. Run the commands in this page in the root directory of your project.",
   "text": "x18n richiede Node.js 22 o successivo. Esegui i comandi di questa pagina nella directory root del tuo progetto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n richiede Node.js 22 o successivo. Esegui i comandi di questa pagina nella directory root del tuo progetto."
   },
-  "updatedAt": "2026-11-04T05:47:19.474Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

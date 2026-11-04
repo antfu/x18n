@@ -3,12 +3,16 @@
   "source": "A format reads and writes one file format, such as JSON or YAML. A locale finder finds the resources. The built-in {0} finder uses the {1} patterns of the config. See {2}Configuration{/2}.",
   "text": "Ein Format liest und schreibt ein Dateiformat, zum Beispiel JSON oder YAML. Ein Locale-Finder findet die Ressourcen. Der integrierte Finder {0} verwendet die {1}-Muster aus der Konfiguration. Siehe {2}Konfiguration{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Format liest und schreibt ein Dateiformat, zum Beispiel JSON oder YAML. Ein Locale-Finder findet die Ressourcen. Der integrierte Finder {0} verwendet die {1}-Muster aus der Konfiguration. Siehe {2}Konfiguration{/2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

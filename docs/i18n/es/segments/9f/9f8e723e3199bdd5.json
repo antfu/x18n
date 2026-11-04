@@ -3,12 +3,16 @@
   "source": "The Svelte scanner reads the {0} blocks and the template expressions of {1} files. It runs in Node only.",
   "text": "El escáner de Svelte lee los bloques {0} y las expresiones de plantilla de los archivos {1}. Solo se ejecuta en Node.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El escáner de Svelte lee los bloques {0} y las expresiones de plantilla de los archivos {1}. Solo se ejecuta en Node."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

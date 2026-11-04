@@ -3,12 +3,16 @@
   "source": "{0}: comments keep their id, author, time and resolved state; {1} becomes {2}; a comment with a {3} becomes a {4}; a translation candidate becomes a {5} too.",
   "text": "{0}: los comentarios conservan su id, autor, hora y estado de resuelto; {1} se convierte en {2}; un comentario con {3} se convierte en {4}; un candidato de traducción también se convierte en {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: los comentarios conservan su id, autor, hora y estado de resuelto; {1} se convierte en {2}; un comentario con {3} se convierte en {4}; un candidato de traducción también se convierte en {5}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

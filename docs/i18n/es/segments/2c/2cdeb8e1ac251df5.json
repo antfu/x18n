@@ -3,12 +3,16 @@
   "source": "The preset finds every {0} file outside {1}, {2} and {3}. The {4} format reads the string {5} entries and writes edits in place. It keeps the schema, the headers, comments and the entries that hold files or images. x18n does not write a string under the name of such an entry, because two {6} with one name break the build. Keys stay flat, so a key can contain dots.",
   "text": "El preset encuentra todos los archivos {0} fuera de {1}, {2} y {3}. El formato {4} lee las entradas {5} de tipo cadena y escribe los cambios en el propio archivo. Conserva el esquema, las cabeceras, los comentarios y las entradas que contienen archivos o imágenes. x18n no escribe una cadena con el nombre de una de esas entradas, porque dos {6} con el mismo nombre rompen el build. Las claves son planas, así que una clave puede contener puntos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El preset encuentra todos los archivos {0} fuera de {1}, {2} y {3}. El formato {4} lee las entradas {5} de tipo cadena y escribe los cambios en el propio archivo. Conserva el esquema, las cabeceras, los comentarios y las entradas que contienen archivos o imágenes. x18n no escribe una cadena con el nombre de una de esas entradas, porque dos {6} con el mismo nombre rompen el build. Las claves son planas, así que una clave puede contener puntos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

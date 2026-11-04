@@ -3,12 +3,16 @@
   "source": "What was dropped or needs attention, for the report.",
   "text": "Was weggelassen wurde oder Aufmerksamkeit braucht, für den Bericht.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Was weggelassen wurde oder Aufmerksamkeit braucht, für den Bericht."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

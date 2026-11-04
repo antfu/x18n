@@ -3,12 +3,16 @@
   "source": "The files use relative paths. Serve the directory from any static host and any path, for example GitHub Pages or the artifacts of a CI job. See {0}CI{/0}.",
   "text": "Los archivos usan rutas relativas. Sirve el directorio desde cualquier host estático y en cualquier ruta, por ejemplo GitHub Pages o los artefactos de un trabajo de CI. Consulta {0}CI{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Los archivos usan rutas relativas. Sirve el directorio desde cualquier host estático y en cualquier ruta, por ejemplo GitHub Pages o los artefactos de un trabajo de CI. Consulta {0}CI{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

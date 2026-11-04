@@ -3,12 +3,16 @@
   "source": "Each part of the plugin API - config hooks, formats, locale finders, scanners, extractors, checks, reporters, placeholders and more.",
   "text": "Jeder Teil der Plugin-API: Config-Hooks, Formate, Locale-Finder, Scanner, Extractor, Prüfungen, Reporter, Platzhalter und mehr.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Jeder Teil der Plugin-API: Config-Hooks, Formate, Locale-Finder, Scanner, Extractor, Prüfungen, Reporter, Platzhalter und mehr."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

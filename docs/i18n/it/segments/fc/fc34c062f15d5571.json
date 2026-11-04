@@ -3,12 +3,16 @@
   "source": "{0} (stdio) and {1} (HTTP at {2}) serve these tools. {3}MCP{/3} explains how to connect an agent.",
   "text": "{0} (stdio) e {1} (HTTP su {2}) servono questi strumenti. {3}MCP{/3} spiega come collegare un agente.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} (stdio) e {1} (HTTP su {2}) servono questi strumenti. {3}MCP{/3} spiega come collegare un agente."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

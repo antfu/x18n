@@ -52,7 +52,7 @@ O x18n não conhece nenhuma biblioteca de i18n nem nenhum formato de arquivo por
 - Ruby: [Rails](/pt-br/presets/ruby-rails) e [Jekyll](/pt-br/presets/jekyll)
 - Dart: [flutter_i18n](/pt-br/presets/flutter), [easy_localization](/pt-br/presets/easy-localization) e [flutter_translate](/pt-br/presets/flutter-translate)
 - Python: [gettext](/pt-br/presets/python-gettext) (Django, Flask-Babel, Babel) e [i18nice](/pt-br/presets/i18nice) (também python-i18n)
-- Rust: [cargo-i18n](/pt-br/presets/cargo-i18n) (Fluent) {lang="en"}
+- Rust: [cargo-i18n](/pt-br/presets/cargo-i18n) (usando Fluent)
 - Android: [`strings.xml`](/pt-br/presets/android-strings) em Kotlin, Java e XML
 - AdonisJS: [`@adonisjs/i18n`](/pt-br/presets/adonisjs), em código e templates Edge
 - .NET: [recursos `.resx`](/pt-br/presets/dotnet-resx) em C#, Razor e Blazor

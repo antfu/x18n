@@ -1,5 +1,5 @@
 ---
-title: identical-to-source
+title: Identisch mit der Quelle
 description: Ein Zielwert, der dem Quellwert entspricht, außer bei Werten, die in allen Sprachen gleich bleiben.
 ---
 

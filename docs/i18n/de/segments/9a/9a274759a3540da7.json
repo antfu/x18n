@@ -3,12 +3,16 @@
   "source": "Plugin tools: {0} prints the TS equivalent.",
   "text": "plugin-Tools: {0} gibt das TS-Äquivalent aus.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "plugin-Tools: {0} gibt das TS-Äquivalent aus."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

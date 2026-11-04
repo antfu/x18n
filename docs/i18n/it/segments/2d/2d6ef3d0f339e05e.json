@@ -3,12 +3,16 @@
   "source": "With the default {0}, x18n tests each preset in the order of the table. Most presets apply when the project depends on one of the listed packages. x18n reads the dependencies, dev dependencies and peer dependencies in {1}, the dependencies in {2}, {3}, {4} and {5}, and the Python requirements in {6} ({7}, {8}, {9} and the Poetry dependency tables) and {10}. Python package names compare in their normalized form, so {11} is {12}. The manifests in the parent directories, up to the git root, count too.",
   "text": "Con il valore predefinito di {0}, x18n verifica ogni preset nell'ordine della tabella. La maggior parte dei preset si applica quando il progetto dipende da uno dei pacchetti elencati. x18n legge le dependencies, le dev dependencies e le peer dependencies in {1}, le dipendenze in {2}, {3}, {4} e {5}, e i requisiti Python in {6} ({7}, {8}, {9} e le tabelle delle dipendenze di Poetry) e {10}. I nomi dei pacchetti Python vengono confrontati nella forma normalizzata, quindi {11} equivale a {12}. Contano anche i manifest nelle directory superiori, fino alla root di git.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Con il valore predefinito di {0}, x18n verifica ogni preset nell'ordine della tabella. La maggior parte dei preset si applica quando il progetto dipende da uno dei pacchetti elencati. x18n legge le dependencies, le dev dependencies e le peer dependencies in {1}, le dipendenze in {2}, {3}, {4} e {5}, e i requisiti Python in {6} ({7}, {8}, {9} e le tabelle delle dipendenze di Poetry) e {10}. I nomi dei pacchetti Python vengono confrontati nella forma normalizzata, quindi {11} equivale a {12}. Contano anche i manifest nelle directory superiori, fino alla root di git."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

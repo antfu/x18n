@@ -3,12 +3,16 @@
   "source": "Returns the files that the migration from i18n-ally writes, as {0}. Nothing is written.",
   "text": "Retorna os arquivos que a migração do i18n-ally grava, como {0}. Nada é gravado.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Retorna os arquivos que a migração do i18n-ally grava, como {0}. Nada é gravado."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

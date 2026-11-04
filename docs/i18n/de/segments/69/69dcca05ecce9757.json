@@ -3,12 +3,16 @@
   "source": "The preset does not read {0} and other data annotations, or strongly typed classes with other names than {1}.",
   "text": "Das Preset liest weder {0} und andere Data Annotations noch stark typisierte Klassen mit anderen Namen als {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset liest weder {0} und andere Data Annotations noch stark typisierte Klassen mit anderen Namen als {1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Do not edit locale files by hand. These commands keep the format, the indent, the key style and the order of each file, and they check placeholders:",
   "text": "Non modificare i file delle lingue a mano. Questi comandi mantengono il formato, il rientro, lo stile delle chiavi e l'ordine di ogni file, e controllano i segnaposto:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Non modificare i file delle lingue a mano. Questi comandi mantengono il formato, il rientro, lo stile delle chiavi e l'ordine di ogni file, e controllano i segnaposto:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

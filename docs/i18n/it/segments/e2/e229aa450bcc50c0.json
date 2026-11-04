@@ -3,12 +3,16 @@
   "source": "Each preset page lists what the preset adds:",
   "text": "La pagina di ogni preset elenca ciò che il preset aggiunge:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La pagina di ogni preset elenca ciò che il preset aggiunge:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

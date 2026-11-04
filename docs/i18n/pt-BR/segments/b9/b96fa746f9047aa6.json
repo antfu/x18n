@@ -3,12 +3,16 @@
   "source": "The arguments of a template string: {0}, without the {1} right after {2}. Empty when there are none.",
   "text": "Os argumentos de uma template string: {0}, sem o {1} logo após {2}. Vazio quando não há argumentos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Os argumentos de uma template string: {0}, sem o {1} logo após {2}. Vazio quando não há argumentos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

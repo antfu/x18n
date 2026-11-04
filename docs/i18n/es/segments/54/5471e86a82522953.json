@@ -3,12 +3,16 @@
   "source": "easy\\_localization keeps plural and gender forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. For this file, {8} uses {9} and {10}, so the {11} check reports neither:",
   "text": "easy\\_localization mantiene las formas de plural y de género como claves anidadas. El preset añade las claves derivadas {0}, {1}, {2}, {3}, {4}, {5}, {6} y {7}. En este archivo, {8} usa {9} y {10}, por lo que la comprobación {11} no informa de ninguna de las dos:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "easy\\_localization mantiene las formas de plural y de género como claves anidadas. El preset añade las claves derivadas {0}, {1}, {2}, {3}, {4}, {5}, {6} y {7}. En este archivo, {8} usa {9} y {10}, por lo que la comprobación {11} no informa de ninguna de las dos:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

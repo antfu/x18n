@@ -3,12 +3,16 @@
   "source": "{0} adds the translations that the {1} check reports. Each item shows the source text from when the translation last changed. {2} adds the values that checks report in the target locale, such as {3}, {4} and {5}. A check must be on to report: {6} runs the checks of the config. Each item shows the current value and what was reported:",
   "text": "{0} adiciona as traduções que a verificação {1} reporta. Cada item mostra o texto de origem de quando a tradução foi alterada pela última vez. {2} adiciona os valores que as verificações reportam no idioma de destino, como {3}, {4} e {5}. Uma verificação precisa estar ativada para reportar: {6} executa as verificações da configuração. Cada item mostra o valor atual e o que foi reportado:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} adiciona as traduções que a verificação {1} reporta. Cada item mostra o texto de origem de quando a tradução foi alterada pela última vez. {2} adiciona os valores que as verificações reportam no idioma de destino, como {3}, {4} e {5}. Uma verificação precisa estar ativada para reportar: {6} executa as verificações da configuração. Cada item mostra o valor atual e o que foi reportado:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

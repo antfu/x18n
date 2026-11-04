@@ -3,12 +3,16 @@
   "source": "Users then set the options under {0}, and the plugin reads them in {1}:",
   "text": "Gli utenti impostano quindi le opzioni sotto {0} e il plugin le legge in {1}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Gli utenti impostano quindi le opzioni sotto {0} e il plugin le legge in {1}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

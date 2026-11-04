@@ -3,12 +3,16 @@
   "source": "It does not run your source files or locale files. It parses them. Only a TS or JS config file and TS plugins run.",
   "text": "Es führt weder deine Quelldateien noch deine Sprachdateien aus. Es parst sie nur. Ausgeführt werden lediglich eine TS- oder JS-Konfigurationsdatei und TS-Plugins.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Es führt weder deine Quelldateien noch deine Sprachdateien aus. Es parst sie nur. Ausgeführt werden lediglich eine TS- oder JS-Konfigurationsdatei und TS-Plugins."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

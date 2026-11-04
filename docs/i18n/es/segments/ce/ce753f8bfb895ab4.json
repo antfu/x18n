@@ -3,12 +3,16 @@
   "source": "Run matching JS/TS files in Node instead of reading them statically. Makes them read-only.",
   "text": "Ejecuta los archivos JS/TS coincidentes en Node en lugar de leerlos de forma estática. Los hace de solo lectura.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ejecuta los archivos JS/TS coincidentes en Node en lugar de leerlos de forma estática. Los hace de solo lectura."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

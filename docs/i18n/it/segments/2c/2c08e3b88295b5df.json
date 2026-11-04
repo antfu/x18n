@@ -3,12 +3,16 @@
   "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
   "text": "La formattazione Python con il percento: {0}, {1}, {2}. {3}, un {4} prima di uno spazio e le sequenze di escape degli URL come {5}, o {6} in un URL, sono testo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La formattazione Python con il percento: {0}, {1}, {2}. {3}, un {4} prima di uno spazio e le sequenze di escape degli URL come {5}, o {6} in un URL, sono testo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

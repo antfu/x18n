@@ -3,12 +3,16 @@
   "source": "x18n validates every config against this schema, the serializable part of a TS config too. An unknown key is an error ({0}X18N0001{/0}), so a typo in a key name does not pass silently.",
   "text": "x18n validiert jede Konfiguration anhand dieses Schemas, auch den serialisierbaren Teil einer TS-Konfiguration. Ein unbekannter Schlüssel ist ein Fehler ({0}X18N0001{/0}), sodass ein Tippfehler in einem Schlüsselnamen nicht unbemerkt durchgeht.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n validiert jede Konfiguration anhand dieses Schemas, auch den serialisierbaren Teil einer TS-Konfiguration. Ein unbekannter Schlüssel ist ein Fehler ({0}X18N0001{/0}), sodass ein Tippfehler in einem Schlüsselnamen nicht unbemerkt durchgeht."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

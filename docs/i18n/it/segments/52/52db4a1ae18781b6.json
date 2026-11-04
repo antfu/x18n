@@ -3,12 +3,16 @@
   "source": "{0}Agent workflows{/0}: let a coding agent translate and clean up messages.",
   "text": "{0}Flussi di lavoro con gli agenti{/0}: lascia che un agente di programmazione traduca e ripulisca i messaggi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}Flussi di lavoro con gli agenti{/0}: lascia che un agente di programmazione traduca e ripulisca i messaggi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

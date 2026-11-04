@@ -3,12 +3,16 @@
   "source": "Comment on messages, approve them, request changes and suggest values, in a file that travels with the branch.",
   "text": "Comenta mensajes, apruébalos, solicita cambios y sugiere valores, en un archivo que viaja con la rama.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Comenta mensajes, apruébalos, solicita cambios y sugiere valores, en un archivo que viaja con la rama."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

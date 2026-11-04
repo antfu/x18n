@@ -3,12 +3,16 @@
   "source": "Show translated values next to or in place of keys in code.",
   "text": "Mostra i valori tradotti accanto alle chiavi nel codice o al loro posto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Mostra i valori tradotti accanto alle chiavi nel codice o al loro posto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

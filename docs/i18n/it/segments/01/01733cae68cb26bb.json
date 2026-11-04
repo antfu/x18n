@@ -3,12 +3,16 @@
   "source": "The project root. The default is the root of the host, and x18n searches upward for a config file from there. With {0}, x18n does not search upward.",
   "text": "La root del progetto. Il valore predefinito è la root dell'host, e da lì x18n cerca un file di configurazione risalendo le directory. Con {0}, x18n non risale le directory.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La root del progetto. Il valore predefinito è la root dell'host, e da lì x18n cerca un file di configurazione risalendo le directory. Con {0}, x18n non risale le directory."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

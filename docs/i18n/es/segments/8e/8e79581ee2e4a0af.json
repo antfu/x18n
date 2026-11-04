@@ -3,12 +3,16 @@
   "source": "A severity is {0}, {1}, {2}, {3} or {4}. {5} (or {6}) turns every warning into an error. {7} removes keys from every check.",
   "text": "Una severidad es {0}, {1}, {2}, {3} o {4}. {5} (o {6}) convierte todas las advertencias en errores. {7} excluye claves de todas las comprobaciones.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Una severidad es {0}, {1}, {2}, {3} o {4}. {5} (o {6}) convierte todas las advertencias en errores. {7} excluye claves de todas las comprobaciones."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

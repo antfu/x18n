@@ -3,12 +3,16 @@
   "source": "A prefix usage is a usage with a computed key that starts with a static part. {0} is a prefix usage with the prefix {1}. x18n cannot know the value of {2}, so every key under {3} counts as possibly used. Neither {4} nor {5} is reported as unused.",
   "text": "Eine Präfix-Verwendung ist eine Verwendung mit einem berechneten Schlüssel, der mit einem statischen Teil beginnt. {0} ist eine Präfix-Verwendung mit dem Präfix {1}. x18n kann den Wert von {2} nicht kennen, daher gilt jeder Schlüssel unter {3} als möglicherweise verwendet. Weder {4} noch {5} wird als unbenutzt gemeldet.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Eine Präfix-Verwendung ist eine Verwendung mit einem berechneten Schlüssel, der mit einem statischen Teil beginnt. {0} ist eine Präfix-Verwendung mit dem Präfix {1}. x18n kann den Wert von {2} nicht kennen, daher gilt jeder Schlüssel unter {3} als möglicherweise verwendet. Weder {4} noch {5} wird als unbenutzt gemeldet."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "x18n does not create a translation file that is missing. As in Angular's guide, create it by copying the source file, then set the target language: {0} on {1} in XLIFF 1.2, {2} on {3} in XLIFF 2.0, {4} in JSON or {5} in ARB.",
   "text": "O x18n não cria um arquivo de tradução que esteja ausente. Como no guia do Angular, crie-o copiando o arquivo de origem e depois defina o idioma de destino: {0} em {1} no XLIFF 1.2, {2} em {3} no XLIFF 2.0, {4} no JSON ou {5} no ARB.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O x18n não cria um arquivo de tradução que esteja ausente. Como no guia do Angular, crie-o copiando o arquivo de origem e depois defina o idioma de destino: {0} em {1} no XLIFF 1.2, {2} em {3} no XLIFF 2.0, {4} no JSON ou {5} no ARB."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

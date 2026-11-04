@@ -1,0 +1,19 @@
+{
+  "hash": "d5cf295d60ed11b8",
+  "source": "Client commands a hover may link to with {0} URLs. Empty means no links.",
+  "text": "Comandi del client a cui un hover può collegarsi con URL {0}. Vuoto significa nessun link.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "28709089fce4edde",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Comandi del client a cui un hover può collegarsi con URL {0}. Vuoto significa nessun link."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

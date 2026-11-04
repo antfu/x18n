@@ -3,12 +3,16 @@
   "source": "A severity is {0}, {1}, {2}, {3} or {4}. {5} (or {6}) turns every warning into an error. {7} removes keys from every check.",
   "text": "Ein Schweregrad ist {0}, {1}, {2}, {3} oder {4}. {5} (oder {6}) macht aus jeder Warnung einen Fehler. {7} entfernt Schlüssel aus jeder Prüfung.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Schweregrad ist {0}, {1}, {2}, {3} oder {4}. {5} (oder {6}) macht aus jeder Warnung einen Fehler. {7} entfernt Schlüssel aus jeder Prüfung."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

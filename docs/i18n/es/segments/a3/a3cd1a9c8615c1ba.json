@@ -3,12 +3,16 @@
   "source": "Set many messages at once: {0} is {1}, the same shape as {2}. Files keep their format, key style and order. When a value drops or adds placeholders compared to the source value, nothing is written and {3} lists them ({4}); fix the values, or pass {5}.",
   "text": "Establece muchos mensajes a la vez: {0} es {1}, con la misma forma que {2}. Los archivos conservan su formato, estilo de claves y orden. Cuando un valor elimina o añade marcadores de posición respecto al valor de origen, no se escribe nada y {3} los enumera ({4}); corrige los valores o pasa {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Establece muchos mensajes a la vez: {0} es {1}, con la misma forma que {2}. Los archivos conservan su formato, estilo de claves y orden. Cuando un valor elimina o añade marcadores de posición respecto al valor de origen, no se escribe nada y {3} los enumera ({4}); corrige los valores o pasa {5}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

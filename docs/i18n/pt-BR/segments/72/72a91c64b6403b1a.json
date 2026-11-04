@@ -3,12 +3,16 @@
   "source": "{0} changes how the tree of a file maps to keys. Use it for files that wrap the messages, such as a file whose messages sit under a top-level {1} key.",
   "text": "{0} muda como a árvore de um arquivo é mapeada para chaves. Use-o em arquivos que envolvem as mensagens, como um arquivo cujas mensagens ficam sob uma chave {1} de nível superior.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} muda como a árvore de um arquivo é mapeada para chaves. Use-o em arquivos que envolvem as mensagens, como um arquivo cujas mensagens ficam sob uma chave {1} de nível superior."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

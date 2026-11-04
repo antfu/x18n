@@ -3,12 +3,16 @@
   "source": "The preset sets {0} to {1}, so {2} uses the text itself as the key. Set {3} in the config to change it.",
   "text": "Das Preset setzt {0} auf {1}, daher verwendet {2} den Text selbst als Schlüssel. Setze {3} in der Konfiguration, um das zu ändern.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset setzt {0} auf {1}, daher verwendet {2} den Text selbst als Schlüssel. Setze {3} in der Konfiguration, um das zu ändern."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

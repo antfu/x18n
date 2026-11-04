@@ -3,12 +3,16 @@
   "source": "{0} are rules such as {1}. When a key is used, the derived keys count as used.",
   "text": "{0} são regras como {1}. Quando uma chave é usada, as chaves derivadas contam como usadas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} são regras como {1}. Quando uma chave é usada, as chaves derivadas contam como usadas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

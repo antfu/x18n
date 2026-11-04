@@ -3,12 +3,16 @@
   "source": "The keys of all {0} files share one key space, as {1} does not show in the key. Two files with the same key, such as {2} and {3}, give a {4}. So do two keys where one is the start of the other, such as {5} and {6}.",
   "text": "Die Schlüssel aller Dateien {0} teilen sich einen Schlüsselraum, da {1} im Schlüssel nicht vorkommt. Zwei Dateien mit demselben Schlüssel, etwa {2} und {3}, ergeben einen {4}. Das gilt auch für zwei Schlüssel, bei denen der eine der Anfang des anderen ist, etwa {5} und {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Schlüssel aller Dateien {0} teilen sich einen Schlüsselraum, da {1} im Schlüssel nicht vorkommt. Zwei Dateien mit demselben Schlüssel, etwa {2} und {3}, ergeben einen {4}. Das gilt auch für zwei Schlüssel, bei denen der eine der Anfang des anderen ist, etwa {5} und {6}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "With a key read from a property: the property beside it that describes the message for translators, such as {0} for {1}.",
   "text": "Con una chiave letta da una proprietà: la proprietà accanto che descrive il messaggio per i traduttori, come {0} per {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Con una chiave letta da una proprietà: la proprietà accanto che descrive il messaggio per i traduttori, come {0} per {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

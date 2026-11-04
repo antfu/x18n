@@ -3,12 +3,16 @@
   "source": "The {0} prop of {1} is a key. These names count as translate calls: {2}, {3} and {4}. {5} returns {6}, and {7} gives the {8} prop.",
   "text": "A prop {0} de {1} é uma chave. Estes nomes contam como chamadas de tradução: {2}, {3} e {4}. {5} retorna {6}, e {7} fornece a prop {8}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A prop {0} de {1} é uma chave. Estes nomes contam como chamadas de tradução: {2}, {3} e {4}. {5} retorna {6}, e {7} fornece a prop {8}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

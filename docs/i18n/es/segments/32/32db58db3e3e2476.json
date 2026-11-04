@@ -3,12 +3,16 @@
   "source": "x18n escapes {0} and {1} for the quotes around them. Inside {2} or {3} it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and {4}. Inside a quoted attribute, such as {5}, it also writes {6} and the attribute quote as entities. Outside quotes the value goes in as is.",
   "text": "x18n escapa {0} y {1} según las comillas que los rodean. Dentro de {2} o {3} escapa las barras invertidas, esa comilla y los saltos de línea. Dentro de una plantilla literal escapa las barras invertidas, los acentos graves y {4}. Dentro de un atributo entre comillas, como {5}, también escribe {6} y la comilla del atributo como entidades. Fuera de comillas el valor se inserta tal cual.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n escapa {0} y {1} según las comillas que los rodean. Dentro de {2} o {3} escapa las barras invertidas, esa comilla y los saltos de línea. Dentro de una plantilla literal escapa las barras invertidas, los acentos graves y {4}. Dentro de un atributo entre comillas, como {5}, también escribe {6} y la comilla del atributo como entidades. Fuera de comillas el valor se inserta tal cual."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

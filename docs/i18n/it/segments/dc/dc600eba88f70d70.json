@@ -3,12 +3,16 @@
   "source": "Name the package {0}, or {1}. Then YAML and JSON configs can load it by name, and users can find it on npm.",
   "text": "Assegna al pacchetto il nome {0} oppure {1}. In questo modo le configurazioni YAML e JSON possono caricarlo per nome e gli utenti possono trovarlo su npm.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Assegna al pacchetto il nome {0} oppure {1}. In questo modo le configurazioni YAML e JSON possono caricarlo per nome e gli utenti possono trovarlo su npm."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}, with the values {2} and {3}. When x18n sets a value, it writes the {4} field and keeps the other fields. {5} adds {6} to {7}.",
   "text": "Este archivo tiene las claves {0} y {1}, con los valores {2} y {3}. Cuando x18n establece un valor, escribe el campo {4} y conserva los demás campos. {5} añade {6} a {7}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Este archivo tiene las claves {0} y {1}, con los valores {2} y {3}. Cuando x18n establece un valor, escribe el campo {4} y conserva los demás campos. {5} añade {6} a {7}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

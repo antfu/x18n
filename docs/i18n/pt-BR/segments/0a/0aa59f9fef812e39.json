@@ -3,12 +3,16 @@
   "source": "x18n works without a config file. It reads i18n-ally settings when the project has them, detects the i18n library from {0} (including the workspace packages of a monorepo), and looks for locale files in directories such as {1}, {2}, {3} or {4}.",
   "text": "O x18n funciona sem um arquivo de configuração. Ele lê as configurações do i18n-ally quando o projeto as tem, detecta a biblioteca de i18n a partir de {0} (incluindo os pacotes de workspace de um monorepo) e procura arquivos de idioma em diretórios como {1}, {2}, {3} ou {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O x18n funciona sem um arquivo de configuração. Ele lê as configurações do i18n-ally quando o projeto as tem, detecta a biblioteca de i18n a partir de {0} (incluindo os pacotes de workspace de um monorepo) e procura arquivos de idioma em diretórios como {1}, {2}, {3} ou {4}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

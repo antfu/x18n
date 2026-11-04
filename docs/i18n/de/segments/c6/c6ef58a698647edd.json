@@ -3,12 +3,16 @@
   "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these files. Keys stay flat.",
   "text": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1} und {2}. Das Format {3} liest und schreibt diese Dateien. Die Schlüssel bleiben flach.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wenn deine Konfiguration kein {0} enthält, verwendet das Preset {1} und {2}. Das Format {3} liest und schreibt diese Dateien. Die Schlüssel bleiben flach."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

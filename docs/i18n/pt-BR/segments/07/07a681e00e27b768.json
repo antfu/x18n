@@ -3,12 +3,16 @@
   "source": "to read the {0} output and the exit codes, to page large outputs, and to pick a project in a monorepo.",
   "text": "para ler a saída de {0} e os códigos de saída, paginar saídas grandes e escolher um projeto em um monorepo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "para ler a saída de {0} e os códigos de saída, paginar saídas grandes e escolher um projeto em um monorepo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

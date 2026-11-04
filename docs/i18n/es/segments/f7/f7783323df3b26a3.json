@@ -3,12 +3,16 @@
   "source": "The {0} format reads a file that returns an array literal, and writes edits back into the array. The path of a PHP file is the first part of its keys:",
   "text": "El formato {0} lee un archivo que devuelve un array literal y escribe los cambios de vuelta en el array. La ruta de un archivo PHP es la primera parte de sus claves:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El formato {0} lee un archivo que devuelve un array literal y escribe los cambios de vuelta en el array. La ruta de un archivo PHP es la primera parte de sus claves:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

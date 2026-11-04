@@ -3,12 +3,16 @@
   "source": "In {0} files, the preset reads calls of {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} and {10}, and the {11} forms of Python 2. The key is the first string argument, the source message:",
   "text": "En los archivos {0}, el preset lee las llamadas a {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} y {10}, y las formas {11} de Python 2. La clave es el primer argumento de tipo cadena, el mensaje original:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "En los archivos {0}, el preset lee las llamadas a {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} y {10}, y las formas {11} de Python 2. La clave es el primer argumento de tipo cadena, el mensaje original:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

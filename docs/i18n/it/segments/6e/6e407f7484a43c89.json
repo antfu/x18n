@@ -3,12 +3,16 @@
   "source": "{0} marks a plugin that needs Node. Runtimes without Node skip it.",
   "text": "{0} contrassegna un plugin che richiede Node. I runtime senza Node lo saltano.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} contrassegna un plugin che richiede Node. I runtime senza Node lo saltano."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Run \"x18n: Toggle In-place Annotations\" to switch between in-place mode and hints after the key.",
   "text": "Ejecuta \"x18n: Toggle In-place Annotations\" para alternar entre el modo en el propio código y las pistas después de la clave.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ejecuta \"x18n: Toggle In-place Annotations\" para alternar entre el modo en el propio código y las pistas después de la clave."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

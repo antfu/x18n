@@ -3,12 +3,16 @@
   "source": "JSON form of an error: the {0} of a nostics diagnostic, without {1}, {2} and {3}.",
   "text": "Forma JSON de um erro: o {0} de um diagnóstico do nostics, sem {1}, {2} e {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Forma JSON de um erro: o {0} de um diagnóstico do nostics, sem {1}, {2} e {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

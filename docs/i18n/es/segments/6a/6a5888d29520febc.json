@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}Transloco{/1} in Angular projects.",
   "text": "El preset {0} es compatible con {1}Transloco{/1} en proyectos Angular.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El preset {0} es compatible con {1}Transloco{/1} en proyectos Angular."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

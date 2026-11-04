@@ -3,12 +3,16 @@
   "source": "In JSON, HTML and CSS files, the preset reads {0} references, so the strings of {1} count as usages:",
   "text": "En los archivos JSON, HTML y CSS, el preset lee las referencias {0}, de modo que las cadenas de {1} cuentan como usos:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "En los archivos JSON, HTML y CSS, el preset lee las referencias {0}, de modo que las cadenas de {1} cuentan como usos:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

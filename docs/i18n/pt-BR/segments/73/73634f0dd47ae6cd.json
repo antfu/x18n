@@ -3,12 +3,16 @@
   "source": "x18n follows this for page components. In {0}, {1} is {2} when {3} has {4}. Otherwise it is the global key {5}. The route name comes from the file path, as in Nuxt: {6} is {7}, {8} is {9}, and the route group in {10} is left out, so the route is {11}. Page components are the {12} files in {13} or {14} at the project root.",
   "text": "O x18n segue esse comportamento para componentes de página. Em {0}, {1} é {2} quando {3} tem {4}. Caso contrário, é a chave global {5}. O nome da rota vem do caminho do arquivo, como no Nuxt: {6} é {7}, {8} é {9}, e o grupo de rotas em {10} é omitido, então a rota é {11}. Componentes de página são os arquivos {12} em {13} ou {14} na raiz do projeto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O x18n segue esse comportamento para componentes de página. Em {0}, {1} é {2} quando {3} tem {4}. Caso contrário, é a chave global {5}. O nome da rota vem do caminho do arquivo, como no Nuxt: {6} é {7}, {8} é {9}, e o grupo de rotas em {10} é omitido, então a rota é {11}. Componentes de página são os arquivos {12} em {13} ou {14} na raiz do projeto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

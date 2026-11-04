@@ -3,12 +3,16 @@
   "source": "The check takes options. Set them with the array form:",
   "text": "Il controllo accetta delle opzioni. Impostale con la forma ad array:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il controllo accetta delle opzioni. Impostale con la forma ad array:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Decision id to option id, for decisions in the plan. Default: each decision's {0}.",
   "text": "Entscheidungs-ID zu Options-ID, für Entscheidungen im Plan. Standard: der {0} jeder Entscheidung.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Entscheidungs-ID zu Options-ID, für Entscheidungen im Plan. Standard: der {0} jeder Entscheidung."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

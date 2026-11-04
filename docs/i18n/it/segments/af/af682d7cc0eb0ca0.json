@@ -3,12 +3,16 @@
   "source": "Locale codes as written in paths. Filters the found locales.",
   "text": "Codici lingua come scritti nei percorsi. Filtra le lingue trovate.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Codici lingua come scritti nei percorsi. Filtra le lingue trovate."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

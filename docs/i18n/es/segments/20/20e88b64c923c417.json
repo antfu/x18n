@@ -3,12 +3,16 @@
   "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
   "text": "Un resumen, una tabla de cobertura por idioma y una tabla de diagnósticos. Para comentarios de pull request y resúmenes de jobs.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un resumen, una tabla de cobertura por idioma y una tabla de diagnósticos. Para comentarios de pull request y resúmenes de jobs."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

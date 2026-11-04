@@ -3,12 +3,16 @@
   "source": "The preset for next-intl and use-intl. It reads useTranslations and getTranslations with their namespaces.",
   "text": "Il preset per next-intl e use-intl. Legge useTranslations e getTranslations con i loro namespace.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset per next-intl e use-intl. Legge useTranslations e getTranslations con i loro namespace."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A rule asks the agent to leave out a value that is right as it is, such as a word that is the same in both languages. To stop a key from being reported, add it to {0}, or add the term to the {1} with {2}.",
   "text": "Una regola chiede all'agente di escludere un valore che va bene così com'è, come una parola uguale in entrambe le lingue. Per evitare che una chiave venga segnalata, aggiungila a {0}, oppure aggiungi il termine al {1} con {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Una regola chiede all'agente di escludere un valore che va bene così com'è, come una parola uguale in entrambe le lingue. Per evitare che una chiave venga segnalata, aggiungila a {0}, oppure aggiungi il termine al {1} con {2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

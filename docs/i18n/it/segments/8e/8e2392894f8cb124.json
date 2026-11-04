@@ -3,12 +3,16 @@
   "source": "x18n resolves the name from the directory of the config file, imports the package, and calls its default export with the options. If the package is missing, the load stops with {0}X18N1001{/0}.",
   "text": "x18n risolve il nome a partire dalla directory del file di configurazione, importa il pacchetto e chiama il suo export predefinito con le opzioni. Se il pacchetto manca, il caricamento si interrompe con {0}X18N1001{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n risolve il nome a partire dalla directory del file di configurazione, importa il pacchetto e chiama il suo export predefinito con le opzioni. Se il pacchetto manca, il caricamento si interrompe con {0}X18N1001{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

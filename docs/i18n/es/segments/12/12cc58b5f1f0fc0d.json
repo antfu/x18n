@@ -3,12 +3,16 @@
   "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
   "text": "Un patrón sin {0}, como {1}, contiene el idioma de origen. Para asignarle otro idioma, define {2} en el recurso.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un patrón sin {0}, como {1}, contiene el idioma de origen. Para asignarle otro idioma, define {2} en el recurso."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "To delete all unused keys at once, show the user the plan first, and run it only when they confirm:",
   "text": "Per eliminare in una sola volta tutte le chiavi inutilizzate, mostra prima il piano all'utente ed eseguilo solo dopo la sua conferma:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Per eliminare in una sola volta tutte le chiavi inutilizzate, mostra prima il piano all'utente ed eseguilo solo dopo la sua conferma:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

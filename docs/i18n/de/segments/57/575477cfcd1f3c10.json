@@ -3,12 +3,16 @@
   "source": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} and {9}: the defaults of x18n handle them, or x18n has no such setting. The command prints a note for each one it finds. x18n uses locale codes as written, so it needs no {10}.",
   "text": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} und {9}: Die Standardwerte von x18n decken sie ab, oder x18n hat keine solche Einstellung. Der Befehl gibt zu jeder gefundenen Einstellung einen Hinweis aus. x18n verwendet Sprachcodes so, wie sie geschrieben sind, daher braucht es kein {10}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} und {9}: Die Standardwerte von x18n decken sie ab, oder x18n hat keine solche Einstellung. Der Befehl gibt zu jeder gefundenen Einstellung einen Hinweis aus. x18n verwendet Sprachcodes so, wie sie geschrieben sind, daher braucht es kein {10}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

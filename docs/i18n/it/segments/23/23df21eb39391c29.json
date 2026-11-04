@@ -3,12 +3,16 @@
   "source": "Single values ({0}, {1}, {2}, {3}) replace the earlier value.",
   "text": "I valori singoli ({0}, {1}, {2}, {3}) sostituiscono il valore precedente.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "I valori singoli ({0}, {1}, {2}, {3}) sostituiscono il valore precedente."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

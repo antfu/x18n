@@ -3,12 +3,16 @@
   "source": "Give each check, format and reporter a unique id. Prefix the ids with the name of your plugin to avoid conflicts.",
   "text": "Gib jeder Prüfung, jedem Format und jedem Reporter eine eindeutige ID. Setze den Namen deines Plugins als Präfix vor die IDs, um Konflikte zu vermeiden.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Gib jeder Prüfung, jedem Format und jedem Reporter eine eindeutige ID. Setze den Namen deines Plugins als Präfix vor die IDs, um Konflikte zu vermeiden."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

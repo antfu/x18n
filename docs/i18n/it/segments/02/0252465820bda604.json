@@ -3,12 +3,16 @@
   "source": "Project settings live in the {0}config file{/0}. The VS Code settings change only the editor experience, and never override the config.",
   "text": "Le impostazioni del progetto si trovano nel {0}file di configurazione{/0}. Le impostazioni di VS Code modificano solo l'esperienza nell'editor e non sovrascrivono mai la configurazione.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le impostazioni del progetto si trovano nel {0}file di configurazione{/0}. Le impostazioni di VS Code modificano solo l'esperienza nell'editor e non sovrascrivono mai la configurazione."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

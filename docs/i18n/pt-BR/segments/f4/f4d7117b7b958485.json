@@ -3,12 +3,16 @@
   "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5} and {6}. As in Laravel, a slash in the key becomes a dot.",
   "text": "Estes nomes contam como chamadas de tradução: {0}, {1}, {2}, {3}, {4}, {5} e {6}. Como no Laravel, uma barra na chave se torna um ponto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Estes nomes contam como chamadas de tradução: {0}, {1}, {2}, {3}, {4}, {5} e {6}. Como no Laravel, uma barra na chave se torna um ponto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

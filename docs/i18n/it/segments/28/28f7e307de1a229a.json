@@ -3,12 +3,16 @@
   "source": "{0} lists each key with its locales and files. {1} lists unused keys that a computed key in a scope may reach, with those usages; they stay. {2} names computed keys outside any scope, which may reach any key.",
   "text": "{0} elenca ogni chiave con le sue lingue e i suoi file. {1} elenca le chiavi inutilizzate che una chiave calcolata in un ambito può raggiungere, con i relativi utilizzi; queste restano. {2} indica le chiavi calcolate fuori da qualsiasi ambito, che possono raggiungere qualsiasi chiave.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} elenca ogni chiave con le sue lingue e i suoi file. {1} elenca le chiavi inutilizzate che una chiave calcolata in un ambito può raggiungere, con i relativi utilizzi; queste restano. {2} indica le chiavi calcolate fuori da qualsiasi ambito, che possono raggiungere qualsiasi chiave."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

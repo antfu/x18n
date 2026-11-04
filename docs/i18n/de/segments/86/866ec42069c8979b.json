@@ -3,12 +3,16 @@
   "source": "{0} has no locale in its name, so it holds the source locale. With the default {1}, these files give the locales {2} and {3}:",
   "text": "{0} enthält keine Sprache im Namen, daher enthält es die Quellsprache. Mit dem Standardwert {1} ergeben diese Dateien die Sprachen {2} und {3}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} enthält keine Sprache im Namen, daher enthält es die Quellsprache. Mit dem Standardwert {1} ergeben diese Dateien die Sprachen {2} und {3}:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

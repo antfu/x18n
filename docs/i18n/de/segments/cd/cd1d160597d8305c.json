@@ -3,12 +3,16 @@
   "source": "{0} returns a store. Components read it as {1}, so {2} and {3} count as translate calls. The second argument can set the namespace with {4}.",
   "text": "{0} gibt einen Store zurück. Komponenten lesen ihn als {1}, daher zählen {2} und {3} als Übersetzungsaufrufe. Das zweite Argument kann den Namespace mit {4} festlegen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} gibt einen Store zurück. Komponenten lesen ihn als {1}, daher zählen {2} und {3} als Übersetzungsaufrufe. Das zweite Argument kann den Namespace mit {4} festlegen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

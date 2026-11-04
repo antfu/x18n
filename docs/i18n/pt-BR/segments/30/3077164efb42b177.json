@@ -3,12 +3,16 @@
   "source": "The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in {0}.",
   "text": "A mensagem da string fixa no código, como armazenada no idioma de origem: o texto original, com os argumentos de uma template string como placeholders. Use-a para um valor padrão, como em {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A mensagem da string fixa no código, como armazenada no idioma de origem: o texto original, com os argumentos de uma template string como placeholders. Use-a para um valor padrão, como em {0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

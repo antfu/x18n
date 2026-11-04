@@ -3,12 +3,16 @@
   "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
   "text": "Un hover su una chiave mostra il suo valore in ogni lingua e il numero di utilizzi, con link per aprire la chiave nella UI, per copiare un prompt di traduzione e per tradurla con un agente. La diagnostica è la stessa di {0}. Le correzioni rapide provengono dai controlli, ad esempio \"Add the key to the source locale\" o \"Copy the source value\". Le azioni di codice permettono anche di estrarre una stringa hardcoded, estrarre tutte le stringhe hardcoded del file o aggiungere un commento di esclusione per una stringa.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un hover su una chiave mostra il suo valore in ogni lingua e il numero di utilizzi, con link per aprire la chiave nella UI, per copiare un prompt di traduzione e per tradurla con un agente. La diagnostica è la stessa di {0}. Le correzioni rapide provengono dai controlli, ad esempio \"Add the key to the source locale\" o \"Copy the source value\". Le azioni di codice permettono anche di estrarre una stringa hardcoded, estrarre tutte le stringhe hardcoded del file o aggiungere un commento di esclusione per una stringa."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

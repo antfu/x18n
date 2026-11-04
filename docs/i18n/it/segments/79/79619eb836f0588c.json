@@ -3,12 +3,16 @@
   "source": "{0} converts {1} into {2}. See {3}Migration{/3}.",
   "text": "{0} converte {1} in {2}. Vedi {3}Migrazione{/3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} converte {1} in {2}. Vedi {3}Migrazione{/3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

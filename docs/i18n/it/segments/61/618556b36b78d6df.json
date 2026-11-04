@@ -3,12 +3,16 @@
   "source": "{0} serves the tools over stdin and stdout. The agent starts the command itself. Most agents read a config like this one. The exact file and keys depend on the agent:",
   "text": "{0} espone gli strumenti tramite stdin e stdout. L'agente avvia il comando da sé. La maggior parte degli agenti legge una configurazione come questa. Il file e le chiavi esatti dipendono dall'agente:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} espone gli strumenti tramite stdin e stdout. L'agente avvia il comando da sé. La maggior parte degli agenti legge una configurazione come questa. Il file e le chiavi esatti dipendono dall'agente:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

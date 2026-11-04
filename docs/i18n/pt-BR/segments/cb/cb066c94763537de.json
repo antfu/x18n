@@ -3,12 +3,16 @@
   "source": "{0}: {1}, {2}, {3}, or {4} after an exclusive preset.",
   "text": "{0}: {1}, {2}, {3} ou {4} após um preset exclusivo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: {1}, {2}, {3} ou {4} após um preset exclusivo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

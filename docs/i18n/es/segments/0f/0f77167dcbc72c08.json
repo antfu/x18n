@@ -3,12 +3,16 @@
   "source": "A plugin can add types for its check ids and its options through declaration merging. {0} then completes them:",
   "text": "Un plugin puede añadir tipos para los ids de sus comprobaciones y para sus opciones mediante declaration merging. {0} los autocompleta entonces:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un plugin puede añadir tipos para los ids de sus comprobaciones y para sus opciones mediante declaration merging. {0} los autocompleta entonces:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

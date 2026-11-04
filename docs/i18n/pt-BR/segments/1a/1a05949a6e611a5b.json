@@ -3,12 +3,16 @@
   "source": "Records that translations are up to date with the current source value. Default: every translated locale.",
   "text": "Registra que as traduções estão atualizadas em relação ao valor de origem atual. Padrão: todos os idiomas traduzidos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Registra que as traduções estão atualizadas em relação ao valor de origem atual. Padrão: todos os idiomas traduzidos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

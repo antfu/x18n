@@ -3,12 +3,16 @@
   "source": "The gettext system of cargo-i18n (the {0} macro and {1} files) is not supported.",
   "text": "El sistema gettext de cargo-i18n (la macro {0} y los archivos {1}) no es compatible.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El sistema gettext de cargo-i18n (la macro {0} y los archivos {1}) no es compatible."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

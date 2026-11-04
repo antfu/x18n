@@ -3,12 +3,16 @@
   "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
   "text": "die Parameter von Control-Flow-Blöcken wie {0}, {1}, {2}, {3} und {4} sowie {5}-Deklarationen; der Inhalt der Blöcke wird gescannt,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "die Parameter von Control-Flow-Blöcken wie {0}, {1}, {2}, {3} und {4} sowie {5}-Deklarationen; der Inhalt der Blöcke wird gescannt,"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

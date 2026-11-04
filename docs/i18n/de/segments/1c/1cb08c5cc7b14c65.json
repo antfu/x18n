@@ -3,12 +3,16 @@
   "source": "With {0}, stdout is one JSON document, also when the command fails.",
   "text": "Mit {0} ist stdout ein einzelnes JSON-Dokument, auch wenn der Befehl fehlschlägt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Mit {0} ist stdout ein einzelnes JSON-Dokument, auch wenn der Befehl fehlschlägt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

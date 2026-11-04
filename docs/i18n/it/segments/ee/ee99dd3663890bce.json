@@ -3,12 +3,16 @@
   "source": "By default, errors fail the build and warnings do not. Three options change that:",
   "text": "Per impostazione predefinita, gli errori fanno fallire la build e gli avvisi no. Tre opzioni cambiano questo comportamento:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Per impostazione predefinita, gli errori fanno fallire la build e gli avvisi no. Tre opzioni cambiano questo comportamento:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} add {1}extraction templates{/1} for a library: the code that replaces a hard string, per kind of hard string and per file glob.",
   "text": "{0} aggiungono {1}template di estrazione{/1} per una libreria: il codice che sostituisce una stringa hardcoded, per tipo di stringa hardcoded e per glob di file.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} aggiungono {1}template di estrazione{/1} per una libreria: il codice che sostituisce una stringa hardcoded, per tipo di stringa hardcoded e per glob di file."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

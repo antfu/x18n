@@ -3,12 +3,16 @@
   "source": "{0} adds rules and notes to the {1}translate prompt{/1}. {2} holds the source and target locales and the locale information of the target, such as its plural categories. The i18next preset uses it to explain plural suffixes.",
   "text": "{0} adiciona regras e observações ao {1}prompt de tradução{/1}. {2} contém os idiomas de origem e de destino e as informações de idioma do destino, como suas categorias de plural. O preset i18next o usa para explicar os sufixos de plural.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} adiciona regras e observações ao {1}prompt de tradução{/1}. {2} contém os idiomas de origem e de destino e as informações de idioma do destino, como suas categorias de plural. O preset i18next o usa para explicar os sufixos de plural."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

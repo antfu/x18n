@@ -3,12 +3,16 @@
   "source": "Browse and edit every key across locales in the browser with x18n ui, or publish a read-only report with x18n build.",
   "text": "Explora y edita cada clave en todos los idiomas desde el navegador con x18n ui, o publica un informe de solo lectura con x18n build.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Explora y edita cada clave en todos los idiomas desde el navegador con x18n ui, o publica un informe de solo lectura con x18n build."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

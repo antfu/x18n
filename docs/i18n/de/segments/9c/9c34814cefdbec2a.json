@@ -3,12 +3,16 @@
   "source": "Other JS libraries: {0}ember-intl{/0}, {1}Polyglot.js{/1}, {2}Globalize{/2}, {3}es2015-i18n-tag{/3}, {4}i18n-js{/4} and {5}UI5{/5}",
   "text": "Weitere JS-Bibliotheken: {0}ember-intl{/0}, {1}Polyglot.js{/1}, {2}Globalize{/2}, {3}es2015-i18n-tag{/3}, {4}i18n-js{/4} und {5}UI5{/5}",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Weitere JS-Bibliotheken: {0}ember-intl{/0}, {1}Polyglot.js{/1}, {2}Globalize{/2}, {3}es2015-i18n-tag{/3}, {4}i18n-js{/4} und {5}UI5{/5}"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

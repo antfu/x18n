@@ -3,12 +3,16 @@
   "source": "Only one store is active: the last one, so a plugin's store replaces the built-in one.",
   "text": "Apenas um store fica ativo: o último, então o store de um plugin substitui o nativo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Apenas um store fica ativo: o último, então o store de um plugin substitui o nativo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

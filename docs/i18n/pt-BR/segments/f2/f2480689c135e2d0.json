@@ -3,12 +3,16 @@
   "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
   "text": "Valores maiores que {0} são cortados. No modo in-place, esse valor aparece como uma dica depois da chave.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Valores maiores que {0} são cortados. No modo in-place, esse valor aparece como uma dica depois da chave."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

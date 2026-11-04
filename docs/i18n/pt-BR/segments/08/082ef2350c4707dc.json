@@ -3,12 +3,16 @@
   "source": "Fail a build on broken keys, annotate pull requests, upload SARIF and publish a static report.",
   "text": "Falhe um build por causa de chaves quebradas, anote pull requests, envie SARIF e publique um relatório estático.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Falhe um build por causa de chaves quebradas, anote pull requests, envie SARIF e publique um relatório estático."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

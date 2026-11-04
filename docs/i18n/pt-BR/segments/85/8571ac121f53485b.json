@@ -3,12 +3,16 @@
   "source": "Arguments that may hold the params object, in order; string arguments are skipped ({0}).",
   "text": "Argumentos que podem conter o objeto de parâmetros, em ordem; argumentos do tipo string são ignorados ({0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Argumentos que podem conter o objeto de parâmetros, em ordem; argumentos do tipo string são ignorados ({0})."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

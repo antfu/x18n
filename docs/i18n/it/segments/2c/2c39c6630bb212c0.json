@@ -3,12 +3,16 @@
   "source": "The translate prompt tells the agent the plural categories of the target locale, for example \"i18next plural keys end in \\_one,\\_other for de; write one key per category.\"",
   "text": "Il prompt di traduzione indica all'agente le categorie plurali della lingua di destinazione, ad esempio \"le chiavi plurali di i18next terminano con \\_one,\\_other per de; scrivi una chiave per categoria.\"",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il prompt di traduzione indica all'agente le categorie plurali della lingua di destinazione, ad esempio \"le chiavi plurali di i18next terminano con \\_one,\\_other per de; scrivi una chiave per categoria.\""
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}.NET localization{/1} with {2} resource files: {3}ASP.NET{/3} Core MVC and Razor Pages, Blazor, and desktop apps with a generated {4} class.",
   "text": "Il preset {0} supporta la {1}localizzazione di .NET{/1} con file di risorse {2}: {3}ASP.NET{/3} Core MVC e Razor Pages, Blazor e app desktop con una classe {4} generata.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset {0} supporta la {1}localizzazione di .NET{/1} con file di risorse {2}: {3}ASP.NET{/3} Core MVC e Razor Pages, Blazor e app desktop con una classe {4} generata."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

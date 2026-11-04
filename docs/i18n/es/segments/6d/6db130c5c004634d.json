@@ -3,12 +3,16 @@
   "source": "Each entry of {0} is a translation file, as a path, a list of paths or {1}.",
   "text": "Cada entrada de {0} es un archivo de traducción, indicado como una ruta, una lista de rutas o {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cada entrada de {0} es un archivo de traducción, indicado como una ruta, una lista de rutas o {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

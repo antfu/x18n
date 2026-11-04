@@ -3,12 +3,16 @@
   "source": "Files changed while the command ran. Run it again.",
   "text": "Dateien haben sich geändert, während der Befehl lief. Führe ihn erneut aus.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Dateien haben sich geändert, während der Befehl lief. Führe ihn erneut aus."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

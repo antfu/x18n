@@ -3,12 +3,16 @@
   "source": "Coding agents are first-class users of x18n. An agent uses the same CLI as a human, with {0}. It never edits locale files by hand, and it checks its own work with {1}.",
   "text": "Gli agenti di programmazione sono utenti di prima classe di x18n. Un agente usa la stessa CLI di una persona, con {0}. Non modifica mai i file delle lingue a mano e verifica il proprio lavoro con {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Gli agenti di programmazione sono utenti di prima classe di x18n. Un agente usa la stessa CLI di una persona, con {0}. Non modifica mai i file delle lingue a mano e verifica il proprio lavoro con {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

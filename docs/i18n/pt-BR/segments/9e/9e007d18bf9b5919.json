@@ -3,12 +3,16 @@
   "source": "{0} writes this file, and {1} reads it back after you edit it:",
   "text": "{0} grava este arquivo, e {1} o lê de volta depois que você o edita:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} grava este arquivo, e {1} o lê de volta depois que você o edita:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
   "text": "„x18n: Find Key by Text“ findet den Schlüssel zu einem Text, den du in der App siehst. Gib einen Teil des Textes in einer beliebigen Sprache ein. Die Suche ignoriert die Groß- und Kleinschreibung und arbeitet unscharf, die Buchstaben müssen also in der richtigen Reihenfolge vorkommen, aber nicht direkt nebeneinander. Die Liste zeigt die besten Treffer zuerst, mit dem Schlüssel, der Sprache und der Anzahl der Verwendungen. Wähle einen Schlüssel, um seine Verwendung zu öffnen, oder wähle zwischen seinen Verwendungen. Ein Schlüssel, den kein Code verwendet, öffnet sich bei seinem Eintrag in der Sprachdatei. Der Befehl startet mit dem ausgewählten Text, und die Ansicht „Keys“ hat dafür eine Schaltfläche.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "„x18n: Find Key by Text“ findet den Schlüssel zu einem Text, den du in der App siehst. Gib einen Teil des Textes in einer beliebigen Sprache ein. Die Suche ignoriert die Groß- und Kleinschreibung und arbeitet unscharf, die Buchstaben müssen also in der richtigen Reihenfolge vorkommen, aber nicht direkt nebeneinander. Die Liste zeigt die besten Treffer zuerst, mit dem Schlüssel, der Sprache und der Anzahl der Verwendungen. Wähle einen Schlüssel, um seine Verwendung zu öffnen, oder wähle zwischen seinen Verwendungen. Ein Schlüssel, den kein Code verwendet, öffnet sich bei seinem Eintrag in der Sprachdatei. Der Befehl startet mit dem ausgewählten Text, und die Ansicht „Keys“ hat dafür eine Schaltfläche."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

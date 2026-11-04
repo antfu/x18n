@@ -3,12 +3,16 @@
   "source": "Key not found. List keys with `x18n keys` (agents: the `x18n_keys` tool).",
   "text": "Chiave non trovata. Elenca le chiavi con `x18n keys` (agenti: lo strumento `x18n_keys`).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chiave non trovata. Elenca le chiavi con `x18n keys` (agenti: lo strumento `x18n_keys`)."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

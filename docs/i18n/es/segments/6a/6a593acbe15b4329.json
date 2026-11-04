@@ -3,12 +3,16 @@
   "source": "Each skill tells the agent which decisions to leave to you, and to ask about them in one message.",
   "text": "Cada skill indica al agente qué decisiones debe dejarte a ti y que te pregunte por ellas en un solo mensaje.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cada skill indica al agente qué decisiones debe dejarte a ti y que te pregunte por ellas en un solo mensaje."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

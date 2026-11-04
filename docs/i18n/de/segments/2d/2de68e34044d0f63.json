@@ -3,12 +3,16 @@
   "source": "Every key across every locale in one table. Edit values in the browser, or publish a static, read-only report.",
   "text": "Jeder Schlüssel in jeder Sprache in einer Tabelle. Bearbeite Werte im Browser oder veröffentliche einen statischen, schreibgeschützten Bericht.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Jeder Schlüssel in jeder Sprache in einer Tabelle. Bearbeite Werte im Browser oder veröffentliche einen statischen, schreibgeschützten Bericht."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

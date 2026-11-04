@@ -3,12 +3,16 @@
   "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
   "text": "Zeigt die Flagge jeder Sprache in Ansichten, Auswahldialogen, Hovers und der Statusleiste an.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Zeigt die Flagge jeder Sprache in Ansichten, Auswahldialogen, Hovers und der Statusleiste an."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

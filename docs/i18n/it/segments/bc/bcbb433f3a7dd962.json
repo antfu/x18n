@@ -3,12 +3,16 @@
   "source": "Linked messages: {0} and {1}. The linked key counts as used, and the {2} check reports a linked key that does not exist.",
   "text": "Messaggi collegati: {0} e {1}. La chiave collegata conta come usata e il controllo {2} segnala una chiave collegata che non esiste.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Messaggi collegati: {0} e {1}. La chiave collegata conta come usata e il controllo {2} segnala una chiave collegata che non esiste."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

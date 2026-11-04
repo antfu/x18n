@@ -3,12 +3,16 @@
   "source": "A rename changes every locale and every usage in code. A rename of a parent key, such as {0}, moves every key under it. A rename to a key that exists stops with exit code 1.",
   "text": "Un renombrado cambia todos los idiomas y todos los usos en el código. Renombrar una clave padre, como {0}, mueve todas las claves que están debajo. Un renombrado a una clave que ya existe se detiene con el código de salida 1.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un renombrado cambia todos los idiomas y todos los usos en el código. Renombrar una clave padre, como {0}, mueve todas las claves que están debajo. Un renombrado a una clave que ya existe se detiene con el código de salida 1."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "x18n serves its tools over the Model Context Protocol (MCP), the protocol that coding agents use to call tools. The tools do the same work as the CLI: read keys, run checks, write messages and extract strings. There are two ways to connect.",
   "text": "x18n espone i suoi strumenti tramite il Model Context Protocol (MCP), il protocollo che gli agenti di coding usano per richiamare gli strumenti. Gli strumenti svolgono lo stesso lavoro della CLI: leggere le chiavi, eseguire i controlli, scrivere i messaggi ed estrarre le stringhe. Ci sono due modi per connettersi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n espone i suoi strumenti tramite il Model Context Protocol (MCP), il protocollo che gli agenti di coding usano per richiamare gli strumenti. Gli strumenti svolgono lo stesso lavoro della CLI: leggere le chiavi, eseguire i controlli, scrivere i messaggi ed estrarre le stringhe. Ci sono due modi per connettersi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

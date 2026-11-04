@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, best match first, with their usages. {0} turns off fuzzy matching.",
   "text": "Claves encontradas por su valor en cualquier idioma, con la mejor coincidencia primero, junto con sus usos. {0} desactiva la coincidencia aproximada.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Claves encontradas por su valor en cualquier idioma, con la mejor coincidencia primero, junto con sus usos. {0} desactiva la coincidencia aproximada."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

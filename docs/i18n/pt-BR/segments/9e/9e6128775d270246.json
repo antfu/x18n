@@ -3,12 +3,16 @@
   "source": "In {0}, {1} and {2} files, the preset reads the {3} tag:",
   "text": "Em arquivos {0}, {1} e {2}, o preset lê a tag {3}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Em arquivos {0}, {1} e {2}, o preset lê a tag {3}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

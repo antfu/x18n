@@ -3,12 +3,16 @@
   "source": "The preset for svelte-i18n. It reads the $_ store and its aliases in Svelte components and scripts.",
   "text": "O preset para svelte-i18n. Ele lê o store $_ e seus aliases em componentes e scripts Svelte.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset para svelte-i18n. Ele lê o store $_ e seus aliases em componentes e scripts Svelte."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

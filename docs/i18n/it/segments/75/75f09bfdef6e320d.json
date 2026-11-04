@@ -3,12 +3,16 @@
   "source": "On a project with many known problems, a baseline makes CI fail only on new ones. Write it once and commit it:",
   "text": "In un progetto con molti problemi noti, una baseline fa fallire la CI solo su quelli nuovi. Scrivila una volta e fai il commit:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In un progetto con molti problemi noti, una baseline fa fallire la CI solo su quelli nuovi. Scrivila una volta e fai il commit:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

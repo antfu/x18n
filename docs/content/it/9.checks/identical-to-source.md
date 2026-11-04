@@ -1,5 +1,5 @@
 ---
-title: identical-to-source
+title: identico all'originale
 description: Un valore di destinazione uguale al valore di origine, esclusi i valori che restano invariati in tutte le lingue.
 ---
 

@@ -3,12 +3,16 @@
   "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
   "text": "\"x18n: Find Key by Text\" trova la chiave dietro un testo che vedi nell'app. Digita una parte del testo, in qualsiasi lingua. La ricerca ignora le maiuscole e minuscole e usa una corrispondenza fuzzy, quindi le lettere devono comparire in ordine, ma non necessariamente vicine. L'elenco mostra prima le corrispondenze migliori, con la chiave, la lingua e il numero di utilizzi. Scegli una chiave per aprirne l'utilizzo, oppure scegli tra i suoi utilizzi. Una chiave che nessun codice usa si apre nella sua voce della lingua. Il comando parte dal testo selezionato e la vista Keys ha un pulsante per eseguirlo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "\"x18n: Find Key by Text\" trova la chiave dietro un testo che vedi nell'app. Digita una parte del testo, in qualsiasi lingua. La ricerca ignora le maiuscole e minuscole e usa una corrispondenza fuzzy, quindi le lettere devono comparire in ordine, ma non necessariamente vicine. L'elenco mostra prima le corrispondenze migliori, con la chiave, la lingua e il numero di utilizzi. Scegli una chiave per aprirne l'utilizzo, oppure scegli tra i suoi utilizzi. Una chiave che nessun codice usa si apre nella sua voce della lingua. Il comando parte dal testo selezionato e la vista Keys ha un pulsante per eseguirlo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

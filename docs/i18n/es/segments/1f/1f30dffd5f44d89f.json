@@ -3,12 +3,16 @@
   "source": "A project without a library preset therefore has no translate calls, and x18n finds no usages. Add your calls in {0}:",
   "text": "Por tanto, un proyecto sin un preset de librería no tiene llamadas de traducción y x18n no encuentra usos. Añade tus llamadas en {0}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Por tanto, un proyecto sin un preset de librería no tiene llamadas de traducción y x18n no encuentra usos. Añade tus llamadas en {0}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

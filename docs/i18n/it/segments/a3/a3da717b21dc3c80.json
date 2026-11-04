@@ -3,12 +3,16 @@
   "source": "{0}: positions where key completion makes sense,",
   "text": "{0}: posizioni in cui il completamento delle chiavi ha senso,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: posizioni in cui il completamento delle chiavi ha senso,"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

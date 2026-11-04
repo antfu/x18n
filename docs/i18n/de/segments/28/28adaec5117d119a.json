@@ -3,12 +3,16 @@
   "source": "In a project with namespaces, a key may hold {0} after its namespace. In code, {1} names the namespace {2}. With {3} (i18next {4}), code never names a namespace, so {5} is the key {6}.",
   "text": "In einem Projekt mit Namespaces kann ein Schlüssel nach seinem Namespace {0} enthalten. Im Code benennt {1} den Namespace {2}. Mit {3} (i18next {4}) nennt der Code nie einen Namespace, daher ist {5} der Schlüssel {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In einem Projekt mit Namespaces kann ein Schlüssel nach seinem Namespace {0} enthalten. Im Code benennt {1} den Namespace {2}. Mit {3} (i18next {4}) nennt der Code nie einen Namespace, daher ist {5} der Schlüssel {6}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

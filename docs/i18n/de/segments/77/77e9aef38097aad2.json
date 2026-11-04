@@ -3,12 +3,16 @@
   "source": "Display data for a locale code. The first plugin that returns a value wins.",
   "text": "Anzeigedaten für einen Sprachcode. Das erste Plugin, das einen Wert zurückgibt, gewinnt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Anzeigedaten für einen Sprachcode. Das erste Plugin, das einen Wert zurückgibt, gewinnt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

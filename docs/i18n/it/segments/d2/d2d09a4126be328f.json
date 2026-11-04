@@ -3,12 +3,16 @@
   "source": "In a YAML or JSON config, use the package name. Pass options as the second item of a tuple:",
   "text": "In una configurazione YAML o JSON, usa il nome del pacchetto. Passa le opzioni come secondo elemento di una tupla:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In una configurazione YAML o JSON, usa il nome del pacchetto. Passa le opzioni come secondo elemento di una tupla:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

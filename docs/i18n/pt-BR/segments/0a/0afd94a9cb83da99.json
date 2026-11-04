@@ -3,12 +3,16 @@
   "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
   "text": "Uma verificação é um generator. Cada valor que ela emite com yield vira um diagnóstico. Sem {0}, o diagnóstico aponta para a mensagem de {1} em {2}. O id da verificação também é o código do diagnóstico, então {3} e {4} funcionam como nas verificações integradas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Uma verificação é um generator. Cada valor que ela emite com yield vira um diagnóstico. Sem {0}, o diagnóstico aponta para a mensagem de {1} em {2}. O id da verificação também é o código do diagnóstico, então {3} e {4} funcionam como nas verificações integradas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

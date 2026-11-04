@@ -3,12 +3,16 @@
   "source": "Before you use a key in code, find out whether it exists: {0}. To reuse a key with the same text, search the values: {1}.",
   "text": "Finde heraus, ob ein Schlüssel existiert, bevor du ihn im Code verwendest: {0}. Um einen Schlüssel mit demselben Text wiederzuverwenden, durchsuche die Werte: {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Finde heraus, ob ein Schlüssel existiert, bevor du ihn im Code verwendest: {0}. Um einen Schlüssel mit demselben Text wiederzuverwenden, durchsuche die Werte: {1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

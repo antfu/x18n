@@ -3,12 +3,16 @@
   "source": "The side-effect-free result of planning edits: file changes plus decisions.",
   "text": "Il risultato, privo di effetti collaterali, della pianificazione delle modifiche: modifiche ai file più decisioni.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il risultato, privo di effetti collaterali, della pianificazione delle modifiche: modifiche ai file più decisioni."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

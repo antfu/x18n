@@ -3,12 +3,16 @@
   "source": "Leave a review on one message for a human: {0} with the reason in {1}, or {2} with a better value in {3} (a human applies it), {4}, or {5}. Use it when a human should decide, instead of changing values yourself.",
   "text": "Deixe uma revisão em uma mensagem para uma pessoa: {0} com o motivo em {1}, ou {2} com um valor melhor em {3} (uma pessoa o aplica), {4} ou {5}. Use quando uma pessoa deve decidir, em vez de alterar os valores você mesmo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Deixe uma revisão em uma mensagem para uma pessoa: {0} com o motivo em {1}, ou {2} com um valor melhor em {3} (uma pessoa o aplica), {4} ou {5}. Use quando uma pessoa deve decidir, em vez de alterar os valores você mesmo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

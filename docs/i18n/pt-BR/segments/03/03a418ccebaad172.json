@@ -3,12 +3,16 @@
   "source": "With {0}, the value replaces the whole call, such as {1}, instead of only the key. Calls over several lines keep the key-only replacement.",
   "text": "Com {0}, o valor substitui a chamada inteira, como {1}, em vez de apenas a chave. Chamadas em várias linhas mantêm a substituição somente da chave.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Com {0}, o valor substitui a chamada inteira, como {1}, em vez de apenas a chave. Chamadas em várias linhas mantêm a substituição somente da chave."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

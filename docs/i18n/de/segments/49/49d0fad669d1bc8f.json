@@ -3,12 +3,16 @@
   "source": "Start the UI: browse and edit messages in the browser, with HTTP MCP at /\\_\\_mcp.",
   "text": "Starte die UI: Durchsuche und bearbeite messages im Browser, mit HTTP MCP unter /\\_\\_mcp.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Starte die UI: Durchsuche und bearbeite messages im Browser, mit HTTP MCP unter /\\_\\_mcp."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

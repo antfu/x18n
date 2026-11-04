@@ -3,12 +3,16 @@
   "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
   "text": "Keys: eine Tabelle mit einer Zeile pro Schlüssel und einer Spalte pro Sprache. Durchsuche Schlüssel und Werte und filtere nach Namespace, nach einer Sprache, in der der Schlüssel fehlt, nach ungenutzten Schlüsseln, nach Schlüsseln mit Problemen oder nach Übersetzungsstatus. Hat ein Schlüssel durch sein Format ein Label, zeigt die Tabelle das Label, und die Suche findet es. Wähle eine Zelle aus und drücke Enter, um sie zu bearbeiten. Navigiere mit den Pfeiltasten oder mit {0} und {1}, brich mit Esc ab, öffne den Schlüssel mit {2} und suche mit {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Keys: eine Tabelle mit einer Zeile pro Schlüssel und einer Spalte pro Sprache. Durchsuche Schlüssel und Werte und filtere nach Namespace, nach einer Sprache, in der der Schlüssel fehlt, nach ungenutzten Schlüsseln, nach Schlüsseln mit Problemen oder nach Übersetzungsstatus. Hat ein Schlüssel durch sein Format ein Label, zeigt die Tabelle das Label, und die Suche findet es. Wähle eine Zelle aus und drücke Enter, um sie zu bearbeiten. Navigiere mit den Pfeiltasten oder mit {0} und {1}, brich mit Esc ab, öffne den Schlüssel mit {2} und suche mit {3}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

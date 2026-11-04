@@ -3,12 +3,16 @@
   "source": "The preset for Ruby on Rails. It reads config/locales YAML files with their top-level locale key, t and I18n.t calls, and lazy lookups.",
   "text": "Das Preset für Ruby on Rails. Es liest YAML-Dateien in config/locales mit ihrem Schlüssel der obersten Ebene für die Sprache, Aufrufe von t und I18n.t sowie Lazy Lookups.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset für Ruby on Rails. Es liest YAML-Dateien in config/locales mit ihrem Schlüssel der obersten Ebene für die Sprache, Aufrufe von t und I18n.t sowie Lazy Lookups."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

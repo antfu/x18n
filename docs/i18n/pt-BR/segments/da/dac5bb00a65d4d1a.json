@@ -3,12 +3,16 @@
   "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
   "text": "Mostra a bandeira de cada idioma nas views, seletores, hovers e na barra de status.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Mostra a bandeira de cada idioma nas views, seletores, hovers e na barra de status."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

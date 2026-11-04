@@ -3,12 +3,16 @@
   "source": "Text in inline {0} strings works the same way, in any kind of quotes and with escapes, and an inline template in double quotes gets {1}. ICUs get marked too. A sentence around an ICU ({2}) is two messages in Angular, so run {3} after it to add the ICU's own. These stay as they are: content with {4} or {5}, and an inline template with {6}, whose text is not known before the build.",
   "text": "El texto de las cadenas {0} en línea funciona igual, con cualquier tipo de comillas y con secuencias de escape, y una plantilla en línea con comillas dobles recibe {1}. Los ICU también se marcan. Una frase alrededor de un ICU ({2}) son dos mensajes en Angular, así que ejecuta {3} después para añadir el del propio ICU. Esto se deja como está: el contenido con {4} o {5}, y una plantilla en línea con {6}, cuyo texto no se conoce antes del build.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El texto de las cadenas {0} en línea funciona igual, con cualquier tipo de comillas y con secuencias de escape, y una plantilla en línea con comillas dobles recibe {1}. Los ICU también se marcan. Una frase alrededor de un ICU ({2}) son dos mensajes en Angular, así que ejecuta {3} después para añadir el del propio ICU. Esto se deja como está: el contenido con {4} o {5}, y una plantilla en línea con {6}, cuyo texto no se conoce antes del build."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

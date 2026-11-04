@@ -3,12 +3,16 @@
   "source": "Before x18n writes, it makes sure that no file changed since it made the plan. If a file changed, it writes nothing and stops with {0}X18N4004{/0}.",
   "text": "Antes de gravar, o x18n garante que nenhum arquivo mudou desde que criou o plano. Se algum arquivo mudou, ele não grava nada e para com {0}X18N4004{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Antes de gravar, o x18n garante que nenhum arquivo mudou desde que criou o plano. Se algum arquivo mudou, ele não grava nada e para com {0}X18N4004{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

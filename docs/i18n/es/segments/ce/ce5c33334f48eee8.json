@@ -3,12 +3,16 @@
   "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
   "text": "Los comentarios {0}, {1} ... {2} y {3} omiten el texto igual que en otros archivos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Los comentarios {0}, {1} ... {2} y {3} omiten el texto igual que en otros archivos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

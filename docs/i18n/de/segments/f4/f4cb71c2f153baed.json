@@ -3,12 +3,16 @@
   "source": "{0} builds its keys at runtime, so when the project uses it the keys in the {1} namespace are not unused, nor those of {2}.",
   "text": "{0} baut seine Schlüssel zur Laufzeit auf. Wenn das Projekt es verwendet, gelten die Schlüssel im Namespace {1} nicht als unbenutzt, ebenso wenig die von {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} baut seine Schlüssel zur Laufzeit auf. Wenn das Projekt es verwendet, gelten die Schlüssel im Namespace {1} nicht als unbenutzt, ebenso wenig die von {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

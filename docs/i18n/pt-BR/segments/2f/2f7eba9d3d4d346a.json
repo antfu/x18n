@@ -3,12 +3,16 @@
   "source": "The source file is the one {0} writes: {1}, {2}, {3} or {4} in the {5} of the {6} target, after its {7} and {8} options.",
   "text": "O arquivo de origem é o que {0} grava: {1}, {2}, {3} ou {4} no {5} do target {6}, depois de suas opções {7} e {8}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O arquivo de origem é o que {0} grava: {1}, {2}, {3} ou {4} no {5} do target {6}, depois de suas opções {7} e {8}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

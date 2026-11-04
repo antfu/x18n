@@ -3,12 +3,16 @@
   "source": "Plugins of the root config and of the project config both apply. Presets of the project config replace the presets of the root config.",
   "text": "I plugin della configurazione root e quelli della configurazione del progetto si applicano entrambi. I preset della configurazione del progetto sostituiscono i preset della configurazione root.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "I plugin della configurazione root e quelli della configurazione del progetto si applicano entrambi. I preset della configurazione del progetto sostituiscono i preset della configurazione root."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

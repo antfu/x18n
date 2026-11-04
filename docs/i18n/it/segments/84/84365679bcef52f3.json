@@ -3,12 +3,16 @@
   "source": "x18n runs {0} only for a preset inside the plugins of another preset. A preset that you list in {1} or {2} always applies.",
   "text": "x18n esegue {0} solo per un preset all'interno dei plugin di un altro preset. Un preset che elenchi in {1} o {2} si applica sempre.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n esegue {0} solo per un preset all'interno dei plugin di un altro preset. Un preset che elenchi in {1} o {2} si applica sempre."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

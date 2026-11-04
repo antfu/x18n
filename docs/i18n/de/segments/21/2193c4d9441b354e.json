@@ -3,12 +3,16 @@
   "source": "Other forms per locale, matched at the start of a word: inflections and compound stems of the translation, or of the term under the source locale.",
   "text": "Weitere Formen pro Sprache, die am Wortanfang abgeglichen werden: Flexionsformen und Kompositionsstämme der Übersetzung oder des Begriffs in der Quellsprache.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Weitere Formen pro Sprache, die am Wortanfang abgeglichen werden: Flexionsformen und Kompositionsstämme der Übersetzung oder des Begriffs in der Quellsprache."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

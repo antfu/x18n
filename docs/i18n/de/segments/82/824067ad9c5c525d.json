@@ -3,12 +3,16 @@
   "source": "For a dynamic key such as {0}, the page prefix applies when the page file has {1}.",
   "text": "Bei einem dynamischen Schlüssel wie {0} gilt das Seitenpräfix, wenn die Seitendatei {1} enthält.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Bei einem dynamischen Schlüssel wie {0} gilt das Seitenpräfix, wenn die Seitendatei {1} enthält."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A file changed after x18n made the plan, so x18n did not write anything. For {0}, the source file changed after you wrote the plan file.",
   "text": "Eine Datei hat sich geändert, nachdem x18n den Plan erstellt hat, daher hat x18n nichts geschrieben. Bei {0} hat sich die Quelldatei geändert, nachdem du die Plandatei geschrieben hast.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Eine Datei hat sich geändert, nachdem x18n den Plan erstellt hat, daher hat x18n nichts geschrieben. Bei {0} hat sich die Quelldatei geändert, nachdem du die Plandatei geschrieben hast."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "How x18n understood the project: presets, locale finders, formats, scanners, conflicts, errors and config origins.",
   "text": "Wie x18n das Projekt verstanden hat: Presets, Locale-Finder, Formate, Scanner, Konflikte, Fehler und Herkunft der Konfiguration.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wie x18n das Projekt verstanden hat: Presets, Locale-Finder, Formate, Scanner, Konflikte, Fehler und Herkunft der Konfiguration."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

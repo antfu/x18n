@@ -3,12 +3,16 @@
   "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
   "text": "{0} rechaza los valores cuyos marcadores de posición difieren de los del valor del idioma de origen y no escribe nada. Lista los valores rechazados y termina con el código 1. Corrígelos o pasa {1} para escribirlos de todos modos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} rechaza los valores cuyos marcadores de posición difieren de los del valor del idioma de origen y no escribe nada. Lista los valores rechazados y termina con el código 1. Corrígelos o pasa {1} para escribirlos de todos modos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

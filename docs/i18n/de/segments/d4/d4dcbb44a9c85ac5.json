@@ -3,12 +3,16 @@
   "source": "The reporters of {0} are {1}, {2}, {3}, {4}, {5}. See {6}CLI and x18n check{/6}.",
   "text": "Die Reporter von {0} sind {1}, {2}, {3}, {4}, {5}. Siehe {6}CLI und x18n check{/6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Reporter von {0} sind {1}, {2}, {3}, {4}, {5}. Siehe {6}CLI und x18n check{/6}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

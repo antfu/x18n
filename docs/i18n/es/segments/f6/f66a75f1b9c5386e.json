@@ -3,12 +3,16 @@
   "source": "When a folder has {0} settings in {1} and no {2} file, the {3}x18n extension{/3} offers to migrate it. It opens the files that it will write, and writes them only after you confirm. Then it restarts the language server. You can also run \"x18n: Migrate from i18n-ally\" from the command palette.",
   "text": "Cuando una carpeta tiene ajustes de {0} en {1} y no tiene archivo {2}, la {3}extensión de x18n{/3} ofrece migrarla. Abre los archivos que va a escribir y solo los escribe después de que confirmes. Luego reinicia el servidor de lenguaje. También puedes ejecutar \"x18n: Migrate from i18n-ally\" desde la paleta de comandos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cuando una carpeta tiene ajustes de {0} en {1} y no tiene archivo {2}, la {3}extensión de x18n{/3} ofrece migrarla. Abre los archivos que va a escribir y solo los escribe después de que confirmes. Luego reinicia el servidor de lenguaje. También puedes ejecutar \"x18n: Migrate from i18n-ally\" desde la paleta de comandos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

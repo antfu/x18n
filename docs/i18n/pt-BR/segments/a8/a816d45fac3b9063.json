@@ -3,12 +3,16 @@
   "source": "Deletes every unused key that no computed key may reach.",
   "text": "Exclui todas as chaves não usadas que nenhuma chave calculada possa alcançar.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Exclui todas as chaves não usadas que nenhuma chave calculada possa alcançar."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

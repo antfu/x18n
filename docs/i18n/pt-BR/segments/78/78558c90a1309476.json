@@ -3,12 +3,16 @@
   "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
   "text": "Um escopo é uma região do código com um namespace padrão ou um prefixo de chave. No react-i18next, {0} faz {1} significar {2} no código que usa esse {3}. No next-intl, {4} faz {5} significar {6}. Os presets conhecem essas factories. Um plugin YAML pode adicionar escopos com uma expressão regular.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um escopo é uma região do código com um namespace padrão ou um prefixo de chave. No react-i18next, {0} faz {1} significar {2} no código que usa esse {3}. No next-intl, {4} faz {5} significar {6}. Os presets conhecem essas factories. Um plugin YAML pode adicionar escopos com uma expressão regular."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

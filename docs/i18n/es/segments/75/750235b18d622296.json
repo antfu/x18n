@@ -3,12 +3,16 @@
   "source": "Review comments, approvals and suggested values on messages, kept in a file tracked in git.",
   "text": "Comentarios de revisión, aprobaciones y valores sugeridos sobre los mensajes, guardados en un archivo con seguimiento en git.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Comentarios de revisión, aprobaciones y valores sugeridos sobre los mensajes, guardados en un archivo con seguimiento en git."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

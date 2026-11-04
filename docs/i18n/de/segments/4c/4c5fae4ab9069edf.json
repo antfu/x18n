@@ -3,12 +3,16 @@
   "source": "The fix adds the key with the default value written in the call ({0} or {1} with i18next), else with an empty value.",
   "text": "Der Fix fügt den Schlüssel mit dem im Aufruf angegebenen Standardwert hinzu ({0} oder {1} bei i18next), andernfalls mit einem leeren Wert.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Der Fix fügt den Schlüssel mit dem im Aufruf angegebenen Standardwert hinzu ({0} oder {1} bei i18next), andernfalls mit einem leeren Wert."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

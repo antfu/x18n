@@ -3,12 +3,16 @@
   "source": "Print the parts as data, for tools that build their own prompt. {0} does the same.",
   "text": "Imprime las partes como datos, para herramientas que construyen su propio prompt. {0} hace lo mismo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Imprime las partes como datos, para herramientas que construyen su propio prompt. {0} hace lo mismo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

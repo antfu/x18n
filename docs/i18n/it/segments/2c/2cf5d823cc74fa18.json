@@ -3,12 +3,16 @@
   "source": "{0}: an {1} folder next to a component. The component folder names the keyset, so {2} holds the keyset {3}.",
   "text": "{0}: una cartella {1} accanto a un componente. Il nome della cartella del componente indica il keyset, quindi {2} contiene il keyset {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: una cartella {1} accanto a un componente. Il nome della cartella del componente indica il keyset, quindi {2} contiene il keyset {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

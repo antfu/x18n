@@ -3,12 +3,16 @@
   "source": "Decides if the preset applies. Without {0}, the preset applies only when listed in config.",
   "text": "Entscheidet, ob das Preset zutrifft. Ohne {0} wird das Preset nur angewendet, wenn es in der Konfiguration aufgeführt ist.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Entscheidet, ob das Preset zutrifft. Ohne {0} wird das Preset nur angewendet, wenn es in der Konfiguration aufgeführt ist."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

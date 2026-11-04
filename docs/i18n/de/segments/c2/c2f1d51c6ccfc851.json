@@ -3,12 +3,16 @@
   "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
   "text": "Was einen Schlüssel in einen Pfad aufteilt: {0} ist {1} in einer verschachtelten Datei. {2} macht Schlüssel wörtlich, sodass {3} oder {4} ein einzelner Schlüssel ist und ein neuer Schlüssel eine einzelne Property ist (i18next {5}, gettext). Ein Ressourcenmuster kann einen eigenen festlegen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Was einen Schlüssel in einen Pfad aufteilt: {0} ist {1} in einer verschachtelten Datei. {2} macht Schlüssel wörtlich, sodass {3} oder {4} ein einzelner Schlüssel ist und ein neuer Schlüssel eine einzelne Property ist (i18next {5}, gettext). Ein Ressourcenmuster kann einen eigenen festlegen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

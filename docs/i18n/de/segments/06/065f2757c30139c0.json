@@ -3,12 +3,16 @@
   "source": "The same rules apply to the {0} check. The {1} options of the config set the key style and the strings to ignore. The presets add the replacement code for their library. See {2}Extraction templates{/2}.",
   "text": "Dieselben Regeln gelten für die Prüfung {0}. Die Optionen {1} der Konfiguration legen den Schlüsselstil und die zu ignorierenden Strings fest. Die Presets fügen den Ersetzungscode für ihre Bibliothek hinzu. Siehe {2}Extraktionsvorlagen{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Dieselben Regeln gelten für die Prüfung {0}. Die Optionen {1} der Konfiguration legen den Schlüsselstil und die zu ignorierenden Strings fest. Die Presets fügen den Ersetzungscode für ihre Bibliothek hinzu. Siehe {2}Extraktionsvorlagen{/2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

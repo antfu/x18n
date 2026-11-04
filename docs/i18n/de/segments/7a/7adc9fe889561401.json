@@ -3,12 +3,16 @@
   "source": "A monorepo can hold several projects, for example a web app and a UI library, each with its own locale files. List them in the root config with {0}:",
   "text": "Ein Monorepo kann mehrere Projekte enthalten, zum Beispiel eine Web-App und eine UI-Bibliothek, jeweils mit eigenen Sprachdateien. Liste sie in der Root-Konfiguration mit {0} auf:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Monorepo kann mehrere Projekte enthalten, zum Beispiel eine Web-App und eine UI-Bibliothek, jeweils mit eigenen Sprachdateien. Liste sie in der Root-Konfiguration mit {0} auf:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset for next-translate. It reads useTranslation, getT, Trans and namespaces with a `:` separator.",
   "text": "Il preset per next-translate. Legge useTranslation, getT, Trans e i namespace con il separatore `:`.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset per next-translate. Legge useTranslation, getT, Trans e i namespace con il separatore `:`."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

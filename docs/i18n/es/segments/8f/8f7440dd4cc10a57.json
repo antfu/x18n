@@ -3,12 +3,16 @@
   "source": "The plan has a decision (a question such as \"which file gets the new key\"), and the command got no answer. This happens with {0}, or when stdin is not a terminal.",
   "text": "El plan tiene una decisión (una pregunta como \"en qué archivo se guarda la nueva clave\") y el comando no recibió respuesta. Esto ocurre con {0} o cuando stdin no es un terminal.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El plan tiene una decisión (una pregunta como \"en qué archivo se guarda la nueva clave\") y el comando no recibió respuesta. Esto ocurre con {0} o cuando stdin no es un terminal."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

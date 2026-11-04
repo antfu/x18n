@@ -3,12 +3,16 @@
   "source": "Format id for the matching files, for example {0} or {1}. Without it, the file extension picks the format.",
   "text": "ID do formato dos arquivos correspondentes, por exemplo {0} ou {1}. Sem ele, a extensão do arquivo define o formato.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ID do formato dos arquivos correspondentes, por exemplo {0} ou {1}. Sem ele, a extensão do arquivo define o formato."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

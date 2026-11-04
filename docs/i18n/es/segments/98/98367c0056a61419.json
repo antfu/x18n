@@ -3,12 +3,16 @@
   "source": "Locale codes that differ only in spelling, such as zh_CN and zh-CN.",
   "text": "Códigos de idioma que solo se diferencian en la ortografía, como zh_CN y zh-CN.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Códigos de idioma que solo se diferencian en la ortografía, como zh_CN y zh-CN."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

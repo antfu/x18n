@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}cargo-i18n{/1} with the Fluent system: the {2} and {3} crates.",
   "text": "Il preset {0} supporta {1}cargo-i18n{/1} con il sistema Fluent: i crate {2} e {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset {0} supporta {1}cargo-i18n{/1} con il sistema Fluent: i crate {2} e {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

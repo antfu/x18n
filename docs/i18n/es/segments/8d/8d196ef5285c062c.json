@@ -3,12 +3,16 @@
   "source": "In templates, the {0} attribute and {1} attributes, with an optional meaning and description:",
   "text": "En las plantillas, el atributo {0} y los atributos {1}, con un significado y una descripción opcionales:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "En las plantillas, el atributo {0} y los atributos {1}, con un significado y una descripción opcionales:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The translate calls are {0}, {1}, {2} and {3}, also from {4} and {5}. The {6} of {7} is a key too. {8} and {9} take the name of a format, not a key.",
   "text": "As chamadas de tradução são {0}, {1}, {2} e {3}, também de {4} e {5}. O {6} de {7} também é uma chave. {8} e {9} recebem o nome de um formato, não uma chave.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "As chamadas de tradução são {0}, {1}, {2} e {3}, também de {4} e {5}. O {6} de {7} também é uma chave. {8} e {9} recebem o nome de um formato, não uma chave."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

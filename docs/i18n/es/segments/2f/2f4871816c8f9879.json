@@ -3,12 +3,16 @@
   "source": "How {0} finds hard strings and makes keys.",
   "text": "Cómo encuentra {0} las cadenas codificadas y crea claves.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cómo encuentra {0} las cadenas codificadas y crea claves."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

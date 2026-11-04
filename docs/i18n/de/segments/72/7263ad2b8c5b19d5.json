@@ -3,12 +3,16 @@
   "source": "The preset for vue-i18n. It reads translate calls in script and template, v-t, i18n-t, and Vue <i18n> blocks.",
   "text": "Das Preset für vue-i18n. Es liest Übersetzungsaufrufe in Script und Template, v-t, i18n-t und Vue-<i18n>-Blöcke.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset für vue-i18n. Es liest Übersetzungsaufrufe in Script und Template, v-t, i18n-t und Vue-<i18n>-Blöcke."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

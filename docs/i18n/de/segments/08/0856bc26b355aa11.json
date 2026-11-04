@@ -3,12 +3,16 @@
   "source": "The preset for Angular's built-in i18n with @angular/localize. It reads angular.json, i18n attributes and $localize, with custom or generated ids, and the XLIFF, XMB, JSON and ARB translation files.",
   "text": "Das Preset für Angulars integrierte i18n mit @angular/localize. Es liest angular.json, i18n-Attribute und $localize, mit benutzerdefinierten oder generierten IDs, sowie die Übersetzungsdateien in XLIFF, XMB, JSON und ARB.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset für Angulars integrierte i18n mit @angular/localize. Es liest angular.json, i18n-Attribute und $localize, mit benutzerdefinierten oder generierten IDs, sowie die Übersetzungsdateien in XLIFF, XMB, JSON und ARB."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

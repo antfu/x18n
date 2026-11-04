@@ -3,12 +3,16 @@
   "source": "Adds a comment to the review thread of a message. {0} and {1} are filled in when planned.",
   "text": "Fügt dem Review-Thread einer Message einen Kommentar hinzu. {0} und {1} werden ausgefüllt, wenn sie geplant sind.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Fügt dem Review-Thread einer Message einen Kommentar hinzu. {0} und {1} werden ausgefüllt, wenn sie geplant sind."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

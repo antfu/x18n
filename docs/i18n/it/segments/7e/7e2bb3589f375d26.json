@@ -3,12 +3,16 @@
   "source": "An in-place annotation hides a key in code and shows its value in the display locale. The display locale is the locale that annotations and hovers show. It is your own choice, and it defaults to the source locale.",
   "text": "Un'annotazione in-place nasconde una chiave nel codice e ne mostra il valore nella lingua di visualizzazione. La lingua di visualizzazione è la lingua mostrata dalle annotazioni e dagli hover. La scegli tu e, per impostazione predefinita, è la lingua di origine.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un'annotazione in-place nasconde una chiave nel codice e ne mostra il valore nella lingua di visualizzazione. La lingua di visualizzazione è la lingua mostrata dalle annotazioni e dagli hover. La scegli tu e, per impostazione predefinita, è la lingua di origine."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

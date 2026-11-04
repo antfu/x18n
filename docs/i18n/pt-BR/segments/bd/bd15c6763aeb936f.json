@@ -3,12 +3,16 @@
   "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
   "text": "Simulação (dry run) de {0}: por projeto, as chaves não usadas que ele exclui, com uma localização por mensagem, as chaves não usadas que ele mantém porque chaves computadas em um escopo podem alcançá-las, e avisos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Simulação (dry run) de {0}: por projeto, as chaves não usadas que ele exclui, com uma localização por mensagem, as chaves não usadas que ele mantém porque chaves computadas em um escopo podem alcançá-las, e avisos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

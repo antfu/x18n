@@ -3,12 +3,16 @@
   "source": "URL of the JSON Schema, for validation in the editor. x18n ignores it.",
   "text": "URL des JSON Schemas für die Validierung im Editor. x18n ignoriert sie.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "URL des JSON Schemas für die Validierung im Editor. x18n ignoriert sie."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

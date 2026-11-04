@@ -3,12 +3,16 @@
   "source": "ICU MessageFormat: {0}, and plural, select and selectordinal arguments such as {1}. The {2} check reports unbalanced braces and a plural or select without an {3} case.",
   "text": "ICU MessageFormat: {0} e gli argomenti plural, select e selectordinal come {1}. Il controllo {2} segnala parentesi graffe non bilanciate e un plural o select senza un caso {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ICU MessageFormat: {0} e gli argomenti plural, select e selectordinal come {1}. Il controllo {2} segnala parentesi graffe non bilanciate e un plural o select senza un caso {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

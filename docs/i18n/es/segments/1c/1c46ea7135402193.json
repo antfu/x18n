@@ -3,12 +3,16 @@
   "source": "Change the config before it is final. Presets use this to set defaults.",
   "text": "Cambia la configuración antes de que sea definitiva. Los presets lo usan para establecer valores por defecto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cambia la configuración antes de que sea definitiva. Los presets lo usan para establecer valores por defecto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

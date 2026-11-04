@@ -3,12 +3,16 @@
   "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
   "text": "In einer Datei ist {0} ein Schlüssel, {1} ist ein Schlüssel pro Mengenform ({2}), und {3} ist ein Schlüssel pro Eintrag ({4}). Wird ein Eintrag vor dem Ende gelöscht, wird er geleert, sodass spätere Einträge ihren Index behalten. {5} ist keine message, und x18n schreibt nicht hinein. Ein Kommentar direkt über einem Eintrag ist dessen Beschreibung für Übersetzer. x18n liest und schreibt Android-Escapes ({6}, {7}, {8}, ein führendes {9}), behält Inline-Markup wie {10} bei und erhält CDATA.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In einer Datei ist {0} ein Schlüssel, {1} ist ein Schlüssel pro Mengenform ({2}), und {3} ist ein Schlüssel pro Eintrag ({4}). Wird ein Eintrag vor dem Ende gelöscht, wird er geleert, sodass spätere Einträge ihren Index behalten. {5} ist keine message, und x18n schreibt nicht hinein. Ein Kommentar direkt über einem Eintrag ist dessen Beschreibung für Übersetzer. x18n liest und schreibt Android-Escapes ({6}, {7}, {8}, ein führendes {9}), behält Inline-Markup wie {10} bei und erhält CDATA."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

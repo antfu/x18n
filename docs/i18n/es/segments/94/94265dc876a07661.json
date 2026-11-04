@@ -3,12 +3,16 @@
   "source": "Plugins to add: a package name, a path to a module or to a YAML plugin, or {0}. Paths are relative to the config file.",
   "text": "Plugins que se añaden: un nombre de paquete, una ruta a un módulo o a un plugin YAML, o {0}. Las rutas son relativas al archivo de configuración.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Plugins que se añaden: un nombre de paquete, una ruta a un módulo o a un plugin YAML, o {0}. Las rutas son relativas al archivo de configuración."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} and {1} are translate calls in JS and TS:",
   "text": "{0} e {1} sono chiamate di traduzione in JS e TS:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} e {1} sono chiamate di traduzione in JS e TS:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

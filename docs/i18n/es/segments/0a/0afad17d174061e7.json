@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
   "text": "Claves encontradas por su valor en cualquier idioma, con coincidencia aproximada salvo que uses {0}, junto con sus usos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Claves encontradas por su valor en cualquier idioma, con coincidencia aproximada salvo que uses {0}, junto con sus usos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

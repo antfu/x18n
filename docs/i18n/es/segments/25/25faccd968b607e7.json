@@ -3,12 +3,16 @@
   "source": "A project changed. {0} lists the keys that changed.",
   "text": "Un proyecto ha cambiado. {0} lista las claves que han cambiado.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un proyecto ha cambiado. {0} lista las claves que han cambiado."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

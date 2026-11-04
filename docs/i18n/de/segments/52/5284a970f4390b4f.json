@@ -3,12 +3,16 @@
   "source": ".NET resources. Each string {0} is a key; files and images are skipped. Its {1} describes it.",
   "text": ".NET-Ressourcen. Jeder String {0} ist ein Schlüssel; Dateien und Bilder werden übersprungen. Sein {1} beschreibt ihn.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": ".NET-Ressourcen. Jeder String {0} ist ein Schlüssel; Dateien und Bilder werden übersprungen. Sein {1} beschreibt ihn."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

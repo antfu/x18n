@@ -3,12 +3,16 @@
   "source": "A project directory can have its own {0}. The project inherits the options of the root config, and its own config overrides them. The rules are the same as for one project: see {1}How x18n merges the config{/1}.",
   "text": "Un directorio de proyecto puede tener su propio {0}. El proyecto hereda las opciones de la configuración raíz, y su propia configuración las sobrescribe. Las reglas son las mismas que para un solo proyecto: consulta {1}Cómo x18n combina la configuración{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un directorio de proyecto puede tener su propio {0}. El proyecto hereda las opciones de la configuración raíz, y su propia configuración las sobrescribe. Las reglas son las mismas que para un solo proyecto: consulta {1}Cómo x18n combina la configuración{/1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

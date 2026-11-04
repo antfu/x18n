@@ -3,12 +3,16 @@
   "source": "The value of a message in a related locale is a good start for a translation: {0} when translating to {1}, {2} when translating to {3}. The prompt shows up to two of them under the source value:",
   "text": "O valor de uma mensagem em um idioma relacionado é um bom ponto de partida para uma tradução: {0} ao traduzir para {1}, {2} ao traduzir para {3}. O prompt mostra até dois deles abaixo do valor de origem:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O valor de uma mensagem em um idioma relacionado é um bom ponto de partida para uma tradução: {0} ao traduzir para {1}, {2} ao traduzir para {3}. O prompt mostra até dois deles abaixo do valor de origem:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "to keep a terms table: the {0} in the config. The agent reads it before it translates, proposes new terms with translations, adds the ones you approve, and turns on the {1} check,",
   "text": "di mantenere una tabella dei termini: {0} nella configurazione. L'agente la legge prima di tradurre, propone nuovi termini con le relative traduzioni, aggiunge quelli che approvi e attiva il controllo {1},",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "di mantenere una tabella dei termini: {0} nella configurazione. L'agente la legge prima di tradurre, propone nuovi termini con le relative traduzioni, aggiunge quelli che approvi e attiva il controllo {1},"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

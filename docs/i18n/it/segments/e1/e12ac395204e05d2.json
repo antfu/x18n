@@ -3,12 +3,16 @@
   "source": "The language server works in any editor with an LSP client. See {0}editor setup{/0}.",
   "text": "Il language server funziona in qualsiasi editor con un client LSP. Consulta la {0}configurazione dell'editor{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il language server funziona in qualsiasi editor con un client LSP. Consulta la {0}configurazione dell'editor{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0}: x18n keeps resolved reviews, and {1} hides them. Key descriptions in the review file are dropped too. The command prints a note for each.",
   "text": "{0}: x18n behält gelöste Reviews, und {1} blendet sie aus. Schlüsselbeschreibungen in der Review-Datei entfallen ebenfalls. Der Befehl gibt zu jedem einen Hinweis aus.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: x18n behält gelöste Reviews, und {1} blendet sie aus. Schlüsselbeschreibungen in der Review-Datei entfallen ebenfalls. Der Befehl gibt zu jedem einen Hinweis aus."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

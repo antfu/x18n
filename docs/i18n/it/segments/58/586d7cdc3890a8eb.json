@@ -3,12 +3,16 @@
   "source": "The preset for i18n-js (ruby-i18n-js). It reads I18n.t and i18n.t calls and %{name} placeholders.",
   "text": "Il preset per i18n-js (ruby-i18n-js). Legge le chiamate a I18n.t e i18n.t e i segnaposto %{name}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset per i18n-js (ruby-i18n-js). Legge le chiamate a I18n.t e i18n.t e i segnaposto %{name}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

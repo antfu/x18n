@@ -3,12 +3,16 @@
   "source": "The fallback preset. It adds the default extraction templates for plain JS, TS, JSX, Vue, Svelte and Astro files.",
   "text": "O preset de fallback. Ele adiciona os templates de extração padrão para arquivos JS, TS, JSX, Vue, Svelte e Astro simples.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset de fallback. Ele adiciona os templates de extração padrão para arquivos JS, TS, JSX, Vue, Svelte e Astro simples."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

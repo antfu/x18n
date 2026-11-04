@@ -3,12 +3,16 @@
   "source": "The {0}glossary{/0} lists every name in one table.",
   "text": "O {0}glossário{/0} lista todos os nomes em uma única tabela.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O {0}glossário{/0} lista todos os nomes em uma única tabela."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

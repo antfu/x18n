@@ -3,12 +3,16 @@
   "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
   "text": "Qué argumento contiene la clave: un índice (por defecto {0}) o {1} para una propiedad de un argumento de tipo objeto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Qué argumento contiene la clave: un índice (por defecto {0}) o {1} para una propiedad de un argumento de tipo objeto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

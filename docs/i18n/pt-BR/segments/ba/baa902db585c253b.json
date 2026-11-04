@@ -3,12 +3,16 @@
   "source": "A package can also ship a YAML plugin file. Users then list its path:",
   "text": "Um pacote também pode distribuir um arquivo de plugin YAML. Os usuários então listam o caminho dele:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um pacote também pode distribuir um arquivo de plugin YAML. Os usuários então listam o caminho dele:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

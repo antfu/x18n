@@ -3,12 +3,16 @@
   "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
   "text": "los demás idiomas de la misma lengua: primero los que comparten más subetiquetas con el destino ({0} y {1} antes que {2} para {3}), después los códigos más cortos y, por último, por orden alfabético.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "los demás idiomas de la misma lengua: primero los que comparten más subetiquetas con el destino ({0} y {1} antes que {2} para {3}), después los códigos más cortos y, por último, por orden alfabético."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset applies when {0} requires {1}. The preset is exclusive: when it applies, x18n tests no preset after it.",
   "text": "Das Preset greift, wenn {0} {1} voraussetzt. Das Preset ist exklusiv: Wenn es greift, testet x18n kein Preset danach.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset greift, wenn {0} {1} voraussetzt. Das Preset ist exklusiv: Wenn es greift, testet x18n kein Preset danach."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

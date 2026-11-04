@@ -3,12 +3,16 @@
   "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
   "text": "Woher ein im Code geschriebener Standardwert stammt; der erste gefundene String gewinnt. Bei Factories der der zurückgegebenen Funktionen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Woher ein im Code geschriebener Standardwert stammt; der erste gefundene String gewinnt. Bei Factories der der zurückgegebenen Funktionen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

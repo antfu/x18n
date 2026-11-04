@@ -3,12 +3,16 @@
   "source": "The {0} attribute picks the format: {1} (the default), {2}, {3} or {4}. Each block and locale is a resource, so edits from x18n write back into the block.",
   "text": "L'attributo {0} sceglie il formato: {1} (il valore predefinito), {2}, {3} o {4}. Ogni blocco e ogni lingua è una risorsa, quindi le modifiche di x18n vengono riscritte nel blocco.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "L'attributo {0} sceglie il formato: {1} (il valore predefinito), {2}, {3} o {4}. Ogni blocco e ogni lingua è una risorsa, quindi le modifiche di x18n vengono riscritte nel blocco."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

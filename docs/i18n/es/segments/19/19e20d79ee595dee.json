@@ -3,12 +3,16 @@
   "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
   "text": "Llamadas de traducción que se añaden a las de los presets. Consulta {0}Sintaxis admitida{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Llamadas de traducción que se añaden a las de los presets. Consulta {0}Sintaxis admitida{/0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

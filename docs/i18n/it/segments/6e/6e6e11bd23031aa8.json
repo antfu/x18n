@@ -3,12 +3,16 @@
   "source": "The name of a project is its path from the root, such as {0}, unless its config sets {1}. {2} lists the names.",
   "text": "Il nome di un progetto è il suo percorso dalla root, ad esempio {0}, a meno che la sua configurazione non imposti {1}. {2} elenca i nomi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il nome di un progetto è il suo percorso dalla root, ad esempio {0}, a meno che la sua configurazione non imposti {1}. {2} elenca i nomi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

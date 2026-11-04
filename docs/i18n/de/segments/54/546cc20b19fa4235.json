@@ -3,12 +3,16 @@
   "source": "List commands take {0} and return {1}. Pass it as {2} to get the next page. This keeps the output of a large project small enough for the context of an agent:",
   "text": "Listenbefehle akzeptieren {0} und geben {1} zurück. Übergib ihn als {2}, um die nächste Seite zu erhalten. So bleibt die Ausgabe eines großen Projekts klein genug für den Kontext eines agent:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Listenbefehle akzeptieren {0} und geben {1} zurück. Übergib ihn als {2}, um die nächste Seite zu erhalten. So bleibt die Ausgabe eines großen Projekts klein genug für den Kontext eines agent:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

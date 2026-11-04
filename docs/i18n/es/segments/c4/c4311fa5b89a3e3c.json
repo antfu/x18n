@@ -3,12 +3,16 @@
   "source": "Rename a key (or every key under a parent) in all locales, and its usages in code unless {0}. Without {1} it returns the plan (files to change, decisions, warnings); call again with {2} to apply it.",
   "text": "Renombra una clave (o todas las claves bajo una clave padre) en todos los idiomas, y sus usos en el código salvo que indiques {0}. Sin {1} devuelve el plan (archivos que cambiar, decisiones, advertencias); vuelve a llamar con {2} para aplicarlo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Renombra una clave (o todas las claves bajo una clave padre) en todos los idiomas, y sus usos en el código salvo que indiques {0}. Sin {1} devuelve el plan (archivos que cambiar, decisiones, advertencias); vuelve a llamar con {2} para aplicarlo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

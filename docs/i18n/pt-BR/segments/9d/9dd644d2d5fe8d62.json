@@ -3,12 +3,16 @@
   "source": "{0}, {1} and a type on the variable ({2}) are fine. When x18n adds or removes a key, it rewrites only the object and keeps the rest of the file. A new locale file that x18n writes is a plain {3}, without the type.",
   "text": "{0}, {1} e um tipo na variável ({2}) são aceitos. Quando o x18n adiciona ou remove uma chave, ele reescreve apenas o objeto e mantém o restante do arquivo. Um novo arquivo de idioma que o x18n escreve é um {3} simples, sem o tipo.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}, {1} e um tipo na variável ({2}) são aceitos. Quando o x18n adiciona ou remove uma chave, ele reescreve apenas o objeto e mantém o restante do arquivo. Um novo arquivo de idioma que o x18n escreve é um {3} simples, sem o tipo."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

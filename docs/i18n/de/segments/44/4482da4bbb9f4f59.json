@@ -3,12 +3,16 @@
   "source": "{0} is the URL of the {1}error page{/1} of the code.",
   "text": "{0} ist die URL der {1}Fehlerseite{/1} des Codes.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} ist die URL der {1}Fehlerseite{/1} des Codes."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "x18n looks for these file names, in this order. The first match wins:",
   "text": "x18n sucht in dieser Reihenfolge nach diesen Dateinamen. Der erste Treffer gewinnt:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n sucht in dieser Reihenfolge nach diesen Dateinamen. Der erste Treffer gewinnt:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

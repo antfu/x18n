@@ -3,12 +3,16 @@
   "source": "A placeholder syntax tells x18n how placeholders look in messages. The {0} check and {1} compare the placeholders of each translation with the source value. Translate prompts list them.",
   "text": "Una sintassi dei segnaposto indica a x18n come appaiono i segnaposto nei messaggi. Il controllo {0} e {1} confrontano i segnaposto di ogni traduzione con il valore di origine. I prompt di traduzione li elencano.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Una sintassi dei segnaposto indica a x18n come appaiono i segnaposto nei messaggi. Il controllo {0} e {1} confrontano i segnaposto di ogni traduzione con il valore di origine. I prompt di traduzione li elencano."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

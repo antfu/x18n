@@ -3,12 +3,16 @@
   "source": "With another separator, the project is namespaced. Keys then have the form {0}, for example {1}. i18next works this way, with {2} as the separator and {3} as the default namespace.",
   "text": "Bei einem anderen Trennzeichen ist das Projekt in Namespaces unterteilt. Schlüssel haben dann die Form {0}, zum Beispiel {1}. i18next funktioniert so, mit {2} als Trennzeichen und {3} als Standard-Namespace.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Bei einem anderen Trennzeichen ist das Projekt in Namespaces unterteilt. Schlüssel haben dann die Form {0}, zum Beispiel {1}. i18next funktioniert so, mit {2} als Trennzeichen und {3} als Standard-Namespace."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

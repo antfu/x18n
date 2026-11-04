@@ -3,12 +3,16 @@
   "source": "Only one store is active: the last one, so a plugin's store replaces the built-in one.",
   "text": "Solo hay un store activo: el último, de modo que el store de un plugin reemplaza al integrado.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Solo hay un store activo: el último, de modo que el store de un plugin reemplaza al integrado."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

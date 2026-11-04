@@ -3,12 +3,16 @@
   "source": "Run {0} to see which config file x18n picked.",
   "text": "Execute {0} para ver qual arquivo de configuração o x18n escolheu.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Execute {0} para ver qual arquivo de configuração o x18n escolheu."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

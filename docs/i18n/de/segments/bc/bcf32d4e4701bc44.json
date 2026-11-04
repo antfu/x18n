@@ -3,12 +3,16 @@
   "source": "A pattern without {0}, such as {1}, holds the source locale. To give its files another locale, set {2}:",
   "text": "Ein Muster ohne {0}, wie {1}, enthält die Quellsprache. Setze {2}, um den Dateien eine andere Sprache zuzuweisen:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Muster ohne {0}, wie {1}, enthält die Quellsprache. Setze {2}, um den Dateien eine andere Sprache zuzuweisen:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

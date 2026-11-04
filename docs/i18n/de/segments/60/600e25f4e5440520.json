@@ -3,12 +3,16 @@
   "source": "The preset applies when the project has an {0} and a {1} folder, unless the root {2} depends on React Native, Expo, Capacitor, Cordova or NativeScript, or there is a {3}: those apps have an {4} folder whose strings are not its messages. A {5} kept only for tooling does not stop detection. Otherwise, name it in the config:",
   "text": "Das Preset greift, wenn das Projekt einen Ordner {0} und einen Ordner {1} hat, es sei denn, die {2} im Root-Verzeichnis hängt von React Native, Expo, Capacitor, Cordova oder NativeScript ab, oder es gibt eine {3}: Diese Apps haben einen Ordner {4}, dessen Strings nicht ihre messages sind. Eine {5}, die nur für Tooling gepflegt wird, verhindert die Erkennung nicht. Andernfalls gib es in der Konfiguration explizit an:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset greift, wenn das Projekt einen Ordner {0} und einen Ordner {1} hat, es sei denn, die {2} im Root-Verzeichnis hängt von React Native, Expo, Capacitor, Cordova oder NativeScript ab, oder es gibt eine {3}: Diese Apps haben einen Ordner {4}, dessen Strings nicht ihre messages sind. Eine {5}, die nur für Tooling gepflegt wird, verhindert die Erkennung nicht. Andernfalls gib es in der Konfiguration explizit an:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

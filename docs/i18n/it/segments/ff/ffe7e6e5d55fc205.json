@@ -3,12 +3,16 @@
   "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
   "text": "Chiavi escluse da tutti i controlli: glob, oppure espressioni regolari verificate sull'intera chiave ({0} quando ha un namespace).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chiavi escluse da tutti i controlli: glob, oppure espressioni regolari verificate sull'intera chiave ({0} quando ha un namespace)."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

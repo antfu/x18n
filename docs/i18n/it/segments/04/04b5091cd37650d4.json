@@ -3,12 +3,16 @@
   "source": "A user-facing layer on the core: CLI, LSP, extension, UI, MCP.",
   "text": "Un livello rivolto all'utente costruito sul core: CLI, LSP, estensione, UI, MCP.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un livello rivolto all'utente costruito sul core: CLI, LSP, estensione, UI, MCP."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

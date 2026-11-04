@@ -3,12 +3,16 @@
   "source": "This workflow checks every push and pull request. The {0} reporter turns each diagnostic into an annotation on the changed line of the pull request. The {1} reporter prints the usual output to the log:",
   "text": "Dieser Workflow prüft jeden Push und jeden Pull Request. Der Reporter {0} macht aus jeder Diagnose eine Annotation an der geänderten Zeile des Pull Requests. Der Reporter {1} gibt die übliche Ausgabe im Log aus:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Dieser Workflow prüft jeden Push und jeden Pull Request. Der Reporter {0} macht aus jeder Diagnose eine Annotation an der geänderten Zeile des Pull Requests. Der Reporter {1} gibt die übliche Ausgabe im Log aus:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

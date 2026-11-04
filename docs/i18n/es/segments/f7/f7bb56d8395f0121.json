@@ -3,12 +3,16 @@
   "source": "Each prompt holds at most 50 messages ({0}), the code around at most two usages per message, at most five style examples and at most two related values per message. A description or a related value longer than 300 characters is cut.",
   "text": "Cada prompt contiene como máximo 50 mensajes ({0}), el código circundante de como máximo dos usos por mensaje, como máximo cinco ejemplos de estilo y como máximo dos valores relacionados por mensaje. Se recorta una descripción o un valor relacionado de más de 300 caracteres.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cada prompt contiene como máximo 50 mensajes ({0}), el código circundante de como máximo dos usos por mensaje, como máximo cinco ejemplos de estilo y como máximo dos valores relacionados por mensaje. Se recorta una descripción o un valor relacionado de más de 300 caracteres."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

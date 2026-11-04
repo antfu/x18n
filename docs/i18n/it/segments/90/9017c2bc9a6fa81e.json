@@ -3,12 +3,16 @@
   "source": "One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, history provider, review store.",
   "text": "Un tipo di contributo: lettore di manifest, ricercatore di lingue, formato, scanner, estrattore, controllo, reporter, sintassi dei segnaposto, provider della cronologia, archivio delle revisioni.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un tipo di contributo: lettore di manifest, ricercatore di lingue, formato, scanner, estrattore, controllo, reporter, sintassi dei segnaposto, provider della cronologia, archivio delle revisioni."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

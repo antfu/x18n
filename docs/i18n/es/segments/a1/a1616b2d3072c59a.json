@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0} or {1}. x18n still tests the presets after it, such as {2} and {3}.",
   "text": "El preset se aplica cuando el proyecto depende de {0} o {1}. x18n sigue comprobando los presets posteriores, como {2} y {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El preset se aplica cuando el proyecto depende de {0} o {1}. x18n sigue comprobando los presets posteriores, como {2} y {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

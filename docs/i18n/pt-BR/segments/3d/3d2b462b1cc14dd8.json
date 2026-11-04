@@ -3,12 +3,16 @@
   "source": "The ranges and values for in-place annotations in a source file.",
   "text": "Os intervalos e valores das anotações in-place em um arquivo de código-fonte.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Os intervalos e valores das anotações in-place em um arquivo de código-fonte."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

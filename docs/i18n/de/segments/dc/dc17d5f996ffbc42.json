@@ -3,12 +3,16 @@
   "source": "Adds the missing keys of each locale with empty values. {0} copies the source value. {1} limits it.",
   "text": "Fügt die fehlenden Schlüssel jeder Sprache mit leeren Werten hinzu. {0} kopiert den Quellwert. {1} schränkt das ein.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Fügt die fehlenden Schlüssel jeder Sprache mit leeren Werten hinzu. {0} kopiert den Quellwert. {1} schränkt das ein."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\".",
   "text": "In Annotationen angezeigte Sprache. Leer bedeutet die Quellsprache. „x18n: Set Display Locale“ überschreibt sie pro Workspace, ohne Einstellungen zu schreiben, bis sich diese Einstellung ändert oder du „Default“ wählst.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In Annotationen angezeigte Sprache. Leer bedeutet die Quellsprache. „x18n: Set Display Locale“ überschreibt sie pro Workspace, ohne Einstellungen zu schreiben, bis sich diese Einstellung ändert oder du „Default“ wählst."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Deletes a key in every locale. {0} limits it. Code is not changed.",
   "text": "Elimina una clave en todos los idiomas. {0} lo limita. El código no se modifica.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Elimina una clave en todos los idiomas. {0} lo limita. El código no se modifica."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

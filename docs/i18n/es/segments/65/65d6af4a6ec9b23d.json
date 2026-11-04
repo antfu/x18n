@@ -3,12 +3,16 @@
   "source": "{0} found errors or too many warnings, {1} rejected values, or the command failed with one of these errors.",
   "text": "{0} encontró errores o demasiadas advertencias, {1} valores rechazados, o el comando falló con uno de estos errores.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} encontró errores o demasiadas advertencias, {1} valores rechazados, o el comando falló con uno de estos errores."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

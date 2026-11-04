@@ -3,12 +3,16 @@
   "source": "A prefix usage is a usage with a computed key that starts with a static part. {0} is a prefix usage with the prefix {1}. x18n cannot know the value of {2}, so every key under {3} counts as possibly used. Neither {4} nor {5} is reported as unused.",
   "text": "Un uso con prefijo es un uso con una clave calculada que empieza con una parte estática. {0} es un uso con prefijo, con el prefijo {1}. x18n no puede conocer el valor de {2}, así que todas las claves bajo {3} se consideran posiblemente usadas. Ni {4} ni {5} se reportan como sin usar.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un uso con prefijo es un uso con una clave calculada que empieza con una parte estática. {0} es un uso con prefijo, con el prefijo {1}. x18n no puede conocer el valor de {2}, así que todas las claves bajo {3} se consideran posiblemente usadas. Ni {4} ni {5} se reportan como sin usar."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

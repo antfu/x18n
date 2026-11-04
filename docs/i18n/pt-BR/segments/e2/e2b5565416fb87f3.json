@@ -3,12 +3,16 @@
   "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
   "text": "Qual argumento contém a chave: um índice (padrão {0}) ou {1} para uma propriedade de um argumento de objeto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Qual argumento contém a chave: um índice (padrão {0}) ou {1} para uma propriedade de um argumento de objeto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

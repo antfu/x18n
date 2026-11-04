@@ -3,12 +3,16 @@
   "source": "Project root (default: nearest config upward from the cwd)",
   "text": "Radice del progetto (predefinito: la configurazione più vicina risalendo dalla cwd)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Radice del progetto (predefinito: la configurazione più vicina risalendo dalla cwd)"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

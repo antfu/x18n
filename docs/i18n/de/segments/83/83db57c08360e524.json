@@ -3,12 +3,16 @@
   "source": "Use {0} as the project root. x18n does not look in parent directories.",
   "text": "Verwende {0} als Projektwurzel. x18n sucht nicht in übergeordneten Verzeichnissen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Verwende {0} als Projektwurzel. x18n sucht nicht in übergeordneten Verzeichnissen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

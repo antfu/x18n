@@ -3,12 +3,16 @@
   "source": "The output lists the locales with their coverage, and the counts of resources, keys and usages.",
   "text": "L'output elenca le lingue con la relativa copertura e il numero di risorse, chiavi e utilizzi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "L'output elenca le lingue con la relativa copertura e il numero di risorse, chiavi e utilizzi."
   },
-  "updatedAt": "2026-11-04T05:47:19.474Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

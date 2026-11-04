@@ -3,12 +3,16 @@
   "source": "Apply the plan. Without it, the tool only returns the plan.",
   "text": "Wendet den Plan an. Ohne diese Option gibt das Tool nur den Plan zurück.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wendet den Plan an. Ohne diese Option gibt das Tool nur den Plan zurück."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

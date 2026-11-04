@@ -3,12 +3,16 @@
   "source": "The preset for @solid-primitives/i18n. It reads t calls in Solid components and scripts, and {{name}} placeholders.",
   "text": "Das preset für @solid-primitives/i18n. Es liest t-Aufrufe in Solid-Komponenten und Skripten sowie {{name}}-Platzhalter.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das preset für @solid-primitives/i18n. Es liest t-Aufrufe in Solid-Komponenten und Skripten sowie {{name}}-Platzhalter."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

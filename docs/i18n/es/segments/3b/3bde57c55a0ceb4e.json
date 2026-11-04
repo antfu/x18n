@@ -3,12 +3,16 @@
   "source": "These values replace what the preset finds in the init code. The x18n config wins over both.",
   "text": "Estos valores sustituyen lo que el preset encuentra en el código de inicialización. La configuración de x18n prevalece sobre ambos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Estos valores sustituyen lo que el preset encuentra en el código de inicialización. La configuración de x18n prevalece sobre ambos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

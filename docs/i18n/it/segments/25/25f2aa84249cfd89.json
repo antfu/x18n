@@ -3,12 +3,16 @@
   "source": "How to write results: the commands that write and check the translations.",
   "text": "Come scrivere i risultati: i comandi che scrivono e controllano le traduzioni.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Come scrivere i risultati: i comandi che scrivono e controllano le traduzioni."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

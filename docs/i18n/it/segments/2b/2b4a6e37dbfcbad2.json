@@ -3,12 +3,16 @@
   "source": "Each entry of {0} is a glob of directories, relative to the root config. Each matching directory is one project.",
   "text": "Ogni voce di {0} è un glob di directory, relativo alla configurazione root. Ogni directory corrispondente è un progetto.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ogni voce di {0} è un glob di directory, relativo alla configurazione root. Ogni directory corrispondente è un progetto."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

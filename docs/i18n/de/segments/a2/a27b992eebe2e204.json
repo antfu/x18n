@@ -3,12 +3,16 @@
   "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
   "text": "Die Prüfung ist aktiv, wenn {0} auf {1} gesetzt ist oder wenn du in {2} einen Schweregrad dafür festlegst. Führe {3} aus, um die gemeldeten Strings in Schlüssel umzuwandeln.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Prüfung ist aktiv, wenn {0} auf {1} gesetzt ist oder wenn du in {2} einen Schweregrad dafür festlegst. Führe {3} aus, um die gemeldeten Strings in Schlüssel umzuwandeln."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

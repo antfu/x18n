@@ -3,12 +3,16 @@
   "source": "The preset for es2015-i18n-tag. It reads i18n tagged templates in JS, TS and Vue files.",
   "text": "O preset para es2015-i18n-tag. Ele lê tagged templates i18n em arquivos JS, TS e Vue.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset para es2015-i18n-tag. Ele lê tagged templates i18n em arquivos JS, TS e Vue."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

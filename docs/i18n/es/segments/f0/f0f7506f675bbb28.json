@@ -3,12 +3,16 @@
   "source": "Locales with coverage, counts, diagnostics by check and detected presets. Call it first.",
   "text": "Idiomas con su cobertura, recuentos, diagnósticos por comprobación y presets detectados. Llámala primero.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Idiomas con su cobertura, recuentos, diagnósticos por comprobación y presets detectados. Llámala primero."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

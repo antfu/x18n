@@ -3,12 +3,16 @@
   "source": "No format for resource. Map the extension in `formats`, or add a format plugin.",
   "text": "Nessun formato per la risorsa. Associa l'estensione in `formats` oppure aggiungi un plugin di formato.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nessun formato per la risorsa. Associa l'estensione in `formats` oppure aggiungi un plugin di formato."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

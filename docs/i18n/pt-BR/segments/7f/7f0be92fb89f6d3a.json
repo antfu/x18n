@@ -3,12 +3,16 @@
   "source": "Lingui keys are often the source message itself. The macros and calls below are usages of {0} and {1}:",
   "text": "As chaves do Lingui costumam ser a própria mensagem de origem. As macros e chamadas abaixo são usos de {0} e {1}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "As chaves do Lingui costumam ser a própria mensagem de origem. As macros e chamadas abaixo são usos de {0} e {1}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

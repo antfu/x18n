@@ -3,12 +3,16 @@
   "source": "The output lists the locales with their coverage, and the counts of resources, keys and usages.",
   "text": "A saída lista os idiomas com sua cobertura e as contagens de recursos, chaves e usos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A saída lista os idiomas com sua cobertura e as contagens de recursos, chaves e usos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

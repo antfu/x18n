@@ -3,12 +3,16 @@
   "source": "Without a config file, x18n reads the project's i18n-ally settings ({0} in {1}, and {2}), so an i18n-ally project works with no changes. The settings act as defaults: detection still adds what they leave out, and when their locale paths match no file, x18n looks for locale directories itself. Without i18n-ally settings either, x18n runs on detection alone. {3} prints what it uses: the config file, {4}, or {5}.",
   "text": "Senza un file di configurazione, x18n legge le impostazioni i18n-ally del progetto ({0} in {1} e {2}), quindi un progetto i18n-ally funziona senza modifiche. Le impostazioni fungono da valori predefiniti: il rilevamento aggiunge comunque ciò che esse non specificano e, quando i percorsi delle lingue non corrispondono a nessun file, x18n cerca da solo le directory delle lingue. Anche senza impostazioni i18n-ally, x18n funziona solo con il rilevamento. {3} mostra ciò che usa: il file di configurazione, {4} o {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Senza un file di configurazione, x18n legge le impostazioni i18n-ally del progetto ({0} in {1} e {2}), quindi un progetto i18n-ally funziona senza modifiche. Le impostazioni fungono da valori predefiniti: il rilevamento aggiunge comunque ciò che esse non specificano e, quando i percorsi delle lingue non corrispondono a nessun file, x18n cerca da solo le directory delle lingue. Anche senza impostazioni i18n-ally, x18n funziona solo con il rilevamento. {3} mostra ciò che usa: il file di configurazione, {4} o {5}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

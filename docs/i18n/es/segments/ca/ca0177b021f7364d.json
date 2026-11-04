@@ -3,12 +3,16 @@
   "source": "the \"Copy Translate Prompt\" and \"Translate with Agent\" commands and the hover links in {0}VS Code{/0},",
   "text": "los comandos \"Copy Translate Prompt\" y \"Translate with Agent\" y los enlaces al pasar el cursor en {0}VS Code{/0},",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "los comandos \"Copy Translate Prompt\" y \"Translate with Agent\" y los enlaces al pasar el cursor en {0}VS Code{/0},"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

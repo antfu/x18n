@@ -3,12 +3,16 @@
   "source": "Single braces: {0}. {1} is always available, as {2} passes it.",
   "text": "Einfache geschweifte Klammern: {0}. {1} ist immer verfügbar, da {2} es übergibt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Einfache geschweifte Klammern: {0}. {1} ist immer verfügbar, da {2} es übergibt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

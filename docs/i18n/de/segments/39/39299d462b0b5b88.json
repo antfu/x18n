@@ -3,12 +3,16 @@
   "source": "The check reads the {0} config. For each term in a source value, it expects the target value to hold the translation of the term, or the term itself when {1} is {2}. A term and a translation match as whole words, so \"Home\" does not match \"Homepage\".",
   "text": "Die Prüfung liest die {0}-Konfiguration. Für jeden Begriff in einem Quellwert erwartet sie, dass der Zielwert die Übersetzung des Begriffs enthält, oder den Begriff selbst, wenn {1} {2} ist. Ein Begriff und eine Übersetzung stimmen als ganze Wörter überein, sodass „Home“ nicht zu „Homepage“ passt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Prüfung liest die {0}-Konfiguration. Für jeden Begriff in einem Quellwert erwartet sie, dass der Zielwert die Übersetzung des Begriffs enthält, oder den Begriff selbst, wenn {1} {2} ist. Ein Begriff und eine Übersetzung stimmen als ganze Wörter überein, sodass „Home“ nicht zu „Homepage“ passt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "In TS and JS files, these names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. A call on {8} counts too:",
   "text": "En los archivos TS y JS, estos nombres cuentan como llamadas de traducción: {0}, {1}, {2}, {3}, {4}, {5}, {6} y {7}. Una llamada sobre {8} también cuenta:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "En los archivos TS y JS, estos nombres cuentan como llamadas de traducción: {0}, {1}, {2}, {3}, {4}, {5}, {6} y {7}. Una llamada sobre {8} también cuenta:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

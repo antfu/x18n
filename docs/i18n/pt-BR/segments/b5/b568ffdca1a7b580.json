@@ -3,12 +3,16 @@
   "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}.",
   "text": "O formato {0} lê o atributo de uma mensagem como uma chave própria: {1} na mensagem {2} é a chave {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O formato {0} lê o atributo de uma mensagem como uma chave própria: {1} na mensagem {2} é a chave {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

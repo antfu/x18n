@@ -3,12 +3,16 @@
   "source": "In {0}, {1}, {2} and {3} templates, the preset reads the same calls, as in Jinja {4}, and the Django tags {5} and {6}, also with {7} or {8}.",
   "text": "Em templates {0}, {1}, {2} e {3}, o preset lê as mesmas chamadas, como no Jinja {4}, e as tags {5} e {6} do Django, também com {7} ou {8}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Em templates {0}, {1}, {2} e {3}, o preset lê as mesmas chamadas, como no Jinja {4}, e as tags {5} e {6} do Django, também com {7} ou {8}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

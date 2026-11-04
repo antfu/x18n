@@ -3,12 +3,16 @@
   "source": "Attribute names whose values are never extracted, even text ones such as {0}.",
   "text": "Nomes de atributos cujos valores nunca são extraídos, mesmo os de texto, como {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nomes de atributos cujos valores nunca são extraídos, mesmo os de texto, como {0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

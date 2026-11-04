@@ -3,12 +3,16 @@
   "source": "Skip the files that {0} files ignore. Default {1}. Set {2} to scan a checkout that git ignores, such as a clone of the sources in a translations repository.",
   "text": "Überspringe die Dateien, die {0}-Dateien ignorieren. Standard: {1}. Setze {2}, um einen Checkout zu durchsuchen, den Git ignoriert, zum Beispiel einen Klon der Quellen in einem Übersetzungs-Repository.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Überspringe die Dateien, die {0}-Dateien ignorieren. Standard: {1}. Setze {2}, um einen Checkout zu durchsuchen, den Git ignoriert, zum Beispiel einen Klon der Quellen in einem Übersetzungs-Repository."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

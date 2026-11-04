@@ -3,12 +3,16 @@
   "source": "The {0} preset applies to every project. It comes last in the detection order, so the presets of libraries come first.",
   "text": "Das preset {0} gilt für jedes Projekt. Es steht in der Erkennungsreihenfolge ganz am Ende, daher kommen die presets der Bibliotheken zuerst.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das preset {0} gilt für jedes Projekt. Es steht in der Erkennungsreihenfolge ganz am Ende, daher kommen die presets der Bibliotheken zuerst."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

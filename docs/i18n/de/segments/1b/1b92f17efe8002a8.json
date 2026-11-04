@@ -3,12 +3,16 @@
   "source": "A translation drops a placeholder, so {0} becomes {1}.",
   "text": "Eine Übersetzung lässt einen Platzhalter weg, sodass aus {0} {1} wird.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Eine Übersetzung lässt einen Platzhalter weg, sodass aus {0} {1} wird."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

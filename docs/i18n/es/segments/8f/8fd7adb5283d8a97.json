@@ -3,12 +3,16 @@
   "source": "The best-matching locale, source first on ties.",
   "text": "El idioma con mejor coincidencia, con el idioma de origen primero en caso de empate.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El idioma con mejor coincidencia, con el idioma de origen primero en caso de empate."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

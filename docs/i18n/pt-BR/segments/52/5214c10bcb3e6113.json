@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}laravel-vue-i18n{/1}, which loads the Laravel translation files in Vue.",
   "text": "O preset {0} oferece suporte ao {1}laravel-vue-i18n{/1}, que carrega os arquivos de tradução do Laravel no Vue.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset {0} oferece suporte ao {1}laravel-vue-i18n{/1}, que carrega os arquivos de tradução do Laravel no Vue."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

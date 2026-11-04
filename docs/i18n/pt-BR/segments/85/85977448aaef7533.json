@@ -3,12 +3,16 @@
   "source": "gettext catalogs. Each {0} is a key. Extracted ({1}) and translator ({2}) comments describe it. A {3} entry needs review.",
   "text": "Catálogos gettext. Cada {0} é uma chave. Comentários extraídos ({1}) e de tradutor ({2}) a descrevem. Uma entrada {3} precisa de revisão.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Catálogos gettext. Cada {0} é uma chave. Comentários extraídos ({1}) e de tradutor ({2}) a descrevem. Uma entrada {3} precisa de revisão."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

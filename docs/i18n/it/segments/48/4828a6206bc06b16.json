@@ -3,12 +3,16 @@
   "source": "{0} find usages in source files. A scanner has an {1}, the file {2} it reads ({3} for every file), and {4}. {5} holds the call specs of the project. The result holds:",
   "text": "{0} trovano gli utilizzi nei file sorgente. Uno scanner ha un {1}, i file {2} che legge ({3} per ogni file) e {4}. {5} contiene le specifiche di chiamata del progetto. Il risultato contiene:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} trovano gli utilizzi nei file sorgente. Uno scanner ha un {1}, i file {2} che legge ({3} per ogni file) e {4}. {5} contiene le specifiche di chiamata del progetto. Il risultato contiene:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -1,5 +1,5 @@
 ---
-title: identical-to-source
+title: idêntico-à-origem
 description: Um valor de destino igual ao valor de origem, exceto valores que permanecem iguais em todos os idiomas.
 ---
 

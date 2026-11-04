@@ -3,12 +3,16 @@
   "source": "Pass files or globs to limit the search: {0}. Files that users never see are never scanned: tests, fixtures, mocks, stories, configs and type declarations, by the conventions of common languages. For example {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, and directories such as {9}, {10}, {11}, {12}, {13} and {14}. Control comments, in any comment syntax, skip more:",
   "text": "Pasa archivos o globs para limitar la búsqueda: {0}. Los archivos que los usuarios nunca ven no se analizan nunca: pruebas, fixtures, mocks, stories, archivos de configuración y declaraciones de tipos, según las convenciones de los lenguajes habituales. Por ejemplo {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, y directorios como {9}, {10}, {11}, {12}, {13} y {14}. Los comentarios de control, en cualquier sintaxis de comentarios, omiten más:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Pasa archivos o globs para limitar la búsqueda: {0}. Los archivos que los usuarios nunca ven no se analizan nunca: pruebas, fixtures, mocks, stories, archivos de configuración y declaraciones de tipos, según las convenciones de los lenguajes habituales. Por ejemplo {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, y directorios como {9}, {10}, {11}, {12}, {13} y {14}. Los comentarios de control, en cualquier sintaxis de comentarios, omiten más:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

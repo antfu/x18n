@@ -3,12 +3,16 @@
   "source": "x18n found a config file, but it failed to run or read it. The message holds the error from the loader.",
   "text": "x18n encontró un archivo de configuración, pero no pudo ejecutarlo o leerlo. El mensaje contiene el error del cargador.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n encontró un archivo de configuración, pero no pudo ejecutarlo o leerlo. El mensaje contiene el error del cargador."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

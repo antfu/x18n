@@ -3,12 +3,16 @@
   "source": "x18n uses one name for each idea, in code, docs and UI. The \"Not\" column lists names that x18n avoids for the same idea. {0}Concepts{/0} explains the most important ones with examples.",
   "text": "O x18n usa um nome para cada ideia, no código, na documentação e na interface. A coluna \"Não\" lista nomes que o x18n evita para a mesma ideia. {0}Conceitos{/0} explica os mais importantes com exemplos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O x18n usa um nome para cada ideia, no código, na documentação e na interface. A coluna \"Não\" lista nomes que o x18n evita para a mesma ideia. {0}Conceitos{/0} explica os mais importantes com exemplos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

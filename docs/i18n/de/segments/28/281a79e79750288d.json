@@ -3,12 +3,16 @@
   "source": "Extraction templates: the code that replaces a hard string.",
   "text": "Extraktionsvorlagen: der Code, der einen hartcodierten String ersetzt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Extraktionsvorlagen: der Code, der einen hartcodierten String ersetzt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

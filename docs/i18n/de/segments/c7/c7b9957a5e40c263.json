@@ -3,12 +3,16 @@
   "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
   "text": "Oder setze {0} im Ressourcen-Pattern. x18n führt die Datei dann in Node aus, und die messages sind schreibgeschützt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Oder setze {0} im Ressourcen-Pattern. x18n führt die Datei dann in Node aus, und die messages sind schreibgeschützt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

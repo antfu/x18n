@@ -3,12 +3,16 @@
   "source": "A plural message is a key with the sub-keys {0}, {1}, {2} and {3}. When a usage names the key, these sub-keys count as used.",
   "text": "Un mensaje plural es una clave con las subclaves {0}, {1}, {2} y {3}. Cuando un uso nombra la clave, estas subclaves cuentan como usadas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un mensaje plural es una clave con las subclaves {0}, {1}, {2} y {3}. Cuando un uso nombra la clave, estas subclaves cuentan como usadas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

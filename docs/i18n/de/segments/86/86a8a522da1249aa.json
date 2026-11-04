@@ -3,12 +3,16 @@
   "source": "Checks report diagnostics. {0} puts them in {1} of the envelope, and its {2} holds a summary and the coverage per project, and {3} ({4} and {5} counts) when a {6}baseline{/6} applies. {7} puts the diagnostics of one key in {8}. Both use this shape:",
   "text": "Prüfungen melden Diagnosen. {0} legt sie in {1} des Envelope ab, und dessen {2} enthält eine Zusammenfassung und die Abdeckung pro Projekt sowie {3} ({4}- und {5}-Anzahlen), wenn eine {6}Baseline{/6} gilt. {7} legt die Diagnosen eines Schlüssels in {8} ab. Beide verwenden diese Struktur:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Prüfungen melden Diagnosen. {0} legt sie in {1} des Envelope ab, und dessen {2} enthält eine Zusammenfassung und die Abdeckung pro Projekt sowie {3} ({4}- und {5}-Anzahlen), wenn eine {6}Baseline{/6} gilt. {7} legt die Diagnosen eines Schlüssels in {8} ab. Beide verwenden diese Struktur:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

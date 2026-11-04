@@ -3,12 +3,16 @@
   "source": "The extension validates {0} against the config schema. With the Red Hat YAML extension installed, it also validates {1}, {2} and {3} files.",
   "text": "A extensão valida {0} com o schema de configuração. Com a extensão YAML da Red Hat instalada, ela também valida arquivos {1}, {2} e {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "A extensão valida {0} com o schema de configuração. Com a extensão YAML da Red Hat instalada, ela também valida arquivos {1}, {2} e {3}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

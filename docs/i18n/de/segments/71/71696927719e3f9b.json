@@ -3,12 +3,16 @@
   "source": "{0} turn the diagnostics and the coverage of each project into text, for {1}. {2} returns a string. {3} turns a project path into a path relative to the current directory, and {4} tells whether colors are allowed.",
   "text": "{0} wandeln die Diagnosen und die Abdeckung jedes Projekts in Text um, für {1}. {2} gibt einen String zurück. {3} wandelt einen Projektpfad in einen Pfad relativ zum aktuellen Verzeichnis um, und {4} gibt an, ob Farben erlaubt sind.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} wandeln die Diagnosen und die Abdeckung jedes Projekts in Text um, für {1}. {2} gibt einen String zurück. {3} wandelt einen Projektpfad in einen Pfad relativ zum aktuellen Verzeichnis um, und {4} gibt an, ob Farben erlaubt sind."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

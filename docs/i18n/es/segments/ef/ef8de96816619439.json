@@ -3,12 +3,16 @@
   "source": "Rules such as {0}. When a key is used, the keys that a rule derives from it count as used too. A {1} matches any text: {2}.",
   "text": "Reglas como {0}. Cuando se usa una clave, las claves que una regla deriva de ella también cuentan como usadas. Un {1} coincide con cualquier texto: {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Reglas como {0}. Cuando se usa una clave, las claves que una regla deriva de ella también cuentan como usadas. Un {1} coincide con cualquier texto: {2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

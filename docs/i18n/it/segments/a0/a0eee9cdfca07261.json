@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, best match first, with their usages. {0} turns off fuzzy matching.",
   "text": "Le chiavi trovate in base al loro valore in qualsiasi lingua, dalla corrispondenza migliore, con i loro utilizzi. {0} disattiva la ricerca fuzzy.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le chiavi trovate in base al loro valore in qualsiasi lingua, dalla corrispondenza migliore, con i loro utilizzi. {0} disattiva la ricerca fuzzy."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

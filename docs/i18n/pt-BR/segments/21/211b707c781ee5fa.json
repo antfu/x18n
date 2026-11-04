@@ -3,12 +3,16 @@
   "source": "Delete every unused key (matching the glob), except keys dynamic usages may reach",
   "text": "Exclui todas as chaves não utilizadas (que correspondam ao glob), exceto as chaves que usos dinâmicos possam alcançar",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Exclui todas as chaves não utilizadas (que correspondam ao glob), exceto as chaves que usos dinâmicos possam alcançar"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0}shipped skills{/0}, which teach an agent to set up x18n, fix what {1} reports, and run the loops on this page.",
   "text": "Las {0}skills incluidas{/0}, que enseñan a un agente a configurar x18n, corregir lo que {1} informa y ejecutar los bucles de esta página.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Las {0}skills incluidas{/0}, que enseñan a un agente a configurar x18n, corregir lo que {1} informa y ejecutar los bucles de esta página."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

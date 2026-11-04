@@ -3,12 +3,16 @@
   "source": "When the project has a review file, every value that x18n writes into a target locale also records a hash of the source value in the {0} section. While the source value stays the same, the translation is up to date, even when git says it is older than the source. See {1}. {2} records the current source value without a change, for a translation that is still right after the source changed.",
   "text": "Cuando el proyecto tiene un archivo de revisiones, cada valor que x18n escribe en un idioma de destino también registra un hash del valor de origen en la sección {0}. Mientras el valor de origen no cambie, la traducción está actualizada, aunque git indique que es más antigua que el origen. Consulta {1}. {2} registra el valor de origen actual sin cambios, para una traducción que sigue siendo correcta después de que cambiara el origen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cuando el proyecto tiene un archivo de revisiones, cada valor que x18n escribe en un idioma de destino también registra un hash del valor de origen en la sección {0}. Mientras el valor de origen no cambie, la traducción está actualizada, aunque git indique que es más antigua que el origen. Consulta {1}. {2} registra el valor de origen actual sin cambios, para una traducción que sigue siendo correcta después de que cambiara el origen."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "In a language that inflects or compounds its nouns, list the forms the check should also accept under {0}, per locale: {1}. A form matches at the start of a word, so a compound stem such as {2} covers \"bestillingssiden\". Forms under the source locale count as uses of the term, so {3} has \"Your bookings\" checked too.",
   "text": "Em um idioma que flexiona ou compõe seus substantivos, liste as formas que a verificação também deve aceitar em {0}, por idioma: {1}. Uma forma corresponde ao início de uma palavra, então um radical composto como {2} cobre \"bestillingssiden\". As formas do idioma de origem contam como usos do termo, então {3} também faz com que \"Your bookings\" seja verificado.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Em um idioma que flexiona ou compõe seus substantivos, liste as formas que a verificação também deve aceitar em {0}, por idioma: {1}. Uma forma corresponde ao início de uma palavra, então um radical composto como {2} cobre \"bestillingssiden\". As formas do idioma de origem contam como usos do termo, então {3} também faz com que \"Your bookings\" seja verificado."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} runs every {1}check{/1} on every project and reports the diagnostics. It is to i18n what {2} is to types:",
   "text": "{0} ejecuta cada {1}comprobación{/1} en cada proyecto e informa de los diagnósticos. Es para i18n lo que {2} es para los tipos:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} ejecuta cada {1}comprobación{/1} en cada proyecto e informa de los diagnósticos. Es para i18n lo que {2} es para los tipos:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "it is a derived key of a used key ({0}, for example i18next {1} plural keys),",
   "text": "è una chiave derivata di una chiave utilizzata ({0}, ad esempio le chiavi plurali {1} di i18next),",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "è una chiave derivata di una chiave utilizzata ({0}, ad esempio le chiavi plurali {1} di i18next),"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

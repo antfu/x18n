@@ -3,12 +3,16 @@
   "source": "One i18n setup with one root, one config and one set of locales. A monorepo can have many.",
   "text": "Ein i18n-Setup mit einem Root-Verzeichnis, einer Konfiguration und einer Menge von Sprachen. Ein Monorepo kann mehrere enthalten.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein i18n-Setup mit einem Root-Verzeichnis, einer Konfiguration und einer Menge von Sprachen. Ein Monorepo kann mehrere enthalten."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

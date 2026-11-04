@@ -3,12 +3,16 @@
   "source": "Keys (globs) excluded from all checks. {0} also takes regular expressions.",
   "text": "Chaves (globs) excluídas de todas as verificações. {0} também aceita expressões regulares.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chaves (globs) excluídas de todas as verificações. {0} também aceita expressões regulares."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

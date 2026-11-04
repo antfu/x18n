@@ -3,12 +3,16 @@
   "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
   "text": "Schlüsselstil einer Datei, die noch keine Schlüssel hat. {0} schreibt {1}-Schlüssel. {2} und {3} schreiben verschachtelte Objekte. Eine Datei, die bereits Schlüssel hat, behält ihren eigenen Stil.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Schlüsselstil einer Datei, die noch keine Schlüssel hat. {0} schreibt {1}-Schlüssel. {2} und {3} schreiben verschachtelte Objekte. Eine Datei, die bereits Schlüssel hat, behält ihren eigenen Stil."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

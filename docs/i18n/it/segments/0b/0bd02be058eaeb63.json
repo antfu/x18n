@@ -3,12 +3,16 @@
   "source": "The preset always applies, unless an exclusive preset applied before it, or you list presets yourself. x18n tries the default templates last in every project, with or without this preset, so {0} always has a template.",
   "text": "Il preset si applica sempre, a meno che non sia stato applicato prima un preset esclusivo, o che tu non elenchi i preset manualmente. x18n prova i template predefiniti per ultimi in ogni progetto, con o senza questo preset, quindi {0} ha sempre un template.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset si applica sempre, a meno che non sia stato applicato prima un preset esclusivo, o che tu non elenchi i preset manualmente. x18n prova i template predefiniti per ultimi in ogni progetto, con o senza questo preset, quindi {0} ha sempre un template."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

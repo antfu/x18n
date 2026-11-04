@@ -3,12 +3,16 @@
   "source": "YAML and JSON configs are validated with a JSON Schema. Point your editor at it:",
   "text": "YAML- und JSON-Konfigurationen werden mit einem JSON Schema validiert. Verweise deinen Editor darauf:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "YAML- und JSON-Konfigurationen werden mit einem JSON Schema validiert. Verweise deinen Editor darauf:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

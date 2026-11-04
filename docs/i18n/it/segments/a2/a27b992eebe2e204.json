@@ -3,12 +3,16 @@
   "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
   "text": "Il controllo è attivo quando {0} è {1}, oppure quando imposti una severità per esso in {2}. Esegui {3} per trasformare le stringhe segnalate in chiavi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il controllo è attivo quando {0} è {1}, oppure quando imposti una severità per esso in {2}. Esegui {3} per trasformare le stringhe segnalate in chiavi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

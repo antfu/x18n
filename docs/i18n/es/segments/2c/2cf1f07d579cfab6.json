@@ -3,12 +3,16 @@
   "source": "Typed braces: {0}, {1}, {2}, {3} and {4}. The name is the part before {5} or {6}, so {7} in the base locale and {8} in a translation match. Plural parts such as {9} are not placeholders.",
   "text": "Llaves con tipo: {0}, {1}, {2}, {3} y {4}. El nombre es la parte anterior a {5} o {6}, de modo que {7} en el idioma base y {8} en una traducción coinciden. Las partes de plural como {9} no son marcadores de posición.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Llaves con tipo: {0}, {1}, {2}, {3} y {4}. El nombre es la parte anterior a {5} o {6}, de modo que {7} en el idioma base y {8} en una traducción coinciden. Las partes de plural como {9} no son marcadores de posición."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

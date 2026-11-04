@@ -3,12 +3,16 @@
   "source": "{0} lists the origin of each value: {1}, {2}, {3}, or {4}.",
   "text": "{0} lista a origem de cada valor: {1}, {2}, {3} ou {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} lista a origem de cada valor: {1}, {2}, {3} ou {4}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

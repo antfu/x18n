@@ -3,12 +3,16 @@
   "source": "How {0} folders name a namespace: {1} makes {2} into {3}, {4} keeps {5}, {6} makes {7} into {8}. Default {9}.",
   "text": "Wie {0}-Ordner einen Namespace benennen: {1} macht aus {2} den Wert {3}, {4} behält {5}, {6} macht aus {7} den Wert {8}. Standard {9}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Wie {0}-Ordner einen Namespace benennen: {1} macht aus {2} den Wert {3}, {4} behält {5}, {6} macht aus {7} den Wert {8}. Standard {9}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

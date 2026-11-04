@@ -3,12 +3,16 @@
   "source": "The x18n UI shows every key of a project across all locales, in one table. Translators and reviewers can edit values there, see where each key is used and copy translate prompts. The same UI runs in four ways:",
   "text": "La UI di x18n mostra in un'unica tabella ogni chiave di un progetto in tutte le lingue. Traduttori e revisori possono modificare i valori, vedere dove viene usata ogni chiave e copiare i prompt di traduzione. La stessa UI funziona in quattro modi:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La UI di x18n mostra in un'unica tabella ogni chiave di un progetto in tutte le lingue. Traduttori e revisori possono modificare i valori, vedere dove viene usata ogni chiave e copiare i prompt di traduzione. La stessa UI funziona in quattro modi:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Usages with a dynamic key are not reported. A usage with a static prefix, such as {0}, is a prefix usage: it makes every key under {1} count as used, and it is never a missing key.",
   "text": "Verwendungen mit einem dynamischen Schlüssel werden nicht gemeldet. Eine Verwendung mit einem statischen Präfix, etwa {0}, ist eine Präfix-Verwendung: Sie sorgt dafür, dass jeder Schlüssel unter {1} als verwendet gilt, und sie ist nie ein fehlender Schlüssel.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Verwendungen mit einem dynamischen Schlüssel werden nicht gemeldet. Eine Verwendung mit einem statischen Präfix, etwa {0}, ist eine Präfix-Verwendung: Sie sorgt dafür, dass jeder Schlüssel unter {1} als verwendet gilt, und sie ist nie ein fehlender Schlüssel."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

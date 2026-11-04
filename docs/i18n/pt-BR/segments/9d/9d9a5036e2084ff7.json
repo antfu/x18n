@@ -3,12 +3,16 @@
   "source": "Run the {0} installed in the workspace's {1} instead of the bundled server, when there is one. Restart the server after changing this.",
   "text": "Executa o {0} instalado no {1} do workspace em vez do servidor incluído, quando houver um. Reinicie o servidor após alterar esta configuração.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Executa o {0} instalado no {1} do workspace em vez do servidor incluído, quando houver um. Reinicie o servidor após alterar esta configuração."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

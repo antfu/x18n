@@ -3,12 +3,16 @@
   "source": "Run the command again with {0} to accept the default answer of each decision.",
   "text": "Ejecuta el comando de nuevo con {0} para aceptar la respuesta por defecto de cada decisión.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ejecuta el comando de nuevo con {0} para aceptar la respuesta por defecto de cada decisión."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

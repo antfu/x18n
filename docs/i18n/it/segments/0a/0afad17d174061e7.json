@@ -3,12 +3,16 @@
   "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
   "text": "Chiavi trovate in base al loro valore in qualsiasi lingua, con ricerca fuzzy a meno che non sia {0}, con i relativi utilizzi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chiavi trovate in base al loro valore in qualsiasi lingua, con ricerca fuzzy a meno che non sia {0}, con i relativi utilizzi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

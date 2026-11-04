@@ -3,12 +3,16 @@
   "source": "{0} runs a plugin before the others, and {1} runs it after them.",
   "text": "{0} esegue un plugin prima degli altri, e {1} lo esegue dopo di essi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} esegue un plugin prima degli altri, e {1} lo esegue dopo di essi."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

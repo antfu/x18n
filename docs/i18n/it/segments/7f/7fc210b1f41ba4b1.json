@@ -3,12 +3,16 @@
   "source": "x18n found a locale file, but no format reads its extension.",
   "text": "x18n ha trovato un file di lingua, ma nessun formato legge la sua estensione.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n ha trovato un file di lingua, ma nessun formato legge la sua estensione."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

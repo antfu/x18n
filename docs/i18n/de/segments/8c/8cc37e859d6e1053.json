@@ -3,12 +3,16 @@
   "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
   "text": "Die Message als Rumpf eines Template-Strings, wobei jedes Argument als {0} steht, so wie {1} es schreibt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Message als Rumpf eines Template-Strings, wobei jedes Argument als {0} steht, so wie {1} es schreibt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

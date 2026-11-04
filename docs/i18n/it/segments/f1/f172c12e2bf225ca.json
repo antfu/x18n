@@ -3,12 +3,16 @@
   "source": "More than one preset can apply. Some presets include the plugins of another preset: {0} and {1} include everything of {2}, and {3} includes everything of {4}. When two applied presets share a plugin, x18n adds that plugin one time.",
   "text": "Possono applicarsi più preset. Alcuni preset includono i plugin di un altro preset: {0} e {1} includono tutto di {2}, e {3} include tutto di {4}. Quando due preset applicati condividono un plugin, x18n aggiunge quel plugin una sola volta.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Possono applicarsi più preset. Alcuni preset includono i plugin di un altro preset: {0} e {1} includono tutto di {2}, e {3} include tutto di {4}. Quando due preset applicati condividono un plugin, x18n aggiunge quel plugin una sola volta."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

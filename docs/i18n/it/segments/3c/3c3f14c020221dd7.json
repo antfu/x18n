@@ -3,12 +3,16 @@
   "source": "In {0}, each message is an object with a {1} field and other fields, such as {2}. The preset reads the {3} field as the value of the key:",
   "text": "In {0}, ogni messaggio è un oggetto con un campo {1} e altri campi, come {2}. Il preset legge il campo {3} come valore della chiave:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In {0}, ogni messaggio è un oggetto con un campo {1} e altri campi, come {2}. Il preset legge il campo {3} come valore della chiave:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
   "text": "{0} ist für Speicher gedacht, die eine Datei pro Message ablegen. Es gibt die Datei eines Schlüssels in einer Sprache zurück: einen {1} und die {2}-ID, mit der sie erstellt werden soll, wenn es nicht das Format ihrer Dateiendung ist. Eine neue Message des Schlüssels landet in dieser Datei statt in einer Ressource, die bereits andere Schlüssel enthält, und die Datei wird erstellt, wenn sie nicht existiert. Beim Umbenennen wird jede Message in die Datei des neuen Schlüssels verschoben, und beim Löschen wird die Datei gelöscht, wenn sie danach leer wäre. Gib {3} für Schlüssel zurück, die in gemeinsamen Dateien liegen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} ist für Speicher gedacht, die eine Datei pro Message ablegen. Es gibt die Datei eines Schlüssels in einer Sprache zurück: einen {1} und die {2}-ID, mit der sie erstellt werden soll, wenn es nicht das Format ihrer Dateiendung ist. Eine neue Message des Schlüssels landet in dieser Datei statt in einer Ressource, die bereits andere Schlüssel enthält, und die Datei wird erstellt, wenn sie nicht existiert. Beim Umbenennen wird jede Message in die Datei des neuen Schlüssels verschoben, und beim Löschen wird die Datei gelöscht, wenn sie danach leer wäre. Gib {3} für Schlüssel zurück, die in gemeinsamen Dateien liegen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

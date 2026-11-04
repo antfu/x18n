@@ -3,12 +3,16 @@
   "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
   "text": "La modifica riguarda una risorsa di sola lettura. Le risorse con {0} sono di sola lettura, perché x18n non può scrivere il codice che le calcola.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La modifica riguarda una risorsa di sola lettura. Le risorse con {0} sono di sola lettura, perché x18n non può scrivere il codice che le calcola."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

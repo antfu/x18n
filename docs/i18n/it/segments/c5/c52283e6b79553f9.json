@@ -3,12 +3,16 @@
   "source": "Type names that mark a parameter or prop as a translate function: {0}.",
   "text": "Nomi di tipo che indicano un parametro o una prop come funzione di traduzione: {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nomi di tipo che indicano un parametro o una prop come funzione di traduzione: {0}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

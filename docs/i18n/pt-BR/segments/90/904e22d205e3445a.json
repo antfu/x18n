@@ -3,12 +3,16 @@
   "source": "The preset for Nuxt I18n Micro. It reads the global and the page translation files, and the $t calls of pages and components.",
   "text": "O preset para Nuxt I18n Micro. Ele lê os arquivos de tradução globais e de página, e as chamadas $t de páginas e componentes.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O preset para Nuxt I18n Micro. Ele lê os arquivos de tradução globais e de página, e as chamadas $t de páginas e componentes."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

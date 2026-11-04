@@ -3,12 +3,16 @@
   "source": "The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in {0}.",
   "text": "Die Message des hartcodierten Strings, wie sie in der Quellsprache gespeichert ist: der Originaltext, wobei die Argumente eines Template-Strings als Platzhalter stehen. Verwende sie für einen Standardwert, wie in {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Message des hartcodierten Strings, wie sie in der Quellsprache gespeichert ist: der Originaltext, wobei die Argumente eines Template-Strings als Platzhalter stehen. Verwende sie für einen Standardwert, wie in {0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Invalid edit input. Check the input shape against the docs.",
   "text": "Ungültige Edit-Eingabe. Prüfe die Struktur der Eingabe anhand der Dokumentation.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ungültige Edit-Eingabe. Prüfe die Struktur der Eingabe anhand der Dokumentation."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

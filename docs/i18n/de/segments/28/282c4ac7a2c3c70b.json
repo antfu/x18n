@@ -3,12 +3,16 @@
   "source": "{0} returns the path in the file of a key path. x18n writes edits to that path.",
   "text": "{0} gibt den Pfad eines Schlüsselpfads in der Datei zurück. x18n schreibt Änderungen an diesen Pfad.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} gibt den Pfad eines Schlüsselpfads in der Datei zurück. x18n schreibt Änderungen an diesen Pfad."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

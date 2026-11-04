@@ -3,12 +3,16 @@
   "source": "{0}, {1} and {2} in {3}, in every module. The folder gives the locale:",
   "text": "{0}, {1} e {2} em {3}, em todos os módulos. A pasta define o idioma:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}, {1} e {2} em {3}, em todos os módulos. A pasta define o idioma:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0}Exit codes{/0} lists the codes of every command.",
   "text": "{0}Códigos de saída{/0} lista os códigos de cada comando.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}Códigos de saída{/0} lista os códigos de cada comando."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

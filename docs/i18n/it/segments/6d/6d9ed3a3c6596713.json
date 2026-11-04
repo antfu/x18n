@@ -3,12 +3,16 @@
   "source": "Author as {0} (default: review.author, then git user)",
   "text": "Autore come {0} (predefinito: review.author, poi utente git)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Autore come {0} (predefinito: review.author, poi utente git)"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

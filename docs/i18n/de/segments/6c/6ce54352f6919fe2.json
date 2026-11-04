@@ -3,12 +3,16 @@
   "source": "Lists review threads with their state. {0} and {1} filter them.",
   "text": "Listet Review-Threads mit ihrem Status auf. {0} und {1} filtern sie.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Listet Review-Threads mit ihrem Status auf. {0} und {1} filtern sie."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

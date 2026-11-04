@@ -3,12 +3,16 @@
   "source": "Delete a key (or every key under a parent) in all locales; {0} deletes every unused key.",
   "text": "Lösche einen Schlüssel (oder jeden Schlüssel unter einem übergeordneten Schlüssel) in allen Sprachen; {0} löscht jeden ungenutzten Schlüssel.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Lösche einen Schlüssel (oder jeden Schlüssel unter einem übergeordneten Schlüssel) in allen Sprachen; {0} löscht jeden ungenutzten Schlüssel."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

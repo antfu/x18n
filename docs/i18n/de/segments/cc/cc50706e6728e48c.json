@@ -3,12 +3,16 @@
   "source": "What {0} prints for every workspace folder: load errors, presets, locale files and config. The server also logs it when it finds no locale files.",
   "text": "Was {0} für jeden Workspace-Ordner ausgibt: Ladefehler, Presets, Sprachdateien und Konfiguration. Der Server protokolliert es auch, wenn er keine Sprachdateien findet.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Was {0} für jeden Workspace-Ordner ausgibt: Ladefehler, Presets, Sprachdateien und Konfiguration. Der Server protokolliert es auch, wenn er keine Sprachdateien findet."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

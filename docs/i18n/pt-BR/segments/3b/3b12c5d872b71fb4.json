@@ -3,12 +3,16 @@
   "source": "Keys and locales are sorted, so edits from two branches merge well.",
   "text": "As chaves e os idiomas são ordenados, então as edições de duas branches são mescladas sem problemas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "As chaves e os idiomas são ordenados, então as edições de duas branches são mescladas sem problemas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Find keys by their value, best match first: the key behind a text seen in the app. Searches every locale, ignoring case, and matches fuzzily unless {0}. Each match has the matched locale and value, and the usages in code with file, line and column.",
   "text": "Trova le chiavi in base al loro valore, partendo dalla corrispondenza migliore: la chiave dietro un testo visto nell'app. Cerca in ogni lingua, senza distinguere maiuscole e minuscole, e usa una corrispondenza approssimata a meno che {0}. Ogni corrispondenza include la lingua e il valore trovati, e gli utilizzi nel codice con file, riga e colonna.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Trova le chiavi in base al loro valore, partendo dalla corrispondenza migliore: la chiave dietro un testo visto nell'app. Cerca in ogni lingua, senza distinguere maiuscole e minuscole, e usa una corrispondenza approssimata a meno che {0}. Ogni corrispondenza include la lingua e il valore trovati, e gli utilizzi nel codice con file, riga e colonna."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

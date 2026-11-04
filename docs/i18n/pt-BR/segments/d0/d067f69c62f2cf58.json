@@ -3,12 +3,16 @@
   "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
   "text": "O recurso não é um objeto de mensagens. Os arquivos de idioma contêm objetos aninhados de strings, números, booleanos ou null.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O recurso não é um objeto de mensagens. Os arquivos de idioma contêm objetos aninhados de strings, números, booleanos ou null."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

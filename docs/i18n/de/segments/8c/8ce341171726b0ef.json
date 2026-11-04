@@ -3,12 +3,16 @@
   "source": "Reuse a key when the same text exists as a source value. Default true.",
   "text": "Verwende einen Schlüssel wieder, wenn derselbe Text bereits als Quellwert existiert. Standard: true.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Verwende einen Schlüssel wieder, wenn derselbe Text bereits als Quellwert existiert. Standard: true."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

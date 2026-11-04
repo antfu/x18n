@@ -3,12 +3,16 @@
   "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
   "text": "Aqui {0} é {1}, e o fallback funciona como na biblioteca: para {2} e, depois, para a chave como foi escrita. Uma chave com seu próprio namespace, ou um pipe com {3} e {4}, é mantida como foi escrita.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Aqui {0} é {1}, e o fallback funciona como na biblioteca: para {2} e, depois, para a chave como foi escrita. Uma chave com seu próprio namespace, ou um pipe com {3} e {4}, é mantida como foi escrita."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

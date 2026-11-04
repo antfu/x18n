@@ -3,12 +3,16 @@
   "source": "A message in a locale with a fallback that equals the message it falls back to, so it can be removed.",
   "text": "Un mensaje en un idioma con fallback que es igual al mensaje al que recurre, por lo que se puede eliminar.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un mensaje en un idioma con fallback que es igual al mensaje al que recurre, por lo que se puede eliminar."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

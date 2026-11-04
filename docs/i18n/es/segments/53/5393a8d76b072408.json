@@ -3,12 +3,16 @@
   "source": "Callee names never counted as translate calls.",
   "text": "Nombres de funciones llamadas que nunca se cuentan como llamadas de traducción.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nombres de funciones llamadas que nunca se cuentan como llamadas de traducción."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

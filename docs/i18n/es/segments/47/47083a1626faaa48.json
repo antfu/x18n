@@ -3,12 +3,16 @@
   "source": "Many formats can say what a message means, for the translator. The prompt shows that description under the source value:",
   "text": "Muchos formatos pueden indicar qué significa un mensaje, para el traductor. El prompt muestra esa descripción debajo del valor de origen:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Muchos formatos pueden indicar qué significa un mensaje, para el traductor. El prompt muestra esa descripción debajo del valor de origen:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

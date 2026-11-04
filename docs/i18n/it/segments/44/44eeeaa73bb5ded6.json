@@ -3,12 +3,16 @@
   "source": "Text of a value in any locale, ignoring case.",
   "text": "Testo di un valore in qualsiasi lingua, senza distinzione tra maiuscole e minuscole.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Testo di un valore in qualsiasi lingua, senza distinzione tra maiuscole e minuscole."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

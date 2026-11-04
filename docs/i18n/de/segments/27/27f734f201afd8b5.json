@@ -3,12 +3,16 @@
   "source": "The object that gives a project file access, globbing, watching and caching.",
   "text": "Das Objekt, das einem Projekt Dateizugriff, Globbing, Watching und Caching bereitstellt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Objekt, das einem Projekt Dateizugriff, Globbing, Watching und Caching bereitstellt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

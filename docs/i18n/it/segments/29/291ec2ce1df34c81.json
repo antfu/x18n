@@ -3,12 +3,16 @@
   "source": "Sets one value. {0} picks the locale, and the default is the source locale. {1} reads stdin.",
   "text": "Imposta un singolo valore. {0} sceglie la lingua; il valore predefinito è la lingua di origine. {1} legge da stdin.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Imposta un singolo valore. {0} sceglie la lingua; il valore predefinito è la lingua di origine. {1} legge da stdin."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

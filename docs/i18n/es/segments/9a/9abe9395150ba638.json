@@ -3,12 +3,16 @@
   "source": "The review prompt holds the messages that {0} already has. It asks the agent to check the meaning, the placeholders, the glossary terms, the tone and the length of each one, and to leave a suggestion or a change request for each wrong one with {1} (with {2}, to fix it with {3}). Each item shows the source value, its placeholders, its description, its values in related locales and the current translation. The prompt accepts the same options as the translate prompt, with {4} in place of {5}.",
   "text": "El prompt de revisión contiene los mensajes que {0} ya tiene. Pide al agente que compruebe el significado, los marcadores de posición, los términos del glosario, el tono y la longitud de cada uno, y que deje una sugerencia o una solicitud de cambios por cada mensaje incorrecto con {1} (con {2}, para corregirlo con {3}). Cada elemento muestra el valor de origen, sus marcadores de posición, su descripción, sus valores en idiomas relacionados y la traducción actual. El prompt acepta las mismas opciones que el prompt de traducción, con {4} en lugar de {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El prompt de revisión contiene los mensajes que {0} ya tiene. Pide al agente que compruebe el significado, los marcadores de posición, los términos del glosario, el tono y la longitud de cada uno, y que deje una sugerencia o una solicitud de cambios por cada mensaje incorrecto con {1} (con {2}, para corregirlo con {3}). Cada elemento muestra el valor de origen, sus marcadores de posición, su descripción, sus valores en idiomas relacionados y la traducción actual. El prompt acepta las mismas opciones que el prompt de traducción, con {4} en lugar de {5}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

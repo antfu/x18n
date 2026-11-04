@@ -3,12 +3,16 @@
   "source": "The source locale is never a related locale: the prompt shows it anyway. A value that is a copy of the source is left out. {0} names the related locales instead, which also works across languages, and {1} leaves them out. A rule asks the agent to keep what fits the target, and to change the spelling, words and forms that differ.",
   "text": "La lingua di origine non è mai una lingua correlata: il prompt la mostra comunque. Un valore che è una copia dell'origine viene escluso. {0} indica invece le lingue correlate, e questo funziona anche tra lingue diverse, mentre {1} le esclude. Una regola chiede all'agente di mantenere ciò che si adatta alla lingua di destinazione e di cambiare l'ortografia, le parole e le forme che differiscono.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La lingua di origine non è mai una lingua correlata: il prompt la mostra comunque. Un valore che è una copia dell'origine viene escluso. {0} indica invece le lingue correlate, e questo funziona anche tra lingue diverse, mentre {1} le esclude. Una regola chiede all'agente di mantenere ciò che si adatta alla lingua di destinazione e di cambiare l'ortografia, le parole e le forme che differiscono."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

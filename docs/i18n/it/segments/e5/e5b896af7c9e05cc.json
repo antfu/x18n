@@ -3,12 +3,16 @@
   "source": "The preset for react-i18next and next-i18next. It reads useTranslation, Trans and Translation, plus everything of i18next.",
   "text": "Il preset per react-i18next e next-i18next. Legge useTranslation, Trans e Translation, oltre a tutto ciò che riguarda i18next.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset per react-i18next e next-i18next. Legge useTranslation, Trans e Translation, oltre a tutto ciò che riguarda i18next."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

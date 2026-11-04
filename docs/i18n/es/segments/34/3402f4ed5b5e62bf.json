@@ -3,12 +3,16 @@
   "source": "The tagged template {0} and the text of {1} are usages.",
   "text": "La plantilla etiquetada {0} y el texto de {1} son usos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La plantilla etiquetada {0} y el texto de {1} son usos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

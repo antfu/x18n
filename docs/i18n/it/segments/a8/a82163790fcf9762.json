@@ -3,12 +3,16 @@
   "source": "The CLI uses the same code for command input it cannot use: an unknown {0} id, an unknown {1} kind, a missing {2}, or an {3} that already exists when you run {4} or {5} without {6}.",
   "text": "La CLI usa lo stesso codice per l'input di un comando che non può usare: un id {0} sconosciuto, un tipo {1} sconosciuto, un {2} mancante, oppure un {3} che esiste già quando esegui {4} o {5} senza {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La CLI usa lo stesso codice per l'input di un comando che non può usare: un id {0} sconosciuto, un tipo {1} sconosciuto, un {2} mancante, oppure un {3} che esiste già quando esegui {4} o {5} senza {6}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

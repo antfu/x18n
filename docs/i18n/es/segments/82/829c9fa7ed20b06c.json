@@ -3,12 +3,16 @@
   "source": "{0} adds itself to the {1} script of {2}. After that, every install links the skills again, so the skills stay at the version of the installed CLI.",
   "text": "{0} se añade a sí mismo al script {1} de {2}. Después, cada instalación vuelve a enlazar las skills, de modo que se mantienen en la versión del CLI instalado.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} se añade a sí mismo al script {1} de {2}. Después, cada instalación vuelve a enlazar las skills, de modo que se mantienen en la versión del CLI instalado."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

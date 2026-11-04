@@ -3,12 +3,16 @@
   "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
   "text": "Oppure imposta {0} nel pattern della risorsa. x18n esegue quindi il file in Node e i messaggi diventano di sola lettura.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Oppure imposta {0} nel pattern della risorsa. x18n esegue quindi il file in Node e i messaggi diventano di sola lettura."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

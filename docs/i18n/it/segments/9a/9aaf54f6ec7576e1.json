@@ -3,12 +3,16 @@
   "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
   "text": "Parentesi graffe: {0}. Doppie parentesi graffe: {1}, il conteggio nelle forme plurali.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Parentesi graffe: {0}. Doppie parentesi graffe: {1}, il conteggio nelle forme plurali."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Unused keys left alone because fully dynamic usages in a scope may reach them, sorted.",
   "text": "Ungenutzte Schlüssel, die unangetastet bleiben, weil vollständig dynamische Verwendungen in einem Scope sie erreichen könnten, sortiert.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ungenutzte Schlüssel, die unangetastet bleiben, weil vollständig dynamische Verwendungen in einem Scope sie erreichen könnten, sortiert."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

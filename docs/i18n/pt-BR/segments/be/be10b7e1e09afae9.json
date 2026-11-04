@@ -3,12 +3,16 @@
   "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
   "text": "Chamado para cada edição de revisão de um plano, na ordem das operações. As gravações que ele retorna entram no mesmo plano.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chamado para cada edição de revisão de um plano, na ordem das operações. As gravações que ele retorna entram no mesmo plano."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

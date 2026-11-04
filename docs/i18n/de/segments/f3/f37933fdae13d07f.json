@@ -3,12 +3,16 @@
   "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
   "text": "Ein Schlüssel, der sowohl ein Blatt als auch ein Elternknoten ist oder in mehreren Dateien einer Sprache doppelt vorkommt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Schlüssel, der sowohl ein Blatt als auch ein Elternknoten ist oder in mehreren Dateien einer Sprache doppelt vorkommt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

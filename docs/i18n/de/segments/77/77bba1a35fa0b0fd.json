@@ -3,12 +3,16 @@
   "source": "The check runs only when the project has at least one scanner.",
   "text": "Die Prüfung wird nur ausgeführt, wenn das Projekt mindestens einen Scanner hat.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Die Prüfung wird nur ausgeführt, wenn das Projekt mindestens einen Scanner hat."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

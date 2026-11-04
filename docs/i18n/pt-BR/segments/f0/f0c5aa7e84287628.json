@@ -3,12 +3,16 @@
   "source": "With {0} in the project, {1} is a usage, under any name for {2}.",
   "text": "Com {0} no projeto, {1} é um uso, com qualquer nome para {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Com {0} no projeto, {1} é um uso, com qualquer nome para {2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

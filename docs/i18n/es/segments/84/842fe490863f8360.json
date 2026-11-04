@@ -3,12 +3,16 @@
   "source": "A fully dynamic usage, such as {0}, has no static part. No check can follow it. The {1} check, off by default, lists such usages. To mark keys as used that only code at runtime builds, add globs to {2}. Or mark them in the code with a comment. {3} before a string marks that string as a key. {4} before an expression, such as an array, marks every string in it:",
   "text": "Un uso totalmente dinámico, como {0}, no tiene parte estática. Ninguna comprobación puede seguirlo. La comprobación {1}, desactivada por defecto, lista estos usos. Para marcar como usadas las claves que solo el código construye en tiempo de ejecución, añade patrones glob a {2}. O márcalas en el código con un comentario. {3} antes de una cadena marca esa cadena como una clave. {4} antes de una expresión, como un array, marca todas las cadenas que contiene:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un uso totalmente dinámico, como {0}, no tiene parte estática. Ninguna comprobación puede seguirlo. La comprobación {1}, desactivada por defecto, lista estos usos. Para marcar como usadas las claves que solo el código construye en tiempo de ejecución, añade patrones glob a {2}. O márcalas en el código con un comentario. {3} antes de una cadena marca esa cadena como una clave. {4} antes de una expresión, como un array, marca todas las cadenas que contiene:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

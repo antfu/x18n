@@ -3,12 +3,16 @@
   "source": "Then run {0} (or {1}) in your CI. {2}CI{/2} shows a GitHub Actions workflow that puts the problems on the lines of a pull request.",
   "text": "Depois, execute {0} (ou {1}) no seu CI. {2}CI{/2} mostra um workflow do GitHub Actions que coloca os problemas nas linhas de um pull request.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Depois, execute {0} (ou {1}) no seu CI. {2}CI{/2} mostra um workflow do GitHub Actions que coloca os problemas nas linhas de um pull request."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

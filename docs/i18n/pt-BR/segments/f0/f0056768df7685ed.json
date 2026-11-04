@@ -3,12 +3,16 @@
   "source": "Duplicate capability id. Rename the id, or set `override: true` on the later one.",
   "text": "ID de capacidade duplicado. Renomeie o id ou defina `override: true` no mais recente.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "ID de capacidade duplicado. Renomeie o id ou defina `override: true` no mais recente."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

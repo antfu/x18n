@@ -3,12 +3,16 @@
   "source": "Report only for these locales. Diagnostics without a locale stay.",
   "text": "Melde nur für diese Sprachen. Diagnosen ohne Sprache bleiben erhalten.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Melde nur für diese Sprachen. Diagnosen ohne Sprache bleiben erhalten."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

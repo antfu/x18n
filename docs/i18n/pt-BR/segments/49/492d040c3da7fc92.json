@@ -3,12 +3,16 @@
   "source": "{0} exits with code 1 when it finds errors, so any CI fails on broken keys without more setup. The examples on this page use GitHub Actions. They assume that {1} is a dev dependency of the project. See {2}Getting started{/2}.",
   "text": "{0} termina com o código 1 quando encontra erros, então qualquer CI falha em chaves quebradas sem configuração adicional. Os exemplos desta página usam o GitHub Actions. Eles pressupõem que {1} é uma dependência de desenvolvimento do projeto. Veja {2}Primeiros passos{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} termina com o código 1 quando encontra erros, então qualquer CI falha em chaves quebradas sem configuração adicional. Os exemplos desta página usam o GitHub Actions. Eles pressupõem que {1} é uma dependência de desenvolvimento do projeto. Veja {2}Primeiros passos{/2}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

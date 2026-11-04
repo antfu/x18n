@@ -3,12 +3,16 @@
   "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
   "text": "El mensaje como cuerpo de una plantilla de cadena, con cada argumento como {0}, tal como lo escribe {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El mensaje como cuerpo de una plantilla de cadena, con cada argumento como {0}, tal como lo escribe {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

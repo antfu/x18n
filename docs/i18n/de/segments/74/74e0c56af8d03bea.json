@@ -3,12 +3,16 @@
   "source": "A glossary term translated differently from the glossary.",
   "text": "Ein Glossarbegriff, der anders übersetzt wurde als im Glossar.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ein Glossarbegriff, der anders übersetzt wurde als im Glossar."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

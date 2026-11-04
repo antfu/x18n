@@ -3,12 +3,16 @@
   "source": "{0} and {1}, as Django writes them for the project and for each app",
   "text": "{0} und {1}, wie Django sie für das Projekt und für jede App schreibt",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} und {1}, wie Django sie für das Projekt und für jede App schreibt"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

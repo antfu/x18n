@@ -3,12 +3,16 @@
   "source": "{0} is a regular expression whose first group is a namespace. The code after each match, up to the next match, uses that namespace. This is the same as {1} of i18n-ally.",
   "text": "{0} ist ein regulärer Ausdruck, dessen erste Gruppe ein Namespace ist. Der Code nach jedem Treffer bis zum nächsten Treffer verwendet diesen Namespace. Das entspricht {1} von i18n-ally.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} ist ein regulärer Ausdruck, dessen erste Gruppe ein Namespace ist. Der Code nach jedem Treffer bis zum nächsten Treffer verwendet diesen Namespace. Das entspricht {1} von i18n-ally."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

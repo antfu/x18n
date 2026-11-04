@@ -3,12 +3,16 @@
   "source": "Reviews: every message with open {0}review{/0} comments, filtered by state. Keys can also be filtered to those with open reviews.",
   "text": "Reviews: todos los mensajes con comentarios de {0}revisión{/0} abiertos, filtrados por estado. También puedes filtrar las claves para ver solo las que tienen revisiones abiertas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Reviews: todos los mensajes con comentarios de {0}revisión{/0} abiertos, filtrados por estado. También puedes filtrar las claves para ver solo las que tienen revisiones abiertas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

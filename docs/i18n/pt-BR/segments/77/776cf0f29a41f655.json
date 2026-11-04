@@ -3,12 +3,16 @@
   "source": "As in YAML, plus preset objects such as {0} from {1}. {2} and {3} entries are skipped.",
   "text": "Como em YAML, além de objetos de preset, como {0} de {1}. Entradas {2} e {3} são ignoradas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Como em YAML, além de objetos de preset, como {0} de {1}. Entradas {2} e {3} são ignoradas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

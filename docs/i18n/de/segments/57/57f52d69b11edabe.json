@@ -3,12 +3,16 @@
   "source": "{0} fails the build when there are more than {1} warnings. Use it to stop the number of warnings from growing.",
   "text": "{0} lässt den Build fehlschlagen, wenn es mehr als {1} Warnungen gibt. Verwende es, um zu verhindern, dass die Anzahl der Warnungen wächst.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} lässt den Build fehlschlagen, wenn es mehr als {1} Warnungen gibt. Verwende es, um zu verhindern, dass die Anzahl der Warnungen wächst."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

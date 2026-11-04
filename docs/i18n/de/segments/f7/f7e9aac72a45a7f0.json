@@ -3,12 +3,16 @@
   "source": "Open the x18n UI as a panel of Vite DevTools, Nuxt DevTools or any devframe hub, next to your app.",
   "text": "Öffne die x18n-UI als Panel von Vite DevTools, Nuxt DevTools oder einem beliebigen devframe-Hub direkt neben deiner App.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Öffne die x18n-UI als Panel von Vite DevTools, Nuxt DevTools oder einem beliebigen devframe-Hub direkt neben deiner App."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

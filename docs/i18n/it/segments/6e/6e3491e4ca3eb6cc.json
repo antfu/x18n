@@ -3,12 +3,16 @@
   "source": "The {0}language server{/0} gives the same features to any editor with an LSP client.",
   "text": "Il {0}language server{/0} offre le stesse funzionalità a qualsiasi editor con un client LSP.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il {0}language server{/0} offre le stesse funzionalità a qualsiasi editor con un client LSP."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

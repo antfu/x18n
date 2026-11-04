@@ -3,12 +3,16 @@
   "source": "{0}: {1} when {2} is {3}, else {4}",
   "text": "{0}: {1} cuando {2} es {3}, si no {4}",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: {1} cuando {2} es {3}, si no {4}"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

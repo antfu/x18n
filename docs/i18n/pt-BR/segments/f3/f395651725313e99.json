@@ -3,12 +3,16 @@
   "source": "The Shopify format keeps plural and ordinal forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, and {3} to {4}. Each locale needs the plural categories of its own language: Japanese needs only {5}, and Polish needs {6}, {7}, {8} and {9}. New files use nested keys.",
   "text": "O formato Shopify mantém as formas de plural e ordinal como chaves aninhadas. O preset adiciona as chaves derivadas {0}, {1}, {2} e {3} a {4}. Cada idioma precisa das categorias de plural da sua própria língua: o japonês precisa apenas de {5}, e o polonês precisa de {6}, {7}, {8} e {9}. Novos arquivos usam chaves aninhadas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "O formato Shopify mantém as formas de plural e ordinal como chaves aninhadas. O preset adiciona as chaves derivadas {0}, {1}, {2} e {3} a {4}. Cada idioma precisa das categorias de plural da sua própria língua: o japonês precisa apenas de {5}, e o polonês precisa de {6}, {7}, {8} e {9}. Novos arquivos usam chaves aninhadas."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

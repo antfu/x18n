@@ -3,12 +3,16 @@
   "source": "The translate prompt holds only messages without a value. A value can still be wrong: a copy of the source text, pasted in to fill a gap or taken from the wrong side of a merge, or a value older than its source message. {0} and {1} add such messages:",
   "text": "Il prompt di traduzione contiene solo i messaggi senza valore. Un valore può comunque essere sbagliato: una copia del testo di origine, incollata per colmare una lacuna o presa dal lato sbagliato di un merge, oppure un valore più vecchio del suo messaggio di origine. {0} e {1} aggiungono questi messaggi:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il prompt di traduzione contiene solo i messaggi senza valore. Un valore può comunque essere sbagliato: una copia del testo di origine, incollata per colmare una lacuna o presa dal lato sbagliato di un merge, oppure un valore più vecchio del suo messaggio di origine. {0} e {1} aggiungono questi messaggi:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Invalid edit input. Check the input shape against the docs.",
   "text": "Entrada de edición no válida. Comprueba la estructura de la entrada con la documentación.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Entrada de edición no válida. Comprueba la estructura de la entrada con la documentación."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

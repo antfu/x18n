@@ -3,12 +3,16 @@
   "source": "A preset groups plugins and decides with {0} when they apply. Use one when your package supports a library that x18n can detect:",
   "text": "Um preset agrupa plugins e decide com {0} quando eles se aplicam. Use um quando o seu pacote der suporte a uma biblioteca que o x18n consegue detectar:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um preset agrupa plugins e decide com {0} quando eles se aplicam. Use um quando o seu pacote der suporte a uma biblioteca que o x18n consegue detectar:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

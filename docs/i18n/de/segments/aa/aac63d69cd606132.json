@@ -3,12 +3,16 @@
   "source": "This page lists every command of the {0} CLI. {1}CLI and x18n check{/1} explains how to use them. Run {2} to see the same text in a terminal.",
   "text": "Diese Seite listet alle Befehle der {0} CLI auf. {1}CLI und x18n check{/1} erklärt, wie du sie verwendest. Führe {2} aus, um denselben Text in einem Terminal anzuzeigen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Diese Seite listet alle Befehle der {0} CLI auf. {1}CLI und x18n check{/1} erklärt, wie du sie verwendest. Führe {2} aus, um denselben Text in einem Terminal anzuzeigen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

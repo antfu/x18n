@@ -3,12 +3,16 @@
   "source": "Key (or parent of keys) to delete.",
   "text": "Zu löschender Schlüssel (oder übergeordneter Schlüssel).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Zu löschender Schlüssel (oder übergeordneter Schlüssel)."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

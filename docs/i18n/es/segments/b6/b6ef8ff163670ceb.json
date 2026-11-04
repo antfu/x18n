@@ -3,12 +3,16 @@
   "source": "The templates add no import, because where {0} comes from depends on the adapter ({1} in React, {2} in Svelte).",
   "text": "Las plantillas no añaden ningún import, porque el origen de {0} depende del adaptador ({1} en React, {2} en Svelte).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Las plantillas no añaden ningún import, porque el origen de {0} depende del adaptador ({1} en React, {2} en Svelte)."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

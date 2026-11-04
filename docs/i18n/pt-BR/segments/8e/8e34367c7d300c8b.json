@@ -3,12 +3,16 @@
   "source": "Two more prompts print the shipped {0}skills{/0}, for agents that have no skills system:",
   "text": "Mais dois prompts imprimem as {0}skills{/0} incluídas, para agentes que não têm um sistema de skills:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Mais dois prompts imprimem as {0}skills{/0} incluídas, para agentes que não têm um sistema de skills:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

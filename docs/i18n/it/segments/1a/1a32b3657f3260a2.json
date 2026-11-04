@@ -3,12 +3,16 @@
   "source": "Where the locale files are. Each pattern feeds the {0} locale finder. Without patterns, the patterns of all applied presets add up. If they match no file, x18n looks for directories named like {1}.",
   "text": "Dove si trovano i file delle lingue. Ogni pattern alimenta il finder di lingue {0}. Senza pattern, si sommano i pattern di tutti i preset applicati. Se non corrispondono a nessun file, x18n cerca directory con nomi simili a {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Dove si trovano i file delle lingue. Ogni pattern alimenta il finder di lingue {0}. Senza pattern, si sommano i pattern di tutti i preset applicati. Se non corrispondono a nessun file, x18n cerca directory con nomi simili a {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

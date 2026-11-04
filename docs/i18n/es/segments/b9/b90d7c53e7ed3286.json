@@ -3,12 +3,16 @@
   "source": "Another path, or a package name, is imported as a module. Its default export is a plugin, a preset, or a function that takes the options and returns one.",
   "text": "Cualquier otra ruta, o un nombre de paquete, se importa como módulo. Su exportación por defecto es un plugin, un preset o una función que recibe las opciones y devuelve uno.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cualquier otra ruta, o un nombre de paquete, se importa como módulo. Su exportación por defecto es un plugin, un preset o una función que recibe las opciones y devuelve uno."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

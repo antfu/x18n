@@ -3,12 +3,16 @@
   "source": "Option names the library reads itself, which a message need not use ({0}, {1}).",
   "text": "Nombres de opciones que la propia biblioteca lee y que un mensaje no necesita usar ({0}, {1}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nombres de opciones que la propia biblioteca lee y que un mensaje no necesita usar ({0}, {1})."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

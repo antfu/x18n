@@ -3,12 +3,16 @@
   "source": "Do not use {0} on your computer. Anything that reaches the port can then edit your files. The option is for CI and end-to-end tests only, and the command prints a warning.",
   "text": "Não use {0} no seu computador. Qualquer coisa que alcance a porta poderá editar seus arquivos. A opção serve apenas para CI e testes end-to-end, e o comando exibe um aviso.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Não use {0} no seu computador. Qualquer coisa que alcance a porta poderá editar seus arquivos. A opção serve apenas para CI e testes end-to-end, e o comando exibe um aviso."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

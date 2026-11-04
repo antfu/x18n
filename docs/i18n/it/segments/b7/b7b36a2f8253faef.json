@@ -3,12 +3,16 @@
   "source": "Where the params passed to the message are. For factories, those of the returned functions.",
   "text": "Dove si trovano i parametri passati al messaggio. Per le factory, quelli delle funzioni restituite.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Dove si trovano i parametri passati al messaggio. Per le factory, quelli delle funzioni restituite."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

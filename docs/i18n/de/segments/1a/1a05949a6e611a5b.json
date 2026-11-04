@@ -3,12 +3,16 @@
   "source": "Records that translations are up to date with the current source value. Default: every translated locale.",
   "text": "Hält fest, dass die Übersetzungen mit dem aktuellen Quellwert auf dem neuesten Stand sind. Standard: jede übersetzte Sprache.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Hält fest, dass die Übersetzungen mit dem aktuellen Quellwert auf dem neuesten Stand sind. Standard: jede übersetzte Sprache."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

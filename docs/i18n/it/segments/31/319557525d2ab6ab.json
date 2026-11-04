@@ -3,12 +3,16 @@
   "source": "Add a library, a file format or a check with a YAML file, or with a typed TypeScript plugin.",
   "text": "Aggiungi una libreria, un formato di file o un controllo con un file YAML o con un plugin TypeScript tipizzato.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Aggiungi una libreria, un formato di file o un controllo con un file YAML o con un plugin TypeScript tipizzato."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

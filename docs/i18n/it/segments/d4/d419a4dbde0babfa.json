@@ -3,12 +3,16 @@
   "source": "A decision is needed. Answer the listed decisions, or pass `--yes` to accept defaults.",
   "text": "Serve una decisione. Rispondi alle decisioni elencate oppure passa `--yes` per accettare i valori predefiniti.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Serve una decisione. Rispondi alle decisioni elencate oppure passa `--yes` per accettare i valori predefiniti."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as i18next does. With a resource pattern that has {2}, keys have the form {3}:",
   "text": "El preset establece el separador de espacios de nombres en {0} y el espacio de nombres por defecto en {1}, como hace i18next. Con un patrón de recurso que contiene {2}, las claves tienen la forma {3}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El preset establece el separador de espacios de nombres en {0} y el espacio de nombres por defecto en {1}, como hace i18next. Con un patrón de recurso que contiene {2}, las claves tienen la forma {3}:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

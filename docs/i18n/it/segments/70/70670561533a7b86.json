@@ -3,12 +3,16 @@
   "source": "Usages in code, paged: of one {0} (usages with a computed key under a prefix of it are marked {1}), of one file ({2}), or all. Each usage has file, line, column and a code snippet.",
   "text": "Utilizzi nel codice, con paginazione: di una {0} (gli utilizzi con una chiave calcolata sotto un suo prefisso sono contrassegnati con {1}), di un file ({2}) o tutti. Ogni utilizzo include file, riga, colonna e uno snippet di codice.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Utilizzi nel codice, con paginazione: di una {0} (gli utilizzi con una chiave calcolata sotto un suo prefisso sono contrassegnati con {1}), di un file ({2}) o tutti. Ogni utilizzo include file, riga, colonna e uno snippet di codice."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

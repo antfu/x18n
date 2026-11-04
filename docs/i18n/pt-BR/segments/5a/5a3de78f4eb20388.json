@@ -3,12 +3,16 @@
   "source": "A bare {0} call, for example from {1}, is not read: x18n can't tell it apart from other functions named {2}. Call it as {3}, or add {4} to {5} in your config.",
   "text": "Uma chamada {0} isolada, por exemplo vinda de {1}, não é lida: o x18n não consegue distingui-la de outras funções chamadas {2}. Chame-a como {3} ou adicione {4} a {5} na sua configuração.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Uma chamada {0} isolada, por exemplo vinda de {1}, não é lida: o x18n não consegue distingui-la de outras funções chamadas {2}. Chame-a como {3} ou adicione {4} a {5} na sua configuração."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} lists the projects, the locales with their coverage and the counts of diagnostics. {1} lists every diagnostic.",
   "text": "{0} lista os projetos, os idiomas com sua cobertura e a contagem de diagnósticos. {1} lista todos os diagnósticos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} lista os projetos, os idiomas com sua cobertura e a contagem de diagnósticos. {1} lista todos os diagnósticos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

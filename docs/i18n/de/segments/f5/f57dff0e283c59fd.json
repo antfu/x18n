@@ -3,12 +3,16 @@
   "source": "GitHub Actions workflow commands. GitHub shows them as annotations on the changed lines.",
   "text": "Workflow-Befehle von GitHub Actions. GitHub zeigt sie als Annotationen an den geänderten Zeilen an.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Workflow-Befehle von GitHub Actions. GitHub zeigt sie als Annotationen an den geänderten Zeilen an."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

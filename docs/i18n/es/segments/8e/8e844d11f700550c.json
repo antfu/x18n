@@ -3,12 +3,16 @@
   "source": "elements whose content is translated already: {0} and {1}, Angular's {2} (and the attributes named in {3}), and {4},",
   "text": "elementos cuyo contenido ya está traducido: {0} y {1}, el {2} de Angular (y los atributos indicados en {3}), y {4},",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "elementos cuyo contenido ya está traducido: {0} y {1}, el {2} de Angular (y los atributos indicados en {3}), y {4},"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

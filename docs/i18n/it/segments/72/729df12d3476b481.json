@@ -3,12 +3,16 @@
   "source": "Other templates that also apply, for surfaces that let users choose.",
   "text": "Altri template che si applicano ugualmente, per le interfacce che permettono agli utenti di scegliere.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Altri template che si applicano ugualmente, per le interfacce che permettono agli utenti di scegliere."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

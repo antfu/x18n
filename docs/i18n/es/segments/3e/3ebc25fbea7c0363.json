@@ -3,12 +3,16 @@
   "source": "The {0} preset supports the {1}i18n API of Chrome extensions{/1}, and of WebExtensions in other browsers.",
   "text": "El preset {0} es compatible con la {1}API i18n de las extensiones de Chrome{/1} y con las WebExtensions de otros navegadores.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El preset {0} es compatible con la {1}API i18n de las extensiones de Chrome{/1} y con las WebExtensions de otros navegadores."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

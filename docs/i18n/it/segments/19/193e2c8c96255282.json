@@ -3,12 +3,16 @@
   "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
   "text": "{0} elimina le chiavi elencate da {1}, meno le chiavi in {2}. Mantiene anche le chiavi che una chiave completamente calcolata può raggiungere all'interno di uno scope: {3} sotto {4} può raggiungere ogni chiave del namespace {5}, e sotto {6} ogni chiave sotto {7}. Eseguilo prima con {8}: elenca ogni chiave con le sue lingue e i suoi file, poi le chiavi mantenute con gli utilizzi che le mantengono. Una chiave completamente calcolata fuori da qualsiasi scope può raggiungere qualsiasi chiave, quindi il piano la segnala; elenca le chiavi che usa in {9}. Le modifiche avvengono sul posto, quindi commenti e formattazione restano.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} elimina le chiavi elencate da {1}, meno le chiavi in {2}. Mantiene anche le chiavi che una chiave completamente calcolata può raggiungere all'interno di uno scope: {3} sotto {4} può raggiungere ogni chiave del namespace {5}, e sotto {6} ogni chiave sotto {7}. Eseguilo prima con {8}: elenca ogni chiave con le sue lingue e i suoi file, poi le chiavi mantenute con gli utilizzi che le mantengono. Una chiave completamente calcolata fuori da qualsiasi scope può raggiungere qualsiasi chiave, quindi il piano la segnala; elenca le chiavi che usa in {9}. Le modifiche avvengono sul posto, quindi commenti e formattazione restano."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

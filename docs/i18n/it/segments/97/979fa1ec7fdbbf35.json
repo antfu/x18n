@@ -3,12 +3,16 @@
   "source": "In Ruby files, the preset reads the same two calls with a regex.",
   "text": "Nei file Ruby, il preset legge le stesse due chiamate con una regex.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nei file Ruby, il preset legge le stesse due chiamate con una regex."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

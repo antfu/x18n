@@ -3,12 +3,16 @@
   "source": "Check locale files like tsc, read and change keys from the terminal, and pick a reporter for CI.",
   "text": "Verifique os arquivos de idioma como o tsc, leia e altere chaves pelo terminal e escolha um reporter para a CI.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Verifique os arquivos de idioma como o tsc, leia e altere chaves pelo terminal e escolha um reporter para a CI."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

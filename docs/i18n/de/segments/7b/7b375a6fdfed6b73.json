@@ -3,12 +3,16 @@
   "source": "Rules: the placeholder syntaxes of the project, markup, tone, and the glossary. Presets add notes for their library, for example the plural suffixes of i18next.",
   "text": "Regeln: die Platzhalter-Syntaxen des Projekts, Markup, Tonalität und das Glossar. Presets fügen Hinweise für ihre Bibliothek hinzu, zum Beispiel die Plural-Suffixe von i18next.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Regeln: die Platzhalter-Syntaxen des Projekts, Markup, Tonalität und das Glossar. Presets fügen Hinweise für ihre Bibliothek hinzu, zum Beispiel die Plural-Suffixe von i18next."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "the {0} of each {1} file in the root,",
   "text": "das {0} jeder {1}-Datei im Stammverzeichnis,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "das {0} jeder {1}-Datei im Stammverzeichnis,"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

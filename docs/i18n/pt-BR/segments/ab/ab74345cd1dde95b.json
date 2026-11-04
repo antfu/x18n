@@ -3,12 +3,16 @@
   "source": "Shapes follow the {0}JSON contract{/0} version. Positions and ranges use LSP conventions: zero-based lines and UTF-16 characters.",
   "text": "Os formatos seguem a versão do {0}contrato JSON{/0}. Posições e intervalos usam as convenções do LSP: linhas começando em zero e caracteres UTF-16.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Os formatos seguem a versão do {0}contrato JSON{/0}. Posições e intervalos usam as convenções do LSP: linhas começando em zero e caracteres UTF-16."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

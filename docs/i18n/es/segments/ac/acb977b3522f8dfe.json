@@ -3,12 +3,16 @@
   "source": "Renaming a parent node, which renames every key under it.",
   "text": "Renombrar un nodo padre, lo que renombra todas las claves que hay bajo él.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Renombrar un nodo padre, lo que renombra todas las claves que hay bajo él."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

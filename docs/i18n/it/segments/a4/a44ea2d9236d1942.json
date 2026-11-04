@@ -3,12 +3,16 @@
   "source": "The preset for SAPUI5 and OpenUI5. It reads .properties bundles, {i18n>key} bindings and getResourceBundle().getText calls.",
   "text": "Il preset per SAPUI5 e OpenUI5. Legge i bundle .properties, i binding {i18n>key} e le chiamate a getResourceBundle().getText.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il preset per SAPUI5 e OpenUI5. Legge i bundle .properties, i binding {i18n>key} e le chiamate a getResourceBundle().getText."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

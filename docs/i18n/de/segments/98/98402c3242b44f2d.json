@@ -3,12 +3,16 @@
   "source": "To open files from the UI in your editor, set {0}, {1} or {2} before you start the server.",
   "text": "Um Dateien aus der UI in deinem Editor zu öffnen, setze {0}, {1} oder {2}, bevor du den Server startest.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Um Dateien aus der UI in deinem Editor zu öffnen, setze {0}, {1} oder {2}, bevor du den Server startest."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

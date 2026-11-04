@@ -3,12 +3,16 @@
   "source": "The review file could not be read (see {0}X18N5001{/0}).",
   "text": "Não foi possível ler o arquivo de revisões (veja {0}X18N5001{/0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Não foi possível ler o arquivo de revisões (veja {0}X18N5001{/0})."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

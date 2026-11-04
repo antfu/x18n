@@ -3,12 +3,16 @@
   "source": "{0} writes nothing if a value drops or adds a placeholder. It lists the problems and exits with code 1. The check then finds syntax errors, such as an ICU plural without an {1} case.",
   "text": "{0} no escribe nada si un valor elimina o añade un marcador de posición. Enumera los problemas y termina con el código 1. Después, la comprobación detecta errores de sintaxis, como un plural ICU sin un caso {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} no escribe nada si un valor elimina o añade un marcador de posición. Enumera los problemas y termina con el código 1. Después, la comprobación detecta errores de sintaxis, como un plural ICU sin un caso {1}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

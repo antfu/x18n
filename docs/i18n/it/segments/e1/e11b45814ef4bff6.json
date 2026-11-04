@@ -3,12 +3,16 @@
   "source": "List message keys, paged. Filter by {0} locale (keys to translate), {1} (keys no code uses), {2} or a key {3}. Pass {4} to get the value per locale. A key whose format gives it a display label has {5}. Continue with {6}.",
   "text": "Elenca le chiavi dei messaggi, con paginazione. Filtra per lingua {0} (chiavi da tradurre), {1} (chiavi che nessun codice utilizza), {2} o per {3} della chiave. Passa {4} per ottenere il valore per ogni lingua. Una chiave il cui formato le assegna un'etichetta di visualizzazione ha {5}. Continua con {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Elenca le chiavi dei messaggi, con paginazione. Filtra per lingua {0} (chiavi da tradurre), {1} (chiavi che nessun codice utilizza), {2} o per {3} della chiave. Passa {4} per ottenere il valore per ogni lingua. Una chiave il cui formato le assegna un'etichetta di visualizzazione ha {5}. Continua con {6}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

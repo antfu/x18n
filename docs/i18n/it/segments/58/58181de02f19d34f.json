@@ -3,12 +3,16 @@
   "source": "One key: its value in every locale with file and line (and its translation {0} and {1} when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
   "text": "Una chiave: il suo valore in ogni lingua con file e riga (e la sua traduzione {0} e {1} quando il file li registra), le lingue in cui manca, gli utilizzi nel codice con alcune righe di contesto e le diagnostiche. Usalo per controllare una chiave prima di crearne o rinominarne una.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Una chiave: il suo valore in ogni lingua con file e riga (e la sua traduzione {0} e {1} quando il file li registra), le lingue in cui manca, gli utilizzi nel codice con alcune righe di contesto e le diagnostiche. Usalo per controllare una chiave prima di crearne o rinominarne una."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

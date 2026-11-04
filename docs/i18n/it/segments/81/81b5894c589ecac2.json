@@ -3,12 +3,16 @@
   "source": "In {0}, add the server, then add it to each language next to the server it already uses:",
   "text": "In {0}, aggiungi il server, poi aggiungilo a ogni linguaggio accanto al server che già usa:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "In {0}, aggiungi il server, poi aggiungilo a ogni linguaggio accanto al server che già usa:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

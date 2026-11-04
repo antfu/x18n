@@ -3,12 +3,16 @@
   "source": "{0} writes a whole file. x18n uses it to create files, and when {1} is missing.",
   "text": "{0} scrive un intero file. x18n lo usa per creare file e quando {1} manca.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} scrive un intero file. x18n lo usa per creare file e quando {1} manca."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

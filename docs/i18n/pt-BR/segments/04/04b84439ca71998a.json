@@ -3,12 +3,16 @@
   "source": "Paths in a project config are relative to the project directory. A project directory without a config file is a project with the root options and its own detection.",
   "text": "Os caminhos em uma configuração de projeto são relativos ao diretório do projeto. Um diretório de projeto sem arquivo de configuração é um projeto com as opções da raiz e sua própria detecção.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Os caminhos em uma configuração de projeto são relativos ao diretório do projeto. Um diretório de projeto sem arquivo de configuração é um projeto com as opções da raiz e sua própria detecção."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

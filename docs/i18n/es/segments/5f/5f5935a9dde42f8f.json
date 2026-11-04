@@ -3,12 +3,16 @@
   "source": "A key that is missing in the source locale shows in a warning color.",
   "text": "Una clave que falta en el idioma de origen se muestra con un color de advertencia.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Una clave que falta en el idioma de origen se muestra con un color de advertencia."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

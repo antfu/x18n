@@ -3,12 +3,16 @@
   "source": "The display name and flag of locale codes, for the UI and the editor:",
   "text": "Der Anzeigename und die Flagge von Sprachcodes für die Oberfläche und den Editor:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Der Anzeigename und die Flagge von Sprachcodes für die Oberfläche und den Editor:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

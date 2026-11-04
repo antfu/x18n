@@ -3,12 +3,16 @@
   "source": "{0} writes a static, read-only copy of the {1}UI{/1}. Upload it as an artifact, or deploy it to any static host:",
   "text": "{0} escribe una copia estática de solo lectura de la {1}UI{/1}. Súbela como artefacto o despliégala en cualquier host estático:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} escribe una copia estática de solo lectura de la {1}UI{/1}. Súbela como artefacto o despliégala en cualquier host estático:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

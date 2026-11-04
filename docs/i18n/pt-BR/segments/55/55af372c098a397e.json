@@ -3,12 +3,16 @@
   "source": "{0} and {1} return a translate function. {2} and {3} return one with a key prefix, from their first argument:",
   "text": "{0} e {1} retornam uma função de tradução. {2} e {3} retornam uma função com um prefixo de chave, definido pelo primeiro argumento:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} e {1} retornam uma função de tradução. {2} e {3} retornam uma função com um prefixo de chave, definido pelo primeiro argumento:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

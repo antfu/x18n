@@ -3,12 +3,16 @@
   "source": "The preset for flutter_i18n. It reads JSON and YAML assets, FlutterI18n.translate and the I18nText widgets in Dart.",
   "text": "Das Preset für flutter_i18n. Es liest JSON- und YAML-Assets, FlutterI18n.translate und die I18nText-Widgets in Dart.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Das Preset für flutter_i18n. Es liest JSON- und YAML-Assets, FlutterI18n.translate und die I18nText-Widgets in Dart."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

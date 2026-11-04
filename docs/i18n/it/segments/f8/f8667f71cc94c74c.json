@@ -3,12 +3,16 @@
   "source": "Settings that are not on this page are not migrated.",
   "text": "Le impostazioni che non sono in questa pagina non vengono migrate.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le impostazioni che non sono in questa pagina non vengono migrate."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

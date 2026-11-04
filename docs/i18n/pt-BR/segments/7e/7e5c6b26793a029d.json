@@ -3,12 +3,16 @@
   "source": "Produces diagnostics from project state. {0} runs all checks.",
   "text": "Produz diagnósticos a partir do estado do projeto. {0} executa todas as verificações.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Produz diagnósticos a partir do estado do projeto. {0} executa todas as verificações."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

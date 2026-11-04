@@ -3,12 +3,16 @@
   "source": "Reviews are not available. Set `review.enabled` to true, and fix the review file if the check reports a problem with it.",
   "text": "Reviews sind nicht verfügbar. Setze `review.enabled` auf true und korrigiere die Review-Datei, wenn die Prüfung ein Problem damit meldet.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Reviews sind nicht verfügbar. Setze `review.enabled` auf true und korrigiere die Review-Datei, wenn die Prüfung ein Problem damit meldet."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "prefix rename (fine in UI labels)",
   "text": "Präfix-Umbenennung (in UI-Labels in Ordnung)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Präfix-Umbenennung (in UI-Labels in Ordnung)"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

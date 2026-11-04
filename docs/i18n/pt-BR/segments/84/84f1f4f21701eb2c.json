@@ -3,12 +3,16 @@
   "source": "Each plugin has a {0}. Names are unique, and the built-in plugins use the {1} prefix. Each capability has an {2}, unique within its kind. Two capabilities with the same id stop the load with {3}X18N1002{/3}, unless the later one sets {4}.",
   "text": "Cada plugin tem um {0}. Os nomes são únicos, e os plugins integrados usam o prefixo {1}. Cada capacidade tem um {2}, único dentro do seu tipo. Duas capacidades com o mesmo id interrompem o carregamento com {3}X18N1002{/3}, a menos que a posterior defina {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Cada plugin tem um {0}. Os nomes são únicos, e os plugins integrados usam o prefixo {1}. Cada capacidade tem um {2}, único dentro do seu tipo. Duas capacidades com o mesmo id interrompem o carregamento com {3}X18N1002{/3}, a menos que a posterior defina {4}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

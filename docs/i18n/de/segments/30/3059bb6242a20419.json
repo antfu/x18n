@@ -3,12 +3,16 @@
   "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
   "text": "Eine Sprachdatei wurde geparst, aber ihre oberste Ebene ist kein Objekt aus messages. Eine Sprachdatei enthält verschachtelte Objekte, deren Blätter Strings, Zahlen, Booleans oder {0} sind.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Eine Sprachdatei wurde geparst, aber ihre oberste Ebene ist kein Objekt aus messages. Eine Sprachdatei enthält verschachtelte Objekte, deren Blätter Strings, Zahlen, Booleans oder {0} sind."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

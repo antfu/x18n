@@ -3,12 +3,16 @@
   "source": "Completion suggests keys inside translate calls.",
   "text": "Il completamento suggerisce le chiavi all'interno delle chiamate di traduzione.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Il completamento suggerisce le chiavi all'interno delle chiamate di traduzione."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

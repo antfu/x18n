@@ -3,12 +3,16 @@
   "source": "When you fix known problems, {0} says how many entries no longer occur. Run {1} again to drop them, so that they cannot come back unnoticed. With {2}, {3} or {4}, the update keeps the entries that these options leave out. {5} adds the counts as {6}: {7}.",
   "text": "Quando você corrige problemas conhecidos, {0} informa quantas entradas não ocorrem mais. Execute {1} de novo para removê-las, para que não voltem sem ser notadas. Com {2}, {3} ou {4}, a atualização mantém as entradas que essas opções deixam de fora. {5} adiciona as contagens como {6}: {7}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Quando você corrige problemas conhecidos, {0} informa quantas entradas não ocorrem mais. Execute {1} de novo para removê-las, para que não voltem sem ser notadas. Com {2}, {3} ou {4}, a atualização mantém as entradas que essas opções deixam de fora. {5} adiciona as contagens como {6}: {7}."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

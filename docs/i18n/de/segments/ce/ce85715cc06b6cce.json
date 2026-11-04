@@ -3,12 +3,16 @@
   "source": "Terms with fixed translations. Translate prompts list them, and the {0} check compares values with them.",
   "text": "Begriffe mit festen Übersetzungen. Translate-Prompts listen sie auf, und die Prüfung {0} vergleicht Werte mit ihnen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Begriffe mit festen Übersetzungen. Translate-Prompts listen sie auf, und die Prüfung {0} vergleicht Werte mit ihnen."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} adds the markup Angular needs and keeps your template as it is. It marks a whole element as one message, so a sentence with a link or {1} stays together:",
   "text": "{0} añade el marcado que Angular necesita y deja tu plantilla tal como está. Marca un elemento completo como un solo mensaje, de modo que una frase con un enlace o {1} se mantiene unida:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} añade el marcado que Angular necesita y deja tu plantilla tal como está. Marca un elemento completo como un solo mensaje, de modo que una frase con un enlace o {1} se mantiene unida:"
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

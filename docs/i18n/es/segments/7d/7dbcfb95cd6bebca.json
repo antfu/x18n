@@ -3,12 +3,16 @@
   "source": "A message is the value of one key in one locale. {0} is the message of {1} in {2}. {3} is a placeholder. The {4} check makes sure that each translation keeps the placeholders of the source message.",
   "text": "Un mensaje es el valor de una clave en un idioma. {0} es el mensaje de {1} en {2}. {3} es un marcador de posición. La comprobación {4} se asegura de que cada traducción conserve los marcadores de posición del mensaje de origen.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un mensaje es el valor de una clave en un idioma. {0} es el mensaje de {1} en {2}. {3} es un marcador de posición. La comprobación {4} se asegura de que cada traducción conserve los marcadores de posición del mensaje de origen."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

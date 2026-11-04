@@ -3,12 +3,16 @@
   "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
   "text": "El autor es {0} de la configuración o, si no, git {1} y {2}. {3} anula ambos.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "El autor es {0} de la configuración o, si no, git {1} y {2}. {3} anula ambos."
   },
-  "updatedAt": "2026-11-04T05:48:11.380Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }
