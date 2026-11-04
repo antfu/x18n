@@ -32,9 +32,9 @@ export function* walkLeaves(tree: MessageTree, prefix: readonly string[] = []): 
   }
 }
 
-interface MutableTree { [segment: string]: MessageLeaf | MutableTree }
+export interface MutableTree { [segment: string]: MessageLeaf | MutableTree }
 
-function cloneTree(tree: MessageTree): MutableTree {
+export function cloneTree(tree: MessageTree): MutableTree {
   const out: MutableTree = {}
   for (const [segment, child] of Object.entries(tree)) {
     out[segment] = isMessageLeaf(child)
@@ -79,15 +79,20 @@ function deleteIn(tree: MutableTree, path: readonly string[]): void {
   }
 }
 
+/** Applies ops to the tree itself. Parent objects left empty are removed. */
+export function applyMessageOpsInPlace(tree: MutableTree, ops: readonly MessageOp[]): void {
+  for (const op of ops) {
+    if (op.type === 'set')
+      setIn(tree, op.path, op.value)
+    else
+      deleteIn(tree, op.path)
+  }
+}
+
 /** Applies ops to a copy of the tree. Parent objects left empty are removed. */
 export function applyMessageOps(tree: MessageTree, ops: readonly MessageOp[]): MessageTree {
   const out = cloneTree(tree)
-  for (const op of ops) {
-    if (op.type === 'set')
-      setIn(out, op.path, op.value)
-    else
-      deleteIn(out, op.path)
-  }
+  applyMessageOpsInPlace(out, ops)
   return out
 }
 

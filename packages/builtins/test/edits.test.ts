@@ -1,5 +1,5 @@
 import type { Project } from '@x18n/core'
-import { renderPrompt } from '@x18n/core'
+import { applyMessageOps, renderPrompt, sortTree } from '@x18n/core'
 import { describe, expect, it } from 'vitest'
 import { reactI18next } from '../src/presets/react-i18next'
 import { vueI18n } from '../src/presets/vue-i18n'
@@ -213,6 +213,104 @@ describe('in-place edits', () => {
       },
     ])
     expect(tie.changes.map(c => c.path)).toEqual(['locales/en/a.json'])
+  })
+
+  it('many sets to one file give the same file as applying them in one batch', async () => {
+    const flat = Object.fromEntries(Array.from({ length: 300 }, (_, i) => [`group${i % 7}.key${i}`, `Value ${i}`]))
+    const nested = {
+      a: { x: 'X' },
+      b: { y: 'Y' },
+    }
+    for (const [tree, stored] of [
+      [
+        flat,
+        (i: number) => [`group${i % 9}.new${i}`],
+      ],
+      [
+        nested,
+        (i: number) => [
+          i % 2
+            ? 'a'
+            : 'c',
+          `new${i}`,
+        ],
+      ],
+    ] as const) {
+      const { project, files } = await createTestProject({
+        'locales/en.json': json(tree),
+      }, {
+        resources: [
+          { pattern: 'locales/{locale}.json' },
+        ],
+        write: { sort: 'binary' },
+      })
+      const sets = Array.from({ length: 200 }, (_, i) => ({
+        key: stored(i).join('.'),
+        value: `New ${i}`,
+      }))
+      await write(project, sets.map(({ key, value }) => ({
+        type: 'set' as const,
+        key,
+        locale: 'en',
+        value,
+      })))
+      const batch = applyMessageOps(tree, sets.map((set, i) => ({
+        type: 'set' as const,
+        path: stored(i),
+        value: set.value,
+      })))
+      expect(files.get('locales/en.json')).toBe(`${JSON.stringify(sortTree(batch, (a, b) => a < b
+        ? -1
+        : a > b
+          ? 1
+          : 0), null, 2)}\n`)
+    }
+  })
+
+  it('planning leaves the parsed resources alone', async () => {
+    const { project, files } = await createTestProject({
+      'locales/en.json': json({
+        a: 'A',
+        n: { b: 'B' },
+      }),
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+      // Sorting writes from the planned tree, so a tree shared with the parsed resource would show here.
+      write: { sort: 'binary' },
+    })
+    project.plan([
+      {
+        type: 'set',
+        key: 'x',
+        locale: 'en',
+        value: 'X',
+      },
+      {
+        type: 'set',
+        key: 'n.c',
+        locale: 'en',
+        value: 'C',
+      },
+      { type: 'delete', key: 'a' },
+    ])
+    expect(project.message('x', 'en')).toBeUndefined()
+    expect(project.message('a', 'en')?.value).toBe('A')
+    // A later plan starts from the parsed tree, so none of the unapplied plan's ops reach the file.
+    await write(project, [
+      {
+        type: 'set',
+        key: 'y',
+        locale: 'en',
+        value: 'Y',
+      },
+    ])
+    expect(JSON.parse(files.get('locales/en.json')!)).toEqual({
+      a: 'A',
+      n: { b: 'B' },
+      y: 'Y',
+    })
   })
 
   it('keepFilled adds empty values to the other locales', async () => {

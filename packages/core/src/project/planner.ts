@@ -1,3 +1,4 @@
+import type { MutableTree } from '../message-tree'
 import type { PluginRegistry } from '../plugins'
 import type { KeySeparator, ResolvedConfig } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
@@ -8,7 +9,7 @@ import type { ReviewData, ReviewStore } from '../types/review'
 import type { ResourceState } from './analysis'
 import { errors } from '../errors'
 import { isKeyUnder, keyJoiner, keySeparatorOf, replaceKeyPrefix, splitKey, splitKeyPath, splitNamespace } from '../keys'
-import { applyMessageOps, isMessageLeaf, pathId, sortTree, walkLeaves } from '../message-tree'
+import { applyMessageOpsInPlace, cloneTree, isMessageLeaf, pathId, sortTree, walkLeaves } from '../message-tree'
 import { applyTextEdits, diffText, hashText } from '../text'
 import { findReview, noReviews, ReviewDraft, reviewId, sortReviews, sourceHash, valueText } from './reviews'
 
@@ -67,7 +68,10 @@ interface Target {
 
 interface Work {
   readonly target: Target
-  tree: MessageTree
+  /** A copy of the resource's raw tree with the planned ops applied; the raw tree is never mutated. */
+  readonly tree: MutableTree
+  /** `isFlatTree` of `tree`, kept until an op changes what it depends on. */
+  flat?: boolean | undefined
   readonly ops: MessageOp[]
   /** In-place renames of the last key segment: the key text range and the new text. */
   readonly keyRenames: TextEdit[]
@@ -198,7 +202,7 @@ class PlanBuilder {
     if (!entry) {
       entry = {
         target,
-        tree: target.state?.rawTree ?? {},
+        tree: cloneTree(target.state?.rawTree ?? {}),
         ops: [],
         keyRenames: [],
         formatOnly: false,
@@ -261,7 +265,9 @@ class PlanBuilder {
     if (separator === false)
       return stored
     // Transforms (Rails, Chrome) fix the nesting; otherwise follow the file's style.
-    const flat = stored.length === relative.length && (isFlatTree(entry.tree, separator) ?? (this.config.keyStyle === 'flat'))
+    if (stored.length === relative.length)
+      entry.flat ??= isFlatTree(entry.tree, separator)
+    const flat = stored.length === relative.length && (entry.flat ?? (this.config.keyStyle === 'flat'))
     return flat
       ? [
           stored.join(separator),
@@ -401,7 +407,21 @@ class PlanBuilder {
   /** ---- Message ops ---- */
   pushOp(entry: Work, op: MessageOp): void {
     entry.ops.push(op)
-    entry.tree = applyMessageOps(entry.tree, [op])
+    this.applyOps(entry, [op])
+  }
+
+  /** Applies ops to the entry's tree in place; drops `flat` when a top-level object appears or goes, or a top-level key goes. */
+  applyOps(entry: Work, ops: readonly MessageOp[]): void {
+    for (const op of ops) {
+      const top = op.path[0]!
+      const before = entry.tree[top]
+      applyMessageOpsInPlace(entry.tree, [op])
+      const after = entry.tree[top]
+      const wasObject = before !== undefined && !isMessageLeaf(before)
+      const isObject = after !== undefined && !isMessageLeaf(after)
+      if (wasObject !== isObject || (before !== undefined && after === undefined))
+        entry.flat = undefined
+    }
   }
 
   setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf): void {
@@ -466,7 +486,7 @@ class PlanBuilder {
       const leaves = [
         ...walkLeaves(node, stored),
       ]
-      entry.tree = applyMessageOps(entry.tree, [
+      this.applyOps(entry, [
         ...leaves.map(leaf => ({ type: 'delete' as const, path: leaf.path })),
         ...leaves.map(leaf => ({
           type: 'set' as const,
@@ -509,7 +529,7 @@ class PlanBuilder {
       const last = next.at(-1)!
       if (sameParent && m.range && (flat ? safeFlat : safeSegment).test(last)) {
         entry.keyRenames.push({ range: m.range.key, text: last })
-        entry.tree = applyMessageOps(entry.tree, [
+        this.applyOps(entry, [
           { type: 'delete', path: m.storedPath },
           { type: 'set', path: next, value: m.value },
         ])
