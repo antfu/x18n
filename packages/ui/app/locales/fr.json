@@ -198,7 +198,9 @@
     "viewAll": "Tout afficher",
     "copyFix": "Copier le prompt de correction",
     "fixHint": "Copie un prompt pour un LLM ou un agent qui corrige tous les diagnostics de ce projet",
-    "fixCodeHint": "Copie un prompt pour un LLM ou un agent qui corrige les diagnostics {code}"
+    "fixCodeHint": "Copie un prompt pour un LLM ou un agent qui corrige les diagnostics {code}",
+    "showMore": "Afficher {count} de plus",
+    "shown": "{shown} sur {total} affichés"
   },
   "review": {
     "add": "Relire",

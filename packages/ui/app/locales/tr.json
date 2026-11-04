@@ -135,7 +135,9 @@
     "viewAll": "Tümünü gör",
     "copyFix": "Düzeltme istemini kopyala",
     "fixHint": "Bu projedeki tüm tanılamaları düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala",
-    "fixCodeHint": "{code} tanılamalarını düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala"
+    "fixCodeHint": "{code} tanılamalarını düzeltecek bir LLM veya yapay zekâ ajanı için istem kopyala",
+    "showMore": "{count} tane daha göster",
+    "shown": "{total} öğeden {shown} tanesi gösteriliyor"
   },
   "usages": {
     "missing": "Tanımlı değil ({count})",

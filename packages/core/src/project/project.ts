@@ -2,7 +2,7 @@ import type { X18nError } from '../errors'
 import type { Setup } from '../resolve'
 import type { KeySeparator } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
-import type { KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
+import type { Diagnostic, KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
 import type { FinderContext, HardString, HistoryContext, KeyFile, ScanResult, SourceFile } from '../types/plugin'
 import type { Analysis, KeyInfo, KeyTarget, Project, ProjectChange, ProjectExplanation, ResourceNode, SearchMatch, SearchOptions, UsageMatch } from '../types/project'
 import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
@@ -844,6 +844,15 @@ export function createProject(options: CreateProjectOptions): Project {
     text: path => fileTexts.get(path) ?? files.get(path)?.text,
   })
 
+  // The analyzer memoizes by revision too, but only after building its state snapshot, which
+  // spreads every file and resource. Checking the revision first keeps per-key callers cheap.
+  let lastAnalysis: Analysis | undefined
+  function analyze(): Analysis {
+    if (lastAnalysis?.revision !== revision)
+      lastAnalysis = analyzer.analyze()
+    return lastAnalysis
+  }
+
   function keys(query: Parameters<Project['keys']>[0] = {}): KeyString[] {
     const { messages, keyPaths } = idx()
     const match = query.glob
@@ -864,7 +873,7 @@ export function createProject(options: CreateProjectOptions): Project {
       })
     }
     if (query.unused) {
-      const unused = new Set(analyzer.analyze().unused)
+      const unused = new Set(analyze().unused)
       list = list.filter(key => unused.has(key))
     }
     return list.sort()
@@ -895,6 +904,28 @@ export function createProject(options: CreateProjectOptions): Project {
     return found.sort((a, b) => b.score - a.score || a.value.length - b.value.length || a.key.localeCompare(b.key))
   }
 
+  // Diagnostics grouped by key, built once per analysis so `get` stays cheap when called for every key.
+  let diagnosticIndex: { analysis: Analysis, byKey: Map<KeyString, Diagnostic[]> } | undefined
+  function diagnosticsOf(key: KeyString): Diagnostic[] {
+    const analysis = analyze()
+    if (diagnosticIndex?.analysis !== analysis) {
+      const byKey = new Map<KeyString, Diagnostic[]>()
+      for (const d of analysis.diagnostics) {
+        if (d.key === undefined)
+          continue
+        const list = byKey.get(d.key)
+        if (list)
+          list.push(d)
+        else
+          byKey.set(d.key, [d])
+      }
+      diagnosticIndex = { analysis, byKey }
+    }
+    return [
+      ...diagnosticIndex.byKey.get(key) ?? [],
+    ]
+  }
+
   function get(key: KeyString): KeyInfo | undefined {
     const { messages, keyPaths } = idx()
     const byLocale = messages.get(key)
@@ -910,7 +941,7 @@ export function createProject(options: CreateProjectOptions): Project {
       messages: list,
       missing: locales.filter(locale => !byLocale.has(locale) && needs(key, locale)),
       usages: usageMatches({ key }),
-      diagnostics: analyzer.analyze().diagnostics.filter(d => d.key === key),
+      diagnostics: diagnosticsOf(key),
       reviews: reviews({ key }),
     }
   }
@@ -1234,7 +1265,7 @@ export function createProject(options: CreateProjectOptions): Project {
       : a > b
         ? 1
         : 0)).filter(([p]) => path === undefined || p === path).flatMap(([p, state]) => (state.result.hardStrings ?? []).map(h => ({ ...h, path: p }))),
-    analyze: (): Analysis => analyzer.analyze(),
+    analyze,
     async loadHistory(historyOptions = {}) {
       await ready
       await history.load(historyOptions)
@@ -1261,7 +1292,7 @@ export function createProject(options: CreateProjectOptions): Project {
     owns: path => fileTexts.has(path) || files.has(path) || usageEligible(path),
     plan: ops => planner.plan(ops),
     planUnused: query => planUnusedDeletion({
-      unused: analyzer.analyze().unused,
+      unused: analyze().unused,
       usages: idx().usages,
       namespaced,
       ignoreKeys: config.ignoreKeys,

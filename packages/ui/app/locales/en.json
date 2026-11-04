@@ -135,7 +135,9 @@
     "viewAll": "View all",
     "copyFix": "Copy fix prompt",
     "fixHint": "Copy a prompt for an LLM or agent that fixes every diagnostic of this project",
-    "fixCodeHint": "Copy a prompt for an LLM or agent that fixes the {code} diagnostics"
+    "fixCodeHint": "Copy a prompt for an LLM or agent that fixes the {code} diagnostics",
+    "showMore": "Show {count} more",
+    "shown": "{shown} of {total} shown"
   },
   "usages": {
     "missing": "Not defined ({count})",

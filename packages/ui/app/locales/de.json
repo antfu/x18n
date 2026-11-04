@@ -198,7 +198,9 @@
     "viewAll": "Alle anzeigen",
     "copyFix": "Prompt zur Behebung kopieren",
     "fixHint": "Kopiert einen Prompt für ein LLM oder einen Agenten, der alle Diagnosen dieses Projekts behebt",
-    "fixCodeHint": "Kopiert einen Prompt für ein LLM oder einen Agenten, der die Diagnosen {code} behebt"
+    "fixCodeHint": "Kopiert einen Prompt für ein LLM oder einen Agenten, der die Diagnosen {code} behebt",
+    "showMore": "{count} weitere anzeigen",
+    "shown": "{shown} von {total} angezeigt"
   },
   "review": {
     "add": "Review",

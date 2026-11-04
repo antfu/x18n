@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { MessageState } from '@x18n/core'
 import type { KeyRow } from '../../../src/node/types'
-import { useVirtualList } from '@vueuse/core'
+import { refDebounced, useVirtualList } from '@vueuse/core'
 import { fuzzyScore } from '@x18n/core'
 import { computed, nextTick, ref, useTemplateRef, watch } from 'vue'
 import { useRoute, useRouter } from '#imports'
@@ -21,6 +21,8 @@ const router = useRouter()
 const table = useLive((b, project) => b.keys(project))
 
 const search = ref('')
+// Each keystroke would otherwise score every value of every locale.
+const query = refDebounced(computed(() => search.value.trim()), 120)
 const namespace = ref('')
 const missingIn = ref(typeof route.query.missing === 'string'
   ? route.query.missing
@@ -29,13 +31,10 @@ const unusedOnly = ref(false)
 const withDiagnostics = ref(false)
 const outdatedOnly = ref(route.query.outdated !== undefined)
 const reviewedOnly = ref(route.query.reviewed !== undefined)
-const hasReviews = computed(() => (table.value?.rows ?? []).some(row => Object.keys(row.reviews).length > 0))
 const isState = (value: unknown): value is MessageState => typeof value === 'string' && value in messageStates
 const stateFilter = ref<MessageState | ''>(isState(route.query.state)
   ? route.query.state
   : '')
-const hasStates = computed(() => (table.value?.rows ?? []).some(row => Object.keys(row.states).length > 0))
-const hasLabels = computed(() => (table.value?.rows ?? []).some(row => row.label !== undefined))
 const nameOf = (row: KeyRow): string => row.label ?? row.key
 const sort = ref<'key' | 'recent'>('key')
 const sorts = computed(() => [
@@ -48,40 +47,98 @@ const sorts = computed(() => [
     label: t('keys.sortRecent'),
   },
 ])
-const hasHistory = computed(() => (table.value?.rows ?? []).some(row => row.changedAt !== undefined))
+
+// What the toolbar offers, found in one pass over the table instead of one per control.
+const facets = computed(() => {
+  const out = {
+    reviews: false,
+    states: false,
+    labels: false,
+    history: false,
+    namespaces: new Set<string>(),
+  }
+  for (const row of table.value?.rows ?? []) {
+    out.reviews ||= Object.keys(row.reviews).length > 0
+    out.states ||= Object.keys(row.states).length > 0
+    out.labels ||= row.label !== undefined
+    out.history ||= row.changedAt !== undefined
+    if (row.namespace !== undefined)
+      out.namespaces.add(row.namespace)
+  }
+  return out
+})
+const hasReviews = computed(() => facets.value.reviews)
+const hasStates = computed(() => facets.value.states)
+const hasLabels = computed(() => facets.value.labels)
+const hasHistory = computed(() => facets.value.history)
 
 const locales = computed(() => visibleLocales.value.map(l => l.code))
 const namespaces = computed(() => [
-  ...new Set((table.value?.rows ?? []).flatMap(r => r.namespace ?? [])),
+  ...facets.value.namespaces,
 ].sort())
 
+// Lowercased search text per row, built once per table rather than on every keystroke.
+const haystacks = computed(() => new Map((table.value?.rows ?? []).map(row => [
+  row,
+  {
+    key: row.key.toLowerCase(),
+    label: row.label?.toLowerCase(),
+    values: Object.values(row.values).map(v => String(v).toLowerCase()),
+  },
+])))
+
+const filtered = computed<KeyRow[]>(() => (table.value?.rows ?? []).filter(row =>
+  (!namespace.value || row.namespace === namespace.value)
+  && (!missingIn.value || !locales.value.includes(missingIn.value) || row.missing.includes(missingIn.value))
+  && (!unusedOnly.value || row.unused)
+  && (!withDiagnostics.value || row.diagnostics > 0)
+  && (!outdatedOnly.value || row.outdated.some(locale => locales.value.includes(locale)))
+  && (!reviewedOnly.value || locales.value.some(locale => row.reviews[locale] !== undefined))
+  && (!stateFilter.value || locales.value.some(locale => row.states[locale] === stateFilter.value))))
+
+// The last search, so typing more letters only rescores the rows that already matched:
+// a row that does not match a query cannot match the query extended.
+let previous: { query: string, from: readonly KeyRow[], matched: Set<KeyRow> } | undefined
+
+function score(row: KeyRow, q: string): number {
+  const text = haystacks.value.get(row)
+  if (!text)
+    return -1
+  let best = fuzzyScore(q, text.key)
+  if (text.label !== undefined)
+    best = Math.max(best, fuzzyScore(q, text.label))
+  for (const value of text.values)
+    best = Math.max(best, fuzzyScore(q, value) / 2)
+  return best
+}
+
 const rows = computed<KeyRow[]>(() => {
-  const query = search.value.trim()
-  const filtered = (table.value?.rows ?? []).filter(row =>
-    (!namespace.value || row.namespace === namespace.value)
-    && (!missingIn.value || !locales.value.includes(missingIn.value) || row.missing.includes(missingIn.value))
-    && (!unusedOnly.value || row.unused)
-    && (!withDiagnostics.value || row.diagnostics > 0)
-    && (!outdatedOnly.value || row.outdated.some(locale => locales.value.includes(locale)))
-    && (!reviewedOnly.value || locales.value.some(locale => row.reviews[locale] !== undefined))
-    && (!stateFilter.value || locales.value.some(locale => row.states[locale] === stateFilter.value)))
-  if (!query) {
+  const q = query.value.toLowerCase()
+  const candidates = filtered.value
+  if (!q) {
+    previous = undefined
     if (sort.value === 'recent')
-      return [...filtered].sort((a, b) => (b.changedAt ?? 0) - (a.changedAt ?? 0))
+      return [...candidates].sort((a, b) => (b.changedAt ?? 0) - (a.changedAt ?? 0))
     return hasLabels.value
-      ? [...filtered].sort((a, b) => nameOf(a).localeCompare(nameOf(b)))
-      : filtered
+      ? [...candidates].sort((a, b) => nameOf(a).localeCompare(nameOf(b)))
+      : candidates
   }
-  const scored = filtered.map((row) => {
-    const values = Object.values(row.values).map(v => fuzzyScore(query, String(v)) / 2)
-    return {
-      row,
-      score: Math.max(fuzzyScore(query, row.key), row.label === undefined
-        ? -1
-        : fuzzyScore(query, row.label), ...values),
-    }
-  })
-  return scored.filter(s => s.score >= 0).sort((a, b) => b.score - a.score).map(s => s.row)
+  const narrowing = previous !== undefined && previous.from === candidates && q.startsWith(previous.query)
+  const pool = narrowing
+    ? candidates.filter(row => previous!.matched.has(row))
+    : candidates
+  const scored: { row: KeyRow, score: number }[] = []
+  for (const row of pool) {
+    const s = score(row, q)
+    if (s >= 0)
+      scored.push({ row, score: s })
+  }
+  previous = {
+    query: q,
+    from: candidates,
+    matched: new Set(scored.map(s => s.row)),
+  }
+  return scored.sort((a, b) => b.score - a.score).map(s => s.row)
 })
 
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(rows, { itemHeight: ROW_HEIGHT, overscan: 12 })

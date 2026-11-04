@@ -56,6 +56,37 @@ describe('project read path', () => {
     expect(text.slice(missing.location!.range.start, missing.location!.range.end)).toBe('subtitle')
   })
 
+  it('lists the diagnostics of a key, and follows edits', async () => {
+    const { project } = await createTestProject({
+      'src/locales/en.json': json({ a: 'A', b: 'B', c: 'C' }),
+      'src/locales/de.json': json({ a: 'A', b: '' }),
+    }, {
+      resources: [
+        { pattern: 'src/locales/{locale}.json' },
+      ],
+    })
+
+    const all = project.analyze().diagnostics
+    for (const key of project.keys())
+      expect(project.get(key)?.diagnostics).toEqual(all.filter(d => d.key === key))
+    expect(project.get('a')?.diagnostics).toEqual([])
+    expect(project.get('b')?.diagnostics.map(d => d.code)).toEqual(['empty-translation'])
+    expect(project.get('c')?.diagnostics.map(d => d.code)).toEqual(['missing-translation'])
+    // Answers are copies: changing one does not reach the next call.
+    ;(project.get('c')!.diagnostics as unknown[]).length = 0
+    expect(project.get('c')?.diagnostics).toHaveLength(1)
+
+    await project.apply(project.plan([
+      {
+        type: 'set',
+        key: 'c',
+        locale: 'de',
+        value: 'C',
+      },
+    ]))
+    expect(project.get('c')?.diagnostics).toEqual([])
+  })
+
   it('searches keys by value in any locale, fuzzy unless exact', async () => {
     const { project } = await createTestProject({
       'src/locales/en.json': json({

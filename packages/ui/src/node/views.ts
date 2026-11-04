@@ -173,7 +173,13 @@ export function keyTable({ name, project }: UiProject): KeyTable {
     locales: project.locales,
     rows: project.keys().map((key) => {
       const info = project.get(key)
-      const times = project.locales.flatMap(locale => project.history(key, locale)?.updatedAt ?? []).map(at => Math.min(at, now))
+      // A plain loop: no arrays per key, and no `Math.max(...spread)` on large projects.
+      let changedAt: number | undefined
+      for (const locale of project.locales) {
+        const at = project.history(key, locale)?.updatedAt
+        if (at !== undefined)
+          changedAt = Math.max(changedAt ?? -Infinity, Math.min(at, now))
+      }
       const states: Record<LocaleCode, MessageState> = {}
       for (const m of info?.messages ?? []) {
         if (m.state)
@@ -188,9 +194,7 @@ export function keyTable({ name, project }: UiProject): KeyTable {
         unused: unused.has(key),
         diagnostics: diagnostics.get(key) ?? 0,
         outdated: outdated.get(key) ?? [],
-        changedAt: times.length
-          ? Math.max(...times)
-          : undefined,
+        changedAt,
         reviews: reviews.get(key) ?? {},
         states,
       }

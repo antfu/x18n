@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { NuxtLink } from '#components'
 import { useRoute, useRouter } from '#imports'
 import CopyPrompt from '../components/CopyPrompt.vue'
@@ -39,6 +39,14 @@ const rows = computed(() => all.value
       ? -1
       : 1)))
 
+// Rows are mounted a page at a time: tens of thousands of variable-height rows block the tab.
+const PAGE = 200
+const limit = ref(PAGE)
+watch(code, () => {
+  limit.value = PAGE
+})
+const shown = computed(() => rows.value.slice(0, limit.value))
+
 function select(next: string | undefined): void {
   void router.replace({
     query: next
@@ -72,7 +80,7 @@ function select(next: string | undefined): void {
     <p v-if="!rows.length" class="border-b border-base px-4 py-3 color-muted">
       {{ t('overview.clean') }}
     </p>
-    <div v-for="(d, i) in rows" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
+    <div v-for="(d, i) in shown" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
       <div class="flex items-center gap-2">
         <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
         <span class="font-mono text-xs color-muted">{{ d.code }}</span>
@@ -86,6 +94,12 @@ function select(next: string | undefined): void {
         </NuxtLink>
         <FilePath v-if="d.file" :path="d.file" :line="d.range?.line" :column="d.range?.column" />
       </div>
+    </div>
+    <div v-if="shown.length < rows.length" class="flex items-center gap-3 px-4 py-3">
+      <button type="button" class="btn-outline h-7" @click="limit += PAGE">
+        {{ t('diagnostics.showMore', { count: Math.min(PAGE, rows.length - shown.length) }) }}
+      </button>
+      <span class="font-mono text-xs color-muted tabular-nums">{{ t('diagnostics.shown', { shown: shown.length, total: rows.length }) }}</span>
     </div>
   </UiPage>
 </template>

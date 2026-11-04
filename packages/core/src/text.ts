@@ -48,15 +48,22 @@ export interface LineIndex {
 
 const lineIndexes = new Map<string, LineIndex>()
 
-/** Line index of a text, cached for the few texts used at a time (reporters, LSP ranges). */
+/**
+ * Line index of a text, cached for the few texts used at a time (reporters, LSP ranges).
+ * The least recently used text goes first, so a large resource hit by many diagnostics stays
+ * cached while ranges in many small source files pass through.
+ */
 export function createLineIndex(text: string): LineIndex {
   let index = lineIndexes.get(text)
-  if (!index) {
+  if (index) {
+    lineIndexes.delete(text)
+  }
+  else {
     if (lineIndexes.size >= 16)
       lineIndexes.delete(lineIndexes.keys().next().value!)
     index = buildLineIndex(text)
-    lineIndexes.set(text, index)
   }
+  lineIndexes.set(text, index)
   return index
 }
 
