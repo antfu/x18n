@@ -1054,6 +1054,86 @@ describe('namespaces', () => {
     expect(project.analyze().undefinedUsages).toEqual([])
   })
 
+  it('ngx-translate: the HTML translate attribute is not a key', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        real: { key: 'Real' },
+      }),
+      'src/app/app.component.html': [
+        `<html translate="no">`,
+        `<p translate='yes'>x</p>`,
+        `<p translate="real.key"></p>`,
+        `</html>`,
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['real.key'])
+    expect(project.analyze().undefinedUsages).toEqual([])
+  })
+
+  it('ngx-translate: an argument of an earlier pipe is not a key', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        real: { key: 'Real' },
+      }),
+      'src/app/app.component.html': [
+        `<p>{{ tx | explanationKey: 'title' | translate }}</p>`,
+        `<p>{{ tx | explanationKey:'title' | translate }}</p>`,
+        `<p>{{ 'real.key' | translate }}</p>`,
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => m.usage.key)).toEqual(['real.key'])
+    expect(project.analyze().undefinedUsages).toEqual([])
+  })
+
+  it('ngx-translate: every branch of a nested ternary before pipe', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        level: { great: 'Great', average: 'Average', low: 'Low' },
+      }),
+      'src/app/app.component.html': `{{ (n >= 75 ? 'level.great' : n >= 50 ? 'level.average' : 'level.low') | translate }}`,
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual(['level.average', 'level.great', 'level.low'])
+    expect(project.analyze().unused).toEqual([])
+  })
+
+  it('ngx-translate: the pipe and attribute shapes still match', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('@angular/core', '@ngx-translate/core'),
+      'src/assets/i18n/en.json': json({
+        attr: { key: 'A' },
+        start: { key: 'S' },
+        bound: { key: 'B' },
+        a: { yes: 'Yes', no: 'No' },
+        else: { key: 'E' },
+        object: { key: 'O' },
+        params: { key: 'P {{count}}' },
+      }),
+      'src/app/app.component.html': [
+        `<p translate="attr.key"></p>`,
+        `<p>{{ 'start.key' | translate }}</p>`,
+        `<p [title]="'bound.key' | translate"></p>`,
+        `<p>{{ (ok ? 'a.yes' : 'a.no') | translate }}</p>`,
+        `<p>{{ ok ? label : 'else.key' | translate }}</p>`,
+        `<p [translateParams]="{ label: 'object.key' | translate }"></p>`,
+        `<p>{{ 'params.key' | translate: { count: n } }}</p>`,
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual([
+      'a.no',
+      'a.yes',
+      'attr.key',
+      'bound.key',
+      'else.key',
+      'object.key',
+      'params.key',
+      'start.key',
+    ])
+    expect(project.analyze().unused).toEqual([])
+  })
+
   it('angular-i18next: pipes, array keys, ternaries and service calls', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@angular/core', 'i18next', 'angular-i18next'),
