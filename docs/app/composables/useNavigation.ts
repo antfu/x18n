@@ -56,8 +56,9 @@ function childIsActive(target: string, route: RouteLocationNormalizedLoaded): bo
 }
 
 // Shadows the comark-docs layer's composable: a tab with `sections` may also
-// carry `children`, so it shows a dropdown and still drives the sidebar, and
-// each locale gets its own tabs and sidebar (see `utils/locales.ts`).
+// carry `children`, so it shows a dropdown and still drives the sidebar, each
+// locale gets its own tabs and sidebar (see `utils/locales.ts`), and there is
+// no GitHub tab (the header has a GitHub button).
 
 /** The `header.nav` groups from app.config; defaults to one tab per top-level navigation node. */
 function navGroups(navigation: NavigationItem[], base: string): NavGroup[] {
@@ -92,12 +93,11 @@ function localeLink(to: string, locale: DocsLocale): string {
     : localizePath(to, locale)
 }
 
-/** High-level navbar items, one per configured nav group (plus GitHub and the locale switch). */
+/** High-level navbar items, one per configured nav group. The GitHub link and the locale select are header buttons. */
 export function useMainNavigation(): ComputedRef<NavigationMenuItem[]> {
   const route = useRoute()
   const content = useDocsContent()
   const active = useDocsLocale()
-  const { github } = useAppConfig()
   const navigation = inject<Ref<NavigationItem[]>>('navigation', ref([]))
 
   return computed<NavigationMenuItem[]>(() => {
@@ -142,28 +142,6 @@ export function useMainNavigation(): ComputedRef<NavigationMenuItem[]> {
             }
           }),
         }),
-      })
-    }
-
-    items.push({
-      label: locale.name,
-      icon: 'i-ph-translate',
-      children: active.value.alternates.map(alternate => ({
-        label: alternate.locale.name,
-        to: alternate.to,
-        active: alternate.locale.code === locale.code,
-      })),
-    })
-
-    const githubUrl
-      = github?.url || (github?.owner && github?.name
-        ? `https://github.com/${github.owner}/${github.name}`
-        : '')
-    if (githubUrl) {
-      items.push({
-        label: 'GitHub',
-        to: githubUrl,
-        target: '_blank',
       })
     }
 
