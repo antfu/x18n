@@ -15,6 +15,7 @@ describe('planUnused', () => {
         old: 'Old',
         kept: 'Kept',
         legacy: { x: 'X' },
+        dyn: { s01: 'S' },
       }),
       'locales/de/translation.json': json({
         app: { title: 'App', gone: 'Weg' },
@@ -25,7 +26,7 @@ describe('planUnused', () => {
       usage: {
         keysInUse: ['translation:kept'],
       },
-      ignoreKeys: ['translation:legacy.**'],
+      ignoreKeys: ['translation:legacy.**', /^translation:dyn\.s\d+$/],
     })
 
     const deletion = project.planUnused()
@@ -57,6 +58,7 @@ describe('planUnused', () => {
       items: { a: 'A', b: 'B' },
       kept: 'Kept',
       legacy: { x: 'X' },
+      dyn: { s01: 'S' },
     })
     expect(JSON.parse(files.get('locales/de/translation.json')!)).toEqual({
       app: { title: 'App' },

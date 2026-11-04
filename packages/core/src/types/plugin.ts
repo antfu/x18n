@@ -16,13 +16,14 @@ import type {
   Placeholder,
   Resource,
   ResourceBlock,
+  ResourceId,
   Severity,
   TextEdit,
   TextRange,
   Usage,
   UsageKind,
 } from './model'
-import type { ReviewFilter, ReviewStore, ReviewThread } from './review'
+import type { ReviewComment, ReviewFilter, ReviewStore, ReviewThread, ReviewType } from './review'
 
 export interface ConfigContext {
   readonly host: Host
@@ -411,6 +412,32 @@ export interface ResourceTransform {
   readonly describe?: ((tree: MessageTree, ctx: ResourceTransformContext) => ReadonlyMap<string, string>) | undefined
 }
 
+/** A review edit of a plan, after it is applied to the review data. */
+export interface ReviewEdit {
+  /** The review type of a new comment, or the op that resolved or applied one. */
+  readonly type: ReviewType | 'resolve-review' | 'apply-suggestion'
+  readonly key: KeyString
+  readonly locale: LocaleCode
+  /** The new comment, or the comment that was resolved or applied. */
+  readonly comment: ReviewComment
+  /** The thread of the message after the edit, oldest first. */
+  readonly comments: readonly ReviewComment[]
+}
+
+export interface ReviewEditContext {
+  /** A message before the plan. */
+  readonly message: (key: KeyString, locale: LocaleCode) => Message | undefined
+  readonly resource: (id: ResourceId) => Resource | undefined
+  /** The text of a project file as the plan leaves it so far, including earlier writes of `reviewEdit` hooks. */
+  readonly text: (path: string) => string | undefined
+}
+
+/** The full new content of a file, which core puts into the plan. */
+export interface FileWrite {
+  readonly path: string
+  readonly content: string
+}
+
 export interface PromptDraft {
   readonly rules: string[]
   readonly notes: string[]
@@ -454,6 +481,8 @@ export interface Plugin {
   readonly derivedKeys?: readonly string[] | undefined
   readonly transformResource?: ResourceTransform | undefined
   readonly translatePrompt?: ((draft: PromptDraft, ctx: PromptContext) => void) | undefined
+  /** Called for each review edit of a plan, in op order. The writes it returns go into the same plan. */
+  readonly reviewEdit?: ((edit: ReviewEdit, ctx: ReviewEditContext) => readonly FileWrite[] | undefined) | undefined
   /** Display data for a locale code. The first plugin that returns a value wins. */
   readonly localeInfo?: ((code: LocaleCode) => Partial<LocaleInfo> | undefined) | undefined
 }

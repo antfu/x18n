@@ -923,6 +923,8 @@ export interface ScanSourceOptions {
   readonly ignoreCallees?: readonly string[] | undefined
   /** Attributes whose values are text, on top of the built-in ones (`extract.attributes`). */
   readonly textAttributes?: readonly string[] | undefined
+  /** Receives the parse, for callers that need more of it than the scan result. */
+  readonly onParse?: ((program: Program, comments: readonly Comment[]) => void) | undefined
 }
 
 export function scanSource(parse: ParseSync, text: string, options: ScanSourceOptions): ScanResult {
@@ -937,5 +939,6 @@ export function scanSource(parse: ParseSync, text: string, options: ScanSourceOp
   scan.types(result.program)
   scan.walk(result.program, undefined, '')
   scan.markers(result.program, result.comments)
+  options.onParse?.(result.program, result.comments)
   return scan.result()
 }

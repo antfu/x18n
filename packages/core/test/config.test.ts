@@ -309,6 +309,24 @@ describe('resolveConfig', () => {
     expect(setup.config.sourceLocale).toBe('fr')
     expect(setup.config.ignoreKeys).toEqual(['a', 'b'])
   })
+
+  it('accepts regular expressions in ignoreKeys', async () => {
+    const setup = await resolveConfig({
+      host: createMemoryHost(),
+      config: {
+        ignoreKeys: ['a', /^errors\./],
+      },
+      builtins: { plugins: [], presets: {} },
+    })
+    expect(setup.config.ignoreKeys).toEqual(['a', /^errors\./])
+    await expect(resolveConfig({
+      host: createMemoryHost(),
+      config: {
+        ignoreKeys: [1],
+      } as never,
+      builtins: { plugins: [], presets: {} },
+    })).rejects.toThrow('ignoreKeys')
+  })
 })
 
 describe('schemas', () => {

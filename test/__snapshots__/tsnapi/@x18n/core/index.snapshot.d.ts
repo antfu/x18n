@@ -190,6 +190,10 @@ export interface FileScan {
   readonly path: string;
   readonly result: ScanResult;
 }
+export interface FileWrite {
+  readonly path: string;
+  readonly content: string;
+}
 export interface FinderContext {
   readonly host: Host;
   readonly config: ResolvedConfig;
@@ -495,6 +499,7 @@ export interface Plugin {
   readonly derivedKeys?: readonly string[] | undefined;
   readonly transformResource?: ResourceTransform | undefined;
   readonly translatePrompt?: ((_: PromptDraft, _: PromptContext) => void) | undefined;
+  readonly reviewEdit?: ((_: ReviewEdit, _: ReviewEditContext) => readonly FileWrite[] | undefined) | undefined;
   readonly localeInfo?: ((_: LocaleCode) => Partial<LocaleInfo> | undefined) | undefined;
 }
 export interface PluginConfigs {}
@@ -816,7 +821,7 @@ export interface ResolvedConfig {
     readonly [checkId: string]: CheckSetting;
   };
   readonly strict: boolean;
-  readonly ignoreKeys: readonly string[];
+  readonly ignoreKeys: readonly KeyPattern[];
   readonly glossary: readonly GlossaryEntry[];
   readonly history: false | HistorySettings;
   readonly review: {
@@ -905,6 +910,18 @@ export interface ReviewData {
       readonly [locale: LocaleCode]: string;
     };
   };
+}
+export interface ReviewEdit {
+  readonly type: ReviewType | "resolve-review" | "apply-suggestion";
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly comment: ReviewComment;
+  readonly comments: readonly ReviewComment[];
+}
+export interface ReviewEditContext {
+  readonly message: (_: KeyString, _: LocaleCode) => Message | undefined;
+  readonly resource: (_: ResourceId) => Resource | undefined;
+  readonly text: (_: string) => string | undefined;
 }
 export interface ReviewFile {
   readonly $schema?: string | undefined;
@@ -1104,8 +1121,9 @@ export interface UsageQuery {
   readonly prefix?: KeyString | undefined;
   readonly path?: string | undefined;
 }
-export interface UserConfig extends Omit<SerializableConfig, "presets" | "plugins" | "checks" | "history"> {
+export interface UserConfig extends Omit<SerializableConfig, "presets" | "plugins" | "checks" | "history" | "ignoreKeys"> {
   readonly presets?: "auto" | readonly PresetOption[] | undefined;
+  readonly ignoreKeys?: readonly KeyPattern[] | undefined;
   readonly history?: boolean | (HistoryOptions & {
     readonly providers?: readonly HistoryProvider[] | undefined;
   }) | undefined;
@@ -1208,6 +1226,7 @@ export type FileChange = {
 export type HistoryOptions = Partial<HistoryConfigs>;
 export type JsonPrimitive = string | number | boolean | null;
 export type JsonValue = JsonPrimitive | readonly JsonValue[] | JsonObject;
+export type KeyPattern = string | RegExp;
 export type KeySeparator = string | false;
 export type KeyString = string;
 export type KeyTarget = {
@@ -1290,7 +1309,7 @@ export declare function isMessageTree(_: unknown): value is MessageTree;
 export declare function isPreset(_: Plugin | Preset): value is Preset;
 export declare function isX18nError(_: unknown): error is X18nError;
 export declare function joinKey(_: string | undefined, _: readonly string[], _?: KeySeparator): KeyString;
-export declare function keyMatcher(_: readonly string[], _?: KeySeparator): (_: KeyString) => boolean;
+export declare function keyMatcher(_: readonly KeyPattern[], _?: KeySeparator): (_: KeyString) => boolean;
 export declare function localeSpellingKey(_: LocaleCode): string;
 export declare function parseLocaleInfo(_: LocaleCode): LocaleInfo;
 export declare function parseMessageBatch(_: Project, _: JsonValue): EditOp[];

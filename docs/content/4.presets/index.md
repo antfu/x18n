@@ -54,6 +54,8 @@ A preset is a group of plugins for one i18n library. It tells x18n which calls a
 | [`i18nice`](/presets/i18nice) | i18nice, python-i18n | `i18nice`, `python-i18n` in `pyproject.toml` or `requirements.txt` |
 | [`cargo-i18n`](/presets/cargo-i18n) | cargo-i18n (Fluent) | `i18n-embed-fl`, `i18n-embed` in `Cargo.toml` |
 | [`dotnet-resx`](/presets/dotnet-resx) | .NET `IStringLocalizer` and `.resx` resources | a `*.csproj`, `*.vbproj` or `*.fsproj` and a `*.resx` file |
+| [`android-strings`](/presets/android-strings) | Android string resources | `AndroidManifest.xml` with `res/values` |
+
 | [`general`](/presets/general) | none | always |
 
 ## Detection

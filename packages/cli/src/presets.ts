@@ -1,4 +1,5 @@
 export { adonisjs } from '@x18n/builtins/presets/adonisjs'
+export { androidStrings } from '@x18n/builtins/presets/android-strings'
 export { angularI18next } from '@x18n/builtins/presets/angular-i18next'
 export { angularLocalize } from '@x18n/builtins/presets/angular-localize'
 export { cargoI18n } from '@x18n/builtins/presets/cargo-i18n'

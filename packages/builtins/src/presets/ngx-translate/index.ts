@@ -31,12 +31,16 @@ export function ngxTranslate(): Preset {
           {
             extensions: angularTemplates,
             patterns: [
-              '[`\'"]({key})[`\'"][\\s\\n]*\\|[\\s\\n]*translate\\b',
+              // Not the first argument of an earlier pipe: `| explanationKey: 'title' | translate`.
+              '(?<!\\|[\\s\\n]*[\\w$]+[\\s\\n]*:[\\s\\n]*)[`\'"]({key})[`\'"][\\s\\n]*\\|[\\s\\n]*translate\\b',
               '\\?[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*:[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
               '\\?[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*:[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
+              // The first branch of a ternary whose else-branch is itself a ternary of two strings.
+              '\\?[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*:[^`\'"]*?\\?[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*:[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
               '[\\s\\n]translate>[\\s\\n]*({key})[\\s\\n]*</',
               '\\[translate\\]=["\']\'({key})\'["\']',
-              '\\stranslate=["\']({key})["\']',
+              // Not the HTML `translate` attribute, whose values are `yes` and `no`.
+              '\\stranslate=["\'](?!(?:yes|no)["\'])({key})["\']',
             ],
           },
         ],

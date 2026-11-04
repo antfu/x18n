@@ -1,3 +1,4 @@
+import type { KeyPattern } from '../types/config'
 import type { EditOp, KeyString, Usage } from '../types/model'
 import type { KeptUnusedKey, Plan, ResourceNode, UnusedDeletion, UnusedKeyDeletion, UnusedQuery } from '../types/project'
 import { keyMatcher, splitKey } from '../keys'
@@ -7,7 +8,7 @@ export interface UnusedDeletionOptions {
   readonly unused: readonly KeyString[]
   readonly usages: readonly Usage[]
   readonly namespaced: boolean
-  readonly ignoreKeys: readonly string[]
+  readonly ignoreKeys: readonly KeyPattern[]
   readonly locations: (key: KeyString) => readonly ResourceNode[]
   readonly plan: (ops: readonly EditOp[]) => Plan
 }

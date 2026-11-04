@@ -71,7 +71,7 @@ Project settings live only in the config file. Editors have UX settings only and
 | `extract` | ExtractOptions | from presets | See [11-extraction.md](./11-extraction.md). |
 | `checks` | `Record<checkId, Severity \| 'off' \| [Severity, options]>` | `recommended` | ESLint-like overrides on top of the `recommended` set. |
 | `strict` | boolean | `false` | Turn every warning into an error (also `x18n check --strict`). |
-| `ignoreKeys` | string[] (globs) | `[]` | Keys excluded from all checks. |
+| `ignoreKeys` | string[] (globs; RegExp too in TS configs) | `[]` | Keys excluded from all checks. A RegExp is tested against the whole key (`ns:a.b` when namespaced). |
 | `history` | `boolean` or `{ providers?, git? }` | `true` | History providers for stale translations ([19-history.md](./19-history.md)). |
 | `glossary` | `{ term, translations?, note?, doNotTranslate? }[]` or path | `[]` | Used by translate prompts and the optional `glossary` check. |
 | `projects` | string[] (globs) | - | Monorepo, see below. |

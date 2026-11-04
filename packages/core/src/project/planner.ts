@@ -1,14 +1,15 @@
+import type { MutableTree } from '../message-tree'
 import type { PluginRegistry } from '../plugins'
 import type { KeySeparator, ResolvedConfig } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { EditOp, ExtractItem, KeyString, LocaleCode, Message, MessageLeaf, MessageTree, Resource, TextEdit, Usage } from '../types/model'
-import type { Format, KeyFile, MessageOp } from '../types/plugin'
+import type { Format, KeyFile, MessageOp, ReviewEdit } from '../types/plugin'
 import type { Answers, ApplyResult, Decision, FileChange, Plan, ProjectChange, UsageMatch } from '../types/project'
 import type { ReviewData, ReviewStore } from '../types/review'
 import type { ResourceState } from './analysis'
 import { errors } from '../errors'
 import { isKeyUnder, keyJoiner, keySeparatorOf, replaceKeyPrefix, splitKey, splitKeyPath, splitNamespace } from '../keys'
-import { applyMessageOps, isMessageLeaf, pathId, sortTree, walkLeaves } from '../message-tree'
+import { applyMessageOpsInPlace, cloneTree, isMessageLeaf, pathId, sortTree, walkLeaves } from '../message-tree'
 import { applyTextEdits, diffText, hashText } from '../text'
 import { findReview, noReviews, ReviewDraft, reviewId, sortReviews, sourceHash, valueText } from './reviews'
 
@@ -67,7 +68,10 @@ interface Target {
 
 interface Work {
   readonly target: Target
-  tree: MessageTree
+  /** A copy of the resource's raw tree with the planned ops applied; the raw tree is never mutated. */
+  readonly tree: MutableTree
+  /** `isFlatTree` of `tree`, kept until an op changes what it depends on. */
+  flat?: boolean | undefined
   readonly ops: MessageOp[]
   /** In-place renames of the last key segment: the key text range and the new text. */
   readonly keyRenames: TextEdit[]
@@ -176,6 +180,7 @@ class PlanBuilder {
   readonly config: ResolvedConfig
   /** Source values set by this plan, for the source records of targets set after them. */
   readonly plannedSource = new Map<KeyString, MessageLeaf>()
+  readonly reviewEdits: ReviewEdit[] = []
   draft: ReviewDraft | undefined
 
   constructor(readonly options: PlannerOptions, readonly state: PlannerState, readonly answers: Answers) {
@@ -204,7 +209,7 @@ class PlanBuilder {
     if (!entry) {
       entry = {
         target,
-        tree: target.state?.rawTree ?? {},
+        tree: cloneTree(target.state?.rawTree ?? {}),
         ops: [],
         keyRenames: [],
         formatOnly: false,
@@ -267,7 +272,9 @@ class PlanBuilder {
     if (separator === false)
       return stored
     // Transforms (Rails, Chrome) fix the nesting; otherwise follow the file's style.
-    const flat = stored.length === relative.length && (isFlatTree(entry.tree, separator) ?? (this.config.keyStyle === 'flat'))
+    if (stored.length === relative.length)
+      entry.flat ??= isFlatTree(entry.tree, separator)
+    const flat = stored.length === relative.length && (entry.flat ?? (this.config.keyStyle === 'flat'))
     return flat
       ? [
           stored.join(separator),
@@ -407,7 +414,21 @@ class PlanBuilder {
   /** ---- Message ops ---- */
   pushOp(entry: Work, op: MessageOp): void {
     entry.ops.push(op)
-    entry.tree = applyMessageOps(entry.tree, [op])
+    this.applyOps(entry, [op])
+  }
+
+  /** Applies ops to the entry's tree in place; drops `flat` when a top-level object appears or goes, or a top-level key goes. */
+  applyOps(entry: Work, ops: readonly MessageOp[]): void {
+    for (const op of ops) {
+      const top = op.path[0]!
+      const before = entry.tree[top]
+      applyMessageOpsInPlace(entry.tree, [op])
+      const after = entry.tree[top]
+      const wasObject = before !== undefined && !isMessageLeaf(before)
+      const isObject = after !== undefined && !isMessageLeaf(after)
+      if (wasObject !== isObject || (before !== undefined && after === undefined))
+        entry.flat = undefined
+    }
   }
 
   setValue(key: KeyString, locale: LocaleCode, value: MessageLeaf): MessageLeaf | undefined {
@@ -477,7 +498,7 @@ class PlanBuilder {
       const leaves = [
         ...walkLeaves(node, stored),
       ]
-      entry.tree = applyMessageOps(entry.tree, [
+      this.applyOps(entry, [
         ...leaves.map(leaf => ({ type: 'delete' as const, path: leaf.path })),
         ...leaves.map(leaf => ({
           type: 'set' as const,
@@ -531,7 +552,7 @@ class PlanBuilder {
     if (sameParent && m.range && (flat ? safeFlat : safeSegment).test(last)) {
       const replaced = leafAt(entry.tree, next)
       entry.keyRenames.push({ range: m.range.key, text: last })
-      entry.tree = applyMessageOps(entry.tree, [
+      this.applyOps(entry, [
         { type: 'delete', path: m.storedPath },
         { type: 'set', path: next, value: m.value },
       ])
@@ -750,6 +771,18 @@ class PlanBuilder {
         value: valueText(current),
       },
     })
+    this.reviewEdited(draft, op.review, op.id!)
+  }
+
+  reviewEdited(draft: ReviewDraft, type: ReviewEdit['type'], id: string): void {
+    const { key, locale, comment } = findReview(draft.data, id)!
+    this.reviewEdits.push({
+      type,
+      key,
+      locale,
+      comment,
+      comments: draft.data.threads[key]![locale]!,
+    })
   }
 
   applySuggestion(id: string): void {
@@ -763,6 +796,7 @@ class PlanBuilder {
     this.setValue(key, locale, comment.suggestion)
     this.recordSource(key, locale, true)
     draft.resolve(id)
+    this.reviewEdited(draft, 'apply-suggestion', id)
   }
 
   resolveReview(id: string): void {
@@ -772,6 +806,7 @@ class PlanBuilder {
       throw errors.X18N5004({ id })
     this.touched.add(found.key)
     draft.resolve(id)
+    this.reviewEdited(draft, 'resolve-review', id)
   }
 
   markFresh(op: Extract<EditOp, { type: 'mark-fresh' }>): void {
@@ -966,12 +1001,66 @@ class PlanBuilder {
       })
       texts.set(path, text)
     }
+    this.reviewWrites(changes, texts)
     const review = this.reviewChange()
     if (review) {
       changes.push(review)
       texts.set(review.path, this.state.reviews?.text)
     }
     return { changes, texts }
+  }
+
+  /** Runs the `reviewEdit` hooks and puts their writes into the changes. */
+  reviewWrites(changes: FileChange[], texts: Map<string, string | undefined>): void {
+    const hooks = this.options.registry.plugins.flatMap(plugin => plugin.reviewEdit
+      ? [plugin.reviewEdit]
+      : [])
+    if (hooks.length === 0 || this.reviewEdits.length === 0)
+      return
+    const written = new Map<string, string>()
+    const text = (path: string): string | undefined => {
+      if (written.has(path))
+        return written.get(path)
+      const change = changes.find(c => c.path === path)
+      if (!change)
+        return this.options.text(path)
+      return change.type === 'create'
+        ? change.content
+        : change.type === 'edit'
+          ? applyTextEdits(texts.get(path) ?? '', change.edits)
+          : undefined
+    }
+    const ctx = {
+      message: this.options.message,
+      resource: (id: string) => this.stateById.get(id)?.resource,
+      text,
+    }
+    for (const edit of this.reviewEdits) {
+      for (const hook of hooks) {
+        for (const write of hook(edit, ctx) ?? [])
+          written.set(write.path, write.content)
+      }
+    }
+    for (const [path, content] of written) {
+      const index = changes.findIndex(c => c.path === path)
+      const before = index === -1
+        ? this.options.text(path)
+        : texts.get(path)
+      if (index === -1 && before === content)
+        continue
+      const change: FileChange = before === undefined
+        ? { type: 'create', path, content }
+        : {
+            type: 'edit',
+            path,
+            edits: diffText(before, content),
+          }
+      if (index === -1)
+        changes.push(change)
+      else
+        changes[index] = change
+      texts.set(path, before)
+    }
   }
 
   reviewChange(): FileChange | undefined {
@@ -998,6 +1087,7 @@ export interface Planner {
 
 export function createPlanner(options: PlannerOptions): Planner {
   const texts = new Map<string, ReadonlyMap<string, string | undefined>>()
+  let textsRevision: number | undefined
 
   /** Gives new reviews an id and a time, so planning again (after decisions) writes the same comments. */
   function withReviewIds(ops: readonly EditOp[], data: ReviewData): readonly EditOp[] {
@@ -1050,6 +1140,10 @@ export function createPlanner(options: PlannerOptions): Planner {
   return {
     plan(ops, answers = {}) {
       const result = planWith(ops, answers)
+      if (result.plan.revision !== textsRevision) {
+        texts.clear()
+        textsRevision = result.plan.revision
+      }
       texts.set(result.plan.id, result.texts)
       return result.plan
     },

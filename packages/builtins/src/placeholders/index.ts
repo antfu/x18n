@@ -78,11 +78,34 @@ export const nesting: PlaceholderSyntax = {
   reference: true,
 }
 
+/** Offset after the ICU quote that starts with the `'` at `start`: `'{'` and `'}'` are quoted literals, `''` is an apostrophe. */
+function skipQuote(value: string, start: number, to: number): number {
+  const next = value[start + 1]
+  if (next === '\'')
+    return start + 2
+  if (next !== '{' && next !== '}')
+    return start + 1
+  let j = start + 1
+  while (j < to) {
+    if (value[j] === '\'') {
+      if (value[j + 1] !== '\'')
+        return j + 1
+      j++
+    }
+    j++
+  }
+  return to
+}
+
 /** Offset after the `}` that closes the `{` at `start`, or -1. */
 function closingBrace(value: string, start: number, to: number): number {
   let depth = 1
   let j = start + 1
   while (j < to && depth > 0) {
+    if (value[j] === '\'') {
+      j = skipQuote(value, j, to)
+      continue
+    }
     if (value[j] === '{')
       depth++
     else if (value[j] === '}')
@@ -105,16 +128,7 @@ export const icu: PlaceholderSyntax = {
       while (i < to) {
         const char = value[i]
         if (char === '\'') {
-          // `'{'` is a quoted literal brace; `''` is an apostrophe.
-          const close = value.indexOf('\'', i + 1)
-          if (value[i + 1] === '{' || value[i + 1] === '}') {
-            i = close === -1
-              ? to
-              : close + 1
-          }
-          else {
-            i++
-          }
+          i = skipQuote(value, i, to)
           continue
         }
         if (char !== '{') {
@@ -151,21 +165,20 @@ export const icu: PlaceholderSyntax = {
   },
   validate(value) {
     let depth = 0
-    let quoted = false
-    for (let i = 0; i < value.length; i++) {
+    let i = 0
+    while (i < value.length) {
       const char = value[i]
-      if (char === '\'' && (value[i + 1] === '{' || value[i + 1] === '}' || quoted)) {
-        quoted = !quoted
+      if (char === '\'') {
+        i = skipQuote(value, i, value.length)
         continue
       }
-      if (quoted)
-        continue
       if (char === '{')
         depth++
       if (char === '}')
         depth--
       if (depth < 0)
         return [`Unexpected "}" at ${i}`]
+      i++
     }
     if (depth > 0)
       return ['Unclosed "{"']
