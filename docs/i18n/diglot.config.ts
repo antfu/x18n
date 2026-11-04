@@ -1,25 +1,28 @@
 import { defineConfig } from '@diglot/core'
 
+const locales = [
+  'zh-Hans',
+  'zh-Hant',
+  'ja',
+  'ko',
+  'ru',
+  'fr',
+  'de',
+  'it',
+  'pt-BR',
+  'es',
+]
+
 export default defineConfig({
-  locales: [
-    'zh-Hans',
-    'zh-Hant',
-    'ja',
-    'ko',
-    'ru',
-    'fr',
-    'de',
-    'it',
-    'pt-BR',
-    'es',
-  ],
+  locales,
   sources: [
     {
       name: 'docs',
       repo: 'x18n-dev/x18n',
       path: '../..',
       dir: 'docs/content',
-      exclude: ['zh-hans/**'],
+      // The translated pages, which docs/scripts/translate.ts writes to `content/<locale in lowercase>`.
+      exclude: locales.map(locale => `${locale.toLowerCase()}/**`),
     },
   ],
   glossary: 'glossary.yml',
