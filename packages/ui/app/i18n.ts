@@ -29,6 +29,7 @@ export const uiLocales = [
   'de',
   'fr',
   'es',
+  'it',
   'pt-BR',
   'ru',
   'tr',
