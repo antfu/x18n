@@ -1,0 +1,14 @@
+{
+  "hash": "e204cff24fc63977",
+  "source": "Every built-in check of x18n check, with its default severity.",
+  "text": "Todas as verificações integradas do x18n check, com a severidade padrão de cada uma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Todas as verificações integradas do x18n check, com a severidade padrão de cada uma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

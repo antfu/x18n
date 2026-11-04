@@ -1,0 +1,14 @@
+{
+  "hash": "58181de02f19d34f",
+  "source": "One key: its value in every locale with file and line (and its translation {0} and {1} when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
+  "text": "Uma chave: seu valor em cada idioma com arquivo e linha (e a {0} e a {1} da tradução quando o arquivo as registra), idiomas em que ela está ausente, usos no código com algumas linhas de contexto e diagnósticos. Verifique uma chave com ela antes de criar ou renomear uma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma chave: seu valor em cada idioma com arquivo e linha (e a {0} e a {1} da tradução quando o arquivo as registra), idiomas em que ela está ausente, usos no código com algumas linhas de contexto e diagnósticos. Verifique uma chave com ela antes de criar ou renomear uma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

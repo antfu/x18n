@@ -1,0 +1,14 @@
+{
+  "hash": "877537d3e6c5732b",
+  "source": "CSS border color of keys without a value. Empty draws no border.",
+  "text": "Colore CSS del bordo delle chiavi senza valore. Se vuoto, non disegna alcun bordo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Colore CSS del bordo delle chiavi senza valore. Se vuoto, non disegna alcun bordo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

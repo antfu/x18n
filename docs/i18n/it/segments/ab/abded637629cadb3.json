@@ -1,0 +1,14 @@
+{
+  "hash": "abded637629cadb3",
+  "source": "Make sure that the top level of the file is an object, not an array or a string.",
+  "text": "Assicurati che il livello principale del file sia un oggetto, non un array o una stringa.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Assicurati che il livello principale del file sia un oggetto, non un array o una stringa."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

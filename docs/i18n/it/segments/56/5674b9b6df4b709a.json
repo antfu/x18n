@@ -1,0 +1,14 @@
+{
+  "hash": "5674b9b6df4b709a",
+  "source": "Instructions for translating missing messages into a locale: rules, glossary, style examples and the items with usage context, as markdown. Follow it, then write the results with x18n\\_set\\_messages. It says how many items remain and the cursor for the next batch.",
+  "text": "Istruzioni per tradurre in una lingua i messaggi mancanti: regole, glossario, esempi di stile e gli elementi con contesto di utilizzo, in markdown. Seguile, poi scrivi i risultati con x18n\\_set\\_messages. Indica quanti elementi rimangono e il cursore per il lotto successivo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Istruzioni per tradurre in una lingua i messaggi mancanti: regole, glossario, esempi di stile e gli elementi con contesto di utilizzo, in markdown. Seguile, poi scrivi i risultati con x18n\\_set\\_messages. Indica quanti elementi rimangono e il cursore per il lotto successivo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

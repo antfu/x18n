@@ -1,0 +1,14 @@
+{
+  "hash": "3f1108b67de97191",
+  "source": "Yii2 keys are whole sentences, so the file turns the key separator off. The category, the first argument of {0}, is the namespace:",
+  "text": "Las claves de Yii2 son frases completas, así que el archivo desactiva el separador de claves. La categoría, el primer argumento de {0}, es el espacio de nombres:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Las claves de Yii2 son frases completas, así que el archivo desactiva el separador de claves. La categoría, el primer argumento de {0}, es el espacio de nombres:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

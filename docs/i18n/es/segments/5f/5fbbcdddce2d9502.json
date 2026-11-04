@@ -1,0 +1,14 @@
+{
+  "hash": "5fbbcdddce2d9502",
+  "source": "Only keys that match the glob, for example {0}.",
+  "text": "Solo las claves que coinciden con el glob, por ejemplo {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo las claves que coinciden con el glob, por ejemplo {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

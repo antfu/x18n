@@ -1,0 +1,14 @@
+{
+  "hash": "f3d8a7bd7d086477",
+  "source": "Leave out code around usages",
+  "text": "Escludi il codice attorno agli utilizzi",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Escludi il codice attorno agli utilizzi"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

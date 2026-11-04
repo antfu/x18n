@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "Le stringhe sulla riga del commento e sulla riga successiva.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le stringhe sulla riga del commento e sulla riga successiva."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

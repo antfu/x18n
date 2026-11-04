@@ -1,0 +1,14 @@
+{
+  "hash": "4665ac3e9eb76864",
+  "source": "The first digit is the group:",
+  "text": "El primer dígito indica el grupo:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El primer dígito indica el grupo:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

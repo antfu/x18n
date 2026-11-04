@@ -1,0 +1,14 @@
+{
+  "hash": "281a79e79750288d",
+  "source": "Extraction templates: the code that replaces a hard string.",
+  "text": "Template di estrazione: il codice che sostituisce una stringa hardcoded.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Template di estrazione: il codice che sostituisce una stringa hardcoded."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

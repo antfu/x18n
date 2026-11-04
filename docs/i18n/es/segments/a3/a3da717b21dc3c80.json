@@ -1,0 +1,14 @@
+{
+  "hash": "a3da717b21dc3c80",
+  "source": "{0}: positions where key completion makes sense,",
+  "text": "{0}: posiciones donde tiene sentido el autocompletado de claves,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: posiciones donde tiene sentido el autocompletado de claves,"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

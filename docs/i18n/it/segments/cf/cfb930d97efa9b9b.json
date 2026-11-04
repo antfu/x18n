@@ -1,0 +1,14 @@
+{
+  "hash": "cfb930d97efa9b9b",
+  "source": "For factories: the names of the returned translate functions. Default {0}.",
+  "text": "Per le factory: i nomi delle funzioni di traduzione restituite. Predefinito {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Per le factory: i nomi delle funzioni di traduzione restituite. Predefinito {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

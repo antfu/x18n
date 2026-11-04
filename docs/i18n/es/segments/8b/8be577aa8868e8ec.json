@@ -1,0 +1,14 @@
+{
+  "hash": "8be577aa8868e8ec",
+  "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as next-translate does. A key without a namespace is in {2}.",
+  "text": "El preset establece el separador de espacios de nombres en {0} y el espacio de nombres predeterminado en {1}, igual que next-translate. Una clave sin espacio de nombres pertenece a {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset establece el separador de espacios de nombres en {0} y el espacio de nombres predeterminado en {1}, igual que next-translate. Una clave sin espacio de nombres pertenece a {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

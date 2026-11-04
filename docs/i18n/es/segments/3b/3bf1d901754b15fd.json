@@ -1,0 +1,14 @@
+{
+  "hash": "3bf1d901754b15fd",
+  "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
+  "text": "La edición apunta a un recurso de solo lectura. Los recursos con {0} son de solo lectura, porque x18n no puede escribir el código que los calcula.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La edición apunta a un recurso de solo lectura. Los recursos con {0} son de solo lectura, porque x18n no puede escribir el código que los calcula."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

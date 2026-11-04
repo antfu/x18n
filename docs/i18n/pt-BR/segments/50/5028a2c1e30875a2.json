@@ -1,0 +1,14 @@
+{
+  "hash": "5028a2c1e30875a2",
+  "source": "{0} prints each problem with its file, line and column:",
+  "text": "{0} exibe cada problema com seu arquivo, linha e coluna:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} exibe cada problema com seu arquivo, linha e coluna:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "93b809aafad87cdf",
+  "source": "short all-caps words of up to five letters ({0}, {1}),",
+  "text": "las palabras cortas en mayúsculas de hasta cinco letras ({0}, {1}),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "las palabras cortas en mayúsculas de hasta cinco letras ({0}, {1}),"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "cf49a5fb655d6891",
+  "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
+  "text": "Elimina todas las claves sin usar (las claves que {0} enumera con {1}) en todos los idiomas, opcionalmente solo las que coincidan con {2} o {3}. Las claves a las que pueda llegar una clave calculada en el código (un prefijo de plantilla literal, o una clave calculada bajo un {4} o espacio de nombres) se dejan intactas y se enumeran en {5}; {6} nombra las claves calculadas que pueden llegar a cualquier clave. El código no se modifica. Sin {7} devuelve el plan: {8} enumera cada clave con sus idiomas y archivos. Vuelve a llamar con {9} para aplicarlo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina todas las claves sin usar (las claves que {0} enumera con {1}) en todos los idiomas, opcionalmente solo las que coincidan con {2} o {3}. Las claves a las que pueda llegar una clave calculada en el código (un prefijo de plantilla literal, o una clave calculada bajo un {4} o espacio de nombres) se dejan intactas y se enumeran en {5}; {6} nombra las claves calculadas que pueden llegar a cualquier clave. El código no se modifica. Sin {7} devuelve el plan: {8} enumera cada clave con sus idiomas y archivos. Vuelve a llamar con {9} para aplicarlo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2e72217ae895ec82",
+  "source": "Only keys without usages",
+  "text": "Solo las claves sin usos",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo las claves sin usos"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

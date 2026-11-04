@@ -1,0 +1,14 @@
+{
+  "hash": "6b7514b51fbfd0cc",
+  "source": "The file name is the key prefix, as in AdonisJS: {0} in {1} is {2}, and {3} in {4} is {5}.",
+  "text": "Il nome del file è il prefisso della chiave, come in AdonisJS: {0} in {1} diventa {2}, e {3} in {4} diventa {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il nome del file è il prefisso della chiave, come in AdonisJS: {0} in {1} diventa {2}, e {3} in {4} diventa {5}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

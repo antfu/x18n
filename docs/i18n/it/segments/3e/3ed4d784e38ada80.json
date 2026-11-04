@@ -1,0 +1,14 @@
+{
+  "hash": "3ed4d784e38ada80",
+  "source": "{0} adds the translations that the {1} check reports. Each item shows the source text from when the translation last changed. {2} adds the values that checks report in the target locale, such as {3}, {4} and {5}. A check must be on to report: {6} runs the checks of the config. Each item shows the current value and what was reported:",
+  "text": "{0} aggiunge le traduzioni segnalate dal controllo {1}. Ogni elemento mostra il testo di origine di quando la traduzione è cambiata l'ultima volta. {2} aggiunge i valori che i controlli segnalano nella lingua di destinazione, come {3}, {4} e {5}. Perché segnali, un controllo deve essere attivo: {6} esegue i controlli della configurazione. Ogni elemento mostra il valore attuale e ciò che è stato segnalato:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} aggiunge le traduzioni segnalate dal controllo {1}. Ogni elemento mostra il testo di origine di quando la traduzione è cambiata l'ultima volta. {2} aggiunge i valori che i controlli segnalano nella lingua di destinazione, come {3}, {4} e {5}. Perché segnali, un controllo deve essere attivo: {6} esegue i controlli della configurazione. Ogni elemento mostra il valore attuale e ciò che è stato segnalato:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

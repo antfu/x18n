@@ -1,0 +1,14 @@
+{
+  "hash": "a7ecf231081858b7",
+  "source": "Pass the token in the {0} header:",
+  "text": "Passe o token no header {0}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Passe o token no header {0}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

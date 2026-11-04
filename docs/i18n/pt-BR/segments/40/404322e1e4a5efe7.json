@@ -1,0 +1,14 @@
+{
+  "hash": "404322e1e4a5efe7",
+  "source": "The preset for AdonisJS i18n. It reads translate calls in code and Edge templates, and JSON or YAML language files with ICU messages.",
+  "text": "O preset para o AdonisJS i18n. Ele lê chamadas de tradução no código e em templates Edge, além de arquivos de idioma JSON ou YAML com mensagens ICU.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset para o AdonisJS i18n. Ele lê chamadas de tradução no código e em templates Edge, além de arquivos de idioma JSON ou YAML com mensagens ICU."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

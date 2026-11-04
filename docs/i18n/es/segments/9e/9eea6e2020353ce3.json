@@ -1,0 +1,14 @@
+{
+  "hash": "9eea6e2020353ce3",
+  "source": "Scanners that load their module when a file they scan is first scanned.",
+  "text": "Escáneres que cargan su módulo la primera vez que se escanea un archivo que escanean.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Escáneres que cargan su módulo la primera vez que se escanea un archivo que escanean."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

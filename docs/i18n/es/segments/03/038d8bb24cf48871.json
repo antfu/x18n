@@ -1,0 +1,14 @@
+{
+  "hash": "038d8bb24cf48871",
+  "source": "Strings on the line of the comment and on the next line.",
+  "text": "Las cadenas de la línea del comentario y de la línea siguiente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Las cadenas de la línea del comentario y de la línea siguiente."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

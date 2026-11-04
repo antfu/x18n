@@ -1,0 +1,14 @@
+{
+  "hash": "86c04d2c6119d172",
+  "source": "Template with {0}, {1} or {2}.",
+  "text": "Template com {0}, {1} ou {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Template com {0}, {1} ou {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

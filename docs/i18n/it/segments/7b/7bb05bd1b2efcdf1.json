@@ -1,0 +1,14 @@
+{
+  "hash": "7bb05bd1b2efcdf1",
+  "source": "Aliases such as {0} are not resolved. x18n skips a {1} outside the project and a {2} file that is not JSON, JSON5 or YAML, such as {3} or {4}.",
+  "text": "Gli alias come {0} non vengono risolti. x18n ignora un {1} fuori dal progetto e un file {2} che non è JSON, JSON5 o YAML, come {3} o {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gli alias come {0} non vengono risolti. x18n ignora un {1} fuori dal progetto e un file {2} che non è JSON, JSON5 o YAML, come {3} o {4}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

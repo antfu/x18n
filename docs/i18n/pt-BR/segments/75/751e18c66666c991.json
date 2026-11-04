@@ -1,0 +1,14 @@
+{
+  "hash": "751e18c66666c991",
+  "source": "An approval records the value it approved. When the value changes later, the approval is stale, and the thread shows \"approved, changed since\".",
+  "text": "Uma aprovação registra o valor que aprovou. Quando o valor muda depois, a aprovação fica desatualizada, e a thread mostra \"approved, changed since\".",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma aprovação registra o valor que aprovou. Quando o valor muda depois, a aprovação fica desatualizada, e a thread mostra \"approved, changed since\"."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

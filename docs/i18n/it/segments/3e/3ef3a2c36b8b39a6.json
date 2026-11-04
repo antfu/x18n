@@ -1,0 +1,14 @@
+{
+  "hash": "3ef3a2c36b8b39a6",
+  "source": "{0} lists the projects, the locales with their coverage and the counts of diagnostics. {1} lists every diagnostic.",
+  "text": "{0} elenca i progetti, le lingue con la relativa copertura e il numero di diagnostiche. {1} elenca ogni diagnostica.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} elenca i progetti, le lingue con la relativa copertura e il numero di diagnostiche. {1} elenca ogni diagnostica."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

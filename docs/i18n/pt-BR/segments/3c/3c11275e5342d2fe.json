@@ -1,0 +1,14 @@
+{
+  "hash": "3c11275e5342d2fe",
+  "source": "CSS color of keys without a value. Empty uses the warning color of the theme.",
+  "text": "Cor CSS das chaves sem valor. Vazio usa a cor de aviso do tema.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cor CSS das chaves sem valor. Vazio usa a cor de aviso do tema."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

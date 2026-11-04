@@ -1,0 +1,14 @@
+{
+  "hash": "32db58db3e3e2476",
+  "source": "x18n escapes {0} and {1} for the quotes around them. Inside {2} or {3} it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and {4}. Inside a quoted attribute, such as {5}, it also writes {6} and the attribute quote as entities. Outside quotes the value goes in as is.",
+  "text": "O x18n faz o escape de {0} e {1} por causa das aspas ao redor. Dentro de {2} ou {3}, ele faz o escape de barras invertidas, dessa aspa e de quebras de linha. Dentro de um template literal, ele faz o escape de barras invertidas, crases e {4}. Dentro de um atributo entre aspas, como {5}, ele também escreve {6} e a aspa do atributo como entidades. Fora de aspas, o valor entra como está.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O x18n faz o escape de {0} e {1} por causa das aspas ao redor. Dentro de {2} ou {3}, ele faz o escape de barras invertidas, dessa aspa e de quebras de linha. Dentro de um template literal, ele faz o escape de barras invertidas, crases e {4}. Dentro de um atributo entre aspas, como {5}, ele também escreve {6} e a aspa do atributo como entidades. Fora de aspas, o valor entra como está."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

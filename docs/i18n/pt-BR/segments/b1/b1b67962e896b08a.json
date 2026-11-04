@@ -1,0 +1,14 @@
+{
+  "hash": "b1b67962e896b08a",
+  "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
+  "text": "De onde vem um valor padrão escrito no código; vale a primeira string encontrada. Para factories, o das funções retornadas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "De onde vem um valor padrão escrito no código; vale a primeira string encontrada. Para factories, o das funções retornadas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

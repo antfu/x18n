@@ -1,0 +1,14 @@
+{
+  "hash": "20e88b64c923c417",
+  "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
+  "text": "Um resumo, uma tabela de cobertura por idioma e uma tabela de diagnósticos. Para comentários em pull requests e resumos de jobs.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um resumo, uma tabela de cobertura por idioma e uma tabela de diagnósticos. Para comentários em pull requests e resumos de jobs."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

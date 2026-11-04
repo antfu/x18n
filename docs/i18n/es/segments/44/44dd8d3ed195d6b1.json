@@ -1,0 +1,14 @@
+{
+  "hash": "44dd8d3ed195d6b1",
+  "source": "{0} prints the same schema. A default is the value before presets run. Presets add resources, call specs, derived keys and extraction templates on top of it.",
+  "text": "{0} imprime el mismo esquema. Un valor por defecto es el valor previo a la ejecución de los presets. Los presets añaden sobre él recursos, especificaciones de llamadas, claves derivadas y plantillas de extracción.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} imprime el mismo esquema. Un valor por defecto es el valor previo a la ejecución de los presets. Los presets añaden sobre él recursos, especificaciones de llamadas, claves derivadas y plantillas de extracción."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

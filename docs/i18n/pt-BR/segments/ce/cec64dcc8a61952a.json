@@ -1,0 +1,14 @@
+{
+  "hash": "cec64dcc8a61952a",
+  "source": "{0}: edits.",
+  "text": "{0}: edições.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: edições."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ba1968f6f5ff4aff",
+  "source": "The preset for cargo-i18n with Fluent in Rust. It reads i18n.toml, the .ftl files and the fl! macro of i18n-embed-fl.",
+  "text": "El preset para cargo-i18n con Fluent en Rust. Lee i18n.toml, los archivos .ftl y la macro fl! de i18n-embed-fl.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para cargo-i18n con Fluent en Rust. Lee i18n.toml, los archivos .ftl y la macro fl! de i18n-embed-fl."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

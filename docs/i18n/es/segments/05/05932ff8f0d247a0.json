@@ -1,0 +1,14 @@
+{
+  "hash": "05932ff8f0d247a0",
+  "source": "Every command that writes files accepts {0}. It prints the changes as a small diff and writes nothing:",
+  "text": "Todo comando que escribe archivos acepta {0}. Imprime los cambios como un diff pequeño y no escribe nada:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Todo comando que escribe archivos acepta {0}. Imprime los cambios como un diff pequeño y no escribe nada:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

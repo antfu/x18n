@@ -1,0 +1,14 @@
+{
+  "hash": "ac831f35619f15f0",
+  "source": "The preset for Polyglot.js. It reads polyglot.t calls and %{name} placeholders.",
+  "text": "O preset para o Polyglot.js. Ele lê chamadas polyglot.t e placeholders %{name}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset para o Polyglot.js. Ele lê chamadas polyglot.t e placeholders %{name}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

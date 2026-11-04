@@ -1,0 +1,14 @@
+{
+  "hash": "bd6c9ea14d54957f",
+  "source": "Find the key behind a text",
+  "text": "Encuentra la clave de un texto",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Encuentra la clave de un texto"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

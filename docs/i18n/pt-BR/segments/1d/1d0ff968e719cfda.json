@@ -1,0 +1,14 @@
+{
+  "hash": "1d0ff968e719cfda",
+  "source": "Plugins can use all of these syntaxes from {0}. A {1}YAML plugin{/1} can declare a shape such as {2}.",
+  "text": "Os plugins podem usar todas essas sintaxes a partir de {0}. Um {1}plugin YAML{/1} pode declarar um formato como {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os plugins podem usar todas essas sintaxes a partir de {0}. Um {1}plugin YAML{/1} pode declarar um formato como {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fc297e6c4f654981",
+  "source": "Patterns with a {0} placeholder (i18n-ally {1}), or a regex whose first group is the key.",
+  "text": "Pattern con un segnaposto {0} (i18n-ally {1}), oppure una regex il cui primo gruppo è la chiave.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Pattern con un segnaposto {0} (i18n-ally {1}), oppure una regex il cui primo gruppo è la chiave."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

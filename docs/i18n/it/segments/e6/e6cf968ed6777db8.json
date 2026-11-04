@@ -1,0 +1,14 @@
+{
+  "hash": "e6cf968ed6777db8",
+  "source": "x18n builds the final config of a project in this order. A later layer wins:",
+  "text": "x18n costruisce la configurazione finale di un progetto in quest'ordine. Un livello successivo ha la precedenza:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n costruisce la configurazione finale di un progetto in quest'ordine. Un livello successivo ha la precedenza:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

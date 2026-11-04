@@ -1,0 +1,14 @@
+{
+  "hash": "4830f328078e4c39",
+  "source": "The callee returns translate functions, as {0} does.",
+  "text": "O chamado retorna funções de tradução, como {0} faz.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O chamado retorna funções de tradução, como {0} faz."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

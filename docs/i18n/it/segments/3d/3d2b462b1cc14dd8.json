@@ -1,0 +1,14 @@
+{
+  "hash": "3d2b462b1cc14dd8",
+  "source": "The ranges and values for in-place annotations in a source file.",
+  "text": "Gli intervalli e i valori per le annotazioni inline in un file sorgente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gli intervalli e i valori per le annotazioni inline in un file sorgente."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

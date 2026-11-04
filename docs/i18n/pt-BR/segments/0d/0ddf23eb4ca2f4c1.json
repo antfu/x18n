@@ -1,0 +1,14 @@
+{
+  "hash": "0ddf23eb4ca2f4c1",
+  "source": "Writes many messages, in the shape of {0}. Refuses placeholder problems unless {1}.",
+  "text": "Grava várias mensagens, no formato de {0}. Recusa problemas de placeholder, a menos que {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Grava várias mensagens, no formato de {0}. Recusa problemas de placeholder, a menos que {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "91bd5535bfa72b1a",
+  "source": "Reviews: every message with open {0}review{/0} comments, filtered by state. Keys can also be filtered to those with open reviews.",
+  "text": "Reviews: todas as mensagens com comentários de {0}revisão{/0} abertos, filtradas por estado. As chaves também podem ser filtradas para mostrar apenas as que têm revisões abertas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reviews: todas as mensagens com comentários de {0}revisão{/0} abertos, filtradas por estado. As chaves também podem ser filtradas para mostrar apenas as que têm revisões abertas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

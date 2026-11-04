@@ -1,0 +1,14 @@
+{
+  "hash": "ee88aeeb939fdfcd",
+  "source": "Every command prints one document with the same envelope:",
+  "text": "Ogni comando stampa un unico documento con la stessa struttura:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ogni comando stampa un unico documento con la stessa struttura:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

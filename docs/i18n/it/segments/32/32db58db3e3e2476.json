@@ -1,0 +1,14 @@
+{
+  "hash": "32db58db3e3e2476",
+  "source": "x18n escapes {0} and {1} for the quotes around them. Inside {2} or {3} it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and {4}. Inside a quoted attribute, such as {5}, it also writes {6} and the attribute quote as entities. Outside quotes the value goes in as is.",
+  "text": "x18n esegue l'escape di {0} e {1} per le virgolette che li racchiudono. All'interno di {2} o {3} esegue l'escape dei backslash, di quella virgoletta e delle interruzioni di riga. All'interno di un template literal esegue l'escape di backslash, backtick e {4}. All'interno di un attributo tra virgolette, come {5}, scrive anche {6} e le virgolette dell'attributo come entità. Fuori dalle virgolette il valore viene inserito così com'è.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n esegue l'escape di {0} e {1} per le virgolette che li racchiudono. All'interno di {2} o {3} esegue l'escape dei backslash, di quella virgoletta e delle interruzioni di riga. All'interno di un template literal esegue l'escape di backslash, backtick e {4}. All'interno di un attributo tra virgolette, come {5}, scrive anche {6} e le virgolette dell'attributo come entità. Fuori dalle virgolette il valore viene inserito così com'è."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "86ef7eb3dd25e7f6",
+  "source": "When x18n renames a key, its threads move with it. When x18n deletes a key, its threads go too.",
+  "text": "Quando x18n rinomina una chiave, i suoi thread si spostano con essa. Quando x18n elimina una chiave, vengono eliminati anche i suoi thread.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Quando x18n rinomina una chiave, i suoi thread si spostano con essa. Quando x18n elimina una chiave, vengono eliminati anche i suoi thread."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

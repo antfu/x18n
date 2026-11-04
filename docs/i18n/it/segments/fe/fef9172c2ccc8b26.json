@@ -1,0 +1,14 @@
+{
+  "hash": "fef9172c2ccc8b26",
+  "source": "ts (default), yml or json",
+  "text": "ts (predefinito), yml o json",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ts (predefinito), yml o json"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "12a753877f1bb20d",
+  "source": "{0} in the generated plugin. {1} becomes {2}.",
+  "text": "{0} no plugin gerado. {1} se torna {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} no plugin gerado. {1} se torna {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

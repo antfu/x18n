@@ -1,0 +1,14 @@
+{
+  "hash": "7463f432dd39d1ba",
+  "source": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\".",
+  "text": "Lingua mostrata nelle annotazioni. Se vuota, indica la lingua di origine. \"x18n: Set Display Locale\" la sostituisce per ogni workspace senza scrivere le impostazioni, finché questa impostazione non cambia o non scegli \"Default\".",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lingua mostrata nelle annotazioni. Se vuota, indica la lingua di origine. \"x18n: Set Display Locale\" la sostituisce per ogni workspace senza scrivere le impostazioni, finché questa impostazione non cambia o non scegli \"Default\"."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

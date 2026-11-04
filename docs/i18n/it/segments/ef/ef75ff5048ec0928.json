@@ -1,0 +1,14 @@
+{
+  "hash": "ef75ff5048ec0928",
+  "source": "CSS border color of in-place values. Empty draws no border.",
+  "text": "Colore CSS del bordo dei valori in-place. Se vuoto, non disegna alcun bordo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Colore CSS del bordo dei valori in-place. Se vuoto, non disegna alcun bordo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

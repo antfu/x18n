@@ -1,0 +1,14 @@
+{
+  "hash": "2783c9df3fd45d95",
+  "source": "Add {0} to a YAML or JSON config. Your editor then shows the errors as you type.",
+  "text": "Adicione {0} a uma configuração em YAML ou JSON. Assim, seu editor mostra os erros enquanto você digita.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Adicione {0} a uma configuração em YAML ou JSON. Assim, seu editor mostra os erros enquanto você digita."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "afb01d96a5729234",
+  "source": "Do not use {0} on your computer. Anything that reaches the port can then edit your files. The option is for CI and end-to-end tests only, and the command prints a warning.",
+  "text": "No uses {0} en tu ordenador. Cualquier cosa que llegue al puerto podría entonces editar tus archivos. La opción es solo para CI y pruebas de extremo a extremo, y el comando muestra una advertencia.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No uses {0} en tu ordenador. Cualquier cosa que llegue al puerto podría entonces editar tus archivos. La opción es solo para CI y pruebas de extremo a extremo, y el comando muestra una advertencia."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

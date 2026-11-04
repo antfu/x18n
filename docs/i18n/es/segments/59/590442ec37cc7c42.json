@@ -1,0 +1,14 @@
+{
+  "hash": "590442ec37cc7c42",
+  "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
+  "text": "Extract: las cadenas codificadas, cada una con una clave propuesta. Edita las claves, desmarca las cadenas que quieras omitir y extrae el resto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extract: las cadenas codificadas, cada una con una clave propuesta. Edita las claves, desmarca las cadenas que quieras omitir y extrae el resto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

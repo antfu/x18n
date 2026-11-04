@@ -1,0 +1,14 @@
+{
+  "hash": "1f47e794e5172228",
+  "source": "Delete a key (or every key under a parent) in all locales; {0} deletes every unused key.",
+  "text": "Elimina una clave (o todas las claves bajo un padre) en todos los idiomas; {0} elimina todas las claves sin usar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina una clave (o todas las claves bajo un padre) en todos los idiomas; {0} elimina todas las claves sin usar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

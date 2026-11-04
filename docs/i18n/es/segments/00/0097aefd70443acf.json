@@ -1,0 +1,14 @@
+{
+  "hash": "0097aefd70443acf",
+  "source": "A locale file can store keys nested ({0}) or flat ({1}). The key is the same in both cases. When x18n writes a file, it keeps the style that the file uses.",
+  "text": "Un archivo de idioma puede almacenar las claves anidadas ({0}) o planas ({1}). La clave es la misma en ambos casos. Cuando x18n escribe un archivo, mantiene el estilo que usa ese archivo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un archivo de idioma puede almacenar las claves anidadas ({0}) o planas ({1}). La clave es la misma en ambos casos. Cuando x18n escribe un archivo, mantiene el estilo que usa ese archivo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

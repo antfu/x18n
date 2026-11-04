@@ -1,0 +1,14 @@
+{
+  "hash": "97b418951183c5d3",
+  "source": "Show usage counts and missing locales above keys in resource files.",
+  "text": "Mostra il numero di utilizzi e le lingue mancanti sopra le chiavi nei file di risorse.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mostra il numero di utilizzi e le lingue mancanti sopra le chiavi nei file di risorse."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

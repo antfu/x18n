@@ -1,0 +1,14 @@
+{
+  "hash": "52936718b351659f",
+  "source": "Job summary",
+  "text": "Resumo do job",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Resumo do job"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

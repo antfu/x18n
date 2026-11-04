@@ -1,0 +1,14 @@
+{
+  "hash": "8ae7b9cbd51f3f50",
+  "source": "Deletes every unused key in every locale, except keys that computed keys in code may reach. {0} and the glob limit it.",
+  "text": "Exclui todas as chaves não usadas em todos os idiomas, exceto as chaves que chaves computadas no código possam alcançar. {0} e o glob limitam a exclusão.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exclui todas as chaves não usadas em todos os idiomas, exceto as chaves que chaves computadas no código possam alcançar. {0} e o glob limitam a exclusão."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

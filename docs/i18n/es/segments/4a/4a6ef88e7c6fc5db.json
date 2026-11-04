@@ -1,0 +1,14 @@
+{
+  "hash": "4a6ef88e7c6fc5db",
+  "source": "A question in a plan that a surface must answer before apply.",
+  "text": "Una pregunta de un plan que una interfaz debe responder antes de aplicarlo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una pregunta de un plan que una interfaz debe responder antes de aplicarlo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

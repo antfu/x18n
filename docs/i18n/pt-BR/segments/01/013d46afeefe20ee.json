@@ -1,0 +1,14 @@
+{
+  "hash": "013d46afeefe20ee",
+  "source": "Nesting: {0}. The nested key counts as used.",
+  "text": "Aninhamento: {0}. A chave aninhada conta como usada.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Aninhamento: {0}. A chave aninhada conta como usada."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

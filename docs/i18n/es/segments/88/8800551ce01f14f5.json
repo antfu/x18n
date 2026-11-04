@@ -1,0 +1,14 @@
+{
+  "hash": "8800551ce01f14f5",
+  "source": "The provider of a module reaches the components the file names, and a route's reaches the components named or lazy-loaded under it, through {0} too, and their children.",
+  "text": "El proveedor de un módulo alcanza los componentes que nombra el archivo, y el de una ruta alcanza los componentes nombrados o cargados de forma diferida (lazy) bajo ella, también mediante {0}, y sus hijos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El proveedor de un módulo alcanza los componentes que nombra el archivo, y el de una ruta alcanza los componentes nombrados o cargados de forma diferida (lazy) bajo ella, también mediante {0}, y sus hijos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

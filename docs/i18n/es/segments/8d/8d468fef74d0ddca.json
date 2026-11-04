@@ -1,0 +1,14 @@
+{
+  "hash": "8d468fef74d0ddca",
+  "source": "With the {0}LSP{/0} package, in {1}:",
+  "text": "Con el paquete {0}LSP{/0}, en {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Con el paquete {0}LSP{/0}, en {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

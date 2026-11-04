@@ -1,0 +1,14 @@
+{
+  "hash": "1adc748d68237ed6",
+  "source": "To open files from the panel in your editor, set {0}, {1} or {2} before you start the dev server.",
+  "text": "Para abrir archivos del panel en tu editor, define {0}, {1} o {2} antes de iniciar el servidor de desarrollo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para abrir archivos del panel en tu editor, define {0}, {1} o {2} antes de iniciar el servidor de desarrollo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "441ba5d55d7c57c9",
+  "source": "Indent of written files: a number of spaces, or {0}. Without it, each file keeps its own indent.",
+  "text": "Indentação dos arquivos gravados: um número de espaços, ou {0}. Sem isso, cada arquivo mantém a própria indentação.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Indentação dos arquivos gravados: um número de espaços, ou {0}. Sem isso, cada arquivo mantém a própria indentação."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

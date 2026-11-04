@@ -1,0 +1,14 @@
+{
+  "hash": "d26efd5f0a9e4c0f",
+  "source": "Globs of the source files to skip. Your list adds to the default list.",
+  "text": "Globs de los archivos fuente que se omiten. Tu lista se suma a la lista por defecto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Globs de los archivos fuente que se omiten. Tu lista se suma a la lista por defecto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

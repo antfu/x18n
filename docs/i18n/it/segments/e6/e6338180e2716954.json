@@ -1,0 +1,14 @@
+{
+  "hash": "e6338180e2716954",
+  "source": "Print candidates and proposed keys",
+  "text": "Stampa i candidati e le chiavi proposte",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stampa i candidati e le chiavi proposte"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

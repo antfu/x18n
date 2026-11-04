@@ -1,0 +1,14 @@
+{
+  "hash": "a3058b6cca1030f8",
+  "source": "It asks you about key naming, glossary terms, tone per locale, deleting unused keys and large renames.",
+  "text": "Ele pergunta a você sobre a nomenclatura de chaves, termos do glossário, tom por idioma, exclusão de chaves não usadas e renomeações grandes.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ele pergunta a você sobre a nomenclatura de chaves, termos do glossário, tom por idioma, exclusão de chaves não usadas e renomeações grandes."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

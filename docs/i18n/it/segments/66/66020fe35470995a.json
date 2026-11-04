@@ -1,0 +1,14 @@
+{
+  "hash": "66020fe35470995a",
+  "source": "{0} is the contract version.",
+  "text": "{0} è la versione del contratto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} è la versione del contratto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

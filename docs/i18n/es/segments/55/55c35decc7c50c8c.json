@@ -1,0 +1,14 @@
+{
+  "hash": "55c35decc7c50c8c",
+  "source": "The {0} preset supports the {1}language files of Joomla{/1}.",
+  "text": "El preset {0} es compatible con los {1}archivos de idioma de Joomla{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0} es compatible con los {1}archivos de idioma de Joomla{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

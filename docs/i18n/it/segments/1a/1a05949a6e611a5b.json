@@ -1,0 +1,14 @@
+{
+  "hash": "1a05949a6e611a5b",
+  "source": "Records that translations are up to date with the current source value. Default: every translated locale.",
+  "text": "Registra che le traduzioni sono aggiornate rispetto al valore sorgente attuale. Predefinito: ogni lingua tradotta.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Registra che le traduzioni sono aggiornate rispetto al valore sorgente attuale. Predefinito: ogni lingua tradotta."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

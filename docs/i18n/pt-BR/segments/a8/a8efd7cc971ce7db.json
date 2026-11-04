@@ -1,0 +1,14 @@
+{
+  "hash": "a8efd7cc971ce7db",
+  "source": "A message is a function on the {0} object. The name of the function is the key. The preset reads {1}, {2}, JSX, Vue, Svelte and Astro files.",
+  "text": "Uma mensagem é uma função no objeto {0}. O nome da função é a chave. O preset lê arquivos {1}, {2}, JSX, Vue, Svelte e Astro.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma mensagem é uma função no objeto {0}. O nome da função é a chave. O preset lê arquivos {1}, {2}, JSX, Vue, Svelte e Astro."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

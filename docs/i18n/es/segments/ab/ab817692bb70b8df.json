@@ -1,0 +1,14 @@
+{
+  "hash": "ab817692bb70b8df",
+  "source": "With another separator, the project is namespaced. Keys then have the form {0}, for example {1}. i18next works this way, with {2} as the separator and {3} as the default namespace.",
+  "text": "Con otro separador, el proyecto usa espacios de nombres. Las claves tienen entonces la forma {0}, por ejemplo {1}. i18next funciona así, con {2} como separador y {3} como espacio de nombres predeterminado.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Con otro separador, el proyecto usa espacios de nombres. Las claves tienen entonces la forma {0}, por ejemplo {1}. i18next funciona así, con {2} como separador y {3} como espacio de nombres predeterminado."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

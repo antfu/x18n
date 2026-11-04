@@ -1,0 +1,14 @@
+{
+  "hash": "220ad82bbbf5b95e",
+  "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
+  "text": "{0} também pode retornar {1} e {2}, indexados como os intervalos. Um estado indica até onde a tradução chegou: {3}, {4} ou {5}; a cobertura os contabiliza. Um rótulo dá nome a uma chave que não é fácil de ler, como um hash. A interface e {6} mostram ambos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} também pode retornar {1} e {2}, indexados como os intervalos. Um estado indica até onde a tradução chegou: {3}, {4} ou {5}; a cobertura os contabiliza. Um rótulo dá nome a uma chave que não é fácil de ler, como um hash. A interface e {6} mostram ambos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

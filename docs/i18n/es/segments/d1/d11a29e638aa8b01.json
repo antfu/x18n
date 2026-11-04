@@ -1,0 +1,14 @@
+{
+  "hash": "d11a29e638aa8b01",
+  "source": "In HTML templates, the preset reads the {0} pipe and the {1} directive:",
+  "text": "En las plantillas HTML, el preset lee el pipe {0} y la directiva {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En las plantillas HTML, el preset lee el pipe {0} y la directiva {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

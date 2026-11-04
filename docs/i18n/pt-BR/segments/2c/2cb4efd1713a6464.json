@@ -1,0 +1,14 @@
+{
+  "hash": "2cb4efd1713a6464",
+  "source": "Paths are relative to the config file. Package names resolve from the directory of the config file.",
+  "text": "Os caminhos são relativos ao arquivo de configuração. Os nomes de pacote são resolvidos a partir do diretório do arquivo de configuração.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os caminhos são relativos ao arquivo de configuração. Os nomes de pacote são resolvidos a partir do diretório do arquivo de configuração."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

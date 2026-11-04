@@ -1,0 +1,14 @@
+{
+  "hash": "2f7eba9d3d4d346a",
+  "source": "The source file is the one {0} writes: {1}, {2}, {3} or {4} in the {5} of the {6} target, after its {7} and {8} options.",
+  "text": "Il file di origine è quello che scrive {0}: {1}, {2}, {3} o {4} in {5} del target {6}, dopo le sue opzioni {7} e {8}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il file di origine è quello che scrive {0}: {1}, {2}, {3} o {4} in {5} del target {6}, dopo le sue opzioni {7} e {8}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

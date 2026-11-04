@@ -1,0 +1,14 @@
+{
+  "hash": "6fd290eb82a7bfba",
+  "source": "Reads and writes the review file ({0}). The YAML one is built in.",
+  "text": "Lee y escribe el archivo de revisiones ({0}). El de YAML viene integrado.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lee y escribe el archivo de revisiones ({0}). El de YAML viene integrado."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

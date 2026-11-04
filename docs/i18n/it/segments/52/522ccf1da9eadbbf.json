@@ -1,0 +1,14 @@
+{
+  "hash": "522ccf1da9eadbbf",
+  "source": "Key: the values of one key with the translation state and description the file records, its problems, and its usages with a few lines of code. \"Open in editor\" opens a usage in your editor. Each target locale has a button that copies a translate prompt for the key, and a button to review the value. The review thread of each locale shows under its value, with buttons to apply a suggestion or resolve a comment.",
+  "text": "Chiave: i valori di una chiave con lo stato di traduzione e la descrizione registrati nel file, i suoi problemi e i suoi utilizzi con alcune righe di codice. \"Open in editor\" apre un utilizzo nel tuo editor. Ogni lingua di destinazione ha un pulsante che copia un prompt di traduzione per la chiave e un pulsante per revisionare il valore. Il thread di revisione di ogni lingua appare sotto il suo valore, con pulsanti per applicare un suggerimento o risolvere un commento.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chiave: i valori di una chiave con lo stato di traduzione e la descrizione registrati nel file, i suoi problemi e i suoi utilizzi con alcune righe di codice. \"Open in editor\" apre un utilizzo nel tuo editor. Ogni lingua di destinazione ha un pulsante che copia un prompt di traduzione per la chiave e un pulsante per revisionare il valore. Il thread di revisione di ogni lingua appare sotto il suo valore, con pulsanti per applicare un suggerimento o risolvere un commento."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

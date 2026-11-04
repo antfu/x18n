@@ -1,0 +1,14 @@
+{
+  "hash": "56f2df605269ee07",
+  "source": "{0} returns a {1} with the namespace {2}.",
+  "text": "{0} retorna um {1} com o namespace {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} retorna um {1} com o namespace {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

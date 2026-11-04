@@ -1,0 +1,14 @@
+{
+  "hash": "7576a23962e1afb8",
+  "source": "The preset applies when {0} requires {1} or {2}.",
+  "text": "Il preset si applica quando {0} richiede {1} o {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset si applica quando {0} richiede {1} o {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

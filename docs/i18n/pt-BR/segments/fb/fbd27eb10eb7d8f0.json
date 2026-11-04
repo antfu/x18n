@@ -1,0 +1,14 @@
+{
+  "hash": "fbd27eb10eb7d8f0",
+  "source": "Placeholder mismatch. Keep every placeholder of the source value, or pass `--force`.",
+  "text": "Incompatibilidade de placeholder. Mantenha todos os placeholders do valor de origem ou passe `--force`.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Incompatibilidade de placeholder. Mantenha todos os placeholders do valor de origem ou passe `--force`."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d20c69a18888a5b0",
+  "source": "The {0}ruby-rails{/0} preset uses a transform for the top-level locale key, and the {1}chrome-extension{/1} preset for the {2} field.",
+  "text": "El preset {0}ruby-rails{/0} usa una transformación para la clave de idioma de nivel superior, y el preset {1}chrome-extension{/1} para el campo {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0}ruby-rails{/0} usa una transformación para la clave de idioma de nivel superior, y el preset {1}chrome-extension{/1} para el campo {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

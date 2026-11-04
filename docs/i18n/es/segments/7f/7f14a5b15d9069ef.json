@@ -1,0 +1,14 @@
+{
+  "hash": "7f14a5b15d9069ef",
+  "source": "A key that does not match a naming rule (options: case, pattern).",
+  "text": "Una clave que no cumple una regla de nomenclatura (opciones: case, pattern).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una clave que no cumple una regla de nomenclatura (opciones: case, pattern)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d2f97b9a5ebf2961",
+  "source": "Explicit config file",
+  "text": "Archivo de configuración explícito",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Archivo de configuración explícito"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

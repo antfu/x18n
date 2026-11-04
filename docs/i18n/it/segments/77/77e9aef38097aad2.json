@@ -1,0 +1,14 @@
+{
+  "hash": "77e9aef38097aad2",
+  "source": "Display data for a locale code. The first plugin that returns a value wins.",
+  "text": "Dati di visualizzazione per un codice lingua. Vince il primo plugin che restituisce un valore.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dati di visualizzazione per un codice lingua. Vince il primo plugin che restituisce un valore."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7fcf6c898c6d18b6",
+  "source": "The prompt holds the messages that are missing or empty in {0}, 50 at a time. A shortened example:",
+  "text": "El prompt contiene los mensajes que faltan o están vacíos en {0}, de 50 en 50. Un ejemplo abreviado:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El prompt contiene los mensajes que faltan o están vacíos en {0}, de 50 en 50. Un ejemplo abreviado:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

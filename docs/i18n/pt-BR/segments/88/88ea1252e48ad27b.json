@@ -1,0 +1,14 @@
+{
+  "hash": "88ea1252e48ad27b",
+  "source": "{0} describe how placeholders look in messages. {1} returns the placeholders of a value. {2} returns syntax errors, for the {3} check. {4} is the text that prompts show. {5} means that the placeholder names another key, which then counts as used.",
+  "text": "{0} descrevem como os placeholders aparecem nas mensagens. {1} retorna os placeholders de um valor. {2} retorna erros de sintaxe, para a verificação {3}. {4} é o texto que os prompts exibem. {5} significa que o placeholder nomeia outra chave, que então conta como usada.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} descrevem como os placeholders aparecem nas mensagens. {1} retorna os placeholders de um valor. {2} retorna erros de sintaxe, para a verificação {3}. {4} é o texto que os prompts exibem. {5} significa que o placeholder nomeia outra chave, que então conta como usada."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

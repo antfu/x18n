@@ -1,0 +1,14 @@
+{
+  "hash": "8f7440dd4cc10a57",
+  "source": "The plan has a decision (a question such as \"which file gets the new key\"), and the command got no answer. This happens with {0}, or when stdin is not a terminal.",
+  "text": "O plano tem uma decisão (uma pergunta como \"qual arquivo recebe a nova chave\"), e o comando não recebeu resposta. Isso acontece com {0}, ou quando o stdin não é um terminal.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O plano tem uma decisão (uma pergunta como \"qual arquivo recebe a nova chave\"), e o comando não recebeu resposta. Isso acontece com {0}, ou quando o stdin não é um terminal."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

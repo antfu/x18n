@@ -1,0 +1,14 @@
+{
+  "hash": "d9d8a012bfd1c59f",
+  "source": "prefix rename (fine in UI labels)",
+  "text": "rinomina del prefisso (va bene nelle etichette dell'interfaccia)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "rinomina del prefisso (va bene nelle etichette dell'interfaccia)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e7cb245af0f20ea6",
+  "source": "In {0} files, the preset reads calls of {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} and {10}, and the {11} forms of Python 2. The key is the first string argument, the source message:",
+  "text": "Nei file {0}, il preset legge le chiamate a {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} e {10}, e le forme {11} di Python 2. La chiave è il primo argomento stringa, il messaggio sorgente:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nei file {0}, il preset legge le chiamate a {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9} e {10}, e le forme {11} di Python 2. La chiave è il primo argomento stringa, il messaggio sorgente:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

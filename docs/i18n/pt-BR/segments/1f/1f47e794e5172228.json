@@ -1,0 +1,14 @@
+{
+  "hash": "1f47e794e5172228",
+  "source": "Delete a key (or every key under a parent) in all locales; {0} deletes every unused key.",
+  "text": "Exclui uma chave (ou todas as chaves de um pai) em todos os idiomas; {0} exclui todas as chaves não utilizadas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exclui uma chave (ou todas as chaves de um pai) em todos os idiomas; {0} exclui todas as chaves não utilizadas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "376c1576cb3ab3a5",
+  "source": "The server runs next to your language's own server. Point it at the file types that use or define messages. Each editor below starts it over stdio and can pass {0}initialization options{/0}.",
+  "text": "O servidor roda ao lado do servidor da sua própria linguagem. Aponte-o para os tipos de arquivo que usam ou definem mensagens. Cada editor abaixo o inicia via stdio e pode passar {0}opções de inicialização{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O servidor roda ao lado do servidor da sua própria linguagem. Aponte-o para os tipos de arquivo que usam ou definem mensagens. Cada editor abaixo o inicia via stdio e pode passar {0}opções de inicialização{/0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

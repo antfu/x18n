@@ -1,0 +1,14 @@
+{
+  "hash": "e02c0a7724e32b69",
+  "source": "{0} returns a {1} with a namespace and a key prefix. {2} above is {3}.",
+  "text": "{0} restituisce un {1} con un namespace e un prefisso di chiave. {2} qui sopra è {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} restituisce un {1} con un namespace e un prefisso di chiave. {2} qui sopra è {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

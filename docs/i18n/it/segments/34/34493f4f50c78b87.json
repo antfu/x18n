@@ -1,0 +1,14 @@
+{
+  "hash": "34493f4f50c78b87",
+  "source": "{0} is a regular expression. Every match is replaced.",
+  "text": "{0} è un'espressione regolare. Ogni corrispondenza viene sostituita.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} è un'espressione regolare. Ogni corrispondenza viene sostituita."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

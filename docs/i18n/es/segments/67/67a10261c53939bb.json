@@ -1,0 +1,14 @@
+{
+  "hash": "67a10261c53939bb",
+  "source": "the {0} of each {1} file in the root,",
+  "text": "el {0} de cada archivo {1} de la raíz,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "el {0} de cada archivo {1} de la raíz,"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "184a8e5b967259ed",
+  "source": "{0} flags in the generated plugin",
+  "text": "Flag {0} nel plugin generato",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Flag {0} nel plugin generato"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

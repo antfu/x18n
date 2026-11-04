@@ -1,0 +1,14 @@
+{
+  "hash": "8ce341171726b0ef",
+  "source": "Reuse a key when the same text exists as a source value. Default true.",
+  "text": "Reutiliza una clave cuando el mismo texto existe como valor de origen. Por defecto true.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reutiliza una clave cuando el mismo texto existe como valor de origen. Por defecto true."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

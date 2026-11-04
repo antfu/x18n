@@ -1,0 +1,14 @@
+{
+  "hash": "7557629a55f09469",
+  "source": "The port. The default is the first free port from 9999.",
+  "text": "El puerto. Por defecto es el primer puerto libre a partir de 9999.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El puerto. Por defecto es el primer puerto libre a partir de 9999."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

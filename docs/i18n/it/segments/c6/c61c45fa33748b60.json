@@ -1,0 +1,14 @@
+{
+  "hash": "c61c45fa33748b60",
+  "source": "Separator between namespace and key in code. {0} merges the namespace into the key path. {1} keeps namespaces out of keys in code (i18next {2}), so a key may hold {3}. Default {4}.",
+  "text": "Separatore tra namespace e chiave nel codice. {0} unisce il namespace al percorso della chiave. {1} tiene i namespace fuori dalle chiavi nel codice (i18next {2}), quindi una chiave può contenere {3}. Predefinito {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Separatore tra namespace e chiave nel codice. {0} unisce il namespace al percorso della chiave. {1} tiene i namespace fuori dalle chiavi nel codice (i18next {2}), quindi una chiave può contenere {3}. Predefinito {4}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "bcbb433f3a7dd962",
+  "source": "Linked messages: {0} and {1}. The linked key counts as used, and the {2} check reports a linked key that does not exist.",
+  "text": "Mensagens vinculadas: {0} e {1}. A chave vinculada conta como usada, e a verificação {2} informa uma chave vinculada que não existe.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mensagens vinculadas: {0} e {1}. A chave vinculada conta como usada, e a verificação {2} informa uma chave vinculada que não existe."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

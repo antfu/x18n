@@ -1,0 +1,14 @@
+{
+  "hash": "555bd065e1e2476e",
+  "source": "Print the parts as data, for tools that build their own prompt. {0} does the same.",
+  "text": "Imprime las partes como datos, para herramientas que construyen su propio prompt. {0} hace lo mismo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Imprime las partes como datos, para herramientas que construyen su propio prompt. {0} hace lo mismo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

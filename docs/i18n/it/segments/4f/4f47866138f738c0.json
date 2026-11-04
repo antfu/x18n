@@ -1,0 +1,14 @@
+{
+  "hash": "4f47866138f738c0",
+  "source": "Run the check in CI",
+  "text": "Esegui il controllo in CI",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esegui il controllo in CI"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

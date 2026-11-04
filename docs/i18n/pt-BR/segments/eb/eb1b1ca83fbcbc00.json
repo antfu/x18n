@@ -1,0 +1,14 @@
+{
+  "hash": "eb1b1ca83fbcbc00",
+  "source": "The keys of all {0} files share one key space, as {1} does not show in the key. Two files with the same key, such as {2} and {3}, give a {4}. So do two keys where one is the start of the other, such as {5} and {6}.",
+  "text": "As chaves de todos os arquivos {0} compartilham um único espaço de chaves, já que {1} não aparece na chave. Dois arquivos com a mesma chave, como {2} e {3}, geram um {4}. O mesmo vale para duas chaves em que uma é o início da outra, como {5} e {6}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "As chaves de todos os arquivos {0} compartilham um único espaço de chaves, já que {1} não aparece na chave. Dois arquivos com a mesma chave, como {2} e {3}, geram um {4}. O mesmo vale para duas chaves em que uma é o início da outra, como {5} e {6}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

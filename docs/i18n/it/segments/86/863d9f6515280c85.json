@@ -1,0 +1,14 @@
+{
+  "hash": "863d9f6515280c85",
+  "source": "It also finds the locale files. If your config has no {0}, the preset reads {1} (or {2}) and looks for {3}:",
+  "text": "Trova anche i file delle lingue. Se la tua configurazione non ha {0}, il preset legge {1} (o {2}) e cerca {3}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Trova anche i file delle lingue. Se la tua configurazione non ha {0}, il preset legge {1} (o {2}) e cerca {3}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

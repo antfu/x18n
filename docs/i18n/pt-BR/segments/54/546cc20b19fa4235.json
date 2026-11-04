@@ -1,0 +1,14 @@
+{
+  "hash": "546cc20b19fa4235",
+  "source": "List commands take {0} and return {1}. Pass it as {2} to get the next page. This keeps the output of a large project small enough for the context of an agent:",
+  "text": "Os comandos de listagem aceitam {0} e retornam {1}. Passe-o como {2} para obter a próxima página. Isso mantém a saída de um projeto grande pequena o bastante para o contexto de um agente:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os comandos de listagem aceitam {0} e retornam {1}. Passe-o como {2} para obter a próxima página. Isso mantém a saída de um projeto grande pequena o bastante para o contexto de um agente:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

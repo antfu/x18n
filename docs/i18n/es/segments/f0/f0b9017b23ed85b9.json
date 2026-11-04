@@ -1,0 +1,14 @@
+{
+  "hash": "f0b9017b23ed85b9",
+  "source": "Resource is read-only. Edit the source of computed values, or use a writable format.",
+  "text": "El recurso es de solo lectura. Edita el origen de los valores calculados o usa un formato con permiso de escritura.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El recurso es de solo lectura. Edita el origen de los valores calculados o usa un formato con permiso de escritura."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4bcec0e13de83f73",
+  "source": "{0} in the generated plugin, for JS, TS, Vue, HTML and Svelte files",
+  "text": "{0} en el plugin generado, para archivos JS, TS, Vue, HTML y Svelte",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} en el plugin generado, para archivos JS, TS, Vue, HTML y Svelte"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

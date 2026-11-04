@@ -1,0 +1,14 @@
+{
+  "hash": "ff7140868c888b39",
+  "source": "{0} refuses values whose placeholders differ from the source value, and lists them in {1}. The agent fixes them and applies again. If the prompt says that more keys remain, the agent continues with {2}.",
+  "text": "{0} rifiuta i valori i cui segnaposto differiscono da quelli del valore di origine e li elenca in {1}. L'agente li corregge e applica di nuovo. Se il prompt indica che restano altre chiavi, l'agente continua con {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} rifiuta i valori i cui segnaposto differiscono da quelli del valore di origine e li elenca in {1}. L'agente li corregge e applica di nuovo. Se il prompt indica che restano altre chiavi, l'agente continua con {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

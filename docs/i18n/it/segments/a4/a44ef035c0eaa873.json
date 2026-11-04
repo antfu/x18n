@@ -1,0 +1,14 @@
+{
+  "hash": "a44ef035c0eaa873",
+  "source": "Re-write resources with the configured sort and indent.",
+  "text": "Riscrive le risorse con l'ordinamento e il rientro configurati.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Riscrive le risorse con l'ordinamento e il rientro configurati."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

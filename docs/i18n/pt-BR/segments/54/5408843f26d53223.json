@@ -1,0 +1,14 @@
+{
+  "hash": "5408843f26d53223",
+  "source": "Finds hard strings and builds replacements.",
+  "text": "Encontra strings fixas no código e gera as substituições.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Encontra strings fixas no código e gera as substituições."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

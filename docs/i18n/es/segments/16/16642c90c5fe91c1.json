@@ -1,0 +1,14 @@
+{
+  "hash": "16642c90c5fe91c1",
+  "source": "Percent braces: {0}. For the files above, the {1} check reports {2}, because {3} has no {4}.",
+  "text": "Llaves con porcentaje: {0}. Para los archivos anteriores, la comprobación {1} informa de {2}, porque {3} no tiene {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Llaves con porcentaje: {0}. Para los archivos anteriores, la comprobación {1} informa de {2}, porque {3} no tiene {4}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f37933fdae13d07f",
+  "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
+  "text": "Uma chave que é ao mesmo tempo folha e pai, ou que está duplicada em arquivos de um mesmo idioma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma chave que é ao mesmo tempo folha e pai, ou que está duplicada em arquivos de um mesmo idioma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "48e4a28f6a9c61b0",
+  "source": "When {0} finds a key with the same meaning, the agent reuses it. Without {1}, {2} writes the source locale. Then use the key in code, for example {3}. To see which locales still lack keys, run {4}.",
+  "text": "Quando {0} trova una chiave con lo stesso significato, l'agente la riutilizza. Senza {1}, {2} scrive nella lingua di origine. Poi usa la chiave nel codice, ad esempio {3}. Per vedere in quali lingue mancano ancora chiavi, esegui {4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Quando {0} trova una chiave con lo stesso significato, l'agente la riutilizza. Senza {1}, {2} scrive nella lingua di origine. Poi usa la chiave nel codice, ad esempio {3}. Per vedere in quali lingue mancano ancora chiavi, esegui {4}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

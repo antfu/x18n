@@ -1,0 +1,14 @@
+{
+  "hash": "3077164efb42b177",
+  "source": "The message of the hard string, as stored in the source locale: the original text, with the arguments of a template string as placeholders. Use it for a default value, as in {0}.",
+  "text": "El mensaje de la cadena codificada, tal como se almacena en el idioma de origen: el texto original, con los argumentos de una plantilla de cadena como marcadores de posición. Úsalo para un valor por defecto, como en {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El mensaje de la cadena codificada, tal como se almacena en el idioma de origen: el texto original, con los argumentos de una plantilla de cadena como marcadores de posición. Úsalo para un valor por defecto, como en {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0d054b1441de420d",
+  "source": "Sets the suggested value and resolves the suggestion.",
+  "text": "Establece el valor sugerido y resuelve la sugerencia.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Establece el valor sugerido y resuelve la sugerencia."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

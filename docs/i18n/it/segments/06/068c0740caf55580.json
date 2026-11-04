@@ -1,0 +1,14 @@
+{
+  "hash": "068c0740caf55580",
+  "source": "x18n: Toggle In-place Annotations",
+  "text": "x18n: Attiva/disattiva annotazioni in-place",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: Attiva/disattiva annotazioni in-place"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

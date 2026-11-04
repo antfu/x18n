@@ -1,0 +1,14 @@
+{
+  "hash": "1058ae27695699f1",
+  "source": "extracted ({0}) and translator ({1}) comments",
+  "text": "comentários extraídos ({0}) e do tradutor ({1})",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "comentários extraídos ({0}) e do tradutor ({1})"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "eebf448044285ac1",
+  "source": "Attribute names whose values are never extracted, even text ones such as {0}.",
+  "text": "Nombres de atributos cuyos valores nunca se extraen, incluso los de texto como {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nombres de atributos cuyos valores nunca se extraen, incluso los de texto como {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

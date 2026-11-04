@@ -1,0 +1,14 @@
+{
+  "hash": "bd1c940bd59be09a",
+  "source": "Rename (F2) renames the key in every locale file and every usage. On a parent key, it renames every key under it.",
+  "text": "Cambiar nombre (F2) cambia el nombre de la clave en cada archivo de idioma y en cada uso. En una clave padre, cambia el nombre de todas las claves que contiene.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cambiar nombre (F2) cambia el nombre de la clave en cada archivo de idioma y en cada uso. En una clave padre, cambia el nombre de todas las claves que contiene."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

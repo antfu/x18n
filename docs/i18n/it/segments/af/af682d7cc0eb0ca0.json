@@ -1,0 +1,14 @@
+{
+  "hash": "af682d7cc0eb0ca0",
+  "source": "Locale codes as written in paths. Filters the found locales.",
+  "text": "Codici lingua come scritti nei percorsi. Filtra le lingue trovate.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Codici lingua come scritti nei percorsi. Filtra le lingue trovate."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

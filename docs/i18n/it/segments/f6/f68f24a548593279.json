@@ -1,0 +1,14 @@
+{
+  "hash": "f68f24a548593279",
+  "source": "{0} checks every project, and reports them together.",
+  "text": "{0} controlla ogni progetto e li riporta insieme.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} controlla ogni progetto e li riporta insieme."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

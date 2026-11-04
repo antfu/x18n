@@ -1,0 +1,14 @@
+{
+  "hash": "931ccbe077438f90",
+  "source": "In CI, fetch the full history: a shallow clone (the {0} default) reports nothing. Set {1}. Limit the walk with {2}, or turn history off with {3}. {4} adds stale translations to the prompt, with the source text from when they last changed.",
+  "text": "In CI, recupera la cronologia completa: un clone shallow (il default di {0}) non segnala nulla. Imposta {1}. Limita la scansione con {2}, oppure disattiva la cronologia con {3}. {4} aggiunge le traduzioni obsolete al prompt, con il testo di origine di quando sono cambiate l'ultima volta.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In CI, recupera la cronologia completa: un clone shallow (il default di {0}) non segnala nulla. Imposta {1}. Limita la scansione con {2}, oppure disattiva la cronologia con {3}. {4} aggiunge le traduzioni obsolete al prompt, con il testo di origine di quando sono cambiate l'ultima volta."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

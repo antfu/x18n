@@ -1,0 +1,14 @@
+{
+  "hash": "447e9b50d9a00708",
+  "source": "A project is one i18n setup: one root directory, one config and one set of locales. Most repositories have one project. A monorepo can have many. See {0}Monorepos{/0}.",
+  "text": "Un progetto è una configurazione i18n: una directory radice, una configurazione e un insieme di lingue. La maggior parte dei repository ha un solo progetto. Un monorepo può averne molti. Vedi {0}Monorepo{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un progetto è una configurazione i18n: una directory radice, una configurazione e un insieme di lingue. La maggior parte dei repository ha un solo progetto. Un monorepo può averne molti. Vedi {0}Monorepo{/0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

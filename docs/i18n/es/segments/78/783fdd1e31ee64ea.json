@@ -1,0 +1,14 @@
+{
+  "hash": "783fdd1e31ee64ea",
+  "source": "Where a key prefix comes from ({0} option, or next-intl {1}).",
+  "text": "De dónde viene el prefijo de una clave (opción {0}, o {1} de next-intl).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "De dónde viene el prefijo de una clave (opción {0}, o {1} de next-intl)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

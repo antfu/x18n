@@ -1,0 +1,14 @@
+{
+  "hash": "ce2d476e80364c9a",
+  "source": "Message syntax errors (ICU, linked messages, nesting).",
+  "text": "Errores de sintaxis en los mensajes (ICU, mensajes enlazados, anidamiento).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Errores de sintaxis en los mensajes (ICU, mensajes enlazados, anidamiento)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

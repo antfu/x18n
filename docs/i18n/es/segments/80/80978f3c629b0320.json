@@ -1,0 +1,14 @@
+{
+  "hash": "80978f3c629b0320",
+  "source": "{0}: x18n keeps resolved reviews, and {1} hides them. Key descriptions in the review file are dropped too. The command prints a note for each.",
+  "text": "{0}: x18n conserva las revisiones resueltas y {1} las oculta. Las descripciones de claves del archivo de revisiones también se descartan. El comando muestra una nota por cada una.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: x18n conserva las revisiones resueltas y {1} las oculta. Las descripciones de claves del archivo de revisiones también se descartan. El comando muestra una nota por cada una."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

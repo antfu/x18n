@@ -1,0 +1,14 @@
+{
+  "hash": "72a91c64b6403b1a",
+  "source": "{0} changes how the tree of a file maps to keys. Use it for files that wrap the messages, such as a file whose messages sit under a top-level {1} key.",
+  "text": "{0} cambia cómo el árbol de un archivo se asigna a las claves. Úsalo en archivos que envuelven los mensajes, como un archivo cuyos mensajes están bajo una clave {1} de nivel superior.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} cambia cómo el árbol de un archivo se asigna a las claves. Úsalo en archivos que envuelven los mensajes, como un archivo cuyos mensajes están bajo una clave {1} de nivel superior."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

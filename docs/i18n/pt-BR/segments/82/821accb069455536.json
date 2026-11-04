@@ -1,0 +1,14 @@
+{
+  "hash": "821accb069455536",
+  "source": "The plugin file has this shape:",
+  "text": "O arquivo do plugin tem este formato:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O arquivo do plugin tem este formato:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

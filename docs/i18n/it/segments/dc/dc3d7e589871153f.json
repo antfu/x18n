@@ -1,0 +1,14 @@
+{
+  "hash": "dc3d7e589871153f",
+  "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
+  "text": "Ogni formato integrato ha {0}, e una modifica cambia solo le voci che imposta, aggiunge o elimina. Commenti, ordine delle chiavi, virgolette e indentazione restano invariati. Una nuova chiave viene inserita dopo l'ultima chiave del suo elemento padre, nello stile del file. Una chiave eliminata porta con sé il commento a fine riga. In {1} e {2}, i commenti sopra una voce le appartengono e vengono eliminati con essa. Solo {3} e {4} riscrivono un intero file, perdendo i suoi commenti. Un formato che può solo leggere rende le sue risorse di sola lettura.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ogni formato integrato ha {0}, e una modifica cambia solo le voci che imposta, aggiunge o elimina. Commenti, ordine delle chiavi, virgolette e indentazione restano invariati. Una nuova chiave viene inserita dopo l'ultima chiave del suo elemento padre, nello stile del file. Una chiave eliminata porta con sé il commento a fine riga. In {1} e {2}, i commenti sopra una voce le appartengono e vengono eliminati con essa. Solo {3} e {4} riscrivono un intero file, perdendo i suoi commenti. Un formato che può solo leggere rende le sue risorse di sola lettura."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

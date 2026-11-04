@@ -1,0 +1,14 @@
+{
+  "hash": "81a4cd95244d0ea3",
+  "source": "The output answers the usual questions:",
+  "text": "La salida responde a las preguntas habituales:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La salida responde a las preguntas habituales:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

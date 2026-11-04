@@ -1,0 +1,14 @@
+{
+  "hash": "e66a89b24453221f",
+  "source": "notification (client to server)",
+  "text": "notifica (da client a server)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "notifica (da client a server)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

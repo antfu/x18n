@@ -1,0 +1,14 @@
+{
+  "hash": "d3030815d0fa9bf2",
+  "source": "The default output directory is {0}. The report holds the state of the project at build time. Edit controls, prompts and \"Open in editor\" are not there.",
+  "text": "El directorio de salida por defecto es {0}. El informe contiene el estado del proyecto en el momento del build. No incluye los controles de edición, los prompts ni \"Open in editor\".",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El directorio de salida por defecto es {0}. El informe contiene el estado del proyecto en el momento del build. No incluye los controles de edición, los prompts ni \"Open in editor\"."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f65c31c698b324e9",
+  "source": "Single braces: {0}. {1} is always available, as {2} passes it.",
+  "text": "Chaves simples: {0}. {1} está sempre disponível, pois {2} o repassa.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaves simples: {0}. {1} está sempre disponível, pois {2} o repassa."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

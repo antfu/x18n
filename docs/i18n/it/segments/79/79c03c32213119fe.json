@@ -1,0 +1,14 @@
+{
+  "hash": "79c03c32213119fe",
+  "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
+  "text": "Il chiamato è una factory che restituisce la funzione di traduzione, ad esempio {0} che restituisce {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il chiamato è una factory che restituisce la funzione di traduzione, ad esempio {0} che restituisce {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

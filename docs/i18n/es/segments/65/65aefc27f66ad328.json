@@ -1,0 +1,14 @@
+{
+  "hash": "65aefc27f66ad328",
+  "source": "{0} returns a devframe definition. Mount it in any hub, for example {1} from {2}:",
+  "text": "{0} devuelve una definición de devframe. Móntala en cualquier hub, por ejemplo {1} de {2}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} devuelve una definición de devframe. Móntala en cualquier hub, por ejemplo {1} de {2}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

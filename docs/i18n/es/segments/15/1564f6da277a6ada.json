@@ -1,0 +1,14 @@
+{
+  "hash": "1564f6da277a6ada",
+  "source": "One or more path segments. {0} becomes the namespace {1}.",
+  "text": "Uno o más segmentos de la ruta. {0} se convierte en el espacio de nombres {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uno o más segmentos de la ruta. {0} se convierte en el espacio de nombres {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

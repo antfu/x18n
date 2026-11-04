@@ -1,0 +1,14 @@
+{
+  "hash": "351945578d2c49d3",
+  "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
+  "text": "Código de substituição. {0} é a chave, {1} o nome do atributo, {2} os argumentos de uma template string, {3} a mensagem da string fixa no código, para um valor padrão, {4} o texto como escrito no arquivo e {5} a mensagem como corpo de uma template string. {6} e {7} têm escape para as aspas ao redor deles.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Código de substituição. {0} é a chave, {1} o nome do atributo, {2} os argumentos de uma template string, {3} a mensagem da string fixa no código, para um valor padrão, {4} o texto como escrito no arquivo e {5} a mensagem como corpo de uma template string. {6} e {7} têm escape para as aspas ao redor deles."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

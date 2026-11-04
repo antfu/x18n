@@ -1,0 +1,14 @@
+{
+  "hash": "f56f77fff95093ec",
+  "source": "A format reads and writes one file format, such as JSON or YAML. A locale finder finds the resources. The built-in {0} finder uses the {1} patterns of the config. See {2}Configuration{/2}.",
+  "text": "Um formato lê e grava um tipo de arquivo, como JSON ou YAML. Um localizador de idiomas encontra os recursos. O localizador {0} integrado usa os padrões {1} da configuração. Veja {2}Configuração{/2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um formato lê e grava um tipo de arquivo, como JSON ou YAML. Um localizador de idiomas encontra os recursos. O localizador {0} integrado usa os padrões {1} da configuração. Veja {2}Configuração{/2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

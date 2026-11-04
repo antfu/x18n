@@ -1,0 +1,14 @@
+{
+  "hash": "ffe7e6e5d55fc205",
+  "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
+  "text": "Claves excluidas de todas las comprobaciones: globs o expresiones regulares que se prueban contra la clave completa ({0} cuando tiene espacio de nombres).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Claves excluidas de todas las comprobaciones: globs o expresiones regulares que se prueban contra la clave completa ({0} cuando tiene espacio de nombres)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

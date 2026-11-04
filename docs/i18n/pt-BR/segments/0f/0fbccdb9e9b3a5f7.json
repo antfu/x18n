@@ -1,0 +1,14 @@
+{
+  "hash": "0fbccdb9e9b3a5f7",
+  "source": "With {0}, every command prints one JSON document to stdout:",
+  "text": "Com {0}, todo comando imprime um documento JSON no stdout:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Com {0}, todo comando imprime um documento JSON no stdout:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "efae2a5cedae3490",
+  "source": "Extract hard-coded strings",
+  "text": "Extraia strings fixas no código",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extraia strings fixas no código"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

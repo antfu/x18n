@@ -1,0 +1,14 @@
+{
+  "hash": "70460bdc12b1be18",
+  "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
+  "text": "L'agente deve avviare il comando nella root del progetto, oppure passare {0}. Il server osserva i file, quindi vede le modifiche fatte da altri strumenti.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'agente deve avviare il comando nella root del progetto, oppure passare {0}. Il server osserva i file, quindi vede le modifiche fatte da altri strumenti."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

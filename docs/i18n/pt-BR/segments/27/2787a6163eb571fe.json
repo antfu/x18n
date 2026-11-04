@@ -1,0 +1,14 @@
+{
+  "hash": "2787a6163eb571fe",
+  "source": "Key of the reviewed message.",
+  "text": "Chave da mensagem revisada.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chave da mensagem revisada."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

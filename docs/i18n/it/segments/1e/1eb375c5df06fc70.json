@@ -1,0 +1,14 @@
+{
+  "hash": "1eb375c5df06fc70",
+  "source": "The preset adds the derived key rules {0}, {1} and {2}. When {3} is used, {4}, {5} and {6} count as used, and {7} is not reported missing. Suffixes stack, so context with plural ({8}) and ordinal plurals ({9}) also belong to {10}. Hovers and inline values show the {11} form, or another form when the locale has no {12}.",
+  "text": "Il preset aggiunge le regole di chiavi derivate {0}, {1} e {2}. Quando {3} è usata, {4}, {5} e {6} contano come usate e {7} non viene segnalata come mancante. I suffissi si combinano, quindi il contesto con il plurale ({8}) e i plurali ordinali ({9}) appartengono anch'essi a {10}. Gli hover e i valori inline mostrano la forma {11}, o un'altra forma quando la lingua non ha {12}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset aggiunge le regole di chiavi derivate {0}, {1} e {2}. Quando {3} è usata, {4}, {5} e {6} contano come usate e {7} non viene segnalata come mancante. I suffissi si combinano, quindi il contesto con il plurale ({8}) e i plurali ordinali ({9}) appartengono anch'essi a {10}. Gli hover e i valori inline mostrano la forma {11}, o un'altra forma quando la lingua non ha {12}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

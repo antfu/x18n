@@ -1,0 +1,14 @@
+{
+  "hash": "1cb08c5cc7b14c65",
+  "source": "With {0}, stdout is one JSON document, also when the command fails.",
+  "text": "Com {0}, stdout é um único documento JSON, mesmo quando o comando falha.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Com {0}, stdout é um único documento JSON, mesmo quando o comando falha."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ea68a0f7aafca5a7",
+  "source": "Choose what fails the build",
+  "text": "Scegli cosa fa fallire la build",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Scegli cosa fa fallire la build"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

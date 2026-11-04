@@ -1,0 +1,14 @@
+{
+  "hash": "2fd2f3e264a62675",
+  "source": "Run the commands from the root of the monorepo. The CLI uses the first config file that it finds from the current directory upward. If you run it in {0}, it finds {1} first and loads that project alone, without the root options.",
+  "text": "Execute os comandos a partir da raiz do monorepo. A CLI usa o primeiro arquivo de configuração que encontra do diretório atual para cima. Se você a executar em {0}, ela encontra {1} primeiro e carrega somente esse projeto, sem as opções da raiz.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Execute os comandos a partir da raiz do monorepo. A CLI usa o primeiro arquivo de configuração que encontra do diretório atual para cima. Se você a executar em {0}, ela encontra {1} primeiro e carrega somente esse projeto, sem as opções da raiz."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "e8e612b07471426a",
+  "source": "A file changed after x18n made the plan, so x18n did not write anything. For {0}, the source file changed after you wrote the plan file.",
+  "text": "Um arquivo mudou depois que o x18n criou o plano, então o x18n não gravou nada. Para {0}, o arquivo de origem mudou depois que você gravou o arquivo de plano.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um arquivo mudou depois que o x18n criou o plano, então o x18n não gravou nada. Para {0}, o arquivo de origem mudou depois que você gravou o arquivo de plano."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

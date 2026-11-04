@@ -1,0 +1,14 @@
+{
+  "hash": "a27b992eebe2e204",
+  "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
+  "text": "A verificação fica ativada quando {0} é {1}, ou quando você define uma severidade para ela em {2}. Execute {3} para transformar as strings reportadas em chaves.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A verificação fica ativada quando {0} é {1}, ou quando você define uma severidade para ela em {2}. Execute {3} para transformar as strings reportadas em chaves."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

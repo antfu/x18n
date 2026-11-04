@@ -1,0 +1,14 @@
+{
+  "hash": "7e7e96465799a5b4",
+  "source": "Say that the value is wrong, and why.",
+  "text": "Dizer que o valor está errado e explicar o motivo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dizer que o valor está errado e explicar o motivo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

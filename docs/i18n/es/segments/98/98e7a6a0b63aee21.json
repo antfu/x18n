@@ -1,0 +1,14 @@
+{
+  "hash": "98e7a6a0b63aee21",
+  "source": "{0} uploads the file also when the check step fails.",
+  "text": "{0} sube el archivo también cuando falla el paso de comprobación.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} sube el archivo también cuando falla el paso de comprobación."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

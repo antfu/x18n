@@ -1,0 +1,14 @@
+{
+  "hash": "da5b95a9f374b5b1",
+  "source": "A decision is needed and no answer was given. Run again with {0}.",
+  "text": "É necessária uma decisão e nenhuma resposta foi dada. Execute novamente com {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "É necessária uma decisão e nenhuma resposta foi dada. Execute novamente com {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

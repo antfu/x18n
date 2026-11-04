@@ -1,0 +1,14 @@
+{
+  "hash": "4f96c0641201590e",
+  "source": "Keep the term as it is in every locale.",
+  "text": "Mantén el término tal cual en todos los idiomas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mantén el término tal cual en todos los idiomas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

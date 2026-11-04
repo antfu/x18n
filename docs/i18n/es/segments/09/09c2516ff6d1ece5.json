@@ -1,0 +1,14 @@
+{
+  "hash": "09c2516ff6d1ece5",
+  "source": "The value an approval approved.",
+  "text": "El valor que aprobó una aprobación.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El valor que aprobó una aprobación."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

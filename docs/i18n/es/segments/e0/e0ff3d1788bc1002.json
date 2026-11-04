@@ -1,0 +1,14 @@
+{
+  "hash": "e0ff3d1788bc1002",
+  "source": "A key with a {0}prefix usage{/0} is not unused, so {1} does not list keys that computed keys can reach.",
+  "text": "Una clave con un {0}uso de prefijo{/0} no está sin usar, por lo que {1} no lista las claves a las que pueden llegar las claves calculadas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una clave con un {0}uso de prefijo{/0} no está sin usar, por lo que {1} no lista las claves a las que pueden llegar las claves calculadas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

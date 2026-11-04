@@ -1,0 +1,14 @@
+{
+  "hash": "48efc3915f53af9a",
+  "source": "A target value that equals the source value, except values that stay the same in every language.",
+  "text": "Un valor de destino igual al valor de origen, excepto los valores que permanecen iguales en todos los idiomas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un valor de destino igual al valor de origen, excepto los valores que permanecen iguales en todos los idiomas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "659f800fa50b1230",
+  "source": "The check compares the params a translate call passes with the placeholders of the source message. For {0}, it reports {1}: {2} is missing and {3} is unused.",
+  "text": "Il controllo confronta i parametri passati da una chiamata di traduzione con i segnaposto del messaggio sorgente. Per {0}, segnala {1}: {2} è mancante e {3} non è usato.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il controllo confronta i parametri passati da una chiamata di traduzione con i segnaposto del messaggio sorgente. Per {0}, segnala {1}: {2} è mancante e {3} non è usato."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

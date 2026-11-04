@@ -1,0 +1,14 @@
+{
+  "hash": "2c2eafaa3d6ec8f1",
+  "source": "{0}: x18n calls no translation service. It writes {1}translate prompts{/1} for an agent or an LLM instead. The command prints a note.",
+  "text": "{0}: o x18n não chama nenhum serviço de tradução. Em vez disso, ele escreve {1}prompts de tradução{/1} para um agente ou um LLM. O comando exibe uma observação.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: o x18n não chama nenhum serviço de tradução. Em vez disso, ele escreve {1}prompts de tradução{/1} para um agente ou um LLM. O comando exibe uma observação."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

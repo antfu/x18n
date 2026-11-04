@@ -1,0 +1,14 @@
+{
+  "hash": "ef5b557de1587599",
+  "source": "{0}CLI and x18n check{/0}: read, add, rename and delete keys from the terminal.",
+  "text": "{0}CLI e x18n check{/0}: leggi, aggiungi, rinomina ed elimina chiavi dal terminale.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}CLI e x18n check{/0}: leggi, aggiungi, rinomina ed elimina chiavi dal terminale."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

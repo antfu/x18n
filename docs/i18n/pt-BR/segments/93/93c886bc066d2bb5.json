@@ -1,0 +1,14 @@
+{
+  "hash": "93c886bc066d2bb5",
+  "source": "In {0}, {1} and {2} files, the preset reads:",
+  "text": "Em arquivos {0}, {1} e {2}, o preset lê:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em arquivos {0}, {1} e {2}, o preset lê:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

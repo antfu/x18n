@@ -1,0 +1,14 @@
+{
+  "hash": "efce21d653d4b279",
+  "source": "With a key read from a property: the property beside it that describes the message for translators, such as {0} for {1}.",
+  "text": "Con una chiave letta da una proprietà: la proprietà accanto che descrive il messaggio per i traduttori, come {0} per {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Con una chiave letta da una proprietà: la proprietà accanto che descrive il messaggio per i traduttori, come {0} per {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

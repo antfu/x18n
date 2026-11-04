@@ -1,0 +1,14 @@
+{
+  "hash": "6e6e11bd23031aa8",
+  "source": "The name of a project is its path from the root, such as {0}, unless its config sets {1}. {2} lists the names.",
+  "text": "O nome de um projeto é o caminho dele a partir da raiz, como {0}, a menos que a configuração dele defina {1}. {2} lista os nomes.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O nome de um projeto é o caminho dele a partir da raiz, como {0}, a menos que a configuração dele defina {1}. {2} lista os nomes."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

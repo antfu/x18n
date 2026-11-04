@@ -1,0 +1,14 @@
+{
+  "hash": "e50d35037c6d3b11",
+  "source": "The preset for typesafe-i18n. It reads LL.key() calls and the src/i18n/{locale}/index.ts locale files.",
+  "text": "Il preset per typesafe-i18n. Legge le chiamate LL.key() e i file delle lingue src/i18n/{locale}/index.ts.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset per typesafe-i18n. Legge le chiamate LL.key() e i file delle lingue src/i18n/{locale}/index.ts."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

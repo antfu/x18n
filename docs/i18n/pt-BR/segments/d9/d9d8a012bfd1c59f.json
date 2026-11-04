@@ -1,0 +1,14 @@
+{
+  "hash": "d9d8a012bfd1c59f",
+  "source": "prefix rename (fine in UI labels)",
+  "text": "renomeação de prefixo (aceitável em rótulos de UI)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "renomeação de prefixo (aceitável em rótulos de UI)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

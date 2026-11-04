@@ -1,0 +1,14 @@
+{
+  "hash": "e7016ebd807ffe7b",
+  "source": "The config or the command line is invalid.",
+  "text": "La configuración o la línea de comandos no es válida.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La configuración o la línea de comandos no es válida."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

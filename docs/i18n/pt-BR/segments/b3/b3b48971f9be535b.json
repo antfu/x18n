@@ -1,0 +1,14 @@
+{
+  "hash": "b3b48971f9be535b",
+  "source": "{0} holds the result. {1} holds the errors, each with its code in {2}, the reason in {3}, a {4} and a {5} link. The exit code tells the agent what to do next:",
+  "text": "{0} contém o resultado. {1} contém os erros, cada um com seu código em {2}, o motivo em {3}, um {4} e um link {5}. O código de saída indica ao agente o que fazer em seguida:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} contém o resultado. {1} contém os erros, cada um com seu código em {2}, o motivo em {3}, um {4} e um link {5}. O código de saída indica ao agente o que fazer em seguida:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

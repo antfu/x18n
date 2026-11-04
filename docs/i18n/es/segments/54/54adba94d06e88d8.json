@@ -1,0 +1,14 @@
+{
+  "hash": "54adba94d06e88d8",
+  "source": "A linked message ({0}) and a nesting placeholder ({1}) name another key. That key then counts as used. The {2} check reports a linked message whose key does not exist, and ICU messages that do not parse or that lack an {3} case.",
+  "text": "Un mensaje enlazado ({0}) y un marcador de posición de anidamiento ({1}) nombran otra clave. Esa clave pasa entonces a contarse como usada. La comprobación {2} informa de los mensajes enlazados cuya clave no existe, y de los mensajes ICU que no se pueden analizar o que no tienen un caso {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un mensaje enlazado ({0}) y un marcador de posición de anidamiento ({1}) nombran otra clave. Esa clave pasa entonces a contarse como usada. La comprobación {2} informa de los mensajes enlazados cuya clave no existe, y de los mensajes ICU que no se pueden analizar o que no tienen un caso {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

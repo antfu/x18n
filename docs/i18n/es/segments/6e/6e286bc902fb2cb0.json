@@ -1,0 +1,14 @@
+{
+  "hash": "6e286bc902fb2cb0",
+  "source": "The preset for next-translate. It reads useTranslation, getT, Trans and namespaces with a `:` separator.",
+  "text": "El preset para next-translate. Lee useTranslation, getT, Trans y los espacios de nombres con el separador `:`.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para next-translate. Lee useTranslation, getT, Trans y los espacios de nombres con el separador `:`."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

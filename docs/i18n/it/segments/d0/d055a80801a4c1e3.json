@@ -1,0 +1,14 @@
+{
+  "hash": "d055a80801a4c1e3",
+  "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
+  "text": "{0} rifiuta i valori i cui segnaposto differiscono da quelli del valore di origine e non scrive nulla. Elenca i valori rifiutati ed esce con codice 1. Correggili, oppure passa {1} per scriverli comunque.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} rifiuta i valori i cui segnaposto differiscono da quelli del valore di origine e non scrive nulla. Elenca i valori rifiutati ed esce con codice 1. Correggili, oppure passa {1} per scriverli comunque."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

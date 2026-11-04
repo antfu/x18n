@@ -1,0 +1,14 @@
+{
+  "hash": "575477cfcd1f3c10",
+  "source": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} and {9}: the defaults of x18n handle them, or x18n has no such setting. The command prints a note for each one it finds. x18n uses locale codes as written, so it needs no {10}.",
+  "text": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} e {9}: i valori predefiniti di x18n li gestiscono, oppure x18n non ha un'impostazione equivalente. Il comando stampa una nota per ognuna di quelle che trova. x18n usa i codici delle lingue così come sono scritti, quindi non ha bisogno di {10}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} e {9}: i valori predefiniti di x18n li gestiscono, oppure x18n non ha un'impostazione equivalente. Il comando stampa una nota per ognuna di quelle che trova. x18n usa i codici delle lingue così come sono scritti, quindi non ha bisogno di {10}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

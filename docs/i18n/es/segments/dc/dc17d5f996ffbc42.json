@@ -1,0 +1,14 @@
+{
+  "hash": "dc17d5f996ffbc42",
+  "source": "Adds the missing keys of each locale with empty values. {0} copies the source value. {1} limits it.",
+  "text": "Añade las claves que faltan en cada idioma con valores vacíos. {0} copia el valor del idioma de origen. {1} lo limita.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Añade las claves que faltan en cada idioma con valores vacíos. {0} copia el valor del idioma de origen. {1} lo limita."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

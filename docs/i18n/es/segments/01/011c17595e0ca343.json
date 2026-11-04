@@ -1,0 +1,14 @@
+{
+  "hash": "011c17595e0ca343",
+  "source": "The {0} preset supports {1}react-i18next{/1} and next-i18next.",
+  "text": "El preset {0} es compatible con {1}react-i18next{/1} y next-i18next.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0} es compatible con {1}react-i18next{/1} y next-i18next."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

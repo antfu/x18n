@@ -1,0 +1,14 @@
+{
+  "hash": "b35cbb702fc0b0f3",
+  "source": "Skip the files that {0} files ignore. Default {1}. Set {2} to scan a checkout that git ignores, such as a clone of the sources in a translations repository.",
+  "text": "Salta i file ignorati dai file {0}. Valore predefinito {1}. Imposta {2} per analizzare un checkout ignorato da git, come un clone dei sorgenti in un repository di traduzioni.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Salta i file ignorati dai file {0}. Valore predefinito {1}. Imposta {2} per analizzare un checkout ignorato da git, come un clone dei sorgenti in un repository di traduzioni."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "8f80154b632e2bd1",
+  "source": "{0} replaces a hard string with code from a template. A template has these tokens:",
+  "text": "{0} substitui uma string fixa no código por código gerado a partir de um template. Um template tem estes tokens:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} substitui uma string fixa no código por código gerado a partir de um template. Um template tem estes tokens:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

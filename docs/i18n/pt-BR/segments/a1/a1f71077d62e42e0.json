@@ -1,0 +1,14 @@
+{
+  "hash": "a1f71077d62e42e0",
+  "source": "{0} writes a whole file. x18n uses it to create files, and when {1} is missing.",
+  "text": "{0} grava um arquivo inteiro. O x18n o usa para criar arquivos e quando {1} está ausente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} grava um arquivo inteiro. O x18n o usa para criar arquivos e quando {1} está ausente."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

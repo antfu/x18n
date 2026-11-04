@@ -1,0 +1,14 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "El servidor las ejecuta mediante {0}. El argumento es un único objeto. {1} es por defecto el primer proyecto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El servidor las ejecuta mediante {0}. El argumento es un único objeto. {1} es por defecto el primer proyecto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

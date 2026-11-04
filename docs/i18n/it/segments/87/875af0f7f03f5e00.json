@@ -1,0 +1,14 @@
+{
+  "hash": "875af0f7f03f5e00",
+  "source": "For extraction, run {0} again and edit the new plan.",
+  "text": "Per l'estrazione, esegui di nuovo {0} e modifica il nuovo piano.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Per l'estrazione, esegui di nuovo {0} e modifica il nuovo piano."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

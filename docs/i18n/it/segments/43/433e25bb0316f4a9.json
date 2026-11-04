@@ -1,0 +1,14 @@
+{
+  "hash": "433e25bb0316f4a9",
+  "source": "One root config with projects, each project with its own locales and its own config.",
+  "text": "Una configurazione root con dei progetti, ciascun progetto con le proprie lingue e la propria configurazione.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una configurazione root con dei progetti, ciascun progetto con le proprie lingue e la propria configurazione."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

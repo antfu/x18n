@@ -1,0 +1,14 @@
+{
+  "hash": "b80e04b81ab7284a",
+  "source": "To use another separator, such as {0} with the i18next option {1}, set {2}. Completion writes keys with the same separator.",
+  "text": "Para usar otro separador, como {0} con la opción {1} de i18next, define {2}. El autocompletado escribe las claves con el mismo separador.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para usar otro separador, como {0} con la opción {1} de i18next, define {2}. El autocompletado escribe las claves con el mismo separador."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

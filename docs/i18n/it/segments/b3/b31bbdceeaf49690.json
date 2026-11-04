@@ -1,0 +1,14 @@
+{
+  "hash": "b31bbdceeaf49690",
+  "source": "Unknown project. Pick a project name listed by `x18n status`, for example with `--project`.",
+  "text": "Progetto sconosciuto. Scegli un nome di progetto elencato da `x18n status`, ad esempio con `--project`.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Progetto sconosciuto. Scegli un nome di progetto elencato da `x18n status`, ad esempio con `--project`."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

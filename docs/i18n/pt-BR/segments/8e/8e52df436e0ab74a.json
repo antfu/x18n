@@ -1,0 +1,14 @@
+{
+  "hash": "8e52df436e0ab74a",
+  "source": "The {0} preset supports {1}UI5{/1} apps, SAPUI5 and OpenUI5.",
+  "text": "O preset {0} oferece suporte a apps {1}UI5{/1}, SAPUI5 e OpenUI5.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset {0} oferece suporte a apps {1}UI5{/1}, SAPUI5 e OpenUI5."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

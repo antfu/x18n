@@ -1,0 +1,14 @@
+{
+  "hash": "bb06aa2b92d3f292",
+  "source": "The proposed value, required for {0}.",
+  "text": "Il valore proposto, obbligatorio per {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il valore proposto, obbligatorio per {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

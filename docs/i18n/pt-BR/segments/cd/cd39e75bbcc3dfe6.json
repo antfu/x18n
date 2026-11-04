@@ -1,0 +1,14 @@
+{
+  "hash": "cd39e75bbcc3dfe6",
+  "source": "How {0} folders name a namespace: {1} makes {2} into {3}, {4} keeps {5}, {6} makes {7} into {8}. Default {9}.",
+  "text": "Como as pastas {0} nomeiam um namespace: {1} transforma {2} em {3}, {4} mantém {5}, {6} transforma {7} em {8}. Padrão {9}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Como as pastas {0} nomeiam um namespace: {1} transforma {2} em {3}, {4} mantém {5}, {6} transforma {7} em {8}. Padrão {9}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

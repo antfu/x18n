@@ -1,0 +1,14 @@
+{
+  "hash": "b82f40504ca92737",
+  "source": "A locale is a locale code, exactly as it is written in paths and files: {0}, {1}, {2}. x18n never changes the spelling of a code.",
+  "text": "Un idioma es un código de idioma, tal como se escribe en las rutas y los archivos: {0}, {1}, {2}. x18n nunca cambia la ortografía de un código.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un idioma es un código de idioma, tal como se escribe en las rutas y los archivos: {0}, {1}, {2}. x18n nunca cambia la ortografía de un código."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

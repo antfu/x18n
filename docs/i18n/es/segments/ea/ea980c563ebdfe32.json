@@ -1,0 +1,14 @@
+{
+  "hash": "ea980c563ebdfe32",
+  "source": "f-strings, string concatenation and keys with escapes such as {0}",
+  "text": "f-strings, concatenación de cadenas y claves con secuencias de escape como {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "f-strings, concatenación de cadenas y claves con secuencias de escape como {0}"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

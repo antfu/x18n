@@ -1,0 +1,14 @@
+{
+  "hash": "ae22d6e72dc3c3ec",
+  "source": "The command prints the URL and a bearer token:",
+  "text": "El comando imprime la URL y un token de portador (bearer):",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El comando imprime la URL y un token de portador (bearer):"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

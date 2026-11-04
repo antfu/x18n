@@ -1,0 +1,14 @@
+{
+  "hash": "6c384aafdf2e668e",
+  "source": "Target value placeholders differ from the source value.",
+  "text": "Os placeholders do valor de destino são diferentes dos do valor de origem.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os placeholders do valor de destino são diferentes dos do valor de origem."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

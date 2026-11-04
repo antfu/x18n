@@ -1,0 +1,14 @@
+{
+  "hash": "429e3e7130dcb2ab",
+  "source": "The preset applies when {0} has the dependency {1}.",
+  "text": "Il preset si applica quando {0} contiene la dipendenza {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset si applica quando {0} contiene la dipendenza {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

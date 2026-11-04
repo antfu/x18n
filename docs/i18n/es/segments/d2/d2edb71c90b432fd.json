@@ -1,0 +1,14 @@
+{
+  "hash": "d2edb71c90b432fd",
+  "source": "Key separator of matching files, over {0}. {1} for files keyed by whole sentences (Laravel {2}).",
+  "text": "Separador de claves de los archivos coincidentes, con prioridad sobre {0}. {1} para archivos con claves que son frases completas (Laravel {2}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Separador de claves de los archivos coincidentes, con prioridad sobre {0}. {1} para archivos con claves que son frases completas (Laravel {2})."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

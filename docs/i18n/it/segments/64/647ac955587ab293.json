@@ -1,0 +1,14 @@
+{
+  "hash": "647ac955587ab293",
+  "source": "This is a usage of the key {0}.",
+  "text": "Questo è un utilizzo della chiave {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Questo è un utilizzo della chiave {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

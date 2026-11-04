@@ -1,0 +1,14 @@
+{
+  "hash": "0debf5a4e90f23ed",
+  "source": "The preset for the Shopify format of i18next. It reads nested plural keys and {name} placeholders, plus everything of react-i18next.",
+  "text": "El preset para el formato Shopify de i18next. Lee claves plurales anidadas y marcadores de posición {name}, además de todo lo de react-i18next.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para el formato Shopify de i18next. Lee claves plurales anidadas y marcadores de posición {name}, además de todo lo de react-i18next."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

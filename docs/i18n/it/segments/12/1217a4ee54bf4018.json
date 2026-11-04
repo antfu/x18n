@@ -1,0 +1,14 @@
+{
+  "hash": "1217a4ee54bf4018",
+  "source": "Turns diagnostics and analysis into text output.",
+  "text": "Trasforma le diagnostiche e le analisi in un output testuale.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Trasforma le diagnostiche e le analisi in un output testuale."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

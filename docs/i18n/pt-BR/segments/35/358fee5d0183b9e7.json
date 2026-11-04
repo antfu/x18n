@@ -1,0 +1,14 @@
+{
+  "hash": "358fee5d0183b9e7",
+  "source": "Unique, kebab-case. Built-ins use the {0} prefix.",
+  "text": "Único, em kebab-case. Os plugins nativos usam o prefixo {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Único, em kebab-case. Os plugins nativos usam o prefixo {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

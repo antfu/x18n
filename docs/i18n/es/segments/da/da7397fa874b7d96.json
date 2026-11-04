@@ -1,0 +1,14 @@
+{
+  "hash": "da7397fa874b7d96",
+  "source": "{0} is the command name, for example {1} or {2}.",
+  "text": "{0} es el nombre del comando, por ejemplo {1} o {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} es el nombre del comando, por ejemplo {1} o {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

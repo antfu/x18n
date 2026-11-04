@@ -1,0 +1,14 @@
+{
+  "hash": "ac605b74c754cd7c",
+  "source": "Add {0} to the dev dependencies of the project:",
+  "text": "Adicione {0} às dependências de desenvolvimento do projeto:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Adicione {0} às dependências de desenvolvimento do projeto:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "61eff171a089f871",
+  "source": "Where the plugin can run. Default 'any'.",
+  "text": "Dónde puede ejecutarse el plugin. Por defecto 'any'.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dónde puede ejecutarse el plugin. Por defecto 'any'."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

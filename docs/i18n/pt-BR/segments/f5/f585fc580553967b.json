@@ -1,0 +1,14 @@
+{
+  "hash": "f585fc580553967b",
+  "source": "Use the source value instead of an empty string",
+  "text": "Usa o valor de origem em vez de uma string vazia",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Usa o valor de origem em vez de uma string vazia"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

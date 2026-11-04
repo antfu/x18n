@@ -1,0 +1,14 @@
+{
+  "hash": "51e17fa4fadba472",
+  "source": "A message with an empty string value.",
+  "text": "Un mensaje con una cadena vacía como valor.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un mensaje con una cadena vacía como valor."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

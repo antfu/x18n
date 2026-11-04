@@ -1,0 +1,14 @@
+{
+  "hash": "f0b1eeddc628f087",
+  "source": "The {0} set is every check that is not {1} below. Override the severity of a check in {2}:",
+  "text": "O conjunto {0} é formado por todas as verificações que não são {1} abaixo. Substitua a severidade de uma verificação em {2}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O conjunto {0} é formado por todas as verificações que não são {1} abaixo. Substitua a severidade de uma verificação em {2}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

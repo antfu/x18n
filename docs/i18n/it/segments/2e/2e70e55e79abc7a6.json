@@ -1,0 +1,14 @@
+{
+  "hash": "2e70e55e79abc7a6",
+  "source": "Changes the display locale. The server refreshes the inlay hints.",
+  "text": "Cambia la lingua di visualizzazione. Il server aggiorna gli inlay hint.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cambia la lingua di visualizzazione. Il server aggiorna gli inlay hint."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

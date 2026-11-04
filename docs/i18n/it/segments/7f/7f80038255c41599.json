@@ -1,0 +1,14 @@
+{
+  "hash": "7f80038255c41599",
+  "source": "to use x18n instead of editing locale files by hand, to check whether a key exists before it uses one, to find a key by the text that the app shows, to keep placeholders, and to write keys in full instead of composing them at runtime,",
+  "text": "di usare x18n invece di modificare a mano i file delle lingue, di verificare se una chiave esiste prima di usarla, di trovare una chiave a partire dal testo che mostra l'app, di mantenere i segnaposto e di scrivere le chiavi per intero invece di comporle a runtime,",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "di usare x18n invece di modificare a mano i file delle lingue, di verificare se una chiave esiste prima di usarla, di trovare una chiave a partire dal testo che mostra l'app, di mantenere i segnaposto e di scrivere le chiavi per intero invece di comporle a runtime,"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

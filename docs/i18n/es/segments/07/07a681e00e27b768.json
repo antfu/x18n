@@ -1,0 +1,14 @@
+{
+  "hash": "07a681e00e27b768",
+  "source": "to read the {0} output and the exit codes, to page large outputs, and to pick a project in a monorepo.",
+  "text": "que lea la salida de {0} y los códigos de salida, que pagine las salidas grandes y que elija un proyecto en un monorepo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "que lea la salida de {0} y los códigos de salida, que pagine las salidas grandes y que elija un proyecto en un monorepo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

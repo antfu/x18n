@@ -1,0 +1,14 @@
+{
+  "hash": "be10b7e1e09afae9",
+  "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
+  "text": "Se llama por cada edición de revisión de un plan, en orden de operación. Las escrituras que devuelve van al mismo plan.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se llama por cada edición de revisión de un plan, en orden de operación. Las escrituras que devuelve van al mismo plan."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

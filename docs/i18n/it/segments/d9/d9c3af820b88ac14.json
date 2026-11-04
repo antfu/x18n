@@ -1,0 +1,14 @@
+{
+  "hash": "d9c3af820b88ac14",
+  "source": "Messages: the key, the source value, its placeholders, its description, its values in related locales, and the code around up to two usages. The code and the description help with short words such as \"Open\" or \"Save\", whose meaning depends on where they appear.",
+  "text": "Messaggi: la chiave, il valore di origine, i suoi segnaposto, la sua descrizione, i suoi valori nelle lingue correlate e il codice attorno a un massimo di due utilizzi. Il codice e la descrizione aiutano con le parole brevi come \"Open\" o \"Save\", il cui significato dipende da dove compaiono.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Messaggi: la chiave, il valore di origine, i suoi segnaposto, la sua descrizione, i suoi valori nelle lingue correlate e il codice attorno a un massimo di due utilizzi. Il codice e la descrizione aiutano con le parole brevi come \"Open\" o \"Save\", il cui significato dipende da dove compaiono."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "86cb04bdd1fe9732",
+  "source": "Where a key prefix comes from: {0}.",
+  "text": "Da dove proviene il prefisso della chiave: {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Da dove proviene il prefisso della chiave: {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0eab299a9d419ad8",
+  "source": "Approves the current value. {0} is optional.",
+  "text": "Aprova o valor atual. {0} é opcional.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Aprova o valor atual. {0} é opcional."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

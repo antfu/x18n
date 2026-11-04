@@ -1,0 +1,14 @@
+{
+  "hash": "97289ae296011a6e",
+  "source": "Each hard string has a kind, which tells where it is:",
+  "text": "Cada cadena codificada tiene un tipo, que indica dónde está:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cada cadena codificada tiene un tipo, que indica dónde está:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

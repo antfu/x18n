@@ -1,0 +1,14 @@
+{
+  "hash": "493b40b972654dbc",
+  "source": "The command opens the browser with the auth link, so you are signed in with one click. A browser without the link asks for the 6-digit auth code from the terminal. The server keeps running until you stop it with Ctrl+C. It watches the files, so edits from the editor or the CLI show in the UI at once.",
+  "text": "Il comando apre il browser con il link di autenticazione, così accedi con un solo clic. Un browser senza il link richiede il codice di autenticazione di 6 cifre dal terminale. Il server resta in esecuzione finché non lo interrompi con Ctrl+C. Controlla i file, quindi le modifiche fatte dall'editor o dalla CLI compaiono subito nella UI.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il comando apre il browser con il link di autenticazione, così accedi con un solo clic. Un browser senza il link richiede il codice di autenticazione di 6 cifre dal terminale. Il server resta in esecuzione finché non lo interrompi con Ctrl+C. Controlla i file, quindi le modifiche fatte dall'editor o dalla CLI compaiono subito nella UI."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

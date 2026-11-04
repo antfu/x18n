@@ -1,0 +1,14 @@
+{
+  "hash": "f22fcfce2c25ed5d",
+  "source": "Decision id to option id, for decisions in the plan. Default: each decision's {0}.",
+  "text": "Da id della decisione a id dell'opzione, per le decisioni nel piano. Predefinito: {0} di ogni decisione.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Da id della decisione a id dell'opzione, per le decisioni nel piano. Predefinito: {0} di ogni decisione."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4edde4936d06af61",
+  "source": "A block with {0} reads its messages from another file, relative to the {1} file. Without {2}, the file extension picks the format. Edits write to that file:",
+  "text": "Un bloque con {0} lee sus mensajes de otro archivo, relativo al archivo {1}. Sin {2}, la extensión del archivo determina el formato. Las ediciones se escriben en ese archivo:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un bloque con {0} lee sus mensajes de otro archivo, relativo al archivo {1}. Sin {2}, la extensión del archivo determina el formato. Las ediciones se escriben en ese archivo:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

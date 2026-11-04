@@ -1,0 +1,14 @@
+{
+  "hash": "5676355c46b2f7ac",
+  "source": "{0}, {1} and {2} are translate calls. The {3} option in the second argument sets the namespace.",
+  "text": "{0}, {1} e {2} sono chiamate di traduzione. L'opzione {3} nel secondo argomento imposta il namespace.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} e {2} sono chiamate di traduzione. L'opzione {3} nel secondo argomento imposta il namespace."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

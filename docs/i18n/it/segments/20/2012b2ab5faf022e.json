@@ -1,0 +1,14 @@
+{
+  "hash": "2012b2ab5faf022e",
+  "source": "review comment (fine in UI labels), note",
+  "text": "commento di revisione (accettabile nelle etichette dell'interfaccia utente), nota",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "commento di revisione (accettabile nelle etichette dell'interfaccia utente), nota"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "89647556190c05b7",
+  "source": "A dynamic usage with a static prefix ({0}pages.$\\{id\\}.title{1}). It makes every key under the prefix \"possibly\" used.",
+  "text": "Um uso dinâmico com um prefixo estático ({0}pages.$\\{id\\}.title{1}). Ele faz com que toda chave sob o prefixo seja considerada \"possivelmente\" usada.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um uso dinâmico com um prefixo estático ({0}pages.$\\{id\\}.title{1}). Ele faz com que toda chave sob o prefixo seja considerada \"possivelmente\" usada."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

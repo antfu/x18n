@@ -1,0 +1,14 @@
+{
+  "hash": "a3cd1a9c8615c1ba",
+  "source": "Set many messages at once: {0} is {1}, the same shape as {2}. Files keep their format, key style and order. When a value drops or adds placeholders compared to the source value, nothing is written and {3} lists them ({4}); fix the values, or pass {5}.",
+  "text": "Define várias mensagens de uma vez: {0} é {1}, o mesmo formato de {2}. Os arquivos mantêm o formato, o estilo de chave e a ordem. Quando um valor remove ou adiciona placeholders em relação ao valor de origem, nada é gravado e {3} os lista ({4}); corrija os valores ou passe {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Define várias mensagens de uma vez: {0} é {1}, o mesmo formato de {2}. Os arquivos mantêm o formato, o estilo de chave e a ordem. Quando um valor remove ou adiciona placeholders em relação ao valor de origem, nada é gravado e {3} os lista ({4}); corrija os valores ou passe {5}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

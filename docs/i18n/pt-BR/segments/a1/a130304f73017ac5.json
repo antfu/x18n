@@ -1,0 +1,14 @@
+{
+  "hash": "a130304f73017ac5",
+  "source": "rule (fine inside extraction scoring), lint",
+  "text": "regra (aceitável na pontuação de extração), lint",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "regra (aceitável na pontuação de extração), lint"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

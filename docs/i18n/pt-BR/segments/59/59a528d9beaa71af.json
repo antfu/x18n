@@ -1,0 +1,14 @@
+{
+  "hash": "59a528d9beaa71af",
+  "source": "The {0} hooks of plugins and presets. Presets set defaults here, for example the call specs of their library.",
+  "text": "Os hooks {0} de plugins e presets. Os presets definem valores padrão aqui, por exemplo as especificações de chamada da biblioteca deles.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os hooks {0} de plugins e presets. Os presets definem valores padrão aqui, por exemplo as especificações de chamada da biblioteca deles."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

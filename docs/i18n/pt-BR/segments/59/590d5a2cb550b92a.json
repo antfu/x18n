@@ -1,0 +1,14 @@
+{
+  "hash": "590d5a2cb550b92a",
+  "source": "Suggests a value, for a human to apply.",
+  "text": "Sugere um valor, para uma pessoa aplicar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sugere um valor, para uma pessoa aplicar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

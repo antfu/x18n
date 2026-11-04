@@ -1,0 +1,14 @@
+{
+  "hash": "c0e1a2a0d69ac3c9",
+  "source": "Text in a Vue template",
+  "text": "Texto em um template Vue",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Texto em um template Vue"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

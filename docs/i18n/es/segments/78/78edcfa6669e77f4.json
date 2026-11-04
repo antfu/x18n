@@ -1,0 +1,14 @@
+{
+  "hash": "78edcfa6669e77f4",
+  "source": "The preset for Android string resources. It reads strings.xml, plurals and string arrays, and R.string and @string usages.",
+  "text": "El preset para los recursos de cadenas de Android. Lee strings.xml, los plurales y los arrays de cadenas, así como los usos de R.string y @string.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para los recursos de cadenas de Android. Lee strings.xml, los plurales y los arrays de cadenas, así como los usos de R.string y @string."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "0c504134364c6e6f",
+  "source": ".NET: {0}{1} resources{/0} in C#, Razor and Blazor",
+  "text": ".NET: {0}recursos {1}{/0} em C#, Razor e Blazor",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": ".NET: {0}recursos {1}{/0} em C#, Razor e Blazor"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

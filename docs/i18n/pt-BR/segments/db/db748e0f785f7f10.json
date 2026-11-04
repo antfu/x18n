@@ -1,0 +1,14 @@
+{
+  "hash": "db748e0f785f7f10",
+  "source": "Thymeleaf reads {0} for the default language and {1} for the others, and writes keys as {2}:",
+  "text": "O Thymeleaf lê {0} para o idioma padrão e {1} para os demais, e escreve as chaves como {2}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O Thymeleaf lê {0} para o idioma padrão e {1} para os demais, e escreve as chaves como {2}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

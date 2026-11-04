@@ -1,0 +1,14 @@
+{
+  "hash": "681174df236cedbc",
+  "source": "With the default {0}, a file starts with the locale code as its top-level key. The preset reads the messages under that key, in YAML and JSON files whose name ends with {1}, {2} or {3}:",
+  "text": "Com o {0} padrão, um arquivo começa com o código do idioma como chave de nível superior. O preset lê as mensagens sob essa chave, em arquivos YAML e JSON cujo nome termina com {1}, {2} ou {3}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Com o {0} padrão, um arquivo começa com o código do idioma como chave de nível superior. O preset lê as mensagens sob essa chave, em arquivos YAML e JSON cujo nome termina com {1}, {2} ou {3}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

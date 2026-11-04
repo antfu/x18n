@@ -1,0 +1,14 @@
+{
+  "hash": "c717718e061b62c2",
+  "source": "A hard-coded string that should probably be a message. On with `extract.autoDetect`.",
+  "text": "Una cadena codificada que probablemente debería ser un mensaje. Se activa con `extract.autoDetect`.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una cadena codificada que probablemente debería ser un mensaje. Se activa con `extract.autoDetect`."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fc46c58fee4dac70",
+  "source": "Prompts ask for results in the shape that {0} reads:",
+  "text": "I prompt chiedono i risultati nel formato che {0} legge:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I prompt chiedono i risultati nel formato che {0} legge:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

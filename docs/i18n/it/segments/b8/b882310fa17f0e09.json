@@ -1,0 +1,14 @@
+{
+  "hash": "b882310fa17f0e09",
+  "source": "History providers for stale translations. {0} turns every provider off. Options of a provider sit under its key, such as {1} (or {2}).",
+  "text": "Provider di cronologia per le traduzioni obsolete. {0} disattiva tutti i provider. Le opzioni di un provider si trovano sotto la sua chiave, come {1} (o {2}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Provider di cronologia per le traduzioni obsolete. {0} disattiva tutti i provider. Le opzioni di un provider si trovano sotto la sua chiave, come {1} (o {2})."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

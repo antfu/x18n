@@ -1,0 +1,14 @@
+{
+  "hash": "8e34367c7d300c8b",
+  "source": "Two more prompts print the shipped {0}skills{/0}, for agents that have no skills system:",
+  "text": "Mais dois prompts imprimem as {0}skills{/0} incluídas, para agentes que não têm um sistema de skills:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mais dois prompts imprimem as {0}skills{/0} incluídas, para agentes que não têm um sistema de skills:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

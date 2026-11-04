@@ -1,0 +1,14 @@
+{
+  "hash": "dfe74841cec450f6",
+  "source": "Rename target already exists",
+  "text": "El destino del cambio de nombre ya existe",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El destino del cambio de nombre ya existe"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

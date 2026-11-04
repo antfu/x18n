@@ -1,0 +1,14 @@
+{
+  "hash": "65eb633894408ad6",
+  "source": "The resource patterns of all applied presets add up. For example, a project with {0} and {1} uses the patterns of both presets.",
+  "text": "I pattern delle risorse di tutti i preset applicati si sommano. Ad esempio, un progetto con {0} e {1} usa i pattern di entrambi i preset.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I pattern delle risorse di tutti i preset applicati si sommano. Ad esempio, un progetto con {0} e {1} usa i pattern di entrambi i preset."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d263ef358db3163a",
+  "source": "Namespaces searched in order when a key written without a namespace is not in its own (i18next {0}).",
+  "text": "Espacios de nombres en los que se busca, en orden, cuando una clave escrita sin espacio de nombres no está en el suyo (i18next {0}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Espacios de nombres en los que se busca, en orden, cuando una clave escrita sin espacio de nombres no está en el suyo (i18next {0})."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "04366fa42f981927",
+  "source": "{0} is the result of the command. It is {1} when the command failed.",
+  "text": "{0} es el resultado del comando. Vale {1} cuando el comando ha fallado.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} es el resultado del comando. Vale {1} cuando el comando ha fallado."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

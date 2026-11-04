@@ -1,0 +1,14 @@
+{
+  "hash": "9043a2af38a8395c",
+  "source": "The built-in finders are {0} (the {1} patterns), {2} (Vue {3} blocks), {4} (fluent-vue {5} blocks) and {6} (VS Code {7}).",
+  "text": "Los buscadores integrados son {0} (los patrones de {1}), {2} (bloques {3} de Vue), {4} (bloques {5} de fluent-vue) y {6} ({7} de VS Code).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los buscadores integrados son {0} (los patrones de {1}), {2} (bloques {3} de Vue), {4} (bloques {5} de fluent-vue) y {6} ({7} de VS Code)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

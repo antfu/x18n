@@ -1,0 +1,14 @@
+{
+  "hash": "1d95a7921178d133",
+  "source": "A key with no usage, after keysInUse, derived keys and dynamic prefixes.",
+  "text": "Una chiave senza utilizzi, dopo keysInUse, chiavi derivate e prefissi dinamici.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una chiave senza utilizzi, dopo keysInUse, chiavi derivate e prefissi dinamici."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

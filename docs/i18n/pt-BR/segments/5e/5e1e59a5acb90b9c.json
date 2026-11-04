@@ -1,0 +1,14 @@
+{
+  "hash": "5e1e59a5acb90b9c",
+  "source": "Renames a key or a parent key in locale files and code.",
+  "text": "Renomeia uma chave ou uma chave pai nos arquivos de idioma e no código.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renomeia uma chave ou uma chave pai nos arquivos de idioma e no código."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "b910677000e6de88",
+  "source": "Your config adds to these defaults. For example, {0} in the config adds callees to the ones of the preset. See {1}How x18n merges the config{/1}.",
+  "text": "La tua configurazione si aggiunge a questi valori predefiniti. Ad esempio, {0} nella configurazione aggiunge callee a quelli del preset. Vedi {1}Come x18n unisce la configurazione{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La tua configurazione si aggiunge a questi valori predefiniti. Ad esempio, {0} nella configurazione aggiunge callee a quelli del preset. Vedi {1}Come x18n unisce la configurazione{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

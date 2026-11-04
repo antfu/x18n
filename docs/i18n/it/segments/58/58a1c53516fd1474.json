@@ -1,0 +1,14 @@
+{
+  "hash": "58a1c53516fd1474",
+  "source": "The {0}MCP server{/0}, with tools for the same tasks.",
+  "text": "Il {0}server MCP{/0}, con strumenti per le stesse attività.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il {0}server MCP{/0}, con strumenti per le stesse attività."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

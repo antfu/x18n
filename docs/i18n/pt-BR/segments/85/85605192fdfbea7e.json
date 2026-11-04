@@ -1,0 +1,14 @@
+{
+  "hash": "85605192fdfbea7e",
+  "source": "A message without an {0} gets the id {1} computes from its text and its tag. {2} is its description for translators. Only files that mention {3} are read.",
+  "text": "Uma mensagem sem {0} recebe o id que {1} calcula a partir do texto e da tag dela. {2} é a descrição dela para os tradutores. Apenas os arquivos que mencionam {3} são lidos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma mensagem sem {0} recebe o id que {1} calcula a partir do texto e da tag dela. {2} é a descrição dela para os tradutores. Apenas os arquivos que mencionam {3} são lidos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

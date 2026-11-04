@@ -1,0 +1,14 @@
+{
+  "hash": "d835f12bb7126612",
+  "source": "These names count as translate calls: {0}, {1}, {2} and {3}.",
+  "text": "Estos nombres cuentan como llamadas de traducción: {0}, {1}, {2} y {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estos nombres cuentan como llamadas de traducción: {0}, {1}, {2} y {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

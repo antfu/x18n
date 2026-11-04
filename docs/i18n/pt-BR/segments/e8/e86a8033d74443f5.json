@@ -1,0 +1,14 @@
+{
+  "hash": "e86a8033d74443f5",
+  "source": "The first {0} belongs to the first {1}. Here, the markdown goes to the summary file and the annotations go to stdout. The same markdown also suits a pull request comment.",
+  "text": "O primeiro {0} pertence ao primeiro {1}. Aqui, o markdown vai para o arquivo de resumo e as anotações vão para o stdout. O mesmo markdown também serve para um comentário de pull request.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O primeiro {0} pertence ao primeiro {1}. Aqui, o markdown vai para o arquivo de resumo e as anotações vão para o stdout. O mesmo markdown também serve para um comentário de pull request."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

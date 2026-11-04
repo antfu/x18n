@@ -1,0 +1,14 @@
+{
+  "hash": "f636cbd613a69bc3",
+  "source": "Fix the syntax error that the message names.",
+  "text": "Corrige el error de sintaxis que indica el mensaje.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Corrige el error de sintaxis que indica el mensaje."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5cadcbe0f678ce5e",
+  "source": "more translate calls. Wildcards such as {0} are skipped.",
+  "text": "altre chiamate di traduzione. I caratteri jolly come {0} vengono ignorati.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "altre chiamate di traduzione. I caratteri jolly come {0} vengono ignorati."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

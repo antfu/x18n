@@ -1,0 +1,14 @@
+{
+  "hash": "4848ddf81c7ee817",
+  "source": "x18n: Translate with Agent",
+  "text": "x18n: Traduci con l'agente",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: Traduci con l'agente"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

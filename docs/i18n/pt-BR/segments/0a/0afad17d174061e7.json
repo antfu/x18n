@@ -1,0 +1,14 @@
+{
+  "hash": "0afad17d174061e7",
+  "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
+  "text": "Chaves encontradas pelo valor em qualquer idioma, com busca aproximada, a menos que {0}, junto com seus usos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaves encontradas pelo valor em qualquer idioma, com busca aproximada, a menos que {0}, junto com seus usos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

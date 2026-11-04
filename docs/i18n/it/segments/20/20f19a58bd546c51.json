@@ -1,0 +1,14 @@
+{
+  "hash": "20f19a58bd546c51",
+  "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check, and the editor shows the same diagnostics.",
+  "text": "Un controllo analizza il progetto e segnala diagnostiche. Una diagnostica è un problema segnalato con un codice, una gravità e correzioni opzionali. {0} esegue tutti i controlli, e l'editor mostra le stesse diagnostiche.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un controllo analizza il progetto e segnala diagnostiche. Una diagnostica è un problema segnalato con un codice, una gravità e correzioni opzionali. {0} esegue tutti i controlli, e l'editor mostra le stesse diagnostiche."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

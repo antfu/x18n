@@ -1,0 +1,14 @@
+{
+  "hash": "7f0be92fb89f6d3a",
+  "source": "Lingui keys are often the source message itself. The macros and calls below are usages of {0} and {1}:",
+  "text": "Las claves de Lingui suelen ser el propio mensaje de origen. Las macros y llamadas siguientes son usos de {0} y {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Las claves de Lingui suelen ser el propio mensaje de origen. Las macros y llamadas siguientes son usos de {0} y {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

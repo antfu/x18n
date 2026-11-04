@@ -1,0 +1,14 @@
+{
+  "hash": "55af372c098a397e",
+  "source": "{0} and {1} return a translate function. {2} and {3} return one with a key prefix, from their first argument:",
+  "text": "{0} y {1} devuelven una función de traducción. {2} y {3} devuelven una con un prefijo de clave, tomado de su primer argumento:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} y {1} devuelven una función de traducción. {2} y {3} devuelven una con un prefijo de clave, tomado de su primer argumento:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

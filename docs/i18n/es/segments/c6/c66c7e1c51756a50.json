@@ -1,0 +1,14 @@
+{
+  "hash": "c66c7e1c51756a50",
+  "source": "No resource for the key. Add a resource pattern for the locale, or create the locale file.",
+  "text": "No hay recurso para la clave. Añade un patrón de recurso para el idioma o crea el archivo del idioma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No hay recurso para la clave. Añade un patrón de recurso para el idioma o crea el archivo del idioma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

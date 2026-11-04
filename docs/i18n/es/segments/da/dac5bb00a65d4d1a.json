@@ -1,0 +1,14 @@
+{
+  "hash": "dac5bb00a65d4d1a",
+  "source": "Show the flag of each locale in views, pickers, hovers and the status bar.",
+  "text": "Muestra la bandera de cada idioma en las vistas, los selectores, los hovers y la barra de estado.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Muestra la bandera de cada idioma en las vistas, los selectores, los hovers y la barra de estado."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

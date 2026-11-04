@@ -1,0 +1,14 @@
+{
+  "hash": "b2d5ca8a7856e13d",
+  "source": "{0}: the code and message per file.",
+  "text": "{0}: il codice e il messaggio per ogni file.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: il codice e il messaggio per ogni file."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

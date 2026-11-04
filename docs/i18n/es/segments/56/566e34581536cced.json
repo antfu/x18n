@@ -1,0 +1,14 @@
+{
+  "hash": "566e34581536cced",
+  "source": "{0} holds the errors. In JSON mode, errors appear only here, so stdout is always valid JSON.",
+  "text": "{0} contiene los errores. En modo JSON, los errores aparecen solo aquí, por lo que stdout siempre es JSON válido.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} contiene los errores. En modo JSON, los errores aparecen solo aquí, por lo que stdout siempre es JSON válido."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

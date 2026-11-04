@@ -1,0 +1,14 @@
+{
+  "hash": "9908c847998ea33c",
+  "source": "Locale codes that differ only in spelling, such as zh\\_CN and zh-CN.",
+  "text": "Códigos de idioma que solo difieren en la grafía, como zh\\_CN y zh-CN.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Códigos de idioma que solo difieren en la grafía, como zh\\_CN y zh-CN."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "f11468d78794dfb8",
+  "source": "Pass a function to {0} to take options. The function returns the plugin:",
+  "text": "Passa una funzione a {0} per accettare opzioni. La funzione restituisce il plugin:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Passa una funzione a {0} per accettare opzioni. La funzione restituisce il plugin:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

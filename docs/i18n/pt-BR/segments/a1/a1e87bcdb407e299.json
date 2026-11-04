@@ -1,0 +1,14 @@
+{
+  "hash": "a1e87bcdb407e299",
+  "source": "Sets the value of a suggestion and resolves it.",
+  "text": "Define o valor de uma sugestão e a resolve.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Define o valor de uma sugestão e a resolve."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

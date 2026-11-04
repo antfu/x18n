@@ -1,0 +1,14 @@
+{
+  "hash": "d72f548fe061d38a",
+  "source": "Always. {0} or {1} writes {2} or {3} instead.",
+  "text": "Siempre. {0} o {1} escribe {2} o {3} en su lugar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Siempre. {0} o {1} escribe {2} o {3} en su lugar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

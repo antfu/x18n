@@ -1,0 +1,14 @@
+{
+  "hash": "f2fc691c6ce726bd",
+  "source": "{0} refuses to replace an existing config. Pass {1} to replace it. See {2}Configuration{/2} for every way to change the setup.",
+  "text": "{0} se niega a reemplazar una configuración existente. Pasa {1} para reemplazarla. Consulta {2}Configuración{/2} para ver todas las formas de cambiar la configuración.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} se niega a reemplazar una configuración existente. Pasa {1} para reemplazarla. Consulta {2}Configuración{/2} para ver todas las formas de cambiar la configuración."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

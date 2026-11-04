@@ -1,0 +1,14 @@
+{
+  "hash": "5284a970f4390b4f",
+  "source": ".NET resources. Each string {0} is a key; files and images are skipped. Its {1} describes it.",
+  "text": "Risorse .NET. Ogni stringa {0} è una chiave; file e immagini vengono ignorati. Il suo {1} la descrive.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Risorse .NET. Ogni stringa {0} è una chiave; file e immagini vengono ignorati. Il suo {1} la descrive."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

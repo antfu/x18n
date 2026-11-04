@@ -1,0 +1,14 @@
+{
+  "hash": "8a23b26120be124b",
+  "source": "{0} runs this check alone. {1} skips it for one run.",
+  "text": "{0} esegue solo questo controllo. {1} lo salta per una singola esecuzione.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} esegue solo questo controllo. {1} lo salta per una singola esecuzione."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

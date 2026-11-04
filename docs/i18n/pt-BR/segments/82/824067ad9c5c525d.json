@@ -1,0 +1,14 @@
+{
+  "hash": "824067ad9c5c525d",
+  "source": "For a dynamic key such as {0}, the page prefix applies when the page file has {1}.",
+  "text": "Para uma chave dinâmica como {0}, o prefixo da página se aplica quando o arquivo da página tem {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para uma chave dinâmica como {0}, o prefixo da página se aplica quando o arquivo da página tem {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

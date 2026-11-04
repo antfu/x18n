@@ -1,0 +1,14 @@
+{
+  "hash": "d14cf2d5f618d6dc",
+  "source": "An agent skill is a markdown file that teaches a coding agent how to do a task. The {0} npm package ships three, in {1}. Their version always matches the version of the CLI that you install.",
+  "text": "Una skill de agente es un archivo markdown que enseña a un agente de programación a realizar una tarea. El paquete npm {0} incluye tres, en {1}. Su versión siempre coincide con la versión del CLI que instalas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una skill de agente es un archivo markdown que enseña a un agente de programación a realizar una tarea. El paquete npm {0} incluye tres, en {1}. Su versión siempre coincide con la versión del CLI que instalas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

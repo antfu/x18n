@@ -1,0 +1,14 @@
+{
+  "hash": "9cc3b1a5c56b631a",
+  "source": "Keys found by their value in any locale, best first: fuzzy unless {0}, ignoring case. Each match has the matched value, its locale entry and the usages. At most 100.",
+  "text": "Chiavi trovate in base al loro valore in qualsiasi lingua, dalla migliore: fuzzy a meno che {0}, senza distinzione tra maiuscole e minuscole. Ogni corrispondenza include il valore trovato, la sua voce di lingua e gli utilizzi. Al massimo 100.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chiavi trovate in base al loro valore in qualsiasi lingua, dalla migliore: fuzzy a meno che {0}, senza distinzione tra maiuscole e minuscole. Ogni corrispondenza include il valore trovato, la sua voce di lingua e gli utilizzi. Al massimo 100."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

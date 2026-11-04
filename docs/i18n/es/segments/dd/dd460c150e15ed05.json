@@ -1,0 +1,14 @@
+{
+  "hash": "dd460c150e15ed05",
+  "source": "Key (or parent of keys) to delete.",
+  "text": "Clave (o clave padre de claves) que se va a eliminar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Clave (o clave padre de claves) que se va a eliminar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

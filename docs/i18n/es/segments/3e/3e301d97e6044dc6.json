@@ -1,0 +1,14 @@
+{
+  "hash": "3e301d97e6044dc6",
+  "source": "A message with a custom id ({0}) uses it. A message without one gets the id Angular computes from its text and meaning, and x18n computes the same: the {1} above is {2}. ICU expressions, nested elements, {3}, {4} and {5} blocks and custom placeholder names ({6}) count. An ICU inside text is a message of its own, as Angular extracts it.",
+  "text": "Un mensaje con un id personalizado ({0}) lo usa. Un mensaje sin id recibe el id que Angular calcula a partir de su texto y su significado, y x18n calcula el mismo: el {1} anterior es {2}. Cuentan las expresiones ICU, los elementos anidados, los bloques {3}, {4} y {5} y los nombres personalizados de marcadores de posición ({6}). Un ICU dentro de un texto es un mensaje propio, tal como lo extrae Angular.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un mensaje con un id personalizado ({0}) lo usa. Un mensaje sin id recibe el id que Angular calcula a partir de su texto y su significado, y x18n calcula el mismo: el {1} anterior es {2}. Cuentan las expresiones ICU, los elementos anidados, los bloques {3}, {4} y {5} y los nombres personalizados de marcadores de posición ({6}). Un ICU dentro de un texto es un mensaje propio, tal como lo extrae Angular."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

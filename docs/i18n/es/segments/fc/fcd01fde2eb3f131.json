@@ -1,0 +1,14 @@
+{
+  "hash": "fcd01fde2eb3f131",
+  "source": "prompt (that word is for LLM prompts)",
+  "text": "prompt (esa palabra se reserva para los prompts de LLM)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "prompt (esa palabra se reserva para los prompts de LLM)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

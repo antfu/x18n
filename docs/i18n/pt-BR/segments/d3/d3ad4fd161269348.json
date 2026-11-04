@@ -1,0 +1,14 @@
+{
+  "hash": "d3ad4fd161269348",
+  "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
+  "text": "Keys: uma tabela com uma linha por chave e uma coluna por idioma. Pesquise chaves e valores e filtre por namespace, por um idioma que não tem a chave, por chaves não usadas, por chaves com problemas ou por estado de tradução. Uma chave cujo formato lhe dá um rótulo mostra o rótulo, e a pesquisa o encontra. Selecione uma célula e pressione Enter para editá-la. Use as setas ou {0} e {1} para se mover, Esc para cancelar, {2} para abrir a chave e {3} para pesquisar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Keys: uma tabela com uma linha por chave e uma coluna por idioma. Pesquise chaves e valores e filtre por namespace, por um idioma que não tem a chave, por chaves não usadas, por chaves com problemas ou por estado de tradução. Uma chave cujo formato lhe dá um rótulo mostra o rótulo, e a pesquisa o encontra. Selecione uma célula e pressione Enter para editá-la. Use as setas ou {0} e {1} para se mover, Esc para cancelar, {2} para abrir a chave e {3} para pesquisar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

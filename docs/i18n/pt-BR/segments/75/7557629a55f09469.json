@@ -1,0 +1,14 @@
+{
+  "hash": "7557629a55f09469",
+  "source": "The port. The default is the first free port from 9999.",
+  "text": "A porta. O padrão é a primeira porta livre a partir de 9999.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A porta. O padrão é a primeira porta livre a partir de 9999."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

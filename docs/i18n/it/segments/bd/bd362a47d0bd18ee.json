@@ -1,0 +1,14 @@
+{
+  "hash": "bd362a47d0bd18ee",
+  "source": "The {0}VS Code extension{/0} shows translations in place and treats keys like symbols: go to definition, find references and rename.",
+  "text": "L'{0}estensione per VS Code{/0} mostra le traduzioni direttamente nel codice e tratta le chiavi come simboli: vai alla definizione, trova i riferimenti e rinomina.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'{0}estensione per VS Code{/0} mostra le traduzioni direttamente nel codice e tratta le chiavi come simboli: vai alla definizione, trova i riferimenti e rinomina."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

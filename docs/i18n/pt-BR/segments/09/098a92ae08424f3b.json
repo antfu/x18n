@@ -1,0 +1,14 @@
+{
+  "hash": "098a92ae08424f3b",
+  "source": "The VS Code settings with the same names under {0}; {1} becomes {2}",
+  "text": "As configurações do VS Code com os mesmos nomes em {0}; {1} se torna {2}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "As configurações do VS Code com os mesmos nomes em {0}; {1} se torna {2}"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

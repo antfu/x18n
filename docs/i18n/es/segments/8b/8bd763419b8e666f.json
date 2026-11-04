@@ -1,0 +1,14 @@
+{
+  "hash": "8bd763419b8e666f",
+  "source": "The preset for ember-intl. It reads the t helper in Handlebars and template-tag files, and intl.t in code.",
+  "text": "El preset para ember-intl. Lee el helper t en archivos Handlebars y template-tag, y intl.t en el código.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para ember-intl. Lee el helper t en archivos Handlebars y template-tag, y intl.t en el código."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

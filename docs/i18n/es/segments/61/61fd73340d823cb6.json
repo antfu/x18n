@@ -1,0 +1,14 @@
+{
+  "hash": "61fd73340d823cb6",
+  "source": "The preset includes everything of the {0} preset. If the {1} preset also applies, x18n adds the shared plugins one time.",
+  "text": "El preset incluye todo lo del preset {0}. Si el preset {1} también se aplica, x18n añade los plugins compartidos una sola vez.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset incluye todo lo del preset {0}. Si el preset {1} también se aplica, x18n añade los plugins compartidos una sola vez."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

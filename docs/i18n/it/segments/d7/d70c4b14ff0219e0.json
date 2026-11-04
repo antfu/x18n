@@ -1,0 +1,14 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "Se una modifica elimina o aggiunge un segnaposto rispetto al valore di origine, la UI non la salva. Mostra il problema e puoi comunque salvare il valore.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se una modifica elimina o aggiunge un segnaposto rispetto al valore di origine, la UI non la salva. Mostra il problema e puoi comunque salvare il valore."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

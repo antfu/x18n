@@ -1,0 +1,14 @@
+{
+  "hash": "914ea9f87f305073",
+  "source": "The default. The path and position, the severity badge with the message and check id, a code frame, then a summary.",
+  "text": "L'impostazione predefinita. Percorso e posizione, il badge di gravità con il messaggio e l'id del controllo, un frammento di codice e infine un riepilogo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'impostazione predefinita. Percorso e posizione, il badge di gravità con il messaggio e l'id del controllo, un frammento di codice e infine un riepilogo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

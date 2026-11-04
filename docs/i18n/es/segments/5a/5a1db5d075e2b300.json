@@ -1,0 +1,14 @@
+{
+  "hash": "5a1db5d075e2b300",
+  "source": "This workflow checks every push and pull request. The {0} reporter turns each diagnostic into an annotation on the changed line of the pull request. The {1} reporter prints the usual output to the log:",
+  "text": "Este workflow comprueba cada push y cada pull request. El reporter {0} convierte cada diagnóstico en una anotación sobre la línea modificada de la pull request. El reporter {1} imprime la salida habitual en el log:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Este workflow comprueba cada push y cada pull request. El reporter {0} convierte cada diagnóstico en una anotación sobre la línea modificada de la pull request. El reporter {1} imprime la salida habitual en el log:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

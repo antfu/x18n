@@ -1,0 +1,14 @@
+{
+  "hash": "1fbeba2849ae832e",
+  "source": "Text in inline {0} strings works the same way, in any kind of quotes and with escapes, and an inline template in double quotes gets {1}. ICUs get marked too. A sentence around an ICU ({2}) is two messages in Angular, so run {3} after it to add the ICU's own. These stay as they are: content with {4} or {5}, and an inline template with {6}, whose text is not known before the build.",
+  "text": "Il testo nelle stringhe {0} inline funziona allo stesso modo, con qualsiasi tipo di apici e con sequenze di escape, e un template inline tra doppi apici riceve {1}. Anche gli ICU vengono marcati. Una frase attorno a un ICU ({2}) corrisponde a due messaggi in Angular, quindi esegui {3} dopo per aggiungere quello dell'ICU. Restano invariati: il contenuto con {4} o {5}, e un template inline con {6}, il cui testo non è noto prima della build.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il testo nelle stringhe {0} inline funziona allo stesso modo, con qualsiasi tipo di apici e con sequenze di escape, e un template inline tra doppi apici riceve {1}. Anche gli ICU vengono marcati. Una frase attorno a un ICU ({2}) corrisponde a due messaggi in Angular, quindi esegui {3} dopo per aggiungere quello dell'ICU. Restano invariati: il contenuto con {4} o {5}, e un template inline con {6}, il cui testo non è noto prima della build."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "2b1e482459a18672",
+  "source": "Report only for these locales. Diagnostics without a locale stay.",
+  "text": "Informa solo de estos idiomas. Los diagnósticos sin idioma se mantienen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Informa solo de estos idiomas. Los diagnósticos sin idioma se mantienen."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

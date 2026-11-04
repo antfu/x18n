@@ -1,0 +1,14 @@
+{
+  "hash": "c09bd1940858536a",
+  "source": "This command writes the markdown report to {0} and prints the pretty output. See {1}CI{/1} for workflow examples.",
+  "text": "Este comando escribe el informe en markdown en {0} e imprime la salida formateada. Consulta {1}CI{/1} para ver ejemplos de workflows.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Este comando escribe el informe en markdown en {0} e imprime la salida formateada. Consulta {1}CI{/1} para ver ejemplos de workflows."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

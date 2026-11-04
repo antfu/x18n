@@ -1,0 +1,14 @@
+{
+  "hash": "633729adef65f3cd",
+  "source": "Reviews live in {0}. Commit it: reviews then travel with the branch and show in pull requests.",
+  "text": "Le revisioni risiedono in {0}. Fanne il commit: le revisioni viaggiano così con il branch e compaiono nelle pull request.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le revisioni risiedono in {0}. Fanne il commit: le revisioni viaggiano così con il branch e compaiono nelle pull request."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fdaa6dc1880d5523",
+  "source": "Say that the current value is right.",
+  "text": "Dire che il valore attuale è corretto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dire che il valore attuale è corretto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c90316e3df622186",
+  "source": "Plan is stale",
+  "text": "O plano está desatualizado",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O plano está desatualizado"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9b94c8f1432c0f82",
+  "source": "X18N0002: Config file could not be loaded",
+  "text": "X18N0002: No se pudo cargar el archivo de configuración",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N0002: No se pudo cargar el archivo de configuración"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

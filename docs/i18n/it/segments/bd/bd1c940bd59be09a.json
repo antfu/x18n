@@ -1,0 +1,14 @@
+{
+  "hash": "bd1c940bd59be09a",
+  "source": "Rename (F2) renames the key in every locale file and every usage. On a parent key, it renames every key under it.",
+  "text": "Rinomina (F2) rinomina la chiave in ogni file di lingua e in ogni utilizzo. Su una chiave padre, rinomina tutte le chiavi che si trovano sotto di essa.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Rinomina (F2) rinomina la chiave in ogni file di lingua e in ogni utilizzo. Su una chiave padre, rinomina tutte le chiavi che si trovano sotto di essa."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ccfd933028c89a43",
+  "source": "In Vue templates, the preset also reads the {0} directive and the {1} component:",
+  "text": "En las plantillas de Vue, el preset también lee la directiva {0} y el componente {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En las plantillas de Vue, el preset también lee la directiva {0} y el componente {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

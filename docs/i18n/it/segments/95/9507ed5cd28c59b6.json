@@ -1,0 +1,14 @@
+{
+  "hash": "9507ed5cd28c59b6",
+  "source": "{0}, {1}, {2}, {3} and {4} are translate calls. {5} takes the prefix as a string, or as the {6} property of an object.",
+  "text": "{0}, {1}, {2}, {3} e {4} sono chiamate di traduzione. {5} accetta il prefisso come stringa, oppure come proprietà {6} di un oggetto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3} e {4} sono chiamate di traduzione. {5} accetta il prefisso come stringa, oppure come proprietà {6} di un oggetto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

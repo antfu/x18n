@@ -1,0 +1,14 @@
+{
+  "hash": "2c8d81e973baebaf",
+  "source": "{0} and {1} do the same.",
+  "text": "{0} y {1} hacen lo mismo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} y {1} hacen lo mismo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

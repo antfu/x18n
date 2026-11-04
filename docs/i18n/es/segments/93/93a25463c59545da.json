@@ -1,0 +1,14 @@
+{
+  "hash": "93a25463c59545da",
+  "source": "To change the value yourself, use {0}.",
+  "text": "Para cambiar el valor tú mismo, usa {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para cambiar el valor tú mismo, usa {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

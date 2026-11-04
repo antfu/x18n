@@ -1,0 +1,14 @@
+{
+  "hash": "b568ffdca1a7b580",
+  "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}.",
+  "text": "Il formato {0} legge un attributo di messaggio come una chiave a sé stante: {1} sul messaggio {2} è la chiave {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il formato {0} legge un attributo di messaggio come una chiave a sé stante: {1} sul messaggio {2} è la chiave {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6a0b72e6177e1c78",
+  "source": "Show the values of these locales (comma separated) next to each message, in place of the {0}related locales{/0} of the target.",
+  "text": "Mostra os valores destes idiomas (separados por vírgula) ao lado de cada mensagem, no lugar dos {0}idiomas relacionados{/0} do idioma de destino.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mostra os valores destes idiomas (separados por vírgula) ao lado de cada mensagem, no lugar dos {0}idiomas relacionados{/0} do idioma de destino."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

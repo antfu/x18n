@@ -1,0 +1,14 @@
+{
+  "hash": "526cdeede6a9a96c",
+  "source": "Review threads show as editor comments on the key in each locale file. Reply to a thread to comment, approve, request a change or suggest a value; the buttons under the reply box pick the kind. A suggestion has an \"Apply Suggestion\" button that sets the value. \"Resolve\" closes a comment. \"x18n: Review Key\" starts a review from the cursor or from the Keys view. The language server writes reviews to {0} at once, and the hover of a key shows its review state per locale.",
+  "text": "As threads de revisão aparecem como comentários do editor na chave em cada arquivo de idioma. Responda a uma thread para comentar, aprovar, solicitar uma alteração ou sugerir um valor; os botões abaixo da caixa de resposta definem o tipo. Uma sugestão tem um botão \"Apply Suggestion\" que define o valor. \"Resolve\" fecha um comentário. \"x18n: Review Key\" inicia uma revisão a partir do cursor ou da visualização Keys. O servidor de linguagem grava as revisões em {0} imediatamente, e o hover de uma chave mostra o estado da revisão por idioma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "As threads de revisão aparecem como comentários do editor na chave em cada arquivo de idioma. Responda a uma thread para comentar, aprovar, solicitar uma alteração ou sugerir um valor; os botões abaixo da caixa de resposta definem o tipo. Uma sugestão tem um botão \"Apply Suggestion\" que define o valor. \"Resolve\" fecha um comentário. \"x18n: Review Key\" inicia uma revisão a partir do cursor ou da visualização Keys. O servidor de linguagem grava as revisões em {0} imediatamente, e o hover de uma chave mostra o estado da revisão por idioma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

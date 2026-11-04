@@ -1,0 +1,14 @@
+{
+  "hash": "c8a04c4f6bbe7d2c",
+  "source": "{0} runs every {1}check{/1} on every project and reports the diagnostics. It is to i18n what {2} is to types:",
+  "text": "{0} executa todas as {1}verificações{/1} em todos os projetos e reporta os diagnósticos. Ele está para o i18n como {2} está para os tipos:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} executa todas as {1}verificações{/1} em todos os projetos e reporta os diagnósticos. Ele está para o i18n como {2} está para os tipos:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

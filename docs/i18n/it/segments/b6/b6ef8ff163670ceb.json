@@ -1,0 +1,14 @@
+{
+  "hash": "b6ef8ff163670ceb",
+  "source": "The templates add no import, because where {0} comes from depends on the adapter ({1} in React, {2} in Svelte).",
+  "text": "I template non aggiungono alcun import, perché la provenienza di {0} dipende dall'adapter ({1} in React, {2} in Svelte).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I template non aggiungono alcun import, perché la provenienza di {0} dipende dall'adapter ({1} in React, {2} in Svelte)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

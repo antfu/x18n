@@ -1,0 +1,14 @@
+{
+  "hash": "eaa68f5c64755ae7",
+  "source": "Invalid edit input. Check the input shape against the docs.",
+  "text": "Input di modifica non valido. Controlla la struttura dell'input rispetto alla documentazione.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Input di modifica non valido. Controlla la struttura dell'input rispetto alla documentazione."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

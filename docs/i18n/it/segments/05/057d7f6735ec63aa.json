@@ -1,0 +1,14 @@
+{
+  "hash": "057d7f6735ec63aa",
+  "source": "{0} returns {1} and {2}.",
+  "text": "{0} restituisce {1} e {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} restituisce {1} e {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

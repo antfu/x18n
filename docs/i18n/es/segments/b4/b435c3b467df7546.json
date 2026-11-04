@@ -1,0 +1,14 @@
+{
+  "hash": "b435c3b467df7546",
+  "source": "Marks a comment resolved.",
+  "text": "Marca un comentario como resuelto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Marca un comentario como resuelto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

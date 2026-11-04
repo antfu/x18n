@@ -1,0 +1,14 @@
+{
+  "hash": "0252465820bda604",
+  "source": "Project settings live in the {0}config file{/0}. The VS Code settings change only the editor experience, and never override the config.",
+  "text": "Los ajustes del proyecto se definen en el {0}archivo de configuración{/0}. Los ajustes de VS Code solo cambian la experiencia del editor y nunca sobrescriben la configuración.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los ajustes del proyecto se definen en el {0}archivo de configuración{/0}. Los ajustes de VS Code solo cambian la experiencia del editor y nunca sobrescriben la configuración."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

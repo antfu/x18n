@@ -1,0 +1,14 @@
+{
+  "hash": "2e9f4c5086525293",
+  "source": "To change the severity of a check for every run, use {0} in the config. See {1}Checks{/1}.",
+  "text": "Para alterar a severidade de uma verificação em todas as execuções, use {0} na configuração. Veja {1}Verificações{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para alterar a severidade de uma verificação em todas as execuções, use {0} na configuração. Veja {1}Verificações{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7a93a3ec51220eac",
+  "source": "A key glob uses {0} inside one segment and {1} across segments: {2}.",
+  "text": "Un glob di chiavi usa {0} all'interno di un segmento e {1} tra più segmenti: {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un glob di chiavi usa {0} all'interno di un segmento e {1} tra più segmenti: {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

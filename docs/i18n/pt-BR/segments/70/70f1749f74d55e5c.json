@@ -1,0 +1,14 @@
+{
+  "hash": "70f1749f74d55e5c",
+  "source": "run {0} and fix what it reports",
+  "text": "executar {0} e corrigir o que ele reporta",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "executar {0} e corrigir o que ele reporta"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

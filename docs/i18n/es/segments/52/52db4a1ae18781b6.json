@@ -1,0 +1,14 @@
+{
+  "hash": "52db4a1ae18781b6",
+  "source": "{0}Agent workflows{/0}: let a coding agent translate and clean up messages.",
+  "text": "{0}Flujos de trabajo con agentes{/0}: deja que un agente de programación traduzca y limpie mensajes.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Flujos de trabajo con agentes{/0}: deja que un agente de programación traduzca y limpie mensajes."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

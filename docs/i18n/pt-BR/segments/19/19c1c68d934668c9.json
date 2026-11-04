@@ -1,0 +1,14 @@
+{
+  "hash": "19c1c68d934668c9",
+  "source": "Apply the plan. Without it, the tool only returns the plan.",
+  "text": "Aplica o plano. Sem isso, a ferramenta apenas retorna o plano.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Aplica o plano. Sem isso, a ferramenta apenas retorna o plano."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

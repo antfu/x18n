@@ -1,0 +1,14 @@
+{
+  "hash": "f3b44763557b2742",
+  "source": "Without a config file, x18n reads the project's i18n-ally settings ({0} in {1}, and {2}), so an i18n-ally project works with no changes. The settings act as defaults: detection still adds what they leave out, and when their locale paths match no file, x18n looks for locale directories itself. Without i18n-ally settings either, x18n runs on detection alone. {3} prints what it uses: the config file, {4}, or {5}.",
+  "text": "Sin archivo de configuración, x18n lee los ajustes de i18n-ally del proyecto ({0} en {1}, y {2}), de modo que un proyecto con i18n-ally funciona sin cambios. Los ajustes actúan como valores por defecto: la detección sigue añadiendo lo que ellos omiten, y cuando sus rutas de idiomas no coinciden con ningún archivo, x18n busca los directorios de idiomas por sí mismo. Si tampoco hay ajustes de i18n-ally, x18n funciona solo con la detección. {3} muestra lo que usa: el archivo de configuración, {4} o {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sin archivo de configuración, x18n lee los ajustes de i18n-ally del proyecto ({0} en {1}, y {2}), de modo que un proyecto con i18n-ally funciona sin cambios. Los ajustes actúan como valores por defecto: la detección sigue añadiendo lo que ellos omiten, y cuando sus rutas de idiomas no coinciden con ningún archivo, x18n busca los directorios de idiomas por sí mismo. Si tampoco hay ajustes de i18n-ally, x18n funciona solo con la detección. {3} muestra lo que usa: el archivo de configuración, {4} o {5}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

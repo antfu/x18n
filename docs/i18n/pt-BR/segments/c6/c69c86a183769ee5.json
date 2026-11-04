@@ -1,0 +1,14 @@
+{
+  "hash": "c69c86a183769ee5",
+  "source": "The author is {0} in the config, else the git {1} and {2}. The CLI also takes {3}.",
+  "text": "O autor é {0} na configuração; caso contrário, o {1} e o {2} do git. A CLI também aceita {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O autor é {0} na configuração; caso contrário, o {1} e o {2} do git. A CLI também aceita {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

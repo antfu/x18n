@@ -1,0 +1,14 @@
+{
+  "hash": "19e20d79ee595dee",
+  "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
+  "text": "Llamadas de traducción que se añaden a las de los presets. Consulta {0}Sintaxis admitida{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Llamadas de traducción que se añaden a las de los presets. Consulta {0}Sintaxis admitida{/0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

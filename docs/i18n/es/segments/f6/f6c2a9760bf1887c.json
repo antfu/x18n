@@ -1,0 +1,14 @@
+{
+  "hash": "f6c2a9760bf1887c",
+  "source": "The pipe options give the namespace ({0}), the default value and the params of the usage. {1} takes a translated text, so it is not a usage. A key built with {2}, or in a template string with {3}, counts as a prefix, so the keys under {4} are not unused.",
+  "text": "Las opciones del pipe indican el espacio de nombres ({0}), el valor por defecto y los parámetros del uso. {1} recibe un texto traducido, por lo que no es un uso. Una clave construida con {2}, o en una plantilla de cadena con {3}, cuenta como prefijo, así que las claves bajo {4} no se consideran sin usar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Las opciones del pipe indican el espacio de nombres ({0}), el valor por defecto y los parámetros del uso. {1} recibe un texto traducido, por lo que no es un uso. Una clave construida con {2}, o en una plantilla de cadena con {3}, cuenta como prefijo, así que las claves bajo {4} no se consideran sin usar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

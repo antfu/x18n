@@ -1,0 +1,14 @@
+{
+  "hash": "23df21eb39391c29",
+  "source": "Single values ({0}, {1}, {2}, {3}) replace the earlier value.",
+  "text": "Valores únicos ({0}, {1}, {2}, {3}) substituem o valor anterior.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Valores únicos ({0}, {1}, {2}, {3}) substituem o valor anterior."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

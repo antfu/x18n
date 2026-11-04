@@ -1,0 +1,14 @@
+{
+  "hash": "0b6b4ea162d9f35e",
+  "source": "{0} read and write one file format. A format has an {1} and the {2} it reads.",
+  "text": "{0} leen y escriben un formato de archivo. Un formato tiene un {1} y el {2} que lee.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} leen y escriben un formato de archivo. Un formato tiene un {1} y el {2} que lee."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

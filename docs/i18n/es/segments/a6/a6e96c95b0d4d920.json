@@ -1,0 +1,14 @@
+{
+  "hash": "a6e96c95b0d4d920",
+  "source": "Providers in a file that names no component, such as a shared list, reach the folder of that file and the folders under it.",
+  "text": "Los proveedores de un archivo que no nombra ningún componente, como una lista compartida, alcanzan la carpeta de ese archivo y las carpetas que hay debajo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los proveedores de un archivo que no nombra ningún componente, como una lista compartida, alcanzan la carpeta de ese archivo y las carpetas que hay debajo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

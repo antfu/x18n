@@ -1,0 +1,14 @@
+{
+  "hash": "5cf2a65ee9c002c5",
+  "source": "A locale code exactly as written in paths and files ({0}, {1}). Never normalized.",
+  "text": "Un código de idioma exactamente como se escribe en las rutas y los archivos ({0}, {1}). Nunca se normaliza.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un código de idioma exactamente como se escribe en las rutas y los archivos ({0}, {1}). Nunca se normaliza."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

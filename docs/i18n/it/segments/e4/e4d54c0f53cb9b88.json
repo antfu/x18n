@@ -1,0 +1,14 @@
+{
+  "hash": "e4d54c0f53cb9b88",
+  "source": "Review not found. List review ids with `x18n review list` (agents: the `x18n_reviews` tool).",
+  "text": "Revisione non trovata. Elenca gli id delle revisioni con `x18n review list` (agenti: lo strumento `x18n_reviews`).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Revisione non trovata. Elenca gli id delle revisioni con `x18n review list` (agenti: lo strumento `x18n_reviews`)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

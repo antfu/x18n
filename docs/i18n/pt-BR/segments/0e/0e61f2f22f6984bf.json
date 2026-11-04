@@ -1,0 +1,14 @@
+{
+  "hash": "0e61f2f22f6984bf",
+  "source": "Renames a key in every locale and every usage in code. {0} keeps the code.",
+  "text": "Renomeia uma chave em todos os idiomas e todos os usos no código. {0} mantém o código.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renomeia uma chave em todos os idiomas e todos os usos no código. {0} mantém o código."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

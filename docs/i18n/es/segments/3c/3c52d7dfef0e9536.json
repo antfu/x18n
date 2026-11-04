@@ -1,0 +1,14 @@
+{
+  "hash": "3c52d7dfef0e9536",
+  "source": "{0} turns the raw key text of a usage into the canonical key. The first plugin that returns a value wins.",
+  "text": "{0} convierte el texto sin procesar de la clave de un uso en la clave canónica. Gana el primer plugin que devuelve un valor.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} convierte el texto sin procesar de la clave de un uso en la clave canónica. Gana el primer plugin que devuelve un valor."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

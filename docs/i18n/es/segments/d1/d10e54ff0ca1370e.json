@@ -1,0 +1,14 @@
+{
+  "hash": "d10e54ff0ca1370e",
+  "source": "A placeholder syntax tells x18n how placeholders look in messages. The {0} check and {1} compare the placeholders of each translation with the source value. Translate prompts list them.",
+  "text": "Una sintaxis de marcadores de posición indica a x18n el aspecto de los marcadores de posición en los mensajes. La comprobación {0} y {1} comparan los marcadores de posición de cada traducción con el valor de origen. Los prompts de traducción los enumeran.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una sintaxis de marcadores de posición indica a x18n el aspecto de los marcadores de posición en los mensajes. La comprobación {0} y {1} comparan los marcadores de posición de cada traducción con el valor de origen. Los prompts de traducción los enumeran."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c9fe4b19b858da55",
+  "source": "Fluent. A message attribute is the key {0}.",
+  "text": "Fluent. Un attributo di un messaggio è la chiave {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Fluent. Un attributo di un messaggio è la chiave {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

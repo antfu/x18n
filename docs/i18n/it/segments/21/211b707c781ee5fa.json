@@ -1,0 +1,14 @@
+{
+  "hash": "211b707c781ee5fa",
+  "source": "Delete every unused key (matching the glob), except keys dynamic usages may reach",
+  "text": "Elimina ogni chiave inutilizzata (che corrisponde al glob), tranne le chiavi che gli utilizzi dinamici possono raggiungere",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina ogni chiave inutilizzata (che corrisponde al glob), tranne le chiavi che gli utilizzi dinamici possono raggiungere"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

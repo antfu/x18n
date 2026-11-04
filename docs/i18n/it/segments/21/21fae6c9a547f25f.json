@@ -1,0 +1,14 @@
+{
+  "hash": "21fae6c9a547f25f",
+  "source": "A resolved review stays in the file with {0}.",
+  "text": "Una revisione risolta resta nel file con {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una revisione risolta resta nel file con {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

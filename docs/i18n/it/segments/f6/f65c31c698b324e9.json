@@ -1,0 +1,14 @@
+{
+  "hash": "f65c31c698b324e9",
+  "source": "Single braces: {0}. {1} is always available, as {2} passes it.",
+  "text": "Parentesi graffe singole: {0}. {1} è sempre disponibile, perché {2} lo passa.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Parentesi graffe singole: {0}. {1} è sempre disponibile, perché {2} lo passa."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ae66bce0155ea0cf",
+  "source": "In Kotlin and Java, {0}, {1} and {2}. In XML, {3}, {4} and {5}. {6} and {7} are the framework's, not usages. A {8} with a dot is {9} in code, which x18n does not map to {10}.",
+  "text": "En Kotlin y Java, {0}, {1} y {2}. En XML, {3}, {4} y {5}. {6} y {7} son del framework, no usos. Un {8} con un punto es {9} en el código, que x18n no asigna a {10}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En Kotlin y Java, {0}, {1} y {2}. En XML, {3}, {4} y {5}. {6} y {7} son del framework, no usos. Un {8} con un punto es {9} en el código, que x18n no asigna a {10}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

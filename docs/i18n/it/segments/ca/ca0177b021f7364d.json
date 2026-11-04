@@ -1,0 +1,14 @@
+{
+  "hash": "ca0177b021f7364d",
+  "source": "the \"Copy Translate Prompt\" and \"Translate with Agent\" commands and the hover links in {0}VS Code{/0},",
+  "text": "i comandi \"Copy Translate Prompt\" e \"Translate with Agent\" e i link al passaggio del mouse in {0}VS Code{/0},",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i comandi \"Copy Translate Prompt\" e \"Translate with Agent\" e i link al passaggio del mouse in {0}VS Code{/0},"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

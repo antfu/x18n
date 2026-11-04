@@ -1,0 +1,14 @@
+{
+  "hash": "914ea9f87f305073",
+  "source": "The default. The path and position, the severity badge with the message and check id, a code frame, then a summary.",
+  "text": "O padrão. O caminho e a posição, o selo de severidade com a mensagem e o id da verificação, um trecho de código e, por fim, um resumo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O padrão. O caminho e a posição, o selo de severidade com a mensagem e o id da verificação, um trecho de código e, por fim, um resumo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

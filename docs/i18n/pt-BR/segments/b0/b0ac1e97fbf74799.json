@@ -1,0 +1,14 @@
+{
+  "hash": "b0ac1e97fbf74799",
+  "source": "Commands that write files ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}) always need one project in a monorepo.",
+  "text": "Comandos que gravam arquivos ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}) sempre precisam de um projeto em um monorepo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Comandos que gravam arquivos ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}) sempre precisam de um projeto em um monorepo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

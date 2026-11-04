@@ -1,0 +1,14 @@
+{
+  "hash": "6b85b34835e7a7d5",
+  "source": "JSON form of an error: the {0} of a nostics diagnostic, without {1}, {2} and {3}.",
+  "text": "Forma JSON di un errore: il {0} di una diagnostica nostics, senza {1}, {2} e {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Forma JSON di un errore: il {0} di una diagnostica nostics, senza {1}, {2} e {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "6786376346c43e87",
+  "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
+  "text": "{0}, {1} y {2} devuelven primero el plan. Una segunda llamada con {3} lo aplica. {4}Herramientas MCP{/4} enumera los campos de entrada de cada herramienta.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} y {2} devuelven primero el plan. Una segunda llamada con {3} lo aplica. {4}Herramientas MCP{/4} enumera los campos de entrada de cada herramienta."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

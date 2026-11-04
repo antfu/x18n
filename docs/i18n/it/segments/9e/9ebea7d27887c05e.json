@@ -1,0 +1,14 @@
+{
+  "hash": "9ebea7d27887c05e",
+  "source": "Run {0} to list open suggestions.",
+  "text": "Esegui {0} per elencare i suggerimenti aperti.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esegui {0} per elencare i suggerimenti aperti."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

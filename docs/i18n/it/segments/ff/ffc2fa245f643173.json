@@ -1,0 +1,14 @@
+{
+  "hash": "ffc2fa245f643173",
+  "source": "List commands page their output. {0} sets the page size. The output ends with a {1} value for the next page, and the JSON output has it as {2}:",
+  "text": "I comandi di elenco paginano il loro output. {0} imposta la dimensione della pagina. L'output termina con un valore {1} per la pagina successiva, e nell'output JSON è presente come {2}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I comandi di elenco paginano il loro output. {0} imposta la dimensione della pagina. L'output termina con un valore {1} per la pagina successiva, e nell'output JSON è presente come {2}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

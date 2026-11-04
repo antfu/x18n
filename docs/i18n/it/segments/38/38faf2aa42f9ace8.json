@@ -1,0 +1,14 @@
+{
+  "hash": "38faf2aa42f9ace8",
+  "source": "The {0} preset applies to every project. It comes last in the detection order, so the presets of libraries come first.",
+  "text": "Il preset {0} si applica a ogni progetto. Viene per ultimo nell'ordine di rilevamento, quindi i preset delle librerie vengono prima.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset {0} si applica a ogni progetto. Viene per ultimo nell'ordine di rilevamento, quindi i preset delle librerie vengono prima."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

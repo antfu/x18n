@@ -1,0 +1,14 @@
+{
+  "hash": "f7b9cc9af34f06e3",
+  "source": "Start with YAML. When the YAML plugin is not enough, {0} prints the same plugin in TypeScript. See {1}Debug a plugin{/1}.",
+  "text": "Comece com YAML. Quando o plugin YAML não for suficiente, {0} exibe o mesmo plugin em TypeScript. Consulte {1}Depurar um plugin{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Comece com YAML. Quando o plugin YAML não for suficiente, {0} exibe o mesmo plugin em TypeScript. Consulte {1}Depurar um plugin{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

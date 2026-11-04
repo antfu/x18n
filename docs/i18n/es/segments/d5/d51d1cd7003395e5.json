@@ -1,0 +1,14 @@
+{
+  "hash": "d51d1cd7003395e5",
+  "source": "x18n found the review file ({0}, default {1}), but it is not valid YAML or does not match the reviews schema. Until it is fixed, x18n does not write reviews, so the file never loses what it holds. Renames and deletes still work, but leave the file as it is.",
+  "text": "x18n encontró el archivo de revisiones ({0}, por defecto {1}), pero no es YAML válido o no coincide con el esquema de revisiones. Hasta que se corrija, x18n no escribe revisiones, para que el archivo nunca pierda lo que contiene. Los renombrados y las eliminaciones siguen funcionando, pero dejan el archivo tal como está.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n encontró el archivo de revisiones ({0}, por defecto {1}), pero no es YAML válido o no coincide con el esquema de revisiones. Hasta que se corrija, x18n no escribe revisiones, para que el archivo nunca pierda lo que contiene. Los renombrados y las eliminaciones siguen funcionando, pero dejan el archivo tal como está."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

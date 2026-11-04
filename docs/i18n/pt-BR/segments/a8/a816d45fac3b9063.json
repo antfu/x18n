@@ -1,0 +1,14 @@
+{
+  "hash": "a816d45fac3b9063",
+  "source": "Deletes every unused key that no computed key may reach.",
+  "text": "Exclui todas as chaves não usadas que nenhuma chave calculada possa alcançar.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exclui todas as chaves não usadas que nenhuma chave calculada possa alcançar."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

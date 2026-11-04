@@ -1,0 +1,14 @@
+{
+  "hash": "1f27c3c1a5e34b44",
+  "source": "The fallback preset. It adds the default extraction templates for plain JS, TS, JSX, Vue, Svelte and Astro files.",
+  "text": "El preset de reserva. Añade las plantillas de extracción predeterminadas para archivos JS, TS, JSX, Vue, Svelte y Astro sin framework.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset de reserva. Añade las plantillas de extracción predeterminadas para archivos JS, TS, JSX, Vue, Svelte y Astro sin framework."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

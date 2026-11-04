@@ -1,0 +1,14 @@
+{
+  "hash": "69bae2f744b30d06",
+  "source": "A locale file has a syntax error. The message names the file and the position.",
+  "text": "Um arquivo de idioma tem um erro de sintaxe. A mensagem informa o arquivo e a posição.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um arquivo de idioma tem um erro de sintaxe. A mensagem informa o arquivo e a posição."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

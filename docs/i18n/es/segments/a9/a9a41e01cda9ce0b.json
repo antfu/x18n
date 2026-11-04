@@ -1,0 +1,14 @@
+{
+  "hash": "a9a41e01cda9ce0b",
+  "source": "These come from the {0} branch, so they can name commands that your installed CLI does not have yet. Run the command again to update them.",
+  "text": "Estas proceden de la rama {0}, por lo que pueden mencionar comandos que tu CLI instalado aún no tiene. Ejecuta el comando de nuevo para actualizarlas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estas proceden de la rama {0}, por lo que pueden mencionar comandos que tu CLI instalado aún no tiene. Ejecuta el comando de nuevo para actualizarlas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

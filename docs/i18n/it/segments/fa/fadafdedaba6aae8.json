@@ -1,0 +1,14 @@
+{
+  "hash": "fadafdedaba6aae8",
+  "source": "Set {0} if the plugin needs Node APIs.",
+  "text": "Imposta {0} se il plugin richiede le API di Node.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Imposta {0} se il plugin richiede le API di Node."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

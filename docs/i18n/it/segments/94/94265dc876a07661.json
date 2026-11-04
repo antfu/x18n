@@ -1,0 +1,14 @@
+{
+  "hash": "94265dc876a07661",
+  "source": "Plugins to add: a package name, a path to a module or to a YAML plugin, or {0}. Paths are relative to the config file.",
+  "text": "Plugin da aggiungere: un nome di pacchetto, un percorso a un modulo o a un plugin YAML, oppure {0}. I percorsi sono relativi al file di configurazione.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Plugin da aggiungere: un nome di pacchetto, un percorso a un modulo o a un plugin YAML, oppure {0}. I percorsi sono relativi al file di configurazione."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "10ba26e42d65d37f",
+  "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
+  "text": "O valor em cada idioma com arquivo e linha, os idiomas que não têm a chave, os usos e os diagnósticos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O valor em cada idioma com arquivo e linha, os idiomas que não têm a chave, os usos e os diagnósticos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7cfe9bbdb8c9e1b7",
+  "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
+  "text": "Strings nunca extraídas: uma string exata, como {0}, ou uma string {1}, como {2}, que corresponda ao texto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Strings nunca extraídas: uma string exata, como {0}, ou uma string {1}, como {2}, que corresponda ao texto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

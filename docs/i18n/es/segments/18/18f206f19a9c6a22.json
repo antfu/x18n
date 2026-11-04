@@ -1,0 +1,14 @@
+{
+  "hash": "18f206f19a9c6a22",
+  "source": "Hard-string kinds the template applies to, for example {0}.",
+  "text": "Tipos de cadena codificada a los que se aplica la plantilla, por ejemplo {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Tipos de cadena codificada a los que se aplica la plantilla, por ejemplo {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

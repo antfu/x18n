@@ -1,0 +1,14 @@
+{
+  "hash": "1f21c111032ebf10",
+  "source": "The preset applies when {0} requires {1}. The preset is exclusive: when it applies, x18n tests no preset after it.",
+  "text": "El preset se aplica cuando {0} requiere {1}. El preset es exclusivo: cuando se aplica, x18n no prueba ningún preset posterior.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset se aplica cuando {0} requiere {1}. El preset es exclusivo: cuando se aplica, x18n no prueba ningún preset posterior."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

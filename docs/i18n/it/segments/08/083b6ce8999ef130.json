@@ -1,0 +1,14 @@
+{
+  "hash": "083b6ce8999ef130",
+  "source": "It is not a runtime i18n library. It reads and writes the files that your runtime library uses.",
+  "text": "Non è una libreria i18n di runtime. Legge e scrive i file usati dalla tua libreria di runtime.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Non è una libreria i18n di runtime. Legge e scrive i file usati dalla tua libreria di runtime."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

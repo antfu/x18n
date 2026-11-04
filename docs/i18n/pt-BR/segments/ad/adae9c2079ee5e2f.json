@@ -1,0 +1,14 @@
+{
+  "hash": "adae9c2079ee5e2f",
+  "source": "suppressions, allowlist",
+  "text": "supressões, allowlist",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "supressões, allowlist"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

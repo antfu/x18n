@@ -1,0 +1,14 @@
+{
+  "hash": "cd6c3c5afad3d1a1",
+  "source": "Angular placeholders: {0}, {1}, {2}. XLIFF and XMB placeholders read the same way.",
+  "text": "Marcadores de posición de Angular: {0}, {1}, {2}. Los marcadores de posición de XLIFF y XMB se leen de la misma manera.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Marcadores de posición de Angular: {0}, {1}, {2}. Los marcadores de posición de XLIFF y XMB se leen de la misma manera."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

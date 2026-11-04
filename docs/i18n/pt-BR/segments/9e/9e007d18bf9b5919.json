@@ -1,0 +1,14 @@
+{
+  "hash": "9e007d18bf9b5919",
+  "source": "{0} writes this file, and {1} reads it back after you edit it:",
+  "text": "{0} grava este arquivo, e {1} o lê de volta depois que você o edita:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} grava este arquivo, e {1} o lê de volta depois que você o edita:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

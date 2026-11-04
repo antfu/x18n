@@ -1,0 +1,14 @@
+{
+  "hash": "d067f69c62f2cf58",
+  "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
+  "text": "La risorsa non è un oggetto di messaggi. I file di lingua contengono oggetti annidati di stringhe, numeri, booleani o null.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La risorsa non è un oggetto di messaggi. I file di lingua contengono oggetti annidati di stringhe, numeri, booleani o null."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

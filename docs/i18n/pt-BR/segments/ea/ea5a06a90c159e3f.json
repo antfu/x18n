@@ -1,0 +1,14 @@
+{
+  "hash": "ea5a06a90c159e3f",
+  "source": "A source-locale key that target locales lack, or a plural form their language needs. One diagnostic per key, at the source entry.",
+  "text": "Uma chave do idioma de origem que os idiomas de destino não têm, ou uma forma plural de que o idioma deles precisa. Um diagnóstico por chave, na entrada do idioma de origem.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma chave do idioma de origem que os idiomas de destino não têm, ou uma forma plural de que o idioma deles precisa. Um diagnóstico por chave, na entrada do idioma de origem."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

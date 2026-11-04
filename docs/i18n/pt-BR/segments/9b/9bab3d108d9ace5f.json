@@ -1,0 +1,14 @@
+{
+  "hash": "9bab3d108d9ace5f",
+  "source": "The check reports one diagnostic per key, at the entry in the source locale, and lists the locales that lack the key. An empty string is not missing: the {0} check reports it.",
+  "text": "A verificação informa um diagnóstico por chave, na entrada do idioma de origem, e lista os idiomas que não têm a chave. Uma string vazia não conta como ausente: a verificação {0} a reporta.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A verificação informa um diagnóstico por chave, na entrada do idioma de origem, e lista os idiomas que não têm a chave. Uma string vazia não conta como ausente: a verificação {0} a reporta."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

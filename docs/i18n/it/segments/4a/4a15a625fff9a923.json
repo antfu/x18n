@@ -1,0 +1,14 @@
+{
+  "hash": "4a15a625fff9a923",
+  "source": "Hard-coded text gets into the UI without a key.",
+  "text": "Del testo scritto direttamente nel codice finisce nella UI senza una chiave.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Del testo scritto direttamente nel codice finisce nella UI senza una chiave."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

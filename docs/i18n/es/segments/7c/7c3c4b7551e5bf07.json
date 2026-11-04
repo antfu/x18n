@@ -1,0 +1,14 @@
+{
+  "hash": "7c3c4b7551e5bf07",
+  "source": "A capability with the id of an earlier one stops the load with {0}X18N1002{/0}. Set {1} on the later one to replace the earlier one.",
+  "text": "Una capacidad con el id de una anterior detiene la carga con {0}X18N1002{/0}. Define {1} en la posterior para reemplazar a la anterior.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una capacidad con el id de una anterior detiene la carga con {0}X18N1002{/0}. Define {1} en la posterior para reemplazar a la anterior."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

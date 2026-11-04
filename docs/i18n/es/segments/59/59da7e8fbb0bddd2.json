@@ -1,0 +1,14 @@
+{
+  "hash": "59da7e8fbb0bddd2",
+  "source": "These usages are {0}, {1}, {2}, {3} and {4}. The generated {5} constants are not read.",
+  "text": "Estos usos son {0}, {1}, {2}, {3} y {4}. Las constantes {5} generadas no se leen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estos usos son {0}, {1}, {2}, {3} y {4}. Las constantes {5} generadas no se leen."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

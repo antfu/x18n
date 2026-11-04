@@ -1,0 +1,14 @@
+{
+  "hash": "2fec1f28ab2026ac",
+  "source": "Open the monorepo root in the editor and it shows both projects. Each file belongs to the project with the deepest root that holds it, so hover, completion, diagnostics and the **Open UI** command use the project of the current file.",
+  "text": "Abre la raíz del monorepo en el editor y mostrará ambos proyectos. Cada archivo pertenece al proyecto con la raíz más profunda que lo contiene, así que el hover, el autocompletado, los diagnósticos y el comando **Open UI** usan el proyecto del archivo actual.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Abre la raíz del monorepo en el editor y mostrará ambos proyectos. Cada archivo pertenece al proyecto con la raíz más profunda que lo contiene, así que el hover, el autocompletado, los diagnósticos y el comando **Open UI** usan el proyecto del archivo actual."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

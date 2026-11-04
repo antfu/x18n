@@ -1,0 +1,14 @@
+{
+  "hash": "75594f8cd4e339fb",
+  "source": "A key from a PHP file starts with the path of the file: {0} gives {1}. In a JSON file, each key is a whole sentence: {2}.",
+  "text": "Una chiave proveniente da un file PHP inizia con il percorso del file: {0} diventa {1}. In un file JSON, ogni chiave è una frase intera: {2}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una chiave proveniente da un file PHP inizia con il percorso del file: {0} diventa {1}. In un file JSON, ogni chiave è una frase intera: {2}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

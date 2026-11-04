@@ -1,0 +1,14 @@
+{
+  "hash": "387714d13f80894c",
+  "source": "Run {0} and make sure that x18n found your locale files and presets.",
+  "text": "Ejecuta {0} y comprueba que x18n ha encontrado tus archivos de idioma y tus presets.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ejecuta {0} y comprueba que x18n ha encontrado tus archivos de idioma y tus presets."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

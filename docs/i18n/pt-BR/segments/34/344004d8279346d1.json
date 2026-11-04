@@ -1,0 +1,14 @@
+{
+  "hash": "344004d8279346d1",
+  "source": "For an instance with another name, add its callees to {0}. A keyset function that a module exports, such as {1}, is not followed into the modules that import it.",
+  "text": "Para uma instância com outro nome, adicione seus callees a {0}. Uma função de keyset exportada por um módulo, como {1}, não é seguida nos módulos que a importam.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para uma instância com outro nome, adicione seus callees a {0}. Uma função de keyset exportada por um módulo, como {1}, não é seguida nos módulos que a importam."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

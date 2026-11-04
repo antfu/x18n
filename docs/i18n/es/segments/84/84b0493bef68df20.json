@@ -1,0 +1,14 @@
+{
+  "hash": "84b0493bef68df20",
+  "source": "In Dart files, the preset reads the string and {0} extensions, the {1} and {2} functions, and {3} and {4}:",
+  "text": "En los archivos Dart, el preset lee las extensiones de cadena {0}, las funciones {1} y {2}, y {3} y {4}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En los archivos Dart, el preset lee las extensiones de cadena {0}, las funciones {1} y {2}, y {3} y {4}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

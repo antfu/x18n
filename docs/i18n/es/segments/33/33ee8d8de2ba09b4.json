@@ -1,0 +1,14 @@
+{
+  "hash": "33ee8d8de2ba09b4",
+  "source": "Which argument holds the key. Default 0.",
+  "text": "Qué argumento contiene la clave. Por defecto 0.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Qué argumento contiene la clave. Por defecto 0."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

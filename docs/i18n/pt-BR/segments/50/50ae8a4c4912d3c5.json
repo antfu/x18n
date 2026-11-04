@@ -1,0 +1,14 @@
+{
+  "hash": "50ae8a4c4912d3c5",
+  "source": "A {0}YAML plugin{/0} is a data file. It covers the common cases: detection, resource patterns, translate calls, regex scanners, scopes, placeholders and extraction templates. It needs no code and no build, and an editor validates it with a JSON Schema. It works in YAML and JSON projects without Node dependencies.",
+  "text": "Um {0}plugin YAML{/0} é um arquivo de dados. Ele cobre os casos comuns: detecção, padrões de recursos, chamadas de tradução, scanners de regex, escopos, placeholders e templates de extração. Não precisa de código nem de build, e um editor o valida com um JSON Schema. Funciona em projetos YAML e JSON sem dependências do Node.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um {0}plugin YAML{/0} é um arquivo de dados. Ele cobre os casos comuns: detecção, padrões de recursos, chamadas de tradução, scanners de regex, escopos, placeholders e templates de extração. Não precisa de código nem de build, e um editor o valida com um JSON Schema. Funciona em projetos YAML e JSON sem dependências do Node."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

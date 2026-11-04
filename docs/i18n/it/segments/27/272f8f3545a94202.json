@@ -1,0 +1,14 @@
+{
+  "hash": "272f8f3545a94202",
+  "source": "The calls of {0}react-i18next{/0}. For this file, {1} uses {2} and {3}, so the {4} check reports neither:",
+  "text": "Le chiamate di {0}react-i18next{/0}. Per questo file, {1} usa {2} e {3}, quindi il controllo {4} non segnala nessuna delle due:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le chiamate di {0}react-i18next{/0}. Per questo file, {1} usa {2} e {3}, quindi il controllo {4} non segnala nessuna delle due:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

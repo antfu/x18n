@@ -1,0 +1,14 @@
+{
+  "hash": "372712e63419d04c",
+  "source": "Asks for a change. The {0} check reports it until someone resolves it or approves.",
+  "text": "Richiede una modifica. Il controllo {0} la segnala finché qualcuno non la risolve o non approva.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Richiede una modifica. Il controllo {0} la segnala finché qualcuno non la risolve o non approva."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

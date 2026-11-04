@@ -1,0 +1,14 @@
+{
+  "hash": "a98be120355f8155",
+  "source": "The reviews of one message, oldest first, with a state from its open reviews.",
+  "text": "Le revisioni di un messaggio, dalla più vecchia, con uno stato derivato dalle sue revisioni aperte.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le revisioni di un messaggio, dalla più vecchia, con uno stato derivato dalle sue revisioni aperte."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "1ac5827f0cccede0",
+  "source": "Writes the resources again with the configured {0} and {1}.",
+  "text": "Grava os recursos novamente com {0} e {1} configurados.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Grava os recursos novamente com {0} e {1} configurados."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "dde74b1bb0d4e456",
+  "source": "The preset for i18next. It reads namespaces, getFixedT, typed TFunction parameters and plural keys.",
+  "text": "Il preset per i18next. Legge namespace, getFixedT, parametri TFunction tipizzati e chiavi plurali.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset per i18next. Legge namespace, getFixedT, parametri TFunction tipizzati e chiavi plurali."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

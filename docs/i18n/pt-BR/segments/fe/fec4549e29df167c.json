@@ -1,0 +1,14 @@
+{
+  "hash": "fec4549e29df167c",
+  "source": "Users then set the options under {0}, and the plugin reads them in {1}:",
+  "text": "Os usuários então definem as opções em {0}, e o plugin as lê em {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os usuários então definem as opções em {0}, e o plugin as lê em {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

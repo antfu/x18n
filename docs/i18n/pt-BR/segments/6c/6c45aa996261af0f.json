@@ -1,0 +1,14 @@
+{
+  "hash": "6c45aa996261af0f",
+  "source": "The {0}translate prompt{/0} lists the messages to translate, with rules and context. The agent writes the results as {1} to a file, then applies and checks them:",
+  "text": "O {0}prompt de tradução{/0} lista as mensagens a traduzir, com regras e contexto. O agente grava os resultados como {1} em um arquivo, depois os aplica e os verifica:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O {0}prompt de tradução{/0} lista as mensagens a traduzir, com regras e contexto. O agente grava os resultados como {1} em um arquivo, depois os aplica e os verifica:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

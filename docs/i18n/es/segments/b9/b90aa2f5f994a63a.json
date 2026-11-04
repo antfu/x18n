@@ -1,0 +1,14 @@
+{
+  "hash": "b90aa2f5f994a63a",
+  "source": "x18n reads the i18n setup of a project, reports problems in its locale files and changes them safely.",
+  "text": "x18n lee la configuración de i18n de un proyecto, informa de los problemas en sus archivos de idioma y los modifica de forma segura.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n lee la configuración de i18n de un proyecto, informa de los problemas en sus archivos de idioma y los modifica de forma segura."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

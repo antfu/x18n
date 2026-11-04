@@ -1,0 +1,14 @@
+{
+  "hash": "10ddb80b400dd8f5",
+  "source": "No format for resource. Map the extension in `formats`, or add a format plugin.",
+  "text": "No hay formato para el recurso. Asigna la extensión en `formats` o añade un plugin de formato.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No hay formato para el recurso. Asigna la extensión en `formats` o añade un plugin de formato."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

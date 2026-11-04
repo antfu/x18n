@@ -1,0 +1,14 @@
+{
+  "hash": "6c384aafdf2e668e",
+  "source": "Target value placeholders differ from the source value.",
+  "text": "I segnaposto del valore di destinazione differiscono da quelli del valore di origine.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I segnaposto del valore di destinazione differiscono da quelli del valore di origine."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

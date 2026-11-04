@@ -1,0 +1,14 @@
+{
+  "hash": "90251fb1331a1634",
+  "source": "A prefix usage is a usage with a computed key that starts with a static part. {0} is a prefix usage with the prefix {1}. x18n cannot know the value of {2}, so every key under {3} counts as possibly used. Neither {4} nor {5} is reported as unused.",
+  "text": "Um uso de prefixo é um uso com uma chave calculada que começa com uma parte estática. {0} é um uso de prefixo com o prefixo {1}. O x18n não consegue saber o valor de {2}, então toda chave sob {3} é considerada possivelmente usada. Nem {4} nem {5} são reportadas como não usadas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um uso de prefixo é um uso com uma chave calculada que começa com uma parte estática. {0} é um uso de prefixo com o prefixo {1}. O x18n não consegue saber o valor de {2}, então toda chave sob {3} é considerada possivelmente usada. Nem {4} nem {5} são reportadas como não usadas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

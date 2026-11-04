@@ -1,0 +1,14 @@
+{
+  "hash": "ad22b55eec0295ab",
+  "source": "{0} returns text edits for a list of set and delete operations. x18n prefers it, because it keeps comments and layout.",
+  "text": "{0} devuelve ediciones de texto para una lista de operaciones de establecer y eliminar. x18n lo prefiere porque conserva los comentarios y el formato.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} devuelve ediciones de texto para una lista de operaciones de establecer y eliminar. x18n lo prefiere porque conserva los comentarios y el formato."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

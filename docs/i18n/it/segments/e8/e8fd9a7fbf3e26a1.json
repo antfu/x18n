@@ -1,0 +1,14 @@
+{
+  "hash": "e8fd9a7fbf3e26a1",
+  "source": "The canonical id of a message: namespace plus path. String form {0}. With {1} the path is one literal segment ({2}).",
+  "text": "L'id canonico di un messaggio: namespace più percorso. Forma stringa {0}. Con {1} il percorso è un unico segmento letterale ({2}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'id canonico di un messaggio: namespace più percorso. Forma stringa {0}. Con {1} il percorso è un unico segmento letterale ({2})."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

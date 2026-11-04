@@ -1,0 +1,14 @@
+{
+  "hash": "4e1a4108beb45329",
+  "source": "x18n picks the first template that matches the kind ({0}) and the file ({1}). It tries the templates of {2} first, then those of the presets, then these defaults:",
+  "text": "x18n elige la primera plantilla que coincide con el tipo ({0}) y el archivo ({1}). Prueba primero las plantillas de {2}, después las de los presets y luego estas por defecto:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n elige la primera plantilla que coincide con el tipo ({0}) y el archivo ({1}). Prueba primero las plantillas de {2}, después las de los presets y luego estas por defecto:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fb067b34c716d1d8",
+  "source": "The search covers every locale and ignores case. It is fuzzy by default, and values that contain the query rank first. {0} keeps only those values. Each match has the key, the matched locale and value, and the usages with file, line and column. The {1}MCP tool{/1} {2} does the same.",
+  "text": "A busca abrange todos os idiomas e ignora maiúsculas e minúsculas. Por padrão ela é aproximada (fuzzy), e os valores que contêm a consulta aparecem primeiro. {0} mantém apenas esses valores. Cada resultado tem a chave, o idioma e o valor encontrados, e os usos com arquivo, linha e coluna. A {1}ferramenta MCP{/1} {2} faz o mesmo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A busca abrange todos os idiomas e ignora maiúsculas e minúsculas. Por padrão ela é aproximada (fuzzy), e os valores que contêm a consulta aparecem primeiro. {0} mantém apenas esses valores. Cada resultado tem a chave, o idioma e o valor encontrados, e os usos com arquivo, linha e coluna. A {1}ferramenta MCP{/1} {2} faz o mesmo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

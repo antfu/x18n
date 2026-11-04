@@ -1,0 +1,14 @@
+{
+  "hash": "b7a3976d73dde798",
+  "source": "{0} and {1}, as Flask-Babel reads them",
+  "text": "{0} y {1}, tal como los lee Flask-Babel",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} y {1}, tal como los lee Flask-Babel"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "4cbb7a3663041e6a",
+  "source": "If your config has no {0}, the preset uses {1}. The locale can have a country, such as {2}. New files use nested keys.",
+  "text": "Se la tua configurazione non ha {0}, il preset usa {1}. La lingua può includere un paese, ad esempio {2}. I nuovi file usano chiavi annidate.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se la tua configurazione non ha {0}, il preset usa {1}. La lingua può includere un paese, ad esempio {2}. I nuovi file usano chiavi annidate."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "654364402038892b",
+  "source": "Files changed while the command ran. Run it again.",
+  "text": "Los archivos cambiaron mientras se ejecutaba el comando. Ejecútalo de nuevo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los archivos cambiaron mientras se ejecutaba el comando. Ejecútalo de nuevo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fc34c062f15d5571",
+  "source": "{0} (stdio) and {1} (HTTP at {2}) serve these tools. {3}MCP{/3} explains how to connect an agent.",
+  "text": "{0} (stdio) e {1} (HTTP em {2}) servem estas ferramentas. {3}MCP{/3} explica como conectar um agente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} (stdio) e {1} (HTTP em {2}) servem estas ferramentas. {3}MCP{/3} explica como conectar um agente."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

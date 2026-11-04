@@ -1,0 +1,14 @@
+{
+  "hash": "f8fddd6ec00a3a4e",
+  "source": "Run the command again. x18n makes a new plan from the current files.",
+  "text": "Execute o comando novamente. O x18n cria um novo plano a partir dos arquivos atuais.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Execute o comando novamente. O x18n cria um novo plano a partir dos arquivos atuais."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

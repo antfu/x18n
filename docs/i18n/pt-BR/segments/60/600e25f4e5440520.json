@@ -1,0 +1,14 @@
+{
+  "hash": "600e25f4e5440520",
+  "source": "The preset applies when the project has an {0} and a {1} folder, unless the root {2} depends on React Native, Expo, Capacitor, Cordova or NativeScript, or there is a {3}: those apps have an {4} folder whose strings are not its messages. A {5} kept only for tooling does not stop detection. Otherwise, name it in the config:",
+  "text": "O preset é aplicado quando o projeto tem um {0} e uma pasta {1}, a menos que o {2} da raiz dependa de React Native, Expo, Capacitor, Cordova ou NativeScript, ou que exista um {3}: esses apps têm uma pasta {4} cujas strings não são as mensagens do app. Um {5} mantido apenas para ferramentas não impede a detecção. Caso contrário, informe-o na configuração:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset é aplicado quando o projeto tem um {0} e uma pasta {1}, a menos que o {2} da raiz dependa de React Native, Expo, Capacitor, Cordova ou NativeScript, ou que exista um {3}: esses apps têm uma pasta {4} cujas strings não são as mensagens do app. Um {5} mantido apenas para ferramentas não impede a detecção. Caso contrário, informe-o na configuração:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

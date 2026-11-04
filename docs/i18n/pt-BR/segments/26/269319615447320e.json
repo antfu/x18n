@@ -1,0 +1,14 @@
+{
+  "hash": "269319615447320e",
+  "source": "The {0}shipped skills{/0}, which teach an agent to set up x18n, fix what {1} reports, and run the loops on this page.",
+  "text": "As {0}skills incluídas{/0}, que ensinam um agente a configurar o x18n, corrigir o que {1} reporta e executar os ciclos desta página.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "As {0}skills incluídas{/0}, que ensinam um agente a configurar o x18n, corrigir o que {1} reporta e executar os ciclos desta página."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

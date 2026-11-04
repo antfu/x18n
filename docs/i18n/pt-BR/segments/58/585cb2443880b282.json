@@ -1,0 +1,14 @@
+{
+  "hash": "585cb2443880b282",
+  "source": "Globalize separates the segments of a message path with a slash. The preset turns each slash into a dot, so this call is a usage of the key {0}:",
+  "text": "O Globalize separa os segmentos de um caminho de mensagem com uma barra. O preset transforma cada barra em um ponto, então esta chamada é um uso da chave {0}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O Globalize separa os segmentos de um caminho de mensagem com uma barra. O preset transforma cada barra em um ponto, então esta chamada é um uso da chave {0}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

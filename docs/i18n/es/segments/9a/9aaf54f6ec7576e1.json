@@ -1,0 +1,14 @@
+{
+  "hash": "9aaf54f6ec7576e1",
+  "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
+  "text": "Llaves: {0}. Llaves dobles: {1}, el recuento en las formas plurales.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Llaves: {0}. Llaves dobles: {1}, el recuento en las formas plurales."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

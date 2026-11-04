@@ -1,0 +1,14 @@
+{
+  "hash": "6ce54352f6919fe2",
+  "source": "Lists review threads with their state. {0} and {1} filter them.",
+  "text": "Lista los hilos de revisión con su estado. {0} y {1} los filtran.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lista los hilos de revisión con su estado. {0} y {1} los filtran."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

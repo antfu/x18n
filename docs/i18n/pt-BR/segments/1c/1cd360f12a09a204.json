@@ -1,0 +1,14 @@
+{
+  "hash": "1cd360f12a09a204",
+  "source": "Bind host (default: localhost)",
+  "text": "Host de bind (padrão: localhost)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Host de bind (padrão: localhost)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

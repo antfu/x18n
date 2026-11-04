@@ -1,0 +1,14 @@
+{
+  "hash": "8571ac121f53485b",
+  "source": "Arguments that may hold the params object, in order; string arguments are skipped ({0}).",
+  "text": "Argumentos que podem conter o objeto de parâmetros, em ordem; argumentos do tipo string são ignorados ({0}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Argumentos que podem conter o objeto de parâmetros, em ordem; argumentos do tipo string são ignorados ({0})."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

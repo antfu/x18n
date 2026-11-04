@@ -1,0 +1,14 @@
+{
+  "hash": "0afd94a9cb83da99",
+  "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
+  "text": "Una comprobación es un generador. Cada valor que produce se convierte en un diagnóstico. Sin {0}, el diagnóstico apunta al mensaje de {1} en {2}. El id de la comprobación es también el código del diagnóstico, así que {3} y {4} funcionan igual que con las comprobaciones integradas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una comprobación es un generador. Cada valor que produce se convierte en un diagnóstico. Sin {0}, el diagnóstico apunta al mensaje de {1} en {2}. El id de la comprobación es también el código del diagnóstico, así que {3} y {4} funcionan igual que con las comprobaciones integradas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

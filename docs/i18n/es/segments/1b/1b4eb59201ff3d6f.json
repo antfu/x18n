@@ -1,0 +1,14 @@
+{
+  "hash": "1b4eb59201ff3d6f",
+  "source": "it is a derived key of a used key ({0}, for example i18next {1} plural keys),",
+  "text": "es una clave derivada de una clave usada ({0}, por ejemplo, las claves de plural {1} de i18next),",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "es una clave derivada de una clave usada ({0}, por ejemplo, las claves de plural {1} de i18next),"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

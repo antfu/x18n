@@ -1,0 +1,14 @@
+{
+  "hash": "cf8f38771a451015",
+  "source": "A key with no usage, after keysInUse, derived keys and dynamic prefixes.",
+  "text": "Uma chave sem uso, depois de considerar keysInUse, chaves derivadas e prefixos dinâmicos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma chave sem uso, depois de considerar keysInUse, chaves derivadas e prefixos dinâmicos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "63ae1478f865a87e",
+  "source": "Run the command in the root of the project. First look at the result with {0}. It prints the files and writes nothing:",
+  "text": "Esegui il comando nella root del progetto. Prima controlla il risultato con {0}. Stampa i file e non scrive nulla:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esegui il comando nella root del progetto. Prima controlla il risultato con {0}. Stampa i file e non scrive nulla:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

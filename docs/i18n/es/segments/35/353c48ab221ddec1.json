@@ -1,0 +1,14 @@
+{
+  "hash": "353c48ab221ddec1",
+  "source": "How a coding agent finds keys by their text, finds missing keys, adds and translates messages, and checks its work with the x18n CLI.",
+  "text": "Cómo un agente de programación encuentra claves a partir de su texto, detecta claves que faltan, añade y traduce mensajes, y comprueba su trabajo con la CLI de x18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cómo un agente de programación encuentra claves a partir de su texto, detecta claves que faltan, añade y traduce mensajes, y comprueba su trabajo con la CLI de x18n."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

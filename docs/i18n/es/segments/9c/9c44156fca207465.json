@@ -1,0 +1,14 @@
+{
+  "hash": "9c44156fca207465",
+  "source": "Make sure that a TS or JS config has a default export, for example {0}.",
+  "text": "Asegúrate de que una configuración en TS o JS tenga una exportación por defecto, por ejemplo {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Asegúrate de que una configuración en TS o JS tenga una exportación por defecto, por ejemplo {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

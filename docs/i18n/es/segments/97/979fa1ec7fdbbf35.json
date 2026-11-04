@@ -1,0 +1,14 @@
+{
+  "hash": "979fa1ec7fdbbf35",
+  "source": "In Ruby files, the preset reads the same two calls with a regex.",
+  "text": "En los archivos Ruby, el preset lee las mismas dos llamadas con una expresión regular.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En los archivos Ruby, el preset lee las mismas dos llamadas con una expresión regular."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

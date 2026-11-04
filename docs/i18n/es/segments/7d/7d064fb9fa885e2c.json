@@ -1,0 +1,14 @@
+{
+  "hash": "7d064fb9fa885e2c",
+  "source": "The preset for laravel-vue-i18n. It reads trans and $t calls in Vue and JS against the Laravel translation files.",
+  "text": "El preset para laravel-vue-i18n. Lee las llamadas a trans y $t en Vue y JS contra los archivos de traducción de Laravel.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para laravel-vue-i18n. Lee las llamadas a trans y $t en Vue y JS contra los archivos de traducción de Laravel."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

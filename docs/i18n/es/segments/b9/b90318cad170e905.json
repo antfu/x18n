@@ -1,0 +1,14 @@
+{
+  "hash": "b90318cad170e905",
+  "source": "If the difference is on purpose, pass {0}.",
+  "text": "Si la diferencia es intencionada, pasa {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si la diferencia es intencionada, pasa {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

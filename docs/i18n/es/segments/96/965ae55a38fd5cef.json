@@ -1,0 +1,14 @@
+{
+  "hash": "965ae55a38fd5cef",
+  "source": "When i18n-ally reviews exist, and this file does not. The comments are converted to {0}x18n reviews{/0}.",
+  "text": "Cuando existen revisiones de i18n-ally y este archivo no existe. Los comentarios se convierten en {0}revisiones de x18n{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cuando existen revisiones de i18n-ally y este archivo no existe. Los comentarios se convierten en {0}revisiones de x18n{/0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "eef0d88ed4bdfa32",
+  "source": "CSS color of values that replace a whole call ({0}). Empty uses {1}.",
+  "text": "Cor CSS dos valores que substituem uma chamada inteira ({0}). Vazio usa {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cor CSS dos valores que substituem uma chamada inteira ({0}). Vazio usa {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

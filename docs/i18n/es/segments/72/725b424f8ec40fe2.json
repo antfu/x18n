@@ -1,0 +1,14 @@
+{
+  "hash": "725b424f8ec40fe2",
+  "source": "{0} lists placeholder shapes. Each shape holds the word {1} where the placeholder name goes: {2}, {3}, {4} or {5}.",
+  "text": "{0} enumera formas de marcadores de posición. Cada forma contiene la palabra {1} donde va el nombre del marcador de posición: {2}, {3}, {4} o {5}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} enumera formas de marcadores de posición. Cada forma contiene la palabra {1} donde va el nombre del marcador de posición: {2}, {3}, {4} o {5}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

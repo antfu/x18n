@@ -1,0 +1,14 @@
+{
+  "hash": "9166e2800b74afbf",
+  "source": "The first line points the YAML language server at the JSON Schema. With the Red Hat YAML extension, VS Code then validates the file and completes the keys. {0} prints the same schema. A file that does not match the schema stops the load with {1}X18N1004{/1}.",
+  "text": "A primeira linha aponta o servidor de linguagem YAML para o JSON Schema. Com a extensão YAML da Red Hat, o VS Code valida o arquivo e completa as chaves. {0} imprime o mesmo schema. Um arquivo que não corresponde ao schema interrompe o carregamento com {1}X18N1004{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A primeira linha aponta o servidor de linguagem YAML para o JSON Schema. Com a extensão YAML da Red Hat, o VS Code valida o arquivo e completa as chaves. {0} imprime o mesmo schema. Um arquivo que não corresponde ao schema interrompe o carregamento com {1}X18N1004{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

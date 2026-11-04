@@ -1,0 +1,14 @@
+{
+  "hash": "32ddd0194623899b",
+  "source": "{0}: a regular expression that the whole key must match.",
+  "text": "{0}: una expresión regular con la que debe coincidir la clave completa.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: una expresión regular con la que debe coincidir la clave completa."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

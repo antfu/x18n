@@ -1,0 +1,14 @@
+{
+  "hash": "104534480ce3f623",
+  "source": "YAML: {0} as the first line.",
+  "text": "YAML: {0} come prima riga.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML: {0} come prima riga."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

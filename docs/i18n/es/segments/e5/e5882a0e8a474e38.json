@@ -1,0 +1,14 @@
+{
+  "hash": "e5882a0e8a474e38",
+  "source": "Also translate values that checks report in the target locale. Without ids, every check; with ids (comma separated), only those checks.",
+  "text": "Traduce también los valores que las comprobaciones reportan en el idioma de destino. Sin ids, todas las comprobaciones; con ids (separados por comas), solo esas comprobaciones.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Traduce también los valores que las comprobaciones reportan en el idioma de destino. Sin ids, todas las comprobaciones; con ids (separados por comas), solo esas comprobaciones."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

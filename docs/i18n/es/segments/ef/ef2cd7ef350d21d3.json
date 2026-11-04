@@ -1,0 +1,14 @@
+{
+  "hash": "ef2cd7ef350d21d3",
+  "source": "Who writes a review",
+  "text": "Quién escribe una revisión",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Quién escribe una revisión"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

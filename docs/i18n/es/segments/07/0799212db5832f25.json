@@ -1,0 +1,14 @@
+{
+  "hash": "0799212db5832f25",
+  "source": "Key order when x18n writes a file. {0} sorts by code point, {1} sorts with a locale-aware compare, {2} keeps the order.",
+  "text": "Orden de las claves cuando x18n escribe un archivo. {0} ordena por punto de código, {1} ordena con una comparación que tiene en cuenta el idioma, {2} mantiene el orden.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Orden de las claves cuando x18n escribe un archivo. {0} ordena por punto de código, {1} ordena con una comparación que tiene en cuenta el idioma, {2} mantiene el orden."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

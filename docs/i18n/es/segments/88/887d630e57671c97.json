@@ -1,0 +1,14 @@
+{
+  "hash": "887d630e57671c97",
+  "source": "Find keys by their value in any locale, with their usages.",
+  "text": "Encuentra claves por su valor en cualquier idioma, junto con sus usos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Encuentra claves por su valor en cualquier idioma, junto con sus usos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

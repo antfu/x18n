@@ -1,0 +1,14 @@
+{
+  "hash": "06da256f5ffb0ca2",
+  "source": "To pick the presets yourself, list them. x18n then applies exactly the listed presets and detects none:",
+  "text": "Para escolher os presets por conta própria, liste-os. O x18n então aplica exatamente os presets listados e não detecta nenhum:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para escolher os presets por conta própria, liste-os. O x18n então aplica exatamente os presets listados e não detecta nenhum:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

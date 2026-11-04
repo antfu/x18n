@@ -1,0 +1,14 @@
+{
+  "hash": "60a97972768ad397",
+  "source": "A target value equal to the source value is often an untranslated copy. The check skips:",
+  "text": "Un valore di destinazione uguale al valore di origine è spesso una copia non tradotta. Il controllo ignora:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un valore di destinazione uguale al valore di origine è spesso una copia non tradotta. Il controllo ignora:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

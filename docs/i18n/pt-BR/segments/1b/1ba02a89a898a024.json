@@ -1,0 +1,14 @@
+{
+  "hash": "1ba02a89a898a024",
+  "source": "A reporter turns diagnostics into text. Pick one or more with {0}:",
+  "text": "Um reporter transforma diagnósticos em texto. Escolha um ou mais com {0}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um reporter transforma diagnósticos em texto. Escolha um ou mais com {0}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

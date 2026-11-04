@@ -1,0 +1,14 @@
+{
+  "hash": "c085346a53e6ec22",
+  "source": "This plugin supports a made-up library, {0}, with YAML locale files, a {1} function, a {2} factory and Handlebars templates:",
+  "text": "Este plugin oferece suporte a uma biblioteca fictícia, {0}, com arquivos de idioma em YAML, uma função {1}, uma factory {2} e templates Handlebars:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Este plugin oferece suporte a uma biblioteca fictícia, {0}, com arquivos de idioma em YAML, uma função {1}, uma factory {2} e templates Handlebars:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

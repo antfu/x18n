@@ -1,0 +1,14 @@
+{
+  "hash": "2a6d5d0f05986a8a",
+  "source": "The {0} preset supports {1}angular-i18next{/1} on top of {2}, so plurals, namespaces and the init options work the same.",
+  "text": "El preset {0} es compatible con {1}angular-i18next{/1} sobre {2}, así que los plurales, los espacios de nombres y las opciones de init funcionan igual.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0} es compatible con {1}angular-i18next{/1} sobre {2}, así que los plurales, los espacios de nombres y las opciones de init funcionan igual."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "be673bb5706ecf24",
+  "source": "{0}. {1} uses the same tokens. Without it, {2} picks {3} or {4}, and {5} adds {6}.",
+  "text": "{0}. {1} usa los mismos tokens. Sin él, {2} elige {3} o {4}, y {5} añade {6}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}. {1} usa los mismos tokens. Sin él, {2} elige {3} o {4}, y {5} añade {6}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

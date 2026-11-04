@@ -1,0 +1,14 @@
+{
+  "hash": "c425bd180bc5f27e",
+  "source": "{0} makes a new token each time it starts. Keep the token to yourself: anything with the token can edit the files of the project.",
+  "text": "{0} genera un token nuevo cada vez que se inicia. Mantén el token en secreto: cualquiera que lo tenga puede editar los archivos del proyecto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} genera un token nuevo cada vez que se inicia. Mantén el token en secreto: cualquiera que lo tenga puede editar los archivos del proyecto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

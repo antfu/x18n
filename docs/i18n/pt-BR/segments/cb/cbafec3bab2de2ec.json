@@ -1,0 +1,14 @@
+{
+  "hash": "cbafec3bab2de2ec",
+  "source": "These usages are {0}, {1} and {2}. A used message also uses its attributes, so {3} is not unused.",
+  "text": "Estes usos são {0}, {1} e {2}. Uma mensagem usada também usa seus atributos, então {3} não é considerado sem uso.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estes usos são {0}, {1} e {2}. Uma mensagem usada também usa seus atributos, então {3} não é considerado sem uso."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

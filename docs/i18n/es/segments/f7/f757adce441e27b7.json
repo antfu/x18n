@@ -1,0 +1,14 @@
+{
+  "hash": "f757adce441e27b7",
+  "source": "Each locale needs the plural categories of its own language, from {0}. With {1} and {2} in English:",
+  "text": "Cada idioma necesita las categorías de plural de su propia lengua, de {0}. Con {1} y {2} en inglés:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cada idioma necesita las categorías de plural de su propia lengua, de {0}. Con {1} y {2} en inglés:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

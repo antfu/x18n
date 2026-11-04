@@ -1,0 +1,14 @@
+{
+  "hash": "baa902db585c253b",
+  "source": "A package can also ship a YAML plugin file. Users then list its path:",
+  "text": "Un pacchetto può anche includere un file di plugin YAML. In tal caso gli utenti indicano il suo percorso:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un pacchetto può anche includere un file di plugin YAML. In tal caso gli utenti indicano il suo percorso:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

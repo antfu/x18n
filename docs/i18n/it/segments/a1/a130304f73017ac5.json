@@ -1,0 +1,14 @@
+{
+  "hash": "a130304f73017ac5",
+  "source": "rule (fine inside extraction scoring), lint",
+  "text": "regola (va bene nel calcolo del punteggio di estrazione), lint",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "regola (va bene nel calcolo del punteggio di estrazione), lint"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

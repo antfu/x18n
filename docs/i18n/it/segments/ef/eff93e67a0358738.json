@@ -1,0 +1,14 @@
+{
+  "hash": "eff93e67a0358738",
+  "source": "Overview: the counts of keys, resources, usages and locales, the coverage per locale (split into reviewed, translated, to review and outdated when a format reports translation states), the diagnostics per check, the detected presets and the recent changes.",
+  "text": "Panoramica: il numero di chiavi, risorse, utilizzi e lingue, la copertura per lingua (suddivisa in revisionati, tradotti, da revisionare e obsoleti quando un formato riporta gli stati di traduzione), le diagnostiche per controllo, i preset rilevati e le modifiche recenti.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Panoramica: il numero di chiavi, risorse, utilizzi e lingue, la copertura per lingua (suddivisa in revisionati, tradotti, da revisionare e obsoleti quando un formato riporta gli stati di traduzione), le diagnostiche per controllo, i preset rilevati e le modifiche recenti."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "c10d69fdd7fe1828",
+  "source": "The client passes these fields in {0}. Each one is optional.",
+  "text": "Il client passa questi campi in {0}. Ognuno è facoltativo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il client passa questi campi in {0}. Ognuno è facoltativo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "829e9c8f07ac4f0b",
+  "source": "The {0} preset supports {1}next-international{/1}.",
+  "text": "Il preset {0} supporta {1}next-international{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset {0} supporta {1}next-international{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

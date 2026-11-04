@@ -1,0 +1,14 @@
+{
+  "hash": "8c4a1e9d4db87ed9",
+  "source": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n\\_extract\\_apply.",
+  "text": "Trova le stringhe hardcoded nei file sorgente e propone per ciascuna una chiave, un messaggio e una sostituzione nel codice. Controlla gli elementi (modifica le chiavi, elimina quelli che non vuoi), poi passali a x18n\\_extract\\_apply.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Trova le stringhe hardcoded nei file sorgente e propone per ciascuna una chiave, un messaggio e una sostituzione nel codice. Controlla gli elementi (modifica le chiavi, elimina quelli che non vuoi), poi passali a x18n\\_extract\\_apply."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

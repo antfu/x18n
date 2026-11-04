@@ -1,0 +1,14 @@
+{
+  "hash": "8c817cb95a5984ed",
+  "source": "The command never deletes i18n-ally files or settings. At the end, it lists the i18n-ally settings that you can remove. If an {0} file exists, the command stops. Pass {1} to replace it.",
+  "text": "El comando nunca elimina archivos ni ajustes de i18n-ally. Al final, muestra los ajustes de i18n-ally que puedes eliminar. Si ya existe un archivo {0}, el comando se detiene. Pasa {1} para reemplazarlo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El comando nunca elimina archivos ni ajustes de i18n-ally. Al final, muestra los ajustes de i18n-ally que puedes eliminar. Si ya existe un archivo {0}, el comando se detiene. Pasa {1} para reemplazarlo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

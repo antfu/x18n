@@ -1,0 +1,14 @@
+{
+  "hash": "35896a5f90faeed2",
+  "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
+  "text": "Uma chave totalmente dinâmica, como {0}, não tem prefixo estático. Nenhuma verificação consegue acompanhá-la. Ative esta verificação para encontrar esses usos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma chave totalmente dinâmica, como {0}, não tem prefixo estático. Nenhuma verificação consegue acompanhá-la. Ative esta verificação para encontrar esses usos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

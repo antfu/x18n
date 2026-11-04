@@ -1,0 +1,14 @@
+{
+  "hash": "dcb3102d4b4de869",
+  "source": "Edit the source of the computed values by hand.",
+  "text": "Edita a mano el origen de los valores calculados.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Edita a mano el origen de los valores calculados."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

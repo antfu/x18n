@@ -1,0 +1,14 @@
+{
+  "hash": "fd0c7a0a8a01e1f2",
+  "source": "Report only diagnostics that are not in this baseline (default: .x18n/check-baseline.json, when it exists)",
+  "text": "Informa solo de los diagnósticos que no estén en este baseline (por defecto: .x18n/check-baseline.json, si existe)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Informa solo de los diagnósticos que no estén en este baseline (por defecto: .x18n/check-baseline.json, si existe)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

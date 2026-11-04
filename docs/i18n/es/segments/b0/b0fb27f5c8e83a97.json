@@ -1,0 +1,14 @@
+{
+  "hash": "b0fb27f5c8e83a97",
+  "source": "{0} prints the TypeScript version of a YAML plugin. It uses the same built-in functions, so the result behaves the same:",
+  "text": "{0} imprime la versión en TypeScript de un plugin YAML. Usa las mismas funciones integradas, por lo que el resultado se comporta igual:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} imprime la versión en TypeScript de un plugin YAML. Usa las mismas funciones integradas, por lo que el resultado se comporta igual:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

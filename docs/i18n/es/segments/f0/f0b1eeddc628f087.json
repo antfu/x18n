@@ -1,0 +1,14 @@
+{
+  "hash": "f0b1eeddc628f087",
+  "source": "The {0} set is every check that is not {1} below. Override the severity of a check in {2}:",
+  "text": "El conjunto {0} incluye todas las comprobaciones que no son {1} más abajo. Sobrescribe la severidad de una comprobación en {2}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El conjunto {0} incluye todas las comprobaciones que no son {1} más abajo. Sobrescribe la severidad de una comprobación en {2}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

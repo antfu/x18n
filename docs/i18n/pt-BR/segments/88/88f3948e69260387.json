@@ -1,0 +1,14 @@
+{
+  "hash": "88f3948e69260387",
+  "source": "In JSON, HTML and CSS files, the preset reads {0} references, so the strings of {1} count as usages:",
+  "text": "Em arquivos JSON, HTML e CSS, o preset lê referências {0}, então as strings de {1} contam como usos:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em arquivos JSON, HTML e CSS, o preset lê referências {0}, então as strings de {1} contam como usos:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

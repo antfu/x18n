@@ -1,0 +1,14 @@
+{
+  "hash": "314dc23bdaade2f6",
+  "source": "An optional locale. A file without it belongs to the source locale.",
+  "text": "Um idioma opcional. Um arquivo sem ele pertence ao idioma de origem.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um idioma opcional. Um arquivo sem ele pertence ao idioma de origem."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

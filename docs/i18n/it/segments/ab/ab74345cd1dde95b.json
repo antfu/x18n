@@ -1,0 +1,14 @@
+{
+  "hash": "ab74345cd1dde95b",
+  "source": "Shapes follow the {0}JSON contract{/0} version. Positions and ranges use LSP conventions: zero-based lines and UTF-16 characters.",
+  "text": "Le strutture seguono la versione del {0}contratto JSON{/0}. Posizioni e intervalli usano le convenzioni LSP: righe a base zero e caratteri UTF-16.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le strutture seguono la versione del {0}contratto JSON{/0}. Posizioni e intervalli usano le convenzioni LSP: righe a base zero e caratteri UTF-16."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

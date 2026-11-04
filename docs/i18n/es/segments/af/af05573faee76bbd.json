@@ -1,0 +1,14 @@
+{
+  "hash": "af05573faee76bbd",
+  "source": "When you fix known problems, {0} says how many entries no longer occur. Run {1} again to drop them, so that they cannot come back unnoticed. With {2}, {3} or {4}, the update keeps the entries that these options leave out. {5} adds the counts as {6}: {7}.",
+  "text": "Cuando corrijas problemas conocidos, {0} indica cuántas entradas ya no se producen. Vuelve a ejecutar {1} para eliminarlas, de modo que no puedan reaparecer sin que se note. Con {2}, {3} o {4}, la actualización conserva las entradas que estas opciones dejan fuera. {5} añade los recuentos como {6}: {7}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cuando corrijas problemas conocidos, {0} indica cuántas entradas ya no se producen. Vuelve a ejecutar {1} para eliminarlas, de modo que no puedan reaparecer sin que se note. Con {2}, {3} o {4}, la actualización conserva las entradas que estas opciones dejan fuera. {5} añade los recuentos como {6}: {7}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

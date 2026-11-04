@@ -1,0 +1,14 @@
+{
+  "hash": "eec614a8c71b0c1d",
+  "source": "Find hard-coded strings and turn them into keys.",
+  "text": "Encontra strings fixas no código e as transforma em chaves.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Encontra strings fixas no código e as transforma em chaves."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

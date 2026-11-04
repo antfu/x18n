@@ -1,0 +1,14 @@
+{
+  "hash": "d4ecd44620809e06",
+  "source": "the locales of its {0}fallback chain{/0}, such as {1} for {2} with {3},",
+  "text": "os idiomas da sua {0}cadeia de fallback{/0}, como {1} para {2} com {3},",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "os idiomas da sua {0}cadeia de fallback{/0}, como {1} para {2} com {3},"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

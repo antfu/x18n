@@ -1,0 +1,14 @@
+{
+  "hash": "9d9a5036e2084ff7",
+  "source": "Run the {0} installed in the workspace's {1} instead of the bundled server, when there is one. Restart the server after changing this.",
+  "text": "Executa o {0} instalado no {1} do workspace em vez do servidor incluído, quando houver um. Reinicie o servidor após alterar esta configuração.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Executa o {0} instalado no {1} do workspace em vez do servidor incluído, quando houver um. Reinicie o servidor após alterar esta configuração."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

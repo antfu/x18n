@@ -1,0 +1,14 @@
+{
+  "hash": "d8d576712748716f",
+  "source": "The versioned JSON output of the CLI, shared by the LSP, the UI and MCP.",
+  "text": "L'output JSON versionato della CLI, condiviso da LSP, UI e MCP.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'output JSON versionato della CLI, condiviso da LSP, UI e MCP."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

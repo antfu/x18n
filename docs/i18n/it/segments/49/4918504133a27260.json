@@ -1,0 +1,14 @@
+{
+  "hash": "4918504133a27260",
+  "source": "The {0} preset supports {1}@solid-primitives/i18n{/1} in SolidJS projects.",
+  "text": "Il preset {0} supporta {1}@solid-primitives/i18n{/1} nei progetti SolidJS.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset {0} supporta {1}@solid-primitives/i18n{/1} nei progetti SolidJS."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

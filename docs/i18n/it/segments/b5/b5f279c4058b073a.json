@@ -1,0 +1,14 @@
+{
+  "hash": "b5f279c4058b073a",
+  "source": "The input of an edit has the wrong shape.",
+  "text": "L'input di una modifica ha una struttura errata.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'input di una modifica ha una struttura errata."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

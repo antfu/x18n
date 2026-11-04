@@ -1,0 +1,14 @@
+{
+  "hash": "4048961ce27ef426",
+  "source": "{0}: the resources of each locale finder.",
+  "text": "{0}: le risorse di ogni finder delle lingue.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: le risorse di ogni finder delle lingue."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

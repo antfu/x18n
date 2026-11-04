@@ -1,0 +1,14 @@
+{
+  "hash": "1b0e89d986292e97",
+  "source": "A rename or delete of a parent key changes every key under it. {0} moves {1} to {2}, and updates prefix usages such as {3}. A rename to a key that exists stops with {4}X18N4002{/4}.",
+  "text": "Renombrar o eliminar una clave padre cambia todas las claves que cuelgan de ella. {0} mueve {1} a {2} y actualiza los usos de prefijo como {3}. Renombrar a una clave que ya existe se detiene con {4}X18N4002{/4}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renombrar o eliminar una clave padre cambia todas las claves que cuelgan de ella. {0} mueve {1} a {2} y actualiza los usos de prefijo como {3}. Renombrar a una clave que ya existe se detiene con {4}X18N4002{/4}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

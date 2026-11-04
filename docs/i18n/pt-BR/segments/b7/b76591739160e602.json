@@ -1,0 +1,14 @@
+{
+  "hash": "b76591739160e602",
+  "source": "{0}, {1} and {2}: in the catalog, their key holds the context too",
+  "text": "{0}, {1} e {2}: no catálogo, a chave deles também contém o contexto",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} e {2}: no catálogo, a chave deles também contém o contexto"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

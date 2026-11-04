@@ -1,0 +1,14 @@
+{
+  "hash": "9eacd71dec432d1e",
+  "source": "x18n has one versioned JSON contract. The CLI prints it with {0}. The LSP {1} requests, the UI RPC functions and the MCP tools use the same shapes.",
+  "text": "x18n tiene un único contrato JSON versionado. La CLI lo imprime con {0}. Las solicitudes {1} del LSP, las funciones RPC de la UI y las herramientas de MCP usan las mismas estructuras.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n tiene un único contrato JSON versionado. La CLI lo imprime con {0}. Las solicitudes {1} del LSP, las funciones RPC de la UI y las herramientas de MCP usan las mismas estructuras."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

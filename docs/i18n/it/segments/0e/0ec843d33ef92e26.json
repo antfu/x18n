@@ -1,0 +1,14 @@
+{
+  "hash": "0ec843d33ef92e26",
+  "source": "{0} are rules such as {1}. When a key is used, the derived keys count as used.",
+  "text": "{0} sono regole come {1}. Quando una chiave viene utilizzata, le chiavi derivate sono considerate utilizzate.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} sono regole come {1}. Quando una chiave viene utilizzata, le chiavi derivate sono considerate utilizzate."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

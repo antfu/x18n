@@ -1,0 +1,14 @@
+{
+  "hash": "1e2ea7e88b8db4da",
+  "source": "{0} in the config, so no built-in preset applies",
+  "text": "{0} en la configuración, por lo que no se aplica ningún preset integrado",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} en la configuración, por lo que no se aplica ningún preset integrado"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

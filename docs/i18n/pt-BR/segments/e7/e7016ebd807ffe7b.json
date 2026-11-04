@@ -1,0 +1,14 @@
+{
+  "hash": "e7016ebd807ffe7b",
+  "source": "The config or the command line is invalid.",
+  "text": "A configuração ou a linha de comando é inválida.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A configuração ou a linha de comando é inválida."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fd0743460ade1cb8",
+  "source": "{0} prints the candidates.",
+  "text": "{0} muestra los candidatos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} muestra los candidatos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "37ce74ecf424e18d",
+  "source": "Positional braces: {0}. Braces: {1}. Linked messages: {2} and {3}.",
+  "text": "Chaves posicionais: {0}. Chaves: {1}. Mensagens vinculadas: {2} e {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaves posicionais: {0}. Chaves: {1}. Mensagens vinculadas: {2} e {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

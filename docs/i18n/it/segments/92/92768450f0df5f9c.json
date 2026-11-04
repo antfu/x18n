@@ -1,0 +1,14 @@
+{
+  "hash": "92768450f0df5f9c",
+  "source": "Composite format items: {0}, {1}, {2}, {3} and {4}. {5} and {6} are literal braces, not placeholders.",
+  "text": "Elementi di formato composito: {0}, {1}, {2}, {3} e {4}. {5} e {6} sono parentesi graffe letterali, non segnaposto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elementi di formato composito: {0}, {1}, {2}, {3} e {4}. {5} e {6} sono parentesi graffe letterali, non segnaposto."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

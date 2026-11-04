@@ -1,0 +1,14 @@
+{
+  "hash": "bfd7d41ef0269e5b",
+  "source": "A named group of keys, usually from a file name.",
+  "text": "Un gruppo di chiavi con un nome, di solito ricavato dal nome di un file.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un gruppo di chiavi con un nome, di solito ricavato dal nome di un file."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

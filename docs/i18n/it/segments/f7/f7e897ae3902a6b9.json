@@ -1,0 +1,14 @@
+{
+  "hash": "f7e897ae3902a6b9",
+  "source": "The check has the severity {0}, but it runs only when the config turns it on.",
+  "text": "Il controllo ha la severità {0}, ma viene eseguito solo quando la configurazione lo attiva.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il controllo ha la severità {0}, ma viene eseguito solo quando la configurazione lo attiva."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

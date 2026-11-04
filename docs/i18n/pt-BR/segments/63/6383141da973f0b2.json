@@ -1,0 +1,14 @@
+{
+  "hash": "6383141da973f0b2",
+  "source": "In code, {0} and {1}, and {2} on {3}, directly or through a variable:",
+  "text": "No código, {0} e {1}, e {2} em {3}, diretamente ou por meio de uma variável:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No código, {0} e {1}, e {2} em {3}, diretamente ou por meio de uma variável:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

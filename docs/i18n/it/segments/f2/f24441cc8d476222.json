@@ -1,0 +1,14 @@
+{
+  "hash": "f24441cc8d476222",
+  "source": "To translate into a new locale, x18n creates the file next to the source file: {0}. If your neutral language is not English, set {1}.",
+  "text": "Per tradurre in una nuova lingua, x18n crea il file accanto al file di origine: {0}. Se la tua lingua neutra non è l'inglese, imposta {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Per tradurre in una nuova lingua, x18n crea il file accanto al file di origine: {0}. Se la tua lingua neutra non è l'inglese, imposta {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

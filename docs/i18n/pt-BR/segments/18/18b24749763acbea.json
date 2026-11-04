@@ -1,0 +1,14 @@
+{
+  "hash": "18b24749763acbea",
+  "source": "The preset applies when the project depends on {0} and {1} has an {2} block. Libraries such as ng-bootstrap depend on {3} without translating anything, so the dependency alone is not enough.",
+  "text": "O preset é aplicado quando o projeto depende de {0} e {1} tem um bloco {2}. Bibliotecas como ng-bootstrap dependem de {3} sem traduzir nada, então a dependência sozinha não basta.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset é aplicado quando o projeto depende de {0} e {1} tem um bloco {2}. Bibliotecas como ng-bootstrap dependem de {3} sem traduzir nada, então a dependência sozinha não basta."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

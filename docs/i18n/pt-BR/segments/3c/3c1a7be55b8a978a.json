@@ -1,0 +1,14 @@
+{
+  "hash": "3c1a7be55b8a978a",
+  "source": "Add a resource pattern in {0} that covers the locale, for example {1}.",
+  "text": "Adicione em {0} um padrão de recurso que cubra o idioma, por exemplo {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Adicione em {0} um padrão de recurso que cubra o idioma, por exemplo {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ea69067735929da2",
+  "source": "Case of slug keys. Default {0}.",
+  "text": "Formato de maiúsculas e minúsculas das chaves de slug. Padrão: {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Formato de maiúsculas e minúsculas das chaves de slug. Padrão: {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

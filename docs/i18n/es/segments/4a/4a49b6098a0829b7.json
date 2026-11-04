@@ -1,0 +1,14 @@
+{
+  "hash": "4a49b6098a0829b7",
+  "source": "Locale to review",
+  "text": "Idioma que se va a revisar",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Idioma que se va a revisar"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "ae9f2b97ee603869",
+  "source": "{0} needs {1} (or {2} to read stdin).",
+  "text": "{0} richiede {1} (oppure {2} per leggere da stdin).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} richiede {1} (oppure {2} per leggere da stdin)."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

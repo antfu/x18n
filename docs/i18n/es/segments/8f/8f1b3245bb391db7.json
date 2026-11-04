@@ -1,0 +1,14 @@
+{
+  "hash": "8f1b3245bb391db7",
+  "source": "Deletes the keys that {0} lists, in every locale, through {1}. Default: every project.",
+  "text": "Elimina las claves que lista {0}, en todos los idiomas, mediante {1}. Por defecto: todos los proyectos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina las claves que lista {0}, en todos los idiomas, mediante {1}. Por defecto: todos los proyectos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

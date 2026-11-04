@@ -1,0 +1,14 @@
+{
+  "hash": "4fb97766cd3a1334",
+  "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
+  "text": "{0} establece el espacio de nombres y el prefijo de clave para todo el archivo, porque el componente recibe su {1} mediante props y a menudo está por encima de la llamada.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} establece el espacio de nombres y el prefijo de clave para todo el archivo, porque el componente recibe su {1} mediante props y a menudo está por encima de la llamada."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

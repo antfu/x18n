@@ -1,0 +1,14 @@
+{
+  "hash": "0775f19ce398efac",
+  "source": "A config file to use instead of searching for one.",
+  "text": "Um arquivo de configuração a ser usado em vez de procurar um.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um arquivo de configuração a ser usado em vez de procurar um."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "866ec42069c8979b",
+  "source": "{0} has no locale in its name, so it holds the source locale. With the default {1}, these files give the locales {2} and {3}:",
+  "text": "{0} no tiene idioma en su nombre, así que contiene el idioma de origen. Con el valor predeterminado de {1}, estos archivos dan los idiomas {2} y {3}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} no tiene idioma en su nombre, así que contiene el idioma de origen. Con el valor predeterminado de {1}, estos archivos dan los idiomas {2} y {3}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

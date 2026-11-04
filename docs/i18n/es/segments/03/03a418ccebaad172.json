@@ -1,0 +1,14 @@
+{
+  "hash": "03a418ccebaad172",
+  "source": "With {0}, the value replaces the whole call, such as {1}, instead of only the key. Calls over several lines keep the key-only replacement.",
+  "text": "Con {0}, el valor reemplaza la llamada completa, como {1}, en lugar de solo la clave. Las llamadas que ocupan varias líneas mantienen el reemplazo de solo la clave.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Con {0}, el valor reemplaza la llamada completa, como {1}, en lugar de solo la clave. Las llamadas que ocupan varias líneas mantienen el reemplazo de solo la clave."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

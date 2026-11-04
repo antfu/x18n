@@ -1,0 +1,14 @@
+{
+  "hash": "973f821ff3cec652",
+  "source": "Lines added once per file when missing, for example an import.",
+  "text": "Líneas que se añaden una vez por archivo cuando faltan, por ejemplo un import.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Líneas que se añaden una vez por archivo cuando faltan, por ejemplo un import."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

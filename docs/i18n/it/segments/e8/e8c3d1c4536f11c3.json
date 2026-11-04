@@ -1,0 +1,14 @@
+{
+  "hash": "e8c3d1c4536f11c3",
+  "source": "To check only some problems in a step, use {0}. To check one locale, use {1}:",
+  "text": "Per controllare solo alcuni problemi in un passaggio, usa {0}. Per controllare una lingua, usa {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Per controllare solo alcuni problemi in un passaggio, usa {0}. Per controllare una lingua, usa {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

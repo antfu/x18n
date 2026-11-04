@@ -1,0 +1,14 @@
+{
+  "hash": "01733cae68cb26bb",
+  "source": "The project root. The default is the root of the host, and x18n searches upward for a config file from there. With {0}, x18n does not search upward.",
+  "text": "La raíz del proyecto. Por defecto es la raíz del host, y x18n busca hacia arriba un archivo de configuración desde ahí. Con {0}, x18n no busca hacia arriba.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La raíz del proyecto. Por defecto es la raíz del host, y x18n busca hacia arriba un archivo de configuración desde ahí. Con {0}, x18n no busca hacia arriba."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

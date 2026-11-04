@@ -1,0 +1,14 @@
+{
+  "hash": "28adaec5117d119a",
+  "source": "In a project with namespaces, a key may hold {0} after its namespace. In code, {1} names the namespace {2}. With {3} (i18next {4}), code never names a namespace, so {5} is the key {6}.",
+  "text": "Em um projeto com namespaces, uma chave pode conter {0} depois do namespace. No código, {1} nomeia o namespace {2}. Com {3} (i18next {4}), o código nunca nomeia um namespace, então {5} é a chave {6}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em um projeto com namespaces, uma chave pode conter {0} depois do namespace. No código, {1} nomeia o namespace {2}. Com {3} (i18next {4}), o código nunca nomeia um namespace, então {5} é a chave {6}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

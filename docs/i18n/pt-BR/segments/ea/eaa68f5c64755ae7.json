@@ -1,0 +1,14 @@
+{
+  "hash": "eaa68f5c64755ae7",
+  "source": "Invalid edit input. Check the input shape against the docs.",
+  "text": "Entrada de edição inválida. Confira o formato da entrada na documentação.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Entrada de edição inválida. Confira o formato da entrada na documentação."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "5408843f26d53223",
+  "source": "Finds hard strings and builds replacements.",
+  "text": "Encuentra cadenas codificadas y construye los reemplazos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Encuentra cadenas codificadas y construye los reemplazos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

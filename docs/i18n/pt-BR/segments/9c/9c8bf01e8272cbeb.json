@@ -1,0 +1,14 @@
+{
+  "hash": "9c8bf01e8272cbeb",
+  "source": "Config file could not be loaded. Fix the syntax error, or run `x18n doctor` for details.",
+  "text": "Não foi possível carregar o arquivo de configuração. Corrija o erro de sintaxe ou execute `x18n doctor` para ver os detalhes.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Não foi possível carregar o arquivo de configuração. Corrija o erro de sintaxe ou execute `x18n doctor` para ver os detalhes."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

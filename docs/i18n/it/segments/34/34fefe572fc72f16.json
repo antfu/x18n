@@ -1,0 +1,14 @@
+{
+  "hash": "34fefe572fc72f16",
+  "source": "The {0}glossary{/0} lists every name in one table.",
+  "text": "Il {0}glossario{/0} elenca tutti i nomi in un'unica tabella.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il {0}glossario{/0} elenca tutti i nomi in un'unica tabella."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

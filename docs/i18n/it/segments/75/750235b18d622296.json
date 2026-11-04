@@ -1,0 +1,14 @@
+{
+  "hash": "750235b18d622296",
+  "source": "Review comments, approvals and suggested values on messages, kept in a file tracked in git.",
+  "text": "Commenti di revisione, approvazioni e valori suggeriti sui messaggi, conservati in un file tracciato in git.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Commenti di revisione, approvazioni e valori suggeriti sui messaggi, conservati in un file tracciato in git."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

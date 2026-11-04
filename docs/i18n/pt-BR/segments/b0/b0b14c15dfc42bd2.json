@@ -1,0 +1,14 @@
+{
+  "hash": "b0b14c15dfc42bd2",
+  "source": "Batch set from JSON {0}; {1} reads stdin.",
+  "text": "Define valores em lote a partir de um {0} JSON; {1} lê da stdin.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Define valores em lote a partir de um {0} JSON; {1} lê da stdin."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

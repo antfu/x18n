@@ -1,0 +1,14 @@
+{
+  "hash": "0afd94a9cb83da99",
+  "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
+  "text": "Un controllo è un generatore. Ogni valore che produce diventa una diagnostica. Senza {0}, la diagnostica punta al messaggio di {1} in {2}. L'id del controllo è anche il codice della diagnostica, quindi {3} e {4} funzionano come per i controlli integrati.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un controllo è un generatore. Ogni valore che produce diventa una diagnostica. Senza {0}, la diagnostica punta al messaggio di {1} in {2}. L'id del controllo è anche il codice della diagnostica, quindi {3} e {4} funzionano come per i controlli integrati."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

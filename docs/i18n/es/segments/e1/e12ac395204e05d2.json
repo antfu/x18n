@@ -1,0 +1,14 @@
+{
+  "hash": "e12ac395204e05d2",
+  "source": "The language server works in any editor with an LSP client. See {0}editor setup{/0}.",
+  "text": "El servidor de lenguaje funciona en cualquier editor con un cliente LSP. Consulta la {0}configuración del editor{/0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El servidor de lenguaje funciona en cualquier editor con un cliente LSP. Consulta la {0}configuración del editor{/0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

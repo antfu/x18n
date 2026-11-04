@@ -1,0 +1,14 @@
+{
+  "hash": "872e175964e390da",
+  "source": "The Svelte templates add no imports. Components get the store either from a module ({0}) or from the context ({1}), so x18n assumes {2} is already in scope.",
+  "text": "Os templates Svelte não adicionam imports. Os componentes obtêm o store de um módulo ({0}) ou do contexto ({1}), então o x18n presume que {2} já está no escopo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os templates Svelte não adicionam imports. Os componentes obtêm o store de um módulo ({0}) ou do contexto ({1}), então o x18n presume que {2} já está no escopo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

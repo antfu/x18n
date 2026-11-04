@@ -1,0 +1,14 @@
+{
+  "hash": "c00de46650d7d043",
+  "source": "Option names the library reads itself, which a message need not use ({0}, {1}).",
+  "text": "Nomi di opzioni che la libreria legge da sola e che un messaggio non è tenuto a usare ({0}, {1}).",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nomi di opzioni che la libreria legge da sola e che un messaggio non è tenuto a usare ({0}, {1})."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "75e2efb20758b91a",
+  "source": "{0} and {1} return a translate function. Their argument is a key prefix, which next-intl calls a namespace:",
+  "text": "{0} e {1} restituiscono una funzione di traduzione. Il loro argomento è un prefisso di chiave, che next-intl chiama namespace:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} e {1} restituiscono una funzione di traduzione. Il loro argomento è un prefisso di chiave, che next-intl chiama namespace:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9e6128775d270246",
+  "source": "In {0}, {1} and {2} files, the preset reads the {3} tag:",
+  "text": "En los archivos {0}, {1} y {2}, el preset lee la etiqueta {3}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En los archivos {0}, {1} y {2}, el preset lee la etiqueta {3}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

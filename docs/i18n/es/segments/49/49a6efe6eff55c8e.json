@@ -1,0 +1,14 @@
+{
+  "hash": "49a6efe6eff55c8e",
+  "source": "The {0} preset supports {1}Android string resources{/1}.",
+  "text": "El preset {0} es compatible con los {1}recursos de cadenas de Android{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0} es compatible con los {1}recursos de cadenas de Android{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

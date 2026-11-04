@@ -1,0 +1,14 @@
+{
+  "hash": "589fc7197e86158e",
+  "source": "Only diagnostics for these locales.",
+  "text": "Solo los diagnósticos de estos idiomas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo los diagnósticos de estos idiomas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

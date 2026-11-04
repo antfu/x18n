@@ -1,0 +1,14 @@
+{
+  "hash": "2647afe0025e1402",
+  "source": "Usages with a dynamic key are not reported. A usage with a static prefix, such as {0}, is a prefix usage: it makes every key under {1} count as used, and it is never a missing key.",
+  "text": "Usos com uma chave dinâmica não são reportados. Um uso com um prefixo estático, como {0}, é um uso de prefixo: ele faz com que toda chave sob {1} conte como usada, e nunca é uma chave ausente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Usos com uma chave dinâmica não são reportados. Um uso com um prefixo estático, como {0}, é um uso de prefixo: ele faz com que toda chave sob {1} conte como usada, e nunca é uma chave ausente."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "fcaad21af91eaaa1",
+  "source": "A key without a namespace, such as {0}, is in the {1} namespace. The preset reads {2} and {3} from the i18next init code (a file such as {4}). A key that is not in its own namespace is then looked up in the fallback namespaces, in order. Set {5} and {6} to override them:",
+  "text": "Una clave sin espacio de nombres, como {0}, pertenece al espacio de nombres {1}. El preset lee {2} y {3} del código de inicialización de i18next (un archivo como {4}). Una clave que no está en su propio espacio de nombres se busca después en los espacios de nombres de respaldo, en orden. Define {5} y {6} para sobrescribirlos:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una clave sin espacio de nombres, como {0}, pertenece al espacio de nombres {1}. El preset lee {2} y {3} del código de inicialización de i18next (un archivo como {4}). Una clave que no está en su propio espacio de nombres se busca después en los espacios de nombres de respaldo, en orden. Define {5} y {6} para sobrescribirlos:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

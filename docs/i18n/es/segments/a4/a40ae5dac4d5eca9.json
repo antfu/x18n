@@ -1,0 +1,14 @@
+{
+  "hash": "a40ae5dac4d5eca9",
+  "source": "{0} returns a {1} with the namespace of its second argument.",
+  "text": "{0} devuelve un {1} con el espacio de nombres de su segundo argumento.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} devuelve un {1} con el espacio de nombres de su segundo argumento."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

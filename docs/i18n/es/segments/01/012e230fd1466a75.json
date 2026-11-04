@@ -1,0 +1,14 @@
+{
+  "hash": "012e230fd1466a75",
+  "source": "Project root (default: nearest config upward from the cwd)",
+  "text": "Raíz del proyecto (por defecto: la configuración más cercana hacia arriba desde el cwd)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Raíz del proyecto (por defecto: la configuración más cercana hacia arriba desde el cwd)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

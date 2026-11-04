@@ -1,0 +1,14 @@
+{
+  "hash": "12cc58b5f1f0fc0d",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
+  "text": "Un pattern senza {0}, come {1}, contiene la lingua di origine. Per assegnargli un'altra lingua, imposta {2} sulla risorsa.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un pattern senza {0}, come {1}, contiene la lingua di origine. Per assegnargli un'altra lingua, imposta {2} sulla risorsa."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

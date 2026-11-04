@@ -1,0 +1,14 @@
+{
+  "hash": "1d21ecdb53497d4d",
+  "source": "The preset for Joomla. It reads INI language files and Text::_ calls.",
+  "text": "O preset para Joomla. Ele lê arquivos de idioma INI e chamadas Text::_.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset para Joomla. Ele lê arquivos de idioma INI e chamadas Text::_."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

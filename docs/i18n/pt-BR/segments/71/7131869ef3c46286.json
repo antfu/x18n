@@ -1,0 +1,14 @@
+{
+  "hash": "7131869ef3c46286",
+  "source": "the same under {0} and {1}",
+  "text": "o mesmo em {0} e {1}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "o mesmo em {0} e {1}"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

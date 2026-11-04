@@ -1,0 +1,14 @@
+{
+  "hash": "1f9da35d07a1bc4c",
+  "source": "In PHP files, the preset reads {0}, {1} and {2}. The key is the source message:",
+  "text": "Nei file PHP, il preset legge {0}, {1} e {2}. La chiave è il messaggio sorgente:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nei file PHP, il preset legge {0}, {1} e {2}. La chiave è il messaggio sorgente:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

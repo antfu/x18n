@@ -1,0 +1,14 @@
+{
+  "hash": "f79aa0d1f65371a0",
+  "source": "The preset for Transloco. It reads the transloco pipe, directive and structural directive with read scopes, and the translate function.",
+  "text": "O preset para Transloco. Ele lê o pipe transloco, a diretiva e a diretiva estrutural com escopos de leitura, e a função translate.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset para Transloco. Ele lê o pipe transloco, a diretiva e a diretiva estrutural com escopos de leitura, e a função translate."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

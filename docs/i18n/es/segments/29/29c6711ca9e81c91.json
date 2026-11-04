@@ -1,0 +1,14 @@
+{
+  "hash": "29c6711ca9e81c91",
+  "source": "Translations that a component gives to {0} are not read.",
+  "text": "Las traducciones que un componente pasa a {0} no se leen.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Las traducciones que un componente pasa a {0} no se leen."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

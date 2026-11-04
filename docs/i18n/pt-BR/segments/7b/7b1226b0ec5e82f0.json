@@ -1,0 +1,14 @@
+{
+  "hash": "7b1226b0ec5e82f0",
+  "source": "Reviews: messages with open {0}review{/0} comments, with their state. Click one to open it in its locale file.",
+  "text": "Revisões: mensagens com comentários de {0}revisão{/0} abertos, com o estado de cada um. Clique em uma para abri-la no arquivo de idioma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Revisões: mensagens com comentários de {0}revisão{/0} abertos, com o estado de cada um. Clique em uma para abri-la no arquivo de idioma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

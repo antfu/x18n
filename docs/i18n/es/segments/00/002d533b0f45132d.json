@@ -1,0 +1,14 @@
+{
+  "hash": "002d533b0f45132d",
+  "source": "Records that the translations of a key are up to date with the source value. {0} limits it.",
+  "text": "Registra que las traducciones de una clave están al día con el valor de origen. {0} lo limita.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Registra que las traducciones de una clave están al día con el valor de origen. {0} lo limita."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

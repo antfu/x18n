@@ -1,0 +1,14 @@
+{
+  "hash": "f2480689c135e2d0",
+  "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
+  "text": "Los valores de más de {0} se recortan. En el modo en el propio código, un valor así se muestra como una pista después de la clave.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los valores de más de {0} se recortan. En el modo en el propio código, un valor así se muestra como una pista después de la clave."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

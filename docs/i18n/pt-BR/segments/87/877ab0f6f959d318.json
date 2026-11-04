@@ -1,0 +1,14 @@
+{
+  "hash": "877ab0f6f959d318",
+  "source": "The command exits with code 1 when it finds errors. Warnings do not fail it. See {0}Checks{/0} for every check.",
+  "text": "O comando termina com código 1 quando encontra erros. Avisos não o fazem falhar. Veja {0}Verificações{/0} para conhecer todas as verificações.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O comando termina com código 1 quando encontra erros. Avisos não o fazem falhar. Veja {0}Verificações{/0} para conhecer todas as verificações."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "9d67a8c477272a3f",
+  "source": "{0} and {1} reach the pipes, as in the library:",
+  "text": "{0} y {1} llegan a los pipes, como en la librería:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} y {1} llegan a los pipes, como en la librería:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

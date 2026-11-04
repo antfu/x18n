@@ -1,0 +1,14 @@
+{
+  "hash": "26dde11648a68435",
+  "source": "In a terminal, {0} asks for each string: accept the proposed key, type another key, skip it, or stop.",
+  "text": "In un terminale, {0} chiede per ogni stringa: accetta la chiave proposta, digita un'altra chiave, salta la stringa oppure interrompi.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In un terminale, {0} chiede per ogni stringa: accetta la chiave proposta, digita un'altra chiave, salta la stringa oppure interrompi."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

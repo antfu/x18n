@@ -1,0 +1,14 @@
+{
+  "hash": "0ad1ce9a5fe1471d",
+  "source": "The source locale is the locale that is the source of truth. Checks compare the other locales with it, translate prompts translate from it, and go to definition opens its messages. Set it with {0}. The default is {1}.",
+  "text": "La lingua di origine è la lingua che costituisce la fonte di verità. I controlli confrontano le altre lingue con essa, i prompt di traduzione traducono a partire da essa e vai alla definizione apre i suoi messaggi. Impostala con {0}. Il valore predefinito è {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La lingua di origine è la lingua che costituisce la fonte di verità. I controlli confrontano le altre lingue con essa, i prompt di traduzione traducono a partire da essa e vai alla definizione apre i suoi messaggi. Impostala con {0}. Il valore predefinito è {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

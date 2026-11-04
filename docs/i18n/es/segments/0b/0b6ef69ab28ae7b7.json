@@ -1,0 +1,14 @@
+{
+  "hash": "0b6ef69ab28ae7b7",
+  "source": "Give the plugin a unique {0}, and do not use the {1} prefix of the built-in plugins.",
+  "text": "Asigna al plugin un {0} único y no uses el prefijo {1} de los plugins integrados.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Asigna al plugin un {0} único y no uses el prefijo {1} de los plugins integrados."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

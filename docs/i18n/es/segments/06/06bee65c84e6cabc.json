@@ -1,0 +1,14 @@
+{
+  "hash": "06bee65c84e6cabc",
+  "source": "Only unresolved comments, and only threads that have some.",
+  "text": "Solo los comentarios sin resolver, y solo los hilos que los tengan.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo los comentarios sin resolver, y solo los hilos que los tengan."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

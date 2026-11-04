@@ -1,0 +1,14 @@
+{
+  "hash": "30453110924f326f",
+  "source": "Every framework of i18n-ally has a preset. For an unknown framework id, the command prints a note and leaves it out.",
+  "text": "Cada framework de i18n-ally tiene un preset. Si el id del framework es desconocido, el comando muestra una nota y lo omite.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cada framework de i18n-ally tiene un preset. Si el id del framework es desconocido, el comando muestra una nota y lo omite."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

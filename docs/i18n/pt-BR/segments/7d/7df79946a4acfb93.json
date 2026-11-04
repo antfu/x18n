@@ -1,0 +1,14 @@
+{
+  "hash": "7df79946a4acfb93",
+  "source": "Report invalid, untranslated and unused keys, like {0}.",
+  "text": "Relate chaves inválidas, não traduzidas e não utilizadas, como {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Relate chaves inválidas, não traduzidas e não utilizadas, como {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

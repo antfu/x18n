@@ -1,0 +1,14 @@
+{
+  "hash": "d56539561191a14b",
+  "source": "Starts the UI server for a project on loopback and returns its URL and a one-time auth token.",
+  "text": "Avvia il server della UI per un progetto su loopback e restituisce il suo URL e un token di autenticazione monouso.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Avvia il server della UI per un progetto su loopback e restituisce il suo URL e un token di autenticazione monouso."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "21b03dd003e9a127",
+  "source": "{0} also serves MCP over HTTP at {1}, on the same port as the UI. An agent and a human then work on the same project at the same time, and each sees the changes of the other.",
+  "text": "{0} también ofrece MCP por HTTP en {1}, en el mismo puerto que la interfaz. Así, un agente y una persona trabajan en el mismo proyecto a la vez, y cada uno ve los cambios del otro.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} también ofrece MCP por HTTP en {1}, en el mismo puerto que la interfaz. Así, un agente y una persona trabajan en el mismo proyecto a la vez, y cada uno ve los cambios del otro."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

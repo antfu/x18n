@@ -1,0 +1,14 @@
+{
+  "hash": "4d9e54e32da653f6",
+  "source": "{0}: which format wins.",
+  "text": "{0}: qué formato gana.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: qué formato gana."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

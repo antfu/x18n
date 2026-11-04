@@ -1,0 +1,14 @@
+{
+  "hash": "8a23b26120be124b",
+  "source": "{0} runs this check alone. {1} skips it for one run.",
+  "text": "{0} ejecuta solo esta comprobación. {1} la omite en una ejecución.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ejecuta solo esta comprobación. {1} la omite en una ejecución."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

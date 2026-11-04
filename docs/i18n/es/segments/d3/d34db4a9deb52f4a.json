@@ -1,0 +1,14 @@
+{
+  "hash": "d34db4a9deb52f4a",
+  "source": "The new message goes in the source file with Angular's placeholders, the same as {0} writes it. Elements that hold an element with {1} keep it, and their other text goes in an {2}, since Angular rejects an {3} element inside another one.",
+  "text": "El nuevo mensaje va en el archivo de origen con los marcadores de posición de Angular, igual que lo escribe {0}. Los elementos que contienen un elemento con {1} lo conservan, y su otro texto va en un {2}, ya que Angular rechaza un elemento {3} dentro de otro.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El nuevo mensaje va en el archivo de origen con los marcadores de posición de Angular, igual que lo escribe {0}. Los elementos que contienen un elemento con {1} lo conservan, y su otro texto va en un {2}, ya que Angular rechaza un elemento {3} dentro de otro."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

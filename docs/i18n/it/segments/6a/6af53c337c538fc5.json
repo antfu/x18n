@@ -1,0 +1,14 @@
+{
+  "hash": "6af53c337c538fc5",
+  "source": "Deletes a key or a parent key.",
+  "text": "Elimina una chiave o una chiave padre.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina una chiave o una chiave padre."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

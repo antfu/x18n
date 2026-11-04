@@ -1,0 +1,14 @@
+{
+  "hash": "2964f3cfefd9e531",
+  "source": "Skip authentication (CI and e2e only)",
+  "text": "Ignora a autenticação (somente CI e e2e)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ignora a autenticação (somente CI e e2e)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

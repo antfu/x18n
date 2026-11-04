@@ -1,0 +1,14 @@
+{
+  "hash": "89470866517e3aa6",
+  "source": "Run {0} to list review ids.",
+  "text": "Ejecuta {0} para listar los ids de las revisiones.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ejecuta {0} para listar los ids de las revisiones."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

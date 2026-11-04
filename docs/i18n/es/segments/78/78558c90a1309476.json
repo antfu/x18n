@@ -1,0 +1,14 @@
+{
+  "hash": "78558c90a1309476",
+  "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
+  "text": "Un ámbito es una región de código con un espacio de nombres o un prefijo de clave predeterminado. En react-i18next, {0} hace que {1} signifique {2} en el código que usa ese {3}. En next-intl, {4} hace que {5} signifique {6}. Los preset conocen estas factorías. Un plugin YAML puede añadir ámbitos con una expresión regular.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un ámbito es una región de código con un espacio de nombres o un prefijo de clave predeterminado. En react-i18next, {0} hace que {1} signifique {2} en el código que usa ese {3}. En next-intl, {4} hace que {5} signifique {6}. Los preset conocen estas factorías. Un plugin YAML puede añadir ámbitos con una expresión regular."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

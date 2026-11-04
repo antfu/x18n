@@ -1,0 +1,14 @@
+{
+  "hash": "45c1425ceffe8f10",
+  "source": "Messages per prompt (default 50)",
+  "text": "Mensajes por prompt (por defecto 50)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mensajes por prompt (por defecto 50)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "053e48326694da39",
+  "source": "If your config has {0}, x18n uses only your patterns. They replace the patterns of every preset.",
+  "text": "Si tu configuración tiene {0}, x18n usa solo tus patrones. Estos sustituyen los patrones de todos los presets.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si tu configuración tiene {0}, x18n usa solo tus patrones. Estos sustituyen los patrones de todos los presets."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

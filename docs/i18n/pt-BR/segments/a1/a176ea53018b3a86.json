@@ -1,0 +1,14 @@
+{
+  "hash": "a176ea53018b3a86",
+  "source": "{0} and {1} return a translate function for the keyset.",
+  "text": "{0} e {1} retornam uma função de tradução para o keyset.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} e {1} retornam uma função de tradução para o keyset."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

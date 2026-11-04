@@ -1,0 +1,14 @@
+{
+  "hash": "9e9fafde936ad355",
+  "source": "The {0} preset supports {1}i18next-shopify{/1}, the i18next plugin for the Shopify message format.",
+  "text": "El preset {0} es compatible con {1}i18next-shopify{/1}, el plugin de i18next para el formato de mensajes de Shopify.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0} es compatible con {1}i18next-shopify{/1}, el plugin de i18next para el formato de mensajes de Shopify."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

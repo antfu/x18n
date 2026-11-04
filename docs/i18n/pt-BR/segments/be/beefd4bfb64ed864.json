@@ -1,0 +1,14 @@
+{
+  "hash": "beefd4bfb64ed864",
+  "source": "In components and layouts, a key is always a global key. x18n does not know on which pages a component shows.",
+  "text": "Em componentes e layouts, uma chave é sempre uma chave global. O x18n não sabe em quais páginas um componente aparece.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em componentes e layouts, uma chave é sempre uma chave global. O x18n não sabe em quais páginas um componente aparece."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "41fa8acf5c6735c8",
+  "source": "{0}: the files per scanner. A regex scanner shows {1} until a spec gives it extensions.",
+  "text": "{0}: los archivos por scanner. Un scanner de regex muestra {1} hasta que una especificación le asigna extensiones.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: los archivos por scanner. Un scanner de regex muestra {1} hasta que una especificación le asigna extensiones."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

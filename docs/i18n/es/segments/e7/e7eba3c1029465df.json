@@ -1,0 +1,14 @@
+{
+  "hash": "e7eba3c1029465df",
+  "source": "{0} converts your settings and custom frameworks into an x18n config.",
+  "text": "{0} convierte tus ajustes y tus frameworks personalizados en una configuración de x18n.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} convierte tus ajustes y tus frameworks personalizados en una configuración de x18n."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

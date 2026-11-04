@@ -1,0 +1,14 @@
+{
+  "hash": "19c17a0592d77089",
+  "source": "Translate reported values",
+  "text": "Traducir los valores señalados",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Traducir los valores señalados"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d4b180a66e22b427",
+  "source": "The preset sets {0} to {1}, so {2} uses the text itself as the key. Set {3} in the config to change it.",
+  "text": "El preset establece {0} en {1}, por lo que {2} usa el propio texto como clave. Define {3} en la configuración para cambiarlo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset establece {0} en {1}, por lo que {2} usa el propio texto como clave. Define {3} en la configuración para cambiarlo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

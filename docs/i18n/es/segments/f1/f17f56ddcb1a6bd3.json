@@ -1,0 +1,14 @@
+{
+  "hash": "f17f56ddcb1a6bd3",
+  "source": "The preset also reads {0} blocks in {1} files. A block can hold one locale, or every locale:",
+  "text": "El preset también lee los bloques {0} en los archivos {1}. Un bloque puede contener un idioma o todos los idiomas:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset también lee los bloques {0} en los archivos {1}. Un bloque puede contener un idioma o todos los idiomas:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

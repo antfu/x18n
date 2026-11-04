@@ -1,0 +1,14 @@
+{
+  "hash": "cfcf5804c3e5dc9c",
+  "source": "A hard-coded string that should probably be a message. On with {0}.",
+  "text": "Una cadena codificada que probablemente debería ser un mensaje. Se activa con {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una cadena codificada que probablemente debería ser un mensaje. Se activa con {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

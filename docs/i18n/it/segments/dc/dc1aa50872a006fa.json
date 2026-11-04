@@ -1,0 +1,14 @@
+{
+  "hash": "dc1aa50872a006fa",
+  "source": "Write values even when their placeholders differ from the source value.",
+  "text": "Scrive i valori anche quando i loro segnaposto differiscono dal valore di origine.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Scrive i valori anche quando i loro segnaposto differiscono dal valore di origine."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

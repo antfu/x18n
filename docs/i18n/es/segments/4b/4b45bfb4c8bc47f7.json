@@ -1,0 +1,14 @@
+{
+  "hash": "4b45bfb4c8bc47f7",
+  "source": "If your config has no {0}, the preset uses the same patterns as the {1} preset:",
+  "text": "Si tu configuración no tiene {0}, el preset usa los mismos patrones que el preset {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si tu configuración no tiene {0}, el preset usa los mismos patrones que el preset {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

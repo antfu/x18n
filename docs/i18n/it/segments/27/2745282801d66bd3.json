@@ -1,0 +1,14 @@
+{
+  "hash": "2745282801d66bd3",
+  "source": "A preset is a group of plugins for one i18n library. The default is {0}: x18n runs the detection of every built-in preset against the dependencies in {1}, {2}, {3}, {4}, {5}, {6} and {7}. The manifests in the parent directories, up to the git root, count too. In a monorepo, this finds the dependencies of the workspace root.",
+  "text": "Un preset è un gruppo di plugin per una libreria i18n. Il valore predefinito è {0}: x18n esegue il rilevamento di ogni preset integrato sulle dipendenze in {1}, {2}, {3}, {4}, {5}, {6} e {7}. Contano anche i manifest nelle directory superiori, fino alla radice di git. In un monorepo, in questo modo trova le dipendenze della radice del workspace.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un preset è un gruppo di plugin per una libreria i18n. Il valore predefinito è {0}: x18n esegue il rilevamento di ogni preset integrato sulle dipendenze in {1}, {2}, {3}, {4}, {5}, {6} e {7}. Contano anche i manifest nelle directory superiori, fino alla radice di git. In un monorepo, in questo modo trova le dipendenze della radice del workspace."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

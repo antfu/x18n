@@ -1,0 +1,14 @@
+{
+  "hash": "8a83331755d0c89f",
+  "source": "The {0}UI{/0} shows every key across locales in a table. It runs as a local server, or as a static report.",
+  "text": "La {0}UI{/0} mostra ogni chiave in tutte le lingue in una tabella. Funziona come server locale o come report statico.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La {0}UI{/0} mostra ogni chiave in tutte le lingue in una tabella. Funziona come server locale o come report statico."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

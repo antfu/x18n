@@ -1,0 +1,14 @@
+{
+  "hash": "1d78dafe67e5d917",
+  "source": "The {0} preset supports {1}es2015-i18n-tag{/1}.",
+  "text": "O preset {0} oferece suporte ao {1}es2015-i18n-tag{/1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset {0} oferece suporte ao {1}es2015-i18n-tag{/1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

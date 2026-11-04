@@ -1,0 +1,14 @@
+{
+  "hash": "55677ca50ccd9042",
+  "source": "Hard strings with a proposed key, message and replacement each.",
+  "text": "Stringhe hardcoded, ciascuna con una chiave, un messaggio e una sostituzione proposti.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stringhe hardcoded, ciascuna con una chiave, un messaggio e una sostituzione proposti."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

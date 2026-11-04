@@ -1,0 +1,14 @@
+{
+  "hash": "829c9fa7ed20b06c",
+  "source": "{0} adds itself to the {1} script of {2}. After that, every install links the skills again, so the skills stay at the version of the installed CLI.",
+  "text": "{0} si aggiunge allo script {1} di {2}. Da quel momento, ogni installazione ricollega le skill, quindi le skill restano alla versione della CLI installata.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} si aggiunge allo script {1} di {2}. Da quel momento, ogni installazione ricollega le skill, quindi le skill restano alla versione della CLI installata."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "aa990b36283d0174",
+  "source": "A custom hook that wraps {0} is a call spec with a fixed namespace:",
+  "text": "Un hook personalizado que envuelve {0} es una especificación de llamada con un espacio de nombres fijo:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un hook personalizado que envuelve {0} es una especificación de llamada con un espacio de nombres fijo:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7cba101c46e279ba",
+  "source": "Success. For {0}: no errors, and no more warnings than {1}.",
+  "text": "Successo. Per {0}: nessun errore e non più avvisi di {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Successo. Per {0}: nessun errore e non più avvisi di {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "1c5069689fdc8312",
+  "source": "How far a message got, as its format says: {0}, {1} or {2} (XLIFF {3}, PO {4}). Not the state of a review thread.",
+  "text": "A che punto è arrivato un messaggio, come indica il suo formato: {0}, {1} o {2} (XLIFF {3}, PO {4}). Non è lo stato di una discussione di revisione.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A che punto è arrivato un messaggio, come indica il suo formato: {0}, {1} o {2} (XLIFF {3}, PO {4}). Non è lo stato di una discussione di revisione."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

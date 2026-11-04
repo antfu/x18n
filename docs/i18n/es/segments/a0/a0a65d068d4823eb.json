@@ -1,0 +1,14 @@
+{
+  "hash": "a0a65d068d4823eb",
+  "source": "Fix the problem that the message names. A merge conflict in the file is a common cause.",
+  "text": "Corrige el problema que indica el mensaje. Una causa común es un conflicto de fusión (merge) en el archivo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Corrige el problema que indica el mensaje. Una causa común es un conflicto de fusión (merge) en el archivo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

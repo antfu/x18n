@@ -1,0 +1,14 @@
+{
+  "hash": "e4abee5ae2bc68be",
+  "source": "Usage, config or plugin error. Errors without an x18n code also exit with 2.",
+  "text": "Errore di utilizzo, di configurazione o di plugin. Anche gli errori senza un codice x18n terminano con 2.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Errore di utilizzo, di configurazione o di plugin. Anche gli errori senza un codice x18n terminano con 2."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

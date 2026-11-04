@@ -1,0 +1,14 @@
+{
+  "hash": "6c7bd332d4fbd500",
+  "source": "Resource could not be parsed. Fix the syntax error in the file.",
+  "text": "No se pudo analizar el recurso. Corrige el error de sintaxis en el archivo.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No se pudo analizar el recurso. Corrige el error de sintaxis en el archivo."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

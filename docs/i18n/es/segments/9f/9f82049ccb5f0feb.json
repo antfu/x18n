@@ -1,0 +1,14 @@
+{
+  "hash": "9f82049ccb5f0feb",
+  "source": "Display the help of a command",
+  "text": "Muestra la ayuda de un comando",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Muestra la ayuda de un comando"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

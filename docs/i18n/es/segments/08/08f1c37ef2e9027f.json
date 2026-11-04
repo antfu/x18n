@@ -1,0 +1,14 @@
+{
+  "hash": "08f1c37ef2e9027f",
+  "source": "{0} gives {1} and {2} ({3} by default), and each {4} there is a target locale. {5} has no file for the source locale, so x18n reads the source text from the {6} of a target file. That reading is read-only: the source text lives in your code. Run {7} to add new messages to the files.",
+  "text": "{0} proporciona {1} y {2} ({3} por defecto), y cada {4} es un idioma de destino. {5} no tiene archivo para el idioma de origen, así que x18n lee el texto de origen del {6} de un archivo de destino. Esa lectura es de solo lectura: el texto de origen vive en tu código. Ejecuta {7} para añadir mensajes nuevos a los archivos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} proporciona {1} y {2} ({3} por defecto), y cada {4} es un idioma de destino. {5} no tiene archivo para el idioma de origen, así que x18n lee el texto de origen del {6} de un archivo de destino. Esa lectura es de solo lectura: el texto de origen vive en tu código. Ejecuta {7} para añadir mensajes nuevos a los archivos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d5478c54ee826eec",
+  "source": "Run only these check ids, for example {0}.",
+  "text": "Esegue solo questi id di controllo, ad esempio {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esegue solo questi id di controllo, ad esempio {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

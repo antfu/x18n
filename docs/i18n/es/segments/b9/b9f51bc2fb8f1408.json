@@ -1,0 +1,14 @@
+{
+  "hash": "b9f51bc2fb8f1408",
+  "source": "Extract hard strings",
+  "text": "Extraer cadenas codificadas",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extraer cadenas codificadas"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

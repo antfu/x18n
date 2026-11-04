@@ -1,0 +1,14 @@
+{
+  "hash": "c1d0ebc28f4325b0",
+  "source": "Write the matching reporter output to a file (repeatable)",
+  "text": "Grava a saída do reporter correspondente em um arquivo (repetível)",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Grava a saída do reporter correspondente em um arquivo (repetível)"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

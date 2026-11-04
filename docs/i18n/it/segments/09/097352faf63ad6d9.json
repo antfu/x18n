@@ -1,0 +1,14 @@
+{
+  "hash": "097352faf63ad6d9",
+  "source": "The entry holding the matched value.",
+  "text": "La voce che contiene il valore trovato.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La voce che contiene il valore trovato."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "7749744bba1c56e0",
+  "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
+  "text": "Questo scrive ogni diagnostica in {0}, nella radice del workspace. Finché il file esiste, {1} riporta e fallisce solo sulle diagnostiche che non sono al suo interno, e indica quante di quelle note ha escluso. Una diagnostica è nota in base a file, controllo, chiave, lingua e messaggio, non alla sua riga, quindi spostare il codice la mantiene nota. Una diagnostica identica in più nello stesso file è nuova.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Questo scrive ogni diagnostica in {0}, nella radice del workspace. Finché il file esiste, {1} riporta e fallisce solo sulle diagnostiche che non sono al suo interno, e indica quante di quelle note ha escluso. Una diagnostica è nota in base a file, controllo, chiave, lingua e messaggio, non alla sua riga, quindi spostare il codice la mantiene nota. Una diagnostica identica in più nello stesso file è nuova."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "d6a54092bafd9271",
+  "source": "Write the extraction plan to a file to edit",
+  "text": "Scrivi il piano di estrazione in un file da modificare",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Scrivi il piano di estrazione in un file da modificare"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

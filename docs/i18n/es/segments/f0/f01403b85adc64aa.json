@@ -1,0 +1,14 @@
+{
+  "hash": "f01403b85adc64aa",
+  "source": "{0} receives the final, frozen config. Read plugin options from {1} here.",
+  "text": "{0} recibe la configuración final e inmutable. Lee aquí las opciones del plugin desde {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} recibe la configuración final e inmutable. Lee aquí las opciones del plugin desde {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

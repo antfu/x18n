@@ -1,0 +1,14 @@
+{
+  "hash": "2322b161bcd2b85a",
+  "source": "Only values containing the query, instead of a fuzzy match",
+  "text": "Solo i valori che contengono la query, invece di una corrispondenza fuzzy",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo i valori che contengono la query, invece di una corrispondenza fuzzy"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

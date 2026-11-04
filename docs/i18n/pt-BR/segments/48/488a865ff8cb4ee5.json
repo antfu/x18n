@@ -1,0 +1,14 @@
+{
+  "hash": "488a865ff8cb4ee5",
+  "source": "{0} blocks",
+  "text": "Blocos {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Blocos {0}"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

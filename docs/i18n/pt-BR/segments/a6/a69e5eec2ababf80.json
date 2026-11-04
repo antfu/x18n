@@ -1,0 +1,14 @@
+{
+  "hash": "a69e5eec2ababf80",
+  "source": "Run {0} to see the existing key.",
+  "text": "Execute {0} para ver a chave existente.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Execute {0} para ver a chave existente."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

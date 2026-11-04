@@ -1,0 +1,14 @@
+{
+  "hash": "1088c231d5b3a7fe",
+  "source": "Rules that rewrite the raw key text of a usage before x18n looks it up. This rule turns {0} into the key {1}:",
+  "text": "Regole che riscrivono il testo grezzo della chiave di un utilizzo prima che x18n la cerchi. Questa regola trasforma {0} nella chiave {1}:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Regole che riscrivono il testo grezzo della chiave di un utilizzo prima che x18n la cerchi. Questa regola trasforma {0} nella chiave {1}:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

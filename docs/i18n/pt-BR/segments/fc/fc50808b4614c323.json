@@ -1,0 +1,14 @@
+{
+  "hash": "fc50808b4614c323",
+  "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these catalogs. Each {4} is a key, and its {5} is the value. The preset sets {6}, so a {7} or {8} in a {9} stays part of the key:",
+  "text": "Se a sua configuração não tiver {0}, o preset usa {1} e {2}. O formato {3} lê e grava esses catálogos. Cada {4} é uma chave, e o {5} dela é o valor. O preset define {6}, então um {7} ou {8} em um {9} continua fazendo parte da chave:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se a sua configuração não tiver {0}, o preset usa {1} e {2}. O formato {3} lê e grava esses catálogos. Cada {4} é uma chave, e o {5} dela é o valor. O preset define {6}, então um {7} ou {8} em um {9} continua fazendo parte da chave:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

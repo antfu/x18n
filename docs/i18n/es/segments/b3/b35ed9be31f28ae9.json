@@ -1,0 +1,14 @@
+{
+  "hash": "b35ed9be31f28ae9",
+  "source": "With the default separator {0}, the namespace is the first part of the key path. The key {1} in {2} is {3}. vue-i18n works this way.",
+  "text": "Con el separador por defecto {0}, el espacio de nombres es la primera parte de la ruta de la clave. La clave {1} en {2} es {3}. vue-i18n funciona así.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Con el separador por defecto {0}, el espacio de nombres es la primera parte de la ruta de la clave. La clave {1} en {2} es {3}. vue-i18n funciona así."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

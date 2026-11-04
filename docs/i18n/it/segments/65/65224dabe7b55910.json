@@ -1,0 +1,14 @@
+{
+  "hash": "65224dabe7b55910",
+  "source": "A template can add {0}: lines that x18n adds once to the file when they are missing, such as {1}.",
+  "text": "Un template può aggiungere {0}: righe che x18n aggiunge una sola volta al file quando mancano, come {1}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un template può aggiungere {0}: righe che x18n aggiunge una sola volta al file quando mancano, come {1}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

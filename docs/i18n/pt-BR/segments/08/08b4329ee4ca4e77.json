@@ -1,0 +1,14 @@
+{
+  "hash": "08b4329ee4ca4e77",
+  "source": "Also rewrite usages in code. Default true.",
+  "text": "Reescreve também os usos no código. O padrão é true.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reescreve também os usos no código. O padrão é true."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

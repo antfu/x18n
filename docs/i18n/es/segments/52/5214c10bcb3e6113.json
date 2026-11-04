@@ -1,0 +1,14 @@
+{
+  "hash": "5214c10bcb3e6113",
+  "source": "The {0} preset supports {1}laravel-vue-i18n{/1}, which loads the Laravel translation files in Vue.",
+  "text": "El preset {0} es compatible con {1}laravel-vue-i18n{/1}, que carga los archivos de traducción de Laravel en Vue.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset {0} es compatible con {1}laravel-vue-i18n{/1}, que carga los archivos de traducción de Laravel en Vue."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

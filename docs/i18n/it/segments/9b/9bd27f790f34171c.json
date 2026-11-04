@@ -1,0 +1,14 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "Esecuzione di prova dell'eliminazione in blocco delle chiavi inutilizzate; {0} la applica.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esecuzione di prova dell'eliminazione in blocco delle chiavi inutilizzate; {0} la applica."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

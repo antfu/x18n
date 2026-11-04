@@ -1,0 +1,14 @@
+{
+  "hash": "918fea4c3ba3b894",
+  "source": "a resource pattern, {0}",
+  "text": "um padrão de recurso, {0}",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "um padrão de recurso, {0}"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "79c123c55b4c89ad",
+  "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
+  "text": "Qui {0} è {1} e il fallback segue il comportamento della libreria: prima {2}, poi la chiave così com'è scritta. Una chiave con un proprio namespace, o una pipe con {3} e {4}, viene lasciata così com'è.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Qui {0} è {1} e il fallback segue il comportamento della libreria: prima {2}, poi la chiave così com'è scritta. Una chiave con un proprio namespace, o una pipe con {3} e {4}, viene lasciata così com'è."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

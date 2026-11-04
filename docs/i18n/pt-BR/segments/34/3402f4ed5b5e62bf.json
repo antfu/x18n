@@ -1,0 +1,14 @@
+{
+  "hash": "3402f4ed5b5e62bf",
+  "source": "The tagged template {0} and the text of {1} are usages.",
+  "text": "O template literal com tag {0} e o texto de {1} são usos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O template literal com tag {0} e o texto de {1} são usos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

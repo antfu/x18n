@@ -1,0 +1,14 @@
+{
+  "hash": "177f1823e7913940",
+  "source": "{0} terms of the {1}, such as brand names.",
+  "text": "termos de {0} do {1}, como nomes de marcas.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "termos de {0} do {1}, como nomes de marcas."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

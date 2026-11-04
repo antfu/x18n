@@ -1,0 +1,14 @@
+{
+  "hash": "507a89a39c99ca67",
+  "source": "This file has the keys {0}, {1} and {2}. When x18n writes a key, it writes it under the locale key of the file. A file without the locale key of its locale has no keys, so the preset does not support {3}.",
+  "text": "Este archivo tiene las claves {0}, {1} y {2}. Cuando x18n escribe una clave, la escribe bajo la clave de idioma del archivo. Un archivo sin la clave de su idioma no tiene claves, por lo que el preset no admite {3}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Este archivo tiene las claves {0}, {1} y {2}. Cuando x18n escribe una clave, la escribe bajo la clave de idioma del archivo. Un archivo sin la clave de su idioma no tiene claves, por lo que el preset no admite {3}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

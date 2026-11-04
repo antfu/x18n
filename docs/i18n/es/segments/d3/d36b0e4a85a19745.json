@@ -1,0 +1,14 @@
+{
+  "hash": "d36b0e4a85a19745",
+  "source": "If the second one is meant to replace the first, set {0} on it.",
+  "text": "Si el segundo debe reemplazar al primero, establece {0} en él.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si el segundo debe reemplazar al primero, establece {0} en él."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

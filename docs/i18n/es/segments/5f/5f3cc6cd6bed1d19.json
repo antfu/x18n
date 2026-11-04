@@ -1,0 +1,14 @@
+{
+  "hash": "5f3cc6cd6bed1d19",
+  "source": "This file has the key {0}. A file in a subdirectory, such as {1}, gives keys such as {2}. In a JSON file, such as {3}, each key is a whole sentence: {4}. The JSON patterns set {5}, so a sentence such as {6} is one key and x18n writes it as one property, while the PHP files keep {7} as the key separator.",
+  "text": "Este archivo tiene la clave {0}. Un archivo en un subdirectorio, como {1}, da claves como {2}. En un archivo JSON, como {3}, cada clave es una frase completa: {4}. Los patrones JSON establecen {5}, de modo que una frase como {6} es una sola clave y x18n la escribe como una sola propiedad, mientras que los archivos PHP mantienen {7} como separador de claves.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Este archivo tiene la clave {0}. Un archivo en un subdirectorio, como {1}, da claves como {2}. En un archivo JSON, como {3}, cada clave es una frase completa: {4}. Los patrones JSON establecen {5}, de modo que una frase como {6} es una sola clave y x18n la escribe como una sola propiedad, mientras que los archivos PHP mantienen {7} como separador de claves."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

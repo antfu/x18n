@@ -1,0 +1,14 @@
+{
+  "hash": "75f09bfdef6e320d",
+  "source": "On a project with many known problems, a baseline makes CI fail only on new ones. Write it once and commit it:",
+  "text": "En un proyecto con muchos problemas conocidos, una línea base hace que CI falle solo con los nuevos. Escríbela una vez y haz commit:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En un proyecto con muchos problemas conocidos, una línea base hace que CI falle solo con los nuevos. Escríbela una vez y haz commit:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

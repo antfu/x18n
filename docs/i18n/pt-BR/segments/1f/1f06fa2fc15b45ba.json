@@ -1,0 +1,14 @@
+{
+  "hash": "1f06fa2fc15b45ba",
+  "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
+  "text": "Chaves. {0}, {1} e {2} as filtram. {3} adiciona o valor por idioma.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaves. {0}, {1} e {2} as filtram. {3} adiciona o valor por idioma."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

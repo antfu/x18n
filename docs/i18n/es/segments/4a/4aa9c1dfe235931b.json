@@ -1,0 +1,14 @@
+{
+  "hash": "4aa9c1dfe235931b",
+  "source": "The preset adds a locale finder for the two file layouts of VS Code:",
+  "text": "El preset añade un buscador de idiomas para los dos formatos de archivos de VS Code:",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset añade un buscador de idiomas para los dos formatos de archivos de VS Code:"
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

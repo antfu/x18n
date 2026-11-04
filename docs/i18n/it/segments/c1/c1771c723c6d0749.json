@@ -1,0 +1,14 @@
+{
+  "hash": "c1771c723c6d0749",
+  "source": "{0} prints the {1} skill, so this works in any agent, with or without a skills system. See {2}The x18n skills{/2} for what the skill does. To set x18n up yourself, follow the steps below.",
+  "text": "{0} stampa la skill {1}, quindi funziona con qualsiasi agente, con o senza un sistema di skill. Consulta {2}Le skill di x18n{/2} per sapere cosa fa la skill. Per configurare x18n da solo, segui i passaggi qui sotto.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} stampa la skill {1}, quindi funziona con qualsiasi agente, con o senza un sistema di skill. Consulta {2}Le skill di x18n{/2} per sapere cosa fa la skill. Per configurare x18n da solo, segui i passaggi qui sotto."
+  },
+  "updatedAt": "2026-11-04T05:47:19.474Z"
+}

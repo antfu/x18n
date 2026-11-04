@@ -1,0 +1,14 @@
+{
+  "hash": "5980a6d7bbd0c5f6",
+  "source": "Add {0} as the first line of the file. Your editor then shows the errors.",
+  "text": "Añade {0} como primera línea del archivo. Así tu editor mostrará los errores.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Añade {0} como primera línea del archivo. Así tu editor mostrará los errores."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

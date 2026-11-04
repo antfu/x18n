@@ -1,0 +1,14 @@
+{
+  "hash": "af0777041effe765",
+  "source": "Items from {0}, keys and replacements edited as needed; drop items to skip them.",
+  "text": "Elementos de {0}, con las claves y los reemplazos editados según haga falta; descarta elementos para omitirlos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elementos de {0}, con las claves y los reemplazos editados según haga falta; descarta elementos para omitirlos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

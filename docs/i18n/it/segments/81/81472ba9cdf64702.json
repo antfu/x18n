@@ -1,0 +1,14 @@
+{
+  "hash": "81472ba9cdf64702",
+  "source": "The engine: domain model, plugin API, analysis, and {0}.",
+  "text": "Il motore: modello di dominio, API dei plugin, analisi e {0}.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il motore: modello di dominio, API dei plugin, analisi e {0}."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}

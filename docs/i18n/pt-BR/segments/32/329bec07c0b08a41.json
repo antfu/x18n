@@ -1,0 +1,14 @@
+{
+  "hash": "329bec07c0b08a41",
+  "source": "{0} add {1}extraction templates{/1} for a library: the code that replaces a hard string, per kind of hard string and per file glob.",
+  "text": "{0} adicionam {1}templates de extração{/1} para uma biblioteca: o código que substitui uma string fixa no código, por tipo de string fixa no código e por glob de arquivos.",
+  "origin": "mt",
+  "review": "none",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} adicionam {1}templates de extração{/1} para uma biblioteca: o código que substitui uma string fixa no código, por tipo de string fixa no código e por glob de arquivos."
+  },
+  "updatedAt": "2026-11-04T05:48:11.380Z"
+}
