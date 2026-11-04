@@ -1204,6 +1204,7 @@ class Server {
           value: display(entry.project.message(n.key, locale)?.value),
           missing: entry.project.get(n.key)!.missing.length > 0,
           dynamic: false,
+          usages: entry.project.get(n.key)!.usages.length,
         }))
       : entry.project.usages({ path }).flatMap(({ usage }) => usage.key === undefined
           ? []
@@ -1214,6 +1215,7 @@ class Server {
                 value: display(entry.project.lookup(usage.key, locale)?.value),
                 missing: usage.dynamic === false && entry.project.lookup(usage.key, entry.project.sourceLocale) === undefined,
                 dynamic: usage.dynamic !== false,
+                usages: entry.project.get(usage.key)?.usages.length ?? 0,
               },
             ])
     const hardStrings = entry.project.hardStrings(path).map(h => ({

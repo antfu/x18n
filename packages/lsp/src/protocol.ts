@@ -76,6 +76,7 @@ export interface FileKey {
   readonly value: string | undefined
   readonly missing: boolean
   readonly dynamic: boolean
+  readonly usages?: number
 }
 
 export interface FileKeysResult {

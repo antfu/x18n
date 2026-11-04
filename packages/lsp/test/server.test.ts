@@ -301,6 +301,15 @@ describe('language server', () => {
     expect(locale.decorations).toEqual([])
   })
 
+  it('reports usage counts in x18n/fileKeys', async () => {
+    const result: { keys: { key: string, usages?: number }[] } = await client.sendRequest(methods.fileKeys, {
+      uri: uri('src/locales/en.json'),
+    })
+    const usages = new Map(result.keys.map(key => [key.key, key.usages]))
+    expect(usages.get('app.title')).toBe(1)
+    expect(usages.get('unused')).toBe(0)
+  })
+
   it('finds keys by value with their usages through x18n/search', async () => {
     const matches: { key: string, locale: string, value: string, definition: Location, usages: Location[] }[] = await client.sendRequest(methods.search, { query: 'WILLKOMMEN', exact: true })
     expect(matches.map(m => [m.key, m.locale, m.value])).toEqual([
