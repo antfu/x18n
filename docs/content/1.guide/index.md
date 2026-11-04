@@ -51,6 +51,7 @@ x18n knows no i18n library and no file format by itself. Plugins add that knowle
 - Dart: [flutter_i18n](/presets/flutter), [easy_localization](/presets/easy-localization) and [flutter_translate](/presets/flutter-translate)
 - Python: [gettext](/presets/python-gettext) (Django, Flask-Babel, Babel) and [i18nice](/presets/i18nice) (also python-i18n)
 - Rust: [cargo-i18n](/presets/cargo-i18n) (Fluent)
+- Android: [`strings.xml`](/presets/android-strings) in Kotlin, Java and XML
 - AdonisJS: [`@adonisjs/i18n`](/presets/adonisjs), in code and Edge templates
 - .NET: [`.resx` resources](/presets/dotnet-resx) in C#, Razor and Blazor
 

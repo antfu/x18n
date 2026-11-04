@@ -1,5 +1,6 @@
 import type { PresetEntry } from '@x18n/core'
 import adonisjs from './adonisjs/entry'
+import androidStrings from './android-strings/entry'
 import angularI18next from './angular-i18next/entry'
 import angularLocalize from './angular-localize/entry'
 import cargoI18n from './cargo-i18n/entry'
@@ -101,6 +102,7 @@ export const presets: { readonly [name: string]: PresetEntry } = {
   'python-gettext': pythonGettext,
   'i18nice': i18nice,
   'cargo-i18n': cargoI18n,
+  'android-strings': androidStrings,
   'dotnet-resx': dotnetResx,
   'general': general,
 }

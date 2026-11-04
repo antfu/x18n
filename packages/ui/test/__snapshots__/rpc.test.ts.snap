@@ -1254,6 +1254,13 @@ exports[`rpc functions > explains the project 1`] = `
         },
         {
           "extensions": [
+            "xml",
+          ],
+          "id": "android-xml",
+          "resources": 0,
+        },
+        {
+          "extensions": [
             "xlf",
             "xliff",
           ],
@@ -1334,6 +1341,7 @@ exports[`rpc functions > explains the project 1`] = `
         "x18n:format-po",
         "x18n:format-properties",
         "x18n:format-resx",
+        "x18n:format-android-xml",
         "x18n:format-xliff",
         "x18n:format-xmb",
         "x18n:format-arb",
@@ -1533,6 +1541,10 @@ exports[`rpc functions > explains the project 1`] = `
         },
         {
           "name": "cargo-i18n",
+          "reason": "not-detected",
+        },
+        {
+          "name": "android-strings",
           "reason": "not-detected",
         },
         {

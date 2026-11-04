@@ -3,6 +3,7 @@
  */
 // #region Other
 export { adonisjs }
+export { androidStrings }
 export { angularI18next }
 export { angularLocalize }
 export { cargoI18n }
