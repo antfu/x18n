@@ -1262,7 +1262,7 @@ class Server {
     await this.ready
     await this.flush(params.uri)
     const found = this.locate(params.uri)
-    if (!found || found.entry.project.nodes(found.path).length > 0)
+    if (!found)
       return { locale: this.settings.displayLocale ?? '', decorations: [] }
     const { entry, path } = found
     const locale = this.displayLocale(entry)

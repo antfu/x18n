@@ -64,6 +64,17 @@ async function connect(dir: string, initializationOptions?: InitializeParams['in
 beforeAll(async () => {
   root = await mkdtemp(join(tmpdir(), 'x18n-lsp-'))
   await cp(join(fixtures, 'vue-i18n'), root, { recursive: true })
+  await writeFile(join(root, 'src/DualBlock.vue'), `<template>
+  <p>{{ $t('local.hint') }}</p>
+</template>
+
+<i18n lang="json">
+{
+  "en": { "local": { "hint": "Tasks are kept in memory" } },
+  "de": { "local": { "hint": "Aufgaben bleiben im Speicher" } }
+}
+</i18n>
+`)
   client = await connect(root)
 })
 
@@ -249,6 +260,20 @@ describe('language server', () => {
     expect(result.decorations.map(d => `${d.key}:${d.state}`)).toContain('app.titel:missing')
     expect(result.decorations.find(d => d.key === 'app.greeting')?.expression).toEqual({ start: await position('src/App.vue', '$t(\'app.greeting', 0), end: await position('src/App.vue', ') }}</h1>') })
     expect(result.decorations.find(d => d.key === 'nav.about')?.expression).toBeUndefined()
+  })
+
+  it('decorates code in a component with an embedded resource block', async () => {
+    const dual: { locale: string, decorations: { key: string, value?: string }[] } = await client.sendRequest(methods.decorations, {
+      uri: uri('src/DualBlock.vue'),
+    })
+    expect(dual.locale).toBe('en')
+    expect(dual.decorations.find(d => d.key === 'local.hint')?.value).toBe('Tasks are kept in memory')
+
+    const locale: { locale: string, decorations: unknown[] } = await client.sendRequest(methods.decorations, {
+      uri: uri('src/locales/en.json'),
+    })
+    expect(locale.locale).toBe('en')
+    expect(locale.decorations).toEqual([])
   })
 
   it('finds keys by value with their usages through x18n/search', async () => {
