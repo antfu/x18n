@@ -31,6 +31,7 @@ export const uiLocales = [
   'es',
   'pt-BR',
   'ru',
+  'tr',
 ] as const
 type UiLocale = typeof uiLocales[number]
 
