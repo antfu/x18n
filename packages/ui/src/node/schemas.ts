@@ -38,7 +38,7 @@ export const PromptQuerySchema: v.GenericSchema<PromptQuery> = v.object({
     v.array(v.string()),
   ])),
   namespace: v.optional(v.string()),
-  limit: v.optional(v.pipe(v.number(), v.description('Messages per prompt. Default 50.'))),
+  limit: v.optional(v.pipe(v.number(), v.integer(), v.minValue(1), v.description('Messages per prompt. Default 50.'))),
   cursor: v.optional(text('`nextCursor` of the previous prompt.')),
   stale: v.optional(v.pipe(v.boolean(), v.description('Also translate stale translations: those older than their source message.'))),
   check: v.optional(v.pipe(v.union([
@@ -163,7 +163,7 @@ export const AgentKeysSchema: v.GenericSchema<AgentKeysQuery> = v.object({
   unused: v.optional(v.pipe(v.boolean(), v.description('Only keys without usages in code.'))),
   namespace: v.optional(v.string()),
   values: v.optional(v.pipe(v.boolean(), v.description('Include the value per locale.'))),
-  limit: v.optional(v.pipe(v.number(), v.description('Page size. Default 100.'))),
+  limit: v.optional(v.pipe(v.number(), v.integer(), v.minValue(1), v.description('Page size. Default 100.'))),
   cursor: v.optional(text('`nextCursor` of the previous page.')),
 })
 
@@ -171,7 +171,7 @@ export const AgentSearchSchema: v.GenericSchema<AgentSearchQuery> = v.object({
   project,
   query: text('Text of the message, as seen in the app, in any locale.'),
   exact: v.optional(v.pipe(v.boolean(), v.description('Only values containing the query. By default a fuzzy match also counts.'))),
-  limit: v.optional(v.pipe(v.number(), v.description('Page size. Default 100.'))),
+  limit: v.optional(v.pipe(v.number(), v.integer(), v.minValue(1), v.description('Page size. Default 100.'))),
   cursor: v.optional(text('`nextCursor` of the previous page.')),
 })
 
@@ -179,7 +179,7 @@ export const AgentUsagesSchema: v.GenericSchema<AgentUsagesQuery> = v.object({
   project,
   key: v.optional(text('Only usages of this key.')),
   path: v.optional(text('Only usages in this file (path relative to the project root).')),
-  limit: v.optional(v.pipe(v.number(), v.description('Page size. Default 100.'))),
+  limit: v.optional(v.pipe(v.number(), v.integer(), v.minValue(1), v.description('Page size. Default 100.'))),
   cursor: v.optional(text('`nextCursor` of the previous page.')),
 })
 
@@ -187,7 +187,7 @@ export const AgentCheckSchema: v.GenericSchema<AgentCheckQuery> = v.object({
   project,
   only: v.optional(v.pipe(v.array(v.string()), v.description('Only these check ids, for example `placeholder-mismatch`, `invalid-syntax`, `missing-translation`.'))),
   locale: v.optional(v.pipe(v.array(v.string()), v.description('Only diagnostics for these locales.'))),
-  limit: v.optional(v.pipe(v.number(), v.description('Page size. Default 100.'))),
+  limit: v.optional(v.pipe(v.number(), v.integer(), v.minValue(1), v.description('Page size. Default 100.'))),
   cursor: v.optional(text('`nextCursor` of the previous page.')),
 })
 
