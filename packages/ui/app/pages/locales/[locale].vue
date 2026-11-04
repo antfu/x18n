@@ -6,13 +6,12 @@ import { localeProblemCodes } from '../../../src/node/constants'
 import CopyPrompt from '../../components/CopyPrompt.vue'
 import LocaleFlag from '../../components/LocaleFlag.vue'
 import MessageText from '../../components/MessageText.vue'
-import ShowMore from '../../components/ShowMore.vue'
 import UiPage from '../../components/ui/UiPage.vue'
 import UiSection from '../../components/ui/UiSection.vue'
+import VirtualList from '../../components/VirtualList.vue'
 import { useDiagnostics } from '../../diagnostics'
 import { formatPercent, languageName, t } from '../../i18n'
 import { translatePrompt } from '../../prompt'
-import { listStep, useShowMore } from '../../show-more'
 import { currentProject, isLocaleVisible, toggleLocale, useLive } from '../../state'
 
 const route = useRoute()
@@ -30,9 +29,6 @@ const outdatedPercent = computed(() => summary.value && summary.value.total
   ? (summary.value.outdated / summary.value.total) * 100
   : 0)
 const problems = computed(() => problemList.value?.items ?? [])
-const { shown: shownMissing, more: moreMissing } = useShowMore(missing, () => code.value)
-const { shown: shownEmpty, more: moreEmpty } = useShowMore(empty, () => code.value)
-const { shown: shownOutdated, more: moreOutdated } = useShowMore(outdated, () => code.value)
 
 function showInGrid(): void {
   if (!isLocaleVisible(code.value))
@@ -72,48 +68,58 @@ function showInGrid(): void {
     </header>
 
     <UiSection v-if="missing.length" index="01" :title="t('locale.missing', { count: missing.length })">
-      <NuxtLink v-for="row in shownMissing" :key="row.key" :to="`/keys/${encodeURIComponent(row.key)}`" class="focus-ring grid grid-cols-[minmax(0,20rem)_1fr] items-baseline gap-4 border-b border-base px-4 py-1.5 transition-colors last:border-b-0 hover:bg-hover">
-        <span class="truncate font-mono text-xs">{{ row.key }}</span>
-        <span class="truncate color-muted"><MessageText :value="row.values[currentProject?.sourceLocale ?? '']" inline /></span>
-      </NuxtLink>
-      <ShowMore :shown="shownMissing.length" :total="missing.length" :step="listStep" @more="moreMissing" />
+      <VirtualList :items="missing" :estimate="33" :get-key="row => row.key">
+        <template #default="{ item: row }">
+          <NuxtLink :to="`/keys/${encodeURIComponent(row.key)}`" class="focus-ring grid grid-cols-[minmax(0,20rem)_1fr] items-baseline gap-4 border-b border-base px-4 py-1.5 transition-colors hover:bg-hover">
+            <span class="truncate font-mono text-xs">{{ row.key }}</span>
+            <span class="truncate color-muted"><MessageText :value="row.values[currentProject?.sourceLocale ?? '']" inline /></span>
+          </NuxtLink>
+        </template>
+      </VirtualList>
     </UiSection>
 
     <UiSection v-if="empty.length" index="02" :title="t('locale.empty', { count: empty.length })">
-      <NuxtLink v-for="row in shownEmpty" :key="row.key" :to="`/keys/${encodeURIComponent(row.key)}`" class="focus-ring grid grid-cols-[minmax(0,20rem)_1fr] items-baseline gap-4 border-b border-base px-4 py-1.5 transition-colors last:border-b-0 hover:bg-hover">
-        <span class="truncate font-mono text-xs">{{ row.key }}</span>
-        <span class="truncate color-muted"><MessageText :value="row.values[currentProject?.sourceLocale ?? '']" inline /></span>
-      </NuxtLink>
-      <ShowMore :shown="shownEmpty.length" :total="empty.length" :step="listStep" @more="moreEmpty" />
+      <VirtualList :items="empty" :estimate="33" :get-key="row => row.key">
+        <template #default="{ item: row }">
+          <NuxtLink :to="`/keys/${encodeURIComponent(row.key)}`" class="focus-ring grid grid-cols-[minmax(0,20rem)_1fr] items-baseline gap-4 border-b border-base px-4 py-1.5 transition-colors hover:bg-hover">
+            <span class="truncate font-mono text-xs">{{ row.key }}</span>
+            <span class="truncate color-muted"><MessageText :value="row.values[currentProject?.sourceLocale ?? '']" inline /></span>
+          </NuxtLink>
+        </template>
+      </VirtualList>
     </UiSection>
 
     <UiSection v-if="outdated.length" index="03" :title="t('locale.outdated', { count: outdated.length })">
-      <NuxtLink v-for="row in shownOutdated" :key="row.key" :to="`/keys/${encodeURIComponent(row.key)}`" class="focus-ring grid grid-cols-[minmax(0,20rem)_1fr_1fr] items-center gap-4 border-b border-base px-4 py-1.5 transition-colors last:border-b-0 hover:bg-hover">
-        <span class="flex min-w-0 items-center gap-2 font-mono text-xs">
-          <span class="i-ph-clock-counter-clockwise-duotone shrink-0 color-warn" />
-          <span class="truncate">{{ row.key }}</span>
-        </span>
-        <span class="truncate"><MessageText :value="row.values[currentProject?.sourceLocale ?? '']" inline /></span>
-        <span class="truncate color-muted"><MessageText :value="row.values[code]" inline /></span>
-      </NuxtLink>
-      <ShowMore :shown="shownOutdated.length" :total="outdated.length" :step="listStep" @more="moreOutdated" />
+      <VirtualList :items="outdated" :estimate="33" :get-key="row => row.key">
+        <template #default="{ item: row }">
+          <NuxtLink :to="`/keys/${encodeURIComponent(row.key)}`" class="focus-ring grid grid-cols-[minmax(0,20rem)_1fr_1fr] items-center gap-4 border-b border-base px-4 py-1.5 transition-colors hover:bg-hover">
+            <span class="flex min-w-0 items-center gap-2 font-mono text-xs">
+              <span class="i-ph-clock-counter-clockwise-duotone shrink-0 color-warn" />
+              <span class="truncate">{{ row.key }}</span>
+            </span>
+            <span class="truncate"><MessageText :value="row.values[currentProject?.sourceLocale ?? '']" inline /></span>
+            <span class="truncate color-muted"><MessageText :value="row.values[code]" inline /></span>
+          </NuxtLink>
+        </template>
+      </VirtualList>
     </UiSection>
 
     <UiSection v-if="problems.length" index="04" :title="t('locale.problems', { count: problemList?.total ?? 0 })">
-      <component
-        :is="d.key ? NuxtLink : 'div'"
-        v-for="(d, i) in problems"
-        :key="i"
-        :to="d.key ? `/keys/${encodeURIComponent(d.key)}` : undefined"
-        class="flex items-center gap-2 border-b border-base px-4 py-1.5 last:border-b-0"
-        :class="d.key && 'transition-colors hover:bg-hover'"
-      >
-        <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
-        <span class="font-mono text-xs color-muted">{{ d.code }}</span>
-        <span v-if="d.key" class="font-mono text-xs">{{ d.key }}</span>
-        <span class="flex-auto truncate">{{ d.message }}</span>
-      </component>
-      <ShowMore v-if="problemList" :shown="problems.length" :total="problemList.total" :step="problemList.pageSize" @more="loadMoreProblems" />
+      <VirtualList :items="problems" :estimate="33" @end="loadMoreProblems">
+        <template #default="{ item: d }">
+          <component
+            :is="d.key ? NuxtLink : 'div'"
+            :to="d.key ? `/keys/${encodeURIComponent(d.key)}` : undefined"
+            class="flex items-center gap-2 border-b border-base px-4 py-1.5"
+            :class="d.key && 'transition-colors hover:bg-hover'"
+          >
+            <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
+            <span class="font-mono text-xs color-muted">{{ d.code }}</span>
+            <span v-if="d.key" class="font-mono text-xs">{{ d.key }}</span>
+            <span class="flex-auto truncate">{{ d.message }}</span>
+          </component>
+        </template>
+      </VirtualList>
     </UiSection>
 
     <p v-if="summary && table && !missing.length && !empty.length && !outdated.length && !problems.length" class="flex items-center gap-2 px-4 py-3 color-ok">

@@ -15,7 +15,7 @@ interface Diagnostics {
   /** The pages loaded so far, joined; undefined until the first one arrives. */
   readonly data: ShallowRef<DiagnosticList | undefined>
   readonly hasMore: ComputedRef<boolean>
-  /** Loads the next page and appends it. */
+  /** Loads the next page and appends it; nothing when every page is loaded. */
   readonly more: () => void
 }
 
@@ -67,10 +67,13 @@ export function useDiagnostics(filter: () => Omit<DiagnosticQuery, 'project' | '
     })
   })
 
+  const hasMore = computed(() => (data.value?.items.length ?? 0) < (data.value?.total ?? 0))
   return {
     data,
-    hasMore: computed(() => (data.value?.items.length ?? 0) < (data.value?.total ?? 0)),
+    hasMore,
     more() {
+      if (!hasMore.value)
+        return
       const filterKey = JSON.stringify(filter())
       wanted.value = {
         filter: filterKey,

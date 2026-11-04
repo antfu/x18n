@@ -5,8 +5,8 @@ import { useRoute, useRouter } from '#imports'
 import CopyPrompt from '../components/CopyPrompt.vue'
 import FilePath from '../components/FilePath.vue'
 import LocaleFlag from '../components/LocaleFlag.vue'
-import ShowMore from '../components/ShowMore.vue'
 import UiPage from '../components/ui/UiPage.vue'
+import VirtualList from '../components/VirtualList.vue'
 import { useDiagnostics } from '../diagnostics'
 import { t } from '../i18n'
 import { fixPrompt } from '../prompt'
@@ -18,6 +18,7 @@ const code = computed(() => typeof route.query.code === 'string'
   ? route.query.code
   : undefined)
 // The server sends the diagnostics a page at a time, errors first: a large project has tens of thousands.
+// The list mounts the rows in view and asks for the next page when its end comes into view.
 const { data, more } = useDiagnostics(() => code.value === undefined
   ? {}
   : {
@@ -60,21 +61,24 @@ function select(next: string | undefined): void {
     <p v-if="!rows.length" class="border-b border-base px-4 py-3 color-muted">
       {{ t('overview.clean') }}
     </p>
-    <div v-for="(d, i) in rows" :key="i" class="grid gap-1 border-b border-base px-4 py-3">
-      <div class="flex items-center gap-2">
-        <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
-        <span class="font-mono text-xs color-muted">{{ d.code }}</span>
-        <span class="flex-auto" />
-        <span v-if="d.locale" class="inline-flex items-center gap-1.5 font-mono text-xs"><LocaleFlag :code="d.locale" />{{ d.locale }}</span>
-      </div>
-      <p>{{ d.message }}</p>
-      <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
-        <NuxtLink v-if="d.key" :to="`/keys/${encodeURIComponent(d.key)}`" class="focus-ring font-mono text-xs hover:underline">
-          {{ d.key }}
-        </NuxtLink>
-        <FilePath v-if="d.file" :path="d.file" :line="d.range?.line" :column="d.range?.column" />
-      </div>
-    </div>
-    <ShowMore v-if="data" :shown="rows.length" :total="data.total" :step="data.pageSize" @more="more" />
+    <VirtualList :items="rows" :estimate="88" @end="more">
+      <template #default="{ item: d }">
+        <div class="grid gap-1 border-b border-base px-4 py-3">
+          <div class="flex items-center gap-2">
+            <span :class="d.severity === 'error' ? 'i-ph-x-circle-duotone color-error' : 'i-ph-warning-duotone color-warn'" />
+            <span class="font-mono text-xs color-muted">{{ d.code }}</span>
+            <span class="flex-auto" />
+            <span v-if="d.locale" class="inline-flex items-center gap-1.5 font-mono text-xs"><LocaleFlag :code="d.locale" />{{ d.locale }}</span>
+          </div>
+          <p>{{ d.message }}</p>
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <NuxtLink v-if="d.key" :to="`/keys/${encodeURIComponent(d.key)}`" class="focus-ring font-mono text-xs hover:underline">
+              {{ d.key }}
+            </NuxtLink>
+            <FilePath v-if="d.file" :path="d.file" :line="d.range?.line" :column="d.range?.column" />
+          </div>
+        </div>
+      </template>
+    </VirtualList>
   </UiPage>
 </template>
