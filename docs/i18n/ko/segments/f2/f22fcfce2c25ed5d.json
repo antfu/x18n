@@ -3,12 +3,16 @@
   "source": "Decision id to option id, for decisions in the plan. Default: each decision's {0}.",
   "text": "계획에 포함된 결정 사항에 대한 결정 id와 옵션 id의 매핑입니다. 기본값: 각 결정의 {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "계획에 포함된 결정 사항에 대한 결정 id와 옵션 id의 매핑입니다. 기본값: 각 결정의 {0}."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A user-facing layer on the core: CLI, LSP, extension, UI, MCP.",
   "text": "Пользовательский слой поверх ядра: CLI, LSP, расширение, UI, MCP.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пользовательский слой поверх ядра: CLI, LSP, расширение, UI, MCP."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

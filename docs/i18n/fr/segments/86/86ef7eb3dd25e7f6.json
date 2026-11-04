@@ -3,12 +3,16 @@
   "source": "When x18n renames a key, its threads move with it. When x18n deletes a key, its threads go too.",
   "text": "Quand x18n renomme une clé, ses fils de discussion la suivent. Quand x18n supprime une clé, ses fils de discussion sont supprimés aussi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Quand x18n renomme une clé, ses fils de discussion la suivent. Quand x18n supprime une clé, ses fils de discussion sont supprimés aussi."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

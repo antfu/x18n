@@ -3,12 +3,16 @@
   "source": "It needs a preset that tells where the params of a call are; the i18next presets do. Options the library reads itself, such as i18next {0}, {1} and {2}, are never unused. Unused params are reported only when the message has placeholders and no nested messages ({3}), which may use them.",
   "text": "Для неё нужен пресет, который указывает, где находятся параметры вызова; пресеты i18next это умеют. Опции, которые библиотека читает сама, такие как {0}, {1} и {2} в i18next, никогда не считаются неиспользуемыми. Неиспользуемые параметры сообщаются, только если в сообщении есть плейсхолдеры и нет вложенных сообщений ({3}), которые могут их использовать.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Для неё нужен пресет, который указывает, где находятся параметры вызова; пресеты i18next это умеют. Опции, которые библиотека читает сама, такие как {0}, {1} и {2} в i18next, никогда не считаются неиспользуемыми. Неиспользуемые параметры сообщаются, только если в сообщении есть плейсхолдеры и нет вложенных сообщений ({3}), которые могут их использовать."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

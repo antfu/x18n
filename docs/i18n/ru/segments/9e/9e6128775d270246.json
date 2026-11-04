@@ -3,12 +3,16 @@
   "source": "In {0}, {1} and {2} files, the preset reads the {3} tag:",
   "text": "В файлах {0}, {1} и {2} пресет читает тег {3}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В файлах {0}, {1} и {2} пресет читает тег {3}:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

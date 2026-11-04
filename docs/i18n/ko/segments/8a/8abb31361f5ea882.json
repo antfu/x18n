@@ -3,12 +3,16 @@
   "source": "x18n reads the i18n setup of a project: the locale files, and the translate calls in the code. It shows every key across locales, finds where each key is used, and reports keys that are missing, unused or broken. It also changes locale files for you, without breaking their format.",
   "text": "x18n은 프로젝트의 i18n 설정, 즉 로케일 파일과 코드의 번역 호출을 읽습니다. 모든 키를 로케일별로 보여 주고, 각 키가 어디에서 사용되는지 찾으며, 누락되었거나 사용되지 않거나 손상된 키를 보고합니다. 또한 형식을 깨뜨리지 않고 로케일 파일을 대신 수정해 줍니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 프로젝트의 i18n 설정, 즉 로케일 파일과 코드의 번역 호출을 읽습니다. 모든 키를 로케일별로 보여 주고, 각 키가 어디에서 사용되는지 찾으며, 누락되었거나 사용되지 않거나 손상된 키를 보고합니다. 또한 형식을 깨뜨리지 않고 로케일 파일을 대신 수정해 줍니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

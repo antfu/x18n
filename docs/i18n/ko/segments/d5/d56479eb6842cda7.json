@@ -3,12 +3,16 @@
   "source": "x18n looks for these file names, in this order. The first match wins:",
   "text": "x18n은 다음 파일 이름을 이 순서대로 찾습니다. 처음 일치하는 파일이 사용됩니다:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 다음 파일 이름을 이 순서대로 찾습니다. 처음 일치하는 파일이 사용됩니다:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

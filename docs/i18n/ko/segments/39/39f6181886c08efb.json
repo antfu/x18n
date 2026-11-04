@@ -3,12 +3,16 @@
   "source": "If the language server finds no locale files, it writes to the x18n output channel what {0} would print: the presets it applied, the files each locale finder found, config load errors and config origins. Run \"x18n: Explain Projects\" to print the same text at any time.",
   "text": "언어 서버가 로케일 파일을 찾지 못하면 {0}이(가) 출력할 내용(적용한 프리셋, 각 로케일 파인더가 찾은 파일, 설정 로드 오류, 설정 출처)을 x18n 출력 채널에 기록합니다. 같은 내용을 언제든지 출력하려면 \"x18n: Explain Projects\"를 실행하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "언어 서버가 로케일 파일을 찾지 못하면 {0}이(가) 출력할 내용(적용한 프리셋, 각 로케일 파인더가 찾은 파일, 설정 로드 오류, 설정 출처)을 x18n 출력 채널에 기록합니다. 같은 내용을 언제든지 출력하려면 \"x18n: Explain Projects\"를 실행하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

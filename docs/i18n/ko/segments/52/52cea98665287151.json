@@ -3,12 +3,16 @@
   "source": "Source file could not be scanned. Fix the syntax error, or exclude the file with `usage.exclude`.",
   "text": "소스 파일을 스캔할 수 없습니다. 구문 오류를 수정하거나 `usage.exclude`로 해당 파일을 제외하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "소스 파일을 스캔할 수 없습니다. 구문 오류를 수정하거나 `usage.exclude`로 해당 파일을 제외하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

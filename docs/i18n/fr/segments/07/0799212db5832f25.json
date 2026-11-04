@@ -3,12 +3,16 @@
   "source": "Key order when x18n writes a file. {0} sorts by code point, {1} sorts with a locale-aware compare, {2} keeps the order.",
   "text": "Ordre des clés quand x18n écrit un fichier. {0} trie par point de code, {1} trie avec une comparaison tenant compte de la langue, {2} conserve l'ordre.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ordre des clés quand x18n écrit un fichier. {0} trie par point de code, {1} trie avec une comparaison tenant compte de la langue, {2} conserve l'ordre."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

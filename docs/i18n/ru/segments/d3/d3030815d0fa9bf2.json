@@ -3,12 +3,16 @@
   "source": "The default output directory is {0}. The report holds the state of the project at build time. Edit controls, prompts and \"Open in editor\" are not there.",
   "text": "Выходной каталог по умолчанию — {0}. Отчёт содержит состояние проекта на момент сборки. Элементов редактирования, промптов и «Open in editor» в нём нет.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Выходной каталог по умолчанию — {0}. Отчёт содержит состояние проекта на момент сборки. Элементов редактирования, промптов и «Open in editor» в нём нет."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

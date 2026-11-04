@@ -3,12 +3,16 @@
   "source": "Locale of the message (repeatable for mark-fresh)",
   "text": "Локаль сообщения (для mark-fresh можно повторять)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Локаль сообщения (для mark-fresh можно повторять)"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

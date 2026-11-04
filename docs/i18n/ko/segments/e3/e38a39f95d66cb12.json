@@ -3,12 +3,16 @@
   "source": "x18n uses one name for each idea, in code, docs and UI. The \"Not\" column lists names that x18n avoids for the same idea. {0}Concepts{/0} explains the most important ones with examples.",
   "text": "x18n은 코드, 문서, UI 전반에서 하나의 개념에 하나의 이름을 사용합니다. \"Not\" 열에는 같은 개념에 대해 x18n이 사용하지 않는 이름이 나와 있습니다. {0}개념{/0}에서 가장 중요한 용어를 예시와 함께 설명합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 코드, 문서, UI 전반에서 하나의 개념에 하나의 이름을 사용합니다. \"Not\" 열에는 같은 개념에 대해 x18n이 사용하지 않는 이름이 나와 있습니다. {0}개념{/0}에서 가장 중요한 용어를 예시와 함께 설명합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

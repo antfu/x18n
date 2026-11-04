@@ -3,12 +3,16 @@
   "source": "{0} adds {1}extraction templates{/1}. An entry is a template string, or an object with {2}, {3}, {4} and {5}.",
   "text": "{0} ajoute des {1}modèles d'extraction{/1}. Une entrée est une chaîne de modèle, ou un objet avec {2}, {3}, {4} et {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} ajoute des {1}modèles d'extraction{/1}. Une entrée est une chaîne de modèle, ou un objet avec {2}, {3}, {4} et {5}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

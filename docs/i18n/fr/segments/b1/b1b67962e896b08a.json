@@ -3,12 +3,16 @@
   "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
   "text": "Origine d'une valeur par défaut écrite dans le code ; la première chaîne trouvée l'emporte. Pour les fabriques, celle des fonctions retournées.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Origine d'une valeur par défaut écrite dans le code ; la première chaîne trouvée l'emporte. Pour les fabriques, celle des fonctions retournées."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

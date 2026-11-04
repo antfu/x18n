@@ -3,12 +3,16 @@
   "source": "The data of {0} comes from {1} in {2}. It returns the presets with the reason for each, the plugins, the plugins that were skipped and why, the finders with their resources, the formats, the scanners, the conflicts, the errors, and the final config with the origin of each value.",
   "text": "Данные для {0} поступают из {1} в {2}. Функция возвращает пресеты с причиной применения каждого, плагины, пропущенные плагины с причинами, поисковики с их ресурсами, форматы, сканеры, конфликты, ошибки и итоговую конфигурацию с источником каждого значения.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Данные для {0} поступают из {1} в {2}. Функция возвращает пресеты с причиной применения каждого, плагины, пропущенные плагины с причинами, поисковики с их ресурсами, форматы, сканеры, конфликты, ошибки и итоговую конфигурацию с источником каждого значения."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

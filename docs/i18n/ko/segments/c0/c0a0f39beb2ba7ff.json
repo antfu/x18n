@@ -3,12 +3,16 @@
   "source": "The check takes options. Set them with the array form:",
   "text": "이 검사는 옵션을 받습니다. 배열 형식으로 설정하세요:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 검사는 옵션을 받습니다. 배열 형식으로 설정하세요:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check. See {1}Checks{/1}.",
   "text": "Проверка читает проект и сообщает диагностики. Диагностика — это одна найденная проблема с кодом, уровнем серьёзности и необязательными исправлениями. {0} запускает все проверки. См. {1}Проверки{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Проверка читает проект и сообщает диагностики. Диагностика — это одна найденная проблема с кодом, уровнем серьёзности и необязательными исправлениями. {0} запускает все проверки. См. {1}Проверки{/1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

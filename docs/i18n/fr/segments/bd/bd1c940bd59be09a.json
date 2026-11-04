@@ -3,12 +3,16 @@
   "source": "Rename (F2) renames the key in every locale file and every usage. On a parent key, it renames every key under it.",
   "text": "Rename (F2) renomme la clé dans chaque fichier de langue et dans chaque utilisation. Sur une clé parente, il renomme toutes les clés qui en dépendent.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Rename (F2) renomme la clé dans chaque fichier de langue et dans chaque utilisation. Sur une clé parente, il renomme toutes les clés qui en dépendent."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

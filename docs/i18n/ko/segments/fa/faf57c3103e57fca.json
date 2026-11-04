@@ -3,12 +3,16 @@
   "source": "The CLI prints the code and why the error happened, with details such as a file name or a field. The fix and a link to this page follow. With {0}, the same parts are in {1} of the {2}envelope{/2}.",
   "text": "CLI는 오류 코드와 오류가 발생한 이유를 파일 이름이나 필드 같은 세부 정보와 함께 출력합니다. 그 뒤에 해결 방법과 이 페이지로 연결되는 링크가 이어집니다. {0}를 사용하면 같은 항목이 {2}envelope{/2}의 {1}에 들어 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "CLI는 오류 코드와 오류가 발생한 이유를 파일 이름이나 필드 같은 세부 정보와 함께 출력합니다. 그 뒤에 해결 방법과 이 페이지로 연결되는 링크가 이어집니다. {0}를 사용하면 같은 항목이 {2}envelope{/2}의 {1}에 들어 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

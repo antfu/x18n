@@ -3,12 +3,16 @@
   "source": ".NET: {0}{1} resources{/0} in C#, Razor and Blazor",
   "text": ".NET : {0}ressources {1}{/0} en C#, Razor et Blazor",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": ".NET : {0}ressources {1}{/0} en C#, Razor et Blazor"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

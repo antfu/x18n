@@ -3,12 +3,16 @@
   "source": "Settings that are not on this page are not migrated.",
   "text": "Les paramètres qui ne figurent pas sur cette page ne sont pas migrés.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Les paramètres qui ne figurent pas sur cette page ne sont pas migrés."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

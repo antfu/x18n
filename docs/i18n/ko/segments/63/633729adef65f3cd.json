@@ -3,12 +3,16 @@
   "source": "Reviews live in {0}. Commit it: reviews then travel with the branch and show in pull requests.",
   "text": "리뷰는 {0}에 저장됩니다. 이 파일을 커밋하세요. 그러면 리뷰가 브랜치와 함께 이동하고 풀 리퀘스트에 표시됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리뷰는 {0}에 저장됩니다. 이 파일을 커밋하세요. 그러면 리뷰가 브랜치와 함께 이동하고 풀 리퀘스트에 표시됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Rules like {0}: when {1} is used the derived keys count as used. Rules apply repeatedly, so with {2} the key {3} derives from both {4} and {5}. {6} matches one key segment. {7} and {8} match a plural or ordinal category ({9}, {10}, {11}): each locale then needs the categories of its own language, and categories the language lacks are optional.",
   "text": "{0} 같은 규칙입니다. {1}가 사용되면 파생된 키도 사용 중인 것으로 간주합니다. 규칙은 반복해서 적용되므로 {2}를 사용하면 키 {3}는 {4}와 {5} 모두에서 파생됩니다. {6}는 키 세그먼트 하나와 일치합니다. {7}와 {8}는 복수형 또는 서수형 카테고리({9}, {10}, {11})와 일치합니다. 이 경우 각 로케일에는 해당 언어의 카테고리가 필요하며, 해당 언어에 없는 카테고리는 선택 사항입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 같은 규칙입니다. {1}가 사용되면 파생된 키도 사용 중인 것으로 간주합니다. 규칙은 반복해서 적용되므로 {2}를 사용하면 키 {3}는 {4}와 {5} 모두에서 파생됩니다. {6}는 키 세그먼트 하나와 일치합니다. {7}와 {8}는 복수형 또는 서수형 카테고리({9}, {10}, {11})와 일치합니다. 이 경우 각 로케일에는 해당 언어의 카테고리가 필요하며, 해당 언어에 없는 카테고리는 선택 사항입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

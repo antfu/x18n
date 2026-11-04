@@ -3,12 +3,16 @@
   "source": "Leave a review on one message for a human: {0} with the reason in {1}, or {2} with a better value in {3} (a human applies it), {4}, or {5}. Use it when a human should decide, instead of changing values yourself.",
   "text": "Оставьте ревью к одному сообщению для человека: {0} с причиной в {1} или {2} с лучшим значением в {3} (человек применяет его), {4} или {5}. Используйте это, когда решение должен принять человек, вместо того чтобы менять значения самостоятельно.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Оставьте ревью к одному сообщению для человека: {0} с причиной в {1} или {2} с лучшим значением в {3} (человек применяет его), {4} или {5}. Используйте это, когда решение должен принять человек, вместо того чтобы менять значения самостоятельно."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Translations in place of keys, go to definition, find references and rename across code and every locale file.",
   "text": "키 대신 번역 표시, 정의로 이동, 참조 찾기, 코드와 모든 로케일 파일에 걸친 이름 바꾸기를 지원합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키 대신 번역 표시, 정의로 이동, 참조 찾기, 코드와 모든 로케일 파일에 걸친 이름 바꾸기를 지원합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

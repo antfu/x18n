@@ -3,12 +3,16 @@
   "source": "The names that count as translate calls in a file: declared names, same-file aliases, wrappers, typed params.",
   "text": "파일에서 번역 호출로 간주되는 이름입니다: 선언된 이름, 같은 파일의 별칭, 래퍼, 타입이 지정된 파라미터.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "파일에서 번역 호출로 간주되는 이름입니다: 선언된 이름, 같은 파일의 별칭, 래퍼, 타입이 지정된 파라미터."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

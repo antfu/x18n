@@ -3,12 +3,16 @@
   "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
   "text": "Une relecture est un commentaire sur un message : une clé dans une langue. Les commentaires d'un message forment son fil de discussion. Une relecture appartient à l'un des quatre types suivants :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une relecture est un commentaire sur un message : une clé dans une langue. Les commentaires d'un message forment son fil de discussion. Une relecture appartient à l'un des quatre types suivants :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

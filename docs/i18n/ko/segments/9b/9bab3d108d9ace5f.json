@@ -3,12 +3,16 @@
   "source": "The check reports one diagnostic per key, at the entry in the source locale, and lists the locales that lack the key. An empty string is not missing: the {0} check reports it.",
   "text": "이 검사는 키당 하나의 진단을 소스 로케일의 항목에 보고하고, 해당 키가 없는 로케일을 나열합니다. 빈 문자열은 누락으로 간주하지 않으며, 이는 {0} 검사에서 보고합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 검사는 키당 하나의 진단을 소스 로케일의 항목에 보고하고, 해당 키가 없는 로케일을 나열합니다. 빈 문자열은 누락으로 간주하지 않으며, 이는 {0} 검사에서 보고합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

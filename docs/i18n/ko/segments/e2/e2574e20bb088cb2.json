@@ -3,12 +3,16 @@
   "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
   "text": "같은 언어의 다른 로케일: 대상 로케일과 서브태그를 더 많이 공유하는 로케일이 먼저 오고({3}의 경우 {0}과 {1}이 {2}보다 앞), 그다음 더 짧은 코드, 그다음 알파벳순입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "같은 언어의 다른 로케일: 대상 로케일과 서브태그를 더 많이 공유하는 로케일이 먼저 오고({3}의 경우 {0}과 {1}이 {2}보다 앞), 그다음 더 짧은 코드, 그다음 알파벳순입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

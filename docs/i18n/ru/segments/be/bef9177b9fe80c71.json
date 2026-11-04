@@ -3,12 +3,16 @@
   "source": "The locale that is the source of truth for checks, prompts and go to definition.",
   "text": "Локаль, которая служит источником истины для проверок, подсказок и перехода к определению.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Локаль, которая служит источником истины для проверок, подсказок и перехода к определению."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

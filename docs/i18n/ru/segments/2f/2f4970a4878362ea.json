@@ -3,12 +3,16 @@
   "source": "Every CI can run {0}. Use the {1} reporter for the log, the {2} reporter for your own tools, and the {3} reporter for services that read SARIF. In a monorepo, {4} checks every project. Add {5} to check one.",
   "text": "В любой CI можно запустить {0}. Используйте репортер {1} для лога, репортер {2} для собственных инструментов и репортер {3} для сервисов, которые читают SARIF. В monorepo {4} проверяет каждый проект. Добавьте {5}, чтобы проверить один.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В любой CI можно запустить {0}. Используйте репортер {1} для лога, репортер {2} для собственных инструментов и репортер {3} для сервисов, которые читают SARIF. В monorepo {4} проверяет каждый проект. Добавьте {5}, чтобы проверить один."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

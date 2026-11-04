@@ -3,12 +3,16 @@
   "source": "A message is a function on the {0} object. The path to the function is the key. In Svelte, the store is {1}. The preset reads {2}, {3}, JSX, Vue and Svelte files.",
   "text": "Un message est une fonction de l'objet {0}. Le chemin vers la fonction est la clé. Dans Svelte, le store est {1}. Le preset lit les fichiers {2}, {3}, JSX, Vue et Svelte.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un message est une fonction de l'objet {0}. Le chemin vers la fonction est la clé. Dans Svelte, le store est {1}. Le preset lit les fichiers {2}, {3}, JSX, Vue et Svelte."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

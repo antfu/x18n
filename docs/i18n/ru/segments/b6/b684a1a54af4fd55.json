@@ -3,12 +3,16 @@
   "source": "Defaults: namespace rules, derived keys and resource patterns.",
   "text": "Значения по умолчанию: правила пространств имён, производные ключи и шаблоны ресурсов.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Значения по умолчанию: правила пространств имён, производные ключи и шаблоны ресурсов."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

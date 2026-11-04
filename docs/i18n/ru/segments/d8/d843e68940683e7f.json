@@ -3,12 +3,16 @@
   "source": "The built-in presets, how x18n detects them, and the placeholders and extraction templates they add.",
   "text": "Встроенные пресеты, как x18n их определяет, а также плейсхолдеры и шаблоны извлечения, которые они добавляют.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Встроенные пресеты, как x18n их определяет, а также плейсхолдеры и шаблоны извлечения, которые они добавляют."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

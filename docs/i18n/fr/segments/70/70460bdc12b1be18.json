@@ -3,12 +3,16 @@
   "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
   "text": "L'agent doit lancer la commande à la racine du projet, ou passer {0}. Le serveur surveille les fichiers, il voit donc les modifications faites par d'autres outils.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "L'agent doit lancer la commande à la racine du projet, ou passer {0}. Le serveur surveille les fichiers, il voit donc les modifications faites par d'autres outils."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

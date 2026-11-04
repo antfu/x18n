@@ -3,12 +3,16 @@
   "source": "x18n is a successor of {0}i18n-ally{/0}. It reads the same kinds of projects, and it moves the logic out of VS Code, so it also runs in CI, in the browser and for agents. {1} converts the i18n-ally settings of a project into an x18n config.",
   "text": "x18n은 {0}i18n-ally{/0}의 후속 도구입니다. 같은 종류의 프로젝트를 읽으며 로직을 VS Code 밖으로 옮겼기 때문에 CI, 브라우저, 에이전트에서도 실행됩니다. {1}은(는) 프로젝트의 i18n-ally 설정을 x18n 설정으로 변환합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 {0}i18n-ally{/0}의 후속 도구입니다. 같은 종류의 프로젝트를 읽으며 로직을 VS Code 밖으로 옮겼기 때문에 CI, 브라우저, 에이전트에서도 실행됩니다. {1}은(는) 프로젝트의 i18n-ally 설정을 x18n 설정으로 변환합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

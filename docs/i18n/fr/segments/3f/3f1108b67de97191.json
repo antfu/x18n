@@ -3,12 +3,16 @@
   "source": "Yii2 keys are whole sentences, so the file turns the key separator off. The category, the first argument of {0}, is the namespace:",
   "text": "Les clés Yii2 sont des phrases entières, donc le fichier désactive le séparateur de clés. La catégorie, le premier argument de {0}, est l'espace de noms :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Les clés Yii2 sont des phrases entières, donc le fichier désactive le séparateur de clés. La catégorie, le premier argument de {0}, est l'espace de noms :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

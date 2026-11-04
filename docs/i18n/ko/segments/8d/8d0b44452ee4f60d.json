@@ -3,12 +3,16 @@
   "source": "The last two lines are for agents: the server also serves {0}MCP over HTTP{/0} at {1}.",
   "text": "마지막 두 줄은 에이전트용입니다. 서버는 {1}에서 {0}MCP over HTTP{/0}도 제공합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "마지막 두 줄은 에이전트용입니다. 서버는 {1}에서 {0}MCP over HTTP{/0}도 제공합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

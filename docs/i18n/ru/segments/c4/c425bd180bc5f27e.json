@@ -3,12 +3,16 @@
   "source": "{0} makes a new token each time it starts. Keep the token to yourself: anything with the token can edit the files of the project.",
   "text": "{0} создаёт новый токен при каждом запуске. Не передавайте токен посторонним: любой, у кого есть токен, может изменять файлы проекта.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} создаёт новый токен при каждом запуске. Не передавайте токен посторонним: любой, у кого есть токен, может изменять файлы проекта."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

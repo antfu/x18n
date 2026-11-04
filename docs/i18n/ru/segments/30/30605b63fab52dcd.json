@@ -3,12 +3,16 @@
   "source": "The preset for .NET. It reads .resx resources, IStringLocalizer lookups in C#, Razor and Blazor, and strongly typed Resources.Key access.",
   "text": "Пресет для .NET. Он читает ресурсы .resx, обращения через IStringLocalizer в C#, Razor и Blazor, а также доступ к ключам через строго типизированный Resources.Key.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пресет для .NET. Он читает ресурсы .resx, обращения через IStringLocalizer в C#, Razor и Blazor, а также доступ к ключам через строго типизированный Resources.Key."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

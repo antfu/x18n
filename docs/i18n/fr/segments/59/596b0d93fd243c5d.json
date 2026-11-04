@@ -3,12 +3,16 @@
   "source": "This plugin adds a check that reports messages that still contain {0}:",
   "text": "Ce plugin ajoute une vérification qui signale les messages contenant encore {0} :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ce plugin ajoute une vérification qui signale les messages contenant encore {0} :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

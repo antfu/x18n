@@ -3,12 +3,16 @@
   "source": "For renames and deletes, run with {0} first and read the plan.",
   "text": "이름 변경과 삭제는 먼저 {0}와 함께 실행하고 계획을 확인하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이름 변경과 삭제는 먼저 {0}와 함께 실행하고 계획을 확인하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

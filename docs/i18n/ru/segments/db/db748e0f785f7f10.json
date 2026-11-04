@@ -3,12 +3,16 @@
   "source": "Thymeleaf reads {0} for the default language and {1} for the others, and writes keys as {2}:",
   "text": "Thymeleaf читает {0} для языка по умолчанию и {1} для остальных, а ключи записывает как {2}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Thymeleaf читает {0} для языка по умолчанию и {1} для остальных, а ключи записывает как {2}:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

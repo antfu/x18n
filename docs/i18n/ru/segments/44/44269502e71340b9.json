@@ -3,12 +3,16 @@
   "source": "Every option of x18n.config.ts, x18n.config.yml and x18n.config.json.",
   "text": "Все параметры x18n.config.ts, x18n.config.yml и x18n.config.json.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Все параметры x18n.config.ts, x18n.config.yml и x18n.config.json."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

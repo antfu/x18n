@@ -3,12 +3,16 @@
   "source": "Print a prompt for an agent or LLM: {0}, {1}, or the skills {2} and {3}.",
   "text": "Affiche un prompt pour un agent ou un LLM : {0}, {1}, ou les skills {2} et {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Affiche un prompt pour un agent ou un LLM : {0}, {1}, ou les skills {2} et {3}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

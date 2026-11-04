@@ -3,12 +3,16 @@
   "source": "Key glob: {0} inside a segment, {1} across segments.",
   "text": "Glob de clé : {0} à l'intérieur d'un segment, {1} sur plusieurs segments.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Glob de clé : {0} à l'intérieur d'un segment, {1} sur plusieurs segments."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

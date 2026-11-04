@@ -3,12 +3,16 @@
   "source": "Aliases such as {0} are not resolved. x18n skips a {1} outside the project and a {2} file that is not JSON, JSON5 or YAML, such as {3} or {4}.",
   "text": "{0} 같은 별칭은 해석되지 않습니다. x18n은 프로젝트 외부의 {1}와, JSON, JSON5 또는 YAML이 아닌 {2} 파일(예: {3} 또는 {4})을 건너뜁니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 같은 별칭은 해석되지 않습니다. x18n은 프로젝트 외부의 {1}와, JSON, JSON5 또는 YAML이 아닌 {2} 파일(예: {3} 또는 {4})을 건너뜁니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

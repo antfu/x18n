@@ -3,12 +3,16 @@
   "source": "The Svelte scanner reads the {0} blocks and the template expressions of {1} files. It runs in Node only.",
   "text": "Svelte 스캐너는 {1} 파일의 {0} 블록과 템플릿 표현식을 읽습니다. Node에서만 실행됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Svelte 스캐너는 {1} 파일의 {0} 블록과 템플릿 표현식을 읽습니다. Node에서만 실행됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0} format reads and writes these catalogs. Each {1} is a key, and its {2} is the value. The preset sets {3}, so a {4} or {5} in a {6} stays part of the key:",
   "text": "Формат {0} читает и записывает эти каталоги. Каждый {1} — это ключ, а его {2} — значение. Пресет задаёт {3}, поэтому {4} или {5} в {6} остаются частью ключа:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Формат {0} читает и записывает эти каталоги. Каждый {1} — это ключ, а его {2} — значение. Пресет задаёт {3}, поэтому {4} или {5} в {6} остаются частью ключа:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

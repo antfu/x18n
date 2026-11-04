@@ -3,12 +3,16 @@
   "source": "Each prompt holds at most 50 messages ({0}), the code around at most two usages per message, at most five style examples and at most two related values per message. A description or a related value longer than 300 characters is cut.",
   "text": "각 프롬프트에는 최대 50개의 메시지({0}), 메시지당 최대 두 개의 사용처 주변 코드, 최대 다섯 개의 스타일 예시, 메시지당 최대 두 개의 관련 값이 포함됩니다. 300자를 넘는 설명이나 관련 값은 잘립니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "각 프롬프트에는 최대 50개의 메시지({0}), 메시지당 최대 두 개의 사용처 주변 코드, 최대 다섯 개의 스타일 예시, 메시지당 최대 두 개의 관련 값이 포함됩니다. 300자를 넘는 설명이나 관련 값은 잘립니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Project, locale, resource, namespace, key, message, usage, prefix usage and scope, with examples.",
   "text": "Проект, локаль, ресурс, пространство имён, ключ, сообщение, использование, использование с префиксом и область действия — с примерами.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Проект, локаль, ресурс, пространство имён, ключ, сообщение, использование, использование с префиксом и область действия — с примерами."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

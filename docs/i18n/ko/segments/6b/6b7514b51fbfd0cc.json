@@ -3,12 +3,16 @@
   "source": "The file name is the key prefix, as in AdonisJS: {0} in {1} is {2}, and {3} in {4} is {5}.",
   "text": "AdonisJS와 마찬가지로 파일 이름이 키 접두사입니다. {1}의 {0}은 {2}이고, {4}의 {3}은 {5}입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "AdonisJS와 마찬가지로 파일 이름이 키 접두사입니다. {1}의 {0}은 {2}이고, {4}의 {3}은 {5}입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

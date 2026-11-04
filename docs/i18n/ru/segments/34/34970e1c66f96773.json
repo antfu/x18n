@@ -3,12 +3,16 @@
   "source": "Locale codes to leave out, as written in paths.",
   "text": "Коды локалей, которые нужно исключить, в том виде, в каком они записаны в путях.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Коды локалей, которые нужно исключить, в том виде, в каком они записаны в путях."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

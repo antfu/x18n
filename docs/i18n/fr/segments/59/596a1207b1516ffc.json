@@ -3,12 +3,16 @@
   "source": "A YAML plugin is a data file that holds the declarative part of the plugin API. Name it {0}, and list its path in {1}:",
   "text": "Un plugin YAML est un fichier de données qui contient la partie déclarative de l'API des plugins. Nommez-le {0} et indiquez son chemin dans {1} :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un plugin YAML est un fichier de données qui contient la partie déclarative de l'API des plugins. Nommez-le {0} et indiquez son chemin dans {1} :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

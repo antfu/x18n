@@ -3,12 +3,16 @@
   "source": "The language server works in any editor with an LSP client. See {0}editor setup{/0}.",
   "text": "언어 서버는 LSP 클라이언트가 있는 모든 편집기에서 작동합니다. {0}편집기 설정{/0}을 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "언어 서버는 LSP 클라이언트가 있는 모든 편집기에서 작동합니다. {0}편집기 설정{/0}을 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

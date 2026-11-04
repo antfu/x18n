@@ -3,12 +3,16 @@
   "source": "See the item fields of {0}. For a library that x18n does not support, a {1}YAML plugin{/1} can hold the calls, placeholders and templates in one file.",
   "text": "{0}의 항목 필드를 참고하세요. x18n이 지원하지 않는 라이브러리의 경우 {1}YAML 플러그인{/1}으로 호출, 플레이스홀더, 템플릿을 하나의 파일에 담을 수 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}의 항목 필드를 참고하세요. x18n이 지원하지 않는 라이브러리의 경우 {1}YAML 플러그인{/1}으로 호출, 플레이스홀더, 템플릿을 하나의 파일에 담을 수 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

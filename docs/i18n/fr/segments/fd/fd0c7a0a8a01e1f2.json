@@ -3,12 +3,16 @@
   "source": "Report only diagnostics that are not in this baseline (default: .x18n/check-baseline.json, when it exists)",
   "text": "Ne signaler que les diagnostics absents de cette baseline (par défaut : .x18n/check-baseline.json, lorsqu'elle existe)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ne signaler que les diagnostics absents de cette baseline (par défaut : .x18n/check-baseline.json, lorsqu'elle existe)"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

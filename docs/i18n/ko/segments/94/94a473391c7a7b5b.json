@@ -3,12 +3,16 @@
   "source": "The Vue scanner reads the {0} blocks and every template expression. It also reads the {1} directive, and the key attribute of the {2} (or {3}) component, the {4} component and {5}.",
   "text": "Vue 스캐너는 {0} 블록과 모든 템플릿 표현식을 읽습니다. 또한 {1} 디렉티브, {2}(또는 {3}) 컴포넌트의 key 속성, {4} 컴포넌트와 {5}도 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Vue 스캐너는 {0} 블록과 모든 템플릿 표현식을 읽습니다. 또한 {1} 디렉티브, {2}(또는 {3}) 컴포넌트의 key 속성, {4} 컴포넌트와 {5}도 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

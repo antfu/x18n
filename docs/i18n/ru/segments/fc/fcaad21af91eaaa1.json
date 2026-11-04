@@ -3,12 +3,16 @@
   "source": "A key without a namespace, such as {0}, is in the {1} namespace. The preset reads {2} and {3} from the i18next init code (a file such as {4}). A key that is not in its own namespace is then looked up in the fallback namespaces, in order. Set {5} and {6} to override them:",
   "text": "Ключ без пространства имён, например {0}, относится к пространству имён {1}. Пресет считывает {2} и {3} из кода инициализации i18next (файла вроде {4}). Ключ, которого нет в собственном пространстве имён, затем ищется в резервных пространствах имён по порядку. Задайте {5} и {6}, чтобы переопределить их:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ключ без пространства имён, например {0}, относится к пространству имён {1}. Пресет считывает {2} и {3} из кода инициализации i18next (файла вроде {4}). Ключ, которого нет в собственном пространстве имён, затем ищется в резервных пространствах имён по порядку. Задайте {5} и {6}, чтобы переопределить их:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Delete a key (or every key under a parent) in all locales, or only in {0}. Code is not changed. Without {1} it returns the plan; call again with {2} to apply it.",
   "text": "모든 로케일 또는 {0}에서만 키(또는 상위 키 아래의 모든 키)를 삭제합니다. 코드는 변경되지 않습니다. {1}이 없으면 계획을 반환하며, 적용하려면 {2}와 함께 다시 호출하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "모든 로케일 또는 {0}에서만 키(또는 상위 키 아래의 모든 키)를 삭제합니다. 코드는 변경되지 않습니다. {1}이 없으면 계획을 반환하며, 적용하려면 {2}와 함께 다시 호출하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

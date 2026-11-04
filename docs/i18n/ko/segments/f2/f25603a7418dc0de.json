@@ -3,12 +3,16 @@
   "source": "a linked message or nesting placeholder ({0}, {1}) names it.",
   "text": "연결된 메시지 또는 중첩 플레이스홀더({0}, {1})가 해당 키를 지정합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "연결된 메시지 또는 중첩 플레이스홀더({0}, {1})가 해당 키를 지정합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Where the plugin can run. Default 'any'.",
   "text": "플러그인을 실행할 수 있는 환경입니다. 기본값은 'any'입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "플러그인을 실행할 수 있는 환경입니다. 기본값은 'any'입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

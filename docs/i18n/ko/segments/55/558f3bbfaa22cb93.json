@@ -3,12 +3,16 @@
   "source": "The default export of the package is a plugin, a preset, or a function that takes options and returns one:",
   "text": "패키지의 기본 내보내기(default export)는 플러그인, 프리셋, 또는 옵션을 받아 둘 중 하나를 반환하는 함수입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "패키지의 기본 내보내기(default export)는 플러그인, 프리셋, 또는 옵션을 받아 둘 중 하나를 반환하는 함수입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

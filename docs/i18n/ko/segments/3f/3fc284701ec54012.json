@@ -3,12 +3,16 @@
   "source": "The tools that x18n mcp and the HTTP MCP endpoint of x18n ui serve.",
   "text": "x18n mcp와 x18n ui의 HTTP MCP 엔드포인트가 제공하는 도구입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n mcp와 x18n ui의 HTTP MCP 엔드포인트가 제공하는 도구입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

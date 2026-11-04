@@ -3,12 +3,16 @@
   "source": "A resource is a file, or a block in a file, that holds the messages of one locale and one namespace. The {0} option tells x18n where the resources are. Each entry has a path pattern, relative to the project root:",
   "text": "Une ressource est un fichier, ou un bloc dans un fichier, qui contient les messages d'une langue et d'un espace de noms. L'option {0} indique à x18n où se trouvent les ressources. Chaque entrée comporte un modèle de chemin, relatif à la racine du projet :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une ressource est un fichier, ou un bloc dans un fichier, qui contient les messages d'une langue et d'un espace de noms. L'option {0} indique à x18n où se trouvent les ressources. Chaque entrée comporte un modèle de chemin, relatif à la racine du projet :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

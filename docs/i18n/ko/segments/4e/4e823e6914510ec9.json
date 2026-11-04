@@ -3,12 +3,16 @@
   "source": "AdonisJS: {0}, in code and Edge templates",
   "text": "AdonisJS: 코드와 Edge 템플릿의 {0}",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "AdonisJS: 코드와 Edge 템플릿의 {0}"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

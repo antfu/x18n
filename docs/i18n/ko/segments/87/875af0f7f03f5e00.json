@@ -3,12 +3,16 @@
   "source": "For extraction, run {0} again and edit the new plan.",
   "text": "추출의 경우 {0}을(를) 다시 실행하고 새 계획을 편집하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "추출의 경우 {0}을(를) 다시 실행하고 새 계획을 편집하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}, with the values {2} and {3}. When x18n sets a value, it writes the {4} field and keeps the other fields. {5} adds {6} to {7}.",
   "text": "이 파일에는 키 {0}과(와) {1}이(가) 있으며, 값은 각각 {2}와(과) {3}입니다. x18n은 값을 설정할 때 {4} 필드를 작성하고 다른 필드는 그대로 유지합니다. {5}은(는) {6}을(를) {7}에 추가합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 파일에는 키 {0}과(와) {1}이(가) 있으며, 값은 각각 {2}와(과) {3}입니다. x18n은 값을 설정할 때 {4} 필드를 작성하고 다른 필드는 그대로 유지합니다. {5}은(는) {6}을(를) {7}에 추가합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

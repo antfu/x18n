@@ -3,12 +3,16 @@
   "source": "A message is a function on the {0} object. The path to the function is the key. In Svelte, the store is {1}. The preset reads {2}, {3}, JSX, Vue and Svelte files.",
   "text": "Сообщение — это функция объекта {0}. Путь к функции и есть ключ. В Svelte хранилище называется {1}. Пресет читает файлы {2}, {3}, JSX, Vue и Svelte.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Сообщение — это функция объекта {0}. Путь к функции и есть ключ. В Svelte хранилище называется {1}. Пресет читает файлы {2}, {3}, JSX, Vue и Svelte."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

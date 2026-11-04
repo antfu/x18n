@@ -3,12 +3,16 @@
   "source": "Another path, or a package name, is imported as a module. Its default export is a plugin, a preset, or a function that takes the options and returns one.",
   "text": "그 밖의 경로나 패키지 이름은 모듈로 import됩니다. 모듈의 기본 export는 플러그인, 프리셋, 또는 옵션을 받아 이들 중 하나를 반환하는 함수입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "그 밖의 경로나 패키지 이름은 모듈로 import됩니다. 모듈의 기본 export는 플러그인, 프리셋, 또는 옵션을 받아 이들 중 하나를 반환하는 함수입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

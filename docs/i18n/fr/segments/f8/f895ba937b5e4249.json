@@ -3,12 +3,16 @@
   "source": "The agent edits the keys in the plan file, and removes the items it does not want, before it applies the plan.",
   "text": "L'agent modifie les clés dans le fichier de plan et supprime les éléments qu'il ne veut pas, avant d'appliquer le plan.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "L'agent modifie les clés dans le fichier de plan et supprime les éléments qu'il ne veut pas, avant d'appliquer le plan."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

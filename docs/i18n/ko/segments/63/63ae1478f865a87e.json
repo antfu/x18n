@@ -3,12 +3,16 @@
   "source": "Run the command in the root of the project. First look at the result with {0}. It prints the files and writes nothing:",
   "text": "프로젝트 루트에서 명령을 실행하세요. 먼저 {0}로 결과를 확인하세요. 이 명령은 파일을 출력만 하고 아무것도 쓰지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프로젝트 루트에서 명령을 실행하세요. 먼저 {0}로 결과를 확인하세요. 이 명령은 파일을 출력만 하고 아무것도 쓰지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

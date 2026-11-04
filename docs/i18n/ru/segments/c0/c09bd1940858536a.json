@@ -3,12 +3,16 @@
   "source": "This command writes the markdown report to {0} and prints the pretty output. See {1}CI{/1} for workflow examples.",
   "text": "Эта команда записывает отчёт в формате markdown в {0} и выводит результат в формате pretty. Примеры рабочих процессов см. в разделе {1}CI{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Эта команда записывает отчёт в формате markdown в {0} и выводит результат в формате pretty. Примеры рабочих процессов см. в разделе {1}CI{/1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

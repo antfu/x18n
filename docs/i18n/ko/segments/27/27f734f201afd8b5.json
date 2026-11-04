@@ -3,12 +3,16 @@
   "source": "The object that gives a project file access, globbing, watching and caching.",
   "text": "프로젝트에 파일 접근, glob 패턴 매칭, 감시, 캐싱 기능을 제공하는 객체입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프로젝트에 파일 접근, glob 패턴 매칭, 감시, 캐싱 기능을 제공하는 객체입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset for Android string resources. It reads strings.xml, plurals and string arrays, and R.string and @string usages.",
   "text": "Le preset pour les ressources de chaînes Android. Il lit strings.xml, les plurals et les tableaux de chaînes, ainsi que les utilisations de R.string et @string.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset pour les ressources de chaînes Android. Il lit strings.xml, les plurals et les tableaux de chaînes, ainsi que les utilisations de R.string et @string."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

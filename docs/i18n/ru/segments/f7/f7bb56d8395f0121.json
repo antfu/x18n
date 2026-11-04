@@ -3,12 +3,16 @@
   "source": "Each prompt holds at most 50 messages ({0}), the code around at most two usages per message, at most five style examples and at most two related values per message. A description or a related value longer than 300 characters is cut.",
   "text": "Каждый промпт содержит не более 50 сообщений ({0}), код вокруг не более двух использований на сообщение, не более пяти примеров стиля и не более двух связанных значений на сообщение. Описание или связанное значение длиннее 300 символов обрезается.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Каждый промпт содержит не более 50 сообщений ({0}), код вокруг не более двух использований на сообщение, не более пяти примеров стиля и не более двух связанных значений на сообщение. Описание или связанное значение длиннее 300 символов обрезается."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "If a change needs a decision, such as the file for a new key, x18n asks in a terminal. {0} accepts the default answers. See {1}Plan and decision{/1}.",
   "text": "새 키를 넣을 파일처럼 변경에 결정이 필요하면 x18n은 터미널에서 물어봅니다. {0}는 기본 답변을 수락합니다. {1}계획과 결정{/1}을 참조하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "새 키를 넣을 파일처럼 변경에 결정이 필요하면 x18n은 터미널에서 물어봅니다. {0}는 기본 답변을 수락합니다. {1}계획과 결정{/1}을 참조하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

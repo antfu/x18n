@@ -3,12 +3,16 @@
   "source": "The {0} preset supports the localization of {1}VS Code extensions{/1}: {2} in code, and {3} references in {4}.",
   "text": "Le preset {0} prend en charge la localisation des {1}extensions VS Code{/1} : {2} dans le code et les références {3} dans {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset {0} prend en charge la localisation des {1}extensions VS Code{/1} : {2} dans le code et les références {3} dans {4}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

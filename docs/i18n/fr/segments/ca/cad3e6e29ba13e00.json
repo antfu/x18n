@@ -3,12 +3,16 @@
   "source": "Words that are the same in both languages, such as \"Plugins\" in German, are still reported. That is why the check reports at {0}, which {1} does not turn into an error. {2} removes such keys, from every check.",
   "text": "Les mots identiques dans les deux langues, comme « Plugins » en allemand, sont tout de même signalés. C'est pourquoi la vérification signale au niveau {0}, que {1} ne transforme pas en erreur. {2} supprime ces clés, pour toutes les vérifications.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Les mots identiques dans les deux langues, comme « Plugins » en allemand, sont tout de même signalés. C'est pourquoi la vérification signale au niveau {0}, que {1} ne transforme pas en erreur. {2} supprime ces clés, pour toutes les vérifications."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

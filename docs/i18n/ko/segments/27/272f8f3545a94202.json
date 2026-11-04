@@ -3,12 +3,16 @@
   "source": "The calls of {0}react-i18next{/0}. For this file, {1} uses {2} and {3}, so the {4} check reports neither:",
   "text": "{0}react-i18next{/0}의 호출입니다. 이 파일에서는 {1}이(가) {2}와(과) {3}을(를) 사용하므로 {4} 검사는 둘 다 보고하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}react-i18next{/0}의 호출입니다. 이 파일에서는 {1}이(가) {2}와(과) {3}을(를) 사용하므로 {4} 검사는 둘 다 보고하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

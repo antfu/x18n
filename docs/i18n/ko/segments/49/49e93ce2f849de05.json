@@ -3,12 +3,16 @@
   "source": "Apply extraction items from x18n\\_extract\\_plan: adds the messages to the source locale and rewrites the code. Fails when a file changed since the plan was made; plan again then.",
   "text": "x18n\\_extract\\_plan의 추출 항목을 적용합니다. 소스 로케일에 메시지를 추가하고 코드를 다시 작성합니다. 계획을 만든 이후 파일이 변경되었으면 실패하므로, 그럴 때는 계획을 다시 만드세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n\\_extract\\_plan의 추출 항목을 적용합니다. 소스 로케일에 메시지를 추가하고 코드를 다시 작성합니다. 계획을 만든 이후 파일이 변경되었으면 실패하므로, 그럴 때는 계획을 다시 만드세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

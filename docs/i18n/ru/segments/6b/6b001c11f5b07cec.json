@@ -3,12 +3,16 @@
   "source": "Agents make that possible. A rewrite of this size used to need months, and now I can build it in my free time and still make it solid. Agents also would benefit from it: they edit locale files all day, and they need the key behind a text, the missing keys and a safe way to rename a key. So I brought the idea back, and this time I made it real.",
   "text": "Агенты делают это возможным. Раньше на такую переработку требовались месяцы, а теперь я могу сделать её в свободное время и при этом довести до надёжного состояния. Агентам это тоже пойдёт на пользу: они весь день правят файлы локалей, и им нужны ключ, стоящий за текстом, список отсутствующих ключей и безопасный способ переименовать ключ. Поэтому я вернулся к этой идее и на этот раз воплотил её в жизнь.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Агенты делают это возможным. Раньше на такую переработку требовались месяцы, а теперь я могу сделать её в свободное время и при этом довести до надёжного состояния. Агентам это тоже пойдёт на пользу: они весь день правят файлы локалей, и им нужны ключ, стоящий за текстом, список отсутствующих ключей и безопасный способ переименовать ключ. Поэтому я вернулся к этой идее и на этот раз воплотил её в жизнь."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

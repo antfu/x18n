@@ -3,12 +3,16 @@
   "source": "language, lang (except in i18n-ally migration text)",
   "text": "language, lang (i18n-ally 마이그레이션 텍스트 제외)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "language, lang (i18n-ally 마이그레이션 텍스트 제외)"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Show the values of these locales (comma separated) next to each message, in place of the {0}related locales{/0} of the target.",
   "text": "Affiche les valeurs de ces langues (séparées par des virgules) à côté de chaque message, à la place des {0}langues apparentées{/0} de la cible.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Affiche les valeurs de ces langues (séparées par des virgules) à côté de chaque message, à la place des {0}langues apparentées{/0} de la cible."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

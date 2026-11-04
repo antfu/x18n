@@ -3,12 +3,16 @@
   "source": "Asks for a change. The {0} check reports it until someone resolves it or approves.",
   "text": "Запрашивает изменение. Проверка {0} сообщает о нём, пока кто-нибудь не закроет запрос или не одобрит значение.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Запрашивает изменение. Проверка {0} сообщает о нём, пока кто-нибудь не закроет запрос или не одобрит значение."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

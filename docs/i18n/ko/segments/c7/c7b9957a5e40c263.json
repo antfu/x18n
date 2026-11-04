@@ -3,12 +3,16 @@
   "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
   "text": "또는 리소스 패턴에 {0}를 설정하세요. 그러면 x18n이 Node에서 파일을 실행하며, 메시지는 읽기 전용이 됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "또는 리소스 패턴에 {0}를 설정하세요. 그러면 x18n이 Node에서 파일을 실행하며, 메시지는 읽기 전용이 됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

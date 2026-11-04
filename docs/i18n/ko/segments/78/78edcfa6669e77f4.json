@@ -3,12 +3,16 @@
   "source": "The preset for Android string resources. It reads strings.xml, plurals and string arrays, and R.string and @string usages.",
   "text": "Android 문자열 리소스를 위한 프리셋입니다. strings.xml, plurals, 문자열 배열과 R.string 및 @string 사용처를 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Android 문자열 리소스를 위한 프리셋입니다. strings.xml, plurals, 문자열 배열과 R.string 및 @string 사용처를 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

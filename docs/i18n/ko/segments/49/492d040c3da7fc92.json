@@ -3,12 +3,16 @@
   "source": "{0} exits with code 1 when it finds errors, so any CI fails on broken keys without more setup. The examples on this page use GitHub Actions. They assume that {1} is a dev dependency of the project. See {2}Getting started{/2}.",
   "text": "{0}은(는) 오류를 발견하면 종료 코드 1로 종료하므로, 어떤 CI에서든 추가 설정 없이 깨진 키가 있으면 빌드가 실패합니다. 이 페이지의 예시는 GitHub Actions를 사용합니다. 예시는 {1}이(가) 프로젝트의 개발 의존성으로 설치되어 있다고 가정합니다. {2}시작하기{/2}를 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}은(는) 오류를 발견하면 종료 코드 1로 종료하므로, 어떤 CI에서든 추가 설정 없이 깨진 키가 있으면 빌드가 실패합니다. 이 페이지의 예시는 GitHub Actions를 사용합니다. 예시는 {1}이(가) 프로젝트의 개발 의존성으로 설치되어 있다고 가정합니다. {2}시작하기{/2}를 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

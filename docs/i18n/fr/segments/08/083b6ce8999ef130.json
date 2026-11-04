@@ -3,12 +3,16 @@
   "source": "It is not a runtime i18n library. It reads and writes the files that your runtime library uses.",
   "text": "Ce n'est pas une bibliothèque i18n d'exécution. Il lit et écrit les fichiers que votre bibliothèque d'exécution utilise.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ce n'est pas une bibliothèque i18n d'exécution. Il lit et écrit les fichiers que votre bibliothèque d'exécution utilise."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Do not edit locale files directly. Use {0}, {1}, {2} and {3}. They keep the format, the key style, the order and the placeholders of each file.",
   "text": "로케일 파일을 직접 편집하지 마세요. {0}, {1}, {2}, {3}을(를) 사용하세요. 이 명령은 각 파일의 형식, 키 스타일, 순서, 플레이스홀더를 유지합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "로케일 파일을 직접 편집하지 마세요. {0}, {1}, {2}, {3}을(를) 사용하세요. 이 명령은 각 파일의 형식, 키 스타일, 순서, 플레이스홀더를 유지합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

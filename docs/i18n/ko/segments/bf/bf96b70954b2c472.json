@@ -3,12 +3,16 @@
   "source": "The preset for react-intl (FormatJS). It reads formatMessage, FormattedMessage, defineMessage and defineMessages.",
   "text": "react-intl(FormatJS)용 프리셋입니다. formatMessage, FormattedMessage, defineMessage, defineMessages를 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "react-intl(FormatJS)용 프리셋입니다. formatMessage, FormattedMessage, defineMessage, defineMessages를 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

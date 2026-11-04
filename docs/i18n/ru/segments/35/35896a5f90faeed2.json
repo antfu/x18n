@@ -3,12 +3,16 @@
   "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
   "text": "У полностью динамического ключа, такого как {0}, нет статического префикса. Ни одна проверка не может его отследить. Включите эту проверку, чтобы находить такие использования.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "У полностью динамического ключа, такого как {0}, нет статического префикса. Ни одна проверка не может его отследить. Включите эту проверку, чтобы находить такие использования."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

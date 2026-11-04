@@ -3,12 +3,16 @@
   "source": "On a project with many known problems, commit a {0}baseline{/0} with {1}. The build then fails only on new diagnostics.",
   "text": "Sur un projet comportant de nombreux problèmes connus, commitez une {0}baseline{/0} avec {1}. Le build n'échoue alors que sur les nouveaux diagnostics.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Sur un projet comportant de nombreux problèmes connus, commitez une {0}baseline{/0} avec {1}. Le build n'échoue alors que sur les nouveaux diagnostics."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

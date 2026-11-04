@@ -3,12 +3,16 @@
   "source": "To pick the presets yourself, list them. x18n then applies exactly the listed presets and detects none:",
   "text": "프리셋을 직접 선택하려면 프리셋을 나열하세요. 그러면 x18n은 나열한 프리셋만 정확히 적용하고 아무것도 감지하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프리셋을 직접 선택하려면 프리셋을 나열하세요. 그러면 x18n은 나열한 프리셋만 정확히 적용하고 아무것도 감지하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

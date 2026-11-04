@@ -3,12 +3,16 @@
   "source": "Namespaces searched in order when a key written without a namespace is not in its own (i18next {0}).",
   "text": "Пространства имён, которые просматриваются по порядку, если ключа, записанного без пространства имён, нет в его собственном (i18next {0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пространства имён, которые просматриваются по порядку, если ключа, записанного без пространства имён, нет в его собственном (i18next {0})."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

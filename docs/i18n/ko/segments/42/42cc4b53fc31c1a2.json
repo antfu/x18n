@@ -3,12 +3,16 @@
   "source": "Check the namespace. In a namespaced project the key is {0}, for example {1}.",
   "text": "네임스페이스를 확인하세요. 네임스페이스를 사용하는 프로젝트에서는 키가 {0} 형식이어야 합니다(예: {1}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "네임스페이스를 확인하세요. 네임스페이스를 사용하는 프로젝트에서는 키가 {0} 형식이어야 합니다(예: {1})."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

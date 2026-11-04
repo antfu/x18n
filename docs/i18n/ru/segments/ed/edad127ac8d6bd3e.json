@@ -3,12 +3,16 @@
   "source": "Two plugins register a capability (a format, finder, scanner, check, reporter or placeholder syntax) with the same id.",
   "text": "Два плагина регистрируют возможность (формат, finder, сканер, проверку, репортер или синтаксис плейсхолдеров) с одним и тем же id.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Два плагина регистрируют возможность (формат, finder, сканер, проверку, репортер или синтаксис плейсхолдеров) с одним и тем же id."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0} hooks of plugins and presets. Presets set defaults here, for example the call specs of their library.",
   "text": "Хуки {0} плагинов и пресетов. Здесь пресеты задают значения по умолчанию, например спецификации вызовов своей библиотеки.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Хуки {0} плагинов и пресетов. Здесь пресеты задают значения по умолчанию, например спецификации вызовов своей библиотеки."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

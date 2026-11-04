@@ -3,12 +3,16 @@
   "source": "extracted ({0}) and translator ({1}) comments",
   "text": "извлечённые ({0}) комментарии и комментарии переводчика ({1})",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "извлечённые ({0}) комментарии и комментарии переводчика ({1})"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

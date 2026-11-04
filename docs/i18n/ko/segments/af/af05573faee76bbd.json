@@ -3,12 +3,16 @@
   "source": "When you fix known problems, {0} says how many entries no longer occur. Run {1} again to drop them, so that they cannot come back unnoticed. With {2}, {3} or {4}, the update keeps the entries that these options leave out. {5} adds the counts as {6}: {7}.",
   "text": "알려진 문제를 수정하면 {0}가 더 이상 발생하지 않는 항목의 개수를 알려 줍니다. {1}를 다시 실행하여 해당 항목을 제거하면 문제가 모르는 사이에 다시 생기는 일을 막을 수 있습니다. {2}, {3}, {4}를 사용하는 경우 업데이트할 때 이 옵션들이 제외한 항목은 그대로 유지됩니다. {5}는 개수를 {6}: {7}로 추가합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "알려진 문제를 수정하면 {0}가 더 이상 발생하지 않는 항목의 개수를 알려 줍니다. {1}를 다시 실행하여 해당 항목을 제거하면 문제가 모르는 사이에 다시 생기는 일을 막을 수 있습니다. {2}, {3}, {4}를 사용하는 경우 업데이트할 때 이 옵션들이 제외한 항목은 그대로 유지됩니다. {5}는 개수를 {6}: {7}로 추가합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

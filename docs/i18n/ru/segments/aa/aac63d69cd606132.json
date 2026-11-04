@@ -3,12 +3,16 @@
   "source": "This page lists every command of the {0} CLI. {1}CLI and x18n check{/1} explains how to use them. Run {2} to see the same text in a terminal.",
   "text": "На этой странице перечислены все команды CLI {0}. В разделе {1}CLI и x18n check{/1} объясняется, как ими пользоваться. Запустите {2}, чтобы увидеть тот же текст в терминале.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "На этой странице перечислены все команды CLI {0}. В разделе {1}CLI и x18n check{/1} объясняется, как ими пользоваться. Запустите {2}, чтобы увидеть тот же текст в терминале."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

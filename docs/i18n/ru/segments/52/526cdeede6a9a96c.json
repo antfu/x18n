@@ -3,12 +3,16 @@
   "source": "Review threads show as editor comments on the key in each locale file. Reply to a thread to comment, approve, request a change or suggest a value; the buttons under the reply box pick the kind. A suggestion has an \"Apply Suggestion\" button that sets the value. \"Resolve\" closes a comment. \"x18n: Review Key\" starts a review from the cursor or from the Keys view. The language server writes reviews to {0} at once, and the hover of a key shows its review state per locale.",
   "text": "Ветки ревью отображаются как комментарии редактора у ключа в каждом файле локали. Ответьте в ветке, чтобы оставить комментарий, одобрить, запросить изменение или предложить значение; вид ответа выбирают кнопки под полем ввода. У предложения есть кнопка «Apply Suggestion», которая устанавливает значение. «Resolve» закрывает комментарий. «x18n: Review Key» начинает ревью с позиции курсора или из представления Keys. Языковой сервер сразу записывает ревью в {0}, а при наведении на ключ показывается состояние ревью по каждой локали.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ветки ревью отображаются как комментарии редактора у ключа в каждом файле локали. Ответьте в ветке, чтобы оставить комментарий, одобрить, запросить изменение или предложить значение; вид ответа выбирают кнопки под полем ввода. У предложения есть кнопка «Apply Suggestion», которая устанавливает значение. «Resolve» закрывает комментарий. «x18n: Review Key» начинает ревью с позиции курсора или из представления Keys. Языковой сервер сразу записывает ревью в {0}, а при наведении на ключ показывается состояние ревью по каждой локали."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

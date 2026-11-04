@@ -3,12 +3,16 @@
   "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
   "text": "Ключи, исключенные из всех проверок: glob-шаблоны или регулярные выражения, которые проверяются на соответствие всему ключу ({0}, если используются пространства имен).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ключи, исключенные из всех проверок: glob-шаблоны или регулярные выражения, которые проверяются на соответствие всему ключу ({0}, если используются пространства имен)."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

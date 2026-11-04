@@ -3,12 +3,16 @@
   "source": "Reviews: messages with open {0}review{/0} comments, with their state. Click one to open it in its locale file.",
   "text": "리뷰: 열려 있는 {0}리뷰{/0} 댓글이 있는 메시지를 상태와 함께 표시합니다. 항목을 클릭하면 해당 로케일 파일에서 열립니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리뷰: 열려 있는 {0}리뷰{/0} 댓글이 있는 메시지를 상태와 함께 표시합니다. 항목을 클릭하면 해당 로케일 파일에서 열립니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

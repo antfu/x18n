@@ -3,12 +3,16 @@
   "source": "For an instance with another name, add its callees to {0}. A keyset function that a module exports, such as {1}, is not followed into the modules that import it.",
   "text": "다른 이름의 인스턴스를 사용하려면 해당 callee를 {0}에 추가하세요. {1}처럼 모듈이 내보내는 keyset 함수는 이를 import하는 모듈까지 추적하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "다른 이름의 인스턴스를 사용하려면 해당 callee를 {0}에 추가하세요. {1}처럼 모듈이 내보내는 keyset 함수는 이를 import하는 모듈까지 추적하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Adds a comment to the review thread of a message. {0} and {1} are filled in when planned.",
   "text": "메시지의 리뷰 스레드에 댓글을 추가합니다. {0}와 {1}는 계획된 경우 채워집니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "메시지의 리뷰 스레드에 댓글을 추가합니다. {0}와 {1}는 계획된 경우 채워집니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

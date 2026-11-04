@@ -3,12 +3,16 @@
   "source": "x18n has no resource where it can write the key in this locale.",
   "text": "x18n ne dispose d'aucune ressource dans laquelle écrire la clé pour cette langue.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n ne dispose d'aucune ressource dans laquelle écrire la clé pour cette langue."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

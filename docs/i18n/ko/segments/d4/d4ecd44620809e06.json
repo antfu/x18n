@@ -3,12 +3,16 @@
   "source": "the locales of its {0}fallback chain{/0}, such as {1} for {2} with {3},",
   "text": "{0}폴백 체인{/0}의 로케일, 예를 들어 {3}가 있는 {2}의 {1}",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}폴백 체인{/0}의 로케일, 예를 들어 {3}가 있는 {2}의 {1}"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

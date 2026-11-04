@@ -3,12 +3,16 @@
   "source": "Propose a better value. Someone then applies it, or resolves it.",
   "text": "Предложить более удачное значение. Затем его кто-нибудь применяет или закрывает.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Предложить более удачное значение. Затем его кто-нибудь применяет или закрывает."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

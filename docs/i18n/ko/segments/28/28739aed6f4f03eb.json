@@ -3,12 +3,16 @@
   "source": "A plan can hold decisions. A decision is a question that the command must answer before it writes, for example which file gets a new key. In a terminal, x18n asks you. With {0}, it takes the default answer. With {1}, or without a terminal, it stops with {2}X18N4003{/2}.",
   "text": "계획에는 결정이 포함될 수 있습니다. 결정은 명령이 파일을 쓰기 전에 답해야 하는 질문으로, 예를 들어 새 키를 어느 파일에 추가할지가 있습니다. 터미널에서는 x18n이 질문합니다. {0}를 사용하면 기본 답을 선택합니다. {1}를 사용하거나 터미널이 없으면 {2}X18N4003{/2}과 함께 중단됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "계획에는 결정이 포함될 수 있습니다. 결정은 명령이 파일을 쓰기 전에 답해야 하는 질문으로, 예를 들어 새 키를 어느 파일에 추가할지가 있습니다. 터미널에서는 x18n이 질문합니다. {0}를 사용하면 기본 답을 선택합니다. {1}를 사용하거나 터미널이 없으면 {2}X18N4003{/2}과 함께 중단됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

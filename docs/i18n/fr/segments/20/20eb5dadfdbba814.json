@@ -3,12 +3,16 @@
   "source": "Longest slug, in characters. Default 40.",
   "text": "Longueur maximale du slug, en caractères. Valeur par défaut : 40.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Longueur maximale du slug, en caractères. Valeur par défaut : 40."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

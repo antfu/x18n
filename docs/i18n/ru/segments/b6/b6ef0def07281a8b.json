@@ -3,12 +3,16 @@
   "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
   "text": "параметры блоков управления потоком, таких как {0}, {1}, {2}, {3} и {4}, и объявления {5}; содержимое блоков сканируется,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "параметры блоков управления потоком, таких как {0}, {1}, {2}, {3} и {4}, и объявления {5}; содержимое блоков сканируется,"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

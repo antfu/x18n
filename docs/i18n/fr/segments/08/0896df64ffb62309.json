@@ -3,12 +3,16 @@
   "source": "A diagnostic can carry fixes. A fix has a title and a list of edit operations. The editor shows fixes as quick fixes.",
   "text": "Un diagnostic peut contenir des correctifs. Un correctif a un titre et une liste d'opérations de modification. L'éditeur affiche les correctifs comme des correctifs rapides.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un diagnostic peut contenir des correctifs. Un correctif a un titre et une liste d'opérations de modification. L'éditeur affiche les correctifs comme des correctifs rapides."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

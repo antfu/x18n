@@ -3,12 +3,16 @@
   "source": "x18n writes prompts that describe translation work for an agent or an LLM, then checks the results.",
   "text": "x18n은 에이전트나 LLM을 위해 번역 작업을 설명하는 프롬프트를 작성한 뒤 결과를 검사합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 에이전트나 LLM을 위해 번역 작업을 설명하는 프롬프트를 작성한 뒤 결과를 검사합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The default. The path and position, the severity badge with the message and check id, a code frame, then a summary.",
   "text": "Valeur par défaut. Le chemin et la position, le badge de gravité avec le message et l'id de la vérification, un extrait de code, puis un résumé.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Valeur par défaut. Le chemin et la position, le badge de gravité avec le message et l'id de la vérification, un extrait de code, puis un résumé."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

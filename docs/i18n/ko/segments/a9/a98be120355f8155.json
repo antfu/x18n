@@ -3,12 +3,16 @@
   "source": "The reviews of one message, oldest first, with a state from its open reviews.",
   "text": "하나의 메시지에 대한 리뷰를 오래된 순으로 모은 것으로, 열려 있는 리뷰에서 결정되는 상태를 가집니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "하나의 메시지에 대한 리뷰를 오래된 순으로 모은 것으로, 열려 있는 리뷰에서 결정되는 상태를 가집니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

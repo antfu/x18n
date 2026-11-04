@@ -3,12 +3,16 @@
   "source": "Values of related locales shown next to each message, such as {0} for {1}: {2} (default) picks the locales of the same language, a list names them, {3} leaves them out.",
   "text": "Valeurs des langues apparentées affichées à côté de chaque message, par exemple {0} pour {1} : {2} (par défaut) choisit les langues de la même langue, une liste les nomme, {3} les omet.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Valeurs des langues apparentées affichées à côté de chaque message, par exemple {0} pour {1} : {2} (par défaut) choisit les langues de la même langue, une liste les nomme, {3} les omet."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

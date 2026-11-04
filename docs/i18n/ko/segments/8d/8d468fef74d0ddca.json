@@ -3,12 +3,16 @@
   "source": "With the {0}LSP{/0} package, in {1}:",
   "text": "{0}LSP{/0} 패키지를 사용하는 경우 {1}에 다음과 같이 설정하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}LSP{/0} 패키지를 사용하는 경우 {1}에 다음과 같이 설정하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The command needs one project, but the name you gave matches none, or the workspace has several projects and you gave no name.",
   "text": "La commande a besoin d'un projet, mais le nom que vous avez fourni ne correspond à aucun, ou l'espace de travail contient plusieurs projets et vous n'avez indiqué aucun nom.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La commande a besoin d'un projet, mais le nom que vous avez fourni ne correspond à aucun, ou l'espace de travail contient plusieurs projets et vous n'avez indiqué aucun nom."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

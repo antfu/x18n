@@ -3,12 +3,16 @@
   "source": "The preset always applies, unless an exclusive preset applied before it, or you list presets yourself. x18n tries the default templates last in every project, with or without this preset, so {0} always has a template.",
   "text": "이 프리셋은 항상 적용됩니다. 단, 그보다 먼저 배타적 프리셋이 적용되었거나 프리셋을 직접 지정한 경우는 예외입니다. x18n은 이 프리셋의 적용 여부와 관계없이 모든 프로젝트에서 기본 템플릿을 가장 마지막에 시도하므로 {0}에는 항상 템플릿이 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 프리셋은 항상 적용됩니다. 단, 그보다 먼저 배타적 프리셋이 적용되었거나 프리셋을 직접 지정한 경우는 예외입니다. x18n은 이 프리셋의 적용 여부와 관계없이 모든 프로젝트에서 기본 템플릿을 가장 마지막에 시도하므로 {0}에는 항상 템플릿이 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A custom hook that wraps {0} is a call spec with a fixed namespace:",
   "text": "Пользовательский хук, который оборачивает {0}, — это спецификация вызова с фиксированным пространством имён:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пользовательский хук, который оборачивает {0}, — это спецификация вызова с фиксированным пространством имён:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

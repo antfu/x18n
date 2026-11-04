@@ -3,12 +3,16 @@
   "source": "One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, history provider, review store.",
   "text": "Один вид вклада: чтение манифеста, поиск локалей, формат, сканер, экстрактор, проверка, репортер, синтаксис плейсхолдеров, провайдер истории, хранилище ревью.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Один вид вклада: чтение манифеста, поиск локалей, формат, сканер, экстрактор, проверка, репортер, синтаксис плейсхолдеров, провайдер истории, хранилище ревью."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

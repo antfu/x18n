@@ -3,12 +3,16 @@
   "source": "Translate calls: the callee names that count as translate calls, and where the key, the namespace and the key prefix come from. These become {0}.",
   "text": "번역 호출: 번역 호출로 간주되는 호출 대상 이름과 키, 네임스페이스, 키 접두사를 가져오는 위치입니다. 이 값은 {0}이(가) 됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "번역 호출: 번역 호출로 간주되는 호출 대상 이름과 키, 네임스페이스, 키 접두사를 가져오는 위치입니다. 이 값은 {0}이(가) 됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

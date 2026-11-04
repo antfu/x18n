@@ -3,12 +3,16 @@
   "source": "Agents make that possible. A rewrite of this size used to need months, and now I can build it in my free time and still make it solid. Agents also would benefit from it: they edit locale files all day, and they need the key behind a text, the missing keys and a safe way to rename a key. So I brought the idea back, and this time I made it real.",
   "text": "에이전트가 이를 가능하게 합니다. 이 정도 규모의 재작성에는 예전에는 몇 달이 필요했지만, 이제는 여유 시간에 만들면서도 탄탄하게 완성할 수 있습니다. 에이전트 역시 이 도구의 혜택을 볼 수 있습니다. 에이전트는 하루 종일 로케일 파일을 편집하며, 텍스트에 해당하는 키, 누락된 키, 그리고 키 이름을 안전하게 변경하는 방법이 필요하기 때문입니다. 그래서 이 아이디어를 다시 꺼냈고, 이번에는 실제로 만들었습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "에이전트가 이를 가능하게 합니다. 이 정도 규모의 재작성에는 예전에는 몇 달이 필요했지만, 이제는 여유 시간에 만들면서도 탄탄하게 완성할 수 있습니다. 에이전트 역시 이 도구의 혜택을 볼 수 있습니다. 에이전트는 하루 종일 로케일 파일을 편집하며, 텍스트에 해당하는 키, 누락된 키, 그리고 키 이름을 안전하게 변경하는 방법이 필요하기 때문입니다. 그래서 이 아이디어를 다시 꺼냈고, 이번에는 실제로 만들었습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

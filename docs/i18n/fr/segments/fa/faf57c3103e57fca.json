@@ -3,12 +3,16 @@
   "source": "The CLI prints the code and why the error happened, with details such as a file name or a field. The fix and a link to this page follow. With {0}, the same parts are in {1} of the {2}envelope{/2}.",
   "text": "La CLI affiche le code et la raison de l'erreur, avec des détails tels qu'un nom de fichier ou un champ. Le correctif et un lien vers cette page suivent. Avec {0}, les mêmes éléments se trouvent dans {1} de l'{2}enveloppe{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La CLI affiche le code et la raison de l'erreur, avec des détails tels qu'un nom de fichier ou un champ. Le correctif et un lien vers cette page suivent. Avec {0}, les mêmes éléments se trouvent dans {1} de l'{2}enveloppe{/2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

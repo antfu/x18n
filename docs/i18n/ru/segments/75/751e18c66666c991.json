@@ -3,12 +3,16 @@
   "source": "An approval records the value it approved. When the value changes later, the approval is stale, and the thread shows \"approved, changed since\".",
   "text": "Одобрение запоминает значение, которое было одобрено. Если позже значение изменится, одобрение устареет, и тред покажет «approved, changed since».",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Одобрение запоминает значение, которое было одобрено. Если позже значение изменится, одобрение устареет, и тред покажет «approved, changed since»."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

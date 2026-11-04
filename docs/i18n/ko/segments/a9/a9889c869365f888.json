@@ -3,12 +3,16 @@
   "source": "The key or key prefix at a position, in code or in a locale file.",
   "text": "코드 또는 로케일 파일의 특정 위치에 있는 키 또는 키 접두사입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "코드 또는 로케일 파일의 특정 위치에 있는 키 또는 키 접두사입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

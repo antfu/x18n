@@ -3,12 +3,16 @@
   "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
   "text": "{0} s'exécute pour chaque modification de relecture d'un plan, après son application aux données de relecture : un nouveau commentaire, une approbation, une demande de changement ou une suggestion, un {1} ou un {2}. {3} contient la clé, la langue, le commentaire et le fil de discussion après la modification. {4} et {5} trouvent le message et son fichier, et {6} renvoie un fichier tel que le plan le laisse. Le hook renvoie {7} écritures, qui vont dans le même plan que le fichier de relecture, de sorte qu'une exécution à blanc les affiche. Un store qui conserve un état de relecture à côté de chaque message peut le marquer comme vérifié lorsqu'une approbation correspond à la valeur actuelle :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} s'exécute pour chaque modification de relecture d'un plan, après son application aux données de relecture : un nouveau commentaire, une approbation, une demande de changement ou une suggestion, un {1} ou un {2}. {3} contient la clé, la langue, le commentaire et le fil de discussion après la modification. {4} et {5} trouvent le message et son fichier, et {6} renvoie un fichier tel que le plan le laisse. Le hook renvoie {7} écritures, qui vont dans le même plan que le fichier de relecture, de sorte qu'une exécution à blanc les affiche. Un store qui conserve un état de relecture à côté de chaque message peut le marquer comme vérifié lorsqu'une approbation correspond à la valeur actuelle :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

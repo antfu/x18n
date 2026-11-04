@@ -3,12 +3,16 @@
   "source": "A capability with the id of an earlier one stops the load with {0}X18N1002{/0}. Set {1} on the later one to replace the earlier one.",
   "text": "Возможность с id, который уже использовала более ранняя, прерывает загрузку с ошибкой {0}X18N1002{/0}. Укажите {1} у более поздней, чтобы заменить более раннюю.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Возможность с id, который уже использовала более ранняя, прерывает загрузку с ошибкой {0}X18N1002{/0}. Укажите {1} у более поздней, чтобы заменить более раннюю."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

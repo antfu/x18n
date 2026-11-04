@@ -3,12 +3,16 @@
   "source": "In a TS config, call the function: {0}. In a YAML or JSON config, pass the options as the second item of a tuple. x18n imports the module and calls its default export with them:",
   "text": "TS 설정에서는 함수를 호출하세요: {0}. YAML 또는 JSON 설정에서는 옵션을 튜플의 두 번째 항목으로 전달하세요. x18n은 모듈을 가져와 이 옵션과 함께 모듈의 기본 export를 호출합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "TS 설정에서는 함수를 호출하세요: {0}. YAML 또는 JSON 설정에서는 옵션을 튜플의 두 번째 항목으로 전달하세요. x18n은 모듈을 가져와 이 옵션과 함께 모듈의 기본 export를 호출합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

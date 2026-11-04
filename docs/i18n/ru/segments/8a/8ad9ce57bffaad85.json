@@ -3,12 +3,16 @@
   "source": "One key: values, missing locales, usages with code and diagnostics.",
   "text": "Один ключ: значения, отсутствующие локали, использования с кодом и диагностики.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Один ключ: значения, отсутствующие локали, использования с кодом и диагностики."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

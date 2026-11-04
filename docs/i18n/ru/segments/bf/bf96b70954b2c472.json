@@ -3,12 +3,16 @@
   "source": "The preset for react-intl (FormatJS). It reads formatMessage, FormattedMessage, defineMessage and defineMessages.",
   "text": "Пресет для react-intl (FormatJS). Он обрабатывает formatMessage, FormattedMessage, defineMessage и defineMessages.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пресет для react-intl (FormatJS). Он обрабатывает formatMessage, FormattedMessage, defineMessage и defineMessages."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

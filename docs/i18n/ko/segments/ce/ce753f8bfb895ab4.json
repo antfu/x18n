@@ -3,12 +3,16 @@
   "source": "Run matching JS/TS files in Node instead of reading them statically. Makes them read-only.",
   "text": "일치하는 JS/TS 파일을 정적으로 읽지 않고 Node에서 실행합니다. 이 파일은 읽기 전용이 됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "일치하는 JS/TS 파일을 정적으로 읽지 않고 Node에서 실행합니다. 이 파일은 읽기 전용이 됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

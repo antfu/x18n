@@ -3,12 +3,16 @@
   "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
   "text": "Вызывается для каждой правки ревью в плане, в порядке операций. Возвращаемые записи попадают в тот же план.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Вызывается для каждой правки ревью в плане, в порядке операций. Возвращаемые записи попадают в тот же план."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

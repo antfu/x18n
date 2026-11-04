@@ -3,12 +3,16 @@
   "source": "Where a key prefix comes from ({0} option, or next-intl {1}).",
   "text": "Origine d'un préfixe de clé (option {0}, ou {1} de next-intl).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Origine d'un préfixe de clé (option {0}, ou {1} de next-intl)."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

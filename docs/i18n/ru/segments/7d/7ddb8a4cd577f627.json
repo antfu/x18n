@@ -3,12 +3,16 @@
   "source": "The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from {0}.",
   "text": "Сервер рассматривает ключи как символы. Он поддерживает переход к определению, переход к реализации, ссылки, переименование (с подготовкой), всплывающие подсказки, inlay hints, автодополнение ключей, code actions (быстрые исправления и извлечение), символы документа, символы рабочего пространства, code lenses и диагностики. Диагностики те же, что и в {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Сервер рассматривает ключи как символы. Он поддерживает переход к определению, переход к реализации, ссылки, переименование (с подготовкой), всплывающие подсказки, inlay hints, автодополнение ключей, code actions (быстрые исправления и извлечение), символы документа, символы рабочего пространства, code lenses и диагностики. Диагностики те же, что и в {0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

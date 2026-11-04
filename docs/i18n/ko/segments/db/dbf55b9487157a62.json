@@ -3,12 +3,16 @@
   "source": "Give each check, format and reporter a unique id. Prefix the ids with the name of your plugin to avoid conflicts.",
   "text": "각 검사, 포맷, 리포터에 고유한 id를 지정하세요. 충돌을 피하려면 id 앞에 플러그인 이름을 접두사로 붙이세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "각 검사, 포맷, 리포터에 고유한 id를 지정하세요. 충돌을 피하려면 id 앞에 플러그인 이름을 접두사로 붙이세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A rule asks the agent to leave out a value that is right as it is, such as a word that is the same in both languages. To stop a key from being reported, add it to {0}, or add the term to the {1} with {2}.",
   "text": "규칙은 두 언어에서 같은 단어처럼 그대로 맞는 값은 제외하도록 에이전트에 요청합니다. 키가 보고되지 않게 하려면 {0}에 추가하거나, {2}로 용어를 {1}에 추가하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "규칙은 두 언어에서 같은 단어처럼 그대로 맞는 값은 제외하도록 에이전트에 요청합니다. 키가 보고되지 않게 하려면 {0}에 추가하거나, {2}로 용어를 {1}에 추가하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

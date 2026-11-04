@@ -3,12 +3,16 @@
   "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
   "text": "프리셋에 포함된 호출에 더해 추가할 translate 호출입니다. {0}지원하는 구문{/0}을 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프리셋에 포함된 호출에 더해 추가할 translate 호출입니다. {0}지원하는 구문{/0}을 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

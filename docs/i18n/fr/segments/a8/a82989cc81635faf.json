@@ -3,12 +3,16 @@
   "source": "A preset can be exclusive. When an exclusive preset applies, x18n tests no preset after it. {0} and {1} are exclusive. {2} has no detection, so it applies only when you list it.",
   "text": "Un preset peut être exclusif. Lorsqu'un preset exclusif s'applique, x18n ne teste aucun preset après lui. {0} et {1} sont exclusifs. {2} n'a pas de détection, il ne s'applique donc que si vous le listez.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un preset peut être exclusif. Lorsqu'un preset exclusif s'applique, x18n ne teste aucun preset après lui. {0} et {1} sont exclusifs. {2} n'a pas de détection, il ne s'applique donc que si vous le listez."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Placeholder mismatch. Keep every placeholder of the source value, or pass `--force`.",
   "text": "플레이스홀더 불일치입니다. 원본 값의 모든 플레이스홀더를 유지하거나 `--force`를 전달하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "플레이스홀더 불일치입니다. 원본 값의 모든 플레이스홀더를 유지하거나 `--force`를 전달하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

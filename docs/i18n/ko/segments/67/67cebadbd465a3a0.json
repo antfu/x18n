@@ -3,12 +3,16 @@
   "source": "A plural message is a key with the sub-keys {0}, {1}, {2} and {3}. When a usage names the key, these sub-keys count as used.",
   "text": "복수형 메시지는 하위 키 {0}, {1}, {2}, {3}을(를) 가진 키입니다. 사용처에서 해당 키를 지정하면 이 하위 키들은 사용된 것으로 처리됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "복수형 메시지는 하위 키 {0}, {1}, {2}, {3}을(를) 가진 키입니다. 사용처에서 해당 키를 지정하면 이 하위 키들은 사용된 것으로 처리됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

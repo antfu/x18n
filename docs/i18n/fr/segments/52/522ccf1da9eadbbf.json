@@ -3,12 +3,16 @@
   "source": "Key: the values of one key with the translation state and description the file records, its problems, and its usages with a few lines of code. \"Open in editor\" opens a usage in your editor. Each target locale has a button that copies a translate prompt for the key, and a button to review the value. The review thread of each locale shows under its value, with buttons to apply a suggestion or resolve a comment.",
   "text": "Key : les valeurs d'une clé avec l'état de traduction et la description enregistrés dans le fichier, ses problèmes et ses utilisations avec quelques lignes de code. « Open in editor » ouvre une utilisation dans votre éditeur. Chaque langue cible dispose d'un bouton qui copie un prompt de traduction pour la clé, et d'un bouton pour relire la valeur. Le fil de relecture de chaque langue s'affiche sous sa valeur, avec des boutons pour appliquer une suggestion ou résoudre un commentaire.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Key : les valeurs d'une clé avec l'état de traduction et la description enregistrés dans le fichier, ses problèmes et ses utilisations avec quelques lignes de code. « Open in editor » ouvre une utilisation dans votre éditeur. Chaque langue cible dispose d'un bouton qui copie un prompt de traduction pour la clé, et d'un bouton pour relire la valeur. Le fil de relecture de chaque langue s'affiche sous sa valeur, avec des boutons pour appliquer une suggestion ou résoudre un commentaire."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

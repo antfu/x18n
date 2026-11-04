@@ -3,12 +3,16 @@
   "source": "The command exits with code 1 when it finds errors. Warnings do not fail it. See {0}Checks{/0} for every check.",
   "text": "오류를 발견하면 명령은 종료 코드 1로 종료됩니다. 경고는 실패로 처리되지 않습니다. 모든 검사는 {0}검사{/0}를 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "오류를 발견하면 명령은 종료 코드 1로 종료됩니다. 경고는 실패로 처리되지 않습니다. 모든 검사는 {0}검사{/0}를 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

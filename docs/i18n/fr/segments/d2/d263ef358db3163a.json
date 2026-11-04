@@ -3,12 +3,16 @@
   "source": "Namespaces searched in order when a key written without a namespace is not in its own (i18next {0}).",
   "text": "Espaces de noms parcourus dans l'ordre lorsqu'une clé écrite sans espace de noms ne figure pas dans le sien (i18next {0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Espaces de noms parcourus dans l'ordre lorsqu'une clé écrite sans espace de noms ne figure pas dans le sien (i18next {0})."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

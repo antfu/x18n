@@ -3,12 +3,16 @@
   "source": "The name of a project is its path from the root, such as {0}, unless its config sets {1}. {2} lists the names.",
   "text": "프로젝트 이름은 설정에서 {1}를 지정하지 않는 한 루트로부터의 경로이며, 예를 들면 {0}입니다. {2}는 이름을 나열합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프로젝트 이름은 설정에서 {1}를 지정하지 않는 한 루트로부터의 경로이며, 예를 들면 {0}입니다. {2}는 이름을 나열합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

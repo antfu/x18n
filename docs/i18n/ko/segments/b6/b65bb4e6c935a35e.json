@@ -3,12 +3,16 @@
   "source": "Colors appear only in a terminal. x18n honors {0} and {1}.",
   "text": "색상은 터미널에서만 표시됩니다. x18n은 {0}와 {1}를 따릅니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "색상은 터미널에서만 표시됩니다. x18n은 {0}와 {1}를 따릅니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

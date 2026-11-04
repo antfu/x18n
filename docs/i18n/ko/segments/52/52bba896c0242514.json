@@ -3,12 +3,16 @@
   "source": "{0} is a usage of {1}, and {2} is a usage of {3}. x18n removes the extension ({4}, {5}, {6}) and the {7} of a partial name, so {8} in {9} is a usage of {10}.",
   "text": "{0}은(는) {1}의 사용처이고, {2}은(는) {3}의 사용처입니다. x18n은 확장자({4}, {5}, {6})와 partial 이름의 {7}을(를) 제거하므로, {9}의 {8}은(는) {10}의 사용처입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}은(는) {1}의 사용처이고, {2}은(는) {3}의 사용처입니다. x18n은 확장자({4}, {5}, {6})와 partial 이름의 {7}을(를) 제거하므로, {9}의 {8}은(는) {10}의 사용처입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

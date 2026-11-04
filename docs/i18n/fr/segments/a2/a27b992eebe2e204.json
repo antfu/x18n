@@ -3,12 +3,16 @@
   "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
   "text": "La vérification est activée lorsque {0} vaut {1}, ou lorsque vous définissez une sévérité pour elle dans {2}. Lancez {3} pour transformer les chaînes signalées en clés.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La vérification est activée lorsque {0} vaut {1}, ou lorsque vous définissez une sévérité pour elle dans {2}. Lancez {3} pour transformer les chaînes signalées en clés."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

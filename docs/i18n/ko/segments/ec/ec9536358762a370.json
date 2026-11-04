@@ -3,12 +3,16 @@
   "source": "x18n reads the locale files of any project, finds where each key is used, and reports missing, unused and broken keys. A CLI, a language server, a VS Code extension, a UI and MCP tools share one engine.",
   "text": "x18n은 모든 프로젝트의 로케일 파일을 읽고, 각 키가 사용되는 위치를 찾아 누락되거나 사용되지 않거나 손상된 키를 보고합니다. CLI, 언어 서버, VS Code 확장, UI, MCP 도구가 하나의 엔진을 공유합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 모든 프로젝트의 로케일 파일을 읽고, 각 키가 사용되는 위치를 찾아 누락되거나 사용되지 않거나 손상된 키를 보고합니다. CLI, 언어 서버, VS Code 확장, UI, MCP 도구가 하나의 엔진을 공유합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

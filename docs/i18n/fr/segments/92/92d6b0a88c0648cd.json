@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}fluent-vue{/1}, the Vue binding of {2}Project Fluent{/2}.",
   "text": "Le preset {0} prend en charge {1}fluent-vue{/1}, la liaison Vue de {2}Project Fluent{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset {0} prend en charge {1}fluent-vue{/1}, la liaison Vue de {2}Project Fluent{/2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

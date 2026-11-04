@@ -3,12 +3,16 @@
   "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
   "text": "요약, 로케일별 커버리지 표, 진단 표를 출력합니다. 풀 리퀘스트 코멘트와 작업 요약용입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "요약, 로케일별 커버리지 표, 진단 표를 출력합니다. 풀 리퀘스트 코멘트와 작업 요약용입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

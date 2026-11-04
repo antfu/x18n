@@ -3,12 +3,16 @@
   "source": "As in YAML. Plugins add their check ids to the type, so the editor completes them.",
   "text": "Как в YAML. Плагины добавляют идентификаторы своих проверок в тип, поэтому редактор их автодополняет.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Как в YAML. Плагины добавляют идентификаторы своих проверок в тип, поэтому редактор их автодополняет."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

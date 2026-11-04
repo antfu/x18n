@@ -3,12 +3,16 @@
   "source": "{0} (default), {1} for {2}, or {3} for a member chain on a root.",
   "text": "{0} (par défaut), {1} pour {2}, ou {3} pour une chaîne de membres sur une racine.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} (par défaut), {1} pour {2}, ou {3} pour une chaîne de membres sur une racine."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} builds its keys at runtime, so when the project uses it the keys in the {1} namespace are not unused, nor those of {2}.",
   "text": "{0} собирает свои ключи во время выполнения, поэтому, если проект его использует, ключи в пространстве имён {1} не считаются неиспользуемыми, как и ключи {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} собирает свои ключи во время выполнения, поэтому, если проект его использует, ключи в пространстве имён {1} не считаются неиспользуемыми, как и ключи {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

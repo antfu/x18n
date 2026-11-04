@@ -3,12 +3,16 @@
   "source": "The {0} preset supports the {1}i18n API of Chrome extensions{/1}, and of WebExtensions in other browsers.",
   "text": "{0} 프리셋은 {1}Chrome 확장 프로그램의 i18n API{/1}와 다른 브라우저의 WebExtension을 지원합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 프리셋은 {1}Chrome 확장 프로그램의 i18n API{/1}와 다른 브라우저의 WebExtension을 지원합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

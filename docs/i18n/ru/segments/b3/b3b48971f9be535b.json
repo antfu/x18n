@@ -3,12 +3,16 @@
   "source": "{0} holds the result. {1} holds the errors, each with its code in {2}, the reason in {3}, a {4} and a {5} link. The exit code tells the agent what to do next:",
   "text": "{0} содержит результат. {1} содержит ошибки, каждая из которых имеет код в {2}, причину в {3}, {4} и ссылку {5}. Код завершения подсказывает агенту, что делать дальше:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} содержит результат. {1} содержит ошибки, каждая из которых имеет код в {2}, причину в {3}, {4} и ссылку {5}. Код завершения подсказывает агенту, что делать дальше:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

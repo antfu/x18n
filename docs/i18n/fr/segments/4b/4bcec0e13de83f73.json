@@ -3,12 +3,16 @@
   "source": "{0} in the generated plugin, for JS, TS, Vue, HTML and Svelte files",
   "text": "{0} dans le plugin généré, pour les fichiers JS, TS, Vue, HTML et Svelte",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} dans le plugin généré, pour les fichiers JS, TS, Vue, HTML et Svelte"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

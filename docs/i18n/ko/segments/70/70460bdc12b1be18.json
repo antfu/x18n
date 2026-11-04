@@ -3,12 +3,16 @@
   "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
   "text": "에이전트는 프로젝트 루트에서 명령을 시작하거나 {0}를 전달해야 합니다. 서버가 파일을 감시하므로 다른 도구에서 수정한 내용도 확인할 수 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "에이전트는 프로젝트 루트에서 명령을 시작하거나 {0}를 전달해야 합니다. 서버가 파일을 감시하므로 다른 도구에서 수정한 내용도 확인할 수 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "In Astro components, such as with astro-i18next, the preset reads the calls in the {0} frontmatter, in {1} and in {2} template expressions.",
   "text": "В компонентах Astro, например с astro-i18next, пресет считывает вызовы во frontmatter {0}, в {1} и в шаблонных выражениях {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В компонентах Astro, например с astro-i18next, пресет считывает вызовы во frontmatter {0}, в {1} и в шаблонных выражениях {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

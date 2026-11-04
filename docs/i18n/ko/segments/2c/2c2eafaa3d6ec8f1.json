@@ -3,12 +3,16 @@
   "source": "{0}: x18n calls no translation service. It writes {1}translate prompts{/1} for an agent or an LLM instead. The command prints a note.",
   "text": "{0}: x18n은 번역 서비스를 호출하지 않습니다. 대신 에이전트나 LLM을 위한 {1}translate 프롬프트{/1}를 작성합니다. 명령이 안내 메시지를 출력합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: x18n은 번역 서비스를 호출하지 않습니다. 대신 에이전트나 LLM을 위한 {1}translate 프롬프트{/1}를 작성합니다. 명령이 안내 메시지를 출력합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

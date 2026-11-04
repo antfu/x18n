@@ -3,12 +3,16 @@
   "source": "List commands page their output. {0} sets the page size. The output ends with a {1} value for the next page, and the JSON output has it as {2}:",
   "text": "Команды вывода списков разбивают результат на страницы. {0} задаёт размер страницы. В конце вывода указано значение {1} для следующей страницы, а в JSON-выводе оно называется {2}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Команды вывода списков разбивают результат на страницы. {0} задаёт размер страницы. В конце вывода указано значение {1} для следующей страницы, а в JSON-выводе оно называется {2}:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

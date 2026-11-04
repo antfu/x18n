@@ -3,12 +3,16 @@
   "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}): {1} for every check, or a list of check ids.",
   "text": "Также переводить значения, о которых проверки сообщают в целевой локали, например копии исходного сообщения ({0}): {1} для всех проверок или список идентификаторов проверок.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Также переводить значения, о которых проверки сообщают в целевой локали, например копии исходного сообщения ({0}): {1} для всех проверок или список идентификаторов проверок."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

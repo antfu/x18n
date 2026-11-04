@@ -3,12 +3,16 @@
   "source": "Positional braces: {0}. Braces: {1}. Linked messages: {2} and {3}.",
   "text": "위치 기반 중괄호: {0}. 중괄호: {1}. 연결된 메시지: {2} 및 {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "위치 기반 중괄호: {0}. 중괄호: {1}. 연결된 메시지: {2} 및 {3}."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

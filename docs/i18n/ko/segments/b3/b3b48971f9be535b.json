@@ -3,12 +3,16 @@
   "source": "{0} holds the result. {1} holds the errors, each with its code in {2}, the reason in {3}, a {4} and a {5} link. The exit code tells the agent what to do next:",
   "text": "{0}에는 결과가 들어 있습니다. {1}에는 오류가 들어 있으며, 각 오류에는 {2}의 코드, {3}의 이유, {4}, {5} 링크가 포함됩니다. 종료 코드는 에이전트가 다음에 할 일을 알려 줍니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}에는 결과가 들어 있습니다. {1}에는 오류가 들어 있으며, 각 오류에는 {2}의 코드, {3}의 이유, {4}, {5} 링크가 포함됩니다. 종료 코드는 에이전트가 다음에 할 일을 알려 줍니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Deletes the keys that {0} lists, in every locale, through {1}. Default: every project.",
   "text": "Удаляет ключи, перечисленные в {0}, во всех локалях через {1}. По умолчанию: все проекты.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Удаляет ключи, перечисленные в {0}, во всех локалях через {1}. По умолчанию: все проекты."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

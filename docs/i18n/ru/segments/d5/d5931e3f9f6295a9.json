@@ -3,12 +3,16 @@
   "source": "{0} needs {1} to comment, approve, request a change or suggest; {2} needs {3} and {4} needs {5}.",
   "text": "Для {0} требуется {1}, чтобы оставить комментарий, одобрить, запросить изменение или предложить правку; для {2} требуется {3}, а для {4} — {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Для {0} требуется {1}, чтобы оставить комментарий, одобрить, запросить изменение или предложить правку; для {2} требуется {3}, а для {4} — {5}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

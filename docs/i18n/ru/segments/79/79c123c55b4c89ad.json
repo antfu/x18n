@@ -3,12 +3,16 @@
   "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
   "text": "Здесь {0} — это {1}, а запасной вариант определяется так же, как в библиотеке: сначала {2}, затем ключ как он записан. Ключ со своим пространством имён или pipe с {3} и {4} остаётся как записан.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Здесь {0} — это {1}, а запасной вариант определяется так же, как в библиотеке: сначала {2}, затем ключ как он записан. Ключ со своим пространством имён или pipe с {3} и {4} остаётся как записан."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The text in the file at {0}, used to detect stale plans.",
   "text": "Текст в файле по адресу {0}, используется для обнаружения устаревших планов.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Текст в файле по адресу {0}, используется для обнаружения устаревших планов."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset for es2015-i18n-tag. It reads i18n tagged templates in JS, TS and Vue files.",
   "text": "es2015-i18n-tag용 프리셋입니다. JS, TS, Vue 파일의 i18n 태그드 템플릿을 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "es2015-i18n-tag용 프리셋입니다. JS, TS, Vue 파일의 i18n 태그드 템플릿을 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

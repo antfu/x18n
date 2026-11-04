@@ -3,12 +3,16 @@
   "source": "The agent skills that ship in @x18n/cli and teach an agent to set up x18n, check translations and manage them.",
   "text": "Скиллы для агентов, которые поставляются в @x18n/cli и учат агента настраивать x18n, проверять переводы и управлять ими.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Скиллы для агентов, которые поставляются в @x18n/cli и учат агента настраивать x18n, проверять переводы и управлять ими."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "bindings, events, references and structural directives: {0}, {1}, {2}, {3}, {4},",
   "text": "바인딩, 이벤트, 참조, 구조 디렉티브: {0}, {1}, {2}, {3}, {4},",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "바인딩, 이벤트, 참조, 구조 디렉티브: {0}, {1}, {2}, {3}, {4},"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

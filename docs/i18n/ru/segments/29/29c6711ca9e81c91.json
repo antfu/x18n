@@ -3,12 +3,16 @@
   "source": "Translations that a component gives to {0} are not read.",
   "text": "Переводы, которые компонент передаёт в {0}, не читаются.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Переводы, которые компонент передаёт в {0}, не читаются."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "One key: values, missing locales, usages with code and diagnostics.",
   "text": "키 하나의 값, 누락된 로케일, 코드가 포함된 사용처, 진단을 반환합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키 하나의 값, 누락된 로케일, 코드가 포함된 사용처, 진단을 반환합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

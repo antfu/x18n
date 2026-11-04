@@ -3,12 +3,16 @@
   "source": "{0} read and write one file format. A format has an {1} and the {2} it reads.",
   "text": "{0} читают и записывают один формат файла. У формата есть {1} и {2}, который он читает.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} читают и записывают один формат файла. У формата есть {1} и {2}, который он читает."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

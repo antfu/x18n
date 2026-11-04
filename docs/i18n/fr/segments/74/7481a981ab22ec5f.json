@@ -3,12 +3,16 @@
   "source": "The default export can also be a function that returns the config, or a promise of it.",
   "text": "L'export par défaut peut aussi être une fonction qui renvoie la configuration, ou une promesse de celle-ci.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "L'export par défaut peut aussi être une fonction qui renvoie la configuration, ou une promesse de celle-ci."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

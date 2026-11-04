@@ -3,12 +3,16 @@
   "source": "Locale to the locale it falls back to, such as {0}. A locale with a fallback holds only overrides: a key it lacks or leaves empty is not missing when the fallback chain has it. {1} falls back to the nearest parent language that exists: {2} to {3}, {4} to {5} or {6}.",
   "text": "Associe une langue à la langue de repli, par exemple {0}. Une langue avec un repli ne contient que des surcharges : une clé qu'elle n'a pas ou qu'elle laisse vide n'est pas manquante si la chaîne de repli la contient. {1} se replie sur la langue parente existante la plus proche : {2} vers {3}, {4} vers {5} ou {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Associe une langue à la langue de repli, par exemple {0}. Une langue avec un repli ne contient que des surcharges : une clé qu'elle n'a pas ou qu'elle laisse vide n'est pas manquante si la chaîne de repli la contient. {1} se replie sur la langue parente existante la plus proche : {2} vers {3}, {4} vers {5} ou {6}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

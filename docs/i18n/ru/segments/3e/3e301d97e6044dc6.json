@@ -3,12 +3,16 @@
   "source": "A message with a custom id ({0}) uses it. A message without one gets the id Angular computes from its text and meaning, and x18n computes the same: the {1} above is {2}. ICU expressions, nested elements, {3}, {4} and {5} blocks and custom placeholder names ({6}) count. An ICU inside text is a message of its own, as Angular extracts it.",
   "text": "Сообщение с пользовательским id ({0}) использует его. Сообщению без id назначается id, который Angular вычисляет из его текста и значения, и x18n вычисляет такой же: {1} выше — это {2}. Учитываются выражения ICU, вложенные элементы, блоки {3}, {4} и {5}, а также пользовательские имена плейсхолдеров ({6}). ICU внутри текста — отдельное сообщение, как его извлекает Angular.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Сообщение с пользовательским id ({0}) использует его. Сообщению без id назначается id, который Angular вычисляет из его текста и значения, и x18n вычисляет такой же: {1} выше — это {2}. Учитываются выражения ICU, вложенные элементы, блоки {3}, {4} и {5}, а также пользовательские имена плейсхолдеров ({6}). ICU внутри текста — отдельное сообщение, как его извлекает Angular."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

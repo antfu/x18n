@@ -3,12 +3,16 @@
   "source": "The proposed value, for {0}. Keep every placeholder.",
   "text": "{0}에 사용할 제안 값입니다. 모든 플레이스홀더를 유지하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}에 사용할 제안 값입니다. 모든 플레이스홀더를 유지하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

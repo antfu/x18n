@@ -3,12 +3,16 @@
   "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
   "text": "Комментарии {0}, {1} ... {2} и {3} пропускают текст так же, как в других файлах.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Комментарии {0}, {1} ... {2} и {3} пропускают текст так же, как в других файлах."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset for jekyll-multiple-languages-plugin. It reads _i18n YAML files and the t Liquid tag.",
   "text": "Пресет для jekyll-multiple-languages-plugin. Он читает YAML-файлы _i18n и Liquid-тег t.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пресет для jekyll-multiple-languages-plugin. Он читает YAML-файлы _i18n и Liquid-тег t."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

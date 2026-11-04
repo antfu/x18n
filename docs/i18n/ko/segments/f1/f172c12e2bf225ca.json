@@ -3,12 +3,16 @@
   "source": "More than one preset can apply. Some presets include the plugins of another preset: {0} and {1} include everything of {2}, and {3} includes everything of {4}. When two applied presets share a plugin, x18n adds that plugin one time.",
   "text": "둘 이상의 프리셋이 적용될 수 있습니다. 일부 프리셋은 다른 프리셋의 플러그인을 포함합니다. {0}와 {1}는 {2}의 모든 항목을 포함하고, {3}는 {4}의 모든 항목을 포함합니다. 적용된 두 프리셋이 같은 플러그인을 공유하면 x18n은 해당 플러그인을 한 번만 추가합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "둘 이상의 프리셋이 적용될 수 있습니다. 일부 프리셋은 다른 프리셋의 플러그인을 포함합니다. {0}와 {1}는 {2}의 모든 항목을 포함하고, {3}는 {4}의 모든 항목을 포함합니다. 적용된 두 프리셋이 같은 플러그인을 공유하면 x18n은 해당 플러그인을 한 번만 추가합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

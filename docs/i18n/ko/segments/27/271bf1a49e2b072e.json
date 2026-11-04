@@ -3,12 +3,16 @@
   "source": "Accepted by the schema. x18n does not read it yet.",
   "text": "스키마에서는 허용되지만 x18n은 아직 이 값을 읽지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "스키마에서는 허용되지만 x18n은 아직 이 값을 읽지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

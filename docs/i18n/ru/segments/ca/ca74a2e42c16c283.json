@@ -3,12 +3,16 @@
   "source": "{0} for a wrong translation (say why in {1}), {2} to propose a value (in {3}), {4} for a good one, {5} for anything else.",
   "text": "{0} для неверного перевода (объясните причину в {1}), {2}, чтобы предложить значение (в {3}), {4} для хорошего перевода, {5} для всего остального.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} для неверного перевода (объясните причину в {1}), {2}, чтобы предложить значение (в {3}), {4} для хорошего перевода, {5} для всего остального."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

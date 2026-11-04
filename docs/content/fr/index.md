@@ -119,7 +119,7 @@ Chaque interface lit la même configuration et signale les mêmes diagnostics. L
   CLI et x18n check
 
   #description
-  [`x18n check` reports invalid, untranslated and unused keys like `tsc --noEmit`. Every command has JSON output.]{lang="en"}
+  `x18n check` signale les clés invalides, sans traduction et inutilisées, comme `tsc --noEmit`. Chaque commande dispose d'une sortie JSON.
   :::
 
   :::landing-feature-card{icon="i-ph-code-duotone" to="/fr/surfaces/vscode"}

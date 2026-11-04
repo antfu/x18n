@@ -3,12 +3,16 @@
   "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
   "text": "{0} définit l'espace de noms et le préfixe de clé pour tout le fichier, car le composant reçoit son {1} via les props et se trouve souvent au-dessus de l'appel.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} définit l'espace de noms et le préfixe de clé pour tout le fichier, car le composant reçoit son {1} via les props et se trouve souvent au-dessus de l'appel."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

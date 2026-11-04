@@ -3,12 +3,16 @@
   "source": "A key stays in the files after the code stops using it.",
   "text": "코드에서 더 이상 사용하지 않는데도 키가 파일에 남아 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "코드에서 더 이상 사용하지 않는데도 키가 파일에 남아 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

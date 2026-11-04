@@ -3,12 +3,16 @@
   "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
   "text": "Значение в каждой локали с файлом и строкой, локали, в которых ключ отсутствует, использования и диагностики.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Значение в каждой локали с файлом и строкой, локали, в которых ключ отсутствует, использования и диагностики."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

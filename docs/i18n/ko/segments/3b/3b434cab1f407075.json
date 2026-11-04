@@ -3,12 +3,16 @@
   "source": "A different file, or {0} to turn reviews off.",
   "text": "다른 파일을 지정하거나, {0}을(를) 지정해 리뷰를 끕니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "다른 파일을 지정하거나, {0}을(를) 지정해 리뷰를 끕니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

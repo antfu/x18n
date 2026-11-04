@@ -3,12 +3,16 @@
   "source": "A message is the value of one key in one locale. {0} is the message of {1} in {2}. {3} is a placeholder. The {4} check makes sure that each translation keeps the placeholders of the source message.",
   "text": "Сообщение — это значение одного ключа в одной локали. {0} — это сообщение ключа {1} в локали {2}. {3} — это плейсхолдер. Проверка {4} следит за тем, чтобы каждый перевод сохранял плейсхолдеры исходного сообщения.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Сообщение — это значение одного ключа в одной локали. {0} — это сообщение ключа {1} в локали {2}. {3} — это плейсхолдер. Проверка {4} следит за тем, чтобы каждый перевод сохранял плейсхолдеры исходного сообщения."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

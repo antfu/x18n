@@ -3,12 +3,16 @@
   "source": "What {0} prints for every workspace folder: load errors, presets, locale files and config. The server also logs it when it finds no locale files.",
   "text": "{0}가 모든 워크스페이스 폴더에 대해 출력하는 내용으로, 로드 오류, 프리셋, 로케일 파일, 설정이 포함됩니다. 서버는 로케일 파일을 찾지 못했을 때도 이 내용을 로그로 남깁니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}가 모든 워크스페이스 폴더에 대해 출력하는 내용으로, 로드 오류, 프리셋, 로케일 파일, 설정이 포함됩니다. 서버는 로케일 파일을 찾지 못했을 때도 이 내용을 로그로 남깁니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

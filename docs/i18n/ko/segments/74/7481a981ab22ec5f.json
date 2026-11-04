@@ -3,12 +3,16 @@
   "source": "The default export can also be a function that returns the config, or a promise of it.",
   "text": "기본 export는 구성을 반환하는 함수 또는 구성의 Promise일 수도 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "기본 export는 구성을 반환하는 함수 또는 구성의 Promise일 수도 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

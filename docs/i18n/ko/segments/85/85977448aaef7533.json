@@ -3,12 +3,16 @@
   "source": "gettext catalogs. Each {0} is a key. Extracted ({1}) and translator ({2}) comments describe it. A {3} entry needs review.",
   "text": "gettext 카탈로그입니다. 각 {0}은(는) 하나의 키입니다. 추출된 주석({1})과 번역자 주석({2})이 이를 설명합니다. {3} 항목은 리뷰가 필요합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "gettext 카탈로그입니다. 각 {0}은(는) 하나의 키입니다. 추출된 주석({1})과 번역자 주석({2})이 이를 설명합니다. {3} 항목은 리뷰가 필요합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

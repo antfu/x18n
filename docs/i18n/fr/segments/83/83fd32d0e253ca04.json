@@ -3,12 +3,16 @@
   "source": "The committed file of known diagnostics ({0}); {1} then reports only new ones.",
   "text": "Le fichier versionné des diagnostics connus ({0}) ; {1} ne signale ensuite que les nouveaux.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le fichier versionné des diagnostics connus ({0}) ; {1} ne signale ensuite que les nouveaux."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

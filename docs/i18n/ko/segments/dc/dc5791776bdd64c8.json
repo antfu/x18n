@@ -3,12 +3,16 @@
   "source": "the {0} keys, the legacy {1} keys, and the {2} keys of the {3}i18n-ally-next{/3} fork, in {4},",
   "text": "{4}에 있는 {0} 키, 레거시 {1} 키, {3}i18n-ally-next{/3} 포크의 {2} 키",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{4}에 있는 {0} 키, 레거시 {1} 키, {3}i18n-ally-next{/3} 포크의 {2} 키"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

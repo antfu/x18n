@@ -3,12 +3,16 @@
   "source": "Locale codes as found, with display names and resources.",
   "text": "Codes de langue tels que trouvés, avec leurs noms d'affichage et leurs ressources.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Codes de langue tels que trouvés, avec leurs noms d'affichage et leurs ressources."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

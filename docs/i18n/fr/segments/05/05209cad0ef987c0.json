@@ -3,12 +3,16 @@
   "source": "The preset for @gravity-ui/i18n. It reads i18n.i18n(keyset, key) calls, keyset functions and keyset folders.",
   "text": "Le preset pour @gravity-ui/i18n. Il lit les appels i18n.i18n(keyset, key), les fonctions de keyset et les dossiers de keysets.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset pour @gravity-ui/i18n. Il lit les appels i18n.i18n(keyset, key), les fonctions de keyset et les dossiers de keysets."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

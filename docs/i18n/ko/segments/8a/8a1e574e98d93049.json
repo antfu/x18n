@@ -3,12 +3,16 @@
   "source": "Trace the communication between VS Code and the x18n language server.",
   "text": "VS Code와 x18n 언어 서버 간의 통신을 추적합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "VS Code와 x18n 언어 서버 간의 통신을 추적합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

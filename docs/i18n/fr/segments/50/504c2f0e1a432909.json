@@ -3,12 +3,16 @@
   "source": "A source-locale key that target locales lack, or a plural form their language needs. One diagnostic per key, at the source entry.",
   "text": "Une clé de la langue source qui manque dans les langues cibles, ou une forme plurielle dont leur langue a besoin. Un diagnostic par clé, sur l'entrée source.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une clé de la langue source qui manque dans les langues cibles, ou une forme plurielle dont leur langue a besoin. Un diagnostic par clé, sur l'entrée source."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

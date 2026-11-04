@@ -3,12 +3,16 @@
   "source": "Renames a key or a parent key in locale files and code.",
   "text": "로케일 파일과 코드에서 키 또는 상위 키의 이름을 변경합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "로케일 파일과 코드에서 키 또는 상위 키의 이름을 변경합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

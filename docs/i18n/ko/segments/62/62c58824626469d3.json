@@ -3,12 +3,16 @@
   "source": "{0}i18n-ally{/0} found many of these problems inside VS Code. Its logic is tied to the VS Code API, so it cannot run in CI, in a browser or for a coding agent. x18n moves the same logic into an engine that runs anywhere.",
   "text": "{0}i18n-ally{/0}는 VS Code 안에서 이러한 문제를 상당수 찾아냈습니다. 하지만 이 도구의 로직은 VS Code API에 묶여 있어 CI, 브라우저, 코딩 에이전트에서는 실행할 수 없습니다. x18n은 같은 로직을 어디서든 실행되는 엔진으로 옮겼습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}i18n-ally{/0}는 VS Code 안에서 이러한 문제를 상당수 찾아냈습니다. 하지만 이 도구의 로직은 VS Code API에 묶여 있어 CI, 브라우저, 코딩 에이전트에서는 실행할 수 없습니다. x18n은 같은 로직을 어디서든 실행되는 엔진으로 옮겼습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

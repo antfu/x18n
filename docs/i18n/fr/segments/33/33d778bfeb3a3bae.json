@@ -3,12 +3,16 @@
   "source": "When true and detected, presets that come after it are not applied.",
   "text": "Si true et détecté, les presets qui le suivent ne sont pas appliqués.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Si true et détecté, les presets qui le suivent ne sont pas appliqués."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} returns the display name, the flag or other data of a locale code. The first plugin that returns a value wins.",
   "text": "{0} renvoie le nom d'affichage, le drapeau ou d'autres données d'un code de langue. Le premier plugin qui renvoie une valeur l'emporte.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} renvoie le nom d'affichage, le drapeau ou d'autres données d'un code de langue. Le premier plugin qui renvoie une valeur l'emporte."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

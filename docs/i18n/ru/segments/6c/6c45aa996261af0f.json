@@ -3,12 +3,16 @@
   "source": "The {0}translate prompt{/0} lists the messages to translate, with rules and context. The agent writes the results as {1} to a file, then applies and checks them:",
   "text": "{0}Промпт для перевода{/0} содержит список сообщений для перевода, а также правила и контекст. Агент записывает результаты в файл в формате {1}, затем применяет и проверяет их:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}Промпт для перевода{/0} содержит список сообщений для перевода, а также правила и контекст. Агент записывает результаты в файл в формате {1}, затем применяет и проверяет их:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

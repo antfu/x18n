@@ -3,12 +3,16 @@
   "source": "If your config has no {0}, the preset uses the same patterns as the {1} preset:",
   "text": "Si votre configuration n'a pas de {0}, le preset utilise les mêmes motifs que le preset {1} :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Si votre configuration n'a pas de {0}, le preset utilise les mêmes motifs que le preset {1} :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

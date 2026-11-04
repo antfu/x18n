@@ -3,12 +3,16 @@
   "source": "The server also accepts {0} and {1}. With {2}, the client listens on the port and the server connects to it. The server loads the projects of each workspace folder, the same way the CLI does.",
   "text": "서버는 {0}와 {1}도 지원합니다. {2}를 사용하면 클라이언트가 포트에서 대기하고 서버가 해당 포트에 연결합니다. 서버는 CLI와 같은 방식으로 각 워크스페이스 폴더의 프로젝트를 로드합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "서버는 {0}와 {1}도 지원합니다. {2}를 사용하면 클라이언트가 포트에서 대기하고 서버가 해당 포트에 연결합니다. 서버는 CLI와 같은 방식으로 각 워크스페이스 폴더의 프로젝트를 로드합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

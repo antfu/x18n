@@ -3,12 +3,16 @@
   "source": "The extension treats a key such as {0} like an imported symbol:",
   "text": "Расширение обрабатывает ключ, например {0}, как импортированный символ:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Расширение обрабатывает ключ, например {0}, как импортированный символ:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

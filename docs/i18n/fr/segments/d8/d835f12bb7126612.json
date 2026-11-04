@@ -3,12 +3,16 @@
   "source": "These names count as translate calls: {0}, {1}, {2} and {3}.",
   "text": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2} et {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ces noms sont considérés comme des appels de traduction : {0}, {1}, {2} et {3}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

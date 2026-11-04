@@ -3,12 +3,16 @@
   "source": "Typed braces: {0}, {1}, {2}, {3} and {4}. The name is the part before {5} or {6}, so {7} in the base locale and {8} in a translation match. Plural parts such as {9} are not placeholders.",
   "text": "타입이 지정된 중괄호: {0}, {1}, {2}, {3} 및 {4}. 이름은 {5} 또는 {6} 앞의 부분이므로 기준 로케일의 {7}과 번역의 {8}은 서로 일치합니다. {9}와 같은 복수형 부분은 플레이스홀더가 아닙니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "타입이 지정된 중괄호: {0}, {1}, {2}, {3} 및 {4}. 이름은 {5} 또는 {6} 앞의 부분이므로 기준 로케일의 {7}과 번역의 {8}은 서로 일치합니다. {9}와 같은 복수형 부분은 플레이스홀더가 아닙니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

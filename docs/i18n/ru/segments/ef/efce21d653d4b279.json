@@ -3,12 +3,16 @@
   "source": "With a key read from a property: the property beside it that describes the message for translators, such as {0} for {1}.",
   "text": "Если ключ читается из свойства: соседнее свойство, которое описывает сообщение для переводчиков, например {0} для {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Если ключ читается из свойства: соседнее свойство, которое описывает сообщение для переводчиков, например {0} для {1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

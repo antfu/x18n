@@ -3,12 +3,16 @@
   "source": "A key from a PHP file starts with the path of the file: {0} gives {1}. In a JSON file, each key is a whole sentence: {2}.",
   "text": "Une clé provenant d'un fichier PHP commence par le chemin du fichier : {0} donne {1}. Dans un fichier JSON, chaque clé est une phrase entière : {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une clé provenant d'un fichier PHP commence par le chemin du fichier : {0} donne {1}. Dans un fichier JSON, chaque clé est une phrase entière : {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

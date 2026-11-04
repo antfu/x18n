@@ -3,12 +3,16 @@
   "source": "Each tool takes one object. A {0} after a field name marks an optional field. The safety level tells the agent what a call does: {1} changes nothing, {2} writes files, {3} can remove data and asks for {4}.",
   "text": "Chaque outil prend un objet. Un {0} après un nom de champ indique un champ facultatif. Le niveau de sécurité indique à l'agent ce que fait un appel : {1} ne modifie rien, {2} écrit des fichiers, {3} peut supprimer des données et demande {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chaque outil prend un objet. Un {0} après un nom de champ indique un champ facultatif. Le niveau de sécurité indique à l'agent ce que fait un appel : {1} ne modifie rien, {2} écrit des fichiers, {3} peut supprimer des données et demande {4}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

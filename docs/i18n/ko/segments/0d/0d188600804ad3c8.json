@@ -3,12 +3,16 @@
   "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
   "text": "코드의 키를 표시 로케일의 값으로 바꿉니다. 커서가 있는 줄과 선택 영역 안에서는 원래 키가 표시됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "코드의 키를 표시 로케일의 값으로 바꿉니다. 커서가 있는 줄과 선택 영역 안에서는 원래 키가 표시됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

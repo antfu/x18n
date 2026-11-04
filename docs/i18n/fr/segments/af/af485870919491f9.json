@@ -3,12 +3,16 @@
   "source": "If it is a path, make sure that it is relative to the config file and that the file exists.",
   "text": "S'il s'agit d'un chemin, assurez-vous qu'il est relatif au fichier de configuration et que le fichier existe.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "S'il s'agit d'un chemin, assurez-vous qu'il est relatif au fichier de configuration et que le fichier existe."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "prefix rename (fine in UI labels)",
   "text": "접두사 이름 변경 (UI 레이블에서는 사용 가능)",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "접두사 이름 변경 (UI 레이블에서는 사용 가능)"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "x18n knows no i18n library and no file format by itself. Plugins add that knowledge. A preset is a group of plugins for one library. x18n detects the presets from the dependencies of the project:",
   "text": "x18n 자체는 i18n 라이브러리나 파일 형식을 알지 못합니다. 이러한 지식은 플러그인이 추가합니다. 프리셋은 하나의 라이브러리를 위한 플러그인 묶음입니다. x18n은 프로젝트의 의존성에서 프리셋을 감지합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n 자체는 i18n 라이브러리나 파일 형식을 알지 못합니다. 이러한 지식은 플러그인이 추가합니다. 프리셋은 하나의 라이브러리를 위한 플러그인 묶음입니다. x18n은 프로젝트의 의존성에서 프리셋을 감지합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

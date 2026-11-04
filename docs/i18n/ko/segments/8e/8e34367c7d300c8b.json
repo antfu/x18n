@@ -3,12 +3,16 @@
   "source": "Two more prompts print the shipped {0}skills{/0}, for agents that have no skills system:",
   "text": "스킬 시스템이 없는 에이전트를 위해, 두 개의 프롬프트가 더 있어 함께 제공되는 {0}스킬{/0}을 출력합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "스킬 시스템이 없는 에이전트를 위해, 두 개의 프롬프트가 더 있어 함께 제공되는 {0}스킬{/0}을 출력합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Fixed locale for every matching file, for patterns without {0} ({1}).",
   "text": "{0}가 없는 패턴({1})에서 일치하는 모든 파일에 적용할 고정 로케일입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}가 없는 패턴({1})에서 일치하는 모든 파일에 적용할 고정 로케일입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

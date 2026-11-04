@@ -3,12 +3,16 @@
   "source": "Starts the UI server for a project on loopback and returns its URL and a one-time auth token.",
   "text": "Démarre le serveur d'interface pour un projet sur loopback et renvoie son URL ainsi qu'un jeton d'authentification à usage unique.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Démarre le serveur d'interface pour un projet sur loopback et renvoie son URL ainsi qu'un jeton d'authentification à usage unique."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

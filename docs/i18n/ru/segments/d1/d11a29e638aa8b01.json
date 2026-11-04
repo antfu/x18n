@@ -3,12 +3,16 @@
   "source": "In HTML templates, the preset reads the {0} pipe and the {1} directive:",
   "text": "В HTML-шаблонах пресет читает pipe {0} и директиву {1}:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В HTML-шаблонах пресет читает pipe {0} и директиву {1}:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

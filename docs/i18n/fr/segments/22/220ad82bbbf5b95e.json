@@ -3,12 +3,16 @@
   "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
   "text": "{0} peut aussi renvoyer {1} et {2}, indexés comme les plages. Un état indique l'avancement d'une traduction : {3}, {4} ou {5} ; la couverture les compte. Un libellé nomme une clé peu lisible, comme un hachage. L'interface et {6} affichent les deux.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} peut aussi renvoyer {1} et {2}, indexés comme les plages. Un état indique l'avancement d'une traduction : {3}, {4} ou {5} ; la couverture les compte. Un libellé nomme une clé peu lisible, comme un hachage. L'interface et {6} affichent les deux."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

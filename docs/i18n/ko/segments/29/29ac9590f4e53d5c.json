@@ -3,12 +3,16 @@
   "source": "Files that x18n cannot parse as locale files are errors. Source files that a scanner cannot parse are warnings. You cannot turn this diagnostic off in {0}. To skip a source file, exclude it with {1}.",
   "text": "x18n이 로케일 파일로 파싱할 수 없는 파일은 오류입니다. 스캐너가 파싱할 수 없는 소스 파일은 경고입니다. 이 진단은 {0}에서 끌 수 없습니다. 소스 파일을 건너뛰려면 {1}로 제외하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n이 로케일 파일로 파싱할 수 없는 파일은 오류입니다. 스캐너가 파싱할 수 없는 소스 파일은 경고입니다. 이 진단은 {0}에서 끌 수 없습니다. 소스 파일을 건너뛰려면 {1}로 제외하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

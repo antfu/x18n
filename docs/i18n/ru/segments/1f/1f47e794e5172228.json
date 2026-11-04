@@ -3,12 +3,16 @@
   "source": "Delete a key (or every key under a parent) in all locales; {0} deletes every unused key.",
   "text": "Удаляет ключ (или все ключи под родительским) во всех локалях; {0} удаляет все неиспользуемые ключи.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Удаляет ключ (или все ключи под родительским) во всех локалях; {0} удаляет все неиспользуемые ключи."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

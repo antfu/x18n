@@ -3,12 +3,16 @@
   "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
   "text": "키를 표시합니다. {0}, {1}, {2}로 필터링합니다. {3}는 로케일별 값을 추가합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키를 표시합니다. {0}, {1}, {2}로 필터링합니다. {3}는 로케일별 값을 추가합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

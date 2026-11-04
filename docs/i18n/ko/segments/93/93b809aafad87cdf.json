@@ -3,12 +3,16 @@
   "source": "short all-caps words of up to five letters ({0}, {1}),",
   "text": "최대 다섯 글자의 짧은 대문자 단어({0}, {1}),",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "최대 다섯 글자의 짧은 대문자 단어({0}, {1}),"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

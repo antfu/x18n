@@ -3,12 +3,16 @@
   "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
   "text": "{0}의 드라이 런입니다. 프로젝트별로 삭제할 미사용 키(메시지마다 위치 포함), 스코프 안의 계산된 키가 참조할 수 있어 유지하는 미사용 키, 그리고 경고를 반환합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}의 드라이 런입니다. 프로젝트별로 삭제할 미사용 키(메시지마다 위치 포함), 스코프 안의 계산된 키가 참조할 수 있어 유지하는 미사용 키, 그리고 경고를 반환합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

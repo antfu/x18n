@@ -3,12 +3,16 @@
   "source": "Only these files (globs relative to the project root). Default: every scanned file.",
   "text": "Только эти файлы (glob-шаблоны относительно корня проекта). По умолчанию: каждый просканированный файл.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Только эти файлы (glob-шаблоны относительно корня проекта). По умолчанию: каждый просканированный файл."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

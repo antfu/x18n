@@ -3,12 +3,16 @@
   "source": "Locale file is not static. Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.",
   "text": "로케일 파일이 정적이지 않습니다. JSON 또는 YAML을 사용하거나, 리소스 패턴에 `execute: true`를 설정하여 실행을 허용하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "로케일 파일이 정적이지 않습니다. JSON 또는 YAML을 사용하거나, 리소스 패턴에 `execute: true`를 설정하여 실행을 허용하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

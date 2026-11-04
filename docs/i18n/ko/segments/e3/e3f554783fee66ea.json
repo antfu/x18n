@@ -3,12 +3,16 @@
   "source": "In XML views, JSON files, JS and TS, the preset reads {0} bindings. In JS and TS, it also reads {1}:",
   "text": "XML 뷰, JSON 파일, JS 및 TS에서 프리셋은 {0} 바인딩을 읽습니다. JS와 TS에서는 {1}도 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "XML 뷰, JSON 파일, JS 및 TS에서 프리셋은 {0} 바인딩을 읽습니다. JS와 TS에서는 {1}도 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

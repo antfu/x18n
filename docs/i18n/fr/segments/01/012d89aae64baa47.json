@@ -3,12 +3,16 @@
   "source": "Unknown preset. Use a preset name listed in the docs, or a preset object.",
   "text": "Preset inconnu. Utilisez un nom de preset indiqué dans la documentation, ou un objet preset.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Preset inconnu. Utilisez un nom de preset indiqué dans la documentation, ou un objet preset."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

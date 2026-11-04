@@ -3,12 +3,16 @@
   "source": "Config file could not be loaded. Fix the syntax error, or run `x18n doctor` for details.",
   "text": "설정 파일을 불러올 수 없습니다. 구문 오류를 수정하거나 `x18n doctor`를 실행하여 자세한 내용을 확인하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "설정 파일을 불러올 수 없습니다. 구문 오류를 수정하거나 `x18n doctor`를 실행하여 자세한 내용을 확인하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

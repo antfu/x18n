@@ -3,12 +3,16 @@
   "source": "Tell the agent to run the command and follow what it prints. For example: \"Run {0} and follow the instructions it prints.\" The text always matches the version of the CLI that runs.",
   "text": "에이전트에게 명령어를 실행하고 출력된 내용을 따르도록 지시하세요. 예: \"{0}을(를) 실행하고 출력되는 지침을 따르세요.\" 이 텍스트는 항상 실행되는 CLI의 버전과 일치합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "에이전트에게 명령어를 실행하고 출력된 내용을 따르도록 지시하세요. 예: \"{0}을(를) 실행하고 출력되는 지침을 따르세요.\" 이 텍스트는 항상 실행되는 CLI의 버전과 일치합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

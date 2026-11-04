@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}@nuxtjs/i18n{/1}, the i18n module for Nuxt.",
   "text": "Пресет {0} поддерживает {1}@nuxtjs/i18n{/1} — модуль i18n для Nuxt.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пресет {0} поддерживает {1}@nuxtjs/i18n{/1} — модуль i18n для Nuxt."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

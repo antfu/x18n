@@ -3,12 +3,16 @@
   "source": "{0} is the language server that the VS Code extension uses. Any editor with an LSP client can run it:",
   "text": "{0} est le serveur de langage utilisé par l'extension VS Code. Tout éditeur doté d'un client LSP peut l'exécuter :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} est le serveur de langage utilisé par l'extension VS Code. Tout éditeur doté d'un client LSP peut l'exécuter :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

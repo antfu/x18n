@@ -3,12 +3,16 @@
   "source": "Give the plugin a unique {0}, and do not use the {1} prefix of the built-in plugins.",
   "text": "Donnez au plugin un {0} unique, et n'utilisez pas le préfixe {1} des plugins intégrés.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Donnez au plugin un {0} unique, et n'utilisez pas le préfixe {1} des plugins intégrés."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

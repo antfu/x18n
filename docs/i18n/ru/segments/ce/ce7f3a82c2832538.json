@@ -3,12 +3,16 @@
   "source": "Other folders, such as {0} and {1}, are not locales. A new locale gets the folder Android expects.",
   "text": "Другие папки, например {0} и {1}, не являются локалями. Для новой локали создаётся папка, которую ожидает Android.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Другие папки, например {0} и {1}, не являются локалями. Для новой локали создаётся папка, которую ожидает Android."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

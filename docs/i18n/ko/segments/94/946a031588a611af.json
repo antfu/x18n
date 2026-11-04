@@ -3,12 +3,16 @@
   "source": "When the project root has an {0}i18next-cli{/0} config ({1}, {2}, {3}, {4} or {5}), the preset reads it. x18n does not run the file: it reads the object of {6} (or {7}) and skips values that are not literals, such as {8} or an {9} function.",
   "text": "프로젝트 루트에 {0}i18next-cli{/0} 설정이 있으면({1}, {2}, {3}, {4} 또는 {5}) 프리셋이 이를 읽습니다. x18n은 파일을 실행하지 않고 {6}(또는 {7})의 객체를 읽으며, {8}이나 {9} 함수처럼 리터럴이 아닌 값은 건너뜁니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프로젝트 루트에 {0}i18next-cli{/0} 설정이 있으면({1}, {2}, {3}, {4} 또는 {5}) 프리셋이 이를 읽습니다. x18n은 파일을 실행하지 않고 {6}(또는 {7})의 객체를 읽으며, {8}이나 {9} 함수처럼 리터럴이 아닌 값은 건너뜁니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The same rules apply to the {0} check. The {1} options of the config set the key style and the strings to ignore. The presets add the replacement code for their library. See {2}Extraction templates{/2}.",
   "text": "{0} 검사에도 같은 규칙이 적용됩니다. 설정의 {1} 옵션으로 키 스타일과 무시할 문자열을 지정합니다. 프리셋은 해당 라이브러리용 대체 코드를 추가합니다. {2}추출 템플릿{/2}을 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 검사에도 같은 규칙이 적용됩니다. 설정의 {1} 옵션으로 키 스타일과 무시할 문자열을 지정합니다. 프리셋은 해당 라이브러리용 대체 코드를 추가합니다. {2}추출 템플릿{/2}을 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

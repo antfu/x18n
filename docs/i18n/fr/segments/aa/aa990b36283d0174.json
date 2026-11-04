@@ -3,12 +3,16 @@
   "source": "A custom hook that wraps {0} is a call spec with a fixed namespace:",
   "text": "Un hook personnalisé qui encapsule {0} est une spécification d'appel avec un espace de noms fixe :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un hook personnalisé qui encapsule {0} est une spécification d'appel avec un espace de noms fixe :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

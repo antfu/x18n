@@ -3,12 +3,16 @@
   "source": "{0} adds rules and notes to the {1}translate prompt{/1}. {2} holds the source and target locales and the locale information of the target, such as its plural categories. The i18next preset uses it to explain plural suffixes.",
   "text": "{0}는 {1}번역 프롬프트{/1}에 규칙과 참고 사항을 추가합니다. {2}에는 원본 로케일과 대상 로케일, 그리고 복수형 범주 같은 대상 로케일의 정보가 들어 있습니다. i18next 프리셋은 이를 사용하여 복수형 접미사를 설명합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}는 {1}번역 프롬프트{/1}에 규칙과 참고 사항을 추가합니다. {2}에는 원본 로케일과 대상 로케일, 그리고 복수형 범주 같은 대상 로케일의 정보가 들어 있습니다. i18next 프리셋은 이를 사용하여 복수형 접미사를 설명합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

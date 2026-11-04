@@ -3,12 +3,16 @@
   "source": "Usage Report: unused keys, and used keys that are not defined, sorted by key. \"x18n: Delete Unused Keys\" (the trash icon of the view) lists what it would delete and asks first. The edit lands in the open editors, so you can undo it before you save.",
   "text": "사용처 보고서: 사용되지 않는 키와, 사용되지만 정의되지 않은 키를 키 기준으로 정렬하여 표시합니다. \"x18n: Delete Unused Keys\"(뷰의 휴지통 아이콘)는 삭제할 항목을 나열하고 먼저 확인을 요청합니다. 편집 내용은 열려 있는 편집기에 반영되므로 저장하기 전에 실행 취소할 수 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "사용처 보고서: 사용되지 않는 키와, 사용되지만 정의되지 않은 키를 키 기준으로 정렬하여 표시합니다. \"x18n: Delete Unused Keys\"(뷰의 휴지통 아이콘)는 삭제할 항목을 나열하고 먼저 확인을 요청합니다. 편집 내용은 열려 있는 편집기에 반영되므로 저장하기 전에 실행 취소할 수 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

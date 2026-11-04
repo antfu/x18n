@@ -3,12 +3,16 @@
   "source": "{0}: regions with a default namespace or key prefix. With {1}, the key prefix applies only to keys that it defines, and other keys resolve without it,",
   "text": "{0} : des régions avec un espace de noms par défaut ou un préfixe de clé. Avec {1}, le préfixe de clé ne s'applique qu'aux clés qu'il définit, et les autres clés sont résolues sans lui,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} : des régions avec un espace de noms par défaut ou un préfixe de clé. Avec {1}, le préfixe de clé ne s'applique qu'aux clés qu'il définit, et les autres clés sont résolues sans lui,"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

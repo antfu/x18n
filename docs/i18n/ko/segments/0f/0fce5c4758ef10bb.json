@@ -3,12 +3,16 @@
   "source": "A monorepo does not need a root config. When x18n finds no config in the current directory or above it, it looks for configs below it, skipping {0}. Each config it finds is a project, or a root config with its own {1}. The projects do not share options.",
   "text": "모노레포에 루트 설정이 꼭 필요한 것은 아닙니다. x18n은 현재 디렉터리나 그 상위 디렉터리에서 설정을 찾지 못하면 하위 디렉터리에서 설정을 찾으며, {0}는 건너뜁니다. 찾은 각 설정은 하나의 프로젝트이거나 자체 {1}를 가진 루트 설정입니다. 프로젝트끼리는 옵션을 공유하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "모노레포에 루트 설정이 꼭 필요한 것은 아닙니다. x18n은 현재 디렉터리나 그 상위 디렉터리에서 설정을 찾지 못하면 하위 디렉터리에서 설정을 찾으며, {0}는 건너뜁니다. 찾은 각 설정은 하나의 프로젝트이거나 자체 {1}를 가진 루트 설정입니다. 프로젝트끼리는 옵션을 공유하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

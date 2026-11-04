@@ -3,12 +3,16 @@
   "source": "Patterns with a {0} placeholder (i18n-ally {1}), or a regex whose first group is the key.",
   "text": "{0} 플레이스홀더를 포함한 패턴(i18n-ally {1}) 또는 첫 번째 그룹이 키인 정규식입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 플레이스홀더를 포함한 패턴(i18n-ally {1}) 또는 첫 번째 그룹이 키인 정규식입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

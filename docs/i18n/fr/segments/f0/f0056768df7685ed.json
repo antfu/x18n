@@ -3,12 +3,16 @@
   "source": "Duplicate capability id. Rename the id, or set `override: true` on the later one.",
   "text": "Identifiant de capacité en double. Renommez l'identifiant ou définissez `override : true` sur le second.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Identifiant de capacité en double. Renommez l'identifiant ou définissez `override : true` sur le second."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

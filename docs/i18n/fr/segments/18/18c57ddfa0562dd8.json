@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}vue-i18n{/1} and petite-vue-i18n.",
   "text": "Le preset {0} prend en charge {1}vue-i18n{/1} et petite-vue-i18n.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset {0} prend en charge {1}vue-i18n{/1} et petite-vue-i18n."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

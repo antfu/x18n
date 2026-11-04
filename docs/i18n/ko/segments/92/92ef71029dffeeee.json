@@ -3,12 +3,16 @@
   "source": "Usages of a key, of a file, or all, paged.",
   "text": "키별, 파일별 또는 전체 사용처를 페이지 단위로 반환합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키별, 파일별 또는 전체 사용처를 페이지 단위로 반환합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "In CI, fetch the full history: a shallow clone (the {0} default) reports nothing. Set {1}. Limit the walk with {2}, or turn history off with {3}. {4} adds stale translations to the prompt, with the source text from when they last changed.",
   "text": "En CI, récupérez l'historique complet : un clone superficiel (le comportement par défaut de {0}) ne signale rien. Définissez {1}. Limitez le parcours avec {2}, ou désactivez l'historique avec {3}. {4} ajoute les traductions obsolètes au prompt, avec le texte source tel qu'il était lors de leur dernière modification.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "En CI, récupérez l'historique complet : un clone superficiel (le comportement par défaut de {0}) ne signale rien. Définissez {1}. Limitez le parcours avec {2}, ou désactivez l'historique avec {3}. {4} ajoute les traductions obsolètes au prompt, avec le texte source tel qu'il était lors de leur dernière modification."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Project: the presets, locale finders, formats and scanners, the problems x18n found, and the config with the origin of each value.",
   "text": "Project: пресеты, средства поиска локалей, форматы и сканеры, проблемы, найденные x18n, и конфигурация с источником каждого значения.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Project: пресеты, средства поиска локалей, форматы и сканеры, проблемы, найденные x18n, и конфигурация с источником каждого значения."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

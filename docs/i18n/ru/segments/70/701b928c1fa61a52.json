@@ -3,12 +3,16 @@
   "source": "In PHP and Blade files, the preset reads {0}, {1}, {2}, {3}, {4} and {5}. Laravel writes the keys of a nested file with a slash. The preset turns each slash into a dot:",
   "text": "В PHP- и Blade-файлах пресет читает {0}, {1}, {2}, {3}, {4} и {5}. Laravel записывает ключи вложенного файла через слэш. Пресет превращает каждый слэш в точку:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В PHP- и Blade-файлах пресет читает {0}, {1}, {2}, {3}, {4} и {5}. Laravel записывает ключи вложенного файла через слэш. Пресет превращает каждый слэш в точку:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

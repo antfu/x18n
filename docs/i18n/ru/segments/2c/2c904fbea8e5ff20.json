@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}. When x18n writes a key, it writes it under the locale key of the file. For example, setting {2} in {3} changes {4} to:",
   "text": "В этом файле есть ключи {0} и {1}. Когда x18n записывает ключ, он записывает его под ключом локали файла. Например, при установке {2} в {3} {4} изменится на:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В этом файле есть ключи {0} и {1}. Когда x18n записывает ключ, он записывает его под ключом локали файла. Например, при установке {2} в {3} {4} изменится на:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

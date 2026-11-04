@@ -3,12 +3,16 @@
   "source": "The port. The default is the first free port from 9999.",
   "text": "Порт. По умолчанию используется первый свободный порт начиная с 9999.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Порт. По умолчанию используется первый свободный порт начиная с 9999."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

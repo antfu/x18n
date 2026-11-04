@@ -3,12 +3,16 @@
   "source": "The default export can also be a function that returns the config, or a promise of it.",
   "text": "Экспорт по умолчанию также может быть функцией, которая возвращает конфигурацию, или промисом с ней.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Экспорт по умолчанию также может быть функцией, которая возвращает конфигурацию, или промисом с ней."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A key that is both a leaf and a parent, or is duplicated across files of one locale.",
   "text": "Une clé qui est à la fois une feuille et un parent, ou qui est dupliquée dans plusieurs fichiers d'une même langue.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une clé qui est à la fois une feuille et un parent, ou qui est dupliquée dans plusieurs fichiers d'une même langue."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

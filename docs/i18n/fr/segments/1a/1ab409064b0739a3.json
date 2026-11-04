@@ -3,12 +3,16 @@
   "source": "The message ends with the error code, for example {0}. The {1}error page{/1} of that code tells you what to do.",
   "text": "Le message se termine par le code d'erreur, par exemple {0}. La {1}page d'erreur{/1} correspondant à ce code vous indique quoi faire.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le message se termine par le code d'erreur, par exemple {0}. La {1}page d'erreur{/1} correspondant à ce code vous indique quoi faire."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Items from {0}, keys and replacements edited as needed; drop items to skip them.",
   "text": "{0}의 항목입니다. 키와 대체안은 필요에 따라 수정하고, 건너뛸 항목은 제거하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}의 항목입니다. 키와 대체안은 필요에 따라 수정하고, 건너뛸 항목은 제거하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

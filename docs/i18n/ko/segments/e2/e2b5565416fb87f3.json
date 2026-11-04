@@ -3,12 +3,16 @@
   "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
   "text": "키를 담고 있는 인수입니다. 인덱스(기본값 {0}) 또는 객체 인수의 프로퍼티를 가리키는 {1}입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키를 담고 있는 인수입니다. 인덱스(기본값 {0}) 또는 객체 인수의 프로퍼티를 가리키는 {1}입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

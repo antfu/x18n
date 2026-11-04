@@ -3,12 +3,16 @@
   "source": "Locale files can be JSON, YAML, JavaScript or TypeScript. x18n reads a static object in a {0} or {1} file, also when {2} wraps it, and edits it in place:",
   "text": "Файлы локалей могут быть в формате JSON, YAML, JavaScript или TypeScript. x18n читает статический объект в файле {0} или {1}, в том числе когда он обёрнут в {2}, и редактирует его на месте:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Файлы локалей могут быть в формате JSON, YAML, JavaScript или TypeScript. x18n читает статический объект в файле {0} или {1}, в том числе когда он обёрнут в {2}, и редактирует его на месте:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

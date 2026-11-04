@@ -3,12 +3,16 @@
   "source": "The {0} settings set the colors and borders of in-place values and missing keys. Empty settings use the colors of your theme.",
   "text": "{0} 설정은 제자리 값과 누락된 키의 색상 및 테두리를 지정합니다. 비어 있는 설정은 테마의 색상을 사용합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 설정은 제자리 값과 누락된 키의 색상 및 테두리를 지정합니다. 비어 있는 설정은 테마의 색상을 사용합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Only these files (globs relative to the project root). Default: every scanned file.",
   "text": "이 파일만 대상으로 합니다(프로젝트 루트 기준 glob). 기본값: 스캔된 모든 파일.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 파일만 대상으로 합니다(프로젝트 루트 기준 glob). 기본값: 스캔된 모든 파일."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

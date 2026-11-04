@@ -3,12 +3,16 @@
   "source": "{0} turns the raw key text of a usage into the canonical key. The first plugin that returns a value wins.",
   "text": "{0} transforme le texte brut de la clé d'une utilisation en clé canonique. Le premier plugin qui retourne une valeur l'emporte.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} transforme le texte brut de la clé d'une utilisation en clé canonique. Le premier plugin qui retourne une valeur l'emporte."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

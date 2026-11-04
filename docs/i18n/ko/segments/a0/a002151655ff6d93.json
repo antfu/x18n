@@ -3,12 +3,16 @@
   "source": "Pass {0} to work on one project. Commands that write files ({1}, {2}, {3}, {4}, {5}, {6}, {7}) and {8} need one project. Without {9}, they stop with {10}X18N0003{/10}.",
   "text": "하나의 프로젝트에서 작업하려면 {0}를 전달하세요. 파일을 쓰는 명령({1}, {2}, {3}, {4}, {5}, {6}, {7})과 {8}는 하나의 프로젝트가 필요합니다. {9} 없이 실행하면 {10}X18N0003{/10}과 함께 중단됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "하나의 프로젝트에서 작업하려면 {0}를 전달하세요. 파일을 쓰는 명령({1}, {2}, {3}, {4}, {5}, {6}, {7})과 {8}는 하나의 프로젝트가 필요합니다. {9} 없이 실행하면 {10}X18N0003{/10}과 함께 중단됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

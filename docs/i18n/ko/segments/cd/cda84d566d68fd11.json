@@ -3,12 +3,16 @@
   "source": "x18n uses locale codes exactly as written. It does not change {0} to {1}. If two codes differ only in spelling, the {2} check reports them.",
   "text": "x18n은 로케일 코드를 작성된 그대로 사용합니다. {0}을(를) {1}(으)로 바꾸지 않습니다. 두 코드가 철자만 다르면 {2} 검사가 이를 보고합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 로케일 코드를 작성된 그대로 사용합니다. {0}을(를) {1}(으)로 바꾸지 않습니다. 두 코드가 철자만 다르면 {2} 검사가 이를 보고합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

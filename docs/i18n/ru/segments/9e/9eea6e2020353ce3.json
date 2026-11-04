@@ -3,12 +3,16 @@
   "source": "Scanners that load their module when a file they scan is first scanned.",
   "text": "Сканеры, которые загружают свой модуль при первом сканировании файла, который они сканируют.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Сканеры, которые загружают свой модуль при первом сканировании файла, который они сканируют."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

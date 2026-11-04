@@ -3,12 +3,16 @@
   "source": "A diagnostic can carry fixes. A fix has a title and a list of edit operations. The editor shows fixes as quick fixes.",
   "text": "Диагностика может содержать исправления. Исправление состоит из заголовка и списка операций правки. Редактор показывает исправления как быстрые исправления.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Диагностика может содержать исправления. Исправление состоит из заголовка и списка операций правки. Редактор показывает исправления как быстрые исправления."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

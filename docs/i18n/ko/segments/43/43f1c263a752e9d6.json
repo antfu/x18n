@@ -3,12 +3,16 @@
   "source": "x18n reads a locale file without running it. The file must hold one static object, as the typesafe-i18n generator writes it:",
   "text": "x18n은 로케일 파일을 실행하지 않고 읽습니다. 파일에는 typesafe-i18n 생성기가 작성하는 것처럼 정적 객체 하나가 있어야 합니다:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 로케일 파일을 실행하지 않고 읽습니다. 파일에는 typesafe-i18n 생성기가 작성하는 것처럼 정적 객체 하나가 있어야 합니다:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

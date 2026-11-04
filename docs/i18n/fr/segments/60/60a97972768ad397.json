@@ -3,12 +3,16 @@
   "source": "A target value equal to the source value is often an untranslated copy. The check skips:",
   "text": "Une valeur cible égale à la valeur source est souvent une copie laissée dans la langue source. La vérification ignore :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une valeur cible égale à la valeur source est souvent une copie laissée dans la langue source. La vérification ignore :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

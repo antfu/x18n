@@ -3,12 +3,16 @@
   "source": "A dynamic usage with a static prefix ({0}pages.$\\{id\\}.title{1}). It makes every key under the prefix \"possibly\" used.",
   "text": "Динамическое использование со статическим префиксом ({0}pages.$\\{id\\}.title{1}). Из-за него каждый ключ под этим префиксом считается «возможно» используемым.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Динамическое использование со статическим префиксом ({0}pages.$\\{id\\}.title{1}). Из-за него каждый ключ под этим префиксом считается «возможно» используемым."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

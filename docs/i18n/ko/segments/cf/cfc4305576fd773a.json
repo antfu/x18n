@@ -3,12 +3,16 @@
   "source": "One reported issue with a code, severity and optional fixes.",
   "text": "코드, 심각도, 선택적 수정 사항을 포함하여 보고된 하나의 문제입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "코드, 심각도, 선택적 수정 사항을 포함하여 보고된 하나의 문제입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "react-intl puts the key in the {0} of a message descriptor:",
   "text": "react-intl은 메시지 디스크립터의 {0}에 키를 넣습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "react-intl은 메시지 디스크립터의 {0}에 키를 넣습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as next-translate does. A key without a namespace is in {2}.",
   "text": "프리셋은 next-translate와 같이 네임스페이스 구분자를 {0}(으)로, 기본 네임스페이스를 {1}(으)로 설정합니다. 네임스페이스가 없는 키는 {2}에 속합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프리셋은 next-translate와 같이 네임스페이스 구분자를 {0}(으)로, 기본 네임스페이스를 {1}(으)로 설정합니다. 네임스페이스가 없는 키는 {2}에 속합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

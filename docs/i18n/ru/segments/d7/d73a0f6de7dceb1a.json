@@ -3,12 +3,16 @@
   "source": "The command prints the TypeScript version of a YAML plugin, written with {0} and {1} and the same built-in functions that load the YAML file. Save the output to a {2} file, and list that file in {3} instead of the YAML file. Then extend it with any part of the plugin API.",
   "text": "Команда выводит TypeScript-версию YAML-плагина, написанную с помощью {0} и {1} и тех же встроенных функций, которые загружают YAML-файл. Сохраните вывод в файл {2} и укажите этот файл в {3} вместо YAML-файла. Затем расширьте его любой частью API плагинов.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Команда выводит TypeScript-версию YAML-плагина, написанную с помощью {0} и {1} и тех же встроенных функций, которые загружают YAML-файл. Сохраните вывод в файл {2} и укажите этот файл в {3} вместо YAML-файла. Затем расширьте его любой частью API плагинов."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

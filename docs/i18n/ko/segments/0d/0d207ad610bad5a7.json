@@ -3,12 +3,16 @@
   "source": "translation (fine for non-source locales in prose), string",
   "text": "translation (본문에서 소스 로케일이 아닌 로케일에는 사용 가능), string",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "translation (본문에서 소스 로케일이 아닌 로케일에는 사용 가능), string"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

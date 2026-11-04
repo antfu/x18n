@@ -3,12 +3,16 @@
   "source": "{0}: one folder per keyset. The folder {1} holds the keyset {2}.",
   "text": "{0}: keyset마다 폴더 하나를 사용합니다. {1} 폴더에 keyset {2}이 들어 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: keyset마다 폴더 하나를 사용합니다. {1} 폴더에 keyset {2}이 들어 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

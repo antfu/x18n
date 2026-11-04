@@ -3,12 +3,16 @@
   "source": "The preset for @solid-primitives/i18n. It reads t calls in Solid components and scripts, and {{name}} placeholders.",
   "text": "@solid-primitives/i18n용 프리셋입니다. Solid 컴포넌트와 스크립트의 t 호출, 그리고 {{name}} 플레이스홀더를 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "@solid-primitives/i18n용 프리셋입니다. Solid 컴포넌트와 스크립트의 t 호출, 그리고 {{name}} 플레이스홀더를 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Providers in a file that names no component, such as a shared list, reach the folder of that file and the folders under it.",
   "text": "Les providers d'un fichier qui ne nomme aucun composant, comme une liste partagée, atteignent le dossier de ce fichier et les dossiers situés en dessous.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Les providers d'un fichier qui ne nomme aucun composant, comme une liste partagée, atteignent le dossier de ce fichier et les dossiers situés en dessous."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

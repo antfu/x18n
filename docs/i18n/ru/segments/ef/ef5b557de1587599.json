@@ -3,12 +3,16 @@
   "source": "{0}CLI and x18n check{/0}: read, add, rename and delete keys from the terminal.",
   "text": "{0}CLI и x18n check{/0}: читайте, добавляйте, переименовывайте и удаляйте ключи из терминала.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}CLI и x18n check{/0}: читайте, добавляйте, переименовывайте и удаляйте ключи из терминала."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

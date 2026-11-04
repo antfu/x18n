@@ -3,12 +3,16 @@
   "source": "Text of the message, as seen in the app, in any locale.",
   "text": "Texte du message, tel qu'il apparaît dans l'application, dans n'importe quelle langue.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Texte du message, tel qu'il apparaît dans l'application, dans n'importe quelle langue."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

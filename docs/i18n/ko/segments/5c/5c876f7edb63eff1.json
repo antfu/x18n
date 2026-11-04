@@ -3,12 +3,16 @@
   "source": "Pick the output format. See {0}Reporters{/0}.",
   "text": "출력 형식을 선택합니다. {0}리포터{/0}를 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "출력 형식을 선택합니다. {0}리포터{/0}를 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

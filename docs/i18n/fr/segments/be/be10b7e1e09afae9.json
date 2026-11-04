@@ -3,12 +3,16 @@
   "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
   "text": "Appelé pour chaque modification de relecture d'un plan, dans l'ordre des opérations. Les écritures qu'il renvoie vont dans le même plan.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Appelé pour chaque modification de relecture d'un plan, dans l'ordre des opérations. Les écritures qu'il renvoie vont dans le même plan."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

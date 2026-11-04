@@ -3,12 +3,16 @@
   "source": "Instructions for translating missing messages into a locale: rules, glossary, style examples and the items with usage context, as markdown. Follow it, then write the results with x18n\\_set\\_messages. It says how many items remain and the cursor for the next batch.",
   "text": "누락된 메시지를 한 로케일로 번역하기 위한 지침을 마크다운으로 제공합니다. 규칙, 용어집, 스타일 예시, 사용처 컨텍스트가 포함된 항목이 들어 있습니다. 이 지침을 따른 다음 x18n\\_set\\_messages로 결과를 기록하세요. 남은 항목 수와 다음 배치를 위한 커서도 알려 줍니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "누락된 메시지를 한 로케일로 번역하기 위한 지침을 마크다운으로 제공합니다. 규칙, 용어집, 스타일 예시, 사용처 컨텍스트가 포함된 항목이 들어 있습니다. 이 지침을 따른 다음 x18n\\_set\\_messages로 결과를 기록하세요. 남은 항목 수와 다음 배치를 위한 커서도 알려 줍니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

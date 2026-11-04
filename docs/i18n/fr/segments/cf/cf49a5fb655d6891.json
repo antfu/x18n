@@ -3,12 +3,16 @@
   "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
   "text": "Supprime toutes les clés inutilisées (les clés que {0} liste avec {1}) dans toutes les langues, éventuellement seulement celles correspondant à {2} ou {3}. Les clés qu'une clé calculée dans le code peut atteindre (un préfixe de littéral de gabarit, ou une clé calculée sous un {4} ou un espace de noms) sont laissées intactes et listées dans {5} ; {6} nomme les clés calculées pouvant atteindre n'importe quelle clé. Le code n'est pas modifié. Sans {7}, elle renvoie le plan : {8} liste chaque clé avec ses langues et ses fichiers. Appelez de nouveau avec {9} pour l'appliquer.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Supprime toutes les clés inutilisées (les clés que {0} liste avec {1}) dans toutes les langues, éventuellement seulement celles correspondant à {2} ou {3}. Les clés qu'une clé calculée dans le code peut atteindre (un préfixe de littéral de gabarit, ou une clé calculée sous un {4} ou un espace de noms) sont laissées intactes et listées dans {5} ; {6} nomme les clés calculées pouvant atteindre n'importe quelle clé. Le code n'est pas modifié. Sans {7}, elle renvoie le plan : {8} liste chaque clé avec ses langues et ses fichiers. Appelez de nouveau avec {9} pour l'appliquer."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

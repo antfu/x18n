@@ -3,12 +3,16 @@
   "source": "The check has the severity {0}, but it runs only when the config turns it on.",
   "text": "이 검사의 심각도는 {0}이지만, 설정에서 켠 경우에만 실행됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 검사의 심각도는 {0}이지만, 설정에서 켠 경우에만 실행됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

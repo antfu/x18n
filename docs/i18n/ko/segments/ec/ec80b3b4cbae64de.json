@@ -3,12 +3,16 @@
   "source": "Check locale files like tsc, read and change keys from the terminal, and pick a reporter for CI.",
   "text": "tsc처럼 로케일 파일을 검사하고, 터미널에서 키를 읽고 변경하며, CI에 맞는 리포터를 선택하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "tsc처럼 로케일 파일을 검사하고, 터미널에서 키를 읽고 변경하며, CI에 맞는 리포터를 선택하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

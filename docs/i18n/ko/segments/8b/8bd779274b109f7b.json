@@ -3,12 +3,16 @@
   "source": "Locales with coverage, and the counts of resources, keys, usages and diagnostics.",
   "text": "커버리지가 포함된 로케일과 리소스, 키, 사용처, 진단의 개수를 표시합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "커버리지가 포함된 로케일과 리소스, 키, 사용처, 진단의 개수를 표시합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

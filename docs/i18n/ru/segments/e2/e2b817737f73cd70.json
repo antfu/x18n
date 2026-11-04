@@ -3,12 +3,16 @@
   "source": "The text of the hard string as written in the file, unchanged. Use it for markup that keeps the source around it.",
   "text": "Текст захардкоженной строки точно так, как он записан в файле, без изменений. Используйте его для разметки, которая сохраняет исходный текст вокруг себя.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Текст захардкоженной строки точно так, как он записан в файле, без изменений. Используйте его для разметки, которая сохраняет исходный текст вокруг себя."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

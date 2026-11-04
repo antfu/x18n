@@ -3,12 +3,16 @@
   "source": "Open the monorepo root in the editor and it shows both projects. Each file belongs to the project with the deepest root that holds it, so hover, completion, diagnostics and the **Open UI** command use the project of the current file.",
   "text": "편집기에서 모노레포 루트를 열면 두 프로젝트가 모두 표시됩니다. 각 파일은 그 파일을 포함하는 가장 깊은 루트의 프로젝트에 속하므로, 호버, 자동 완성, 진단, **Open UI** 명령은 현재 파일의 프로젝트를 사용합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "편집기에서 모노레포 루트를 열면 두 프로젝트가 모두 표시됩니다. 각 파일은 그 파일을 포함하는 가장 깊은 루트의 프로젝트에 속하므로, 호버, 자동 완성, 진단, **Open UI** 명령은 현재 파일의 프로젝트를 사용합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

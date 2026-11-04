@@ -3,12 +3,16 @@
   "source": "A usage is one place in source code that uses a key. In the example, {0} is a usage of {1}. A scanner finds usages. The built-in scanners read JS, TS, JSX, Vue, Svelte and Astro files. For other file types, such as PHP templates, add a regex scanner in {2}.",
   "text": "Использование — это одно место в исходном коде, где используется ключ. В примере {0} — это использование {1}. Использования находит сканер. Встроенные сканеры читают файлы JS, TS, JSX, Vue, Svelte и Astro. Для других типов файлов, например шаблонов PHP, добавьте сканер на регулярных выражениях в {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Использование — это одно место в исходном коде, где используется ключ. В примере {0} — это использование {1}. Использования находит сканер. Встроенные сканеры читают файлы JS, TS, JSX, Vue, Svelte и Astro. Для других типов файлов, например шаблонов PHP, добавьте сканер на регулярных выражениях в {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

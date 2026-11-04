@@ -3,12 +3,16 @@
   "source": "The TS config imports {0} from {1}, so the package must be installed in the project before you write an {2}.",
   "text": "TS 설정 파일은 {1}에서 {0}을(를) 가져오므로 {2}을(를) 작성하기 전에 프로젝트에 패키지를 설치해야 합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "TS 설정 파일은 {1}에서 {0}을(를) 가져오므로 {2}을(를) 작성하기 전에 프로젝트에 패키지를 설치해야 합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

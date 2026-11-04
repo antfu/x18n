@@ -3,12 +3,16 @@
   "source": "locales of the source locale's language ({0} and {1} against {2}),",
   "text": "소스 로케일과 같은 언어의 로케일({2}에 대한 {0} 및 {1}),",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "소스 로케일과 같은 언어의 로케일({2}에 대한 {0} 및 {1}),"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

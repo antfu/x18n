@@ -3,12 +3,16 @@
   "source": "Overview: the counts of keys, resources, usages and locales, the coverage per locale (split into reviewed, translated, to review and outdated when a format reports translation states), the diagnostics per check, the detected presets and the recent changes.",
   "text": "Overview: количество ключей, ресурсов, использований и локалей, покрытие по локалям (с разбивкой на проверенные, переведённые, требующие ревью и устаревшие, если формат сообщает состояния перевода), диагностики по проверкам, обнаруженные пресеты и последние изменения.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Overview: количество ключей, ресурсов, использований и локалей, покрытие по локалям (с разбивкой на проверенные, переведённые, требующие ревью и устаревшие, если формат сообщает состояния перевода), диагностики по проверкам, обнаруженные пресеты и последние изменения."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

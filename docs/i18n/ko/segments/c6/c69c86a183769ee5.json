@@ -3,12 +3,16 @@
   "source": "The author is {0} in the config, else the git {1} and {2}. The CLI also takes {3}.",
   "text": "작성자는 설정의 {0}이고, 없으면 git의 {1}과 {2}입니다. CLI는 {3}도 받습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "작성자는 설정의 {0}이고, 없으면 git의 {1}과 {2}입니다. CLI는 {3}도 받습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

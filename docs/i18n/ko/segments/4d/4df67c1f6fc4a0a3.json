@@ -3,12 +3,16 @@
   "source": "When a plugin does not work as you expect, ask x18n how it understood the project.",
   "text": "플러그인이 기대한 대로 동작하지 않으면 x18n이 프로젝트를 어떻게 이해했는지 확인하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "플러그인이 기대한 대로 동작하지 않으면 x18n이 프로젝트를 어떻게 이해했는지 확인하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

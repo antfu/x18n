@@ -3,12 +3,16 @@
   "source": "The {0}CLI{/0} is for humans, CI and agents. {1} does for i18n what {2} does for types.",
   "text": "{0}CLI{/0} предназначен для людей, CI и агентов. {1} делает для i18n то же, что {2} делает для типов.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}CLI{/0} предназначен для людей, CI и агентов. {1} делает для i18n то же, что {2} делает для типов."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

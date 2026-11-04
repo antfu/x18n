@@ -3,12 +3,16 @@
   "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
   "text": "Extract: захардкоженные строки с предложенным ключом для каждой. Отредактируйте ключи, снимите отметки со строк, которые нужно пропустить, и извлеките остальные.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Extract: захардкоженные строки с предложенным ключом для каждой. Отредактируйте ключи, снимите отметки со строк, которые нужно пропустить, и извлеките остальные."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

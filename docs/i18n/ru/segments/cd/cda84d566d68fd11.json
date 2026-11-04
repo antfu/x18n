@@ -3,12 +3,16 @@
   "source": "x18n uses locale codes exactly as written. It does not change {0} to {1}. If two codes differ only in spelling, the {2} check reports them.",
   "text": "x18n использует коды локалей ровно в том виде, в каком они записаны. Он не заменяет {0} на {1}. Если два кода отличаются только написанием, о них сообщает проверка {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n использует коды локалей ровно в том виде, в каком они записаны. Он не заменяет {0} на {1}. Если два кода отличаются только написанием, о них сообщает проверка {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
   "text": "Что разбивает ключ на путь: {0} — это {1} во вложенном файле. {2} делает ключи буквальными, так что {3} или {4} — это один ключ, а новый ключ — одно свойство (i18next {5}, gettext). Шаблон ресурса может задать собственное значение.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Что разбивает ключ на путь: {0} — это {1} во вложенном файле. {2} делает ключи буквальными, так что {3} или {4} — это один ключ, а новый ключ — одно свойство (i18next {5}, gettext). Шаблон ресурса может задать собственное значение."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

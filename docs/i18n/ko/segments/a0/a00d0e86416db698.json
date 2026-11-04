@@ -3,12 +3,16 @@
   "source": "A capability is one kind of contribution to x18n. A plugin can add any number of them. This page describes each one. The types are at the end of the page.",
   "text": "기능(capability)은 x18n에 기여하는 한 가지 방식입니다. 플러그인은 원하는 만큼 기능을 추가할 수 있습니다. 이 페이지에서는 각 기능을 설명합니다. 타입은 페이지 끝에 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "기능(capability)은 x18n에 기여하는 한 가지 방식입니다. 플러그인은 원하는 만큼 기능을 추가할 수 있습니다. 이 페이지에서는 각 기능을 설명합니다. 타입은 페이지 끝에 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

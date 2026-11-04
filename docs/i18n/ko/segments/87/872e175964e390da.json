@@ -3,12 +3,16 @@
   "source": "The Svelte templates add no imports. Components get the store either from a module ({0}) or from the context ({1}), so x18n assumes {2} is already in scope.",
   "text": "Svelte 템플릿은 import를 추가하지 않습니다. 컴포넌트는 모듈({0}) 또는 컨텍스트({1})에서 스토어를 가져오므로, x18n은 {2}가 이미 스코프에 있다고 가정합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Svelte 템플릿은 import를 추가하지 않습니다. 컴포넌트는 모듈({0}) 또는 컨텍스트({1})에서 스토어를 가져오므로, x18n은 {2}가 이미 스코프에 있다고 가정합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n\\_extract\\_apply.",
   "text": "소스 파일에서 하드코딩된 문자열을 찾아 각각에 대해 키, 메시지, 코드 대체안을 제안합니다. 항목을 검토한 뒤(키 수정, 원하지 않는 항목 제거) x18n\\_extract\\_apply에 전달하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "소스 파일에서 하드코딩된 문자열을 찾아 각각에 대해 키, 메시지, 코드 대체안을 제안합니다. 항목을 검토한 뒤(키 수정, 원하지 않는 항목 제거) x18n\\_extract\\_apply에 전달하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "x18n reads only the {0} in the project root. In a workspace with one {1} per crate, set {2} yourself.",
   "text": "x18n lit uniquement le {0} à la racine du projet. Dans un workspace avec un {1} par crate, définissez {2} vous-même.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n lit uniquement le {0} à la racine du projet. Dans un workspace avec un {1} par crate, définissez {2} vous-même."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

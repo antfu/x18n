@@ -3,12 +3,16 @@
   "source": "An optional locale. A file without it belongs to the source locale.",
   "text": "선택적 로케일입니다. 로케일이 없는 파일은 소스 로케일에 속합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "선택적 로케일입니다. 로케일이 없는 파일은 소스 로케일에 속합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The default output directory is {0}. The report holds the state of the project at build time. Edit controls, prompts and \"Open in editor\" are not there.",
   "text": "Le répertoire de sortie par défaut est {0}. Le rapport contient l'état du projet au moment de la génération. Les contrôles de modification, les prompts et « Open in editor » n'y figurent pas.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le répertoire de sortie par défaut est {0}. Le rapport contient l'état du projet au moment de la génération. Les contrôles de modification, les prompts et « Open in editor » n'y figurent pas."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A fully dynamic usage, such as {0}, has no static part. No check can follow it. The {1} check, off by default, lists such usages. To mark keys as used that only code at runtime builds, add globs to {2}. Or mark them in the code with a comment. {3} before a string marks that string as a key. {4} before an expression, such as an array, marks every string in it:",
   "text": "{0}처럼 완전히 동적인 사용처에는 정적 부분이 없습니다. 어떤 검사도 이를 추적할 수 없습니다. 기본적으로 꺼져 있는 {1} 검사가 이러한 사용처를 나열합니다. 런타임 코드에서만 만들어지는 키를 사용된 것으로 표시하려면 {2}에 glob을 추가하세요. 또는 코드에 주석으로 표시할 수도 있습니다. 문자열 앞의 {3}은 해당 문자열을 키로 표시합니다. 배열 같은 표현식 앞의 {4}은 그 안의 모든 문자열을 표시합니다:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}처럼 완전히 동적인 사용처에는 정적 부분이 없습니다. 어떤 검사도 이를 추적할 수 없습니다. 기본적으로 꺼져 있는 {1} 검사가 이러한 사용처를 나열합니다. 런타임 코드에서만 만들어지는 키를 사용된 것으로 표시하려면 {2}에 glob을 추가하세요. 또는 코드에 주석으로 표시할 수도 있습니다. 문자열 앞의 {3}은 해당 문자열을 키로 표시합니다. 배열 같은 표현식 앞의 {4}은 그 안의 모든 문자열을 표시합니다:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

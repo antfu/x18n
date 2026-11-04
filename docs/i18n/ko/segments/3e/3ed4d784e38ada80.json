@@ -3,12 +3,16 @@
   "source": "{0} adds the translations that the {1} check reports. Each item shows the source text from when the translation last changed. {2} adds the values that checks report in the target locale, such as {3}, {4} and {5}. A check must be on to report: {6} runs the checks of the config. Each item shows the current value and what was reported:",
   "text": "{0}은 {1} 검사가 보고하는 번역을 추가합니다. 각 항목에는 번역이 마지막으로 변경된 시점의 소스 텍스트가 표시됩니다. {2}는 대상 로케일에서 검사가 보고하는 값(예: {3}, {4}, {5})을 추가합니다. 보고하려면 해당 검사가 켜져 있어야 합니다. {6}는 설정에 있는 검사를 실행합니다. 각 항목에는 현재 값과 보고된 내용이 표시됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}은 {1} 검사가 보고하는 번역을 추가합니다. 각 항목에는 번역이 마지막으로 변경된 시점의 소스 텍스트가 표시됩니다. {2}는 대상 로케일에서 검사가 보고하는 값(예: {3}, {4}, {5})을 추가합니다. 보고하려면 해당 검사가 켜져 있어야 합니다. {6}는 설정에 있는 검사를 실행합니다. 각 항목에는 현재 값과 보고된 내용이 표시됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

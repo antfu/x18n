@@ -3,12 +3,16 @@
   "source": "A message with an open \"request change\" review.",
   "text": "\"변경 요청\" 리뷰가 열려 있는 메시지입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "\"변경 요청\" 리뷰가 열려 있는 메시지입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

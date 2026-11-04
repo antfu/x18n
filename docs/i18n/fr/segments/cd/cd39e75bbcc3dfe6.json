@@ -3,12 +3,16 @@
   "source": "How {0} folders name a namespace: {1} makes {2} into {3}, {4} keeps {5}, {6} makes {7} into {8}. Default {9}.",
   "text": "Comment les dossiers {0} nomment un espace de noms : {1} transforme {2} en {3}, {4} conserve {5}, {6} transforme {7} en {8}. Par défaut {9}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Comment les dossiers {0} nomment un espace de noms : {1} transforme {2} en {3}, {4} conserve {5}, {6} transforme {7} en {8}. Par défaut {9}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

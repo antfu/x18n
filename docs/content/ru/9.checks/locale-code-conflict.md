@@ -1,5 +1,5 @@
 ---
-title: locale-code-conflict
+title: Конфликт кодов локалей
 description: Коды локалей, которые отличаются только написанием, например zh_CN и zh-CN.
 ---
 

@@ -3,12 +3,16 @@
   "source": "flutter\\_translate keeps plural forms as nested keys. From version 4, the forms are the Intl plural names {0}, {1}, {2}, {3}, {4} and {5}. Before version 4, they were {6}, {7}, {8} and {9}. The preset adds a derived key {10} for each of these forms, so the {11} check does not report the forms of a used key.",
   "text": "flutter\\_translate conserve les formes plurielles sous forme de clés imbriquées. À partir de la version 4, les formes sont les noms de pluriel Intl {0}, {1}, {2}, {3}, {4} et {5}. Avant la version 4, il s'agissait de {6}, {7}, {8} et {9}. Le preset ajoute une clé dérivée {10} pour chacune de ces formes, de sorte que la vérification {11} ne signale pas les formes d'une clé utilisée.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "flutter\\_translate conserve les formes plurielles sous forme de clés imbriquées. À partir de la version 4, les formes sont les noms de pluriel Intl {0}, {1}, {2}, {3}, {4} et {5}. Avant la version 4, il s'agissait de {6}, {7}, {8} et {9}. Le preset ajoute une clé dérivée {10} pour chacune de ces formes, de sorte que la vérification {11} ne signale pas les formes d'une clé utilisée."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

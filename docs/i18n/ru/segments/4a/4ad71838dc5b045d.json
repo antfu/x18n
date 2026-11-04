@@ -3,12 +3,16 @@
   "source": "Review file could not be read. Fix the file against `schema/reviews.json`, or restore it from git.",
   "text": "Не удалось прочитать файл ревью. Исправьте файл в соответствии с `schema/reviews.json` или восстановите его из git.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Не удалось прочитать файл ревью. Исправьте файл в соответствии с `schema/reviews.json` или восстановите его из git."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

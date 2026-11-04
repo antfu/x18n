@@ -3,12 +3,16 @@
   "source": "{0} lists the usages that x18n found in one file.",
   "text": "{0} liste les utilisations que x18n a trouvées dans un fichier.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} liste les utilisations que x18n a trouvées dans un fichier."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

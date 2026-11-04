@@ -3,12 +3,16 @@
   "source": "{0}: the files per scanner. A regex scanner shows {1} until a spec gives it extensions.",
   "text": "{0}: 스캐너별 파일. 정규식 스캐너는 spec이 확장자를 지정하기 전까지 {1}을(를) 표시합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: 스캐너별 파일. 정규식 스캐너는 spec이 확장자를 지정하기 전까지 {1}을(를) 표시합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

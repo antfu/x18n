@@ -3,12 +3,16 @@
   "source": "Placeholder mismatch. Keep every placeholder of the source value, or pass `--force`.",
   "text": "Несоответствие плейсхолдеров. Сохраните все плейсхолдеры исходного значения или передайте `--force`.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Несоответствие плейсхолдеров. Сохраните все плейсхолдеры исходного значения или передайте `--force`."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

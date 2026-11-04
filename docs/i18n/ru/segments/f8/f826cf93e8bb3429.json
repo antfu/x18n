@@ -3,12 +3,16 @@
   "source": "The value of a message in a related locale is a good start for a translation: {0} when translating to {1}, {2} when translating to {3}. The prompt shows up to two of them under the source value:",
   "text": "Значение сообщения в связанной локали — хорошая отправная точка для перевода: {0} при переводе на {1}, {2} при переводе на {3}. Промпт показывает до двух таких значений под исходным значением:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Значение сообщения в связанной локали — хорошая отправная точка для перевода: {0} при переводе на {1}, {2} при переводе на {3}. Промпт показывает до двух таких значений под исходным значением:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

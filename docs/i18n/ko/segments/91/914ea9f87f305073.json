@@ -3,12 +3,16 @@
   "source": "The default. The path and position, the severity badge with the message and check id, a code frame, then a summary.",
   "text": "기본값입니다. 경로와 위치, 메시지와 검사 id가 포함된 심각도 배지, 코드 프레임, 그리고 요약을 출력합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "기본값입니다. 경로와 위치, 메시지와 검사 id가 포함된 심각도 배지, 코드 프레임, 그리고 요약을 출력합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

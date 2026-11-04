@@ -3,12 +3,16 @@
   "source": "\"x18n: Translate with Agent\" opens the editor's chat in agent mode with the {0}translate prompt{/0} for a locale, or for one key from a hover or the Keys view. The agent translates the messages, writes them with {1} and runs {2}, as the prompt says. x18n itself calls no model. The agent needs the x18n CLI in the project. In an editor without the VS Code chat, the command copies the prompt instead.",
   "text": "\"x18n: Translate with Agent\"는 로케일 하나 또는 호버나 Keys 뷰에서 선택한 키 하나에 대한 {0}번역 프롬프트{/0}와 함께 편집기의 채팅을 에이전트 모드로 엽니다. 에이전트는 프롬프트의 안내대로 메시지를 번역하고, {1}을(를) 사용해 기록한 다음 {2}을(를) 실행합니다. x18n 자체는 어떤 모델도 호출하지 않습니다. 에이전트가 사용하려면 프로젝트에 x18n CLI가 있어야 합니다. VS Code 채팅이 없는 편집기에서는 이 명령이 대신 프롬프트를 복사합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "\"x18n: Translate with Agent\"는 로케일 하나 또는 호버나 Keys 뷰에서 선택한 키 하나에 대한 {0}번역 프롬프트{/0}와 함께 편집기의 채팅을 에이전트 모드로 엽니다. 에이전트는 프롬프트의 안내대로 메시지를 번역하고, {1}을(를) 사용해 기록한 다음 {2}을(를) 실행합니다. x18n 자체는 어떤 모델도 호출하지 않습니다. 에이전트가 사용하려면 프로젝트에 x18n CLI가 있어야 합니다. VS Code 채팅이 없는 편집기에서는 이 명령이 대신 프롬프트를 복사합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A pattern without {0}, such as {1}, holds the source locale. To give its files another locale, set {2}:",
   "text": "{0}가 없는 패턴(예: {1})은 소스 로케일을 나타냅니다. 해당 파일에 다른 로케일을 지정하려면 {2}을(를) 설정하세요:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}가 없는 패턴(예: {1})은 소스 로케일을 나타냅니다. 해당 파일에 다른 로케일을 지정하려면 {2}을(를) 설정하세요:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

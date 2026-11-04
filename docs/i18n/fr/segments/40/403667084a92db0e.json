@@ -3,12 +3,16 @@
   "source": "Regex scanners for files that no AST scanner reads, such as PHP or Ruby templates.",
   "text": "Scanners par expressions régulières pour les fichiers qu'aucun scanner AST ne lit, comme les templates PHP ou Ruby.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Scanners par expressions régulières pour les fichiers qu'aucun scanner AST ne lit, comme les templates PHP ou Ruby."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

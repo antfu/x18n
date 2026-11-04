@@ -3,12 +3,16 @@
   "source": "the {0} keys, the legacy {1} keys, and the {2} keys of the {3}i18n-ally-next{/3} fork, in {4},",
   "text": "les clés {0}, les anciennes clés {1} et les clés {2} du fork {3}i18n-ally-next{/3}, dans {4},",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "les clés {0}, les anciennes clés {1} et les clés {2} du fork {3}i18n-ally-next{/3}, dans {4},"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

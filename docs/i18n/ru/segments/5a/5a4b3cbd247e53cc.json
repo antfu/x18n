@@ -3,12 +3,16 @@
   "source": "This page lists every option of the config file. Read {0}Configuration{/0} first for the file names and how x18n finds them.",
   "text": "На этой странице перечислены все параметры файла конфигурации. Сначала прочитайте {0}«Конфигурация»{/0}: там описаны имена файлов и то, как x18n их находит.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "На этой странице перечислены все параметры файла конфигурации. Сначала прочитайте {0}«Конфигурация»{/0}: там описаны имена файлов и то, как x18n их находит."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

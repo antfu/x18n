@@ -3,12 +3,16 @@
   "source": "Project settings live in one config file. The CLI, the editor and the UI read the same file, so they always agree. Editor settings change only the editor experience. They never override the config.",
   "text": "프로젝트 설정은 하나의 구성 파일에 있습니다. CLI, 에디터, UI가 같은 파일을 읽으므로 항상 일치합니다. 에디터 설정은 에디터 사용 환경만 변경하며, 구성 파일을 덮어쓰지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프로젝트 설정은 하나의 구성 파일에 있습니다. CLI, 에디터, UI가 같은 파일을 읽으므로 항상 일치합니다. 에디터 설정은 에디터 사용 환경만 변경하며, 구성 파일을 덮어쓰지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

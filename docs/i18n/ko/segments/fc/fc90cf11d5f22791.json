@@ -3,12 +3,16 @@
   "source": "Regex whose first group is the namespace of the code after it (i18n-ally {0}).",
   "text": "첫 번째 그룹이 뒤따르는 코드의 네임스페이스가 되는 정규식입니다(i18n-ally {0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "첫 번째 그룹이 뒤따르는 코드의 네임스페이스가 되는 정규식입니다(i18n-ally {0})."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

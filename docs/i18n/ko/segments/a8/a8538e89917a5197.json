@@ -3,12 +3,16 @@
   "source": "Unused keys, and used keys that are not defined, sorted by project and key.",
   "text": "사용되지 않는 키와 정의되지 않았지만 사용된 키이며, 프로젝트와 키 순으로 정렬됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "사용되지 않는 키와 정의되지 않았지만 사용된 키이며, 프로젝트와 키 순으로 정렬됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

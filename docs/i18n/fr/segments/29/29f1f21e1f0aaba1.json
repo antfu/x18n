@@ -3,12 +3,16 @@
   "source": "With {0}, every key is literal: {1}, {2} and {3} are each one key, a new key is one property of the file, and no key is the parent of another. A resource pattern can set its own {4}, for example {5} on {6} while PHP files keep {7}. The {8}, {9}, {10} and {11} presets set literal keys where their libraries use them.",
   "text": "Avec {0}, chaque clé est littérale : {1}, {2} et {3} sont chacune une clé distincte, une nouvelle clé est une propriété du fichier, et aucune clé n'est le parent d'une autre. Un motif de ressource peut définir son propre {4}, par exemple {5} sur {6} tandis que les fichiers PHP conservent {7}. Les presets {8}, {9}, {10} et {11} définissent des clés littérales là où leurs bibliothèques les utilisent.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Avec {0}, chaque clé est littérale : {1}, {2} et {3} sont chacune une clé distincte, une nouvelle clé est une propriété du fichier, et aucune clé n'est le parent d'une autre. Un motif de ressource peut définir son propre {4}, par exemple {5} sur {6} tandis que les fichiers PHP conservent {7}. Les presets {8}, {9}, {10} et {11} définissent des clés littérales là où leurs bibliothèques les utilisent."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

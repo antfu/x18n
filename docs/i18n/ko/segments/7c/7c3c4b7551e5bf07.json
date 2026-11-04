@@ -3,12 +3,16 @@
   "source": "A capability with the id of an earlier one stops the load with {0}X18N1002{/0}. Set {1} on the later one to replace the earlier one.",
   "text": "앞선 capability와 같은 id를 가진 capability가 있으면 {0}X18N1002{/0} 오류와 함께 로드가 중단됩니다. 나중에 오는 capability에 {1}를 설정하면 앞선 capability를 대체합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "앞선 capability와 같은 id를 가진 capability가 있으면 {0}X18N1002{/0} 오류와 함께 로드가 중단됩니다. 나중에 오는 capability에 {1}를 설정하면 앞선 capability를 대체합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

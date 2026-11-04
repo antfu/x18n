@@ -3,12 +3,16 @@
   "source": "A review command ran, but the project cannot write reviews. The message says why:",
   "text": "Была запущена команда ревью, но проект не может записывать ревью. Причина указана в сообщении:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Была запущена команда ревью, но проект не может записывать ревью. Причина указана в сообщении:"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

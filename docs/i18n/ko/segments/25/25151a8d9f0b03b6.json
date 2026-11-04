@@ -3,12 +3,16 @@
   "source": "Write x18n.config.ts, or a YAML or JSON config, and learn how x18n finds and merges it.",
   "text": "x18n.config.ts 또는 YAML이나 JSON 구성 파일을 작성하는 방법과, x18n이 이를 찾아 병합하는 방식을 알아봅니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n.config.ts 또는 YAML이나 JSON 구성 파일을 작성하는 방법과, x18n이 이를 찾아 병합하는 방식을 알아봅니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

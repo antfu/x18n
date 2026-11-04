@@ -3,12 +3,16 @@
   "source": "{0} is a regular expression. Every match is replaced.",
   "text": "{0}은(는) 정규식입니다. 일치하는 모든 부분이 치환됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}은(는) 정규식입니다. 일치하는 모든 부분이 치환됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

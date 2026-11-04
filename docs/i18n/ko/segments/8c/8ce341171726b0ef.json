@@ -3,12 +3,16 @@
   "source": "Reuse a key when the same text exists as a source value. Default true.",
   "text": "동일한 텍스트가 소스 값으로 이미 존재하면 해당 키를 재사용합니다. 기본값은 true입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "동일한 텍스트가 소스 값으로 이미 존재하면 해당 키를 재사용합니다. 기본값은 true입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

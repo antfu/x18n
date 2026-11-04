@@ -3,12 +3,16 @@
   "source": "x18n reads the locale files of any project, finds where each key is used, and reports missing, unused and broken keys. A CLI, a language server, a VS Code extension, a UI and MCP tools share one engine.",
   "text": "x18n читает файлы локалей любого проекта, находит, где используется каждый ключ, и сообщает об отсутствующих, неиспользуемых и сломанных ключах. CLI, языковой сервер, расширение для VS Code, UI и инструменты MCP работают на одном движке.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n читает файлы локалей любого проекта, находит, где используется каждый ключ, и сообщает об отсутствующих, неиспользуемых и сломанных ключах. CLI, языковой сервер, расширение для VS Code, UI и инструменты MCP работают на одном движке."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

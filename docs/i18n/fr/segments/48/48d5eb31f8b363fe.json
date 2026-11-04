@@ -3,12 +3,16 @@
   "source": "The preset for @lit/localize. It reads msg() with str and html, computes the same ids as lit-localize, and reads XLIFF per target locale.",
   "text": "Le preset pour @lit/localize. Il lit msg() avec str et html, calcule les mêmes ids que lit-localize et lit le XLIFF pour chaque langue cible.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset pour @lit/localize. Il lit msg() avec str et html, calcule les mêmes ids que lit-localize et lit le XLIFF pour chaque langue cible."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

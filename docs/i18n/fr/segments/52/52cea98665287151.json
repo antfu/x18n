@@ -3,12 +3,16 @@
   "source": "Source file could not be scanned. Fix the syntax error, or exclude the file with `usage.exclude`.",
   "text": "Le fichier source n'a pas pu être analysé. Corrigez l'erreur de syntaxe ou excluez le fichier avec `usage.exclude`.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le fichier source n'a pas pu être analysé. Corrigez l'erreur de syntaxe ou excluez le fichier avec `usage.exclude`."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

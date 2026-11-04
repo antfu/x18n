@@ -3,12 +3,16 @@
   "source": "The gettext system of cargo-i18n (the {0} macro and {1} files) is not supported.",
   "text": "Система gettext в cargo-i18n (макрос {0} и файлы {1}) не поддерживается.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Система gettext в cargo-i18n (макрос {0} и файлы {1}) не поддерживается."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

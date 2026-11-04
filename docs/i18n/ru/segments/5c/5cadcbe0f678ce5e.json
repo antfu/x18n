@@ -3,12 +3,16 @@
   "source": "more translate calls. Wildcards such as {0} are skipped.",
   "text": "дополнительные вызовы перевода. Шаблоны подстановки вроде {0} пропускаются.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "дополнительные вызовы перевода. Шаблоны подстановки вроде {0} пропускаются."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

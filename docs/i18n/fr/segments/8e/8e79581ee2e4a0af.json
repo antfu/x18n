@@ -3,12 +3,16 @@
   "source": "A severity is {0}, {1}, {2}, {3} or {4}. {5} (or {6}) turns every warning into an error. {7} removes keys from every check.",
   "text": "Une sévérité est {0}, {1}, {2}, {3} ou {4}. {5} (ou {6}) transforme chaque avertissement en erreur. {7} retire des clés de toutes les vérifications.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une sévérité est {0}, {1}, {2}, {3} ou {4}. {5} (ou {6}) transforme chaque avertissement en erreur. {7} retire des clés de toutes les vérifications."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

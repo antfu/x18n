@@ -3,12 +3,16 @@
   "source": "The default output directory is {0}. The report holds the state of the project at build time. Edit controls, prompts and \"Open in editor\" are not there.",
   "text": "기본 출력 디렉터리는 {0}입니다. 리포트에는 빌드 시점의 프로젝트 상태가 담겨 있습니다. 편집 컨트롤, 프롬프트, \"Open in editor\"는 포함되지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "기본 출력 디렉터리는 {0}입니다. 리포트에는 빌드 시점의 프로젝트 상태가 담겨 있습니다. 편집 컨트롤, 프롬프트, \"Open in editor\"는 포함되지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

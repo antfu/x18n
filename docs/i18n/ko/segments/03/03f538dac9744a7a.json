@@ -3,12 +3,16 @@
   "source": "{0}Concepts{/0}: the names that x18n uses, such as resource, key and usage.",
   "text": "{0}개념{/0}: 리소스, 키, 사용처 등 x18n에서 사용하는 용어를 설명합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}개념{/0}: 리소스, 키, 사용처 등 x18n에서 사용하는 용어를 설명합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

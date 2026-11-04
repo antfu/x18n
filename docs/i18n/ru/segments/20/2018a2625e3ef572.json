@@ -3,12 +3,16 @@
   "source": "The {0} check reports each message whose state is \"changes requested\". Its quick fix resolves the request.",
   "text": "Проверка {0} сообщает о каждом сообщении в состоянии «changes requested». Её быстрое исправление закрывает запрос.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Проверка {0} сообщает о каждом сообщении в состоянии «changes requested». Её быстрое исправление закрывает запрос."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

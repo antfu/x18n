@@ -3,12 +3,16 @@
   "source": "Nuxt I18n Micro loads the global translations and the translations of the current page. A page key overrides a global key with the same name.",
   "text": "Nuxt I18n Micro는 전역 번역과 현재 페이지의 번역을 로드합니다. 이름이 같으면 페이지 키가 전역 키를 덮어씁니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nuxt I18n Micro는 전역 번역과 현재 페이지의 번역을 로드합니다. 이름이 같으면 페이지 키가 전역 키를 덮어씁니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

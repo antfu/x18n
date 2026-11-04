@@ -3,12 +3,16 @@
   "source": "{0} find resources. {1} returns candidates: a path, a locale, a namespace, and optionally a format id, a block inside the file, and a read-only flag. {2} returns the path of a new file for a locale and namespace, for edits that create files. {3} is the existing resource that the new file would otherwise copy, usually the source file of the key. Return a path only if {4} would find that file again.",
   "text": "{0} trouvent les ressources. {1} renvoie des candidats : un chemin, une langue, un espace de noms et, éventuellement, un id de format, un bloc dans le fichier et un indicateur de lecture seule. {2} renvoie le chemin d'un nouveau fichier pour une langue et un espace de noms, pour les modifications qui créent des fichiers. {3} est la ressource existante que le nouveau fichier copierait sinon, généralement le fichier source de la clé. Ne renvoyez un chemin que si {4} retrouverait ce fichier.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} trouvent les ressources. {1} renvoie des candidats : un chemin, une langue, un espace de noms et, éventuellement, un id de format, un bloc dans le fichier et un indicateur de lecture seule. {2} renvoie le chemin d'un nouveau fichier pour une langue et un espace de noms, pour les modifications qui créent des fichiers. {3} est la ressource existante que le nouveau fichier copierait sinon, généralement le fichier source de la clé. Ne renvoyez un chemin que si {4} retrouverait ce fichier."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

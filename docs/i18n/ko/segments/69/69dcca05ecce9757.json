@@ -3,12 +3,16 @@
   "source": "The preset does not read {0} and other data annotations, or strongly typed classes with other names than {1}.",
   "text": "이 프리셋은 {0} 및 기타 데이터 주석이나 {1} 이외의 이름을 가진 강타입 클래스는 읽지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 프리셋은 {0} 및 기타 데이터 주석이나 {1} 이외의 이름을 가진 강타입 클래스는 읽지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

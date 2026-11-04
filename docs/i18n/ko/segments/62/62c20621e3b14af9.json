@@ -3,12 +3,16 @@
   "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4} and {5}. {6} returns {7}, {8}, {9} and {10}.",
   "text": "다음 이름은 번역 호출로 간주됩니다: {0}, {1}, {2}, {3}, {4}, {5}. {6}은(는) {7}, {8}, {9}, {10}을(를) 반환합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "다음 이름은 번역 호출로 간주됩니다: {0}, {1}, {2}, {3}, {4}, {5}. {6}은(는) {7}, {8}, {9}, {10}을(를) 반환합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

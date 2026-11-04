@@ -3,12 +3,16 @@
   "source": "{0} holds the errors. In JSON mode, errors appear only here, so stdout is always valid JSON.",
   "text": "{0}에는 오류가 담깁니다. JSON 모드에서는 오류가 여기에만 나타나므로 stdout은 항상 유효한 JSON입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}에는 오류가 담깁니다. JSON 모드에서는 오류가 여기에만 나타나므로 stdout은 항상 유효한 JSON입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

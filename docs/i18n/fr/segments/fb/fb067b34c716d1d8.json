@@ -3,12 +3,16 @@
   "source": "The search covers every locale and ignores case. It is fuzzy by default, and values that contain the query rank first. {0} keeps only those values. Each match has the key, the matched locale and value, and the usages with file, line and column. The {1}MCP tool{/1} {2} does the same.",
   "text": "La recherche couvre toutes les langues et ignore la casse. Elle est approximative par défaut, et les valeurs qui contiennent la requête sont classées en premier. {0} ne garde que ces valeurs. Chaque résultat contient la clé, la langue et la valeur correspondantes, ainsi que les utilisations avec fichier, ligne et colonne. L'{1}outil MCP{/1} {2} fait la même chose.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "La recherche couvre toutes les langues et ignore la casse. Elle est approximative par défaut, et les valeurs qui contiennent la requête sont classées en premier. {0} ne garde que ces valeurs. Chaque résultat contient la clé, la langue et la valeur correspondantes, ainsi que les utilisations avec fichier, ligne et colonne. L'{1}outil MCP{/1} {2} fait la même chose."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

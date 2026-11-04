@@ -3,12 +3,16 @@
   "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
   "text": "추출: 하드코딩된 문자열과 각각에 제안된 키를 보여 줍니다. 키를 편집하고, 건너뛸 문자열은 선택을 해제한 다음 나머지를 추출하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "추출: 하드코딩된 문자열과 각각에 제안된 키를 보여 줍니다. 키를 편집하고, 건너뛸 문자열은 선택을 해제한 다음 나머지를 추출하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

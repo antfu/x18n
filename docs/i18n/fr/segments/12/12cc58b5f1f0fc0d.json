@@ -3,12 +3,16 @@
   "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
   "text": "Un motif sans {0}, tel que {1}, contient la langue source. Pour lui donner une autre langue, définissez {2} sur la ressource.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un motif sans {0}, tel que {1}, contient la langue source. Pour lui donner une autre langue, définissez {2} sur la ressource."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

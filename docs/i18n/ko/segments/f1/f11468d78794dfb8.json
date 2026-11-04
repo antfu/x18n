@@ -3,12 +3,16 @@
   "source": "Pass a function to {0} to take options. The function returns the plugin:",
   "text": "옵션을 받으려면 {0}에 함수를 전달하세요. 이 함수는 플러그인을 반환합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "옵션을 받으려면 {0}에 함수를 전달하세요. 이 함수는 플러그인을 반환합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

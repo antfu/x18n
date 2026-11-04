@@ -3,12 +3,16 @@
   "source": "Deletes every unused key in every locale, except keys that computed keys in code may reach. {0} and the glob limit it.",
   "text": "코드의 계산된 키가 도달할 수 있는 키를 제외하고, 모든 로케일에서 사용되지 않는 키를 모두 삭제합니다. {0}와 glob으로 범위를 제한합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "코드의 계산된 키가 도달할 수 있는 키를 제외하고, 모든 로케일에서 사용되지 않는 키를 모두 삭제합니다. {0}와 glob으로 범위를 제한합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

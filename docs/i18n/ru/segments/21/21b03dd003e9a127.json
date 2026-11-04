@@ -3,12 +3,16 @@
   "source": "{0} also serves MCP over HTTP at {1}, on the same port as the UI. An agent and a human then work on the same project at the same time, and each sees the changes of the other.",
   "text": "{0} также предоставляет MCP по HTTP по адресу {1} на том же порту, что и UI. Тогда агент и человек работают над одним проектом одновременно, и каждый видит изменения другого.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} также предоставляет MCP по HTTP по адресу {1} на том же порту, что и UI. Тогда агент и человек работают над одним проектом одновременно, и каждый видит изменения другого."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

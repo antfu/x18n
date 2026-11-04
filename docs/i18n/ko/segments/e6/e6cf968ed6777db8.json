@@ -3,12 +3,16 @@
   "source": "x18n builds the final config of a project in this order. A later layer wins:",
   "text": "x18n은 다음 순서로 프로젝트의 최종 설정을 만듭니다. 나중 레이어가 우선합니다:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 다음 순서로 프로젝트의 최종 설정을 만듭니다. 나중 레이어가 우선합니다:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

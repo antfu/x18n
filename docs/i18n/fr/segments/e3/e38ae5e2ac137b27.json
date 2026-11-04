@@ -3,12 +3,16 @@
   "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
   "text": "Modèles de remplacement, essayés avant les modèles des presets. Voir {0}Modèles d'extraction{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Modèles de remplacement, essayés avant les modèles des presets. Voir {0}Modèles d'extraction{/0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

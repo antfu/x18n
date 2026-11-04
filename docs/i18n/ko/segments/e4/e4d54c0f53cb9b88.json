@@ -3,12 +3,16 @@
   "source": "Review not found. List review ids with `x18n review list` (agents: the `x18n_reviews` tool).",
   "text": "리뷰를 찾을 수 없습니다. `x18n review list`로 리뷰 id를 확인하세요(에이전트: `x18n_reviews` 도구).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리뷰를 찾을 수 없습니다. `x18n review list`로 리뷰 id를 확인하세요(에이전트: `x18n_reviews` 도구)."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

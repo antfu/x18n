@@ -3,12 +3,16 @@
   "source": "Editor decoration that hides a key and shows its display-locale value.",
   "text": "키를 숨기고 표시 로케일의 값을 보여 주는 에디터 장식입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키를 숨기고 표시 로케일의 값을 보여 주는 에디터 장식입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

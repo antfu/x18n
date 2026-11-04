@@ -3,12 +3,16 @@
   "source": "Keys (globs) that count as used, for example keys built at runtime.",
   "text": "Clés (globs) considérées comme utilisées, par exemple les clés construites à l'exécution.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Clés (globs) considérées comme utilisées, par exemple les clés construites à l'exécution."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

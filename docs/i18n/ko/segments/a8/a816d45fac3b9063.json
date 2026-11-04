@@ -3,12 +3,16 @@
   "source": "Deletes every unused key that no computed key may reach.",
   "text": "계산된 키로 접근할 수 없는 미사용 키를 모두 삭제합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "계산된 키로 접근할 수 없는 미사용 키를 모두 삭제합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

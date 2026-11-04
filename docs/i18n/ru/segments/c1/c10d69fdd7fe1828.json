@@ -3,12 +3,16 @@
   "source": "The client passes these fields in {0}. Each one is optional.",
   "text": "Клиент передаёт эти поля в {0}. Все они необязательные.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Клиент передаёт эти поля в {0}. Все они необязательные."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

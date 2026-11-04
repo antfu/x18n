@@ -3,12 +3,16 @@
   "source": "Always. {0} or {1} writes {2} or {3} instead.",
   "text": "항상 씁니다. {0} 또는 {1}를 사용하면 대신 {2} 또는 {3}을(를) 씁니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "항상 씁니다. {0} 또는 {1}를 사용하면 대신 {2} 또는 {3}을(를) 씁니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

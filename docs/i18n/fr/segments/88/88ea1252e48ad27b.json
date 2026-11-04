@@ -3,12 +3,16 @@
   "source": "{0} describe how placeholders look in messages. {1} returns the placeholders of a value. {2} returns syntax errors, for the {3} check. {4} is the text that prompts show. {5} means that the placeholder names another key, which then counts as used.",
   "text": "{0} décrivent l'apparence des espaces réservés dans les messages. {1} retourne les espaces réservés d'une valeur. {2} retourne les erreurs de syntaxe, pour la vérification {3}. {4} est le texte affiché par les invites. {5} signifie que l'espace réservé désigne une autre clé, qui est alors considérée comme utilisée.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} décrivent l'apparence des espaces réservés dans les messages. {1} retourne les espaces réservés d'une valeur. {2} retourne les erreurs de syntaxe, pour la vérification {3}. {4} est le texte affiché par les invites. {5} signifie que l'espace réservé désigne une autre clé, qui est alors considérée comme utilisée."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

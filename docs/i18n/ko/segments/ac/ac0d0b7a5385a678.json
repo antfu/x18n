@@ -3,12 +3,16 @@
   "source": "Invalid YAML plugin. Validate the file against `schema/plugin.json`.",
   "text": "잘못된 YAML 플러그인입니다. `schema/plugin.json`을 기준으로 파일의 유효성을 검사하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "잘못된 YAML 플러그인입니다. `schema/plugin.json`을 기준으로 파일의 유효성을 검사하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

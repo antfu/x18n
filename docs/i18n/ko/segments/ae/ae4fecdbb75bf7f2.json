@@ -3,12 +3,16 @@
   "source": "{0} find resources. {1} returns candidates: a path, a locale, a namespace, and optionally a format id, a block inside the file, and a read-only flag. {2} returns the path of a new file for a locale and namespace, for edits that create files. {3} is the existing resource that the new file would otherwise copy, usually the source file of the key. Return a path only if {4} would find that file again.",
   "text": "{0}은(는) 리소스를 찾습니다. {1}은(는) 경로, 로케일, 네임스페이스, 그리고 선택적으로 포맷 id, 파일 내부의 블록, 읽기 전용 플래그로 이루어진 후보를 반환합니다. {2}은(는) 파일을 생성하는 편집을 위해 로케일과 네임스페이스에 대한 새 파일의 경로를 반환합니다. {3}은(는) 그렇지 않으면 새 파일이 복사할 기존 리소스이며, 보통 키의 소스 파일입니다. {4}이(가) 해당 파일을 다시 찾을 수 있는 경우에만 경로를 반환하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}은(는) 리소스를 찾습니다. {1}은(는) 경로, 로케일, 네임스페이스, 그리고 선택적으로 포맷 id, 파일 내부의 블록, 읽기 전용 플래그로 이루어진 후보를 반환합니다. {2}은(는) 파일을 생성하는 편집을 위해 로케일과 네임스페이스에 대한 새 파일의 경로를 반환합니다. {3}은(는) 그렇지 않으면 새 파일이 복사할 기존 리소스이며, 보통 키의 소스 파일입니다. {4}이(가) 해당 파일을 다시 찾을 수 있는 경우에만 경로를 반환하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

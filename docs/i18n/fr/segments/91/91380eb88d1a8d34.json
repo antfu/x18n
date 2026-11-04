@@ -3,12 +3,16 @@
   "source": "i18n-ally {0}: {1} in one locale adds the key with an empty value to the others.",
   "text": "i18n-ally {0} : {1} dans une langue ajoute la clé avec une valeur vide aux autres.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "i18n-ally {0} : {1} dans une langue ajoute la clé avec une valeur vide aux autres."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Messages: the key, the source value, its placeholders, its description, its values in related locales, and the code around up to two usages. The code and the description help with short words such as \"Open\" or \"Save\", whose meaning depends on where they appear.",
   "text": "Messages : la clé, la valeur source, ses espaces réservés, sa description, ses valeurs dans les langues apparentées, et le code autour de deux utilisations au maximum. Le code et la description aident pour les mots courts comme « Open » ou « Save », dont le sens dépend de l'endroit où ils apparaissent.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Messages : la clé, la valeur source, ses espaces réservés, sa description, ses valeurs dans les langues apparentées, et le code autour de deux utilisations au maximum. Le code et la description aident pour les mots courts comme « Open » ou « Save », dont le sens dépend de l'endroit où ils apparaissent."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

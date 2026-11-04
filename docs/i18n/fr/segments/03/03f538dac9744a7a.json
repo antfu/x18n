@@ -3,12 +3,16 @@
   "source": "{0}Concepts{/0}: the names that x18n uses, such as resource, key and usage.",
   "text": "{0}Concepts{/0} : les noms utilisés par x18n, comme ressource, clé et utilisation.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}Concepts{/0} : les noms utilisés par x18n, comme ressource, clé et utilisation."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

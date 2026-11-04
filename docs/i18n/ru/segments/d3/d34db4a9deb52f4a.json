@@ -3,12 +3,16 @@
   "source": "The new message goes in the source file with Angular's placeholders, the same as {0} writes it. Elements that hold an element with {1} keep it, and their other text goes in an {2}, since Angular rejects an {3} element inside another one.",
   "text": "Новое сообщение попадает в исходный файл с плейсхолдерами Angular, так же как его записывает {0}. Элементы, содержащие элемент с {1}, сохраняют его, а остальной их текст помещается в {2}, поскольку Angular отклоняет элемент {3} внутри другого такого элемента.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Новое сообщение попадает в исходный файл с плейсхолдерами Angular, так же как его записывает {0}. Элементы, содержащие элемент с {1}, сохраняют его, а остальной их текст помещается в {2}, поскольку Angular отклоняет элемент {3} внутри другого такого элемента."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

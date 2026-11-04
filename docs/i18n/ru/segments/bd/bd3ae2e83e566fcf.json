@@ -3,12 +3,16 @@
   "source": "Do not edit locale files directly. Use {0}, {1}, {2} and {3}. They keep the format, the key style, the order and the placeholders of each file.",
   "text": "Не редактируйте файлы локалей напрямую. Используйте {0}, {1}, {2} и {3}. Они сохраняют формат, стиль ключей, порядок и плейсхолдеры каждого файла.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Не редактируйте файлы локалей напрямую. Используйте {0}, {1}, {2} и {3}. Они сохраняют формат, стиль ключей, порядок и плейсхолдеры каждого файла."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

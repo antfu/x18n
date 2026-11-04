@@ -3,12 +3,16 @@
   "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}.",
   "text": "Эти имена считаются вызовами перевода: {0}, {1}, {2}, {3}, {4}, {5}, {6} и {7}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Эти имена считаются вызовами перевода: {0}, {1}, {2}, {3}, {4}, {5}, {6} и {7}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

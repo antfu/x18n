@@ -3,12 +3,16 @@
   "source": "Keys and locales are sorted, so edits from two branches merge well.",
   "text": "키와 로케일은 정렬되어 있으므로 두 브랜치에서 수정한 내용이 잘 병합됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키와 로케일은 정렬되어 있으므로 두 브랜치에서 수정한 내용이 잘 병합됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

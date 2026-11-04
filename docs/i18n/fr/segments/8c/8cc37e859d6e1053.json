@@ -3,12 +3,16 @@
   "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
   "text": "Le message comme corps d'une chaîne de modèle, chaque argument s'écrivant {0}, comme {1} l'écrit.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le message comme corps d'une chaîne de modèle, chaque argument s'écrivant {0}, comme {1} l'écrit."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

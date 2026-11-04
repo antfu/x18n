@@ -3,12 +3,16 @@
   "source": "Project name in a monorepo. Default: the directory name.",
   "text": "모노레포에서의 프로젝트 이름입니다. 기본값: 디렉터리 이름.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "모노레포에서의 프로젝트 이름입니다. 기본값: 디렉터리 이름."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Skip the files that {0} files ignore. Default {1}. Set {2} to scan a checkout that git ignores, such as a clone of the sources in a translations repository.",
   "text": "{0} 파일이 무시하는 파일을 건너뜁니다. 기본값은 {1}입니다. git이 무시하는 체크아웃을 스캔하려면 {2}로 설정하세요. 예를 들어 번역 저장소에 있는 소스 복제본이 해당합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 파일이 무시하는 파일을 건너뜁니다. 기본값은 {1}입니다. git이 무시하는 체크아웃을 스캔하려면 {2}로 설정하세요. 예를 들어 번역 저장소에 있는 소스 복제본이 해당합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

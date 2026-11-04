@@ -3,12 +3,16 @@
   "source": "A locale is a locale code, exactly as it is written in paths and files: {0}, {1}, {2}. x18n never changes the spelling of a code.",
   "text": "Локаль — это код локали в том виде, в котором он записан в путях и файлах: {0}, {1}, {2}. x18n никогда не меняет написание кода.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Локаль — это код локали в том виде, в котором он записан в путях и файлах: {0}, {1}, {2}. x18n никогда не меняет написание кода."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

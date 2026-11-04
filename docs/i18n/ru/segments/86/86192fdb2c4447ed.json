@@ -3,12 +3,16 @@
   "source": "{0} puts the {1}x18n UI{/1} in the devtools of your app, so you do not need a separate {2} server. The panel is the same UI with the same pages. It reads and writes the files of the project, and it updates when the files change.",
   "text": "{0} размещает {1}интерфейс x18n{/1} в devtools вашего приложения, поэтому отдельный сервер {2} не нужен. Панель — это тот же интерфейс с теми же страницами. Она читает и записывает файлы проекта и обновляется при их изменении.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} размещает {1}интерфейс x18n{/1} в devtools вашего приложения, поэтому отдельный сервер {2} не нужен. Панель — это тот же интерфейс с теми же страницами. Она читает и записывает файлы проекта и обновляется при их изменении."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

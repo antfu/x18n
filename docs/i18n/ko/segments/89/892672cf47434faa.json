@@ -3,12 +3,16 @@
   "source": "Nuxt DevTools 4 runs on Vite DevTools, so the same plugin works. Add it to the Vite config of Nuxt:",
   "text": "Nuxt DevTools 4는 Vite DevTools 위에서 실행되므로 동일한 플러그인이 작동합니다. Nuxt의 Vite 설정에 추가하세요:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Nuxt DevTools 4는 Vite DevTools 위에서 실행되므로 동일한 플러그인이 작동합니다. Nuxt의 Vite 설정에 추가하세요:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

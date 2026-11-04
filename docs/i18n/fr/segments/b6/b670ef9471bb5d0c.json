@@ -3,12 +3,16 @@
   "source": "Type names that make a parameter a translate function, such as {0}.",
   "text": "Noms de types qui font d'un paramètre une fonction de traduction, comme {0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Noms de types qui font d'un paramètre une fonction de traduction, comme {0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

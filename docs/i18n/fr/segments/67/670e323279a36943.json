@@ -3,12 +3,16 @@
   "source": "Invalid config. Check the reported field against the config schema (`x18n schema config`).",
   "text": "Configuration invalide. Comparez le champ signalé au schéma de configuration (`x18n schema config`).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Configuration invalide. Comparez le champ signalé au schéma de configuration (`x18n schema config`)."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

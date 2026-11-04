@@ -3,12 +3,16 @@
   "source": "The first {0} belongs to the first {1}. Here, the markdown goes to the summary file and the annotations go to stdout. The same markdown also suits a pull request comment.",
   "text": "Первый {0} относится к первому {1}. Здесь markdown попадает в файл сводки, а аннотации выводятся в stdout. Тот же markdown подходит и для комментария к pull request.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Первый {0} относится к первому {1}. Здесь markdown попадает в файл сводки, а аннотации выводятся в stdout. Тот же markdown подходит и для комментария к pull request."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

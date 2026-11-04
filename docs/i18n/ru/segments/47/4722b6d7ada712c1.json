@@ -3,12 +3,16 @@
   "source": "{0}: the raw key text, its range, and whether the key is static, a prefix, or unknown,",
   "text": "{0}: исходный текст ключа, его диапазон и признак того, что ключ статический, является префиксом или неизвестен,",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}: исходный текст ключа, его диапазон и признак того, что ключ статический, является префиксом или неизвестен,"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

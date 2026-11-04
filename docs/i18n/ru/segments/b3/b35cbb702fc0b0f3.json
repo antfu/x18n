@@ -3,12 +3,16 @@
   "source": "Skip the files that {0} files ignore. Default {1}. Set {2} to scan a checkout that git ignores, such as a clone of the sources in a translations repository.",
   "text": "Пропускать файлы, которые игнорируют файлы {0}. По умолчанию {1}. Укажите {2}, чтобы сканировать checkout, который игнорирует git, например клон исходников в репозитории переводов.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пропускать файлы, которые игнорируют файлы {0}. По умолчанию {1}. Укажите {2}, чтобы сканировать checkout, который игнорирует git, например клон исходников в репозитории переводов."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

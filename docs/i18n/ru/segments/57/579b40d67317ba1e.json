@@ -3,12 +3,16 @@
   "source": "A scanner failed to parse a source file, so x18n did not find the usages in it.",
   "text": "Сканеру не удалось разобрать исходный файл, поэтому x18n не нашёл в нём использования ключей.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Сканеру не удалось разобрать исходный файл, поэтому x18n не нашёл в нём использования ключей."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

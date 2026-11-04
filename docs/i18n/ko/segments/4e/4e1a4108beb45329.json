@@ -3,12 +3,16 @@
   "source": "x18n picks the first template that matches the kind ({0}) and the file ({1}). It tries the templates of {2} first, then those of the presets, then these defaults:",
   "text": "x18n은 종류({0})와 파일({1})에 일치하는 첫 번째 템플릿을 선택합니다. 먼저 {2}의 템플릿을 시도하고, 그다음 프리셋의 템플릿, 마지막으로 다음 기본값을 시도합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 종류({0})와 파일({1})에 일치하는 첫 번째 템플릿을 선택합니다. 먼저 {2}의 템플릿을 시도하고, 그다음 프리셋의 템플릿, 마지막으로 다음 기본값을 시도합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

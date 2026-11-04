@@ -3,12 +3,16 @@
   "source": "To change the severity of a check for every run, use {0} in the config. See {1}Checks{/1}.",
   "text": "Pour modifier la sévérité d'une vérification à chaque exécution, utilisez {0} dans la configuration. Voir {1}Vérifications{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Pour modifier la sévérité d'une vérification à chaque exécution, utilisez {0} dans la configuration. Voir {1}Vérifications{/1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

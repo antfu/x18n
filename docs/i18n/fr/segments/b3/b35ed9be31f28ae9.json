@@ -3,12 +3,16 @@
   "source": "With the default separator {0}, the namespace is the first part of the key path. The key {1} in {2} is {3}. vue-i18n works this way.",
   "text": "Avec le séparateur par défaut {0}, l'espace de noms est la première partie du chemin de la clé. La clé {1} dans {2} est {3}. vue-i18n fonctionne ainsi.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Avec le séparateur par défaut {0}, l'espace de noms est la première partie du chemin de la clé. La clé {1} dans {2} est {3}. vue-i18n fonctionne ainsi."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

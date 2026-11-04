@@ -3,12 +3,16 @@
   "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
   "text": "키 뒤에 전달되는 객체에는 보간 매개변수가 들어 있으며, {0} 검사는 이를 원본 메시지의 플레이스홀더와 비교합니다. 매개변수 함수({1})와 {2} 마커는 검사하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키 뒤에 전달되는 객체에는 보간 매개변수가 들어 있으며, {0} 검사는 이를 원본 메시지의 플레이스홀더와 비교합니다. 매개변수 함수({1})와 {2} 마커는 검사하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

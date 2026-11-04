@@ -3,12 +3,16 @@
   "source": "{0} produce diagnostics. A check has an {1}, a {2} and a {3} generator. {4} gives the keys, messages, usages, coverage, unused keys, placeholders, hard strings and file texts. It also gives {5}, the options from {6} in the config. See the {7}example{/7}.",
   "text": "{0}은(는) 진단을 생성합니다. 검사에는 {1}, {2}, {3} 생성기가 있습니다. {4}은(는) 키, 메시지, 사용처, 커버리지, 사용되지 않는 키, 플레이스홀더, 하드코딩된 문자열, 파일 텍스트를 제공합니다. 또한 설정의 {6}에 있는 옵션인 {5}도 제공합니다. {7}예제{/7}를 참조하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}은(는) 진단을 생성합니다. 검사에는 {1}, {2}, {3} 생성기가 있습니다. {4}은(는) 키, 메시지, 사용처, 커버리지, 사용되지 않는 키, 플레이스홀더, 하드코딩된 문자열, 파일 텍스트를 제공합니다. 또한 설정의 {6}에 있는 옵션인 {5}도 제공합니다. {7}예제{/7}를 참조하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

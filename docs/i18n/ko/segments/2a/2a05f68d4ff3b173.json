@@ -3,12 +3,16 @@
   "source": "The preset applies when the project depends on {0}. x18n still tests the presets after it, such as {1} and {2}.",
   "text": "이 프리셋은 프로젝트가 {0}에 의존할 때 적용됩니다. x18n은 이후의 프리셋도 계속 검사하며, 예를 들어 {1}와 {2}가 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 프리셋은 프로젝트가 {0}에 의존할 때 적용됩니다. x18n은 이후의 프리셋도 계속 검사하며, 예를 들어 {1}와 {2}가 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

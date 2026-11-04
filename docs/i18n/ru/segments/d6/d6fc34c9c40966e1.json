@@ -3,12 +3,16 @@
   "source": "See the item fields of {0}. For a library that x18n does not support, a {1}YAML plugin{/1} can hold the calls, placeholders and templates in one file.",
   "text": "См. поля элементов в {0}. Для библиотеки, которую x18n не поддерживает, {1}YAML-плагин{/1} может хранить вызовы, плейсхолдеры и шаблоны в одном файле.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "См. поля элементов в {0}. Для библиотеки, которую x18n не поддерживает, {1}YAML-плагин{/1} может хранить вызовы, плейсхолдеры и шаблоны в одном файле."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

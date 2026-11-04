@@ -3,12 +3,16 @@
   "source": "The message ends with the error code, for example {0}. The {1}error page{/1} of that code tells you what to do.",
   "text": "메시지는 오류 코드로 끝납니다(예: {0}). 해당 코드의 {1}오류 페이지{/1}에서 어떻게 해야 하는지 확인하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "메시지는 오류 코드로 끝납니다(예: {0}). 해당 코드의 {1}오류 페이지{/1}에서 어떻게 해야 하는지 확인하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

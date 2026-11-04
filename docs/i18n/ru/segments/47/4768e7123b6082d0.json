@@ -3,12 +3,16 @@
   "source": "XLIFF 1.2 and 2.0. Each unit id is a key. A file with a target language or a {0} reads its targets, otherwise its sources. Placeholders read as {1}. The {2} and {3} notes describe a unit, and the {4} of a target (1.2) or segment (2.0) is its translation state.",
   "text": "XLIFF 1.2 и 2.0. Идентификатор каждого unit — это ключ. Файл с целевым языком или {0} читает свои targets, иначе — sources. Плейсхолдеры читаются как {1}. Примечания {2} и {3} описывают unit, а {4} у target (1.2) или segment (2.0) — это состояние его перевода.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "XLIFF 1.2 и 2.0. Идентификатор каждого unit — это ключ. Файл с целевым языком или {0} читает свои targets, иначе — sources. Плейсхолдеры читаются как {1}. Примечания {2} и {3} описывают unit, а {4} у target (1.2) или segment (2.0) — это состояние его перевода."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

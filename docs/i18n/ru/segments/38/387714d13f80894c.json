@@ -3,12 +3,16 @@
   "source": "Run {0} and make sure that x18n found your locale files and presets.",
   "text": "Запустите {0} и убедитесь, что x18n нашел ваши файлы локалей и пресеты.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Запустите {0} и убедитесь, что x18n нашел ваши файлы локалей и пресеты."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

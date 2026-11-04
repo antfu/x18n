@@ -3,12 +3,16 @@
   "source": "Each part of the plugin API - config hooks, formats, locale finders, scanners, extractors, checks, reporters, placeholders and more.",
   "text": "플러그인 API의 각 부분: 설정 훅, 포맷, 로케일 파인더, 스캐너, 추출기, 검사, 리포터, 플레이스홀더 등.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "플러그인 API의 각 부분: 설정 훅, 포맷, 로케일 파인더, 스캐너, 추출기, 검사, 리포터, 플레이스홀더 등."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

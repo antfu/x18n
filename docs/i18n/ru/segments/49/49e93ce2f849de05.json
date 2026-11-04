@@ -3,12 +3,16 @@
   "source": "Apply extraction items from x18n\\_extract\\_plan: adds the messages to the source locale and rewrites the code. Fails when a file changed since the plan was made; plan again then.",
   "text": "Примените элементы извлечения из x18n\\_extract\\_plan: добавляет сообщения в исходную локаль и переписывает код. Завершается ошибкой, если файл изменился после составления плана; тогда составьте план заново.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Примените элементы извлечения из x18n\\_extract\\_plan: добавляет сообщения в исходную локаль и переписывает код. Завершается ошибкой, если файл изменился после составления плана; тогда составьте план заново."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

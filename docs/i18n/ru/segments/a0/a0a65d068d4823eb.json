@@ -3,12 +3,16 @@
   "source": "Fix the problem that the message names. A merge conflict in the file is a common cause.",
   "text": "Исправьте проблему, на которую указывает сообщение. Частая причина — конфликт слияния в файле.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Исправьте проблему, на которую указывает сообщение. Частая причина — конфликт слияния в файле."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

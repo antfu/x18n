@@ -3,12 +3,16 @@
   "source": "{0} (stdio) and {1} (HTTP at {2}) serve these tools. {3}MCP{/3} explains how to connect an agent.",
   "text": "{0}(stdio)과 {1}(HTTP, {2})은 이러한 도구를 제공합니다. 에이전트를 연결하는 방법은 {3}MCP{/3}에서 설명합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}(stdio)과 {1}(HTTP, {2})은 이러한 도구를 제공합니다. 에이전트를 연결하는 방법은 {3}MCP{/3}에서 설명합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

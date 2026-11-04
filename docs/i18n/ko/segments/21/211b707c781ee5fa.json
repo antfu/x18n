@@ -3,12 +3,16 @@
   "source": "Delete every unused key (matching the glob), except keys dynamic usages may reach",
   "text": "사용되지 않는 모든 키를 삭제 (glob과 일치하는 키만 해당). 단, 동적 사용처가 참조할 수 있는 키는 제외",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "사용되지 않는 모든 키를 삭제 (glob과 일치하는 키만 해당). 단, 동적 사용처가 참조할 수 있는 키는 제외"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

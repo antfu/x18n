@@ -3,12 +3,16 @@
   "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
   "text": "Вызываемая функция — фабрика, которая возвращает функцию перевода, например {0}, возвращающая {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Вызываемая функция — фабрика, которая возвращает функцию перевода, например {0}, возвращающая {1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

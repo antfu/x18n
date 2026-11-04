@@ -3,12 +3,16 @@
   "source": "Use {0} as the project root. x18n does not look in parent directories.",
   "text": "Utilise {0} comme racine du projet. x18n ne cherche pas dans les répertoires parents.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Utilise {0} comme racine du projet. x18n ne cherche pas dans les répertoires parents."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A parameter or prop with the type {0} is a translate function. Its first type argument is the namespace: {1}, or the first of {2}. Props work when typed inline ({3}) or with an interface or type of the same file.",
   "text": "Un paramètre ou une prop de type {0} est une fonction de traduction. Son premier argument de type est l'espace de noms : {1}, ou le premier de {2}. Les props fonctionnent lorsqu'elles sont typées en ligne ({3}) ou avec une interface ou un type du même fichier.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Un paramètre ou une prop de type {0} est une fonction de traduction. Son premier argument de type est l'espace de noms : {1}, ou le premier de {2}. Les props fonctionnent lorsqu'elles sont typées en ligne ({3}) ou avec une interface ou un type du même fichier."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

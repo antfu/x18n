@@ -3,12 +3,16 @@
   "source": "A resource is a file, or a block in a file, that holds the messages of one locale and one namespace. The {0} option tells x18n where the resources are. Each entry has a path pattern, relative to the project root:",
   "text": "리소스는 하나의 로케일과 하나의 네임스페이스의 메시지를 담는 파일 또는 파일 안의 블록입니다. {0} 옵션은 리소스가 있는 위치를 x18n에 알려 줍니다. 각 항목에는 프로젝트 루트를 기준으로 한 경로 패턴이 있습니다:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리소스는 하나의 로케일과 하나의 네임스페이스의 메시지를 담는 파일 또는 파일 안의 블록입니다. {0} 옵션은 리소스가 있는 위치를 x18n에 알려 줍니다. 각 항목에는 프로젝트 루트를 기준으로 한 경로 패턴이 있습니다:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

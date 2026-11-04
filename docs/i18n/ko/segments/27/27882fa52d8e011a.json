@@ -3,12 +3,16 @@
   "source": "Project, locale, resource, namespace, key, message, usage, prefix usage and scope, with examples.",
   "text": "프로젝트, 로케일, 리소스, 네임스페이스, 키, 메시지, 사용처, 접두사 사용처, 스코프를 예시와 함께 설명합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프로젝트, 로케일, 리소스, 네임스페이스, 키, 메시지, 사용처, 접두사 사용처, 스코프를 예시와 함께 설명합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

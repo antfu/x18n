@@ -3,12 +3,16 @@
   "source": "The provider of a module reaches the components the file names, and a route's reaches the components named or lazy-loaded under it, through {0} too, and their children.",
   "text": "Провайдер модуля действует на компоненты, названные в файле, а провайдер маршрута — на компоненты, названные в нём или загружаемые лениво под ним, в том числе через {0}, и на их дочерние компоненты.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Провайдер модуля действует на компоненты, названные в файле, а провайдер маршрута — на компоненты, названные в нём или загружаемые лениво под ним, в том числе через {0}, и на их дочерние компоненты."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Reviews: messages with open {0}review{/0} comments, with their state. Click one to open it in its locale file.",
   "text": "Ревью: сообщения с открытыми комментариями {0}ревью{/0} и их состоянием. Щёлкните сообщение, чтобы открыть его в файле локали.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ревью: сообщения с открытыми комментариями {0}ревью{/0} и их состоянием. Щёлкните сообщение, чтобы открыть его в файле локали."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

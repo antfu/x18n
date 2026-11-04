@@ -3,12 +3,16 @@
   "source": "The code, such as {0}, or the JS error name of an error without a code.",
   "text": "Le code, tel que {0}, ou le nom de l'erreur JS pour une erreur sans code.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le code, tel que {0}, ou le nom de l'erreur JS pour une erreur sans code."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

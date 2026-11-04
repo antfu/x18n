@@ -3,12 +3,16 @@
   "source": "A plugin can add rules and notes with the {0} hook. See {1}Capabilities{/1}.",
   "text": "Плагин может добавлять правила и заметки с помощью хука {0}. См. {1}Возможности{/1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Плагин может добавлять правила и заметки с помощью хука {0}. См. {1}Возможности{/1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

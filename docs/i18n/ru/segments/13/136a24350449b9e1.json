@@ -3,12 +3,16 @@
   "source": "A rename target already exists in at least one locale. x18n does not merge two keys.",
   "text": "Целевой ключ переименования уже существует как минимум в одной локали. x18n не объединяет два ключа.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Целевой ключ переименования уже существует как минимум в одной локали. x18n не объединяет два ключа."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

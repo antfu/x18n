@@ -3,12 +3,16 @@
   "source": "The file name is the key prefix, as in AdonisJS: {0} in {1} is {2}, and {3} in {4} is {5}.",
   "text": "Le nom du fichier sert de préfixe de clé, comme dans AdonisJS : {0} dans {1} devient {2}, et {3} dans {4} devient {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le nom du fichier sert de préfixe de clé, comme dans AdonisJS : {0} dans {1} devient {2}, et {3} dans {4} devient {5}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

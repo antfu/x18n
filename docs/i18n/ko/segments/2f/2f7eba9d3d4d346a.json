@@ -3,12 +3,16 @@
   "source": "The source file is the one {0} writes: {1}, {2}, {3} or {4} in the {5} of the {6} target, after its {7} and {8} options.",
   "text": "소스 파일은 {0}이 작성하는 파일로, {6} 타깃의 {5}에 있는 {1}, {2}, {3} 또는 {4}이며, {7} 및 {8} 옵션이 적용된 후의 경로입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "소스 파일은 {0}이 작성하는 파일로, {6} 타깃의 {5}에 있는 {1}, {2}, {3} 또는 {4}이며, {7} 및 {8} 옵션이 적용된 후의 경로입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

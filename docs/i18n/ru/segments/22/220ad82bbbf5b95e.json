@@ -3,12 +3,16 @@
   "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
   "text": "{0} также может возвращать {1} и {2} с теми же ключами, что и у диапазонов. Состояние показывает, как далеко продвинулся перевод: {3}, {4} или {5}; покрытие считает их. Метка называет ключ, который плохо читается, например хеш. Интерфейс и {6} показывают и то и другое.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} также может возвращать {1} и {2} с теми же ключами, что и у диапазонов. Состояние показывает, как далеко продвинулся перевод: {3}, {4} или {5}; покрытие считает их. Метка называет ключ, который плохо читается, например хеш. Интерфейс и {6} показывают и то и другое."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

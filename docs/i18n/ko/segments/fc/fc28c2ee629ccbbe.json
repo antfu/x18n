@@ -3,12 +3,16 @@
   "source": "Only unused keys matching this glob: {0} inside a segment, {1} across segments.",
   "text": "이 glob에 일치하는 사용되지 않는 키만 대상으로 합니다. {0}은 세그먼트 내부, {1}은 여러 세그먼트에 걸쳐 일치합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 glob에 일치하는 사용되지 않는 키만 대상으로 합니다. {0}은 세그먼트 내부, {1}은 여러 세그먼트에 걸쳐 일치합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "A dynamic usage with a static prefix ({0}pages.$\\{id\\}.title{1}). It makes every key under the prefix \"possibly\" used.",
   "text": "Utilisation dynamique avec un préfixe statique ({0}pages.$\\{id\\}.title{1}). Elle rend « possiblement » utilisées toutes les clés situées sous ce préfixe.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Utilisation dynamique avec un préfixe statique ({0}pages.$\\{id\\}.title{1}). Elle rend « possiblement » utilisées toutes les clés situées sous ce préfixe."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

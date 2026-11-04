@@ -3,12 +3,16 @@
   "source": "A template can add {0}: lines that x18n adds once to the file when they are missing, such as {1}.",
   "text": "Шаблон может добавлять {0}: строки, которые x18n один раз добавляет в файл, если их там нет, например {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Шаблон может добавлять {0}: строки, которые x18n один раз добавляет в файл, если их там нет, например {1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

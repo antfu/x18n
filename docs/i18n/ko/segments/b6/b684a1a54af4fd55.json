@@ -3,12 +3,16 @@
   "source": "Defaults: namespace rules, derived keys and resource patterns.",
   "text": "기본값: 네임스페이스 규칙, 파생 키, 리소스 패턴입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "기본값: 네임스페이스 규칙, 파생 키, 리소스 패턴입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

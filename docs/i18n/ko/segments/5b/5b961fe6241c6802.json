@@ -3,12 +3,16 @@
   "source": "In Astro components, such as with astro-i18next, the preset reads the calls in the {0} frontmatter, in {1} and in {2} template expressions.",
   "text": "astro-i18next처럼 Astro 컴포넌트에서는 프리셋이 {0} 프론트매터, {1}, {2} 템플릿 표현식의 호출을 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "astro-i18next처럼 Astro 컴포넌트에서는 프리셋이 {0} 프론트매터, {1}, {2} 템플릿 표현식의 호출을 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

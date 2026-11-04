@@ -3,12 +3,16 @@
   "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
   "text": "В файле {0} — это ключ, {1} — это один ключ на каждое количество ({2}), а {3} — это один ключ на каждый элемент ({4}). Удаление элемента до конца массива опустошает его, поэтому последующие элементы сохраняют свой индекс. {5} не является сообщением, и x18n не записывает в него данные. Комментарий непосредственно над записью — это её описание для переводчиков. x18n читает и записывает escape-последовательности Android ({6}, {7}, {8}, {9} в начале), сохраняет встроенную разметку, например {10}, и сохраняет CDATA.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "В файле {0} — это ключ, {1} — это один ключ на каждое количество ({2}), а {3} — это один ключ на каждый элемент ({4}). Удаление элемента до конца массива опустошает его, поэтому последующие элементы сохраняют свой индекс. {5} не является сообщением, и x18n не записывает в него данные. Комментарий непосредственно над записью — это её описание для переводчиков. x18n читает и записывает escape-последовательности Android ({6}, {7}, {8}, {9} в начале), сохраняет встроенную разметку, например {10}, и сохраняет CDATA."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

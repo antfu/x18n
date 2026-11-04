@@ -3,12 +3,16 @@
   "source": "To pick the presets yourself, list them. x18n then applies exactly the listed presets and detects none:",
   "text": "Pour choisir vous-même les presets, listez-les. x18n applique alors exactement les presets listés et n'en détecte aucun :",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Pour choisir vous-même les presets, listez-les. x18n applique alors exactement les presets listés et n'en détecte aucun :"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

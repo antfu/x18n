@@ -3,12 +3,16 @@
   "source": "A preset is a group of plugins for one i18n library. It tells x18n which calls are translate calls, how namespaces work, which placeholder syntax the messages use, and which code replaces a hard string.",
   "text": "프리셋은 하나의 i18n 라이브러리를 위한 플러그인 그룹입니다. 프리셋은 어떤 호출이 번역 호출인지, 네임스페이스가 어떻게 동작하는지, 메시지가 어떤 플레이스홀더 구문을 사용하는지, 어떤 코드가 하드코딩된 문자열을 대체하는지를 x18n에 알려 줍니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "프리셋은 하나의 i18n 라이브러리를 위한 플러그인 그룹입니다. 프리셋은 어떤 호출이 번역 호출인지, 네임스페이스가 어떻게 동작하는지, 메시지가 어떤 플레이스홀더 구문을 사용하는지, 어떤 코드가 하드코딩된 문자열을 대체하는지를 x18n에 알려 줍니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

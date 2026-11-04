@@ -3,12 +3,16 @@
   "source": "With {0}, a namespace can sit in folders. The preset sets {1} to {2}, so {3} is the namespace {4}, as in {5}.",
   "text": "Avec {0}, un espace de noms peut se trouver dans des dossiers. Le preset définit {1} sur {2}, donc {3} est l'espace de noms {4}, comme dans {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Avec {0}, un espace de noms peut se trouver dans des dossiers. Le preset définit {1} sur {2}, donc {3} est l'espace de noms {4}, comme dans {5}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

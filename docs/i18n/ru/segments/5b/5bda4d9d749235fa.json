@@ -3,12 +3,16 @@
   "source": "The {0} CLI is for humans, CI and agents. Every command prints human output by default, and the {1}JSON contract{/1} with {2}. The {3}CLI reference{/3} lists every command and option.",
   "text": "CLI {0} предназначен для людей, CI и агентов. По умолчанию каждая команда выводит результат в удобном для человека виде, а {1}JSON-контракт{/1} включается с {2}. В {3}справочнике по CLI{/3} перечислены все команды и параметры.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "CLI {0} предназначен для людей, CI и агентов. По умолчанию каждая команда выводит результат в удобном для человека виде, а {1}JSON-контракт{/1} включается с {2}. В {3}справочнике по CLI{/3} перечислены все команды и параметры."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "more translate calls. Wildcards such as {0} are skipped.",
   "text": "추가 번역 호출. {0} 같은 와일드카드는 건너뜁니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "추가 번역 호출. {0} 같은 와일드카드는 건너뜁니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

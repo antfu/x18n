@@ -3,12 +3,16 @@
   "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
   "text": "키를 경로로 나누는 기준입니다. {0}는 중첩 파일에서 {1}입니다. {2}는 키를 리터럴로 처리하므로 {3} 또는 {4}가 하나의 키이며, 새 키는 하나의 프로퍼티가 됩니다(i18next {5}, gettext). 리소스 패턴에서 별도로 지정할 수 있습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "키를 경로로 나누는 기준입니다. {0}는 중첩 파일에서 {1}입니다. {2}는 키를 리터럴로 처리하므로 {3} 또는 {4}가 하나의 키이며, 새 키는 하나의 프로퍼티가 됩니다(i18next {5}, gettext). 리소스 패턴에서 별도로 지정할 수 있습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

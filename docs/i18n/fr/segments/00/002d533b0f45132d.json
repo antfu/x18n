@@ -3,12 +3,16 @@
   "source": "Records that the translations of a key are up to date with the source value. {0} limits it.",
   "text": "Enregistre que les traductions d'une clé sont à jour par rapport à la valeur source. {0} permet de la limiter.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Enregistre que les traductions d'une clé sont à jour par rapport à la valeur source. {0} permet de la limiter."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

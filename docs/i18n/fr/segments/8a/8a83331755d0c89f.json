@@ -3,12 +3,16 @@
   "source": "The {0}UI{/0} shows every key across locales in a table. It runs as a local server, or as a static report.",
   "text": "L'{0}UI{/0} affiche chaque clé pour toutes les langues dans un tableau. Elle s'exécute comme serveur local ou comme rapport statique.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "L'{0}UI{/0} affiche chaque clé pour toutes les langues dans un tableau. Elle s'exécute comme serveur local ou comme rapport statique."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

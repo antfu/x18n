@@ -3,12 +3,16 @@
   "source": "{0} returns the descriptions that the tree of the file holds beside the messages, keyed by {1} of their path in the file. The chrome-extension preset reads {2} next to {3} this way.",
   "text": "{0} возвращает описания, которые дерево файла хранит рядом с сообщениями, с ключами в виде {1} их пути в файле. Так пресет chrome-extension читает {2} рядом с {3}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} возвращает описания, которые дерево файла хранит рядом с сообщениями, с ключами в виде {1} их пути в файле. Так пресет chrome-extension читает {2} рядом с {3}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

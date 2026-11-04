@@ -3,12 +3,16 @@
   "source": "CSS color of keys without a value. Empty uses the warning color of the theme.",
   "text": "값이 없는 키의 CSS 색상입니다. 비워 두면 테마의 경고 색상을 사용합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "값이 없는 키의 CSS 색상입니다. 비워 두면 테마의 경고 색상을 사용합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

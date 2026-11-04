@@ -3,12 +3,16 @@
   "source": "The preset for Lingui. It reads .po catalogs, the t macro, Trans, msg, defineMessage and useLingui.",
   "text": "Пресет для Lingui. Он читает каталоги .po, макрос t, Trans, msg, defineMessage и useLingui.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Пресет для Lingui. Он читает каталоги .po, макрос t, Trans, msg, defineMessage и useLingui."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

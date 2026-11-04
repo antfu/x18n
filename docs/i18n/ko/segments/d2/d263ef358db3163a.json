@@ -3,12 +3,16 @@
   "source": "Namespaces searched in order when a key written without a namespace is not in its own (i18next {0}).",
   "text": "네임스페이스 없이 작성된 키가 자신의 네임스페이스에 없을 때 순서대로 검색하는 네임스페이스입니다(i18next {0}).",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "네임스페이스 없이 작성된 키가 자신의 네임스페이스에 없을 때 순서대로 검색하는 네임스페이스입니다(i18next {0})."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

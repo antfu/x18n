@@ -3,12 +3,16 @@
   "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
   "text": "Шаблоны замены, которые применяются раньше шаблонов пресетов. См. {0}Шаблоны извлечения{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Шаблоны замены, которые применяются раньше шаблонов пресетов. См. {0}Шаблоны извлечения{/0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

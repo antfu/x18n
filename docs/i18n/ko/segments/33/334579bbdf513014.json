@@ -3,12 +3,16 @@
   "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
   "text": "리뷰 스레드입니다. 키와 로케일별로 메시지에 대한 코멘트, 승인, 변경 요청, 제안된 값을 각 스레드의 상태와 함께 보여줍니다. 해결되지 않은 스레드만 보려면 {0}을(를) 전달하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리뷰 스레드입니다. 키와 로케일별로 메시지에 대한 코멘트, 승인, 변경 요청, 제안된 값을 각 스레드의 상태와 함께 보여줍니다. 해결되지 않은 스레드만 보려면 {0}을(를) 전달하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

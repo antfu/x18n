@@ -3,12 +3,16 @@
   "source": "The agent runs {0}, groups the diagnostics by check, and fixes the routine ones: missing keys and translations, placeholder mismatches and invalid syntax. It asks you before it deletes unused keys, adds glossary terms, changes the severity of a check, or makes warnings fail {1}CI{/1} with {2}.",
   "text": "Агент запускает {0}, группирует диагностики по проверкам и исправляет типовые: отсутствующие ключи и переводы, несовпадения плейсхолдеров и некорректный синтаксис. Он спрашивает вас, прежде чем удалить неиспользуемые ключи, добавить термины в глоссарий, изменить серьёзность проверки или сделать так, чтобы предупреждения приводили к сбою {1}CI{/1} с помощью {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Агент запускает {0}, группирует диагностики по проверкам и исправляет типовые: отсутствующие ключи и переводы, несовпадения плейсхолдеров и некорректный синтаксис. Он спрашивает вас, прежде чем удалить неиспользуемые ключи, добавить термины в глоссарий, изменить серьёзность проверки или сделать так, чтобы предупреждения приводили к сбою {1}CI{/1} с помощью {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

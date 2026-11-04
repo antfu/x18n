@@ -3,12 +3,16 @@
   "source": "A locale code exactly as written in paths and files ({0}, {1}). Never normalized.",
   "text": "경로와 파일에 표기된 그대로의 로케일 코드입니다({0}, {1}). 정규화하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "경로와 파일에 표기된 그대로의 로케일 코드입니다({0}, {1}). 정규화하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

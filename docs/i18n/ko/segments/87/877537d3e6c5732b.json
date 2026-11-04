@@ -3,12 +3,16 @@
   "source": "CSS border color of keys without a value. Empty draws no border.",
   "text": "값이 없는 키의 CSS 테두리 색상입니다. 비워 두면 테두리를 그리지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "값이 없는 키의 CSS 테두리 색상입니다. 비워 두면 테두리를 그리지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

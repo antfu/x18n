@@ -3,12 +3,16 @@
   "source": "Fluent variables: {0}. For {1} in {2} and {3} in {4}, the {5} check reports {6}.",
   "text": "Переменные Fluent: {0}. Для {1} в {2} и {3} в {4} проверка {5} сообщает {6}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Переменные Fluent: {0}. Для {1} в {2} и {3} в {4} проверка {5} сообщает {6}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The source locale is the locale that is the source of truth. Checks compare the other locales with it, translate prompts translate from it, and go to definition opens its messages. Set it with {0}. The default is {1}.",
   "text": "소스 로케일은 기준이 되는 로케일입니다. 검사는 다른 로케일을 소스 로케일과 비교하고, 번역 프롬프트는 소스 로케일에서 번역하며, 정의로 이동은 소스 로케일의 메시지를 엽니다. {0}로 설정하세요. 기본값은 {1}입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "소스 로케일은 기준이 되는 로케일입니다. 검사는 다른 로케일을 소스 로케일과 비교하고, 번역 프롬프트는 소스 로케일에서 번역하며, 정의로 이동은 소스 로케일의 메시지를 엽니다. {0}로 설정하세요. 기본값은 {1}입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Each problem starts with the path, the line and the column. The next line has the severity, the message and the check id. A code frame follows, with one line of context on each side. The last line counts the errors, the warnings and the files. Paths are relative to the current directory, so editors and terminals can open them.",
   "text": "Chaque problème commence par le chemin, la ligne et la colonne. La ligne suivante indique la sévérité, le message et l'id de la vérification. Un extrait de code suit, avec une ligne de contexte de chaque côté. La dernière ligne compte les erreurs, les avertissements et les fichiers. Les chemins sont relatifs au répertoire courant, ce qui permet aux éditeurs et aux terminaux de les ouvrir.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Chaque problème commence par le chemin, la ligne et la colonne. La ligne suivante indique la sévérité, le message et l'id de la vérification. Un extrait de code suit, avec une ligne de contexte de chaque côté. La dernière ligne compte les erreurs, les avertissements et les fichiers. Les chemins sont relatifs au répertoire courant, ce qui permet aux éditeurs et aux terminaux de les ouvrir."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The source of the skills is in {0} of the repository. A test makes sure that every command and flag that the skills and their references name exists in the CLI.",
   "text": "스킬의 소스는 저장소의 {0}에 있습니다. 테스트를 통해 스킬과 참조 문서에 언급된 모든 명령어와 플래그가 CLI에 존재하는지 확인합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "스킬의 소스는 저장소의 {0}에 있습니다. 테스트를 통해 스킬과 참조 문서에 언급된 모든 명령어와 플래그가 CLI에 존재하는지 확인합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "An Angular element with text, marked with {0} as one message ({1})",
   "text": "{0}(으)로 표시되어 하나의 메시지로 처리되는, 텍스트가 있는 Angular 요소({1})",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}(으)로 표시되어 하나의 메시지로 처리되는, 텍스트가 있는 Angular 요소({1})"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

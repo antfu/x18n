@@ -3,12 +3,16 @@
   "source": "{0}s of the unit, except location notes. A {1} note reads as {2}.",
   "text": "{0} элемента unit, кроме заметок о местоположении. Заметка {1} читается как {2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} элемента unit, кроме заметок о местоположении. Заметка {1} читается как {2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

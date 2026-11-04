@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}i18next{/1} without a framework binding. For React, see {2}react-i18next{/2}.",
   "text": "Le preset {0} prend en charge {1}i18next{/1} sans intégration à un framework. Pour React, consultez {2}react-i18next{/2}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset {0} prend en charge {1}i18next{/1} sans intégration à un framework. Pour React, consultez {2}react-i18next{/2}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

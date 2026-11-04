@@ -3,12 +3,16 @@
   "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
   "text": "편집 대상이 읽기 전용 리소스입니다. {0}가 있는 리소스는 x18n이 해당 값을 계산하는 코드를 쓸 수 없으므로 읽기 전용입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "편집 대상이 읽기 전용 리소스입니다. {0}가 있는 리소스는 x18n이 해당 값을 계산하는 코드를 쓸 수 없으므로 읽기 전용입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

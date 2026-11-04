@@ -3,12 +3,16 @@
   "source": "The {0} preset supports {1}.NET localization{/1} with {2} resource files: {3}ASP.NET{/3} Core MVC and Razor Pages, Blazor, and desktop apps with a generated {4} class.",
   "text": "{0} 프리셋은 {2} 리소스 파일을 사용하는 {1}.NET 지역화{/1}를 지원합니다. 대상은 {3}ASP.NET{/3} Core MVC와 Razor Pages, Blazor, 그리고 생성된 {4} 클래스를 사용하는 데스크톱 앱입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} 프리셋은 {2} 리소스 파일을 사용하는 {1}.NET 지역화{/1}를 지원합니다. 대상은 {3}ASP.NET{/3} Core MVC와 Razor Pages, Blazor, 그리고 생성된 {4} 클래스를 사용하는 데스크톱 앱입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

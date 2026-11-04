@@ -3,12 +3,16 @@
   "source": "A block with {0} reads its messages from another file, relative to the {1} file. Without {2}, the file extension picks the format. Edits write to that file:",
   "text": "{0}가 있는 블록은 {1} 파일을 기준으로 한 상대 경로의 다른 파일에서 메시지를 읽습니다. {2}가 없으면 파일 확장자로 형식을 결정합니다. 수정한 내용은 해당 파일에 기록됩니다:",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}가 있는 블록은 {1} 파일을 기준으로 한 상대 경로의 다른 파일에서 메시지를 읽습니다. {2}가 없으면 파일 확장자로 형식을 결정합니다. 수정한 내용은 해당 파일에 기록됩니다:"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} shows where x18n found a key and its usages. If a usage is missing, the scanner does not know the callee. Add it to {1} or to the plugin.",
   "text": "{0} показывает, где x18n нашёл ключ и его использования. Если использования не хватает, сканер не знает вызываемую функцию. Добавьте её в {1} или в плагин.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} показывает, где x18n нашёл ключ и его использования. Если использования не хватает, сканер не знает вызываемую функцию. Добавьте её в {1} или в плагин."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

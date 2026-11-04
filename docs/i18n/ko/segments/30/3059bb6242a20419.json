@@ -3,12 +3,16 @@
   "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
   "text": "로케일 파일은 파싱되었지만 최상위 수준이 메시지 객체가 아닙니다. 로케일 파일은 리프 값이 문자열, 숫자, 불리언 또는 {0}인 중첩 객체를 담고 있어야 합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "로케일 파일은 파싱되었지만 최상위 수준이 메시지 객체가 아닙니다. 로케일 파일은 리프 값이 문자열, 숫자, 불리언 또는 {0}인 중첩 객체를 담고 있어야 합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

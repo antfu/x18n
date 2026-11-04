@@ -3,12 +3,16 @@
   "source": "rule (fine inside extraction scoring), lint",
   "text": "규칙 (추출 점수 계산 내부에서는 사용 가능), 린트",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "규칙 (추출 점수 계산 내부에서는 사용 가능), 린트"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

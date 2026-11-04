@@ -3,12 +3,16 @@
   "source": "A YAML plugin file does not match the plugin schema. The message names the file, the field and the problem.",
   "text": "YAML 플러그인 파일이 플러그인 스키마와 일치하지 않습니다. 메시지에는 파일, 필드, 문제 내용이 표시됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "YAML 플러그인 파일이 플러그인 스키마와 일치하지 않습니다. 메시지에는 파일, 필드, 문제 내용이 표시됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

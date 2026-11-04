@@ -3,12 +3,16 @@
   "source": "Reviews are not available. Set `review.enabled` to true, and fix the review file if the check reports a problem with it.",
   "text": "리뷰를 사용할 수 없습니다. `review.enabled`를 true로 설정하고, 검사에서 리뷰 파일에 문제가 보고되면 해당 파일을 수정하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리뷰를 사용할 수 없습니다. `review.enabled`를 true로 설정하고, 검사에서 리뷰 파일에 문제가 보고되면 해당 파일을 수정하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
   "text": "리소스가 메시지 객체가 아닙니다. 로케일 파일은 문자열, 숫자, 불리언 또는 null로 이루어진 중첩 객체를 담고 있어야 합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리소스가 메시지 객체가 아닙니다. 로케일 파일은 문자열, 숫자, 불리언 또는 null로 이루어진 중첩 객체를 담고 있어야 합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

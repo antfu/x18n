@@ -3,12 +3,16 @@
   "source": "The preset adds the derived key rules {0}, {1} and {2}. When {3} is used, {4}, {5} and {6} count as used, and {7} is not reported missing. Suffixes stack, so context with plural ({8}) and ordinal plurals ({9}) also belong to {10}. Hovers and inline values show the {11} form, or another form when the locale has no {12}.",
   "text": "이 프리셋은 파생 키 규칙 {0}, {1}, {2}를 추가합니다. {3}이 사용되면 {4}, {5}, {6}도 사용된 것으로 간주되며 {7}은 누락으로 보고되지 않습니다. 접미사는 중첩되므로 복수형이 있는 컨텍스트({8})와 서수 복수형({9})도 {10}에 속합니다. 호버와 인라인 값은 {11} 형식을 표시하며, 로케일에 {12}이 없으면 다른 형식을 표시합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 프리셋은 파생 키 규칙 {0}, {1}, {2}를 추가합니다. {3}이 사용되면 {4}, {5}, {6}도 사용된 것으로 간주되며 {7}은 누락으로 보고되지 않습니다. 접미사는 중첩되므로 복수형이 있는 컨텍스트({8})와 서수 복수형({9})도 {10}에 속합니다. 호버와 인라인 값은 {11} 형식을 표시하며, 로케일에 {12}이 없으면 다른 형식을 표시합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

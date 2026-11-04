@@ -3,12 +3,16 @@
   "source": "A rename or delete of a parent key changes every key under it. {0} moves {1} to {2}, and updates prefix usages such as {3}. A rename to a key that exists stops with {4}X18N4002{/4}.",
   "text": "Переименование или удаление родительского ключа затрагивает все ключи под ним. {0} перемещает {1} в {2} и обновляет использования по префиксу, например {3}. Переименование в уже существующий ключ завершается ошибкой {4}X18N4002{/4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Переименование или удаление родительского ключа затрагивает все ключи под ним. {0} перемещает {1} в {2} и обновляет использования по префиксу, например {3}. Переименование в уже существующий ключ завершается ошибкой {4}X18N4002{/4}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "{0} returns a store. Components read it as {1}, so {2} and {3} count as translate calls. The second argument can set the namespace with {4}.",
   "text": "{0} возвращает стор. Компоненты читают его как {1}, поэтому {2} и {3} считаются вызовами перевода. Вторым аргументом можно задать пространство имён с помощью {4}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} возвращает стор. Компоненты читают его как {1}, поэтому {2} и {3} считаются вызовами перевода. Вторым аргументом можно задать пространство имён с помощью {4}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

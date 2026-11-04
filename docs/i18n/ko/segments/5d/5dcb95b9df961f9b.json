@@ -3,12 +3,16 @@
   "source": "Or create the locale file, then run the command again.",
   "text": "또는 로케일 파일을 생성한 다음 명령을 다시 실행하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "또는 로케일 파일을 생성한 다음 명령을 다시 실행하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

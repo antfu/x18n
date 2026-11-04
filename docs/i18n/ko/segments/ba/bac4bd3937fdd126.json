@@ -3,12 +3,16 @@
   "source": "A translate call whose params differ from the placeholders of the source message.",
   "text": "params가 소스 메시지의 플레이스홀더와 다른 translate 호출입니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "params가 소스 메시지의 플레이스홀더와 다른 translate 호출입니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

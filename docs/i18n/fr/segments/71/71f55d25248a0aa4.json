@@ -3,12 +3,16 @@
   "source": "The review prompt asks the agent to compare existing translations with the source and the glossary. The agent does not change values itself. It leaves a {0}review{/0} for a human: {1} for a better value, or {2} for a problem without a clear fix. A human then applies or resolves each one, in the editor, the UI or with {3}. With {4}, the agent fixes values with {5} instead.",
   "text": "Le prompt de relecture demande à l'agent de comparer les traductions existantes avec la source et le glossaire. L'agent ne modifie pas lui-même les valeurs. Il laisse une {0}relecture{/0} à un humain : {1} pour une meilleure valeur, ou {2} pour un problème sans correction évidente. Un humain applique ou résout ensuite chacune d'elles, dans l'éditeur, l'interface ou avec {3}. Avec {4}, l'agent corrige plutôt les valeurs avec {5}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le prompt de relecture demande à l'agent de comparer les traductions existantes avec la source et le glossaire. L'agent ne modifie pas lui-même les valeurs. Il laisse une {0}relecture{/0} à un humain : {1} pour une meilleure valeur, ou {2} pour un problème sans correction évidente. Un humain applique ou résout ensuite chacune d'elles, dans l'éditeur, l'interface ou avec {3}. Avec {4}, l'agent corrige plutôt les valeurs avec {5}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

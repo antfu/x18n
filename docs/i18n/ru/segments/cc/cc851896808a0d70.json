@@ -3,12 +3,16 @@
   "source": "Detection reads the dependencies of the project's {0}, of the parent directories up to the git root, and of the workspace packages listed in {1} or the {2} field, so a monorepo that lists the i18n library in one app is detected from its root.",
   "text": "Автоопределение читает зависимости из {0} проекта, из родительских каталогов вплоть до корня git, а также из пакетов рабочего пространства, перечисленных в {1} или в поле {2}, поэтому monorepo, где i18n-библиотека указана в одном из приложений, определяется из корня.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Автоопределение читает зависимости из {0} проекта, из родительских каталогов вплоть до корня git, а также из пакетов рабочего пространства, перечисленных в {1} или в поле {2}, поэтому monorepo, где i18n-библиотека указана в одном из приложений, определяется из корня."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

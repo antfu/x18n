@@ -3,12 +3,16 @@
   "source": "No resource for the key. Add a resource pattern for the locale, or create the locale file.",
   "text": "Нет ресурса для ключа. Добавьте шаблон ресурса для локали или создайте файл локали.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Нет ресурса для ключа. Добавьте шаблон ресурса для локали или создайте файл локали."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

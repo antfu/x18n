@@ -3,12 +3,16 @@
   "source": "x18n has no resource where it can write the key in this locale.",
   "text": "x18n에 이 로케일에서 키를 기록할 수 있는 리소스가 없습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n에 이 로케일에서 키를 기록할 수 있는 리소스가 없습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

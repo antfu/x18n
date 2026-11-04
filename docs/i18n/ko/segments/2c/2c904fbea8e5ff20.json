@@ -3,12 +3,16 @@
   "source": "This file has the keys {0} and {1}. When x18n writes a key, it writes it under the locale key of the file. For example, setting {2} in {3} changes {4} to:",
   "text": "이 파일에는 {0} 키와 {1} 키가 있습니다. x18n은 키를 쓸 때 파일의 로케일 키 아래에 씁니다. 예를 들어 {3}에서 {2}을(를) 설정하면 {4}이(가) 다음과 같이 바뀝니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "이 파일에는 {0} 키와 {1} 키가 있습니다. x18n은 키를 쓸 때 파일의 로케일 키 아래에 씁니다. 예를 들어 {3}에서 {2}을(를) 설정하면 {4}이(가) 다음과 같이 바뀝니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

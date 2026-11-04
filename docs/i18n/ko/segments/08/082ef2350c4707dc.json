@@ -3,12 +3,16 @@
   "source": "Fail a build on broken keys, annotate pull requests, upload SARIF and publish a static report.",
   "text": "깨진 키가 있으면 빌드를 실패시키고, 풀 리퀘스트에 주석을 달고, SARIF를 업로드하고, 정적 리포트를 게시합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "깨진 키가 있으면 빌드를 실패시키고, 풀 리퀘스트에 주석을 달고, SARIF를 업로드하고, 정적 리포트를 게시합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

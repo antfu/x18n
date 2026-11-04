@@ -3,12 +3,16 @@
   "source": "{0} lists regex scanners for other file types. Each entry has {1} (without the dot) and {2}. A pattern is a regular expression whose first group is the key. Write {3} inside the group, as in {4}: x18n replaces {5} with a pattern for key characters. This is the same format as {6} of i18n-ally.",
   "text": "{0} перечисляет regex-сканеры для других типов файлов. Каждая запись содержит {1} (без точки) и {2}. Шаблон — это регулярное выражение, первая группа которого является ключом. Напишите {3} внутри группы, как в {4}: x18n заменяет {5} шаблоном для символов ключа. Это тот же формат, что и {6} в i18n-ally.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0} перечисляет regex-сканеры для других типов файлов. Каждая запись содержит {1} (без точки) и {2}. Шаблон — это регулярное выражение, первая группа которого является ключом. Напишите {3} внутри группы, как в {4}: x18n заменяет {5} шаблоном для символов ключа. Это тот же формат, что и {6} в i18n-ally."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

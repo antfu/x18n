@@ -3,12 +3,16 @@
   "source": "x18n escapes {0} and {1} for the quotes around them. Inside {2} or {3} it escapes backslashes, that quote and line breaks. Inside a template literal it escapes backslashes, backticks and {4}. Inside a quoted attribute, such as {5}, it also writes {6} and the attribute quote as entities. Outside quotes the value goes in as is.",
   "text": "x18n은 {0}와 {1}을(를) 주변 따옴표에 맞게 이스케이프합니다. {2} 또는 {3} 안에서는 백슬래시, 해당 따옴표, 줄바꿈을 이스케이프합니다. 템플릿 리터럴 안에서는 백슬래시, 백틱, {4}을(를) 이스케이프합니다. {5}처럼 따옴표로 묶인 속성 안에서는 {6}와 속성 따옴표도 엔티티로 작성합니다. 따옴표 밖에서는 값이 그대로 들어갑니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 {0}와 {1}을(를) 주변 따옴표에 맞게 이스케이프합니다. {2} 또는 {3} 안에서는 백슬래시, 해당 따옴표, 줄바꿈을 이스케이프합니다. 템플릿 리터럴 안에서는 백슬래시, 백틱, {4}을(를) 이스케이프합니다. {5}처럼 따옴표로 묶인 속성 안에서는 {6}와 속성 따옴표도 엔티티로 작성합니다. 따옴표 밖에서는 값이 그대로 들어갑니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

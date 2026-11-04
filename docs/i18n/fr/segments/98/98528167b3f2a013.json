@@ -3,12 +3,16 @@
   "source": "values with no letters once placeholders, nesting references and tags are removed ({0}, {1}, {2}),",
   "text": "les valeurs sans lettres une fois les espaces réservés, les références d'imbrication et les balises retirés ({0}, {1}, {2}),",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "les valeurs sans lettres une fois les espaces réservés, les références d'imbrication et les balises retirés ({0}, {1}, {2}),"
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

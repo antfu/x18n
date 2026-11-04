@@ -3,12 +3,16 @@
   "source": "The files use relative paths. Serve the directory from any static host and any path, for example GitHub Pages or the artifacts of a CI job. See {0}CI{/0}.",
   "text": "파일은 상대 경로를 사용합니다. GitHub Pages나 CI 작업의 아티팩트처럼 어떤 정적 호스트와 어떤 경로에서든 이 디렉터리를 제공할 수 있습니다. {0}CI{/0}를 참고하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "파일은 상대 경로를 사용합니다. GitHub Pages나 CI 작업의 아티팩트처럼 어떤 정적 호스트와 어떤 경로에서든 이 디렉터리를 제공할 수 있습니다. {0}CI{/0}를 참고하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

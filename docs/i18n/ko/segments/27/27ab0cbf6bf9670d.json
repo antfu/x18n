@@ -3,12 +3,16 @@
   "source": "The preset for Laravel. It reads PHP translation arrays and JSON strings, __ and trans calls, and :name placeholders.",
   "text": "Laravel용 프리셋입니다. PHP 번역 배열과 JSON 문자열, __ 및 trans 호출, :name 플레이스홀더를 읽습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Laravel용 프리셋입니다. PHP 번역 배열과 JSON 문자열, __ 및 trans 호출, :name 플레이스홀더를 읽습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

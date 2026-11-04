@@ -3,12 +3,16 @@
   "source": "Delete a key (or every key under a parent) in all locales; {0} deletes every unused key.",
   "text": "모든 로케일에서 키 하나(또는 상위 키 아래의 모든 키)를 삭제합니다. {0}는 사용되지 않는 모든 키를 삭제합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "모든 로케일에서 키 하나(또는 상위 키 아래의 모든 키)를 삭제합니다. {0}는 사용되지 않는 모든 키를 삭제합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

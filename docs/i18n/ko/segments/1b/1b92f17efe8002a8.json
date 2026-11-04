@@ -3,12 +3,16 @@
   "source": "A translation drops a placeholder, so {0} becomes {1}.",
   "text": "번역에서 플레이스홀더가 빠져 {0}이(가) {1}(으)로 바뀝니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "번역에서 플레이스홀더가 빠져 {0}이(가) {1}(으)로 바뀝니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
   "text": "Fils de relecture : commentaires, approbations, demandes de modification et valeurs suggérées sur les messages, par clé et par langue, avec l'état de chaque fil. Passez {0} pour ne garder que les fils non résolus.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Fils de relecture : commentaires, approbations, demandes de modification et valeurs suggérées sur les messages, par clé et par langue, avec l'état de chaque fil. Passez {0} pour ne garder que les fils non résolus."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

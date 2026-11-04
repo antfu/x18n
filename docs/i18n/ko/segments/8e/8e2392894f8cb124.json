@@ -3,12 +3,16 @@
   "source": "x18n resolves the name from the directory of the config file, imports the package, and calls its default export with the options. If the package is missing, the load stops with {0}X18N1001{/0}.",
   "text": "x18n은 설정 파일이 있는 디렉터리를 기준으로 이름을 해석하고, 패키지를 import한 다음, 기본 내보내기를 옵션과 함께 호출합니다. 패키지가 없으면 {0}X18N1001{/0} 오류와 함께 로드가 중단됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "x18n은 설정 파일이 있는 디렉터리를 기준으로 이름을 해석하고, 패키지를 import한 다음, 기본 내보내기를 옵션과 함께 호출합니다. 패키지가 없으면 {0}X18N1001{/0} 오류와 함께 로드가 중단됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

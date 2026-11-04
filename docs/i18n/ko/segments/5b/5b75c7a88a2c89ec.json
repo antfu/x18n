@@ -3,12 +3,16 @@
   "source": "Renames every key under a prefix, in locale files and code.",
   "text": "접두사 아래의 모든 키를 로케일 파일과 코드에서 이름을 변경합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "접두사 아래의 모든 키를 로케일 파일과 코드에서 이름을 변경합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

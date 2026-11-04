@@ -3,12 +3,16 @@
   "source": "flutter\\_translate keeps plural forms as nested keys. From version 4, the forms are the Intl plural names {0}, {1}, {2}, {3}, {4} and {5}. Before version 4, they were {6}, {7}, {8} and {9}. The preset adds a derived key {10} for each of these forms, so the {11} check does not report the forms of a used key.",
   "text": "flutter\\_translate는 복수형을 중첩된 키로 보관합니다. 버전 4부터 복수형은 Intl 복수형 이름인 {0}, {1}, {2}, {3}, {4}, {5}입니다. 버전 4 이전에는 {6}, {7}, {8}, {9}였습니다. 이 프리셋은 각 복수형에 대해 파생 키 {10}를 추가하므로, 사용 중인 키의 복수형을 {11} 검사에서 보고하지 않습니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "flutter\\_translate는 복수형을 중첩된 키로 보관합니다. 버전 4부터 복수형은 Intl 복수형 이름인 {0}, {1}, {2}, {3}, {4}, {5}입니다. 버전 4 이전에는 {6}, {7}, {8}, {9}였습니다. 이 프리셋은 각 복수형에 대해 파생 키 {10}를 추가하므로, 사용 중인 키의 복수형을 {11} 검사에서 보고하지 않습니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

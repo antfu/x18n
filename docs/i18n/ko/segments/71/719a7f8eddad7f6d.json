@@ -3,12 +3,16 @@
   "source": "Everything that depends on an i18n library or a file format comes from plugins. The built-in {0}presets{/0} are plugins too. Write your own plugin when x18n does not know your library, your file format or your conventions.",
   "text": "i18n 라이브러리나 파일 형식에 의존하는 모든 기능은 플러그인에서 제공합니다. 기본 제공 {0}프리셋{/0}도 플러그인입니다. x18n이 사용 중인 라이브러리, 파일 형식 또는 규칙을 알지 못하면 직접 플러그인을 작성하세요.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "i18n 라이브러리나 파일 형식에 의존하는 모든 기능은 플러그인에서 제공합니다. 기본 제공 {0}프리셋{/0}도 플러그인입니다. x18n이 사용 중인 라이브러리, 파일 형식 또는 규칙을 알지 못하면 직접 플러그인을 작성하세요."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

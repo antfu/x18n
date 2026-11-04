@@ -3,12 +3,16 @@
   "source": "Each skill tells the agent which decisions to leave to you, and to ask about them in one message.",
   "text": "Каждый скилл указывает агенту, какие решения оставить вам и задать вопросы о них одним сообщением.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Каждый скилл указывает агенту, какие решения оставить вам и задать вопросы о них одним сообщением."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

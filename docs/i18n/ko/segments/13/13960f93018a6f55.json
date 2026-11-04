@@ -3,12 +3,16 @@
   "source": "The {0}CLI{/0} is for humans, CI and agents. {1} does for i18n what {2} does for types.",
   "text": "{0}CLI{/0}는 사람, CI, 에이전트를 위한 인터페이스입니다. {1}은(는) 타입에 대해 {2}이(가) 하는 일을 i18n에 대해 수행합니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "{0}CLI{/0}는 사람, CI, 에이전트를 위한 인터페이스입니다. {1}은(는) 타입에 대해 {2}이(가) 하는 일을 i18n에 대해 수행합니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

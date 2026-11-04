@@ -3,12 +3,16 @@
   "source": "A value adds or drops a placeholder compared to the source value, so {0} wrote nothing. The JSON output lists the values in {1}.",
   "text": "Une valeur ajoute ou supprime un espace réservé par rapport à la valeur source, donc {0} n'a rien écrit. La sortie JSON liste les valeurs dans {1}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Une valeur ajoute ou supprime un espace réservé par rapport à la valeur source, donc {0} n'a rien écrit. La sortie JSON liste les valeurs dans {1}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

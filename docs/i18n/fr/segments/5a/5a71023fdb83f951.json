@@ -3,12 +3,16 @@
   "source": "Run x18n in the root of a project. It detects the i18n library from your dependencies and finds the locale files. {0}Read the guide{/0}.",
   "text": "Lancez x18n à la racine d'un projet. Il détecte la bibliothèque i18n à partir de vos dépendances et trouve les fichiers de langue. {0}Lisez le guide{/0}.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Lancez x18n à la racine d'un projet. Il détecte la bibliothèque i18n à partir de vos dépendances et trouve les fichiers de langue. {0}Lisez le guide{/0}."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

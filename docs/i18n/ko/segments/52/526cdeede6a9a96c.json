@@ -3,12 +3,16 @@
   "source": "Review threads show as editor comments on the key in each locale file. Reply to a thread to comment, approve, request a change or suggest a value; the buttons under the reply box pick the kind. A suggestion has an \"Apply Suggestion\" button that sets the value. \"Resolve\" closes a comment. \"x18n: Review Key\" starts a review from the cursor or from the Keys view. The language server writes reviews to {0} at once, and the hover of a key shows its review state per locale.",
   "text": "리뷰 스레드는 각 로케일 파일의 키 위에 편집기 댓글로 표시됩니다. 스레드에 답글을 달아 댓글을 남기거나, 승인하거나, 변경을 요청하거나, 값을 제안하세요. 답글 입력란 아래의 버튼으로 종류를 선택합니다. 제안에는 값을 설정하는 \"Apply Suggestion\" 버튼이 있습니다. \"Resolve\"는 댓글을 닫습니다. \"x18n: Review Key\"는 커서 위치 또는 Keys 뷰에서 리뷰를 시작합니다. 언어 서버는 리뷰를 즉시 {0}에 기록하며, 키에 마우스를 올리면 로케일별 리뷰 상태가 표시됩니다.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "리뷰 스레드는 각 로케일 파일의 키 위에 편집기 댓글로 표시됩니다. 스레드에 답글을 달아 댓글을 남기거나, 승인하거나, 변경을 요청하거나, 값을 제안하세요. 답글 입력란 아래의 버튼으로 종류를 선택합니다. 제안에는 값을 설정하는 \"Apply Suggestion\" 버튼이 있습니다. \"Resolve\"는 댓글을 닫습니다. \"x18n: Review Key\"는 커서 위치 또는 Keys 뷰에서 리뷰를 시작합니다. 언어 서버는 리뷰를 즉시 {0}에 기록하며, 키에 마우스를 올리면 로케일별 리뷰 상태가 표시됩니다."
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

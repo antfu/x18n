@@ -3,12 +3,16 @@
   "source": "If x18n finds the wrong files, or none, run {0}. It shows the detected presets, the resources that each locale finder found, and the source files that each scanner read.",
   "text": "Si x18n trouve de mauvais fichiers, ou aucun, lancez {0}. Cette commande affiche les presets détectés, les ressources trouvées par chaque outil de recherche de langues et les fichiers source lus par chaque scanner.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Si x18n trouve de mauvais fichiers, ou aucun, lancez {0}. Cette commande affiche les presets détectés, les ressources trouvées par chaque outil de recherche de langues et les fichiers source lus par chaque scanner."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

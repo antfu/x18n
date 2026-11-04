@@ -3,12 +3,16 @@
   "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
   "text": "Откуда берётся значение по умолчанию, записанное в коде; побеждает первая найденная строка. Для фабрик — значение возвращаемых функций.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Откуда берётся значение по умолчанию, записанное в коде; побеждает первая найденная строка. Для фабрик — значение возвращаемых функций."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

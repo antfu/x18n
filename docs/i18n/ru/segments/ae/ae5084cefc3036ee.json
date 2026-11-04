@@ -3,12 +3,16 @@
   "source": "Describe a library in a *.x18n-plugin.yml file - resources, translate calls, regex scanners, scopes, placeholders and templates.",
   "text": "Опишите библиотеку в файле *.x18n-plugin.yml: ресурсы, вызовы translate, regex-сканеры, области видимости, плейсхолдеры и шаблоны.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Опишите библиотеку в файле *.x18n-plugin.yml: ресурсы, вызовы translate, regex-сканеры, области видимости, плейсхолдеры и шаблоны."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

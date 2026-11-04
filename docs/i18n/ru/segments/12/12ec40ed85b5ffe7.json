@@ -3,12 +3,16 @@
   "source": "The display locale is the locale that the editor shows in annotations and hovers. Each user picks it for themselves. It defaults to the source locale.",
   "text": "Локаль отображения — это локаль, которую редактор показывает в аннотациях и всплывающих подсказках. Каждый пользователь выбирает её для себя. По умолчанию это исходная локаль.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Локаль отображения — это локаль, которую редактор показывает в аннотациях и всплывающих подсказках. Каждый пользователь выбирает её для себя. По умолчанию это исходная локаль."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

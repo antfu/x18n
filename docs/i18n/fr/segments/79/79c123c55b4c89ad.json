@@ -3,12 +3,16 @@
   "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
   "text": "Ici, {0} vaut {1}, et le repli se fait comme dans la bibliothèque : vers {2}, puis vers la clé telle qu'elle est écrite. Une clé avec son propre espace de noms, ou un pipe avec {3} et {4}, est laissée telle quelle.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Ici, {0} vaut {1}, et le repli se fait comme dans la bibliothèque : vers {2}, puis vers la clé telle qu'elle est écrite. Une clé avec son propre espace de noms, ou un pipe avec {3} et {4}, est laissée telle quelle."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

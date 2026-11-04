@@ -3,12 +3,16 @@
   "source": "Rename a key (or every key under a parent) in all locales, and its usages in code unless {0}. Without {1} it returns the plan (files to change, decisions, warnings); call again with {2} to apply it.",
   "text": "Переименуйте ключ (или все ключи под родительским) во всех локалях, а также его использования в коде, если не указано {0}. Без {1} возвращается план (файлы для изменения, решения, предупреждения); вызовите снова с {2}, чтобы применить его.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Переименуйте ключ (или все ключи под родительским) во всех локалях, а также его использования в коде, если не указано {0}. Без {1} возвращается план (файлы для изменения, решения, предупреждения); вызовите снова с {2}, чтобы применить его."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

@@ -3,12 +3,16 @@
   "source": "The {0} preset supports the {1}i18n API of Chrome extensions{/1}, and of WebExtensions in other browsers.",
   "text": "Le preset {0} prend en charge l'{1}API i18n des extensions Chrome{/1}, ainsi que celle des WebExtensions dans d'autres navigateurs.",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "Le preset {0} prend en charge l'{1}API i18n des extensions Chrome{/1}, ainsi que celle des WebExtensions dans d'autres navigateurs."
   },
-  "updatedAt": "2026-11-04T05:47:51.390Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }

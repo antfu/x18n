@@ -3,12 +3,16 @@
   "source": "Write the extraction plan to a file to edit",
   "text": "추출 계획을 편집할 수 있도록 파일로 저장합니다",
   "origin": "mt",
-  "review": "none",
+  "review": "verified",
   "derived": "fresh",
   "mt": {
     "model": "anthropic/claude-sonnet-5.5",
     "promptVersion": "1",
     "candidate": "추출 계획을 편집할 수 있도록 파일로 저장합니다"
   },
-  "updatedAt": "2026-11-04T05:47:31.360Z"
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
 }
