@@ -9,7 +9,7 @@
     "docs:serve": "nuxt preview",
     "lint": "comark-lint \"content/**/*.md\"",
     "i18n:checkout": "diglot checkout --cwd i18n",
-    "i18n:ui": "pnpm run i18n:checkout && x18n ui --root i18n",
+    "i18n:ui": "pnpm run i18n:checkout && x18n ui",
     "i18n:status": "diglot status --cwd i18n",
     "i18n:validate": "diglot validate --cwd i18n"
   },

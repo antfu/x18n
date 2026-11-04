@@ -23,8 +23,8 @@
     "docs": {
       // Nuxt auto-imports components and composables, so nothing imports them.
       // `comark-lint.config.ts` is found by the `comark-lint` CLI, `i18n/diglot.config.ts` by diglot
-      // and `i18n/x18n.config.ts` by x18n.
-      "entry": ["app/**/*.{vue,ts}", "comark-lint.config.ts", "i18n/diglot.config.ts", "i18n/x18n.config.ts"],
+      // and `x18n.config.ts` by x18n.
+      "entry": ["app/**/*.{vue,ts}", "comark-lint.config.ts", "i18n/diglot.config.ts", "x18n.config.ts"],
       // `@iconify-json/*` are read by `@nuxt/icon` for icon classes. None is imported.
       "ignoreDependencies": ["@iconify-json/bxl", "@iconify-json/catppuccin", "@iconify-json/circle-flags", "@iconify-json/devicon", "@iconify-json/logos", "@iconify-json/ph", "@nuxt/ui", "comark-content", "vue-router"]
     },
