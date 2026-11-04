@@ -1,9 +1,8 @@
 <script setup lang="ts">
-// Shadows the comark-docs layer's AppHeader to add the locale select (`DocsLocaleSelect`)
-// next to the header links. Everything else is the layer's header.
+// Shadows the comark-docs layer's AppHeader: adds the locale select (`DocsLocaleSelect`)
+// next to the header links and drops the version history button. Everything else is the layer's header.
 const { header, footer, assistant } = useAppConfig()
 const content = useDocsContent()
-const historyOpen = useVersionHistory()
 const assistantOpen = useAssistant()
 const navigation = useMainNavigation()
 </script>
@@ -30,16 +29,6 @@ const navigation = useMainNavigation()
         color="neutral"
         variant="outline"
         @click="assistantOpen = !assistantOpen"
-      />
-
-      <UButton
-        icon="i-lucide-history"
-        :color="content.mode === 'prod' ? 'neutral' : 'warning'"
-        :variant="content.mode === 'prod' ? 'outline' : 'subtle'"
-        aria-label="Version history"
-        :ui="{ leadingIcon: 'size-4' }"
-        class="p-2"
-        @click="historyOpen = !historyOpen"
       />
 
       <DocsLocaleSelect />
