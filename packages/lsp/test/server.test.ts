@@ -232,6 +232,31 @@ describe('language server', () => {
     expect(items.map(i => i.label)).toContain('pages.home.title')
   })
 
+  it('resolves completion items with all-locale documentation', async () => {
+    const items: { label: string, data?: { project?: string, root?: string, key?: string } }[] = await client.sendRequest('textDocument/completion', {
+      textDocument: {
+        uri: uri('src/App.vue'),
+      },
+      position: await position('src/App.vue', 'nav.home'),
+    })
+    const item = items.find(i => i.label === 'pages.home.title')!
+    expect(item.data?.key).toBe('pages.home.title')
+    const resolved: { documentation?: { kind: string, value: string } } = await client.sendRequest('completionItem/resolve', item)
+    expect(resolved.documentation?.kind).toBe('markdown')
+    expect(resolved.documentation?.value).toContain('pages.home.title')
+    expect(resolved.documentation?.value).toContain('Welcome')
+    expect(resolved.documentation?.value).toContain('Willkommen')
+
+    const plain: { documentation?: unknown } = await client.sendRequest('completionItem/resolve', { label: 'plain' })
+    expect(plain.documentation).toBeUndefined()
+
+    const gone: { documentation?: { value: string } } = await client.sendRequest('completionItem/resolve', {
+      label: 'gone',
+      data: { project: item.data?.project, key: 'no.such.key' },
+    })
+    expect(gone.documentation?.value).toContain('key no longer exists')
+  })
+
   it('lists the key tree of a resource as document symbols', async () => {
     const symbols: { name: string, children: { name: string }[] }[] = await client.sendRequest('textDocument/documentSymbol', {
       textDocument: {
