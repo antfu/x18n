@@ -56,6 +56,7 @@ All methods use the `x18n/` prefix. Shapes are valibot schemas shared with the c
 | --- | --- | --- |
 | `x18n/projects` | request | Active projects, locales, source locale. |
 | `x18n/keyAt` | request | The key or resource node at a position, or `null`. The VS Code client uses it for TypeScript coexistence ([08-vscode.md](./08-vscode.md)). |
+| `x18n/keyInfo` | request | Structured key details for editor UIs: locale values and states, history, review threads and usage counts. |
 | `x18n/tree` | request | Key tree with coverage per node, for tree views. Lazy by parent key. |
 | `x18n/progress` | request | Coverage per locale with missing and empty key lists. |
 | `x18n/fileKeys` | request | Keys used in a document with their usage counts, keys not found, hard strings (Current File view). |

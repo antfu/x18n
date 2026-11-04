@@ -53,6 +53,29 @@ export interface KeyAtResult {
   readonly type: "key" | "subtree";
   readonly range: Range;
 }
+export interface KeyInfoLocale {
+  readonly code: string;
+  readonly flag: string | undefined;
+  readonly value: string | undefined;
+  readonly state?: string | undefined;
+  readonly changed: string | undefined;
+  readonly outdated: boolean;
+  readonly source: boolean;
+  readonly present: boolean;
+}
+export interface KeyInfoResult {
+  readonly project: string;
+  readonly key: string;
+  readonly type: "key" | "subtree";
+  readonly label?: string | undefined;
+  readonly range: Range;
+  readonly locales: readonly KeyInfoLocale[];
+  readonly threads: readonly {
+    readonly locale: string;
+    readonly state: string;
+  }[];
+  readonly usages: number;
+}
 export interface LocaleProgress {
   readonly locale: string;
   readonly translated: number;
@@ -67,6 +90,7 @@ export interface Location {
 export interface Methods {
   readonly projects: "x18n/projects";
   readonly keyAt: "x18n/keyAt";
+  readonly keyInfo: "x18n/keyInfo";
   readonly tree: "x18n/tree";
   readonly progress: "x18n/progress";
   readonly fileKeys: "x18n/fileKeys";
