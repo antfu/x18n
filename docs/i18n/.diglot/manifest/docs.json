@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "docs",
-  "sha": "3586402eafaa8e16b682cf4d63f5e3e82416833a",
+  "sha": "f296541da4be790a34ee4ba6c4a28cac31e0cc66",
   "policy": "f6e446c627d4102c",
   "files": {
     "docs/content/1.guide/.navigation.yml": [
@@ -3399,8 +3399,8 @@
       {"hash":"860d37909839f531","kind":"heading","format":"markdown","words":2,"skeleton":"Initialization options"},
       {"hash":"c10d69fdd7fe1828","kind":"paragraph","format":"markdown","words":10,"skeleton":"The client passes these fields in {0}. Each one is optional.","placeholders":["code"]},
       {"hash":"8a018df59d290539","kind":"code-comment","format":"plain","words":7,"skeleton":"Flag emoji next to locales in hovers."},
-      {"hash":"28709089fce4edde","kind":"code-comment","format":"plain","words":9,"skeleton":"Client commands a hover may link to with {0} URLs.","placeholders":["code"]},
-      {"hash":"17ab1b9ab5c49c63","kind":"paragraph","format":"markdown","words":43,"skeleton":"A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3}, because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.","placeholders":["code","code","code","code","code"]},
+      {"hash":"d5cf295d60ed11b8","kind":"code-comment","format":"plain","words":13,"skeleton":"Client commands a hover may link to with {0} URLs. Empty means no links.","placeholders":["code"]},
+      {"hash":"1b60c1858a6c2b23","kind":"paragraph","format":"markdown","words":48,"skeleton":"A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3} (an array of command ids), because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.","placeholders":["code","code","code","code","code"]},
       {"hash":"4ed1002c93d873fd","kind":"heading","format":"markdown","words":2,"skeleton":"Custom methods"},
       {"hash":"ab74345cd1dde95b","kind":"paragraph","format":"markdown","words":17,"skeleton":"Shapes follow the {0}JSON contract{/0} version. Positions and ranges use LSP conventions: zero-based lines and UTF-16 characters.","placeholders":["link"]},
       {"hash":"52a0f9b65b278850","kind":"table-cell","format":"markdown","words":1,"skeleton":"Method"},
