@@ -362,6 +362,27 @@ describe('language server', () => {
     expect(await text('src/locales/en.json')).toContain('"unused"')
   })
 
+  it('edits nothing when a command names an unknown project', async () => {
+    const applied: WorkspaceEdit[] = []
+    const handler = client.onRequest('workspace/applyEdit', (params: { edit: WorkspaceEdit }) => {
+      applied.push(params.edit)
+      return { applied: true }
+    })
+    try {
+      const result = await client.sendRequest('workspace/executeCommand', {
+        command: 'x18n.set',
+        arguments: [
+          { project: 'nope', key: 'app.greeting', value: 'x' },
+        ],
+      })
+      expect(result).toBeNull()
+      expect(applied).toEqual([])
+    }
+    finally {
+      handler.dispose()
+    }
+  })
+
   it('sorts the usage report', async () => {
     const report: { unused: { key: string }[], missing: { key: string }[] } = await client.sendRequest(methods.usageReport)
     const keys = report.unused.map(u => u.key)

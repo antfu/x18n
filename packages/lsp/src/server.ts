@@ -945,7 +945,7 @@ class Server {
       return this.extractFile(input.uri)
     if (params.command === commands.migrateI18nAlly && typeof input.uri === 'string')
       return migrateI18nAlly(fileURLToPath(input.uri))
-    const entry = this.projects.find(p => p.name === input.project) ?? this.projects[0]
+    const entry = this.entryByName(input.project)
     if (!entry || typeof input.key !== 'string')
       return null
     const key = entry.project.parseKey(input.key)
