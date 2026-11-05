@@ -97,6 +97,8 @@ interface Host {
   cache?: CacheStore
   /** Identity for reviews. Node host reads git config. */
   identity?: () => Promise<Identity | undefined>
+  /** Runs a JS/TS module for `execute: true` resources; returns its default export. Node host only. */
+  executeModule?: (path: string) => Promise<unknown>
   logger: Logger
 }
 ```

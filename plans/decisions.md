@@ -211,6 +211,7 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 
 - Decided: in 1.0, `execute: true` marks matching resources read-only. Running JS/TS locale files arrives with the tier 2 `js`/`ts` format (M15), which also reads static `export default { ... }` files.
 - Why: there is no tier 1 format for JS/TS locale files to execute through.
+- Update (#136): matching files now run through `Host.executeModule`, which the Node host implements with the config loader (jiti). Core calls it, unwraps a loader export (`(locale) => messages`, sync or async), and reports a throw as `X18N2005`. A host without `executeModule` reads the files statically.
 
 ## D33 - Renames edit key text in place
 

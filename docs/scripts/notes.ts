@@ -101,6 +101,14 @@ Commands that write files (\`set\`, \`apply\`, \`rename\`, \`delete\`, \`fill\`,
 2. Or set \`execute: true\` on the resource pattern. x18n then runs the file in Node, and the messages become read-only.`,
   },
 
+  X18N2005: {
+    title: 'Locale file could not be executed',
+    notes: `The resource pattern has \`execute: true\`, so x18n ran the file in Node, and the file threw. A file run this way gets no framework globals: auto-imported helpers such as \`defineI18nLocale\` are not defined unless the file imports them.
+
+1. Fix the error that the message names, or import what the file uses.
+2. Or make the file a static \`export default { ... }\` and drop \`execute: true\`.`,
+  },
+
   X18N3001: {
     title: 'Source file could not be scanned',
     notes: `A scanner failed to parse a source file, so x18n did not find the usages in it.

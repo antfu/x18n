@@ -40,4 +40,9 @@ export interface Host {
   readonly logger?: Logger | undefined
   /** Who writes reviews. The node host reads git `user.name` and `user.email`. */
   readonly identity?: (() => Promise<ReviewAuthor | undefined>) | undefined
+  /**
+   * Runs a JS or TS module and returns its default export (or its namespace without one), for resources with
+   * `execute: true`. Hosts that cannot run code leave it out; their executed resources are read statically.
+   */
+  readonly executeModule?: ((path: string) => Promise<unknown>) | undefined
 }
