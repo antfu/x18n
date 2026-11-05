@@ -11,13 +11,14 @@ export const yamlReviewStore: ReviewStore = {
     const result = validate(ReviewFileSchema, parse(text) ?? { x18n: 1 })
     if (!result.success)
       throw new Error(result.issues.map(issue => `${issue.path || '(root)'}: ${issue.message}`).join('; '))
-    return { threads: result.output.threads ?? {}, sources: result.output.sources ?? {} }
+    return { threads: result.output.threads ?? {}, sources: result.output.sources ?? {}, machine: result.output.machine ?? {} }
   },
   serialize(data) {
     const file: ReviewFile = {
       x18n: 1,
       ...Object.keys(data.threads).length > 0 && { threads: data.threads },
       ...Object.keys(data.sources).length > 0 && { sources: data.sources },
+      ...Object.keys(data.machine ?? {}).length > 0 && { machine: data.machine },
     }
     return header + stringify(file, { lineWidth: 0, aliasDuplicateObjects: false })
   },

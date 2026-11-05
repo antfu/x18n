@@ -11,7 +11,7 @@ Agents are first-class users. They get three things: a CLI with stable JSON, pro
 
 ## Translate prompt
 
-x18n does not call translation services. Instead it writes a prompt that a human pastes into an LLM, or that an agent follows.
+The translate prompt is how an agent or a human with an LLM translates. x18n can also call translation services itself through translators ([20-translation.md](./20-translation.md)); both use the same selection and context.
 
 `x18n prompt translate --to de` builds the prompt from project state:
 

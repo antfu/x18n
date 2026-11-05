@@ -45,4 +45,6 @@ export interface Host {
    * `execute: true`. Hosts that cannot run code leave it out; their executed resources are read statically.
    */
   readonly executeModule?: ((path: string) => Promise<unknown>) | undefined
+  /** An environment variable, for secrets that config refers to (`{ env: 'DEEPL_API_KEY' }`). The node host reads `process.env`. */
+  readonly env?: ((name: string) => string | undefined) | undefined
 }

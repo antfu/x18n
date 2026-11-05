@@ -13,7 +13,7 @@ import type {
   SerializableConfig,
 } from './types/config'
 import type { JsonObject, JsonValue } from './types/model'
-import type { ReviewAuthor, ReviewComment, ReviewData } from './types/review'
+import type { MachineRecord, ReviewAuthor, ReviewComment, ReviewData } from './types/review'
 import * as v from 'valibot'
 
 function isJsonValue(value: unknown): value is JsonValue {
@@ -217,6 +217,19 @@ const configSchema = v.strictObject({
     file: v.optional(v.string()),
     author: v.optional(reviewAuthor),
   })),
+  translate: v.optional(v.strictObject({
+    translators: v.optional(strings),
+    locales: v.optional(v.record(v.string(), strings)),
+    subject: v.optional(v.string()),
+    rules: v.optional(v.record(v.string(), strings)),
+    limit: v.optional(v.pipe(v.number(), v.integer(), v.minValue(1))),
+    budget: v.optional(v.strictObject({
+      usd: v.optional(v.pipe(v.number(), v.minValue(0))),
+      characters: v.optional(v.pipe(v.number(), v.integer(), v.minValue(0))),
+    })),
+    retries: v.optional(v.pipe(v.number(), v.integer(), v.minValue(0))),
+    cache: v.optional(v.boolean()),
+  })),
   projects: v.optional(strings),
 })
 
@@ -308,6 +321,7 @@ export interface ReviewFile {
   readonly x18n: 1
   readonly threads?: ReviewData['threads'] | undefined
   readonly sources?: ReviewData['sources'] | undefined
+  readonly machine?: ReviewData['machine'] | undefined
 }
 
 const reviewComment = v.strictObject({
@@ -326,11 +340,20 @@ const reviewComment = v.strictObject({
   resolved: v.optional(v.boolean()),
 }) satisfies v.GenericSchema<ReviewComment>
 
+const machineRecord = v.strictObject({
+  translator: v.string(),
+  model: v.optional(v.string()),
+  prompt: v.optional(v.string()),
+  time: v.string(),
+  value: v.string(),
+}) satisfies v.GenericSchema<MachineRecord>
+
 const reviewFileSchema = v.strictObject({
   $schema: v.optional(v.string()),
   x18n: v.literal(1),
   threads: v.optional(v.record(v.string(), v.record(v.string(), v.array(reviewComment)))),
   sources: v.optional(v.record(v.string(), v.record(v.string(), v.string()))),
+  machine: v.optional(v.record(v.string(), v.record(v.string(), machineRecord))),
 })
 
 export const ReviewFileSchema: v.GenericSchema<ReviewFile> = reviewFileSchema

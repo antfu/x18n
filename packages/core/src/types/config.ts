@@ -158,6 +158,25 @@ export interface ReviewOptions {
   readonly author?: ReviewAuthor | undefined
 }
 
+export interface TranslateConfig {
+  /** Translator ids in the order they are tried. Default: every translator of the plugins, in plugin order. */
+  readonly translators?: readonly string[] | undefined
+  /** Translator ids per target locale, instead of `translators`. */
+  readonly locales?: { readonly [locale: string]: readonly string[] } | undefined
+  /** What is being translated, for the model: `'the UI of Acme, a project management app'`. */
+  readonly subject?: string | undefined
+  /** Rules per target locale; `'*'` applies to every locale. */
+  readonly rules?: { readonly [locale: string]: readonly string[] } | undefined
+  /** Items per run, over all locales. Default 200. */
+  readonly limit?: number | undefined
+  /** Stops a run before a batch that would pass it. */
+  readonly budget?: { readonly usd?: number | undefined, readonly characters?: number | undefined } | undefined
+  /** Retries per item on the same translator, with the problems found. Default 1. */
+  readonly retries?: number | undefined
+  /** Reuse earlier answers and rejections from the host cache. Default true. */
+  readonly cache?: boolean | undefined
+}
+
 export type NamespaceFromPath = NonNullable<NamespaceOptions['fromPath']>
 
 export type PluginSpecifier = string | readonly [string, JsonObject]
@@ -199,6 +218,8 @@ export interface SerializableConfig {
   readonly history?: boolean | HistoryOptions | undefined
   /** Review comments, approvals and suggested values on messages, kept in a file tracked in git. */
   readonly review?: ReviewOptions | undefined
+  /** Machine translation through the translators of plugins: which translators each locale uses, and how far a run goes. See [Machine translation](/guide/machine-translation). */
+  readonly translate?: TranslateConfig | undefined
   /** Monorepo: directories (globs) that are projects inheriting this config. */
   readonly projects?: readonly string[] | undefined
 }
@@ -278,6 +299,16 @@ export interface ResolvedConfig {
   readonly glossary: readonly GlossaryEntry[]
   readonly history: false | HistorySettings
   readonly review: { readonly enabled: boolean, readonly file: string, readonly author: ReviewAuthor | undefined }
+  readonly translate: {
+    readonly translators: readonly string[] | undefined
+    readonly locales: { readonly [locale: string]: readonly string[] }
+    readonly subject: string | undefined
+    readonly rules: { readonly [locale: string]: readonly string[] }
+    readonly limit: number
+    readonly budget: { readonly usd?: number | undefined, readonly characters?: number | undefined }
+    readonly retries: number
+    readonly cache: boolean
+  }
   readonly pluginConfigs: Partial<PluginConfigs>
   /** Origin of each top-level value, for `explain()`. */
   readonly origins: { readonly [key: string]: ConfigOrigin }

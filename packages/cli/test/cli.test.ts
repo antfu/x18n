@@ -635,6 +635,96 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(check.stdout).not.toContain('name: x18n-check')
   })
 
+  it('translate writes machine-translated values, and review approve --machine approves them in a batch', async () => {
+    const dir = await fixture('vue-i18n')
+    await writeFile(join(dir, 'fake-translator.mjs'), `export default () => ({
+  name: 'fake',
+  translators: [{
+    id: 'fake',
+    features: { placeholders: 'raw', context: true, feedback: true, update: true, glossary: 'prompt', batch: { maxItems: 20 }, paid: false },
+    async translate(batch) {
+      return { items: batch.items.map(item => ({ id: item.id, text: '[' + batch.to + '] ' + item.text })), model: 'fake-1' }
+    },
+  }],
+})
+`)
+    await writeFile(join(dir, 'x18n.config.yml'), 'plugins:\n  - ./fake-translator.mjs\n')
+    const estimate = json(await x18n(dir, [
+      'translate',
+      '--to',
+      'de',
+      '--estimate',
+      '--json',
+    ]))
+    expect(estimate.data.items).toEqual([
+      {
+        key: 'nav.about',
+        locale: 'de',
+        translator: 'fake',
+        kind: 'fresh',
+      },
+      {
+        key: 'pages.about.title',
+        locale: 'de',
+        translator: 'fake',
+        kind: 'fresh',
+      },
+    ])
+    expect(estimate.data.estimate).toEqual([
+      {
+        translator: 'fake',
+        items: 2,
+        characters: 13,
+        batches: 1,
+        paid: false,
+      },
+    ])
+
+    expect((await x18n(dir, ['translators'])).stdout).toBe('fake  placeholders: raw, context: yes, glossary: prompt, batch: 20, free\n  de: fake\n')
+
+    const result = await x18n(dir, ['translate', '--to', 'de'])
+    expect(result.code).toBe(0)
+    expect(result.stdout).toContain('2 translated: write 2 values (marked as machine-translated), suggest 0.')
+    const de = JSON.parse(await readFile(join(dir, 'src/locales/de.json'), 'utf8'))
+    expect(de.nav.about).toBe('[de] About')
+    expect(de.pages.about.title).toBe('[de] About us')
+    expect(await readFile(join(dir, '.x18n/reviews.yml'), 'utf8')).toContain('translator: fake')
+
+    const preview = await x18n(dir, [
+      'review',
+      'approve',
+      '--machine',
+      '--dry-run',
+    ])
+    expect(preview.stdout).toBe('Would approve 2 messages:\n  nav.about  de  "[de] About"  (fake)\n  pages.about.title  de  "[de] About us"  (fake)\n')
+    const approve = json(await x18n(dir, [
+      'review',
+      'approve',
+      '--machine',
+      '--author',
+      'Ada',
+      '--json',
+    ]))
+    expect(approve.data.approved).toHaveLength(2)
+    expect(approve.data.applied).toBe(true)
+    expect(json(await x18n(dir, [
+      'review',
+      'approve',
+      '--machine',
+      '--json',
+    ])).data.approved).toEqual([])
+    const batch = await x18n(dir, ['review', 'approve', '--locale', 'de'])
+    expect(batch.code).toBe(1)
+    expect(batch.stderr).toContain('pass <key>')
+  })
+
+  it('translate fails with a coded error when no translator is configured', async () => {
+    const dir = await fixture('vue-i18n')
+    const result = await x18n(dir, ['translate', '--to', 'de', '--json'])
+    expect(result.code).toBe(1)
+    expect(json(result).errors[0]).toMatchObject({ name: 'X18N6001', why: 'No translator for de' })
+  })
+
   it('keeps the JSON contract of every read command', async () => {
     const dir = await fixture('vue-i18n')
     const name = basename(dir)

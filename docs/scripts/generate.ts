@@ -355,7 +355,7 @@ function parseCli(text: string): { global: CliOption[], commands: CliCommand[] }
 
 const exitMeanings: { readonly [code: number]: string } = {
   0: 'Success. For `x18n check`: no errors, and no more warnings than `--max-warnings`.',
-  1: '`x18n check` found errors or too many warnings, `x18n apply` rejected values, or the command failed with one of these errors.',
+  1: '`x18n check` found errors or too many warnings, `x18n apply` or `x18n translate` rejected values, or the command failed with one of these errors.',
   2: 'Usage, config or plugin error. Errors without an x18n code also exit with 2.',
   3: 'A decision is needed and no answer was given. Run again with `--yes`.',
   4: 'Files changed while the command ran. Run it again.',
