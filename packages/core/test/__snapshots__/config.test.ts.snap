@@ -466,6 +466,72 @@ exports[`schemas > config schema 1`] = `
     "strict": {
       "type": "boolean",
     },
+    "translate": {
+      "additionalProperties": false,
+      "properties": {
+        "budget": {
+          "additionalProperties": false,
+          "properties": {
+            "characters": {
+              "minimum": 0,
+              "type": "integer",
+            },
+            "usd": {
+              "minimum": 0,
+              "type": "number",
+            },
+          },
+          "required": [],
+          "type": "object",
+        },
+        "cache": {
+          "type": "boolean",
+        },
+        "limit": {
+          "minimum": 1,
+          "type": "integer",
+        },
+        "locales": {
+          "additionalProperties": {
+            "items": {
+              "type": "string",
+            },
+            "type": "array",
+          },
+          "propertyNames": {
+            "type": "string",
+          },
+          "type": "object",
+        },
+        "retries": {
+          "minimum": 0,
+          "type": "integer",
+        },
+        "rules": {
+          "additionalProperties": {
+            "items": {
+              "type": "string",
+            },
+            "type": "array",
+          },
+          "propertyNames": {
+            "type": "string",
+          },
+          "type": "object",
+        },
+        "subject": {
+          "type": "string",
+        },
+        "translators": {
+          "items": {
+            "type": "string",
+          },
+          "type": "array",
+        },
+      },
+      "required": [],
+      "type": "object",
+    },
     "usage": {
       "additionalProperties": false,
       "properties": {

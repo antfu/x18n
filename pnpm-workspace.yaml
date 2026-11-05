@@ -118,6 +118,7 @@ catalogs:
     '@vitejs/devtools-kit': ^0.8.0
     '@vue/compiler-core': ^3.5.44
     '@vue/compiler-sfc': ^3.5.44
+    ai: ^7.0.0
     cac: ^7.1.0
     chokidar: ^6.0.0
     devframe: ^1.2.6

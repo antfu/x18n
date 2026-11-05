@@ -43,6 +43,7 @@ const packages = [
   'devtools',
   'lsp',
   'node',
+  'translator-ai',
   'ui',
   'vscode',
 ]

@@ -11,7 +11,7 @@ import { errors } from '../errors'
 import { isKeyUnder, keyJoiner, keySeparatorOf, replaceKeyPrefix, splitKey, splitKeyPath, splitNamespace } from '../keys'
 import { applyMessageOpsInPlace, cloneTree, isMessageLeaf, pathId, sortTree, walkLeaves } from '../message-tree'
 import { applyTextEdits, diffText, hashText } from '../text'
-import { findReview, noReviews, ReviewDraft, reviewId, sortReviews, sourceHash, valueText } from './reviews'
+import { findReview, noReviews, ReviewDraft, reviewId, sortReviews, sourceHash, valueHash, valueText } from './reviews'
 
 interface PlannerState {
   readonly revision: number
@@ -850,7 +850,17 @@ class PlanBuilder {
     if (op.locale === this.state.sourceLocale)
       this.plannedSource.set(op.key, op.value)
     else if (op.value !== '')
-      this.recordSource(op.key, op.locale)
+      this.recordSource(op.key, op.locale, op.machine !== undefined)
+    if (op.machine && op.locale !== this.state.sourceLocale) {
+      // Machine output is recorded wherever reviews are on, creating the review file: it is the only mark a format without states keeps.
+      this.reviewDraft()?.recordMachine(op.key, op.locale, {
+        translator: op.machine.translator,
+        ...op.machine.model !== undefined && { model: op.machine.model },
+        ...op.machine.prompt !== undefined && { prompt: op.machine.prompt },
+        time: op.machine.time!, // filled in by `plan`
+        value: valueHash(op.value),
+      })
+    }
     if (!this.config.write.keepFilled)
       return
     for (const locale of this.state.locales) {
@@ -1115,11 +1125,17 @@ export function createPlanner(options: PlannerOptions): Planner {
   const texts = new Map<string, ReadonlyMap<string, string | undefined>>()
   let textsRevision: number | undefined
 
-  /** Gives new reviews an id and a time, so planning again (after decisions) writes the same comments. */
+  /** Gives new reviews an id and a time, and machine records a time, so planning again (after decisions) writes the same file. */
   function withReviewIds(ops: readonly EditOp[], data: ReviewData): readonly EditOp[] {
     const used = new Set<string>()
     const time = new Date().toISOString()
     return ops.map((op) => {
+      if (op.type === 'set' && op.machine && op.machine.time === undefined) {
+        return {
+          ...op,
+          machine: { ...op.machine, time },
+        }
+      }
       if (op.type !== 'review' || (op.id !== undefined && op.time !== undefined))
         return op
       const id = op.id ?? reviewId(id => used.has(id) || findReview(data, id) !== undefined)

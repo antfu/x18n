@@ -5,9 +5,10 @@ import type { FileEvent, Host } from '../types/host'
 import type { Diagnostic, KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
 import type { FinderContext, HardString, HistoryContext, KeyFile, ParseResult, ScanResult, SourceFile } from '../types/plugin'
 import type { Analysis, KeyInfo, KeyTarget, Project, ProjectChange, ProjectExplanation, ResourceNode, SearchMatch, SearchOptions, UsageMatch } from '../types/project'
-import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
+import type { MachineRecord, ReviewData, ReviewFilter, ReviewThread } from '../types/review'
 import type { ResourceState } from './analysis'
 import type { ReviewSource } from './planner'
+import type { Translation } from './translate'
 import type { UsageResolver } from './usages'
 import { version } from '../../package.json' with { type: 'json' }
 import { errors, isX18nError, toErrorInfo } from '../errors'
@@ -18,11 +19,13 @@ import { isMessageLeaf, isMessageTree, pathId, walkLeaves } from '../message-tre
 import { extensionOf } from '../plugins'
 import { hashText, rangeContains } from '../text'
 import { createAnalyzer } from './analysis'
+import { planApprovals } from './approvals'
 import { planFixes } from './fixes'
 import { createHistory } from './history'
 import { createPlanner } from './planner'
 import { buildPrompt } from './prompt'
-import { listThreads, noReviews, sourceHash } from './reviews'
+import { listThreads, machineOf, noReviews, sourceHash } from './reviews'
+import { createTranslation } from './translate'
 import { planUnusedDeletion } from './unused'
 import { categoriesOf, createUsageResolver, derivedKeys, prefixMatches, suppressedRanges } from './usages'
 
@@ -1138,6 +1141,7 @@ export function createProject(options: CreateProjectOptions): Project {
     const keysOf = (data: ReviewData): string[] => [
       ...Object.keys(data.threads),
       ...Object.keys(data.sources),
+      ...Object.keys(data.machine ?? {}),
     ]
     const old = keysOf(reviewData)
     await loadReviews()
@@ -1248,6 +1252,11 @@ export function createProject(options: CreateProjectOptions): Project {
     revision++
   })()
 
+  const machine = (key: KeyString, locale: LocaleCode): MachineRecord | undefined => machineOf(reviewData, key, locale, message(key, locale)?.value)
+
+  // Created on first use: most runs never translate.
+  let translations: Translation | undefined
+
   const project: Project = {
     get name() {
       return config.name
@@ -1350,6 +1359,11 @@ export function createProject(options: CreateProjectOptions): Project {
     async reviewAuthor() {
       return config.review.author ?? await host.identity?.()
     },
+    machine,
+    planApprovals: query => planApprovals({ project, config, machine }, query),
+    translators: registry.translators,
+    planTranslation: translateOptions => (translations ??= createTranslation({ project, config, registry, host })).planTranslation(translateOptions),
+    translate: (job, runOptions) => (translations ??= createTranslation({ project, config, registry, host })).translate(job, runOptions),
     prompt: (kind, locale, promptOptions = {}) => buildPrompt(project, kind, locale, promptOptions, {
       config,
       fallbacks,

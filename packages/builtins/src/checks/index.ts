@@ -434,6 +434,14 @@ export const identicalToSource: Check = {
         yield { key: message.key, locale: message.locale, message: `"${message.key}" in ${message.locale} is the same as in ${ctx.sourceLocale}.` }
     }
   },
+  * message(input) {
+    const language = input.sourceLocaleInfo.language
+    if (language !== undefined && input.localeInfo.language === language)
+      return
+    const terms = new Set(input.glossary.filter(entry => entry.doNotTranslate).map(entry => entry.term.toLowerCase()))
+    if (input.value === input.source && !staysTheSame(input.value, input.placeholders(input.value), terms))
+      yield { message: `The translation is the same as the ${input.sourceLocale} source.` }
+  },
 }
 
 const caseRules: Readonly<Record<string, RegExp>> = {

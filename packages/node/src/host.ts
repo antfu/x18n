@@ -230,6 +230,7 @@ export function createNodeHost(root: string, options: NodeHostOptions = {}): Nod
       }
     },
     identity: () => identity ??= gitIdentity(absoluteRoot),
+    env: name => process.env[name],
     flush: async () => cache?.flush(),
   }
 }

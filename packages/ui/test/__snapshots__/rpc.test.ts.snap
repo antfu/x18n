@@ -1132,6 +1132,14 @@ exports[`rpc functions > explains the project 1`] = `
         },
         "sourceLocale": "en",
         "strict": false,
+        "translate": {
+          "budget": {},
+          "cache": true,
+          "limit": 200,
+          "locales": {},
+          "retries": 1,
+          "rules": {},
+        },
         "usage": {
           "calls": [
             {

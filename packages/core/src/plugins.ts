@@ -15,6 +15,7 @@ import type {
   Scanner,
 } from './types/plugin'
 import type { ReviewStore } from './types/review'
+import type { Translator } from './types/translate'
 import { errors } from './errors'
 
 export function isPreset(value: Plugin | Preset): value is Preset {
@@ -43,6 +44,8 @@ export interface PluginRegistry {
   readonly extractors: readonly Extractor[]
   readonly histories: readonly HistoryProvider[]
   readonly reviewStores: readonly ReviewStore[]
+  /** By id, in plugin order. */
+  readonly translators: ReadonlyMap<string, Translator>
   readonly conflicts: readonly CapabilityConflict[]
   /** The loaded format for a file path: config `formats` first, then the first format that claims the extension. */
   readonly formatFor: (path: string, hint?: string) => Format | undefined
@@ -102,6 +105,7 @@ export function createRegistry(input: readonly Plugin[], config: Pick<ResolvedCo
   ]
   const checks = uniqueById(plugins.flatMap(plugin => plugin.checks ?? []), 'Check')
   const reporters = uniqueById(plugins.flatMap(plugin => plugin.reporters ?? []), 'Reporter')
+  const translators = uniqueById(plugins.flatMap(plugin => plugin.translators ?? []), 'Translator')
   const conflicts: CapabilityConflict[] = []
 
   const byExtension = new Map<string, Format | LazyFormat>()
@@ -197,6 +201,7 @@ export function createRegistry(input: readonly Plugin[], config: Pick<ResolvedCo
     extractors: plugins.flatMap(plugin => plugin.extractors ?? []),
     histories: plugins.flatMap(plugin => plugin.histories ?? []),
     reviewStores: plugins.flatMap(plugin => plugin.reviewStores ?? []),
+    translators,
     conflicts,
     formatById,
     formatIdFor,

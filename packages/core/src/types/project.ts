@@ -19,7 +19,8 @@ import type {
   Usage,
 } from './model'
 import type { HardString, LocaleCoverage, MessageChange, PlaceholderSyntax, Reporter, ScanResult } from './plugin'
-import type { ReviewAuthor, ReviewFilter, ReviewThread } from './review'
+import type { ApprovalPlan, ApprovalQuery, MachineRecord, ReviewAuthor, ReviewFilter, ReviewThread } from './review'
+import type { TranslationJob, TranslationOptions, TranslationRun, Translator } from './translate'
 
 export interface KeyQuery {
   /** Key glob: `*` inside a segment, `**` across segments. */
@@ -252,6 +253,16 @@ export interface Project {
   readonly reviewFile: string | undefined
   /** Author of new reviews: config `review.author`, else the host identity. */
   readonly reviewAuthor: () => Promise<ReviewAuthor | undefined>
+  /** Where a machine-translated message came from, while no human changed or approved its value. */
+  readonly machine: (key: KeyString, locale: LocaleCode) => MachineRecord | undefined
+  /** Plans many approvals at once (`x18n review approve <glob>`). The query MUST narrow the selection. */
+  readonly planApprovals: (query: ApprovalQuery) => ApprovalPlan
+  /** The translators of the plugins, by id, in plugin order. */
+  readonly translators: ReadonlyMap<string, Translator>
+  /** Selects, routes and estimates a translation run. No translator is called. */
+  readonly planTranslation: (options: TranslationOptions) => Promise<TranslationJob>
+  /** Runs a planned job. Events stream as batches finish; `result` holds the plan to apply. */
+  readonly translate: (job: TranslationJob, options?: { readonly signal?: AbortSignal | undefined }) => TranslationRun
   /** Parts of a translate or review prompt for an agent or LLM; render with `renderPrompt`. */
   readonly prompt: (kind: 'translate' | 'review', locale: LocaleCode, options?: PromptOptions) => PromptData
   readonly explain: () => ProjectExplanation

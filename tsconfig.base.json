@@ -28,6 +28,9 @@
       "@x18n/ui": [
         "./packages/ui/src/node/index.ts"
       ],
+      "@x18n/translator-ai": [
+        "./packages/translator-ai/src/index.ts"
+      ],
       "@x18n/cli": [
         "./packages/cli/src/index.ts"
       ],

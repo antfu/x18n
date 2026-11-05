@@ -42,3 +42,6 @@ The first digit is the group:
 | [X18N5003](/errors/x18n5003) | Reviews are not available | `1` |
 | [X18N5004](/errors/x18n5004) | Review not found | `1` |
 | [X18N5005](/errors/x18n5005) | Not an open suggestion | `1` |
+| [X18N5006](/errors/x18n5006) | Batch approval is not narrowed | `1` |
+| [X18N6001](/errors/x18n6001) | No translator | `1` |
+| [X18N6002](/errors/x18n6002) | Unknown translator | `1` |
