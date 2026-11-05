@@ -1,0 +1,18 @@
+{
+  "hash": "128e972d8d18b3d9",
+  "source": "Browse and edit every key across locales in the browser with x18n ui, or publish a read-only report with x18n build.",
+  "text": "Durchsuche und bearbeite jeden Schlüssel über alle Sprachen hinweg im Browser mit x18n ui oder veröffentliche einen schreibgeschützten Bericht mit x18n build.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Durchsuche und bearbeite jeden Schlüssel über alle Sprachen hinweg im Browser mit x18n ui oder veröffentliche einen schreibgeschützten Bericht mit x18n build."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

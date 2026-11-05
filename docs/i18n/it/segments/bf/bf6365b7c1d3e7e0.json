@@ -1,0 +1,18 @@
+{
+  "hash": "bf6365b7c1d3e7e0",
+  "source": "Extensions: {0}Chrome and WebExtensions{/0} and {1}VS Code{/1} ({2} and {3})",
+  "text": "Estensioni: {0}Chrome e WebExtensions{/0} e {1}VS Code{/1} ({2} e {3})",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estensioni: {0}Chrome e WebExtensions{/0} e {1}VS Code{/1} ({2} e {3})"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

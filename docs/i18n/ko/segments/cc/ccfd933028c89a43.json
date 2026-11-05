@@ -1,0 +1,18 @@
+{
+  "hash": "ccfd933028c89a43",
+  "source": "In Vue templates, the preset also reads the {0} directive and the {1} component:",
+  "text": "Vue 템플릿에서 이 프리셋은 {0} 디렉티브와 {1} 컴포넌트도 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Vue 템플릿에서 이 프리셋은 {0} 디렉티브와 {1} 컴포넌트도 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

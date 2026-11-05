@@ -1,0 +1,18 @@
+{
+  "hash": "0f1ba7709ad68748",
+  "source": "Write the current diagnostics into the baseline",
+  "text": "Escribe los diagnósticos actuales en el baseline",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Escribe los diagnósticos actuales en el baseline"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

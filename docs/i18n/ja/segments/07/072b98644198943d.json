@@ -1,0 +1,18 @@
+{
+  "hash": "072b98644198943d",
+  "source": "The same in an inline Angular {0} in double quotes, which takes {1} ({2})",
+  "text": "二重引用符で囲まれたインライン Angular {0} 内の同様のもの。{1} を使用します（{2}）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "二重引用符で囲まれたインライン Angular {0} 内の同様のもの。{1} を使用します（{2}）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

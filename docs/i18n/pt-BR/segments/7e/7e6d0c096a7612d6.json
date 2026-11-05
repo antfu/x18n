@@ -1,0 +1,18 @@
+{
+  "hash": "7e6d0c096a7612d6",
+  "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
+  "text": "Estilo de chave de um arquivo que ainda não tem chaves. {0} grava chaves {1}. {2} e {3} gravam objetos aninhados. Um arquivo que já tem chaves mantém o próprio estilo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estilo de chave de um arquivo que ainda não tem chaves. {0} grava chaves {1}. {2} e {3} gravam objetos aninhados. Um arquivo que já tem chaves mantém o próprio estilo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "0afad17d174061e7",
+  "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
+  "text": "依任一語系中的值找出鍵，除非使用 {0}，否則為模糊比對，並附上其使用處。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "依任一語系中的值找出鍵，除非使用 {0}，否則為模糊比對，並附上其使用處。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

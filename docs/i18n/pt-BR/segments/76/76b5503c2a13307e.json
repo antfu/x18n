@@ -1,0 +1,18 @@
+{
+  "hash": "76b5503c2a13307e",
+  "source": "The {0} settings set the colors and borders of in-place values and missing keys. Empty settings use the colors of your theme.",
+  "text": "As configurações {0} definem as cores e as bordas dos valores no próprio código e das chaves ausentes. Configurações vazias usam as cores do seu tema.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "As configurações {0} definem as cores e as bordas dos valores no próprio código e das chaves ausentes. Configurações vazias usam as cores do seu tema."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

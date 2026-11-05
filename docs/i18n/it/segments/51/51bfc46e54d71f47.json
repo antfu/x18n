@@ -1,0 +1,18 @@
+{
+  "hash": "51bfc46e54d71f47",
+  "source": "File globs the template applies to.",
+  "text": "Glob di file a cui si applica il template.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Glob di file a cui si applica il template."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

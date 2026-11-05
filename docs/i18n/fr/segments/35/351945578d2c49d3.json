@@ -1,0 +1,18 @@
+{
+  "hash": "351945578d2c49d3",
+  "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
+  "text": "Code de remplacement. {0} est la clé, {1} le nom de l'attribut, {2} les arguments d'une chaîne de modèle, {3} le message de la chaîne en dur, pour une valeur par défaut, {4} le texte tel qu'il est écrit dans le fichier, et {5} le message comme corps d'une chaîne de modèle. {6} et {7} sont échappés pour les guillemets qui les entourent.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Code de remplacement. {0} est la clé, {1} le nom de l'attribut, {2} les arguments d'une chaîne de modèle, {3} le message de la chaîne en dur, pour une valeur par défaut, {4} le texte tel qu'il est écrit dans le fichier, et {5} le message comme corps d'une chaîne de modèle. {6} et {7} sont échappés pour les guillemets qui les entourent."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

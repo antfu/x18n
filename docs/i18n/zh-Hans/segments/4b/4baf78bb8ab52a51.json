@@ -1,0 +1,18 @@
+{
+  "hash": "4baf78bb8ab52a51",
+  "source": "In {0}, {1}, {2} and {3} templates, the preset reads the same calls, as in Jinja {4}, and the Django tags {5} and {6}, also with {7} or {8}.",
+  "text": "在 {0}、{1}、{2} 和 {3} 模板中，该预设会读取相同的调用（如 Jinja {4}），以及 Django 标签 {5} 和 {6}，也包括带 {7} 或 {8} 的形式。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 {0}、{1}、{2} 和 {3} 模板中，该预设会读取相同的调用（如 Jinja {4}），以及 Django 标签 {5} 和 {6}，也包括带 {7} 或 {8} 的形式。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "a91fde33ed81f850",
+  "source": "Strings never extracted in the files of a glob, written as in {0}.",
+  "text": "glob に一致するファイルで抽出しない文字列です。{0} と同じ書式で指定します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "glob に一致するファイルで抽出しない文字列です。{0} と同じ書式で指定します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

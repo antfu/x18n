@@ -1,0 +1,18 @@
+{
+  "hash": "7b6c2b7edbfa01c2",
+  "source": "Typed config keys",
+  "text": "타입이 지정된 설정 키",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "타입이 지정된 설정 키"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

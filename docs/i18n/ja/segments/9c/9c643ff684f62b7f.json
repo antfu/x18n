@@ -1,0 +1,18 @@
+{
+  "hash": "9c643ff684f62b7f",
+  "source": "Setup and check prompts",
+  "text": "セットアップとチェックのプロンプト",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "セットアップとチェックのプロンプト"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

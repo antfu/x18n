@@ -1,0 +1,18 @@
+{
+  "hash": "ae9f2b97ee603869",
+  "source": "{0} needs {1} (or {2} to read stdin).",
+  "text": "{0}에는 {1}이(가) 필요합니다(stdin에서 읽으려면 {2} 사용).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}에는 {1}이(가) 필요합니다(stdin에서 읽으려면 {2} 사용)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

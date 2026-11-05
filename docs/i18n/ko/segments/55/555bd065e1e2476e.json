@@ -1,0 +1,18 @@
+{
+  "hash": "555bd065e1e2476e",
+  "source": "Print the parts as data, for tools that build their own prompt. {0} does the same.",
+  "text": "자체 프롬프트를 만드는 도구를 위해 각 구성 요소를 데이터로 출력합니다. {0}도 같은 동작을 합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "자체 프롬프트를 만드는 도구를 위해 각 구성 요소를 데이터로 출력합니다. {0}도 같은 동작을 합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

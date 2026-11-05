@@ -1,0 +1,18 @@
+{
+  "hash": "2193c4d9441b354e",
+  "source": "Other forms per locale, matched at the start of a word: inflections and compound stems of the translation, or of the term under the source locale.",
+  "text": "各語系的其他形式，以單字開頭進行比對：包含翻譯的詞形變化與複合詞詞幹，或來源語系下該詞彙的詞形變化與複合詞詞幹。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各語系的其他形式，以單字開頭進行比對：包含翻譯的詞形變化與複合詞詞幹，或來源語系下該詞彙的詞形變化與複合詞詞幹。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,12 @@
+rules:
+  - 'Address the reader as "vous" and use the imperative for instructions ("Lancez", "Ajoutez").'
+  - 'Use sentence case in headings, titles and labels.'
+  - Use French quotation marks (« ») for quoted prose.
+  - 'Keep code identifiers, file and directory names, package names, CLI commands and flags, configuration keys, check ids and error codes in English.'
+  - 'Keep the names of i18n libraries and frameworks (vue-i18n, i18next, next-intl, Nuxt, React, Angular, ...) in English.'
+  - Translate headings concisely; do not add terminal punctuation to headings.
+# A narrow no-break space (U+202F) before ; : ! ? » and after «, applied to machine output
+# after translation.
+typography:
+  spaceBefore: ';:!?»'
+  spaceAfter: «

@@ -1,0 +1,18 @@
+{
+  "hash": "0d188600804ad3c8",
+  "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
+  "text": "Substitui as chaves no código pelo valor no idioma de exibição. A chave original aparece na linha do cursor e dentro de seleções.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Substitui as chaves no código pelo valor no idioma de exibição. A chave original aparece na linha do cursor e dentro de seleções."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

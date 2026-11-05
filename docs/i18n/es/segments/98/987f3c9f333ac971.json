@@ -1,0 +1,18 @@
+{
+  "hash": "987f3c9f333ac971",
+  "source": "{0} without children renders the message as text. The {1} templates need {2} in the component. A string outside a component, such as a module-level constant, has no {3}: move it into the component before you extract it.",
+  "text": "{0} sin hijos renderiza el mensaje como texto. Las plantillas {1} necesitan {2} en el componente. Una cadena fuera de un componente, como una constante a nivel de módulo, no tiene {3}: muévela al componente antes de extraerla.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} sin hijos renderiza el mensaje como texto. Las plantillas {1} necesitan {2} en el componente. Una cadena fuera de un componente, como una constante a nivel de módulo, no tiene {3}: muévela al componente antes de extraerla."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

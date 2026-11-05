@@ -1,0 +1,18 @@
+{
+  "hash": "43f1c263a752e9d6",
+  "source": "x18n reads a locale file without running it. The file must hold one static object, as the typesafe-i18n generator writes it:",
+  "text": "x18n liest eine Sprachdatei, ohne sie auszuführen. Die Datei muss ein statisches Objekt enthalten, so wie es der typesafe-i18n-Generator schreibt:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n liest eine Sprachdatei, ohne sie auszuführen. Die Datei muss ein statisches Objekt enthalten, so wie es der typesafe-i18n-Generator schreibt:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

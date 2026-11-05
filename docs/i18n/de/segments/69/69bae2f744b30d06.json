@@ -1,0 +1,18 @@
+{
+  "hash": "69bae2f744b30d06",
+  "source": "A locale file has a syntax error. The message names the file and the position.",
+  "text": "Eine Sprachdatei enthält einen Syntaxfehler. Die Meldung nennt die Datei und die Position.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Sprachdatei enthält einen Syntaxfehler. Die Meldung nennt die Datei und die Position."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

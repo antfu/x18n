@@ -1,0 +1,18 @@
+{
+  "hash": "a9b9c7d63d8d6347",
+  "source": "It needs a preset that tells where the params of a call are; the i18next presets do. Options the library reads itself, such as i18next {0}, {1} and {2}, are never unused. Unused params are reported only when the message has placeholders and no nested messages ({3}), which may use them.",
+  "text": "此檢查需要能指出呼叫參數位置的預設集，i18next 的預設集即具備這項功能。函式庫本身會讀取的選項，例如 i18next 的 {0}、{1} 和 {2}，一律不會被視為未使用。只有當訊息含有佔位符且沒有巢狀訊息（{3}）時，才會回報未使用的參數，因為巢狀訊息可能會用到這些參數。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此檢查需要能指出呼叫參數位置的預設集，i18next 的預設集即具備這項功能。函式庫本身會讀取的選項，例如 i18next 的 {0}、{1} 和 {2}，一律不會被視為未使用。只有當訊息含有佔位符且沒有巢狀訊息（{3}）時，才會回報未使用的參數，因為巢狀訊息可能會用到這些參數。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

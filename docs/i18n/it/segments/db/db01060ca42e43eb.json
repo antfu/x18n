@@ -1,0 +1,18 @@
+{
+  "hash": "db01060ca42e43eb",
+  "source": "For a factory: the names of the returned functions. Default {0}.",
+  "text": "Per una factory: i nomi delle funzioni restituite. Il valore predefinito è {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Per una factory: i nomi delle funzioni restituite. Il valore predefinito è {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

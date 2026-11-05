@@ -1,0 +1,18 @@
+{
+  "hash": "f4d7117b7b958485",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5} and {6}. As in Laravel, a slash in the key becomes a dot.",
+  "text": "以下名稱會視為翻譯呼叫：{0}、{1}、{2}、{3}、{4}、{5} 和 {6}。與 Laravel 相同，鍵中的斜線會變成點。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以下名稱會視為翻譯呼叫：{0}、{1}、{2}、{3}、{4}、{5} 和 {6}。與 Laravel 相同，鍵中的斜線會變成點。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "29bd391cb38bdf40",
+  "source": "Find keys by their value, best match first: the key behind a text seen in the app. Searches every locale, ignoring case, and matches fuzzily unless {0}. Each match has the matched locale and value, and the usages in code with file, line and column.",
+  "text": "값으로 키를 찾으며, 가장 잘 일치하는 항목이 먼저 나옵니다. 앱에서 본 텍스트에 해당하는 키를 찾는 데 사용합니다. 모든 로케일에서 대소문자를 구분하지 않고 검색하며, {0}이 아니면 퍼지 매칭을 수행합니다. 각 결과에는 일치한 로케일과 값, 그리고 코드 내 사용처(파일, 줄, 열)가 포함됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "값으로 키를 찾으며, 가장 잘 일치하는 항목이 먼저 나옵니다. 앱에서 본 텍스트에 해당하는 키를 찾는 데 사용합니다. 모든 로케일에서 대소문자를 구분하지 않고 검색하며, {0}이 아니면 퍼지 매칭을 수행합니다. 각 결과에는 일치한 로케일과 값, 그리고 코드 내 사용처(파일, 줄, 열)가 포함됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

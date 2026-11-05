@@ -1,0 +1,18 @@
+{
+  "hash": "314dc23bdaade2f6",
+  "source": "An optional locale. A file without it belongs to the source locale.",
+  "text": "可选的语言。不带语言的文件属于源语言。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "可选的语言。不带语言的文件属于源语言。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

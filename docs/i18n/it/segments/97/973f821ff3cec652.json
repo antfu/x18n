@@ -1,0 +1,18 @@
+{
+  "hash": "973f821ff3cec652",
+  "source": "Lines added once per file when missing, for example an import.",
+  "text": "Righe aggiunte una sola volta per file quando mancano, ad esempio un import.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Righe aggiunte una sola volta per file quando mancano, ad esempio un import."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

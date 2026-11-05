@@ -1,0 +1,18 @@
+{
+  "hash": "4722e512c210f04e",
+  "source": "The preset applies when the project has a {0}, {1} or {2} file and a {3} file.",
+  "text": "当项目中有 {0}、{1} 或 {2} 文件以及 {3} 文件时，该预设生效。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当项目中有 {0}、{1} 或 {2} 文件以及 {3} 文件时，该预设生效。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

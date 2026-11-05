@@ -1,0 +1,18 @@
+{
+  "hash": "67cebadbd465a3a0",
+  "source": "A plural message is a key with the sub-keys {0}, {1}, {2} and {3}. When a usage names the key, these sub-keys count as used.",
+  "text": "Uma mensagem plural é uma chave com as subchaves {0}, {1}, {2} e {3}. Quando um uso nomeia a chave, essas subchaves contam como usadas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma mensagem plural é uma chave com as subchaves {0}, {1}, {2} e {3}. Quando um uso nomeia a chave, essas subchaves contam como usadas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

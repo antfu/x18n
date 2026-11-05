@@ -1,0 +1,18 @@
+{
+  "hash": "60297f312e74ba26",
+  "source": "Unused keys left alone because fully dynamic usages in a scope may reach them, sorted.",
+  "text": "Chaves não usadas mantidas porque usos totalmente dinâmicos em um escopo podem alcançá-las, ordenadas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaves não usadas mantidas porque usos totalmente dinâmicos em um escopo podem alcançá-las, ordenadas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

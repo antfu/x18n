@@ -1,0 +1,18 @@
+{
+  "hash": "73634f0dd47ae6cd",
+  "source": "x18n follows this for page components. In {0}, {1} is {2} when {3} has {4}. Otherwise it is the global key {5}. The route name comes from the file path, as in Nuxt: {6} is {7}, {8} is {9}, and the route group in {10} is left out, so the route is {11}. Page components are the {12} files in {13} or {14} at the project root.",
+  "text": "x18n은 페이지 컴포넌트에 대해 이 동작을 따릅니다. {0}에서 {3}에 {4}이(가) 있으면 {1}은(는) {2}입니다. 그렇지 않으면 전역 키 {5}입니다. 라우트 이름은 Nuxt와 마찬가지로 파일 경로에서 가져옵니다. {6}은(는) {7}이고, {8}은(는) {9}이며, {10}의 라우트 그룹은 제외되므로 라우트는 {11}입니다. 페이지 컴포넌트는 프로젝트 루트의 {13} 또는 {14}에 있는 {12} 파일입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 페이지 컴포넌트에 대해 이 동작을 따릅니다. {0}에서 {3}에 {4}이(가) 있으면 {1}은(는) {2}입니다. 그렇지 않으면 전역 키 {5}입니다. 라우트 이름은 Nuxt와 마찬가지로 파일 경로에서 가져옵니다. {6}은(는) {7}이고, {8}은(는) {9}이며, {10}의 라우트 그룹은 제외되므로 라우트는 {11}입니다. 페이지 컴포넌트는 프로젝트 루트의 {13} 또는 {14}에 있는 {12} 파일입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

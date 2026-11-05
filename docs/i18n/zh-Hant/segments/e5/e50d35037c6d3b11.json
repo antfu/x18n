@@ -1,0 +1,18 @@
+{
+  "hash": "e50d35037c6d3b11",
+  "source": "The preset for typesafe-i18n. It reads LL.key() calls and the src/i18n/{locale}/index.ts locale files.",
+  "text": "typesafe-i18n 的預設集。它會讀取 LL.key() 呼叫以及 src/i18n/{locale}/index.ts 語系檔案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "typesafe-i18n 的預設集。它會讀取 LL.key() 呼叫以及 src/i18n/{locale}/index.ts 語系檔案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "fbc86fcac8a19f53",
+  "source": "If you ever enjoyed i18n-ally, x18n is a more powerful and a lot more robust version of it, and I highly recommend that you {0}migrate{/0}. If you have never used it, give it a try with {1}Getting started{/1}.",
+  "text": "Se hai mai apprezzato i18n-ally, x18n ne è una versione più potente e molto più robusta, e ti consiglio vivamente di {0}migrare{/0}. Se non l'hai mai usato, provalo con {1}Per iniziare{/1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se hai mai apprezzato i18n-ally, x18n ne è una versione più potente e molto più robusta, e ti consiglio vivamente di {0}migrare{/0}. Se non l'hai mai usato, provalo con {1}Per iniziare{/1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

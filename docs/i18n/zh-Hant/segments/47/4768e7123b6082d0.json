@@ -1,0 +1,18 @@
+{
+  "hash": "4768e7123b6082d0",
+  "source": "XLIFF 1.2 and 2.0. Each unit id is a key. A file with a target language or a {0} reads its targets, otherwise its sources. Placeholders read as {1}. The {2} and {3} notes describe a unit, and the {4} of a target (1.2) or segment (2.0) is its translation state.",
+  "text": "XLIFF 1.2 和 2.0。每個單元 id 都是一個鍵。具有目標語言或 {0} 的檔案會讀取其目標文字，否則讀取來源文字。佔位符讀作 {1}。{2} 和 {3} 備註用於說明單元，而目標（1.2）或片段（2.0）的 {4} 則是其翻譯狀態。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "XLIFF 1.2 和 2.0。每個單元 id 都是一個鍵。具有目標語言或 {0} 的檔案會讀取其目標文字，否則讀取來源文字。佔位符讀作 {1}。{2} 和 {3} 備註用於說明單元，而目標（1.2）或片段（2.0）的 {4} 則是其翻譯狀態。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

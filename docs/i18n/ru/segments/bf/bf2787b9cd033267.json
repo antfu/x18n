@@ -1,0 +1,18 @@
+{
+  "hash": "bf2787b9cd033267",
+  "source": "The files use relative paths. Serve the directory from any static host and any path, for example GitHub Pages or the artifacts of a CI job. See {0}CI{/0}.",
+  "text": "Файлы используют относительные пути. Раздавайте каталог с любого статического хостинга и по любому пути, например через GitHub Pages или артефакты задачи CI. См. {0}CI{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Файлы используют относительные пути. Раздавайте каталог с любого статического хостинга и по любому пути, например через GitHub Pages или артефакты задачи CI. См. {0}CI{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8e844d11f700550c",
+  "source": "elements whose content is translated already: {0} and {1}, Angular's {2} (and the attributes named in {3}), and {4},",
+  "text": "элементы, содержимое которых уже переведено: {0} и {1}, {2} из Angular (и атрибуты, указанные в {3}), а также {4},",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "элементы, содержимое которых уже переведено: {0} и {1}, {2} из Angular (и атрибуты, указанные в {3}), а также {4},"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

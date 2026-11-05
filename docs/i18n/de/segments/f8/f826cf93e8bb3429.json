@@ -1,0 +1,18 @@
+{
+  "hash": "f826cf93e8bb3429",
+  "source": "The value of a message in a related locale is a good start for a translation: {0} when translating to {1}, {2} when translating to {3}. The prompt shows up to two of them under the source value:",
+  "text": "Der Wert einer message in einer verwandten Sprache ist ein guter Ausgangspunkt für eine Übersetzung: {0} bei der Übersetzung nach {1}, {2} bei der Übersetzung nach {3}. Der Prompt zeigt bis zu zwei davon unter dem Quellwert:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Wert einer message in einer verwandten Sprache ist ein guter Ausgangspunkt für eine Übersetzung: {0} bei der Übersetzung nach {1}, {2} bei der Übersetzung nach {3}. Der Prompt zeigt bis zu zwei davon unter dem Quellwert:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "1c04251131034fd2",
+  "source": "{0} turns every preset off. See {1}Presets{/1} for the names, and for the preset functions in {2}.",
+  "text": "{0} 会关闭所有预设。预设的名称以及 {2} 中的预设函数，请参阅{1}预设{/1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会关闭所有预设。预设的名称以及 {2} 中的预设函数，请参阅{1}预设{/1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

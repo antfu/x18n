@@ -1,0 +1,18 @@
+{
+  "hash": "91c5158b6bf74499",
+  "source": "Only usages in a file",
+  "text": "ファイル内の使用箇所のみ",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイル内の使用箇所のみ"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

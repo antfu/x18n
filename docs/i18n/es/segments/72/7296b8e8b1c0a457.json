@@ -1,0 +1,18 @@
+{
+  "hash": "7296b8e8b1c0a457",
+  "source": "The comment: what is wrong, or why.",
+  "text": "El comentario: qué está mal, o por qué.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El comentario: qué está mal, o por qué."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

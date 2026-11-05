@@ -1,0 +1,18 @@
+{
+  "hash": "5393a8d76b072408",
+  "source": "Callee names never counted as translate calls.",
+  "text": "永远不会被视为翻译调用的被调用者名称。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "永远不会被视为翻译调用的被调用者名称。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

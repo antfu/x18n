@@ -1,0 +1,18 @@
+{
+  "hash": "89647556190c05b7",
+  "source": "A dynamic usage with a static prefix ({0}pages.$\\{id\\}.title{1}). It makes every key under the prefix \"possibly\" used.",
+  "text": "정적 접두사가 있는 동적 사용처({0}pages.$\\{id\\}.title{1})입니다. 접두사 아래의 모든 키가 \"사용되었을 가능성이 있는\" 키가 됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "정적 접두사가 있는 동적 사용처({0}pages.$\\{id\\}.title{1})입니다. 접두사 아래의 모든 키가 \"사용되었을 가능성이 있는\" 키가 됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

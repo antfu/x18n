@@ -1,0 +1,18 @@
+{
+  "hash": "9e007d18bf9b5919",
+  "source": "{0} writes this file, and {1} reads it back after you edit it:",
+  "text": "{0} schreibt diese Datei, und {1} liest sie nach deiner Bearbeitung wieder ein:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} schreibt diese Datei, und {1} liest sie nach deiner Bearbeitung wieder ein:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d66eb187e2fab855",
+  "source": "A usage is one place in source code that uses a key. In the example, {0} is a usage of {1}. A scanner finds usages. The built-in scanners read JS, TS, JSX, Vue, Svelte and Astro files. For other file types, such as PHP templates, add a regex scanner in {2}.",
+  "text": "使用處是原始碼中使用某個鍵的一個位置。在此範例中，{0} 是 {1} 的一個使用處。掃描器負責找出使用處。內建的掃描器可讀取 JS、TS、JSX、Vue、Svelte 與 Astro 檔案。若是其他檔案類型，例如 PHP 範本，請在 {2} 中新增正規表示式掃描器。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用處是原始碼中使用某個鍵的一個位置。在此範例中，{0} 是 {1} 的一個使用處。掃描器負責找出使用處。內建的掃描器可讀取 JS、TS、JSX、Vue、Svelte 與 Astro 檔案。若是其他檔案類型，例如 PHP 範本，請在 {2} 中新增正規表示式掃描器。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

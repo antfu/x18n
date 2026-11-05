@@ -1,0 +1,18 @@
+{
+  "hash": "319557525d2ab6ab",
+  "source": "Add a library, a file format or a check with a YAML file, or with a typed TypeScript plugin.",
+  "text": "Adicione uma biblioteca, um formato de arquivo ou uma verificação com um arquivo YAML ou com um plugin TypeScript tipado.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Adicione uma biblioteca, um formato de arquivo ou uma verificação com um arquivo YAML ou com um plugin TypeScript tipado."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

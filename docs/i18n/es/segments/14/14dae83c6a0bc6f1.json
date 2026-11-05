@@ -1,0 +1,18 @@
+{
+  "hash": "14dae83c6a0bc6f1",
+  "source": "If your config has no {0}, the preset uses {1} and {2}.",
+  "text": "Si tu configuración no tiene {0}, el preset usa {1} y {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si tu configuración no tiene {0}, el preset usa {1} y {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

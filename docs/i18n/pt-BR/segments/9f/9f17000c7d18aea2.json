@@ -1,0 +1,18 @@
+{
+  "hash": "9f17000c7d18aea2",
+  "source": "Review file could not be read",
+  "text": "Não foi possível ler o arquivo de revisões",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Não foi possível ler o arquivo de revisões"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

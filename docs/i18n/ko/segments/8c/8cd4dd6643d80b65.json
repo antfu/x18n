@@ -1,0 +1,18 @@
+{
+  "hash": "8cd4dd6643d80b65",
+  "source": "{0} shows where x18n found a key and its usages. If a usage is missing, the scanner does not know the callee. Add it to {1} or to the plugin.",
+  "text": "{0}은(는) x18n이 키와 그 사용처를 어디서 찾았는지 보여줍니다. 사용처가 누락되었다면 스캐너가 해당 호출 대상을 모르는 것입니다. {1} 또는 플러그인에 추가하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) x18n이 키와 그 사용처를 어디서 찾았는지 보여줍니다. 사용처가 누락되었다면 스캐너가 해당 호출 대상을 모르는 것입니다. {1} 또는 플러그인에 추가하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

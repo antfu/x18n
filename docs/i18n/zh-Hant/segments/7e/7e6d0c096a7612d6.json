@@ -1,0 +1,18 @@
+{
+  "hash": "7e6d0c096a7612d6",
+  "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
+  "text": "尚未有任何鍵的檔案所用的鍵風格。{0} 會寫入 {1} 鍵。{2} 和 {3} 會寫入巢狀物件。已有鍵的檔案會保留自己的風格。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "尚未有任何鍵的檔案所用的鍵風格。{0} 會寫入 {1} 鍵。{2} 和 {3} 會寫入巢狀物件。已有鍵的檔案會保留自己的風格。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

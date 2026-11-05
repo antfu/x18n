@@ -1,0 +1,18 @@
+{
+  "hash": "5f3cc6cd6bed1d19",
+  "source": "This file has the key {0}. A file in a subdirectory, such as {1}, gives keys such as {2}. In a JSON file, such as {3}, each key is a whole sentence: {4}. The JSON patterns set {5}, so a sentence such as {6} is one key and x18n writes it as one property, while the PHP files keep {7} as the key separator.",
+  "text": "이 파일에는 키 {0}이(가) 있습니다. {1}처럼 하위 디렉터리에 있는 파일은 {2} 같은 키를 만듭니다. {3}처럼 JSON 파일에서는 각 키가 문장 전체입니다: {4}. JSON 패턴은 {5}을(를) 설정하므로 {6} 같은 문장은 하나의 키가 되며 x18n은 이를 하나의 속성으로 기록합니다. 반면 PHP 파일은 {7}을(를) 키 구분자로 유지합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 파일에는 키 {0}이(가) 있습니다. {1}처럼 하위 디렉터리에 있는 파일은 {2} 같은 키를 만듭니다. {3}처럼 JSON 파일에서는 각 키가 문장 전체입니다: {4}. JSON 패턴은 {5}을(를) 설정하므로 {6} 같은 문장은 하나의 키가 되며 x18n은 이를 하나의 속성으로 기록합니다. 반면 PHP 파일은 {7}을(를) 키 구분자로 유지합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

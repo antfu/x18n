@@ -1,0 +1,18 @@
+{
+  "hash": "201cdc5e471e0870",
+  "source": "Locale file is not static. Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.",
+  "text": "Файл локали не является статическим. Используйте JSON или YAML либо включите выполнение с помощью `execute: true` в шаблоне ресурса.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Файл локали не является статическим. Используйте JSON или YAML либо включите выполнение с помощью `execute: true` в шаблоне ресурса."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "3bde57c55a0ceb4e",
+  "source": "These values replace what the preset finds in the init code. The x18n config wins over both.",
+  "text": "這些值會取代此預設集在初始化程式碼中找到的內容。x18n 設定的優先順序高於兩者。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "這些值會取代此預設集在初始化程式碼中找到的內容。x18n 設定的優先順序高於兩者。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

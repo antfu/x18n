@@ -1,0 +1,18 @@
+{
+  "hash": "d5c5446134ca8ebb",
+  "source": "Only usages of this key.",
+  "text": "Только использования этого ключа.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только использования этого ключа."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

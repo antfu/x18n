@@ -1,0 +1,18 @@
+{
+  "hash": "0f1ba71127a11d80",
+  "source": "With the i18next option {0}, a key such as {1} is literal: the {2} does not split it. The preset reads {3} and {4} from the init code and sets {5}, and {6} for {7}, so {8} is a key and not the namespace {9}. A string, such as {10}, becomes the key separator. Set {11} in the config to override it.",
+  "text": "使用 i18next 選項 {0} 時，像 {1} 這樣的鍵會被視為字面值：{2} 不會將它拆開。此預設集會從初始化程式碼讀取 {3} 和 {4}，並設定 {5}，以及針對 {7} 設定 {6}，因此 {8} 是一個鍵，而不是命名空間 {9}。字串（例如 {10}）會成為鍵分隔符號。在設定中設定 {11} 即可覆寫。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 i18next 選項 {0} 時，像 {1} 這樣的鍵會被視為字面值：{2} 不會將它拆開。此預設集會從初始化程式碼讀取 {3} 和 {4}，並設定 {5}，以及針對 {7} 設定 {6}，因此 {8} 是一個鍵，而不是命名空間 {9}。字串（例如 {10}）會成為鍵分隔符號。在設定中設定 {11} 即可覆寫。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ed38513bdd75fdd0",
+  "source": "{0}Nuxt DevTools{/0} 4 and later",
+  "text": "{0}Nuxt DevTools{/0} 4 e successivi",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Nuxt DevTools{/0} 4 e successivi"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

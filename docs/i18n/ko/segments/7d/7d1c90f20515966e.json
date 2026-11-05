@@ -1,0 +1,18 @@
+{
+  "hash": "7d1c90f20515966e",
+  "source": "The agent checks what x18n detects with {0}, writes a config only when detection needs help, adds {1} to the scripts, and reports the first {2} result. It asks you about the source locale, the locales, the config format and CI.",
+  "text": "에이전트는 {0}(으)로 x18n이 감지한 내용을 확인하고, 감지만으로 부족할 때만 설정 파일을 작성하며, scripts에 {1}을(를) 추가하고 첫 {2} 결과를 보고합니다. 소스 로케일, 로케일, 설정 형식, CI에 대해서는 사용자에게 질문합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에이전트는 {0}(으)로 x18n이 감지한 내용을 확인하고, 감지만으로 부족할 때만 설정 파일을 작성하며, scripts에 {1}을(를) 추가하고 첫 {2} 결과를 보고합니다. 소스 로케일, 로케일, 설정 형식, CI에 대해서는 사용자에게 질문합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "4c4fd19e3a15e683",
+  "source": "The open comments decide the state of a thread. The last open approval or change request wins: an approval after a change request clears it. Without one, an open suggestion makes the thread \"suggestion\", and an open comment makes it \"comments\". A thread whose comments are all resolved has no state.",
+  "text": "I commenti aperti determinano lo stato di un thread. Prevale l'ultima approvazione o richiesta di modifiche aperta: un'approvazione successiva a una richiesta di modifiche la annulla. In assenza di queste, un suggerimento aperto rende il thread \"suggestion\" e un commento aperto lo rende \"comments\". Un thread i cui commenti sono tutti risolti non ha stato.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I commenti aperti determinano lo stato di un thread. Prevale l'ultima approvazione o richiesta di modifiche aperta: un'approvazione successiva a una richiesta di modifiche la annulla. In assenza di queste, un suggerimento aperto rende il thread \"suggestion\" e un commento aperto lo rende \"comments\". Un thread i cui commenti sono tutti risolti non ha stato."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

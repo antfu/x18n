@@ -1,0 +1,18 @@
+{
+  "hash": "d650a76cb4ca025a",
+  "source": "The preset applies when {0} or {1} has {2} or {3}. {4} alone does not count: it is also the name of an old npm package, and x18n merges the dependencies of all manifests. A project that uses only Babel or the {5} module of the standard library must list the preset:",
+  "text": "Das Preset greift, wenn {0} oder {1} {2} oder {3} enthält. {4} allein zählt nicht: Es ist auch der Name eines alten npm-Pakets, und x18n führt die Abhängigkeiten aller Manifeste zusammen. Ein Projekt, das nur Babel oder das Modul {5} der Standardbibliothek verwendet, muss das Preset explizit angeben:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset greift, wenn {0} oder {1} {2} oder {3} enthält. {4} allein zählt nicht: Es ist auch der Name eines alten npm-Pakets, und x18n führt die Abhängigkeiten aller Manifeste zusammen. Ein Projekt, das nur Babel oder das Modul {5} der Standardbibliothek verwendet, muss das Preset explizit angeben:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

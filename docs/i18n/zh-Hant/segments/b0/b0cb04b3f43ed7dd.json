@@ -1,0 +1,18 @@
+{
+  "hash": "b0cb04b3f43ed7dd",
+  "source": "Braces: {0}. The placeholders of i18next stay: {1} and {2}.",
+  "text": "大括號：{0}。i18next 的佔位符會保留：{1} 和 {2}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "大括號：{0}。i18next 的佔位符會保留：{1} 和 {2}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

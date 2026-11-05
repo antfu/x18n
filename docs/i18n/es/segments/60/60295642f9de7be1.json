@@ -1,0 +1,18 @@
+{
+  "hash": "60295642f9de7be1",
+  "source": "When a setting or file exists under both names, the i18n-ally-next one wins.",
+  "text": "Cuando un ajuste o archivo existe con ambos nombres, prevalece el de i18n-ally-next.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cuando un ajuste o archivo existe con ambos nombres, prevalece el de i18n-ally-next."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

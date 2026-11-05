@@ -1,0 +1,18 @@
+{
+  "hash": "f1e446238d8dd724",
+  "source": "{0} returns a {1} with a namespace and a key prefix.",
+  "text": "{0} возвращает {1} с пространством имён и префиксом ключа.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} возвращает {1} с пространством имён и префиксом ключа."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

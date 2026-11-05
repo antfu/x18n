@@ -1,0 +1,18 @@
+{
+  "hash": "7b097b1745b6388b",
+  "source": "The preset also adds a regex scanner for JSON files. It reads {0} references, so the strings of {1} count as usages:",
+  "text": "Il preset aggiunge anche uno scanner basato su regex per i file JSON. Legge i riferimenti {0}, quindi le stringhe di {1} contano come utilizzi:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset aggiunge anche uno scanner basato su regex per i file JSON. Legge i riferimenti {0}, quindi le stringhe di {1} contano come utilizzi:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

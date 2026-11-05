@@ -1,0 +1,18 @@
+{
+  "hash": "5c69351f029c3620",
+  "source": "Only these check ids, for example {0}, {1}, {2}.",
+  "text": "仅包含这些检查 id，例如 {0}、{1}、{2}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "仅包含这些检查 id，例如 {0}、{1}、{2}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

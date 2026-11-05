@@ -1,0 +1,18 @@
+{
+  "hash": "0775f19ce398efac",
+  "source": "A config file to use instead of searching for one.",
+  "text": "Файл конфигурации, который используется вместо поиска.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Файл конфигурации, который используется вместо поиска."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

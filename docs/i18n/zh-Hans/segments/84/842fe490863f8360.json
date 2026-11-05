@@ -1,0 +1,18 @@
+{
+  "hash": "842fe490863f8360",
+  "source": "A fully dynamic usage, such as {0}, has no static part. No check can follow it. The {1} check, off by default, lists such usages. To mark keys as used that only code at runtime builds, add globs to {2}. Or mark them in the code with a comment. {3} before a string marks that string as a key. {4} before an expression, such as an array, marks every string in it:",
+  "text": "完全动态的引用（如 {0}）没有静态部分，任何检查都无法跟踪它。默认关闭的 {1} 检查会列出这类引用。如果要把仅在运行时由代码构建的键标记为已使用，请在 {2} 中添加 glob。也可以在代码中用注释标记。字符串前的 {3} 会把该字符串标记为键。表达式（如数组）前的 {4} 会把其中的每个字符串都标记为键：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "完全动态的引用（如 {0}）没有静态部分，任何检查都无法跟踪它。默认关闭的 {1} 检查会列出这类引用。如果要把仅在运行时由代码构建的键标记为已使用，请在 {2} 中添加 glob。也可以在代码中用注释标记。字符串前的 {3} 会把该字符串标记为键。表达式（如数组）前的 {4} 会把其中的每个字符串都标记为键："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "3462e562c2a8a263",
+  "source": "You can also install them from GitHub with {0}skills{/0}:",
+  "text": "{0}skills{/0} を使って GitHub からインストールすることもできます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}skills{/0} を使って GitHub からインストールすることもできます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

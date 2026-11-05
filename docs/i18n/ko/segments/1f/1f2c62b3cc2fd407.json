@@ -1,0 +1,18 @@
+{
+  "hash": "1f2c62b3cc2fd407",
+  "source": "{0} reads the dependency names from a manifest file, for preset detection. The built-in readers cover {1}, {2}, {3}, {4}, {5}, {6} and {7}. A reader has an {8}, a {9} name and a {10} function.",
+  "text": "{0}은(는) 프리셋 감지를 위해 매니페스트 파일에서 의존성 이름을 읽습니다. 기본 제공 리더는 {1}, {2}, {3}, {4}, {5}, {6}, {7}을(를) 지원합니다. 리더는 {8}, {9} 이름, {10} 함수를 가집니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 프리셋 감지를 위해 매니페스트 파일에서 의존성 이름을 읽습니다. 기본 제공 리더는 {1}, {2}, {3}, {4}, {5}, {6}, {7}을(를) 지원합니다. 리더는 {8}, {9} 이름, {10} 함수를 가집니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

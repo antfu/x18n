@@ -1,0 +1,18 @@
+{
+  "hash": "30453110924f326f",
+  "source": "Every framework of i18n-ally has a preset. For an unknown framework id, the command prints a note and leaves it out.",
+  "text": "i18n-ally의 모든 프레임워크에는 프리셋이 있습니다. 알 수 없는 프레임워크 id는 명령이 안내 메시지를 출력하고 제외합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally의 모든 프레임워크에는 프리셋이 있습니다. 알 수 없는 프레임워크 id는 명령이 안내 메시지를 출력하고 제외합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

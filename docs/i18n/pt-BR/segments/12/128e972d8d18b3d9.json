@@ -1,0 +1,18 @@
+{
+  "hash": "128e972d8d18b3d9",
+  "source": "Browse and edit every key across locales in the browser with x18n ui, or publish a read-only report with x18n build.",
+  "text": "Navegue e edite todas as chaves de todos os idiomas no navegador com x18n ui, ou publique um relatório somente leitura com x18n build.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Navegue e edite todas as chaves de todos os idiomas no navegador com x18n ui, ou publique um relatório somente leitura com x18n build."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "71a91cbc9d6ee591",
+  "source": "The {0} preset supports {1}svelte-i18n{/1} and {2}sveltekit-i18n{/2}.",
+  "text": "Le preset {0} prend en charge {1}svelte-i18n{/1} et {2}sveltekit-i18n{/2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset {0} prend en charge {1}svelte-i18n{/1} et {2}sveltekit-i18n{/2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

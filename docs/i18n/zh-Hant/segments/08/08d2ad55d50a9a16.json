@@ -1,0 +1,18 @@
+{
+  "hash": "08d2ad55d50a9a16",
+  "source": "{0} finds hard-coded strings in source files and turns them into keys. Each candidate has a proposed key, a message and the replacement code.",
+  "text": "{0} 會在原始碼檔案中找出硬編碼字串，並將它們轉換為鍵。每個候選項目都包含建議的鍵、訊息，以及用於取代的程式碼。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會在原始碼檔案中找出硬編碼字串，並將它們轉換為鍵。每個候選項目都包含建議的鍵、訊息，以及用於取代的程式碼。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

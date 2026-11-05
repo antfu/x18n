@@ -1,0 +1,18 @@
+{
+  "hash": "ba96a2a37e4fa26f",
+  "source": "A resource is a file, or a block inside a file, that holds the messages of one locale and one namespace. In the example, {0} and {1} are resources. A Vue {2} block is also a resource.",
+  "text": "資源是存放某一個語系與某一個命名空間之訊息的檔案，或檔案中的一個區塊。在範例中，{0} 和 {1} 都是資源。Vue 的 {2} 區塊也是資源。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "資源是存放某一個語系與某一個命名空間之訊息的檔案，或檔案中的一個區塊。在範例中，{0} 和 {1} 都是資源。Vue 的 {2} 區塊也是資源。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

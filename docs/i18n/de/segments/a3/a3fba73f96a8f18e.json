@@ -1,0 +1,18 @@
+{
+  "hash": "a3fba73f96a8f18e",
+  "source": "One preset for each framework of i18n-ally, detected from your dependencies: vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter and 21 others.",
+  "text": "Ein preset für jedes Framework von i18n-ally, erkannt anhand deiner Abhängigkeiten: vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter und 21 weitere.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein preset für jedes Framework von i18n-ally, erkannt anhand deiner Abhängigkeiten: vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter und 21 weitere."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b90d7c53e7ed3286",
+  "source": "Another path, or a package name, is imported as a module. Its default export is a plugin, a preset, or a function that takes the options and returns one.",
+  "text": "其他路径或包名会作为模块导入。其默认导出是插件、预设，或是接收选项并返回插件或预设的函数。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "其他路径或包名会作为模块导入。其默认导出是插件、预设，或是接收选项并返回插件或预设的函数。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

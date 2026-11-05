@@ -1,0 +1,18 @@
+{
+  "hash": "fb7c852560b17f77",
+  "source": "Property of an object argument that holds the value.",
+  "text": "値を保持するオブジェクト引数のプロパティです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "値を保持するオブジェクト引数のプロパティです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "7cb903218ceab445",
+  "source": "Messages per prompt. Default 50.",
+  "text": "Mensagens por prompt. Padrão: 50.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mensagens por prompt. Padrão: 50."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

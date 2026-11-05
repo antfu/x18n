@@ -1,0 +1,18 @@
+{
+  "hash": "1a13681fa39efbc2",
+  "source": "The preset for easy_localization in Flutter. It reads tr() and plural() calls in Dart, nested plural and gender keys, and {} placeholders.",
+  "text": "Пресет для easy_localization во Flutter. Он читает вызовы tr() и plural() в Dart, вложенные ключи plural и gender, а также плейсхолдеры {}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет для easy_localization во Flutter. Он читает вызовы tr() и plural() в Dart, вложенные ключи plural и gender, а также плейсхолдеры {}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

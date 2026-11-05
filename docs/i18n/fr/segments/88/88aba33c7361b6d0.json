@@ -1,0 +1,18 @@
+{
+  "hash": "88aba33c7361b6d0",
+  "source": "What a preset adds",
+  "text": "Ce qu'ajoute un preset",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ce qu'ajoute un preset"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "4fb97766cd3a1334",
+  "source": "{0} sets the namespace and key prefix for the whole file, because the component gets its {1} through props and is often above the call.",
+  "text": "{0} define o namespace e o prefixo de chave para o arquivo inteiro, porque o componente recebe seu {1} por props e muitas vezes fica acima da chamada.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} define o namespace e o prefixo de chave para o arquivo inteiro, porque o componente recebe seu {1} por props e muitas vezes fica acima da chamada."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

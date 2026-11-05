@@ -1,0 +1,18 @@
+{
+  "hash": "47a133957950c706",
+  "source": "In in-place mode, replace the whole translate call, such as {0}, instead of only the key. Keys whose call is not known keep the key-only replacement.",
+  "text": "インプレースモードで、キーだけでなく {0} のような翻訳呼び出し全体を置き換えます。呼び出しが不明なキーは、キーのみの置き換えになります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "インプレースモードで、キーだけでなく {0} のような翻訳呼び出し全体を置き換えます。呼び出しが不明なキーは、キーのみの置き換えになります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "7b1226b0ec5e82f0",
+  "source": "Reviews: messages with open {0}review{/0} comments, with their state. Click one to open it in its locale file.",
+  "text": "Reviews：包含未解决的{0}审阅{/0}评论的消息，并显示其状态。点击某条即可在对应的语言文件中打开。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reviews：包含未解决的{0}审阅{/0}评论的消息，并显示其状态。点击某条即可在对应的语言文件中打开。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

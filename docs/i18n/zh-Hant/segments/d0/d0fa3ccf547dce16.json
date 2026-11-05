@@ -1,0 +1,18 @@
+{
+  "hash": "d0fa3ccf547dce16",
+  "source": "The hub owns the auth gate and the URL. The panel is at {0}, for example {1}.",
+  "text": "hub 負責驗證關卡與 URL。面板位於 {0}，例如 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "hub 負責驗證關卡與 URL。面板位於 {0}，例如 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

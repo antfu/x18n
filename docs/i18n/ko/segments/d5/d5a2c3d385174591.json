@@ -1,0 +1,18 @@
+{
+  "hash": "d5a2c3d385174591",
+  "source": "Longest value shown in an annotation. Longer values are truncated, and in-place mode falls back to an after-key hint.",
+  "text": "주석에 표시할 값의 최대 길이입니다. 이보다 긴 값은 잘리며, in-place 모드에서는 키 뒤 힌트로 대체됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "주석에 표시할 값의 최대 길이입니다. 이보다 긴 값은 잘리며, in-place 모드에서는 키 뒤 힌트로 대체됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

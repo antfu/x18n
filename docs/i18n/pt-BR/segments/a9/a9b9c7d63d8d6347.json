@@ -1,0 +1,18 @@
+{
+  "hash": "a9b9c7d63d8d6347",
+  "source": "It needs a preset that tells where the params of a call are; the i18next presets do. Options the library reads itself, such as i18next {0}, {1} and {2}, are never unused. Unused params are reported only when the message has placeholders and no nested messages ({3}), which may use them.",
+  "text": "Ela precisa de um preset que indique onde estão os parâmetros de uma chamada; os presets do i18next fazem isso. Opções que a própria biblioteca lê, como {0}, {1} e {2} do i18next, nunca são consideradas não usadas. Parâmetros não usados só são reportados quando a mensagem tem placeholders e não tem mensagens aninhadas ({3}), que podem usá-los.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ela precisa de um preset que indique onde estão os parâmetros de uma chamada; os presets do i18next fazem isso. Opções que a própria biblioteca lê, como {0}, {1} e {2} do i18next, nunca são consideradas não usadas. Parâmetros não usados só são reportados quando a mensagem tem placeholders e não tem mensagens aninhadas ({3}), que podem usá-los."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

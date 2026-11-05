@@ -1,0 +1,18 @@
+{
+  "hash": "9f51a29d1cf749f0",
+  "source": "A scope folder is a key prefix in camelCase, as Transloco names it: the preset sets {0} to {1}, so {2} holds the keys {3}. For a scope with an alias, add a resource with a fixed namespace: {4}.",
+  "text": "Una carpeta de ámbito (scope) es un prefijo de clave en camelCase, tal como lo nombra Transloco: el preset establece {0} en {1}, de modo que {2} contiene las claves {3}. Para un ámbito con alias, añade un recurso con un espacio de nombres fijo: {4}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una carpeta de ámbito (scope) es un prefijo de clave en camelCase, tal como lo nombra Transloco: el preset establece {0} en {1}, de modo que {2} contiene las claves {3}. Para un ámbito con alias, añade un recurso con un espacio de nombres fijo: {4}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

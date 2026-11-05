@@ -1,0 +1,18 @@
+{
+  "hash": "2fd2ad4d6f3e5fae",
+  "source": "I started {0}i18n-ally{/0} in 2019. Since then, I have always dreamed of a standalone core for i18n support, with a CLI and a language server on top, so it would be more general and easier to use in wider environments, not only in VS Code. But i18n-ally had grown inside the VS Code API, and as it moved to Lokalise and I moved on to other projects, the idea stayed on my list.",
+  "text": "Empecé {0}i18n-ally{/0} en 2019. Desde entonces, siempre he soñado con un núcleo independiente para el soporte de i18n, con una CLI y un servidor de lenguaje encima, de modo que fuera más general y más fácil de usar en entornos más amplios, no solo en VS Code. Pero i18n-ally había crecido dentro de la API de VS Code y, cuando pasó a Lokalise y yo me dediqué a otros proyectos, la idea se quedó en mi lista.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Empecé {0}i18n-ally{/0} en 2019. Desde entonces, siempre he soñado con un núcleo independiente para el soporte de i18n, con una CLI y un servidor de lenguaje encima, de modo que fuera más general y más fácil de usar en entornos más amplios, no solo en VS Code. Pero i18n-ally había crecido dentro de la API de VS Code y, cuando pasó a Lokalise y yo me dediqué a otros proyectos, la idea se quedó en mi lista."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

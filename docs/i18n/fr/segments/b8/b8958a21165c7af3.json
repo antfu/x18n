@@ -1,0 +1,18 @@
+{
+  "hash": "b8958a21165c7af3",
+  "source": "Did my preset apply?",
+  "text": "Mon preset a-t-il été appliqué ?",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mon preset a-t-il été appliqué ?"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

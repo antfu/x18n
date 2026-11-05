@@ -1,0 +1,18 @@
+{
+  "hash": "a002151655ff6d93",
+  "source": "Pass {0} to work on one project. Commands that write files ({1}, {2}, {3}, {4}, {5}, {6}, {7}) and {8} need one project. Without {9}, they stop with {10}X18N0003{/10}.",
+  "text": "传入 {0} 可只作用于一个项目。写入文件的命令（{1}、{2}、{3}、{4}、{5}、{6}、{7}）和 {8} 需要指定一个项目。如果没有 {9}，它们会停止并报错 {10}X18N0003{/10}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "传入 {0} 可只作用于一个项目。写入文件的命令（{1}、{2}、{3}、{4}、{5}、{6}、{7}）和 {8} 需要指定一个项目。如果没有 {9}，它们会停止并报错 {10}X18N0003{/10}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

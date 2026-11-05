@@ -1,0 +1,18 @@
+{
+  "hash": "57c4a5c8d0dbac95",
+  "source": "set up x18n in a project, or migrate from i18n-ally",
+  "text": "在项目中设置 x18n，或从 i18n-ally 迁移",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在项目中设置 x18n，或从 i18n-ally 迁移"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

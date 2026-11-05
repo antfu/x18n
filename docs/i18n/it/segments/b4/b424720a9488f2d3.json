@@ -1,0 +1,18 @@
+{
+  "hash": "b424720a9488f2d3",
+  "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}): {1} for every check, or a list of check ids.",
+  "text": "Traduci anche i valori che i controlli segnalano nella lingua di destinazione, come le copie dell'origine ({0}): {1} per tutti i controlli, oppure un elenco di id di controllo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Traduci anche i valori che i controlli segnalano nella lingua di destinazione, come le copie dell'origine ({0}): {1} per tutti i controlli, oppure un elenco di id di controllo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

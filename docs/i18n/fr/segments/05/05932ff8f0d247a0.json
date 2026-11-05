@@ -1,0 +1,18 @@
+{
+  "hash": "05932ff8f0d247a0",
+  "source": "Every command that writes files accepts {0}. It prints the changes as a small diff and writes nothing:",
+  "text": "Toute commande qui écrit des fichiers accepte {0}. Elle affiche les changements sous forme de petit diff et n'écrit rien :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Toute commande qui écrit des fichiers accepte {0}. Elle affiche les changements sous forme de petit diff et n'écrit rien :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

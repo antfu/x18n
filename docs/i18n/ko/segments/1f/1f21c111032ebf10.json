@@ -1,0 +1,18 @@
+{
+  "hash": "1f21c111032ebf10",
+  "source": "The preset applies when {0} requires {1}. The preset is exclusive: when it applies, x18n tests no preset after it.",
+  "text": "이 프리셋은 {0}에 {1}이(가) 필요할 때 적용됩니다. 이 프리셋은 배타적입니다. 이 프리셋이 적용되면 x18n은 그 뒤의 프리셋을 검사하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {0}에 {1}이(가) 필요할 때 적용됩니다. 이 프리셋은 배타적입니다. 이 프리셋이 적용되면 x18n은 그 뒤의 프리셋을 검사하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

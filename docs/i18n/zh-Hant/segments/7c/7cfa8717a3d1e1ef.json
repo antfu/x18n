@@ -1,0 +1,18 @@
+{
+  "hash": "7cfa8717a3d1e1ef",
+  "source": "the loops of {0}Agent workflows{/0}: add a key, translate, review, clean up, rename and extract,",
+  "text": "{0}Agent 工作流程{/0}中的各個循環：新增鍵、翻譯、審閱、清理、重新命名與擷取，",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Agent 工作流程{/0}中的各個循環：新增鍵、翻譯、審閱、清理、重新命名與擷取，"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "e3098749c583fe06",
+  "source": "review-changes-requested",
+  "text": "Controllo review-changes-requested",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Controllo review-changes-requested"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

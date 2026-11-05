@@ -1,0 +1,18 @@
+{
+  "hash": "589fc7197e86158e",
+  "source": "Only diagnostics for these locales.",
+  "text": "지정한 로케일에 대한 진단만 포함합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "지정한 로케일에 대한 진단만 포함합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

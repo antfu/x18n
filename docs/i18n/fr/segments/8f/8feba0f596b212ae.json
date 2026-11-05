@@ -1,0 +1,18 @@
+{
+  "hash": "8feba0f596b212ae",
+  "source": "A {0} in a key splits it into a path: {1} is {2} inside {3}. In a nested file it is {4}, in a flat file {5}. Set {6} for another separator, or to {7} when keys are whole sentences, such as {8} in Laravel, i18next with {9}, or gettext:",
+  "text": "Un {0} dans une clé la découpe en chemin : {1} correspond à {2} dans {3}. Dans un fichier imbriqué, c'est {4} ; dans un fichier à plat, {5}. Définissez {6} pour utiliser un autre séparateur, ou {7} lorsque les clés sont des phrases entières, comme {8} dans Laravel, i18next avec {9}, ou gettext :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un {0} dans une clé la découpe en chemin : {1} correspond à {2} dans {3}. Dans un fichier imbriqué, c'est {4} ; dans un fichier à plat, {5}. Définissez {6} pour utiliser un autre séparateur, ou {7} lorsque les clés sont des phrases entières, comme {8} dans Laravel, i18next avec {9}, ou gettext :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

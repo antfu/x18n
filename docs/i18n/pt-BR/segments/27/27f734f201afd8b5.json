@@ -1,0 +1,18 @@
+{
+  "hash": "27f734f201afd8b5",
+  "source": "The object that gives a project file access, globbing, watching and caching.",
+  "text": "O objeto que dá a um projeto acesso a arquivos, globbing, monitoramento e cache.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O objeto que dá a um projeto acesso a arquivos, globbing, monitoramento e cache."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

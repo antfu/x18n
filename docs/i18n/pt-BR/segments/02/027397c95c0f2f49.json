@@ -1,0 +1,18 @@
+{
+  "hash": "027397c95c0f2f49",
+  "source": "Path pattern with {0}, {1}, {2}, {3} and {4} tokens and globs.",
+  "text": "Padrão de caminho com os tokens {0}, {1}, {2}, {3} e {4} e globs.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Padrão de caminho com os tokens {0}, {1}, {2}, {3} e {4} e globs."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

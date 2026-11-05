@@ -1,0 +1,18 @@
+{
+  "hash": "1aa845b74f2b328a",
+  "source": "A resource is a file, or a block in a file, that holds the messages of one locale and one namespace. The {0} option tells x18n where the resources are. Each entry has a path pattern, relative to the project root:",
+  "text": "資源是指保存單一語系與單一命名空間訊息的檔案，或檔案中的區塊。{0} 選項會告訴 x18n 資源的位置。每個項目都有一個相對於專案根目錄的路徑模式：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "資源是指保存單一語系與單一命名空間訊息的檔案，或檔案中的區塊。{0} 選項會告訴 x18n 資源的位置。每個項目都有一個相對於專案根目錄的路徑模式："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

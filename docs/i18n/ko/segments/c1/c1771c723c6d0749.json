@@ -1,0 +1,18 @@
+{
+  "hash": "c1771c723c6d0749",
+  "source": "{0} prints the {1} skill, so this works in any agent, with or without a skills system. See {2}The x18n skills{/2} for what the skill does. To set x18n up yourself, follow the steps below.",
+  "text": "{0}은(는) {1} 스킬을 출력하므로 스킬 시스템이 있든 없든 모든 에이전트에서 사용할 수 있습니다. 스킬의 동작은 {2}x18n 스킬{/2}을 참고하세요. x18n을 직접 설정하려면 아래 단계를 따르세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) {1} 스킬을 출력하므로 스킬 시스템이 있든 없든 모든 에이전트에서 사용할 수 있습니다. 스킬의 동작은 {2}x18n 스킬{/2}을 참고하세요. x18n을 직접 설정하려면 아래 단계를 따르세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

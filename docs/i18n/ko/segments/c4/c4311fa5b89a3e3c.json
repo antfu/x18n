@@ -1,0 +1,18 @@
+{
+  "hash": "c4311fa5b89a3e3c",
+  "source": "Rename a key (or every key under a parent) in all locales, and its usages in code unless {0}. Without {1} it returns the plan (files to change, decisions, warnings); call again with {2} to apply it.",
+  "text": "모든 로케일에서 키(또는 상위 키 아래의 모든 키)의 이름을 변경하며, {0}이 아닌 한 코드의 사용처도 함께 변경합니다. {1}이 없으면 계획(변경할 파일, 결정 사항, 경고)을 반환하며, 적용하려면 {2}와 함께 다시 호출하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일에서 키(또는 상위 키 아래의 모든 키)의 이름을 변경하며, {0}이 아닌 한 코드의 사용처도 함께 변경합니다. {1}이 없으면 계획(변경할 파일, 결정 사항, 경고)을 반환하며, 적용하려면 {2}와 함께 다시 호출하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

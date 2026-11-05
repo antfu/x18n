@@ -1,0 +1,18 @@
+{
+  "hash": "10ba26e42d65d37f",
+  "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
+  "text": "Der Wert in jeder Sprache mit Datei und Zeile, die Sprachen, in denen der Schlüssel fehlt, die Verwendungen und die Diagnosen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Wert in jeder Sprache mit Datei und Zeile, die Sprachen, in denen der Schlüssel fehlt, die Verwendungen und die Diagnosen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

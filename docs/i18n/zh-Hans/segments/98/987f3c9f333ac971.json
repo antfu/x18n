@@ -1,0 +1,18 @@
+{
+  "hash": "987f3c9f333ac971",
+  "source": "{0} without children renders the message as text. The {1} templates need {2} in the component. A string outside a component, such as a module-level constant, has no {3}: move it into the component before you extract it.",
+  "text": "不带子元素的 {0} 会将消息渲染为文本。{1} 模板需要组件中有 {2}。组件之外的字符串（例如模块级常量）没有 {3}：提取之前，请先将它移到组件内部。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不带子元素的 {0} 会将消息渲染为文本。{1} 模板需要组件中有 {2}。组件之外的字符串（例如模块级常量）没有 {3}：提取之前，请先将它移到组件内部。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

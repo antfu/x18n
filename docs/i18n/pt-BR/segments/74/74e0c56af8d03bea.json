@@ -1,0 +1,18 @@
+{
+  "hash": "74e0c56af8d03bea",
+  "source": "A glossary term translated differently from the glossary.",
+  "text": "Um termo do glossário traduzido de forma diferente da definida no glossário.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um termo do glossário traduzido de forma diferente da definida no glossário."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

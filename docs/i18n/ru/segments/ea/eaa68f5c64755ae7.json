@@ -1,0 +1,18 @@
+{
+  "hash": "eaa68f5c64755ae7",
+  "source": "Invalid edit input. Check the input shape against the docs.",
+  "text": "Недопустимые входные данные для edit. Сверьте структуру входных данных с документацией.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Недопустимые входные данные для edit. Сверьте структуру входных данных с документацией."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

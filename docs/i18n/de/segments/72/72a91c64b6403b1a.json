@@ -1,0 +1,18 @@
+{
+  "hash": "72a91c64b6403b1a",
+  "source": "{0} changes how the tree of a file maps to keys. Use it for files that wrap the messages, such as a file whose messages sit under a top-level {1} key.",
+  "text": "{0} ändert, wie der Baum einer Datei auf Schlüssel abgebildet wird. Verwende es für Dateien, die die Messages umschließen, zum Beispiel eine Datei, deren Messages unter einem Schlüssel {1} auf oberster Ebene stehen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ändert, wie der Baum einer Datei auf Schlüssel abgebildet wird. Verwende es für Dateien, die die Messages umschließen, zum Beispiel eine Datei, deren Messages unter einem Schlüssel {1} auf oberster Ebene stehen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

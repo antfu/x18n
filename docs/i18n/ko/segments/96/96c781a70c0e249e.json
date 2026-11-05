@@ -1,0 +1,18 @@
+{
+  "hash": "96c781a70c0e249e",
+  "source": "The preset includes everything of the {0} preset: the {1} namespace separator, the default namespace {2}, the derived keys {3}, the placeholders and the calls of i18next. If the {4} preset also applies, x18n adds these plugins one time.",
+  "text": "이 프리셋은 {0} 프리셋의 모든 기능을 포함합니다. {1} 네임스페이스 구분자, 기본 네임스페이스 {2}, 파생 키 {3}, 플레이스홀더, i18next의 호출이 포함됩니다. {4} 프리셋도 함께 적용되는 경우 x18n은 이 플러그인들을 한 번만 추가합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {0} 프리셋의 모든 기능을 포함합니다. {1} 네임스페이스 구분자, 기본 네임스페이스 {2}, 파생 키 {3}, 플레이스홀더, i18next의 호출이 포함됩니다. {4} 프리셋도 함께 적용되는 경우 x18n은 이 플러그인들을 한 번만 추가합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

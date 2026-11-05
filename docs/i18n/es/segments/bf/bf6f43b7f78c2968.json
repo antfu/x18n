@@ -1,0 +1,18 @@
+{
+  "hash": "bf6f43b7f78c2968",
+  "source": "The translate prompt for a locale, as markdown.",
+  "text": "El prompt de traducción para un idioma, en markdown.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El prompt de traducción para un idioma, en markdown."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

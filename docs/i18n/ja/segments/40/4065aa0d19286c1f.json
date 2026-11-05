@@ -1,0 +1,18 @@
+{
+  "hash": "4065aa0d19286c1f",
+  "source": "The preset includes every plugin of the {0} preset: the translate calls, the Vue template syntax, {1} blocks, the placeholders and the extraction templates.",
+  "text": "このプリセットには、{0} プリセットのすべてのプラグインが含まれます。translate 呼び出し、Vue テンプレート構文、{1} ブロック、プレースホルダー、抽出テンプレートが対象です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットには、{0} プリセットのすべてのプラグインが含まれます。translate 呼び出し、Vue テンプレート構文、{1} ブロック、プレースホルダー、抽出テンプレートが対象です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

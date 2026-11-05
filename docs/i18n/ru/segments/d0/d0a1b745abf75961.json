@@ -1,0 +1,18 @@
+{
+  "hash": "d0a1b745abf75961",
+  "source": "Add missing keys with empty values.",
+  "text": "Добавьте отсутствующие ключи с пустыми значениями.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Добавьте отсутствующие ключи с пустыми значениями."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

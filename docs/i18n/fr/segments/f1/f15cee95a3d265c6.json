@@ -1,0 +1,18 @@
+{
+  "hash": "f15cee95a3d265c6",
+  "source": "Accept the default answers of decisions.",
+  "text": "Accepte les réponses par défaut des décisions.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Accepte les réponses par défaut des décisions."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

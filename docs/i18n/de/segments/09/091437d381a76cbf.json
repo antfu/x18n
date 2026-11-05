@@ -1,0 +1,18 @@
+{
+  "hash": "091437d381a76cbf",
+  "source": "The key in the locale's resource; undefined while the locale lacks the message.",
+  "text": "Der Schlüssel in der Ressource der Sprache; undefined, solange der Sprache die message fehlt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Schlüssel in der Ressource der Sprache; undefined, solange der Sprache die message fehlt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

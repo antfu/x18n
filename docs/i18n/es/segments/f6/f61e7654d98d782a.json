@@ -1,0 +1,18 @@
+{
+  "hash": "f61e7654d98d782a",
+  "source": "If your config has no {0}, the preset uses {1} and, for namespaces, {2}. The keys of a namespace start with the name of the namespace: {3}.",
+  "text": "Si tu configuración no tiene {0}, el preset usa {1} y, para los espacios de nombres, {2}. Las claves de un espacio de nombres empiezan con el nombre del espacio de nombres: {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si tu configuración no tiene {0}, el preset usa {1} y, para los espacios de nombres, {2}. Las claves de un espacio de nombres empiezan con el nombre del espacio de nombres: {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

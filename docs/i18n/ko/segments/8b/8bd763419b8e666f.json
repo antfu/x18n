@@ -1,0 +1,18 @@
+{
+  "hash": "8bd763419b8e666f",
+  "source": "The preset for ember-intl. It reads the t helper in Handlebars and template-tag files, and intl.t in code.",
+  "text": "ember-intl용 프리셋입니다. Handlebars 및 template-tag 파일에서는 t 헬퍼를, 코드에서는 intl.t를 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ember-intl용 프리셋입니다. Handlebars 및 template-tag 파일에서는 t 헬퍼를, 코드에서는 intl.t를 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

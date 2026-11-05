@@ -1,0 +1,18 @@
+{
+  "hash": "f4d7117b7b958485",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5} and {6}. As in Laravel, a slash in the key becomes a dot.",
+  "text": "Следующие имена считаются вызовами перевода: {0}, {1}, {2}, {3}, {4}, {5} и {6}. Как и в Laravel, косая черта в ключе превращается в точку.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Следующие имена считаются вызовами перевода: {0}, {1}, {2}, {3}, {4}, {5} и {6}. Как и в Laravel, косая черта в ключе превращается в точку."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

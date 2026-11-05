@@ -294,6 +294,21 @@ catalogs:
       specifier: ^2.9.1
       version: 2.9.1
   docs:
+    '@diglot/cli':
+      specifier: ^0.1.4
+      version: 0.1.4
+    '@diglot/comark':
+      specifier: ^0.1.4
+      version: 0.1.4
+    '@diglot/core':
+      specifier: ^0.1.4
+      version: 0.1.4
+    '@diglot/store':
+      specifier: ^0.1.4
+      version: 0.1.4
+    '@diglot/x18n':
+      specifier: ^0.1.4
+      version: 0.1.4
     comark-docs:
       specifier: github:comarkdown/comark-docs#4fcfb4f9600295700ac0a9152e562b258ef6fc88
       version: https://codeload.github.com/comarkdown/comark-docs/tar.gz/4fcfb4f9600295700ac0a9152e562b258ef6fc88
@@ -479,6 +494,21 @@ importers:
 
   docs:
     devDependencies:
+      '@diglot/cli':
+        specifier: catalog:docs
+        version: 0.1.4(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)(supports-color@10.2.2)
+      '@diglot/comark':
+        specifier: catalog:docs
+        version: 0.1.4(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)
+      '@diglot/core':
+        specifier: catalog:docs
+        version: 0.1.4
+      '@diglot/store':
+        specifier: catalog:docs
+        version: 0.1.4
+      '@diglot/x18n':
+        specifier: catalog:docs
+        version: 0.1.4(@x18n/core@packages+core)(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)(supports-color@10.2.2)
       '@iconify-json/bxl':
         specifier: catalog:frontend
         version: 1.2.4
@@ -497,6 +527,12 @@ importers:
       '@iconify-json/ph':
         specifier: catalog:frontend
         version: 1.2.2
+      '@x18n/cli':
+        specifier: workspace:*
+        version: link:../packages/cli
+      '@x18n/core':
+        specifier: workspace:*
+        version: link:../packages/core
       comark-docs:
         specifier: catalog:docs
         version: https://codeload.github.com/comarkdown/comark-docs/tar.gz/4fcfb4f9600295700ac0a9152e562b258ef6fc88(abe7275c2475e9a7b8e3258929a0ace9)
@@ -1237,6 +1273,38 @@ packages:
         optional: true
       vite:
         optional: true
+
+  '@diglot/cli@0.1.4':
+    resolution: {integrity: sha512-CgaXbl/XPwuQ/xe+U75EvJdAD2LXYLgf/MmfV9iAkIEtAdhb1udsuAN63wMP2wrmgGtASGFZG62jMFoXtbzL3g==}
+    engines: {node: '>=22.18.0'}
+    hasBin: true
+
+  '@diglot/code@0.1.4':
+    resolution: {integrity: sha512-kCMN7uAUMNw0pNx7k2th+YWN632d71A/dUW24fLsycL/5vKU3R/MxC1JbOjrVqlFL2Y78gFiSssyPqFZhNZGSQ==}
+    engines: {node: '>=22'}
+
+  '@diglot/comark@0.1.4':
+    resolution: {integrity: sha512-/9yg7WQwoRZy0dLcwgSoG8uGiWcqgDLPe3Y1xHXAgWSOtumm0uN5Z+gZGff8xtjcS/Zur2oo76euVb6jkAEuBQ==}
+    engines: {node: '>=22'}
+
+  '@diglot/core@0.1.4':
+    resolution: {integrity: sha512-REeebRuleuUycfyBFff6myhTAucTiRZlNz8N0VQ+wESNdRFKzh6T1Vyse7Z0robWKKTDiM2aVZT0IDylJvr4NA==}
+    engines: {node: '>=22'}
+
+  '@diglot/mdast@0.1.4':
+    resolution: {integrity: sha512-p+AF3fgvWoXd/KQMc+bFJ0GLwzY3PprdfZLI5kCirB0HM2yjsVSM9tDP9NMR+qan7j2tT3jKOfavEGDYd7J1sQ==}
+    engines: {node: '>=22'}
+
+  '@diglot/store@0.1.4':
+    resolution: {integrity: sha512-bIriVjIkp+xHfYBS0ECj3oL+EWDCCwn92AZwmed0wuqmAG2B3KoFspGXA5Vs0cnnPz40roR8LaeO8zGBvlrPbA==}
+    engines: {node: '>=22.18.0'}
+
+  '@diglot/x18n@0.1.4':
+    resolution: {integrity: sha512-FKCu571skjadgyi2cEJbQL0SPNYzlI+fbAwgCsSEzz/+OeYw3x/7l54QrN7l+J2cEbmd43sHlRpewe4ekTdGzw==}
+    engines: {node: '>=22.18.0'}
+    hasBin: true
+    peerDependencies:
+      '@x18n/core': ^0.1.8
 
   '@dxup/nuxt@0.5.10':
     resolution: {integrity: sha512-54Vehb7LmR7qYpC6KFwjDTSm6CB1CayBu+JXdHrPLrIjjr5xAgb43jvgOU+mnB+tsRh414fSsEy0QjBMKILQ8g==}
@@ -4234,6 +4302,9 @@ packages:
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
+  '@types/unist@2.0.11':
+    resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
+
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
@@ -5155,6 +5226,9 @@ packages:
       react-native-b4a:
         optional: true
 
+  bail@2.0.2:
+    resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
+
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
@@ -5348,6 +5422,9 @@ packages:
 
   character-entities@2.0.2:
     resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
+
+  character-reference-invalid@2.0.1:
+    resolution: {integrity: sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==}
 
   chardet@2.2.0:
     resolution: {integrity: sha512-rddelWYNPRrXq6PtNEN2S3f6t9ILzvqaN5pVgi4kqt9jHQaXIial9PznB5iSPVlQSLNaaH22ItWz3EJtQ10+OA==}
@@ -6372,6 +6449,9 @@ packages:
   exsolve@1.1.3:
     resolution: {integrity: sha512-kuzL9zherLQoqDeQaS55AiiIg1kb4KYXaSusTtgZTPlvKP2gGCI82LNmBNh5RjDVUXIcmgx+/Mx7vPwRzBbhJA==}
 
+  extend@3.0.2:
+    resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
+
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
@@ -6410,6 +6490,10 @@ packages:
   fast-xml-parser@5.11.2:
     resolution: {integrity: sha512-R9iDuNrQYeQut46cn2r2wHKn4HYzVDvDm5J1wW+koZewykv0yuO2HChTYeZtrULyHIDM9cj9TUXloCsueCQUog==}
     hasBin: true
+
+  fastest-levenshtein@1.0.16:
+    resolution: {integrity: sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==}
+    engines: {node: '>= 4.9.1'}
 
   fastq@1.20.3:
     resolution: {integrity: sha512-XKv5nnLs6nLF71NgiKJLIZFLkPyIEuOselLG7ujZnGrRfQK8HpvY+WqKhAJUAdLomwVHErVS4LfxFlPq0/FTAw==}
@@ -6463,6 +6547,11 @@ packages:
 
   flat-cache@6.1.23:
     resolution: {integrity: sha512-f++BY9pTk+983xK1FLzlLpmM0i0z+jHmx3QESGkURMXujQZz1k5wzwX6hjnQ8goaD0B+sYnDK1yZ6MTyZfUaqA==}
+
+  flat@6.0.1:
+    resolution: {integrity: sha512-/3FfIa8mbrg3xE7+wAhWeV+bd7L2Mof+xtZb5dRDKZ+wDvYJK4WDYeIOuOhre5Yv5aQObZrlbRmk3RTSiuQBtw==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   flatted@3.4.4:
     resolution: {integrity: sha512-5+ybhBZANEJxaH3X5evAFatUxLfEHSr7n6kYJ+1Qd0mUqr4eu9gIf6GDbWHf8RJijHrjjO8G+la14SlL2SeS1Q==}
@@ -6842,6 +6931,12 @@ packages:
   iron-webcrypto@2.0.0:
     resolution: {integrity: sha512-rtffZKDUHciZElM8mjFCufBC7nVhCxHYyWHESqs89OioEDz4parOofd8/uhrejh/INhQFfYQfByS22LlezR9sQ==}
 
+  is-alphabetical@2.0.1:
+    resolution: {integrity: sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==}
+
+  is-alphanumerical@2.0.1:
+    resolution: {integrity: sha512-hmbYhX/9MUMF5uh7tOXyK/n0ZvWpad5caBA17GsC6vyuCqaWliRG5K1qS9inmUhEMaOBIW7/whAnSwveW/LtZw==}
+
   is-builtin-module@5.0.0:
     resolution: {integrity: sha512-f4RqJKBUe5rQkJ2eJEJBXSticB3hGbN9j0yxxMQFqIW89Jp9WYFtzfTcRlstDKVUTRzSOTLKRfO9vIztenwtxA==}
     engines: {node: '>=18.20'}
@@ -6853,6 +6948,9 @@ packages:
   is-core-module@2.17.0:
     resolution: {integrity: sha512-J/vG0zBCbIKOQFfufSwyXdMrsohyJIUNkrnmo6WZGzoM7tr/lsbfW5b2BvisL6zsyMzK9UxV9L6c7AoFbyXHOA==}
     engines: {node: '>= 0.4'}
+
+  is-decimal@2.0.1:
+    resolution: {integrity: sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A==}
 
   is-docker@2.2.1:
     resolution: {integrity: sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==}
@@ -6875,6 +6973,9 @@ packages:
   is-glob@4.0.3:
     resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==}
     engines: {node: '>=0.10.0'}
+
+  is-hexadecimal@2.0.1:
+    resolution: {integrity: sha512-DgZQp241c8oO6cA1SbTEWiXeoxV42vlcJxgH+B3hi1AiqqKruZR3ZGF8In3fj4+/y/7rHvlOZLZtgJ/4ttYGZg==}
 
   is-identifier@1.1.0:
     resolution: {integrity: sha512-NhOds0mDx9lJu+1lBRO0xbwFo5nobA7GCk/0e5xjr6+6XugX985+0OyGX35BNrTkPAsdLcIKg02HUQJOK8D8kw==}
@@ -8116,6 +8217,9 @@ packages:
   parse-css-color@0.2.1:
     resolution: {integrity: sha512-bwS/GGIFV3b6KS4uwpzCFj4w297Yl3uqnSgIPsoQkx7GMLROXfMnWvxfNkL0oh8HVhZA4hvJoEoEIqonfJ3BWg==}
 
+  parse-entities@4.0.2:
+    resolution: {integrity: sha512-GG2AQYWoLgL877gQIKeRPGO1xF9+eG1ujIb5soS5gPvLQ1y2o8FL90w2QWNdf9I361Mpp7726c+lj3U0qK1uGw==}
+
   parse-gitignore@2.0.0:
     resolution: {integrity: sha512-RmVuCHWsfu0QPNW+mraxh/xjQVw/lhUCUru8Zni3Ctq3AoMhpDTq0OVdKS6iesd6Kqb7viCV3isAL43dciOSog==}
     engines: {node: '>=14'}
@@ -8423,6 +8527,21 @@ packages:
     resolution: {integrity: sha512-ilkpm4bIAol4jwzm4tpm3WVcffyGOpqksNZL1k1qO9QmIwAA+q8jroxjkUGLEn/GddfdExFfvofWfQiKZszUeQ==}
     peerDependencies:
       vue: '>= 3.4.0'
+
+  remark-frontmatter@5.0.0:
+    resolution: {integrity: sha512-XTFYvNASMe5iPN0719nPrdItC9aU0ssC4v14mH1BCi1u0n1gAocqcujWUrByftZTbLhRtiKRyjYTSIOcr69UVQ==}
+
+  remark-gfm@4.0.1:
+    resolution: {integrity: sha512-1quofZ2RQ9EWdeN34S79+KExV1764+wCUGop5CPL1WGdD0ocPpu91lzPGbwWMECpEpd42kJGQwzRfyov9j4yNg==}
+
+  remark-mdc@3.11.1:
+    resolution: {integrity: sha512-bjH7Q1OO1BSXVPmUxYIrGH2dUAZkizNY3i9WJUEcIFLowZAEjLTT7fUAH2vH0Tpkeh+/MrzwFFmeWcZ66QLh7A==}
+
+  remark-parse@11.0.0:
+    resolution: {integrity: sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==}
+
+  remark-stringify@11.0.0:
+    resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
 
   require-from-string@2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
@@ -8976,6 +9095,9 @@ packages:
   trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
 
+  trough@2.2.0:
+    resolution: {integrity: sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==}
+
   ts-api-utils@2.5.0:
     resolution: {integrity: sha512-OJ/ibxhPlqrMM0UiNHJ/0CKQkoKF243/AEmplt3qpRgkW8VG7IfOS41h7V8TjITqdByHzrjcS/2si+y4lIh8NA==}
     engines: {node: '>=18.12'}
@@ -9149,6 +9271,9 @@ packages:
   unicorn-magic@0.4.1:
     resolution: {integrity: sha512-lzlXPoVB0Uy/FvTaUgX39RbixYiSKoc3JSoSf01+0c2B6FR3qdYIPN7Qjo/AV7n6sqLCk0509cT3LRj1oSZ1+A==}
     engines: {node: '>=20'}
+
+  unified@11.0.5:
+    resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
 
   unifont@0.7.5:
     resolution: {integrity: sha512-ULe/Cs+ZIsq+dcFofNkhqielCrUJnb5mr+Yc4EBM2VlL+6OZR6+cjtI2mT1bJvRBrVncqHAbLURxmPLcCXzWMg==}
@@ -10435,6 +10560,77 @@ snapshots:
       '@devframes/hub': 1.2.6(@devframes/agentic@1.2.5)(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.6)
       '@devframes/hub-ui': 1.2.6(@devframes/hub@1.2.6(@devframes/agentic@1.2.5)(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.6))(@devframes/json-render@1.2.6(@devframes/hub@1.2.6(@devframes/agentic@1.2.5)(crossws@0.4.15(srvx@1.0.6))(devframe@1.2.6))(devframe@1.2.6))(devframe@1.2.6)
       vite: 8.3.4(@types/node@26.6.5)(@vitejs/devtools@0.8.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.23.15)(yaml@2.9.1)
+
+  '@diglot/cli@0.1.4(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)(supports-color@10.2.2)':
+    dependencies:
+      '@diglot/comark': 0.1.4(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)
+      '@diglot/core': 0.1.4
+      '@diglot/mdast': 0.1.4(supports-color@10.2.2)
+      '@diglot/store': 0.1.4
+      citty: 0.2.2
+      pathe: 2.0.3
+    transitivePeerDependencies:
+      - beautiful-mermaid
+      - katex
+      - rangi
+      - shiki
+      - supports-color
+
+  '@diglot/code@0.1.4':
+    dependencies:
+      '@diglot/core': 0.1.4
+
+  '@diglot/comark@0.1.4(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)':
+    dependencies:
+      '@diglot/code': 0.1.4
+      '@diglot/core': 0.1.4
+      comark: 0.8.1(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)
+      yaml: 2.9.1
+    transitivePeerDependencies:
+      - beautiful-mermaid
+      - katex
+      - rangi
+      - shiki
+
+  '@diglot/core@0.1.4':
+    dependencies:
+      fastest-levenshtein: 1.0.16
+
+  '@diglot/mdast@0.1.4(supports-color@10.2.2)':
+    dependencies:
+      '@diglot/code': 0.1.4
+      '@diglot/core': 0.1.4
+      remark-frontmatter: 5.0.0(supports-color@10.2.2)
+      remark-gfm: 4.0.1(supports-color@10.2.2)
+      remark-mdc: 3.11.1(supports-color@10.2.2)
+      remark-parse: 11.0.0(supports-color@10.2.2)
+      unified: 11.0.5
+      yaml: 2.9.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@diglot/store@0.1.4':
+    dependencies:
+      '@diglot/core': 0.1.4
+      pathe: 2.0.3
+      yaml: 2.9.1
+
+  '@diglot/x18n@0.1.4(@x18n/core@packages+core)(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)(supports-color@10.2.2)':
+    dependencies:
+      '@diglot/comark': 0.1.4(beautiful-mermaid@1.1.3)(rangi@2.2.0)(shiki@4.5.0)
+      '@diglot/core': 0.1.4
+      '@diglot/mdast': 0.1.4(supports-color@10.2.2)
+      '@diglot/store': 0.1.4
+      '@x18n/core': link:packages/core
+      citty: 0.2.2
+      pathe: 2.0.3
+      yaml: 2.9.1
+    transitivePeerDependencies:
+      - beautiful-mermaid
+      - katex
+      - rangi
+      - shiki
+      - supports-color
 
   '@dxup/nuxt@0.5.10(@nuxt/schema@4.6.2)(confbox@0.3.1)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(jiti@2.7.0)(mlly@1.8.2)(oxc-parser@0.153.0)(rolldown@1.2.14)(rollup@4.64.10)(vite@8.3.4)(webpack@5.112.0(cssnano@9.9.0(postcss@8.5.31))(esbuild@0.28.2)(lightningcss@1.33.0)(postcss@8.5.31)(sharp@0.35.5(@types/node@26.6.5)))':
     dependencies:
@@ -13627,6 +13823,8 @@ snapshots:
 
   '@types/resolve@1.20.2': {}
 
+  '@types/unist@2.0.11': {}
+
   '@types/unist@3.0.3': {}
 
   '@types/vscode@1.140.0': {}
@@ -14854,6 +15052,8 @@ snapshots:
 
   b4a@1.9.0: {}
 
+  bail@2.0.2: {}
+
   balanced-match@1.0.2: {}
 
   balanced-match@4.0.4: {}
@@ -15044,6 +15244,8 @@ snapshots:
   character-entities-legacy@3.0.0: {}
 
   character-entities@2.0.2: {}
+
+  character-reference-invalid@2.0.1: {}
 
   chardet@2.2.0: {}
 
@@ -16160,6 +16362,8 @@ snapshots:
 
   exsolve@1.1.3: {}
 
+  extend@3.0.2: {}
+
   fast-deep-equal@3.1.3: {}
 
   fast-fifo@1.3.2: {}
@@ -16205,6 +16409,8 @@ snapshots:
       path-expression-matcher: 1.6.2
       strnum: 2.5.1
       xml-naming: 0.3.0
+
+  fastest-levenshtein@1.0.16: {}
 
   fastq@1.20.3:
     dependencies:
@@ -16263,6 +16469,8 @@ snapshots:
       cacheable: 2.5.0
       flatted: 3.4.4
       hookified: 1.15.1
+
+  flat@6.0.1: {}
 
   flatted@3.4.4: {}
 
@@ -16658,6 +16866,13 @@ snapshots:
     dependencies:
       uint8array-extras: 1.6.0
 
+  is-alphabetical@2.0.1: {}
+
+  is-alphanumerical@2.0.1:
+    dependencies:
+      is-alphabetical: 2.0.1
+      is-decimal: 2.0.1
+
   is-builtin-module@5.0.0:
     dependencies:
       builtin-modules: 5.4.0
@@ -16669,6 +16884,8 @@ snapshots:
   is-core-module@2.17.0:
     dependencies:
       hasown: 2.0.4
+
+  is-decimal@2.0.1: {}
 
   is-docker@2.2.1:
     optional: true
@@ -16682,6 +16899,8 @@ snapshots:
   is-glob@4.0.3:
     dependencies:
       is-extglob: 2.1.1
+
+  is-hexadecimal@2.0.1: {}
 
   is-identifier@1.1.0:
     dependencies:
@@ -18727,6 +18946,16 @@ snapshots:
       color-name: 1.1.4
       hex-rgb: 4.3.0
 
+  parse-entities@4.0.2:
+    dependencies:
+      '@types/unist': 2.0.11
+      character-entities-legacy: 3.0.0
+      character-reference-invalid: 2.0.1
+      decode-named-character-reference: 1.3.0
+      is-alphanumerical: 2.0.1
+      is-decimal: 2.0.1
+      is-hexadecimal: 2.0.1
+
   parse-gitignore@2.0.0: {}
 
   parse-imports-exports@0.2.4:
@@ -19048,6 +19277,64 @@ snapshots:
       defu: 6.1.7
       ohash: 2.0.12
       vue: 3.5.44(typescript@6.0.3)
+
+  remark-frontmatter@5.0.0(supports-color@10.2.2):
+    dependencies:
+      '@types/mdast': 4.0.4
+      mdast-util-frontmatter: 2.0.1(supports-color@10.2.2)
+      micromark-extension-frontmatter: 2.0.0
+      unified: 11.0.5
+    transitivePeerDependencies:
+      - supports-color
+
+  remark-gfm@4.0.1(supports-color@10.2.2):
+    dependencies:
+      '@types/mdast': 4.0.4
+      mdast-util-gfm: 3.1.0(supports-color@10.2.2)
+      micromark-extension-gfm: 3.0.0
+      remark-parse: 11.0.0(supports-color@10.2.2)
+      remark-stringify: 11.0.0
+      unified: 11.0.5
+    transitivePeerDependencies:
+      - supports-color
+
+  remark-mdc@3.11.1(supports-color@10.2.2):
+    dependencies:
+      '@types/mdast': 4.0.4
+      '@types/unist': 3.0.3
+      flat: 6.0.1
+      mdast-util-from-markdown: 2.1.0(supports-color@10.2.2)
+      mdast-util-to-markdown: 2.2.0
+      micromark: 4.0.3(supports-color@10.2.2)
+      micromark-core-commonmark: 2.0.4
+      micromark-factory-space: 2.1.0
+      micromark-factory-whitespace: 2.0.1
+      micromark-util-character: 2.1.1
+      micromark-util-types: 2.0.3
+      parse-entities: 4.0.2
+      scule: 1.3.0
+      stringify-entities: 4.0.4
+      unified: 11.0.5
+      unist-util-visit: 5.1.0
+      unist-util-visit-parents: 6.0.2
+      yaml: 2.9.1
+    transitivePeerDependencies:
+      - supports-color
+
+  remark-parse@11.0.0(supports-color@10.2.2):
+    dependencies:
+      '@types/mdast': 4.0.4
+      mdast-util-from-markdown: 2.1.0(supports-color@10.2.2)
+      micromark-util-types: 2.0.3
+      unified: 11.0.5
+    transitivePeerDependencies:
+      - supports-color
+
+  remark-stringify@11.0.0:
+    dependencies:
+      '@types/mdast': 4.0.4
+      mdast-util-to-markdown: 2.2.0
+      unified: 11.0.5
 
   require-from-string@2.0.2: {}
 
@@ -19668,6 +19955,8 @@ snapshots:
 
   trim-lines@3.0.1: {}
 
+  trough@2.2.0: {}
+
   ts-api-utils@2.5.0(typescript@6.0.3):
     dependencies:
       typescript: 6.0.3
@@ -19843,6 +20132,16 @@ snapshots:
   unicorn-magic@0.3.0: {}
 
   unicorn-magic@0.4.1: {}
+
+  unified@11.0.5:
+    dependencies:
+      '@types/unist': 3.0.3
+      bail: 2.0.2
+      devlop: 1.1.0
+      extend: 3.0.2
+      is-plain-obj: 4.1.0
+      trough: 2.2.0
+      vfile: 6.0.3
 
   unifont@0.7.5:
     dependencies:

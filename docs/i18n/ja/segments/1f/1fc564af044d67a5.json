@@ -1,0 +1,18 @@
+{
+  "hash": "1fc564af044d67a5",
+  "source": "The whole call holding the key, when the scanner knows it.",
+  "text": "スキャナーが把握している場合の、キーを含む呼び出し全体です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "スキャナーが把握している場合の、キーを含む呼び出し全体です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

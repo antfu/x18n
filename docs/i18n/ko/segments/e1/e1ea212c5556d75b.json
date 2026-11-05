@@ -1,0 +1,18 @@
+{
+  "hash": "e1ea212c5556d75b",
+  "source": "Run {0} to see the result. Each preset shows as {1}, {2}, {3}, or {4}.",
+  "text": "결과를 확인하려면 {0}을 실행하세요. 각 프리셋은 {1}, {2}, {3} 또는 {4}로 표시됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "결과를 확인하려면 {0}을 실행하세요. 각 프리셋은 {1}, {2}, {3} 또는 {4}로 표시됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

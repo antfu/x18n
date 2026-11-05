@@ -1,0 +1,18 @@
+{
+  "hash": "c7b9957a5e40c263",
+  "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
+  "text": "或在資源模式上設定 {0}。x18n 便會在 Node 中執行該檔案，而這些訊息會變成唯讀。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "或在資源模式上設定 {0}。x18n 便會在 Node 中執行該檔案，而這些訊息會變成唯讀。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

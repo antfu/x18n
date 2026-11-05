@@ -1,0 +1,18 @@
+{
+  "hash": "34fefe572fc72f16",
+  "source": "The {0}glossary{/0} lists every name in one table.",
+  "text": "В {0}глоссарии{/0} все названия собраны в одной таблице.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В {0}глоссарии{/0} все названия собраны в одной таблице."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "cda84d566d68fd11",
+  "source": "x18n uses locale codes exactly as written. It does not change {0} to {1}. If two codes differ only in spelling, the {2} check reports them.",
+  "text": "x18n utilise les codes de langue exactement tels qu'ils sont écrits. Il ne transforme pas {0} en {1}. Si deux codes ne diffèrent que par leur graphie, la vérification {2} les signale.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n utilise les codes de langue exactement tels qu'ils sont écrits. Il ne transforme pas {0} en {1}. Si deux codes ne diffèrent que par leur graphie, la vérification {2} les signale."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

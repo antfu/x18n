@@ -1,0 +1,18 @@
+{
+  "hash": "45bed11797b7a050",
+  "source": "The usages of a key, or every usage. {0} filters by file.",
+  "text": "某个键的引用，或所有引用。{0} 按文件过滤。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某个键的引用，或所有引用。{0} 按文件过滤。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

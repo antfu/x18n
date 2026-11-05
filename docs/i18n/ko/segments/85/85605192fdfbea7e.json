@@ -1,0 +1,18 @@
+{
+  "hash": "85605192fdfbea7e",
+  "source": "A message without an {0} gets the id {1} computes from its text and its tag. {2} is its description for translators. Only files that mention {3} are read.",
+  "text": "{0}이(가) 없는 메시지는 {1}이(가) 텍스트와 태그로 계산한 id를 갖습니다. {2}은(는) 번역가를 위한 설명입니다. {3}을(를) 언급하는 파일만 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}이(가) 없는 메시지는 {1}이(가) 텍스트와 태그로 계산한 id를 갖습니다. {2}은(는) 번역가를 위한 설명입니다. {3}을(를) 언급하는 파일만 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

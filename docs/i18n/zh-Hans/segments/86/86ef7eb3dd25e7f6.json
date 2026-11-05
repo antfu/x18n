@@ -1,0 +1,18 @@
+{
+  "hash": "86ef7eb3dd25e7f6",
+  "source": "When x18n renames a key, its threads move with it. When x18n deletes a key, its threads go too.",
+  "text": "x18n 重命名键时，该键的讨论串会随之移动。x18n 删除键时，该键的讨论串也会一并删除。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 重命名键时，该键的讨论串会随之移动。x18n 删除键时，该键的讨论串也会一并删除。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

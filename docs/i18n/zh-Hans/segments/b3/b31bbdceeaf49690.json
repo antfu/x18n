@@ -1,0 +1,18 @@
+{
+  "hash": "b31bbdceeaf49690",
+  "source": "Unknown project. Pick a project name listed by `x18n status`, for example with `--project`.",
+  "text": "未知项目。请从 `x18n status` 列出的项目名称中选择一个，例如通过 `--project` 指定。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "未知项目。请从 `x18n status` 列出的项目名称中选择一个，例如通过 `--project` 指定。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "df73b6538dbcba1e",
+  "source": "Put {0} in the {1} of the package, so that the plugin uses the x18n version of the project.",
+  "text": "プラグインがプロジェクトの x18n のバージョンを使用するように、{0} をパッケージの {1} に指定してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグインがプロジェクトの x18n のバージョンを使用するように、{0} をパッケージの {1} に指定してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

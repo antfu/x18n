@@ -1,0 +1,18 @@
+{
+  "hash": "d80491d683ef6a5d",
+  "source": "Show the values of related locales next to each message, such as {0} for {1} (default); optionally of these locales instead (comma separated)",
+  "text": "Affiche les valeurs des langues apparentées à côté de chaque message, par exemple {0} pour {1} (par défaut) ; éventuellement celles de ces langues à la place (séparées par des virgules)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Affiche les valeurs des langues apparentées à côté de chaque message, par exemple {0} pour {1} (par défaut) ; éventuellement celles de ces langues à la place (séparées par des virgules)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

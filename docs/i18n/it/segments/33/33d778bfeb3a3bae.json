@@ -1,0 +1,18 @@
+{
+  "hash": "33d778bfeb3a3bae",
+  "source": "When true and detected, presets that come after it are not applied.",
+  "text": "Se true e rilevato, i preset successivi non vengono applicati.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se true e rilevato, i preset successivi non vengono applicati."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d54bc9487ed94fa9",
+  "source": "YAML or TypeScript",
+  "text": "YAML oder TypeScript",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML oder TypeScript"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

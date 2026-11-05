@@ -1,0 +1,18 @@
+{
+  "hash": "06058d8e367ed47a",
+  "source": "The check skips a call whose params it cannot read, such as a variable or a spread ({0}), and a key whose source message is not a string, such as a plural key that only has {1} and {2}.",
+  "text": "이 검사는 변수나 스프레드({0})처럼 파라미터를 읽을 수 없는 호출과, {1}과(와) {2}만 있는 복수형 키처럼 원본 메시지가 문자열이 아닌 키는 건너뜁니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 검사는 변수나 스프레드({0})처럼 파라미터를 읽을 수 없는 호출과, {1}과(와) {2}만 있는 복수형 키처럼 원본 메시지가 문자열이 아닌 키는 건너뜁니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

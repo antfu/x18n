@@ -1,0 +1,18 @@
+{
+  "hash": "20c50baa055095f4",
+  "source": "Deletes a key in one locale, or in all locales.",
+  "text": "Elimina una clave en un idioma o en todos los idiomas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina una clave en un idioma o en todos los idiomas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

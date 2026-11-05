@@ -1,0 +1,18 @@
+{
+  "hash": "d68883ebc11ede22",
+  "source": "A repeatable option takes several values: {0}. Options that take a list also accept commas: {1}.",
+  "text": "반복 가능한 옵션은 여러 값을 받습니다: {0}. 목록을 받는 옵션은 쉼표로 구분한 값도 허용합니다: {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "반복 가능한 옵션은 여러 값을 받습니다: {0}. 목록을 받는 옵션은 쉼표로 구분한 값도 허용합니다: {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

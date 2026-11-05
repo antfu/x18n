@@ -1,0 +1,18 @@
+{
+  "hash": "9a1ababdff3af963",
+  "source": "A provider reaches what it reaches in Angular:",
+  "text": "プロバイダーは、Angular で適用される範囲に適用されます:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロバイダーは、Angular で適用される範囲に適用されます:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

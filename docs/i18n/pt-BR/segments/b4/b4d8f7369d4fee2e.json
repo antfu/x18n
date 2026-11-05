@@ -1,0 +1,18 @@
+{
+  "hash": "b4d8f7369d4fee2e",
+  "source": "Delete a key (or every key under a parent) in all locales, or only in {0}. Code is not changed. Without {1} it returns the plan; call again with {2} to apply it.",
+  "text": "Exclui uma chave (ou todas as chaves sob um pai) em todos os idiomas, ou apenas em {0}. O código não é alterado. Sem {1}, retorna o plano; chame novamente com {2} para aplicá-lo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exclui uma chave (ou todas as chaves sob um pai) em todos os idiomas, ou apenas em {0}. O código não é alterado. Sem {1}, retorna o plano; chame novamente com {2} para aplicá-lo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

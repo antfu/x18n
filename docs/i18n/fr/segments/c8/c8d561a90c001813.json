@@ -1,0 +1,18 @@
+{
+  "hash": "c8d561a90c001813",
+  "source": "Only keys missing or empty in a locale",
+  "text": "Uniquement les clés manquantes ou vides dans une langue",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uniquement les clés manquantes ou vides dans une langue"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

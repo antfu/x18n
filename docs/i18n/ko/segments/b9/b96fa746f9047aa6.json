@@ -1,0 +1,18 @@
+{
+  "hash": "b96fa746f9047aa6",
+  "source": "The arguments of a template string: {0}, without the {1} right after {2}. Empty when there are none.",
+  "text": "템플릿 문자열의 인자입니다. {0}이며, {2} 바로 뒤의 {1}은 포함하지 않습니다. 인자가 없으면 비어 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "템플릿 문자열의 인자입니다. {0}이며, {2} 바로 뒤의 {1}은 포함하지 않습니다. 인자가 없으면 비어 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

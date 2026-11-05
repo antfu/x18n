@@ -1,0 +1,18 @@
+{
+  "hash": "4d9e54e32da653f6",
+  "source": "{0}: which format wins.",
+  "text": "{0}：哪种格式生效。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：哪种格式生效。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

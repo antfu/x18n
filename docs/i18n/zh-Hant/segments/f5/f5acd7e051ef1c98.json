@@ -1,0 +1,18 @@
+{
+  "hash": "f5acd7e051ef1c98",
+  "source": "A translation that last changed before its source message, by the history providers (git).",
+  "text": "由歷史記錄提供者（git）偵測到的翻譯：其最後變更時間早於對應的來源訊息。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "由歷史記錄提供者（git）偵測到的翻譯：其最後變更時間早於對應的來源訊息。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

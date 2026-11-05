@@ -1,0 +1,18 @@
+{
+  "hash": "dc3d7e589871153f",
+  "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
+  "text": "Todos los formatos integrados tienen {0}, y una edición cambia solo las entradas que establece, añade o elimina. Los comentarios, el orden de las claves, las comillas y la sangría se mantienen tal cual. Una clave nueva se coloca después de la última clave de su elemento padre, con el estilo del archivo. Una clave eliminada se lleva consigo el comentario del final de su línea. En {1} y {2}, los comentarios situados encima de una entrada le pertenecen y también se eliminan. Solo {3} y {4} vuelven a escribir un archivo entero, lo que elimina sus comentarios. Un formato que solo lee deja sus recursos en modo de solo lectura.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Todos los formatos integrados tienen {0}, y una edición cambia solo las entradas que establece, añade o elimina. Los comentarios, el orden de las claves, las comillas y la sangría se mantienen tal cual. Una clave nueva se coloca después de la última clave de su elemento padre, con el estilo del archivo. Una clave eliminada se lleva consigo el comentario del final de su línea. En {1} y {2}, los comentarios situados encima de una entrada le pertenecen y también se eliminan. Solo {3} y {4} vuelven a escribir un archivo entero, lo que elimina sus comentarios. Un formato que solo lee deja sus recursos en modo de solo lectura."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "cd6c3c5afad3d1a1",
+  "source": "Angular placeholders: {0}, {1}, {2}. XLIFF and XMB placeholders read the same way.",
+  "text": "Angular 佔位符：{0}、{1}、{2}。XLIFF 和 XMB 的佔位符讀取方式相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Angular 佔位符：{0}、{1}、{2}。XLIFF 和 XMB 的佔位符讀取方式相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

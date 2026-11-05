@@ -1,0 +1,18 @@
+{
+  "hash": "b30245df43e9dbab",
+  "source": "Then run {0} (or {1}) in your CI. {2}CI{/2} shows a GitHub Actions workflow that puts the problems on the lines of a pull request.",
+  "text": "Затем запустите {0} (или {1}) в вашем CI. В разделе {2}CI{/2} показан рабочий процесс GitHub Actions, который выводит проблемы в строках pull request.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Затем запустите {0} (или {1}) в вашем CI. В разделе {2}CI{/2} показан рабочий процесс GitHub Actions, который выводит проблемы в строках pull request."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

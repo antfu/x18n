@@ -1,0 +1,18 @@
+{
+  "hash": "47a133957950c706",
+  "source": "In in-place mode, replace the whole translate call, such as {0}, instead of only the key. Keys whose call is not known keep the key-only replacement.",
+  "text": "В режиме замены на месте заменять весь вызов функции перевода, например {0}, а не только ключ. Для ключей с неизвестным вызовом замена ограничивается только ключом.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В режиме замены на месте заменять весь вызов функции перевода, например {0}, а не только ключ. Для ключей с неизвестным вызовом замена ограничивается только ключом."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

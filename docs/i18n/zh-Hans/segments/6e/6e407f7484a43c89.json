@@ -1,0 +1,18 @@
+{
+  "hash": "6e407f7484a43c89",
+  "source": "{0} marks a plugin that needs Node. Runtimes without Node skip it.",
+  "text": "{0} 用于标记需要 Node 的插件。没有 Node 的运行时会跳过它。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 用于标记需要 Node 的插件。没有 Node 的运行时会跳过它。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

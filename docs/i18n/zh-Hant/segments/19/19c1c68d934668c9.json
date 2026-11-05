@@ -1,0 +1,18 @@
+{
+  "hash": "19c1c68d934668c9",
+  "source": "Apply the plan. Without it, the tool only returns the plan.",
+  "text": "套用計畫。未設定時，此工具只會回傳計畫。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "套用計畫。未設定時，此工具只會回傳計畫。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

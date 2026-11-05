@@ -1,0 +1,18 @@
+{
+  "hash": "068c0740caf55580",
+  "source": "x18n: Toggle In-place Annotations",
+  "text": "x18n：切換行內註解",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n：切換行內註解"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

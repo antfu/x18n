@@ -1,0 +1,18 @@
+{
+  "hash": "7ddb8a4cd577f627",
+  "source": "The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from {0}.",
+  "text": "Il server tratta le chiavi come simboli. Supporta vai alla definizione, vai all'implementazione, riferimenti, rinomina (con preparazione), hover, inlay hint, completamento delle chiavi, code action (quick fix ed estrazione), simboli del documento, simboli del workspace, code lens e diagnostica. La diagnostica è la stessa di {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il server tratta le chiavi come simboli. Supporta vai alla definizione, vai all'implementazione, riferimenti, rinomina (con preparazione), hover, inlay hint, completamento delle chiavi, code action (quick fix ed estrazione), simboli del documento, simboli del workspace, code lens e diagnostica. La diagnostica è la stessa di {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f23e4d8e5ec846cc",
+  "source": "Turn every warning into an error",
+  "text": "Jede Warnung in einen Fehler umwandeln",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jede Warnung in einen Fehler umwandeln"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "0f77167dcbc72c08",
+  "source": "A plugin can add types for its check ids and its options through declaration merging. {0} then completes them:",
+  "text": "Плагин может добавить типы для идентификаторов своих проверок и своих параметров через слияние деклараций. Затем {0} предлагает их в автодополнении:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Плагин может добавить типы для идентификаторов своих проверок и своих параметров через слияние деклараций. Затем {0} предлагает их в автодополнении:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

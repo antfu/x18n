@@ -1,0 +1,18 @@
+{
+  "hash": "aa990b36283d0174",
+  "source": "A custom hook that wraps {0} is a call spec with a fixed namespace:",
+  "text": "Un hook personalizzato che incapsula {0} è una call spec con un namespace fisso:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un hook personalizzato che incapsula {0} è una call spec con un namespace fisso:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

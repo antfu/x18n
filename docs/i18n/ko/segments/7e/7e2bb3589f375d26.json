@@ -1,0 +1,18 @@
+{
+  "hash": "7e2bb3589f375d26",
+  "source": "An in-place annotation hides a key in code and shows its value in the display locale. The display locale is the locale that annotations and hovers show. It is your own choice, and it defaults to the source locale.",
+  "text": "제자리 주석은 코드에서 키를 숨기고 표시 로케일의 값을 보여 줍니다. 표시 로케일은 주석과 호버에 표시되는 로케일입니다. 직접 선택할 수 있으며 기본값은 소스 로케일입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "제자리 주석은 코드에서 키를 숨기고 표시 로케일의 값을 보여 줍니다. 표시 로케일은 주석과 호버에 표시되는 로케일입니다. 직접 선택할 수 있으며 기본값은 소스 로케일입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

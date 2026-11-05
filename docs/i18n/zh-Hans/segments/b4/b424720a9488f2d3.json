@@ -1,0 +1,18 @@
+{
+  "hash": "b424720a9488f2d3",
+  "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}): {1} for every check, or a list of check ids.",
+  "text": "同时翻译检查在目标语言中报告的值，例如与源语言相同的副本（{0}）：{1} 表示所有检查，也可以传入检查 id 列表。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同时翻译检查在目标语言中报告的值，例如与源语言相同的副本（{0}）：{1} 表示所有检查，也可以传入检查 id 列表。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

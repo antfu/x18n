@@ -1,0 +1,18 @@
+{
+  "hash": "3059bb6242a20419",
+  "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
+  "text": "ロケールファイルは解析できましたが、最上位がメッセージのオブジェクトではありません。ロケールファイルには、末端の値が文字列、数値、真偽値、または {0} であるネストされたオブジェクトを記述します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルは解析できましたが、最上位がメッセージのオブジェクトではありません。ロケールファイルには、末端の値が文字列、数値、真偽値、または {0} であるネストされたオブジェクトを記述します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

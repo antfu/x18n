@@ -1,0 +1,18 @@
+{
+  "hash": "cb7293ba57b944b0",
+  "source": "{0}locale-code-conflict{/0}",
+  "text": "{0}語系代碼衝突{/0}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}語系代碼衝突{/0}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

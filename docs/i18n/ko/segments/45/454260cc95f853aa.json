@@ -1,0 +1,18 @@
+{
+  "hash": "454260cc95f853aa",
+  "source": "Plugin could not be loaded. Install the plugin package, or check the path.",
+  "text": "플러그인을 로드할 수 없습니다. 플러그인 패키지를 설치하거나 경로를 확인하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인을 로드할 수 없습니다. 플러그인 패키지를 설치하거나 경로를 확인하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,19 @@
+{
+  "hash": "1b60c1858a6c2b23",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3} (an array of command ids), because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "悬停提示会显示每种语言对应的值以及引用数量。只有当客户端在 {3}（命令 id 数组）中列出 {0}、{1} 和 {2} 时，才会提供指向它们的链接，因为无法运行 {4} URL 的客户端会把它当作普通链接打开并失败。默认不提供链接。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "17ab1b9ab5c49c63",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "悬停提示会显示每种语言对应的值以及引用数量。只有当客户端在 {3}（命令 id 数组）中列出 {0}、{1} 和 {2} 时，才会提供指向它们的链接，因为无法运行 {4} URL 的客户端会把它当作普通链接打开并失败。默认不提供链接。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b9843c99e6e1842d",
+  "source": "{0} changes a draft of the config before it is final. {1} is the config as the user wrote it, and {2} reads files. Presets set their defaults here. The config of the project is applied after every hook, so it wins.",
+  "text": "{0} は、設定が確定する前にその下書きを変更します。{1} はユーザーが書いたとおりの設定で、{2} はファイルを読み込みます。プリセットはここでデフォルト値を設定します。プロジェクトの設定はすべてのフックの後に適用されるため、優先されます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、設定が確定する前にその下書きを変更します。{1} はユーザーが書いたとおりの設定で、{2} はファイルを読み込みます。プリセットはここでデフォルト値を設定します。プロジェクトの設定はすべてのフックの後に適用されるため、優先されます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

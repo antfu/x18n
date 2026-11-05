@@ -1,0 +1,18 @@
+{
+  "hash": "cfcf5804c3e5dc9c",
+  "source": "A hard-coded string that should probably be a message. On with {0}.",
+  "text": "メッセージにすべき可能性が高い、ハードコードされた文字列です。{0} を有効にするとオンになります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "メッセージにすべき可能性が高い、ハードコードされた文字列です。{0} を有効にするとオンになります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

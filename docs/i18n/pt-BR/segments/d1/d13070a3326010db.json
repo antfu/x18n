@@ -1,0 +1,18 @@
+{
+  "hash": "d13070a3326010db",
+  "source": "Locales show with their flag in the views, the locale pickers, hovers and the status bar. Set {0} to {1} to hide the flags.",
+  "text": "Os idiomas aparecem com a bandeira nas views, nos seletores de idioma, nos hovers e na barra de status. Defina {0} como {1} para ocultar as bandeiras.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os idiomas aparecem com a bandeira nas views, nos seletores de idioma, nos hovers e na barra de status. Defina {0} como {1} para ocultar as bandeiras."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

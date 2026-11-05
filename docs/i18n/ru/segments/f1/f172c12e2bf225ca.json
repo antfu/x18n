@@ -1,0 +1,18 @@
+{
+  "hash": "f172c12e2bf225ca",
+  "source": "More than one preset can apply. Some presets include the plugins of another preset: {0} and {1} include everything of {2}, and {3} includes everything of {4}. When two applied presets share a plugin, x18n adds that plugin one time.",
+  "text": "Может применяться более одного пресета. Некоторые пресеты включают плагины другого пресета: {0} и {1} включают всё из {2}, а {3} включает всё из {4}. Если два применённых пресета содержат один и тот же плагин, x18n добавляет этот плагин только один раз.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Может применяться более одного пресета. Некоторые пресеты включают плагины другого пресета: {0} и {1} включают всё из {2}, а {3} включает всё из {4}. Если два применённых пресета содержат один и тот же плагин, x18n добавляет этот плагин только один раз."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

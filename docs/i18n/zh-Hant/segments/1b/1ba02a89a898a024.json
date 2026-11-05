@@ -1,0 +1,18 @@
+{
+  "hash": "1ba02a89a898a024",
+  "source": "A reporter turns diagnostics into text. Pick one or more with {0}:",
+  "text": "reporter 會將診斷轉換為文字。使用 {0} 選擇一個或多個：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "reporter 會將診斷轉換為文字。使用 {0} 選擇一個或多個："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

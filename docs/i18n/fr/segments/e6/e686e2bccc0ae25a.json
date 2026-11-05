@@ -1,0 +1,18 @@
+{
+  "hash": "e686e2bccc0ae25a",
+  "source": "A {0}format{/0} returns descriptions from {1}, a {2}resource transform{/2} from {3}, and a call spec names the property that holds one with {4}. A rule asks the agent to follow the description and not to translate it.",
+  "text": "Un {0}format{/0} renvoie des descriptions depuis {1}, une {2}transformation de ressource{/2} depuis {3}, et une spécification d'appel indique avec {4} la propriété qui en contient une. Une règle demande à l'agent de suivre la description et de ne pas la traduire.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un {0}format{/0} renvoie des descriptions depuis {1}, une {2}transformation de ressource{/2} depuis {3}, et une spécification d'appel indique avec {4} la propriété qui en contient une. Une règle demande à l'agent de suivre la description et de ne pas la traduire."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

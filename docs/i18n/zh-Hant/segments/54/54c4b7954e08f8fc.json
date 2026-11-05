@@ -1,0 +1,18 @@
+{
+  "hash": "54c4b7954e08f8fc",
+  "source": "The {0} preset supports {1}@fluent/react{/1}, the React binding of {2}Project Fluent{/2}.",
+  "text": "{0} 預設集支援 {1}@fluent/react{/1}，也就是 {2}Project Fluent{/2} 的 React 綁定。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 預設集支援 {1}@fluent/react{/1}，也就是 {2}Project Fluent{/2} 的 React 綁定。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

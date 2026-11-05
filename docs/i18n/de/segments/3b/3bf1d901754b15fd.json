@@ -1,0 +1,18 @@
+{
+  "hash": "3bf1d901754b15fd",
+  "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
+  "text": "Die Änderung zielt auf eine schreibgeschützte Ressource ab. Ressourcen mit {0} sind schreibgeschützt, weil x18n den Code, der sie berechnet, nicht schreiben kann.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Änderung zielt auf eine schreibgeschützte Ressource ab. Ressourcen mit {0} sind schreibgeschützt, weil x18n den Code, der sie berechnet, nicht schreiben kann."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

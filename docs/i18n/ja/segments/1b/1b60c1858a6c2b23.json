@@ -1,0 +1,19 @@
+{
+  "hash": "1b60c1858a6c2b23",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3} (an array of command ids), because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "ホバーには、ロケールごとの値と使用箇所の数が表示されます。{0}、{1}、{2} へのリンクは、クライアントが {3}（コマンド ID の配列）に列挙している場合にのみ表示されます。{4} URL を実行できないクライアントは、それをリンクとして開いて失敗するためです。デフォルトではリンクは表示されません。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "17ab1b9ab5c49c63",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ホバーには、ロケールごとの値と使用箇所の数が表示されます。{0}、{1}、{2} へのリンクは、クライアントが {3}（コマンド ID の配列）に列挙している場合にのみ表示されます。{4} URL を実行できないクライアントは、それをリンクとして開いて失敗するためです。デフォルトではリンクは表示されません。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ca85ea159cbd6272",
+  "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
+  "text": "리뷰는 하나의 메시지, 즉 하나의 로케일에 있는 하나의 키에 다는 댓글입니다. 한 메시지의 댓글은 스레드를 이룹니다. 리뷰는 네 가지 유형 중 하나입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리뷰는 하나의 메시지, 즉 하나의 로케일에 있는 하나의 키에 다는 댓글입니다. 한 메시지의 댓글은 스레드를 이룹니다. 리뷰는 네 가지 유형 중 하나입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

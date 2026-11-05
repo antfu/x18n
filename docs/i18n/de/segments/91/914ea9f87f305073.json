@@ -1,0 +1,18 @@
+{
+  "hash": "914ea9f87f305073",
+  "source": "The default. The path and position, the severity badge with the message and check id, a code frame, then a summary.",
+  "text": "Der Standard. Pfad und Position, das Schweregrad-Badge mit der Message und der Prüfungs-ID, ein Codeausschnitt und dann eine Zusammenfassung.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Standard. Pfad und Position, das Schweregrad-Badge mit der Message und der Prüfungs-ID, ein Codeausschnitt und dann eine Zusammenfassung."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

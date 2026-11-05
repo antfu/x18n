@@ -1,0 +1,18 @@
+{
+  "hash": "558f3bbfaa22cb93",
+  "source": "The default export of the package is a plugin, a preset, or a function that takes options and returns one:",
+  "text": "Der Default-Export des Pakets ist ein Plugin, ein Preset oder eine Funktion, die Optionen entgegennimmt und eines davon zurückgibt:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Default-Export des Pakets ist ein Plugin, ein Preset oder eine Funktion, die Optionen entgegennimmt und eines davon zurückgibt:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8cd4dd6643d80b65",
+  "source": "{0} shows where x18n found a key and its usages. If a usage is missing, the scanner does not know the callee. Add it to {1} or to the plugin.",
+  "text": "{0} muestra dónde ha encontrado x18n una clave y sus usos. Si falta un uso, el scanner no conoce la función invocada. Añádela a {1} o al plugin.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} muestra dónde ha encontrado x18n una clave y sus usos. Si falta un uso, el scanner no conoce la función invocada. Añádela a {1} o al plugin."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

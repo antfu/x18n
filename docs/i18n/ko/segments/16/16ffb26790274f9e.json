@@ -1,0 +1,18 @@
+{
+  "hash": "16ffb26790274f9e",
+  "source": "A hard string is text in source code that is probably meant to be a message, such as {0}. An extractor finds hard strings and builds the replacement code. {1} turns them into keys, and the {2} check reports them when {3} is on.",
+  "text": "하드코딩된 문자열은 {0}처럼 소스 코드에 있는, 메시지로 만들려는 것으로 보이는 텍스트입니다. 추출기가 하드코딩된 문자열을 찾아 대체 코드를 만듭니다. {1}는 이를 키로 바꾸며, {3}가 켜져 있으면 {2} 검사가 이를 보고합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "하드코딩된 문자열은 {0}처럼 소스 코드에 있는, 메시지로 만들려는 것으로 보이는 텍스트입니다. 추출기가 하드코딩된 문자열을 찾아 대체 코드를 만듭니다. {1}는 이를 키로 바꾸며, {3}가 켜져 있으면 {2} 검사가 이를 보고합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

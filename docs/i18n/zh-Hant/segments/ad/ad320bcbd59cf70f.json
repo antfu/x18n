@@ -1,0 +1,18 @@
+{
+  "hash": "ad320bcbd59cf70f",
+  "source": "Fix each field that the message lists. See {0}YAML plugins{/0}.",
+  "text": "修正訊息中列出的每個欄位。請參閱{0}YAML 外掛{/0}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "修正訊息中列出的每個欄位。請參閱{0}YAML 外掛{/0}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

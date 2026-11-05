@@ -1,0 +1,18 @@
+{
+  "hash": "ad320bcbd59cf70f",
+  "source": "Fix each field that the message lists. See {0}YAML plugins{/0}.",
+  "text": "Correggi ogni campo elencato nel messaggio. Consulta {0}Plugin YAML{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Correggi ogni campo elencato nel messaggio. Consulta {0}Plugin YAML{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "526cdeede6a9a96c",
+  "source": "Review threads show as editor comments on the key in each locale file. Reply to a thread to comment, approve, request a change or suggest a value; the buttons under the reply box pick the kind. A suggestion has an \"Apply Suggestion\" button that sets the value. \"Resolve\" closes a comment. \"x18n: Review Key\" starts a review from the cursor or from the Keys view. The language server writes reviews to {0} at once, and the hover of a key shows its review state per locale.",
+  "text": "审阅线程会以编辑器评论的形式显示在每个语言文件中对应的键上。回复线程即可评论、批准、请求修改或建议新值；回复框下方的按钮用于选择回复类型。建议带有「Apply Suggestion」按钮，用于设置该值。「Resolve」会关闭评论。「x18n: Review Key」会从光标位置或 Keys 视图发起审阅。语言服务器会立即将审阅写入 {0}，悬停在键上时会显示该键在各语言中的审阅状态。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "审阅线程会以编辑器评论的形式显示在每个语言文件中对应的键上。回复线程即可评论、批准、请求修改或建议新值；回复框下方的按钮用于选择回复类型。建议带有「Apply Suggestion」按钮，用于设置该值。「Resolve」会关闭评论。「x18n: Review Key」会从光标位置或 Keys 视图发起审阅。语言服务器会立即将审阅写入 {0}，悬停在键上时会显示该键在各语言中的审阅状态。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d80491d683ef6a5d",
+  "source": "Show the values of related locales next to each message, such as {0} for {1} (default); optionally of these locales instead (comma separated)",
+  "text": "Показывать значения связанных локалей рядом с каждым сообщением, например {0} для {1} (по умолчанию); при необходимости вместо них можно указать другие локали (через запятую)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Показывать значения связанных локалей рядом с каждым сообщением, например {0} для {1} (по умолчанию); при необходимости вместо них можно указать другие локали (через запятую)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "e5882a0e8a474e38",
+  "source": "Also translate values that checks report in the target locale. Without ids, every check; with ids (comma separated), only those checks.",
+  "text": "対象ロケールでチェックが報告した値も翻訳対象にします。id を指定しない場合はすべてのチェックが対象で、id（カンマ区切り）を指定した場合は、それらのチェックのみが対象です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "対象ロケールでチェックが報告した値も翻訳対象にします。id を指定しない場合はすべてのチェックが対象で、id（カンマ区切り）を指定した場合は、それらのチェックのみが対象です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "2416c522cea8bf69",
+  "source": "{0} is a translate call, and so is the tagged template {1}.",
+  "text": "{0} es una llamada de traducción, y también lo es la plantilla etiquetada {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} es una llamada de traducción, y también lo es la plantilla etiquetada {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

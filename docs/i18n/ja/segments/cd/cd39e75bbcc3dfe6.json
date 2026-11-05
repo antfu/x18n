@@ -1,0 +1,18 @@
+{
+  "hash": "cd39e75bbcc3dfe6",
+  "source": "How {0} folders name a namespace: {1} makes {2} into {3}, {4} keeps {5}, {6} makes {7} into {8}. Default {9}.",
+  "text": "{0} フォルダが名前空間をどう命名するかを指定します。{1} は {2} を {3} にし、{4} は {5} を維持し、{6} は {7} を {8} にします。デフォルトは {9} です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} フォルダが名前空間をどう命名するかを指定します。{1} は {2} を {3} にし、{4} は {5} を維持し、{6} は {7} を {8} にします。デフォルトは {9} です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

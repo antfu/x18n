@@ -1,0 +1,18 @@
+{
+  "hash": "6ecf7f7c5dfff54c",
+  "source": "Explicit format id per file extension (without dot).",
+  "text": "按文件扩展名（不带点）显式指定格式 id。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "按文件扩展名（不带点）显式指定格式 id。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

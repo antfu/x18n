@@ -1,0 +1,18 @@
+{
+  "hash": "0210cf99cc4083f7",
+  "source": "Write plugins and presets in TypeScript with definePlugin and definePreset, with typed options.",
+  "text": "definePlugin과 definePreset으로 타입이 지정된 옵션을 사용해 TypeScript로 플러그인과 프리셋을 작성합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "definePlugin과 definePreset으로 타입이 지정된 옵션을 사용해 TypeScript로 플러그인과 프리셋을 작성합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8f7440dd4cc10a57",
+  "source": "The plan has a decision (a question such as \"which file gets the new key\"), and the command got no answer. This happens with {0}, or when stdin is not a terminal.",
+  "text": "В плане есть решение (вопрос вроде «в какой файл добавить новый ключ»), а команда не получила ответа. Так бывает при использовании {0} или когда stdin не является терминалом.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В плане есть решение (вопрос вроде «в какой файл добавить новый ключ»), а команда не получила ответа. Так бывает при использовании {0} или когда stdin не является терминалом."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

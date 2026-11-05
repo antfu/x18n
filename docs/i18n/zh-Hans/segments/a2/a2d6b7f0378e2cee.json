@@ -1,0 +1,18 @@
+{
+  "hash": "a2d6b7f0378e2cee",
+  "source": "Convert i18n-ally settings, custom frameworks and reviews into an x18n config with x18n migrate i18n-ally.",
+  "text": "使用 x18n migrate i18n-ally，将 i18n-ally 的设置、自定义框架和审阅转换为 x18n 配置。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 x18n migrate i18n-ally，将 i18n-ally 的设置、自定义框架和审阅转换为 x18n 配置。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

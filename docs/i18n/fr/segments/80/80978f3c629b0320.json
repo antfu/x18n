@@ -1,0 +1,18 @@
+{
+  "hash": "80978f3c629b0320",
+  "source": "{0}: x18n keeps resolved reviews, and {1} hides them. Key descriptions in the review file are dropped too. The command prints a note for each.",
+  "text": "{0} : x18n conserve les relectures résolues, et {1} les masque. Les descriptions de clés dans le fichier de relecture sont aussi abandonnées. La commande affiche une note pour chacune.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} : x18n conserve les relectures résolues, et {1} les masque. Les descriptions de clés dans le fichier de relecture sont aussi abandonnées. La commande affiche une note pour chacune."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

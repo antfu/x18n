@@ -1,0 +1,18 @@
+{
+  "hash": "90367bbc48430e68",
+  "source": "The built-in formats read JSON, JSONC, JSON5, YAML, gettext PO, Java properties, Fluent FTL, INI, PHP arrays, .NET resx, XLIFF, XMB and XTB, ARB and static JS or TS modules. They also read Vue {0} and {1} blocks. For a library or format that x18n does not support, {2}write a plugin{/2} in YAML or TypeScript.",
+  "text": "組み込みのフォーマットでは、JSON、JSONC、JSON5、YAML、gettext PO、Java properties、Fluent FTL、INI、PHP 配列、.NET resx、XLIFF、XMB と XTB、ARB、静的な JS または TS モジュールを読み取れます。Vue の {0} ブロックと {1} ブロックも読み取れます。x18n がサポートしていないライブラリやフォーマットについては、YAML または TypeScript で{2}プラグインを作成{/2}してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "組み込みのフォーマットでは、JSON、JSONC、JSON5、YAML、gettext PO、Java properties、Fluent FTL、INI、PHP 配列、.NET resx、XLIFF、XMB と XTB、ARB、静的な JS または TS モジュールを読み取れます。Vue の {0} ブロックと {1} ブロックも読み取れます。x18n がサポートしていないライブラリやフォーマットについては、YAML または TypeScript で{2}プラグインを作成{/2}してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

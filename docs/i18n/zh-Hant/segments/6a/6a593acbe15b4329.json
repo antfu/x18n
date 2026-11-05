@@ -1,0 +1,18 @@
+{
+  "hash": "6a593acbe15b4329",
+  "source": "Each skill tells the agent which decisions to leave to you, and to ask about them in one message.",
+  "text": "每項技能都會告訴 agent 哪些決定要交給你，並請它在同一則訊息中一併詢問。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每項技能都會告訴 agent 哪些決定要交給你，並請它在同一則訊息中一併詢問。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

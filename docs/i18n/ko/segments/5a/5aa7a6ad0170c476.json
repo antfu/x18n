@@ -1,0 +1,18 @@
+{
+  "hash": "5aa7a6ad0170c476",
+  "source": "Defaults for the config of the project: {0}, {1}, {2}, {3} and {4}. The config file of the project wins over them. {5} applies only when the config sets none.",
+  "text": "프로젝트 설정의 기본값입니다: {0}, {1}, {2}, {3}, {4}. 프로젝트의 설정 파일이 이 값보다 우선합니다. {5}은(는) 설정에 값이 없을 때만 적용됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트 설정의 기본값입니다: {0}, {1}, {2}, {3}, {4}. 프로젝트의 설정 파일이 이 값보다 우선합니다. {5}은(는) 설정에 값이 없을 때만 적용됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

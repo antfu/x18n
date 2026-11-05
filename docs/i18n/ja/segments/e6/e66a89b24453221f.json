@@ -1,0 +1,18 @@
+{
+  "hash": "e66a89b24453221f",
+  "source": "notification (client to server)",
+  "text": "通知（クライアントからサーバー）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "通知（クライアントからサーバー）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

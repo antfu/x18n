@@ -1,0 +1,18 @@
+{
+  "hash": "8fe148c00c0760ca",
+  "source": "Fluent variables: {0}. For {1} in {2} and {3} in {4}, the {5} check reports {6}.",
+  "text": "Fluent 變數：{0}。對於 {2} 中的 {1} 以及 {4} 中的 {3}，{5} 檢查會回報 {6}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Fluent 變數：{0}。對於 {2} 中的 {1} 以及 {4} 中的 {3}，{5} 檢查會回報 {6}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

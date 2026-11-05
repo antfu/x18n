@@ -1,0 +1,18 @@
+{
+  "hash": "8a23b26120be124b",
+  "source": "{0} runs this check alone. {1} skips it for one run.",
+  "text": "{0} 只會執行此檢查。{1} 會在單次執行中略過此檢查。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 只會執行此檢查。{1} 會在單次執行中略過此檢查。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

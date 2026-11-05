@@ -1,0 +1,18 @@
+{
+  "hash": "136a24350449b9e1",
+  "source": "A rename target already exists in at least one locale. x18n does not merge two keys.",
+  "text": "El destino de un renombrado ya existe en al menos un idioma. x18n no fusiona dos claves.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El destino de un renombrado ya existe en al menos un idioma. x18n no fusiona dos claves."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

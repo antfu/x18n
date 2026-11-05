@@ -1,0 +1,18 @@
+{
+  "hash": "0241df9cc9217b3a",
+  "source": "Overview of the i18n project: locales with translation coverage, counts of keys, resources and usages, diagnostics by check, and detected presets. Call it first to learn project names, the source locale and locale codes.",
+  "text": "Überblick über das i18n-Projekt: Sprachen mit Übersetzungsabdeckung, Anzahl der Schlüssel, Ressourcen und Verwendungen, Diagnosen nach Prüfung und erkannte Presets. Rufe es zuerst auf, um Projektnamen, die Quellsprache und die Sprachcodes zu erfahren.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Überblick über das i18n-Projekt: Sprachen mit Übersetzungsabdeckung, Anzahl der Schlüssel, Ressourcen und Verwendungen, Diagnosen nach Prüfung und erkannte Presets. Rufe es zuerst auf, um Projektnamen, die Quellsprache und die Sprachcodes zu erfahren."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

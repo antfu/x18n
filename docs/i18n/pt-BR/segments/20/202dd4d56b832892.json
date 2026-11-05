@@ -1,0 +1,18 @@
+{
+  "hash": "202dd4d56b832892",
+  "source": "Rename target already exists. Delete or rename the existing key first.",
+  "text": "O destino da renomeação já existe. Exclua ou renomeie a chave existente primeiro.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O destino da renomeação já existe. Exclua ou renomeie a chave existente primeiro."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

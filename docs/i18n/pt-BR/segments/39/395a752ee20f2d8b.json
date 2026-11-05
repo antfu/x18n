@@ -1,0 +1,18 @@
+{
+  "hash": "395a752ee20f2d8b",
+  "source": "{0} passes a {1} with the namespace and key prefix to its child function.",
+  "text": "{0} passa um {1} com o namespace e o prefixo de chave para sua função filha.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} passa um {1} com o namespace e o prefixo de chave para sua função filha."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "a27b992eebe2e204",
+  "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
+  "text": "當 {0} 為 {1}，或你在 {2} 中為它設定了嚴重程度時，此檢查就會啟用。執行 {3} 即可將回報的字串轉成鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當 {0} 為 {1}，或你在 {2} 中為它設定了嚴重程度時，此檢查就會啟用。執行 {3} 即可將回報的字串轉成鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

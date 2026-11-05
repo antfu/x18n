@@ -1,0 +1,18 @@
+{
+  "hash": "9dfa58ddad0c5fbe",
+  "source": "Show what x18n found:",
+  "text": "Zeige, was x18n gefunden hat:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Zeige, was x18n gefunden hat:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

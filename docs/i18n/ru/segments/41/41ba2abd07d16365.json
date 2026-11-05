@@ -1,0 +1,18 @@
+{
+  "hash": "41ba2abd07d16365",
+  "source": "x18n counts only calls that it knows as translate calls. It follows string constants ({0}, then {1}) and both branches of a condition ({2}). The callee set of a file is the set of names that count: the names of the presets and of {3}, same-file aliases such as {4}, functions returned by factories such as {5}, and parameters typed as translate functions.",
+  "text": "x18n учитывает только вызовы, которые он распознаёт как вызовы функций перевода. Он отслеживает строковые константы ({0}, затем {1}) и обе ветки условия ({2}). Набор вызываемых функций файла — это набор имён, которые учитываются: имена из пресетов и из {3}, алиасы в том же файле, такие как {4}, функции, возвращаемые фабриками, такими как {5}, и параметры, типизированные как функции перевода.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n учитывает только вызовы, которые он распознаёт как вызовы функций перевода. Он отслеживает строковые константы ({0}, затем {1}) и обе ветки условия ({2}). Набор вызываемых функций файла — это набор имён, которые учитываются: имена из пресетов и из {3}, алиасы в том же файле, такие как {4}, функции, возвращаемые фабриками, такими как {5}, и параметры, типизированные как функции перевода."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

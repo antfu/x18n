@@ -1,0 +1,18 @@
+{
+  "hash": "83ec889a30835815",
+  "source": "{0} is the source locale. If your config has no {1}, the preset uses {2}, so {3}. Without {4}, the folder is {5}.",
+  "text": "{0} 是來源語系。如果你的設定中沒有 {1}，預設集會使用 {2}，因此 {3}。若沒有 {4}，資料夾為 {5}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是來源語系。如果你的設定中沒有 {1}，預設集會使用 {2}，因此 {3}。若沒有 {4}，資料夾為 {5}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

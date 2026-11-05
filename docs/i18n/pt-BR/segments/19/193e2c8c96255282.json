@@ -1,0 +1,18 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} exclui as chaves que {1} lista, menos as chaves em {2}. Ele também mantém as chaves que uma chave totalmente computada pode alcançar dentro de um escopo: {3} sob {4} pode alcançar todas as chaves do namespace {5}, e sob {6} todas as chaves sob {7}. Execute-o primeiro com {8}: ele lista cada chave com seus idiomas e arquivos e, depois, as chaves mantidas com os usos que as mantêm. Uma chave totalmente computada fora de qualquer escopo pode alcançar qualquer chave, então o plano avisa sobre ela; liste as chaves que ela usa em {9}. As edições são feitas no próprio arquivo, então comentários e formatação são preservados.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} exclui as chaves que {1} lista, menos as chaves em {2}. Ele também mantém as chaves que uma chave totalmente computada pode alcançar dentro de um escopo: {3} sob {4} pode alcançar todas as chaves do namespace {5}, e sob {6} todas as chaves sob {7}. Execute-o primeiro com {8}: ele lista cada chave com seus idiomas e arquivos e, depois, as chaves mantidas com os usos que as mantêm. Uma chave totalmente computada fora de qualquer escopo pode alcançar qualquer chave, então o plano avisa sobre ela; liste as chaves que ela usa em {9}. As edições são feitas no próprio arquivo, então comentários e formatação são preservados."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "30453110924f326f",
+  "source": "Every framework of i18n-ally has a preset. For an unknown framework id, the command prints a note and leaves it out.",
+  "text": "Jedes Framework von i18n-ally hat ein Preset. Bei einer unbekannten Framework-ID gibt der Befehl einen Hinweis aus und lässt das Framework weg.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Jedes Framework von i18n-ally hat ein Preset. Bei einer unbekannten Framework-ID gibt der Befehl einen Hinweis aus und lässt das Framework weg."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

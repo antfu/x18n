@@ -1,0 +1,18 @@
+{
+  "hash": "718f3c468b5c8351",
+  "source": "The templates of {0}react-i18next{/0}.",
+  "text": "Die Templates von {0}react-i18next{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Templates von {0}react-i18next{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

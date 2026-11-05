@@ -1,0 +1,18 @@
+{
+  "hash": "756b712e728965a0",
+  "source": "The built-in plugins and presets.",
+  "text": "내장 플러그인과 프리셋입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "내장 플러그인과 프리셋입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

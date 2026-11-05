@@ -1,0 +1,18 @@
+{
+  "hash": "965ae55a38fd5cef",
+  "source": "When i18n-ally reviews exist, and this file does not. The comments are converted to {0}x18n reviews{/0}.",
+  "text": "Wenn i18n-ally-Reviews existieren und diese Datei nicht. Die Kommentare werden in {0}x18n-Reviews{/0} konvertiert.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn i18n-ally-Reviews existieren und diese Datei nicht. Die Kommentare werden in {0}x18n-Reviews{/0} konvertiert."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

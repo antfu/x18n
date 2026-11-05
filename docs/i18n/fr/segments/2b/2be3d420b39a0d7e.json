@@ -1,0 +1,18 @@
+{
+  "hash": "2be3d420b39a0d7e",
+  "source": "The locale that is the source of truth for checks and prompts.",
+  "text": "La langue qui fait référence pour les vérifications et les prompts.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La langue qui fait référence pour les vérifications et les prompts."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

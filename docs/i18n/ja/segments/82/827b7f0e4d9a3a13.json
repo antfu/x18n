@@ -1,0 +1,18 @@
+{
+  "hash": "827b7f0e4d9a3a13",
+  "source": "In TS, each preset is also a function in {0}, named in camelCase. Use it when a config builds on the preset object:",
+  "text": "TS では、各プリセットは {0} 内の関数としても提供されており、名前は camelCase です。設定でプリセットのオブジェクトを土台にする場合に使用してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TS では、各プリセットは {0} 内の関数としても提供されており、名前は camelCase です。設定でプリセットのオブジェクトを土台にする場合に使用してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

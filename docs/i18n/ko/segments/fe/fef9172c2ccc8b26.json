@@ -1,0 +1,18 @@
+{
+  "hash": "fef9172c2ccc8b26",
+  "source": "ts (default), yml or json",
+  "text": "ts (기본값), yml 또는 json",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ts (기본값), yml 또는 json"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f395651725313e99",
+  "source": "The Shopify format keeps plural and ordinal forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, and {3} to {4}. Each locale needs the plural categories of its own language: Japanese needs only {5}, and Polish needs {6}, {7}, {8} and {9}. New files use nested keys.",
+  "text": "Shopify 格式會將複數與序數形式保留為巢狀鍵。此預設集會將衍生的鍵 {0}、{1}、{2} 和 {3} 加入 {4}。每個語系都需要其自身語言的複數類別：日文只需要 {5}，波蘭文則需要 {6}、{7}、{8} 和 {9}。新檔案會使用巢狀鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Shopify 格式會將複數與序數形式保留為巢狀鍵。此預設集會將衍生的鍵 {0}、{1}、{2} 和 {3} 加入 {4}。每個語系都需要其自身語言的複數類別：日文只需要 {5}，波蘭文則需要 {6}、{7}、{8} 和 {9}。新檔案會使用巢狀鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

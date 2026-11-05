@@ -1,0 +1,18 @@
+{
+  "hash": "cc1077e76621cd01",
+  "source": "The related locales of a target are, nearest first:",
+  "text": "Les langues apparentées d'une langue cible sont, de la plus proche à la plus éloignée :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les langues apparentées d'une langue cible sont, de la plus proche à la plus éloignée :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

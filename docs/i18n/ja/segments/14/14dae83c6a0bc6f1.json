@@ -1,0 +1,18 @@
+{
+  "hash": "14dae83c6a0bc6f1",
+  "source": "If your config has no {0}, the preset uses {1} and {2}.",
+  "text": "設定に {0} がない場合、このプリセットは {1} と {2} を使用します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定に {0} がない場合、このプリセットは {1} と {2} を使用します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

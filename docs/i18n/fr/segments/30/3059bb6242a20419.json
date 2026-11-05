@@ -1,0 +1,18 @@
+{
+  "hash": "3059bb6242a20419",
+  "source": "A locale file parsed, but its top level is not an object of messages. A locale file holds nested objects whose leaves are strings, numbers, booleans or {0}.",
+  "text": "Un fichier de langue a été analysé, mais son niveau supérieur n'est pas un objet de messages. Un fichier de langue contient des objets imbriqués dont les feuilles sont des chaînes, des nombres, des booléens ou {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un fichier de langue a été analysé, mais son niveau supérieur n'est pas un objet de messages. Un fichier de langue contient des objets imbriqués dont les feuilles sont des chaînes, des nombres, des booléens ou {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

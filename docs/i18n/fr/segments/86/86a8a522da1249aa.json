@@ -1,0 +1,18 @@
+{
+  "hash": "86a8a522da1249aa",
+  "source": "Checks report diagnostics. {0} puts them in {1} of the envelope, and its {2} holds a summary and the coverage per project, and {3} ({4} and {5} counts) when a {6}baseline{/6} applies. {7} puts the diagnostics of one key in {8}. Both use this shape:",
+  "text": "Les vérifications signalent des diagnostics. {0} les place dans {1} de l'enveloppe, et son {2} contient un résumé et la couverture par projet, ainsi que {3} (compteurs {4} et {5}) lorsqu'une {6}baseline{/6} s'applique. {7} place les diagnostics d'une clé dans {8}. Les deux utilisent cette structure :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les vérifications signalent des diagnostics. {0} les place dans {1} de l'enveloppe, et son {2} contient un résumé et la couverture par projet, ainsi que {3} (compteurs {4} et {5}) lorsqu'une {6}baseline{/6} s'applique. {7} place les diagnostics d'une clé dans {8}. Les deux utilisent cette structure :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

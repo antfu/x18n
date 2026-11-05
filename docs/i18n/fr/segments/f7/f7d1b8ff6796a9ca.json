@@ -1,0 +1,18 @@
+{
+  "hash": "f7d1b8ff6796a9ca",
+  "source": "{0} is a usage of its {1}.",
+  "text": "{0} est une utilisation de son {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} est une utilisation de son {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ac73c1f3b34011c6",
+  "source": "X18N4007: Placeholder mismatch",
+  "text": "X18N4007：佔位符不一致",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N4007：佔位符不一致"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "e56c988e489f4610",
+  "source": "Also translate stale translations: those older than their source message.",
+  "text": "古い翻訳（ソースメッセージより古い翻訳）も翻訳します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "古い翻訳（ソースメッセージより古い翻訳）も翻訳します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

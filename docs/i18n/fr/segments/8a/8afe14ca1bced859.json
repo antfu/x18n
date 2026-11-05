@@ -1,0 +1,18 @@
+{
+  "hash": "8afe14ca1bced859",
+  "source": "{0} and {1} are translate calls in JS and TS:",
+  "text": "{0} et {1} sont des appels de traduction en JS et TS :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} et {1} sont des appels de traduction en JS et TS :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

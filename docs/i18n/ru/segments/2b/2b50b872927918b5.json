@@ -1,0 +1,18 @@
+{
+  "hash": "2b50b872927918b5",
+  "source": "Gravity UI: {0}@gravity-ui/i18n{/0}",
+  "text": "Gravity UI — {0}@gravity-ui/i18n{/0}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gravity UI — {0}@gravity-ui/i18n{/0}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

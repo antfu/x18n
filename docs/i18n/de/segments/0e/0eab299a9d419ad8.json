@@ -1,0 +1,18 @@
+{
+  "hash": "0eab299a9d419ad8",
+  "source": "Approves the current value. {0} is optional.",
+  "text": "Gibt den aktuellen Wert frei. {0} ist optional.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gibt den aktuellen Wert frei. {0} ist optional."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "6a2fb6e2c8029d9f",
+  "source": "Dropped. A custom framework becomes the generated plugin.",
+  "text": "已丢弃。自定义框架会变成生成的插件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "已丢弃。自定义框架会变成生成的插件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

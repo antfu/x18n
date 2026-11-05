@@ -1,0 +1,18 @@
+{
+  "hash": "7f5e65ce16ed83aa",
+  "source": "The preset for next-international. It reads useI18n, useScopedI18n and their server versions, and TS locale files.",
+  "text": "next-international 的预设。它会读取 useI18n、useScopedI18n 及其服务端版本，以及 TS 语言文件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-international 的预设。它会读取 useI18n、useScopedI18n 及其服务端版本，以及 TS 语言文件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "3211afaab9f16c8a",
+  "source": "In code, the services and pipes a class injects, whatever their name:",
+  "text": "コード内では、クラスが注入するサービスとパイプが対象です。名前は問いません:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コード内では、クラスが注入するサービスとパイプが対象です。名前は問いません:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

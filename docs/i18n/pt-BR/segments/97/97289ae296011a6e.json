@@ -1,0 +1,18 @@
+{
+  "hash": "97289ae296011a6e",
+  "source": "Each hard string has a kind, which tells where it is:",
+  "text": "Cada string fixa no código tem um tipo, que indica onde ela está:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cada string fixa no código tem um tipo, que indica onde ela está:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

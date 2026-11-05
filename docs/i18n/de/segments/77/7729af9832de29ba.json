@@ -1,0 +1,18 @@
+{
+  "hash": "7729af9832de29ba",
+  "source": "The keys and hard strings of one file.",
+  "text": "Die Schlüssel und hartcodierten Strings einer Datei.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Schlüssel und hartcodierten Strings einer Datei."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

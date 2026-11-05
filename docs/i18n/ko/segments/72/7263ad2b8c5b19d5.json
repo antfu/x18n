@@ -1,0 +1,18 @@
+{
+  "hash": "7263ad2b8c5b19d5",
+  "source": "The preset for vue-i18n. It reads translate calls in script and template, v-t, i18n-t, and Vue <i18n> blocks.",
+  "text": "vue-i18n용 프리셋입니다. 스크립트와 템플릿의 번역 호출, v-t, i18n-t, Vue <i18n> 블록을 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "vue-i18n용 프리셋입니다. 스크립트와 템플릿의 번역 호출, v-t, i18n-t, Vue <i18n> 블록을 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

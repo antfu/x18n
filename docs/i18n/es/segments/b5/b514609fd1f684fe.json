@@ -1,0 +1,18 @@
+{
+  "hash": "b514609fd1f684fe",
+  "source": "What x18n does not do",
+  "text": "Qué no hace x18n",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Qué no hace x18n"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

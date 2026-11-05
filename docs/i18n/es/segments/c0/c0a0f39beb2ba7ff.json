@@ -1,0 +1,18 @@
+{
+  "hash": "c0a0f39beb2ba7ff",
+  "source": "The check takes options. Set them with the array form:",
+  "text": "La comprobación admite opciones. Defínelas con la forma de array:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La comprobación admite opciones. Defínelas con la forma de array:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

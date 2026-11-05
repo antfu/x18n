@@ -1,0 +1,18 @@
+{
+  "hash": "0ad1ce9a5fe1471d",
+  "source": "The source locale is the locale that is the source of truth. Checks compare the other locales with it, translate prompts translate from it, and go to definition opens its messages. Set it with {0}. The default is {1}.",
+  "text": "來源語系是作為基準的語系。檢查會將其他語系與它比對，翻譯提示詞會從它進行翻譯，前往定義則會開啟它的訊息。請用 {0} 設定。預設值為 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "來源語系是作為基準的語系。檢查會將其他語系與它比對，翻譯提示詞會從它進行翻譯，前往定義則會開啟它的訊息。請用 {0} 設定。預設值為 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

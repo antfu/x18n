@@ -1,0 +1,18 @@
+{
+  "hash": "fc297e6c4f654981",
+  "source": "Patterns with a {0} placeholder (i18n-ally {1}), or a regex whose first group is the key.",
+  "text": "Patrones con un marcador de posición {0} (i18n-ally {1}), o una regex cuyo primer grupo es la clave.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Patrones con un marcador de posición {0} (i18n-ally {1}), o una regex cuyo primer grupo es la clave."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

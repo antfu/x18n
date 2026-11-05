@@ -1,0 +1,18 @@
+{
+  "hash": "92e2a78268123b4e",
+  "source": "Messages per prompt. The default is 50.",
+  "text": "Messaggi per prompt. Il valore predefinito è 50.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Messaggi per prompt. Il valore predefinito è 50."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

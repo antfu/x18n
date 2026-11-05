@@ -1,0 +1,18 @@
+{
+  "hash": "1eb375c5df06fc70",
+  "source": "The preset adds the derived key rules {0}, {1} and {2}. When {3} is used, {4}, {5} and {6} count as used, and {7} is not reported missing. Suffixes stack, so context with plural ({8}) and ordinal plurals ({9}) also belong to {10}. Hovers and inline values show the {11} form, or another form when the locale has no {12}.",
+  "text": "此預設集會加入衍生鍵規則 {0}、{1} 和 {2}。當使用 {3} 時，{4}、{5} 和 {6} 會視為已使用，且 {7} 不會被回報為缺少。後綴可以疊加，因此帶有複數的語境（{8}）以及序數複數（{9}）也屬於 {10}。懸停提示和行內值會顯示 {11} 形式；若語系沒有 {12}，則顯示其他形式。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集會加入衍生鍵規則 {0}、{1} 和 {2}。當使用 {3} 時，{4}、{5} 和 {6} 會視為已使用，且 {7} 不會被回報為缺少。後綴可以疊加，因此帶有複數的語境（{8}）以及序數複數（{9}）也屬於 {10}。懸停提示和行內值會顯示 {11} 形式；若語系沒有 {12}，則顯示其他形式。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

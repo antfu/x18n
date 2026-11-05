@@ -1,0 +1,18 @@
+{
+  "hash": "21b03dd003e9a127",
+  "source": "{0} also serves MCP over HTTP at {1}, on the same port as the UI. An agent and a human then work on the same project at the same time, and each sees the changes of the other.",
+  "text": "{0} 还会通过 HTTP 在 {1} 提供 MCP，与 UI 使用同一个端口。这样 agent 和人可以同时处理同一个项目，并且彼此都能看到对方的更改。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 还会通过 HTTP 在 {1} 提供 MCP，与 UI 使用同一个端口。这样 agent 和人可以同时处理同一个项目，并且彼此都能看到对方的更改。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "783fdd1e31ee64ea",
+  "source": "Where a key prefix comes from ({0} option, or next-intl {1}).",
+  "text": "De onde vem o prefixo de chave (opção {0}, ou {1} do next-intl).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "De onde vem o prefixo de chave (opção {0}, ou {1} do next-intl)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

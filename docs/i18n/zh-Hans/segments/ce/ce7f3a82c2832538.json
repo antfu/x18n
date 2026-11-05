@@ -1,0 +1,18 @@
+{
+  "hash": "ce7f3a82c2832538",
+  "source": "Other folders, such as {0} and {1}, are not locales. A new locale gets the folder Android expects.",
+  "text": "其他文件夹，例如 {0} 和 {1}，不是语言。新增的语言会使用 Android 所要求的文件夹。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "其他文件夹，例如 {0} 和 {1}，不是语言。新增的语言会使用 Android 所要求的文件夹。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "85600c2e2c483545",
+  "source": "The preset reads {0} as text. If the value is computed, set {1} in the config.",
+  "text": "该预设会将 {0} 作为文本读取。如果该值是计算得出的，请在配置中设置 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该预设会将 {0} 作为文本读取。如果该值是计算得出的，请在配置中设置 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "0a8f603ae56c2cf1",
+  "source": "The gettext system of cargo-i18n (the {0} macro and {1} files) is not supported.",
+  "text": "cargo-i18n의 gettext 시스템({0} 매크로와 {1} 파일)은 지원하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "cargo-i18n의 gettext 시스템({0} 매크로와 {1} 파일)은 지원하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "520c85026deadea6",
+  "source": "Turn every warning into an error. The config option {0} does the same.",
+  "text": "將所有警告視為錯誤。設定選項 {0} 的效果相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將所有警告視為錯誤。設定選項 {0} 的效果相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

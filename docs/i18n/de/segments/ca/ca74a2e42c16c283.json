@@ -1,0 +1,18 @@
+{
+  "hash": "ca74a2e42c16c283",
+  "source": "{0} for a wrong translation (say why in {1}), {2} to propose a value (in {3}), {4} for a good one, {5} for anything else.",
+  "text": "{0} für eine falsche Übersetzung (nenne den Grund in {1}), {2}, um einen Wert vorzuschlagen (in {3}), {4} für eine gute Übersetzung, {5} für alles andere.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} für eine falsche Übersetzung (nenne den Grund in {1}), {2}, um einen Wert vorzuschlagen (in {3}), {4} für eine gute Übersetzung, {5} für alles andere."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

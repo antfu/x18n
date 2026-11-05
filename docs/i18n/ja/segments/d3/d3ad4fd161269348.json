@@ -1,0 +1,18 @@
+{
+  "hash": "d3ad4fd161269348",
+  "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
+  "text": "Keys: 1 キーにつき 1 行、1 ロケールにつき 1 列のテーブルです。キーと値を検索できるほか、名前空間、そのキーが存在しないロケール、未使用のキー、問題のあるキー、翻訳状態で絞り込めます。フォーマットがキーにラベルを付けている場合はラベルが表示され、検索でもラベルに一致します。セルを選択して Enter を押すと編集できます。移動には矢印キーまたは {0} と {1}、キャンセルには Esc、キーを開くには {2}、検索には {3} を使用してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Keys: 1 キーにつき 1 行、1 ロケールにつき 1 列のテーブルです。キーと値を検索できるほか、名前空間、そのキーが存在しないロケール、未使用のキー、問題のあるキー、翻訳状態で絞り込めます。フォーマットがキーにラベルを付けている場合はラベルが表示され、検索でもラベルに一致します。セルを選択して Enter を押すと編集できます。移動には矢印キーまたは {0} と {1}、キャンセルには Esc、キーを開くには {2}、検索には {3} を使用してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f6e3cb4e2730a883",
+  "source": "Keys: the key tree of the project. Edit, open, delete, copy a prompt or translate with an agent from the context menu of a key.",
+  "text": "Keys: el árbol de claves del proyecto. Edita, abre, elimina, copia un prompt o traduce con un agente desde el menú contextual de una clave.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Keys: el árbol de claves del proyecto. Edita, abre, elimina, copia un prompt o traduce con un agente desde el menú contextual de una clave."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

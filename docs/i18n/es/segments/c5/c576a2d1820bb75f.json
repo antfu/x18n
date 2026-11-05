@@ -1,0 +1,18 @@
+{
+  "hash": "c576a2d1820bb75f",
+  "source": "Print a prompt for an agent or LLM: {0}, {1}, or the skills {2} and {3}.",
+  "text": "Muestra un prompt para un agente o un LLM: {0}, {1}, o las skills {2} y {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Muestra un prompt para un agente o un LLM: {0}, {1}, o las skills {2} y {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

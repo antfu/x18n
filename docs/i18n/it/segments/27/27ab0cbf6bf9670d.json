@@ -1,0 +1,18 @@
+{
+  "hash": "27ab0cbf6bf9670d",
+  "source": "The preset for Laravel. It reads PHP translation arrays and JSON strings, __ and trans calls, and :name placeholders.",
+  "text": "Il preset per Laravel. Legge gli array di traduzione PHP e le stringhe JSON, le chiamate a __ e trans e i segnaposto :name.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset per Laravel. Legge gli array di traduzione PHP e le stringhe JSON, le chiamate a __ e trans e i segnaposto :name."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

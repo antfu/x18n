@@ -1,0 +1,18 @@
+{
+  "hash": "9017c2bc9a6fa81e",
+  "source": "One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, history provider, review store.",
+  "text": "기여의 한 종류입니다: 매니페스트 리더, 로케일 파인더, 포맷, 스캐너, 추출기, 검사, 리포터, 플레이스홀더 구문, 히스토리 제공자, 리뷰 저장소.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "기여의 한 종류입니다: 매니페스트 리더, 로케일 파인더, 포맷, 스캐너, 추출기, 검사, 리포터, 플레이스홀더 구문, 히스토리 제공자, 리뷰 저장소."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

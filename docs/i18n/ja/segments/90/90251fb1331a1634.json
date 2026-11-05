@@ -1,0 +1,18 @@
+{
+  "hash": "90251fb1331a1634",
+  "source": "A prefix usage is a usage with a computed key that starts with a static part. {0} is a prefix usage with the prefix {1}. x18n cannot know the value of {2}, so every key under {3} counts as possibly used. Neither {4} nor {5} is reported as unused.",
+  "text": "プレフィックスの使用箇所とは、静的な部分で始まる動的なキーを持つ使用箇所のことです。{0} は、プレフィックス {1} を持つプレフィックスの使用箇所です。x18n は {2} の値を知ることができないため、{3} 配下のすべてのキーが使用されている可能性があるものとして扱われます。{4} も {5} も未使用として報告されません。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プレフィックスの使用箇所とは、静的な部分で始まる動的なキーを持つ使用箇所のことです。{0} は、プレフィックス {1} を持つプレフィックスの使用箇所です。x18n は {2} の値を知ることができないため、{3} 配下のすべてのキーが使用されている可能性があるものとして扱われます。{4} も {5} も未使用として報告されません。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

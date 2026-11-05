@@ -1,0 +1,18 @@
+{
+  "hash": "e2943907dbf8b099",
+  "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
+  "text": "{0} serve para armazenamentos que mantêm um arquivo por mensagem. Ele retorna o arquivo de uma chave em um idioma: um {1} e o id de {2} com o qual criá-lo quando não for o formato da sua extensão. Uma nova mensagem da chave vai para esse arquivo, em vez de para um recurso que já contém outras chaves, e o arquivo é criado quando não existe. Uma renomeação move cada mensagem para o arquivo da nova chave, e uma exclusão que deixa o arquivo da sua chave vazio exclui o arquivo. Retorne {3} para chaves que ficam em arquivos compartilhados.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} serve para armazenamentos que mantêm um arquivo por mensagem. Ele retorna o arquivo de uma chave em um idioma: um {1} e o id de {2} com o qual criá-lo quando não for o formato da sua extensão. Uma nova mensagem da chave vai para esse arquivo, em vez de para um recurso que já contém outras chaves, e o arquivo é criado quando não existe. Uma renomeação move cada mensagem para o arquivo da nova chave, e uma exclusão que deixa o arquivo da sua chave vazio exclui o arquivo. Retorne {3} para chaves que ficam em arquivos compartilhados."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

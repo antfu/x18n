@@ -1,0 +1,18 @@
+{
+  "hash": "ccfd933028c89a43",
+  "source": "In Vue templates, the preset also reads the {0} directive and the {1} component:",
+  "text": "In Vue-Templates liest das Preset außerdem die {0}-Direktive und die {1}-Komponente:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In Vue-Templates liest das Preset außerdem die {0}-Direktive und die {1}-Komponente:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

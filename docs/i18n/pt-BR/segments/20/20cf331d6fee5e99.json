@@ -1,0 +1,18 @@
+{
+  "hash": "20cf331d6fee5e99",
+  "source": "A plugin can add rules and notes with the {0} hook. See {1}Capabilities{/1}.",
+  "text": "Um plugin pode adicionar regras e notas com o hook {0}. Consulte {1}Capabilities{/1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um plugin pode adicionar regras e notas com o hook {0}. Consulte {1}Capabilities{/1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

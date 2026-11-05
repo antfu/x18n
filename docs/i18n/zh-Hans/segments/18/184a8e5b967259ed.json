@@ -1,0 +1,18 @@
+{
+  "hash": "184a8e5b967259ed",
+  "source": "{0} flags in the generated plugin",
+  "text": "生成的插件中的 {0} 标志",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "生成的插件中的 {0} 标志"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

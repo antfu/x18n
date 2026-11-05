@@ -1,0 +1,18 @@
+{
+  "hash": "271a2ca96f310a2d",
+  "source": "A preset is a group of plugins with a {0} function. x18n runs {1} for the built-in presets when {2} is {3}, and for a preset inside the plugins of another preset. A preset or plugin that you list in {4} or {5} always applies, and {6} shows it as {7}.",
+  "text": "预设是带有 {0} 函数的一组插件。当 {2} 为 {3} 时，x18n 会为内置预设运行 {1}，也会为另一个预设的插件中包含的预设运行 {0}。你在 {4} 或 {5} 中列出的预设或插件始终生效，{6} 会将其显示为 {7}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "预设是带有 {0} 函数的一组插件。当 {2} 为 {3} 时，x18n 会为内置预设运行 {1}，也会为另一个预设的插件中包含的预设运行 {0}。你在 {4} 或 {5} 中列出的预设或插件始终生效，{6} 会将其显示为 {7}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

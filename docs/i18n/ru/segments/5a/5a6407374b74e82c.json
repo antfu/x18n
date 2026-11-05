@@ -1,0 +1,18 @@
+{
+  "hash": "5a6407374b74e82c",
+  "source": "The preset applies when the project depends on {0}. In a Laravel app, the {1} preset applies too, so the PHP and Vue sides share the same keys.",
+  "text": "Пресет применяется, когда проект зависит от {0}. В приложении Laravel также применяется пресет {1}, поэтому PHP- и Vue-части используют одни и те же ключи.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет применяется, когда проект зависит от {0}. В приложении Laravel также применяется пресет {1}, поэтому PHP- и Vue-части используют одни и те же ключи."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "2e8d4d604820668d",
+  "source": "bindings, events, references and structural directives: {0}, {1}, {2}, {3}, {4},",
+  "text": "les bindings, les événements, les références et les directives structurelles : {0}, {1}, {2}, {3}, {4},",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "les bindings, les événements, les références et les directives structurelles : {0}, {1}, {2}, {3}, {4},"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

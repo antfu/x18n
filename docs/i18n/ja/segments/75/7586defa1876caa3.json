@@ -1,0 +1,18 @@
+{
+  "hash": "7586defa1876caa3",
+  "source": "{0} leaves comments, approvals, change requests and suggested values on messages. See {1}Reviews{/1}.",
+  "text": "{0} は、メッセージに対するコメント、承認、変更リクエスト、提案値を残します。詳しくは {1}レビュー{/1}を参照してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、メッセージに対するコメント、承認、変更リクエスト、提案値を残します。詳しくは {1}レビュー{/1}を参照してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

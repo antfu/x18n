@@ -1,0 +1,18 @@
+{
+  "hash": "441ba5d55d7c57c9",
+  "source": "Indent of written files: a number of spaces, or {0}. Without it, each file keeps its own indent.",
+  "text": "작성되는 파일의 들여쓰기입니다. 공백 수 또는 {0}입니다. 지정하지 않으면 각 파일의 들여쓰기를 그대로 유지합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "작성되는 파일의 들여쓰기입니다. 공백 수 또는 {0}입니다. 지정하지 않으면 각 파일의 들여쓰기를 그대로 유지합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

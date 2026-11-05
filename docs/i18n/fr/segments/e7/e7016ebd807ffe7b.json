@@ -1,0 +1,18 @@
+{
+  "hash": "e7016ebd807ffe7b",
+  "source": "The config or the command line is invalid.",
+  "text": "La configuration ou la ligne de commande est invalide.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La configuration ou la ligne de commande est invalide."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

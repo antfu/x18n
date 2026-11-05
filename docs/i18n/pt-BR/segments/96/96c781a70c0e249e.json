@@ -1,0 +1,18 @@
+{
+  "hash": "96c781a70c0e249e",
+  "source": "The preset includes everything of the {0} preset: the {1} namespace separator, the default namespace {2}, the derived keys {3}, the placeholders and the calls of i18next. If the {4} preset also applies, x18n adds these plugins one time.",
+  "text": "O preset inclui tudo do preset {0}: o separador de namespace {1}, o namespace padrão {2}, as chaves derivadas {3}, os placeholders e as chamadas do i18next. Se o preset {4} também se aplicar, o x18n adiciona esses plugins uma só vez.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset inclui tudo do preset {0}: o separador de namespace {1}, o namespace padrão {2}, as chaves derivadas {3}, os placeholders e as chamadas do i18next. Se o preset {4} também se aplicar, o x18n adiciona esses plugins uma só vez."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

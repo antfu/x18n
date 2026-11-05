@@ -1,0 +1,18 @@
+{
+  "hash": "082ef2350c4707dc",
+  "source": "Fail a build on broken keys, annotate pull requests, upload SARIF and publish a static report.",
+  "text": "在鍵有問題時讓建置失敗、為 pull request 加上標註、上傳 SARIF，並發佈靜態報告。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在鍵有問題時讓建置失敗、為 pull request 加上標註、上傳 SARIF，並發佈靜態報告。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

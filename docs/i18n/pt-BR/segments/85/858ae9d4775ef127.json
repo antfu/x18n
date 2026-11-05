@@ -1,0 +1,18 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "Quando as configurações contêm scanners de regex, escopos, templates de refatoração, bandeiras de idioma ou um framework personalizado. A configuração o lista em {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Quando as configurações contêm scanners de regex, escopos, templates de refatoração, bandeiras de idioma ou um framework personalizado. A configuração o lista em {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

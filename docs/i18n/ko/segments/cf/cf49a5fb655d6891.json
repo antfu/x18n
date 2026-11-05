@@ -1,0 +1,18 @@
+{
+  "hash": "cf49a5fb655d6891",
+  "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
+  "text": "모든 로케일에서 사용되지 않는 키({0}이 {1}로 나열하는 키)를 모두 삭제하며, 선택적으로 {2} 또는 {3}에 일치하는 키만 삭제할 수 있습니다. 코드의 계산된 키가 도달할 수 있는 키(템플릿 리터럴 접두사 또는 {4}나 네임스페이스 아래의 계산된 키)는 그대로 두고 {5}에 나열합니다. {6}은 모든 키에 도달할 수 있는 계산된 키를 알려줍니다. 코드는 변경되지 않습니다. {7}이 없으면 계획을 반환하며, {8}에 각 키가 로케일 및 파일과 함께 나열됩니다. 적용하려면 {9}와 함께 다시 호출하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 로케일에서 사용되지 않는 키({0}이 {1}로 나열하는 키)를 모두 삭제하며, 선택적으로 {2} 또는 {3}에 일치하는 키만 삭제할 수 있습니다. 코드의 계산된 키가 도달할 수 있는 키(템플릿 리터럴 접두사 또는 {4}나 네임스페이스 아래의 계산된 키)는 그대로 두고 {5}에 나열합니다. {6}은 모든 키에 도달할 수 있는 계산된 키를 알려줍니다. 코드는 변경되지 않습니다. {7}이 없으면 계획을 반환하며, {8}에 각 키가 로케일 및 파일과 함께 나열됩니다. 적용하려면 {9}와 함께 다시 호출하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

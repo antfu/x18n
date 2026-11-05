@@ -1,0 +1,18 @@
+{
+  "hash": "b5e23c00430d3fc6",
+  "source": "One path segment that names the namespace.",
+  "text": "Ein Pfadsegment, das den Namespace benennt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Pfadsegment, das den Namespace benennt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

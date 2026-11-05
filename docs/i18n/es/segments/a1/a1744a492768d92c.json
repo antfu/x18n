@@ -1,0 +1,18 @@
+{
+  "hash": "a1744a492768d92c",
+  "source": "How a layer changes a value depends on the option:",
+  "text": "La forma en que una capa cambia un valor depende de la opción:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La forma en que una capa cambia un valor depende de la opción:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

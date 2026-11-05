@@ -1,0 +1,18 @@
+{
+  "hash": "5084f671cabdbb73",
+  "source": "How {0} makes a new key: {1} from the text, {2} uses the text itself, {3}, or {4}. Default {5}.",
+  "text": "Wie {0} einen neuen Schlüssel erzeugt: {1} aus dem Text, {2} verwendet den Text selbst, {3} oder {4}. Standard {5}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wie {0} einen neuen Schlüssel erzeugt: {1} aus dem Text, {2} verwendet den Text selbst, {3} oder {4}. Standard {5}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

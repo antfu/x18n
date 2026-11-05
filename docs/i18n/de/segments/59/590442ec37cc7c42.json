@@ -1,0 +1,18 @@
+{
+  "hash": "590442ec37cc7c42",
+  "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
+  "text": "Extract: die hartcodierten Strings mit je einem vorgeschlagenen Schlüssel. Bearbeite die Schlüssel, hake die Strings ab, die übersprungen werden sollen, und extrahiere den Rest.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extract: die hartcodierten Strings mit je einem vorgeschlagenen Schlüssel. Bearbeite die Schlüssel, hake die Strings ab, die übersprungen werden sollen, und extrahiere den Rest."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

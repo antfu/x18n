@@ -1,0 +1,18 @@
+{
+  "hash": "c085346a53e6ec22",
+  "source": "This plugin supports a made-up library, {0}, with YAML locale files, a {1} function, a {2} factory and Handlebars templates:",
+  "text": "这个插件支持一个虚构的库 {0}，包含 YAML 语言文件、一个 {1} 函数、一个 {2} 工厂函数以及 Handlebars 模板：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "这个插件支持一个虚构的库 {0}，包含 YAML 语言文件、一个 {1} 函数、一个 {2} 工厂函数以及 Handlebars 模板："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

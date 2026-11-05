@@ -1,0 +1,18 @@
+{
+  "hash": "2cb451e7e2d9c081",
+  "source": "If neither pattern matches a file, x18n guesses the locale directories. A file such as {0} can then hold every keyset as a top-level object.",
+  "text": "Если ни один из шаблонов не подходит для файла, x18n угадывает каталоги локалей. Тогда файл вроде {0} может содержать все keyset как объект верхнего уровня.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если ни один из шаблонов не подходит для файла, x18n угадывает каталоги локалей. Тогда файл вроде {0} может содержать все keyset как объект верхнего уровня."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

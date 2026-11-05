@@ -1,0 +1,18 @@
+{
+  "hash": "5cfca51f4f16639d",
+  "source": "In YAML, write regular expressions in single quotes, so that backslashes stay as they are.",
+  "text": "Schreibe reguläre Ausdrücke in YAML in einfachen Anführungszeichen, damit Backslashes unverändert bleiben.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schreibe reguläre Ausdrücke in YAML in einfachen Anführungszeichen, damit Backslashes unverändert bleiben."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

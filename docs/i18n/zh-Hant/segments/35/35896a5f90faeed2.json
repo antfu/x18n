@@ -1,0 +1,18 @@
+{
+  "hash": "35896a5f90faeed2",
+  "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
+  "text": "完全動態的鍵（例如 {0}）沒有靜態前綴，任何檢查都無法追蹤。開啟此檢查即可找出這類使用處。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "完全動態的鍵（例如 {0}）沒有靜態前綴，任何檢查都無法追蹤。開啟此檢查即可找出這類使用處。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

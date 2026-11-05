@@ -1,0 +1,18 @@
+{
+  "hash": "3ad1a299d76fba86",
+  "source": "Turn the check on in {0}:",
+  "text": "{0} でこのチェックを有効にします。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} でこのチェックを有効にします。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

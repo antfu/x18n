@@ -1,0 +1,18 @@
+{
+  "hash": "7cfe9bbdb8c9e1b7",
+  "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
+  "text": "Cadenas que nunca se extraen: una cadena exacta como {0}, o una cadena {1} como {2} que coincida con el texto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cadenas que nunca se extraen: una cadena exacta como {0}, o una cadena {1} como {2} que coincida con el texto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

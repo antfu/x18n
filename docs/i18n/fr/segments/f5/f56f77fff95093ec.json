@@ -1,0 +1,18 @@
+{
+  "hash": "f56f77fff95093ec",
+  "source": "A format reads and writes one file format, such as JSON or YAML. A locale finder finds the resources. The built-in {0} finder uses the {1} patterns of the config. See {2}Configuration{/2}.",
+  "text": "Un format lit et écrit un seul format de fichier, comme JSON ou YAML. Un chercheur de langues trouve les ressources. Le chercheur intégré {0} utilise les motifs {1} de la configuration. Voir {2}Configuration{/2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un format lit et écrit un seul format de fichier, comme JSON ou YAML. Un chercheur de langues trouve les ressources. Le chercheur intégré {0} utilise les motifs {1} de la configuration. Voir {2}Configuration{/2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

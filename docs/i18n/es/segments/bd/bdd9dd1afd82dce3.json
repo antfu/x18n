@@ -1,0 +1,18 @@
+{
+  "hash": "bdd9dd1afd82dce3",
+  "source": "x18n needs Node.js 22 or later. Run the commands in this page in the root directory of your project.",
+  "text": "x18n requiere Node.js 22 o posterior. Ejecuta los comandos de esta página en el directorio raíz de tu proyecto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n requiere Node.js 22 o posterior. Ejecuta los comandos de esta página en el directorio raíz de tu proyecto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

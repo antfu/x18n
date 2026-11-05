@@ -1,0 +1,18 @@
+{
+  "hash": "25e7948cc1477b91",
+  "source": "No resource for the key",
+  "text": "No hay ningún recurso para la clave",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No hay ningún recurso para la clave"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

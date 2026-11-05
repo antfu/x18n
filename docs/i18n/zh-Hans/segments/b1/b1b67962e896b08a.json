@@ -1,0 +1,18 @@
+{
+  "hash": "b1b67962e896b08a",
+  "source": "Where a default value written in code comes from; the first string found wins. For factories, that of the returned functions.",
+  "text": "代码中编写的默认值的来源；以找到的第一个字符串为准。对于工厂函数，则指其返回函数的默认值。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "代码中编写的默认值的来源；以找到的第一个字符串为准。对于工厂函数，则指其返回函数的默认值。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

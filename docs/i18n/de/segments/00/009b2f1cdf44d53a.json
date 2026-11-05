@@ -1,0 +1,18 @@
+{
+  "hash": "009b2f1cdf44d53a",
+  "source": "x18n uses one name for each idea, in its code, docs, CLI output and UI. This page explains the names with one small project as the example:",
+  "text": "x18n verwendet für jede Idee einen eigenen Namen, in Code, Dokumentation, CLI-Ausgabe und UI. Diese Seite erklärt die Namen anhand eines kleinen Beispielprojekts:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n verwendet für jede Idee einen eigenen Namen, in Code, Dokumentation, CLI-Ausgabe und UI. Diese Seite erklärt die Namen anhand eines kleinen Beispielprojekts:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

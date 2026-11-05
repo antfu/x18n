@@ -1,0 +1,18 @@
+{
+  "hash": "a1e87bcdb407e299",
+  "source": "Sets the value of a suggestion and resolves it.",
+  "text": "提案の値を設定し、その提案を解決します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "提案の値を設定し、その提案を解決します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

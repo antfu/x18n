@@ -1,0 +1,18 @@
+{
+  "hash": "078f3a57995aa371",
+  "source": "If the file is not a locale file, change {0} so that its pattern does not match the file.",
+  "text": "Если файл не является файлом локали, измените {0}, чтобы его шаблон не совпадал с этим файлом.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если файл не является файлом локали, измените {0}, чтобы его шаблон не совпадал с этим файлом."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

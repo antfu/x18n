@@ -1,0 +1,18 @@
+{
+  "hash": "57f52d69b11edabe",
+  "source": "{0} fails the build when there are more than {1} warnings. Use it to stop the number of warnings from growing.",
+  "text": "{0} fa fallire la build quando ci sono più di {1} avvisi. Usalo per evitare che il numero di avvisi cresca.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} fa fallire la build quando ci sono più di {1} avvisi. Usalo per evitare che il numero di avvisi cresca."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

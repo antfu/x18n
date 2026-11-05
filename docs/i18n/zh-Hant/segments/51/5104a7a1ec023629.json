@@ -1,0 +1,18 @@
+{
+  "hash": "5104a7a1ec023629",
+  "source": "The value of one key in one locale.",
+  "text": "一個鍵在某個語系中的值。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一個鍵在某個語系中的值。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

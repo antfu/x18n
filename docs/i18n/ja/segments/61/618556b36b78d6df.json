@@ -1,0 +1,18 @@
+{
+  "hash": "618556b36b78d6df",
+  "source": "{0} serves the tools over stdin and stdout. The agent starts the command itself. Most agents read a config like this one. The exact file and keys depend on the agent:",
+  "text": "{0} は stdin と stdout 経由でツールを提供します。エージェントがコマンドを自分で起動します。ほとんどのエージェントは、次のような設定を読み込みます。正確なファイルとキーはエージェントによって異なります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は stdin と stdout 経由でツールを提供します。エージェントがコマンドを自分で起動します。ほとんどのエージェントは、次のような設定を読み込みます。正確なファイルとキーはエージェントによって異なります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

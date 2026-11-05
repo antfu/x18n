@@ -1,0 +1,18 @@
+{
+  "hash": "23df21eb39391c29",
+  "source": "Single values ({0}, {1}, {2}, {3}) replace the earlier value.",
+  "text": "單一值（{0}、{1}、{2}、{3}）會取代先前的值。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "單一值（{0}、{1}、{2}、{3}）會取代先前的值。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

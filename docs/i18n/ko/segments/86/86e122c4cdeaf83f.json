@@ -1,0 +1,18 @@
+{
+  "hash": "86e122c4cdeaf83f",
+  "source": "The {0}MCP server{/0} gives the same tools to coding agents.",
+  "text": "{0}MCP 서버{/0}는 같은 도구를 코딩 에이전트에 제공합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}MCP 서버{/0}는 같은 도구를 코딩 에이전트에 제공합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

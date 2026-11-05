@@ -1,0 +1,18 @@
+{
+  "hash": "fc23bdc2a095bf12",
+  "source": "Only values containing the query. By default a fuzzy match also counts.",
+  "text": "Uniquement les valeurs contenant la requête. Par défaut, une correspondance approximative est aussi prise en compte.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uniquement les valeurs contenant la requête. Par défaut, une correspondance approximative est aussi prise en compte."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

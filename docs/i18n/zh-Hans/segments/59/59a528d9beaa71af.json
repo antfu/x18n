@@ -1,0 +1,18 @@
+{
+  "hash": "59a528d9beaa71af",
+  "source": "The {0} hooks of plugins and presets. Presets set defaults here, for example the call specs of their library.",
+  "text": "插件和预设的 {0} 钩子。预设会在这里设置默认值，例如其库的调用规范。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插件和预设的 {0} 钩子。预设会在这里设置默认值，例如其库的调用规范。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

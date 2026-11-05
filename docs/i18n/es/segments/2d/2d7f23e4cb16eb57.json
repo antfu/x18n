@@ -1,0 +1,18 @@
+{
+  "hash": "2d7f23e4cb16eb57",
+  "source": "As in YAML. Plugins add their check ids to the type, so the editor completes them.",
+  "text": "Como en YAML. Los plugins añaden sus ids de comprobación al tipo, de modo que el editor los autocompleta.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Como en YAML. Los plugins añaden sus ids de comprobación al tipo, de modo que el editor los autocompleta."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

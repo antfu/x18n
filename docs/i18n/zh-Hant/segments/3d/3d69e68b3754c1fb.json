@@ -1,0 +1,18 @@
+{
+  "hash": "3d69e68b3754c1fb",
+  "source": "x18n serves its tools over the Model Context Protocol (MCP), the protocol that coding agents use to call tools. The tools do the same work as the CLI: read keys, run checks, write messages and extract strings. There are two ways to connect.",
+  "text": "x18n 透過 Model Context Protocol（MCP）提供其工具，這是 coding agent 用來呼叫工具的協定。這些工具的功能與 CLI 相同：讀取鍵、執行檢查、寫入訊息，以及擷取字串。連接方式有兩種。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 透過 Model Context Protocol（MCP）提供其工具，這是 coding agent 用來呼叫工具的協定。這些工具的功能與 CLI 相同：讀取鍵、執行檢查、寫入訊息，以及擷取字串。連接方式有兩種。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

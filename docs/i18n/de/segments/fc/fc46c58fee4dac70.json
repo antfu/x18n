@@ -1,0 +1,18 @@
+{
+  "hash": "fc46c58fee4dac70",
+  "source": "Prompts ask for results in the shape that {0} reads:",
+  "text": "Prompts fordern Ergebnisse in der Form an, die {0} liest:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Prompts fordern Ergebnisse in der Form an, die {0} liest:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

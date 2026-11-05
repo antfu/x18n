@@ -1,0 +1,18 @@
+{
+  "hash": "12eb30ed49989ea5",
+  "source": "Globs of the source files to scan for usages.",
+  "text": "Globs de los archivos fuente en los que buscar usos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Globs de los archivos fuente en los que buscar usos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

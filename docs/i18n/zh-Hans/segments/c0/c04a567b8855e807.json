@@ -1,0 +1,18 @@
+{
+  "hash": "c04a567b8855e807",
+  "source": "{0} returns the message tree, and optionally the text range of each key and value, and the description of each message. The ranges power go to definition and diagnostics. A description is what the file says about a message for translators, such as a note or a comment beside it. {1}Translate prompts{/1} show it.",
+  "text": "{0} 返回消息树，还可以选择性地返回每个键和值的文本范围，以及每条消息的描述。这些范围为转到定义和诊断功能提供支持。描述是文件中写给译者的关于消息的说明，例如旁边的备注或注释。{1}翻译提示{/1}会显示它。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 返回消息树，还可以选择性地返回每个键和值的文本范围，以及每条消息的描述。这些范围为转到定义和诊断功能提供支持。描述是文件中写给译者的关于消息的说明，例如旁边的备注或注释。{1}翻译提示{/1}会显示它。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

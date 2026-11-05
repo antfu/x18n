@@ -1,0 +1,18 @@
+{
+  "hash": "a548edfe0d13343b",
+  "source": "In {0} files, the preset reads {1} and {2}:",
+  "text": "{0} 파일에서는 프리셋이 {1}와 {2}를 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 파일에서는 프리셋이 {1}와 {2}를 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

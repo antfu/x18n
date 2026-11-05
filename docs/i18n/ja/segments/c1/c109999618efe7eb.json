@@ -1,0 +1,18 @@
+{
+  "hash": "c109999618efe7eb",
+  "source": "An object that contributes capabilities through the plugin API.",
+  "text": "プラグイン API を通じて機能を提供するオブジェクトです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プラグイン API を通じて機能を提供するオブジェクトです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

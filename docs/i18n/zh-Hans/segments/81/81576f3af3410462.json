@@ -1,0 +1,18 @@
+{
+  "hash": "81576f3af3410462",
+  "source": "A namespace is a named group of keys, usually taken from a file name. With the pattern {0}, the file {1} holds the namespace {2}.",
+  "text": "命名空间是一组有名称的键，通常取自文件名。使用模式 {0} 时，文件 {1} 存放命名空间 {2}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "命名空间是一组有名称的键，通常取自文件名。使用模式 {0} 时，文件 {1} 存放命名空间 {2}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

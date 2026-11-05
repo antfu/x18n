@@ -1,0 +1,18 @@
+{
+  "hash": "e3f6f6dfa92426ac",
+  "source": "Diagnostics, paged, filtered by check and locale.",
+  "text": "Diagnostics, paginés, filtrés par vérification et par langue.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Diagnostics, paginés, filtrés par vérification et par langue."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "9908c847998ea33c",
+  "source": "Locale codes that differ only in spelling, such as zh\\_CN and zh-CN.",
+  "text": "僅拼寫不同的語系代碼，例如 zh\\_CN 與 zh-CN。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅拼寫不同的語系代碼，例如 zh\\_CN 與 zh-CN。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

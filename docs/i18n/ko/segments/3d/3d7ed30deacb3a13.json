@@ -1,0 +1,18 @@
+{
+  "hash": "3d7ed30deacb3a13",
+  "source": "To delete all unused keys at once, show the user the plan first, and run it only when they confirm:",
+  "text": "사용하지 않는 모든 키를 한 번에 삭제하려면 먼저 사용자에게 계획을 보여 주고, 사용자가 확인한 경우에만 실행하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사용하지 않는 모든 키를 한 번에 삭제하려면 먼저 사용자에게 계획을 보여 주고, 사용자가 확인한 경우에만 실행하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "fc5ed81456f187b4",
+  "source": "In JS and TS files, {0} is a translate call, also as {1}.",
+  "text": "JS ファイルと TS ファイルでは、{0} は翻訳呼び出しとして扱われます。{1} の形式も同様です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JS ファイルと TS ファイルでは、{0} は翻訳呼び出しとして扱われます。{1} の形式も同様です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

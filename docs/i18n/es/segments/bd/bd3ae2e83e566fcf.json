@@ -1,0 +1,18 @@
+{
+  "hash": "bd3ae2e83e566fcf",
+  "source": "Do not edit locale files directly. Use {0}, {1}, {2} and {3}. They keep the format, the key style, the order and the placeholders of each file.",
+  "text": "No edites los archivos de idioma directamente. Usa {0}, {1}, {2} y {3}. Mantienen el formato, el estilo de las claves, el orden y los marcadores de posición de cada archivo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No edites los archivos de idioma directamente. Usa {0}, {1}, {2} y {3}. Mantienen el formato, el estilo de las claves, el orden y los marcadores de posición de cada archivo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

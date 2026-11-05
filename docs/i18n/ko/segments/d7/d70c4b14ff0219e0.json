@@ -1,0 +1,18 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "편집 결과가 원본 값과 비교해 플레이스홀더를 빠뜨리거나 추가하면 UI는 저장하지 않습니다. 문제를 표시하며, 그래도 값을 저장할 수 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "편집 결과가 원본 값과 비교해 플레이스홀더를 빠뜨리거나 추가하면 UI는 저장하지 않습니다. 문제를 표시하며, 그래도 값을 저장할 수 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

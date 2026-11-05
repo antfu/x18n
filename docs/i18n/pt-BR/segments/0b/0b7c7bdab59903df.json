@@ -1,0 +1,18 @@
+{
+  "hash": "0b7c7bdab59903df",
+  "source": "If your config has no {0}, the preset reads {1} from {2} (or {3}). Without {4}, the directory is {5}:",
+  "text": "Se a sua configuração não tiver {0}, o preset lê {1} de {2} (ou {3}). Sem {4}, o diretório é {5}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se a sua configuração não tiver {0}, o preset lê {1} de {2} (ou {3}). Sem {4}, o diretório é {5}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

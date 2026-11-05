@@ -1,0 +1,18 @@
+{
+  "hash": "2b5b1e0e1ea61c78",
+  "source": "{0} detects the setup and writes {1}:",
+  "text": "{0} определяет настройку и создаёт {1}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} определяет настройку и создаёт {1}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

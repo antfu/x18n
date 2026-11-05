@@ -1,0 +1,18 @@
+{
+  "hash": "0cbf3b5383000ddf",
+  "source": "Project name in a monorepo. Default: the directory name.",
+  "text": "モノレポでのプロジェクト名です。デフォルト: ディレクトリ名。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "モノレポでのプロジェクト名です。デフォルト: ディレクトリ名。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

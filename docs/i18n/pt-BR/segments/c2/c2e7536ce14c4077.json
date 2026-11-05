@@ -1,0 +1,18 @@
+{
+  "hash": "c2e7536ce14c4077",
+  "source": "Every command accepts these options.",
+  "text": "Todos os comandos aceitam estas opções.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Todos os comandos aceitam estas opções."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "3c0a8f5874c2af3b",
+  "source": "ICU MessageFormat: {0}, and plural, select and selectordinal arguments such as {1}. The {2} check reports unbalanced braces and a plural or select without an {3} case.",
+  "text": "ICU MessageFormat: {0}, а также аргументы plural, select и selectordinal, например {1}. Проверка {2} сообщает о несбалансированных фигурных скобках и о plural или select без ветки {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ICU MessageFormat: {0}, а также аргументы plural, select и selectordinal, например {1}. Проверка {2} сообщает о несбалансированных фигурных скобках и о plural или select без ветки {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

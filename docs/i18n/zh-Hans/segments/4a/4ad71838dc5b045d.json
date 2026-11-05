@@ -1,0 +1,18 @@
+{
+  "hash": "4ad71838dc5b045d",
+  "source": "Review file could not be read. Fix the file against `schema/reviews.json`, or restore it from git.",
+  "text": "无法读取审阅文件。请对照 `schema/reviews.json` 修复该文件，或从 git 中恢复。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "无法读取审阅文件。请对照 `schema/reviews.json` 修复该文件，或从 git 中恢复。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "cb60f0aef63c8b8e",
+  "source": "The x18n language server: standard features, settings and the custom x18n/* protocol.",
+  "text": "x18n の言語サーバー：標準機能、設定、カスタムの x18n/* プロトコル。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n の言語サーバー：標準機能、設定、カスタムの x18n/* プロトコル。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

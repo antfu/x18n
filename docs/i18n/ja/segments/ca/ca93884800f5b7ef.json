@@ -1,0 +1,18 @@
+{
+  "hash": "ca93884800f5b7ef",
+  "source": "The check reports each message whose open review comments end in a change request, at the message in the reviewed locale. The quick fix resolves the request. A later approval by anyone clears it too. See {0}Reviews{/0}.",
+  "text": "このチェックは、未解決のレビューコメントが変更リクエストで終わっている各メッセージを、レビュー対象のロケールのメッセージ位置で報告します。クイックフィックスでリクエストを解決できます。その後に誰かが承認した場合も、リクエストは解除されます。{0}レビュー{/0}を参照してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックは、未解決のレビューコメントが変更リクエストで終わっている各メッセージを、レビュー対象のロケールのメッセージ位置で報告します。クイックフィックスでリクエストを解決できます。その後に誰かが承認した場合も、リクエストは解除されます。{0}レビュー{/0}を参照してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

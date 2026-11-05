@@ -1,0 +1,18 @@
+{
+  "hash": "b9843c99e6e1842d",
+  "source": "{0} changes a draft of the config before it is final. {1} is the config as the user wrote it, and {2} reads files. Presets set their defaults here. The config of the project is applied after every hook, so it wins.",
+  "text": "{0} 在配置最终确定之前修改配置草稿。{1} 是用户编写的原始配置，{2} 用于读取文件。预设在这里设置默认值。项目自身的配置会在所有钩子之后应用，因此优先级最高。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 在配置最终确定之前修改配置草稿。{1} 是用户编写的原始配置，{2} 用于读取文件。预设在这里设置默认值。项目自身的配置会在所有钩子之后应用，因此优先级最高。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

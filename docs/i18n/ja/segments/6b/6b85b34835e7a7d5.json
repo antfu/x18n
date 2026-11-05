@@ -1,0 +1,18 @@
+{
+  "hash": "6b85b34835e7a7d5",
+  "source": "JSON form of an error: the {0} of a nostics diagnostic, without {1}, {2} and {3}.",
+  "text": "エラーの JSON 形式：nostics 診断の {0} から {1}、{2}、{3} を除いたものです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "エラーの JSON 形式：nostics 診断の {0} から {1}、{2}、{3} を除いたものです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

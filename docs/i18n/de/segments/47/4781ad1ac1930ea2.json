@@ -1,0 +1,18 @@
+{
+  "hash": "4781ad1ac1930ea2",
+  "source": "{0} applies only reviews of type {1} that are not resolved yet.",
+  "text": "{0} wendet nur Reviews vom Typ {1} an, die noch nicht gelöst sind.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} wendet nur Reviews vom Typ {1} an, die noch nicht gelöst sind."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

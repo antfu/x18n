@@ -1,0 +1,18 @@
+{
+  "hash": "62c58824626469d3",
+  "source": "{0}i18n-ally{/0} found many of these problems inside VS Code. Its logic is tied to the VS Code API, so it cannot run in CI, in a browser or for a coding agent. x18n moves the same logic into an engine that runs anywhere.",
+  "text": "{0}i18n-ally{/0} находил многие из этих проблем внутри VS Code. Его логика привязана к VS Code API, поэтому он не может работать в CI, в браузере или для агента, пишущего код. x18n переносит ту же логику в движок, который работает где угодно.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}i18n-ally{/0} находил многие из этих проблем внутри VS Code. Его логика привязана к VS Code API, поэтому он не может работать в CI, в браузере или для агента, пишущего код. x18n переносит ту же логику в движок, который работает где угодно."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

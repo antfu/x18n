@@ -1,0 +1,18 @@
+{
+  "hash": "2e8172304a247851",
+  "source": "to keep a terms table: the {0} in the config. The agent reads it before it translates, proposes new terms with translations, adds the ones you approve, and turns on the {1} check,",
+  "text": "eine Begriffstabelle zu führen: das {0} in der Konfiguration. Der agent liest sie, bevor er übersetzt, schlägt neue Begriffe mit Übersetzungen vor, fügt die hinzu, die du bestätigst, und aktiviert die Prüfung {1},",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "eine Begriffstabelle zu führen: das {0} in der Konfiguration. Der agent liest sie, bevor er übersetzt, schlägt neue Begriffe mit Übersetzungen vor, fügt die hinzu, die du bestätigst, und aktiviert die Prüfung {1},"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

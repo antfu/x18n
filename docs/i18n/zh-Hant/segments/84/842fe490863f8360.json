@@ -1,0 +1,18 @@
+{
+  "hash": "842fe490863f8360",
+  "source": "A fully dynamic usage, such as {0}, has no static part. No check can follow it. The {1} check, off by default, lists such usages. To mark keys as used that only code at runtime builds, add globs to {2}. Or mark them in the code with a comment. {3} before a string marks that string as a key. {4} before an expression, such as an array, marks every string in it:",
+  "text": "完全動態的使用處（例如 {0}）沒有靜態部分，任何檢查都無法追蹤它。預設關閉的 {1} 檢查會列出這類使用處。若要將只在執行階段由程式碼建立的鍵標記為已使用，請在 {2} 中新增 glob。或者也可以在程式碼中以註解標記。字串前的 {3} 會將該字串標記為鍵。運算式（例如陣列）前的 {4} 會將其中的每個字串都標記起來：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "完全動態的使用處（例如 {0}）沒有靜態部分，任何檢查都無法追蹤它。預設關閉的 {1} 檢查會列出這類使用處。若要將只在執行階段由程式碼建立的鍵標記為已使用，請在 {2} 中新增 glob。或者也可以在程式碼中以註解標記。字串前的 {3} 會將該字串標記為鍵。運算式（例如陣列）前的 {4} 會將其中的每個字串都標記起來："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

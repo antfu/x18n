@@ -1,0 +1,18 @@
+{
+  "hash": "75e2efb20758b91a",
+  "source": "{0} and {1} return a translate function. Their argument is a key prefix, which next-intl calls a namespace:",
+  "text": "{0} y {1} devuelven una función de traducción. Su argumento es un prefijo de clave, al que next-intl llama espacio de nombres:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} y {1} devuelven una función de traducción. Su argumento es un prefijo de clave, al que next-intl llama espacio de nombres:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "59a528d9beaa71af",
+  "source": "The {0} hooks of plugins and presets. Presets set defaults here, for example the call specs of their library.",
+  "text": "Gli hook {0} di plugin e preset. I preset impostano qui i valori predefiniti, ad esempio le specifiche delle chiamate della loro libreria.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gli hook {0} di plugin e preset. I preset impostano qui i valori predefiniti, ad esempio le specifiche delle chiamate della loro libreria."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

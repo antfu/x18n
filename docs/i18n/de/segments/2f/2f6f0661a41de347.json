@@ -1,0 +1,18 @@
+{
+  "hash": "2f6f0661a41de347",
+  "source": "The projects of the workspace.",
+  "text": "Die Projekte des Workspace.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Projekte des Workspace."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

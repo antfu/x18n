@@ -1,0 +1,18 @@
+{
+  "hash": "78558c90a1309476",
+  "source": "A scope is a region of code with a default namespace or key prefix. In react-i18next, {0} makes {1} mean {2} in the code that uses that {3}. In next-intl, {4} makes {5} mean {6}. The presets know these factories. A YAML plugin can add scopes with a regular expression.",
+  "text": "Область — это участок кода с пространством имён или префиксом ключа по умолчанию. В react-i18next {0} делает так, что {1} означает {2} в коде, использующем этот {3}. В next-intl {4} делает так, что {5} означает {6}. Пресеты знают эти фабрики. YAML-плагин может добавлять области с помощью регулярного выражения.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Область — это участок кода с пространством имён или префиксом ключа по умолчанию. В react-i18next {0} делает так, что {1} означает {2} в коде, использующем этот {3}. В next-intl {4} делает так, что {5} означает {6}. Пресеты знают эти фабрики. YAML-плагин может добавлять области с помощью регулярного выражения."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "81abb3e549ad38bd",
+  "source": "A path that ends in {0} or {1} loads as a YAML plugin.",
+  "text": "Un chemin qui se termine par {0} ou {1} est chargé comme plugin YAML.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un chemin qui se termine par {0} ou {1} est chargé comme plugin YAML."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

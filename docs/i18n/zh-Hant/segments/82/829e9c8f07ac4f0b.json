@@ -1,0 +1,18 @@
+{
+  "hash": "829e9c8f07ac4f0b",
+  "source": "The {0} preset supports {1}next-international{/1}.",
+  "text": "{0} 預設集支援 {1}next-international{/1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 預設集支援 {1}next-international{/1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

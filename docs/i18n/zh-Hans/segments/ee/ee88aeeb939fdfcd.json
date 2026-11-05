@@ -1,0 +1,18 @@
+{
+  "hash": "ee88aeeb939fdfcd",
+  "source": "Every command prints one document with the same envelope:",
+  "text": "每个命令都会输出一个结构相同的文档：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每个命令都会输出一个结构相同的文档："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "1b7dbc8abb1e11ef",
+  "source": "Sets one value. {0} defaults to the source locale.",
+  "text": "Imposta un valore. {0} ha come valore predefinito la lingua di origine.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Imposta un valore. {0} ha come valore predefinito la lingua di origine."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

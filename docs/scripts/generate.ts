@@ -5,7 +5,7 @@
 import type { ErrorCode } from '../../packages/core/src/index'
 import { existsSync } from 'node:fs'
 import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises'
-import { dirname, join } from 'node:path'
+import { dirname, join, relative } from 'node:path'
 import process from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { allChecks } from '../../packages/builtins/src/checks/index'
@@ -18,6 +18,7 @@ import { commands as lspCommands, methods as lspMethods } from '../../packages/l
 import { registerAgentTools } from '../../packages/ui/src/node/agent'
 import vscodePackage from '../../packages/vscode/package.json' with { type: 'json' }
 import { checkNotes, configNotes, errorNotes, invalidResource, optInChecks } from './notes'
+import { translatedDirs, translatedPages } from './translate'
 
 const repo = fileURLToPath(new URL('../../', import.meta.url))
 const docs = fileURLToPath(new URL('../', import.meta.url))
@@ -772,6 +773,8 @@ The client passes these fields in \`initializationOptions\`. Each one is optiona
 ${declaration(server, 'Settings')}
 \`\`\`
 
+A hover shows the value per locale and the number of usages. It links to \`x18n.openKey\`, \`x18n.copyTranslatePrompt\` and \`x18n.translateWithAgent\` only when the client lists them in \`hoverCommands\` (an array of command ids), because a client that cannot run a \`command:\` URL opens it as a link and fails. The default is no links.
+
 ## Custom methods
 
 Shapes follow the [JSON contract](/references/json-contracts) version. Positions and ranges use LSP conventions: zero-based lines and UTF-16 characters.
@@ -1067,6 +1070,30 @@ async function markedPages(): Promise<void> {
 
 /** ---- Run ---- */
 
+/** Files in the generated directories that this run does not write. */
+async function stalePaths(): Promise<string[]> {
+  const stale: string[] = []
+  for (const dir of generatedDirs) {
+    for (const file of existsSync(join(docs, dir))
+      ? await readdir(join(docs, dir))
+      : []) {
+      const path = `${dir}/${file}`
+      if (file.endsWith('.md') && !outputs.has(path))
+        stale.push(path)
+    }
+  }
+  for (const dir of await translatedDirs()) {
+    for (const file of existsSync(join(docs, dir))
+      ? await readdir(join(docs, dir), { recursive: true, withFileTypes: true })
+      : []) {
+      const path = `${dir}/${relative(join(docs, dir), join(file.parentPath, file.name))}`
+      if (file.isFile() && !outputs.has(path))
+        stale.push(path)
+    }
+  }
+  return stale
+}
+
 async function main(): Promise<void> {
   const check = process.argv.includes('--check')
   await configPage()
@@ -1080,16 +1107,15 @@ async function main(): Promise<void> {
   checkPages()
   await markedPages()
 
-  const stale: string[] = []
-  for (const dir of generatedDirs) {
-    for (const file of existsSync(join(docs, dir))
-      ? await readdir(join(docs, dir))
-      : []) {
-      const path = `${dir}/${file}`
-      if (file.endsWith('.md') && !outputs.has(path))
-        stale.push(path)
-    }
-  }
+  // The translated pages are built from the English ones, including those generated above.
+  const english = new Map([...outputs].map(([path, content]) => [
+    path.slice('content/'.length),
+    content,
+  ]))
+  for (const [path, content] of await translatedPages(english))
+    outputs.set(path, content)
+
+  const stale = await stalePaths()
   const changed: string[] = []
   for (const [path, content] of outputs) {
     const file = join(docs, path)

@@ -1,0 +1,18 @@
+{
+  "hash": "e686e2bccc0ae25a",
+  "source": "A {0}format{/0} returns descriptions from {1}, a {2}resource transform{/2} from {3}, and a call spec names the property that holds one with {4}. A rule asks the agent to follow the description and not to translate it.",
+  "text": "{0}포맷{/0}은 {1}에서 설명을 반환하고, {2}리소스 변환{/2}은 {3}에서 설명을 반환하며, 호출 스펙은 {4}로 설명을 담는 속성을 지정합니다. 규칙은 에이전트가 설명을 따르되 번역하지 않도록 요청합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}포맷{/0}은 {1}에서 설명을 반환하고, {2}리소스 변환{/2}은 {3}에서 설명을 반환하며, 호출 스펙은 {4}로 설명을 담는 속성을 지정합니다. 규칙은 에이전트가 설명을 따르되 번역하지 않도록 요청합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

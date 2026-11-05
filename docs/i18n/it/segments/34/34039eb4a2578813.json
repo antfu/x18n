@@ -1,0 +1,18 @@
+{
+  "hash": "34039eb4a2578813",
+  "source": "Usage Report: unused keys, and used keys that are not defined, sorted by key. \"x18n: Delete Unused Keys\" (the trash icon of the view) lists what it would delete and asks first. The edit lands in the open editors, so you can undo it before you save.",
+  "text": "Report degli utilizzi: chiavi inutilizzate e chiavi usate ma non definite, ordinate per chiave. \"x18n: Delete Unused Keys\" (l'icona del cestino della vista) elenca ciò che eliminerebbe e chiede prima conferma. La modifica viene applicata negli editor aperti, quindi puoi annullarla prima di salvare.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Report degli utilizzi: chiavi inutilizzate e chiavi usate ma non definite, ordinate per chiave. \"x18n: Delete Unused Keys\" (l'icona del cestino della vista) elenca ciò che eliminerebbe e chiede prima conferma. La modifica viene applicata negli editor aperti, quindi puoi annullarla prima di salvare."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

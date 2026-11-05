@@ -1,0 +1,18 @@
+{
+  "hash": "6bd2f4d7dec61e98",
+  "source": "With {0}, a namespace can sit in folders. The preset sets {1} to {2}, so {3} is the namespace {4}, as in {5}.",
+  "text": "使用 {0} 時，命名空間可以放在資料夾中。此預設集會將 {1} 設為 {2}，因此 {3} 就是命名空間 {4}，如 {5} 所示。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 時，命名空間可以放在資料夾中。此預設集會將 {1} 設為 {2}，因此 {3} 就是命名空間 {4}，如 {5} 所示。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

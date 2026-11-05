@@ -1,0 +1,18 @@
+{
+  "hash": "750235b18d622296",
+  "source": "Review comments, approvals and suggested values on messages, kept in a file tracked in git.",
+  "text": "Commentaires de relecture, approbations et valeurs suggérées sur les messages, conservés dans un fichier suivi par git.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Commentaires de relecture, approbations et valeurs suggérées sur les messages, conservés dans un fichier suivi par git."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

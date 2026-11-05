@@ -1,0 +1,18 @@
+{
+  "hash": "c73c1b7338a9d218",
+  "source": "Only these files (globs relative to the project root). Default: every scanned file.",
+  "text": "これらのファイルのみ（プロジェクトルートからの相対グロブ）。デフォルトはスキャンしたすべてのファイルです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "これらのファイルのみ（プロジェクトルートからの相対グロブ）。デフォルトはスキャンしたすべてのファイルです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

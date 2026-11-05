@@ -1,0 +1,18 @@
+{
+  "hash": "90b2f18a307c23a1",
+  "source": "In a TS config, call the function: {0}. In a YAML or JSON config, pass the options as the second item of a tuple. x18n imports the module and calls its default export with them:",
+  "text": "En una configuración TS, llama a la función: {0}. En una configuración YAML o JSON, pasa las opciones como segundo elemento de una tupla. x18n importa el módulo y llama a su export por defecto con ellas:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En una configuración TS, llama a la función: {0}. En una configuración YAML o JSON, pasa las opciones como segundo elemento de una tupla. x18n importa el módulo y llama a su export por defecto con ellas:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

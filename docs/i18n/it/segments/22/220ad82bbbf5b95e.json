@@ -1,0 +1,18 @@
+{
+  "hash": "220ad82bbbf5b95e",
+  "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
+  "text": "{0} può anche restituire {1} e {2}, indicizzati come gli intervalli. Uno stato indica a che punto è arrivata una traduzione: {3}, {4} o {5}; la copertura li conta. Un'etichetta dà un nome a una chiave poco leggibile, come un hash. L'interfaccia e {6} mostrano entrambi.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} può anche restituire {1} e {2}, indicizzati come gli intervalli. Uno stato indica a che punto è arrivata una traduzione: {3}, {4} o {5}; la copertura li conta. Un'etichetta dà un nome a una chiave poco leggibile, come un hash. L'interfaccia e {6} mostrano entrambi."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

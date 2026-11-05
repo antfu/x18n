@@ -1,0 +1,18 @@
+{
+  "hash": "bd15c6763aeb936f",
+  "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
+  "text": "Пробный запуск {0}: для каждого проекта — неиспользуемые ключи, которые он удаляет, с местоположением для каждого сообщения; неиспользуемые ключи, которые он оставляет, потому что до них могут дотянуться вычисляемые ключи в области видимости; и предупреждения.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пробный запуск {0}: для каждого проекта — неиспользуемые ключи, которые он удаляет, с местоположением для каждого сообщения; неиспользуемые ключи, которые он оставляет, потому что до них могут дотянуться вычисляемые ключи в области видимости; и предупреждения."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

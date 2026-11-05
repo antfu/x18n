@@ -1,0 +1,18 @@
+{
+  "hash": "0210cf99cc4083f7",
+  "source": "Write plugins and presets in TypeScript with definePlugin and definePreset, with typed options.",
+  "text": "使用 definePlugin 和 definePreset 以 TypeScript 撰寫外掛與預設集，並支援具型別的選項。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 definePlugin 和 definePreset 以 TypeScript 撰寫外掛與預設集，並支援具型別的選項。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

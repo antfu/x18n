@@ -1,0 +1,18 @@
+{
+  "hash": "433e25bb0316f4a9",
+  "source": "One root config with projects, each project with its own locales and its own config.",
+  "text": "1 つのルート設定にプロジェクトを列挙し、各プロジェクトが独自のロケールと独自の設定を持てます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 つのルート設定にプロジェクトを列挙し、各プロジェクトが独自のロケールと独自の設定を持てます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "48d5eb31f8b363fe",
+  "source": "The preset for @lit/localize. It reads msg() with str and html, computes the same ids as lit-localize, and reads XLIFF per target locale.",
+  "text": "O preset para @lit/localize. Ele lê msg() com str e html, calcula os mesmos ids que o lit-localize e lê XLIFF por idioma de destino.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset para @lit/localize. Ele lê msg() com str e html, calcula os mesmos ids que o lit-localize e lê XLIFF por idioma de destino."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

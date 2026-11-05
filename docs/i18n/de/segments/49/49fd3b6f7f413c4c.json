@@ -1,0 +1,18 @@
+{
+  "hash": "49fd3b6f7f413c4c",
+  "source": "Where the namespace comes from (call option, or factory argument when {0} is true), or a fixed namespace such as {1} for a hook that wraps {2}.",
+  "text": "Woher der Namespace stammt (Aufrufoption oder Factory-Argument, wenn {0} true ist) oder ein fester Namespace wie {1} für einen Hook, der {2} umschließt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Woher der Namespace stammt (Aufrufoption oder Factory-Argument, wenn {0} true ist) oder ein fester Namespace wie {1} für einen Hook, der {2} umschließt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

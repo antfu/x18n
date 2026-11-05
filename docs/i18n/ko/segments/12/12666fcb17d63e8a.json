@@ -1,0 +1,18 @@
+{
+  "hash": "12666fcb17d63e8a",
+  "source": "In a TS config, import the package and call the factory:",
+  "text": "TS 설정에서는 패키지를 import하고 팩토리를 호출하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TS 설정에서는 패키지를 import하고 팩토리를 호출하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

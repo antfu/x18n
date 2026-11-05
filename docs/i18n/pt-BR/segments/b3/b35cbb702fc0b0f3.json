@@ -1,0 +1,18 @@
+{
+  "hash": "b35cbb702fc0b0f3",
+  "source": "Skip the files that {0} files ignore. Default {1}. Set {2} to scan a checkout that git ignores, such as a clone of the sources in a translations repository.",
+  "text": "Ignora os arquivos que os arquivos {0} ignoram. Padrão {1}. Defina {2} para escanear um checkout que o git ignora, como um clone do código-fonte em um repositório de traduções.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ignora os arquivos que os arquivos {0} ignoram. Padrão {1}. Defina {2} para escanear um checkout que o git ignora, como um clone do código-fonte em um repositório de traduções."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

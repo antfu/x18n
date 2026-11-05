@@ -1,0 +1,18 @@
+{
+  "hash": "14e1896324140faa",
+  "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
+  "text": "'call' (по умолчанию): ключ передаётся аргументом. 'selector': аргумент — {0}. 'accessor': цепочка обращений к членам от корня.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "'call' (по умолчанию): ключ передаётся аргументом. 'selector': аргумент — {0}. 'accessor': цепочка обращений к членам от корня."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

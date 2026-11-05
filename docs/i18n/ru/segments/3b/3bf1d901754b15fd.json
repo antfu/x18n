@@ -1,0 +1,18 @@
+{
+  "hash": "3bf1d901754b15fd",
+  "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
+  "text": "Правка направлена на ресурс, доступный только для чтения. Ресурсы с {0} доступны только для чтения, потому что x18n не может записать код, который их вычисляет.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Правка направлена на ресурс, доступный только для чтения. Ресурсы с {0} доступны только для чтения, потому что x18n не может записать код, который их вычисляет."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

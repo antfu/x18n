@@ -1,0 +1,18 @@
+{
+  "hash": "94542fcb13e2531e",
+  "source": "A reference next to the skill, {0}, walks the agent through a {1}migration from i18n-ally{/1}: record a baseline, preview the migration, ask about what it drops, write the files, compare with the baseline, and remove the i18n-ally settings once you agree.",
+  "text": "skill 旁边的一份参考文档 {0} 会引导 agent 完成{1}从 i18n-ally 迁移{/1}：记录基线、预览迁移、询问哪些内容会被丢弃、写入文件、与基线对比，并在你同意后移除 i18n-ally 的设置。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "skill 旁边的一份参考文档 {0} 会引导 agent 完成{1}从 i18n-ally 迁移{/1}：记录基线、预览迁移、询问哪些内容会被丢弃、写入文件、与基线对比，并在你同意后移除 i18n-ally 的设置。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

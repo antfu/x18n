@@ -1,0 +1,18 @@
+{
+  "hash": "fc90cf11d5f22791",
+  "source": "Regex whose first group is the namespace of the code after it (i18n-ally {0}).",
+  "text": "Expresión regular cuyo primer grupo es el espacio de nombres del código que la sigue (i18n-ally {0}).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Expresión regular cuyo primer grupo es el espacio de nombres del código que la sigue (i18n-ally {0})."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

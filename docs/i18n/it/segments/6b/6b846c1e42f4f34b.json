@@ -1,0 +1,18 @@
+{
+  "hash": "6b846c1e42f4f34b",
+  "source": "In a monorepo, pass {0} to each tool. {1} lists the project names.",
+  "text": "In un monorepo, passa {0} a ogni strumento. {1} elenca i nomi dei progetti.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In un monorepo, passa {0} a ogni strumento. {1} elenca i nomi dei progetti."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

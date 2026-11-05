@@ -1,0 +1,18 @@
+{
+  "hash": "3178094e7b9d5c55",
+  "source": "Set the separator and the default namespace with the {0} option. The i18next presets set both.",
+  "text": "Задайте разделитель и пространство имён по умолчанию с помощью опции {0}. Пресеты i18next задают оба значения.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Задайте разделитель и пространство имён по умолчанию с помощью опции {0}. Пресеты i18next задают оба значения."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

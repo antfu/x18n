@@ -1,0 +1,18 @@
+{
+  "hash": "8afe14ca1bced859",
+  "source": "{0} and {1} are translate calls in JS and TS:",
+  "text": "{0} と {1} は、JS と TS における翻訳呼び出しです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} と {1} は、JS と TS における翻訳呼び出しです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8c267f9d7b2fe993",
+  "source": "List plugins in the {0} option of the config. An entry is a path, a package name, {1}, or in TS a plugin object:",
+  "text": "Перечислите плагины в параметре {0} конфигурации. Элемент списка — это путь, имя пакета, {1} или, в TS, объект плагина:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Перечислите плагины в параметре {0} конфигурации. Элемент списка — это путь, имя пакета, {1} или, в TS, объект плагина:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

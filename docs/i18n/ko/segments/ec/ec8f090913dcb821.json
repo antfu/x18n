@@ -1,0 +1,18 @@
+{
+  "hash": "ec8f090913dcb821",
+  "source": "Or add a plugin that has a format for the extension.",
+  "text": "또는 해당 확장자에 대한 형식을 제공하는 플러그인을 추가하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "또는 해당 확장자에 대한 형식을 제공하는 플러그인을 추가하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

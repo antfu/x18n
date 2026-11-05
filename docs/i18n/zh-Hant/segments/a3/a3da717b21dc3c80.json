@@ -1,0 +1,18 @@
+{
+  "hash": "a3da717b21dc3c80",
+  "source": "{0}: positions where key completion makes sense,",
+  "text": "{0}：適合進行鍵自動完成的位置，",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：適合進行鍵自動完成的位置，"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

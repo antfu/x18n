@@ -1,0 +1,18 @@
+{
+  "hash": "aac5b19dabb11467",
+  "source": "A key exists in English but not in German.",
+  "text": "某个键在英文中存在，但在德文中不存在。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某个键在英文中存在，但在德文中不存在。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

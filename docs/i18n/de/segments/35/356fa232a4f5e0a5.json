@@ -1,0 +1,18 @@
+{
+  "hash": "356fa232a4f5e0a5",
+  "source": "Progress: translation progress per locale.",
+  "text": "Progress: der Übersetzungsfortschritt pro Sprache.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Progress: der Übersetzungsfortschritt pro Sprache."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

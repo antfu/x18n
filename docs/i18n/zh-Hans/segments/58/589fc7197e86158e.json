@@ -1,0 +1,18 @@
+{
+  "hash": "589fc7197e86158e",
+  "source": "Only diagnostics for these locales.",
+  "text": "仅包含这些语言的诊断。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "仅包含这些语言的诊断。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

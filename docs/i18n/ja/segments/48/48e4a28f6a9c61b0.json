@@ -1,0 +1,18 @@
+{
+  "hash": "48e4a28f6a9c61b0",
+  "source": "When {0} finds a key with the same meaning, the agent reuses it. Without {1}, {2} writes the source locale. Then use the key in code, for example {3}. To see which locales still lack keys, run {4}.",
+  "text": "{0} が同じ意味のキーを見つけた場合、エージェントはそのキーを再利用します。{1} を指定しない場合、{2} はソースロケールに書き込みます。その後、コード内でそのキーを使用します（例：{3}）。まだキーが不足しているロケールを確認するには、{4} を実行してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} が同じ意味のキーを見つけた場合、エージェントはそのキーを再利用します。{1} を指定しない場合、{2} はソースロケールに書き込みます。その後、コード内でそのキーを使用します（例：{3}）。まだキーが不足しているロケールを確認するには、{4} を実行してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

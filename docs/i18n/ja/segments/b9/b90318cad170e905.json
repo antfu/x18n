@@ -1,0 +1,18 @@
+{
+  "hash": "b90318cad170e905",
+  "source": "If the difference is on purpose, pass {0}.",
+  "text": "差異が意図的なものである場合は、{0} を指定してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "差異が意図的なものである場合は、{0} を指定してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

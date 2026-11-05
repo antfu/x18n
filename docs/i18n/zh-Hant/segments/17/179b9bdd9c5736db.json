@@ -1,0 +1,18 @@
+{
+  "hash": "179b9bdd9c5736db",
+  "source": "The preset sets the namespace separator to {0} and the default namespace to {1}, as i18next does. With a resource pattern that has {2}, keys have the form {3}:",
+  "text": "與 i18next 相同，此預設集會將命名空間分隔符號設為 {0}，並將預設命名空間設為 {1}。當資源模式包含 {2} 時，鍵的格式如下：{3}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "與 i18next 相同，此預設集會將命名空間分隔符號設為 {0}，並將預設命名空間設為 {1}。當資源模式包含 {2} 時，鍵的格式如下：{3}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

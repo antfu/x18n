@@ -1,0 +1,18 @@
+{
+  "hash": "139cd513fdb059c3",
+  "source": "One engine, every place you work",
+  "text": "Un unico motore, ovunque tu lavori",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un unico motore, ovunque tu lavori"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "88ea1252e48ad27b",
+  "source": "{0} describe how placeholders look in messages. {1} returns the placeholders of a value. {2} returns syntax errors, for the {3} check. {4} is the text that prompts show. {5} means that the placeholder names another key, which then counts as used.",
+  "text": "{0} 描述占位符在消息中的形式。{1} 返回值中的占位符。{2} 返回语法错误，供 {3} 检查使用。{4} 是提示中显示的文本。{5} 表示该占位符引用了另一个键，该键因此会被视为已使用。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 描述占位符在消息中的形式。{1} 返回值中的占位符。{2} 返回语法错误，供 {3} 检查使用。{4} 是提示中显示的文本。{5} 表示该占位符引用了另一个键，该键因此会被视为已使用。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

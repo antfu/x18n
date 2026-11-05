@@ -1,0 +1,18 @@
+{
+  "hash": "30605b63fab52dcd",
+  "source": "The preset for .NET. It reads .resx resources, IStringLocalizer lookups in C#, Razor and Blazor, and strongly typed Resources.Key access.",
+  "text": ".NET 向けのプリセットです。.resx リソース、C#、Razor、Blazor での IStringLocalizer による参照、および厳密に型指定された Resources.Key によるアクセスを読み取ります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": ".NET 向けのプリセットです。.resx リソース、C#、Razor、Blazor での IStringLocalizer による参照、および厳密に型指定された Resources.Key によるアクセスを読み取ります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

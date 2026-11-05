@@ -1,0 +1,18 @@
+{
+  "hash": "74c0201ae45815ff",
+  "source": "Only these locales (repeatable)",
+  "text": "Nur diese Sprachen (wiederholbar)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur diese Sprachen (wiederholbar)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

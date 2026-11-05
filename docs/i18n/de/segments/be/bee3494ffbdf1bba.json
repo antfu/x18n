@@ -1,0 +1,18 @@
+{
+  "hash": "bee3494ffbdf1bba",
+  "source": "Monorepo: directories (globs) that are projects inheriting this config.",
+  "text": "Monorepo: Verzeichnisse (Globs), die Projekte sind und diese Konfiguration erben.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Monorepo: Verzeichnisse (Globs), die Projekte sind und diese Konfiguration erben."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

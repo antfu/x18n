@@ -1,0 +1,18 @@
+{
+  "hash": "5b021d7818536ffa",
+  "source": "A key stays in the files after the code stops using it.",
+  "text": "Una clave permanece en los archivos después de que el código deja de usarla.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una clave permanece en los archivos después de que el código deja de usarla."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

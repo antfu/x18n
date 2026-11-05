@@ -1,0 +1,18 @@
+{
+  "hash": "cf49a5fb655d6891",
+  "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
+  "text": "在所有语言中删除所有未使用的键（即 {0} 通过 {1} 列出的键），也可以只删除匹配 {2} 或 {3} 的键。代码中的计算键可能引用到的键（模板字符串前缀，或 {4} 或命名空间下的计算键）会被保留，并列在 {5} 中；{6} 会列出可能引用任意键的计算键。不会修改代码。未传入 {7} 时，它会返回计划：{8} 列出每个键及其语言和文件。再次调用并传入 {9} 即可应用。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在所有语言中删除所有未使用的键（即 {0} 通过 {1} 列出的键），也可以只删除匹配 {2} 或 {3} 的键。代码中的计算键可能引用到的键（模板字符串前缀，或 {4} 或命名空间下的计算键）会被保留，并列在 {5} 中；{6} 会列出可能引用任意键的计算键。不会修改代码。未传入 {7} 时，它会返回计划：{8} 列出每个键及其语言和文件。再次调用并传入 {9} 即可应用。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

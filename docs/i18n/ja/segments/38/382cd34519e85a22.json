@@ -1,0 +1,18 @@
+{
+  "hash": "382cd34519e85a22",
+  "source": "Only unused keys of this namespace.",
+  "text": "この名前空間の未使用キーのみ。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "この名前空間の未使用キーのみ。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

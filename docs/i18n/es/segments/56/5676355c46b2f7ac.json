@@ -1,0 +1,18 @@
+{
+  "hash": "5676355c46b2f7ac",
+  "source": "{0}, {1} and {2} are translate calls. The {3} option in the second argument sets the namespace.",
+  "text": "{0}, {1} y {2} son llamadas de traducción. La opción {3} del segundo argumento define el espacio de nombres.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} y {2} son llamadas de traducción. La opción {3} del segundo argumento define el espacio de nombres."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "0eef7e9abf634413",
+  "source": "The preset adds the {0} scanner, which finds text and text attributes as described for {1}ngx-translate{/1}.",
+  "text": "此預設集會加入 {0} 掃描器，它會依 {1}ngx-translate{/1} 所述的方式找出文字與文字屬性。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此預設集會加入 {0} 掃描器，它會依 {1}ngx-translate{/1} 所述的方式找出文字與文字屬性。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

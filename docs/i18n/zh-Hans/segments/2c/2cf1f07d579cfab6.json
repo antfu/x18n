@@ -1,0 +1,18 @@
+{
+  "hash": "2cf1f07d579cfab6",
+  "source": "Typed braces: {0}, {1}, {2}, {3} and {4}. The name is the part before {5} or {6}, so {7} in the base locale and {8} in a translation match. Plural parts such as {9} are not placeholders.",
+  "text": "带类型的花括号：{0}、{1}、{2}、{3} 和 {4}。名称是 {5} 或 {6} 之前的部分，因此基础语言中的 {7} 与译文中的 {8} 可以匹配。像 {9} 这样的复数部分不是占位符。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "带类型的花括号：{0}、{1}、{2}、{3} 和 {4}。名称是 {5} 或 {6} 之前的部分，因此基础语言中的 {7} 与译文中的 {8} 可以匹配。像 {9} 这样的复数部分不是占位符。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

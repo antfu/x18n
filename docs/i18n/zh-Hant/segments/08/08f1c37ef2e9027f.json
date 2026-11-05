@@ -1,0 +1,18 @@
+{
+  "hash": "08f1c37ef2e9027f",
+  "source": "{0} gives {1} and {2} ({3} by default), and each {4} there is a target locale. {5} has no file for the source locale, so x18n reads the source text from the {6} of a target file. That reading is read-only: the source text lives in your code. Run {7} to add new messages to the files.",
+  "text": "{0} 提供 {1} 與 {2}（預設為 {3}），其中每個 {4} 都是一個目標語系。{5} 沒有對應來源語系的檔案，因此 x18n 會從目標檔案的 {6} 讀取來源文字。這項讀取是唯讀的：來源文字存在於你的程式碼中。請執行 {7} 將新訊息加入這些檔案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 提供 {1} 與 {2}（預設為 {3}），其中每個 {4} 都是一個目標語系。{5} 沒有對應來源語系的檔案，因此 x18n 會從目標檔案的 {6} 讀取來源文字。這項讀取是唯讀的：來源文字存在於你的程式碼中。請執行 {7} 將新訊息加入這些檔案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

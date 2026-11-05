@@ -1,0 +1,18 @@
+{
+  "hash": "93c886bc066d2bb5",
+  "source": "In {0}, {1} and {2} files, the preset reads:",
+  "text": "In den Dateien {0}, {1} und {2} liest das Preset:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In den Dateien {0}, {1} und {2} liest das Preset:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

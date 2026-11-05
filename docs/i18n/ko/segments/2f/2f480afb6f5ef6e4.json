@@ -1,0 +1,18 @@
+{
+  "hash": "2f480afb6f5ef6e4",
+  "source": "x18n: Suggest as Value",
+  "text": "x18n: 값으로 제안",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: 값으로 제안"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

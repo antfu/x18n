@@ -1,0 +1,18 @@
+{
+  "hash": "23dec3e80a0b935b",
+  "source": "An {0}, as in {1}, {2}, {3} and {4}:",
+  "text": "{0}는 {1}, {2}, {3}, {4}와 같습니다:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 {1}, {2}, {3}, {4}와 같습니다:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

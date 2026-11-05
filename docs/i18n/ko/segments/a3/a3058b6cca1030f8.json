@@ -1,0 +1,18 @@
+{
+  "hash": "a3058b6cca1030f8",
+  "source": "It asks you about key naming, glossary terms, tone per locale, deleting unused keys and large renames.",
+  "text": "키 이름 지정, 용어집 용어, 로케일별 어조, 사용하지 않는 키 삭제, 대규모 이름 변경에 대해서는 사용자에게 질문합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키 이름 지정, 용어집 용어, 로케일별 어조, 사용하지 않는 키 삭제, 대규모 이름 변경에 대해서는 사용자에게 질문합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

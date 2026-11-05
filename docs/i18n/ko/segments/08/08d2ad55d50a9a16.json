@@ -1,0 +1,18 @@
+{
+  "hash": "08d2ad55d50a9a16",
+  "source": "{0} finds hard-coded strings in source files and turns them into keys. Each candidate has a proposed key, a message and the replacement code.",
+  "text": "{0}는 소스 파일에서 하드코딩된 문자열을 찾아 키로 변환합니다. 각 후보에는 제안된 키, 메시지, 대체 코드가 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 소스 파일에서 하드코딩된 문자열을 찾아 키로 변환합니다. 각 후보에는 제안된 키, 메시지, 대체 코드가 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

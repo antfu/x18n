@@ -1,0 +1,18 @@
+{
+  "hash": "dc3d7e589871153f",
+  "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
+  "text": "Todo formato integrado tem {0}, e uma edição altera apenas as entradas que define, adiciona ou exclui. Comentários, ordem das chaves, aspas e indentação permanecem como estão. Uma nova chave vai depois da última chave de seu pai, no estilo do arquivo. Uma chave excluída leva consigo o comentário no final de sua linha. Em {1} e {2}, os comentários acima de uma entrada pertencem a ela e também são removidos. Apenas {3} e {4} reescrevem o arquivo inteiro, o que descarta seus comentários. Um formato que só lê torna seus recursos somente leitura.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Todo formato integrado tem {0}, e uma edição altera apenas as entradas que define, adiciona ou exclui. Comentários, ordem das chaves, aspas e indentação permanecem como estão. Uma nova chave vai depois da última chave de seu pai, no estilo do arquivo. Uma chave excluída leva consigo o comentário no final de sua linha. Em {1} e {2}, os comentários acima de uma entrada pertencem a ela e também são removidos. Apenas {3} e {4} reescrevem o arquivo inteiro, o que descarta seus comentários. Um formato que só lê torna seus recursos somente leitura."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "aad9b6407e901a18",
+  "source": "{0} adds {1}extraction templates{/1}. An entry is a template string, or an object with {2}, {3}, {4} and {5}.",
+  "text": "{0} 會新增{1}擷取範本{/1}。每個項目可以是範本字串，或是包含 {2}、{3}、{4} 與 {5} 的物件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會新增{1}擷取範本{/1}。每個項目可以是範本字串，或是包含 {2}、{3}、{4} 與 {5} 的物件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

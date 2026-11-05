@@ -1,0 +1,18 @@
+{
+  "hash": "af05573faee76bbd",
+  "source": "When you fix known problems, {0} says how many entries no longer occur. Run {1} again to drop them, so that they cannot come back unnoticed. With {2}, {3} or {4}, the update keeps the entries that these options leave out. {5} adds the counts as {6}: {7}.",
+  "text": "修复已知问题后，{0} 会提示有多少条记录已不再出现。再次运行 {1} 即可移除它们，避免它们悄悄重新出现。使用 {2}、{3} 或 {4} 时，更新会保留这些选项未涉及的记录。{5} 会将计数添加为 {6}：{7}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "修复已知问题后，{0} 会提示有多少条记录已不再出现。再次运行 {1} 即可移除它们，避免它们悄悄重新出现。使用 {2}、{3} 或 {4} 时，更新会保留这些选项未涉及的记录。{5} 会将计数添加为 {6}：{7}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

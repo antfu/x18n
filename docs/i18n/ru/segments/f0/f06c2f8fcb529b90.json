@@ -1,0 +1,18 @@
+{
+  "hash": "f06c2f8fcb529b90",
+  "source": "The panel loads the project from the root of the host (the Vite root). From there, x18n searches upward for a config file, as the CLI does. Install the package as a dev dependency:",
+  "text": "Панель загружает проект из корня хоста (корня Vite). Оттуда x18n ищет файл конфигурации вверх по дереву каталогов, как это делает CLI. Установите пакет как dev-зависимость:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Панель загружает проект из корня хоста (корня Vite). Оттуда x18n ищет файл конфигурации вверх по дереву каталогов, как это делает CLI. Установите пакет как dev-зависимость:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

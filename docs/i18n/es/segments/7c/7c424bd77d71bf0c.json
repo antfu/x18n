@@ -1,0 +1,18 @@
+{
+  "hash": "7c424bd77d71bf0c",
+  "source": "Fixed namespace for every matching file.",
+  "text": "Espacio de nombres fijo para todos los archivos coincidentes.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Espacio de nombres fijo para todos los archivos coincidentes."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8abb31361f5ea882",
+  "source": "x18n reads the i18n setup of a project: the locale files, and the translate calls in the code. It shows every key across locales, finds where each key is used, and reports keys that are missing, unused or broken. It also changes locale files for you, without breaking their format.",
+  "text": "x18n 會讀取專案的 i18n 設定：語系檔案，以及程式碼中的翻譯呼叫。它會顯示每個鍵在各語系中的狀況，找出每個鍵的使用位置，並回報缺少、未使用或損壞的鍵。它也會幫你修改語系檔案，而不會破壞檔案格式。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 會讀取專案的 i18n 設定：語系檔案，以及程式碼中的翻譯呼叫。它會顯示每個鍵在各語系中的狀況，找出每個鍵的使用位置，並回報缺少、未使用或損壞的鍵。它也會幫你修改語系檔案，而不會破壞檔案格式。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

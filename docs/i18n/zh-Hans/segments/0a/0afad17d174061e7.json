@@ -1,0 +1,18 @@
+{
+  "hash": "0afad17d174061e7",
+  "source": "Keys found by their value in any locale, fuzzy unless {0}, with their usages.",
+  "text": "按值在任意语言中查找到的键，除非 {0}，否则为模糊匹配，并附带其引用。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "按值在任意语言中查找到的键，除非 {0}，否则为模糊匹配，并附带其引用。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

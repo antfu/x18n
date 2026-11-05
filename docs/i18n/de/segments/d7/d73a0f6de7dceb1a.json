@@ -1,0 +1,18 @@
+{
+  "hash": "d73a0f6de7dceb1a",
+  "source": "The command prints the TypeScript version of a YAML plugin, written with {0} and {1} and the same built-in functions that load the YAML file. Save the output to a {2} file, and list that file in {3} instead of the YAML file. Then extend it with any part of the plugin API.",
+  "text": "Der Befehl gibt die TypeScript-Version eines YAML-Plugins aus, geschrieben mit {0} und {1} und denselben eingebauten Funktionen, die auch die YAML-Datei laden. Speichere die Ausgabe in einer {2}-Datei und führe diese Datei anstelle der YAML-Datei in {3} auf. Erweitere sie anschließend um beliebige Teile der Plugin-API.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Befehl gibt die TypeScript-Version eines YAML-Plugins aus, geschrieben mit {0} und {1} und denselben eingebauten Funktionen, die auch die YAML-Datei laden. Speichere die Ausgabe in einer {2}-Datei und führe diese Datei anstelle der YAML-Datei in {3} auf. Erweitere sie anschließend um beliebige Teile der Plugin-API."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

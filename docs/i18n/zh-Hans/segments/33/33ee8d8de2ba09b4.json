@@ -1,0 +1,18 @@
+{
+  "hash": "33ee8d8de2ba09b4",
+  "source": "Which argument holds the key. Default 0.",
+  "text": "哪个参数保存键。默认为 0。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "哪个参数保存键。默认为 0。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

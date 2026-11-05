@@ -1,0 +1,18 @@
+{
+  "hash": "d73a0f6de7dceb1a",
+  "source": "The command prints the TypeScript version of a YAML plugin, written with {0} and {1} and the same built-in functions that load the YAML file. Save the output to a {2} file, and list that file in {3} instead of the YAML file. Then extend it with any part of the plugin API.",
+  "text": "이 명령은 YAML 플러그인의 TypeScript 버전을 출력합니다. 이 버전은 {0}와(과) {1}, 그리고 YAML 파일을 로드하는 것과 같은 내장 함수로 작성됩니다. 출력을 {2} 파일로 저장하고, {3}에서 YAML 파일 대신 그 파일을 지정하세요. 그런 다음 플러그인 API의 어떤 부분이든 사용해 확장할 수 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 명령은 YAML 플러그인의 TypeScript 버전을 출력합니다. 이 버전은 {0}와(과) {1}, 그리고 YAML 파일을 로드하는 것과 같은 내장 함수로 작성됩니다. 출력을 {2} 파일로 저장하고, {3}에서 YAML 파일 대신 그 파일을 지정하세요. 그런 다음 플러그인 API의 어떤 부분이든 사용해 확장할 수 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

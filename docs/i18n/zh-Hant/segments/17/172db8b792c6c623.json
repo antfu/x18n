@@ -1,0 +1,18 @@
+{
+  "hash": "172db8b792c6c623",
+  "source": "Each tool takes one object. A {0} after a field name marks an optional field. The safety level tells the agent what a call does: {1} changes nothing, {2} writes files, {3} can remove data and asks for {4}.",
+  "text": "每個工具接受一個物件。欄位名稱後的 {0} 表示該欄位為選填。安全等級會告訴 agent 一次呼叫會做什麼：{1} 不會變更任何內容，{2} 會寫入檔案，{3} 可能移除資料並要求 {4}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每個工具接受一個物件。欄位名稱後的 {0} 表示該欄位為選填。安全等級會告訴 agent 一次呼叫會做什麼：{1} 不會變更任何內容，{2} 會寫入檔案，{3} 可能移除資料並要求 {4}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

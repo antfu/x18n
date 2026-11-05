@@ -1,0 +1,18 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} supprime les clés que {1} liste, moins les clés de {2}. Elle conserve aussi les clés qu'une clé entièrement calculée peut atteindre dans une portée : {3} sous {4} peut atteindre toutes les clés de l'espace de noms {5}, et sous {6} toutes les clés sous {7}. Lancez-la d'abord avec {8} : elle liste chaque clé avec ses langues et ses fichiers, puis les clés conservées avec les utilisations qui les conservent. Une clé entièrement calculée en dehors de toute portée peut atteindre n'importe quelle clé, donc le plan vous en avertit ; listez les clés qu'elle utilise dans {9}. Les modifications se font sur place, donc les commentaires et la mise en forme sont conservés.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} supprime les clés que {1} liste, moins les clés de {2}. Elle conserve aussi les clés qu'une clé entièrement calculée peut atteindre dans une portée : {3} sous {4} peut atteindre toutes les clés de l'espace de noms {5}, et sous {6} toutes les clés sous {7}. Lancez-la d'abord avec {8} : elle liste chaque clé avec ses langues et ses fichiers, puis les clés conservées avec les utilisations qui les conservent. Une clé entièrement calculée en dehors de toute portée peut atteindre n'importe quelle clé, donc le plan vous en avertit ; listez les clés qu'elle utilise dans {9}. Les modifications se font sur place, donc les commentaires et la mise en forme sont conservés."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

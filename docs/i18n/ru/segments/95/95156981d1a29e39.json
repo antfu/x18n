@@ -1,0 +1,18 @@
+{
+  "hash": "95156981d1a29e39",
+  "source": "A detected or listed group of plugins for one library.",
+  "text": "Обнаруженная или перечисленная группа плагинов для одной библиотеки.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Обнаруженная или перечисленная группа плагинов для одной библиотеки."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

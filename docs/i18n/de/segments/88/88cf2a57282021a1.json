@@ -1,0 +1,18 @@
+{
+  "hash": "88cf2a57282021a1",
+  "source": "Install \"x18n\" by antfu from the VS Code Marketplace or Open VSX. The extension id is {0}. It needs VS Code 1.100 or later.",
+  "text": "Installiere „x18n“ von antfu aus dem VS Code Marketplace oder von Open VSX. Die Erweiterungs-ID ist {0}. Sie benötigt VS Code 1.100 oder neuer.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Installiere „x18n“ von antfu aus dem VS Code Marketplace oder von Open VSX. Die Erweiterungs-ID ist {0}. Sie benötigt VS Code 1.100 oder neuer."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "6a0b72e6177e1c78",
+  "source": "Show the values of these locales (comma separated) next to each message, in place of the {0}related locales{/0} of the target.",
+  "text": "Muestra los valores de estos idiomas (separados por comas) junto a cada mensaje, en lugar de los {0}idiomas relacionados{/0} del idioma de destino.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Muestra los valores de estos idiomas (separados por comas) junto a cada mensaje, en lugar de los {0}idiomas relacionados{/0} del idioma de destino."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

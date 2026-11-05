@@ -1,0 +1,18 @@
+{
+  "hash": "4e1a4108beb45329",
+  "source": "x18n picks the first template that matches the kind ({0}) and the file ({1}). It tries the templates of {2} first, then those of the presets, then these defaults:",
+  "text": "x18n выбирает первый шаблон, подходящий по виду ({0}) и файлу ({1}). Сначала он проверяет шаблоны из {2}, затем шаблоны пресетов, а затем эти шаблоны по умолчанию:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n выбирает первый шаблон, подходящий по виду ({0}) и файлу ({1}). Сначала он проверяет шаблоны из {2}, затем шаблоны пресетов, а затем эти шаблоны по умолчанию:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "1b796aa2db219faa",
+  "source": "Decides if the preset applies. Without {0}, the preset applies only when listed in config.",
+  "text": "Решает, применяется ли пресет. Без {0} пресет применяется, только если указан в конфигурации.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Решает, применяется ли пресет. Без {0} пресет применяется, только если указан в конфигурации."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

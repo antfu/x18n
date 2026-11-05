@@ -1,0 +1,18 @@
+{
+  "hash": "281a79e79750288d",
+  "source": "Extraction templates: the code that replaces a hard string.",
+  "text": "Шаблоны извлечения: код, который заменяет захардкоженную строку.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Шаблоны извлечения: код, который заменяет захардкоженную строку."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

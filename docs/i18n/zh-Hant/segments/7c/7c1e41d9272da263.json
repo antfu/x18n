@@ -1,0 +1,18 @@
+{
+  "hash": "7c1e41d9272da263",
+  "source": "Continue from {0} of the previous prompt.",
+  "text": "從上一個提示的 {0} 繼續。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "從上一個提示的 {0} 繼續。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "353c48ab221ddec1",
+  "source": "How a coding agent finds keys by their text, finds missing keys, adds and translates messages, and checks its work with the x18n CLI.",
+  "text": "코딩 에이전트가 x18n CLI로 텍스트를 기준으로 키를 찾고, 누락된 키를 찾고, 메시지를 추가하고 번역하며, 자신의 작업을 검증하는 방법입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "코딩 에이전트가 x18n CLI로 텍스트를 기준으로 키를 찾고, 누락된 키를 찾고, 메시지를 추가하고 번역하며, 자신의 작업을 검증하는 방법입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

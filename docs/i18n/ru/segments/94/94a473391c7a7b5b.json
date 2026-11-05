@@ -1,0 +1,18 @@
+{
+  "hash": "94a473391c7a7b5b",
+  "source": "The Vue scanner reads the {0} blocks and every template expression. It also reads the {1} directive, and the key attribute of the {2} (or {3}) component, the {4} component and {5}.",
+  "text": "Сканер Vue считывает блоки {0} и все выражения в шаблоне. Он также считывает директиву {1}, атрибут key компонента {2} (или {3}), компонент {4} и {5}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сканер Vue считывает блоки {0} и все выражения в шаблоне. Он также считывает директиву {1}, атрибут key компонента {2} (или {3}), компонент {4} и {5}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

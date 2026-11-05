@@ -1,0 +1,18 @@
+{
+  "hash": "265d372f96af4c12",
+  "source": "The {0} hook changes a draft of the config before it is final. Presets use it to set defaults: the config of the project wins over them. {1} receives the dependencies of the project and can test files with {2}.",
+  "text": "{0} 훅은 설정이 확정되기 전에 설정의 초안을 변경합니다. 프리셋은 이 훅으로 기본값을 설정하며, 프로젝트의 설정이 프리셋의 기본값보다 우선합니다. {1}은(는) 프로젝트의 의존성을 받으며 {2}(으)로 파일을 검사할 수 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 훅은 설정이 확정되기 전에 설정의 초안을 변경합니다. 프리셋은 이 훅으로 기본값을 설정하며, 프로젝트의 설정이 프리셋의 기본값보다 우선합니다. {1}은(는) 프로젝트의 의존성을 받으며 {2}(으)로 파일을 검사할 수 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

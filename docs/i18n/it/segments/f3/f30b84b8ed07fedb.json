@@ -1,0 +1,18 @@
+{
+  "hash": "f30b84b8ed07fedb",
+  "source": "Run again with {0} to accept the defaults.",
+  "text": "Esegui di nuovo con {0} per accettare i valori predefiniti.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esegui di nuovo con {0} per accettare i valori predefiniti."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

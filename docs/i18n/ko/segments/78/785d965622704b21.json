@@ -1,0 +1,18 @@
+{
+  "hash": "785d965622704b21",
+  "source": "The agent runs {0}, groups the diagnostics by check, and fixes the routine ones: missing keys and translations, placeholder mismatches and invalid syntax. It asks you before it deletes unused keys, adds glossary terms, changes the severity of a check, or makes warnings fail {1}CI{/1} with {2}.",
+  "text": "에이전트는 {0}을(를) 실행하고, 진단을 검사별로 묶어서 누락된 키와 번역, 플레이스홀더 불일치, 잘못된 구문 같은 일반적인 문제를 수정합니다. 사용하지 않는 키를 삭제하거나, 용어집 용어를 추가하거나, 검사의 심각도를 변경하거나, {2}(으)로 경고가 {1}CI{/1}를 실패시키도록 설정하기 전에는 사용자에게 질문합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에이전트는 {0}을(를) 실행하고, 진단을 검사별로 묶어서 누락된 키와 번역, 플레이스홀더 불일치, 잘못된 구문 같은 일반적인 문제를 수정합니다. 사용하지 않는 키를 삭제하거나, 용어집 용어를 추가하거나, 검사의 심각도를 변경하거나, {2}(으)로 경고가 {1}CI{/1}를 실패시키도록 설정하기 전에는 사용자에게 질문합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

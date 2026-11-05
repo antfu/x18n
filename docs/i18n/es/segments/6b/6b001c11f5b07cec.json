@@ -1,0 +1,18 @@
+{
+  "hash": "6b001c11f5b07cec",
+  "source": "Agents make that possible. A rewrite of this size used to need months, and now I can build it in my free time and still make it solid. Agents also would benefit from it: they edit locale files all day, and they need the key behind a text, the missing keys and a safe way to rename a key. So I brought the idea back, and this time I made it real.",
+  "text": "Los agentes lo hacen posible. Una reescritura de este tamaño solía requerir meses, y ahora puedo construirla en mi tiempo libre y aun así lograr que sea sólida. Los agentes también se beneficiarían de ello: editan archivos de idioma todo el día y necesitan la clave que hay detrás de un texto, las claves que faltan y una forma segura de renombrar una clave. Así que recuperé la idea y esta vez la hice realidad.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los agentes lo hacen posible. Una reescritura de este tamaño solía requerir meses, y ahora puedo construirla en mi tiempo libre y aun así lograr que sea sólida. Los agentes también se beneficiarían de ello: editan archivos de idioma todo el día y necesitan la clave que hay detrás de un texto, las claves que faltan y una forma segura de renombrar una clave. Así que recuperé la idea y esta vez la hice realidad."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

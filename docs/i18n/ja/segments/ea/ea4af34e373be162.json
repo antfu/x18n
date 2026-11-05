@@ -1,0 +1,18 @@
+{
+  "hash": "ea4af34e373be162",
+  "source": "One i18n setup with one root, one config and one set of locales. A monorepo can have many.",
+  "text": "1 つのルート、1 つの設定、1 組のロケールを持つ 1 つの i18n 構成です。モノレポには複数のプロジェクトを含められます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 つのルート、1 つの設定、1 組のロケールを持つ 1 つの i18n 構成です。モノレポには複数のプロジェクトを含められます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

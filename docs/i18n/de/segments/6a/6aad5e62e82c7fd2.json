@@ -1,0 +1,18 @@
+{
+  "hash": "6aad5e62e82c7fd2",
+  "source": "Invalid YAML plugin",
+  "text": "Ungültiges YAML-Plugin",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ungültiges YAML-Plugin"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "6cac637501d4e756",
+  "source": "Every command that writes files first makes a plan. A plan is the list of file changes, made without writing anything. {0} prints the plan instead of applying it.",
+  "text": "Каждая команда, которая записывает файлы, сначала составляет план. План — это список изменений файлов, составленный без записи чего-либо. {0} выводит план вместо его применения.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Каждая команда, которая записывает файлы, сначала составляет план. План — это список изменений файлов, составленный без записи чего-либо. {0} выводит план вместо его применения."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

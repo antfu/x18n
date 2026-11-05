@@ -1,0 +1,18 @@
+{
+  "hash": "352b648525ec2211",
+  "source": "The source of the skills is in {0} of the repository. A test makes sure that every command and flag that the skills and their references name exists in the CLI.",
+  "text": "Исходный код скиллов находится в {0} репозитория. Тест проверяет, что каждая команда и флаг, которые упоминаются в скиллах и их справочниках, существуют в CLI.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Исходный код скиллов находится в {0} репозитория. Тест проверяет, что каждая команда и флаг, которые упоминаются в скиллах и их справочниках, существуют в CLI."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

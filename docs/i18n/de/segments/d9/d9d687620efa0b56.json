@@ -1,0 +1,18 @@
+{
+  "hash": "d9d687620efa0b56",
+  "source": "Python: {0}gettext{/0} (Django, Flask-Babel, Babel) and {1}i18nice{/1} (also python-i18n)",
+  "text": "Python: {0}gettext{/0} (Django, Flask-Babel, Babel) und {1}i18nice{/1} (auch python-i18n)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Python: {0}gettext{/0} (Django, Flask-Babel, Babel) und {1}i18nice{/1} (auch python-i18n)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

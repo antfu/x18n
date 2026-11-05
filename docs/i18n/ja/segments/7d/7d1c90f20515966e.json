@@ -1,0 +1,18 @@
+{
+  "hash": "7d1c90f20515966e",
+  "source": "The agent checks what x18n detects with {0}, writes a config only when detection needs help, adds {1} to the scripts, and reports the first {2} result. It asks you about the source locale, the locales, the config format and CI.",
+  "text": "エージェントは {0} で x18n が検出する内容を確認し、検出だけでは不十分な場合にのみ設定ファイルを書き、スクリプトに {1} を追加して、最初の {2} の結果を報告します。ソースロケール、ロケール、設定ファイルの形式、CI については、あなたに質問します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "エージェントは {0} で x18n が検出する内容を確認し、検出だけでは不十分な場合にのみ設定ファイルを書き、スクリプトに {1} を追加して、最初の {2} の結果を報告します。ソースロケール、ロケール、設定ファイルの形式、CI については、あなたに質問します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

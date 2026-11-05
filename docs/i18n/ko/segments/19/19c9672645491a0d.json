@@ -1,0 +1,18 @@
+{
+  "hash": "19c9672645491a0d",
+  "source": "Also translate stale translations (needs git history)",
+  "text": "오래된 번역도 번역합니다 (git 히스토리 필요)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오래된 번역도 번역합니다 (git 히스토리 필요)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

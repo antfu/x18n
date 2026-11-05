@@ -1,0 +1,18 @@
+{
+  "hash": "b5e23c00430d3fc6",
+  "source": "One path segment that names the namespace.",
+  "text": "Один сегмент пути, который задаёт пространство имён.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Один сегмент пути, который задаёт пространство имён."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

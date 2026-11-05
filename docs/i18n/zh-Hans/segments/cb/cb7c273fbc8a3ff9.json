@@ -1,0 +1,18 @@
+{
+  "hash": "cb7c273fbc8a3ff9",
+  "source": "Serve the MCP tools over stdio.",
+  "text": "通过 stdio 提供 MCP 工具。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "通过 stdio 提供 MCP 工具。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

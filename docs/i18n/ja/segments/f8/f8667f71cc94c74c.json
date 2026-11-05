@@ -1,0 +1,18 @@
+{
+  "hash": "f8667f71cc94c74c",
+  "source": "Settings that are not on this page are not migrated.",
+  "text": "このページに記載されていない設定は移行されません。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このページに記載されていない設定は移行されません。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

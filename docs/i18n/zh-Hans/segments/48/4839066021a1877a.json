@@ -1,0 +1,18 @@
+{
+  "hash": "4839066021a1877a",
+  "source": "Keys (globs) excluded from all checks. {0} also takes regular expressions.",
+  "text": "从所有检查中排除的键（glob）。{0} 也接受正则表达式。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "从所有检查中排除的键（glob）。{0} 也接受正则表达式。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

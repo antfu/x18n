@@ -1,0 +1,18 @@
+{
+  "hash": "a91fde33ed81f850",
+  "source": "Strings never extracted in the files of a glob, written as in {0}.",
+  "text": "在某个 glob 匹配的文件中不会被提取的字符串，写法与 {0} 中相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在某个 glob 匹配的文件中不会被提取的字符串，写法与 {0} 中相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

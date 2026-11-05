@@ -1,0 +1,18 @@
+{
+  "hash": "08178f249bfea4e2",
+  "source": "{0} is the check id, for example {1}. See {2}Checks{/2}.",
+  "text": "{0} é o id da verificação, por exemplo {1}. Veja {2}Verificações{/2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} é o id da verificação, por exemplo {1}. Veja {2}Verificações{/2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

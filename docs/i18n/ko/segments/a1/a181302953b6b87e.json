@@ -1,0 +1,18 @@
+{
+  "hash": "a181302953b6b87e",
+  "source": "The extension treats a key such as {0} like an imported symbol:",
+  "text": "확장은 {0} 같은 키를 임포트된 심볼처럼 취급합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "확장은 {0} 같은 키를 임포트된 심볼처럼 취급합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

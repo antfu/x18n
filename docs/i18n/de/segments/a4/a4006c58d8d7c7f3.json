@@ -1,0 +1,18 @@
+{
+  "hash": "a4006c58d8d7c7f3",
+  "source": "A loader that computes its messages (for example with {0}) is not static. x18n reports it as {1}.",
+  "text": "Ein Loader, der seine messages berechnet (zum Beispiel mit {0}), ist nicht statisch. x18n meldet ihn als {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Loader, der seine messages berechnet (zum Beispiel mit {0}), ist nicht statisch. x18n meldet ihn als {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

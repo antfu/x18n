@@ -1,0 +1,18 @@
+{
+  "hash": "d80491d683ef6a5d",
+  "source": "Show the values of related locales next to each message, such as {0} for {1} (default); optionally of these locales instead (comma separated)",
+  "text": "在每則訊息旁顯示相關語系的值，例如 {1} 的 {0}（預設）；也可改為顯示指定語系的值（以逗號分隔）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在每則訊息旁顯示相關語系的值，例如 {1} 的 {0}（預設）；也可改為顯示指定語系的值（以逗號分隔）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

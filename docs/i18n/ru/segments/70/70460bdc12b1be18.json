@@ -1,0 +1,18 @@
+{
+  "hash": "70460bdc12b1be18",
+  "source": "The agent must start the command in the root of the project, or pass {0}. The server watches the files, so it sees edits from other tools.",
+  "text": "Агент должен запускать команду в корне проекта или передавать {0}. Сервер следит за файлами, поэтому видит правки, сделанные другими инструментами.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Агент должен запускать команду в корне проекта или передавать {0}. Сервер следит за файлами, поэтому видит правки, сделанные другими инструментами."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

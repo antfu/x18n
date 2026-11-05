@@ -1,0 +1,18 @@
+{
+  "hash": "7adc9fe889561401",
+  "source": "A monorepo can hold several projects, for example a web app and a UI library, each with its own locale files. List them in the root config with {0}:",
+  "text": "モノレポには、Web アプリと UI ライブラリのように、それぞれ独自のロケールファイルを持つ複数のプロジェクトを含められます。これらはルート設定で {0} を使って列挙してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "モノレポには、Web アプリと UI ライブラリのように、それぞれ独自のロケールファイルを持つ複数のプロジェクトを含められます。これらはルート設定で {0} を使って列挙してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8b983876988cd2fe",
+  "source": "The names that x18n uses in its code, docs and UI.",
+  "text": "I nomi che x18n usa nel suo codice, nella documentazione e nell'interfaccia.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I nomi che x18n usa nel suo codice, nella documentazione e nell'interfaccia."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

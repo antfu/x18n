@@ -1,0 +1,18 @@
+{
+  "hash": "16642c90c5fe91c1",
+  "source": "Percent braces: {0}. For the files above, the {1} check reports {2}, because {3} has no {4}.",
+  "text": "퍼센트 중괄호: {0}. 위의 파일들에 대해 {1} 검사는 {3}에 {4}이(가) 없으므로 {2}을(를) 보고합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "퍼센트 중괄호: {0}. 위의 파일들에 대해 {1} 검사는 {3}에 {4}이(가) 없으므로 {2}을(를) 보고합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f0056768df7685ed",
+  "source": "Duplicate capability id. Rename the id, or set `override: true` on the later one.",
+  "text": "Doppelte Capability-ID. Benenne die ID um oder setze `override: true` bei der späteren.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Doppelte Capability-ID. Benenne die ID um oder setze `override: true` bei der späteren."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

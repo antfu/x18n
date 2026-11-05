@@ -1,0 +1,18 @@
+{
+  "hash": "91380eb88d1a8d34",
+  "source": "i18n-ally {0}: {1} in one locale adds the key with an empty value to the others.",
+  "text": "i18n-ally {0}: {1} en un idioma añade la clave con un valor vacío a los demás.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally {0}: {1} en un idioma añade la clave con un valor vacío a los demás."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

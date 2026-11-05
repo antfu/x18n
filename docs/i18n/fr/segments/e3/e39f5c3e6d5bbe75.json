@@ -1,0 +1,18 @@
+{
+  "hash": "e39f5c3e6d5bbe75",
+  "source": "{0} adds the markup Angular needs and keeps your template as it is. It marks a whole element as one message, so a sentence with a link or {1} stays together:",
+  "text": "{0} ajoute le balisage dont Angular a besoin et conserve votre template tel quel. Il marque un élément entier comme un seul message, de sorte qu'une phrase contenant un lien ou {1} reste d'un seul tenant :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ajoute le balisage dont Angular a besoin et conserve votre template tel quel. Il marque un élément entier comme un seul message, de sorte qu'une phrase contenant un lien ou {1} reste d'un seul tenant :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d4860c30d93a4563",
+  "source": "A bare {0} is not read, because projects also name a keyset function {1}, and then {2} takes no keyset. A keyset that is no string literal, such as {3}, makes the usage dynamic.",
+  "text": "単独の {0} は読み取りません。プロジェクトでは keyset 関数にも {1} という名前を付けることがあり、その場合 {2} は keyset を取らないためです。文字列リテラルではない keyset（{3} など）は、その使用箇所を動的として扱います。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "単独の {0} は読み取りません。プロジェクトでは keyset 関数にも {1} という名前を付けることがあり、その場合 {2} は keyset を取らないためです。文字列リテラルではない keyset（{3} など）は、その使用箇所を動的として扱います。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

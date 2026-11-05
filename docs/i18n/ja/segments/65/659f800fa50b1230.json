@@ -1,0 +1,18 @@
+{
+  "hash": "659f800fa50b1230",
+  "source": "The check compares the params a translate call passes with the placeholders of the source message. For {0}, it reports {1}: {2} is missing and {3} is unused.",
+  "text": "このチェックは、翻訳呼び出しで渡されるパラメーターと、ソースメッセージのプレースホルダーを比較します。{0} の場合は {1} を報告します。{2} が不足しており、{3} は使用されていません。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このチェックは、翻訳呼び出しで渡されるパラメーターと、ソースメッセージのプレースホルダーを比較します。{0} の場合は {1} を報告します。{2} が不足しており、{3} は使用されていません。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

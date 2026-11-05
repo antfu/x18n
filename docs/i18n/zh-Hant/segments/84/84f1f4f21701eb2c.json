@@ -1,0 +1,18 @@
+{
+  "hash": "84f1f4f21701eb2c",
+  "source": "Each plugin has a {0}. Names are unique, and the built-in plugins use the {1} prefix. Each capability has an {2}, unique within its kind. Two capabilities with the same id stop the load with {3}X18N1002{/3}, unless the later one sets {4}.",
+  "text": "每個外掛都有一個 {0}。名稱必須是唯一的，內建外掛使用 {1} 前綴。每個功能都有一個 {2}，在同一類型中必須唯一。兩個功能若使用相同的 id，載入會以 {3}X18N1002{/3} 中止，除非後者設定了 {4}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每個外掛都有一個 {0}。名稱必須是唯一的，內建外掛使用 {1} 前綴。每個功能都有一個 {2}，在同一類型中必須唯一。兩個功能若使用相同的 id，載入會以 {3}X18N1002{/3} 中止，除非後者設定了 {4}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

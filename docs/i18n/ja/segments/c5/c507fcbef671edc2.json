@@ -1,0 +1,18 @@
+{
+  "hash": "c507fcbef671edc2",
+  "source": "Only keys matching a glob",
+  "text": "glob に一致するキーのみ",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "glob に一致するキーのみ"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

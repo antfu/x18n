@@ -1,0 +1,18 @@
+{
+  "hash": "21813d5f0d1a13ff",
+  "source": "A project that has no {0}, such as a PHP or Ruby project, can use YAML or JSON instead. These files need no installed package:",
+  "text": "沒有 {0} 的專案（例如 PHP 或 Ruby 專案）可以改用 YAML 或 JSON。這些檔案不需要安裝任何套件：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "沒有 {0} 的專案（例如 PHP 或 Ruby 專案）可以改用 YAML 或 JSON。這些檔案不需要安裝任何套件："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ad6964035bbafd05",
+  "source": "A rule asks the agent to leave out a value that is right as it is, such as a word that is the same in both languages. To stop a key from being reported, add it to {0}, or add the term to the {1} with {2}.",
+  "text": "有一条规则会要求 agent 省略一个本身就正确的值，例如在两种语言中写法相同的单词。若要阻止某个键被报告，请将它添加到 {0}，或使用 {2} 将该术语添加到 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "有一条规则会要求 agent 省略一个本身就正确的值，例如在两种语言中写法相同的单词。若要阻止某个键被报告，请将它添加到 {0}，或使用 {2} 将该术语添加到 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

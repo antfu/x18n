@@ -1,0 +1,18 @@
+{
+  "hash": "a8d1ca842a2062a8",
+  "source": "In TS and JS files, {0} tagged templates, and the inline {1} of a component:",
+  "text": "В файлах TS и JS — теговые шаблонные строки {0} и встроенный {1} компонента:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В файлах TS и JS — теговые шаблонные строки {0} и встроенный {1} компонента:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

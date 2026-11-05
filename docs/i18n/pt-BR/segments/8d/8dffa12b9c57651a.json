@@ -1,0 +1,18 @@
+{
+  "hash": "8dffa12b9c57651a",
+  "source": "x18n: Extract All Hard Strings in File",
+  "text": "x18n: Extrair todas as strings fixas no código do arquivo",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: Extrair todas as strings fixas no código do arquivo"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

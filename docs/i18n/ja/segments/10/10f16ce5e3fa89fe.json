@@ -1,0 +1,18 @@
+{
+  "hash": "10f16ce5e3fa89fe",
+  "source": "x18n\\_translate\\_prompt",
+  "text": "x18n\\_translate\\_prompt",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n\\_translate\\_prompt"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

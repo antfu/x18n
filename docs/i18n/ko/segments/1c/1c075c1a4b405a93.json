@@ -1,0 +1,18 @@
+{
+  "hash": "1c075c1a4b405a93",
+  "source": "x18n records which plugin changed which value. {0} shows it as {1}.",
+  "text": "x18n은 어떤 플러그인이 어떤 값을 변경했는지 기록합니다. {0}은(는) 이를 {1}(으)로 표시합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 어떤 플러그인이 어떤 값을 변경했는지 기록합니다. {0}은(는) 이를 {1}(으)로 표시합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

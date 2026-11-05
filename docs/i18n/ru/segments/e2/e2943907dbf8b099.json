@@ -1,0 +1,18 @@
+{
+  "hash": "e2943907dbf8b099",
+  "source": "{0} is for stores that keep one file per message. It returns the file of one key in a locale: a {1}, and the {2} id to create it with when it is not the format of its extension. A new message of the key goes to that file instead of a resource that already holds other keys, and the file is created when it does not exist. A rename moves each message to the file of the new key, and a delete that leaves the file of its key empty deletes the file. Return {3} for keys that live in shared files.",
+  "text": "{0} предназначен для хранилищ, в которых каждое сообщение лежит в отдельном файле. Он возвращает файл одного ключа в локали: {1} и id {2}, с которым его нужно создать, если это не формат его расширения. Новое сообщение этого ключа попадает в этот файл, а не в ресурс, где уже есть другие ключи, и файл создаётся, если его нет. Переименование переносит каждое сообщение в файл нового ключа, а удаление, после которого файл ключа остаётся пустым, удаляет этот файл. Возвращайте {3} для ключей, которые находятся в общих файлах.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} предназначен для хранилищ, в которых каждое сообщение лежит в отдельном файле. Он возвращает файл одного ключа в локали: {1} и id {2}, с которым его нужно создать, если это не формат его расширения. Новое сообщение этого ключа попадает в этот файл, а не в ресурс, где уже есть другие ключи, и файл создаётся, если его нет. Переименование переносит каждое сообщение в файл нового ключа, а удаление, после которого файл ключа остаётся пустым, удаляет этот файл. Возвращайте {3} для ключей, которые находятся в общих файлах."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

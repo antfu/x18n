@@ -1,0 +1,18 @@
+{
+  "hash": "ef8de96816619439",
+  "source": "Rules such as {0}. When a key is used, the keys that a rule derives from it count as used too. A {1} matches any text: {2}.",
+  "text": "{0} 같은 규칙입니다. 키가 사용되면 규칙이 그 키에서 파생하는 키도 사용된 것으로 간주됩니다. {1}은(는) 모든 텍스트와 일치합니다: {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 같은 규칙입니다. 키가 사용되면 규칙이 그 키에서 파생하는 키도 사용된 것으로 간주됩니다. {1}은(는) 모든 텍스트와 일치합니다: {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

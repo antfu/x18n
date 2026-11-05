@@ -1,0 +1,18 @@
+{
+  "hash": "729df12d3476b481",
+  "source": "Other templates that also apply, for surfaces that let users choose.",
+  "text": "사용자가 선택할 수 있는 인터페이스를 위해, 함께 적용할 수 있는 다른 템플릿입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사용자가 선택할 수 있는 인터페이스를 위해, 함께 적용할 수 있는 다른 템플릿입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

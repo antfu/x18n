@@ -1,0 +1,18 @@
+{
+  "hash": "bd64b205db6705fb",
+  "source": "A region of source code with a default namespace or key prefix.",
+  "text": "기본 네임스페이스나 키 접두사가 지정된 소스 코드의 영역입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "기본 네임스페이스나 키 접두사가 지정된 소스 코드의 영역입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

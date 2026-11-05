@@ -1,0 +1,18 @@
+{
+  "hash": "9aa423934098e6ba",
+  "source": "A plugin is an object that adds capabilities. A capability is one kind of contribution, such as a format, a scanner or a check. See {0}Capabilities{/0}.",
+  "text": "플러그인은 기능을 추가하는 객체입니다. 기능(capability)은 형식, 스캐너, 검사와 같은 한 종류의 기여입니다. {0}Capabilities{/0}를 참조하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인은 기능을 추가하는 객체입니다. 기능(capability)은 형식, 스캐너, 검사와 같은 한 종류의 기여입니다. {0}Capabilities{/0}를 참조하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

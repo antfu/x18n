@@ -1,0 +1,18 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "批次刪除未使用鍵的試跑；{0} 會實際套用。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "批次刪除未使用鍵的試跑；{0} 會實際套用。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "477ab3f866fc9d42",
+  "source": "The text in the file at {0}, used to detect stale plans.",
+  "text": "檔案中位於 {0} 的文字，用於偵測過期的計畫。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "檔案中位於 {0} 的文字，用於偵測過期的計畫。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

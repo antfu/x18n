@@ -1,0 +1,18 @@
+{
+  "hash": "6e28a0e0ef9e64e6",
+  "source": "Add support for a library, a file format or a check with a YAML plugin or a TypeScript plugin.",
+  "text": "使用 YAML 外掛或 TypeScript 外掛，新增對函式庫、檔案格式或檢查的支援。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 YAML 外掛或 TypeScript 外掛，新增對函式庫、檔案格式或檢查的支援。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

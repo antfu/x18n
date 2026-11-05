@@ -1,0 +1,18 @@
+{
+  "hash": "ca85ea159cbd6272",
+  "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
+  "text": "Una revisione è un commento su un messaggio: una chiave in una lingua. I commenti su un messaggio formano il suo thread. Una revisione può essere di uno di quattro tipi:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una revisione è un commento su un messaggio: una chiave in una lingua. I commenti su un messaggio formano il suo thread. Una revisione può essere di uno di quattro tipi:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

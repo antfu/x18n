@@ -1,0 +1,18 @@
+{
+  "hash": "b568ffdca1a7b580",
+  "source": "The {0} format reads a message attribute as a key of its own: {1} on the message {2} is the key {3}.",
+  "text": "Формат {0} читает атрибут сообщения как отдельный ключ: {1} в сообщении {2} — это ключ {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Формат {0} читает атрибут сообщения как отдельный ключ: {1} в сообщении {2} — это ключ {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

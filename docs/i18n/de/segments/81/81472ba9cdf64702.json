@@ -1,0 +1,18 @@
+{
+  "hash": "81472ba9cdf64702",
+  "source": "The engine: domain model, plugin API, analysis, and {0}.",
+  "text": "Die Engine: Domänenmodell, Plugin-API, Analyse und {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Engine: Domänenmodell, Plugin-API, Analyse und {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

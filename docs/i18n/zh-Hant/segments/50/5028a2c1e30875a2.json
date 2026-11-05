@@ -1,0 +1,18 @@
+{
+  "hash": "5028a2c1e30875a2",
+  "source": "{0} prints each problem with its file, line and column:",
+  "text": "{0} 會列出每個問題，並附上其檔案、行號和欄號：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會列出每個問題，並附上其檔案、行號和欄號："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "3d101ec7ff0a25b4",
+  "source": "History providers for stale translations: {0} turns them off; provider options such as {1} sit under their key; {2} adds providers asked first.",
+  "text": "History-Provider für veraltete Übersetzungen: {0} schaltet sie ab; Provider-Optionen wie {1} stehen unter ihrem Schlüssel; {2} fügt Provider hinzu, die zuerst gefragt werden.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "History-Provider für veraltete Übersetzungen: {0} schaltet sie ab; Provider-Optionen wie {1} stehen unter ihrem Schlüssel; {2} fügt Provider hinzu, die zuerst gefragt werden."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

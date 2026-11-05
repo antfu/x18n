@@ -1,0 +1,18 @@
+{
+  "hash": "3f1108b67de97191",
+  "source": "Yii2 keys are whole sentences, so the file turns the key separator off. The category, the first argument of {0}, is the namespace:",
+  "text": "Yii2의 키는 문장 전체이므로 이 파일은 키 구분자를 끕니다. {0}의 첫 번째 인수인 카테고리가 네임스페이스입니다:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Yii2의 키는 문장 전체이므로 이 파일은 키 구분자를 끕니다. {0}의 첫 번째 인수인 카테고리가 네임스페이스입니다:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

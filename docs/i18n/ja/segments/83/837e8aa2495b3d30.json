@@ -1,0 +1,18 @@
+{
+  "hash": "837e8aa2495b3d30",
+  "source": "The preset applies when {0} or {1} has {2} or {3}.",
+  "text": "このプリセットは、{0} または {1} に {2} または {3} がある場合に適用されます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、{0} または {1} に {2} または {3} がある場合に適用されます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

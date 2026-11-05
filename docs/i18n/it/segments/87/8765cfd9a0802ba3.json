@@ -1,0 +1,18 @@
+{
+  "hash": "8765cfd9a0802ba3",
+  "source": "The preset reads the {0} block of every project in {1}:",
+  "text": "Il preset legge il blocco {0} di ogni progetto in {1}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset legge il blocco {0} di ogni progetto in {1}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

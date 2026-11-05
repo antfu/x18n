@@ -1,0 +1,18 @@
+{
+  "hash": "fcaad21af91eaaa1",
+  "source": "A key without a namespace, such as {0}, is in the {1} namespace. The preset reads {2} and {3} from the i18next init code (a file such as {4}). A key that is not in its own namespace is then looked up in the fallback namespaces, in order. Set {5} and {6} to override them:",
+  "text": "不带命名空间的键（例如 {0}）属于 {1} 命名空间。该预设会从 i18next 初始化代码（例如 {4} 这样的文件）中读取 {2} 和 {3}。如果某个键不在自己的命名空间中，则会按顺序在回退命名空间中查找。设置 {5} 和 {6} 可以覆盖它们：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不带命名空间的键（例如 {0}）属于 {1} 命名空间。该预设会从 i18next 初始化代码（例如 {4} 这样的文件）中读取 {2} 和 {3}。如果某个键不在自己的命名空间中，则会按顺序在回退命名空间中查找。设置 {5} 和 {6} 可以覆盖它们："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

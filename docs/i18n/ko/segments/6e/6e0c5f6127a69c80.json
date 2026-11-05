@@ -1,0 +1,18 @@
+{
+  "hash": "6e0c5f6127a69c80",
+  "source": "The data of {0} comes from {1} in {2}. It returns the presets with the reason for each, the plugins, the plugins that were skipped and why, the finders with their resources, the formats, the scanners, the conflicts, the errors, and the final config with the origin of each value.",
+  "text": "{0}의 데이터는 {2}의 {1}에서 가져옵니다. 이 함수는 각 프리셋과 적용된 이유, 플러그인, 건너뛴 플러그인과 그 이유, 파인더와 해당 리소스, 포맷, 스캐너, 충돌, 오류, 그리고 각 값의 출처가 포함된 최종 설정을 반환합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}의 데이터는 {2}의 {1}에서 가져옵니다. 이 함수는 각 프리셋과 적용된 이유, 플러그인, 건너뛴 플러그인과 그 이유, 파인더와 해당 리소스, 포맷, 스캐너, 충돌, 오류, 그리고 각 값의 출처가 포함된 최종 설정을 반환합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

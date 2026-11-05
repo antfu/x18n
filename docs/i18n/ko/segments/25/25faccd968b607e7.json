@@ -1,0 +1,18 @@
+{
+  "hash": "25faccd968b607e7",
+  "source": "A project changed. {0} lists the keys that changed.",
+  "text": "프로젝트가 변경되었습니다. {0}는 변경된 키를 나열합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트가 변경되었습니다. {0}는 변경된 키를 나열합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "a1e87bcdb407e299",
+  "source": "Sets the value of a suggestion and resolves it.",
+  "text": "设置建议的值并将其标记为已解决。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "设置建议的值并将其标记为已解决。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "701b928c1fa61a52",
+  "source": "In PHP and Blade files, the preset reads {0}, {1}, {2}, {3}, {4} and {5}. Laravel writes the keys of a nested file with a slash. The preset turns each slash into a dot:",
+  "text": "En archivos PHP y Blade, el preset lee {0}, {1}, {2}, {3}, {4} y {5}. Laravel escribe las claves de un archivo anidado con una barra. El preset convierte cada barra en un punto:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En archivos PHP y Blade, el preset lee {0}, {1}, {2}, {3}, {4} y {5}. Laravel escribe las claves de un archivo anidado con una barra. El preset convierte cada barra en un punto:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

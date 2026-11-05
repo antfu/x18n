@@ -1,0 +1,18 @@
+{
+  "hash": "e8e612b07471426a",
+  "source": "A file changed after x18n made the plan, so x18n did not write anything. For {0}, the source file changed after you wrote the plan file.",
+  "text": "x18n이 계획을 만든 뒤 파일이 변경되어 x18n은 아무것도 쓰지 않았습니다. {0}의 경우 계획 파일을 작성한 뒤 소스 파일이 변경된 것입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n이 계획을 만든 뒤 파일이 변경되어 x18n은 아무것도 쓰지 않았습니다. {0}의 경우 계획 파일을 작성한 뒤 소스 파일이 변경된 것입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

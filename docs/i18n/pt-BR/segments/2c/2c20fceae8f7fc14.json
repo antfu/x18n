@@ -1,0 +1,18 @@
+{
+  "hash": "2c20fceae8f7fc14",
+  "source": "Nuxt I18n Micro loads the global translations and the translations of the current page. A page key overrides a global key with the same name.",
+  "text": "O Nuxt I18n Micro carrega as traduções globais e as traduções da página atual. Uma chave de página sobrescreve uma chave global com o mesmo nome.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O Nuxt I18n Micro carrega as traduções globais e as traduções da página atual. Uma chave de página sobrescreve uma chave global com o mesmo nome."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f1407b709ed30fdb",
+  "source": "Keep every placeholder of the source value, with the same name, for example {0} or {1}.",
+  "text": "Сохраните все плейсхолдеры исходного значения с теми же именами, например {0} или {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сохраните все плейсхолдеры исходного значения с теми же именами, например {0} или {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

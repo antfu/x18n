@@ -1,0 +1,18 @@
+{
+  "hash": "cd0f79ef1094b139",
+  "source": "Titles and validation messages",
+  "text": "Títulos e mensagens de validação",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Títulos e mensagens de validação"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

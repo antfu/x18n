@@ -1,0 +1,18 @@
+{
+  "hash": "dc3d7e589871153f",
+  "source": "Every built-in format has {0}, and an edit changes only the entries it sets, adds or deletes. Comments, key order, quotes and indentation stay as they are. A new key goes after the last key of its parent, in the style of the file. A deleted key takes the comment at the end of its line with it. In {1} and {2}, the comments above an entry belong to it and go too. Only {3} and {4} write a whole file again, which drops its comments. A format that only reads makes its resources read-only.",
+  "text": "모든 기본 제공 형식에는 {0}이(가) 있으며, 편집 시 설정, 추가 또는 삭제한 항목만 변경됩니다. 주석, 키 순서, 따옴표, 들여쓰기는 그대로 유지됩니다. 새 키는 파일의 스타일에 맞춰 상위 키의 마지막 키 뒤에 추가됩니다. 삭제된 키는 같은 줄 끝에 있는 주석과 함께 삭제됩니다. {1} 및 {2}에서는 항목 위의 주석도 해당 항목에 속하므로 함께 삭제됩니다. {3}과(와) {4}만 파일 전체를 다시 쓰며, 이때 주석은 삭제됩니다. 읽기만 가능한 형식은 해당 리소스를 읽기 전용으로 만듭니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 기본 제공 형식에는 {0}이(가) 있으며, 편집 시 설정, 추가 또는 삭제한 항목만 변경됩니다. 주석, 키 순서, 따옴표, 들여쓰기는 그대로 유지됩니다. 새 키는 파일의 스타일에 맞춰 상위 키의 마지막 키 뒤에 추가됩니다. 삭제된 키는 같은 줄 끝에 있는 주석과 함께 삭제됩니다. {1} 및 {2}에서는 항목 위의 주석도 해당 항목에 속하므로 함께 삭제됩니다. {3}과(와) {4}만 파일 전체를 다시 쓰며, 이때 주석은 삭제됩니다. 읽기만 가능한 형식은 해당 리소스를 읽기 전용으로 만듭니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

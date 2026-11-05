@@ -1,0 +1,18 @@
+{
+  "hash": "1f0424445bcd23c8",
+  "source": "The preset for @nuxtjs/i18n. It adds everything of vue-i18n, and finds the locale directory of the Nuxt config.",
+  "text": "O preset para @nuxtjs/i18n. Ele adiciona tudo do vue-i18n e encontra o diretório de idiomas da configuração do Nuxt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O preset para @nuxtjs/i18n. Ele adiciona tudo do vue-i18n e encontra o diretório de idiomas da configuração do Nuxt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

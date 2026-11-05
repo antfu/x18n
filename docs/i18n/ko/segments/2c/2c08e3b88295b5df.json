@@ -1,0 +1,18 @@
+{
+  "hash": "2c08e3b88295b5df",
+  "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
+  "text": "Python 퍼센트 포매팅: {0}, {1}, {2}. {3}, 공백 앞의 {4}, {5} 같은 URL 이스케이프, URL 안의 {6}는 텍스트로 처리됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Python 퍼센트 포매팅: {0}, {1}, {2}. {3}, 공백 앞의 {4}, {5} 같은 URL 이스케이프, URL 안의 {6}는 텍스트로 처리됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "02281ce20ac9dde8",
+  "source": "Percent braces: {0}.",
+  "text": "Accolades avec pourcentage : {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Accolades avec pourcentage : {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d6cf33227e272202",
+  "source": "Include the value per locale.",
+  "text": "ロケールごとの値を含めます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールごとの値を含めます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

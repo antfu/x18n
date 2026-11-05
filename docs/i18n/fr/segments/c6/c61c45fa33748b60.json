@@ -1,0 +1,18 @@
+{
+  "hash": "c61c45fa33748b60",
+  "source": "Separator between namespace and key in code. {0} merges the namespace into the key path. {1} keeps namespaces out of keys in code (i18next {2}), so a key may hold {3}. Default {4}.",
+  "text": "Séparateur entre l'espace de noms et la clé dans le code. {0} fusionne l'espace de noms dans le chemin de la clé. {1} garde les espaces de noms hors des clés dans le code (i18next {2}), de sorte qu'une clé peut contenir {3}. Par défaut {4}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Séparateur entre l'espace de noms et la clé dans le code. {0} fusionne l'espace de noms dans le chemin de la clé. {1} garde les espaces de noms hors des clés dans le code (i18next {2}), de sorte qu'une clé peut contenir {3}. Par défaut {4}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

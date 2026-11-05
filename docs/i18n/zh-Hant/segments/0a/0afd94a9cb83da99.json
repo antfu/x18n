@@ -1,0 +1,18 @@
+{
+  "hash": "0afd94a9cb83da99",
+  "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
+  "text": "檢查是一個產生器（generator）。它 yield 的每個值都會成為一則診斷。若沒有 {0}，診斷會指向 {2} 中 {1} 的訊息。檢查 id 同時也是診斷代碼，因此 {3} 和 {4} 的運作方式與內建檢查相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "檢查是一個產生器（generator）。它 yield 的每個值都會成為一則診斷。若沒有 {0}，診斷會指向 {2} 中 {1} 的訊息。檢查 id 同時也是診斷代碼，因此 {3} 和 {4} 的運作方式與內建檢查相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "507a89a39c99ca67",
+  "source": "This file has the keys {0}, {1} and {2}. When x18n writes a key, it writes it under the locale key of the file. A file without the locale key of its locale has no keys, so the preset does not support {3}.",
+  "text": "该文件包含键 {0}、{1} 和 {2}。x18n 写入键时，会将其写在文件的语言键之下。如果文件中没有对应语言的语言键，则该文件没有任何键，因此预设不支持 {3}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该文件包含键 {0}、{1} 和 {2}。x18n 写入键时，会将其写在文件的语言键之下。如果文件中没有对应语言的语言键，则该文件没有任何键，因此预设不支持 {3}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

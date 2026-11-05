@@ -1,0 +1,18 @@
+{
+  "hash": "4bd0a16a9d618ff7",
+  "source": "{0}Migration from i18n-ally{/0}: convert existing i18n-ally settings.",
+  "text": "{0}從 i18n-ally 遷移{/0}：轉換既有的 i18n-ally 設定。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}從 i18n-ally 遷移{/0}：轉換既有的 i18n-ally 設定。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

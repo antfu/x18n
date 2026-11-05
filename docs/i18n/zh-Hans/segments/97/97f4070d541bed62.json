@@ -1,0 +1,18 @@
+{
+  "hash": "97f4070d541bed62",
+  "source": "Every surface reads the same config and reports the same diagnostics. A fix that you make in the editor shows in the UI, and {0} in CI agrees with both.",
+  "text": "每个界面都读取相同的配置，并报告相同的诊断。你在编辑器中所做的修复会显示在 UI 中，CI 中的 {0} 也与两者的结果一致。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每个界面都读取相同的配置，并报告相同的诊断。你在编辑器中所做的修复会显示在 UI 中，CI 中的 {0} 也与两者的结果一致。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

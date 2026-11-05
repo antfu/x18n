@@ -1,0 +1,18 @@
+{
+  "hash": "665238feb11167cb",
+  "source": "See how x18n understood a project with x18n doctor and explain, and move a YAML plugin to TypeScript with x18n plugin eject.",
+  "text": "Sieh mit x18n doctor und explain, wie x18n ein Projekt verstanden hat, und überführe mit x18n plugin eject ein YAML-Plugin nach TypeScript.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sieh mit x18n doctor und explain, wie x18n ein Projekt verstanden hat, und überführe mit x18n plugin eject ein YAML-Plugin nach TypeScript."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

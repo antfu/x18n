@@ -1,0 +1,18 @@
+{
+  "hash": "f0cdaf1208410fd5",
+  "source": "{0} adds rules and notes to the {1}translate prompt{/1}. {2} holds the source and target locales and the locale information of the target, such as its plural categories. The i18next preset uses it to explain plural suffixes.",
+  "text": "{0} は、{1}翻訳プロンプト{/1}にルールや注記を追加します。{2} には、ソースロケールとターゲットロケール、および複数形カテゴリなどのターゲットのロケール情報が含まれます。i18next プリセットは、これを使って複数形のサフィックスを説明しています。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、{1}翻訳プロンプト{/1}にルールや注記を追加します。{2} には、ソースロケールとターゲットロケール、および複数形カテゴリなどのターゲットのロケール情報が含まれます。i18next プリセットは、これを使って複数形のサフィックスを説明しています。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

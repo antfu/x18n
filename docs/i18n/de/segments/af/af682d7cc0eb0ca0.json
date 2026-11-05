@@ -1,0 +1,18 @@
+{
+  "hash": "af682d7cc0eb0ca0",
+  "source": "Locale codes as written in paths. Filters the found locales.",
+  "text": "Sprachcodes, wie sie in Pfaden geschrieben werden. Filtert die gefundenen Sprachen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sprachcodes, wie sie in Pfaden geschrieben werden. Filtert die gefundenen Sprachen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

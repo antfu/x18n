@@ -1,0 +1,18 @@
+{
+  "hash": "2f4871816c8f9879",
+  "source": "How {0} finds hard strings and makes keys.",
+  "text": "Comment {0} trouve les chaînes en dur et crée les clés.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Comment {0} trouve les chaînes en dur et crée les clés."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

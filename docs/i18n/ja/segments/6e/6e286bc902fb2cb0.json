@@ -1,0 +1,18 @@
+{
+  "hash": "6e286bc902fb2cb0",
+  "source": "The preset for next-translate. It reads useTranslation, getT, Trans and namespaces with a `:` separator.",
+  "text": "next-translate 用のプリセットです。useTranslation、getT、Trans、および `:` 区切りの名前空間を読み取ります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "next-translate 用のプリセットです。useTranslation、getT、Trans、および `:` 区切りの名前空間を読み取ります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

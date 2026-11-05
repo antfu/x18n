@@ -1,0 +1,18 @@
+{
+  "hash": "7f0be92fb89f6d3a",
+  "source": "Lingui keys are often the source message itself. The macros and calls below are usages of {0} and {1}:",
+  "text": "Lingui의 키는 소스 메시지 자체인 경우가 많습니다. 아래의 매크로와 호출은 {0} 및 {1}의 사용처입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lingui의 키는 소스 메시지 자체인 경우가 많습니다. 아래의 매크로와 호출은 {0} 및 {1}의 사용처입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

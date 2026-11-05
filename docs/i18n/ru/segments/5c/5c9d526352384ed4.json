@@ -1,0 +1,18 @@
+{
+  "hash": "5c9d526352384ed4",
+  "source": "It does not call machine translation services. Instead, it writes a {0}translate prompt{/0} for an agent or an LLM, and checks the result.",
+  "text": "Он не обращается к сервисам машинного перевода. Вместо этого он формирует {0}промпт для перевода{/0} для агента или LLM и проверяет результат.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Он не обращается к сервисам машинного перевода. Вместо этого он формирует {0}промпт для перевода{/0} для агента или LLM и проверяет результат."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

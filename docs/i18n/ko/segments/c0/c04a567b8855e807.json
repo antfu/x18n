@@ -1,0 +1,18 @@
+{
+  "hash": "c04a567b8855e807",
+  "source": "{0} returns the message tree, and optionally the text range of each key and value, and the description of each message. The ranges power go to definition and diagnostics. A description is what the file says about a message for translators, such as a note or a comment beside it. {1}Translate prompts{/1} show it.",
+  "text": "{0}은(는) 메시지 트리를 반환하며, 선택적으로 각 키와 값의 텍스트 범위, 각 메시지의 설명도 반환합니다. 범위는 정의로 이동과 진단 기능에 사용됩니다. 설명은 메시지 옆의 메모나 주석처럼, 파일이 번역자를 위해 메시지에 대해 제공하는 내용입니다. {1}번역 프롬프트{/1}에 이 설명이 표시됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 메시지 트리를 반환하며, 선택적으로 각 키와 값의 텍스트 범위, 각 메시지의 설명도 반환합니다. 범위는 정의로 이동과 진단 기능에 사용됩니다. 설명은 메시지 옆의 메모나 주석처럼, 파일이 번역자를 위해 메시지에 대해 제공하는 내용입니다. {1}번역 프롬프트{/1}에 이 설명이 표시됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

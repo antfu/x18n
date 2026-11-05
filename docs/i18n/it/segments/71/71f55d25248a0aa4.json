@@ -1,0 +1,18 @@
+{
+  "hash": "71f55d25248a0aa4",
+  "source": "The review prompt asks the agent to compare existing translations with the source and the glossary. The agent does not change values itself. It leaves a {0}review{/0} for a human: {1} for a better value, or {2} for a problem without a clear fix. A human then applies or resolves each one, in the editor, the UI or with {3}. With {4}, the agent fixes values with {5} instead.",
+  "text": "Il prompt di revisione chiede all'agente di confrontare le traduzioni esistenti con l'origine e il glossario. L'agente non modifica i valori da solo. Lascia una {0}revisione{/0} per una persona: {1} per un valore migliore, oppure {2} per un problema senza una correzione chiara. Poi una persona applica o risolve ciascuna revisione, nell'editor, nella UI o con {3}. Con {4}, l'agente corregge invece i valori con {5}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il prompt di revisione chiede all'agente di confrontare le traduzioni esistenti con l'origine e il glossario. L'agente non modifica i valori da solo. Lascia una {0}revisione{/0} per una persona: {1} per un valore migliore, oppure {2} per un problema senza una correzione chiara. Poi una persona applica o risolve ciascuna revisione, nell'editor, nella UI o con {3}. Con {4}, l'agente corregge invece i valori con {5}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8c4a1e9d4db87ed9",
+  "source": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n\\_extract\\_apply.",
+  "text": "在原始碼檔案中找出硬編碼字串，並為每個字串提出鍵、訊息與程式碼替換建議。審閱這些項目（編輯鍵、移除不需要的項目）後，再傳給 x18n\\_extract\\_apply。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在原始碼檔案中找出硬編碼字串，並為每個字串提出鍵、訊息與程式碼替換建議。審閱這些項目（編輯鍵、移除不需要的項目）後，再傳給 x18n\\_extract\\_apply。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

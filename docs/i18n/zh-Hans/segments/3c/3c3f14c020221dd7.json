@@ -1,0 +1,18 @@
+{
+  "hash": "3c3f14c020221dd7",
+  "source": "In {0}, each message is an object with a {1} field and other fields, such as {2}. The preset reads the {3} field as the value of the key:",
+  "text": "在 {0} 中，每条消息都是一个对象，包含 {1} 字段和其他字段，例如 {2}。该预设会将 {3} 字段读取为键的值：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 {0} 中，每条消息都是一个对象，包含 {1} 字段和其他字段，例如 {2}。该预设会将 {3} 字段读取为键的值："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

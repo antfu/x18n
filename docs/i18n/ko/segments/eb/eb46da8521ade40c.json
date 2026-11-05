@@ -1,0 +1,18 @@
+{
+  "hash": "eb46da8521ade40c",
+  "source": "Write the current diagnostics into the baseline. See {0}Baseline{/0}.",
+  "text": "현재 진단을 베이스라인에 기록합니다. {0}베이스라인{/0}을 참고하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "현재 진단을 베이스라인에 기록합니다. {0}베이스라인{/0}을 참고하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

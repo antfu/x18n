@@ -1,0 +1,18 @@
+{
+  "hash": "2c904fbea8e5ff20",
+  "source": "This file has the keys {0} and {1}. When x18n writes a key, it writes it under the locale key of the file. For example, setting {2} in {3} changes {4} to:",
+  "text": "このファイルには {0} と {1} というキーがあります。x18n がキーを書き込む場合は、ファイルのロケールキーの下に書き込みます。たとえば、{3} で {2} を設定すると、{4} は次のように変更されます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このファイルには {0} と {1} というキーがあります。x18n がキーを書き込む場合は、ファイルのロケールキーの下に書き込みます。たとえば、{3} で {2} を設定すると、{4} は次のように変更されます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

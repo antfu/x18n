@@ -1,0 +1,18 @@
+{
+  "hash": "cc0a4ee651fd6e5f",
+  "source": "The syntax is the same as for {0}vue-i18n{/0}:",
+  "text": "語法與 {0}vue-i18n{/0} 相同：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "語法與 {0}vue-i18n{/0} 相同："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "df41ecf8b5af7473",
+  "source": "Or pass a preset object from a TS config, for example {0}.",
+  "text": "Ou passe um objeto de preset a partir de uma configuração TS, por exemplo {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ou passe um objeto de preset a partir de uma configuração TS, por exemplo {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

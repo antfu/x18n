@@ -1,0 +1,18 @@
+{
+  "hash": "d20c69a18888a5b0",
+  "source": "The {0}ruby-rails{/0} preset uses a transform for the top-level locale key, and the {1}chrome-extension{/1} preset for the {2} field.",
+  "text": "{0}ruby-rails{/0} プリセットはトップレベルのロケールキーにトランスフォームを使用し、{1}chrome-extension{/1} プリセットは {2} フィールドに使用します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}ruby-rails{/0} プリセットはトップレベルのロケールキーにトランスフォームを使用し、{1}chrome-extension{/1} プリセットは {2} フィールドに使用します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

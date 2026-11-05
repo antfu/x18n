@@ -1,0 +1,18 @@
+{
+  "hash": "ca02e14bdf68093b",
+  "source": "An Angular element with text, marked with {0} as one message ({1})",
+  "text": "Un élément Angular avec du texte, marqué avec {0} comme un seul message ({1})",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un élément Angular avec du texte, marqué avec {0} comme un seul message ({1})"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "41ba2abd07d16365",
+  "source": "x18n counts only calls that it knows as translate calls. It follows string constants ({0}, then {1}) and both branches of a condition ({2}). The callee set of a file is the set of names that count: the names of the presets and of {3}, same-file aliases such as {4}, functions returned by factories such as {5}, and parameters typed as translate functions.",
+  "text": "O x18n conta apenas as chamadas que ele reconhece como chamadas de tradução. Ele segue constantes de string ({0}, depois {1}) e os dois ramos de uma condição ({2}). O conjunto de callees de um arquivo é o conjunto de nomes que contam: os nomes dos presets e de {3}, aliases no mesmo arquivo, como {4}, funções retornadas por factories, como {5}, e parâmetros tipados como funções de tradução.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O x18n conta apenas as chamadas que ele reconhece como chamadas de tradução. Ele segue constantes de string ({0}, depois {1}) e os dois ramos de uma condição ({2}). O conjunto de callees de um arquivo é o conjunto de nomes que contam: os nomes dos presets e de {3}, aliases no mesmo arquivo, como {4}, funções retornadas por factories, como {5}, e parâmetros tipados como funções de tradução."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

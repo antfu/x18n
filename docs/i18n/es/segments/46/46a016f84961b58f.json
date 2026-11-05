@@ -1,0 +1,18 @@
+{
+  "hash": "46a016f84961b58f",
+  "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
+  "text": "\"x18n: Find Key by Text\" encuentra la clave que hay detrás de un texto que ves en la aplicación. Escribe parte del texto, en cualquier idioma. La búsqueda ignora las mayúsculas y usa coincidencia aproximada, así que las letras deben aparecer en orden, pero no una junto a otra. La lista muestra primero las mejores coincidencias, con la clave, el idioma y el número de usos. Elige una clave para abrir su uso, o elige entre sus usos. Una clave que no usa ningún código se abre en su entrada del idioma. El comando comienza con el texto seleccionado, y la vista Keys tiene un botón para ejecutarlo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "\"x18n: Find Key by Text\" encuentra la clave que hay detrás de un texto que ves en la aplicación. Escribe parte del texto, en cualquier idioma. La búsqueda ignora las mayúsculas y usa coincidencia aproximada, así que las letras deben aparecer en orden, pero no una junto a otra. La lista muestra primero las mejores coincidencias, con la clave, el idioma y el número de usos. Elige una clave para abrir su uso, o elige entre sus usos. Una clave que no usa ningún código se abre en su entrada del idioma. El comando comienza con el texto seleccionado, y la vista Keys tiene un botón para ejecutarlo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

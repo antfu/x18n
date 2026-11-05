@@ -1,0 +1,18 @@
+{
+  "hash": "abded637629cadb3",
+  "source": "Make sure that the top level of the file is an object, not an array or a string.",
+  "text": "파일의 최상위 수준이 배열이나 문자열이 아니라 객체인지 확인하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일의 최상위 수준이 배열이나 문자열이 아니라 객체인지 확인하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

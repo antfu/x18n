@@ -1,0 +1,18 @@
+{
+  "hash": "f0c5aa7e84287628",
+  "source": "With {0} in the project, {1} is a usage, under any name for {2}.",
+  "text": "Wenn {0} im Projekt vorhanden ist, ist {1} eine Verwendung, unter jedem Namen für {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn {0} im Projekt vorhanden ist, ist {1} eine Verwendung, unter jedem Namen für {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

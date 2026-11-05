@@ -1,0 +1,18 @@
+{
+  "hash": "94265dc876a07661",
+  "source": "Plugins to add: a package name, a path to a module or to a YAML plugin, or {0}. Paths are relative to the config file.",
+  "text": "추가할 플러그인입니다. 패키지 이름, 모듈 또는 YAML 플러그인의 경로, 또는 {0}를 지정할 수 있습니다. 경로는 설정 파일을 기준으로 합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "추가할 플러그인입니다. 패키지 이름, 모듈 또는 YAML 플러그인의 경로, 또는 {0}를 지정할 수 있습니다. 경로는 설정 파일을 기준으로 합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

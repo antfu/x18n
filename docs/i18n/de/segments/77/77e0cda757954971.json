@@ -1,0 +1,18 @@
+{
+  "hash": "77e0cda757954971",
+  "source": "Extracts every hard string of a file.",
+  "text": "Extrahiert jeden hartcodierten String einer Datei.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extrahiert jeden hartcodierten String einer Datei."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

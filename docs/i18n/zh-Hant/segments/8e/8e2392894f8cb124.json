@@ -1,0 +1,18 @@
+{
+  "hash": "8e2392894f8cb124",
+  "source": "x18n resolves the name from the directory of the config file, imports the package, and calls its default export with the options. If the package is missing, the load stops with {0}X18N1001{/0}.",
+  "text": "x18n 會從設定檔所在的目錄解析名稱、匯入套件，並以選項呼叫其預設匯出。若找不到該套件，載入會中止並回報 {0}X18N1001{/0}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 會從設定檔所在的目錄解析名稱、匯入套件，並以選項呼叫其預設匯出。若找不到該套件，載入會中止並回報 {0}X18N1001{/0}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

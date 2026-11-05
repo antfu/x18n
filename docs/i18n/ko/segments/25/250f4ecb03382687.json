@@ -1,0 +1,18 @@
+{
+  "hash": "250f4ecb03382687",
+  "source": "The {0} attribute picks the format: {1} (the default), {2}, {3} or {4}. Each block and locale is a resource, so edits from x18n write back into the block.",
+  "text": "{0} 속성으로 형식을 지정합니다: {1}(기본값), {2}, {3} 또는 {4}. 각 블록과 로케일은 하나의 리소스이므로, x18n에서 수정한 내용은 블록에 다시 기록됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 속성으로 형식을 지정합니다: {1}(기본값), {2}, {3} 또는 {4}. 각 블록과 로케일은 하나의 리소스이므로, x18n에서 수정한 내용은 블록에 다시 기록됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

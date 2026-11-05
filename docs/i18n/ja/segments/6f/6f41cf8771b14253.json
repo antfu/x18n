@@ -1,0 +1,18 @@
+{
+  "hash": "6f41cf8771b14253",
+  "source": "Make sure that the module exports a plugin, a preset, or a function that returns one.",
+  "text": "モジュールがプラグイン、プリセット、またはそのいずれかを返す関数をエクスポートしていることを確認してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "モジュールがプラグイン、プリセット、またはそのいずれかを返す関数をエクスポートしていることを確認してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

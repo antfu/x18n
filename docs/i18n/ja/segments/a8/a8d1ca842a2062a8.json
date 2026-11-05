@@ -1,0 +1,18 @@
+{
+  "hash": "a8d1ca842a2062a8",
+  "source": "In TS and JS files, {0} tagged templates, and the inline {1} of a component:",
+  "text": "TS ファイルと JS ファイルでは、{0} タグ付きテンプレートと、コンポーネントのインライン {1} を使用します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TS ファイルと JS ファイルでは、{0} タグ付きテンプレートと、コンポーネントのインライン {1} を使用します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

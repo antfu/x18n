@@ -1,0 +1,18 @@
+{
+  "hash": "c30354a84b59e3a0",
+  "source": "If the file is generated or is not source code, exclude it with {0}.",
+  "text": "如果該檔案是自動產生的，或不是原始碼，請使用 {0} 將其排除。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果該檔案是自動產生的，或不是原始碼，請使用 {0} 將其排除。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

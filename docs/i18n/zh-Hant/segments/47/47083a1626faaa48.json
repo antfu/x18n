@@ -1,0 +1,18 @@
+{
+  "hash": "47083a1626faaa48",
+  "source": "Many formats can say what a message means, for the translator. The prompt shows that description under the source value:",
+  "text": "許多格式可以向翻譯者說明訊息的意思。提示會在來源值下方顯示該說明：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "許多格式可以向翻譯者說明訊息的意思。提示會在來源值下方顯示該說明："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

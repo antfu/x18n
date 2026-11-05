@@ -1,0 +1,18 @@
+{
+  "hash": "d0fa3ccf547dce16",
+  "source": "The hub owns the auth gate and the URL. The panel is at {0}, for example {1}.",
+  "text": "El hub se encarga de la puerta de autenticación y de la URL. El panel está en {0}, por ejemplo {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El hub se encarga de la puerta de autenticación y de la URL. El panel está en {0}, por ejemplo {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

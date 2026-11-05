@@ -1,0 +1,18 @@
+{
+  "hash": "81576f3af3410462",
+  "source": "A namespace is a named group of keys, usually taken from a file name. With the pattern {0}, the file {1} holds the namespace {2}.",
+  "text": "Un namespace è un gruppo di chiavi con un nome, di solito ricavato dal nome di un file. Con il pattern {0}, il file {1} contiene il namespace {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un namespace è un gruppo di chiavi con un nome, di solito ricavato dal nome di un file. Con il pattern {0}, il file {1} contiene il namespace {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

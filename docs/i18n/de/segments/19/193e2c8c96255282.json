@@ -1,0 +1,18 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} löscht die Schlüssel, die {1} auflistet, abzüglich der Schlüssel in {2}. Außerdem behält es die Schlüssel, die ein vollständig berechneter Schlüssel innerhalb eines Scopes erreichen könnte: {3} unter {4} kann jeden Schlüssel des Namespace {5} erreichen und unter {6} jeden Schlüssel unter {7}. Führe es zuerst mit {8} aus: Es listet jeden Schlüssel mit seinen Sprachen und Dateien auf, dann die beibehaltenen Schlüssel mit den Verwendungen, die sie behalten. Ein vollständig berechneter Schlüssel außerhalb eines Scopes kann jeden Schlüssel erreichen, daher warnt der Plan davor; liste die Schlüssel, die er verwendet, in {9} auf. Änderungen erfolgen direkt in der Datei, sodass Kommentare und Formatierung erhalten bleiben.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} löscht die Schlüssel, die {1} auflistet, abzüglich der Schlüssel in {2}. Außerdem behält es die Schlüssel, die ein vollständig berechneter Schlüssel innerhalb eines Scopes erreichen könnte: {3} unter {4} kann jeden Schlüssel des Namespace {5} erreichen und unter {6} jeden Schlüssel unter {7}. Führe es zuerst mit {8} aus: Es listet jeden Schlüssel mit seinen Sprachen und Dateien auf, dann die beibehaltenen Schlüssel mit den Verwendungen, die sie behalten. Ein vollständig berechneter Schlüssel außerhalb eines Scopes kann jeden Schlüssel erreichen, daher warnt der Plan davor; liste die Schlüssel, die er verwendet, in {9} auf. Änderungen erfolgen direkt in der Datei, sodass Kommentare und Formatierung erhalten bleiben."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

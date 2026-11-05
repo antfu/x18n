@@ -1,0 +1,18 @@
+{
+  "hash": "52db4a1ae18781b6",
+  "source": "{0}Agent workflows{/0}: let a coding agent translate and clean up messages.",
+  "text": "{0}Рабочие процессы с агентами{/0}: пусть агент для написания кода переводит и очищает сообщения.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Рабочие процессы с агентами{/0}: пусть агент для написания кода переводит и очищает сообщения."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

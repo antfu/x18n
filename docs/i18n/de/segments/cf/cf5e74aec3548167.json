@@ -1,0 +1,18 @@
+{
+  "hash": "cf5e74aec3548167",
+  "source": "The preset adds no resource patterns. Set {0} in the config, or let x18n guess the locale directories.",
+  "text": "Das Preset fügt keine Ressourcen-Muster hinzu. Setze {0} in der Konfiguration oder lass x18n die Sprachverzeichnisse erraten.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset fügt keine Ressourcen-Muster hinzu. Setze {0} in der Konfiguration oder lass x18n die Sprachverzeichnisse erraten."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

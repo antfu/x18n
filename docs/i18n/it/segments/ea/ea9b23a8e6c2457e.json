@@ -1,0 +1,18 @@
+{
+  "hash": "ea9b23a8e6c2457e",
+  "source": "The names that count as translate calls in a file: declared names, same-file aliases, wrappers, typed params.",
+  "text": "I nomi che contano come chiamate di traduzione in un file: nomi dichiarati, alias nello stesso file, wrapper, parametri tipizzati.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I nomi che contano come chiamate di traduzione in un file: nomi dichiarati, alias nello stesso file, wrapper, parametri tipizzati."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

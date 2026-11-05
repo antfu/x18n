@@ -1,0 +1,18 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "Simulação (dry run) da exclusão em massa de chaves não usadas; {0} a aplica.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Simulação (dry run) da exclusão em massa de chaves não usadas; {0} a aplica."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

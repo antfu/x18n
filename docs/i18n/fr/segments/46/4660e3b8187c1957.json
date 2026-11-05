@@ -1,0 +1,18 @@
+{
+  "hash": "4660e3b8187c1957",
+  "source": "An approval of a value the message no longer has.",
+  "text": "Une approbation d'une valeur que le message n'a plus.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une approbation d'une valeur que le message n'a plus."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

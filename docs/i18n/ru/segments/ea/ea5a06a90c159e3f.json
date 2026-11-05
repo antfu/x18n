@@ -1,0 +1,18 @@
+{
+  "hash": "ea5a06a90c159e3f",
+  "source": "A source-locale key that target locales lack, or a plural form their language needs. One diagnostic per key, at the source entry.",
+  "text": "Ключ исходной локали, которого нет в целевых локалях, или plural-форма, необходимая для их языка. Одна диагностика на ключ, в записи исходной локали.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ исходной локали, которого нет в целевых локалях, или plural-форма, необходимая для их языка. Одна диагностика на ключ, в записи исходной локали."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

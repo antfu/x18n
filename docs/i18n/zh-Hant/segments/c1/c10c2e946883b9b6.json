@@ -1,0 +1,18 @@
+{
+  "hash": "c10c2e946883b9b6",
+  "source": "JS and TS modules whose default export is an object literal",
+  "text": "預設匯出為物件字面值的 JS 和 TS 模組",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "預設匯出為物件字面值的 JS 和 TS 模組"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

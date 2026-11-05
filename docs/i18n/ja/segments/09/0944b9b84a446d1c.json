@@ -1,0 +1,18 @@
+{
+  "hash": "0944b9b84a446d1c",
+  "source": "{0}placeholder-mismatch{/0}",
+  "text": "{0}placeholder-mismatch{/0}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}placeholder-mismatch{/0}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

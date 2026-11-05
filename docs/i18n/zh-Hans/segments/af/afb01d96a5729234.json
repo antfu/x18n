@@ -1,0 +1,18 @@
+{
+  "hash": "afb01d96a5729234",
+  "source": "Do not use {0} on your computer. Anything that reaches the port can then edit your files. The option is for CI and end-to-end tests only, and the command prints a warning.",
+  "text": "不要在你的电脑上使用 {0}。否则任何能访问该端口的程序都可以编辑你的文件。该选项仅用于 CI 和端到端测试，命令会输出警告。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "不要在你的电脑上使用 {0}。否则任何能访问该端口的程序都可以编辑你的文件。该选项仅用于 CI 和端到端测试，命令会输出警告。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

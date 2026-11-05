@@ -1,0 +1,18 @@
+{
+  "hash": "b28bda1a2f84e68e",
+  "source": "Japanese needs only {0}, and {1} is not reported missing there.",
+  "text": "日语只需要 {0}，因此 {1} 在日语中不会被报告为缺失。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "日语只需要 {0}，因此 {1} 在日语中不会被报告为缺失。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

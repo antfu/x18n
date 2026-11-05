@@ -1,0 +1,18 @@
+{
+  "hash": "a54bdc2112197200",
+  "source": "{0} writes nothing if a value drops or adds a placeholder. It lists the problems and exits with code 1. The check then finds syntax errors, such as an ICU plural without an {1} case.",
+  "text": "값이 플레이스홀더를 빠뜨리거나 추가하면 {0}은 아무것도 쓰지 않습니다. 문제를 나열하고 종료 코드 1로 종료합니다. 그다음 검사가 {1} 케이스가 없는 ICU plural 같은 구문 오류를 찾습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "값이 플레이스홀더를 빠뜨리거나 추가하면 {0}은 아무것도 쓰지 않습니다. 문제를 나열하고 종료 코드 1로 종료합니다. 그다음 검사가 {1} 케이스가 없는 ICU plural 같은 구문 오류를 찾습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

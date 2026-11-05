@@ -1,0 +1,18 @@
+{
+  "hash": "15b8f8ceb0c6aad6",
+  "source": "Locale files drift as a project grows:",
+  "text": "Os arquivos de idioma se desalinham conforme o projeto cresce:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os arquivos de idioma se desalinham conforme o projeto cresce:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

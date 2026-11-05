@@ -1,0 +1,18 @@
+{
+  "hash": "7f4182b1daaccf1e",
+  "source": "A translate call whose params differ from the placeholders of the source message.",
+  "text": "翻译调用传入的参数与源消息的占位符不一致。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻译调用传入的参数与源消息的占位符不一致。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

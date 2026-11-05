@@ -1,0 +1,18 @@
+{
+  "hash": "d10e54ff0ca1370e",
+  "source": "A placeholder syntax tells x18n how placeholders look in messages. The {0} check and {1} compare the placeholders of each translation with the source value. Translate prompts list them.",
+  "text": "플레이스홀더 구문은 메시지에서 플레이스홀더가 어떤 모양인지 x18n에 알려 줍니다. {0} 검사와 {1}은(는) 각 번역의 플레이스홀더를 소스 값과 비교합니다. 번역 프롬프트에는 이 플레이스홀더가 나열됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플레이스홀더 구문은 메시지에서 플레이스홀더가 어떤 모양인지 x18n에 알려 줍니다. {0} 검사와 {1}은(는) 각 번역의 플레이스홀더를 소스 값과 비교합니다. 번역 프롬프트에는 이 플레이스홀더가 나열됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

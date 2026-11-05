@@ -1,0 +1,18 @@
+{
+  "hash": "a91fde33ed81f850",
+  "source": "Strings never extracted in the files of a glob, written as in {0}.",
+  "text": "Строки, которые никогда не извлекаются в файлах, подходящих под glob; записывается так же, как в {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Строки, которые никогда не извлекаются в файлах, подходящих под glob; записывается так же, как в {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

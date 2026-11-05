@@ -1,0 +1,18 @@
+{
+  "hash": "370454e6b6177390",
+  "source": "The editor and the UI still show every diagnostic. The idea comes from {0}i18next-cli{/0} and the bulk suppressions of ESLint.",
+  "text": "O editor e a UI continuam mostrando todos os diagnósticos. A ideia vem do {0}i18next-cli{/0} e das supressões em massa do ESLint.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O editor e a UI continuam mostrando todos os diagnósticos. A ideia vem do {0}i18next-cli{/0} e das supressões em massa do ESLint."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "4c5aedbee6192927",
+  "source": "The {0} preset supports {1}Angular's built-in i18n{/1} with {2}.",
+  "text": "{0} プリセットは、{2} を使った {1}Angular 組み込みの i18n{/1} に対応します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} プリセットは、{2} を使った {1}Angular 組み込みの i18n{/1} に対応します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

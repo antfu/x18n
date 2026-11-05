@@ -1,0 +1,18 @@
+{
+  "hash": "e8fd9a7fbf3e26a1",
+  "source": "The canonical id of a message: namespace plus path. String form {0}. With {1} the path is one literal segment ({2}).",
+  "text": "O id canônico de uma mensagem: namespace mais caminho. Forma em string: {0}. Com {1}, o caminho é um único segmento literal ({2}).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O id canônico de uma mensagem: namespace mais caminho. Forma em string: {0}. Com {1}, o caminho é um único segmento literal ({2})."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

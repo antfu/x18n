@@ -1,0 +1,18 @@
+{
+  "hash": "3d7ed30deacb3a13",
+  "source": "To delete all unused keys at once, show the user the plan first, and run it only when they confirm:",
+  "text": "Um alle ungenutzten Schlüssel auf einmal zu löschen, zeige dem Benutzer zuerst den Plan und führe ihn erst aus, wenn er bestätigt:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um alle ungenutzten Schlüssel auf einmal zu löschen, zeige dem Benutzer zuerst den Plan und führe ihn erst aus, wenn er bestätigt:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

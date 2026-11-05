@@ -1,0 +1,18 @@
+{
+  "hash": "f1eb1200890fb980",
+  "source": "Only keys missing or empty in this locale.",
+  "text": "이 로케일에서 누락되었거나 비어 있는 키만 포함합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 로케일에서 누락되었거나 비어 있는 키만 포함합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

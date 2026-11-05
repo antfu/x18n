@@ -1,0 +1,18 @@
+{
+  "hash": "8e79581ee2e4a0af",
+  "source": "A severity is {0}, {1}, {2}, {3} or {4}. {5} (or {6}) turns every warning into an error. {7} removes keys from every check.",
+  "text": "嚴重程度可為 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）會將所有警告視為錯誤。{7} 會從所有檢查中排除指定的鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "嚴重程度可為 {0}、{1}、{2}、{3} 或 {4}。{5}（或 {6}）會將所有警告視為錯誤。{7} 會從所有檢查中排除指定的鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

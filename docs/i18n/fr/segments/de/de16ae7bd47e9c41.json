@@ -1,0 +1,18 @@
+{
+  "hash": "de16ae7bd47e9c41",
+  "source": "If a change needs a decision, such as the file for a new key, x18n asks in a terminal. {0} accepts the default answers. See {1}Plan and decision{/1}.",
+  "text": "Si un changement nécessite une décision, comme le fichier d'une nouvelle clé, x18n pose la question dans un terminal. {0} accepte les réponses par défaut. Consultez {1}Plan et décision{/1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si un changement nécessite une décision, comme le fichier d'une nouvelle clé, x18n pose la question dans un terminal. {0} accepte les réponses par défaut. Consultez {1}Plan et décision{/1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

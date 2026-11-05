@@ -1,0 +1,18 @@
+{
+  "hash": "faf57c3103e57fca",
+  "source": "The CLI prints the code and why the error happened, with details such as a file name or a field. The fix and a link to this page follow. With {0}, the same parts are in {1} of the {2}envelope{/2}.",
+  "text": "CLI 会输出错误代码和错误原因，以及文件名或字段等详细信息，随后是修复方法和指向本页的链接。使用 {0} 时，相同的内容位于{2}envelope{/2}的 {1} 中。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI 会输出错误代码和错误原因，以及文件名或字段等详细信息，随后是修复方法和指向本页的链接。使用 {0} 时，相同的内容位于{2}envelope{/2}的 {1} 中。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

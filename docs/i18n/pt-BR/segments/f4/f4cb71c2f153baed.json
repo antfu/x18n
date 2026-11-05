@@ -1,0 +1,18 @@
+{
+  "hash": "f4cb71c2f153baed",
+  "source": "{0} builds its keys at runtime, so when the project uses it the keys in the {1} namespace are not unused, nor those of {2}.",
+  "text": "{0} constrói suas chaves em tempo de execução, então, quando o projeto o utiliza, as chaves do namespace {1} não são consideradas não utilizadas, nem as de {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} constrói suas chaves em tempo de execução, então, quando o projeto o utiliza, as chaves do namespace {1} não são consideradas não utilizadas, nem as de {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "a9889c869365f888",
+  "source": "The key or key prefix at a position, in code or in a locale file.",
+  "text": "A chave ou o prefixo de chave em uma posição, no código ou em um arquivo de idioma.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A chave ou o prefixo de chave em uma posição, no código ou em um arquivo de idioma."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "03b0c3f09b69d188",
+  "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
+  "text": "Em um arquivo, {0} é uma chave, {1} é uma chave por quantidade ({2}) e {3} é uma chave por item ({4}). Excluir um item antes do fim o esvazia, de modo que os itens seguintes mantêm o índice. {5} não é uma mensagem, e o x18n não grava nele. Um comentário logo acima de uma entrada é a descrição dela para os tradutores. O x18n lê e grava os escapes do Android ({6}, {7}, {8}, um {9} no início), preserva marcação inline como {10} e preserva CDATA.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em um arquivo, {0} é uma chave, {1} é uma chave por quantidade ({2}) e {3} é uma chave por item ({4}). Excluir um item antes do fim o esvazia, de modo que os itens seguintes mantêm o índice. {5} não é uma mensagem, e o x18n não grava nele. Um comentário logo acima de uma entrada é a descrição dela para os tradutores. O x18n lê e grava os escapes do Android ({6}, {7}, {8}, um {9} no início), preserva marcação inline como {10} e preserva CDATA."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

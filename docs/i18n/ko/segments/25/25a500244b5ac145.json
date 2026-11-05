@@ -1,0 +1,18 @@
+{
+  "hash": "25a500244b5ac145",
+  "source": "Values of related locales shown next to each message, such as {0} for {1}: {2} (default) picks the locales of the same language, a list names them, {3} leaves them out.",
+  "text": "각 메시지 옆에 표시되는 관련 로케일의 값입니다. 예: {1}의 {0}. {2}(기본값)는 같은 언어의 로케일을 선택하고, 목록은 로케일을 직접 지정하며, {3}는 표시하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 메시지 옆에 표시되는 관련 로케일의 값입니다. 예: {1}의 {0}. {2}(기본값)는 같은 언어의 로케일을 선택하고, 목록은 로케일을 직접 지정하며, {3}는 표시하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

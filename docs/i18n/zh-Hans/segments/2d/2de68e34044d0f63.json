@@ -1,0 +1,18 @@
+{
+  "hash": "2de68e34044d0f63",
+  "source": "Every key across every locale in one table. Edit values in the browser, or publish a static, read-only report.",
+  "text": "在一张表格中查看所有语言的每个键。可在浏览器中编辑值，也可以发布静态的只读报告。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在一张表格中查看所有语言的每个键。可在浏览器中编辑值，也可以发布静态的只读报告。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

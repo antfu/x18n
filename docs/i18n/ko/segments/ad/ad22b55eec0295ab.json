@@ -1,0 +1,18 @@
+{
+  "hash": "ad22b55eec0295ab",
+  "source": "{0} returns text edits for a list of set and delete operations. x18n prefers it, because it keeps comments and layout.",
+  "text": "{0}은(는) 설정 및 삭제 작업 목록에 대한 텍스트 편집을 반환합니다. 주석과 레이아웃을 유지하므로 x18n은 이 방식을 선호합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 설정 및 삭제 작업 목록에 대한 텍스트 편집을 반환합니다. 주석과 레이아웃을 유지하므로 x18n은 이 방식을 선호합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

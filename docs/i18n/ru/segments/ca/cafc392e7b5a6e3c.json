@@ -1,0 +1,18 @@
+{
+  "hash": "cafc392e7b5a6e3c",
+  "source": "Add {0} as the first line. Your editor then shows the errors.",
+  "text": "Добавьте {0} первой строкой. Тогда редактор покажет ошибки.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Добавьте {0} первой строкой. Тогда редактор покажет ошибки."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

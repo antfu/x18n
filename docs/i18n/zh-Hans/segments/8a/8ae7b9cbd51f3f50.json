@@ -1,0 +1,18 @@
+{
+  "hash": "8ae7b9cbd51f3f50",
+  "source": "Deletes every unused key in every locale, except keys that computed keys in code may reach. {0} and the glob limit it.",
+  "text": "在所有语言中删除所有未使用的键，但代码中的动态键可能涉及的键除外。{0} 和 glob 可限定范围。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在所有语言中删除所有未使用的键，但代码中的动态键可能涉及的键除外。{0} 和 glob 可限定范围。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "dec61e0ce598870f",
+  "source": "Locales with coverage, resources, keys and diagnostics.",
+  "text": "各語系的涵蓋率、資源、鍵與診斷。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各語系的涵蓋率、資源、鍵與診斷。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

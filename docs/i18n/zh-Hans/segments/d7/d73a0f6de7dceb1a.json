@@ -1,0 +1,18 @@
+{
+  "hash": "d73a0f6de7dceb1a",
+  "source": "The command prints the TypeScript version of a YAML plugin, written with {0} and {1} and the same built-in functions that load the YAML file. Save the output to a {2} file, and list that file in {3} instead of the YAML file. Then extend it with any part of the plugin API.",
+  "text": "该命令会输出 YAML 插件的 TypeScript 版本，使用 {0} 和 {1} 以及加载 YAML 文件时所用的相同内置函数编写。将输出保存为 {2} 文件，并在 {3} 中列出该文件来代替 YAML 文件。之后你可以使用插件 API 的任意部分对其进行扩展。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该命令会输出 YAML 插件的 TypeScript 版本，使用 {0} 和 {1} 以及加载 YAML 文件时所用的相同内置函数编写。将输出保存为 {2} 文件，并在 {3} 中列出该文件来代替 YAML 文件。之后你可以使用插件 API 的任意部分对其进行扩展。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

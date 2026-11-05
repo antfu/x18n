@@ -1,0 +1,18 @@
+{
+  "hash": "8f1b3245bb391db7",
+  "source": "Deletes the keys that {0} lists, in every locale, through {1}. Default: every project.",
+  "text": "透過 {1} 在每個語系中刪除 {0} 所列出的鍵。預設：每個專案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "透過 {1} 在每個語系中刪除 {0} 所列出的鍵。預設：每個專案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

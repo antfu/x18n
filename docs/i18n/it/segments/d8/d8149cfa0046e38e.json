@@ -1,0 +1,18 @@
+{
+  "hash": "d8149cfa0046e38e",
+  "source": "In HTML templates, the preset reads the {0} pipe, the {1} attribute directive, and {2} calls. The {3} option of the structural directive {4}, or {5} as it was called before, is a key prefix, and so is {6} on {7}. It applies to the {8} calls inside that element, and the nearest one wins:",
+  "text": "Nei template HTML, il preset legge la pipe {0}, la direttiva di attributo {1} e le chiamate {2}. L'opzione {3} della direttiva strutturale {4}, o {5} come si chiamava prima, è un prefisso di chiave, e lo è anche {6} su {7}. Si applica alle chiamate {8} all'interno di quell'elemento, e vince quella più vicina:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nei template HTML, il preset legge la pipe {0}, la direttiva di attributo {1} e le chiamate {2}. L'opzione {3} della direttiva strutturale {4}, o {5} come si chiamava prima, è un prefisso di chiave, e lo è anche {6} su {7}. Si applica alle chiamate {8} all'interno di quell'elemento, e vince quella più vicina:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

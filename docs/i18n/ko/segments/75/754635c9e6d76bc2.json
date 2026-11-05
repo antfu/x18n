@@ -1,0 +1,18 @@
+{
+  "hash": "754635c9e6d76bc2",
+  "source": "Do not open the browser",
+  "text": "브라우저를 열지 않습니다",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "브라우저를 열지 않습니다"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

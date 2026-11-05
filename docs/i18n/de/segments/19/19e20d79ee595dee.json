@@ -1,0 +1,18 @@
+{
+  "hash": "19e20d79ee595dee",
+  "source": "Translate calls to add to the ones of the presets. See {0}Supported syntax{/0}.",
+  "text": "Übersetzungsaufrufe, die zu denen der Presets hinzukommen. Siehe {0}Unterstützte Syntax{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Übersetzungsaufrufe, die zu denen der Presets hinzukommen. Siehe {0}Unterstützte Syntax{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f757adce441e27b7",
+  "source": "Each locale needs the plural categories of its own language, from {0}. With {1} and {2} in English:",
+  "text": "Каждой локали нужны категории множественных форм её собственного языка, из {0}. С {1} и {2} в английском:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Каждой локали нужны категории множественных форм её собственного языка, из {0}. С {1} и {2} в английском:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

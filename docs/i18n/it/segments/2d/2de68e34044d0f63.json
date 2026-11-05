@@ -1,0 +1,18 @@
+{
+  "hash": "2de68e34044d0f63",
+  "source": "Every key across every locale in one table. Edit values in the browser, or publish a static, read-only report.",
+  "text": "Ogni chiave in ogni lingua in un'unica tabella. Modifica i valori nel browser oppure pubblica un report statico di sola lettura.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ogni chiave in ogni lingua in un'unica tabella. Modifica i valori nel browser oppure pubblica un report statico di sola lettura."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

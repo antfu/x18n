@@ -1,0 +1,18 @@
+{
+  "hash": "fc8073d1ecdd6fdf",
+  "source": "A translation that last changed before its source message, by the history providers (git).",
+  "text": "Uma tradução que foi alterada pela última vez antes da mensagem de origem, segundo os provedores de histórico (git).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma tradução que foi alterada pela última vez antes da mensagem de origem, segundo os provedores de histórico (git)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

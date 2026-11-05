@@ -1,0 +1,18 @@
+{
+  "hash": "29f1f21e1f0aaba1",
+  "source": "With {0}, every key is literal: {1}, {2} and {3} are each one key, a new key is one property of the file, and no key is the parent of another. A resource pattern can set its own {4}, for example {5} on {6} while PHP files keep {7}. The {8}, {9}, {10} and {11} presets set literal keys where their libraries use them.",
+  "text": "Com {0}, toda chave é literal: {1}, {2} e {3} são, cada uma, uma única chave, uma nova chave é uma propriedade do arquivo e nenhuma chave é pai de outra. Um padrão de recurso pode definir seu próprio {4}, por exemplo {5} em {6} enquanto os arquivos PHP mantêm {7}. Os presets {8}, {9}, {10} e {11} definem chaves literais onde suas bibliotecas as usam.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Com {0}, toda chave é literal: {1}, {2} e {3} são, cada uma, uma única chave, uma nova chave é uma propriedade do arquivo e nenhuma chave é pai de outra. Um padrão de recurso pode definir seu próprio {4}, por exemplo {5} em {6} enquanto os arquivos PHP mantêm {7}. Os presets {8}, {9}, {10} e {11} definem chaves literais onde suas bibliotecas as usam."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

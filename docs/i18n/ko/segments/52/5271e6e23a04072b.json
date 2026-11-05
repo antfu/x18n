@@ -1,0 +1,18 @@
+{
+  "hash": "5271e6e23a04072b",
+  "source": "The preset applies when the project depends on {0}, {1} or {2}.",
+  "text": "이 프리셋은 프로젝트가 {0}, {1} 또는 {2}에 의존할 때 적용됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 프로젝트가 {0}, {1} 또는 {2}에 의존할 때 적용됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

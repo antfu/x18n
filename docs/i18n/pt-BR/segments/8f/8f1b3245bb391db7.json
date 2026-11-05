@@ -1,0 +1,18 @@
+{
+  "hash": "8f1b3245bb391db7",
+  "source": "Deletes the keys that {0} lists, in every locale, through {1}. Default: every project.",
+  "text": "Exclui as chaves que {0} lista, em todos os idiomas, por meio de {1}. Padrão: todos os projetos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exclui as chaves que {0} lista, em todos os idiomas, por meio de {1}. Padrão: todos os projetos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

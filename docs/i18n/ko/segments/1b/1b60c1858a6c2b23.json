@@ -1,0 +1,19 @@
+{
+  "hash": "1b60c1858a6c2b23",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3} (an array of command ids), because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "호버에는 로케일별 값과 사용처 수가 표시됩니다. 클라이언트가 {3}(명령 ID 배열)에 나열한 경우에만 {0}, {1}, {2}로 링크합니다. {4} URL을 실행할 수 없는 클라이언트는 이를 링크로 열기 때문에 실패하기 때문입니다. 기본값은 링크 없음입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "17ab1b9ab5c49c63",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "호버에는 로케일별 값과 사용처 수가 표시됩니다. 클라이언트가 {3}(명령 ID 배열)에 나열한 경우에만 {0}, {1}, {2}로 링크합니다. {4} URL을 실행할 수 없는 클라이언트는 이를 링크로 열기 때문에 실패하기 때문입니다. 기본값은 링크 없음입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

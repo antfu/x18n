@@ -1,0 +1,18 @@
+{
+  "hash": "fd0c7a0a8a01e1f2",
+  "source": "Report only diagnostics that are not in this baseline (default: .x18n/check-baseline.json, when it exists)",
+  "text": "このベースラインに含まれない診断のみ報告（デフォルト: .x18n/check-baseline.json（存在する場合））",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このベースラインに含まれない診断のみ報告（デフォルト: .x18n/check-baseline.json（存在する場合））"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

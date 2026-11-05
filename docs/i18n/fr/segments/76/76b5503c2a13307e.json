@@ -1,0 +1,18 @@
+{
+  "hash": "76b5503c2a13307e",
+  "source": "The {0} settings set the colors and borders of in-place values and missing keys. Empty settings use the colors of your theme.",
+  "text": "Les paramètres {0} définissent les couleurs et les bordures des valeurs sur place et des clés manquantes. Les paramètres vides utilisent les couleurs de votre thème.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les paramètres {0} définissent les couleurs et les bordures des valeurs sur place et des clés manquantes. Les paramètres vides utilisent les couleurs de votre thème."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

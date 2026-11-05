@@ -1,0 +1,18 @@
+{
+  "hash": "5924328273a45133",
+  "source": "Plugins and presets that a module exports load in Node only. A plugin can set {0} to tell x18n that it needs Node, so that runtimes without Node skip it.",
+  "text": "Los plugins y presets que exporta un módulo se cargan solo en Node. Un plugin puede establecer {0} para indicar a x18n que necesita Node, de modo que los entornos de ejecución sin Node lo omitan.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los plugins y presets que exporta un módulo se cargan solo en Node. Un plugin puede establecer {0} para indicar a x18n que necesita Node, de modo que los entornos de ejecución sin Node lo omitan."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

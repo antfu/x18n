@@ -1,0 +1,18 @@
+{
+  "hash": "3f1108b67de97191",
+  "source": "Yii2 keys are whole sentences, so the file turns the key separator off. The category, the first argument of {0}, is the namespace:",
+  "text": "Yii2 的鍵是完整的句子，因此這個檔案會關閉鍵分隔符號。類別，也就是 {0} 的第一個引數，即為命名空間：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Yii2 的鍵是完整的句子，因此這個檔案會關閉鍵分隔符號。類別，也就是 {0} 的第一個引數，即為命名空間："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

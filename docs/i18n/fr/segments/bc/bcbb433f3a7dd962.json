@@ -1,0 +1,18 @@
+{
+  "hash": "bcbb433f3a7dd962",
+  "source": "Linked messages: {0} and {1}. The linked key counts as used, and the {2} check reports a linked key that does not exist.",
+  "text": "Messages liés : {0} et {1}. La clé liée est considérée comme utilisée, et la vérification {2} signale une clé liée qui n'existe pas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Messages liés : {0} et {1}. La clé liée est considérée comme utilisée, et la vérification {2} signale une clé liée qui n'existe pas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

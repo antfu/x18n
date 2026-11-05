@@ -1,0 +1,18 @@
+{
+  "hash": "bd64b205db6705fb",
+  "source": "A region of source code with a default namespace or key prefix.",
+  "text": "Una región del código fuente con un espacio de nombres o un prefijo de clave predeterminado.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una región del código fuente con un espacio de nombres o un prefijo de clave predeterminado."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

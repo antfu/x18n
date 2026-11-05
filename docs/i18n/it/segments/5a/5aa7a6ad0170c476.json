@@ -1,0 +1,18 @@
+{
+  "hash": "5aa7a6ad0170c476",
+  "source": "Defaults for the config of the project: {0}, {1}, {2}, {3} and {4}. The config file of the project wins over them. {5} applies only when the config sets none.",
+  "text": "Valori predefiniti per la configurazione del progetto: {0}, {1}, {2}, {3} e {4}. Il file di configurazione del progetto ha la precedenza su di essi. {5} si applica solo quando la configurazione non ne imposta nessuno.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Valori predefiniti per la configurazione del progetto: {0}, {1}, {2}, {3} e {4}. Il file di configurazione del progetto ha la precedenza su di essi. {5} si applica solo quando la configurazione non ne imposta nessuno."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

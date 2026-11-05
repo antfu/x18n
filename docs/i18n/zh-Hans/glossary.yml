@@ -1,0 +1,90 @@
+# zh-Hans terms with diglot-only fields. `match` also covers plurals, which a shared term (one whole word) misses.
+# An entry here replaces the shared entry with the same term in ../glossary.yml.
+terms:
+  - term: agent
+    note: an AI coding agent, such as Claude Code or Cursor; keep "agent" or "agents" in English
+    match: '\bagents?\b'
+    decision: keep
+  - term: key
+    note: 'a message identifier such as `nav.home`, not a keyboard key or a password'
+    match: '\bkeys?\b'
+    decision: translate
+    target: 键
+  - term: message
+    note: the value of one key in one locale
+    match: '\bmessages?\b'
+    decision: translate
+    target: 消息
+  - term: locale
+    note: a language (and region) code such as `de` or `pt-BR`
+    match: '\blocales?\b'
+    decision: translate
+    target: 语言
+  - term: source locale
+    note: the locale every other locale is translated from
+    match: '\bsource locales?\b'
+    decision: translate
+    target: 源语言
+  - term: resource
+    note: 'a file, or a block inside a file, holding the messages of one locale and one namespace'
+    match: '\bresources?\b'
+    decision: translate
+    target: 资源
+  - term: namespace
+    note: 'a group of keys, often one file per locale'
+    match: '\bnamespaces?\b'
+    decision: translate
+    target: 命名空间
+  - term: usage
+    note: one occurrence of a key in source code
+    match: '\busages?\b'
+    decision: translate
+    target: 引用
+  - term: preset
+    note: 'a detected or listed group of plugins for one i18n library, such as vue-i18n'
+    match: '\bpresets?\b'
+    decision: translate
+    target: 预设
+  - term: plugin
+    match: '\bplugins?\b'
+    decision: translate
+    target: 插件
+  - term: placeholder
+    note: 'a variable in a message, such as `{name}`'
+    match: '\bplaceholders?\b'
+    decision: translate
+    target: 占位符
+  - term: diagnostic
+    note: one reported issue with a code and a severity
+    match: '\bdiagnostics?\b'
+    decision: translate
+    target: 诊断
+  - term: check
+    note: 'an x18n check that produces diagnostics, as run by `x18n check`'
+    match: '\bchecks?\b'
+    decision: translate
+    target: 检查
+  - term: review
+    note: 'a comment, approval, change request or suggestion on one message'
+    match: '\breviews?\b'
+    decision: translate
+    target: 审阅
+  - term: surface
+    note: 'a user-facing layer on the core - the CLI, the language server, the VS Code extension, the UI or MCP'
+    match: '\bsurfaces?\b'
+    decision: translate
+    target: 界面
+  - term: hard string
+    note: text in source code that should probably be a message
+    match: '\bhard[- ]?(?:coded )?strings?\b'
+    decision: translate
+    target: 硬编码字符串
+  - term: stale translation
+    note: a target message that last changed before its source message did
+    match: '\bstale translations?\b'
+    decision: translate
+    target: 过时翻译
+  - term: language server
+    match: '\blanguage servers?\b'
+    decision: translate
+    target: 语言服务器

@@ -1,0 +1,18 @@
+{
+  "hash": "86a8a522da1249aa",
+  "source": "Checks report diagnostics. {0} puts them in {1} of the envelope, and its {2} holds a summary and the coverage per project, and {3} ({4} and {5} counts) when a {6}baseline{/6} applies. {7} puts the diagnostics of one key in {8}. Both use this shape:",
+  "text": "검사는 진단을 보고합니다. {0}는 진단을 엔벨로프의 {1}에 넣으며, {2}에는 요약과 프로젝트별 커버리지가 담기고, {6}베이스라인{/6}이 적용되는 경우 {3}({4} 및 {5} 개수)도 담깁니다. {7}는 한 키의 진단을 {8}에 넣습니다. 둘 다 다음 형태를 사용합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "검사는 진단을 보고합니다. {0}는 진단을 엔벨로프의 {1}에 넣으며, {2}에는 요약과 프로젝트별 커버리지가 담기고, {6}베이스라인{/6}이 적용되는 경우 {3}({4} 및 {5} 개수)도 담깁니다. {7}는 한 키의 진단을 {8}에 넣습니다. 둘 다 다음 형태를 사용합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

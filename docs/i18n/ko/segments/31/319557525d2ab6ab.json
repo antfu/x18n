@@ -1,0 +1,18 @@
+{
+  "hash": "319557525d2ab6ab",
+  "source": "Add a library, a file format or a check with a YAML file, or with a typed TypeScript plugin.",
+  "text": "YAML 파일 또는 타입이 지정된 TypeScript 플러그인으로 라이브러리, 파일 형식, 검사를 추가하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML 파일 또는 타입이 지정된 TypeScript 플러그인으로 라이브러리, 파일 형식, 검사를 추가하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

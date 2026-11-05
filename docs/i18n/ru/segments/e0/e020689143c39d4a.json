@@ -1,0 +1,18 @@
+{
+  "hash": "e020689143c39d4a",
+  "source": "CSS color of in-place values. Empty uses the inlay hint color of the theme.",
+  "text": "CSS-цвет значений, заменяющих ключи на месте. Пустое значение означает цвет inlay hint из темы.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CSS-цвет значений, заменяющих ключи на месте. Пустое значение означает цвет inlay hint из темы."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

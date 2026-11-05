@@ -1,0 +1,18 @@
+{
+  "hash": "2a29f5cc8edb0232",
+  "source": "Options of plugins, under the key that each plugin declares.",
+  "text": "Options des plugins, sous la clé que chaque plugin déclare.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Options des plugins, sous la clé que chaque plugin déclare."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

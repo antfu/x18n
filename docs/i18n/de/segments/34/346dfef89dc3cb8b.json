@@ -1,0 +1,18 @@
+{
+  "hash": "346dfef89dc3cb8b",
+  "source": "Translate calls: the callee names that count as translate calls, and where the key, the namespace and the key prefix come from. These become {0}.",
+  "text": "Translate-Aufrufe: die Namen der Callees, die als Translate-Aufrufe zählen, und woher der Schlüssel, der Namespace und das Schlüsselpräfix stammen. Daraus wird {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Translate-Aufrufe: die Namen der Callees, die als Translate-Aufrufe zählen, und woher der Schlüssel, der Namespace und das Schlüsselpräfix stammen. Daraus wird {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

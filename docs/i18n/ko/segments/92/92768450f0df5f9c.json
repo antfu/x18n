@@ -1,0 +1,18 @@
+{
+  "hash": "92768450f0df5f9c",
+  "source": "Composite format items: {0}, {1}, {2}, {3} and {4}. {5} and {6} are literal braces, not placeholders.",
+  "text": "복합 형식 항목: {0}, {1}, {2}, {3}, {4}. {5}와 {6}은 플레이스홀더가 아니라 리터럴 중괄호입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "복합 형식 항목: {0}, {1}, {2}, {3}, {4}. {5}와 {6}은 플레이스홀더가 아니라 리터럴 중괄호입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

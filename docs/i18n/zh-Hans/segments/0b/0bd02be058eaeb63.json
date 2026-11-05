@@ -1,0 +1,18 @@
+{
+  "hash": "0bd02be058eaeb63",
+  "source": "The preset always applies, unless an exclusive preset applied before it, or you list presets yourself. x18n tries the default templates last in every project, with or without this preset, so {0} always has a template.",
+  "text": "该预设始终生效，除非在它之前已应用了独占预设，或者你自己列出了预设。无论是否使用此预设，x18n 都会在每个项目中最后尝试默认模板，因此 {0} 始终有可用的模板。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该预设始终生效，除非在它之前已应用了独占预设，或者你自己列出了预设。无论是否使用此预设，x18n 都会在每个项目中最后尝试默认模板，因此 {0} 始终有可用的模板。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

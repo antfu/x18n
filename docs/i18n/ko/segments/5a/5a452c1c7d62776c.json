@@ -1,0 +1,18 @@
+{
+  "hash": "5a452c1c7d62776c",
+  "source": "Only in these locales. Default: all.",
+  "text": "이 로케일에서만 삭제합니다. 기본값: 모든 로케일.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 로케일에서만 삭제합니다. 기본값: 모든 로케일."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

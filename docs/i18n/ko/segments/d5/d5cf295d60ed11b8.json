@@ -1,0 +1,19 @@
+{
+  "hash": "d5cf295d60ed11b8",
+  "source": "Client commands a hover may link to with {0} URLs. Empty means no links.",
+  "text": "호버가 {0} URL로 링크할 수 있는 클라이언트 명령입니다. 비어 있으면 링크하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "28709089fce4edde",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "호버가 {0} URL로 링크할 수 있는 클라이언트 명령입니다. 비어 있으면 링크하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

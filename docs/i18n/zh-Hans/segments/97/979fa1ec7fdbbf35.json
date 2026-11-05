@@ -1,0 +1,18 @@
+{
+  "hash": "979fa1ec7fdbbf35",
+  "source": "In Ruby files, the preset reads the same two calls with a regex.",
+  "text": "在 Ruby 文件中，该预设通过正则表达式读取同样的两种调用。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 Ruby 文件中，该预设通过正则表达式读取同样的两种调用。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

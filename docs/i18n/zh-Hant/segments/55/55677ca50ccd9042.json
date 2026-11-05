@@ -1,0 +1,18 @@
+{
+  "hash": "55677ca50ccd9042",
+  "source": "Hard strings with a proposed key, message and replacement each.",
+  "text": "硬編碼字串，每一項都附有建議的鍵、訊息與替換內容。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "硬編碼字串，每一項都附有建議的鍵、訊息與替換內容。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

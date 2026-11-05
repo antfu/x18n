@@ -1,0 +1,18 @@
+{
+  "hash": "9bab3d108d9ace5f",
+  "source": "The check reports one diagnostic per key, at the entry in the source locale, and lists the locales that lack the key. An empty string is not missing: the {0} check reports it.",
+  "text": "Проверка выдаёт одну диагностику на ключ, в записи исходной локали, и перечисляет локали, в которых этого ключа нет. Пустая строка не считается отсутствующей: о ней сообщает проверка {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверка выдаёт одну диагностику на ключ, в записи исходной локали, и перечисляет локали, в которых этого ключа нет. Пустая строка не считается отсутствующей: о ней сообщает проверка {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

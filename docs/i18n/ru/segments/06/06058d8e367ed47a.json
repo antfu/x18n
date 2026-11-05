@@ -1,0 +1,18 @@
+{
+  "hash": "06058d8e367ed47a",
+  "source": "The check skips a call whose params it cannot read, such as a variable or a spread ({0}), and a key whose source message is not a string, such as a plural key that only has {1} and {2}.",
+  "text": "Проверка пропускает вызов, параметры которого она не может прочитать, например переменную или spread ({0}), а также ключ, исходное сообщение которого не является строкой, например ключ множественного числа, у которого есть только {1} и {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверка пропускает вызов, параметры которого она не может прочитать, например переменную или spread ({0}), а также ключ, исходное сообщение которого не является строкой, например ключ множественного числа, у которого есть только {1} и {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

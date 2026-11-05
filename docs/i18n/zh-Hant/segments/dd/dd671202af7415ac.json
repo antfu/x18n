@@ -1,0 +1,18 @@
+{
+  "hash": "dd671202af7415ac",
+  "source": "The preset for Chrome and WebExtension locales. It reads _locales/*/messages.json, getMessage calls and __MSG_name__ references.",
+  "text": "適用於 Chrome 與 WebExtension 語系的預設集。它會讀取 _locales/*/messages.json、getMessage 呼叫以及 __MSG_name__ 參照。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用於 Chrome 與 WebExtension 語系的預設集。它會讀取 _locales/*/messages.json、getMessage 呼叫以及 __MSG_name__ 參照。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

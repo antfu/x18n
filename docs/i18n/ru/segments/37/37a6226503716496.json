@@ -1,0 +1,18 @@
+{
+  "hash": "37a6226503716496",
+  "source": "If your config has no {0}, the preset uses these patterns:",
+  "text": "Если в вашем конфиге нет {0}, пресет использует следующие шаблоны:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если в вашем конфиге нет {0}, пресет использует следующие шаблоны:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

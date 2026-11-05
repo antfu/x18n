@@ -1,0 +1,18 @@
+{
+  "hash": "631011558511c6d2",
+  "source": "Returns the files that the migration from i18n-ally writes, as {0}. Nothing is written.",
+  "text": "i18n-ally에서 마이그레이션할 때 기록되는 파일을 {0}로 반환합니다. 아무것도 기록하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally에서 마이그레이션할 때 기록되는 파일을 {0}로 반환합니다. 아무것도 기록하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d72f548fe061d38a",
+  "source": "Always. {0} or {1} writes {2} or {3} instead.",
+  "text": "常に書き込まれます。{0} または {1} を指定すると、代わりに {2} または {3} が書き込まれます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "常に書き込まれます。{0} または {1} を指定すると、代わりに {2} または {3} が書き込まれます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

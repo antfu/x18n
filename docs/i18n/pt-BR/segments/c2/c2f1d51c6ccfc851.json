@@ -1,0 +1,18 @@
+{
+  "hash": "c2f1d51c6ccfc851",
+  "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
+  "text": "O que divide uma chave em um caminho: {0} é {1} em um arquivo aninhado. {2} torna as chaves literais, então {3} ou {4} é uma única chave e uma nova chave é uma única propriedade (i18next {5}, gettext). Um padrão de recurso pode definir o seu próprio.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O que divide uma chave em um caminho: {0} é {1} em um arquivo aninhado. {2} torna as chaves literais, então {3} ou {4} é uma única chave e uma nova chave é uma única propriedade (i18next {5}, gettext). Um padrão de recurso pode definir o seu próprio."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

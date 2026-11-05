@@ -1,0 +1,18 @@
+{
+  "hash": "8b94c70d66efcfda",
+  "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these gettext catalogs. Each {4} is a key, and its {5} is the value. The preset sets {6}, so a {7} or {8} in a {9} stays part of the key:",
+  "text": "如果你的設定中沒有 {0}，預設集會使用 {1} 和 {2}。{3} 格式會讀取並寫入這些 gettext 目錄檔。每個 {4} 就是一個鍵，其 {5} 則是值。預設集會設定 {6}，因此 {9} 中的 {7} 或 {8} 仍屬於鍵的一部分：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果你的設定中沒有 {0}，預設集會使用 {1} 和 {2}。{3} 格式會讀取並寫入這些 gettext 目錄檔。每個 {4} 就是一個鍵，其 {5} 則是值。預設集會設定 {6}，因此 {9} 中的 {7} 或 {8} 仍屬於鍵的一部分："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

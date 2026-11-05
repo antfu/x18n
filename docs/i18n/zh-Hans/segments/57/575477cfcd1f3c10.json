@@ -1,0 +1,18 @@
+{
+  "hash": "575477cfcd1f3c10",
+  "source": "{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8} and {9}: the defaults of x18n handle them, or x18n has no such setting. The command prints a note for each one it finds. x18n uses locale codes as written, so it needs no {10}.",
+  "text": "{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}、{8} 和 {9}：x18n 的默认行为已涵盖这些设置，或者 x18n 没有对应的设置。该命令会为发现的每一项输出一条提示。x18n 按原样使用语言代码，因此不需要 {10}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}、{8} 和 {9}：x18n 的默认行为已涵盖这些设置，或者 x18n 没有对应的设置。该命令会为发现的每一项输出一条提示。x18n 按原样使用语言代码，因此不需要 {10}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

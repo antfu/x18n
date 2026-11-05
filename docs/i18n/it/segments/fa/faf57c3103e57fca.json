@@ -1,0 +1,18 @@
+{
+  "hash": "faf57c3103e57fca",
+  "source": "The CLI prints the code and why the error happened, with details such as a file name or a field. The fix and a link to this page follow. With {0}, the same parts are in {1} of the {2}envelope{/2}.",
+  "text": "La CLI stampa il codice e il motivo per cui si è verificato l'errore, con dettagli come il nome di un file o un campo. Seguono la soluzione e un link a questa pagina. Con {0}, le stesse parti si trovano in {1} dell'{2}envelope{/2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La CLI stampa il codice e il motivo per cui si è verificato l'errore, con dettagli come il nome di un file o un campo. Seguono la soluzione e un link a questa pagina. Con {0}, le stesse parti si trovano in {1} dell'{2}envelope{/2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

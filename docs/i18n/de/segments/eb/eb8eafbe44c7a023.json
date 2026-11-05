@@ -1,0 +1,18 @@
+{
+  "hash": "eb8eafbe44c7a023",
+  "source": "X18N1003: Unknown preset",
+  "text": "X18N1003: Unbekanntes Preset",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N1003: Unbekanntes Preset"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

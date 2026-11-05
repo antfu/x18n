@@ -1,0 +1,18 @@
+{
+  "hash": "41fa8acf5c6735c8",
+  "source": "{0}: the files per scanner. A regex scanner shows {1} until a spec gives it extensions.",
+  "text": "{0}: i file per scanner. Uno scanner regex mostra {1} finché una specifica non gli assegna delle estensioni.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: i file per scanner. Uno scanner regex mostra {1} finché una specifica non gli assegna delle estensioni."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

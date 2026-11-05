@@ -1,0 +1,18 @@
+{
+  "hash": "cc851896808a0d70",
+  "source": "Detection reads the dependencies of the project's {0}, of the parent directories up to the git root, and of the workspace packages listed in {1} or the {2} field, so a monorepo that lists the i18n library in one app is detected from its root.",
+  "text": "La détection lit les dépendances du {0} du projet, de ceux des répertoires parents jusqu'à la racine git, et des packages de l'espace de travail listés dans {1} ou dans le champ {2}. Ainsi, un monorepo qui déclare la bibliothèque i18n dans une seule application est détecté depuis sa racine.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La détection lit les dépendances du {0} du projet, de ceux des répertoires parents jusqu'à la racine git, et des packages de l'espace de travail listés dans {1} ou dans le champ {2}. Ainsi, un monorepo qui déclare la bibliothèque i18n dans une seule application est détecté depuis sa racine."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "2a54b97f89d277a4",
+  "source": "Then list {0} in {1} instead of the YAML file. See {2}TypeScript plugins{/2}.",
+  "text": "Listez ensuite {0} dans {1} au lieu du fichier YAML. Voir {2}Plugins TypeScript{/2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Listez ensuite {0} dans {1} au lieu du fichier YAML. Voir {2}Plugins TypeScript{/2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

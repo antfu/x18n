@@ -1,0 +1,18 @@
+{
+  "hash": "3d101ec7ff0a25b4",
+  "source": "History providers for stale translations: {0} turns them off; provider options such as {1} sit under their key; {2} adds providers asked first.",
+  "text": "用于检测过期翻译的历史提供方：{0} 会将其关闭；提供方的选项（如 {1}）位于其键之下；{2} 用于添加优先询问的提供方。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "用于检测过期翻译的历史提供方：{0} 会将其关闭；提供方的选项（如 {1}）位于其键之下；{2} 用于添加优先询问的提供方。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

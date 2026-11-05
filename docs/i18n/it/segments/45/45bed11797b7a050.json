@@ -1,0 +1,18 @@
+{
+  "hash": "45bed11797b7a050",
+  "source": "The usages of a key, or every usage. {0} filters by file.",
+  "text": "Gli utilizzi di una chiave, oppure tutti gli utilizzi. {0} filtra per file.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gli utilizzi di una chiave, oppure tutti gli utilizzi. {0} filtra per file."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

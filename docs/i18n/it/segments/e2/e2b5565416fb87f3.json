@@ -1,0 +1,18 @@
+{
+  "hash": "e2b5565416fb87f3",
+  "source": "Which argument holds the key: an index (default {0}), or {1} for a property of an object argument.",
+  "text": "Quale argomento contiene la chiave: un indice (predefinito {0}) oppure {1} per una proprietà di un argomento di tipo oggetto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Quale argomento contiene la chiave: un indice (predefinito {0}) oppure {1} per una proprietà di un argomento di tipo oggetto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

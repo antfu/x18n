@@ -1,0 +1,18 @@
+{
+  "hash": "f0c0caa6857327ec",
+  "source": "x18n validates every config against this schema, the serializable part of a TS config too. An unknown key is an error ({0}X18N0001{/0}), so a typo in a key name does not pass silently.",
+  "text": "x18n проверяет каждую конфигурацию по этой схеме, в том числе сериализуемую часть конфигурации TS. Неизвестный ключ — это ошибка ({0}X18N0001{/0}), поэтому опечатка в имени ключа не пройдёт незамеченной.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n проверяет каждую конфигурацию по этой схеме, в том числе сериализуемую часть конфигурации TS. Неизвестный ключ — это ошибка ({0}X18N0001{/0}), поэтому опечатка в имени ключа не пройдёт незамеченной."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

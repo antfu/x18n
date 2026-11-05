@@ -1,0 +1,18 @@
+{
+  "hash": "dc17d5f996ffbc42",
+  "source": "Adds the missing keys of each locale with empty values. {0} copies the source value. {1} limits it.",
+  "text": "Добавляет недостающие ключи в каждую локаль с пустыми значениями. {0} копирует исходное значение. {1} ограничивает добавление.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Добавляет недостающие ключи в каждую локаль с пустыми значениями. {0} копирует исходное значение. {1} ограничивает добавление."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

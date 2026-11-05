@@ -1,0 +1,18 @@
+{
+  "hash": "04366fa42f981927",
+  "source": "{0} is the result of the command. It is {1} when the command failed.",
+  "text": "{0} é o resultado do comando. É {1} quando o comando falha.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} é o resultado do comando. É {1} quando o comando falha."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

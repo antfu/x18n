@@ -1,0 +1,18 @@
+{
+  "hash": "19c9672645491a0d",
+  "source": "Also translate stale translations (needs git history)",
+  "text": "Traduit aussi les traductions obsolètes (nécessite l'historique git)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Traduit aussi les traductions obsolètes (nécessite l'historique git)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

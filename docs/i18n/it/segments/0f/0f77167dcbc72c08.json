@@ -1,0 +1,18 @@
+{
+  "hash": "0f77167dcbc72c08",
+  "source": "A plugin can add types for its check ids and its options through declaration merging. {0} then completes them:",
+  "text": "Un plugin può aggiungere tipi per gli id dei suoi controlli e per le sue opzioni tramite declaration merging. {0} li completa poi automaticamente:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un plugin può aggiungere tipi per gli id dei suoi controlli e per le sue opzioni tramite declaration merging. {0} li completa poi automaticamente:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

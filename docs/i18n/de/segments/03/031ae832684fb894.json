@@ -1,0 +1,18 @@
+{
+  "hash": "031ae832684fb894",
+  "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
+  "text": "{0} wird für jede Review-Änderung eines Plans ausgeführt, nachdem sie auf die Review-Daten angewendet wurde: ein neuer Kommentar, eine Genehmigung, eine Änderungsanforderung oder ein Vorschlag, ein {1} oder ein {2}. {3} enthält nach der Änderung den Schlüssel, die Sprache, den Kommentar und den Thread. {4} und {5} finden die Message und ihre Datei, und {6} gibt eine Datei so zurück, wie der Plan sie hinterlässt. Der Hook gibt {7}-Schreibvorgänge zurück, die in denselben Plan wie die Review-Datei aufgenommen werden, sodass ein Dry Run sie anzeigt. Ein Store, der neben jeder Message einen Review-Status speichert, kann diese als verifiziert markieren, wenn eine Genehmigung dem aktuellen Wert entspricht:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} wird für jede Review-Änderung eines Plans ausgeführt, nachdem sie auf die Review-Daten angewendet wurde: ein neuer Kommentar, eine Genehmigung, eine Änderungsanforderung oder ein Vorschlag, ein {1} oder ein {2}. {3} enthält nach der Änderung den Schlüssel, die Sprache, den Kommentar und den Thread. {4} und {5} finden die Message und ihre Datei, und {6} gibt eine Datei so zurück, wie der Plan sie hinterlässt. Der Hook gibt {7}-Schreibvorgänge zurück, die in denselben Plan wie die Review-Datei aufgenommen werden, sodass ein Dry Run sie anzeigt. Ein Store, der neben jeder Message einen Review-Status speichert, kann diese als verifiziert markieren, wenn eine Genehmigung dem aktuellen Wert entspricht:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

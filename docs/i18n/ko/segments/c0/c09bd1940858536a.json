@@ -1,0 +1,18 @@
+{
+  "hash": "c09bd1940858536a",
+  "source": "This command writes the markdown report to {0} and prints the pretty output. See {1}CI{/1} for workflow examples.",
+  "text": "이 명령은 마크다운 리포트를 {0}에 쓰고 pretty 출력을 표시합니다. 워크플로 예시는 {1}CI{/1}를 참조하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 명령은 마크다운 리포트를 {0}에 쓰고 pretty 출력을 표시합니다. 워크플로 예시는 {1}CI{/1}를 참조하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

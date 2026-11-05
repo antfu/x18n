@@ -1,0 +1,18 @@
+{
+  "hash": "d10e54ff0ca1370e",
+  "source": "A placeholder syntax tells x18n how placeholders look in messages. The {0} check and {1} compare the placeholders of each translation with the source value. Translate prompts list them.",
+  "text": "Eine Platzhalter-Syntax teilt x18n mit, wie Platzhalter in Messages aussehen. Die Prüfung {0} und {1} vergleichen die Platzhalter jeder Übersetzung mit dem Quellwert. Translate-Prompts listen sie auf.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Platzhalter-Syntax teilt x18n mit, wie Platzhalter in Messages aussehen. Die Prüfung {0} und {1} vergleichen die Platzhalter jeder Übersetzung mit dem Quellwert. Translate-Prompts listen sie auf."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ce79a14445dff700",
+  "source": "The server runs these through {0}. The argument is one object. {1} defaults to the first project.",
+  "text": "Il server li esegue tramite {0}. L'argomento è un singolo oggetto. {1} ha come valore predefinito il primo progetto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il server li esegue tramite {0}. L'argomento è un singolo oggetto. {1} ha come valore predefinito il primo progetto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

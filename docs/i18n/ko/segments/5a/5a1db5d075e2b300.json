@@ -1,0 +1,18 @@
+{
+  "hash": "5a1db5d075e2b300",
+  "source": "This workflow checks every push and pull request. The {0} reporter turns each diagnostic into an annotation on the changed line of the pull request. The {1} reporter prints the usual output to the log:",
+  "text": "이 워크플로는 모든 push와 풀 리퀘스트를 검사합니다. {0} 리포터는 각 진단을 풀 리퀘스트에서 변경된 줄의 주석으로 변환합니다. {1} 리포터는 일반 출력을 로그에 출력합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 워크플로는 모든 push와 풀 리퀘스트를 검사합니다. {0} 리포터는 각 진단을 풀 리퀘스트에서 변경된 줄의 주석으로 변환합니다. {1} 리포터는 일반 출력을 로그에 출력합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

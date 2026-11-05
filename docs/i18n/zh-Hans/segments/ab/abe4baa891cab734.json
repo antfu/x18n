@@ -1,0 +1,18 @@
+{
+  "hash": "abe4baa891cab734",
+  "source": "File extensions, without dot.",
+  "text": "文件扩展名，不带点。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "文件扩展名，不带点。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

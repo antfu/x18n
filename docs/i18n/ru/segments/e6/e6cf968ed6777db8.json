@@ -1,0 +1,18 @@
+{
+  "hash": "e6cf968ed6777db8",
+  "source": "x18n builds the final config of a project in this order. A later layer wins:",
+  "text": "x18n собирает итоговую конфигурацию проекта в таком порядке. Более поздний слой имеет приоритет:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n собирает итоговую конфигурацию проекта в таком порядке. Более поздний слой имеет приоритет:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

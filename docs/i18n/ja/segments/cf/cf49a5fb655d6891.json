@@ -1,0 +1,18 @@
+{
+  "hash": "cf49a5fb655d6891",
+  "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
+  "text": "すべてのロケールで、未使用のキー（{0} が {1} で一覧表示するキー）をすべて削除します。{2} または {3} に一致するものだけに絞ることもできます。コード内の算出キー（テンプレートリテラルのプレフィックス、または {4} や名前空間の下の算出キー）が到達しうるキーは削除されず、{5} に一覧表示されます。{6} は任意のキーに到達しうる算出キーを示します。コードは変更されません。{7} がない場合はプランを返し、{8} に各キーとそのロケール、ファイルが一覧表示されます。適用するには {9} を指定して再度呼び出してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "すべてのロケールで、未使用のキー（{0} が {1} で一覧表示するキー）をすべて削除します。{2} または {3} に一致するものだけに絞ることもできます。コード内の算出キー（テンプレートリテラルのプレフィックス、または {4} や名前空間の下の算出キー）が到達しうるキーは削除されず、{5} に一覧表示されます。{6} は任意のキーに到達しうる算出キーを示します。コードは変更されません。{7} がない場合はプランを返し、{8} に各キーとそのロケール、ファイルが一覧表示されます。適用するには {9} を指定して再度呼び出してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

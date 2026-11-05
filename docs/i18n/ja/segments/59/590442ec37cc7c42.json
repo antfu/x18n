@@ -1,0 +1,18 @@
+{
+  "hash": "590442ec37cc7c42",
+  "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
+  "text": "Extract: ハードコードされた文字列と、それぞれに提案されたキーを表示します。キーを編集し、スキップする文字列のチェックを外して、残りを抽出してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extract: ハードコードされた文字列と、それぞれに提案されたキーを表示します。キーを編集し、スキップする文字列のチェックを外して、残りを抽出してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

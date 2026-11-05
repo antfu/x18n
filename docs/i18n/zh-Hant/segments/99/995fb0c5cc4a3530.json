@@ -1,0 +1,18 @@
+{
+  "hash": "995fb0c5cc4a3530",
+  "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
+  "text": "鍵之後傳入的物件包含插值參數，{0} 檢查會將這些參數與來源訊息的佔位符進行比對。參數函式（{1}）以及 {2} 標記會被略過。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "鍵之後傳入的物件包含插值參數，{0} 檢查會將這些參數與來源訊息的佔位符進行比對。參數函式（{1}）以及 {2} 標記會被略過。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

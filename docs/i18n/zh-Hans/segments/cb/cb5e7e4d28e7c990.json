@@ -1,0 +1,18 @@
+{
+  "hash": "cb5e7e4d28e7c990",
+  "source": "locale file (fine in prose for users), dictionary",
+  "text": "locale file（面向用户的行文中可以使用）、dictionary",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "locale file（面向用户的行文中可以使用）、dictionary"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

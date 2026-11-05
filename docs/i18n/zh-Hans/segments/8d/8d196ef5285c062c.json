@@ -1,0 +1,18 @@
+{
+  "hash": "8d196ef5285c062c",
+  "source": "In templates, the {0} attribute and {1} attributes, with an optional meaning and description:",
+  "text": "在模板中，使用 {0} 属性和 {1} 属性，可附带可选的含义和描述：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在模板中，使用 {0} 属性和 {1} 属性，可附带可选的含义和描述："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

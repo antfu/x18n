@@ -1,0 +1,18 @@
+{
+  "hash": "a3cd1a9c8615c1ba",
+  "source": "Set many messages at once: {0} is {1}, the same shape as {2}. Files keep their format, key style and order. When a value drops or adds placeholders compared to the source value, nothing is written and {3} lists them ({4}); fix the values, or pass {5}.",
+  "text": "一次設定多則訊息：{0} 為 {1}，格式與 {2} 相同。檔案會保留其格式、鍵的風格與順序。當某個值與來源值相比少了或多了佔位符時，不會寫入任何內容，並由 {3} 列出這些項目（{4}）；請修正這些值，或傳入 {5}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一次設定多則訊息：{0} 為 {1}，格式與 {2} 相同。檔案會保留其格式、鍵的風格與順序。當某個值與來源值相比少了或多了佔位符時，不會寫入任何內容，並由 {3} 列出這些項目（{4}）；請修正這些值，或傳入 {5}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

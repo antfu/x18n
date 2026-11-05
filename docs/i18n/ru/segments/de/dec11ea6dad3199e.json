@@ -1,0 +1,18 @@
+{
+  "hash": "dec11ea6dad3199e",
+  "source": "Only these check ids (comma separated)",
+  "text": "Только эти id проверок (через запятую)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только эти id проверок (через запятую)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

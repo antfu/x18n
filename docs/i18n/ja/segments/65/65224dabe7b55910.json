@@ -1,0 +1,18 @@
+{
+  "hash": "65224dabe7b55910",
+  "source": "A template can add {0}: lines that x18n adds once to the file when they are missing, such as {1}.",
+  "text": "テンプレートには {0} を追加できます。これは、ファイルにない場合に x18n が一度だけ追加する行です（例: {1}）。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "テンプレートには {0} を追加できます。これは、ファイルにない場合に x18n が一度だけ追加する行です（例: {1}）。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

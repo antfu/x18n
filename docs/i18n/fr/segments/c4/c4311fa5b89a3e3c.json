@@ -1,0 +1,18 @@
+{
+  "hash": "c4311fa5b89a3e3c",
+  "source": "Rename a key (or every key under a parent) in all locales, and its usages in code unless {0}. Without {1} it returns the plan (files to change, decisions, warnings); call again with {2} to apply it.",
+  "text": "Renomme une clé (ou toutes les clés sous un parent) dans toutes les langues, ainsi que ses utilisations dans le code, sauf si {0}. Sans {1}, elle renvoie le plan (fichiers à modifier, décisions, avertissements) ; appelez de nouveau avec {2} pour l'appliquer.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renomme une clé (ou toutes les clés sous un parent) dans toutes les langues, ainsi que ses utilisations dans le code, sauf si {0}. Sans {1}, elle renvoie le plan (fichiers à modifier, décisions, avertissements) ; appelez de nouveau avec {2} pour l'appliquer."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

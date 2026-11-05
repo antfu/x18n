@@ -1,0 +1,18 @@
+{
+  "hash": "f61e7654d98d782a",
+  "source": "If your config has no {0}, the preset uses {1} and, for namespaces, {2}. The keys of a namespace start with the name of the namespace: {3}.",
+  "text": "Se a sua configuração não tiver {0}, o preset usa {1} e, para namespaces, {2}. As chaves de um namespace começam com o nome do namespace: {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se a sua configuração não tiver {0}, o preset usa {1} e, para namespaces, {2}. As chaves de um namespace começam com o nome do namespace: {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

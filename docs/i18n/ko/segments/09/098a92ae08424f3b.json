@@ -1,0 +1,18 @@
+{
+  "hash": "098a92ae08424f3b",
+  "source": "The VS Code settings with the same names under {0}; {1} becomes {2}",
+  "text": "{0} 아래에 같은 이름을 가진 VS Code 설정입니다. {1}은(는) {2}(으)로 변환됩니다",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 아래에 같은 이름을 가진 VS Code 설정입니다. {1}은(는) {2}(으)로 변환됩니다"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

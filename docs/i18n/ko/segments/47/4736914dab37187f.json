@@ -1,0 +1,18 @@
+{
+  "hash": "4736914dab37187f",
+  "source": "Objects merge key by key: {0}, {1}, {2}, {3} and {4}.",
+  "text": "객체는 키별로 병합됩니다: {0}, {1}, {2}, {3}, {4}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "객체는 키별로 병합됩니다: {0}, {1}, {2}, {3}, {4}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

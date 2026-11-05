@@ -1,0 +1,18 @@
+{
+  "hash": "28c5929623752cd9",
+  "source": "Completion suggests keys inside translate calls.",
+  "text": "自動完成會在翻譯呼叫中建議鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "自動完成會在翻譯呼叫中建議鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

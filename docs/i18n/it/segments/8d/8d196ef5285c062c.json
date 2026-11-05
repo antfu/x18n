@@ -1,0 +1,18 @@
+{
+  "hash": "8d196ef5285c062c",
+  "source": "In templates, the {0} attribute and {1} attributes, with an optional meaning and description:",
+  "text": "Nei template, l'attributo {0} e gli attributi {1}, con un significato e una descrizione opzionali:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nei template, l'attributo {0} e gli attributi {1}, con un significato e una descrizione opzionali:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

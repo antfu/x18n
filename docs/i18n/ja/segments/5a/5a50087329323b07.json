@@ -1,0 +1,18 @@
+{
+  "hash": "5a50087329323b07",
+  "source": "The preset adds the default {0}extraction templates{/0}, for example {1} for strings in JS and TS. It adds no translate calls.",
+  "text": "このプリセットは、デフォルトの{0}抽出テンプレート{/0}を追加します。たとえば、JS と TS の文字列に対する {1} です。翻訳呼び出しは追加しません。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このプリセットは、デフォルトの{0}抽出テンプレート{/0}を追加します。たとえば、JS と TS の文字列に対する {1} です。翻訳呼び出しは追加しません。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

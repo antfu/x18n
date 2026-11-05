@@ -1,0 +1,18 @@
+{
+  "hash": "df5a150956beeb89",
+  "source": "These names count as translate calls: {0} and {1}. Dictionary keys are dot paths.",
+  "text": "Estos nombres cuentan como llamadas de traducción: {0} y {1}. Las claves del diccionario son rutas con puntos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Estos nombres cuentan como llamadas de traducción: {0} y {1}. Las claves del diccionario son rutas con puntos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

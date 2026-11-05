@@ -1,0 +1,18 @@
+{
+  "hash": "47083a1626faaa48",
+  "source": "Many formats can say what a message means, for the translator. The prompt shows that description under the source value:",
+  "text": "Viele Formate können für die Übersetzer angeben, was eine message bedeutet. Der Prompt zeigt diese Beschreibung unter dem Quellwert an:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Viele Formate können für die Übersetzer angeben, was eine message bedeutet. Der Prompt zeigt diese Beschreibung unter dem Quellwert an:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

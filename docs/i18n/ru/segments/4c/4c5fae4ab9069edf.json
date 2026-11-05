@@ -1,0 +1,18 @@
+{
+  "hash": "4c5fae4ab9069edf",
+  "source": "The fix adds the key with the default value written in the call ({0} or {1} with i18next), else with an empty value.",
+  "text": "Исправление добавляет ключ со значением по умолчанию, указанным в вызове ({0} или {1} в i18next), а если его нет — с пустым значением.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Исправление добавляет ключ со значением по умолчанию, указанным в вызове ({0} или {1} в i18next), а если его нет — с пустым значением."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

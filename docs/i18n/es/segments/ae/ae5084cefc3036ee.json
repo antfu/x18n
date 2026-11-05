@@ -1,0 +1,18 @@
+{
+  "hash": "ae5084cefc3036ee",
+  "source": "Describe a library in a *.x18n-plugin.yml file - resources, translate calls, regex scanners, scopes, placeholders and templates.",
+  "text": "Describe una biblioteca en un archivo *.x18n-plugin.yml: recursos, llamadas de traducción, escáneres con expresiones regulares, ámbitos, marcadores de posición y plantillas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Describe una biblioteca en un archivo *.x18n-plugin.yml: recursos, llamadas de traducción, escáneres con expresiones regulares, ámbitos, marcadores de posición y plantillas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

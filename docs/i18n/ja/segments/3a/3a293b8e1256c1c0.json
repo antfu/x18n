@@ -1,0 +1,18 @@
+{
+  "hash": "3a293b8e1256c1c0",
+  "source": "A TypeScript plugin is an object with a {0} and the capabilities it adds. {1} and {2} from {3} give it types. They return their argument unchanged.",
+  "text": "TypeScript プラグインは、{0} と、プラグインが追加する機能を持つオブジェクトです。{3} の {1} と {2} を使うと型が付きます。これらは受け取った引数をそのまま返します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TypeScript プラグインは、{0} と、プラグインが追加する機能を持つオブジェクトです。{3} の {1} と {2} を使うと型が付きます。これらは受け取った引数をそのまま返します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

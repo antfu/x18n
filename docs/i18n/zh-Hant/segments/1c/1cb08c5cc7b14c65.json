@@ -1,0 +1,18 @@
+{
+  "hash": "1cb08c5cc7b14c65",
+  "source": "With {0}, stdout is one JSON document, also when the command fails.",
+  "text": "使用 {0} 時，stdout 會是單一 JSON 文件，即使指令執行失敗也一樣。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 時，stdout 會是單一 JSON 文件，即使指令執行失敗也一樣。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

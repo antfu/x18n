@@ -1,0 +1,18 @@
+{
+  "hash": "590d5a2cb550b92a",
+  "source": "Suggests a value, for a human to apply.",
+  "text": "Schlägt einen Wert vor, den ein Mensch übernimmt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schlägt einen Wert vor, den ein Mensch übernimmt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

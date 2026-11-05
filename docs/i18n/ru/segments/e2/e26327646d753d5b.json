@@ -1,0 +1,18 @@
+{
+  "hash": "e26327646d753d5b",
+  "source": "Write values with placeholder problems",
+  "text": "Записывать значения с проблемами в плейсхолдерах",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Записывать значения с проблемами в плейсхолдерах"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

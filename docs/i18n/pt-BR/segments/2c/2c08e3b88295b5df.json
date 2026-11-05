@@ -1,0 +1,18 @@
+{
+  "hash": "2c08e3b88295b5df",
+  "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
+  "text": "Formatação por porcentagem do Python: {0}, {1}, {2}. {3}, um {4} antes de um espaço e escapes de URL como {5}, ou {6} em uma URL, são texto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Formatação por porcentagem do Python: {0}, {1}, {2}. {3}, um {4} antes de um espaço e escapes de URL como {5}, ou {6} em uma URL, são texto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

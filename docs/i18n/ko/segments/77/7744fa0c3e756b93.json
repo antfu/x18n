@@ -1,0 +1,18 @@
+{
+  "hash": "7744fa0c3e756b93",
+  "source": "The preset applies when {0}, {1} or {2} has a {3} field. If your config has no {4}, x18n uses {5} as the source locale.",
+  "text": "{0}, {1} 또는 {2}에 {3} 필드가 있으면 이 프리셋이 적용됩니다. 설정에 {4}이(가) 없으면 x18n은 {5}을(를) 소스 로케일로 사용합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} 또는 {2}에 {3} 필드가 있으면 이 프리셋이 적용됩니다. 설정에 {4}이(가) 없으면 x18n은 {5}을(를) 소스 로케일로 사용합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

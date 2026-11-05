@@ -1,0 +1,18 @@
+{
+  "hash": "f2480689c135e2d0",
+  "source": "Values longer than {0} are cut. In in-place mode, such a value shows as a hint after the key.",
+  "text": "Значения длиннее {0} обрезаются. В режиме замены в тексте такое значение показывается как подсказка после ключа.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Значения длиннее {0} обрезаются. В режиме замены в тексте такое значение показывается как подсказка после ключа."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

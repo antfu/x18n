@@ -1,0 +1,18 @@
+{
+  "hash": "829c9fa7ed20b06c",
+  "source": "{0} adds itself to the {1} script of {2}. After that, every install links the skills again, so the skills stay at the version of the installed CLI.",
+  "text": "{0}은(는) {2}의 {1} 스크립트에 자신을 추가합니다. 그 이후에는 설치할 때마다 스킬이 다시 링크되므로, 스킬은 설치된 CLI의 버전과 동일하게 유지됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) {2}의 {1} 스크립트에 자신을 추가합니다. 그 이후에는 설치할 때마다 스킬이 다시 링크되므로, 스킬은 설치된 CLI의 버전과 동일하게 유지됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

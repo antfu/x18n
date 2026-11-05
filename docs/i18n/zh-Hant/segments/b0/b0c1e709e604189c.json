@@ -1,0 +1,18 @@
+{
+  "hash": "b0c1e709e604189c",
+  "source": "Only usages in this file (path relative to the project root).",
+  "text": "僅限此檔案中的使用處（相對於專案根目錄的路徑）。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "僅限此檔案中的使用處（相對於專案根目錄的路徑）。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

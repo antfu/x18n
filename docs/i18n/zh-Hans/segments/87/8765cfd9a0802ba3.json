@@ -1,0 +1,18 @@
+{
+  "hash": "8765cfd9a0802ba3",
+  "source": "The preset reads the {0} block of every project in {1}:",
+  "text": "该预设会读取 {1} 中每个项目的 {0} 块：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "该预设会读取 {1} 中每个项目的 {0} 块："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

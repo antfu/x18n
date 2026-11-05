@@ -1,0 +1,18 @@
+{
+  "hash": "7801cf2e86eb4f32",
+  "source": "Every surface reads the same config and reports the same diagnostics. The CLI in CI, the editor and the UI always agree.",
+  "text": "모든 인터페이스는 같은 설정을 읽고 같은 진단을 보고합니다. CI의 CLI, 에디터, UI의 결과가 항상 일치합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모든 인터페이스는 같은 설정을 읽고 같은 진단을 보고합니다. CI의 CLI, 에디터, UI의 결과가 항상 일치합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

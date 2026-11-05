@@ -1,0 +1,18 @@
+{
+  "hash": "0896df64ffb62309",
+  "source": "A diagnostic can carry fixes. A fix has a title and a list of edit operations. The editor shows fixes as quick fixes.",
+  "text": "诊断可以附带修复。修复包含标题和一组编辑操作。编辑器会将修复显示为快速修复。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "诊断可以附带修复。修复包含标题和一组编辑操作。编辑器会将修复显示为快速修复。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

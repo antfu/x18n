@@ -1,0 +1,18 @@
+{
+  "hash": "34813948cd99f1a3",
+  "source": "A translation is stale when it last changed before its source message did. Inside a git repo, x18n reads the commits that touched the locale files and compares the parsed messages, so reformatting, sorting and moving keys between files do not count. Uncommitted edits count as changed now. A message without history is never stale.",
+  "text": "Una traduzione è obsoleta quando è cambiata l'ultima volta prima del suo messaggio di origine. All'interno di un repository git, x18n legge i commit che hanno modificato i file delle lingue e confronta i messaggi analizzati, quindi riformattare, ordinare e spostare le chiavi tra i file non conta. Le modifiche non committate contano come modificate adesso. Un messaggio senza cronologia non è mai obsoleto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una traduzione è obsoleta quando è cambiata l'ultima volta prima del suo messaggio di origine. All'interno di un repository git, x18n legge i commit che hanno modificato i file delle lingue e confronta i messaggi analizzati, quindi riformattare, ordinare e spostare le chiavi tra i file non conta. Le modifiche non committate contano come modificate adesso. Un messaggio senza cronologia non è mai obsoleto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

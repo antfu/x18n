@@ -1,0 +1,18 @@
+{
+  "hash": "0afd94a9cb83da99",
+  "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
+  "text": "Eine Prüfung ist ein Generator. Jeder Wert, den sie per yield liefert, wird zu einer Diagnose. Ohne {0} zeigt die Diagnose auf die message von {1} in {2}. Die Prüfungs-ID ist zugleich der Diagnose-Code, daher funktionieren {3} und {4} wie bei den eingebauten Prüfungen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Prüfung ist ein Generator. Jeder Wert, den sie per yield liefert, wird zu einer Diagnose. Ohne {0} zeigt die Diagnose auf die message von {1} in {2}. Die Prüfungs-ID ist zugleich der Diagnose-Code, daher funktionieren {3} und {4} wie bei den eingebauten Prüfungen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

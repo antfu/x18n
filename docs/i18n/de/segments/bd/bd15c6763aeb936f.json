@@ -1,0 +1,18 @@
+{
+  "hash": "bd15c6763aeb936f",
+  "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
+  "text": "Dry Run von {0}: pro Projekt die ungenutzten Schlüssel, die gelöscht werden, mit einer Position pro message, die ungenutzten Schlüssel, die erhalten bleiben, weil berechnete Schlüssel in einem Scope sie erreichen könnten, sowie Warnungen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dry Run von {0}: pro Projekt die ungenutzten Schlüssel, die gelöscht werden, mit einer Position pro message, die ungenutzten Schlüssel, die erhalten bleiben, weil berechnete Schlüssel in einem Scope sie erreichen könnten, sowie Warnungen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

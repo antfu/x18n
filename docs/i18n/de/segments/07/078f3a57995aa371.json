@@ -1,0 +1,18 @@
+{
+  "hash": "078f3a57995aa371",
+  "source": "If the file is not a locale file, change {0} so that its pattern does not match the file.",
+  "text": "Wenn die Datei keine Sprachdatei ist, ändere {0} so, dass das Muster nicht auf die Datei passt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn die Datei keine Sprachdatei ist, ändere {0} so, dass das Muster nicht auf die Datei passt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

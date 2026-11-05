@@ -1,0 +1,18 @@
+{
+  "hash": "486612b09b35e7cc",
+  "source": "Connect a coding agent to x18n over MCP, through stdio with x18n mcp, or over HTTP next to the UI.",
+  "text": "通过 MCP 将 coding agent 连接到 x18n：可使用 x18n mcp 通过 stdio 连接，也可以通过 HTTP 在 UI 旁连接。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "通过 MCP 将 coding agent 连接到 x18n：可使用 x18n mcp 通过 stdio 连接，也可以通过 HTTP 在 UI 旁连接。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

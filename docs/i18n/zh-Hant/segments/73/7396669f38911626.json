@@ -1,0 +1,18 @@
+{
+  "hash": "7396669f38911626",
+  "source": "The transform applies to every YAML resource of the project. A YAML file without the locale key of its locale has no keys.",
+  "text": "此轉換會套用到專案中的每個 YAML 資源。若 YAML 檔案沒有其語系對應的語系鍵，則該檔案沒有任何鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此轉換會套用到專案中的每個 YAML 資源。若 YAML 檔案沒有其語系對應的語系鍵，則該檔案沒有任何鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

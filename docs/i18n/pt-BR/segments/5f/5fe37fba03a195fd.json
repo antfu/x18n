@@ -1,0 +1,18 @@
+{
+  "hash": "5fe37fba03a195fd",
+  "source": "An agent without a skills system can still use two of the skills. The CLI prints them as plain markdown, without the front matter. The output of {0} also holds the references of the skill.",
+  "text": "Um agente sem sistema de skills ainda pode usar duas delas. O CLI as imprime como markdown simples, sem o front matter. A saída de {0} também inclui as referências da skill.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um agente sem sistema de skills ainda pode usar duas delas. O CLI as imprime como markdown simples, sem o front matter. A saída de {0} também inclui as referências da skill."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

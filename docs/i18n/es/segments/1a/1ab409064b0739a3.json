@@ -1,0 +1,18 @@
+{
+  "hash": "1ab409064b0739a3",
+  "source": "The message ends with the error code, for example {0}. The {1}error page{/1} of that code tells you what to do.",
+  "text": "El mensaje termina con el código de error, por ejemplo {0}. La {1}página de error{/1} de ese código te explica qué hacer.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El mensaje termina con el código de error, por ejemplo {0}. La {1}página de error{/1} de ese código te explica qué hacer."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

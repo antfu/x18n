@@ -1,0 +1,18 @@
+{
+  "hash": "b684a1a54af4fd55",
+  "source": "Defaults: namespace rules, derived keys and resource patterns.",
+  "text": "Valores por defecto: reglas de espacios de nombres, claves derivadas y patrones de recursos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Valores por defecto: reglas de espacios de nombres, claves derivadas y patrones de recursos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

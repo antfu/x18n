@@ -1,0 +1,18 @@
+{
+  "hash": "d3ad4fd161269348",
+  "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
+  "text": "키: 키마다 한 행, 로케일마다 한 열로 구성된 테이블입니다. 키와 값을 검색하고, 네임스페이스, 해당 키가 없는 로케일, 사용되지 않는 키, 문제가 있는 키, 번역 상태로 필터링할 수 있습니다. 형식에서 키에 레이블을 지정한 경우 레이블이 표시되며 검색에도 일치합니다. 셀을 선택하고 Enter를 눌러 편집하세요. 이동하려면 방향키 또는 {0}와(과) {1}, 취소하려면 Esc, 키를 열려면 {2}, 검색하려면 {3}을(를) 사용하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키: 키마다 한 행, 로케일마다 한 열로 구성된 테이블입니다. 키와 값을 검색하고, 네임스페이스, 해당 키가 없는 로케일, 사용되지 않는 키, 문제가 있는 키, 번역 상태로 필터링할 수 있습니다. 형식에서 키에 레이블을 지정한 경우 레이블이 표시되며 검색에도 일치합니다. 셀을 선택하고 Enter를 눌러 편집하세요. 이동하려면 방향키 또는 {0}와(과) {1}, 취소하려면 Esc, 키를 열려면 {2}, 검색하려면 {3}을(를) 사용하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

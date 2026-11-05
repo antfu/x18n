@@ -1,0 +1,18 @@
+{
+  "hash": "42cc4b53fc31c1a2",
+  "source": "Check the namespace. In a namespaced project the key is {0}, for example {1}.",
+  "text": "Verifique o namespace. Em um projeto com namespaces, a chave é {0}, por exemplo {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Verifique o namespace. Em um projeto com namespaces, a chave é {0}, por exemplo {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

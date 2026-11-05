@@ -1,0 +1,18 @@
+{
+  "hash": "701777b477ea9fa0",
+  "source": "The preset applies when {0} has the dependency {1} or {2}. x18n reads {3}, {4}, {5}, {6} and the target dependency tables. For a renamed dependency, such as {7}, x18n sees the alias {8} and does not detect the preset, so list it.",
+  "text": "이 프리셋은 {0}에 {1} 또는 {2} 의존성이 있을 때 적용됩니다. x18n은 {3}, {4}, {5}, {6} 및 타깃 의존성 테이블을 읽습니다. {7}처럼 이름을 바꾼 의존성은 x18n이 별칭 {8}만 인식하여 프리셋을 감지하지 못하므로 직접 지정하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 {0}에 {1} 또는 {2} 의존성이 있을 때 적용됩니다. x18n은 {3}, {4}, {5}, {6} 및 타깃 의존성 테이블을 읽습니다. {7}처럼 이름을 바꾼 의존성은 x18n이 별칭 {8}만 인식하여 프리셋을 감지하지 못하므로 직접 지정하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

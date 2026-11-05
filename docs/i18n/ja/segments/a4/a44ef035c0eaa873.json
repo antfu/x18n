@@ -1,0 +1,18 @@
+{
+  "hash": "a44ef035c0eaa873",
+  "source": "Re-write resources with the configured sort and indent.",
+  "text": "設定されたソート順とインデントでリソースを書き直します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定されたソート順とインデントでリソースを書き直します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

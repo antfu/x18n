@@ -1,0 +1,18 @@
+{
+  "hash": "2d1569e88785ac1d",
+  "source": "Invalid edit input",
+  "text": "Input di modifica non valido",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Input di modifica non valido"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

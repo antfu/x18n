@@ -1,0 +1,18 @@
+{
+  "hash": "32ddd0194623899b",
+  "source": "{0}: a regular expression that the whole key must match.",
+  "text": "{0}: キー全体が一致する必要がある正規表現です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: キー全体が一致する必要がある正規表現です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "01da2c1e2d73f023",
+  "source": "The locale shown in annotations and hovers. Per user.",
+  "text": "O idioma exibido em anotações e hovers. Definido por usuário.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O idioma exibido em anotações e hovers. Definido por usuário."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

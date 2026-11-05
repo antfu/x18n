@@ -1,0 +1,18 @@
+{
+  "hash": "6383141da973f0b2",
+  "source": "In code, {0} and {1}, and {2} on {3}, directly or through a variable:",
+  "text": "En el código, {0} y {1}, y {2} en {3}, directamente o a través de una variable:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En el código, {0} y {1}, y {2} en {3}, directamente o a través de una variable:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

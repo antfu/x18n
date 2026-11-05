@@ -1,0 +1,18 @@
+{
+  "hash": "a9b9c7d63d8d6347",
+  "source": "It needs a preset that tells where the params of a call are; the i18next presets do. Options the library reads itself, such as i18next {0}, {1} and {2}, are never unused. Unused params are reported only when the message has placeholders and no nested messages ({3}), which may use them.",
+  "text": "호출의 파라미터 위치를 알려 주는 프리셋이 필요하며, i18next 프리셋이 이에 해당합니다. i18next의 {0}, {1}, {2}처럼 라이브러리가 직접 읽는 옵션은 사용되지 않은 파라미터로 취급되지 않습니다. 사용되지 않은 파라미터는 메시지에 플레이스홀더가 있고 중첩 메시지({3})가 없을 때만 보고합니다. 중첩 메시지가 파라미터를 사용할 수 있기 때문입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "호출의 파라미터 위치를 알려 주는 프리셋이 필요하며, i18next 프리셋이 이에 해당합니다. i18next의 {0}, {1}, {2}처럼 라이브러리가 직접 읽는 옵션은 사용되지 않은 파라미터로 취급되지 않습니다. 사용되지 않은 파라미터는 메시지에 플레이스홀더가 있고 중첩 메시지({3})가 없을 때만 보고합니다. 중첩 메시지가 파라미터를 사용할 수 있기 때문입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

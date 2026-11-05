@@ -1,0 +1,18 @@
+{
+  "hash": "53ba783404b299bf",
+  "source": "Formats that load their module when a file of that format is first read.",
+  "text": "Formatos que cargan su módulo la primera vez que se lee un archivo de ese formato.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Formatos que cargan su módulo la primera vez que se lee un archivo de ese formato."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

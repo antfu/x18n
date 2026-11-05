@@ -1,0 +1,18 @@
+{
+  "hash": "04b84439ca71998a",
+  "source": "Paths in a project config are relative to the project directory. A project directory without a config file is a project with the root options and its own detection.",
+  "text": "프로젝트 설정의 경로는 프로젝트 디렉터리를 기준으로 합니다. 설정 파일이 없는 프로젝트 디렉터리는 루트 옵션을 사용하고 자체적으로 감지를 수행하는 프로젝트입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트 설정의 경로는 프로젝트 디렉터리를 기준으로 합니다. 설정 파일이 없는 프로젝트 디렉터리는 루트 옵션을 사용하고 자체적으로 감지를 수행하는 프로젝트입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

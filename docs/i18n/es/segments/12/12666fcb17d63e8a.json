@@ -1,0 +1,18 @@
+{
+  "hash": "12666fcb17d63e8a",
+  "source": "In a TS config, import the package and call the factory:",
+  "text": "En una configuración TS, importa el paquete y llama a la factory:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En una configuración TS, importa el paquete y llama a la factory:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

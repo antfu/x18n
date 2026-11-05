@@ -1,0 +1,18 @@
+{
+  "hash": "df5a150956beeb89",
+  "source": "These names count as translate calls: {0} and {1}. Dictionary keys are dot paths.",
+  "text": "Diese Namen zählen als Übersetzungsaufrufe: {0} und {1}. Schlüssel im Wörterbuch sind Punktpfade.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Diese Namen zählen als Übersetzungsaufrufe: {0} und {1}. Schlüssel im Wörterbuch sind Punktpfade."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

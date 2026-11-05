@@ -1,0 +1,18 @@
+{
+  "hash": "ec80b3b4cbae64de",
+  "source": "Check locale files like tsc, read and change keys from the terminal, and pick a reporter for CI.",
+  "text": "像 tsc 一樣檢查語系檔案，在終端機中讀取並修改鍵，並為 CI 選擇 reporter。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "像 tsc 一樣檢查語系檔案，在終端機中讀取並修改鍵，並為 CI 選擇 reporter。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

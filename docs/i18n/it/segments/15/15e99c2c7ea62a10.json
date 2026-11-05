@@ -1,0 +1,18 @@
+{
+  "hash": "15e99c2c7ea62a10",
+  "source": "Translate prompts, safe write commands and MCP tools let an agent translate, check and clean up messages.",
+  "text": "Prompt di traduzione, comandi di scrittura sicuri e strumenti MCP permettono a un agente di tradurre, controllare e ripulire i messaggi.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Prompt di traduzione, comandi di scrittura sicuri e strumenti MCP permettono a un agente di tradurre, controllare e ripulire i messaggi."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

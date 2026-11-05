@@ -1,0 +1,18 @@
+{
+  "hash": "8c021e2063557f45",
+  "source": "{0} lists regex scanners for other file types. Each entry has {1} (without the dot) and {2}. A pattern is a regular expression whose first group is the key. Write {3} inside the group, as in {4}: x18n replaces {5} with a pattern for key characters. This is the same format as {6} of i18n-ally.",
+  "text": "{0} 列出其他檔案類型的 regex 掃描器。每個項目都有 {1}（不含點號）與 {2}。pattern 是一個正規表示式，其第一個群組為鍵。請在群組內寫入 {3}，如 {4}：x18n 會將 {5} 替換為符合鍵字元的 pattern。此格式與 i18n-ally 的 {6} 相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 列出其他檔案類型的 regex 掃描器。每個項目都有 {1}（不含點號）與 {2}。pattern 是一個正規表示式，其第一個群組為鍵。請在群組內寫入 {3}，如 {4}：x18n 會將 {5} 替換為符合鍵字元的 pattern。此格式與 i18n-ally 的 {6} 相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

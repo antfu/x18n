@@ -1,0 +1,18 @@
+{
+  "hash": "90758b0599214cce",
+  "source": "The extension starts in a workspace that has an {0} file or a {1}. It reads the same config as the CLI, so the editor and {2} report the same diagnostics.",
+  "text": "확장은 {0} 파일 또는 {1}이(가) 있는 워크스페이스에서 시작됩니다. CLI와 같은 설정을 읽으므로 에디터와 {2}은(는) 같은 진단을 보고합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "확장은 {0} 파일 또는 {1}이(가) 있는 워크스페이스에서 시작됩니다. CLI와 같은 설정을 읽으므로 에디터와 {2}은(는) 같은 진단을 보고합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "5e37e4256c29cd12",
+  "source": "{0}, {1}, {2}, {3} and {4} also take the key from an {5} property.",
+  "text": "{0}, {1}, {2}, {3}, {4}도 {5} 속성에서 키를 가져옵니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1}, {2}, {3}, {4}도 {5} 속성에서 키를 가져옵니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

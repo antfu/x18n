@@ -1,0 +1,18 @@
+{
+  "hash": "18635f700240d984",
+  "source": "The preset for next-intl and use-intl. It reads useTranslations and getTranslations with their namespaces.",
+  "text": "適用於 next-intl 和 use-intl 的預設集，會讀取 useTranslations 與 getTranslations 及其命名空間。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "適用於 next-intl 和 use-intl 的預設集，會讀取 useTranslations 與 getTranslations 及其命名空間。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

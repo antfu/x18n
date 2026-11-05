@@ -1,0 +1,18 @@
+{
+  "hash": "b504b88cab0b9e3b",
+  "source": "To find the key behind a text that you see in the app, search the values. The search covers every locale and ignores case. It matches fuzzily, so the letters of the query need to appear in order, but not next to each other. Values that contain the query rank first. {0} keeps only those values. Each match lists its usages as {1}:",
+  "text": "若要找出你在應用程式中看到的文字所對應的鍵，請搜尋值。搜尋涵蓋所有語系且不分大小寫。它採用模糊比對，因此查詢字串的字母只需依序出現，不必相鄰。包含完整查詢字串的值排名最前。{0} 只保留這些值。每個相符項目會以 {1} 列出其使用處：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若要找出你在應用程式中看到的文字所對應的鍵，請搜尋值。搜尋涵蓋所有語系且不分大小寫。它採用模糊比對，因此查詢字串的字母只需依序出現，不必相鄰。包含完整查詢字串的值排名最前。{0} 只保留這些值。每個相符項目會以 {1} 列出其使用處："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

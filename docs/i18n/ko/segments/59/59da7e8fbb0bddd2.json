@@ -1,0 +1,18 @@
+{
+  "hash": "59da7e8fbb0bddd2",
+  "source": "These usages are {0}, {1}, {2}, {3} and {4}. The generated {5} constants are not read.",
+  "text": "이러한 사용처는 {0}, {1}, {2}, {3}, {4}입니다. 생성된 {5} 상수는 읽지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이러한 사용처는 {0}, {1}, {2}, {3}, {4}입니다. 생성된 {5} 상수는 읽지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

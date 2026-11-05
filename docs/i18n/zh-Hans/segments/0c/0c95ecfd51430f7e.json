@@ -1,0 +1,18 @@
+{
+  "hash": "0c95ecfd51430f7e",
+  "source": "Detected presets: vue-i18n. They apply automatically.",
+  "text": "检测到的预设：vue-i18n。它们会自动生效。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "检测到的预设：vue-i18n。它们会自动生效。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

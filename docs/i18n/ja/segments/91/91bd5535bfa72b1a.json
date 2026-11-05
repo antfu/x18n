@@ -1,0 +1,18 @@
+{
+  "hash": "91bd5535bfa72b1a",
+  "source": "Reviews: every message with open {0}review{/0} comments, filtered by state. Keys can also be filtered to those with open reviews.",
+  "text": "Reviews: 未解決の{0}レビュー{/0}コメントがあるすべてのメッセージを、状態で絞り込んで表示します。キーを、未解決のレビューがあるものだけに絞り込むこともできます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reviews: 未解決の{0}レビュー{/0}コメントがあるすべてのメッセージを、状態で絞り込んで表示します。キーを、未解決のレビューがあるものだけに絞り込むこともできます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

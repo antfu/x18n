@@ -1,0 +1,18 @@
+{
+  "hash": "a20a2325ef5cbca1",
+  "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}); optionally only these check ids (comma separated)",
+  "text": "Traduit aussi les valeurs signalées par les vérifications dans la langue cible, comme les copies de la source ({0}) ; éventuellement uniquement ces ids de vérification (séparés par des virgules)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Traduit aussi les valeurs signalées par les vérifications dans la langue cible, comme les copies de la source ({0}) ; éventuellement uniquement ces ids de vérification (séparés par des virgules)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

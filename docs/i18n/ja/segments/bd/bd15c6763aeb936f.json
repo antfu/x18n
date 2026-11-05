@@ -1,0 +1,18 @@
+{
+  "hash": "bd15c6763aeb936f",
+  "source": "Dry run of {0}: per project, the unused keys it deletes with a location per message, the unused keys it keeps because computed keys in a scope may reach them, and warnings.",
+  "text": "{0} のドライランです。プロジェクトごとに、削除される未使用のキー（メッセージごとの場所付き）、スコープ内の算出キーが参照する可能性があるため残される未使用のキー、および警告を返します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} のドライランです。プロジェクトごとに、削除される未使用のキー（メッセージごとの場所付き）、スコープ内の算出キーが参照する可能性があるため残される未使用のキー、および警告を返します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

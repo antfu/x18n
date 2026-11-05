@@ -1,0 +1,18 @@
+{
+  "hash": "ffe27b72ee1ccd82",
+  "source": "A preset is a group of plugins for one i18n library. It tells x18n which calls are translate calls, how namespaces work, which placeholder syntax the messages use, and which code replaces a hard string.",
+  "text": "Um preset é um grupo de plugins para uma biblioteca de i18n. Ele informa ao x18n quais chamadas são chamadas de tradução, como os namespaces funcionam, qual sintaxe de placeholder as mensagens usam e qual código substitui uma string fixa no código.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um preset é um grupo de plugins para uma biblioteca de i18n. Ele informa ao x18n quais chamadas são chamadas de tradução, como os namespaces funcionam, qual sintaxe de placeholder as mensagens usam e qual código substitui uma string fixa no código."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

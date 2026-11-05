@@ -1,0 +1,18 @@
+{
+  "hash": "1f06fa2fc15b45ba",
+  "source": "Keys. {0}, {1} and {2} filter them. {3} adds the value per locale.",
+  "text": "Schlüssel. {0}, {1} und {2} filtern sie. {3} fügt den Wert pro Sprache hinzu.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schlüssel. {0}, {1} und {2} filtern sie. {3} fügt den Wert pro Sprache hinzu."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

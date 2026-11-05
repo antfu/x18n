@@ -1,0 +1,18 @@
+{
+  "hash": "dc0139365985ce23",
+  "source": "X18N2002: Resource could not be parsed",
+  "text": "X18N2002: impossibile analizzare la risorsa",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "X18N2002: impossibile analizzare la risorsa"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

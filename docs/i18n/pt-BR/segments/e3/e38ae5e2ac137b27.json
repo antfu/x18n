@@ -1,0 +1,18 @@
+{
+  "hash": "e38ae5e2ac137b27",
+  "source": "Replacement templates, tried before the templates of presets. See {0}Extraction templates{/0}.",
+  "text": "Templates de substituição, testados antes dos templates dos presets. Veja {0}Templates de extração{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Templates de substituição, testados antes dos templates dos presets. Veja {0}Templates de extração{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

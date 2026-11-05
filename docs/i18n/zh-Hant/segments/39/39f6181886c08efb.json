@@ -1,0 +1,18 @@
+{
+  "hash": "39f6181886c08efb",
+  "source": "If the language server finds no locale files, it writes to the x18n output channel what {0} would print: the presets it applied, the files each locale finder found, config load errors and config origins. Run \"x18n: Explain Projects\" to print the same text at any time.",
+  "text": "若語言伺服器找不到語系檔案，會將 {0} 會輸出的內容寫入 x18n 輸出頻道：已套用的預設集、各語系尋找器找到的檔案、設定載入錯誤以及設定來源。隨時都可以執行「x18n: Explain Projects」來輸出相同的文字。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若語言伺服器找不到語系檔案，會將 {0} 會輸出的內容寫入 x18n 輸出頻道：已套用的預設集、各語系尋找器找到的檔案、設定載入錯誤以及設定來源。隨時都可以執行「x18n: Explain Projects」來輸出相同的文字。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

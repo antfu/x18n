@@ -1,0 +1,18 @@
+{
+  "hash": "cf49a5fb655d6891",
+  "source": "Delete every unused key (the keys {0} lists with {1}) in all locales, optionally only those matching {2} or {3}. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a {4} or namespace) are left alone and listed in {5}; {6} names computed keys that may reach any key. Code is not changed. Without {7} it returns the plan: {8} lists each key with its locales and files. Call again with {9} to apply it.",
+  "text": "Lösche jeden ungenutzten Schlüssel (die Schlüssel, die {0} mit {1} auflistet) in allen Sprachen, optional nur die, die zu {2} oder {3} passen. Schlüssel, die ein berechneter Schlüssel im Code erreichen kann (ein Präfix eines Template Literals oder ein berechneter Schlüssel unter einem {4} oder namespace), bleiben unangetastet und werden in {5} aufgelistet; {6} nennt berechnete Schlüssel, die jeden Schlüssel erreichen können. Der Code wird nicht geändert. Ohne {7} gibt das Tool den Plan zurück: {8} listet jeden Schlüssel mit seinen Sprachen und Dateien auf. Rufe es erneut mit {9} auf, um ihn anzuwenden.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lösche jeden ungenutzten Schlüssel (die Schlüssel, die {0} mit {1} auflistet) in allen Sprachen, optional nur die, die zu {2} oder {3} passen. Schlüssel, die ein berechneter Schlüssel im Code erreichen kann (ein Präfix eines Template Literals oder ein berechneter Schlüssel unter einem {4} oder namespace), bleiben unangetastet und werden in {5} aufgelistet; {6} nennt berechnete Schlüssel, die jeden Schlüssel erreichen können. Der Code wird nicht geändert. Ohne {7} gibt das Tool den Plan zurück: {8} listet jeden Schlüssel mit seinen Sprachen und Dateien auf. Rufe es erneut mit {9} auf, um ihn anzuwenden."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

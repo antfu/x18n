@@ -1,0 +1,18 @@
+{
+  "hash": "6f141a9fefecbb97",
+  "source": "The term as written in source values.",
+  "text": "Il termine così come è scritto nei valori di origine.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il termine così come è scritto nei valori di origine."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

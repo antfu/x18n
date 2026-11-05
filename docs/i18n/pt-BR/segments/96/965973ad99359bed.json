@@ -1,0 +1,18 @@
+{
+  "hash": "965973ad99359bed",
+  "source": "These features work in code and in locale files. The results show next to the results of TypeScript.",
+  "text": "Esses recursos funcionam no código e nos arquivos de idioma. Os resultados aparecem junto com os resultados do TypeScript.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esses recursos funcionam no código e nos arquivos de idioma. Os resultados aparecem junto com os resultados do TypeScript."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

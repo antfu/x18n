@@ -1,0 +1,18 @@
+{
+  "hash": "d3ad4fd161269348",
+  "source": "Keys: a table with one row per key and one column per locale. Search keys and values, and filter by namespace, by a locale that lacks the key, by unused keys, by keys with problems or by translation state. A key whose format gives it a label shows the label, and search matches it. Select a cell and press Enter to edit it. Use the arrow keys or {0} and {1} to move, Esc to cancel, {2} to open the key, and {3} to search.",
+  "text": "鍵：每個鍵一列、每個語系一欄的表格。可搜尋鍵與值，並依命名空間、缺少該鍵的語系、未使用的鍵、有問題的鍵或翻譯狀態進行篩選。若某個鍵的格式為它提供了標籤，就會顯示該標籤，且搜尋也能比對到標籤。選取儲存格後按 Enter 即可編輯。使用方向鍵或 {0} 與 {1} 移動，按 Esc 取消，按 {2} 開啟該鍵，按 {3} 搜尋。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "鍵：每個鍵一列、每個語系一欄的表格。可搜尋鍵與值，並依命名空間、缺少該鍵的語系、未使用的鍵、有問題的鍵或翻譯狀態進行篩選。若某個鍵的格式為它提供了標籤，就會顯示該標籤，且搜尋也能比對到標籤。選取儲存格後按 Enter 即可編輯。使用方向鍵或 {0} 與 {1} 移動，按 Esc 取消，按 {2} 開啟該鍵，按 {3} 搜尋。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

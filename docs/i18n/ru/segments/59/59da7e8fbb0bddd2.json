@@ -1,0 +1,18 @@
+{
+  "hash": "59da7e8fbb0bddd2",
+  "source": "These usages are {0}, {1}, {2}, {3} and {4}. The generated {5} constants are not read.",
+  "text": "Эти использования: {0}, {1}, {2}, {3} и {4}. Сгенерированные константы {5} не читаются.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Эти использования: {0}, {1}, {2}, {3} и {4}. Сгенерированные константы {5} не читаются."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

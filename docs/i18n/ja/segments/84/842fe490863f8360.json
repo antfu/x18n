@@ -1,0 +1,18 @@
+{
+  "hash": "842fe490863f8360",
+  "source": "A fully dynamic usage, such as {0}, has no static part. No check can follow it. The {1} check, off by default, lists such usages. To mark keys as used that only code at runtime builds, add globs to {2}. Or mark them in the code with a comment. {3} before a string marks that string as a key. {4} before an expression, such as an array, marks every string in it:",
+  "text": "{0} のような完全に動的な使用箇所には、静的な部分がありません。どのチェックもこれを追跡できません。デフォルトでオフの {1} チェックは、このような使用箇所を一覧表示します。実行時のコードだけが組み立てるキーを使用済みとして扱うには、{2} に glob を追加してください。または、コード内のコメントでマークすることもできます。文字列の前の {3} は、その文字列をキーとしてマークします。配列などの式の前の {4} は、その中のすべての文字列をマークします。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} のような完全に動的な使用箇所には、静的な部分がありません。どのチェックもこれを追跡できません。デフォルトでオフの {1} チェックは、このような使用箇所を一覧表示します。実行時のコードだけが組み立てるキーを使用済みとして扱うには、{2} に glob を追加してください。または、コード内のコメントでマークすることもできます。文字列の前の {3} は、その文字列をキーとしてマークします。配列などの式の前の {4} は、その中のすべての文字列をマークします。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

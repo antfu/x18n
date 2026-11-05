@@ -1,0 +1,18 @@
+{
+  "hash": "3f28c47cf9d0bb1e",
+  "source": "In Edge templates, the {0} helper:",
+  "text": "Edge テンプレートでは、{0} ヘルパーを検出します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Edge テンプレートでは、{0} ヘルパーを検出します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

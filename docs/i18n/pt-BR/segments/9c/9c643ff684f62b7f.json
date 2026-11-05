@@ -1,0 +1,18 @@
+{
+  "hash": "9c643ff684f62b7f",
+  "source": "Setup and check prompts",
+  "text": "Prompts de configuração e verificação",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Prompts de configuração e verificação"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

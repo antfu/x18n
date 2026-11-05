@@ -1,0 +1,18 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "編集によって元の値と比べてプレースホルダーが削除または追加された場合、UI は保存しません。問題が表示されますが、そのまま値を保存することもできます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "編集によって元の値と比べてプレースホルダーが削除または追加された場合、UI は保存しません。問題が表示されますが、そのまま値を保存することもできます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

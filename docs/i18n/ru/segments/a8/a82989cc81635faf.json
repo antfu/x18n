@@ -1,0 +1,18 @@
+{
+  "hash": "a82989cc81635faf",
+  "source": "A preset can be exclusive. When an exclusive preset applies, x18n tests no preset after it. {0} and {1} are exclusive. {2} has no detection, so it applies only when you list it.",
+  "text": "Пресет может быть эксклюзивным. Если применяется эксклюзивный пресет, x18n не проверяет ни один пресет после него. {0} и {1} являются эксклюзивными. У {2} нет определения, поэтому он применяется, только если вы укажете его явно.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет может быть эксклюзивным. Если применяется эксклюзивный пресет, x18n не проверяет ни один пресет после него. {0} и {1} являются эксклюзивными. У {2} нет определения, поэтому он применяется, только если вы укажете его явно."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

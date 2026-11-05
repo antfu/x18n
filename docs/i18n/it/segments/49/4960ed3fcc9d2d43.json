@@ -1,0 +1,18 @@
+{
+  "hash": "4960ed3fcc9d2d43",
+  "source": "Rename a key (or every key under a parent) in all locales and usages.",
+  "text": "Rinomina una chiave (o ogni chiave sotto un genitore) in tutte le lingue e in tutti gli utilizzi.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Rinomina una chiave (o ogni chiave sotto un genitore) in tutte le lingue e in tutti gli utilizzi."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

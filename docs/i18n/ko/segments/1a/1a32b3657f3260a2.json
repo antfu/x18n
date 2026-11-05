@@ -1,0 +1,18 @@
+{
+  "hash": "1a32b3657f3260a2",
+  "source": "Where the locale files are. Each pattern feeds the {0} locale finder. Without patterns, the patterns of all applied presets add up. If they match no file, x18n looks for directories named like {1}.",
+  "text": "로케일 파일이 있는 위치입니다. 각 패턴은 {0} 로케일 파인더에 전달됩니다. 패턴이 없으면 적용된 모든 프리셋의 패턴을 합칩니다. 패턴과 일치하는 파일이 없으면 x18n은 {1} 같은 이름의 디렉터리를 찾습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "로케일 파일이 있는 위치입니다. 각 패턴은 {0} 로케일 파인더에 전달됩니다. 패턴이 없으면 적용된 모든 프리셋의 패턴을 합칩니다. 패턴과 일치하는 파일이 없으면 x18n은 {1} 같은 이름의 디렉터리를 찾습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

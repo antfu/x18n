@@ -1,0 +1,18 @@
+{
+  "hash": "715744ddc7b5f3cd",
+  "source": "The x18n view container in the activity bar has five views:",
+  "text": "O contêiner de views do x18n na barra de atividades tem cinco views:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O contêiner de views do x18n na barra de atividades tem cinco views:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

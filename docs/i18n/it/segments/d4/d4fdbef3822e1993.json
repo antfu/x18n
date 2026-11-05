@@ -1,0 +1,18 @@
+{
+  "hash": "d4fdbef3822e1993",
+  "source": "Print the JSON contract.",
+  "text": "Stampa il contratto JSON.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stampa il contratto JSON."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

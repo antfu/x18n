@@ -1,0 +1,18 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} は、{1} が一覧表示するキーから {2} 内のキーを除いたものを削除します。また、スコープ内で完全に動的なキーが参照しうるキーも残します。{4} 配下の {3} は {5} 名前空間のすべてのキーを参照しうるため、{6} 配下ではすべてのキーが {7} の下にあるものとして扱われます。まず {8} を付けて実行してください。各キーがロケールとファイルとともに一覧表示され、続いて残されるキーと、それを残す使用箇所が表示されます。スコープ外の完全に動的なキーはどのキーも参照しうるため、プランで警告されます。使用しているキーは {9} に記載してください。編集はその場で行われるため、コメントとフォーマットは保たれます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、{1} が一覧表示するキーから {2} 内のキーを除いたものを削除します。また、スコープ内で完全に動的なキーが参照しうるキーも残します。{4} 配下の {3} は {5} 名前空間のすべてのキーを参照しうるため、{6} 配下ではすべてのキーが {7} の下にあるものとして扱われます。まず {8} を付けて実行してください。各キーがロケールとファイルとともに一覧表示され、続いて残されるキーと、それを残す使用箇所が表示されます。スコープ外の完全に動的なキーはどのキーも参照しうるため、プランで警告されます。使用しているキーは {9} に記載してください。編集はその場で行われるため、コメントとフォーマットは保たれます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

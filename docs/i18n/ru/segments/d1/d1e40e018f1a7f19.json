@@ -1,0 +1,18 @@
+{
+  "hash": "d1e40e018f1a7f19",
+  "source": "The preset adds none, as an extracted key needs its keyset as a separate argument. Set {0} for your keyset functions.",
+  "text": "Пресет ничего не добавляет, так как извлечённому ключу нужен его keyset в виде отдельного аргумента. Задайте {0} для ваших функций keyset.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет ничего не добавляет, так как извлечённому ключу нужен его keyset в виде отдельного аргумента. Задайте {0} для ваших функций keyset."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

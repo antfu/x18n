@@ -1,0 +1,18 @@
+{
+  "hash": "b0c1e709e604189c",
+  "source": "Only usages in this file (path relative to the project root).",
+  "text": "Nur Verwendungen in dieser Datei (Pfad relativ zum Projektstamm).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur Verwendungen in dieser Datei (Pfad relativ zum Projektstamm)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

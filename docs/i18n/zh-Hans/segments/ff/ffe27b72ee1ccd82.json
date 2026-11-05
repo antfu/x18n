@@ -1,0 +1,18 @@
+{
+  "hash": "ffe27b72ee1ccd82",
+  "source": "A preset is a group of plugins for one i18n library. It tells x18n which calls are translate calls, how namespaces work, which placeholder syntax the messages use, and which code replaces a hard string.",
+  "text": "预设是针对某个 i18n 库的一组插件。它告诉 x18n 哪些调用是翻译调用、命名空间如何工作、消息使用哪种占位符语法，以及用哪段代码替换硬编码字符串。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "预设是针对某个 i18n 库的一组插件。它告诉 x18n 哪些调用是翻译调用、命名空间如何工作、消息使用哪种占位符语法，以及用哪段代码替换硬编码字符串。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "86c04d2c6119d172",
+  "source": "Template with {0}, {1} or {2}.",
+  "text": "{0}、{1}、{2} を使えるテンプレートです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、{2} を使えるテンプレートです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

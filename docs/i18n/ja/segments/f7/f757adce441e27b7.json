@@ -1,0 +1,18 @@
+{
+  "hash": "f757adce441e27b7",
+  "source": "Each locale needs the plural categories of its own language, from {0}. With {1} and {2} in English:",
+  "text": "各ロケールには、{0} に基づく、そのロケール自身の言語の複数形カテゴリが必要です。英語で {1} と {2} がある場合：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各ロケールには、{0} に基づく、そのロケール自身の言語の複数形カテゴリが必要です。英語で {1} と {2} がある場合："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

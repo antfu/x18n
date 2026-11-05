@@ -1,0 +1,18 @@
+{
+  "hash": "4918504133a27260",
+  "source": "The {0} preset supports {1}@solid-primitives/i18n{/1} in SolidJS projects.",
+  "text": "{0} 預設集支援 SolidJS 專案中的 {1}@solid-primitives/i18n{/1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 預設集支援 SolidJS 專案中的 {1}@solid-primitives/i18n{/1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

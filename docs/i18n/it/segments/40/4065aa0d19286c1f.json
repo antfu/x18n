@@ -1,0 +1,18 @@
+{
+  "hash": "4065aa0d19286c1f",
+  "source": "The preset includes every plugin of the {0} preset: the translate calls, the Vue template syntax, {1} blocks, the placeholders and the extraction templates.",
+  "text": "Il preset include ogni plugin del preset {0}: le chiamate di traduzione, la sintassi dei template Vue, i blocchi {1}, i segnaposto e i template di estrazione.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset include ogni plugin del preset {0}: le chiamate di traduzione, la sintassi dei template Vue, i blocchi {1}, i segnaposto e i template di estrazione."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

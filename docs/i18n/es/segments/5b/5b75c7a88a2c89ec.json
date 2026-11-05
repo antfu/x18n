@@ -1,0 +1,18 @@
+{
+  "hash": "5b75c7a88a2c89ec",
+  "source": "Renames every key under a prefix, in locale files and code.",
+  "text": "Renombra todas las claves bajo un prefijo, en los archivos de idioma y en el código.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renombra todas las claves bajo un prefijo, en los archivos de idioma y en el código."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

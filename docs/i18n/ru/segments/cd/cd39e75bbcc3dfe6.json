@@ -1,0 +1,18 @@
+{
+  "hash": "cd39e75bbcc3dfe6",
+  "source": "How {0} folders name a namespace: {1} makes {2} into {3}, {4} keeps {5}, {6} makes {7} into {8}. Default {9}.",
+  "text": "Как папки {0} задают пространство имён: {1} превращает {2} в {3}, {4} оставляет {5}, {6} превращает {7} в {8}. По умолчанию {9}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Как папки {0} задают пространство имён: {1} превращает {2} в {3}, {4} оставляет {5}, {6} превращает {7} в {8}. По умолчанию {9}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

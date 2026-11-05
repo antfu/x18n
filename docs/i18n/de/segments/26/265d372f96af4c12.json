@@ -1,0 +1,18 @@
+{
+  "hash": "265d372f96af4c12",
+  "source": "The {0} hook changes a draft of the config before it is final. Presets use it to set defaults: the config of the project wins over them. {1} receives the dependencies of the project and can test files with {2}.",
+  "text": "Der Hook {0} ändert einen Entwurf der Konfiguration, bevor sie endgültig ist. Presets nutzen ihn, um Standardwerte zu setzen: Die Konfiguration des Projekts hat Vorrang vor ihnen. {1} erhält die Abhängigkeiten des Projekts und kann Dateien mit {2} prüfen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Hook {0} ändert einen Entwurf der Konfiguration, bevor sie endgültig ist. Presets nutzen ihn, um Standardwerte zu setzen: Die Konfiguration des Projekts hat Vorrang vor ihnen. {1} erhält die Abhängigkeiten des Projekts und kann Dateien mit {2} prüfen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

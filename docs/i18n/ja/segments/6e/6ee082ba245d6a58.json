@@ -1,0 +1,18 @@
+{
+  "hash": "6ee082ba245d6a58",
+  "source": "i18next, react-i18next, i18next-shopify, next-translate, gravity-ui-i18n, ngx-translate, transloco, flutter-translate",
+  "text": "i18next、react-i18next、i18next-shopify、next-translate、gravity-ui-i18n、ngx-translate、transloco、flutter-translate",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18next、react-i18next、i18next-shopify、next-translate、gravity-ui-i18n、ngx-translate、transloco、flutter-translate"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

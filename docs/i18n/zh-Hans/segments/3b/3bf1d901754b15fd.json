@@ -1,0 +1,18 @@
+{
+  "hash": "3bf1d901754b15fd",
+  "source": "The edit targets a read-only resource. Resources with {0} are read-only, because x18n cannot write the code that computes them.",
+  "text": "此次编辑的目标是只读资源。包含 {0} 的资源是只读的，因为 x18n 无法写入用于计算这些内容的代码。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此次编辑的目标是只读资源。包含 {0} 的资源是只读的，因为 x18n 无法写入用于计算这些内容的代码。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "e6947909407068b3",
+  "source": "The preset sets no resource patterns. Without {0} in the config, x18n looks for directories such as {1}.",
+  "text": "이 프리셋은 리소스 패턴을 설정하지 않습니다. 설정에 {0}가 없으면 x18n은 {1} 같은 디렉터리를 찾습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 리소스 패턴을 설정하지 않습니다. 설정에 {0}가 없으면 x18n은 {1} 같은 디렉터리를 찾습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

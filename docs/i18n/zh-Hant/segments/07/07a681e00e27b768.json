@@ -1,0 +1,18 @@
+{
+  "hash": "07a681e00e27b768",
+  "source": "to read the {0} output and the exit codes, to page large outputs, and to pick a project in a monorepo.",
+  "text": "讀取 {0} 的輸出與結束碼、對大量輸出進行分頁，以及在 monorepo 中選擇專案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "讀取 {0} 的輸出與結束碼、對大量輸出進行分頁，以及在 monorepo 中選擇專案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

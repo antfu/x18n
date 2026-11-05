@@ -1,0 +1,18 @@
+{
+  "hash": "4aa1746f5bc848cd",
+  "source": "What was dropped or needs attention, for the report.",
+  "text": "报告中列出的已丢弃或需要注意的内容。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "报告中列出的已丢弃或需要注意的内容。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

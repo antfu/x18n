@@ -1,0 +1,18 @@
+{
+  "hash": "83ec889a30835815",
+  "source": "{0} is the source locale. If your config has no {1}, the preset uses {2}, so {3}. Without {4}, the folder is {5}.",
+  "text": "{0} es el idioma de origen. Si tu configuración no tiene {1}, el preset usa {2}, así que {3}. Sin {4}, la carpeta es {5}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} es el idioma de origen. Si tu configuración no tiene {1}, el preset usa {2}, así que {3}. Sin {4}, la carpeta es {5}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

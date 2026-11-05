@@ -1,0 +1,18 @@
+{
+  "hash": "58181de02f19d34f",
+  "source": "One key: its value in every locale with file and line (and its translation {0} and {1} when the file records them), locales where it is missing, usages in code with a few lines of context, and diagnostics. Check a key with it before creating or renaming one.",
+  "text": "1 つのキーについて、全ロケールでの値（ファイルと行番号付き。ファイルに記録されている場合は翻訳の {0} と {1} も含む）、値が存在しないロケール、前後数行のコンテキスト付きのコード内の使用箇所、診断を返します。キーを作成または名前変更する前に、このツールで確認してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 つのキーについて、全ロケールでの値（ファイルと行番号付き。ファイルに記録されている場合は翻訳の {0} と {1} も含む）、値が存在しないロケール、前後数行のコンテキスト付きのコード内の使用箇所、診断を返します。キーを作成または名前変更する前に、このツールで確認してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

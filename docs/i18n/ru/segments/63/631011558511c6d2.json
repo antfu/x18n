@@ -1,0 +1,18 @@
+{
+  "hash": "631011558511c6d2",
+  "source": "Returns the files that the migration from i18n-ally writes, as {0}. Nothing is written.",
+  "text": "Возвращает файлы, которые записывает миграция с i18n-ally, в виде {0}. Ничего не записывается.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Возвращает файлы, которые записывает миграция с i18n-ally, в виде {0}. Ничего не записывается."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

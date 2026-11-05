@@ -1,0 +1,18 @@
+{
+  "hash": "37a7d495b876379c",
+  "source": "fluent-vue, fluent-react",
+  "text": "fluent-vue e fluent-react",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "fluent-vue e fluent-react"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

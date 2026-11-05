@@ -1,0 +1,18 @@
+{
+  "hash": "5674b9b6df4b709a",
+  "source": "Instructions for translating missing messages into a locale: rules, glossary, style examples and the items with usage context, as markdown. Follow it, then write the results with x18n\\_set\\_messages. It says how many items remain and the cursor for the next batch.",
+  "text": "将缺失的消息翻译为某种语言的指令，以 markdown 形式返回：包含规则、术语表、风格示例，以及带有引用上下文的条目。请按其执行，然后用 x18n\\_set\\_messages 写入结果。它会说明还剩多少条目，以及下一批的游标。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将缺失的消息翻译为某种语言的指令，以 markdown 形式返回：包含规则、术语表、风格示例，以及带有引用上下文的条目。请按其执行，然后用 x18n\\_set\\_messages 写入结果。它会说明还剩多少条目，以及下一批的游标。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

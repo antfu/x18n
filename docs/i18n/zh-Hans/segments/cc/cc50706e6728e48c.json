@@ -1,0 +1,18 @@
+{
+  "hash": "cc50706e6728e48c",
+  "source": "What {0} prints for every workspace folder: load errors, presets, locale files and config. The server also logs it when it finds no locale files.",
+  "text": "{0} 为每个工作区文件夹输出的内容：加载错误、预设、语言文件和配置。当服务器找不到语言文件时，也会将其记入日志。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 为每个工作区文件夹输出的内容：加载错误、预设、语言文件和配置。当服务器找不到语言文件时，也会将其记入日志。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

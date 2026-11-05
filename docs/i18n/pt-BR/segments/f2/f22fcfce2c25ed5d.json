@@ -1,0 +1,18 @@
+{
+  "hash": "f22fcfce2c25ed5d",
+  "source": "Decision id to option id, for decisions in the plan. Default: each decision's {0}.",
+  "text": "Id da decisão para id da opção, para as decisões do plano. Padrão: o {0} de cada decisão.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Id da decisão para id da opção, para as decisões do plano. Padrão: o {0} de cada decisão."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

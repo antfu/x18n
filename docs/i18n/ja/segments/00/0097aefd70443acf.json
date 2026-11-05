@@ -1,0 +1,18 @@
+{
+  "hash": "0097aefd70443acf",
+  "source": "A locale file can store keys nested ({0}) or flat ({1}). The key is the same in both cases. When x18n writes a file, it keeps the style that the file uses.",
+  "text": "ロケールファイルでは、キーをネスト形式（{0}）でもフラット形式（{1}）でも保存できます。どちらの場合でもキーは同じです。x18n がファイルを書き込むときは、そのファイルが使っているスタイルを維持します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルでは、キーをネスト形式（{0}）でもフラット形式（{1}）でも保存できます。どちらの場合でもキーは同じです。x18n がファイルを書き込むときは、そのファイルが使っているスタイルを維持します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

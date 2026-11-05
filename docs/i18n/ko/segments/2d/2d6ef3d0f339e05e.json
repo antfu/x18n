@@ -1,0 +1,18 @@
+{
+  "hash": "2d6ef3d0f339e05e",
+  "source": "With the default {0}, x18n tests each preset in the order of the table. Most presets apply when the project depends on one of the listed packages. x18n reads the dependencies, dev dependencies and peer dependencies in {1}, the dependencies in {2}, {3}, {4} and {5}, and the Python requirements in {6} ({7}, {8}, {9} and the Poetry dependency tables) and {10}. Python package names compare in their normalized form, so {11} is {12}. The manifests in the parent directories, up to the git root, count too.",
+  "text": "기본 {0}을 사용하면 x18n은 표에 나온 순서대로 각 프리셋을 검사합니다. 대부분의 프리셋은 프로젝트가 나열된 패키지 중 하나에 의존할 때 적용됩니다. x18n은 {1}의 dependencies, dev dependencies, peer dependencies와 {2}, {3}, {4}, {5}의 의존성, 그리고 {6}({7}, {8}, {9} 및 Poetry 의존성 테이블)과 {10}의 Python requirements를 읽습니다. Python 패키지 이름은 정규화한 형태로 비교하므로 {11}은 {12}와 같습니다. git 루트까지의 상위 디렉터리에 있는 매니페스트도 포함됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "기본 {0}을 사용하면 x18n은 표에 나온 순서대로 각 프리셋을 검사합니다. 대부분의 프리셋은 프로젝트가 나열된 패키지 중 하나에 의존할 때 적용됩니다. x18n은 {1}의 dependencies, dev dependencies, peer dependencies와 {2}, {3}, {4}, {5}의 의존성, 그리고 {6}({7}, {8}, {9} 및 Poetry 의존성 테이블)과 {10}의 Python requirements를 읽습니다. Python 패키지 이름은 정규화한 형태로 비교하므로 {11}은 {12}와 같습니다. git 루트까지의 상위 디렉터리에 있는 매니페스트도 포함됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

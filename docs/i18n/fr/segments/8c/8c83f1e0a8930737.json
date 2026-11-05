@@ -1,0 +1,18 @@
+{
+  "hash": "8c83f1e0a8930737",
+  "source": "Project: the presets, locale finders, formats and scanners, the problems x18n found, and the config with the origin of each value.",
+  "text": "Project : les presets, les détecteurs de langues, les formats et les scanners, les problèmes trouvés par x18n, et la configuration avec l'origine de chaque valeur.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Project : les presets, les détecteurs de langues, les formats et les scanners, les problèmes trouvés par x18n, et la configuration avec l'origine de chaque valeur."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

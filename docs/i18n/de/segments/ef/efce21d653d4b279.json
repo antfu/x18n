@@ -1,0 +1,18 @@
+{
+  "hash": "efce21d653d4b279",
+  "source": "With a key read from a property: the property beside it that describes the message for translators, such as {0} for {1}.",
+  "text": "Bei einem Schlüssel, der aus einer Property gelesen wird: die danebenstehende Property, die die Message für Übersetzer beschreibt, zum Beispiel {0} für {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Bei einem Schlüssel, der aus einer Property gelesen wird: die danebenstehende Property, die die Message für Übersetzer beschreibt, zum Beispiel {0} für {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

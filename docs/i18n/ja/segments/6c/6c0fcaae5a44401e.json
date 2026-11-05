@@ -1,0 +1,18 @@
+{
+  "hash": "6c0fcaae5a44401e",
+  "source": "A target value that equals the source value, except values that stay the same in every language.",
+  "text": "ソース値と同じターゲット値。ただし、すべての言語で同じままにする値は除きます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ソース値と同じターゲット値。ただし、すべての言語で同じままにする値は除きます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

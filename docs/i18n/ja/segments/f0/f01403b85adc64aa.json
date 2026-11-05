@@ -1,0 +1,18 @@
+{
+  "hash": "f01403b85adc64aa",
+  "source": "{0} receives the final, frozen config. Read plugin options from {1} here.",
+  "text": "{0} は、確定して凍結された最終的な設定を受け取ります。ここで {1} からプラグインのオプションを読み取ります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は、確定して凍結された最終的な設定を受け取ります。ここで {1} からプラグインのオプションを読み取ります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

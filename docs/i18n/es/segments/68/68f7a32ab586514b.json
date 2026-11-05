@@ -1,0 +1,18 @@
+{
+  "hash": "68f7a32ab586514b",
+  "source": "One comment on one message: a {0}, an {1}, a {2} or a {3}.",
+  "text": "Un comentario sobre un mensaje: un {0}, un {1}, un {2} o un {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un comentario sobre un mensaje: un {0}, un {1}, un {2} o un {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "e020689143c39d4a",
+  "source": "CSS color of in-place values. Empty uses the inlay hint color of the theme.",
+  "text": "Couleur CSS des valeurs en remplacement. Vide utilise la couleur des inlay hints du thème.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Couleur CSS des valeurs en remplacement. Vide utilise la couleur des inlay hints du thème."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

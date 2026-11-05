@@ -1,0 +1,18 @@
+{
+  "hash": "bee3494ffbdf1bba",
+  "source": "Monorepo: directories (globs) that are projects inheriting this config.",
+  "text": "모노레포: 이 설정을 상속하는 프로젝트의 디렉터리(glob)입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모노레포: 이 설정을 상속하는 프로젝트의 디렉터리(glob)입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

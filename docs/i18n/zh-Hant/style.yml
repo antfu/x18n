@@ -1,0 +1,8 @@
+rules:
+  - 'Write Traditional Chinese as used in Taiwan, for developers, in a neutral and direct technical register. Address the reader as "你", never "您".'
+  - 'Use Taiwanese technical vocabulary (程式, 檔案, 設定, 預設, 伺服器, 資料), not mainland terms (程序, 文件, 配置, 默认, 服务器, 数据).'
+  - 'Use full-width Chinese punctuation (，。：；！？（）「」) in Chinese prose, and half-width punctuation inside code, paths and English names.'
+  - 'Put one space between CJK characters and adjacent Latin letters or digits, except next to full-width punctuation.'
+  - 'Keep code identifiers, file and directory names, package names, CLI commands and flags, configuration keys, check ids and error codes in English.'
+  - 'Keep the names of i18n libraries and frameworks (vue-i18n, i18next, next-intl, Nuxt, React, Angular, ...) in English.'
+  - Translate headings concisely; do not add terminal punctuation to headings.

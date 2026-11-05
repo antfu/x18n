@@ -1,0 +1,18 @@
+{
+  "hash": "29c6711ca9e81c91",
+  "source": "Translations that a component gives to {0} are not read.",
+  "text": "As traduções que um componente passa para {0} não são lidas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "As traduções que um componente passa para {0} não são lidas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

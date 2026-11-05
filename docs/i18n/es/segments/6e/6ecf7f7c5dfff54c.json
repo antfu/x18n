@@ -1,0 +1,18 @@
+{
+  "hash": "6ecf7f7c5dfff54c",
+  "source": "Explicit format id per file extension (without dot).",
+  "text": "Id de formato explícito por extensión de archivo (sin punto).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Id de formato explícito por extensión de archivo (sin punto)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

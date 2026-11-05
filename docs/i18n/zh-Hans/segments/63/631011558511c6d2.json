@@ -1,0 +1,18 @@
+{
+  "hash": "631011558511c6d2",
+  "source": "Returns the files that the migration from i18n-ally writes, as {0}. Nothing is written.",
+  "text": "以 {0} 的形式返回从 i18n-ally 迁移时会写入的文件。不会写入任何内容。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以 {0} 的形式返回从 i18n-ally 迁移时会写入的文件。不会写入任何内容。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

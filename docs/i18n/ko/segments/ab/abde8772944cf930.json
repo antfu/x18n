@@ -1,0 +1,18 @@
+{
+  "hash": "abde8772944cf930",
+  "source": "The preset for ngx-translate. It reads the translate pipe and directive in Angular templates, and TranslateService calls.",
+  "text": "ngx-translate용 프리셋입니다. Angular 템플릿의 translate 파이프와 디렉티브, 그리고 TranslateService 호출을 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ngx-translate용 프리셋입니다. Angular 템플릿의 translate 파이프와 디렉티브, 그리고 TranslateService 호출을 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

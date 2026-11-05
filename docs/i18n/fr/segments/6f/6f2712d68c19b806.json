@@ -1,0 +1,18 @@
+{
+  "hash": "6f2712d68c19b806",
+  "source": "Print the JSON contract instead of human output",
+  "text": "Afficher le contrat JSON au lieu de la sortie lisible",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Afficher le contrat JSON au lieu de la sortie lisible"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

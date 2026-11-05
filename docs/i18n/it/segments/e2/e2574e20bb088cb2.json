@@ -1,0 +1,18 @@
+{
+  "hash": "e2574e20bb088cb2",
+  "source": "the other locales of the same language: those that share more subtags with the target first ({0} and {1} before {2} for {3}), then the shorter codes, then in alphabetical order.",
+  "text": "le altre lingue della stessa lingua: prima quelle che condividono più sottotag con la lingua di destinazione ({0} e {1} prima di {2} per {3}), poi i codici più corti, poi in ordine alfabetico.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "le altre lingue della stessa lingua: prima quelle che condividono più sottotag con la lingua di destinazione ({0} e {1} prima di {2} per {3}), poi i codici più corti, poi in ordine alfabetico."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

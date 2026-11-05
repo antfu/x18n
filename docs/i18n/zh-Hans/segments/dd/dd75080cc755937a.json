@@ -1,0 +1,18 @@
+{
+  "hash": "dd75080cc755937a",
+  "source": "The preset for angular-i18next. It reads the pipes in Angular templates, injected services under any name, namespace and scope providers, translated titles and validation messages.",
+  "text": "angular-i18next 的预设。它会读取 Angular 模板中的管道、任意名称的注入服务、命名空间和作用域 provider、已翻译的标题以及验证消息。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "angular-i18next 的预设。它会读取 Angular 模板中的管道、任意名称的注入服务、命名空间和作用域 provider、已翻译的标题以及验证消息。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

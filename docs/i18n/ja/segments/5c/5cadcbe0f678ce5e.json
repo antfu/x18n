@@ -1,0 +1,18 @@
+{
+  "hash": "5cadcbe0f678ce5e",
+  "source": "more translate calls. Wildcards such as {0} are skipped.",
+  "text": "翻訳呼び出しの追加。{0} などのワイルドカードはスキップされます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "翻訳呼び出しの追加。{0} などのワイルドカードはスキップされます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

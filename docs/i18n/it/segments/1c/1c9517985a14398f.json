@@ -1,0 +1,18 @@
+{
+  "hash": "1c9517985a14398f",
+  "source": "XMB messages and their XTB translations. Each message id is a key. Placeholders read as {0}. The {1} and {2} attributes describe a message.",
+  "text": "Messaggi XMB e relative traduzioni XTB. L'id di ogni messaggio è una chiave. I segnaposto vengono letti come {0}. Gli attributi {1} e {2} descrivono un messaggio.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Messaggi XMB e relative traduzioni XTB. L'id di ogni messaggio è una chiave. I segnaposto vengono letti come {0}. Gli attributi {1} e {2} descrivono un messaggio."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b6ef0def07281a8b",
+  "source": "the parameters of control-flow blocks such as {0}, {1}, {2}, {3} and {4}, and {5} declarations; the content of the blocks is scanned,",
+  "text": "os parâmetros de blocos de controle de fluxo, como {0}, {1}, {2}, {3} e {4}, e as declarações {5}; o conteúdo dos blocos é analisado,",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "os parâmetros de blocos de controle de fluxo, como {0}, {1}, {2}, {3} e {4}, e as declarações {5}; o conteúdo dos blocos é analisado,"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

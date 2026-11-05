@@ -1,0 +1,18 @@
+{
+  "hash": "e7e74bbe9c7b6ab5",
+  "source": "For renames and deletes, run with {0} first and read the plan.",
+  "text": "進行重新命名與刪除時，請先搭配 {0} 執行並閱讀計畫。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "進行重新命名與刪除時，請先搭配 {0} 執行並閱讀計畫。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

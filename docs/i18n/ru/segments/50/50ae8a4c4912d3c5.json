@@ -1,0 +1,18 @@
+{
+  "hash": "50ae8a4c4912d3c5",
+  "source": "A {0}YAML plugin{/0} is a data file. It covers the common cases: detection, resource patterns, translate calls, regex scanners, scopes, placeholders and extraction templates. It needs no code and no build, and an editor validates it with a JSON Schema. It works in YAML and JSON projects without Node dependencies.",
+  "text": "{0}YAML-плагин{/0} — это файл с данными. Он покрывает типичные случаи: обнаружение, шаблоны ресурсов, вызовы перевода, regex-сканеры, области видимости, плейсхолдеры и шаблоны извлечения. Он не требует ни кода, ни сборки, а редактор проверяет его с помощью JSON Schema. Он работает в проектах на YAML и JSON без зависимостей от Node.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}YAML-плагин{/0} — это файл с данными. Он покрывает типичные случаи: обнаружение, шаблоны ресурсов, вызовы перевода, regex-сканеры, области видимости, плейсхолдеры и шаблоны извлечения. Он не требует ни кода, ни сборки, а редактор проверяет его с помощью JSON Schema. Он работает в проектах на YAML и JSON без зависимостей от Node."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

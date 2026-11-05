@@ -1,0 +1,18 @@
+{
+  "hash": "827b7f0e4d9a3a13",
+  "source": "In TS, each preset is also a function in {0}, named in camelCase. Use it when a config builds on the preset object:",
+  "text": "In TS ist jedes Preset auch eine Funktion in {0}, benannt in camelCase. Verwende sie, wenn eine Konfiguration auf dem Preset-Objekt aufbaut:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In TS ist jedes Preset auch eine Funktion in {0}, benannt in camelCase. Verwende sie, wenn eine Konfiguration auf dem Preset-Objekt aufbaut:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

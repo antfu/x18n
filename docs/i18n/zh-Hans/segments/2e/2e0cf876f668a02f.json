@@ -1,0 +1,18 @@
+{
+  "hash": "2e0cf876f668a02f",
+  "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
+  "text": "将鼠标悬停在键上，会显示该键在各语言中的值和引用次数，并提供链接，可在 UI 中打开该键、复制翻译提示词，或使用 agent 翻译。诊断信息与 {0} 的诊断信息相同。快速修复来自各项检查，例如「将键添加到源语言」或「复制源值」。代码操作还可以提取硬编码字符串、提取文件中的所有硬编码字符串，或为某个字符串添加忽略注释。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将鼠标悬停在键上，会显示该键在各语言中的值和引用次数，并提供链接，可在 UI 中打开该键、复制翻译提示词，或使用 agent 翻译。诊断信息与 {0} 的诊断信息相同。快速修复来自各项检查，例如「将键添加到源语言」或「复制源值」。代码操作还可以提取硬编码字符串、提取文件中的所有硬编码字符串，或为某个字符串添加忽略注释。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

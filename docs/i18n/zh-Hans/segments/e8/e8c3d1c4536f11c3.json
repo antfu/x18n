@@ -1,0 +1,18 @@
+{
+  "hash": "e8c3d1c4536f11c3",
+  "source": "To check only some problems in a step, use {0}. To check one locale, use {1}:",
+  "text": "若只想在某个步骤中检查部分问题，请使用 {0}。若只检查一种语言，请使用 {1}：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若只想在某个步骤中检查部分问题，请使用 {0}。若只检查一种语言，请使用 {1}："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

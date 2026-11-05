@@ -1,0 +1,18 @@
+{
+  "hash": "9aaf54f6ec7576e1",
+  "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
+  "text": "Chaves: {0}. Chaves duplas: {1}, a contagem nas formas de plural.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaves: {0}. Chaves duplas: {1}, a contagem nas formas de plural."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

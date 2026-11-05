@@ -1,0 +1,18 @@
+{
+  "hash": "c00de46650d7d043",
+  "source": "Option names the library reads itself, which a message need not use ({0}, {1}).",
+  "text": "Имена опций, которые библиотека читает сама и которые сообщение может не использовать ({0}, {1}).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Имена опций, которые библиотека читает сама и которые сообщение может не использовать ({0}, {1})."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

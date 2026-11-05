@@ -1,0 +1,18 @@
+{
+  "hash": "8b3a812d164a5bcf",
+  "source": "When the project has a review file, every value that x18n writes into a target locale also records a hash of the source value in the {0} section. While the source value stays the same, the translation is up to date, even when git says it is older than the source. See {1}. {2} records the current source value without a change, for a translation that is still right after the source changed.",
+  "text": "Если в проекте есть файл ревью, то для каждого значения, которое x18n записывает в целевую локаль, в раздел {0} также сохраняется хеш исходного значения. Пока исходное значение не меняется, перевод актуален, даже если по данным git он старше источника. См. {1}. {2} записывает текущее исходное значение без изменений — для перевода, который остался верным после изменения источника.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Если в проекте есть файл ревью, то для каждого значения, которое x18n записывает в целевую локаль, в раздел {0} также сохраняется хеш исходного значения. Пока исходное значение не меняется, перевод актуален, даже если по данным git он старше источника. См. {1}. {2} записывает текущее исходное значение без изменений — для перевода, который остался верным после изменения источника."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

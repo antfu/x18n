@@ -1,0 +1,18 @@
+{
+  "hash": "cfc4305576fd773a",
+  "source": "One reported issue with a code, severity and optional fixes.",
+  "text": "一个已报告的问题，包含代码、严重程度和可选的修复。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "一个已报告的问题，包含代码、严重程度和可选的修复。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b6ef8ff163670ceb",
+  "source": "The templates add no import, because where {0} comes from depends on the adapter ({1} in React, {2} in Svelte).",
+  "text": "템플릿은 import를 추가하지 않습니다. {0}을(를) 어디에서 가져오는지는 어댑터에 따라 다르기 때문입니다(React에서는 {1}, Svelte에서는 {2}).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "템플릿은 import를 추가하지 않습니다. {0}을(를) 어디에서 가져오는지는 어댑터에 따라 다르기 때문입니다(React에서는 {1}, Svelte에서는 {2})."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

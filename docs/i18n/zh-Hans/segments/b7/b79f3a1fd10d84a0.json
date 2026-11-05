@@ -1,0 +1,18 @@
+{
+  "hash": "b79f3a1fd10d84a0",
+  "source": "Project root, relative to the config file.",
+  "text": "项目根目录，相对于配置文件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "项目根目录，相对于配置文件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

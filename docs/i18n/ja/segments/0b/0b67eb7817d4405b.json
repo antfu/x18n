@@ -1,0 +1,18 @@
+{
+  "hash": "0b67eb7817d4405b",
+  "source": "The preset for gettext in PHP. It reads .po catalogs and gettext, _ and __ calls. It applies only when you list it.",
+  "text": "PHP の gettext 用プリセットです。.po カタログと、gettext、_、__ の呼び出しを読み取ります。リストに指定した場合にのみ適用されます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP の gettext 用プリセットです。.po カタログと、gettext、_、__ の呼び出しを読み取ります。リストに指定した場合にのみ適用されます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

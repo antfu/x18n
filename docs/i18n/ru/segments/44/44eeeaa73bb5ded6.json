@@ -1,0 +1,18 @@
+{
+  "hash": "44eeeaa73bb5ded6",
+  "source": "Text of a value in any locale, ignoring case.",
+  "text": "Текст значения в любой локали без учёта регистра.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Текст значения в любой локали без учёта регистра."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

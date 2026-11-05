@@ -1,0 +1,18 @@
+{
+  "hash": "d3d9d771a10be83d",
+  "source": "Read the field path in the message and compare the value with the {0}config reference{/0}.",
+  "text": "Leia o caminho do campo na mensagem e compare o valor com a {0}referência de configuração{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Leia o caminho do campo na mensagem e compare o valor com a {0}referência de configuração{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

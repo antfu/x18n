@@ -1,0 +1,18 @@
+{
+  "hash": "fc89831ed1e9eca9",
+  "source": "Only values containing the query; by default a fuzzy match also counts.",
+  "text": "Solo valores que contienen la consulta; por defecto también cuenta una coincidencia difusa.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo valores que contienen la consulta; por defecto también cuenta una coincidencia difusa."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

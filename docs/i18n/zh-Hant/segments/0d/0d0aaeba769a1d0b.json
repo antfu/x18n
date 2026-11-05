@@ -1,0 +1,18 @@
+{
+  "hash": "0d0aaeba769a1d0b",
+  "source": "Only one store is active: the last one, so a plugin's store replaces the built-in one.",
+  "text": "同一時間只會啟用一個儲存區：即最後一個，因此外掛的儲存區會取代內建的儲存區。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同一時間只會啟用一個儲存區：即最後一個，因此外掛的儲存區會取代內建的儲存區。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "1c7e8b67d226cda2",
+  "source": "CLI and x18n check",
+  "text": "CLI und x18n check",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI und x18n check"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

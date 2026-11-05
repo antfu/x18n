@@ -1,0 +1,18 @@
+{
+  "hash": "ffc2fa245f643173",
+  "source": "List commands page their output. {0} sets the page size. The output ends with a {1} value for the next page, and the JSON output has it as {2}:",
+  "text": "Os comandos de listagem paginam a saída. {0} define o tamanho da página. A saída termina com um valor {1} para a próxima página, e a saída JSON o traz como {2}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Os comandos de listagem paginam a saída. {0} define o tamanho da página. A saída termina com um valor {1} para a próxima página, e a saída JSON o traz como {2}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

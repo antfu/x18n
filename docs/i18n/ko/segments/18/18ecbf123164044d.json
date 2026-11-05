@@ -1,0 +1,18 @@
+{
+  "hash": "18ecbf123164044d",
+  "source": "Print a JSON Schema: config (default), plugin or reviews.",
+  "text": "JSON Schema를 출력합니다: config (기본값), plugin 또는 reviews.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON Schema를 출력합니다: config (기본값), plugin 또는 reviews."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

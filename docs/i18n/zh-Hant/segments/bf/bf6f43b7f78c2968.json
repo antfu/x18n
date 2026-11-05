@@ -1,0 +1,18 @@
+{
+  "hash": "bf6f43b7f78c2968",
+  "source": "The translate prompt for a locale, as markdown.",
+  "text": "某個語系的翻譯提示，格式為 markdown。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某個語系的翻譯提示，格式為 markdown。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

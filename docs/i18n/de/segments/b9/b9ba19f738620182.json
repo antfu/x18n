@@ -1,0 +1,18 @@
+{
+  "hash": "b9ba19f738620182",
+  "source": "PHP files that return an array literal",
+  "text": "PHP-Dateien, die ein Array-Literal zurückgeben",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP-Dateien, die ein Array-Literal zurückgeben"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

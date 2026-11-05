@@ -1,0 +1,18 @@
+{
+  "hash": "9017c2bc9a6fa81e",
+  "source": "One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, history provider, review store.",
+  "text": "Un type de contribution : lecteur de manifeste, localisateur de langues, format, scanner, extracteur, vérification, reporter, syntaxe d'espace réservé, fournisseur d'historique, stockage de relectures.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un type de contribution : lecteur de manifeste, localisateur de langues, format, scanner, extracteur, vérification, reporter, syntaxe d'espace réservé, fournisseur d'historique, stockage de relectures."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

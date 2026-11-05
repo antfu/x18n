@@ -1,0 +1,18 @@
+{
+  "hash": "79c03c32213119fe",
+  "source": "The callee is a factory that returns the translate function, for example {0} returning {1}.",
+  "text": "Der Aufgerufene ist eine Factory, die die Übersetzungsfunktion zurückgibt, zum Beispiel {0}, die {1} zurückgibt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Aufgerufene ist eine Factory, die die Übersetzungsfunktion zurückgibt, zum Beispiel {0}, die {1} zurückgibt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

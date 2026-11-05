@@ -1,0 +1,18 @@
+{
+  "hash": "8fe148c00c0760ca",
+  "source": "Fluent variables: {0}. For {1} in {2} and {3} in {4}, the {5} check reports {6}.",
+  "text": "Variables de Fluent: {0}. Para {1} en {2} y {3} en {4}, la comprobación {5} informa de {6}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Variables de Fluent: {0}. Para {1} en {2} y {3} en {4}, la comprobación {5} informa de {6}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

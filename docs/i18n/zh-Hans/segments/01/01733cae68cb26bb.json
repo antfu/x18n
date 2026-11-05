@@ -1,0 +1,18 @@
+{
+  "hash": "01733cae68cb26bb",
+  "source": "The project root. The default is the root of the host, and x18n searches upward for a config file from there. With {0}, x18n does not search upward.",
+  "text": "项目根目录。默认值是宿主的根目录，x18n 会从该目录向上搜索配置文件。使用 {0} 时，x18n 不会向上搜索。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "项目根目录。默认值是宿主的根目录，x18n 会从该目录向上搜索配置文件。使用 {0} 时，x18n 不会向上搜索。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

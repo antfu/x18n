@@ -1,0 +1,18 @@
+{
+  "hash": "858ae9d4775ef127",
+  "source": "When the settings hold regex scanners, scopes, refactor templates, locale flags, or a custom framework. The config lists it in {0}.",
+  "text": "設定に正規表現スキャナー、スコープ、リファクタリングテンプレート、ロケールのフラグ、またはカスタムフレームワークが含まれる場合。設定ファイルでは {0} に記載されます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定に正規表現スキャナー、スコープ、リファクタリングテンプレート、ロケールのフラグ、またはカスタムフレームワークが含まれる場合。設定ファイルでは {0} に記載されます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

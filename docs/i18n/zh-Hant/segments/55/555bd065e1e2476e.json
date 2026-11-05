@@ -1,0 +1,18 @@
+{
+  "hash": "555bd065e1e2476e",
+  "source": "Print the parts as data, for tools that build their own prompt. {0} does the same.",
+  "text": "將各部分以資料形式輸出，供自行建立提示的工具使用。{0} 的作用相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將各部分以資料形式輸出，供自行建立提示的工具使用。{0} 的作用相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

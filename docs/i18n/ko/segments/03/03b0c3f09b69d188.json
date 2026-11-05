@@ -1,0 +1,18 @@
+{
+  "hash": "03b0c3f09b69d188",
+  "source": "In a file, {0} is a key, {1} is one key per quantity ({2}), and {3} is one key per item ({4}). Deleting an item before the end empties it, so later items keep their index. {5} is not a message, and x18n does not write to it. A comment right above an entry is its description for translators. x18n reads and writes Android's escapes ({6}, {7}, {8}, a leading {9}), keeps inline markup such as {10}, and keeps CDATA.",
+  "text": "파일에서 {0}은 키 하나이고, {1}은 수량별로 키 하나이며({2}), {3}은 항목별로 키 하나입니다({4}). 마지막이 아닌 항목을 삭제하면 해당 항목은 비워지므로 이후 항목의 인덱스는 유지됩니다. {5}은 메시지가 아니며 x18n은 여기에 쓰지 않습니다. 항목 바로 위에 있는 주석은 번역자를 위한 설명으로 사용됩니다. x18n은 Android의 이스케이프({6}, {7}, {8}, 맨 앞의 {9})를 읽고 쓰며, {10} 같은 인라인 마크업과 CDATA를 유지합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일에서 {0}은 키 하나이고, {1}은 수량별로 키 하나이며({2}), {3}은 항목별로 키 하나입니다({4}). 마지막이 아닌 항목을 삭제하면 해당 항목은 비워지므로 이후 항목의 인덱스는 유지됩니다. {5}은 메시지가 아니며 x18n은 여기에 쓰지 않습니다. 항목 바로 위에 있는 주석은 번역자를 위한 설명으로 사용됩니다. x18n은 Android의 이스케이프({6}, {7}, {8}, 맨 앞의 {9})를 읽고 쓰며, {10} 같은 인라인 마크업과 CDATA를 유지합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

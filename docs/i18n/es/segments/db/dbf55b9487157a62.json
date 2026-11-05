@@ -1,0 +1,18 @@
+{
+  "hash": "dbf55b9487157a62",
+  "source": "Give each check, format and reporter a unique id. Prefix the ids with the name of your plugin to avoid conflicts.",
+  "text": "Asigna un id único a cada comprobación, formato y reporter. Añade como prefijo de los ids el nombre de tu plugin para evitar conflictos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Asigna un id único a cada comprobación, formato y reporter. Añade como prefijo de los ids el nombre de tu plugin para evitar conflictos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

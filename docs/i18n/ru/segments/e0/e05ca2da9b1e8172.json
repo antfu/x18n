@@ -1,0 +1,18 @@
+{
+  "hash": "e05ca2da9b1e8172",
+  "source": "The author is {0} from the config, else git {1} and {2}. {3} overrides both.",
+  "text": "Автор — {0} из конфигурации, иначе git {1} и {2}. {3} переопределяет оба значения.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Автор — {0} из конфигурации, иначе git {1} и {2}. {3} переопределяет оба значения."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

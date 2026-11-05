@@ -1,0 +1,18 @@
+{
+  "hash": "5284a970f4390b4f",
+  "source": ".NET resources. Each string {0} is a key; files and images are skipped. Its {1} describes it.",
+  "text": "Recursos .NET. Cada string {0} é uma chave; arquivos e imagens são ignorados. Seu {1} a descreve.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Recursos .NET. Cada string {0} é uma chave; arquivos e imagens são ignorados. Seu {1} a descreve."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

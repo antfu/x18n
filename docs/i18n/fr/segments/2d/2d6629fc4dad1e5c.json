@@ -1,0 +1,18 @@
+{
+  "hash": "2d6629fc4dad1e5c",
+  "source": "Text in a Svelte component",
+  "text": "Texte dans un composant Svelte",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Texte dans un composant Svelte"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "4a6ef88e7c6fc5db",
+  "source": "A question in a plan that a surface must answer before apply.",
+  "text": "적용하기 전에 인터페이스가 답해야 하는 계획 내의 질문입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "적용하기 전에 인터페이스가 답해야 하는 계획 내의 질문입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

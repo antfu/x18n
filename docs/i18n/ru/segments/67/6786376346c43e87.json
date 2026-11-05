@@ -1,0 +1,18 @@
+{
+  "hash": "6786376346c43e87",
+  "source": "{0}, {1} and {2} return the plan first. A second call with {3} applies it. {4}MCP tools{/4} lists the input fields of each tool.",
+  "text": "{0}, {1} и {2} сначала возвращают план. Второй вызов с {3} применяет его. В разделе {4}Инструменты MCP{/4} перечислены входные поля каждого инструмента.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}, {1} и {2} сначала возвращают план. Второй вызов с {3} применяет его. В разделе {4}Инструменты MCP{/4} перечислены входные поля каждого инструмента."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "dc17d5f996ffbc42",
+  "source": "Adds the missing keys of each locale with empty values. {0} copies the source value. {1} limits it.",
+  "text": "為各語系缺少的鍵新增空值。{0} 會複製來源值。{1} 可限定範圍。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "為各語系缺少的鍵新增空值。{0} 會複製來源值。{1} 可限定範圍。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

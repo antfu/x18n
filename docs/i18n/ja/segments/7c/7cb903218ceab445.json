@@ -1,0 +1,18 @@
+{
+  "hash": "7cb903218ceab445",
+  "source": "Messages per prompt. Default 50.",
+  "text": "1 回のプロンプトあたりのメッセージ数です。デフォルトは 50 です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "1 回のプロンプトあたりのメッセージ数です。デフォルトは 50 です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

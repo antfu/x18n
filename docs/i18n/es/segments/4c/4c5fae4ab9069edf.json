@@ -1,0 +1,18 @@
+{
+  "hash": "4c5fae4ab9069edf",
+  "source": "The fix adds the key with the default value written in the call ({0} or {1} with i18next), else with an empty value.",
+  "text": "La corrección añade la clave con el valor por defecto escrito en la llamada ({0} o {1} con i18next); si no existe, con un valor vacío.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La corrección añade la clave con el valor por defecto escrito en la llamada ({0} o {1} con i18next); si no existe, con un valor vacío."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

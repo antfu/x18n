@@ -1,0 +1,18 @@
+{
+  "hash": "22a30349639c93b8",
+  "source": "On a project with many known problems, commit a {0}baseline{/0} with {1}. The build then fails only on new diagnostics.",
+  "text": "En un proyecto con muchos problemas conocidos, haz commit de un {0}baseline{/0} con {1}. A partir de entonces, el build solo falla con los diagnósticos nuevos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "En un proyecto con muchos problemas conocidos, haz commit de un {0}baseline{/0} con {1}. A partir de entonces, el build solo falla con los diagnósticos nuevos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

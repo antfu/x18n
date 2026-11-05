@@ -1,0 +1,18 @@
+{
+  "hash": "a7c563fc3057e3b4",
+  "source": "A generated id changes with the text, so renaming such a key in x18n does not change the template. Custom ids are easier to manage.",
+  "text": "Un id généré change avec le texte, donc renommer une telle clé dans x18n ne modifie pas le template. Les ids personnalisés sont plus faciles à gérer.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un id généré change avec le texte, donc renommer une telle clé dans x18n ne modifie pas le template. Les ids personnalisés sont plus faciles à gérer."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

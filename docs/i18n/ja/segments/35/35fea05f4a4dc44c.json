@@ -1,0 +1,18 @@
+{
+  "hash": "35fea05f4a4dc44c",
+  "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check. See {1}Checks{/1}.",
+  "text": "チェックはプロジェクトを読み取り、診断を報告します。診断とは、コード、重大度、および任意の修正を持つ、報告された 1 件の問題のことです。{0} はすべてのチェックを実行します。{1}チェック{/1}を参照してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "チェックはプロジェクトを読み取り、診断を報告します。診断とは、コード、重大度、および任意の修正を持つ、報告された 1 件の問題のことです。{0} はすべてのチェックを実行します。{1}チェック{/1}を参照してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

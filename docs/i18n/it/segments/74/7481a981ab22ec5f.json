@@ -1,0 +1,18 @@
+{
+  "hash": "7481a981ab22ec5f",
+  "source": "The default export can also be a function that returns the config, or a promise of it.",
+  "text": "L'export predefinito può anche essere una funzione che restituisce la configurazione, oppure una promise che la restituisce.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'export predefinito può anche essere una funzione che restituisce la configurazione, oppure una promise che la restituisce."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

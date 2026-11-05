@@ -1,0 +1,18 @@
+{
+  "hash": "9dfa58ddad0c5fbe",
+  "source": "Show what x18n found:",
+  "text": "查看 x18n 找到了什么：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "查看 x18n 找到了什么："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

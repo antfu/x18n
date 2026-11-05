@@ -1,0 +1,18 @@
+{
+  "hash": "b82f40504ca92737",
+  "source": "A locale is a locale code, exactly as it is written in paths and files: {0}, {1}, {2}. x18n never changes the spelling of a code.",
+  "text": "ロケールとは、パスやファイルに書かれているとおりのロケールコードです（{0}、{1}、{2}）。x18n がコードの表記を変更することはありません。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールとは、パスやファイルに書かれているとおりのロケールコードです（{0}、{1}、{2}）。x18n がコードの表記を変更することはありません。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

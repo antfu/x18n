@@ -1,0 +1,18 @@
+{
+  "hash": "e229aa450bcc50c0",
+  "source": "Each preset page lists what the preset adds:",
+  "text": "각 프리셋 페이지에는 해당 프리셋이 추가하는 항목이 나와 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 프리셋 페이지에는 해당 프리셋이 추가하는 항목이 나와 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

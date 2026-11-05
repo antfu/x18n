@@ -1,0 +1,18 @@
+{
+  "hash": "d067f69c62f2cf58",
+  "source": "Resource is not an object of messages. Locale files hold nested objects of strings, numbers, booleans or null.",
+  "text": "Die Ressource ist kein Objekt aus messages. Sprachdateien enthalten verschachtelte Objekte aus Strings, Zahlen, Booleans oder null.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Ressource ist kein Objekt aus messages. Sprachdateien enthalten verschachtelte Objekte aus Strings, Zahlen, Booleans oder null."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

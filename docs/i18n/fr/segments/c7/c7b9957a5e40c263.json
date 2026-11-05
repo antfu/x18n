@@ -1,0 +1,18 @@
+{
+  "hash": "c7b9957a5e40c263",
+  "source": "Or set {0} on the resource pattern. x18n then runs the file in Node, and the messages become read-only.",
+  "text": "Ou définissez {0} sur le motif de ressource. x18n exécute alors le fichier dans Node, et les messages deviennent en lecture seule.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ou définissez {0} sur le motif de ressource. x18n exécute alors le fichier dans Node, et les messages deviennent en lecture seule."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

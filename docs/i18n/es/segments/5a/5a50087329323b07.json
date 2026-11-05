@@ -1,0 +1,18 @@
+{
+  "hash": "5a50087329323b07",
+  "source": "The preset adds the default {0}extraction templates{/0}, for example {1} for strings in JS and TS. It adds no translate calls.",
+  "text": "El preset añade las {0}plantillas de extracción{/0} predeterminadas, por ejemplo {1} para cadenas en JS y TS. No añade llamadas de traducción.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset añade las {0}plantillas de extracción{/0} predeterminadas, por ejemplo {1} para cadenas en JS y TS. No añade llamadas de traducción."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

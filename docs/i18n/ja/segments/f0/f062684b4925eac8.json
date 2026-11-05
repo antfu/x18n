@@ -1,0 +1,18 @@
+{
+  "hash": "f062684b4925eac8",
+  "source": "Everything between the two comments. Without an end, everything to the end of the file.",
+  "text": "2つのコメントの間のすべて。終了コメントがない場合は、ファイルの末尾まで。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "2つのコメントの間のすべて。終了コメントがない場合は、ファイルの末尾まで。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

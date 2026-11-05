@@ -1,0 +1,18 @@
+{
+  "hash": "c700f0820ee8262f",
+  "source": "The built-in scanners are {0} (JS, TS, JSX), {1}, {2}, {3}, {4} and {5}. The {6} scanner finds hard strings in HTML and Angular templates; the {7} and {8} presets add it. Most libraries need no new scanner: a call spec in {9} or a regex scanner is enough.",
+  "text": "Gli scanner integrati sono {0} (JS, TS, JSX), {1}, {2}, {3}, {4} e {5}. Lo scanner {6} trova le stringhe hardcoded in HTML e nei template Angular; i preset {7} e {8} lo aggiungono. La maggior parte delle librerie non richiede un nuovo scanner: basta una specifica di chiamata in {9} o uno scanner regex.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Gli scanner integrati sono {0} (JS, TS, JSX), {1}, {2}, {3}, {4} e {5}. Lo scanner {6} trova le stringhe hardcoded in HTML e nei template Angular; i preset {7} e {8} lo aggiungono. La maggior parte delle librerie non richiede un nuovo scanner: basta una specifica di chiamata in {9} o uno scanner regex."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "10dd6139bcb22430",
+  "source": "A message with an empty string value.",
+  "text": "Un messaggio con un valore stringa vuota.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un messaggio con un valore stringa vuota."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

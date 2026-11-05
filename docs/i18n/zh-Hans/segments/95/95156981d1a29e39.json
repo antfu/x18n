@@ -1,0 +1,18 @@
+{
+  "hash": "95156981d1a29e39",
+  "source": "A detected or listed group of plugins for one library.",
+  "text": "针对某个库检测到或列出的一组插件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "针对某个库检测到或列出的一组插件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

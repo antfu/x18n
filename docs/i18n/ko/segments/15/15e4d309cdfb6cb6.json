@@ -1,0 +1,18 @@
+{
+  "hash": "15e4d309cdfb6cb6",
+  "source": "The check is on by default, with the severity {0}.",
+  "text": "이 검사는 기본적으로 활성화되어 있으며 심각도는 {0}입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 검사는 기본적으로 활성화되어 있으며 심각도는 {0}입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

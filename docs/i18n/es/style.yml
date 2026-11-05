@@ -1,0 +1,7 @@
+rules:
+  - 'Write neutral Spanish for developers (understandable in Spain and Latin America). Address the reader as "tú" and use the imperative for instructions ("Ejecuta", "Añade").'
+  - 'Use sentence case in headings, titles and labels.'
+  - 'Keep English terms that Spanish-speaking developers use as is (pull request, monorepo, build) when there is no common Spanish equivalent.'
+  - 'Keep code identifiers, file and directory names, package names, CLI commands and flags, configuration keys, check ids and error codes in English.'
+  - 'Keep the names of i18n libraries and frameworks (vue-i18n, i18next, next-intl, Nuxt, React, Angular, ...) in English.'
+  - Translate headings concisely; do not add terminal punctuation to headings.

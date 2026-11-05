@@ -1,0 +1,18 @@
+{
+  "hash": "c69c86a183769ee5",
+  "source": "The author is {0} in the config, else the git {1} and {2}. The CLI also takes {3}.",
+  "text": "L'auteur est {0} dans la configuration, sinon le {1} et le {2} de git. Le CLI accepte aussi {3}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'auteur est {0} dans la configuration, sinon le {1} et le {2} de git. Le CLI accepte aussi {3}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

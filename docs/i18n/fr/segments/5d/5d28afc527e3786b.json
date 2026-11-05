@@ -1,0 +1,18 @@
+{
+  "hash": "5d28afc527e3786b",
+  "source": "With {0}, register x18n as an add-on server so that it runs next to the main server:",
+  "text": "Avec {0}, enregistrez x18n comme serveur complémentaire afin qu'il s'exécute à côté du serveur principal :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Avec {0}, enregistrez x18n comme serveur complémentaire afin qu'il s'exécute à côté du serveur principal :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

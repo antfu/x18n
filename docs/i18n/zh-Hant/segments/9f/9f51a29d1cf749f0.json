@@ -1,0 +1,18 @@
+{
+  "hash": "9f51a29d1cf749f0",
+  "source": "A scope folder is a key prefix in camelCase, as Transloco names it: the preset sets {0} to {1}, so {2} holds the keys {3}. For a scope with an alias, add a resource with a fixed namespace: {4}.",
+  "text": "範圍資料夾（scope folder）是以 camelCase 表示的鍵前綴，與 Transloco 的命名方式相同：預設集會將 {0} 設為 {1}，因此 {2} 包含這些鍵：{3}。若範圍有設定別名，請新增一個使用固定命名空間的資源：{4}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "範圍資料夾（scope folder）是以 camelCase 表示的鍵前綴，與 Transloco 的命名方式相同：預設集會將 {0} 設為 {1}，因此 {2} 包含這些鍵：{3}。若範圍有設定別名，請新增一個使用固定命名空間的資源：{4}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

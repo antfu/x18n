@@ -1,0 +1,18 @@
+{
+  "hash": "344004d8279346d1",
+  "source": "For an instance with another name, add its callees to {0}. A keyset function that a module exports, such as {1}, is not followed into the modules that import it.",
+  "text": "对于使用其他名称的实例，请将其调用名添加到 {0}。模块导出的 keyset 函数（例如 {1}）不会被追踪到导入它的模块中。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "对于使用其他名称的实例，请将其调用名添加到 {0}。模块导出的 keyset 函数（例如 {1}）不会被追踪到导入它的模块中。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

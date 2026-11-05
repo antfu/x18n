@@ -1,0 +1,18 @@
+{
+  "hash": "0afd94a9cb83da99",
+  "source": "A check is a generator. Each value it yields becomes a diagnostic. Without a {0}, the diagnostic points at the message of {1} in {2}. The check id is also the diagnostic code, so {3} and {4} work as for the built-in checks.",
+  "text": "Une vérification est un générateur. Chaque valeur qu'il produit devient un diagnostic. Sans {0}, le diagnostic pointe vers le message de {1} dans {2}. L'id de la vérification est aussi le code du diagnostic, donc {3} et {4} fonctionnent comme pour les vérifications intégrées.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une vérification est un générateur. Chaque valeur qu'il produit devient un diagnostic. Sans {0}, le diagnostic pointe vers le message de {1} dans {2}. L'id de la vérification est aussi le code du diagnostic, donc {3} et {4} fonctionnent comme pour les vérifications intégrées."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

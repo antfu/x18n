@@ -1,0 +1,18 @@
+{
+  "hash": "dc5791776bdd64c8",
+  "source": "the {0} keys, the legacy {1} keys, and the {2} keys of the {3}i18n-ally-next{/3} fork, in {4},",
+  "text": "ключи {0}, устаревшие ключи {1} и ключи {2} из форка {3}i18n-ally-next{/3} в {4},",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ключи {0}, устаревшие ключи {1} и ключи {2} из форка {3}i18n-ally-next{/3} в {4},"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

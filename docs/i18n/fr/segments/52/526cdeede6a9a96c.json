@@ -1,0 +1,18 @@
+{
+  "hash": "526cdeede6a9a96c",
+  "source": "Review threads show as editor comments on the key in each locale file. Reply to a thread to comment, approve, request a change or suggest a value; the buttons under the reply box pick the kind. A suggestion has an \"Apply Suggestion\" button that sets the value. \"Resolve\" closes a comment. \"x18n: Review Key\" starts a review from the cursor or from the Keys view. The language server writes reviews to {0} at once, and the hover of a key shows its review state per locale.",
+  "text": "Les fils de relecture apparaissent sous forme de commentaires d'éditeur sur la clé dans chaque fichier de langue. Répondez à un fil pour commenter, approuver, demander une modification ou suggérer une valeur ; les boutons sous la zone de réponse déterminent le type. Une suggestion a un bouton « Apply Suggestion » qui définit la valeur. « Resolve » ferme un commentaire. « x18n : Review Key » démarre une relecture depuis le curseur ou depuis la vue Keys. Le serveur de langage écrit immédiatement les relectures dans {0}, et le survol d'une clé affiche son état de relecture par langue.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les fils de relecture apparaissent sous forme de commentaires d'éditeur sur la clé dans chaque fichier de langue. Répondez à un fil pour commenter, approuver, demander une modification ou suggérer une valeur ; les boutons sous la zone de réponse déterminent le type. Une suggestion a un bouton « Apply Suggestion » qui définit la valeur. « Resolve » ferme un commentaire. « x18n : Review Key » démarre une relecture depuis le curseur ou depuis la vue Keys. Le serveur de langage écrit immédiatement les relectures dans {0}, et le survol d'une clé affiche son état de relecture par langue."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

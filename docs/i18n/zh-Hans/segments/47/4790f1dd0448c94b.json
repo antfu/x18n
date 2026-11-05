@@ -1,0 +1,18 @@
+{
+  "hash": "4790f1dd0448c94b",
+  "source": "x18n knows no i18n library and no file format by itself. Plugins add that knowledge. A preset is a group of plugins for one library. x18n detects the presets from the dependencies of the project:",
+  "text": "x18n 本身不了解任何 i18n 库或文件格式，这些知识由插件提供。预设是针对某个库的一组插件。x18n 会根据项目的依赖项检测预设：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 本身不了解任何 i18n 库或文件格式，这些知识由插件提供。预设是针对某个库的一组插件。x18n 会根据项目的依赖项检测预设："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

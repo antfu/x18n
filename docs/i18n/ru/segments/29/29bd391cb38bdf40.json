@@ -1,0 +1,18 @@
+{
+  "hash": "29bd391cb38bdf40",
+  "source": "Find keys by their value, best match first: the key behind a text seen in the app. Searches every locale, ignoring case, and matches fuzzily unless {0}. Each match has the matched locale and value, and the usages in code with file, line and column.",
+  "text": "Находит ключи по их значению, сначала лучшие совпадения: ключ, соответствующий тексту, который виден в приложении. Ищет по всем локалям без учёта регистра и использует нечёткое совпадение, если не указано {0}. Каждое совпадение содержит локаль и значение, в которых оно найдено, а также использования в коде с файлом, строкой и столбцом.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Находит ключи по их значению, сначала лучшие совпадения: ключ, соответствующий тексту, который виден в приложении. Ищет по всем локалям без учёта регистра и использует нечёткое совпадение, если не указано {0}. Каждое совпадение содержит локаль и значение, в которых оно найдено, а также использования в коде с файлом, строкой и столбцом."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

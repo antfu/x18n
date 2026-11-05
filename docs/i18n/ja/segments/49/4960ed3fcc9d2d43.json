@@ -1,0 +1,18 @@
+{
+  "hash": "4960ed3fcc9d2d43",
+  "source": "Rename a key (or every key under a parent) in all locales and usages.",
+  "text": "すべてのロケールと使用箇所で、キー（または親の下のすべてのキー）の名前を変更します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "すべてのロケールと使用箇所で、キー（または親の下のすべてのキー）の名前を変更します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

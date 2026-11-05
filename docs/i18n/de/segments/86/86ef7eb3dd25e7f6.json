@@ -1,0 +1,18 @@
+{
+  "hash": "86ef7eb3dd25e7f6",
+  "source": "When x18n renames a key, its threads move with it. When x18n deletes a key, its threads go too.",
+  "text": "Wenn x18n einen Schlüssel umbenennt, wandern seine Threads mit. Wenn x18n einen Schlüssel löscht, werden auch seine Threads gelöscht.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Wenn x18n einen Schlüssel umbenennt, wandern seine Threads mit. Wenn x18n einen Schlüssel löscht, werden auch seine Threads gelöscht."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

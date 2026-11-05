@@ -1,0 +1,18 @@
+{
+  "hash": "8ae7b9cbd51f3f50",
+  "source": "Deletes every unused key in every locale, except keys that computed keys in code may reach. {0} and the glob limit it.",
+  "text": "Elimina ogni chiave inutilizzata in ogni lingua, tranne le chiavi che le chiavi calcolate nel codice possono raggiungere. {0} e il glob la limitano.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Elimina ogni chiave inutilizzata in ogni lingua, tranne le chiavi che le chiavi calcolate nel codice possono raggiungere. {0} e il glob la limitano."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

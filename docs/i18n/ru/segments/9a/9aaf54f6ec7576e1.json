@@ -1,0 +1,18 @@
+{
+  "hash": "9aaf54f6ec7576e1",
+  "source": "Braces: {0}. Double braces: {1}, the count in plural forms.",
+  "text": "Фигурные скобки: {0}. Двойные фигурные скобки: {1} — количество в формах множественного числа.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Фигурные скобки: {0}. Двойные фигурные скобки: {1} — количество в формах множественного числа."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

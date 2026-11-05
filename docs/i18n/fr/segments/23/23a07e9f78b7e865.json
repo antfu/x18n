@@ -1,0 +1,18 @@
+{
+  "hash": "23a07e9f78b7e865",
+  "source": "x18n: Explain Projects",
+  "text": "x18n : Explain Projects",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n : Explain Projects"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

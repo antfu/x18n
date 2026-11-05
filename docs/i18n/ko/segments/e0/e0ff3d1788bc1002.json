@@ -1,0 +1,18 @@
+{
+  "hash": "e0ff3d1788bc1002",
+  "source": "A key with a {0}prefix usage{/0} is not unused, so {1} does not list keys that computed keys can reach.",
+  "text": "{0}접두사 사용처{/0}가 있는 키는 사용하지 않는 키가 아니므로 {1}은(는) 계산된 키가 도달할 수 있는 키를 나열하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}접두사 사용처{/0}가 있는 키는 사용하지 않는 키가 아니므로 {1}은(는) 계산된 키가 도달할 수 있는 키를 나열하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

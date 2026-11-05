@@ -1,0 +1,18 @@
+{
+  "hash": "3ed4d784e38ada80",
+  "source": "{0} adds the translations that the {1} check reports. Each item shows the source text from when the translation last changed. {2} adds the values that checks report in the target locale, such as {3}, {4} and {5}. A check must be on to report: {6} runs the checks of the config. Each item shows the current value and what was reported:",
+  "text": "{0} ajoute les traductions que la vérification {1} signale. Chaque élément affiche le texte source tel qu'il était lors de la dernière modification de la traduction. {2} ajoute les valeurs que les vérifications signalent dans la langue cible, comme {3}, {4} et {5}. Une vérification doit être activée pour signaler : {6} exécute les vérifications de la configuration. Chaque élément affiche la valeur actuelle et ce qui a été signalé :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} ajoute les traductions que la vérification {1} signale. Chaque élément affiche le texte source tel qu'il était lors de la dernière modification de la traduction. {2} ajoute les valeurs que les vérifications signalent dans la langue cible, comme {3}, {4} et {5}. Une vérification doit être activée pour signaler : {6} exécute les vérifications de la configuration. Chaque élément affiche la valeur actuelle et ce qui a été signalé :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

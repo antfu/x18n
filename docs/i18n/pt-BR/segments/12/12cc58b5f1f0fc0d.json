@@ -1,0 +1,18 @@
+{
+  "hash": "12cc58b5f1f0fc0d",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
+  "text": "Um padrão sem {0}, como {1}, contém o idioma de origem. Para atribuir outro idioma a ele, defina {2} no recurso.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um padrão sem {0}, como {1}, contém o idioma de origem. Para atribuir outro idioma a ele, defina {2} no recurso."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

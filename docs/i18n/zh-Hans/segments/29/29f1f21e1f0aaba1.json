@@ -1,0 +1,18 @@
+{
+  "hash": "29f1f21e1f0aaba1",
+  "source": "With {0}, every key is literal: {1}, {2} and {3} are each one key, a new key is one property of the file, and no key is the parent of another. A resource pattern can set its own {4}, for example {5} on {6} while PHP files keep {7}. The {8}, {9}, {10} and {11} presets set literal keys where their libraries use them.",
+  "text": "使用 {0} 时，每个键都按字面处理：{1}、{2} 和 {3} 各自是一个键，新键对应文件中的一个属性，且任何键都不是另一个键的父级。资源模式可以设置自己的 {4}，例如在 {6} 上使用 {5}，而 PHP 文件保持 {7}。{8}、{9}、{10} 和 {11} 预设会在其库使用字面键的地方设置字面键。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用 {0} 时，每个键都按字面处理：{1}、{2} 和 {3} 各自是一个键，新键对应文件中的一个属性，且任何键都不是另一个键的父级。资源模式可以设置自己的 {4}，例如在 {6} 上使用 {5}，而 PHP 文件保持 {7}。{8}、{9}、{10} 和 {11} 预设会在其库使用字面键的地方设置字面键。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

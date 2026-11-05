@@ -1,0 +1,18 @@
+{
+  "hash": "18c0783182513767",
+  "source": "Leave out the code around usages.",
+  "text": "Не включать код вокруг использований.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Не включать код вокруг использований."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8a6e2d1e40638828",
+  "source": "Only reviews of this locale.",
+  "text": "Только ревью этой локали.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Только ревью этой локали."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

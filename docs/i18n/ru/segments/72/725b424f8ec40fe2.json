@@ -1,0 +1,18 @@
+{
+  "hash": "725b424f8ec40fe2",
+  "source": "{0} lists placeholder shapes. Each shape holds the word {1} where the placeholder name goes: {2}, {3}, {4} or {5}.",
+  "text": "{0} перечисляет формы плейсхолдеров. В каждой форме на месте имени плейсхолдера стоит слово {1}: {2}, {3}, {4} или {5}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} перечисляет формы плейсхолдеров. В каждой форме на месте имени плейсхолдера стоит слово {1}: {2}, {3}, {4} или {5}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

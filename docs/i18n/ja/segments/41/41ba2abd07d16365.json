@@ -1,0 +1,18 @@
+{
+  "hash": "41ba2abd07d16365",
+  "source": "x18n counts only calls that it knows as translate calls. It follows string constants ({0}, then {1}) and both branches of a condition ({2}). The callee set of a file is the set of names that count: the names of the presets and of {3}, same-file aliases such as {4}, functions returned by factories such as {5}, and parameters typed as translate functions.",
+  "text": "x18n は、翻訳呼び出しとして認識している呼び出しだけを数えます。文字列定数（{0}、次に {1}）と、条件式の両方の分岐（{2}）も追跡します。ファイルの呼び出し先セットとは、対象となる名前の集合です。プリセットの名前と {3} の名前、{4} のような同一ファイル内のエイリアス、{5} のようなファクトリーが返す関数、翻訳関数として型付けされたパラメーターが含まれます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n は、翻訳呼び出しとして認識している呼び出しだけを数えます。文字列定数（{0}、次に {1}）と、条件式の両方の分岐（{2}）も追跡します。ファイルの呼び出し先セットとは、対象となる名前の集合です。プリセットの名前と {3} の名前、{4} のような同一ファイル内のエイリアス、{5} のようなファクトリーが返す関数、翻訳関数として型付けされたパラメーターが含まれます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

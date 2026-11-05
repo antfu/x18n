@@ -1,0 +1,18 @@
+{
+  "hash": "16c2b7e7d9b211da",
+  "source": "The code, such as {0}, or the JS error name of an error without a code.",
+  "text": "错误码，例如 {0}；没有错误码的错误则为 JS 错误名称。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "错误码，例如 {0}；没有错误码的错误则为 JS 错误名称。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

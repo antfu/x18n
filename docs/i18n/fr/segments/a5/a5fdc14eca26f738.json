@@ -1,0 +1,18 @@
+{
+  "hash": "a5fdc14eca26f738",
+  "source": "Placeholders: the syntax of the placeholders in messages.",
+  "text": "Espaces réservés : la syntaxe des espaces réservés dans les messages.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Espaces réservés : la syntaxe des espaces réservés dans les messages."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

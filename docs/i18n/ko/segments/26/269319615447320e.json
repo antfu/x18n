@@ -1,0 +1,18 @@
+{
+  "hash": "269319615447320e",
+  "source": "The {0}shipped skills{/0}, which teach an agent to set up x18n, fix what {1} reports, and run the loops on this page.",
+  "text": "에이전트가 x18n을 설정하고, {1}이(가) 보고하는 문제를 수정하고, 이 페이지의 루프를 실행하도록 가르치는 {0}제공되는 스킬{/0}입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "에이전트가 x18n을 설정하고, {1}이(가) 보고하는 문제를 수정하고, 이 페이지의 루프를 실행하도록 가르치는 {0}제공되는 스킬{/0}입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

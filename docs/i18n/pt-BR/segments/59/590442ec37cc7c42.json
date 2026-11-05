@@ -1,0 +1,18 @@
+{
+  "hash": "590442ec37cc7c42",
+  "source": "Extract: the hard strings with a proposed key each. Edit the keys, untick the strings to skip, and extract the rest.",
+  "text": "Extract: as strings fixas no código, cada uma com uma chave proposta. Edite as chaves, desmarque as strings que quiser ignorar e extraia o restante.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Extract: as strings fixas no código, cada uma com uma chave proposta. Edite as chaves, desmarque as strings que quiser ignorar e extraia o restante."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

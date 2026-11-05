@@ -1,0 +1,18 @@
+{
+  "hash": "52a4b50c616d2e04",
+  "source": "Display-locale value for leaves.",
+  "text": "리프 키의 표시 로케일 값입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리프 키의 표시 로케일 값입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

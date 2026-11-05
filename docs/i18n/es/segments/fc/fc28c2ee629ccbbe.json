@@ -1,0 +1,18 @@
+{
+  "hash": "fc28c2ee629ccbbe",
+  "source": "Only unused keys matching this glob: {0} inside a segment, {1} across segments.",
+  "text": "Solo las claves sin usar que coincidan con este glob: {0} dentro de un segmento, {1} entre segmentos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Solo las claves sin usar que coincidan con este glob: {0} dentro de un segmento, {1} entre segmentos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

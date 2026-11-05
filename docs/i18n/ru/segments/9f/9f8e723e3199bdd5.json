@@ -1,0 +1,18 @@
+{
+  "hash": "9f8e723e3199bdd5",
+  "source": "The Svelte scanner reads the {0} blocks and the template expressions of {1} files. It runs in Node only.",
+  "text": "Сканер Svelte читает блоки {0} и выражения в шаблонах файлов {1}. Он работает только в Node.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Сканер Svelte читает блоки {0} и выражения в шаблонах файлов {1}. Он работает только в Node."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

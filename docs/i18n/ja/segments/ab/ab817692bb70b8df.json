@@ -1,0 +1,18 @@
+{
+  "hash": "ab817692bb70b8df",
+  "source": "With another separator, the project is namespaced. Keys then have the form {0}, for example {1}. i18next works this way, with {2} as the separator and {3} as the default namespace.",
+  "text": "別のセパレーターを使う場合、プロジェクトは名前空間を使うことになります。その場合、キーは {0} の形式になります（例: {1}）。i18next はこの方式で、セパレーターは {2}、デフォルトの名前空間は {3} です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "別のセパレーターを使う場合、プロジェクトは名前空間を使うことになります。その場合、キーは {0} の形式になります（例: {1}）。i18next はこの方式で、セパレーターは {2}、デフォルトの名前空間は {3} です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

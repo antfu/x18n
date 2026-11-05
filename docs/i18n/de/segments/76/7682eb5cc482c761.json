@@ -1,0 +1,18 @@
+{
+  "hash": "7682eb5cc482c761",
+  "source": "The {0} preset supports {1}flutter\\_i18n{/1}.",
+  "text": "Das {0}-Preset unterstützt {1}flutter\\_i18n{/1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das {0}-Preset unterstützt {1}flutter\\_i18n{/1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "e02c0a7724e32b69",
+  "source": "{0} returns a {1} with a namespace and a key prefix. {2} above is {3}.",
+  "text": "{0}는 네임스페이스와 키 접두사가 있는 {1}를 반환합니다. 위의 {2}는 {3}입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 네임스페이스와 키 접두사가 있는 {1}를 반환합니다. 위의 {2}는 {3}입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

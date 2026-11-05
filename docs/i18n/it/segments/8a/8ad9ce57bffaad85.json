@@ -1,0 +1,18 @@
+{
+  "hash": "8ad9ce57bffaad85",
+  "source": "One key: values, missing locales, usages with code and diagnostics.",
+  "text": "Una chiave: valori, lingue mancanti, utilizzi con codice e diagnostica.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una chiave: valori, lingue mancanti, utilizzi con codice e diagnostica."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

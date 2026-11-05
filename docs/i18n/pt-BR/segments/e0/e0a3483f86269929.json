@@ -1,0 +1,18 @@
+{
+  "hash": "e0a3483f86269929",
+  "source": "This file has the keys {0} and {1}, with the values {2} and {3}. When x18n sets a value, it writes the {4} field and keeps the other fields. {5} adds {6} to {7}.",
+  "text": "Este arquivo tem as chaves {0} e {1}, com os valores {2} e {3}. Quando o x18n define um valor, ele grava o campo {4} e mantém os outros campos. {5} adiciona {6} a {7}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Este arquivo tem as chaves {0} e {1}, com os valores {2} e {3}. Quando o x18n define um valor, ele grava o campo {4} e mantém os outros campos. {5} adiciona {6} a {7}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

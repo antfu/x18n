@@ -1,0 +1,18 @@
+{
+  "hash": "99322bb154a08966",
+  "source": "The defaults of x18n.",
+  "text": "I valori predefiniti di x18n.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "I valori predefiniti di x18n."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

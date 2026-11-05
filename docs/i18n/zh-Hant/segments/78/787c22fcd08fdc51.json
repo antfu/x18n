@@ -1,0 +1,18 @@
+{
+  "hash": "787c22fcd08fdc51",
+  "source": "Target locale code, as listed by {0}.",
+  "text": "目標語系代碼，如 {0} 所列。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "目標語系代碼，如 {0} 所列。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

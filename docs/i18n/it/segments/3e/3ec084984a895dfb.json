@@ -1,0 +1,18 @@
+{
+  "hash": "3ec084984a895dfb",
+  "source": "In a view under {0}, a key that starts with {1} is a lazy lookup. x18n adds the path of the view to the key, as Rails does:",
+  "text": "In una vista sotto {0}, una chiave che inizia con {1} è un lazy lookup. x18n aggiunge il percorso della vista alla chiave, come fa Rails:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In una vista sotto {0}, una chiave che inizia con {1} è un lazy lookup. x18n aggiunge il percorso della vista alla chiave, come fa Rails:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

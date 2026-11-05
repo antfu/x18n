@@ -1,0 +1,18 @@
+{
+  "hash": "d05a80be0f119865",
+  "source": "Do not edit locale files by hand. These commands keep the format, the indent, the key style and the order of each file, and they check placeholders:",
+  "text": "No edites los archivos de idioma a mano. Estos comandos conservan el formato, la sangría, el estilo de las claves y el orden de cada archivo, y comprueban los marcadores de posición:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "No edites los archivos de idioma a mano. Estos comandos conservan el formato, la sangría, el estilo de las claves y el orden de cada archivo, y comprueban los marcadores de posición:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

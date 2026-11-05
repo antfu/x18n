@@ -1,0 +1,18 @@
+{
+  "hash": "71696927719e3f9b",
+  "source": "{0} turn the diagnostics and the coverage of each project into text, for {1}. {2} returns a string. {3} turns a project path into a path relative to the current directory, and {4} tells whether colors are allowed.",
+  "text": "{0} 會將每個專案的診斷和涵蓋率轉換為文字，供 {1} 使用。{2} 會回傳字串。{3} 會將專案路徑轉換為相對於目前目錄的路徑，{4} 則表示是否允許使用顏色。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會將每個專案的診斷和涵蓋率轉換為文字，供 {1} 使用。{2} 會回傳字串。{3} 會將專案路徑轉換為相對於目前目錄的路徑，{4} 則表示是否允許使用顏色。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

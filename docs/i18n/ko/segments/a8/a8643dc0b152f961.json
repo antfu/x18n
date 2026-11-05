@@ -1,0 +1,18 @@
+{
+  "hash": "a8643dc0b152f961",
+  "source": "{0}: comments keep their id, author, time and resolved state; {1} becomes {2}; a comment with a {3} becomes a {4}; a translation candidate becomes a {5} too.",
+  "text": "{0}: 코멘트는 id, 작성자, 시간, 해결 상태를 유지합니다. {1}은(는) {2}(으)로 변환됩니다. {3}이(가) 있는 코멘트는 {4}(으)로 변환됩니다. 번역 후보도 {5}(으)로 변환됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: 코멘트는 id, 작성자, 시간, 해결 상태를 유지합니다. {1}은(는) {2}(으)로 변환됩니다. {3}이(가) 있는 코멘트는 {4}(으)로 변환됩니다. 번역 후보도 {5}(으)로 변환됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

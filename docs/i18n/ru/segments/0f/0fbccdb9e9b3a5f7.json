@@ -1,0 +1,18 @@
+{
+  "hash": "0fbccdb9e9b3a5f7",
+  "source": "With {0}, every command prints one JSON document to stdout:",
+  "text": "С {0} каждая команда выводит в stdout один JSON-документ:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "С {0} каждая команда выводит в stdout один JSON-документ:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b65bb4e6c935a35e",
+  "source": "Colors appear only in a terminal. x18n honors {0} and {1}.",
+  "text": "只有在终端中才会显示颜色。x18n 遵循 {0} 和 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "只有在终端中才会显示颜色。x18n 遵循 {0} 和 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

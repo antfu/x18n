@@ -1,0 +1,18 @@
+{
+  "hash": "b80e04b81ab7284a",
+  "source": "To use another separator, such as {0} with the i18next option {1}, set {2}. Completion writes keys with the same separator.",
+  "text": "i18next のオプション {1} で {0} などの別の区切り文字を使う場合は、{2} を設定してください。補完は同じ区切り文字でキーを書き込みます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18next のオプション {1} で {0} などの別の区切り文字を使う場合は、{2} を設定してください。補完は同じ区切り文字でキーを書き込みます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

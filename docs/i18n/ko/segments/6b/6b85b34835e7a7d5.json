@@ -1,0 +1,18 @@
+{
+  "hash": "6b85b34835e7a7d5",
+  "source": "JSON form of an error: the {0} of a nostics diagnostic, without {1}, {2} and {3}.",
+  "text": "오류의 JSON 형식: nostics 진단의 {0}에서 {1}, {2}, {3}을 제외한 것입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오류의 JSON 형식: nostics 진단의 {0}에서 {1}, {2}, {3}을 제외한 것입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

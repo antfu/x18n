@@ -1,0 +1,18 @@
+{
+  "hash": "0d207ad610bad5a7",
+  "source": "translation (fine for non-source locales in prose), string",
+  "text": "traduzione (va bene per le lingue diverse da quella di origine nel testo), stringa",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "traduzione (va bene per le lingue diverse da quella di origine nel testo), stringa"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

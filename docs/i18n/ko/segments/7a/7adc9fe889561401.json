@@ -1,0 +1,18 @@
+{
+  "hash": "7adc9fe889561401",
+  "source": "A monorepo can hold several projects, for example a web app and a UI library, each with its own locale files. List them in the root config with {0}:",
+  "text": "모노레포는 웹 앱과 UI 라이브러리처럼 여러 프로젝트를 담을 수 있으며, 각 프로젝트는 자체 로케일 파일을 가집니다. 루트 설정에서 {0}로 프로젝트를 나열하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모노레포는 웹 앱과 UI 라이브러리처럼 여러 프로젝트를 담을 수 있으며, 각 프로젝트는 자체 로케일 파일을 가집니다. 루트 설정에서 {0}로 프로젝트를 나열하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

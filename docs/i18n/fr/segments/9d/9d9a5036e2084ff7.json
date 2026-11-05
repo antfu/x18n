@@ -1,0 +1,18 @@
+{
+  "hash": "9d9a5036e2084ff7",
+  "source": "Run the {0} installed in the workspace's {1} instead of the bundled server, when there is one. Restart the server after changing this.",
+  "text": "Exécute le {0} installé dans le {1} de l'espace de travail au lieu du serveur intégré, s'il y en a un. Redémarrez le serveur après avoir modifié ce paramètre.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Exécute le {0} installé dans le {1} de l'espace de travail au lieu du serveur intégré, s'il y en a un. Redémarrez le serveur après avoir modifié ce paramètre."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

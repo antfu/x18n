@@ -1,0 +1,18 @@
+{
+  "hash": "f7b9cc9af34f06e3",
+  "source": "Start with YAML. When the YAML plugin is not enough, {0} prints the same plugin in TypeScript. See {1}Debug a plugin{/1}.",
+  "text": "まず YAML で始めてください。YAML プラグインでは足りなくなった場合は、{0} で同じプラグインを TypeScript で出力できます。{1}プラグインのデバッグ{/1}を参照してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "まず YAML で始めてください。YAML プラグインでは足りなくなった場合は、{0} で同じプラグインを TypeScript で出力できます。{1}プラグインのデバッグ{/1}を参照してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "4839066021a1877a",
+  "source": "Keys (globs) excluded from all checks. {0} also takes regular expressions.",
+  "text": "Chiavi (glob) escluse da tutti i controlli. {0} accetta anche espressioni regolari.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chiavi (glob) escluse da tutti i controlli. {0} accetta anche espressioni regolari."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

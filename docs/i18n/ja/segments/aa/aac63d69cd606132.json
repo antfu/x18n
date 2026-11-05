@@ -1,0 +1,18 @@
+{
+  "hash": "aac63d69cd606132",
+  "source": "This page lists every command of the {0} CLI. {1}CLI and x18n check{/1} explains how to use them. Run {2} to see the same text in a terminal.",
+  "text": "このページでは {0} CLI のすべてのコマンドを一覧にしています。使い方は{1}CLI と x18n check{/1}を参照してください。ターミナルで {2} を実行すると、同じ内容を表示できます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "このページでは {0} CLI のすべてのコマンドを一覧にしています。使い方は{1}CLI と x18n check{/1}を参照してください。ターミナルで {2} を実行すると、同じ内容を表示できます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

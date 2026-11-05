@@ -1,0 +1,3 @@
+# Set `mt.enabled` to false to stop machine translation from writing new zh-Hant records.
+mt:
+  enabled: true

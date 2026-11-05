@@ -1,0 +1,18 @@
+{
+  "hash": "2e0cf876f668a02f",
+  "source": "A hover on a key shows its value in each locale and the number of usages, with links to open the key in the UI, to copy a translate prompt, and to translate it with an agent. Diagnostics are the same as the ones from {0}. Quick fixes come from the checks, for example \"Add the key to the source locale\" or \"Copy the source value\". Code actions also extract a hard string, extract every hard string of the file, or add an ignore comment for a string.",
+  "text": "キーにホバーすると、各ロケールでの値と使用箇所の数が表示されます。あわせて、UI でキーを開く、翻訳プロンプトをコピーする、エージェントで翻訳するためのリンクも表示されます。診断は {0} によるものと同じです。クイックフィックスはチェックから提供され、たとえば「Add the key to the source locale」や「Copy the source value」があります。コードアクションでは、ハードコードされた文字列の抽出、ファイル内のすべてのハードコードされた文字列の抽出、文字列に対する ignore コメントの追加も行えます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーにホバーすると、各ロケールでの値と使用箇所の数が表示されます。あわせて、UI でキーを開く、翻訳プロンプトをコピーする、エージェントで翻訳するためのリンクも表示されます。診断は {0} によるものと同じです。クイックフィックスはチェックから提供され、たとえば「Add the key to the source locale」や「Copy the source value」があります。コードアクションでは、ハードコードされた文字列の抽出、ファイル内のすべてのハードコードされた文字列の抽出、文字列に対する ignore コメントの追加も行えます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

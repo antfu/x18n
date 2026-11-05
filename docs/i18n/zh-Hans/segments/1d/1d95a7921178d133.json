@@ -1,0 +1,18 @@
+{
+  "hash": "1d95a7921178d133",
+  "source": "A key with no usage, after keysInUse, derived keys and dynamic prefixes.",
+  "text": "在应用 keysInUse、派生键和动态前缀之后，没有任何引用的键。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在应用 keysInUse、派生键和动态前缀之后，没有任何引用的键。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

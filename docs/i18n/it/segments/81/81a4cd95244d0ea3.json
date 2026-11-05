@@ -1,0 +1,18 @@
+{
+  "hash": "81a4cd95244d0ea3",
+  "source": "The output answers the usual questions:",
+  "text": "L'output risponde alle domande più comuni:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "L'output risponde alle domande più comuni:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

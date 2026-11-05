@@ -1,0 +1,18 @@
+{
+  "hash": "597d2a96e0535dfe",
+  "source": "The preset applies when the project depends on any package of {0}, on every package of {1}, and has a file for each glob of {2}. With {3}, x18n tests no preset after it.",
+  "text": "Das preset greift, wenn das Projekt von irgendeinem Paket aus {0} abhängt, von jedem Paket aus {1} abhängt und für jedes Glob aus {2} eine Datei hat. Mit {3} prüft x18n danach kein preset mehr.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das preset greift, wenn das Projekt von irgendeinem Paket aus {0} abhängt, von jedem Paket aus {1} abhängt und für jedes Glob aus {2} eine Datei hat. Mit {3} prüft x18n danach kein preset mehr."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

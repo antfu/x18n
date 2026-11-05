@@ -1,0 +1,18 @@
+{
+  "hash": "14e1896324140faa",
+  "source": "'call' (default): the key is an argument. 'selector': the argument is {0}. 'accessor': member chain on a root.",
+  "text": "'call'（デフォルト）: キーが引数です。'selector': 引数が {0} です。'accessor': ルートからのメンバーチェーンです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "'call'（デフォルト）: キーが引数です。'selector': 引数が {0} です。'accessor': ルートからのメンバーチェーンです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

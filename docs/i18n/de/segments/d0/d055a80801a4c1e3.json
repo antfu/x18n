@@ -1,0 +1,18 @@
+{
+  "hash": "d055a80801a4c1e3",
+  "source": "{0} refuses values whose placeholders differ from the source value, and writes nothing. It lists the rejected values and exits with code 1. Fix them, or pass {1} to write them anyway.",
+  "text": "{0} lehnt Werte ab, deren Platzhalter vom Quellwert abweichen, und schreibt nichts. Es listet die abgelehnten Werte auf und beendet sich mit Code 1. Korrigiere sie oder übergib {1}, um sie trotzdem zu schreiben.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} lehnt Werte ab, deren Platzhalter vom Quellwert abweichen, und schreibt nichts. Es listet die abgelehnten Werte auf und beendet sich mit Code 1. Korrigiere sie oder übergib {1}, um sie trotzdem zu schreiben."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "3631c397a8150fe2",
+  "source": "problem, error (unless severity is error)",
+  "text": "problema, errore (a meno che la gravità non sia error)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "problema, errore (a meno che la gravità non sia error)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

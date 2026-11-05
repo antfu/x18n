@@ -1,0 +1,18 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "如果某次編輯與來源值相比少了或多了佔位符，UI 不會儲存。它會顯示問題，你仍可選擇強制儲存該值。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果某次編輯與來源值相比少了或多了佔位符，UI 不會儲存。它會顯示問題，你仍可選擇強制儲存該值。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

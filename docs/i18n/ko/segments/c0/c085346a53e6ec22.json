@@ -1,0 +1,18 @@
+{
+  "hash": "c085346a53e6ec22",
+  "source": "This plugin supports a made-up library, {0}, with YAML locale files, a {1} function, a {2} factory and Handlebars templates:",
+  "text": "이 플러그인은 가상의 라이브러리 {0}을(를) 지원합니다. YAML 로케일 파일, {1} 함수, {2} 팩토리, Handlebars 템플릿을 사용합니다:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 플러그인은 가상의 라이브러리 {0}을(를) 지원합니다. YAML 로케일 파일, {1} 함수, {2} 팩토리, Handlebars 템플릿을 사용합니다:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d4860c30d93a4563",
+  "source": "A bare {0} is not read, because projects also name a keyset function {1}, and then {2} takes no keyset. A keyset that is no string literal, such as {3}, makes the usage dynamic.",
+  "text": "Un {0} seul n'est pas lu, car des projets nomment aussi une fonction de keyset {1}, et dans ce cas {2} ne prend aucun keyset. Un keyset qui n'est pas un littéral de chaîne, comme {3}, rend l'utilisation dynamique.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un {0} seul n'est pas lu, car des projets nomment aussi une fonction de keyset {1}, et dans ce cas {2} ne prend aucun keyset. Un keyset qui n'est pas un littéral de chaîne, comme {3}, rend l'utilisation dynamique."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "fadafdedaba6aae8",
+  "source": "Set {0} if the plugin needs Node APIs.",
+  "text": "Establece {0} si el plugin necesita las APIs de Node.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Establece {0} si el plugin necesita las APIs de Node."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

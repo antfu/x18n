@@ -1,0 +1,18 @@
+{
+  "hash": "234965836e40830f",
+  "source": "A user often names a text that they see in the app, not a key. The agent searches the values:",
+  "text": "ユーザーは、キーではなく、アプリで見たテキストを挙げることがよくあります。その場合、エージェントは値を検索します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ユーザーは、キーではなく、アプリで見たテキストを挙げることがよくあります。その場合、エージェントは値を検索します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

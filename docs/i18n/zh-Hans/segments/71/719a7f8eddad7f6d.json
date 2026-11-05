@@ -1,0 +1,18 @@
+{
+  "hash": "719a7f8eddad7f6d",
+  "source": "Everything that depends on an i18n library or a file format comes from plugins. The built-in {0}presets{/0} are plugins too. Write your own plugin when x18n does not know your library, your file format or your conventions.",
+  "text": "所有依赖 i18n 库或文件格式的功能都来自插件。内置的{0}预设{/0}也是插件。当 x18n 不支持你使用的库、文件格式或约定时，请编写自己的插件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "所有依赖 i18n 库或文件格式的功能都来自插件。内置的{0}预设{/0}也是插件。当 x18n 不支持你使用的库、文件格式或约定时，请编写自己的插件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

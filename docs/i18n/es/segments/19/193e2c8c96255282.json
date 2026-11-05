@@ -1,0 +1,18 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} elimina las claves que lista {1}, menos las claves de {2}. También conserva las claves a las que puede llegar una clave totalmente calculada dentro de un ámbito: {3} bajo {4} puede llegar a todas las claves del espacio de nombres {5}, y bajo {6} a todas las claves bajo {7}. Ejecútalo primero con {8}: lista cada clave con sus idiomas y archivos, y después las claves conservadas con los usos que las mantienen. Una clave totalmente calculada fuera de cualquier ámbito puede llegar a cualquier clave, por lo que el plan avisa de ello; lista las claves que usa en {9}. Las ediciones se hacen in situ, así que los comentarios y el formato se conservan.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} elimina las claves que lista {1}, menos las claves de {2}. También conserva las claves a las que puede llegar una clave totalmente calculada dentro de un ámbito: {3} bajo {4} puede llegar a todas las claves del espacio de nombres {5}, y bajo {6} a todas las claves bajo {7}. Ejecútalo primero con {8}: lista cada clave con sus idiomas y archivos, y después las claves conservadas con los usos que las mantienen. Una clave totalmente calculada fuera de cualquier ámbito puede llegar a cualquier clave, por lo que el plan avisa de ello; lista las claves que usa en {9}. Las ediciones se hacen in situ, así que los comentarios y el formato se conservan."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

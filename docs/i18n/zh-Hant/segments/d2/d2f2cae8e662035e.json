@@ -1,0 +1,18 @@
+{
+  "hash": "d2f2cae8e662035e",
+  "source": "Reviews: {0}, {1}, {2}, {3}.",
+  "text": "審閱：{0}、{1}、{2}、{3}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "審閱：{0}、{1}、{2}、{3}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

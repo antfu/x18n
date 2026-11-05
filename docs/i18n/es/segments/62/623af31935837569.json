@@ -1,0 +1,18 @@
+{
+  "hash": "623af31935837569",
+  "source": "Without {0}, the presets add their usual paths. The paths of all applied presets add up. If they match nothing, x18n looks for directories named {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10} or {11}, and guesses the pattern from the files in them.",
+  "text": "Sin {0}, los presets añaden sus rutas habituales. Las rutas de todos los presets aplicados se suman. Si no coinciden con nada, x18n busca directorios llamados {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10} o {11}, y deduce el patrón a partir de los archivos que contienen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Sin {0}, los presets añaden sus rutas habituales. Las rutas de todos los presets aplicados se suman. Si no coinciden con nada, x18n busca directorios llamados {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10} o {11}, y deduce el patrón a partir de los archivos que contienen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

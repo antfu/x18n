@@ -1,0 +1,18 @@
+{
+  "hash": "7cebdce6416440f2",
+  "source": "\"x18n: Open UI\" opens the {0}x18n UI{/0} in a panel. The language server starts the UI server on loopback and passes a one-time token to the panel, so you do not enter an auth code. \"x18n: Open Key in UI\" opens the UI at one key.",
+  "text": "\"x18n: Open UI\" apre la {0}UI di x18n{/0} in un pannello. Il language server avvia il server della UI su loopback e passa al pannello un token monouso, quindi non devi inserire alcun codice di autenticazione. \"x18n: Open Key in UI\" apre la UI su una singola chiave.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "\"x18n: Open UI\" apre la {0}UI di x18n{/0} in un pannello. Il language server avvia il server della UI su loopback e passa al pannello un token monouso, quindi non devi inserire alcun codice di autenticazione. \"x18n: Open Key in UI\" apre la UI su una singola chiave."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

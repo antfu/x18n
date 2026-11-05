@@ -1,0 +1,18 @@
+{
+  "hash": "12cc58b5f1f0fc0d",
+  "source": "A pattern without {0}, such as {1}, holds the source locale. To give it another locale, set {2} on the resource.",
+  "text": "{1}처럼 {0}이(가) 없는 패턴은 소스 로케일을 담습니다. 다른 로케일을 지정하려면 리소스에 {2}을(를) 설정하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{1}처럼 {0}이(가) 없는 패턴은 소스 로케일을 담습니다. 다른 로케일을 지정하려면 리소스에 {2}을(를) 설정하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

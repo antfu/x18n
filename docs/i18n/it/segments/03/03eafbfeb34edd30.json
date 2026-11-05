@@ -1,0 +1,18 @@
+{
+  "hash": "03eafbfeb34edd30",
+  "source": "The {0} reporter writes a summary with a coverage table per locale and a table of diagnostics. Write it to the job summary of GitHub Actions:",
+  "text": "Il reporter {0} scrive un riepilogo con una tabella di copertura per lingua e una tabella delle diagnostiche. Scrivilo nel riepilogo del job di GitHub Actions:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il reporter {0} scrive un riepilogo con una tabella di copertura per lingua e una tabella delle diagnostiche. Scrivilo nel riepilogo del job di GitHub Actions:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

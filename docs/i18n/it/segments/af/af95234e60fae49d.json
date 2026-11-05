@@ -1,0 +1,18 @@
+{
+  "hash": "af95234e60fae49d",
+  "source": "Run {0} to list the project names.",
+  "text": "Esegui {0} per elencare i nomi dei progetti.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Esegui {0} per elencare i nomi dei progetti."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

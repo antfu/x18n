@@ -1,0 +1,18 @@
+{
+  "hash": "0d188600804ad3c8",
+  "source": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections.",
+  "text": "將程式碼中的鍵取代為其顯示語系的值。游標所在行與選取範圍內會顯示原始的鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "將程式碼中的鍵取代為其顯示語系的值。游標所在行與選取範圍內會顯示原始的鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

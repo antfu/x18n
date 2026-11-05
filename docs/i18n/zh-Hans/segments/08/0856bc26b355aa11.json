@@ -1,0 +1,18 @@
+{
+  "hash": "0856bc26b355aa11",
+  "source": "The preset for Angular's built-in i18n with @angular/localize. It reads angular.json, i18n attributes and $localize, with custom or generated ids, and the XLIFF, XMB, JSON and ARB translation files.",
+  "text": "适用于 Angular 内置 i18n 与 @angular/localize 的预设。它读取 angular.json、i18n 属性和 $localize，支持自定义或自动生成的 id，以及 XLIFF、XMB、JSON 和 ARB 翻译文件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "适用于 Angular 内置 i18n 与 @angular/localize 的预设。它读取 angular.json、i18n 属性和 $localize，支持自定义或自动生成的 id，以及 XLIFF、XMB、JSON 和 ARB 翻译文件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "20e88b64c923c417",
+  "source": "A summary, a coverage table per locale and a table of diagnostics. For pull request comments and job summaries.",
+  "text": "Un riepilogo, una tabella di copertura per lingua e una tabella delle diagnostiche. Per i commenti delle pull request e i riepiloghi dei job.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un riepilogo, una tabella di copertura per lingua e una tabella delle diagnostiche. Per i commenti delle pull request e i riepiloghi dei job."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

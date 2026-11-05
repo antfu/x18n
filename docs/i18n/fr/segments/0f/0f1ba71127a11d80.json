@@ -1,0 +1,18 @@
+{
+  "hash": "0f1ba71127a11d80",
+  "source": "With the i18next option {0}, a key such as {1} is literal: the {2} does not split it. The preset reads {3} and {4} from the init code and sets {5}, and {6} for {7}, so {8} is a key and not the namespace {9}. A string, such as {10}, becomes the key separator. Set {11} in the config to override it.",
+  "text": "Avec l'option i18next {0}, une clé comme {1} est littérale : le {2} ne la découpe pas. Le preset lit {3} et {4} dans le code d'initialisation et définit {5}, et {6} pour {7}, de sorte que {8} est une clé et non l'espace de noms {9}. Une chaîne, comme {10}, devient le séparateur de clés. Définissez {11} dans la configuration pour le remplacer.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Avec l'option i18next {0}, une clé comme {1} est littérale : le {2} ne la découpe pas. Le preset lit {3} et {4} dans le code d'initialisation et définit {5}, et {6} pour {7}, de sorte que {8} est une clé et non l'espace de noms {9}. Une chaîne, comme {10}, devient le séparateur de clés. Définissez {11} dans la configuration pour le remplacer."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

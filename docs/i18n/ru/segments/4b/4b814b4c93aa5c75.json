@@ -1,0 +1,18 @@
+{
+  "hash": "4b814b4c93aa5c75",
+  "source": "{0} reports invalid, untranslated and unused keys like {1}. Every command has JSON output.",
+  "text": "{0} сообщает о некорректных, непереведённых и неиспользуемых ключах, как и {1}. У каждой команды есть вывод в JSON.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} сообщает о некорректных, непереведённых и неиспользуемых ключах, как и {1}. У каждой команды есть вывод в JSON."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

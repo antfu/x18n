@@ -1,0 +1,18 @@
+{
+  "hash": "b14d178a8ea74230",
+  "source": "Overrides on top of the {0} check set.",
+  "text": "Surcharges appliquées par-dessus l'ensemble de vérifications {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Surcharges appliquées par-dessus l'ensemble de vérifications {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "c6d403a2070a321d",
+  "source": "The x18n extension brings the x18n language server into VS Code. All i18n logic lives in the server. The extension shows the results: annotations, views, the status bar and the UI panel.",
+  "text": "Die x18n-Erweiterung bringt den x18n language server in VS Code. Die gesamte i18n-Logik liegt im Server. Die Erweiterung zeigt die Ergebnisse an: Annotationen, Ansichten, die Statusleiste und das UI-Panel.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die x18n-Erweiterung bringt den x18n language server in VS Code. Die gesamte i18n-Logik liegt im Server. Die Erweiterung zeigt die Ergebnisse an: Annotationen, Ansichten, die Statusleiste und das UI-Panel."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

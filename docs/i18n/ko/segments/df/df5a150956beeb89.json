@@ -1,0 +1,18 @@
+{
+  "hash": "df5a150956beeb89",
+  "source": "These names count as translate calls: {0} and {1}. Dictionary keys are dot paths.",
+  "text": "다음 이름은 번역 호출로 간주됩니다: {0} 및 {1}. 딕셔너리 키는 점으로 구분한 경로입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "다음 이름은 번역 호출로 간주됩니다: {0} 및 {1}. 딕셔너리 키는 점으로 구분한 경로입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

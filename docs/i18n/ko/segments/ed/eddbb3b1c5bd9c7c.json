@@ -1,0 +1,18 @@
+{
+  "hash": "eddbb3b1c5bd9c7c",
+  "source": "x18n reads the locale files and the translate calls of your project. It reports missing, unused and broken keys, and changes locale files without breaking their format. For humans, CI and coding agents.",
+  "text": "x18n은 프로젝트의 로케일 파일과 번역 호출을 읽습니다. 누락되거나 사용되지 않거나 손상된 키를 보고하며, 형식을 깨뜨리지 않고 로케일 파일을 변경합니다. 사람, CI, 코딩 에이전트를 위한 도구입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 프로젝트의 로케일 파일과 번역 호출을 읽습니다. 누락되거나 사용되지 않거나 손상된 키를 보고하며, 형식을 깨뜨리지 않고 로케일 파일을 변경합니다. 사람, CI, 코딩 에이전트를 위한 도구입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

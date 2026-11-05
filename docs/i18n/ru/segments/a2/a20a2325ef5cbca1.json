@@ -1,0 +1,18 @@
+{
+  "hash": "a20a2325ef5cbca1",
+  "source": "Also translate values that checks report in the target locale, such as copies of the source ({0}); optionally only these check ids (comma separated)",
+  "text": "Также переводить значения, на которые проверки указывают в целевой локали, например копии исходного текста ({0}); при необходимости только для этих идентификаторов проверок (через запятую)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Также переводить значения, на которые проверки указывают в целевой локали, например копии исходного текста ({0}); при необходимости только для этих идентификаторов проверок (через запятую)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

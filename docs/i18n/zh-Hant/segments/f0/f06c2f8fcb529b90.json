@@ -1,0 +1,18 @@
+{
+  "hash": "f06c2f8fcb529b90",
+  "source": "The panel loads the project from the root of the host (the Vite root). From there, x18n searches upward for a config file, as the CLI does. Install the package as a dev dependency:",
+  "text": "面板會從主機的根目錄（Vite root）載入專案。x18n 會從該處向上搜尋設定檔，與 CLI 的行為相同。請將此套件安裝為開發相依套件：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "面板會從主機的根目錄（Vite root）載入專案。x18n 會從該處向上搜尋設定檔，與 CLI 的行為相同。請將此套件安裝為開發相依套件："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

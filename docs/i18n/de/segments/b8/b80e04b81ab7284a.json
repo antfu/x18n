@@ -1,0 +1,18 @@
+{
+  "hash": "b80e04b81ab7284a",
+  "source": "To use another separator, such as {0} with the i18next option {1}, set {2}. Completion writes keys with the same separator.",
+  "text": "Um ein anderes Trennzeichen zu verwenden, etwa {0} mit der i18next-Option {1}, setze {2}. Die Vervollständigung schreibt Schlüssel mit demselben Trennzeichen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um ein anderes Trennzeichen zu verwenden, etwa {0} mit der i18next-Option {1}, setze {2}. Die Vervollständigung schreibt Schlüssel mit demselben Trennzeichen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

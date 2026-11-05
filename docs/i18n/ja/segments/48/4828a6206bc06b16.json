@@ -1,0 +1,18 @@
+{
+  "hash": "4828a6206bc06b16",
+  "source": "{0} find usages in source files. A scanner has an {1}, the file {2} it reads ({3} for every file), and {4}. {5} holds the call specs of the project. The result holds:",
+  "text": "{0} はソースファイル内の使用箇所を検出します。スキャナーには {1}、読み取るファイルの {2}（すべてのファイルの場合は {3}）、{4} があります。{5} にはプロジェクトの呼び出し仕様が入ります。結果には次のものが含まれます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} はソースファイル内の使用箇所を検出します。スキャナーには {1}、読み取るファイルの {2}（すべてのファイルの場合は {3}）、{4} があります。{5} にはプロジェクトの呼び出し仕様が入ります。結果には次のものが含まれます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

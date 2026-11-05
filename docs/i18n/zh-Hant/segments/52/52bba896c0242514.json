@@ -1,0 +1,18 @@
+{
+  "hash": "52bba896c0242514",
+  "source": "{0} is a usage of {1}, and {2} is a usage of {3}. x18n removes the extension ({4}, {5}, {6}) and the {7} of a partial name, so {8} in {9} is a usage of {10}.",
+  "text": "{0} 是 {1} 的使用處，{2} 是 {3} 的使用處。x18n 會移除副檔名（{4}、{5}、{6}）以及 partial 名稱中的 {7}，因此 {9} 中的 {8} 是 {10} 的使用處。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 是 {1} 的使用處，{2} 是 {3} 的使用處。x18n 會移除副檔名（{4}、{5}、{6}）以及 partial 名稱中的 {7}，因此 {9} 中的 {8} 是 {10} 的使用處。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b5adaff0411a9720",
+  "source": "x18n: i18n files, checked and maintained",
+  "text": "x18n: archivos i18n, comprobados y mantenidos",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: archivos i18n, comprobados y mantenidos"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

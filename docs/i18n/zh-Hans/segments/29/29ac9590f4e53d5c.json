@@ -1,0 +1,18 @@
+{
+  "hash": "29ac9590f4e53d5c",
+  "source": "Files that x18n cannot parse as locale files are errors. Source files that a scanner cannot parse are warnings. You cannot turn this diagnostic off in {0}. To skip a source file, exclude it with {1}.",
+  "text": "x18n 无法解析为语言文件的文件会报告为错误。扫描器无法解析的源文件会报告为警告。你无法在 {0} 中关闭此诊断。如需跳过某个源文件，请使用 {1} 将其排除。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 无法解析为语言文件的文件会报告为错误。扫描器无法解析的源文件会报告为警告。你无法在 {0} 中关闭此诊断。如需跳过某个源文件，请使用 {1} 将其排除。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

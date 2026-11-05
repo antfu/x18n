@@ -1,0 +1,18 @@
+{
+  "hash": "7463f432dd39d1ba",
+  "source": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\".",
+  "text": "Idioma que se muestra en las anotaciones. Vacío significa el idioma de origen. \"x18n: Set Display Locale\" lo anula por espacio de trabajo sin escribir los ajustes, hasta que este ajuste cambie o elijas \"Default\".",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Idioma que se muestra en las anotaciones. Vacío significa el idioma de origen. \"x18n: Set Display Locale\" lo anula por espacio de trabajo sin escribir los ajustes, hasta que este ajuste cambie o elijas \"Default\"."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

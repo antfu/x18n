@@ -1,0 +1,18 @@
+{
+  "hash": "97289ae296011a6e",
+  "source": "Each hard string has a kind, which tells where it is:",
+  "text": "각 하드코딩된 문자열에는 위치를 나타내는 종류가 있습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 하드코딩된 문자열에는 위치를 나타내는 종류가 있습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

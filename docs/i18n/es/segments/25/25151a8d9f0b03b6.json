@@ -1,0 +1,18 @@
+{
+  "hash": "25151a8d9f0b03b6",
+  "source": "Write x18n.config.ts, or a YAML or JSON config, and learn how x18n finds and merges it.",
+  "text": "Escribe x18n.config.ts, o una configuración en YAML o JSON, y aprende cómo x18n la encuentra y la combina.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Escribe x18n.config.ts, o una configuración en YAML o JSON, y aprende cómo x18n la encuentra y la combina."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

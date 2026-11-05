@@ -1,0 +1,18 @@
+{
+  "hash": "b504b88cab0b9e3b",
+  "source": "To find the key behind a text that you see in the app, search the values. The search covers every locale and ignores case. It matches fuzzily, so the letters of the query need to appear in order, but not next to each other. Values that contain the query rank first. {0} keeps only those values. Each match lists its usages as {1}:",
+  "text": "앱에서 보이는 텍스트에 해당하는 키를 찾으려면 값을 검색하세요. 검색은 모든 로케일을 대상으로 하며 대소문자를 구분하지 않습니다. 퍼지 매칭이므로 쿼리의 글자가 순서대로 나타나기만 하면 되고, 서로 붙어 있지 않아도 됩니다. 쿼리를 그대로 포함하는 값이 먼저 표시됩니다. {0}는 그러한 값만 남깁니다. 각 일치 항목은 사용처를 {1} 형식으로 나열합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "앱에서 보이는 텍스트에 해당하는 키를 찾으려면 값을 검색하세요. 검색은 모든 로케일을 대상으로 하며 대소문자를 구분하지 않습니다. 퍼지 매칭이므로 쿼리의 글자가 순서대로 나타나기만 하면 되고, 서로 붙어 있지 않아도 됩니다. 쿼리를 그대로 포함하는 값이 먼저 표시됩니다. {0}는 그러한 값만 남깁니다. 각 일치 항목은 사용처를 {1} 형식으로 나열합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

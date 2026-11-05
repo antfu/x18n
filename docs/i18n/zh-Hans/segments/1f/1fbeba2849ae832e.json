@@ -1,0 +1,18 @@
+{
+  "hash": "1fbeba2849ae832e",
+  "source": "Text in inline {0} strings works the same way, in any kind of quotes and with escapes, and an inline template in double quotes gets {1}. ICUs get marked too. A sentence around an ICU ({2}) is two messages in Angular, so run {3} after it to add the ICU's own. These stay as they are: content with {4} or {5}, and an inline template with {6}, whose text is not known before the build.",
+  "text": "内联 {0} 字符串中的文本处理方式相同，支持任意种类的引号和转义，使用双引号的内联模板会得到 {1}。ICU 也会被标记。ICU 周围的句子（{2}）在 Angular 中是两条消息，因此请在之后运行 {3} 来添加 ICU 自身的消息。以下内容保持不变：带有 {4} 或 {5} 的内容，以及带有 {6} 的内联模板，因为它们的文本在构建之前是未知的。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "内联 {0} 字符串中的文本处理方式相同，支持任意种类的引号和转义，使用双引号的内联模板会得到 {1}。ICU 也会被标记。ICU 周围的句子（{2}）在 Angular 中是两条消息，因此请在之后运行 {3} 来添加 ICU 自身的消息。以下内容保持不变：带有 {4} 或 {5} 的内容，以及带有 {6} 的内联模板，因为它们的文本在构建之前是未知的。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

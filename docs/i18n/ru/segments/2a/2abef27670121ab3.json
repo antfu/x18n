@@ -1,0 +1,18 @@
+{
+  "hash": "2abef27670121ab3",
+  "source": "{0} of the previous page.",
+  "text": "{0} предыдущей страницы.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} предыдущей страницы."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

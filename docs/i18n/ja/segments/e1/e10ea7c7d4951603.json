@@ -1,0 +1,18 @@
+{
+  "hash": "e10ea7c7d4951603",
+  "source": "Key glob: {0} inside a segment, {1} across segments.",
+  "text": "キーの glob パターンです。{0} はセグメント内、{1} はセグメントをまたいで一致します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーの glob パターンです。{0} はセグメント内、{1} はセグメントをまたいで一致します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "1a50b450536c05c9",
+  "source": "{0} and {1} turn the plugin into a preset:",
+  "text": "{0} und {1} machen das Plugin zu einem preset:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} und {1} machen das Plugin zu einem preset:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

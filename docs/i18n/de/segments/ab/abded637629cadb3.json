@@ -1,0 +1,18 @@
+{
+  "hash": "abded637629cadb3",
+  "source": "Make sure that the top level of the file is an object, not an array or a string.",
+  "text": "Stelle sicher, dass die oberste Ebene der Datei ein Objekt ist, kein Array und kein String.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stelle sicher, dass die oberste Ebene der Datei ein Objekt ist, kein Array und kein String."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "d0e482dc2b712d53",
+  "source": "{0} lists translate calls for the AST scanners of JS, TS, JSX, Vue and Svelte files. Each entry has the shape of an item of {1}:",
+  "text": "{0} lista chamadas de tradução para os scanners de AST de arquivos JS, TS, JSX, Vue e Svelte. Cada entrada tem o formato de um item de {1}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} lista chamadas de tradução para os scanners de AST de arquivos JS, TS, JSX, Vue e Svelte. Cada entrada tem o formato de um item de {1}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

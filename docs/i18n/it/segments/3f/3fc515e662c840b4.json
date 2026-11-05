@@ -1,0 +1,18 @@
+{
+  "hash": "3fc515e662c840b4",
+  "source": "1-based line, for display.",
+  "text": "Riga con base 1, per la visualizzazione.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Riga con base 1, per la visualizzazione."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

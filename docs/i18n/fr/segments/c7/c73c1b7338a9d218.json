@@ -1,0 +1,18 @@
+{
+  "hash": "c73c1b7338a9d218",
+  "source": "Only these files (globs relative to the project root). Default: every scanned file.",
+  "text": "Seulement ces fichiers (globs relatifs à la racine du projet). Par défaut : tous les fichiers analysés.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Seulement ces fichiers (globs relatifs à la racine du projet). Par défaut : tous les fichiers analysés."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

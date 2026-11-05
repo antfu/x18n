@@ -1,0 +1,3 @@
+# Set `mt.enabled` to false to stop the translate workflow from writing new zh-Hans records.
+mt:
+  enabled: true

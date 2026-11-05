@@ -1,0 +1,18 @@
+{
+  "hash": "5ded4ed871ddc8f9",
+  "source": "Namespace of keys written without one, per glob of source files, before {0}: {1}.",
+  "text": "依原始碼檔案的 glob，指定未寫命名空間的鍵所屬的命名空間，優先於 {0}：{1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "依原始碼檔案的 glob，指定未寫命名空間的鍵所屬的命名空間，優先於 {0}：{1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

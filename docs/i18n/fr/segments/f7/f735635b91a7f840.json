@@ -1,0 +1,18 @@
+{
+  "hash": "f735635b91a7f840",
+  "source": "The provider of a component reaches its own part of the file and its {0}, the components its template uses, by element or attribute selector, and what its {1} shows, down the tree. The nearest provider wins.",
+  "text": "Le provider d'un composant atteint sa propre partie du fichier et son {0}, les composants que son template utilise, par sélecteur d'élément ou d'attribut, et ce que son {1} affiche, en descendant dans l'arbre. Le provider le plus proche l'emporte.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le provider d'un composant atteint sa propre partie du fichier et son {0}, les composants que son template utilise, par sélecteur d'élément ou d'attribut, et ce que son {1} affiche, en descendant dans l'arbre. Le provider le plus proche l'emporte."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

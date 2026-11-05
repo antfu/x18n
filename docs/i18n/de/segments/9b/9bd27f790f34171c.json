@@ -1,0 +1,18 @@
+{
+  "hash": "9bd27f790f34171c",
+  "source": "Dry run of the bulk delete of unused keys; {0} applies it.",
+  "text": "Dry Run des Massenlöschens ungenutzter Schlüssel; {0} wendet es an.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dry Run des Massenlöschens ungenutzter Schlüssel; {0} wendet es an."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "7744fa0c3e756b93",
+  "source": "The preset applies when {0}, {1} or {2} has a {3} field. If your config has no {4}, x18n uses {5} as the source locale.",
+  "text": "当 {0}、{1} 或 {2} 包含 {3} 字段时，会应用该预设。如果你的配置中没有 {4}，x18n 会将 {5} 作为源语言。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当 {0}、{1} 或 {2} 包含 {3} 字段时，会应用该预设。如果你的配置中没有 {4}，x18n 会将 {5} 作为源语言。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

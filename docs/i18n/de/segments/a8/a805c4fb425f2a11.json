@@ -1,0 +1,18 @@
+{
+  "hash": "a805c4fb425f2a11",
+  "source": "typesafe-i18n",
+  "text": "typesafe-i18n",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "typesafe-i18n"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

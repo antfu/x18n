@@ -1,0 +1,18 @@
+{
+  "hash": "34813948cd99f1a3",
+  "source": "A translation is stale when it last changed before its source message did. Inside a git repo, x18n reads the commits that touched the locale files and compares the parsed messages, so reformatting, sorting and moving keys between files do not count. Uncommitted edits count as changed now. A message without history is never stale.",
+  "text": "當翻譯的最後變更時間早於其來源訊息時，該翻譯即為過時翻譯。在 git 儲存庫中，x18n 會讀取修改過語系檔案的 commit，並比較解析後的訊息，因此重新格式化、排序，以及在檔案之間移動鍵都不會被計入。尚未提交的編輯會視為剛剛才變更。沒有歷史記錄的訊息永遠不會被視為過時。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當翻譯的最後變更時間早於其來源訊息時，該翻譯即為過時翻譯。在 git 儲存庫中，x18n 會讀取修改過語系檔案的 commit，並比較解析後的訊息，因此重新格式化、排序，以及在檔案之間移動鍵都不會被計入。尚未提交的編輯會視為剛剛才變更。沒有歷史記錄的訊息永遠不會被視為過時。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

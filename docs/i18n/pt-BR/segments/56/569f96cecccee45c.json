@@ -1,0 +1,18 @@
+{
+  "hash": "569f96cecccee45c",
+  "source": "In JS, TS and Vue files, the preset reads the {0} tagged template. The text of the template is the key:",
+  "text": "Em arquivos JS, TS e Vue, o preset lê o tagged template {0}. O texto do template é a chave:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em arquivos JS, TS e Vue, o preset lê o tagged template {0}. O texto do template é a chave:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

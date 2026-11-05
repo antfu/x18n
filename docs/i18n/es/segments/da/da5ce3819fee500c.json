@@ -1,0 +1,18 @@
+{
+  "hash": "da5ce3819fee500c",
+  "source": "Turns raw key text into canonical form. The first plugin that returns a value wins.",
+  "text": "Convierte el texto sin procesar de una clave a su forma canónica. Gana el primer plugin que devuelve un valor.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Convierte el texto sin procesar de una clave a su forma canónica. Gana el primer plugin que devuelve un valor."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

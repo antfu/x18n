@@ -1,0 +1,18 @@
+{
+  "hash": "ce5c33334f48eee8",
+  "source": "{0}, {1} ... {2} and {3} comments skip text as in other files.",
+  "text": "Les commentaires {0}, {1} ... {2} et {3} ignorent le texte comme dans les autres fichiers.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les commentaires {0}, {1} ... {2} et {3} ignorent le texte comme dans les autres fichiers."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

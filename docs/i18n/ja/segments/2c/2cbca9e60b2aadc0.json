@@ -1,0 +1,18 @@
+{
+  "hash": "2cbca9e60b2aadc0",
+  "source": "The x18n extension for VS Code shows translations in place, treats keys as symbols and embeds the UI.",
+  "text": "VS Code 向けの x18n 拡張機能は、翻訳をその場に表示し、キーをシンボルとして扱い、UI を埋め込みます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "VS Code 向けの x18n 拡張機能は、翻訳をその場に表示し、キーをシンボルとして扱い、UI を埋め込みます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

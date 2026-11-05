@@ -1,0 +1,18 @@
+{
+  "hash": "57c4a5c8d0dbac95",
+  "source": "set up x18n in a project, or migrate from i18n-ally",
+  "text": "프로젝트에 x18n을 설정하거나 i18n-ally에서 마이그레이션합니다",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트에 x18n을 설정하거나 i18n-ally에서 마이그레이션합니다"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

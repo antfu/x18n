@@ -1,0 +1,18 @@
+{
+  "hash": "b631168d62d0acd6",
+  "source": "Key (or parent of keys) to rename.",
+  "text": "Clave (o clave padre de claves) que se va a renombrar.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Clave (o clave padre de claves) que se va a renombrar."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

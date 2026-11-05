@@ -1,0 +1,18 @@
+{
+  "hash": "d5c4817e37de9cb4",
+  "source": "the generated designer class: {0} and {1}",
+  "text": "생성된 디자이너 클래스: {0}, {1}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "생성된 디자이너 클래스: {0}, {1}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

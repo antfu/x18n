@@ -1,0 +1,18 @@
+{
+  "hash": "7b375a6fdfed6b73",
+  "source": "Rules: the placeholder syntaxes of the project, markup, tone, and the glossary. Presets add notes for their library, for example the plural suffixes of i18next.",
+  "text": "规则：项目使用的占位符语法、标记、语气和术语表。预设会为对应的库添加说明，例如 i18next 的复数后缀。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "规则：项目使用的占位符语法、标记、语气和术语表。预设会为对应的库添加说明，例如 i18next 的复数后缀。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

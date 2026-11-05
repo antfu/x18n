@@ -1,0 +1,18 @@
+{
+  "hash": "ee99dd3663890bce",
+  "source": "By default, errors fail the build and warnings do not. Three options change that:",
+  "text": "Standardmäßig lassen Fehler den Build fehlschlagen, Warnungen nicht. Drei Optionen ändern das:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Standardmäßig lassen Fehler den Build fehlschlagen, Warnungen nicht. Drei Optionen ändern das:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

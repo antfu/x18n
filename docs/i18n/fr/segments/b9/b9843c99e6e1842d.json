@@ -1,0 +1,18 @@
+{
+  "hash": "b9843c99e6e1842d",
+  "source": "{0} changes a draft of the config before it is final. {1} is the config as the user wrote it, and {2} reads files. Presets set their defaults here. The config of the project is applied after every hook, so it wins.",
+  "text": "{0} modifie un brouillon de la configuration avant qu'elle ne soit définitive. {1} est la configuration telle que l'utilisateur l'a écrite, et {2} lit des fichiers. Les presets y définissent leurs valeurs par défaut. La configuration du projet est appliquée après tous les hooks, elle l'emporte donc.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} modifie un brouillon de la configuration avant qu'elle ne soit définitive. {1} est la configuration telle que l'utilisateur l'a écrite, et {2} lit des fichiers. Les presets y définissent leurs valeurs par défaut. La configuration du projet est appliquée après tous les hooks, elle l'emporte donc."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

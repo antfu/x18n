@@ -1,0 +1,18 @@
+{
+  "hash": "5cfca51f4f16639d",
+  "source": "In YAML, write regular expressions in single quotes, so that backslashes stay as they are.",
+  "text": "在 YAML 中，请用单引号书写正则表达式，这样反斜杠会保持原样。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 YAML 中，请用单引号书写正则表达式，这样反斜杠会保持原样。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

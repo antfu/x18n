@@ -1,0 +1,18 @@
+{
+  "hash": "a44ea2d9236d1942",
+  "source": "The preset for SAPUI5 and OpenUI5. It reads .properties bundles, {i18n>key} bindings and getResourceBundle().getText calls.",
+  "text": "Пресет для SAPUI5 и OpenUI5. Он читает бандлы .properties, привязки {i18n>key} и вызовы getResourceBundle().getText.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Пресет для SAPUI5 и OpenUI5. Он читает бандлы .properties, привязки {i18n>key} и вызовы getResourceBundle().getText."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

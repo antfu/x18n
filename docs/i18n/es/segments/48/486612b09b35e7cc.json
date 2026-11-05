@@ -1,0 +1,18 @@
+{
+  "hash": "486612b09b35e7cc",
+  "source": "Connect a coding agent to x18n over MCP, through stdio with x18n mcp, or over HTTP next to the UI.",
+  "text": "Conecta un agente de programación a x18n mediante MCP, por stdio con x18n mcp o por HTTP junto a la interfaz.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Conecta un agente de programación a x18n mediante MCP, por stdio con x18n mcp o por HTTP junto a la interfaz."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

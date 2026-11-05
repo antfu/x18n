@@ -1,0 +1,18 @@
+{
+  "hash": "f79aa0d1f65371a0",
+  "source": "The preset for Transloco. It reads the transloco pipe, directive and structural directive with read scopes, and the translate function.",
+  "text": "Transloco 的預設集。它會讀取 transloco pipe、指令（directive）與帶有讀取範圍（read scope）的結構型指令，以及 translate 函式。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Transloco 的預設集。它會讀取 transloco pipe、指令（directive）與帶有讀取範圍（read scope）的結構型指令，以及 translate 函式。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

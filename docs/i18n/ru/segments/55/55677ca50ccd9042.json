@@ -1,0 +1,18 @@
+{
+  "hash": "55677ca50ccd9042",
+  "source": "Hard strings with a proposed key, message and replacement each.",
+  "text": "Захардкоженные строки, для каждой из которых предлагаются ключ, сообщение и замена.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Захардкоженные строки, для каждой из которых предлагаются ключ, сообщение и замена."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

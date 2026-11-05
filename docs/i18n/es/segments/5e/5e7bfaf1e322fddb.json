@@ -1,0 +1,18 @@
+{
+  "hash": "5e7bfaf1e322fddb",
+  "source": "The {0} prop of {1} is a key. These names count as translate calls: {2}, {3} and {4}. {5} returns {6}, and {7} gives the {8} prop.",
+  "text": "La prop {0} de {1} es una clave. Estos nombres cuentan como llamadas de traducción: {2}, {3} y {4}. {5} devuelve {6}, y {7} proporciona la prop {8}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La prop {0} de {1} es una clave. Estos nombres cuentan como llamadas de traducción: {2}, {3} y {4}. {5} devuelve {6}, y {7} proporciona la prop {8}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

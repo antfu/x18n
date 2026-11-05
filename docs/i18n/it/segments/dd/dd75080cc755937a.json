@@ -1,0 +1,18 @@
+{
+  "hash": "dd75080cc755937a",
+  "source": "The preset for angular-i18next. It reads the pipes in Angular templates, injected services under any name, namespace and scope providers, translated titles and validation messages.",
+  "text": "Il preset per angular-i18next. Legge le pipe nei template Angular, i servizi iniettati con qualsiasi nome, i provider di namespace e scope, i titoli tradotti e i messaggi di validazione.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset per angular-i18next. Legge le pipe nei template Angular, i servizi iniettati con qualsiasi nome, i provider di namespace e scope, i titoli tradotti e i messaggi di validazione."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8c93117dea7fcf37",
+  "source": "A fully dynamic key that no check can follow.",
+  "text": "Uma chave totalmente dinâmica que nenhuma verificação consegue acompanhar.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma chave totalmente dinâmica que nenhuma verificação consegue acompanhar."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "220ad82bbbf5b95e",
+  "source": "{0} can also return {1} and {2}, keyed like the ranges. A state is how far a translation got: {3}, {4} or {5}; coverage counts them. A label names a key that does not read well, such as a hash. The UI and {6} show both.",
+  "text": "{0}은(는) 범위와 같은 방식으로 키를 지정한 {1}와(과) {2}도 반환할 수 있습니다. 상태는 번역이 어디까지 진행되었는지를 나타내며 {3}, {4}, {5} 중 하나입니다. 커버리지는 이를 집계합니다. 레이블은 해시처럼 읽기 어려운 키에 이름을 붙입니다. UI와 {6}은(는) 둘 다 표시합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 범위와 같은 방식으로 키를 지정한 {1}와(과) {2}도 반환할 수 있습니다. 상태는 번역이 어디까지 진행되었는지를 나타내며 {3}, {4}, {5} 중 하나입니다. 커버리지는 이를 집계합니다. 레이블은 해시처럼 읽기 어려운 키에 이름을 붙입니다. UI와 {6}은(는) 둘 다 표시합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

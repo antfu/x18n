@@ -1,0 +1,18 @@
+{
+  "hash": "0ec843d33ef92e26",
+  "source": "{0} are rules such as {1}. When a key is used, the derived keys count as used.",
+  "text": "{0} は {1} などのルールです。キーが使用されると、派生キーも使用済みとして扱われます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は {1} などのルールです。キーが使用されると、派生キーも使用済みとして扱われます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

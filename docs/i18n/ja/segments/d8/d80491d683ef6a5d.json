@@ -1,0 +1,18 @@
+{
+  "hash": "d80491d683ef6a5d",
+  "source": "Show the values of related locales next to each message, such as {0} for {1} (default); optionally of these locales instead (comma separated)",
+  "text": "各メッセージの横に関連ロケールの値を表示します。たとえば {1} には {0}（デフォルト）。代わりに指定したロケールの値を表示することもできます（カンマ区切り）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各メッセージの横に関連ロケールの値を表示します。たとえば {1} には {0}（デフォルト）。代わりに指定したロケールの値を表示することもできます（カンマ区切り）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

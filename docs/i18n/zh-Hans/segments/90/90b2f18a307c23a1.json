@@ -1,0 +1,18 @@
+{
+  "hash": "90b2f18a307c23a1",
+  "source": "In a TS config, call the function: {0}. In a YAML or JSON config, pass the options as the second item of a tuple. x18n imports the module and calls its default export with them:",
+  "text": "在 TS 配置中，调用该函数：{0}。在 YAML 或 JSON 配置中，将选项作为元组的第二项传入。x18n 会导入该模块，并用这些选项调用它的默认导出：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 TS 配置中，调用该函数：{0}。在 YAML 或 JSON 配置中，将选项作为元组的第二项传入。x18n 会导入该模块，并用这些选项调用它的默认导出："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

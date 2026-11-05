@@ -1,0 +1,18 @@
+{
+  "hash": "8bd779274b109f7b",
+  "source": "Locales with coverage, and the counts of resources, keys, usages and diagnostics.",
+  "text": "Los idiomas con su cobertura y el número de recursos, claves, usos y diagnósticos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Los idiomas con su cobertura y el número de recursos, claves, usos y diagnósticos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

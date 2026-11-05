@@ -1,0 +1,18 @@
+{
+  "hash": "f0b9017b23ed85b9",
+  "source": "Resource is read-only. Edit the source of computed values, or use a writable format.",
+  "text": "리소스가 읽기 전용입니다. 계산된 값의 소스를 편집하거나 쓰기 가능한 형식을 사용하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리소스가 읽기 전용입니다. 계산된 값의 소스를 편집하거나 쓰기 가능한 형식을 사용하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

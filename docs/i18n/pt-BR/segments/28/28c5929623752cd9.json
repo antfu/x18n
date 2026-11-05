@@ -1,0 +1,18 @@
+{
+  "hash": "28c5929623752cd9",
+  "source": "Completion suggests keys inside translate calls.",
+  "text": "O autocompletar sugere chaves dentro de chamadas de tradução.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O autocompletar sugere chaves dentro de chamadas de tradução."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "11b83bdc36bf4820",
+  "source": "A plugin is an object that adds capabilities through the plugin API. A capability is one kind of contribution: a format, a locale finder, a scanner, an extractor, a check, a reporter or a placeholder syntax. A preset is a group of plugins for one library, with a rule that detects the library. See {0}Writing plugins{/0}.",
+  "text": "Un plugin est un objet qui ajoute des capacités via l'API de plugins. Une capacité est un type de contribution : un format, un détecteur de langues, un scanner, un extracteur, une vérification, un reporter ou une syntaxe d'espace réservé. Un preset est un groupe de plugins pour une bibliothèque, avec une règle qui détecte la bibliothèque. Voir {0}Écrire des plugins{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un plugin est un objet qui ajoute des capacités via l'API de plugins. Une capacité est un type de contribution : un format, un détecteur de langues, un scanner, un extracteur, une vérification, un reporter ou une syntaxe d'espace réservé. Un preset est un groupe de plugins pour une bibliothèque, avec une règle qui détecte la bibliothèque. Voir {0}Écrire des plugins{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

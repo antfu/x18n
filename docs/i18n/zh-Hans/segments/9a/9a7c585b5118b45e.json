@@ -1,0 +1,18 @@
+{
+  "hash": "9a7c585b5118b45e",
+  "source": "Each part of the plugin API - config hooks, formats, locale finders, scanners, extractors, checks, reporters, placeholders and more.",
+  "text": "插件 API 的各个部分：配置钩子、格式、语言查找器、扫描器、提取器、检查、报告器、占位符等。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "插件 API 的各个部分：配置钩子、格式、语言查找器、扫描器、提取器、检查、报告器、占位符等。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

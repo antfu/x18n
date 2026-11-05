@@ -1,0 +1,18 @@
+{
+  "hash": "ff7140868c888b39",
+  "source": "{0} refuses values whose placeholders differ from the source value, and lists them in {1}. The agent fixes them and applies again. If the prompt says that more keys remain, the agent continues with {2}.",
+  "text": "{0} 會拒絕佔位符與來源值不同的值，並將它們列在 {1} 中。agent 修正後再次套用。如果提示指出還有更多鍵，agent 會使用 {2} 繼續。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會拒絕佔位符與來源值不同的值，並將它們列在 {1} 中。agent 修正後再次套用。如果提示指出還有更多鍵，agent 會使用 {2} 繼續。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "41d0d7e42ff1044c",
+  "source": "Migration from i18n-ally",
+  "text": "Migration von i18n-ally",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Migration von i18n-ally"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

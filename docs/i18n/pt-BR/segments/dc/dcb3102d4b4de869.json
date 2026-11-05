@@ -1,0 +1,18 @@
+{
+  "hash": "dcb3102d4b4de869",
+  "source": "Edit the source of the computed values by hand.",
+  "text": "Edite manualmente a origem dos valores computados.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Edite manualmente a origem dos valores computados."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

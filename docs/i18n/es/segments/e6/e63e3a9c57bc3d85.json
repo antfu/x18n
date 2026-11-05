@@ -1,0 +1,18 @@
+{
+  "hash": "e63e3a9c57bc3d85",
+  "source": "Run the x18n language server in this workspace.",
+  "text": "Ejecuta el servidor de lenguaje de x18n en este espacio de trabajo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ejecuta el servidor de lenguaje de x18n en este espacio de trabajo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "7463f432dd39d1ba",
+  "source": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\".",
+  "text": "Локаль, отображаемая в аннотациях. Пустое значение означает исходную локаль. Команда «x18n: Set Display Locale» переопределяет её для рабочего пространства без записи в настройки — до изменения этой настройки или выбора «Default».",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Локаль, отображаемая в аннотациях. Пустое значение означает исходную локаль. Команда «x18n: Set Display Locale» переопределяет её для рабочего пространства без записи в настройки — до изменения этой настройки или выбора «Default»."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

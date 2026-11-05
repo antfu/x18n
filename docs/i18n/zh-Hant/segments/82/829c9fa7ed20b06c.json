@@ -1,0 +1,18 @@
+{
+  "hash": "829c9fa7ed20b06c",
+  "source": "{0} adds itself to the {1} script of {2}. After that, every install links the skills again, so the skills stay at the version of the installed CLI.",
+  "text": "{0} 會將自己加入 {2} 的 {1} script。之後每次安裝都會重新連結技能，因此技能會與已安裝的 CLI 維持相同版本。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會將自己加入 {2} 的 {1} script。之後每次安裝都會重新連結技能，因此技能會與已安裝的 CLI 維持相同版本。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

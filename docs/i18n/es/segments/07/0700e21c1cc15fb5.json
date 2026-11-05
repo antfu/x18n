@@ -1,0 +1,18 @@
+{
+  "hash": "0700e21c1cc15fb5",
+  "source": "Path relative to the project root.",
+  "text": "Ruta relativa a la raíz del proyecto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ruta relativa a la raíz del proyecto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

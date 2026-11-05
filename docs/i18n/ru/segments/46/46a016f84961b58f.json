@@ -1,0 +1,18 @@
+{
+  "hash": "46a016f84961b58f",
+  "source": "\"x18n: Find Key by Text\" finds the key behind a text that you see in the app. Type part of the text, in any locale. The search ignores case and matches fuzzily, so the letters need to appear in order, but not next to each other. The list shows the best matches first, with the key, the locale and the number of usages. Pick a key to open its usage, or choose between its usages. A key that no code uses opens at its locale entry. The command starts with the selected text, and the Keys view has a button for it.",
+  "text": "«x18n: Find Key by Text» находит ключ по тексту, который вы видите в приложении. Введите часть текста на любой локали. Поиск не учитывает регистр и работает нечётко: буквы должны встречаться по порядку, но не обязательно подряд. Список показывает лучшие совпадения первыми, с ключом, локалью и числом использований. Выберите ключ, чтобы открыть его использование, или выберите одно из его использований. Ключ, который не используется в коде, открывается в записи своей локали. Команда запускается с выделенным текстом, а в представлении Keys для неё есть кнопка.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "«x18n: Find Key by Text» находит ключ по тексту, который вы видите в приложении. Введите часть текста на любой локали. Поиск не учитывает регистр и работает нечётко: буквы должны встречаться по порядку, но не обязательно подряд. Список показывает лучшие совпадения первыми, с ключом, локалью и числом использований. Выберите ключ, чтобы открыть его использование, или выберите одно из его использований. Ключ, который не используется в коде, открывается в записи своей локали. Команда запускается с выделенным текстом, а в представлении Keys для неё есть кнопка."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

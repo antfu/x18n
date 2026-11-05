@@ -1,0 +1,18 @@
+{
+  "hash": "172db8b792c6c623",
+  "source": "Each tool takes one object. A {0} after a field name marks an optional field. The safety level tells the agent what a call does: {1} changes nothing, {2} writes files, {3} can remove data and asks for {4}.",
+  "text": "각 도구는 객체 하나를 받습니다. 필드 이름 뒤의 {0}는 선택 필드를 나타냅니다. 안전 수준은 호출이 수행하는 작업을 에이전트에 알려 줍니다. {1}는 아무것도 변경하지 않고, {2}는 파일을 작성하며, {3}는 데이터를 삭제할 수 있고 {4}를 요청합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 도구는 객체 하나를 받습니다. 필드 이름 뒤의 {0}는 선택 필드를 나타냅니다. 안전 수준은 호출이 수행하는 작업을 에이전트에 알려 줍니다. {1}는 아무것도 변경하지 않고, {2}는 파일을 작성하며, {3}는 데이터를 삭제할 수 있고 {4}를 요청합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

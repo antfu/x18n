@@ -1,0 +1,18 @@
+{
+  "hash": "4830f328078e4c39",
+  "source": "The callee returns translate functions, as {0} does.",
+  "text": "被调用者返回翻译函数，就像 {0} 那样。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "被调用者返回翻译函数，就像 {0} 那样。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

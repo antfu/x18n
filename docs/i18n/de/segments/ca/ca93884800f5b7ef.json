@@ -1,0 +1,18 @@
+{
+  "hash": "ca93884800f5b7ef",
+  "source": "The check reports each message whose open review comments end in a change request, at the message in the reviewed locale. The quick fix resolves the request. A later approval by anyone clears it too. See {0}Reviews{/0}.",
+  "text": "Die Prüfung meldet jede message, deren offene review-Kommentare in einer Änderungsanfrage enden, und zwar an der message in der geprüften Sprache. Der Quick Fix löst die Anfrage auf. Auch eine spätere Freigabe durch eine beliebige Person hebt sie auf. Siehe {0}Reviews{/0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die Prüfung meldet jede message, deren offene review-Kommentare in einer Änderungsanfrage enden, und zwar an der message in der geprüften Sprache. Der Quick Fix löst die Anfrage auf. Auch eine spätere Freigabe durch eine beliebige Person hebt sie auf. Siehe {0}Reviews{/0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

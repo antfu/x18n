@@ -1,0 +1,18 @@
+{
+  "hash": "6a05e9d4eb0038ca",
+  "source": "blame, freshness source",
+  "text": "blame, fuente de antigüedad",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "blame, fuente de antigüedad"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

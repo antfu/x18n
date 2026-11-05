@@ -1,0 +1,18 @@
+{
+  "hash": "d70c4b14ff0219e0",
+  "source": "If an edit drops or adds a placeholder compared to the source value, the UI does not save it. It shows the problem, and you can save the value anyway.",
+  "text": "Si una edición elimina o añade un marcador de posición respecto al valor de origen, la UI no la guarda. Muestra el problema y puedes guardar el valor de todos modos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Si una edición elimina o añade un marcador de posición respecto al valor de origen, la UI no la guarda. Muestra el problema y puedes guardar el valor de todos modos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

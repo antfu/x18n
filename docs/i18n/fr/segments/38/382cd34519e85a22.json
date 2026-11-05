@@ -1,0 +1,18 @@
+{
+  "hash": "382cd34519e85a22",
+  "source": "Only unused keys of this namespace.",
+  "text": "Seulement les clés inutilisées de cet espace de noms.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Seulement les clés inutilisées de cet espace de noms."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

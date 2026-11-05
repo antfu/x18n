@@ -1,0 +1,18 @@
+{
+  "hash": "61d731de6dcf8610",
+  "source": "The preset applies when the project depends on {0}. The {1} preset includes this one. If both apply, x18n adds the shared plugins one time.",
+  "text": "Le preset s'applique lorsque le projet dépend de {0}. Le preset {1} inclut celui-ci. Si les deux s'appliquent, x18n ajoute une seule fois les plugins partagés.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset s'applique lorsque le projet dépend de {0}. Le preset {1} inclut celui-ci. Si les deux s'appliquent, x18n ajoute une seule fois les plugins partagés."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

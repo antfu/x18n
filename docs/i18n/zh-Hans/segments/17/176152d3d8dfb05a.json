@@ -1,0 +1,18 @@
+{
+  "hash": "176152d3d8dfb05a",
+  "source": "There are two ways to write a plugin:",
+  "text": "编写插件有两种方式：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "编写插件有两种方式："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

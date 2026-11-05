@@ -1,0 +1,18 @@
+{
+  "hash": "c09bd1940858536a",
+  "source": "This command writes the markdown report to {0} and prints the pretty output. See {1}CI{/1} for workflow examples.",
+  "text": "Dieser Befehl schreibt den Markdown-Report nach {0} und gibt die formatierte Ausgabe aus. Workflow-Beispiele findest du unter {1}CI{/1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dieser Befehl schreibt den Markdown-Report nach {0} und gibt die formatierte Ausgabe aus. Workflow-Beispiele findest du unter {1}CI{/1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

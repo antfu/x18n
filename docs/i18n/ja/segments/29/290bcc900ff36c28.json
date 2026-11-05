@@ -1,0 +1,18 @@
+{
+  "hash": "290bcc900ff36c28",
+  "source": "An agent can work with x18n in three ways:",
+  "text": "エージェントは次の 3 つの方法で x18n を利用できます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "エージェントは次の 3 つの方法で x18n を利用できます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

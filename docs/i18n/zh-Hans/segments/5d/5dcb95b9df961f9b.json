@@ -1,0 +1,18 @@
+{
+  "hash": "5dcb95b9df961f9b",
+  "source": "Or create the locale file, then run the command again.",
+  "text": "或者创建该语言的文件，然后重新运行该命令。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "或者创建该语言的文件，然后重新运行该命令。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

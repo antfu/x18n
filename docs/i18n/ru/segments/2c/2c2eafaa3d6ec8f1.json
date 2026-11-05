@@ -1,0 +1,18 @@
+{
+  "hash": "2c2eafaa3d6ec8f1",
+  "source": "{0}: x18n calls no translation service. It writes {1}translate prompts{/1} for an agent or an LLM instead. The command prints a note.",
+  "text": "{0}: x18n не обращается ни к одному сервису перевода. Вместо этого он пишет {1}промпты для перевода{/1} для агента или LLM. Команда выводит примечание.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}: x18n не обращается ни к одному сервису перевода. Вместо этого он пишет {1}промпты для перевода{/1} для агента или LLM. Команда выводит примечание."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

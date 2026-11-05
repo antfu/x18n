@@ -1,0 +1,18 @@
+{
+  "hash": "ce85715cc06b6cce",
+  "source": "Terms with fixed translations. Translate prompts list them, and the {0} check compares values with them.",
+  "text": "Termes ayant des traductions fixes. Les prompts de traduction les listent, et la vérification {0} compare les valeurs avec eux.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Termes ayant des traductions fixes. Les prompts de traduction les listent, et la vérification {0} compare les valeurs avec eux."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

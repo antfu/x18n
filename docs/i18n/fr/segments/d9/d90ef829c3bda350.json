@@ -1,0 +1,18 @@
+{
+  "hash": "d90ef829c3bda350",
+  "source": "{0}: the resources per format.",
+  "text": "{0} : les ressources par format.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} : les ressources par format."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

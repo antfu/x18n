@@ -1,0 +1,18 @@
+{
+  "hash": "16c2b7e7d9b211da",
+  "source": "The code, such as {0}, or the JS error name of an error without a code.",
+  "text": "Der Code, zum Beispiel {0}, oder der JS-Fehlername eines Fehlers ohne Code.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Der Code, zum Beispiel {0}, oder der JS-Fehlername eines Fehlers ohne Code."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

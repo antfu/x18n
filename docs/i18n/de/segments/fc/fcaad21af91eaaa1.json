@@ -1,0 +1,18 @@
+{
+  "hash": "fcaad21af91eaaa1",
+  "source": "A key without a namespace, such as {0}, is in the {1} namespace. The preset reads {2} and {3} from the i18next init code (a file such as {4}). A key that is not in its own namespace is then looked up in the fallback namespaces, in order. Set {5} and {6} to override them:",
+  "text": "Ein Schlüssel ohne Namespace, wie {0}, gehört zum Namespace {1}. Das Preset liest {2} und {3} aus dem i18next-Init-Code (einer Datei wie {4}). Ein Schlüssel, der nicht in seinem eigenen Namespace liegt, wird dann der Reihe nach in den Fallback-Namespaces gesucht. Setze {5} und {6}, um sie zu überschreiben:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Schlüssel ohne Namespace, wie {0}, gehört zum Namespace {1}. Das Preset liest {2} und {3} aus dem i18next-Init-Code (einer Datei wie {4}). Ein Schlüssel, der nicht in seinem eigenen Namespace liegt, wird dann der Reihe nach in den Fallback-Namespaces gesucht. Setze {5} und {6}, um sie zu überschreiben:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

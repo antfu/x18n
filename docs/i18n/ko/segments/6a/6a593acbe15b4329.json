@@ -1,0 +1,18 @@
+{
+  "hash": "6a593acbe15b4329",
+  "source": "Each skill tells the agent which decisions to leave to you, and to ask about them in one message.",
+  "text": "각 스킬은 에이전트에게 어떤 결정을 사용자에게 맡겨야 하는지 알려 주고, 이를 하나의 메시지로 질문하도록 합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "각 스킬은 에이전트에게 어떤 결정을 사용자에게 맡겨야 하는지 알려 주고, 이를 하나의 메시지로 질문하도록 합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

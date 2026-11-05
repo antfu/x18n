@@ -1,0 +1,18 @@
+{
+  "hash": "2a29f5cc8edb0232",
+  "source": "Options of plugins, under the key that each plugin declares.",
+  "text": "플러그인의 옵션이며, 각 플러그인이 선언한 키 아래에 지정합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인의 옵션이며, 각 플러그인이 선언한 키 아래에 지정합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

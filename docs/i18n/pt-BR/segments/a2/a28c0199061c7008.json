@@ -1,0 +1,18 @@
+{
+  "hash": "a28c0199061c7008",
+  "source": "{0} lists the usages of a key. {1} goes the other way: it finds keys by their value in any locale, and lists their usages. {2} lists the keys with no usage.",
+  "text": "{0} lista os usos de uma chave. {1} faz o caminho inverso: encontra chaves pelo valor em qualquer idioma e lista os usos delas. {2} lista as chaves sem uso.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} lista os usos de uma chave. {1} faz o caminho inverso: encontra chaves pelo valor em qualquer idioma e lista os usos delas. {2} lista as chaves sem uso."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

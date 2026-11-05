@@ -1,0 +1,18 @@
+{
+  "hash": "351945578d2c49d3",
+  "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
+  "text": "Код замены. {0} — ключ, {1} — имя атрибута, {2} — аргументы шаблонной строки, {3} — сообщение захардкоженной строки, для значения по умолчанию, {4} — текст в том виде, как он записан в файле, а {5} — сообщение как тело шаблонной строки. {6} и {7} экранируются для окружающих их кавычек.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Код замены. {0} — ключ, {1} — имя атрибута, {2} — аргументы шаблонной строки, {3} — сообщение захардкоженной строки, для значения по умолчанию, {4} — текст в том виде, как он записан в файле, а {5} — сообщение как тело шаблонной строки. {6} и {7} экранируются для окружающих их кавычек."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

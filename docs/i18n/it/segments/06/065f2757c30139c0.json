@@ -1,0 +1,18 @@
+{
+  "hash": "065f2757c30139c0",
+  "source": "The same rules apply to the {0} check. The {1} options of the config set the key style and the strings to ignore. The presets add the replacement code for their library. See {2}Extraction templates{/2}.",
+  "text": "Le stesse regole valgono per il controllo {0}. Le opzioni {1} della configurazione impostano lo stile delle chiavi e le stringhe da ignorare. I preset aggiungono il codice di sostituzione per la rispettiva libreria. Vedi {2}Template di estrazione{/2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le stesse regole valgono per il controllo {0}. Le opzioni {1} della configurazione impostano lo stile delle chiavi e le stringhe da ignorare. I preset aggiungono il codice di sostituzione per la rispettiva libreria. Vedi {2}Template di estrazione{/2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

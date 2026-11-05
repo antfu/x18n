@@ -1,0 +1,18 @@
+{
+  "hash": "6e3491e4ca3eb6cc",
+  "source": "The {0}language server{/0} gives the same features to any editor with an LSP client.",
+  "text": "{0}語言伺服器{/0}為任何支援 LSP 用戶端的編輯器提供相同的功能。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}語言伺服器{/0}為任何支援 LSP 用戶端的編輯器提供相同的功能。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

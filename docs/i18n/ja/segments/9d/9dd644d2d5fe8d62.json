@@ -1,0 +1,18 @@
+{
+  "hash": "9dd644d2d5fe8d62",
+  "source": "{0}, {1} and a type on the variable ({2}) are fine. When x18n adds or removes a key, it rewrites only the object and keeps the rest of the file. A new locale file that x18n writes is a plain {3}, without the type.",
+  "text": "{0}、{1}、および変数の型（{2}）は問題ありません。x18n がキーを追加または削除するときは、オブジェクトだけを書き換え、ファイルの残りの部分はそのまま保持します。x18n が新たに書き出すロケールファイルは、型のない通常の {3} です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}、{1}、および変数の型（{2}）は問題ありません。x18n がキーを追加または削除するときは、オブジェクトだけを書き換え、ファイルの残りの部分はそのまま保持します。x18n が新たに書き出すロケールファイルは、型のない通常の {3} です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

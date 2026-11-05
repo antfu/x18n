@@ -1,0 +1,19 @@
+{
+  "hash": "1b60c1858a6c2b23",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3} (an array of command ids), because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "Un hover muestra el valor por idioma y el número de usos. Solo enlaza a {0}, {1} y {2} cuando el cliente los incluye en {3} (un array de ids de comando), porque un cliente que no puede ejecutar una URL {4} la abre como enlace y falla. Por defecto no hay enlaces.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "17ab1b9ab5c49c63",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un hover muestra el valor por idioma y el número de usos. Solo enlaza a {0}, {1} y {2} cuando el cliente los incluye en {3} (un array de ids de comando), porque un cliente que no puede ejecutar una URL {4} la abre como enlace y falla. Por defecto no hay enlaces."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

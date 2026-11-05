@@ -1,0 +1,18 @@
+{
+  "hash": "f636cbd613a69bc3",
+  "source": "Fix the syntax error that the message names.",
+  "text": "Correggi l'errore di sintassi indicato dal messaggio.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Correggi l'errore di sintassi indicato dal messaggio."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

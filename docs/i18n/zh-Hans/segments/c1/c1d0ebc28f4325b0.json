@@ -1,0 +1,18 @@
+{
+  "hash": "c1d0ebc28f4325b0",
+  "source": "Write the matching reporter output to a file (repeatable)",
+  "text": "将对应报告器的输出写入文件（可重复）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将对应报告器的输出写入文件（可重复）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

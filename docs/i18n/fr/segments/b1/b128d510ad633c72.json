@@ -1,0 +1,18 @@
+{
+  "hash": "b128d510ad633c72",
+  "source": "Format id for the matching files, for example {0} or {1}. Without it, the file extension picks the format.",
+  "text": "Id de format pour les fichiers correspondants, par exemple {0} ou {1}. Sans lui, l'extension du fichier détermine le format.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Id de format pour les fichiers correspondants, par exemple {0} ou {1}. Sans lui, l'extension du fichier détermine le format."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

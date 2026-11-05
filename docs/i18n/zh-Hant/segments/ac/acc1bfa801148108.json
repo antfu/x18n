@@ -1,0 +1,18 @@
+{
+  "hash": "acc1bfa801148108",
+  "source": "Also translate stale translations: those older than their source message. Needs git history.",
+  "text": "同時翻譯過時翻譯：即比其來源訊息更舊的翻譯。需要 git 歷史記錄。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "同時翻譯過時翻譯：即比其來源訊息更舊的翻譯。需要 git 歷史記錄。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

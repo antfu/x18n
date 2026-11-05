@@ -1,0 +1,18 @@
+{
+  "hash": "97f4070d541bed62",
+  "source": "Every surface reads the same config and reports the same diagnostics. A fix that you make in the editor shows in the UI, and {0} in CI agrees with both.",
+  "text": "Chaque interface lit la même configuration et signale les mêmes diagnostics. Une correction faite dans l'éditeur apparaît dans l'UI, et {0} en CI donne le même résultat pour les deux.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Chaque interface lit la même configuration et signale les mêmes diagnostics. Une correction faite dans l'éditeur apparaît dans l'UI, et {0} en CI donne le même résultat pour les deux."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

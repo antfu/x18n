@@ -1,0 +1,18 @@
+{
+  "hash": "a27b992eebe2e204",
+  "source": "The check is on when {0} is {1}, or when you set a severity for it in {2}. Run {3} to turn the reported strings into keys.",
+  "text": "Проверка включена, когда {0} имеет значение {1} или когда вы задаёте для неё уровень серьёзности в {2}. Запустите {3}, чтобы превратить найденные строки в ключи.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверка включена, когда {0} имеет значение {1} или когда вы задаёте для неё уровень серьёзности в {2}. Запустите {3}, чтобы превратить найденные строки в ключи."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

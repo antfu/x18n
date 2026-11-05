@@ -1,0 +1,18 @@
+{
+  "hash": "441ba5d55d7c57c9",
+  "source": "Indent of written files: a number of spaces, or {0}. Without it, each file keeps its own indent.",
+  "text": "Отступ в записываемых файлах: число пробелов или {0}. Если не задан, каждый файл сохраняет свой отступ.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Отступ в записываемых файлах: число пробелов или {0}. Если не задан, каждый файл сохраняет свой отступ."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

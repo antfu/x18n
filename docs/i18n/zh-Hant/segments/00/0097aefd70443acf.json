@@ -1,0 +1,18 @@
+{
+  "hash": "0097aefd70443acf",
+  "source": "A locale file can store keys nested ({0}) or flat ({1}). The key is the same in both cases. When x18n writes a file, it keeps the style that the file uses.",
+  "text": "語系檔案可以用巢狀（{0}）或扁平（{1}）方式儲存鍵。兩種情況下的鍵都相同。x18n 寫入檔案時，會保留該檔案原本使用的風格。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "語系檔案可以用巢狀（{0}）或扁平（{1}）方式儲存鍵。兩種情況下的鍵都相同。x18n 寫入檔案時，會保留該檔案原本使用的風格。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

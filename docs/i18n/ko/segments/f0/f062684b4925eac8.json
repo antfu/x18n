@@ -1,0 +1,18 @@
+{
+  "hash": "f062684b4925eac8",
+  "source": "Everything between the two comments. Without an end, everything to the end of the file.",
+  "text": "두 주석 사이의 모든 내용입니다. 끝 주석이 없으면 파일 끝까지 모두 건너뜁니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "두 주석 사이의 모든 내용입니다. 끝 주석이 없으면 파일 끝까지 모두 건너뜁니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "01da2c1e2d73f023",
+  "source": "The locale shown in annotations and hovers. Per user.",
+  "text": "在標註與游標懸停提示中顯示的語系。依使用者而定。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在標註與游標懸停提示中顯示的語系。依使用者而定。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

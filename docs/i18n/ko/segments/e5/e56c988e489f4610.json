@@ -1,0 +1,18 @@
+{
+  "hash": "e56c988e489f4610",
+  "source": "Also translate stale translations: those older than their source message.",
+  "text": "오래된 번역, 즉 소스 메시지보다 이전에 작성된 번역도 함께 번역합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오래된 번역, 즉 소스 메시지보다 이전에 작성된 번역도 함께 번역합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

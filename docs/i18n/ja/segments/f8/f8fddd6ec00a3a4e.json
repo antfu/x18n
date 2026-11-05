@@ -1,0 +1,18 @@
+{
+  "hash": "f8fddd6ec00a3a4e",
+  "source": "Run the command again. x18n makes a new plan from the current files.",
+  "text": "コマンドをもう一度実行してください。x18n が現在のファイルから新しいプランを作成します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コマンドをもう一度実行してください。x18n が現在のファイルから新しいプランを作成します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

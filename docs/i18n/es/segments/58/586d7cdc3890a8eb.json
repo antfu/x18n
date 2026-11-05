@@ -1,0 +1,18 @@
+{
+  "hash": "586d7cdc3890a8eb",
+  "source": "The preset for i18n-js (ruby-i18n-js). It reads I18n.t and i18n.t calls and %{name} placeholders.",
+  "text": "El preset para i18n-js (ruby-i18n-js). Lee las llamadas a I18n.t e i18n.t y los marcadores de posición %{name}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para i18n-js (ruby-i18n-js). Lee las llamadas a I18n.t e i18n.t y los marcadores de posición %{name}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

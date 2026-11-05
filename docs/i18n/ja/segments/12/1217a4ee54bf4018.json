@@ -1,0 +1,18 @@
+{
+  "hash": "1217a4ee54bf4018",
+  "source": "Turns diagnostics and analysis into text output.",
+  "text": "診断と分析結果をテキスト出力に変換します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "診断と分析結果をテキスト出力に変換します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

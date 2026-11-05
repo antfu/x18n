@@ -1,0 +1,18 @@
+{
+  "hash": "e1ea212c5556d75b",
+  "source": "Run {0} to see the result. Each preset shows as {1}, {2}, {3}, or {4}.",
+  "text": "Ejecuta {0} para ver el resultado. Cada preset aparece como {1}, {2}, {3} o {4}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ejecuta {0} para ver el resultado. Cada preset aparece como {1}, {2}, {3} o {4}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

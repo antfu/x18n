@@ -1,0 +1,18 @@
+{
+  "hash": "ac58af57e40d4f4d",
+  "source": "A key is the id of a message. The example has the keys {0}, {1}, {2} and {3}. A key with child keys, such as {4}, is a parent key. Commands such as {5} and {6} work on a parent key too: they change every key under it.",
+  "text": "鍵是訊息的 id。範例中有 {0}、{1}、{2} 和 {3} 這幾個鍵。含有子鍵的鍵（例如 {4}）稱為父鍵。{5} 和 {6} 等指令也可以對父鍵運作：它們會變更其下的每一個鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "鍵是訊息的 id。範例中有 {0}、{1}、{2} 和 {3} 這幾個鍵。含有子鍵的鍵（例如 {4}）稱為父鍵。{5} 和 {6} 等指令也可以對父鍵運作：它們會變更其下的每一個鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

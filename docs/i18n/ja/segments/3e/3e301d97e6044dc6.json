@@ -1,0 +1,18 @@
+{
+  "hash": "3e301d97e6044dc6",
+  "source": "A message with a custom id ({0}) uses it. A message without one gets the id Angular computes from its text and meaning, and x18n computes the same: the {1} above is {2}. ICU expressions, nested elements, {3}, {4} and {5} blocks and custom placeholder names ({6}) count. An ICU inside text is a message of its own, as Angular extracts it.",
+  "text": "カスタム ID（{0}）を持つメッセージは、その ID を使用します。ID を持たないメッセージには、Angular がテキストと意味から計算する ID が割り当てられ、x18n も同じ ID を計算します。上記の {1} の ID は {2} です。ICU 式、ネストした要素、{3}、{4}、{5} ブロック、カスタムのプレースホルダー名（{6}）も計算の対象です。テキスト内の ICU は、Angular が抽出する場合と同様に、それ自体が独立したメッセージになります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "カスタム ID（{0}）を持つメッセージは、その ID を使用します。ID を持たないメッセージには、Angular がテキストと意味から計算する ID が割り当てられ、x18n も同じ ID を計算します。上記の {1} の ID は {2} です。ICU 式、ネストした要素、{3}、{4}、{5} ブロック、カスタムのプレースホルダー名（{6}）も計算の対象です。テキスト内の ICU は、Angular が抽出する場合と同様に、それ自体が独立したメッセージになります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

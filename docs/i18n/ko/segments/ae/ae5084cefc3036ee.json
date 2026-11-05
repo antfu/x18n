@@ -1,0 +1,18 @@
+{
+  "hash": "ae5084cefc3036ee",
+  "source": "Describe a library in a *.x18n-plugin.yml file - resources, translate calls, regex scanners, scopes, placeholders and templates.",
+  "text": "*.x18n-plugin.yml 파일로 라이브러리를 기술합니다. 리소스, translate 호출, 정규식 스캐너, 스코프, 플레이스홀더, 템플릿을 설명합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "*.x18n-plugin.yml 파일로 라이브러리를 기술합니다. 리소스, translate 호출, 정규식 스캐너, 스코프, 플레이스홀더, 템플릿을 설명합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "1a2fd0d38c5ffa86",
+  "source": "{0} puts the reported values on the translate prompt. See {1}Translate reported values{/1}.",
+  "text": "{0} 会把报告的值放入翻译提示词中。参见 {1}翻译报告的值{/1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 会把报告的值放入翻译提示词中。参见 {1}翻译报告的值{/1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

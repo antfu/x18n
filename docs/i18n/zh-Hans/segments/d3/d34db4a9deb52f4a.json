@@ -1,0 +1,18 @@
+{
+  "hash": "d34db4a9deb52f4a",
+  "source": "The new message goes in the source file with Angular's placeholders, the same as {0} writes it. Elements that hold an element with {1} keep it, and their other text goes in an {2}, since Angular rejects an {3} element inside another one.",
+  "text": "新消息会连同 Angular 的占位符一起放入源文件，写法与 {0} 相同。包含带 {1} 元素的元素会保留它，其余文本放入 {2}，因为 Angular 不允许在一个 {3} 元素内再嵌套另一个 {1} 元素。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "新消息会连同 Angular 的占位符一起放入源文件，写法与 {0} 相同。包含带 {1} 元素的元素会保留它，其余文本放入 {2}，因为 Angular 不允许在一个 {3} 元素内再嵌套另一个 {1} 元素。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

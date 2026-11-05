@@ -1,0 +1,18 @@
+{
+  "hash": "e205770dcdf212aa",
+  "source": "Read the JSON output, not the human output.",
+  "text": "Lisez la sortie JSON, pas la sortie destinée aux humains.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lisez la sortie JSON, pas la sortie destinée aux humains."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

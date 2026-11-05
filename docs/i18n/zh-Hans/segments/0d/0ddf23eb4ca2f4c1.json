@@ -1,0 +1,18 @@
+{
+  "hash": "0ddf23eb4ca2f4c1",
+  "source": "Writes many messages, in the shape of {0}. Refuses placeholder problems unless {1}.",
+  "text": "批量写入消息，格式为 {0}。除非使用 {1}，否则会拒绝存在占位符问题的消息。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "批量写入消息，格式为 {0}。除非使用 {1}，否则会拒绝存在占位符问题的消息。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

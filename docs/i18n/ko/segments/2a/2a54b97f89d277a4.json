@@ -1,0 +1,18 @@
+{
+  "hash": "2a54b97f89d277a4",
+  "source": "Then list {0} in {1} instead of the YAML file. See {2}TypeScript plugins{/2}.",
+  "text": "그런 다음 YAML 파일 대신 {1}에 {0}을(를) 나열하세요. {2}TypeScript 플러그인{/2}을 참고하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "그런 다음 YAML 파일 대신 {1}에 {0}을(를) 나열하세요. {2}TypeScript 플러그인{/2}을 참고하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

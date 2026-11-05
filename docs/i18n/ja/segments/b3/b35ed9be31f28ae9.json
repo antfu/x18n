@@ -1,0 +1,18 @@
+{
+  "hash": "b35ed9be31f28ae9",
+  "source": "With the default separator {0}, the namespace is the first part of the key path. The key {1} in {2} is {3}. vue-i18n works this way.",
+  "text": "デフォルトの区切り文字 {0} では、名前空間はキーパスの最初の部分です。{2} 内のキー {1} は {3} になります。vue-i18n はこの方式です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "デフォルトの区切り文字 {0} では、名前空間はキーパスの最初の部分です。{2} 内のキー {1} は {3} になります。vue-i18n はこの方式です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

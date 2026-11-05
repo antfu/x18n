@@ -1,0 +1,18 @@
+{
+  "hash": "29bd391cb38bdf40",
+  "source": "Find keys by their value, best match first: the key behind a text seen in the app. Searches every locale, ignoring case, and matches fuzzily unless {0}. Each match has the matched locale and value, and the usages in code with file, line and column.",
+  "text": "Findet Schlüssel anhand ihres Werts, beste Treffer zuerst: den Schlüssel hinter einem Text, den du in der App siehst. Durchsucht alle Sprachen ohne Beachtung der Groß- und Kleinschreibung und sucht unscharf, außer bei {0}. Jeder Treffer enthält die passende Sprache und den Wert sowie die Verwendungen im Code mit Datei, Zeile und Spalte.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Findet Schlüssel anhand ihres Werts, beste Treffer zuerst: den Schlüssel hinter einem Text, den du in der App siehst. Durchsucht alle Sprachen ohne Beachtung der Groß- und Kleinschreibung und sucht unscharf, außer bei {0}. Jeder Treffer enthält die passende Sprache und den Wert sowie die Verwendungen im Code mit Datei, Zeile und Spalte."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

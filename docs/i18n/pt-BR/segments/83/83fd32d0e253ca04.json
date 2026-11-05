@@ -1,0 +1,18 @@
+{
+  "hash": "83fd32d0e253ca04",
+  "source": "The committed file of known diagnostics ({0}); {1} then reports only new ones.",
+  "text": "O arquivo versionado de diagnósticos conhecidos ({0}); {1} passa a reportar apenas os novos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O arquivo versionado de diagnósticos conhecidos ({0}); {1} passa a reportar apenas os novos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

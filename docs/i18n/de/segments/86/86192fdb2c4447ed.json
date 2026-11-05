@@ -1,0 +1,18 @@
+{
+  "hash": "86192fdb2c4447ed",
+  "source": "{0} puts the {1}x18n UI{/1} in the devtools of your app, so you do not need a separate {2} server. The panel is the same UI with the same pages. It reads and writes the files of the project, and it updates when the files change.",
+  "text": "{0} bringt die {1}x18n-UI{/1} in die DevTools deiner App, sodass du keinen separaten {2}-Server brauchst. Das Panel ist dieselbe UI mit denselben Seiten. Es liest und schreibt die Dateien des Projekts und aktualisiert sich, wenn sich die Dateien ändern.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} bringt die {1}x18n-UI{/1} in die DevTools deiner App, sodass du keinen separaten {2}-Server brauchst. Das Panel ist dieselbe UI mit denselben Seiten. Es liest und schreibt die Dateien des Projekts und aktualisiert sich, wenn sich die Dateien ändern."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

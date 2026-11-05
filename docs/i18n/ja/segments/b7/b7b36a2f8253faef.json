@@ -1,0 +1,18 @@
+{
+  "hash": "b7b36a2f8253faef",
+  "source": "Where the params passed to the message are. For factories, those of the returned functions.",
+  "text": "メッセージに渡されるパラメーターの位置です。ファクトリの場合は、返される関数のパラメーターを指します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "メッセージに渡されるパラメーターの位置です。ファクトリの場合は、返される関数のパラメーターを指します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

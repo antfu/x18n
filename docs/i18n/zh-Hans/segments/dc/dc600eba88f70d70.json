@@ -1,0 +1,18 @@
+{
+  "hash": "dc600eba88f70d70",
+  "source": "Name the package {0}, or {1}. Then YAML and JSON configs can load it by name, and users can find it on npm.",
+  "text": "将包命名为 {0} 或 {1}。这样 YAML 和 JSON 配置就可以按名称加载它，用户也能在 npm 上找到它。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "将包命名为 {0} 或 {1}。这样 YAML 和 JSON 配置就可以按名称加载它，用户也能在 npm 上找到它。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

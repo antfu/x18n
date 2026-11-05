@@ -1,0 +1,18 @@
+{
+  "hash": "2bfeae3e1669ab3a",
+  "source": "x18n has no resource where it can write the key in this locale.",
+  "text": "O x18n não tem nenhum recurso onde possa gravar a chave neste idioma.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O x18n não tem nenhum recurso onde possa gravar a chave neste idioma."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

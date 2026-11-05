@@ -1,0 +1,18 @@
+{
+  "hash": "e8fd9a7fbf3e26a1",
+  "source": "The canonical id of a message: namespace plus path. String form {0}. With {1} the path is one literal segment ({2}).",
+  "text": "Die kanonische ID einer Message: Namespace plus Pfad. Schreibweise als String: {0}. Bei {1} ist der Pfad ein einzelnes literales Segment ({2}).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Die kanonische ID einer Message: Namespace plus Pfad. Schreibweise als String: {0}. Bei {1} ist der Pfad ein einzelnes literales Segment ({2})."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

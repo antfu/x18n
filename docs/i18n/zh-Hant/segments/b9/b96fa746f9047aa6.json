@@ -1,0 +1,18 @@
+{
+  "hash": "b96fa746f9047aa6",
+  "source": "The arguments of a template string: {0}, without the {1} right after {2}. Empty when there are none.",
+  "text": "範本字串的引數：{0}，不含緊接在 {2} 之後的 {1}。沒有引數時為空。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "範本字串的引數：{0}，不含緊接在 {2} 之後的 {1}。沒有引數時為空。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

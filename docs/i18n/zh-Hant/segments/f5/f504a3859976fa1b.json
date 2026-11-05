@@ -1,0 +1,18 @@
+{
+  "hash": "f504a3859976fa1b",
+  "source": "Run {0} to list the keys, or {1} to search.",
+  "text": "執行 {0} 列出鍵，或使用 {1} 搜尋。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "執行 {0} 列出鍵，或使用 {1} 搜尋。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,3 @@
+# Set `mt.enabled` to false to stop machine translation from writing new fr records.
+mt:
+  enabled: true

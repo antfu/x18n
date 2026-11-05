@@ -1,0 +1,18 @@
+{
+  "hash": "b0ac1e97fbf74799",
+  "source": "Commands that write files ({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}) always need one project in a monorepo.",
+  "text": "파일을 쓰는 명령({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7})은 모노레포에서 항상 프로젝트 하나를 지정해야 합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "파일을 쓰는 명령({0}, {1}, {2}, {3}, {4}, {5}, {6}, {7})은 모노레포에서 항상 프로젝트 하나를 지정해야 합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

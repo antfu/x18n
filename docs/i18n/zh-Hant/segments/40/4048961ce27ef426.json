@@ -1,0 +1,18 @@
+{
+  "hash": "4048961ce27ef426",
+  "source": "{0}: the resources of each locale finder.",
+  "text": "{0}：每個語系 finder 的資源。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}：每個語系 finder 的資源。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

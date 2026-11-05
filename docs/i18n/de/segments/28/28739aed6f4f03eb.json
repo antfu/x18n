@@ -1,0 +1,18 @@
+{
+  "hash": "28739aed6f4f03eb",
+  "source": "A plan can hold decisions. A decision is a question that the command must answer before it writes, for example which file gets a new key. In a terminal, x18n asks you. With {0}, it takes the default answer. With {1}, or without a terminal, it stops with {2}X18N4003{/2}.",
+  "text": "Ein Plan kann Entscheidungen enthalten. Eine Entscheidung ist eine Frage, die der Befehl beantworten muss, bevor er schreibt, zum Beispiel welche Datei einen neuen Schlüssel erhält. In einem Terminal fragt x18n dich. Mit {0} nimmt es die Standardantwort. Mit {1} oder ohne Terminal bricht es mit {2}X18N4003{/2} ab.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Plan kann Entscheidungen enthalten. Eine Entscheidung ist eine Frage, die der Befehl beantworten muss, bevor er schreibt, zum Beispiel welche Datei einen neuen Schlüssel erhält. In einem Terminal fragt x18n dich. Mit {0} nimmt es die Standardantwort. Mit {1} oder ohne Terminal bricht es mit {2}X18N4003{/2} ab."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

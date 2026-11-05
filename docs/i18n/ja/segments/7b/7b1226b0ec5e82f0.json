@@ -1,0 +1,18 @@
+{
+  "hash": "7b1226b0ec5e82f0",
+  "source": "Reviews: messages with open {0}review{/0} comments, with their state. Click one to open it in its locale file.",
+  "text": "レビュー: 未解決の{0}レビュー{/0}コメントがあるメッセージを、その状態とともに表示します。クリックすると、そのロケールファイルで開きます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "レビュー: 未解決の{0}レビュー{/0}コメントがあるメッセージを、その状態とともに表示します。クリックすると、そのロケールファイルで開きます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

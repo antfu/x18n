@@ -1,0 +1,18 @@
+{
+  "hash": "70670561533a7b86",
+  "source": "Usages in code, paged: of one {0} (usages with a computed key under a prefix of it are marked {1}), of one file ({2}), or all. Each usage has file, line, column and a code snippet.",
+  "text": "Verwendungen im Code, seitenweise: von einem {0} (Verwendungen mit einem berechneten Schlüssel unter einem Präfix davon sind mit {1} markiert), von einer Datei ({2}) oder alle. Jede Verwendung enthält Datei, Zeile, Spalte und einen Code-Ausschnitt.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Verwendungen im Code, seitenweise: von einem {0} (Verwendungen mit einem berechneten Schlüssel unter einem Präfix davon sind mit {1} markiert), von einer Datei ({2}) oder alle. Jede Verwendung enthält Datei, Zeile, Spalte und einen Code-Ausschnitt."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

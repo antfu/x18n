@@ -1,0 +1,18 @@
+{
+  "hash": "f395651725313e99",
+  "source": "The Shopify format keeps plural and ordinal forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, and {3} to {4}. Each locale needs the plural categories of its own language: Japanese needs only {5}, and Polish needs {6}, {7}, {8} and {9}. New files use nested keys.",
+  "text": "Формат Shopify хранит множественные и порядковые формы во вложенных ключах. Пресет добавляет производные ключи {0}, {1}, {2} и {3} в {4}. Каждой локали нужны категории множественного числа её собственного языка: японскому нужна только {5}, а польскому — {6}, {7}, {8} и {9}. Новые файлы используют вложенные ключи.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Формат Shopify хранит множественные и порядковые формы во вложенных ключах. Пресет добавляет производные ключи {0}, {1}, {2} и {3} в {4}. Каждой локали нужны категории множественного числа её собственного языка: японскому нужна только {5}, а польскому — {6}, {7}, {8} и {9}. Новые файлы используют вложенные ключи."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

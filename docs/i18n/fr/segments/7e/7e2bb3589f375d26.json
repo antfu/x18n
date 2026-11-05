@@ -1,0 +1,18 @@
+{
+  "hash": "7e2bb3589f375d26",
+  "source": "An in-place annotation hides a key in code and shows its value in the display locale. The display locale is the locale that annotations and hovers show. It is your own choice, and it defaults to the source locale.",
+  "text": "Une annotation sur place masque une clé dans le code et affiche sa valeur dans la langue d'affichage. La langue d'affichage est la langue que les annotations et les info-bulles affichent. Elle est de votre choix et correspond par défaut à la langue source.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une annotation sur place masque une clé dans le code et affiche sa valeur dans la langue d'affichage. La langue d'affichage est la langue que les annotations et les info-bulles affichent. Elle est de votre choix et correspond par défaut à la langue source."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

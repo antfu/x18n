@@ -1,0 +1,18 @@
+{
+  "hash": "65ae947879365559",
+  "source": "The preset adds no placeholder syntax.",
+  "text": "이 프리셋은 플레이스홀더 구문을 추가하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 플레이스홀더 구문을 추가하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "07138e21f5b3151e",
+  "source": "The translate calls are {0}, {1}, {2} and {3}, also from {4} and {5}. The {6} of {7} is a key too. {8} and {9} take the name of a format, not a key.",
+  "text": "Les appels de traduction sont {0}, {1}, {2} et {3}, y compris depuis {4} et {5}. Le {6} de {7} est aussi une clé. {8} et {9} prennent le nom d'un format, et non une clé.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les appels de traduction sont {0}, {1}, {2} et {3}, y compris depuis {4} et {5}. Le {6} de {7} est aussi une clé. {8} et {9} prennent le nom d'un format, et non une clé."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

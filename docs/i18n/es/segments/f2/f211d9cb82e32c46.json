@@ -1,0 +1,18 @@
+{
+  "hash": "f211d9cb82e32c46",
+  "source": "Run {0} with no command to see the status of the project and the main commands.",
+  "text": "Ejecuta {0} sin ningún comando para ver el estado del proyecto y los comandos principales.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ejecuta {0} sin ningún comando para ver el estado del proyecto y los comandos principales."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

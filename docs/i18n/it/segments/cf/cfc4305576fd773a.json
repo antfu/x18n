@@ -1,0 +1,18 @@
+{
+  "hash": "cfc4305576fd773a",
+  "source": "One reported issue with a code, severity and optional fixes.",
+  "text": "Un problema segnalato con un codice, una gravità e correzioni facoltative.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un problema segnalato con un codice, una gravità e correzioni facoltative."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

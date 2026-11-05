@@ -1,0 +1,18 @@
+{
+  "hash": "4482da4bbb9f4f59",
+  "source": "{0} is the URL of the {1}error page{/1} of the code.",
+  "text": "{0} est l'URL de la {1}page d'erreur{/1} du code.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} est l'URL de la {1}page d'erreur{/1} du code."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "c6ef58a698647edd",
+  "source": "If your config has no {0}, the preset uses {1} and {2}. The {3} format reads and writes these files. Keys stay flat.",
+  "text": "如果你的配置中没有 {0}，预设会使用 {1} 和 {2}。{3} 格式负责读取和写入这些文件。键保持扁平结构。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果你的配置中没有 {0}，预设会使用 {1} 和 {2}。{3} 格式负责读取和写入这些文件。键保持扁平结构。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

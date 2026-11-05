@@ -1,0 +1,18 @@
+{
+  "hash": "844d74af3b10fb6e",
+  "source": "HTTP: next to the UI",
+  "text": "HTTP : à côté de l'interface",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "HTTP : à côté de l'interface"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8571ac121f53485b",
+  "source": "Arguments that may hold the params object, in order; string arguments are skipped ({0}).",
+  "text": "可能包含參數物件的引數，依順序排列；字串引數會被略過（{0}）。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "可能包含參數物件的引數，依順序排列；字串引數會被略過（{0}）。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

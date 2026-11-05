@@ -1,0 +1,18 @@
+{
+  "hash": "81abb3e549ad38bd",
+  "source": "A path that ends in {0} or {1} loads as a YAML plugin.",
+  "text": "Ein Pfad, der auf {0} oder {1} endet, wird als YAML-Plugin geladen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Pfad, der auf {0} oder {1} endet, wird als YAML-Plugin geladen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f48146e79baf2827",
+  "source": "When editor settings move to the x18n extension.",
+  "text": "当编辑器设置迁移到 x18n 扩展时写入。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当编辑器设置迁移到 x18n 扩展时写入。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

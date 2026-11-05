@@ -1,0 +1,18 @@
+{
+  "hash": "b1438d9e70537009",
+  "source": "Translate missing messages",
+  "text": "Переведите отсутствующие сообщения",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Переведите отсутствующие сообщения"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

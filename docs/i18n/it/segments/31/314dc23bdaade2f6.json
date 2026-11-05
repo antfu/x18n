@@ -1,0 +1,18 @@
+{
+  "hash": "314dc23bdaade2f6",
+  "source": "An optional locale. A file without it belongs to the source locale.",
+  "text": "Una lingua facoltativa. Un file senza di essa appartiene alla lingua di origine.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una lingua facoltativa. Un file senza di essa appartiene alla lingua di origine."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

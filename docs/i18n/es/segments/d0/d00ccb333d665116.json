@@ -1,0 +1,18 @@
+{
+  "hash": "d00ccb333d665116",
+  "source": "Parent key; omitted for the roots.",
+  "text": "Clave padre; se omite en las raíces.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Clave padre; se omite en las raíces."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

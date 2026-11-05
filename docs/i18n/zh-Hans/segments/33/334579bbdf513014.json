@@ -1,0 +1,18 @@
+{
+  "hash": "334579bbdf513014",
+  "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
+  "text": "审阅线程：按键和语言列出消息上的评论、批准、变更请求和建议值，并附带每个线程的状态。传入 {0} 则只返回未解决的线程。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "审阅线程：按键和语言列出消息上的评论、批准、变更请求和建议值，并附带每个线程的状态。传入 {0} 则只返回未解决的线程。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

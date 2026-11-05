@@ -1,0 +1,18 @@
+{
+  "hash": "34813948cd99f1a3",
+  "source": "A translation is stale when it last changed before its source message did. Inside a git repo, x18n reads the commits that touched the locale files and compares the parsed messages, so reformatting, sorting and moving keys between files do not count. Uncommitted edits count as changed now. A message without history is never stale.",
+  "text": "Перевод считается устаревшим, если он последний раз менялся раньше, чем его исходное сообщение. Внутри git-репозитория x18n читает коммиты, затрагивавшие файлы локалей, и сравнивает разобранные сообщения, поэтому переформатирование, сортировка и перемещение ключей между файлами не учитываются. Незафиксированные правки считаются изменениями, сделанными сейчас. Сообщение без истории никогда не считается устаревшим.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Перевод считается устаревшим, если он последний раз менялся раньше, чем его исходное сообщение. Внутри git-репозитория x18n читает коммиты, затрагивавшие файлы локалей, и сравнивает разобранные сообщения, поэтому переформатирование, сортировка и перемещение ключей между файлами не учитываются. Незафиксированные правки считаются изменениями, сделанными сейчас. Сообщение без истории никогда не считается устаревшим."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

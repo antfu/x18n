@@ -1,0 +1,18 @@
+{
+  "hash": "b504b88cab0b9e3b",
+  "source": "To find the key behind a text that you see in the app, search the values. The search covers every locale and ignores case. It matches fuzzily, so the letters of the query need to appear in order, but not next to each other. Values that contain the query rank first. {0} keeps only those values. Each match lists its usages as {1}:",
+  "text": "Para encontrar a chave por trás de um texto que você vê no app, pesquise nos valores. A busca abrange todos os idiomas e ignora maiúsculas e minúsculas. Ela usa correspondência aproximada, então as letras da consulta precisam aparecer em ordem, mas não necessariamente juntas. Os valores que contêm a consulta aparecem primeiro. {0} mantém apenas esses valores. Cada correspondência lista seus usos como {1}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Para encontrar a chave por trás de um texto que você vê no app, pesquise nos valores. A busca abrange todos os idiomas e ignora maiúsculas e minúsculas. Ela usa correspondência aproximada, então as letras da consulta precisam aparecer em ordem, mas não necessariamente juntas. Os valores que contêm a consulta aparecem primeiro. {0} mantém apenas esses valores. Cada correspondência lista seus usos como {1}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

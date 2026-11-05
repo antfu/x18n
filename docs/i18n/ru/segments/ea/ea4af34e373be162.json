@@ -1,0 +1,18 @@
+{
+  "hash": "ea4af34e373be162",
+  "source": "One i18n setup with one root, one config and one set of locales. A monorepo can have many.",
+  "text": "Одна настройка i18n с одним корнем, одним конфигом и одним набором локалей. В monorepo их может быть несколько.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Одна настройка i18n с одним корнем, одним конфигом и одним набором локалей. В monorepo их может быть несколько."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

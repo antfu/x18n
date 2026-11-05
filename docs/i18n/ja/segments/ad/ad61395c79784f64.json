@@ -1,0 +1,18 @@
+{
+  "hash": "ad61395c79784f64",
+  "source": "Russian needs {0}, {1}, {2} and {3}. The {4} check reports {5} and {6} at the English {7}, and its fix copies that value.",
+  "text": "ロシア語には {0}、{1}、{2}、{3} が必要です。{4} チェックは英語の {7} について {5} と {6} を報告し、その修正はこの値をコピーします。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロシア語には {0}、{1}、{2}、{3} が必要です。{4} チェックは英語の {7} について {5} と {6} を報告し、その修正はこの値をコピーします。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

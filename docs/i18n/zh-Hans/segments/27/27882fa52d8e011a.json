@@ -1,0 +1,18 @@
+{
+  "hash": "27882fa52d8e011a",
+  "source": "Project, locale, resource, namespace, key, message, usage, prefix usage and scope, with examples.",
+  "text": "项目、语言、资源、命名空间、键、消息、引用、前缀引用和作用域，附示例。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "项目、语言、资源、命名空间、键、消息、引用、前缀引用和作用域，附示例。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

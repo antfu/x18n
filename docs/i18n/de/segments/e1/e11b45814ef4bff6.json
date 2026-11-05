@@ -1,0 +1,18 @@
+{
+  "hash": "e11b45814ef4bff6",
+  "source": "List message keys, paged. Filter by {0} locale (keys to translate), {1} (keys no code uses), {2} or a key {3}. Pass {4} to get the value per locale. A key whose format gives it a display label has {5}. Continue with {6}.",
+  "text": "Listet die message-Schlüssel seitenweise auf. Filtere nach {0} Sprache (zu übersetzende Schlüssel), {1} (Schlüssel, die kein Code verwendet), {2} oder einem Schlüssel-{3}. Übergib {4}, um den Wert pro Sprache zu erhalten. Ein Schlüssel, dessen Format ihm ein Anzeigelabel gibt, hat {5}. Fahre mit {6} fort.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Listet die message-Schlüssel seitenweise auf. Filtere nach {0} Sprache (zu übersetzende Schlüssel), {1} (Schlüssel, die kein Code verwendet), {2} oder einem Schlüssel-{3}. Übergib {4}, um den Wert pro Sprache zu erhalten. Ein Schlüssel, dessen Format ihm ein Anzeigelabel gibt, hat {5}. Fahre mit {6} fort."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

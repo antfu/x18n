@@ -1,0 +1,18 @@
+{
+  "hash": "1088c231d5b3a7fe",
+  "source": "Rules that rewrite the raw key text of a usage before x18n looks it up. This rule turns {0} into the key {1}:",
+  "text": "Regeln, die den rohen Schlüsseltext einer Verwendung umschreiben, bevor x18n ihn nachschlägt. Diese Regel macht aus {0} den Schlüssel {1}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Regeln, die den rohen Schlüsseltext einer Verwendung umschreiben, bevor x18n ihn nachschlägt. Diese Regel macht aus {0} den Schlüssel {1}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

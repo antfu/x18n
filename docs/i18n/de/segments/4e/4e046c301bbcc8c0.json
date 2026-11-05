@@ -1,0 +1,18 @@
+{
+  "hash": "4e046c301bbcc8c0",
+  "source": "This file has the keys {0} and {1}.",
+  "text": "Diese Datei enthält die Schlüssel {0} und {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Diese Datei enthält die Schlüssel {0} und {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

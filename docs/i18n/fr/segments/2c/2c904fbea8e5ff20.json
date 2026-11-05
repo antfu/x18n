@@ -1,0 +1,18 @@
+{
+  "hash": "2c904fbea8e5ff20",
+  "source": "This file has the keys {0} and {1}. When x18n writes a key, it writes it under the locale key of the file. For example, setting {2} in {3} changes {4} to:",
+  "text": "Ce fichier contient les clés {0} et {1}. Lorsque x18n écrit une clé, il l'écrit sous la clé de langue du fichier. Par exemple, définir {2} dans {3} change {4} en :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ce fichier contient les clés {0} et {1}. Lorsque x18n écrit une clé, il l'écrit sous la clé de langue du fichier. Par exemple, définir {2} dans {3} change {4} en :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

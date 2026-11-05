@@ -1,0 +1,18 @@
+{
+  "hash": "28f7e307de1a229a",
+  "source": "{0} lists each key with its locales and files. {1} lists unused keys that a computed key in a scope may reach, with those usages; they stay. {2} names computed keys outside any scope, which may reach any key.",
+  "text": "{0} liste chaque clé avec ses langues et ses fichiers. {1} liste les clés inutilisées qu'une clé calculée dans un périmètre peut atteindre, avec ces utilisations ; elles sont conservées. {2} nomme les clés calculées hors de tout périmètre, qui peuvent atteindre n'importe quelle clé.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} liste chaque clé avec ses langues et ses fichiers. {1} liste les clés inutilisées qu'une clé calculée dans un périmètre peut atteindre, avec ces utilisations ; elles sont conservées. {2} nomme les clés calculées hors de tout périmètre, qui peuvent atteindre n'importe quelle clé."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

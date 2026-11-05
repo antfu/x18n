@@ -1,0 +1,18 @@
+{
+  "hash": "6e0c5f6127a69c80",
+  "source": "The data of {0} comes from {1} in {2}. It returns the presets with the reason for each, the plugins, the plugins that were skipped and why, the finders with their resources, the formats, the scanners, the conflicts, the errors, and the final config with the origin of each value.",
+  "text": "{0} 的資料來自 {2} 中的 {1}。它會回傳各預設集及其原因、外掛、被略過的外掛及原因、finder 及其資源、格式、scanner、衝突、錯誤，以及附有各值來源的最終設定。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 的資料來自 {2} 中的 {1}。它會回傳各預設集及其原因、外掛、被略過的外掛及原因、finder 及其資源、格式、scanner、衝突、錯誤，以及附有各值來源的最終設定。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

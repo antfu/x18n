@@ -1,0 +1,18 @@
+{
+  "hash": "a50dbc5ad07906c9",
+  "source": "{0} returns the descriptions that the tree of the file holds beside the messages, keyed by {1} of their path in the file. The chrome-extension preset reads {2} next to {3} this way.",
+  "text": "{0} 返回文件的树中与消息并列存放的描述，以其在文件中路径的 {1} 作为键。chrome-extension 预设通过这种方式读取 {3} 旁边的 {2}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 返回文件的树中与消息并列存放的描述，以其在文件中路径的 {1} 作为键。chrome-extension 预设通过这种方式读取 {3} 旁边的 {2}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

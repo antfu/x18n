@@ -1,0 +1,18 @@
+{
+  "hash": "1c60d5d74652175e",
+  "source": "Each error of x18n has a code such as {0}. The CLI prints the code with why the error happened, a fix and a link to the page of the code. With {1}, the error is in {2} of the {3}envelope{/3}, with a {4} link to its page here.",
+  "text": "x18n의 각 오류에는 {0} 같은 코드가 있습니다. CLI는 오류가 발생한 이유, 해결 방법, 해당 코드 페이지로 연결되는 링크와 함께 코드를 출력합니다. {1}를 사용하면 오류는 {3}envelope{/3}의 {2}에 포함되며, 이 문서의 해당 페이지로 연결되는 {4} 링크가 함께 제공됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n의 각 오류에는 {0} 같은 코드가 있습니다. CLI는 오류가 발생한 이유, 해결 방법, 해당 코드 페이지로 연결되는 링크와 함께 코드를 출력합니다. {1}를 사용하면 오류는 {3}envelope{/3}의 {2}에 포함되며, 이 문서의 해당 페이지로 연결되는 {4} 링크가 함께 제공됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "81b5894c589ecac2",
+  "source": "In {0}, add the server, then add it to each language next to the server it already uses:",
+  "text": "В {0} добавьте сервер, а затем добавьте его для каждого языка рядом с сервером, который уже используется:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В {0} добавьте сервер, а затем добавьте его для каждого языка рядом с сервером, который уже используется:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b3b48971f9be535b",
+  "source": "{0} holds the result. {1} holds the errors, each with its code in {2}, the reason in {3}, a {4} and a {5} link. The exit code tells the agent what to do next:",
+  "text": "{0} 存放結果。{1} 存放錯誤，每個錯誤都包含 {2} 中的代碼、{3} 中的原因，以及 {4} 和 {5} 連結。結束代碼會告訴 agent 下一步該做什麼：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 存放結果。{1} 存放錯誤，每個錯誤都包含 {2} 中的代碼、{3} 中的原因，以及 {4} 和 {5} 連結。結束代碼會告訴 agent 下一步該做什麼："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

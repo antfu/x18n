@@ -1,0 +1,18 @@
+{
+  "hash": "56df01cfeeebb107",
+  "source": "Hovers, diagnostics and quick fixes",
+  "text": "Info-bulles, diagnostics et correctifs rapides",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Info-bulles, diagnostics et correctifs rapides"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

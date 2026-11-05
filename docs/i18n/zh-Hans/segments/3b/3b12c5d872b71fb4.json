@@ -1,0 +1,18 @@
+{
+  "hash": "3b12c5d872b71fb4",
+  "source": "Keys and locales are sorted, so edits from two branches merge well.",
+  "text": "键和语言都经过排序，因此来自两个分支的修改可以顺利合并。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "键和语言都经过排序，因此来自两个分支的修改可以顺利合并。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

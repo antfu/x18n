@@ -1,0 +1,18 @@
+{
+  "hash": "fb93044af8b14c2a",
+  "source": "The finder looks for these names in any directory, except {0}.",
+  "text": "O localizador procura esses nomes em qualquer diretório, exceto {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O localizador procura esses nomes em qualquer diretório, exceto {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "67a10261c53939bb",
+  "source": "the {0} of each {1} file in the root,",
+  "text": "el {0} de cada archivo {1} de la raíz,",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "el {0} de cada archivo {1} de la raíz,"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

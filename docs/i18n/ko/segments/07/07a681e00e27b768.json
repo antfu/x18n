@@ -1,0 +1,18 @@
+{
+  "hash": "07a681e00e27b768",
+  "source": "to read the {0} output and the exit codes, to page large outputs, and to pick a project in a monorepo.",
+  "text": "{0} 출력과 종료 코드를 읽고, 큰 출력은 페이지로 나누어 보고, 모노레포에서 프로젝트를 선택하도록 합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 출력과 종료 코드를 읽고, 큰 출력은 페이지로 나누어 보고, 모노레포에서 프로젝트를 선택하도록 합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

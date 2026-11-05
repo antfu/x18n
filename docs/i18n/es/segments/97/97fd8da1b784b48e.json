@@ -1,0 +1,18 @@
+{
+  "hash": "97fd8da1b784b48e",
+  "source": "outdated key (fine in UI labels)",
+  "text": "clave obsoleta (válido en etiquetas de la UI)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "clave obsoleta (válido en etiquetas de la UI)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

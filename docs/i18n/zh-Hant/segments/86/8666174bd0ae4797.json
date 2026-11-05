@@ -1,0 +1,18 @@
+{
+  "hash": "8666174bd0ae4797",
+  "source": "Text in source code that should probably be a message.",
+  "text": "原始碼中可能應該改為訊息的文字。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "原始碼中可能應該改為訊息的文字。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

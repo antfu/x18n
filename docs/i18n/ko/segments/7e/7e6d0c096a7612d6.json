@@ -1,0 +1,18 @@
+{
+  "hash": "7e6d0c096a7612d6",
+  "source": "Key style of a file that has no keys yet. {0} writes {1} keys. {2} and {3} write nested objects. A file that already has keys keeps its own style.",
+  "text": "아직 키가 없는 파일의 키 스타일입니다. {0}는 {1} 키를 작성합니다. {2}와 {3}는 중첩 객체를 작성합니다. 이미 키가 있는 파일은 기존 스타일을 유지합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "아직 키가 없는 파일의 키 스타일입니다. {0}는 {1} 키를 작성합니다. {2}와 {3}는 중첩 객체를 작성합니다. 이미 키가 있는 파일은 기존 스타일을 유지합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b1aa26a2a79e0e6e",
+  "source": "Paraglide JS: {0}Paraglide{/0}",
+  "text": "Paraglide JS : {0}Paraglide{/0}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Paraglide JS : {0}Paraglide{/0}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

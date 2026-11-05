@@ -1,0 +1,18 @@
+{
+  "hash": "a9a41e01cda9ce0b",
+  "source": "These come from the {0} branch, so they can name commands that your installed CLI does not have yet. Run the command again to update them.",
+  "text": "Они берутся из ветки {0}, поэтому могут упоминать команды, которых в установленном у вас CLI ещё нет. Чтобы обновить их, запустите команду снова.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Они берутся из ветки {0}, поэтому могут упоминать команды, которых в установленном у вас CLI ещё нет. Чтобы обновить их, запустите команду снова."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "f15cee95a3d265c6",
+  "source": "Accept the default answers of decisions.",
+  "text": "接受各项决策的默认答案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "接受各项决策的默认答案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

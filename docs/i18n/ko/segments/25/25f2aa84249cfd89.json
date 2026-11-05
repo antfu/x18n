@@ -1,0 +1,18 @@
+{
+  "hash": "25f2aa84249cfd89",
+  "source": "How to write results: the commands that write and check the translations.",
+  "text": "결과 작성 방법: 번역을 기록하고 검사하는 명령입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "결과 작성 방법: 번역을 기록하고 검사하는 명령입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

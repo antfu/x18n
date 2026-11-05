@@ -1,0 +1,18 @@
+{
+  "hash": "7695e3c3d860e1da",
+  "source": "SARIF 2.1.0, for code scanning.",
+  "text": "SARIF 2.1.0, pour l'analyse de code (code scanning).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "SARIF 2.1.0, pour l'analyse de code (code scanning)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

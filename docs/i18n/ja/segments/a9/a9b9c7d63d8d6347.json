@@ -1,0 +1,18 @@
+{
+  "hash": "a9b9c7d63d8d6347",
+  "source": "It needs a preset that tells where the params of a call are; the i18next presets do. Options the library reads itself, such as i18next {0}, {1} and {2}, are never unused. Unused params are reported only when the message has placeholders and no nested messages ({3}), which may use them.",
+  "text": "呼び出しのパラメーターの位置を示すプリセットが必要です。i18next のプリセットはこれに該当します。i18next の {0}、{1}、{2} など、ライブラリ自身が読み取るオプションは、未使用として扱われることはありません。未使用のパラメーターは、メッセージにプレースホルダーがあり、かつネストされたメッセージ（{3}）がない場合にのみ報告されます。ネストされたメッセージがパラメーターを使用している可能性があるためです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "呼び出しのパラメーターの位置を示すプリセットが必要です。i18next のプリセットはこれに該当します。i18next の {0}、{1}、{2} など、ライブラリ自身が読み取るオプションは、未使用として扱われることはありません。未使用のパラメーターは、メッセージにプレースホルダーがあり、かつネストされたメッセージ（{3}）がない場合にのみ報告されます。ネストされたメッセージがパラメーターを使用している可能性があるためです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "35896a5f90faeed2",
+  "source": "A fully dynamic key, such as {0}, has no static prefix. No check can follow it. Turn this check on to find such usages.",
+  "text": "{0} のような完全に動的なキーには、静的なプレフィックスがありません。どのチェックでもこのキーを追跡できません。このようなキーの使用箇所を見つけるには、このチェックを有効にしてください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} のような完全に動的なキーには、静的なプレフィックスがありません。どのチェックでもこのキーを追跡できません。このようなキーの使用箇所を見つけるには、このチェックを有効にしてください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

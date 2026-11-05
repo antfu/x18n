@@ -1,0 +1,18 @@
+{
+  "hash": "9bba146099353c3f",
+  "source": "These names count as translate calls: {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}.",
+  "text": "次の名前は翻訳呼び出しとして扱われます：{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "次の名前は翻訳呼び出しとして扱われます：{0}、{1}、{2}、{3}、{4}、{5}、{6}、{7}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

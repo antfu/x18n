@@ -1,0 +1,18 @@
+{
+  "hash": "02e20475da21766e",
+  "source": "In-place annotations",
+  "text": "Anotaciones en el propio código",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Anotaciones en el propio código"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

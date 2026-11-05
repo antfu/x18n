@@ -1,0 +1,18 @@
+{
+  "hash": "fffc3ace03c522e8",
+  "source": "Every format of {0} is supported:",
+  "text": "Se admiten todos los formatos de {0}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se admiten todos los formatos de {0}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

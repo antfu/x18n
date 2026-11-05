@@ -1,0 +1,18 @@
+{
+  "hash": "600e25f4e5440520",
+  "source": "The preset applies when the project has an {0} and a {1} folder, unless the root {2} depends on React Native, Expo, Capacitor, Cordova or NativeScript, or there is a {3}: those apps have an {4} folder whose strings are not its messages. A {5} kept only for tooling does not stop detection. Otherwise, name it in the config:",
+  "text": "プロジェクトに {0} と {1} フォルダがある場合、このプリセットが適用されます。ただし、ルートの {2} が React Native、Expo、Capacitor、Cordova、NativeScript に依存している場合、または {3} がある場合は適用されません。これらのアプリには {4} フォルダがありますが、その文字列はメッセージではないためです。ツール用にのみ置かれた {5} は、検出を妨げません。それ以外の場合は、設定でプリセット名を指定してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロジェクトに {0} と {1} フォルダがある場合、このプリセットが適用されます。ただし、ルートの {2} が React Native、Expo、Capacitor、Cordova、NativeScript に依存している場合、または {3} がある場合は適用されません。これらのアプリには {4} フォルダがありますが、その文字列はメッセージではないためです。ツール用にのみ置かれた {5} は、検出を妨げません。それ以外の場合は、設定でプリセット名を指定してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

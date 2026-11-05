@@ -1,0 +1,18 @@
+{
+  "hash": "ca017a144e6bb00f",
+  "source": "The CLI starts in the current directory and goes up through the parent directories. It stops at the first config file, or at the directory that holds {0}. Two options change the search:",
+  "text": "Le CLI démarre dans le répertoire courant et remonte à travers les répertoires parents. Il s'arrête au premier fichier de configuration trouvé, ou au répertoire qui contient {0}. Deux options modifient la recherche :",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le CLI démarre dans le répertoire courant et remonte à travers les répertoires parents. Il s'arrête au premier fichier de configuration trouvé, ou au répertoire qui contient {0}. Deux options modifient la recherche :"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "a0977190505f5944",
+  "source": "Values, resources, usages and diagnostics of one key.",
+  "text": "Valores, recursos, usos y diagnósticos de una clave.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Valores, recursos, usos y diagnósticos de una clave."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

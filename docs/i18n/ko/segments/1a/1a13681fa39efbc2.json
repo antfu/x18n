@@ -1,0 +1,18 @@
+{
+  "hash": "1a13681fa39efbc2",
+  "source": "The preset for easy_localization in Flutter. It reads tr() and plural() calls in Dart, nested plural and gender keys, and {} placeholders.",
+  "text": "Flutter의 easy_localization용 프리셋입니다. Dart의 tr() 및 plural() 호출, 중첩된 plural 및 gender 키, {} 플레이스홀더를 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Flutter의 easy_localization용 프리셋입니다. Dart의 tr() 및 plural() 호출, 중첩된 plural 및 gender 키, {} 플레이스홀더를 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

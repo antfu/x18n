@@ -1,0 +1,18 @@
+{
+  "hash": "d51d1cd7003395e5",
+  "source": "x18n found the review file ({0}, default {1}), but it is not valid YAML or does not match the reviews schema. Until it is fixed, x18n does not write reviews, so the file never loses what it holds. Renames and deletes still work, but leave the file as it is.",
+  "text": "x18n 找到了审阅文件（{0}，默认为 {1}），但该文件不是有效的 YAML，或与 reviews schema 不匹配。在修复之前，x18n 不会写入审阅，因此文件中已有的内容不会丢失。重命名和删除仍然可用，但会保持该文件不变。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 找到了审阅文件（{0}，默认为 {1}），但该文件不是有效的 YAML，或与 reviews schema 不匹配。在修复之前，x18n 不会写入审阅，因此文件中已有的内容不会丢失。重命名和删除仍然可用，但会保持该文件不变。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

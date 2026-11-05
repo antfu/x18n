@@ -1,0 +1,18 @@
+{
+  "hash": "f0f7506f675bbb28",
+  "source": "Locales with coverage, counts, diagnostics by check and detected presets. Call it first.",
+  "text": "各语言的覆盖率、计数、按检查分类的诊断信息以及检测到的预设。请首先调用它。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各语言的覆盖率、计数、按检查分类的诊断信息以及检测到的预设。请首先调用它。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

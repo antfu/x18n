@@ -1,0 +1,18 @@
+{
+  "hash": "831969fdcc040db0",
+  "source": "Extraction writes to {0}. As in Laravel JSON files, the key is the source text ({1}): {2} becomes {3}. Set {4} to change this.",
+  "text": "추출 결과는 {0}에 기록됩니다. Laravel JSON 파일과 마찬가지로 키는 원본 텍스트({1})입니다. {2}은(는) {3}이(가) 됩니다. 이를 변경하려면 {4}을(를) 설정하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "추출 결과는 {0}에 기록됩니다. Laravel JSON 파일과 마찬가지로 키는 원본 텍스트({1})입니다. {2}은(는) {3}이(가) 됩니다. 이를 변경하려면 {4}을(를) 설정하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

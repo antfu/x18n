@@ -1,0 +1,18 @@
+{
+  "hash": "995fb0c5cc4a3530",
+  "source": "The object passed after the key holds the interpolation params, which the {0} check compares with the placeholders of the source message. A params function ({1}) is left alone, and so is the {2} marker.",
+  "text": "キーの後に渡すオブジェクトは補間パラメーターを保持し、{0} チェックがこれをソースメッセージのプレースホルダーと比較します。params 関数（{1}）と {2} マーカーは対象外です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーの後に渡すオブジェクトは補間パラメーターを保持し、{0} チェックがこれをソースメッセージのプレースホルダーと比較します。params 関数（{1}）と {2} マーカーは対象外です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

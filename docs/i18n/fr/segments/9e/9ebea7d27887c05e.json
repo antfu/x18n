@@ -1,0 +1,18 @@
+{
+  "hash": "9ebea7d27887c05e",
+  "source": "Run {0} to list open suggestions.",
+  "text": "Lancez {0} pour lister les suggestions ouvertes.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lancez {0} pour lister les suggestions ouvertes."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

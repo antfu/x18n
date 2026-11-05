@@ -1,0 +1,18 @@
+{
+  "hash": "c2f1d51c6ccfc851",
+  "source": "What splits a key into a path: {0} is {1} in a nested file. {2} makes keys literal, so {3} or {4} is one key and a new key is one property (i18next {5}, gettext). A resource pattern can set its own.",
+  "text": "キーをパスに分割する区切りです。{0} は、ネストされたファイルでは {1} です。{2} を指定するとキーがリテラルになり、{3} や {4} が 1 つのキーとなって、新しいキーは 1 つのプロパティになります（i18next の {5}、gettext）。リソースパターンごとに個別に設定することもできます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "キーをパスに分割する区切りです。{0} は、ネストされたファイルでは {1} です。{2} を指定するとキーがリテラルになり、{3} や {4} が 1 つのキーとなって、新しいキーは 1 つのプロパティになります（i18next の {5}、gettext）。リソースパターンごとに個別に設定することもできます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

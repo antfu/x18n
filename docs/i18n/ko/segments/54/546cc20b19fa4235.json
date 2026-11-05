@@ -1,0 +1,18 @@
+{
+  "hash": "546cc20b19fa4235",
+  "source": "List commands take {0} and return {1}. Pass it as {2} to get the next page. This keeps the output of a large project small enough for the context of an agent:",
+  "text": "목록 명령은 {0}을(를) 받고 {1}을(를) 반환합니다. 다음 페이지를 가져오려면 이를 {2}(으)로 전달하세요. 이렇게 하면 대규모 프로젝트의 출력이 에이전트의 컨텍스트에 맞을 만큼 작게 유지됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "목록 명령은 {0}을(를) 받고 {1}을(를) 반환합니다. 다음 페이지를 가져오려면 이를 {2}(으)로 전달하세요. 이렇게 하면 대규모 프로젝트의 출력이 에이전트의 컨텍스트에 맞을 만큼 작게 유지됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

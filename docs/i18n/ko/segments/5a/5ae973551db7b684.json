@@ -1,0 +1,18 @@
+{
+  "hash": "5ae973551db7b684",
+  "source": "Write a static, read-only report of the UI.",
+  "text": "UI의 정적 읽기 전용 리포트를 작성합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "UI의 정적 읽기 전용 리포트를 작성합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

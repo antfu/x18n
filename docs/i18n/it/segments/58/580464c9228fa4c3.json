@@ -1,0 +1,18 @@
+{
+  "hash": "580464c9228fa4c3",
+  "source": "Show the status and the main commands.",
+  "text": "Mostra lo stato e i comandi principali.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Mostra lo stato e i comandi principali."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "eddbb3b1c5bd9c7c",
+  "source": "x18n reads the locale files and the translate calls of your project. It reports missing, unused and broken keys, and changes locale files without breaking their format. For humans, CI and coding agents.",
+  "text": "x18n читает файлы локалей и вызовы функций перевода в вашем проекте. Он сообщает об отсутствующих, неиспользуемых и сломанных ключах и изменяет файлы локалей, не нарушая их формат. Для людей, CI и агентов для написания кода.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n читает файлы локалей и вызовы функций перевода в вашем проекте. Он сообщает об отсутствующих, неиспользуемых и сломанных ключах и изменяет файлы локалей, не нарушая их формат. Для людей, CI и агентов для написания кода."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

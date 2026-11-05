@@ -1,0 +1,18 @@
+{
+  "hash": "afcefed7a001ac07",
+  "source": "INI. A section is the first part of its keys.",
+  "text": "INI. 섹션은 키의 첫 번째 부분입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "INI. 섹션은 키의 첫 번째 부분입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

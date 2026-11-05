@@ -1,0 +1,18 @@
+{
+  "hash": "41ba2abd07d16365",
+  "source": "x18n counts only calls that it knows as translate calls. It follows string constants ({0}, then {1}) and both branches of a condition ({2}). The callee set of a file is the set of names that count: the names of the presets and of {3}, same-file aliases such as {4}, functions returned by factories such as {5}, and parameters typed as translate functions.",
+  "text": "x18n 只统计它识别为翻译调用的调用。它会跟踪字符串常量（{0}，然后是 {1}）以及条件的两个分支（{2}）。文件的被调用者集合是指所有被计入的名称：预设和 {3} 中的名称、同一文件内的别名（如 {4}）、由工厂函数（如 {5}）返回的函数，以及类型为翻译函数的参数。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n 只统计它识别为翻译调用的调用。它会跟踪字符串常量（{0}，然后是 {1}）以及条件的两个分支（{2}）。文件的被调用者集合是指所有被计入的名称：预设和 {3} 中的名称、同一文件内的别名（如 {4}）、由工厂函数（如 {5}）返回的函数，以及类型为翻译函数的参数。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "271a2ca96f310a2d",
+  "source": "A preset is a group of plugins with a {0} function. x18n runs {1} for the built-in presets when {2} is {3}, and for a preset inside the plugins of another preset. A preset or plugin that you list in {4} or {5} always applies, and {6} shows it as {7}.",
+  "text": "Un preset es un grupo de plugins con una función {0}. x18n ejecuta {1} para los presets integrados cuando {2} es {3}, y para un preset dentro de los plugins de otro preset. Un preset o plugin que incluyas en {4} o {5} siempre se aplica, y {6} lo muestra como {7}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un preset es un grupo de plugins con una función {0}. x18n ejecuta {1} para los presets integrados cuando {2} es {3}, y para un preset dentro de los plugins de otro preset. Un preset o plugin que incluyas en {4} o {5} siempre se aplica, y {6} lo muestra como {7}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

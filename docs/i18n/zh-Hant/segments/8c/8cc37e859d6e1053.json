@@ -1,0 +1,18 @@
+{
+  "hash": "8cc37e859d6e1053",
+  "source": "The message as the body of a template string, each argument as {0}, as {1} writes it.",
+  "text": "以範本字串本體形式呈現的訊息，每個引數寫成 {0}，與 {1} 的寫法相同。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "以範本字串本體形式呈現的訊息，每個引數寫成 {0}，與 {1} 的寫法相同。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

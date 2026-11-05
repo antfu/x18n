@@ -1,0 +1,18 @@
+{
+  "hash": "49a32f9bdb1f44e1",
+  "source": "x18n reads JS and TS locale files as text and does not run them. A file that computes its messages cannot be read that way.",
+  "text": "x18n은 JS 및 TS 로케일 파일을 텍스트로 읽으며 실행하지 않습니다. 메시지를 계산하는 파일은 이런 방식으로 읽을 수 없습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n은 JS 및 TS 로케일 파일을 텍스트로 읽으며 실행하지 않습니다. 메시지를 계산하는 파일은 이런 방식으로 읽을 수 없습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "7e98cb0bc3383b62",
+  "source": "The preset applies when the project depends on {0} or {1}. It is not exclusive: x18n still tests the presets after it.",
+  "text": "当项目依赖 {0} 或 {1} 时，会应用该预设。它不是排他的：x18n 在它之后仍会继续检测其他预设。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "当项目依赖 {0} 或 {1} 时，会应用该预设。它不是排他的：x18n 在它之后仍会继续检测其他预设。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

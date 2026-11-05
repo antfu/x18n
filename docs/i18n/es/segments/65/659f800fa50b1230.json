@@ -1,0 +1,18 @@
+{
+  "hash": "659f800fa50b1230",
+  "source": "The check compares the params a translate call passes with the placeholders of the source message. For {0}, it reports {1}: {2} is missing and {3} is unused.",
+  "text": "La comprobación compara los parámetros que pasa una llamada de traducción con los marcadores de posición del mensaje de origen. Para {0}, informa de {1}: falta {2} y {3} no se usa.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La comprobación compara los parámetros que pasa una llamada de traducción con los marcadores de posición del mensaje de origen. Para {0}, informa de {1}: falta {2} y {3} no se usa."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

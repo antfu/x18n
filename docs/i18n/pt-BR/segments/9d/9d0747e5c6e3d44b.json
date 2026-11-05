@@ -1,0 +1,18 @@
+{
+  "hash": "9d0747e5c6e3d44b",
+  "source": "In PHP files, the preset reads {0} and the other static methods of {1}, and the legacy {2}:",
+  "text": "Em arquivos PHP, o preset lê {0} e os outros métodos estáticos de {1}, além do {2} legado:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Em arquivos PHP, o preset lê {0} e os outros métodos estáticos de {1}, além do {2} legado:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

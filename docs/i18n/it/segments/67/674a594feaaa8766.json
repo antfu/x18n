@@ -1,0 +1,18 @@
+{
+  "hash": "674a594feaaa8766",
+  "source": "Leave a review on one message for a human: {0} with the reason in {1}, or {2} with a better value in {3} (a human applies it), {4}, or {5}. Use it when a human should decide, instead of changing values yourself.",
+  "text": "Lascia una revisione su un messaggio per una persona: {0} con il motivo in {1}, oppure {2} con un valore migliore in {3} (lo applica una persona), {4} o {5}. Usalo quando deve decidere una persona, invece di modificare i valori da solo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lascia una revisione su un messaggio per una persona: {0} con il motivo in {1}, oppure {2} con un valore migliore in {3} (lo applica una persona), {4} o {5}. Usalo quando deve decidere una persona, invece di modificare i valori da solo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

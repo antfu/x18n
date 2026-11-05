@@ -1,0 +1,18 @@
+{
+  "hash": "1f47e794e5172228",
+  "source": "Delete a key (or every key under a parent) in all locales; {0} deletes every unused key.",
+  "text": "在所有語系中刪除一個鍵（或某個父層下的所有鍵）；{0} 會刪除所有未使用的鍵。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在所有語系中刪除一個鍵（或某個父層下的所有鍵）；{0} 會刪除所有未使用的鍵。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

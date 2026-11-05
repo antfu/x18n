@@ -1,0 +1,18 @@
+{
+  "hash": "9d0747e5c6e3d44b",
+  "source": "In PHP files, the preset reads {0} and the other static methods of {1}, and the legacy {2}:",
+  "text": "PHP 파일에서 이 프리셋은 {0} 및 {1}의 다른 정적 메서드와 레거시 {2}를 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP 파일에서 이 프리셋은 {0} 및 {1}의 다른 정적 메서드와 레거시 {2}를 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

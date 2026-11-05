@@ -1,0 +1,18 @@
+{
+  "hash": "f7bb56d8395f0121",
+  "source": "Each prompt holds at most 50 messages ({0}), the code around at most two usages per message, at most five style examples and at most two related values per message. A description or a related value longer than 300 characters is cut.",
+  "text": "各プロンプトに含まれるのは、最大 50 件のメッセージ（{0}）、メッセージごとに最大 2 件の使用箇所の周辺コード、最大 5 件のスタイル例、メッセージごとに最大 2 件の関連する値です。300 文字を超える説明や関連する値は切り詰められます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各プロンプトに含まれるのは、最大 50 件のメッセージ（{0}）、メッセージごとに最大 2 件の使用箇所の周辺コード、最大 5 件のスタイル例、メッセージごとに最大 2 件の関連する値です。300 文字を超える説明や関連する値は切り詰められます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "54820dfe8da2f94b",
+  "source": "The preset for @solid-primitives/i18n. It reads t calls in Solid components and scripts, and {{name}} placeholders.",
+  "text": "Il preset per @solid-primitives/i18n. Legge le chiamate a t nei componenti e negli script Solid, e i segnaposto {{name}}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il preset per @solid-primitives/i18n. Legge le chiamate a t nei componenti e negli script Solid, e i segnaposto {{name}}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

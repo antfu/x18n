@@ -1,0 +1,18 @@
+{
+  "hash": "6e0c5f6127a69c80",
+  "source": "The data of {0} comes from {1} in {2}. It returns the presets with the reason for each, the plugins, the plugins that were skipped and why, the finders with their resources, the formats, the scanners, the conflicts, the errors, and the final config with the origin of each value.",
+  "text": "{0} のデータは {2} の {1} から取得されます。プリセットとそれぞれの理由、プラグイン、スキップされたプラグインとその理由、ファインダーとそのリソース、フォーマット、スキャナー、競合、エラー、各値の取得元を含む最終的な設定を返します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} のデータは {2} の {1} から取得されます。プリセットとそれぞれの理由、プラグイン、スキップされたプラグインとその理由、ファインダーとそのリソース、フォーマット、スキャナー、競合、エラー、各値の取得元を含む最終的な設定を返します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

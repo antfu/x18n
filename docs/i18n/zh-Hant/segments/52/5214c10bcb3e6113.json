@@ -1,0 +1,18 @@
+{
+  "hash": "5214c10bcb3e6113",
+  "source": "The {0} preset supports {1}laravel-vue-i18n{/1}, which loads the Laravel translation files in Vue.",
+  "text": "{0} 預設集支援 {1}laravel-vue-i18n{/1}，它會在 Vue 中載入 Laravel 翻譯檔案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 預設集支援 {1}laravel-vue-i18n{/1}，它會在 Vue 中載入 Laravel 翻譯檔案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

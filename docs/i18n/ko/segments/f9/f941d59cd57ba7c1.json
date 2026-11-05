@@ -1,0 +1,18 @@
+{
+  "hash": "f941d59cd57ba7c1",
+  "source": "When a key gets a value in a locale that has no file yet, x18n fills the locale into a pattern without globs. Otherwise it copies the path of the source file and replaces the locale in it.",
+  "text": "아직 파일이 없는 로케일에서 키에 값이 생기면, x18n은 glob이 없는 패턴에는 해당 로케일을 채워 넣습니다. 그렇지 않으면 소스 파일의 경로를 복사한 뒤 그 안의 로케일을 바꿉니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "아직 파일이 없는 로케일에서 키에 값이 생기면, x18n은 glob이 없는 패턴에는 해당 로케일을 채워 넣습니다. 그렇지 않으면 소스 파일의 경로를 복사한 뒤 그 안의 로케일을 바꿉니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

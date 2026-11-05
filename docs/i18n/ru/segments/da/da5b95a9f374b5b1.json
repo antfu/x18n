@@ -1,0 +1,18 @@
+{
+  "hash": "da5b95a9f374b5b1",
+  "source": "A decision is needed and no answer was given. Run again with {0}.",
+  "text": "Требуется решение, но ответ не был дан. Запустите команду снова с {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Требуется решение, но ответ не был дан. Запустите команду снова с {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

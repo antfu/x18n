@@ -1,0 +1,18 @@
+{
+  "hash": "2e1072669e756e3d",
+  "source": "{0} exports {1}, {2}, {3}, and the types {4}, {5}, {6}, {7}, {8}, {9}, {10} and {11}. The full plugin API, with every context type, is in {12}. {13}Capabilities{/13} describes each part.",
+  "text": "{0} exporta {1}, {2}, {3} y los tipos {4}, {5}, {6}, {7}, {8}, {9}, {10} y {11}. La API completa de plugins, con todos los tipos de contexto, está en {12}. {13}Capacidades{/13} describe cada parte.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} exporta {1}, {2}, {3} y los tipos {4}, {5}, {6}, {7}, {8}, {9}, {10} y {11}. La API completa de plugins, con todos los tipos de contexto, está en {12}. {13}Capacidades{/13} describe cada parte."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "34813948cd99f1a3",
+  "source": "A translation is stale when it last changed before its source message did. Inside a git repo, x18n reads the commits that touched the locale files and compares the parsed messages, so reformatting, sorting and moving keys between files do not count. Uncommitted edits count as changed now. A message without history is never stale.",
+  "text": "如果一条翻译的最后修改早于其源消息，它就是过期的。在 git 仓库中，x18n 会读取修改过语言文件的提交，并比较解析后的消息，因此重新格式化、排序以及在文件之间移动键都不算修改。未提交的编辑视为刚刚修改。没有历史记录的消息永远不会被判定为过期。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果一条翻译的最后修改早于其源消息，它就是过期的。在 git 仓库中，x18n 会读取修改过语言文件的提交，并比较解析后的消息，因此重新格式化、排序以及在文件之间移动键都不算修改。未提交的编辑视为刚刚修改。没有历史记录的消息永远不会被判定为过期。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

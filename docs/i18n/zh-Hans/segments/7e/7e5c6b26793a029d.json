@@ -1,0 +1,18 @@
+{
+  "hash": "7e5c6b26793a029d",
+  "source": "Produces diagnostics from project state. {0} runs all checks.",
+  "text": "根据项目状态生成诊断信息。{0} 会运行所有检查。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "根据项目状态生成诊断信息。{0} 会运行所有检查。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

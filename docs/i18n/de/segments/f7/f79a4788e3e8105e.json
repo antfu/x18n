@@ -1,0 +1,18 @@
+{
+  "hash": "f79a4788e3e8105e",
+  "source": "A form that a language does not have, such as {0} in English, is optional in every locale.",
+  "text": "Eine Form, die eine Sprache nicht hat, wie {0} im Englischen, ist in jeder Sprache optional.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine Form, die eine Sprache nicht hat, wie {0} im Englischen, ist in jeder Sprache optional."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

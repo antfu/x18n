@@ -1,0 +1,18 @@
+{
+  "hash": "a2e8aed48de57c5b",
+  "source": "Key not found. List keys with `x18n keys` (agents: the `x18n_keys` tool).",
+  "text": "Ключ не найден. Выведите список ключей с помощью `x18n keys` (агенты: инструмент `x18n_keys`).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ключ не найден. Выведите список ключей с помощью `x18n keys` (агенты: инструмент `x18n_keys`)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

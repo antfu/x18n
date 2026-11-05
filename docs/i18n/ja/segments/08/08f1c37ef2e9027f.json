@@ -1,0 +1,18 @@
+{
+  "hash": "08f1c37ef2e9027f",
+  "source": "{0} gives {1} and {2} ({3} by default), and each {4} there is a target locale. {5} has no file for the source locale, so x18n reads the source text from the {6} of a target file. That reading is read-only: the source text lives in your code. Run {7} to add new messages to the files.",
+  "text": "{0} は {1} と {2}（デフォルトは {3}）を指定します。そこにある各 {4} がターゲットロケールになります。{5} にはソースロケール用のファイルがないため、x18n はターゲットファイルの {6} からソーステキストを読み取ります。この読み取りは読み取り専用です。ソーステキストはコード内にあります。新しいメッセージをファイルに追加するには、{7} を実行してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} は {1} と {2}（デフォルトは {3}）を指定します。そこにある各 {4} がターゲットロケールになります。{5} にはソースロケール用のファイルがないため、x18n はターゲットファイルの {6} からソーステキストを読み取ります。この読み取りは読み取り専用です。ソーステキストはコード内にあります。新しいメッセージをファイルに追加するには、{7} を実行してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

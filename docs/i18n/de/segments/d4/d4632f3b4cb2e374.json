@@ -1,0 +1,18 @@
+{
+  "hash": "d4632f3b4cb2e374",
+  "source": "x18n: Open Key in UI",
+  "text": "x18n: Schlüssel in der UI öffnen",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n: Schlüssel in der UI öffnen"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "334579bbdf513014",
+  "source": "Review threads: comments, approvals, change requests and suggested values on messages, per key and locale, with each thread's state. Pass {0} for unresolved ones only.",
+  "text": "Hilos de revisión: comentarios, aprobaciones, solicitudes de cambios y valores sugeridos en mensajes, por clave e idioma, con el estado de cada hilo. Pasa {0} para ver solo los no resueltos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Hilos de revisión: comentarios, aprobaciones, solicitudes de cambios y valores sugeridos en mensajes, por clave e idioma, con el estado de cada hilo. Pasa {0} para ver solo los no resueltos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

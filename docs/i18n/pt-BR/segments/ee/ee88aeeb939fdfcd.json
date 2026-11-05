@@ -1,0 +1,18 @@
+{
+  "hash": "ee88aeeb939fdfcd",
+  "source": "Every command prints one document with the same envelope:",
+  "text": "Todo comando imprime um documento com o mesmo envelope:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Todo comando imprime um documento com o mesmo envelope:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

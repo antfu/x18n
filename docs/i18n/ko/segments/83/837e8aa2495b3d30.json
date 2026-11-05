@@ -1,0 +1,18 @@
+{
+  "hash": "837e8aa2495b3d30",
+  "source": "The preset applies when {0} or {1} has {2} or {3}.",
+  "text": "{0} 또는 {1}에 {2} 또는 {3}이(가) 있으면 이 프리셋이 적용됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 또는 {1}에 {2} 또는 {3}이(가) 있으면 이 프리셋이 적용됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

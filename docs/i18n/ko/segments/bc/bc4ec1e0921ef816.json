@@ -1,0 +1,18 @@
+{
+  "hash": "bc4ec1e0921ef816",
+  "source": "Pass files or globs to limit the search: {0}. Files that users never see are never scanned: tests, fixtures, mocks, stories, configs and type declarations, by the conventions of common languages. For example {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, and directories such as {9}, {10}, {11}, {12}, {13} and {14}. Control comments, in any comment syntax, skip more:",
+  "text": "검색 범위를 제한하려면 파일이나 glob을 전달하세요: {0}. 사용자에게 보이지 않는 파일은 스캔하지 않습니다. 일반적인 언어의 관례에 따라 테스트, 픽스처, 목, 스토리, 설정 파일, 타입 선언 파일이 이에 해당합니다. 예를 들어 {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}와 같은 파일과 {9}, {10}, {11}, {12}, {13}, {14} 같은 디렉터리가 있습니다. 어떤 주석 문법이든 제어 주석을 사용하면 더 많은 항목을 건너뜁니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "검색 범위를 제한하려면 파일이나 glob을 전달하세요: {0}. 사용자에게 보이지 않는 파일은 스캔하지 않습니다. 일반적인 언어의 관례에 따라 테스트, 픽스처, 목, 스토리, 설정 파일, 타입 선언 파일이 이에 해당합니다. 예를 들어 {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}와 같은 파일과 {9}, {10}, {11}, {12}, {13}, {14} 같은 디렉터리가 있습니다. 어떤 주석 문법이든 제어 주석을 사용하면 더 많은 항목을 건너뜁니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

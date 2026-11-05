@@ -1,0 +1,18 @@
+{
+  "hash": "7749744bba1c56e0",
+  "source": "This writes every diagnostic into {0}, in the root of the workspace. While the file exists, {1} reports and fails only on diagnostics that are not in it, and says how many known ones it left out. A diagnostic is known by its file, check, key, locale and message, not by its line, so moving code keeps it known. One more identical diagnostic in the same file is new.",
+  "text": "これにより、すべての診断がワークスペースのルートにある {0} に書き込まれます。このファイルが存在する間、{1} はその中にない診断についてのみ報告し、失敗とします。また、除外した既知の診断の件数も表示します。診断は、行ではなく、ファイル、チェック、キー、ロケール、メッセージによって既知かどうかが判定されるため、コードを移動しても既知のままです。同じファイルに同一の診断がもう 1 件あると、それは新しい診断として扱われます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "これにより、すべての診断がワークスペースのルートにある {0} に書き込まれます。このファイルが存在する間、{1} はその中にない診断についてのみ報告し、失敗とします。また、除外した既知の診断の件数も表示します。診断は、行ではなく、ファイル、チェック、キー、ロケール、メッセージによって既知かどうかが判定されるため、コードを移動しても既知のままです。同じファイルに同一の診断がもう 1 件あると、それは新しい診断として扱われます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

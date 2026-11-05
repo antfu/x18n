@@ -1,0 +1,18 @@
+{
+  "hash": "ba96a2a37e4fa26f",
+  "source": "A resource is a file, or a block inside a file, that holds the messages of one locale and one namespace. In the example, {0} and {1} are resources. A Vue {2} block is also a resource.",
+  "text": "리소스는 하나의 로케일과 하나의 네임스페이스에 속한 메시지를 담고 있는 파일 또는 파일 내부의 블록입니다. 예시에서 {0}와 {1}는 리소스입니다. Vue {2} 블록도 리소스입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리소스는 하나의 로케일과 하나의 네임스페이스에 속한 메시지를 담고 있는 파일 또는 파일 내부의 블록입니다. 예시에서 {0}와 {1}는 리소스입니다. Vue {2} 블록도 리소스입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

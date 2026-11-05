@@ -1,0 +1,18 @@
+{
+  "hash": "ac605b74c754cd7c",
+  "source": "Add {0} to the dev dependencies of the project:",
+  "text": "프로젝트의 개발 의존성에 {0}을(를) 추가하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프로젝트의 개발 의존성에 {0}을(를) 추가하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

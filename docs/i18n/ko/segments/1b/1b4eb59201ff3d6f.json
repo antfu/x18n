@@ -1,0 +1,18 @@
+{
+  "hash": "1b4eb59201ff3d6f",
+  "source": "it is a derived key of a used key ({0}, for example i18next {1} plural keys),",
+  "text": "사용 중인 키의 파생 키입니다(예: i18next {1} 복수형 키의 {0}).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "사용 중인 키의 파생 키입니다(예: i18next {1} 복수형 키의 {0})."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

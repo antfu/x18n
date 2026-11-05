@@ -1,0 +1,18 @@
+{
+  "hash": "83ab8734a0d70c6a",
+  "source": "@nuxtjs/i18n",
+  "text": "@nuxtjs/i18n",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@nuxtjs/i18n"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

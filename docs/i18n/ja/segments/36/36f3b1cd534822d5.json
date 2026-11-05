@@ -1,0 +1,18 @@
+{
+  "hash": "36f3b1cd534822d5",
+  "source": "How x18n writes locale files.",
+  "text": "x18n がロケールファイルを書き込む方法です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n がロケールファイルを書き込む方法です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

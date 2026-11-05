@@ -1,0 +1,18 @@
+{
+  "hash": "585cb2443880b282",
+  "source": "Globalize separates the segments of a message path with a slash. The preset turns each slash into a dot, so this call is a usage of the key {0}:",
+  "text": "Globalize では、メッセージパスの各セグメントをスラッシュで区切ります。このプリセットは各スラッシュをドットに変換するため、次の呼び出しはキー {0} の使用箇所になります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Globalize では、メッセージパスの各セグメントをスラッシュで区切ります。このプリセットは各スラッシュをドットに変換するため、次の呼び出しはキー {0} の使用箇所になります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

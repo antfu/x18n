@@ -1,0 +1,18 @@
+{
+  "hash": "1adc748d68237ed6",
+  "source": "To open files from the panel in your editor, set {0}, {1} or {2} before you start the dev server.",
+  "text": "若要從面板在你的編輯器中開啟檔案，請在啟動開發伺服器之前設定 {0}、{1} 或 {2}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若要從面板在你的編輯器中開啟檔案，請在啟動開發伺服器之前設定 {0}、{1} 或 {2}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

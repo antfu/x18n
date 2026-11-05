@@ -1,0 +1,18 @@
+{
+  "hash": "e11fad760b46962f",
+  "source": "The status bar shows the display locale. Click it, or run \"x18n: Set Display Locale\", to change it. The pick holds for the current workspace and is kept in the extension's workspace state, so it never lands in {0} or in the repo. It overrides the {1} setting until that setting changes. To go back to the setting, or to the source locale when the setting is empty, pick \"Default\" or edit the setting.",
+  "text": "A barra de status mostra o idioma de exibição. Clique nela, ou execute \"x18n: Set Display Locale\", para alterá-lo. A escolha vale para o workspace atual e fica guardada no estado de workspace da extensão, então nunca vai parar em {0} nem no repositório. Ela sobrescreve a configuração {1} até que essa configuração mude. Para voltar à configuração, ou ao idioma de origem quando a configuração estiver vazia, escolha \"Default\" ou edite a configuração.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A barra de status mostra o idioma de exibição. Clique nela, ou execute \"x18n: Set Display Locale\", para alterá-lo. A escolha vale para o workspace atual e fica guardada no estado de workspace da extensão, então nunca vai parar em {0} nem no repositório. Ela sobrescreve a configuração {1} até que essa configuração mude. Para voltar à configuração, ou ao idioma de origem quando a configuração estiver vazia, escolha \"Default\" ou edite a configuração."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

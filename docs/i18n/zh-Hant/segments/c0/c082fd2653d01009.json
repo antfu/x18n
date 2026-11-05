@@ -1,0 +1,18 @@
+{
+  "hash": "c082fd2653d01009",
+  "source": "The {0} format reads and writes these catalogs. Each {1} is a key, and its {2} is the value. The preset sets {3}, so a {4} or {5} in a {6} stays part of the key:",
+  "text": "{0} 格式會讀取並寫入這些目錄。每個 {1} 都是一個鍵，其 {2} 則是值。預設集會設定 {3}，因此 {6} 中的 {4} 或 {5} 仍屬於鍵的一部分：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 格式會讀取並寫入這些目錄。每個 {1} 都是一個鍵，其 {2} 則是值。預設集會設定 {3}，因此 {6} 中的 {4} 或 {5} 仍屬於鍵的一部分："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

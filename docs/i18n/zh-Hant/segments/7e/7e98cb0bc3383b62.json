@@ -1,0 +1,18 @@
+{
+  "hash": "7e98cb0bc3383b62",
+  "source": "The preset applies when the project depends on {0} or {1}. It is not exclusive: x18n still tests the presets after it.",
+  "text": "當專案相依於 {0} 或 {1} 時，就會套用此預設集。它不是互斥的：x18n 在這之後仍會測試其他預設集。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "當專案相依於 {0} 或 {1} 時，就會套用此預設集。它不是互斥的：x18n 在這之後仍會測試其他預設集。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

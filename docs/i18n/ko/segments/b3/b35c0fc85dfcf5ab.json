@@ -1,0 +1,18 @@
+{
+  "hash": "b35c0fc85dfcf5ab",
+  "source": "A message in a locale with a fallback that equals the message it falls back to, so it can be removed.",
+  "text": "폴백이 설정된 로케일의 메시지가 폴백 대상 메시지와 동일하여 제거할 수 있는 경우입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "폴백이 설정된 로케일의 메시지가 폴백 대상 메시지와 동일하여 제거할 수 있는 경우입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

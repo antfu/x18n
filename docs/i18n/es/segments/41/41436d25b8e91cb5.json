@@ -1,0 +1,18 @@
+{
+  "hash": "41436d25b8e91cb5",
+  "source": "Open the file and fix the syntax error.",
+  "text": "Abre el archivo y corrige el error de sintaxis.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Abre el archivo y corrige el error de sintaxis."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

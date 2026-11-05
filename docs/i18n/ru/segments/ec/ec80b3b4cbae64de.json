@@ -1,0 +1,18 @@
+{
+  "hash": "ec80b3b4cbae64de",
+  "source": "Check locale files like tsc, read and change keys from the terminal, and pick a reporter for CI.",
+  "text": "Проверяйте файлы локалей как tsc, читайте и изменяйте ключи из терминала и выбирайте репортер для CI.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверяйте файлы локалей как tsc, читайте и изменяйте ключи из терминала и выбирайте репортер для CI."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

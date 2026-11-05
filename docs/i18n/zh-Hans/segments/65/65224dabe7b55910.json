@@ -1,0 +1,18 @@
+{
+  "hash": "65224dabe7b55910",
+  "source": "A template can add {0}: lines that x18n adds once to the file when they are missing, such as {1}.",
+  "text": "模板可以添加 {0}：当文件中缺少这些行时，x18n 会向文件中添加一次，例如 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "模板可以添加 {0}：当文件中缺少这些行时，x18n 会向文件中添加一次，例如 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

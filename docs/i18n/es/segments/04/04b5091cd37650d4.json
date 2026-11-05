@@ -1,0 +1,18 @@
+{
+  "hash": "04b5091cd37650d4",
+  "source": "A user-facing layer on the core: CLI, LSP, extension, UI, MCP.",
+  "text": "Una capa orientada al usuario sobre el núcleo: CLI, LSP, extensión, UI, MCP.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una capa orientada al usuario sobre el núcleo: CLI, LSP, extensión, UI, MCP."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

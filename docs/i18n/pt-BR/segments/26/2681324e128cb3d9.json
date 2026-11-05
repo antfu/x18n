@@ -1,0 +1,18 @@
+{
+  "hash": "2681324e128cb3d9",
+  "source": "next-international keeps messages in TS modules. The {0} format reads a module whose default export is an object literal, also with {1}, and writes edits back into the literal:",
+  "text": "O next-international mantém as mensagens em módulos TS. O formato {0} lê um módulo cuja exportação padrão é um objeto literal, também com {1}, e grava as edições de volta no literal:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "O next-international mantém as mensagens em módulos TS. O formato {0} lê um módulo cuja exportação padrão é um objeto literal, também com {1}, e grava as edições de volta no literal:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

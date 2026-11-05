@@ -1,0 +1,18 @@
+{
+  "hash": "c082fd2653d01009",
+  "source": "The {0} format reads and writes these catalogs. Each {1} is a key, and its {2} is the value. The preset sets {3}, so a {4} or {5} in a {6} stays part of the key:",
+  "text": "{0} 포맷은 이러한 카탈로그를 읽고 씁니다. 각 {1}는 키이고, {2}는 그 값입니다. 이 프리셋은 {3}를 설정하므로, {6} 안의 {4} 또는 {5}는 키의 일부로 유지됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 포맷은 이러한 카탈로그를 읽고 씁니다. 각 {1}는 키이고, {2}는 그 값입니다. 이 프리셋은 {3}를 설정하므로, {6} 안의 {4} 또는 {5}는 키의 일부로 유지됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

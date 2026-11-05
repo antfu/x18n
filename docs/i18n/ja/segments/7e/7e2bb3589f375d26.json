@@ -1,0 +1,18 @@
+{
+  "hash": "7e2bb3589f375d26",
+  "source": "An in-place annotation hides a key in code and shows its value in the display locale. The display locale is the locale that annotations and hovers show. It is your own choice, and it defaults to the source locale.",
+  "text": "インプレースアノテーションは、コード内のキーを隠し、表示ロケールでの値を表示します。表示ロケールとは、アノテーションとホバーに表示されるロケールです。自分で選択でき、デフォルトはソースロケールです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "インプレースアノテーションは、コード内のキーを隠し、表示ロケールでの値を表示します。表示ロケールとは、アノテーションとホバーに表示されるロケールです。自分で選択でき、デフォルトはソースロケールです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

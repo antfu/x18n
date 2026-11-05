@@ -1,0 +1,18 @@
+{
+  "hash": "20eb5dadfdbba814",
+  "source": "Longest slug, in characters. Default 40.",
+  "text": "slug 的最大長度，以字元數計。預設為 40。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "slug 的最大長度，以字元數計。預設為 40。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

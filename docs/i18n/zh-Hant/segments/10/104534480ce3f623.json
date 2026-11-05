@@ -1,0 +1,18 @@
+{
+  "hash": "104534480ce3f623",
+  "source": "YAML: {0} as the first line.",
+  "text": "YAML：將 {0} 放在第一行。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "YAML：將 {0} 放在第一行。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

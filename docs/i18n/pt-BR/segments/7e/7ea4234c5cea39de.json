@@ -1,0 +1,18 @@
+{
+  "hash": "7ea4234c5cea39de",
+  "source": "Function or member path: 't', '$t', 'i18n.t', 'intl.formatMessage'.",
+  "text": "Função ou caminho de membro: 't', '$t', 'i18n.t', 'intl.formatMessage'.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Função ou caminho de membro: 't', '$t', 'i18n.t', 'intl.formatMessage'."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

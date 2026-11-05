@@ -1,0 +1,18 @@
+{
+  "hash": "2c08e3b88295b5df",
+  "source": "Python percent formatting: {0}, {1}, {2}. {3}, a {4} before a space and URL escapes such as {5}, or {6} in a URL, are text.",
+  "text": "Python 百分号格式化：{0}、{1}、{2}。{3}、空格前的 {4} 以及 {5} 这类 URL 转义，或 URL 中的 {6}，都按普通文本处理。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Python 百分号格式化：{0}、{1}、{2}。{3}、空格前的 {4} 以及 {5} 这类 URL 转义，或 URL 中的 {6}，都按普通文本处理。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

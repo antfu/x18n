@@ -1,0 +1,18 @@
+{
+  "hash": "0fce5c4758ef10bb",
+  "source": "A monorepo does not need a root config. When x18n finds no config in the current directory or above it, it looks for configs below it, skipping {0}. Each config it finds is a project, or a root config with its own {1}. The projects do not share options.",
+  "text": "Um monorepo não precisa de uma configuração raiz. Quando o x18n não encontra nenhuma configuração no diretório atual nem acima dele, ele procura configurações abaixo, ignorando {0}. Cada configuração encontrada é um projeto, ou uma configuração raiz com seu próprio {1}. Os projetos não compartilham opções.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Um monorepo não precisa de uma configuração raiz. Quando o x18n não encontra nenhuma configuração no diretório atual nem acima dele, ele procura configurações abaixo, ignorando {0}. Cada configuração encontrada é um projeto, ou uma configuração raiz com seu próprio {1}. Os projetos não compartilham opções."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

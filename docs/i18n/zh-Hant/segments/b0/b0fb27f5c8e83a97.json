@@ -1,0 +1,18 @@
+{
+  "hash": "b0fb27f5c8e83a97",
+  "source": "{0} prints the TypeScript version of a YAML plugin. It uses the same built-in functions, so the result behaves the same:",
+  "text": "{0} 會輸出 YAML 外掛的 TypeScript 版本。它使用相同的內建函式，因此行為與原本一致：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會輸出 YAML 外掛的 TypeScript 版本。它使用相同的內建函式，因此行為與原本一致："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "507a89a39c99ca67",
+  "source": "This file has the keys {0}, {1} and {2}. When x18n writes a key, it writes it under the locale key of the file. A file without the locale key of its locale has no keys, so the preset does not support {3}.",
+  "text": "이 파일에는 키 {0}, {1}, {2}이(가) 있습니다. x18n은 키를 쓸 때 파일의 로케일 키 아래에 씁니다. 해당 로케일의 로케일 키가 없는 파일에는 키가 없는 것으로 처리되므로 프리셋은 {3}을(를) 지원하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 파일에는 키 {0}, {1}, {2}이(가) 있습니다. x18n은 키를 쓸 때 파일의 로케일 키 아래에 씁니다. 해당 로케일의 로케일 키가 없는 파일에는 키가 없는 것으로 처리되므로 프리셋은 {3}을(를) 지원하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

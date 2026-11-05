@@ -1,0 +1,18 @@
+{
+  "hash": "5aa9394bf4d8b93c",
+  "source": "Usages: keys used in code but not defined, unused keys, usages with a computed key, and every usage.",
+  "text": "Usages: ключи, которые используются в коде, но не определены, неиспользуемые ключи, использования с вычисляемым ключом и все использования.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Usages: ключи, которые используются в коде, но не определены, неиспользуемые ключи, использования с вычисляемым ключом и все использования."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

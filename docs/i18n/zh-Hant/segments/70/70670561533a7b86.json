@@ -1,0 +1,18 @@
+{
+  "hash": "70670561533a7b86",
+  "source": "Usages in code, paged: of one {0} (usages with a computed key under a prefix of it are marked {1}), of one file ({2}), or all. Each usage has file, line, column and a code snippet.",
+  "text": "分頁列出程式碼中的使用處：某個 {0}（在其前綴下使用計算所得鍵的使用處會標記為 {1}）、某個檔案（{2}），或全部。每個使用處包含檔案、行號、欄號與程式碼片段。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "分頁列出程式碼中的使用處：某個 {0}（在其前綴下使用計算所得鍵的使用處會標記為 {1}）、某個檔案（{2}），或全部。每個使用處包含檔案、行號、欄號與程式碼片段。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

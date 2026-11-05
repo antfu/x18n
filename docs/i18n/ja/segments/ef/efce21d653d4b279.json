@@ -1,0 +1,18 @@
+{
+  "hash": "efce21d653d4b279",
+  "source": "With a key read from a property: the property beside it that describes the message for translators, such as {0} for {1}.",
+  "text": "プロパティから読み取ったキーの場合：メッセージについてローカライズ担当者向けに説明する、隣接するプロパティです。たとえば {1} に対する {0} です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "プロパティから読み取ったキーの場合：メッセージについてローカライズ担当者向けに説明する、隣接するプロパティです。たとえば {1} に対する {0} です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

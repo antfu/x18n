@@ -1,0 +1,18 @@
+{
+  "hash": "176152d3d8dfb05a",
+  "source": "There are two ways to write a plugin:",
+  "text": "플러그인을 작성하는 방법은 두 가지입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인을 작성하는 방법은 두 가지입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

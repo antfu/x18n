@@ -1,0 +1,18 @@
+{
+  "hash": "c362b0d117f47fe4",
+  "source": "A value adds or drops a placeholder compared to the source value, so {0} wrote nothing. The JSON output lists the values in {1}.",
+  "text": "В значении добавлен или удалён плейсхолдер по сравнению с исходным значением, поэтому {0} ничего не записал. JSON-вывод перечисляет значения в {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В значении добавлен или удалён плейсхолдер по сравнению с исходным значением, поэтому {0} ничего не записал. JSON-вывод перечисляет значения в {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

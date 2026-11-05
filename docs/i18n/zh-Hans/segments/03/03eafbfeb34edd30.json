@@ -1,0 +1,18 @@
+{
+  "hash": "03eafbfeb34edd30",
+  "source": "The {0} reporter writes a summary with a coverage table per locale and a table of diagnostics. Write it to the job summary of GitHub Actions:",
+  "text": "{0} reporter 会生成一份摘要，其中包含按语言列出的覆盖率表格和诊断表格。将它写入 GitHub Actions 的作业摘要：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} reporter 会生成一份摘要，其中包含按语言列出的覆盖率表格和诊断表格。将它写入 GitHub Actions 的作业摘要："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

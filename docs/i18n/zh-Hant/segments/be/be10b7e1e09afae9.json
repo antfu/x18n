@@ -1,0 +1,18 @@
+{
+  "hash": "be10b7e1e09afae9",
+  "source": "Called for each review edit of a plan, in op order. The writes it returns go into the same plan.",
+  "text": "依操作順序，針對計畫中的每個審閱編輯呼叫。它回傳的寫入會放進同一個計畫。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "依操作順序，針對計畫中的每個審閱編輯呼叫。它回傳的寫入會放進同一個計畫。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

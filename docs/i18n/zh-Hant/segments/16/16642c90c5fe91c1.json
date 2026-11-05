@@ -1,0 +1,18 @@
+{
+  "hash": "16642c90c5fe91c1",
+  "source": "Percent braces: {0}. For the files above, the {1} check reports {2}, because {3} has no {4}.",
+  "text": "百分比大括號：{0}。對於上述檔案，{1} 檢查會回報 {2}，因為 {3} 沒有 {4}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "百分比大括號：{0}。對於上述檔案，{1} 檢查會回報 {2}，因為 {3} 沒有 {4}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

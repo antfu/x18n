@@ -1,0 +1,18 @@
+{
+  "hash": "d843e68940683e7f",
+  "source": "The built-in presets, how x18n detects them, and the placeholders and extraction templates they add.",
+  "text": "內建預設集、x18n 如何偵測它們，以及它們新增的佔位符與擷取範本。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "內建預設集、x18n 如何偵測它們，以及它們新增的佔位符與擷取範本。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

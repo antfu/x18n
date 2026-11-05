@@ -1,0 +1,18 @@
+{
+  "hash": "ffe7e6e5d55fc205",
+  "source": "Keys excluded from all checks: globs, or regular expressions tested against the whole key ({0} when namespaced).",
+  "text": "Schlüssel, die von allen Prüfungen ausgeschlossen werden: Globs oder reguläre Ausdrücke, die gegen den gesamten Schlüssel getestet werden ({0} bei Namespaces).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Schlüssel, die von allen Prüfungen ausgeschlossen werden: Globs oder reguläre Ausdrücke, die gegen den gesamten Schlüssel getestet werden ({0} bei Namespaces)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

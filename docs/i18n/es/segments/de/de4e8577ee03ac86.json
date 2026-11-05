@@ -1,0 +1,18 @@
+{
+  "hash": "de4e8577ee03ac86",
+  "source": "the CLI: {0} and {1},",
+  "text": "el CLI: {0} y {1},",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "el CLI: {0} y {1},"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

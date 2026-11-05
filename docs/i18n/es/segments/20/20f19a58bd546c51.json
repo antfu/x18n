@@ -1,0 +1,18 @@
+{
+  "hash": "20f19a58bd546c51",
+  "source": "A check reads the project and reports diagnostics. A diagnostic is one reported issue with a code, a severity and optional fixes. {0} runs every check, and the editor shows the same diagnostics.",
+  "text": "Una comprobación analiza el proyecto e informa de diagnósticos. Un diagnóstico es un problema reportado con un código, una severidad y correcciones opcionales. {0} ejecuta todas las comprobaciones, y el editor muestra los mismos diagnósticos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Una comprobación analiza el proyecto e informa de diagnósticos. Un diagnóstico es un problema reportado con un código, una severidad y correcciones opcionales. {0} ejecuta todas las comprobaciones, y el editor muestra los mismos diagnósticos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

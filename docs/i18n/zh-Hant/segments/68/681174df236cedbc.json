@@ -1,0 +1,18 @@
+{
+  "hash": "681174df236cedbc",
+  "source": "With the default {0}, a file starts with the locale code as its top-level key. The preset reads the messages under that key, in YAML and JSON files whose name ends with {1}, {2} or {3}:",
+  "text": "使用預設的 {0} 時，檔案會以語系代碼作為頂層鍵開頭。預設集會讀取該鍵底下的訊息，檔案為 YAML 與 JSON 檔，且名稱以 {1}、{2} 或 {3} 結尾：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "使用預設的 {0} 時，檔案會以語系代碼作為頂層鍵開頭。預設集會讀取該鍵底下的訊息，檔案為 YAML 與 JSON 檔，且名稱以 {1}、{2} 或 {3} 結尾："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

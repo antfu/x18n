@@ -1,0 +1,18 @@
+{
+  "hash": "8c817cb95a5984ed",
+  "source": "The command never deletes i18n-ally files or settings. At the end, it lists the i18n-ally settings that you can remove. If an {0} file exists, the command stops. Pass {1} to replace it.",
+  "text": "此指令不會刪除 i18n-ally 的檔案或設定。結束時，它會列出你可以移除的 i18n-ally 設定。如果 {0} 檔案已存在，指令會停止。傳入 {1} 可取代該檔案。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "此指令不會刪除 i18n-ally 的檔案或設定。結束時，它會列出你可以移除的 i18n-ally 設定。如果 {0} 檔案已存在，指令會停止。傳入 {1} 可取代該檔案。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

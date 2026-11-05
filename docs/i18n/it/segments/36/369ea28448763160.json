@@ -1,0 +1,18 @@
+{
+  "hash": "369ea28448763160",
+  "source": "A plugin package lets other projects use your plugin with one line of config.",
+  "text": "Un pacchetto plugin permette ad altri progetti di usare il tuo plugin con una sola riga di configurazione.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un pacchetto plugin permette ad altri progetti di usare il tuo plugin con una sola riga di configurazione."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "c36af736732dd148",
+  "source": "No review in the review file has this id.",
+  "text": "Nessuna revisione nel file delle revisioni ha questo id.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nessuna revisione nel file delle revisioni ha questo id."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

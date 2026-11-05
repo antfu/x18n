@@ -1,0 +1,18 @@
+{
+  "hash": "dc1aa50872a006fa",
+  "source": "Write values even when their placeholders differ from the source value.",
+  "text": "Escribe los valores aunque sus marcadores de posición difieran del valor de origen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Escribe los valores aunque sus marcadores de posición difieran del valor de origen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "12a753877f1bb20d",
+  "source": "{0} in the generated plugin. {1} becomes {2}.",
+  "text": "생성된 플러그인의 {0}. {1}은(는) {2}(으)로 변환됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "생성된 플러그인의 {0}. {1}은(는) {2}(으)로 변환됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

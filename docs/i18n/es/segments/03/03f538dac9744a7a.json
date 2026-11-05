@@ -1,0 +1,18 @@
+{
+  "hash": "03f538dac9744a7a",
+  "source": "{0}Concepts{/0}: the names that x18n uses, such as resource, key and usage.",
+  "text": "{0}Conceptos{/0}: los nombres que usa x18n, como recurso, clave y uso.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}Conceptos{/0}: los nombres que usa x18n, como recurso, clave y uso."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

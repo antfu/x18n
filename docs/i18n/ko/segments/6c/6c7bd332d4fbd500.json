@@ -1,0 +1,18 @@
+{
+  "hash": "6c7bd332d4fbd500",
+  "source": "Resource could not be parsed. Fix the syntax error in the file.",
+  "text": "리소스를 파싱할 수 없습니다. 파일의 구문 오류를 수정하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "리소스를 파싱할 수 없습니다. 파일의 구문 오류를 수정하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

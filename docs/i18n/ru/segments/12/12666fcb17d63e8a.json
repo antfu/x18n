@@ -1,0 +1,18 @@
+{
+  "hash": "12666fcb17d63e8a",
+  "source": "In a TS config, import the package and call the factory:",
+  "text": "В конфигурации TS импортируйте пакет и вызовите фабрику:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В конфигурации TS импортируйте пакет и вызовите фабрику:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "94542fcb13e2531e",
+  "source": "A reference next to the skill, {0}, walks the agent through a {1}migration from i18n-ally{/1}: record a baseline, preview the migration, ask about what it drops, write the files, compare with the baseline, and remove the i18n-ally settings once you agree.",
+  "text": "Uma referência ao lado da skill, {0}, guia o agente por uma {1}migração do i18n-ally{/1}: registrar uma linha de base, visualizar a migração, perguntar sobre o que será descartado, escrever os arquivos, comparar com a linha de base e remover as configurações do i18n-ally depois que você concordar.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Uma referência ao lado da skill, {0}, guia o agente por uma {1}migração do i18n-ally{/1}: registrar uma linha de base, visualizar a migração, perguntar sobre o que será descartado, escrever os arquivos, comparar com a linha de base e remover as configurações do i18n-ally depois que você concordar."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

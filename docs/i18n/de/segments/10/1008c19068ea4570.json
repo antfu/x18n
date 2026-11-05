@@ -1,0 +1,18 @@
+{
+  "hash": "1008c19068ea4570",
+  "source": "Only unresolved reviews (list)",
+  "text": "Nur ungelöste Reviews (list)",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Nur ungelöste Reviews (list)"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

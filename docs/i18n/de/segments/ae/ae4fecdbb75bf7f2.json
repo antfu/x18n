@@ -1,0 +1,18 @@
+{
+  "hash": "ae4fecdbb75bf7f2",
+  "source": "{0} find resources. {1} returns candidates: a path, a locale, a namespace, and optionally a format id, a block inside the file, and a read-only flag. {2} returns the path of a new file for a locale and namespace, for edits that create files. {3} is the existing resource that the new file would otherwise copy, usually the source file of the key. Return a path only if {4} would find that file again.",
+  "text": "{0} finden Ressourcen. {1} gibt Kandidaten zurück: einen Pfad, eine Sprache, einen Namespace und optional eine Format-ID, einen Block innerhalb der Datei und ein Flag für schreibgeschützt. {2} gibt den Pfad einer neuen Datei für eine Sprache und einen Namespace zurück, für Änderungen, die Dateien erstellen. {3} ist die vorhandene Ressource, die die neue Datei sonst kopieren würde, meist die Quelldatei des Schlüssels. Gib nur dann einen Pfad zurück, wenn {4} diese Datei wiederfinden würde.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} finden Ressourcen. {1} gibt Kandidaten zurück: einen Pfad, eine Sprache, einen Namespace und optional eine Format-ID, einen Block innerhalb der Datei und ein Flag für schreibgeschützt. {2} gibt den Pfad einer neuen Datei für eine Sprache und einen Namespace zurück, für Änderungen, die Dateien erstellen. {3} ist die vorhandene Ressource, die die neue Datei sonst kopieren würde, meist die Quelldatei des Schlüssels. Gib nur dann einen Pfad zurück, wenn {4} diese Datei wiederfinden würde."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

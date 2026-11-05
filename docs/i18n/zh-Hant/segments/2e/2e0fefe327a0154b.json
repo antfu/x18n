@@ -1,0 +1,18 @@
+{
+  "hash": "2e0fefe327a0154b",
+  "source": "Both functions take the same options:",
+  "text": "這兩個函式接受相同的選項：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "這兩個函式接受相同的選項："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

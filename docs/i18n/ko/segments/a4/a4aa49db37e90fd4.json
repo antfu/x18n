@@ -1,0 +1,18 @@
+{
+  "hash": "a4aa49db37e90fd4",
+  "source": "A target message that last changed before its source message did.",
+  "text": "소스 메시지보다 먼저 마지막으로 변경된 대상 메시지입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "소스 메시지보다 먼저 마지막으로 변경된 대상 메시지입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

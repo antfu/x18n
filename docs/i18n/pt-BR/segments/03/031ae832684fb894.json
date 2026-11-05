@@ -1,0 +1,18 @@
+{
+  "hash": "031ae832684fb894",
+  "source": "{0} runs for each review edit of a plan, after it is applied to the review data: a new comment, approval, change request or suggestion, a {1} or an {2}. {3} holds the key, the locale, the comment and the thread after the edit. {4} and {5} find the message and its file, and {6} returns a file as the plan leaves it. The hook returns {7} writes, which go into the same plan as the review file, so a dry run shows them. A store that keeps a review state beside each message can mark it verified when an approval matches the current value:",
+  "text": "{0} é executado para cada edição de revisão de um plano, depois de ela ser aplicada aos dados de revisão: um novo comentário, aprovação, solicitação de alteração ou sugestão, um {1} ou um {2}. {3} contém a chave, o idioma, o comentário e a thread após a edição. {4} e {5} encontram a mensagem e o arquivo dela, e {6} retorna um arquivo como o plano o deixa. O hook retorna gravações {7}, que entram no mesmo plano que o arquivo de revisão, então uma execução simulada (dry run) as mostra. Um store que mantém um estado de revisão ao lado de cada mensagem pode marcá-la como verificada quando uma aprovação corresponde ao valor atual:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} é executado para cada edição de revisão de um plano, depois de ela ser aplicada aos dados de revisão: um novo comentário, aprovação, solicitação de alteração ou sugestão, um {1} ou um {2}. {3} contém a chave, o idioma, o comentário e a thread após a edição. {4} e {5} encontram a mensagem e o arquivo dela, e {6} retorna um arquivo como o plano o deixa. O hook retorna gravações {7}, que entram no mesmo plano que o arquivo de revisão, então uma execução simulada (dry run) as mostra. Um store que mantém um estado de revisão ao lado de cada mensagem pode marcá-la como verificada quando uma aprovação corresponde ao valor atual:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

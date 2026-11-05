@@ -1,0 +1,18 @@
+{
+  "hash": "77bba1a35fa0b0fd",
+  "source": "The check runs only when the project has at least one scanner.",
+  "text": "Проверка выполняется, только если в проекте есть хотя бы один сканер.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Проверка выполняется, только если в проекте есть хотя бы один сканер."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

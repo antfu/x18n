@@ -1,0 +1,18 @@
+{
+  "hash": "49c39972df91a40c",
+  "source": "The display name and flag of locale codes, for the UI and the editor:",
+  "text": "Il nome visualizzato e la bandiera dei codici lingua, per la UI e l'editor:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il nome visualizzato e la bandiera dei codici lingua, per la UI e l'editor:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

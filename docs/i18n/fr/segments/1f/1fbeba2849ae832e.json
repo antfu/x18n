@@ -1,0 +1,18 @@
+{
+  "hash": "1fbeba2849ae832e",
+  "source": "Text in inline {0} strings works the same way, in any kind of quotes and with escapes, and an inline template in double quotes gets {1}. ICUs get marked too. A sentence around an ICU ({2}) is two messages in Angular, so run {3} after it to add the ICU's own. These stay as they are: content with {4} or {5}, and an inline template with {6}, whose text is not known before the build.",
+  "text": "Le texte des chaînes {0} inline fonctionne de la même façon, avec tout type de guillemets et avec des échappements, et un template inline entre guillemets doubles reçoit {1}. Les ICU sont aussi marqués. Une phrase autour d'un ICU ({2}) forme deux messages dans Angular, lancez donc {3} ensuite pour ajouter celui de l'ICU. Ces cas restent tels quels : le contenu avec {4} ou {5}, et un template inline avec {6}, dont le texte n'est pas connu avant le build.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le texte des chaînes {0} inline fonctionne de la même façon, avec tout type de guillemets et avec des échappements, et un template inline entre guillemets doubles reçoit {1}. Les ICU sont aussi marqués. Une phrase autour d'un ICU ({2}) forme deux messages dans Angular, lancez donc {3} ensuite pour ajouter celui de l'ICU. Ces cas restent tels quels : le contenu avec {4} ou {5}, et un template inline avec {6}, dont le texte n'est pas connu avant le build."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

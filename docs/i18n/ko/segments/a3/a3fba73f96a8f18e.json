@@ -1,0 +1,18 @@
+{
+  "hash": "a3fba73f96a8f18e",
+  "source": "One preset for each framework of i18n-ally, detected from your dependencies: vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter and 21 others.",
+  "text": "i18n-ally의 각 프레임워크마다 프리셋을 하나씩 제공하며, 의존성에서 자동으로 감지합니다. vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter 외 21개를 지원합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally의 각 프레임워크마다 프리셋을 하나씩 제공하며, 의존성에서 자동으로 감지합니다. vue-i18n, i18next, next-intl, ngx-translate, Laravel, Rails, Flutter 외 21개를 지원합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

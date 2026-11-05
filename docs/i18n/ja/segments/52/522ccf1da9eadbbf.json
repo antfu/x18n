@@ -1,0 +1,18 @@
+{
+  "hash": "522ccf1da9eadbbf",
+  "source": "Key: the values of one key with the translation state and description the file records, its problems, and its usages with a few lines of code. \"Open in editor\" opens a usage in your editor. Each target locale has a button that copies a translate prompt for the key, and a button to review the value. The review thread of each locale shows under its value, with buttons to apply a suggestion or resolve a comment.",
+  "text": "Key: 1 つのキーの値、ファイルに記録された翻訳状態と説明、問題、および数行のコードを添えた使用箇所を表示します。「Open in editor」を押すと、使用箇所がエディターで開きます。各ターゲットロケールには、そのキーの翻訳プロンプトをコピーするボタンと、値をレビューするボタンがあります。各ロケールのレビュースレッドは値の下に表示され、提案を適用するボタンやコメントを解決するボタンがあります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Key: 1 つのキーの値、ファイルに記録された翻訳状態と説明、問題、および数行のコードを添えた使用箇所を表示します。「Open in editor」を押すと、使用箇所がエディターで開きます。各ターゲットロケールには、そのキーの翻訳プロンプトをコピーするボタンと、値をレビューするボタンがあります。各ロケールのレビュースレッドは値の下に表示され、提案を適用するボタンやコメントを解決するボタンがあります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

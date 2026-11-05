@@ -1,0 +1,18 @@
+{
+  "hash": "bf2787b9cd033267",
+  "source": "The files use relative paths. Serve the directory from any static host and any path, for example GitHub Pages or the artifacts of a CI job. See {0}CI{/0}.",
+  "text": "这些文件使用相对路径。你可以在任意静态主机的任意路径下提供该目录，例如 GitHub Pages 或 CI 任务的产物。参见 {0}CI{/0}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "这些文件使用相对路径。你可以在任意静态主机的任意路径下提供该目录，例如 GitHub Pages 或 CI 任务的产物。参见 {0}CI{/0}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

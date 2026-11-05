@@ -1,0 +1,18 @@
+{
+  "hash": "8354a20c08cdcc1a",
+  "source": "The preset for Lingui. It reads .po catalogs, the t macro, Trans, msg, defineMessage and useLingui.",
+  "text": "Lingui용 프리셋입니다. .po 카탈로그, t 매크로, Trans, msg, defineMessage, useLingui를 읽습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Lingui용 프리셋입니다. .po 카탈로그, t 매크로, Trans, msg, defineMessage, useLingui를 읽습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

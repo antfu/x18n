@@ -1,0 +1,18 @@
+{
+  "hash": "9e682e3491d9841b",
+  "source": "ICU messages: {0}, {1}.",
+  "text": "ICU-Messages: {0}, {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ICU-Messages: {0}, {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

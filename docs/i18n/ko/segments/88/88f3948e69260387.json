@@ -1,0 +1,18 @@
+{
+  "hash": "88f3948e69260387",
+  "source": "In JSON, HTML and CSS files, the preset reads {0} references, so the strings of {1} count as usages:",
+  "text": "JSON, HTML, CSS 파일에서 프리셋은 {0} 참조를 읽으므로 {1}의 문자열이 사용처로 집계됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "JSON, HTML, CSS 파일에서 프리셋은 {0} 참조를 읽으므로 {1}의 문자열이 사용처로 집계됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

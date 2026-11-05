@@ -1,0 +1,18 @@
+{
+  "hash": "be673bb5706ecf24",
+  "source": "{0}. {1} uses the same tokens. Without it, {2} picks {3} or {4}, and {5} adds {6}.",
+  "text": "{0}。{1} 使用相同的标记。如果没有它，{2} 会选择 {3} 或 {4}，而 {5} 会添加 {6}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}。{1} 使用相同的标记。如果没有它，{2} 会选择 {3} 或 {4}，而 {5} 会添加 {6}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

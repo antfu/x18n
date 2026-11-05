@@ -1,0 +1,18 @@
+{
+  "hash": "ffc2fa245f643173",
+  "source": "List commands page their output. {0} sets the page size. The output ends with a {1} value for the next page, and the JSON output has it as {2}:",
+  "text": "列表命令会对输出分页。{0} 设置每页大小。输出末尾会给出下一页的 {1} 值，JSON 输出中对应的是 {2}：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "列表命令会对输出分页。{0} 设置每页大小。输出末尾会给出下一页的 {1} 值，JSON 输出中对应的是 {2}："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

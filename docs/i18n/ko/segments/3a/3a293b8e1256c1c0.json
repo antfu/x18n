@@ -1,0 +1,18 @@
+{
+  "hash": "3a293b8e1256c1c0",
+  "source": "A TypeScript plugin is an object with a {0} and the capabilities it adds. {1} and {2} from {3} give it types. They return their argument unchanged.",
+  "text": "TypeScript 플러그인은 {0}와(과) 플러그인이 추가하는 기능을 가진 객체입니다. {3}의 {1}와(과) {2}는 여기에 타입을 지정합니다. 이 함수들은 인수를 변경하지 않고 그대로 반환합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TypeScript 플러그인은 {0}와(과) 플러그인이 추가하는 기능을 가진 객체입니다. {3}의 {1}와(과) {2}는 여기에 타입을 지정합니다. 이 함수들은 인수를 변경하지 않고 그대로 반환합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "26dde11648a68435",
+  "source": "In a terminal, {0} asks for each string: accept the proposed key, type another key, skip it, or stop.",
+  "text": "터미널에서는 {0}가 각 문자열마다 제안된 키를 수락할지, 다른 키를 입력할지, 건너뛸지, 중단할지 묻습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "터미널에서는 {0}가 각 문자열마다 제안된 키를 수락할지, 다른 키를 입력할지, 건너뛸지, 중단할지 묻습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

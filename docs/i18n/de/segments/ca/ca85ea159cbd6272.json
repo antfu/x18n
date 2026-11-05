@@ -1,0 +1,18 @@
+{
+  "hash": "ca85ea159cbd6272",
+  "source": "A review is a comment on one message: one key in one locale. The comments on a message form its thread. A review has one of four types:",
+  "text": "Ein Review ist ein Kommentar zu einer message: einem Schlüssel in einer Sprache. Die Kommentare zu einer message bilden ihren Thread. Ein Review hat einen von vier Typen:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Review ist ein Kommentar zu einer message: einem Schlüssel in einer Sprache. Die Kommentare zu einer message bilden ihren Thread. Ein Review hat einen von vier Typen:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

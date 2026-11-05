@@ -1,0 +1,18 @@
+{
+  "hash": "9043a2af38a8395c",
+  "source": "The built-in finders are {0} (the {1} patterns), {2} (Vue {3} blocks), {4} (fluent-vue {5} blocks) and {6} (VS Code {7}).",
+  "text": "組み込みのファインダーは、{0}（{1} パターン）、{2}（Vue の {3} ブロック）、{4}（fluent-vue の {5} ブロック）、{6}（VS Code の {7}）です。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "組み込みのファインダーは、{0}（{1} パターン）、{2}（Vue の {3} ブロック）、{4}（fluent-vue の {5} ブロック）、{6}（VS Code の {7}）です。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

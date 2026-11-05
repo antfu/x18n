@@ -1,0 +1,18 @@
+{
+  "hash": "98528167b3f2a013",
+  "source": "values with no letters once placeholders, nesting references and tags are removed ({0}, {1}, {2}),",
+  "text": "去除占位符、嵌套引用和标签后不含任何字母的值（{0}、{1}、{2}），",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "去除占位符、嵌套引用和标签后不含任何字母的值（{0}、{1}、{2}），"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "38fd0bbfede61bf5",
+  "source": "{0} returns the display name, the flag or other data of a locale code. The first plugin that returns a value wins.",
+  "text": "{0}는 로케일 코드의 표시 이름, 플래그 또는 기타 데이터를 반환합니다. 값을 반환하는 첫 번째 플러그인이 적용됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}는 로케일 코드의 표시 이름, 플래그 또는 기타 데이터를 반환합니다. 값을 반환하는 첫 번째 플러그인이 적용됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

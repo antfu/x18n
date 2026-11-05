@@ -1,0 +1,18 @@
+{
+  "hash": "3f6f0fe9e5054beb",
+  "source": "Only unresolved comments, and only threads that have some.",
+  "text": "仅包含未解决的评论，并且仅包含存在此类评论的讨论串。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "仅包含未解决的评论，并且仅包含存在此类评论的讨论串。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "719a7f8eddad7f6d",
+  "source": "Everything that depends on an i18n library or a file format comes from plugins. The built-in {0}presets{/0} are plugins too. Write your own plugin when x18n does not know your library, your file format or your conventions.",
+  "text": "i18n ライブラリやファイル形式に依存する機能は、すべてプラグインによって提供されます。組み込みの{0}プリセット{/0}もプラグインです。x18n が使用しているライブラリ、ファイル形式、規約に対応していない場合は、独自のプラグインを作成してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n ライブラリやファイル形式に依存する機能は、すべてプラグインによって提供されます。組み込みの{0}プリセット{/0}もプラグインです。x18n が使用しているライブラリ、ファイル形式、規約に対応していない場合は、独自のプラグインを作成してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "224b8f804e7211f9",
+  "source": "YAML and JSON configs reject unknown keys. If the field is a typo, fix the name.",
+  "text": "Las configuraciones YAML y JSON rechazan las claves desconocidas. Si el campo es un error tipográfico, corrige el nombre.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Las configuraciones YAML y JSON rechazan las claves desconocidas. Si el campo es un error tipográfico, corrige el nombre."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "468ec4dafc1daa7e",
+  "source": "This is a usage of {0}.",
+  "text": "Ceci est une utilisation de {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ceci est une utilisation de {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

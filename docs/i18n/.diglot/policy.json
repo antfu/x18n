@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "fingerprint": "f6e446c627d4102c",
+  "props": {
+    "read-more": [
+      "title"
+    ],
+    "card": [
+      "title",
+      "description"
+    ],
+    "video-accordion": [
+      "title"
+    ],
+    "u-button": [
+      "label"
+    ],
+    "collapsible": [
+      "name"
+    ]
+  },
+  "layout": [
+    "steps",
+    "card-group",
+    "code-group"
+  ],
+  "htmlText": [
+    "summary",
+    "div",
+    "details",
+    "figcaption",
+    "dt",
+    "dd"
+  ],
+  "frontmatter": [
+    "title",
+    "description",
+    "navigation.title",
+    "head.title",
+    "links[].label",
+    "seo.title",
+    "seo.description"
+  ],
+  "navigation": [
+    "title",
+    "titleTemplate",
+    "description"
+  ],
+  "codeComments": true
+}

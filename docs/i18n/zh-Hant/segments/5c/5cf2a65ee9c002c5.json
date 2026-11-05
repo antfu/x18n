@@ -1,0 +1,18 @@
+{
+  "hash": "5cf2a65ee9c002c5",
+  "source": "A locale code exactly as written in paths and files ({0}, {1}). Never normalized.",
+  "text": "與路徑和檔案中書寫完全一致的語系代碼（{0}、{1}）。絕不正規化。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "與路徑和檔案中書寫完全一致的語系代碼（{0}、{1}）。絕不正規化。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

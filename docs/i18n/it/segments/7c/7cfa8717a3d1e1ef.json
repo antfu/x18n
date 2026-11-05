@@ -1,0 +1,18 @@
+{
+  "hash": "7cfa8717a3d1e1ef",
+  "source": "the loops of {0}Agent workflows{/0}: add a key, translate, review, clean up, rename and extract,",
+  "text": "i cicli di {0}Flussi di lavoro degli agenti{/0}: aggiungere una chiave, tradurre, rivedere, ripulire, rinominare ed estrarre,",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i cicli di {0}Flussi di lavoro degli agenti{/0}: aggiungere una chiave, tradurre, rivedere, ripulire, rinominare ed estrarre,"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

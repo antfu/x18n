@@ -1,0 +1,18 @@
+{
+  "hash": "f7bb56d8395f0121",
+  "source": "Each prompt holds at most 50 messages ({0}), the code around at most two usages per message, at most five style examples and at most two related values per message. A description or a related value longer than 300 characters is cut.",
+  "text": "每個提示最多包含 50 則訊息（{0}）、每則訊息周圍最多兩處使用處的程式碼、最多五個風格範例，以及每則訊息最多兩個相關值。超過 300 個字元的描述或相關值會被截斷。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每個提示最多包含 50 則訊息（{0}）、每則訊息周圍最多兩處使用處的程式碼、最多五個風格範例，以及每則訊息最多兩個相關值。超過 300 個字元的描述或相關值會被截斷。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

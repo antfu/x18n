@@ -1,0 +1,18 @@
+{
+  "hash": "fcb9e588e133b7a8",
+  "source": "No errors, and no more warnings than {0}.",
+  "text": "Keine Fehler und nicht mehr Warnungen als {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Keine Fehler und nicht mehr Warnungen als {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

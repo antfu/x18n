@@ -1,0 +1,18 @@
+{
+  "hash": "91380eb88d1a8d34",
+  "source": "i18n-ally {0}: {1} in one locale adds the key with an empty value to the others.",
+  "text": "i18n-ally の {0}: あるロケールで {1} すると、他のロケールにも空の値でキーが追加されます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "i18n-ally の {0}: あるロケールで {1} すると、他のロケールにも空の値でキーが追加されます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

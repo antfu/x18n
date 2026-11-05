@@ -1,0 +1,18 @@
+{
+  "hash": "2e0fefe327a0154b",
+  "source": "Both functions take the same options:",
+  "text": "Beide Funktionen akzeptieren dieselben Optionen:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Beide Funktionen akzeptieren dieselben Optionen:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

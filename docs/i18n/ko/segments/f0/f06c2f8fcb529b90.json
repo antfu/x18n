@@ -1,0 +1,18 @@
+{
+  "hash": "f06c2f8fcb529b90",
+  "source": "The panel loads the project from the root of the host (the Vite root). From there, x18n searches upward for a config file, as the CLI does. Install the package as a dev dependency:",
+  "text": "패널은 호스트의 루트(Vite 루트)에서 프로젝트를 불러옵니다. x18n은 CLI와 마찬가지로 그곳에서 상위 디렉터리로 올라가며 설정 파일을 검색합니다. 패키지를 개발 의존성으로 설치하세요:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "패널은 호스트의 루트(Vite 루트)에서 프로젝트를 불러옵니다. x18n은 CLI와 마찬가지로 그곳에서 상위 디렉터리로 올라가며 설정 파일을 검색합니다. 패키지를 개발 의존성으로 설치하세요:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

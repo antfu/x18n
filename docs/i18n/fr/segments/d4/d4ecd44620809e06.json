@@ -1,0 +1,18 @@
+{
+  "hash": "d4ecd44620809e06",
+  "source": "the locales of its {0}fallback chain{/0}, such as {1} for {2} with {3},",
+  "text": "les langues de sa {0}chaîne de repli{/0}, comme {1} pour {2} avec {3},",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "les langues de sa {0}chaîne de repli{/0}, comme {1} pour {2} avec {3},"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

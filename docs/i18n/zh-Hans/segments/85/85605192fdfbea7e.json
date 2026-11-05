@@ -1,0 +1,18 @@
+{
+  "hash": "85605192fdfbea7e",
+  "source": "A message without an {0} gets the id {1} computes from its text and its tag. {2} is its description for translators. Only files that mention {3} are read.",
+  "text": "没有 {0} 的消息会使用 {1} 根据其文本和标签计算出的 id。{2} 是给翻译人员看的描述。只会读取提到 {3} 的文件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "没有 {0} 的消息会使用 {1} 根据其文本和标签计算出的 id。{2} 是给翻译人员看的描述。只会读取提到 {3} 的文件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,19 @@
+{
+  "hash": "1b60c1858a6c2b23",
+  "source": "A hover shows the value per locale and the number of usages. It links to {0}, {1} and {2} only when the client lists them in {3} (an array of command ids), because a client that cannot run a {4} URL opens it as a link and fails. The default is no links.",
+  "text": "Всплывающая подсказка показывает значение для каждой локали и число использований. Ссылки на {0}, {1} и {2} она добавляет, только если клиент перечисляет их в {3} (массив идентификаторов команд), потому что клиент, который не может выполнить URL {4}, откроет его как обычную ссылку, и это завершится ошибкой. По умолчанию ссылок нет.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "update",
+  "prev": "17ab1b9ab5c49c63",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Всплывающая подсказка показывает значение для каждой локали и число использований. Ссылки на {0}, {1} и {2} она добавляет, только если клиент перечисляет их в {3} (массив идентификаторов команд), потому что клиент, который не может выполнить URL {4}, откроет его как обычную ссылку, и это завершится ошибкой. По умолчанию ссылок нет."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T07:02:07.063Z"
+  },
+  "updatedAt": "2026-11-04T07:02:07.063Z"
+}

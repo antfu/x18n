@@ -1,0 +1,18 @@
+{
+  "hash": "f24441cc8d476222",
+  "source": "To translate into a new locale, x18n creates the file next to the source file: {0}. If your neutral language is not English, set {1}.",
+  "text": "要翻译成新的语言，x18n 会在源文件旁边创建文件：{0}。如果你的中性语言不是英语，请设置 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "要翻译成新的语言，x18n 会在源文件旁边创建文件：{0}。如果你的中性语言不是英语，请设置 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

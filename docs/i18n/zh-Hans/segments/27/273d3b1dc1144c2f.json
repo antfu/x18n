@@ -1,0 +1,18 @@
+{
+  "hash": "273d3b1dc1144c2f",
+  "source": "Show translated values next to or in place of keys in code.",
+  "text": "在代码中的键旁边或原位置显示翻译后的值。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在代码中的键旁边或原位置显示翻译后的值。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

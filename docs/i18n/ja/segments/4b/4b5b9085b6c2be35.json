@@ -1,0 +1,18 @@
+{
+  "hash": "4b5b9085b6c2be35",
+  "source": "Pass one of them with {0}.",
+  "text": "その中の 1 つを {0} で指定してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "その中の 1 つを {0} で指定してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

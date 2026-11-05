@@ -1,0 +1,18 @@
+{
+  "hash": "0f1ba71127a11d80",
+  "source": "With the i18next option {0}, a key such as {1} is literal: the {2} does not split it. The preset reads {3} and {4} from the init code and sets {5}, and {6} for {7}, so {8} is a key and not the namespace {9}. A string, such as {10}, becomes the key separator. Set {11} in the config to override it.",
+  "text": "Com a opção {0} do i18next, uma chave como {1} é literal: o {2} não a divide. O preset lê {3} e {4} do código de inicialização e define {5}, e {6} para {7}, de modo que {8} seja uma chave e não o namespace {9}. Uma string, como {10}, torna-se o separador de chaves. Defina {11} na configuração para substituí-lo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Com a opção {0} do i18next, uma chave como {1} é literal: o {2} não a divide. O preset lê {3} e {4} do código de inicialização e define {5}, e {6} para {7}, de modo que {8} seja uma chave e não o namespace {9}. Uma string, como {10}, torna-se o separador de chaves. Defina {11} na configuração para substituí-lo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

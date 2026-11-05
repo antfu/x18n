@@ -1,0 +1,18 @@
+{
+  "hash": "75f7b724aec742da",
+  "source": "True when an existing key with the same source value is reused.",
+  "text": "Verdadeiro quando uma chave existente com o mesmo valor de origem é reutilizada.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Verdadeiro quando uma chave existente com o mesmo valor de origem é reutilizada."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

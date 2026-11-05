@@ -1,0 +1,18 @@
+{
+  "hash": "1b0e89d986292e97",
+  "source": "A rename or delete of a parent key changes every key under it. {0} moves {1} to {2}, and updates prefix usages such as {3}. A rename to a key that exists stops with {4}X18N4002{/4}.",
+  "text": "상위 키의 이름 변경 또는 삭제는 그 아래의 모든 키를 변경합니다. {0}는 {1}를 {2}로 옮기고 {3} 같은 접두사 사용처도 업데이트합니다. 이미 존재하는 키로 이름을 변경하면 {4}X18N4002{/4}와 함께 중단됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "상위 키의 이름 변경 또는 삭제는 그 아래의 모든 키를 변경합니다. {0}는 {1}를 {2}로 옮기고 {3} 같은 접두사 사용처도 업데이트합니다. 이미 존재하는 키로 이름을 변경하면 {4}X18N4002{/4}와 함께 중단됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "27882fa52d8e011a",
+  "source": "Project, locale, resource, namespace, key, message, usage, prefix usage and scope, with examples.",
+  "text": "Proyecto, idioma, recurso, espacio de nombres, clave, mensaje, uso, uso con prefijo y ámbito, con ejemplos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Proyecto, idioma, recurso, espacio de nombres, clave, mensaje, uso, uso con prefijo y ámbito, con ejemplos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

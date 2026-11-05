@@ -1,0 +1,18 @@
+{
+  "hash": "c30354a84b59e3a0",
+  "source": "If the file is generated or is not source code, exclude it with {0}.",
+  "text": "ファイルが自動生成されたものである場合やソースコードではない場合は、{0} で除外してください。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ファイルが自動生成されたものである場合やソースコードではない場合は、{0} で除外してください。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "600e25f4e5440520",
+  "source": "The preset applies when the project has an {0} and a {1} folder, unless the root {2} depends on React Native, Expo, Capacitor, Cordova or NativeScript, or there is a {3}: those apps have an {4} folder whose strings are not its messages. A {5} kept only for tooling does not stop detection. Otherwise, name it in the config:",
+  "text": "이 프리셋은 프로젝트에 {0}와 {1} 폴더가 있으면 적용됩니다. 단, 루트 {2}가 React Native, Expo, Capacitor, Cordova 또는 NativeScript에 의존하거나 {3}가 있으면 적용되지 않습니다. 이러한 앱에는 {4} 폴더가 있지만 그 안의 문자열은 해당 앱의 메시지가 아니기 때문입니다. 도구용으로만 유지하는 {5}는 감지를 막지 않습니다. 그 외의 경우에는 설정에 이름을 지정하세요.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋은 프로젝트에 {0}와 {1} 폴더가 있으면 적용됩니다. 단, 루트 {2}가 React Native, Expo, Capacitor, Cordova 또는 NativeScript에 의존하거나 {3}가 있으면 적용되지 않습니다. 이러한 앱에는 {4} 폴더가 있지만 그 안의 문자열은 해당 앱의 메시지가 아니기 때문입니다. 도구용으로만 유지하는 {5}는 감지를 막지 않습니다. 그 외의 경우에는 설정에 이름을 지정하세요."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

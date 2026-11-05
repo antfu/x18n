@@ -1,0 +1,18 @@
+{
+  "hash": "34b48229ffc8a3b4",
+  "source": "Suggested value (suggest)",
+  "text": "建议的值（suggest）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "建议的值（suggest）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "7f465354b6415aaf",
+  "source": "A review command ran, but the project cannot write reviews. The message says why:",
+  "text": "Se ejecutó un comando de revisión, pero el proyecto no puede escribir revisiones. El mensaje indica el motivo:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Se ejecutó un comando de revisión, pero el proyecto no puede escribir revisiones. El mensaje indica el motivo:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

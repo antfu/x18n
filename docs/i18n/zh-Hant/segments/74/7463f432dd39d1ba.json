@@ -1,0 +1,18 @@
+{
+  "hash": "7463f432dd39d1ba",
+  "source": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\".",
+  "text": "註解中顯示的語系。留空表示使用來源語系。「x18n: Set Display Locale」會針對每個工作區覆寫此設定，且不會寫入設定，直到此設定變更或你選擇「Default」為止。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "註解中顯示的語系。留空表示使用來源語系。「x18n: Set Display Locale」會針對每個工作區覆寫此設定，且不會寫入設定，直到此設定變更或你選擇「Default」為止。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

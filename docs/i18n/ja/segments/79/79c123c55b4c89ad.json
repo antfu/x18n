@@ -1,0 +1,18 @@
+{
+  "hash": "79c123c55b4c89ad",
+  "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
+  "text": "ここで {0} は {1} であり、ライブラリと同様に {2}、次に記述どおりのキーの順でフォールバックします。独自の名前空間を持つキーや、{3} と {4} を持つパイプは、記述どおりに扱われます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ここで {0} は {1} であり、ライブラリと同様に {2}、次に記述どおりのキーの順でフォールバックします。独自の名前空間を持つキーや、{3} と {4} を持つパイプは、記述どおりに扱われます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

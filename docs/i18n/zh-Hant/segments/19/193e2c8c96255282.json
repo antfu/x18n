@@ -1,0 +1,18 @@
+{
+  "hash": "193e2c8c96255282",
+  "source": "{0} deletes the keys that {1} lists, minus the keys in {2}. It also keeps the keys that a fully computed key may reach inside a scope: {3} under {4} may reach every key of the {5} namespace, and under {6} every key under {7}. Run it with {8} first: it lists each key with its locales and files, then the kept keys with the usages that keep them. A fully computed key outside any scope may reach any key, so the plan warns about it; list the keys it uses in {9}. Edits happen in place, so comments and formatting stay.",
+  "text": "{0} 會刪除 {1} 列出的鍵，但不包含 {2} 中的鍵。它也會保留在某個範圍內，完全動態的鍵可能涉及的鍵：在 {4} 底下的 {3} 可能涉及 {5} 命名空間的所有鍵，在 {6} 底下則可能涉及 {7} 底下的所有鍵。請先搭配 {8} 執行：它會列出每個鍵及其語系與檔案，接著列出保留的鍵及使其保留的使用處。範圍之外的完全動態鍵可能涉及任何鍵，因此計畫會對此發出警告；請在 {9} 中列出它所使用的鍵。編輯會就地進行，因此註解與格式都會保留。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 會刪除 {1} 列出的鍵，但不包含 {2} 中的鍵。它也會保留在某個範圍內，完全動態的鍵可能涉及的鍵：在 {4} 底下的 {3} 可能涉及 {5} 命名空間的所有鍵，在 {6} 底下則可能涉及 {7} 底下的所有鍵。請先搭配 {8} 執行：它會列出每個鍵及其語系與檔案，接著列出保留的鍵及使其保留的使用處。範圍之外的完全動態鍵可能涉及任何鍵，因此計畫會對此發出警告；請在 {9} 中列出它所使用的鍵。編輯會就地進行，因此註解與格式都會保留。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

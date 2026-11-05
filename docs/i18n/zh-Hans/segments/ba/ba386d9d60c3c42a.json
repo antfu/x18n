@@ -1,0 +1,18 @@
+{
+  "hash": "ba386d9d60c3c42a",
+  "source": "Or run it in a terminal and answer the questions.",
+  "text": "或者在终端中运行命令并回答这些问题。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "或者在终端中运行命令并回答这些问题。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

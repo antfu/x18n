@@ -1,0 +1,18 @@
+{
+  "hash": "6a593acbe15b4329",
+  "source": "Each skill tells the agent which decisions to leave to you, and to ask about them in one message.",
+  "text": "各スキルは、どの判断をあなたに任せるかをエージェントに伝え、それらについて 1 つのメッセージでまとめて質問するように指示します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "各スキルは、どの判断をあなたに任せるかをエージェントに伝え、それらについて 1 つのメッセージでまとめて質問するように指示します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

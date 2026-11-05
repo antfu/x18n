@@ -1,0 +1,18 @@
+{
+  "hash": "50e0289b512c79f4",
+  "source": "{0} reports this as an {1} warning on the file.",
+  "text": "{0}은(는) 이를 해당 파일에 대한 {1} 경고로 보고합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0}은(는) 이를 해당 파일에 대한 {1} 경고로 보고합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

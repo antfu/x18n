@@ -1,0 +1,18 @@
+{
+  "hash": "7cba101c46e279ba",
+  "source": "Success. For {0}: no errors, and no more warnings than {1}.",
+  "text": "成功。对于 {0}：没有错误，且警告数量不超过 {1}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "成功。对于 {0}：没有错误，且警告数量不超过 {1}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

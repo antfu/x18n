@@ -1,0 +1,18 @@
+{
+  "hash": "45c1425ceffe8f10",
+  "source": "Messages per prompt (default 50)",
+  "text": "每個提示詞的訊息數量（預設為 50）",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "每個提示詞的訊息數量（預設為 50）"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

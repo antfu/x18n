@@ -1,0 +1,18 @@
+{
+  "hash": "eb1b1ca83fbcbc00",
+  "source": "The keys of all {0} files share one key space, as {1} does not show in the key. Two files with the same key, such as {2} and {3}, give a {4}. So do two keys where one is the start of the other, such as {5} and {6}.",
+  "text": "所有 {0} 文件的键共享同一个键空间，因为 {1} 不会体现在键中。两个文件中有相同的键（例如 {2} 和 {3}）会产生 {4}；如果两个键中一个是另一个的开头部分（例如 {5} 和 {6}），同样如此。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "所有 {0} 文件的键共享同一个键空间，因为 {1} 不会体现在键中。两个文件中有相同的键（例如 {2} 和 {3}）会产生 {4}；如果两个键中一个是另一个的开头部分（例如 {5} 和 {6}），同样如此。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

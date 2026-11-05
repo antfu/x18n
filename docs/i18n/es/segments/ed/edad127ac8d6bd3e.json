@@ -1,0 +1,18 @@
+{
+  "hash": "edad127ac8d6bd3e",
+  "source": "Two plugins register a capability (a format, finder, scanner, check, reporter or placeholder syntax) with the same id.",
+  "text": "Dos plugins registran una capacidad (un formato, finder, scanner, comprobación, reporter o sintaxis de marcador de posición) con el mismo id.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dos plugins registran una capacidad (un formato, finder, scanner, comprobación, reporter o sintaxis de marcador de posición) con el mismo id."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

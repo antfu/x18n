@@ -1,0 +1,18 @@
+{
+  "hash": "df5a150956beeb89",
+  "source": "These names count as translate calls: {0} and {1}. Dictionary keys are dot paths.",
+  "text": "Questi nomi vengono considerati chiamate di traduzione: {0} e {1}. Le chiavi del dizionario sono percorsi separati da punti.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Questi nomi vengono considerati chiamate di traduzione: {0} e {1}. Le chiavi del dizionario sono percorsi separati da punti."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

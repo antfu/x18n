@@ -1,0 +1,18 @@
+{
+  "hash": "c58018d1a3160ccb",
+  "source": "The TS config imports {0} from {1}, so the package must be installed in the project before you write an {2}.",
+  "text": "TS 配置会从 {1} 导入 {0}，因此在编写 {2} 之前，必须先在项目中安装该包。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "TS 配置会从 {1} 导入 {0}，因此在编写 {2} 之前，必须先在项目中安装该包。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

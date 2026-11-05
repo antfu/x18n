@@ -1,0 +1,18 @@
+{
+  "hash": "7c3c4b7551e5bf07",
+  "source": "A capability with the id of an earlier one stops the load with {0}X18N1002{/0}. Set {1} on the later one to replace the earlier one.",
+  "text": "若某個功能的 id 與先前的功能相同，會以 {0}X18N1002{/0} 中止載入。在後者設定 {1} 即可取代先前的功能。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "若某個功能的 id 與先前的功能相同，會以 {0}X18N1002{/0} 中止載入。在後者設定 {1} 即可取代先前的功能。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ba202ee36522d172",
+  "source": "PHP: {0}Laravel{/0}, {1}Joomla{/1} and {2}gettext{/2}",
+  "text": "PHP: {0}Laravel{/0}, {1}Joomla{/1} y {2}gettext{/2}",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "PHP: {0}Laravel{/0}, {1}Joomla{/1} y {2}gettext{/2}"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

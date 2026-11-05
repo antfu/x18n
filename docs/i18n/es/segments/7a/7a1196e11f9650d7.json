@@ -1,0 +1,18 @@
+{
+  "hash": "7a1196e11f9650d7",
+  "source": "How the project was understood: presets, finders, formats, scanners, config origins.",
+  "text": "Cómo se ha interpretado el proyecto: presets, finders, formatos, scanners y orígenes de la configuración.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cómo se ha interpretado el proyecto: presets, finders, formatos, scanners y orígenes de la configuración."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

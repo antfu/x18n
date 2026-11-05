@@ -1,0 +1,18 @@
+{
+  "hash": "8eddc05360135488",
+  "source": "The preset has no detection. It applies only when you list it in {0}. The preset is exclusive: x18n applies no listed preset after it.",
+  "text": "이 프리셋에는 감지 기능이 없습니다. {0}에 지정한 경우에만 적용됩니다. 이 프리셋은 배타적이므로 x18n은 이 프리셋 뒤에 오는 프리셋을 적용하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "이 프리셋에는 감지 기능이 없습니다. {0}에 지정한 경우에만 적용됩니다. 이 프리셋은 배타적이므로 x18n은 이 프리셋 뒤에 오는 프리셋을 적용하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

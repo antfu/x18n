@@ -1,0 +1,18 @@
+{
+  "hash": "9dfa617248b55b04",
+  "source": "In Rust files, the preset reads the {0} macro. The first argument can be the loader, or it can be absent when you use a wrapper macro:",
+  "text": "В файлах Rust пресет читает макрос {0}. Первым аргументом может быть загрузчик (loader), либо он может отсутствовать, если вы используете макрос-обёртку:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В файлах Rust пресет читает макрос {0}. Первым аргументом может быть загрузчик (loader), либо он может отсутствовать, если вы используете макрос-обёртку:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

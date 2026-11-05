@@ -1,0 +1,18 @@
+{
+  "hash": "7cfe9bbdb8c9e1b7",
+  "source": "Strings never extracted: an exact string such as {0}, or a {1} string such as {2} that matches the text.",
+  "text": "Stringhe mai estratte: una stringa esatta come {0}, oppure una stringa {1} come {2} che corrisponde al testo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Stringhe mai estratte: una stringa esatta come {0}, oppure una stringa {1} come {2} che corrisponde al testo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

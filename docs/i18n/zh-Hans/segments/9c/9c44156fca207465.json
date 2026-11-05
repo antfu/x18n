@@ -1,0 +1,18 @@
+{
+  "hash": "9c44156fca207465",
+  "source": "Make sure that a TS or JS config has a default export, for example {0}.",
+  "text": "确保 TS 或 JS 配置文件有默认导出，例如 {0}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "确保 TS 或 JS 配置文件有默认导出，例如 {0}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

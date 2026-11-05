@@ -1,0 +1,18 @@
+{
+  "hash": "93a25463c59545da",
+  "source": "To change the value yourself, use {0}.",
+  "text": "如需自行修改该值，请使用 {0}。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如需自行修改该值，请使用 {0}。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

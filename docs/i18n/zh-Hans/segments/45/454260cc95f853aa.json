@@ -1,0 +1,18 @@
+{
+  "hash": "454260cc95f853aa",
+  "source": "Plugin could not be loaded. Install the plugin package, or check the path.",
+  "text": "无法加载插件。请安装插件包，或检查路径。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "无法加载插件。请安装插件包，或检查路径。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

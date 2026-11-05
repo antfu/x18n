@@ -1,0 +1,18 @@
+{
+  "hash": "1217a4ee54bf4018",
+  "source": "Turns diagnostics and analysis into text output.",
+  "text": "Transforma diagnósticos e análises em saída de texto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Transforma diagnósticos e análises em saída de texto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

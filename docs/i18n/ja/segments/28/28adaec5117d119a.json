@@ -1,0 +1,18 @@
+{
+  "hash": "28adaec5117d119a",
+  "source": "In a project with namespaces, a key may hold {0} after its namespace. In code, {1} names the namespace {2}. With {3} (i18next {4}), code never names a namespace, so {5} is the key {6}.",
+  "text": "名前空間を使うプロジェクトでは、キーは名前空間の後に {0} を含むことがあります。コード内では、{1} は名前空間 {2} を指します。{3}（i18next の {4}）を指定した場合、コードで名前空間が指定されることはないため、{5} はキー {6} になります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "名前空間を使うプロジェクトでは、キーは名前空間の後に {0} を含むことがあります。コード内では、{1} は名前空間 {2} を指します。{3}（i18next の {4}）を指定した場合、コードで名前空間が指定されることはないため、{5} はキー {6} になります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

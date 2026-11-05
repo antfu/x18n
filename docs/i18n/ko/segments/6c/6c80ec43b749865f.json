@@ -1,0 +1,18 @@
+{
+  "hash": "6c80ec43b749865f",
+  "source": "A plural key is an object with the CLDR forms {0}, {1}, {2}, {3}, {4} and {5}. A usage of the key counts as a usage of each form.",
+  "text": "복수형 키는 CLDR 형식 {0}, {1}, {2}, {3}, {4}, {5}를 가진 객체입니다. 키의 사용처는 각 형식의 사용처로 계산됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "복수형 키는 CLDR 형식 {0}, {1}, {2}, {3}, {4}, {5}를 가진 객체입니다. 키의 사용처는 각 형식의 사용처로 계산됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

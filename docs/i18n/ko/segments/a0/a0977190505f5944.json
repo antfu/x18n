@@ -1,0 +1,18 @@
+{
+  "hash": "a0977190505f5944",
+  "source": "Values, resources, usages and diagnostics of one key.",
+  "text": "키 하나의 값, 리소스, 사용처, 진단입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "키 하나의 값, 리소스, 사용처, 진단입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

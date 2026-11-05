@@ -1,0 +1,18 @@
+{
+  "hash": "10ba26e42d65d37f",
+  "source": "The value in each locale with file and line, the locales that lack the key, the usages and the diagnostics.",
+  "text": "Il valore in ogni lingua con file e riga, le lingue in cui la chiave manca, gli utilizzi e le diagnostiche.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il valore in ogni lingua con file e riga, le lingue in cui la chiave manca, gli utilizzi e le diagnostiche."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

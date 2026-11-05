@@ -1,0 +1,18 @@
+{
+  "hash": "012d89aae64baa47",
+  "source": "Unknown preset. Use a preset name listed in the docs, or a preset object.",
+  "text": "Preset sconosciuto. Usa il nome di un preset elencato nella documentazione oppure un oggetto preset.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Preset sconosciuto. Usa il nome di un preset elencato nella documentazione oppure un oggetto preset."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

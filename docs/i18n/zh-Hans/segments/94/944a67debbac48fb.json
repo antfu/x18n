@@ -1,0 +1,18 @@
+{
+  "hash": "944a67debbac48fb",
+  "source": "Reviews are not available. Set `review.enabled` to true, and fix the review file if the check reports a problem with it.",
+  "text": "审阅功能不可用。请将 `review.enabled` 设置为 true，如果检查报告审阅文件存在问题，请修复该文件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "审阅功能不可用。请将 `review.enabled` 设置为 true，如果检查报告审阅文件存在问题，请修复该文件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

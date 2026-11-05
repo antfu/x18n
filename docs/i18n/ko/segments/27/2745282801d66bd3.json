@@ -1,0 +1,18 @@
+{
+  "hash": "2745282801d66bd3",
+  "source": "A preset is a group of plugins for one i18n library. The default is {0}: x18n runs the detection of every built-in preset against the dependencies in {1}, {2}, {3}, {4}, {5}, {6} and {7}. The manifests in the parent directories, up to the git root, count too. In a monorepo, this finds the dependencies of the workspace root.",
+  "text": "프리셋은 하나의 i18n 라이브러리를 위한 플러그인 그룹입니다. 기본값은 {0}이며, x18n은 {1}, {2}, {3}, {4}, {5}, {6}, {7}의 의존성을 대상으로 모든 내장 프리셋의 감지를 실행합니다. git 루트까지 상위 디렉터리에 있는 매니페스트도 포함됩니다. 모노레포에서는 이를 통해 워크스페이스 루트의 의존성을 찾습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "프리셋은 하나의 i18n 라이브러리를 위한 플러그인 그룹입니다. 기본값은 {0}이며, x18n은 {1}, {2}, {3}, {4}, {5}, {6}, {7}의 의존성을 대상으로 모든 내장 프리셋의 감지를 실행합니다. git 루트까지 상위 디렉터리에 있는 매니페스트도 포함됩니다. 모노레포에서는 이를 통해 워크스페이스 루트의 의존성을 찾습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

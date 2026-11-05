@@ -1,0 +1,18 @@
+{
+  "hash": "3b434cab1f407075",
+  "source": "A different file, or {0} to turn reviews off.",
+  "text": "Eine andere Datei, oder {0}, um Reviews auszuschalten.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Eine andere Datei, oder {0}, um Reviews auszuschalten."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

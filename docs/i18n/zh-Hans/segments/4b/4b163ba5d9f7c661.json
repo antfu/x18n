@@ -1,0 +1,18 @@
+{
+  "hash": "4b163ba5d9f7c661",
+  "source": "The CLI exits with code {0}.",
+  "text": "CLI 以退出码 {0} 退出。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "CLI 以退出码 {0} 退出。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

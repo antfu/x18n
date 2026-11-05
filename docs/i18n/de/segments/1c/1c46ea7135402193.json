@@ -1,0 +1,18 @@
+{
+  "hash": "1c46ea7135402193",
+  "source": "Change the config before it is final. Presets use this to set defaults.",
+  "text": "Ändert die Konfiguration, bevor sie endgültig ist. Presets nutzen dies, um Standardwerte zu setzen.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ändert die Konfiguration, bevor sie endgültig ist. Presets nutzen dies, um Standardwerte zu setzen."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

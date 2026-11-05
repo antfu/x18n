@@ -1,0 +1,18 @@
+{
+  "hash": "821accb069455536",
+  "source": "The plugin file has this shape:",
+  "text": "플러그인 파일의 구조는 다음과 같습니다:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "플러그인 파일의 구조는 다음과 같습니다:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

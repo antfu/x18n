@@ -1,0 +1,18 @@
+{
+  "hash": "ad22b55eec0295ab",
+  "source": "{0} returns text edits for a list of set and delete operations. x18n prefers it, because it keeps comments and layout.",
+  "text": "{0} gibt Textänderungen für eine Liste von Set- und Delete-Operationen zurück. x18n bevorzugt es, weil es Kommentare und Layout erhält.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} gibt Textänderungen für eine Liste von Set- und Delete-Operationen zurück. x18n bevorzugt es, weil es Kommentare und Layout erhält."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

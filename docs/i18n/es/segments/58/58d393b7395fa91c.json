@@ -1,0 +1,18 @@
+{
+  "hash": "58d393b7395fa91c",
+  "source": "{0} (default), {1} for {2}, or {3} for a member chain on a root.",
+  "text": "{0} (por defecto), {1} para {2}, o {3} para una cadena de miembros sobre una raíz.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} (por defecto), {1} para {2}, o {3} para una cadena de miembros sobre una raíz."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

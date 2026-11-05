@@ -21,6 +21,13 @@ minimumReleaseAgeExclude:
   - '@x18n/lsp@0.1.5'
   - '@x18n/node@0.1.5'
   - '@x18n/ui@0.1.5'
+  - '@diglot/cli@0.1.4'
+  - '@diglot/code@0.1.4'
+  - '@diglot/comark@0.1.4'
+  - '@diglot/core@0.1.4'
+  - '@diglot/mdast@0.1.4'
+  - '@diglot/store@0.1.4'
+  - '@diglot/x18n@0.1.4'
 
 trustPolicy: no-downgrade
 # Older releases of Nuxt and comark-docs dependencies predate provenance publishing;
@@ -134,6 +141,11 @@ catalogs:
     vscode-languageserver-textdocument: ^1.0.15
     yaml: ^2.9.1
   docs:
+    '@diglot/cli': ^0.1.4
+    '@diglot/comark': ^0.1.4
+    '@diglot/core': ^0.1.4
+    '@diglot/store': ^0.1.4
+    '@diglot/x18n': ^0.1.4
     comark-docs: github:comarkdown/comark-docs#4fcfb4f9600295700ac0a9152e562b258ef6fc88
     comark-linter: ^0.7.6
     satori: ^0.63.0

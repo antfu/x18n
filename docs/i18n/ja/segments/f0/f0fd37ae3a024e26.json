@@ -1,0 +1,18 @@
+{
+  "hash": "f0fd37ae3a024e26",
+  "source": "The agent skills that ship in @x18n/cli and teach an agent to set up x18n, check translations and manage them.",
+  "text": "@x18n/cli に同梱されている、x18n のセットアップ、翻訳のチェック、翻訳の管理をエージェントに教えるエージェントスキルです。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "@x18n/cli に同梱されている、x18n のセットアップ、翻訳のチェック、翻訳の管理をエージェントに教えるエージェントスキルです。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

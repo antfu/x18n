@@ -1,0 +1,18 @@
+{
+  "hash": "d74116160f2cdcf5",
+  "source": "The selector form {0} reads the key {1}.",
+  "text": "La forma de selector {0} lee la clave {1}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La forma de selector {0} lee la clave {1}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

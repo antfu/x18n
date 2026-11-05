@@ -1,0 +1,18 @@
+{
+  "hash": "83fd32d0e253ca04",
+  "source": "The committed file of known diagnostics ({0}); {1} then reports only new ones.",
+  "text": "Закоммиченный файл с известными диагностиками ({0}); после этого {1} сообщает только о новых.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Закоммиченный файл с известными диагностиками ({0}); после этого {1} сообщает только о новых."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

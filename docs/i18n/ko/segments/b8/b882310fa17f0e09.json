@@ -1,0 +1,18 @@
+{
+  "hash": "b882310fa17f0e09",
+  "source": "History providers for stale translations. {0} turns every provider off. Options of a provider sit under its key, such as {1} (or {2}).",
+  "text": "오래된 번역을 판단하기 위한 히스토리 제공자입니다. {0}은(는) 모든 제공자를 끕니다. 제공자의 옵션은 {1}(또는 {2})처럼 해당 제공자의 키 아래에 지정합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "오래된 번역을 판단하기 위한 히스토리 제공자입니다. {0}은(는) 모든 제공자를 끕니다. 제공자의 옵션은 {1}(또는 {2})처럼 해당 제공자의 키 아래에 지정합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

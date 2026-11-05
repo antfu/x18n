@@ -1,0 +1,18 @@
+{
+  "hash": "5471e86a82522953",
+  "source": "easy\\_localization keeps plural and gender forms as nested keys. The preset adds the derived keys {0}, {1}, {2}, {3}, {4}, {5}, {6} and {7}. For this file, {8} uses {9} and {10}, so the {11} check reports neither:",
+  "text": "easy\\_localization은 plural 및 gender 형식을 중첩된 키로 유지합니다. 프리셋은 파생 키 {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}을(를) 추가합니다. 이 파일에서는 {8}이(가) {9}와(과) {10}을(를) 사용하므로 {11} 검사는 둘 다 보고하지 않습니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "easy\\_localization은 plural 및 gender 형식을 중첩된 키로 유지합니다. 프리셋은 파생 키 {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}을(를) 추가합니다. 이 파일에서는 {8}이(가) {9}와(과) {10}을(를) 사용하므로 {11} 검사는 둘 다 보고하지 않습니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

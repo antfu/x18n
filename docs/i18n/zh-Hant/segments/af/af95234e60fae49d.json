@@ -1,0 +1,18 @@
+{
+  "hash": "af95234e60fae49d",
+  "source": "Run {0} to list the project names.",
+  "text": "執行 {0} 以列出專案名稱。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "執行 {0} 以列出專案名稱。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

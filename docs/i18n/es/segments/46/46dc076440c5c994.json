@@ -1,0 +1,18 @@
+{
+  "hash": "46dc076440c5c994",
+  "source": "Each problem starts with the path, the line and the column. The next line has the severity, the message and the check id. A code frame follows, with one line of context on each side. The last line counts the errors, the warnings and the files. Paths are relative to the current directory, so editors and terminals can open them.",
+  "text": "Cada problema empieza con la ruta, la línea y la columna. La línea siguiente contiene la gravedad, el mensaje y el id de la comprobación. A continuación aparece un fragmento de código, con una línea de contexto a cada lado. La última línea cuenta los errores, las advertencias y los archivos. Las rutas son relativas al directorio actual, de modo que los editores y terminales pueden abrirlas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Cada problema empieza con la ruta, la línea y la columna. La línea siguiente contiene la gravedad, el mensaje y el id de la comprobación. A continuación aparece un fragmento de código, con una línea de contexto a cada lado. La última línea cuenta los errores, las advertencias y los archivos. Las rutas son relativas al directorio actual, de modo que los editores y terminales pueden abrirlas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

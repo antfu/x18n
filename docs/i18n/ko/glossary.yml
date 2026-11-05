@@ -1,0 +1,91 @@
+# ko terms with diglot-only fields. `match` also covers plurals, which a shared term (one whole word) misses.
+# An entry here replaces the shared entry with the same term in ../glossary.yml.
+terms:
+  - term: agent
+    note: an AI coding agent, such as Claude Code or Cursor
+    match: '\bagents?\b'
+    decision: translate
+    target: 에이전트
+  - term: key
+    note: 'a message identifier such as `nav.home`, not a keyboard key or a password'
+    match: '\bkeys?\b'
+    decision: translate
+    target: 키
+  - term: message
+    note: the value of one key in one locale
+    match: '\bmessages?\b'
+    decision: translate
+    target: 메시지
+  - term: locale
+    note: a language (and region) code such as `de` or `pt-BR`
+    match: '\blocales?\b'
+    decision: translate
+    target: 로케일
+  - term: source locale
+    note: the locale every other locale is translated from
+    match: '\bsource locales?\b'
+    decision: translate
+    target: 소스 로케일
+  - term: resource
+    note: 'a file, or a block inside a file, holding the messages of one locale and one namespace'
+    match: '\bresources?\b'
+    decision: translate
+    target: 리소스
+  - term: namespace
+    note: 'a group of keys, often one file per locale'
+    match: '\bnamespaces?\b'
+    decision: translate
+    target: 네임스페이스
+  - term: usage
+    note: one occurrence of a key in source code
+    match: '\busages?\b'
+    decision: translate
+    target: 사용처
+  - term: preset
+    note: 'a detected or listed group of plugins for one i18n library, such as vue-i18n'
+    match: '\bpresets?\b'
+    decision: translate
+    target: 프리셋
+  - term: plugin
+    match: '\bplugins?\b'
+    decision: translate
+    target: 플러그인
+  - term: placeholder
+    note: 'a variable in a message, such as `{name}`'
+    match: '\bplaceholders?\b'
+    decision: translate
+    target: 플레이스홀더
+  - term: diagnostic
+    note: one reported issue with a code and a severity
+    match: '\bdiagnostics?\b'
+    decision: translate
+    target: 진단
+  - term: check
+    note: 'an x18n check that produces diagnostics, as run by `x18n check`'
+    match: '\bchecks?\b'
+    decision: translate
+    target: 검사
+  - term: review
+    note: 'a comment, approval, change request or suggestion on one message'
+    match: '\breviews?\b'
+    decision: translate
+    target: 리뷰
+  - term: surface
+    note: 'a user-facing layer on the core - the CLI, the language server, the VS Code extension, the UI or MCP'
+    match: '\bsurfaces?\b'
+    decision: translate
+    target: 인터페이스
+  - term: hard string
+    note: text in source code that should probably be a message
+    match: '\bhard[- ]?(?:coded )?strings?\b'
+    decision: translate
+    target: 하드코딩된 문자열
+  - term: stale translation
+    note: a target message that last changed before its source message did
+    match: '\bstale translations?\b'
+    decision: translate
+    target: 오래된 번역
+  - term: language server
+    match: '\blanguage servers?\b'
+    decision: translate
+    target: 언어 서버

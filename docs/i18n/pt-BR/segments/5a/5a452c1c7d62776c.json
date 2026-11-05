@@ -1,0 +1,18 @@
+{
+  "hash": "5a452c1c7d62776c",
+  "source": "Only in these locales. Default: all.",
+  "text": "Apenas nestes idiomas. Padrão: todos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Apenas nestes idiomas. Padrão: todos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "b7b36a2f8253faef",
+  "source": "Where the params passed to the message are. For factories, those of the returned functions.",
+  "text": "Dónde están los parámetros que se pasan al mensaje. En las factories, los de las funciones devueltas.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Dónde están los parámetros que se pasan al mensaje. En las factories, los de las funciones devueltas."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

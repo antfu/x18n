@@ -1,0 +1,18 @@
+{
+  "hash": "a27f2255a9f694bf",
+  "source": "It has no hosted service, no account and no telemetry.",
+  "text": "Es gibt keinen gehosteten Dienst, kein Konto und keine Telemetrie.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Es gibt keinen gehosteten Dienst, kein Konto und keine Telemetrie."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

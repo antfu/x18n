@@ -1,0 +1,18 @@
+{
+  "hash": "ce2d476e80364c9a",
+  "source": "Message syntax errors (ICU, linked messages, nesting).",
+  "text": "Errori di sintassi nei messaggi (ICU, messaggi collegati, annidamento).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Errori di sintassi nei messaggi (ICU, messaggi collegati, annidamento)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

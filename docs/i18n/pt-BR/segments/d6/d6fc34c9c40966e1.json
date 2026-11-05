@@ -1,0 +1,18 @@
+{
+  "hash": "d6fc34c9c40966e1",
+  "source": "See the item fields of {0}. For a library that x18n does not support, a {1}YAML plugin{/1} can hold the calls, placeholders and templates in one file.",
+  "text": "Veja os campos de item de {0}. Para uma biblioteca que o x18n não suporta, um {1}plugin YAML{/1} pode guardar as chamadas, os placeholders e os templates em um único arquivo.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Veja os campos de item de {0}. Para uma biblioteca que o x18n não suporta, um {1}plugin YAML{/1} pode guardar as chamadas, os placeholders e os templates em um único arquivo."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

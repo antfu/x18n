@@ -1,0 +1,18 @@
+{
+  "hash": "701777b477ea9fa0",
+  "source": "The preset applies when {0} has the dependency {1} or {2}. x18n reads {3}, {4}, {5}, {6} and the target dependency tables. For a renamed dependency, such as {7}, x18n sees the alias {8} and does not detect the preset, so list it.",
+  "text": "Das Preset greift, wenn {0} die Abhängigkeit {1} oder {2} enthält. x18n liest {3}, {4}, {5}, {6} und die Target-Dependency-Tabellen. Bei einer umbenannten Abhängigkeit, wie {7}, sieht x18n den Alias {8} und erkennt das Preset nicht, also liste es explizit auf.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Das Preset greift, wenn {0} die Abhängigkeit {1} oder {2} enthält. x18n liest {3}, {4}, {5}, {6} und die Target-Dependency-Tabellen. Bei einer umbenannten Abhängigkeit, wie {7}, sieht x18n den Alias {8} und erkennt das Preset nicht, also liste es explizit auf."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

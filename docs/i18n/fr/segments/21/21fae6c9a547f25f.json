@@ -1,0 +1,18 @@
+{
+  "hash": "21fae6c9a547f25f",
+  "source": "A resolved review stays in the file with {0}.",
+  "text": "Une relecture résolue reste dans le fichier avec {0}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Une relecture résolue reste dans le fichier avec {0}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

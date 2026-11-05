@@ -1,0 +1,18 @@
+{
+  "hash": "d4dcbb44a9c85ac5",
+  "source": "The reporters of {0} are {1}, {2}, {3}, {4}, {5}. See {6}CLI and x18n check{/6}.",
+  "text": "Les reporters de {0} sont {1}, {2}, {3}, {4}, {5}. Voir {6}CLI et x18n check{/6}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Les reporters de {0} sont {1}, {2}, {3}, {4}, {5}. Voir {6}CLI et x18n check{/6}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

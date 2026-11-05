@@ -1,0 +1,18 @@
+{
+  "hash": "5d3f39e762b5ca67",
+  "source": "The preset for VS Code extensions. It reads vscode.l10n.t, package.nls.json files and l10n bundles.",
+  "text": "El preset para extensiones de VS Code. Lee vscode.l10n.t, archivos package.nls.json y bundles de l10n.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "El preset para extensiones de VS Code. Lee vscode.l10n.t, archivos package.nls.json y bundles de l10n."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

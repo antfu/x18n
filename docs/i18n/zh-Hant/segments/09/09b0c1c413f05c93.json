@@ -1,0 +1,18 @@
+{
+  "hash": "09b0c1c413f05c93",
+  "source": "One occurrence of a key in source code.",
+  "text": "鍵在原始碼中出現的一處。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "鍵在原始碼中出現的一處。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

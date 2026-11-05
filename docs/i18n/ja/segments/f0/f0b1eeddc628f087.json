@@ -1,0 +1,18 @@
+{
+  "hash": "f0b1eeddc628f087",
+  "source": "The {0} set is every check that is not {1} below. Override the severity of a check in {2}:",
+  "text": "{0} セットは、以下の {1} 以外のすべてのチェックです。チェックの重大度は {2} で上書きできます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} セットは、以下の {1} 以外のすべてのチェックです。チェックの重大度は {2} で上書きできます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

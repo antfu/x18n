@@ -1,0 +1,18 @@
+{
+  "hash": "d34db4a9deb52f4a",
+  "source": "The new message goes in the source file with Angular's placeholders, the same as {0} writes it. Elements that hold an element with {1} keep it, and their other text goes in an {2}, since Angular rejects an {3} element inside another one.",
+  "text": "새 메시지는 {0}이 작성하는 것과 동일하게 Angular의 플레이스홀더와 함께 소스 파일에 추가됩니다. {1}가 있는 요소를 포함하는 요소는 이를 유지하고, 나머지 텍스트는 {2}에 넣습니다. Angular는 {3} 요소 안에 다른 {1} 요소가 있는 것을 허용하지 않기 때문입니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "새 메시지는 {0}이 작성하는 것과 동일하게 Angular의 플레이스홀더와 함께 소스 파일에 추가됩니다. {1}가 있는 요소를 포함하는 요소는 이를 유지하고, 나머지 텍스트는 {2}에 넣습니다. Angular는 {3} 요소 안에 다른 {1} 요소가 있는 것을 허용하지 않기 때문입니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

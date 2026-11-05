@@ -1,0 +1,18 @@
+{
+  "hash": "590a1f81f5edf500",
+  "source": "Replace an existing config",
+  "text": "Reemplaza una configuración existente",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Reemplaza una configuración existente"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

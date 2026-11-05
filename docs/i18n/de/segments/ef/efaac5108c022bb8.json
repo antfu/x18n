@@ -1,0 +1,18 @@
+{
+  "hash": "efaac5108c022bb8",
+  "source": "x18n does not call machine translation services. Instead, it writes a translate prompt: plain markdown that describes the work, built from the state of the project. You paste it into an LLM, or an agent follows it. Then x18n checks the results.",
+  "text": "x18n ruft keine maschinellen Übersetzungsdienste auf. Stattdessen schreibt es einen Translate-Prompt: reines Markdown, das die Arbeit beschreibt und aus dem Zustand des Projekts erstellt wird. Du fügst es in ein LLM ein, oder ein agent folgt ihm. Danach prüft x18n die Ergebnisse.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "x18n ruft keine maschinellen Übersetzungsdienste auf. Stattdessen schreibt es einen Translate-Prompt: reines Markdown, das die Arbeit beschreibt und aus dem Zustand des Projekts erstellt wird. Du fügst es in ein LLM ein, oder ein agent folgt ihm. Danach prüft x18n die Ergebnisse."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

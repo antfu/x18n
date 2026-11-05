@@ -1,0 +1,18 @@
+{
+  "hash": "351945578d2c49d3",
+  "source": "Replacement code. {0} is the key, {1} the attribute name, {2} the arguments of a template string, {3} the message of the hard string, for a default value, {4} the text as written in the file, and {5} the message as the body of a template string. {6} and {7} are escaped for the quotes around them.",
+  "text": "取代用的程式碼。{0} 是鍵，{1} 是屬性名稱，{2} 是範本字串的引數，{3} 是硬編碼字串的訊息（用於預設值），{4} 是檔案中原樣書寫的文字，{5} 是作為範本字串本體的訊息。{6} 和 {7} 會針對其周圍的引號進行跳脫。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "取代用的程式碼。{0} 是鍵，{1} 是屬性名稱，{2} 是範本字串的引數，{3} 是硬編碼字串的訊息（用於預設值），{4} 是檔案中原樣書寫的文字，{5} 是作為範本字串本體的訊息。{6} 和 {7} 會針對其周圍的引號進行跳脫。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

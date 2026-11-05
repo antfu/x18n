@@ -1,0 +1,18 @@
+{
+  "hash": "555bd065e1e2476e",
+  "source": "Print the parts as data, for tools that build their own prompt. {0} does the same.",
+  "text": "独自のプロンプトを作成するツール向けに、各要素をデータとして出力します。{0} でも同じ動作になります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "独自のプロンプトを作成するツール向けに、各要素をデータとして出力します。{0} でも同じ動作になります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

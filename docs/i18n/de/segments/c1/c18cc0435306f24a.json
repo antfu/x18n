@@ -1,0 +1,18 @@
+{
+  "hash": "c18cc0435306f24a",
+  "source": "A key that does not match a naming rule (options: case, pattern).",
+  "text": "Ein Schlüssel, der einer Namensregel nicht entspricht (Optionen: case, pattern).",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Ein Schlüssel, der einer Namensregel nicht entspricht (Optionen: case, pattern)."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

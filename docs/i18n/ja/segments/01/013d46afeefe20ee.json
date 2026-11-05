@@ -1,0 +1,18 @@
+{
+  "hash": "013d46afeefe20ee",
+  "source": "Nesting: {0}. The nested key counts as used.",
+  "text": "ネスト：{0}。ネストされたキーは使用済みとして扱われます。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ネスト：{0}。ネストされたキーは使用済みとして扱われます。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "6fc7e2308679c528",
+  "source": "The proposed value, for {0}. Keep every placeholder.",
+  "text": "Il valore proposto, per {0}. Mantieni tutti i segnaposto.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Il valore proposto, per {0}. Mantieni tutti i segnaposto."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

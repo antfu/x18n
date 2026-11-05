@@ -1,0 +1,18 @@
+{
+  "hash": "4bff42c643e1f666",
+  "source": "Colon: {0}, as in {1}.",
+  "text": "コロン: {0}（{1} のように使います）。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "コロン: {0}（{1} のように使います）。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

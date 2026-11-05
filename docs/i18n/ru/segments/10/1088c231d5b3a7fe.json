@@ -1,0 +1,18 @@
+{
+  "hash": "1088c231d5b3a7fe",
+  "source": "Rules that rewrite the raw key text of a usage before x18n looks it up. This rule turns {0} into the key {1}:",
+  "text": "Правила, которые переписывают исходный текст ключа в использовании до того, как x18n начнёт его искать. Это правило превращает {0} в ключ {1}:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Правила, которые переписывают исходный текст ключа в использовании до того, как x18n начнёт его искать. Это правило превращает {0} в ключ {1}:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

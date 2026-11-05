@@ -1,0 +1,18 @@
+{
+  "hash": "372712e63419d04c",
+  "source": "Asks for a change. The {0} check reports it until someone resolves it or approves.",
+  "text": "변경을 요청합니다. 누군가 해결하거나 승인할 때까지 {0} 검사가 이를 보고합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "변경을 요청합니다. 누군가 해결하거나 승인할 때까지 {0} 검사가 이를 보고합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "5cadcbe0f678ce5e",
+  "source": "more translate calls. Wildcards such as {0} are skipped.",
+  "text": "d'autres appels de traduction. Les jokers comme {0} sont ignorés.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "d'autres appels de traduction. Les jokers comme {0} sont ignorés."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

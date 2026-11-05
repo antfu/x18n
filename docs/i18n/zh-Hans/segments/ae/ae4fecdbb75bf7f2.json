@@ -1,0 +1,18 @@
+{
+  "hash": "ae4fecdbb75bf7f2",
+  "source": "{0} find resources. {1} returns candidates: a path, a locale, a namespace, and optionally a format id, a block inside the file, and a read-only flag. {2} returns the path of a new file for a locale and namespace, for edits that create files. {3} is the existing resource that the new file would otherwise copy, usually the source file of the key. Return a path only if {4} would find that file again.",
+  "text": "{0} 用于查找资源。{1} 返回候选项：路径、语言、命名空间，以及可选的格式 id、文件内的块和只读标志。{2} 返回某个语言和命名空间对应的新文件路径，用于需要创建文件的编辑。{3} 是新文件原本会复制的现有资源，通常是该键的源文件。只有当 {4} 能再次找到该文件时，才返回该路径。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} 用于查找资源。{1} 返回候选项：路径、语言、命名空间，以及可选的格式 id、文件内的块和只读标志。{2} 返回某个语言和命名空间对应的新文件路径，用于需要创建文件的编辑。{3} 是新文件原本会复制的现有资源，通常是该键的源文件。只有当 {4} 能再次找到该文件时，才返回该路径。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

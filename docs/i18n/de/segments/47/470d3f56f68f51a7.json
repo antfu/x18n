@@ -1,0 +1,18 @@
+{
+  "hash": "470d3f56f68f51a7",
+  "source": "In {0}, {1} and {2} files, the preset reads the {3} helper, as a mustache and as a subexpression:",
+  "text": "In {0}-, {1}- und {2}-Dateien liest das Preset den Helper {3}, sowohl als Mustache als auch als Subexpression:",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "In {0}-, {1}- und {2}-Dateien liest das Preset den Helper {3}, sowohl als Mustache als auch als Subexpression:"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "8800551ce01f14f5",
+  "source": "The provider of a module reaches the components the file names, and a route's reaches the components named or lazy-loaded under it, through {0} too, and their children.",
+  "text": "모듈의 프로바이더는 파일에 명시된 컴포넌트에 적용되고, 라우트의 프로바이더는 그 아래에 명시되었거나 지연 로드되는 컴포넌트와 {0}를 통한 컴포넌트 및 그 자식에 적용됩니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "모듈의 프로바이더는 파일에 명시된 컴포넌트에 적용되고, 라우트의 프로바이더는 그 아래에 명시되었거나 지연 로드되는 컴포넌트와 {0}를 통한 컴포넌트 및 그 자식에 적용됩니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "ca74a2e42c16c283",
+  "source": "{0} for a wrong translation (say why in {1}), {2} to propose a value (in {3}), {4} for a good one, {5} for anything else.",
+  "text": "잘못된 번역에는 {0}({1}에 이유를 적음), 값을 제안하려면 {2}({3}에 값을 지정), 좋은 번역에는 {4}, 그 외에는 {5}를 사용합니다.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "잘못된 번역에는 {0}({1}에 이유를 적음), 값을 제안하려면 {2}({3}에 값을 지정), 좋은 번역에는 {4}, 그 외에는 {5}를 사용합니다."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

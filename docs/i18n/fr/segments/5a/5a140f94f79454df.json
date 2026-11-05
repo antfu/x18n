@@ -1,0 +1,18 @@
+{
+  "hash": "5a140f94f79454df",
+  "source": "A rename changes every locale and every usage in code. A rename of a parent key, such as {0}, moves every key under it. A rename to a key that exists stops with exit code 1.",
+  "text": "Un renommage modifie toutes les langues et toutes les utilisations dans le code. Le renommage d'une clé parente, comme {0}, déplace toutes les clés qu'elle contient. Un renommage vers une clé qui existe déjà s'arrête avec le code de sortie 1.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Un renommage modifie toutes les langues et toutes les utilisations dans le code. Le renommage d'une clé parente, comme {0}, déplace toutes les clés qu'elle contient. Un renommage vers une clé qui existe déjà s'arrête avec le code de sortie 1."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

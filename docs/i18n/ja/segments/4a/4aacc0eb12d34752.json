@@ -1,0 +1,18 @@
+{
+  "hash": "4aacc0eb12d34752",
+  "source": "The message to store: template arguments become placeholders.",
+  "text": "保存するメッセージ。テンプレートの引数はプレースホルダーになります。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "保存するメッセージ。テンプレートの引数はプレースホルダーになります。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

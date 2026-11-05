@@ -1,0 +1,18 @@
+{
+  "hash": "083b6ce8999ef130",
+  "source": "It is not a runtime i18n library. It reads and writes the files that your runtime library uses.",
+  "text": "它不是运行时 i18n 库，而是读写你的运行时库所使用的文件。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "它不是运行时 i18n 库，而是读写你的运行时库所使用的文件。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

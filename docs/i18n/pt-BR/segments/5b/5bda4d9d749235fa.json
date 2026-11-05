@@ -1,0 +1,18 @@
+{
+  "hash": "5bda4d9d749235fa",
+  "source": "The {0} CLI is for humans, CI and agents. Every command prints human output by default, and the {1}JSON contract{/1} with {2}. The {3}CLI reference{/3} lists every command and option.",
+  "text": "A CLI do {0} é para pessoas, CI e agentes. Todo comando imprime uma saída legível por padrão, e o {1}contrato JSON{/1} com {2}. A {3}referência da CLI{/3} lista todos os comandos e opções.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "A CLI do {0} é para pessoas, CI e agentes. Todo comando imprime uma saída legível por padrão, e o {1}contrato JSON{/1} com {2}. A {3}referência da CLI{/3} lista todos os comandos e opções."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

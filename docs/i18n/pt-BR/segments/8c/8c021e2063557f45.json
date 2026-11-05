@@ -1,0 +1,18 @@
+{
+  "hash": "8c021e2063557f45",
+  "source": "{0} lists regex scanners for other file types. Each entry has {1} (without the dot) and {2}. A pattern is a regular expression whose first group is the key. Write {3} inside the group, as in {4}: x18n replaces {5} with a pattern for key characters. This is the same format as {6} of i18n-ally.",
+  "text": "{0} lista scanners de regex para outros tipos de arquivo. Cada entrada tem {1} (sem o ponto) e {2}. Um pattern é uma expressão regular cujo primeiro grupo é a chave. Escreva {3} dentro do grupo, como em {4}: o x18n substitui {5} por um pattern para caracteres de chave. Este é o mesmo formato de {6} do i18n-ally.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} lista scanners de regex para outros tipos de arquivo. Cada entrada tem {1} (sem o ponto) e {2}. Um pattern é uma expressão regular cujo primeiro grupo é a chave. Escreva {3} dentro do grupo, como em {4}: o x18n substitui {5} por um pattern para caracteres de chave. Este é o mesmo formato de {6} do i18n-ally."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

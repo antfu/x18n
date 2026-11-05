@@ -1,0 +1,18 @@
+{
+  "hash": "0e61f2f22f6984bf",
+  "source": "Renames a key in every locale and every usage in code. {0} keeps the code.",
+  "text": "Renombra una clave en todos los idiomas y todos sus usos en el código. {0} conserva el código.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Renombra una clave en todos los idiomas y todos sus usos en el código. {0} conserva el código."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

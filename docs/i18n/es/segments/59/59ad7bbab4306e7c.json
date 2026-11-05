@@ -1,0 +1,18 @@
+{
+  "hash": "59ad7bbab4306e7c",
+  "source": "{0} and {1}, as Django writes them for the project and for each app",
+  "text": "{0} y {1}, tal como Django los escribe para el proyecto y para cada app",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "{0} y {1}, tal como Django los escribe para el proyecto y para cada app"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

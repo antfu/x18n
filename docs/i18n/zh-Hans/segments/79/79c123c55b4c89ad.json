@@ -1,0 +1,18 @@
+{
+  "hash": "79c123c55b4c89ad",
+  "source": "Here {0} is {1}, and falls back as the library does: to {2}, then to the key as written. A key with its own namespace, or a pipe with {3} and {4}, is left as written.",
+  "text": "这里 {0} 是 {1}，并按库的方式回退：先回退到 {2}，再回退到原样书写的键。带有自身命名空间的键，或带有 {3} 和 {4} 的管道，则保持原样。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "这里 {0} 是 {1}，并按库的方式回退：先回退到 {2}，再回退到原样书写的键。带有自身命名空间的键，或带有 {3} 和 {4} 的管道，则保持原样。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

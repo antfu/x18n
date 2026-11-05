@@ -1,0 +1,18 @@
+{
+  "hash": "06058d8e367ed47a",
+  "source": "The check skips a call whose params it cannot read, such as a variable or a spread ({0}), and a key whose source message is not a string, such as a plural key that only has {1} and {2}.",
+  "text": "La vérification ignore un appel dont elle ne peut pas lire les paramètres, comme une variable ou un spread ({0}), ainsi qu'une clé dont le message source n'est pas une chaîne, comme une clé de pluriel qui n'a que {1} et {2}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "La vérification ignore un appel dont elle ne peut pas lire les paramètres, comme une variable ou un spread ({0}), ainsi qu'une clé dont le message source n'est pas une chaîne, comme une clé de pluriel qui n'a que {1} et {2}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

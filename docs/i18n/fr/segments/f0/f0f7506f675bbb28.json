@@ -1,0 +1,18 @@
+{
+  "hash": "f0f7506f675bbb28",
+  "source": "Locales with coverage, counts, diagnostics by check and detected presets. Call it first.",
+  "text": "Langues avec leur couverture, totaux, diagnostics par vérification et presets détectés. Appelez-le en premier.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Langues avec leur couverture, totaux, diagnostics par vérification et presets détectés. Appelez-le en premier."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

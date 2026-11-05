@@ -1,0 +1,18 @@
+{
+  "hash": "beefd4bfb64ed864",
+  "source": "In components and layouts, a key is always a global key. x18n does not know on which pages a component shows.",
+  "text": "В компонентах и лейаутах ключ всегда считается глобальным. x18n не знает, на каких страницах отображается компонент.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "В компонентах и лейаутах ключ всегда считается глобальным. x18n не знает, на каких страницах отображается компонент."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

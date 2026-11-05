@@ -1,0 +1,18 @@
+{
+  "hash": "34970e1c66f96773",
+  "source": "Locale codes to leave out, as written in paths.",
+  "text": "Códigos de idioma a excluir, como escritos nos caminhos.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Códigos de idioma a excluir, como escritos nos caminhos."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

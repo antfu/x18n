@@ -1,0 +1,18 @@
+{
+  "hash": "a8d1ca842a2062a8",
+  "source": "In TS and JS files, {0} tagged templates, and the inline {1} of a component:",
+  "text": "在 TS 和 JS 文件中，使用 {0} 标签模板，以及组件的内联 {1}：",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "在 TS 和 JS 文件中，使用 {0} 标签模板，以及组件的内联 {1}："
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "90758b0599214cce",
+  "source": "The extension starts in a workspace that has an {0} file or a {1}. It reads the same config as the CLI, so the editor and {2} report the same diagnostics.",
+  "text": "如果工作区中有 {0} 文件或 {1}，扩展就会启动。它读取与 CLI 相同的配置，因此编辑器和 {2} 报告的诊断一致。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "如果工作区中有 {0} 文件或 {1}，扩展就会启动。它读取与 CLI 相同的配置，因此编辑器和 {2} 报告的诊断一致。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

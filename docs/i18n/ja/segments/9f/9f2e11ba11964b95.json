@@ -1,0 +1,18 @@
+{
+  "hash": "9f2e11ba11964b95",
+  "source": "If your config has no {0}, the preset uses {1}, {2} and {3}. The {4} format reads and writes these files. All {5} files of a locale share one set of keys, as in a Fluent bundle.",
+  "text": "設定に {0} がない場合、プリセットは {1}、{2}、{3} を使用します。{4} フォーマットがこれらのファイルを読み書きします。Fluent バンドルと同様に、1 つのロケールのすべての {5} ファイルが 1 組のキーを共有します。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "設定に {0} がない場合、プリセットは {1}、{2}、{3} を使用します。{4} フォーマットがこれらのファイルを読み書きします。Fluent バンドルと同様に、1 つのロケールのすべての {5} ファイルが 1 組のキーを共有します。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

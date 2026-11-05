@@ -1,0 +1,18 @@
+{
+  "hash": "f79a4788e3e8105e",
+  "source": "A form that a language does not have, such as {0} in English, is optional in every locale.",
+  "text": "某种语言没有的形式（例如英语中的 {0}）在所有语言中都是可选的。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "某种语言没有的形式（例如英语中的 {0}）在所有语言中都是可选的。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

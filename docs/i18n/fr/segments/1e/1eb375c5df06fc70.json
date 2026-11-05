@@ -1,0 +1,18 @@
+{
+  "hash": "1eb375c5df06fc70",
+  "source": "The preset adds the derived key rules {0}, {1} and {2}. When {3} is used, {4}, {5} and {6} count as used, and {7} is not reported missing. Suffixes stack, so context with plural ({8}) and ordinal plurals ({9}) also belong to {10}. Hovers and inline values show the {11} form, or another form when the locale has no {12}.",
+  "text": "Le preset ajoute les règles de clés dérivées {0}, {1} et {2}. Lorsque {3} est utilisée, {4}, {5} et {6} comptent comme utilisées, et {7} n'est pas signalée comme manquante. Les suffixes se cumulent, donc le contexte avec pluriel ({8}) et les pluriels ordinaux ({9}) appartiennent aussi à {10}. Les info-bulles et les valeurs en ligne affichent la forme {11}, ou une autre forme lorsque la langue n'a pas de {12}.",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "Le preset ajoute les règles de clés dérivées {0}, {1} et {2}. Lorsque {3} est utilisée, {4}, {5} et {6} comptent comme utilisées, et {7} n'est pas signalée comme manquante. Les suffixes se cumulent, donc le contexte avec pluriel ({8}) et les pluriels ordinaux ({9}) appartiennent aussi à {10}. Les info-bulles et les valeurs en ligne affichent la forme {11}, ou une autre forme lorsque la langue n'a pas de {12}."
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}

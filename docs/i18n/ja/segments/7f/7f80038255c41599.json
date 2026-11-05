@@ -1,0 +1,18 @@
+{
+  "hash": "7f80038255c41599",
+  "source": "to use x18n instead of editing locale files by hand, to check whether a key exists before it uses one, to find a key by the text that the app shows, to keep placeholders, and to write keys in full instead of composing them at runtime,",
+  "text": "ロケールファイルを手作業で編集せずに x18n を使うこと、キーを使う前にそのキーが存在するかを確認すること、アプリが表示するテキストからキーを探すこと、プレースホルダーを維持すること、キーを実行時に組み立てずに完全な形で書くこと。",
+  "origin": "mt",
+  "review": "verified",
+  "derived": "fresh",
+  "mt": {
+    "model": "anthropic/claude-sonnet-5.5",
+    "promptVersion": "1",
+    "candidate": "ロケールファイルを手作業で編集せずに x18n を使うこと、キーを使う前にそのキーが存在するかを確認すること、アプリが表示するテキストからキーを探すこと、プレースホルダーを維持すること、キーを実行時に組み立てずに完全な形で書くこと。"
+  },
+  "verifiedBy": {
+    "by": "antfubot",
+    "at": "2026-11-04T06:50:48.228Z"
+  },
+  "updatedAt": "2026-11-04T06:50:48.228Z"
+}
