@@ -38,6 +38,7 @@ import {
 } from 'vscode-languageserver'
 import { TextDocument } from 'vscode-languageserver-textdocument'
 import { version } from '../package.json' with { type: 'json' }
+import { fillParams } from './fill'
 import { commands, methods } from './protocol'
 
 export interface ServerProject {
@@ -636,7 +637,10 @@ class Server {
     for (const { usage } of entry.project.usages({ path })) {
       if (usage.key === undefined || usage.dynamic !== false || usage.range.start < start || usage.range.end > end)
         continue
-      const value = display(entry.project.lookup(usage.key, locale)?.value)
+      const raw = display(entry.project.lookup(usage.key, locale)?.value)
+      const value = raw === undefined
+        ? undefined
+        : fillParams(raw, usage.paramValues, entry.project.placeholderSyntaxes)
       hints.push({
         // After the closing quote, when the key has one: `<p translate>key</p>` has none.
         position: index.position(usage.range.end + (/['"`]/.test(text[usage.range.end] ?? '')
@@ -1337,7 +1341,10 @@ class Server {
       decorations: entry.project.usages({ path }).flatMap(({ usage }) => {
         if (usage.key === undefined)
           return []
-        const value = display(entry.project.lookup(usage.key, locale)?.value)
+        const raw = display(entry.project.lookup(usage.key, locale)?.value)
+        const value = raw === undefined
+          ? undefined
+          : fillParams(raw, usage.paramValues, entry.project.placeholderSyntaxes)
         const state = usage.dynamic !== false
           ? 'dynamic' as const
           : value === undefined

@@ -279,10 +279,11 @@ describe('language server', () => {
       position: await position('src/locales/en.json', '"pages"', 2),
     })
     expect(keyAt).toMatchObject({ key: 'pages', type: 'subtree' })
-    const result: { decorations: { key: string, state: string, expression?: { start: unknown, end: unknown } }[] } = await client.sendRequest(methods.decorations, {
+    const result: { decorations: { key: string, state: string, value?: string, expression?: { start: unknown, end: unknown } }[] } = await client.sendRequest(methods.decorations, {
       uri: uri('src/App.vue'),
     })
     expect(result.decorations.map(d => `${d.key}:${d.state}`)).toContain('app.titel:missing')
+    expect(result.decorations.find(d => d.key === 'app.greeting')?.value).toBe('Hello x')
     expect(result.decorations.find(d => d.key === 'app.greeting')?.expression).toEqual({ start: await position('src/App.vue', '$t(\'app.greeting', 0), end: await position('src/App.vue', ') }}</h1>') })
     expect(result.decorations.find(d => d.key === 'nav.about')?.expression).toBeUndefined()
   })
