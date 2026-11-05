@@ -329,20 +329,34 @@ export const paramMismatch: Check = {
     const options = new Set(ctx.config.usage.calls.flatMap(call => call.params?.options ?? []))
     const references = new Set(ctx.placeholderSyntaxes.filter(syntax => syntax.reference).map(syntax => syntax.id))
     const implicit = new Set(ctx.placeholderSyntaxes.flatMap(syntax => syntax.implicit ?? []))
+    const sources = new Map<string, { used: Set<string>, nested: boolean } | null>()
     for (const usage of ctx.usages()) {
       if (!usage.params || usage.key === undefined || usage.dynamic !== false)
         continue
-      const source = ctx.message(usage.key, ctx.sourceLocale)
-      if (typeof source?.value !== 'string')
+      let source = sources.get(usage.key)
+      if (source === undefined) {
+        const message = ctx.message(usage.key, ctx.sourceLocale)
+        if (typeof message?.value !== 'string') {
+          sources.set(usage.key, null)
+          continue
+        }
+        const found = ctx.placeholders(message.value)
+        // `{{author.name}}` reads the `author` param.
+        source = {
+          used: new Set(found.filter(p => !references.has(p.syntax)).map(p => p.name.split('.')[0]!)),
+          nested: found.some(p => references.has(p.syntax)),
+        }
+        sources.set(usage.key, source)
+      }
+      if (!source || source.used.size === 0)
         continue
-      const found = ctx.placeholders(source.value)
-      // `{{author.name}}` reads the `author` param.
-      const used = new Set(found.filter(p => !references.has(p.syntax)).map(p => p.name.split('.')[0]!))
-      const missing = [...used].filter(name => !implicit.has(name) && !usage.params!.includes(name))
+      if (usage.params.length === 1 && source.used.size === 1 && source.used.has(usage.params[0]!))
+        continue
+      const missing = [...source.used].filter(name => !implicit.has(name) && !usage.params!.includes(name))
       // Unused params count only in a message with placeholders, and without nested messages (`$t(key)`), which may use any param.
-      const extra = used.size === 0 || found.some(p => references.has(p.syntax))
+      const extra = source.used.size === 0 || source.nested
         ? []
-        : usage.params.filter(name => !used.has(name) && !options.has(name) && !implicit.has(name))
+        : usage.params.filter(name => !source.used.has(name) && !options.has(name) && !implicit.has(name))
       if (missing.length || extra.length) {
         const parts = [
           missing.length
