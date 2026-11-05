@@ -1419,6 +1419,8 @@ export interface UsageCandidate {
   readonly dynamic: false | "prefix" | "unknown";
   readonly namespace?: string | undefined;
   readonly keyPrefix?: string | undefined;
+  readonly unreadableNamespace?: boolean | undefined;
+  readonly unreadableKeyPrefix?: boolean | undefined;
   readonly locale?: LocaleCode | undefined;
 }
 export interface UsageContext {

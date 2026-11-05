@@ -181,6 +181,10 @@ export interface UsageCandidate {
   readonly dynamic: false | 'prefix' | 'unknown'
   readonly namespace?: string | undefined
   readonly keyPrefix?: string | undefined
+  /** The namespace comes from code the scanner cannot read: only a key written with its namespace (`ns:key`) resolves. */
+  readonly unreadableNamespace?: boolean | undefined
+  /** The key prefix comes from code the scanner cannot read: only a key written with its namespace (`ns:key`) resolves. */
+  readonly unreadableKeyPrefix?: boolean | undefined
   readonly locale?: LocaleCode | undefined
 }
 
