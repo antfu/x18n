@@ -46,6 +46,8 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 
 ## D9 - No machine translation engines; translate prompts instead
 
+> Superseded by D46.
+
 - Considered: porting i18n-ally translators.
 - Why: agents and LLMs already translate well with context. x18n's value is the context (usages, glossary, placeholders, style examples) and safe write-back (`x18n apply` with checks). It also removes API keys from the tool.
 
@@ -250,6 +252,8 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 
 ## D39 - The editor's agent translates, not an editor LLM engine
 
+> Amended by D46: "Translate with Agent" stays, and the editor's model can also serve as a client translator.
+
 - Decided: "Translate with Agent" in VS Code opens the editor's chat in agent mode with the translate prompt. The agent writes results with `x18n apply` and runs `x18n check`, as the prompt says. Without a chat command, the prompt goes to the clipboard.
 - Considered: an editor LLM engine like [i18n-ally-next](https://github.com/Lydanne/i18n-ally-next)'s `editor-llm`: call `vscode.lm`, parse a JSON reply, write it through a new LSP command, with a model setting and picker.
 - Why: it keeps D9, as x18n calls no model, and it adds no wire contract or reply parsing. The agent already gets placeholder checks from `x18n apply` and can fix what `x18n check` reports, which a single model reply cannot.
@@ -283,3 +287,17 @@ Each entry: what was decided, what else was considered, and why. New decisions g
 - Decided: a boolean `usage.gitignore`, default `true`. With `false`, the usage file set is `usage.include` minus `usage.exclude`, whose defaults already skip `node_modules`, `.git` and build output.
 - Considered: honouring `.gitignore` except under the static base of each `usage.include` glob.
 - Why: a translations repository often scans a git-ignored clone of the sources it translates. One switch is visible in the config and in `x18n doctor`; a rule that depends on how a glob is written would change what existing configs scan, and is hard to predict.
+
+## D46 - Translators as a capability; core owns the pipeline
+
+- Decided: plugins contribute `translators`, which turn a batch into target values and nothing more. Core selects items (the translate prompt's selection), masks placeholders, batches, calls, verifies every candidate with message checks, retries once with the problems, falls through the chain, and returns a `Plan`. Missing messages get values marked `needs-review` with provenance in the review file; existing values get review suggestions unless `overwrite`. Config refers to secrets, the host resolves them. An editor can serve its model as a client translator over the LSP ([20-translation.md](./20-translation.md)).
+- Considered: keeping D9 and translating only through agents; porting i18n-ally's engines with one settings block each; one LLM-only `@x18n/mt` package outside the plugin system; a client-side `vscode.lm` engine that writes through a new command (D39).
+- Also decided: provenance of machine values lives in the review file, which a run creates when missing. The LLM translator is its own package, `@x18n/translator-ai`, so `@x18n/builtins` carries no AI SDK dependency. No translation memory and no pseudo translator ship: reusing other keys' translations is wrong for short ambiguous strings, so they go to the translator as hints, and tests use fake translators.
+- Why: agents need a running agent, and CI, the UI and bulk runs of DeepL-class services do not have one. The value D9 protected (context, placeholder safety, checked write-back) now sits in core, where every translator gets it, instead of in the prompt alone. A capability keeps services out of core and lets third parties add them. Id-matched replies and core-side checks remove the reply parsing and the unchecked writes that D39 rejected.
+
+## D47 - Machine values land as `needs-review`; reviewers approve in batches
+
+- Decided: a translation run writes missing values with `state: 'needs-review'` and provenance (D46). `project.planApprovals(query)` approves many messages in one plan: every approval stores its value, which clears the machine flag; once formats write states, it also sets `reviewed` where the format records state. A batch MUST be narrowed by a filter, a glob or the exact values the reviewer saw; it skips values that changed, fail blocking checks, are stale, or have an open change request, and says why. Batch approval is not an agent tool.
+- Considered: review suggestions for every machine value; an `approve-all` without filters; letting agents approve through MCP.
+- Why: suggestions leave missing messages empty until someone clicks each one, so the app ships the source text meanwhile; a marked value is useful at once and stays visibly unreviewed. Bulk approval is only safe when it approves what a person saw, so surfaces pass the values on screen. An agent approving machine output would turn review into a rubber stamp.
+

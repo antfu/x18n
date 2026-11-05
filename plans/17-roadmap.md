@@ -170,3 +170,4 @@ Packages and the extension share one version (`bumpp -r`). Every release needs e
 | M16 Other editors | Tested setups and docs for Neovim, Zed, Helix |
 | M17 History | History provider capability, git provider, `stale-translation`, `prompt translate --stale`, LSP hover dates, UI ([19-history.md](./19-history.md)). |
 | M18 DevTools | `@x18n/devtools`: the UI as a panel in Vite DevTools, Nuxt DevTools and devframe hubs ([09-ui.md](./09-ui.md#devtools-panel)). |
+| M19 Machine translation | Translator capability and pipeline, `@x18n/translator-ai`, `deepl`, `google`, message checks, provenance, batch approval in the CLI, UI and VS Code, CLI `translate`, LSP, VS Code client translator, UI panel, MCP tool ([20-translation.md](./20-translation.md)). |
