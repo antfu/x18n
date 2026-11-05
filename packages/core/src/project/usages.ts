@@ -112,6 +112,11 @@ export function createUsageResolver(
               params: candidate.params,
             }
           : {},
+        ...candidate.paramValues
+          ? {
+              paramValues: candidate.paramValues,
+            }
+          : {},
         ...candidate.defaultValue === undefined
           ? {}
           : {

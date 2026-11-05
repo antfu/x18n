@@ -1096,6 +1096,7 @@ export interface Usage {
   readonly range: TextRange;
   readonly expression: TextRange | undefined;
   readonly params?: readonly string[] | undefined;
+  readonly paramValues?: Readonly<Record<string, string>> | undefined;
   readonly defaultValue?: string | undefined;
   readonly description?: string | undefined;
   readonly scanner: string;
@@ -1110,6 +1111,7 @@ export interface UsageCandidate {
   readonly range: TextRange;
   readonly expression?: TextRange | undefined;
   readonly params?: readonly string[] | undefined;
+  readonly paramValues?: Readonly<Record<string, string>> | undefined;
   readonly defaultValue?: string | undefined;
   readonly description?: string | undefined;
   readonly kind: UsageKind;

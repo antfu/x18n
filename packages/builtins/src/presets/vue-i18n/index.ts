@@ -4,6 +4,18 @@ import { createLibraryPlugin } from '@x18n/core'
 import { sfcBlocks } from '../../finders/sfc-blocks'
 import { braces, linked } from '../../placeholders'
 
+const vueI18nParams: NonNullable<CallSpec['params']> = {
+  arg: [1, 2],
+  options: [
+    'locale',
+    'fallbackLocale',
+    'default',
+    'missing',
+    'plural',
+    'escapeParameter',
+  ],
+}
+
 const vueI18nCalls: CallSpec[] = [
   {
     callee: [
@@ -21,11 +33,13 @@ const vueI18nCalls: CallSpec[] = [
       'i18n.tc',
       'i18n.te',
     ],
+    params: vueI18nParams,
   },
   {
     callee: 'useI18n',
     factory: true,
     returns: ['t', 'tc', 'te', 'tm'],
+    params: vueI18nParams,
   },
 ]
 
