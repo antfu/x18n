@@ -67,6 +67,10 @@ export const errorDefinitions = {
     why: (p: At & { reason: string }): string => `Locale file ${at(p)} is not static: ${p.reason}`,
     fix: 'Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.',
   },
+  X18N2005: {
+    why: (p: At & { reason: string }): string => `Locale file ${at(p)} could not be executed: ${p.reason}`,
+    fix: 'Fix the error the file throws, or make it static and drop `execute: true`.',
+  },
   X18N3001: {
     why: (p: { path: string, reason: string }): string => `Source file ${p.path} could not be scanned: ${p.reason}`,
     fix: 'Fix the syntax error, or exclude the file with `usage.exclude`.',

@@ -287,6 +287,7 @@ export interface Host {
   readonly cache?: CacheStore | undefined;
   readonly logger?: Logger | undefined;
   readonly identity?: (() => Promise<ReviewAuthor | undefined>) | undefined;
+  readonly executeModule?: ((_: string) => Promise<unknown>) | undefined;
 }
 export interface JsonObject {
   readonly [key: string]: JsonValue;
@@ -876,6 +877,7 @@ export interface ResourceCandidate {
   readonly format?: string | undefined;
   readonly block?: ResourceBlock | undefined;
   readonly readonly?: boolean | undefined;
+  readonly execute?: boolean | undefined;
   readonly keySeparator?: KeySeparator | undefined;
 }
 export interface ResourceNode {

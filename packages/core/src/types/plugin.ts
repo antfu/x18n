@@ -55,6 +55,8 @@ export interface ResourceCandidate {
   readonly format?: string | undefined
   readonly block?: ResourceBlock | undefined
   readonly readonly?: boolean | undefined
+  /** Run the file through `Host.executeModule` instead of parsing it (from `ResourceSpec.execute`). Implies read-only. */
+  readonly execute?: boolean | undefined
   /** Key separator of the resource, over the config's (from `ResourceSpec.keySeparator`). */
   readonly keySeparator?: KeySeparator | undefined
 }

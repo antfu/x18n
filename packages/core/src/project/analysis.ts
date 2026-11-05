@@ -28,6 +28,8 @@ export interface ResourceState {
   readonly states: ReadonlyMap<string, MessageState>
   readonly labels: ReadonlyMap<string, string>
   readonly error: X18nError | undefined
+  /** Read by running the file (`execute: true`), not by parsing it. */
+  readonly execute: boolean
 }
 
 interface AnalyzerState {

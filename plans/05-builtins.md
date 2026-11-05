@@ -43,9 +43,9 @@ Tiers decide the release: tier 1 ships in 1.0 with full parity tests, tier 2 in 
 By default the `js` / `ts` format never runs user code. A file that is not a static literal is reported as `X18N2004`, with a hint to use JSON or YAML or to opt in to execution.
 
 Execution is opt-in per resource pattern (`resources: [{ pattern: 'src/locales/{locale}.ts', execute: true }]`):
-- It runs in Node only, through the same loader as `x18n.config.ts`, and re-runs on change.
+- It runs in Node only, through the same loader as `x18n.config.ts` (`Host.executeModule`), and re-runs on change. A default export that is a function is a loader and is called with the locale; a file that throws is `X18N2005`.
 - Executed resources are read-only, because computed values cannot be written back. A write fails with a coded error naming the resource.
-- In the browser, executed resources are skipped with a notice.
+- A host without `executeModule` (the browser) reads executed resources statically.
 
 ## Locale finders
 

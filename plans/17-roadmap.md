@@ -153,7 +153,6 @@ These did not block the 1.0 exit criteria and move to 1.x:
 - UI: choose and reorder locale columns, bulk actions, shiki highlighting of snippets.
 - Parity tests against the upstream i18n-ally example projects (the fixtures under `test/fixtures/` cover each tier 1 preset).
 - The TS 7 `registerLspMiddleware` path in the extension is guarded but untested until the API ships.
-- `execute: true` with the JS/TS format (D32).
 - Faster cold start: load `yaml`, `@vue/compiler-sfc` and other heavy modules only when a run needs them. A cold `x18n check` spends about as long loading modules as scanning (D30).
 
 ## 1.0 release
