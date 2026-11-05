@@ -64,6 +64,53 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(stdout).toContain(`x18n/${version}`)
   })
 
+  it.each([
+    {
+      args: ['keys', '--bogus', '--json'],
+      command: 'keys',
+      message: 'Unknown option `--bogus`',
+    },
+    {
+      args: ['--json', 'get'],
+      command: 'get',
+      message: 'missing required args for command `get <key>`',
+    },
+    {
+      args: ['keys', '--limit', '--json'],
+      command: 'keys',
+      message: 'option `--limit <n>` value is missing',
+    },
+    {
+      args: ['--bogus', '--json'],
+      command: 'status',
+      message: 'Unknown option `--bogus`',
+    },
+  ])('prints a JSON envelope for parser errors: $args', async ({ args, command, message }) => {
+    const result = await x18n(work, args)
+    expect(result.code).toBe(2)
+    expect(result.stderr).toBe('')
+    expect(json(result)).toEqual({
+      x18n: 2,
+      command,
+      data: null,
+      diagnostics: [],
+      errors: [
+        { name: 'CACError', why: message },
+      ],
+    })
+  })
+
+  it.each([
+    ['keys', '--bogus'],
+    ['keys', '--bogus', '--no-json'],
+    ['keys', '--bogus', '--', '--json'],
+  ])('keeps parser errors as text without JSON mode: %j', async (...args) => {
+    const result = await x18n(work, args)
+    expect(result.code).toBe(2)
+    expect(result.stdout).toBe('')
+    expect(result.stderr).toBe('error: Unknown option `--bogus`\n')
+  })
+
   it('check prints diagnostics with code frames and fails on errors', async () => {
     const dir = await fixture('vue-i18n')
     const result = await x18n(dir, ['check'])

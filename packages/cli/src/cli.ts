@@ -244,12 +244,20 @@ process.stdout.on('error', (error: NodeJS.ErrnoException) => {
 const argv = process.argv.map(arg => arg === '-'
   ? stdinArg
   : arg)
+const cli = createCli()
 try {
-  createCli().parse(argv)
+  cli.parse(argv)
 }
 catch (error) {
-  process.stderr.write(`error: ${error instanceof Error
-    ? error.message
-    : String(error)}\n`)
+  if (cli.options.json) {
+    printJson(cli.matchedCommandName || 'status', null, [], [
+      toErrorInfo(error),
+    ])
+  }
+  else {
+    process.stderr.write(`error: ${error instanceof Error
+      ? error.message
+      : String(error)}\n`)
+  }
   process.exitCode = 2
 }
