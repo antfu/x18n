@@ -32,7 +32,8 @@ export function ngxTranslate(): Preset {
             extensions: angularTemplates,
             patterns: [
               // Not the first argument of an earlier pipe: `| explanationKey: 'title' | translate`.
-              '(?<!\\|[\\s\\n]*[\\w$]+[\\s\\n]*:[\\s\\n]*)[`\'"]({key})[`\'"][\\s\\n]*\\|[\\s\\n]*translate\\b',
+              // Not an operand of `+`, whose key is dynamic: `'a.' + id + '.title' | translate`.
+              '(?<!\\|[\\s\\n]*[\\w$]+[\\s\\n]*:[\\s\\n]*)(?<!\\+[\\s\\n]*)[`\'"]({key})[`\'"][\\s\\n]*\\|[\\s\\n]*translate\\b',
               '\\?[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*:[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
               '\\?[\\s\\n]*[`\'"][\\w\\d\\. \\-\\[\\]\\/:]+?[`\'"][\\s\\n]*:[\\s\\n]*[`\'"]({key})[`\'"][\\s\\n]*\\)[\\s\\n]*\\|[\\s\\n]*translate\\b',
               // The first branch of a ternary whose else-branch is itself a ternary of two strings.
