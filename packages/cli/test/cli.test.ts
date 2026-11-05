@@ -106,6 +106,32 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(github.stdout).toContain('::warning file=src/locales/de.json,line=8,col=6')
   })
 
+  it('check --locale matches the locales of a missing translation exactly', async () => {
+    const dir = await fixture('vue-i18n')
+    const full = JSON.stringify({
+      header: { de: 'Header' },
+      title: 'Title',
+    })
+    await writeFile(join(dir, 'src/locales/en.json'), full)
+    await writeFile(join(dir, 'src/locales/de.json'), full)
+    await writeFile(join(dir, 'src/locales/pt.json'), full)
+    await writeFile(join(dir, 'src/locales/pt-BR.json'), '{}')
+    const missing = async (locale: string): Promise<string[]> => json(await x18n(dir, [
+      'check',
+      '--only',
+      'missing-translation',
+      '--locale',
+      locale,
+      '--json',
+    ])).diagnostics.map((d: any) => d.message).sort()
+    expect(await missing('pt-BR')).toEqual([
+      '"header.de" is missing in pt-BR.',
+      '"title" is missing in pt-BR.',
+    ])
+    expect(await missing('pt')).toEqual([])
+    expect(await missing('de')).toEqual([])
+  })
+
   it('check --update-baseline writes a stable baseline that leaves out known diagnostics', async () => {
     const dir = await fixture('vue-i18n')
     const file = join(dir, '.x18n/check-baseline.json')
