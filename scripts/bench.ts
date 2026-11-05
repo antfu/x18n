@@ -31,7 +31,12 @@ async function generate(): Promise<void> {
   await mkdir(join(root, 'src/locales'), { recursive: true })
   await mkdir(join(root, '.git'))
   // The fixture has no meaningful call params; keep the benchmark on extraction and analysis, not lint volume.
-  await writeFile(join(root, 'x18n.config.json'), `${JSON.stringify({ checks: { 'param-mismatch': 'off' } }, null, 2)}\n`)
+  await writeFile(
+    join(root, 'x18n.config.json'),
+    `${JSON.stringify({
+      checks: { 'param-mismatch': 'off' },
+    }, null, 2)}\n`,
+  )
   await writeFile(join(root, 'package.json'), JSON.stringify({
     dependencies: { 'vue-i18n': '*' },
   }))
