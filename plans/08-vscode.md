@@ -80,7 +80,7 @@ Editor UX only. There are no project settings and no overrides of `x18n.config.t
 
 ## Commands
 
-Generated into `src/generated/meta.ts` by `vscode-ext-gen` (`--scope x18n`). Initial set:
+Generated into `src/generated/meta.ts` by `vscode-ext-gen` (`--scope x18n --locale`, so titles come from `package.nls.json`). Initial set:
 - `x18n.findKeyByText` (reverse search over `x18n/search`; opens the usage, or the locale entry of an unused key)
 - `x18n.openUi`, `x18n.openKey`, `x18n.setDisplayLocale`
 - `x18n.editKey`, `x18n.renameKeyPrefix`, `x18n.deleteKey`
@@ -88,6 +88,15 @@ Generated into `src/generated/meta.ts` by `vscode-ext-gen` (`--scope x18n`). Ini
 - `x18n.extract`, `x18n.extractFile`, `x18n.copyTranslatePrompt`, `x18n.translateWithAgent`
 - `x18n.goToNextUsage`, `x18n.goToPrevUsage`
 - `x18n.toggleInPlace`, `x18n.restartServer`, `x18n.migrateFromI18nAlly`, `x18n.showOutput`, `x18n.explainProjects` (prints `x18n/explain` to the output channel)
+
+## Localization
+
+The extension follows the VS Code display language, in the languages of the UI: `de`, `es`, `fr`, `ja`, `ko`, `pt-br`, `ru`, `tr`, `zh-cn`, `zh-tw` (VS Code locale ids), with English as the source.
+- `package.json` strings are `%key%` references to `package.nls.json`, translated in `package.nls.<locale>.json`.
+- Runtime strings go through `l10n.t` with `{0}` arguments, translated in `l10n/bundle.l10n.<locale>.json`. VS Code has no plural forms, so messages put counts after a label (`Usages: {0}`).
+- Every runtime `l10n.t` of the extension is the one in `src/model/l10n.ts`, so `src/model` stays free of the `vscode` API. `src/language.ts` points it at `vscode.l10n.t`, or, when `x18n.language` names a language, at that language's bundle, and reloads the views when the setting changes. Command titles and setting descriptions always follow VS Code's display language.
+- The output channel stays English. Terms follow the UI's own locales.
+- The root `x18n.config.ts` lists `packages/vscode` as a project with the `vscode-extension` preset, so `x18n check --strict` checks these files, and a unit test checks that every message exists in every locale.
 
 ## Testing
 

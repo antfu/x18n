@@ -5,7 +5,7 @@
   "type": "module",
   "version": "0.1.11",
   "private": true,
-  "description": "Manage and view i18n files of any project, for humans and agents",
+  "description": "%description%",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/x18n-dev/x18n#readme",
@@ -28,10 +28,13 @@
   ],
   "main": "./dist/index.cjs",
   "icon": "res/icon.png",
+  "l10n": "./l10n",
   "files": [
     "LICENSE.md",
     "README.md",
     "dist",
+    "l10n",
+    "package.nls*.json",
     "res/*"
   ],
   "engines": {
@@ -44,144 +47,150 @@
     "commands": [
       {
         "command": "x18n.findKeyByText",
-        "title": "Find Key by Text",
+        "title": "%command.findKeyByText%",
         "category": "x18n",
         "icon": "$(search)"
       },
       {
         "command": "x18n.openUi",
-        "title": "Open UI",
+        "title": "%command.openUi%",
         "category": "x18n",
         "icon": "$(window)"
       },
       {
         "command": "x18n.openKey",
-        "title": "Open Key in UI",
+        "title": "%command.openKey%",
         "category": "x18n",
         "icon": "$(link-external)"
       },
       {
         "command": "x18n.setDisplayLocale",
-        "title": "Set Display Locale",
+        "title": "%command.setDisplayLocale%",
         "category": "x18n",
         "icon": "$(globe)"
       },
       {
+        "command": "x18n.setLanguage",
+        "title": "%command.setLanguage%",
+        "category": "x18n",
+        "icon": "$(symbol-text)"
+      },
+      {
         "command": "x18n.editKey",
-        "title": "Edit Message",
+        "title": "%command.editKey%",
         "category": "x18n",
         "icon": "$(edit)"
       },
       {
         "command": "x18n.renameKeyPrefix",
-        "title": "Rename Key Prefix",
+        "title": "%command.renameKeyPrefix%",
         "category": "x18n"
       },
       {
         "command": "x18n.deleteKey",
-        "title": "Delete Key",
+        "title": "%command.deleteKey%",
         "category": "x18n",
         "icon": "$(trash)"
       },
       {
         "command": "x18n.deleteUnusedKeys",
-        "title": "Delete Unused Keys",
+        "title": "%command.deleteUnusedKeys%",
         "category": "x18n",
         "icon": "$(trash)"
       },
       {
         "command": "x18n.extract",
-        "title": "Extract Hard String",
+        "title": "%command.extract%",
         "category": "x18n"
       },
       {
         "command": "x18n.extractFile",
-        "title": "Extract All Hard Strings in File",
+        "title": "%command.extractFile%",
         "category": "x18n"
       },
       {
         "command": "x18n.copyTranslatePrompt",
-        "title": "Copy Translate Prompt",
+        "title": "%command.copyTranslatePrompt%",
         "category": "x18n",
         "icon": "$(copy)"
       },
       {
         "command": "x18n.translateWithAgent",
-        "title": "Translate with Agent",
+        "title": "%command.translateWithAgent%",
         "category": "x18n",
         "icon": "$(sparkle)"
       },
       {
         "command": "x18n.goToNextUsage",
-        "title": "Go to Next Key Usage",
+        "title": "%command.goToNextUsage%",
         "category": "x18n"
       },
       {
         "command": "x18n.goToPrevUsage",
-        "title": "Go to Previous Key Usage",
+        "title": "%command.goToPrevUsage%",
         "category": "x18n"
       },
       {
         "command": "x18n.toggleInPlace",
-        "title": "Toggle In-place Annotations",
+        "title": "%command.toggleInPlace%",
         "category": "x18n",
         "icon": "$(eye)"
       },
       {
         "command": "x18n.restartServer",
-        "title": "Restart Language Server",
+        "title": "%command.restartServer%",
         "category": "x18n"
       },
       {
         "command": "x18n.migrateFromI18nAlly",
-        "title": "Migrate from i18n-ally",
+        "title": "%command.migrateFromI18nAlly%",
         "category": "x18n"
       },
       {
         "command": "x18n.showOutput",
-        "title": "Show Output",
+        "title": "%command.showOutput%",
         "category": "x18n"
       },
       {
         "command": "x18n.explainProjects",
-        "title": "Explain Projects",
+        "title": "%command.explainProjects%",
         "category": "x18n"
       },
       {
         "command": "x18n.addReview",
-        "title": "Review Key",
+        "title": "%command.addReview%",
         "category": "x18n",
         "icon": "$(comment-discussion)"
       },
       {
         "command": "x18n.replyReview",
-        "title": "Comment",
+        "title": "%command.replyReview%",
         "category": "x18n"
       },
       {
         "command": "x18n.approveReview",
-        "title": "Approve",
+        "title": "%command.approveReview%",
         "category": "x18n"
       },
       {
         "command": "x18n.requestReviewChange",
-        "title": "Request Change",
+        "title": "%command.requestReviewChange%",
         "category": "x18n"
       },
       {
         "command": "x18n.suggestReview",
-        "title": "Suggest as Value",
+        "title": "%command.suggestReview%",
         "category": "x18n"
       },
       {
         "command": "x18n.resolveReviewComment",
-        "title": "Resolve",
+        "title": "%command.resolveReviewComment%",
         "category": "x18n",
         "icon": "$(check)"
       },
       {
         "command": "x18n.applyReviewSuggestion",
-        "title": "Apply Suggestion",
+        "title": "%command.applyReviewSuggestion%",
         "category": "x18n",
         "icon": "$(lightbulb-autofix)"
       }
@@ -236,6 +245,11 @@
         {
           "command": "x18n.setDisplayLocale",
           "when": "view =~ /^x18n\\./",
+          "group": "navigation"
+        },
+        {
+          "command": "x18n.setLanguage",
+          "when": "view == x18n.currentFile",
           "group": "navigation"
         }
       ],
@@ -319,23 +333,23 @@
       "x18n": [
         {
           "id": "x18n.currentFile",
-          "name": "Current File"
+          "name": "%view.currentFile%"
         },
         {
           "id": "x18n.progress",
-          "name": "Progress"
+          "name": "%view.progress%"
         },
         {
           "id": "x18n.keys",
-          "name": "Keys"
+          "name": "%view.keys%"
         },
         {
           "id": "x18n.usageReport",
-          "name": "Usage Report"
+          "name": "%view.usageReport%"
         },
         {
           "id": "x18n.reviews",
-          "name": "Reviews"
+          "name": "%view.reviews%"
         }
       ]
     },
@@ -346,72 +360,79 @@
         "x18n.enabled": {
           "type": "boolean",
           "default": true,
-          "description": "Run the x18n language server in this workspace."
+          "description": "%config.enabled%"
         },
         "x18n.useLocalServer": {
           "type": "boolean",
           "default": true,
-          "description": "Run the `@x18n/lsp` installed in the workspace's `node_modules` instead of the bundled server, when there is one. Restart the server after changing this."
+          "description": "%config.useLocalServer%"
         },
         "x18n.annotations": {
           "type": "boolean",
           "default": true,
-          "description": "Show translated values next to or in place of keys in code."
+          "description": "%config.annotations%"
         },
         "x18n.annotationInPlace": {
           "type": "boolean",
           "default": true,
-          "description": "Replace keys in code with their display-locale value. The raw key shows on the cursor line and inside selections."
+          "description": "%config.annotationInPlace%"
         },
         "x18n.annotationInPlaceFullMatch": {
           "type": "boolean",
           "default": false,
-          "description": "In in-place mode, replace the whole translate call, such as `t('key', { n })`, instead of only the key. Keys whose call is not known keep the key-only replacement."
+          "description": "%config.annotationInPlaceFullMatch%"
         },
         "x18n.annotationMaxLength": {
           "type": "number",
           "default": 40,
-          "description": "Longest value shown in an annotation. Longer values are truncated, and in-place mode falls back to an after-key hint."
+          "description": "%config.annotationMaxLength%"
+        },
+        "x18n.language": {
+          "type": "string",
+          "default": "",
+          "enum": ["", "en", "de", "es", "fr", "ja", "ko", "pt-br", "ru", "tr", "zh-cn", "zh-tw"],
+          "enumItemLabels": ["%config.languageAuto%", "English", "Deutsch", "Español", "Français", "日本語", "한국어", "Português (Brasil)", "Русский", "Türkçe", "简体中文", "繁體中文"],
+          "description": "%config.language%"
         },
         "x18n.displayLocale": {
           "type": "string",
           "default": "",
-          "description": "Locale shown in annotations. Empty means the source locale. \"x18n: Set Display Locale\" overrides it per workspace without writing settings, until this setting changes or you pick \"Default\"."
+          "description": "%config.displayLocale%"
         },
         "x18n.showFlags": {
           "type": "boolean",
           "default": true,
-          "description": "Show the flag of each locale in views, pickers, hovers and the status bar."
+          "description": "%config.showFlags%"
         },
         "x18n.theme.annotation": {
           "type": "string",
           "default": "",
-          "description": "CSS color of in-place values. Empty uses the inlay hint color of the theme."
+          "description": "%config.theme.annotation%"
         },
         "x18n.theme.annotationMissing": {
           "type": "string",
           "default": "",
-          "description": "CSS color of keys without a value. Empty uses the warning color of the theme."
+          "description": "%config.theme.annotationMissing%"
         },
         "x18n.theme.annotationBorder": {
           "type": "string",
           "default": "",
-          "description": "CSS border color of in-place values. Empty draws no border."
+          "description": "%config.theme.annotationBorder%"
         },
         "x18n.theme.annotationMissingBorder": {
           "type": "string",
           "default": "",
-          "description": "CSS border color of keys without a value. Empty draws no border."
+          "description": "%config.theme.annotationMissingBorder%"
         },
         "x18n.theme.annotationInPlaceFullMatch": {
           "type": "string",
           "default": "",
-          "description": "CSS color of values that replace a whole call (`x18n.annotationInPlaceFullMatch`). Empty uses `x18n.theme.annotation`."
+          "description": "%config.theme.annotationInPlaceFullMatch%"
         },
         "x18n.codeLens": {
           "type": "boolean",
           "default": false,
-          "description": "Show usage counts and missing locales above keys in resource files."
+          "description": "%config.codeLens%"
         },
         "x18n.trace.server": {
           "type": "string",
@@ -421,7 +442,7 @@
             "verbose"
           ],
           "default": "off",
-          "description": "Trace the communication between VS Code and the x18n language server."
+          "description": "%config.trace.server%"
         }
       }
     },
@@ -451,7 +472,7 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch --sourcemap",
-    "codegen": "vscode-ext-gen --scope x18n --output src/generated/meta.ts",
+    "codegen": "vscode-ext-gen --scope x18n --locale --output src/generated/meta.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:e2e": "pnpm run build && tsx test/e2e/run.ts",
