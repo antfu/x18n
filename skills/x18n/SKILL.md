@@ -192,7 +192,7 @@ x18n extract --plan extract-plan.json
 x18n extract --apply extract-plan.json --json
 ```
 
-Edit the keys in the plan file before you apply it. The proposed keys follow the project's style; ask the user when there is none yet.
+If you change an item's `key`, also update its reference in `replacement`. Applying the plan uses both fields as written. For example, set `key` to `page.welcome` and change `replacement` from `{{ $t('welcomeAboard') }}` to `{{ $t('page.welcome') }}`. Preview with `x18n extract --apply extract-plan.json --dry-run --json` and check that each replacement uses its intended key before applying. The proposed keys follow the project's style; ask the user when there is none yet.
 
 Tests, fixtures, mocks, stories, configs and type declarations are never scanned, in any language (`*.test.ts`, `*_test.go`, `test_*.py`, `*_spec.rb`, `*Test.java`, `vite.config.ts`, `tests/`, `spec/`, `e2e/`, ...). To keep strings that are not UI text out of the plan, drop them from the plan file, or add a control comment to the code:
 

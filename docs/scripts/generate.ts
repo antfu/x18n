@@ -540,6 +540,8 @@ ${ts(declaration(contracts, 'WireDiagnostic'), declaration(contracts, 'WireRange
 
 ${ts(declaration(extractors, 'ExtractPlanFile'), declaration(extractors, 'ExtractCandidate'))}
 
+The plan stores \`key\` and \`replacement\` separately. If you change \`key\`, also update its reference in \`replacement\`. Applying the plan uses the replacement code as written; it does not regenerate it from the key. See the [saved-plan example](/surfaces/cli#extract-hard-strings).
+
 ## Exit codes
 
 ${exitCodeTable()}
