@@ -409,10 +409,19 @@ function templatesFor(project: Project, kind: string, path: string): string[] {
 }
 
 function rawKeyFor(project: Project, key: KeyString): string {
-  const ns = project.config.namespace.default
-  return project.namespaced && ns && key.startsWith(`${ns}:`)
-    ? key.slice(ns.length + 1)
-    : key
+  const index = project.namespaced
+    ? key.indexOf(':')
+    : -1
+  if (index < 0)
+    return key
+  const namespace = key.slice(0, index)
+  const rest = key.slice(index + 1)
+  if (namespace === project.config.namespace.default)
+    return rest
+  const separator = project.config.namespace.separator
+  return separator === false
+    ? key
+    : `${namespace}${separator}${rest}`
 }
 
 const jsEscapes: Readonly<Record<string, string>> = {

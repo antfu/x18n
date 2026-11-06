@@ -60,7 +60,13 @@ describe('generated extraction selections', () => {
     expect(item!.replacement).toBe('{{ $t(\'page.welcome\', \'Welcome aboard\') + $t(\'page.welcome\') }}')
   })
 
-  it.each(['translation:page.welcome', 'other:page.welcome'])('renders namespace key %s', async (key) => {
+  it.each([
+    [':', 'translation'],
+    [':', 'other'],
+    ['~', 'translation'],
+    ['~', 'other'],
+  ])('renders namespace separator %s in %s', async (separator, namespace) => {
+    const key = `${namespace}${separator}page.welcome`
     const { project } = await createTestProject({
       'locales/en/translation.json': json({}),
       'locales/en/other.json': json({}),
@@ -70,17 +76,28 @@ describe('generated extraction selections', () => {
       resources: [
         { pattern: 'locales/{locale}/{namespace}.json' },
       ],
-      namespace: { default: 'translation' },
+      namespace: { default: 'translation', separator },
     })
     const candidate = findSelections(project)[0]!
     expect(candidate.key).toBe('translation:welcomeAboard')
     const [item] = renderSelections(project, [
       { ...candidate, key },
     ])
-    expect(item!.replacement).toBe(key.startsWith('translation:')
+    expect(item!.replacement).toBe(namespace === 'translation'
       ? '<Trans i18nKey="page.welcome" />'
-      : '<Trans i18nKey="other:page.welcome" />')
+      : `<Trans i18nKey="other${separator}page.welcome" />`)
     expect(item!.imports).toEqual(candidate.imports)
+    await project.apply(project.plan([
+      {
+        type: 'extract',
+        items: [item!],
+      },
+    ]))
+    const canonical = project.parseKey(key)
+    expect([
+      ...project.usages(),
+    ].map(({ usage }) => usage.key)).toContain(canonical)
+    expect(project.message(canonical, project.sourceLocale)?.value).toBe('Welcome aboard')
   })
 
   it('preserves attributes, arguments, imports and unchanged replacements', async () => {
