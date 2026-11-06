@@ -335,7 +335,7 @@ describe('language server', () => {
       ['en', true, true],
       ['de', true, false],
     ])
-    expect(info.locales.find(l => l.code === 'en')?.value).toBe('Hello {name}')
+    expect(info.locales.find(l => l.code === 'en')?.value).toBe('Hello x')
 
     const inside: { key: string } = await client.sendRequest(methods.keyInfo, {
       uri: uri('src/App.vue'),
@@ -343,11 +343,12 @@ describe('language server', () => {
     })
     expect(inside.key).toBe('app.greeting')
 
-    const lineEnd: { key: string } = await client.sendRequest(methods.keyInfo, {
+    const lineEnd: { key: string, locales: { code: string, value?: string }[] } = await client.sendRequest(methods.keyInfo, {
       uri: uri('src/App.vue'),
       position: await position('src/App.vue', ') }}</h1>', ') }}</h1>'.length),
     })
     expect(lineEnd.key).toBe('app.greeting')
+    expect(lineEnd.locales.find(l => l.code === 'en')?.value).toBe('Hello x')
 
     const plain = await client.sendRequest(methods.keyInfo, {
       uri: uri('src/App.vue'),
@@ -355,12 +356,13 @@ describe('language server', () => {
     })
     expect(plain).toBeNull()
 
-    const resource: { key: string, locales: { present: boolean }[] } = await client.sendRequest(methods.keyInfo, {
+    const resource: { key: string, locales: { code: string, present: boolean, value?: string }[] } = await client.sendRequest(methods.keyInfo, {
       uri: uri('src/locales/en.json'),
       position: await position('src/locales/en.json', '"greeting": "Hello {name}"', '"greeting": "Hello {name}"'.length),
     })
     expect(resource.key).toBe('app.greeting')
     expect(resource.locales.filter(l => l.present)).toHaveLength(2)
+    expect(resource.locales.find(l => l.code === 'en')?.value).toBe('Hello {name}')
 
     const subtree: { key: string, type: string, locales: unknown[] } = await client.sendRequest(methods.keyInfo, {
       uri: uri('src/locales/en.json'),

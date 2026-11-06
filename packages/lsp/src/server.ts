@@ -688,6 +688,9 @@ class Server {
     const usages = target.type === 'subtree'
       ? project.usages({ prefix: target.key })
       : project.usages({ key: target.key })
+    const usage = target.type === 'key' && target.source === 'usage'
+      ? target.usage
+      : undefined
     return {
       project: at.entry.name,
       key: target.key,
@@ -698,12 +701,15 @@ class Server {
         ? project.locales.map((locale, i) => {
             const message = project.lookup(target.key, locale)
             const change = changes[i]
+            const raw = display(message?.value)
             return {
               code: locale,
               flag: this.settings.showFlags
                 ? project.localeInfo(locale).flag
                 : undefined,
-              value: display(message?.value),
+              value: raw === undefined
+                ? undefined
+                : fillParams(raw, usage?.paramValues, project.placeholderSyntaxes),
               state: message?.state,
               changed: change
                 ? changedAt(change).split('·')[0]?.trim() || undefined

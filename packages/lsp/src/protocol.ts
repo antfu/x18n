@@ -45,6 +45,7 @@ export interface KeyAtResult {
 export interface KeyInfoLocale {
   readonly code: string
   readonly flag: string | undefined
+  /** The display-locale message; static call params are filled when the position resolves a usage. */
   readonly value: string | undefined
   readonly state?: string | undefined
   readonly changed: string | undefined
