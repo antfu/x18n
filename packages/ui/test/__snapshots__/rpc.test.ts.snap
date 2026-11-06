@@ -1158,10 +1158,38 @@ exports[`rpc functions > explains the project 1`] = `
                 "i18n.tc",
                 "i18n.te",
               ],
+              "params": {
+                "arg": [
+                  1,
+                  2,
+                ],
+                "options": [
+                  "locale",
+                  "fallbackLocale",
+                  "default",
+                  "missing",
+                  "plural",
+                  "escapeParameter",
+                ],
+              },
             },
             {
               "callee": "useI18n",
               "factory": true,
+              "params": {
+                "arg": [
+                  1,
+                  2,
+                ],
+                "options": [
+                  "locale",
+                  "fallbackLocale",
+                  "default",
+                  "missing",
+                  "plural",
+                  "escapeParameter",
+                ],
+              },
               "returns": [
                 "t",
                 "tc",

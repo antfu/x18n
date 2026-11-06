@@ -19,6 +19,7 @@ interface KeyBase {
 /** What a call passes besides the key: its params and a default value. */
 interface CallDetails {
   readonly params?: readonly string[]
+  readonly paramValues?: Readonly<Record<string, string>>
   readonly defaultValue?: string
 }
 
@@ -305,10 +306,63 @@ class FileScan {
       const node = unwrap(value)
       if (node.type === 'ObjectExpression')
         return this.staticKeys(node)
-      if (!isStringLiteral(node) && node.type !== 'TemplateLiteral')
+      if (node.type !== 'Literal' && node.type !== 'TemplateLiteral')
         return undefined
     }
     return []
+  }
+
+  /** The static string values of the params object, by name. */
+  paramValues(args: readonly ArgValue[], source: ParamsSource): Readonly<Record<string, string>> | undefined {
+    for (const index of [source.arg].flat()) {
+      const value = args[index]
+      if (!value)
+        return {}
+      if ('props' in value)
+        return undefined
+      const node = unwrap(value)
+      if (node.type === 'ObjectExpression')
+        return this.objectValues(node)
+      if (node.type === 'Literal' || node.type === 'TemplateLiteral')
+        continue
+      return undefined
+    }
+    return {}
+  }
+
+  /**
+   * A param's value when the call writes a string literal, or names a same-file
+   * string constant. Arrays, JSX and template literals are not param values.
+   */
+  paramValue(value: ArgValue | undefined): string | undefined {
+    if (!value || 'props' in value)
+      return undefined
+    const node = unwrap(value)
+    if (isStringLiteral(node))
+      return node.value
+    if (node.type === 'Identifier') {
+      const constant = this.constants.get(node.name)
+      return constant && isStringLiteral(constant)
+        ? constant.value
+        : undefined
+    }
+    return undefined
+  }
+
+  /** The string-valued properties of an object literal, skipping computed keys and unresolved values. */
+  objectValues(object: ObjectExpression): Record<string, string> {
+    const out: Record<string, string> = {}
+    for (const property of object.properties) {
+      if (property.type !== 'Property' || property.computed)
+        continue
+      const name = propertyName(property.key)
+      const text = name === undefined
+        ? undefined
+        : this.paramValue(property.value)
+      if (name !== undefined && text !== undefined)
+        out[name] = text
+    }
+    return out
   }
 
   /** Property names of an object literal, or undefined with a spread or a computed key. */
@@ -329,12 +383,18 @@ class FileScan {
     const params = spec.params
       ? this.paramNames(args, spec.params)
       : undefined
+    const paramValues = spec.params
+      ? this.paramValues(args, spec.params)
+      : undefined
     const defaultValue = spec.defaultValue
       ?.map(source => this.stringArg(this.argValues(args, source, 0)[0]))
       .find(value => value !== undefined)
     return {
       ...params
         ? { params }
+        : {},
+      ...paramValues
+        ? { paramValues }
         : {},
       ...defaultValue === undefined
         ? {}

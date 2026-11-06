@@ -173,6 +173,8 @@ export interface UsageCandidate {
   readonly expression?: TextRange | undefined
   /** Names of the params the call passes, when they are all static. */
   readonly params?: readonly string[] | undefined
+  /** Values of the params that are static strings, by name. */
+  readonly paramValues?: Readonly<Record<string, string>> | undefined
   /** The default value the call writes in code. */
   readonly defaultValue?: string | undefined
   /** A description of the message written next to the key in code. */

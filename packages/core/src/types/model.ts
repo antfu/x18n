@@ -117,6 +117,8 @@ export interface Usage {
   readonly expression: TextRange | undefined
   /** Names of the params the call passes (`t('a', { n })` gives `['n']`); undefined when the scanner cannot tell, as with a spread or a variable. */
   readonly params?: readonly string[] | undefined
+  /** Static string values of the params (`t('a', { name: 'Ada' })` gives `{ name: 'Ada' }`). */
+  readonly paramValues?: Readonly<Record<string, string>> | undefined
   /** The default value written in code (`t('a', 'Default')`), when the scanner knows it. */
   readonly defaultValue?: string | undefined
   /** A description of the message written next to the key in code (`CallSpec.description`), when the scanner knows it. */

@@ -347,6 +347,36 @@ describe('tier 1 presets', () => {
     expect(project.usages({ path: 'app/pages/pageA.vue' }).map(m => m.usage.key)).toEqual(['pages.pageA.link.back', 'pages.pageA.title'])
   })
 
+  it('vue-i18n: static call params are recorded', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('vue-i18n'),
+      'src/locales/en.json': json({
+        app: {
+          greeting: 'Hello {name}',
+          literal: 'Hello {name}',
+          fallback: 'Hello {name}',
+          choice: 'Hello {name}',
+          constant: 'Hello {name}',
+        },
+      }),
+      'src/App.vue': `<script setup>
+const name = 'Ada'
+const { t } = useI18n()
+const constant = t('app.constant', { name })
+</script>
+<template>
+  <h1>{{ $t('app.greeting', { name: 'Ada', items: ['a', 'b'] }) }}</h1>
+  <p>{{ $t('app.fallback', 'Default', { name: 'Ada' }) }}</p>
+  <p>{{ $tc('app.choice', 3, { name: 'Ada' }) }}</p>
+</template>`,
+    })
+    const params = new Map(project.usages().map(m => [m.usage.key, m.usage.paramValues] as const))
+    expect(params.get('app.greeting')).toEqual({ name: 'Ada' })
+    expect(params.get('app.fallback')).toEqual({ name: 'Ada' })
+    expect(params.get('app.choice')).toEqual({ name: 'Ada' })
+    expect(params.get('app.constant')).toEqual({ name: 'Ada' })
+  })
+
   it('nuxt-i18n-micro: route names and dynamic keys', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('nuxt-i18n-micro', 'nuxt'),
@@ -1818,6 +1848,26 @@ describe('param-mismatch', () => {
     expect(problems.map(d => project.usages({ key: d.key }).find(m => m.usage.range.start === d.location?.range?.start)?.usage.params)).toEqual([
       ['nam'],
       [],
+    ])
+  })
+
+  it('compares the params of Vue I18n calls and ignores implicit names', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('vue-i18n'),
+      'src/locales/en.json': json({
+        greet: 'Hello {name}',
+        items: '{count} items',
+        hello: 'Hello {name}',
+      }),
+      'src/App.vue': `<template>
+  <h1>{{ $t('greet', { nam: 'x' }) }}</h1>
+  <p>{{ $t('items') }}</p>
+  <p>{{ $t('hello', { name: 'Ada', count: 2 }) }}</p>
+</template>`,
+    })
+    const problems = project.analyze().diagnostics.filter(d => d.code === 'param-mismatch')
+    expect(problems.map(d => d.message)).toEqual([
+      'The params of "greet" differ from its placeholders in en: missing name; unused nam.',
     ])
   })
 
