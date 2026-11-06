@@ -39,7 +39,7 @@ const tests: [string, (api: X18nExtensionApi) => Promise<void>][] = [
           ? texts
           : undefined
       })
-      ok(replaced.includes('Hello {name}'))
+      ok(replaced.includes('Hello x'))
     },
   ],
   [
@@ -50,7 +50,7 @@ const tests: [string, (api: X18nExtensionApi) => Promise<void>][] = [
       await settings.update('annotationInPlaceFullMatch', true, ConfigurationTarget.Global)
       try {
         const document = await workspace.openTextDocument(uri)
-        const greeting = await until('a full-match replacement', () => api.inPlace(uri.toString()).replaced.find(r => r.fullMatch && r.text === 'Hello {name}'))
+        const greeting = await until('a full-match replacement', () => api.inPlace(uri.toString()).replaced.find(r => r.fullMatch && r.text === 'Hello x'))
         const { start, end } = greeting.range
         deepStrictEqual(document.getText(new Range(start.line, start.character, end.line, end.character)), `$t('app.greeting', { name: 'x' })`)
       }
