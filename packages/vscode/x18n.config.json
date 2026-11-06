@@ -1,0 +1,7 @@
+{
+  "$schema": "https://x18n.dev/schema/config.json",
+  "presets": ["vscode-extension"],
+  "usage": {
+    "include": ["src/**/*.ts", "package.json"]
+  }
+}

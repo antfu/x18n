@@ -5,18 +5,12 @@ import { commands as serverCommands } from '@x18n/lsp'
 import { useCommand, useDisposable } from 'reactive-vscode'
 import { CommentMode, comments, CommentThreadCollapsibleState, CommentThreadState, MarkdownString, Range, Uri, window } from 'vscode'
 import { commands } from './generated/meta'
-import { reviewStates } from './model/tree'
+import { l10n } from './model/l10n'
+import { reviewState, reviewTypeLabel } from './model/tree'
 
 interface ReviewComment extends Comment {
   readonly review: ReviewCommentInfo
   readonly project: string
-}
-
-const typeLabels: Record<ReviewCommentInfo['type'], string> = {
-  'comment': 'comment',
-  'approve': 'approved',
-  'request-change': 'requested a change',
-  'suggestion': 'suggestion',
 }
 
 function toComment(thread: ReviewThreadInfo, review: ReviewCommentInfo): ReviewComment {
@@ -24,16 +18,16 @@ function toComment(thread: ReviewThreadInfo, review: ReviewCommentInfo): ReviewC
     review.text,
     review.suggestion === undefined
       ? undefined
-      : `Suggests \`${review.suggestion}\``,
+      : l10n.t('Suggests `{0}`', review.suggestion),
   ].filter(Boolean).join('\n\n')
   return {
-    body: new MarkdownString(body || `_${typeLabels[review.type]}_`),
+    body: new MarkdownString(body || `_${reviewTypeLabel(review.type)}_`),
     mode: CommentMode.Preview,
-    author: { name: review.author?.name ?? review.author?.email ?? 'unknown' },
+    author: { name: review.author?.name ?? review.author?.email ?? l10n.t('unknown') },
     label: [
-      typeLabels[review.type],
-      review.resolved && 'resolved',
-      review.stale && 'value changed since',
+      reviewTypeLabel(review.type),
+      review.resolved && l10n.t('resolved'),
+      review.stale && l10n.t('value changed since'),
     ].filter(Boolean).join(' · '),
     timestamp: new Date(review.time),
     contextValue: `x18n.review.${review.type}.${review.resolved ? 'resolved' : 'open'}`,
@@ -48,7 +42,7 @@ function isReviewComment(value: unknown): value is ReviewComment {
 
 /** Review threads as editor comments on the resource line of each locale, with reply, approve, suggest and resolve. */
 export function useReviews(x18n: X18nClient, execute: (command: string, arg: object) => Promise<unknown>, refresh: Event<void>): void {
-  const controller = useDisposable(comments.createCommentController('x18n.reviews', 'x18n reviews'))
+  const controller = useDisposable(comments.createCommentController('x18n.reviews', l10n.t('x18n reviews')))
   const threads = new Map<CommentThread, ReviewThreadInfo>()
   let shown = ''
   controller.commentingRangeProvider = {
@@ -71,7 +65,9 @@ export function useReviews(x18n: X18nClient, execute: (command: string, arg: obj
         continue
       const { start, end } = info.location.range
       const thread = controller.createCommentThread(Uri.parse(info.location.uri), new Range(start.line, start.character, end.line, end.character), info.comments.map(c => toComment(info, c)))
-      thread.label = `${info.locale} · ${info.state ? reviewStates[info.state].label : 'resolved'}`
+      thread.label = `${info.locale} · ${info.state
+        ? reviewState(info.state).label
+        : l10n.t('resolved')}`
       thread.state = info.state ? CommentThreadState.Unresolved : CommentThreadState.Resolved
       thread.collapsibleState = info.state === 'changes-requested'
         ? CommentThreadCollapsibleState.Expanded
@@ -97,8 +93,8 @@ export function useReviews(x18n: X18nClient, execute: (command: string, arg: obj
       return
     if (!thread.text && review !== 'approve') {
       void window.showWarningMessage(review === 'suggestion'
-        ? 'x18n: type the suggested value first.'
-        : 'x18n: type a comment first.')
+        ? l10n.t('x18n: type the suggested value first.')
+        : l10n.t('x18n: type a comment first.'))
       return
     }
     const { project, key, locale } = thread.info

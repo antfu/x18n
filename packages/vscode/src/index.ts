@@ -11,9 +11,11 @@ import { useCommands } from './commands'
 import { annotationInPlace, config } from './config'
 import { useDisplayLocale } from './display-locale'
 import { commands, version } from './generated/meta'
+import { useLanguage } from './language'
 import { createLog, useLog } from './log'
 import { migratableFolders, migrate } from './migrate'
 import { projectFor } from './model/client'
+import { l10n } from './model/l10n'
 import { useUiPanel } from './panel'
 import { useReviews } from './reviews'
 import { registerNativePreviewMiddleware } from './typescript-native'
@@ -25,8 +27,10 @@ export interface X18nExtensionApi {
 }
 
 const { activate, deactivate } = defineExtension((context): X18nExtensionApi => {
-  // Fired when views and annotations must reload: server (re)start, `x18n/changed`, display locale switch.
+  // Fired when views and annotations must reload: server (re)start, `x18n/changed`, display locale or language switch.
   const refresh = useEventEmitter<void>()
+  // Every `l10n.t` of the extension follows `x18n.language`, or the editor's display language when it is empty.
+  useLanguage(context.extensionPath, () => refresh.fire())
   // The client's middleware calls into annotations and commands, which in turn need the client.
   let annotations: Annotations | undefined
   let extractAtCursor = async (): Promise<void> => {}
@@ -130,7 +134,10 @@ const { activate, deactivate } = defineExtension((context): X18nExtensionApi => 
         : undefined
       return `${flag ?? '$(globe)'} ${locale}`
     },
-    tooltip: 'x18n display locale',
+    // Reads `x18n.language` so the tooltip follows a language switch.
+    tooltip: () => config.language === undefined
+      ? ''
+      : l10n.t('x18n display locale'),
     command: commands.setDisplayLocale,
   })
   watch(current, value => value
@@ -139,8 +146,8 @@ const { activate, deactivate } = defineExtension((context): X18nExtensionApi => 
 
   async function offerMigration(): Promise<void> {
     const [folder] = await migratableFolders()
-    const action = 'Migrate from i18n-ally'
-    if (folder && await window.showInformationMessage(`x18n: ${folder.name} has i18n-ally settings and no x18n config.`, action) === action && await migrate(client, folder))
+    const action = l10n.t('Migrate from i18n-ally')
+    if (folder && await window.showInformationMessage(l10n.t('x18n: {0} has i18n-ally settings and no x18n config.', folder.name), action) === action && await migrate(client, folder))
       await client.restart()
   }
 

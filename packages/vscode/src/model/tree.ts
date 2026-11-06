@@ -1,5 +1,6 @@
-import type { FileKeysResult, Location, ProgressResult, ProjectInfo, Range, ReviewsResult, ReviewThreadInfo, TreeNode, UsageReportResult } from '@x18n/lsp'
+import type { FileKeysResult, Location, ProgressResult, ProjectInfo, Range, ReviewCommentInfo, ReviewsResult, ReviewThreadInfo, TreeNode, UsageReportResult } from '@x18n/lsp'
 import type { KeyRef, X18nClient } from './client'
+import { l10n } from './l10n'
 
 /** What a tree item shows and does, independent of the `vscode` API. */
 export interface Item {
@@ -34,7 +35,7 @@ function keyItem(node: TreeNode, project: string | undefined, client: X18nClient
   if (node.leaf) {
     return {
       label: node.label,
-      description: node.value ?? '(missing)',
+      description: node.value ?? l10n.t('(missing)'),
       tooltip: node.key,
       icon: 'symbol-string',
       context: 'x18n.key',
@@ -45,7 +46,7 @@ function keyItem(node: TreeNode, project: string | undefined, client: X18nClient
   return {
     label: node.label,
     description: `${node.translated}/${node.total}`,
-    tooltip: `${node.key} · ${percent(node.translated, node.total)} translated`,
+    tooltip: l10n.t('{0} · {1} translated', node.key, percent(node.translated, node.total)),
     icon: 'symbol-namespace',
     context: 'x18n.prefix',
     ref,
@@ -60,7 +61,7 @@ export async function keyTree(client: X18nClient, project?: string, parent?: str
     if (projects.length > 1) {
       return projects.map(p => ({
         label: p.name,
-        description: `${p.keys} keys`,
+        description: l10n.t('Keys: {0}', p.keys),
         icon: 'project',
         children: () => keyTree(client, p.name),
       }))
@@ -79,9 +80,9 @@ export function fileItems(uri: string, project: string | undefined, result: File
   const keys = result.keys.map((k): Item => ({
     label: k.key,
     description: `${k.dynamic
-      ? '(dynamic)'
+      ? l10n.t('(dynamic)')
       : k.missing
-        ? '(missing)'
+        ? l10n.t('(missing)')
         : k.value ?? ''} · ${lineOf(k.range)}`,
     icon: k.dynamic
       ? 'symbol-variable'
@@ -95,7 +96,7 @@ export function fileItems(uri: string, project: string | undefined, result: File
   }))
   const hard = result.hardStrings.map((h): Item => ({
     label: h.text,
-    description: `hard string · ${lineOf(h.range)}`,
+    description: `${l10n.t('hard string')} · ${lineOf(h.range)}`,
     icon: 'quote',
     location: { uri, range: h.range },
   }))
@@ -130,7 +131,7 @@ export function progressItems(result: ProgressResult, projects: readonly Project
             ...l.missing.length
               ? [
                   {
-                    label: 'Missing',
+                    label: l10n.t('Missing'),
                     description: String(l.missing.length),
                     icon: 'warning',
                     children: async () => keyList(l.missing, project.name),
@@ -140,7 +141,7 @@ export function progressItems(result: ProgressResult, projects: readonly Project
             ...l.empty.length
               ? [
                   {
-                    label: 'Empty',
+                    label: l10n.t('Empty'),
                     description: String(l.empty.length),
                     icon: 'circle-slash',
                     children: async () => keyList(l.empty, project.name),
@@ -173,9 +174,7 @@ export function usageReportItems(result: UsageReportResult): Item[] {
   }))
   const missing = result.missing.map((m): Item => ({
     label: m.key,
-    description: `${m.locations.length} usage${m.locations.length === 1
-      ? ''
-      : 's'}`,
+    description: l10n.t('Usages: {0}', m.locations.length),
     icon: 'warning',
     color: 'list.warningForeground',
     location: m.locations[0],
@@ -191,13 +190,13 @@ export function usageReportItems(result: UsageReportResult): Item[] {
   }))
   return [
     {
-      label: 'Unused',
+      label: l10n.t('Unused'),
       description: String(unused.length),
       icon: 'circle-slash',
       children: async () => unused,
     },
     {
-      label: 'Missing',
+      label: l10n.t('Missing'),
       description: String(missing.length),
       icon: 'warning',
       children: async () => missing,
@@ -205,12 +204,57 @@ export function usageReportItems(result: UsageReportResult): Item[] {
   ]
 }
 
-export const reviewStates: Record<NonNullable<ReviewThreadInfo['state']>, { readonly label: string, readonly icon: string, readonly color?: string }> = {
-  'changes-requested': { label: 'changes requested', icon: 'request-changes', color: 'list.warningForeground' },
-  'approved': { label: 'approved', icon: 'check' },
-  'stale-approval': { label: 'approved, changed since', icon: 'history', color: 'list.warningForeground' },
-  'suggested': { label: 'suggestion', icon: 'lightbulb' },
-  'commented': { label: 'comments', icon: 'comment' },
+interface ReviewStateView {
+  readonly label: string
+  readonly icon: string
+  readonly color?: string
+}
+
+/** Label, icon and color of a review thread state. Labels are translated per call, never at module load. */
+export function reviewState(state: NonNullable<ReviewThreadInfo['state']>): ReviewStateView {
+  switch (state) {
+    case 'changes-requested':
+      return {
+        label: l10n.t('changes requested'),
+        icon: 'request-changes',
+        color: 'list.warningForeground',
+      }
+    case 'approved':
+      return {
+        label: l10n.t('approved'),
+        icon: 'check',
+      }
+    case 'stale-approval':
+      return {
+        label: l10n.t('approved, changed since'),
+        icon: 'history',
+        color: 'list.warningForeground',
+      }
+    case 'suggested':
+      return {
+        label: l10n.t('suggestion'),
+        icon: 'lightbulb',
+      }
+    case 'commented':
+      return {
+        label: l10n.t('comments'),
+        icon: 'comment',
+      }
+  }
+}
+
+/** What a review of one type says, as a comment label. */
+export function reviewTypeLabel(type: ReviewCommentInfo['type']): string {
+  switch (type) {
+    case 'comment':
+      return l10n.t('comment')
+    case 'approve':
+      return l10n.t('approved')
+    case 'request-change':
+      return l10n.t('requested a change')
+    case 'suggestion':
+      return l10n.t('suggestion')
+  }
 }
 
 /** Reviews view: one item per thread with open comments, expanding to the comments. */
@@ -218,7 +262,7 @@ export function reviewItems(result: ReviewsResult): Item[] {
   return result.threads.flatMap((thread): Item[] => {
     if (!thread.state)
       return []
-    const state = reviewStates[thread.state]
+    const state = reviewState(thread.state)
     const ref = { project: thread.project, key: thread.key }
     return [
       {
@@ -232,12 +276,12 @@ export function reviewItems(result: ReviewsResult): Item[] {
         openKey: ref,
         children: async () => thread.comments.map(c => ({
           label: c.text ?? (c.suggestion === undefined
-            ? c.type
-            : `suggests "${c.suggestion}"`),
-          description: `${c.type} · ${c.author?.name ?? c.author?.email ?? 'unknown'} · ${c.time.slice(0, 10)}`,
+            ? reviewTypeLabel(c.type)
+            : l10n.t('suggests "{0}"', c.suggestion)),
+          description: `${reviewTypeLabel(c.type)} · ${c.author?.name ?? c.author?.email ?? l10n.t('unknown')} · ${c.time.slice(0, 10)}`,
           tooltip: c.suggestion === undefined
             ? undefined
-            : `Suggested value: ${c.suggestion}`,
+            : l10n.t('Suggested value: {0}', c.suggestion),
           icon: c.type === 'suggestion'
             ? 'lightbulb'
             : c.type === 'approve'

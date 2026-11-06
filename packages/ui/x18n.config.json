@@ -1,0 +1,12 @@
+{
+  "$schema": "https://x18n.dev/schema/config.json",
+  "resources": [
+    { "pattern": "app/locales/{locale}.json" }
+  ],
+  "usage": {
+    "include": ["app/**/*.vue", "app/**/*.ts"],
+    "calls": [
+      { "callee": ["t", "$t"] }
+    ]
+  }
+}

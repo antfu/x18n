@@ -17,6 +17,7 @@ import { ConfigSchema, contractVersion, createMemoryHost, PluginFileSchema, reso
 import { commands as lspCommands, methods as lspMethods } from '../../packages/lsp/src/protocol'
 import { registerAgentTools } from '../../packages/ui/src/node/agent'
 import vscodePackage from '../../packages/vscode/package.json' with { type: 'json' }
+import vscodeStrings from '../../packages/vscode/package.nls.json' with { type: 'json' }
 import { checkNotes, configNotes, errorNotes, invalidResource, optInChecks } from './notes'
 
 const repo = fileURLToPath(new URL('../../', import.meta.url))
@@ -1039,12 +1040,23 @@ async function fillMarkers(path: string, blocks: { readonly [name: string]: stri
   outputs.set(path, text)
 }
 
+/** The English text of a `package.json` string, which VS Code reads from `package.nls.json` when written as `%key%`. */
+function vscodeString(text: string): string {
+  const key = /^%(.+)%$/.exec(text)?.[1]
+  if (key === undefined)
+    return text
+  const value = (vscodeStrings as Record<string, string>)[key]
+  if (value === undefined)
+    throw new Error(`packages/vscode/package.nls.json has no ${key}`)
+  return value
+}
+
 async function markedPages(): Promise<void> {
   const contributes = vscodePackage.contributes
   await fillMarkers('content/2.surfaces/2.vscode.md', {
     commands: table(['Command', 'Title'], contributes.commands.map(c => [
       code(c.command),
-      `${c.category}: ${c.title}`,
+      `${vscodeString(c.category)}: ${vscodeString(c.title)}`,
     ])),
     settings: table([
       'Setting',
@@ -1053,7 +1065,7 @@ async function markedPages(): Promise<void> {
       'Default',
     ], Object.entries(contributes.configuration.properties).map(([key, value]) => [
       code(key),
-      value.description,
+      vscodeString(value.description),
       code(value.type),
       code(JSON.stringify(value.default)),
     ])),
