@@ -51,6 +51,7 @@ Full list and reasons: [`plans/01-architecture.md`](./plans/01-architecture.md).
 | `packages/core` | `@x18n/core` |
 | `packages/builtins` | `@x18n/builtins` |
 | `packages/node` | `@x18n/node` |
+| `packages/translator-ai` | `@x18n/translator-ai` (the LLM translator, on the AI SDK) |
 | `packages/cli` | `@x18n/cli` |
 | `packages/lsp` | `@x18n/lsp` |
 | `packages/ui` | `@x18n/ui` (Nuxt SPA in `app/`, devframe node side in `src/node/`) |

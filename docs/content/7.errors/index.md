@@ -28,6 +28,7 @@ The first digit is the group:
 | [X18N2002](/errors/x18n2002) | Resource could not be parsed | `1` |
 | [X18N2003](/errors/x18n2003) | Resource is not an object of messages | `1` |
 | [X18N2004](/errors/x18n2004) | Locale file is not static | `1` |
+| [X18N2005](/errors/x18n2005) | Locale file could not be executed | `1` |
 | [X18N3001](/errors/x18n3001) | Source file could not be scanned | `1` |
 | [X18N4001](/errors/x18n4001) | Resource is read-only | `1` |
 | [X18N4002](/errors/x18n4002) | Rename target already exists | `1` |
@@ -41,3 +42,6 @@ The first digit is the group:
 | [X18N5003](/errors/x18n5003) | Reviews are not available | `1` |
 | [X18N5004](/errors/x18n5004) | Review not found | `1` |
 | [X18N5005](/errors/x18n5005) | Not an open suggestion | `1` |
+| [X18N5006](/errors/x18n5006) | Batch approval is not narrowed | `1` |
+| [X18N6001](/errors/x18n6001) | No translator | `1` |
+| [X18N6002](/errors/x18n6002) | Unknown translator | `1` |

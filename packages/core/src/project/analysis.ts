@@ -28,6 +28,8 @@ export interface ResourceState {
   readonly states: ReadonlyMap<string, MessageState>
   readonly labels: ReadonlyMap<string, string>
   readonly error: X18nError | undefined
+  /** Read by running the file (`execute: true`), not by parsing it. */
+  readonly execute: boolean
 }
 
 interface AnalyzerState {
@@ -62,6 +64,11 @@ export interface AnalyzerOptions {
   readonly text: (path: string) => string | undefined
   /** Whether keys carry a namespace; a scoped dynamic usage reaches only keys of its namespace. */
   readonly namespaced: () => boolean
+}
+
+/** The level and options of a check in a config: the config setting, else the check's default. */
+export function checkSetting(check: Check, checks: ResolvedConfig['checks']): { level: Severity | 'off', options: JsonObject } {
+  return levelOf(checks[check.id]) ?? { level: check.defaultSeverity, options: {} }
 }
 
 function levelOf(setting: CheckSetting | undefined): { level: Severity | 'off', options: JsonObject } | undefined {
@@ -199,7 +206,7 @@ function* runCheck(check: Check, level: Severity, inputs: Iterable<DiagnosticInp
 function runChecks(input: RunChecksInput): Diagnostic[] {
   const out: Diagnostic[] = []
   for (const check of input.registry.checks.values()) {
-    const setting = levelOf(input.config.checks[check.id]) ?? { level: check.defaultSeverity, options: {} }
+    const setting = checkSetting(check, input.config.checks)
     if (setting.level === 'off')
       continue
     try {

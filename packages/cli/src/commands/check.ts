@@ -31,11 +31,21 @@ function list(value: string | readonly string[] | undefined): string[] {
     : [value].flat().flatMap(item => String(item).split(',')).map(item => item.trim()).filter(Boolean)
 }
 
+// `missing-translation` reports one diagnostic per key at the source locale and names the target locales only in its
+// message (`"<key>" is missing in de, pt-BR.`). Baseline entries keep no fixes, so the message is all both paths have.
+function missingLocales(message: string): string[] {
+  const marker = ' is missing in '
+  const at = message.lastIndexOf(marker)
+  return at === -1
+    ? []
+    : message.slice(at + marker.length).replace(/\.$/, '').split(', ')
+}
+
 /** Whether this run reports a diagnostic (or a baseline entry), after `--locale`, `--only` and `--skip`. */
 function reported(d: { readonly code: string, readonly locale?: string | undefined, readonly message: string }, options: CheckOptions): boolean {
   const locales = list(options.locale)
   const only = list(options.only)
-  return (locales.length === 0 || d.locale === undefined || locales.includes(d.locale) || (d.code === 'missing-translation' && locales.some(l => d.message.includes(l))))
+  return (locales.length === 0 || d.locale === undefined || locales.includes(d.locale) || (d.code === 'missing-translation' && missingLocales(d.message).some(l => locales.includes(l))))
     && (only.length === 0 || only.includes(d.code))
     && !list(options.skip).includes(d.code)
 }

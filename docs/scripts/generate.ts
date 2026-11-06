@@ -17,6 +17,7 @@ import { ConfigSchema, contractVersion, createMemoryHost, PluginFileSchema, reso
 import { commands as lspCommands, methods as lspMethods } from '../../packages/lsp/src/protocol'
 import { registerAgentTools } from '../../packages/ui/src/node/agent'
 import vscodePackage from '../../packages/vscode/package.json' with { type: 'json' }
+import vscodeStrings from '../../packages/vscode/package.nls.json' with { type: 'json' }
 import { presetGroups, ungroupedPresets } from '../preset-groups'
 import { checkNotes, configNotes, errorNotes, invalidResource, optInChecks } from './notes'
 
@@ -356,7 +357,7 @@ function parseCli(text: string): { global: CliOption[], commands: CliCommand[] }
 
 const exitMeanings: { readonly [code: number]: string } = {
   0: 'Success. For `x18n check`: no errors, and no more warnings than `--max-warnings`.',
-  1: '`x18n check` found errors or too many warnings, `x18n apply` rejected values, or the command failed with one of these errors.',
+  1: '`x18n check` found errors or too many warnings, `x18n apply` or `x18n translate` rejected values, or the command failed with one of these errors.',
   2: 'Usage, config or plugin error. Errors without an x18n code also exit with 2.',
   3: 'A decision is needed and no answer was given. Run again with `--yes`.',
   4: 'Files changed while the command ran. Run it again.',
@@ -578,7 +579,7 @@ const methodDocs = {
     kind: 'request',
     params: 'DocumentParams',
     result: 'FileKeysResult',
-    doc: 'The keys and hard strings of one file.',
+    doc: 'The keys and hard strings of one file, with the usage count of each key.',
   },
   usageReport: {
     kind: 'request',
@@ -772,6 +773,8 @@ The client passes these fields in \`initializationOptions\`. Each one is optiona
 \`\`\`ts
 ${declaration(server, 'Settings')}
 \`\`\`
+
+A hover shows the value per locale and the number of usages. It links to \`x18n.openKey\`, \`x18n.copyTranslatePrompt\` and \`x18n.translateWithAgent\` only when the client lists them in \`hoverCommands\`, because a client that cannot run a \`command:\` URL opens it as a link and fails. The default is no links.
 
 ## Custom methods
 
@@ -1038,13 +1041,24 @@ async function fillMarkers(path: string, blocks: { readonly [name: string]: stri
   outputs.set(path, text)
 }
 
+/** The English text of a `package.json` string, which VS Code reads from `package.nls.json` when written as `%key%`. */
+function vscodeString(text: string): string {
+  const key = /^%(.+)%$/.exec(text)?.[1]
+  if (key === undefined)
+    return text
+  const value = (vscodeStrings as Record<string, string>)[key]
+  if (value === undefined)
+    throw new Error(`packages/vscode/package.nls.json has no ${key}`)
+  return value
+}
+
 /** Fills the generated blocks of hand-written pages; returns the problems of the preset groups, if any. */
 async function markedPages(): Promise<string[]> {
   const contributes = vscodePackage.contributes
   await fillMarkers('content/2.surfaces/2.vscode.md', {
     commands: table(['Command', 'Title'], contributes.commands.map(c => [
       code(c.command),
-      `${c.category}: ${c.title}`,
+      `${vscodeString(c.category)}: ${vscodeString(c.title)}`,
     ])),
     settings: table([
       'Setting',
@@ -1053,7 +1067,7 @@ async function markedPages(): Promise<string[]> {
       'Default',
     ], Object.entries(contributes.configuration.properties).map(([key, value]) => [
       code(key),
-      value.description,
+      vscodeString(value.description),
       code(value.type),
       code(JSON.stringify(value.default)),
     ])),

@@ -301,6 +301,26 @@ describe('language server', () => {
     expect(locale.decorations).toEqual([])
   })
 
+  it('reports usage counts in x18n/fileKeys', async () => {
+    const result: { keys: { key: string, usages?: number }[] } = await client.sendRequest(methods.fileKeys, {
+      uri: uri('src/locales/en.json'),
+    })
+    const usages = new Map(result.keys.map(key => [key.key, key.usages]))
+    expect(usages.get('app.title')).toBe(1)
+    expect(usages.get('unused')).toBe(0)
+  })
+
+  it('reports usage counts for code usages, including missing keys', async () => {
+    const result: { keys: { key: string, dynamic: boolean, usages?: number }[] } = await client.sendRequest(methods.fileKeys, {
+      uri: uri('src/App.vue'),
+    })
+    const keys = new Map(result.keys.map(key => [key.key, key]))
+    expect(keys.get('app.title')).toMatchObject({ dynamic: false, usages: 1 })
+    expect(keys.get('app.titel')).toMatchObject({ dynamic: false, usages: 1 })
+    expect(keys.get('pages.')).toMatchObject({ dynamic: true })
+    expect(keys.get('pages.')?.usages).toBeUndefined()
+  })
+
   it('finds keys by value with their usages through x18n/search', async () => {
     const matches: { key: string, locale: string, value: string, definition: Location, usages: Location[] }[] = await client.sendRequest(methods.search, { query: 'WILLKOMMEN', exact: true })
     expect(matches.map(m => [m.key, m.locale, m.value])).toEqual([
@@ -340,6 +360,27 @@ describe('language server', () => {
     }
     // The client applied nothing to disk.
     expect(await text('src/locales/en.json')).toContain('"unused"')
+  })
+
+  it('edits nothing when a command names an unknown project', async () => {
+    const applied: WorkspaceEdit[] = []
+    const handler = client.onRequest('workspace/applyEdit', (params: { edit: WorkspaceEdit }) => {
+      applied.push(params.edit)
+      return { applied: true }
+    })
+    try {
+      const result = await client.sendRequest('workspace/executeCommand', {
+        command: 'x18n.set',
+        arguments: [
+          { project: 'nope', key: 'app.greeting', value: 'x' },
+        ],
+      })
+      expect(result).toBeNull()
+      expect(applied).toEqual([])
+    }
+    finally {
+      handler.dispose()
+    }
   })
 
   it('sorts the usage report', async () => {

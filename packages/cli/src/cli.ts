@@ -16,6 +16,7 @@ import { migrate } from './commands/migrate'
 import { prompt } from './commands/prompt'
 import { review } from './commands/review'
 import { eject, init, schema } from './commands/setup'
+import { translate, translators } from './commands/translate'
 import { exitCodeOf, printJson, stdinArg, useColor } from './context'
 
 // The UI commands pull in devframe; load them only when one runs, so other commands start fast.
@@ -165,12 +166,37 @@ export function createCli(): CAC {
     .option('--check [ids]', 'Also translate values that checks report in the target locale, such as copies of the source (`identical-to-source`); optionally only these check ids (comma separated)')
     .action(run('prompt', prompt))
 
-  cli.command('review <action> [target]', 'Reviews: `list [key]`, `comment|approve|request-change|suggest <key>`, `resolve|apply-suggestion <id>`, `mark-fresh <key>`')
-    .option('--locale <locale>', 'Locale of the message (repeatable for mark-fresh)')
+  cli.command('translate', 'Translate missing messages with the configured translators; values are marked as machine-translated')
+    .option('--to <locales>', 'Target locales (comma separated, or `all`)')
+    .option('--keys <glob>', 'Only keys matching a glob')
+    .option('--namespace <ns>', 'Only keys of a namespace')
+    .option('--stale', 'Also translate stale translations, updating them from what changed (needs git history)')
+    .option('--check [ids]', 'Also translate values that checks report in the target locale; optionally only these check ids (comma separated)')
+    .option('--translator <ids>', 'Translator ids to try, in order (default: translate.translators, then every translator)')
+    .option('--limit <n>', 'Messages per run, over all locales (default: translate.limit, 200)')
+    .option('--budget-usd <usd>', 'Stop before a request once the run has cost this much')
+    .option('--write <mode>', 'value (default): write values; suggestion: leave review suggestions; none: plan nothing')
+    .option('--overwrite', 'Write values for messages that have one, instead of suggestions')
+    .option('--retry-rejected', 'Translate messages again that an earlier run rejected')
+    .option('--estimate', 'Print what the run would translate, and with what, then exit')
+    .option('--dry-run', 'Translate, then print the plan instead of writing')
+    .action(run('translate', translate))
+  cli.command('translators', 'The translators of the plugins and the chain per locale').action(run('translators', translators))
+
+  cli.command('review <action> [target]', 'Reviews: `list [key]`, `comment|approve|request-change|suggest <key>`, `approve <glob>` with filters, `resolve|apply-suggestion <id>`, `mark-fresh <key>`')
+    .option('--locale <locale>', 'Locale of the message (repeatable for mark-fresh and batch approve; comma separated)')
     .option('--text <text>', 'Comment text')
     .option('--value <value>', 'Suggested value (suggest)')
     .option('--author <author>', 'Author as `Name <email>` (default: review.author, then git user)')
     .option('--open', 'Only unresolved reviews (list)')
+    .option('--namespace <ns>', 'Batch approve: only keys of a namespace')
+    .option('--machine [translator]', 'Batch approve: only machine-translated messages, optionally of one translator')
+    .option('--state <state>', 'Batch approve: only messages whose resource records this state (needs-review, translated)')
+    .option('--thread <state>', 'Batch approve: only messages whose review thread is suggested, commented or stale-approval')
+    .option('--from <file>', 'Batch approve: only these values, as `{ "<locale>": { "<key>": "<value>" } }`; others are skipped as changed')
+    .option('--stale <mode>', 'Batch approve: skip (default), approve or mark-fresh stale translations')
+    .option('--override-change-requests', 'Batch approve: also approve messages with an open change request')
+    .option('--limit <n>', 'Batch approve: at most this many')
     .option('--dry-run', 'Print the plan instead of writing')
     .action(run('review', review))
 

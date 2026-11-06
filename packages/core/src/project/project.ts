@@ -3,11 +3,12 @@ import type { Setup } from '../resolve'
 import type { KeySeparator } from '../types/config'
 import type { FileEvent, Host } from '../types/host'
 import type { Diagnostic, KeyString, LocaleCode, LocaleInfo, Message, MessageLeaf, MessageTree, Resource, TextRange, Usage } from '../types/model'
-import type { FinderContext, HardString, HistoryContext, KeyFile, ScanResult, SourceFile } from '../types/plugin'
+import type { FinderContext, HardString, HistoryContext, KeyFile, ParseResult, ScanResult, SourceFile } from '../types/plugin'
 import type { Analysis, KeyInfo, KeyTarget, Project, ProjectChange, ProjectExplanation, ResourceNode, SearchMatch, SearchOptions, UsageMatch } from '../types/project'
-import type { ReviewData, ReviewFilter, ReviewThread } from '../types/review'
+import type { MachineRecord, ReviewData, ReviewFilter, ReviewThread } from '../types/review'
 import type { ResourceState } from './analysis'
 import type { ReviewSource } from './planner'
+import type { Translation } from './translate'
 import type { UsageResolver } from './usages'
 import { version } from '../../package.json' with { type: 'json' }
 import { errors, isX18nError, toErrorInfo } from '../errors'
@@ -18,11 +19,13 @@ import { isMessageLeaf, isMessageTree, pathId, walkLeaves } from '../message-tre
 import { extensionOf } from '../plugins'
 import { hashText, rangeContains } from '../text'
 import { createAnalyzer } from './analysis'
+import { planApprovals } from './approvals'
 import { planFixes } from './fixes'
 import { createHistory } from './history'
 import { createPlanner } from './planner'
 import { buildPrompt } from './prompt'
-import { listThreads, noReviews, sourceHash } from './reviews'
+import { listThreads, machineOf, noReviews, sourceHash } from './reviews'
+import { createTranslation } from './translate'
 import { planUnusedDeletion } from './unused'
 import { categoriesOf, createUsageResolver, derivedKeys, prefixMatches, suppressedRanges } from './usages'
 
@@ -45,6 +48,8 @@ interface Candidate {
   readonly format: string | undefined
   readonly block: Resource['block']
   readonly readonly: boolean
+  /** Run through `Host.executeModule` instead of parsing. */
+  readonly execute: boolean
   readonly finder: string
   /** Set only when it differs from the config's `keySeparator`. */
   readonly keySeparator?: KeySeparator | undefined
@@ -244,7 +249,8 @@ export function createProject(options: CreateProjectOptions): Project {
           namespace: candidate.namespace,
           format: candidate.format,
           block: candidate.block,
-          readonly: candidate.readonly === true,
+          readonly: candidate.readonly === true || candidate.execute === true,
+          execute: candidate.execute === true,
           finder: finder.id,
           keySeparator: candidate.keySeparator === config.keySeparator
             ? undefined
@@ -286,7 +292,23 @@ export function createProject(options: CreateProjectOptions): Project {
     return path => active.reduceRight<string[]>((current, transform) => transform.toStored(current, ctx), [...path])
   }
 
-  function parseResource(candidate: Candidate, text: string): ResourceState {
+  /** What running an executed resource gave: its messages, or what it threw. */
+  type Executed = { readonly value: unknown } | { readonly error: unknown }
+
+  /** Runs an executed resource. A default export that is a function is a loader, called with the locale. */
+  async function executeResource(candidate: Candidate, run: (path: string) => Promise<unknown>): Promise<Executed> {
+    try {
+      let value = await run(candidate.path)
+      if (typeof value === 'function')
+        value = await (value as (locale: LocaleCode) => unknown)(candidate.locale)
+      return { value }
+    }
+    catch (error) {
+      return { error }
+    }
+  }
+
+  function parseResource(candidate: Candidate, text: string, executed?: Executed): ResourceState {
     const format = registry.formatFor(candidate.path, candidate.format)
     const id = candidate.block
       ? `${candidate.path}#${candidate.block.index}`
@@ -316,12 +338,13 @@ export function createProject(options: CreateProjectOptions): Project {
     }
     const base = {
       resource,
+      execute: candidate.execute,
       hash: hashText(content),
       content,
       offset,
       toStored: storedPathOf(ctx),
     }
-    if (!format) {
+    if (!format && !executed) {
       return {
         ...base,
         tree: {},
@@ -334,7 +357,9 @@ export function createProject(options: CreateProjectOptions): Project {
       }
     }
     try {
-      const parsed = format.parse(content, ctx)
+      const parsed = executed
+        ? fromExecuted(candidate, executed)
+        : format!.parse(content, ctx)
       let tree: MessageTree = parsed.tree
       const descriptions = new Map(parsed.descriptions)
       for (const transform of transforms) {
@@ -380,13 +405,37 @@ export function createProject(options: CreateProjectOptions): Project {
     }
   }
 
+  function fromExecuted(candidate: Candidate, executed: Executed): ParseResult {
+    if ('error' in executed) {
+      throw errors.X18N2005({
+        path: candidate.path,
+        reason: executed.error instanceof Error
+          ? executed.error.message
+          : String(executed.error),
+        cause: executed.error,
+      })
+    }
+    if (!isMessageTree(executed.value))
+      throw errors.X18N2003({ path: candidate.path, reason: 'the executed module did not give an object of messages' })
+    // A plain copy, so a module namespace or a frozen object does not leak into the project.
+    return {
+      tree: JSON.parse(JSON.stringify(executed.value)) as MessageTree,
+    }
+  }
+
   function messagesIn(resource: Resource, text: string): ReadonlyMap<KeyString, MessageLeaf> | undefined {
     if (resource.block)
       return undefined
     const format = resource.format === 'unknown'
       ? undefined
       : resource.format
-    const state = parseResource({ ...resource, format, block: undefined }, text)
+    // Old text cannot be run, so history reads every version statically.
+    const state = parseResource({
+      ...resource,
+      format,
+      block: undefined,
+      execute: false,
+    }, text)
     if (state.error)
       return undefined
     return new Map([
@@ -438,6 +487,9 @@ export function createProject(options: CreateProjectOptions): Project {
     })
     namespaced = config.namespace.separator !== '.' && candidates.some(c => c.namespace !== undefined)
     await Promise.all(candidates.map(candidate => registry.loadFormatFor(candidate.path, candidate.format)))
+    // Kept in candidate order, which callers see; a pending entry is parsed once executed files have run.
+    const order: { id: string, previous: ResourceState | undefined }[] = []
+    const pending: { candidate: Candidate, id: string, text: string }[] = []
     for (const candidate of candidates) {
       const text = fileTexts.get(candidate.path)
       if (text === undefined)
@@ -449,11 +501,29 @@ export function createProject(options: CreateProjectOptions): Project {
       const content = candidate.block
         ? text.slice(candidate.block.range.start, candidate.block.range.end)
         : text
-      if (previous && previous.hash === hashText(content) && previous.resource.locale === candidate.locale && previous.resource.namespace === candidate.namespace && previous.resource.keySeparator === candidate.keySeparator && previous.offset === (candidate.block?.range.start ?? 0))
-        next.set(id, previous)
-      else
-        next.set(id, parseResource(candidate, text))
+      // An executed file also re-runs when it is reread, since what it imports may have changed.
+      const rerun = candidate.execute && (reread === 'all' || reread.has(candidate.path))
+      if (previous && !rerun && previous.execute === candidate.execute && previous.hash === hashText(content) && previous.resource.locale === candidate.locale && previous.resource.namespace === candidate.namespace && previous.resource.keySeparator === candidate.keySeparator && previous.offset === (candidate.block?.range.start ?? 0)) {
+        order.push({ id, previous })
+      }
+      else {
+        order.push({ id, previous: undefined })
+        pending.push({ candidate, id, text })
+      }
     }
+    const run = host.executeModule
+    const executed = new Map<string, Executed>()
+    if (run) {
+      await forEachLimit(pending.filter(item => item.candidate.execute && !item.candidate.block), ioConcurrency, async (item) => {
+        executed.set(item.id, await executeResource(item.candidate, run))
+      })
+    }
+    const parsed = new Map(pending.map(({ candidate, id, text }) => [
+      id,
+      parseResource(candidate, text, executed.get(id)),
+    ]))
+    for (const { id, previous } of order)
+      next.set(id, previous ?? parsed.get(id)!)
     resourceStates.clear()
     for (const [id, state] of next)
       resourceStates.set(id, state)
@@ -1071,6 +1141,7 @@ export function createProject(options: CreateProjectOptions): Project {
     const keysOf = (data: ReviewData): string[] => [
       ...Object.keys(data.threads),
       ...Object.keys(data.sources),
+      ...Object.keys(data.machine ?? {}),
     ]
     const old = keysOf(reviewData)
     await loadReviews()
@@ -1108,6 +1179,7 @@ export function createProject(options: CreateProjectOptions): Project {
               ...resourceStates.values(),
             ].map(state => ({
               ...state.resource,
+              execute: state.execute,
               format: state.resource.format === 'unknown'
                 ? undefined
                 : state.resource.format,
@@ -1179,6 +1251,11 @@ export function createProject(options: CreateProjectOptions): Project {
     await scanAll()
     revision++
   })()
+
+  const machine = (key: KeyString, locale: LocaleCode): MachineRecord | undefined => machineOf(reviewData, key, locale, message(key, locale)?.value)
+
+  // Created on first use: most runs never translate.
+  let translations: Translation | undefined
 
   const project: Project = {
     get name() {
@@ -1282,6 +1359,11 @@ export function createProject(options: CreateProjectOptions): Project {
     async reviewAuthor() {
       return config.review.author ?? await host.identity?.()
     },
+    machine,
+    planApprovals: query => planApprovals({ project, config, machine }, query),
+    translators: registry.translators,
+    planTranslation: translateOptions => (translations ??= createTranslation({ project, config, registry, host })).planTranslation(translateOptions),
+    translate: (job, runOptions) => (translations ??= createTranslation({ project, config, registry, host })).translate(job, runOptions),
     prompt: (kind, locale, promptOptions = {}) => buildPrompt(project, kind, locale, promptOptions, {
       config,
       fallbacks,

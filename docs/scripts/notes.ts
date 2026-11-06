@@ -101,6 +101,14 @@ Commands that write files (\`set\`, \`apply\`, \`rename\`, \`delete\`, \`fill\`,
 2. Or set \`execute: true\` on the resource pattern. x18n then runs the file in Node, and the messages become read-only.`,
   },
 
+  X18N2005: {
+    title: 'Locale file could not be executed',
+    notes: `The resource pattern has \`execute: true\`, so x18n ran the file in Node, and the file threw. A file run this way gets no framework globals: auto-imported helpers such as \`defineI18nLocale\` are not defined unless the file imports them.
+
+1. Fix the error that the message names, or import what the file uses.
+2. Or make the file a static \`export default { ... }\` and drop \`execute: true\`.`,
+  },
+
   X18N3001: {
     title: 'Source file could not be scanned',
     notes: `A scanner failed to parse a source file, so x18n did not find the usages in it.
@@ -209,6 +217,31 @@ Commands that write files (\`set\`, \`apply\`, \`rename\`, \`delete\`, \`fill\`,
 
 1. Run \`x18n review list --open\` to list open suggestions.
 2. To change the value yourself, use \`x18n set\`.`,
+  },
+
+  X18N5006: {
+    title: 'Batch approval is not narrowed',
+    notes: `\`x18n review approve\` with filters approves many messages at once, so it MUST say which ones: a key glob, \`--namespace\`, \`--machine\`, \`--state\`, \`--thread\` or \`--from <file>\`.
+
+1. To approve what a translator wrote, run \`x18n review approve --machine --dry-run\` first, then without \`--dry-run\`.
+2. To approve every key on purpose, pass \`'**'\` as the glob.`,
+  },
+
+  X18N6001: {
+    title: 'No translator',
+    notes: `\`x18n translate\` calls the translators of plugins, and the project has none for this locale.
+
+1. Add a translator plugin, such as \`@x18n/translator-ai\`, to \`plugins\`.
+2. If you set \`translate.translators\` or \`translate.locales\`, check that they list its id. \`x18n translators\` prints the ids and the chain per locale.
+3. Without a translator, an agent can still translate with \`x18n prompt translate\`.`,
+  },
+
+  X18N6002: {
+    title: 'Unknown translator',
+    notes: `A translator id in \`translate.translators\`, \`translate.locales\` or \`--translator\` matches no translator of the plugins.
+
+1. Run \`x18n translators\` to list the ids.
+2. A translator plugin can set its own id, for example \`translatorAi({ model, id: 'fast' })\`.`,
   },
 }
 

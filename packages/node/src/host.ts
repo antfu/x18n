@@ -9,6 +9,7 @@ import { hashText } from '@x18n/core'
 import { watch as chokidar } from 'chokidar'
 import ignore from 'ignore'
 import { glob } from 'tinyglobby'
+import { executeFile } from './config'
 
 export interface NodeHostOptions {
   /** Directory of the persistent cache, or false to disable it. Default `node_modules/.cache/x18n` under the root. */
@@ -184,6 +185,7 @@ export function createNodeHost(root: string, options: NodeHostOptions = {}): Nod
     async deleteFile(path) {
       await rm(full(path), { force: true })
     },
+    executeModule: path => executeFile(full(path)),
     async glob(patterns, globOptions = {}) {
       const found = await glob([...patterns], {
         cwd: absoluteRoot,
@@ -228,6 +230,7 @@ export function createNodeHost(root: string, options: NodeHostOptions = {}): Nod
       }
     },
     identity: () => identity ??= gitIdentity(absoluteRoot),
+    env: name => process.env[name],
     flush: async () => cache?.flush(),
   }
 }

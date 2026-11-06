@@ -11,6 +11,7 @@
 | `packages/lsp` | `@x18n/lsp` | Node >= 22 | Language server (`x18n-lsp --stdio`). Hosts the UI server on request. |
 | `packages/ui` | `@x18n/ui` | Node side + browser SPA | devframe definition (node side) and the Nuxt SPA (browser side). |
 | `packages/devtools` | `@x18n/devtools` | Node >= 22 | The UI as a devtools panel: a Vite plugin for Vite DevTools and Nuxt DevTools (`/vite`) and a devframe definition for hubs (`/devframe`). |
+| `packages/translator-ai` | `@x18n/translator-ai` | any JS runtime | 1.x: the LLM translator on the AI SDK ([20-translation.md](./20-translation.md)). Uses only the public API of `@x18n/core`. |
 | `packages/vscode` | `x18n-vscode` (private, Marketplace + Open VSX) | VS Code extension host | Extension client. Bundles the LSP and UI assets. |
 | `packages/zed` | `x18n-zed` (private, Zed registry) | Zed WASM extension host | Extension client. Starts `@x18n/lsp` through Node. |
 | `docs` | private | - | Docs site on the comark-docs Nuxt layer, also hosts the in-browser playground. |

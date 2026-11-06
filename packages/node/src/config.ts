@@ -88,9 +88,24 @@ const jiti = createJiti(import.meta.url ?? pathToFileURL(__filename).href, {
   alias,
 })
 
-/** Imports a JS or TS module (config, plugin, executed resource). */
+/** Imports a JS or TS module (config, plugin). */
 export async function importModule(file: string): Promise<unknown> {
   return jiti.import(pathToFileURL(file).href, { default: true })
+}
+
+/**
+ * Runs a JS or TS file afresh and returns its default export, or its exports without one (an executed resource).
+ * Evaluated from its text, since Node caches a native `.mjs` import for the life of the process.
+ */
+export async function executeFile(file: string): Promise<unknown> {
+  const exports: unknown = await jiti.evalModule(await readFile(file, 'utf8'), {
+    filename: file,
+    async: true,
+    forceTranspile: true,
+  })
+  return isObject(exports) && 'default' in exports
+    ? exports.default
+    : exports
 }
 
 function isObject(value: unknown): value is object {

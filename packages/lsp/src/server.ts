@@ -945,7 +945,7 @@ class Server {
       return this.extractFile(input.uri)
     if (params.command === commands.migrateI18nAlly && typeof input.uri === 'string')
       return migrateI18nAlly(fileURLToPath(input.uri))
-    const entry = this.projects.find(p => p.name === input.project) ?? this.projects[0]
+    const entry = this.entryByName(input.project)
     if (!entry || typeof input.key !== 'string')
       return null
     const key = entry.project.parseKey(input.key)
@@ -1198,13 +1198,17 @@ class Server {
     const locale = this.displayLocale(entry)
     const isResource = entry.project.nodes(path).length > 0
     const keys: P.FileKey[] = isResource
-      ? entry.project.nodes(path).filter(n => n.leaf).map(n => ({
-          key: n.key,
-          range: this.range(entry, path, n.range.key),
-          value: display(entry.project.message(n.key, locale)?.value),
-          missing: entry.project.get(n.key)!.missing.length > 0,
-          dynamic: false,
-        }))
+      ? entry.project.nodes(path).filter(n => n.leaf).map((n) => {
+          const info = entry.project.get(n.key)!
+          return {
+            key: n.key,
+            range: this.range(entry, path, n.range.key),
+            value: display(entry.project.message(n.key, locale)?.value),
+            missing: info.missing.length > 0,
+            dynamic: false,
+            usages: info.usages.length,
+          }
+        })
       : entry.project.usages({ path }).flatMap(({ usage }) => usage.key === undefined
           ? []
           : [
@@ -1214,6 +1218,9 @@ class Server {
                 value: display(entry.project.lookup(usage.key, locale)?.value),
                 missing: usage.dynamic === false && entry.project.lookup(usage.key, entry.project.sourceLocale) === undefined,
                 dynamic: usage.dynamic !== false,
+                ...usage.dynamic === false
+                  ? { usages: entry.project.usages({ key: usage.key }).length }
+                  : {},
               },
             ])
     const hardStrings = entry.project.hardStrings(path).map(h => ({

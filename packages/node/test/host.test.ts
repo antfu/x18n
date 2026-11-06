@@ -266,4 +266,64 @@ describe('loadWorkspace', () => {
     expect(loaded!.configFile).toBe(join(root, 'x18n.config.json'))
     expect(loaded!.project.sourceLocale).toBe('fr')
   })
+
+  describe('execute: true', () => {
+    const config = (pattern: string): string => JSON.stringify({
+      sourceLocale: 'en',
+      presets: ['vue-i18n'],
+      resources: [
+        { pattern, execute: true },
+      ],
+      usage: {
+        include: ['src/**/*.ts'],
+      },
+      history: false,
+    })
+
+    it('runs a TS locale file that is not static, read-only (#136)', async () => {
+      await write({
+        'package.json': '{ "type": "module" }',
+        'x18n.config.json': config('i18n/{locale}.ts'),
+        'i18n/en.ts': 'import { farewell } from \'../shared/text\'\nconst text = String(\'Hello\')\nexport default { greeting: text, nested: { farewell } }\n',
+        'shared/text.ts': 'export const farewell: string = \'Bye\'\n',
+        'src/main.ts': 't(\'greeting\')\nt(\'nested.farewell\')\n',
+      })
+      const [loaded] = (await loadWorkspace({ cwd: root, cache: false })).projects
+      const project = loaded!.project
+      expect(project.keys()).toEqual(['greeting', 'nested.farewell'])
+      expect(project.message('greeting', 'en')?.value).toBe('Hello')
+      const analysis = project.analyze()
+      expect(analysis.diagnostics.filter(d => d.code === 'invalid-resource')).toEqual([])
+      expect(analysis.undefinedUsages).toEqual([])
+      expect(project.resources.find(r => r.path === 'i18n/en.ts')?.readonly).toBe(true)
+    })
+
+    it('calls a loader export with the locale, and re-runs on change', async () => {
+      await write({
+        'x18n.config.json': config('i18n/{locale}.mjs'),
+        'i18n/en.mjs': 'export default async locale => ({ locale })\n',
+        'i18n/de.mjs': 'export default async locale => ({ locale })\n',
+      })
+      const [loaded] = (await loadWorkspace({ cwd: root, cache: false })).projects
+      const project = loaded!.project
+      expect(project.message('locale', 'de')?.value).toBe('de')
+      await write({ 'i18n/de.mjs': 'const value = [\'chan\', \'ged\'].join(\'\')\nexport default () => ({ locale: value })\n' })
+      await project.update([
+        { type: 'change', path: 'i18n/de.mjs' },
+      ])
+      expect(project.message('locale', 'de')?.value).toBe('changed')
+    })
+
+    it('reports a file that throws as X18N2005', async () => {
+      await write({
+        'x18n.config.json': config('i18n/{locale}.mjs'),
+        'i18n/en.mjs': 'throw new Error(\'boom\')\n',
+      })
+      const [loaded] = (await loadWorkspace({ cwd: root, cache: false })).projects
+      const messages = loaded!.project.analyze().diagnostics.filter(d => d.code === 'invalid-resource').map(d => d.message)
+      expect(messages).toEqual([
+        expect.stringMatching(/i18n\/en\.mjs could not be executed: boom \(X18N2005\)/),
+      ])
+    })
+  })
 })

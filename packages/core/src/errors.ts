@@ -15,7 +15,7 @@ function at(p: At): string {
 
 /**
  * Every coded error. Groups: 0xxx config, 1xxx plugin, 2xxx discovery and parse,
- * 3xxx scanning, 4xxx edits, 5xxx reviews. `fix` stays static so the docs can show it.
+ * 3xxx scanning, 4xxx edits, 5xxx reviews, 6xxx machine translation. `fix` stays static so the docs can show it.
  */
 export const errorDefinitions = {
   X18N0001: {
@@ -66,6 +66,10 @@ export const errorDefinitions = {
   X18N2004: {
     why: (p: At & { reason: string }): string => `Locale file ${at(p)} is not static: ${p.reason}`,
     fix: 'Use JSON or YAML, or opt in to execution with `execute: true` on the resource pattern.',
+  },
+  X18N2005: {
+    why: (p: At & { reason: string }): string => `Locale file ${at(p)} could not be executed: ${p.reason}`,
+    fix: 'Fix the error the file throws, or make it static and drop `execute: true`.',
   },
   X18N3001: {
     why: (p: { path: string, reason: string }): string => `Source file ${p.path} could not be scanned: ${p.reason}`,
@@ -122,6 +126,20 @@ export const errorDefinitions = {
   X18N5005: {
     why: (p: { id: string }): string => `Review ${p.id} is not an open suggestion`,
     fix: 'Apply only open reviews of type `suggestion`.',
+  },
+  X18N5006: {
+    why: (): string => 'A batch approval needs a key glob, a namespace, a filter or the values to approve',
+    fix: 'Narrow it, for example with `--machine` or a glob; `**` approves every key on purpose.',
+  },
+  X18N6001: {
+    why: (p: { locale: string }): string => `No translator for ${p.locale}`,
+    fix: 'Add a translator plugin, such as `@x18n/translator-ai`, and list its id in `translate.translators` if you set that option.',
+  },
+  X18N6002: {
+    why: (p: { id: string, available: readonly string[] }): string => `Unknown translator "${p.id}" (${p.available.length > 0
+      ? p.available.join(', ')
+      : 'none registered'})`,
+    fix: 'Use an id listed by `x18n translators`.',
   },
 }
 
