@@ -18,6 +18,7 @@ import { commands as lspCommands, methods as lspMethods } from '../../packages/l
 import { registerAgentTools } from '../../packages/ui/src/node/agent'
 import vscodePackage from '../../packages/vscode/package.json' with { type: 'json' }
 import vscodeStrings from '../../packages/vscode/package.nls.json' with { type: 'json' }
+import { presetGroups, ungroupedPresets } from '../preset-groups'
 import { checkNotes, configNotes, errorNotes, invalidResource, optInChecks } from './notes'
 
 const repo = fileURLToPath(new URL('../../', import.meta.url))
@@ -1051,7 +1052,8 @@ function vscodeString(text: string): string {
   return value
 }
 
-async function markedPages(): Promise<void> {
+/** Fills the generated blocks of hand-written pages; returns the problems of the preset groups, if any. */
+async function markedPages(): Promise<string[]> {
   const contributes = vscodePackage.contributes
   await fillMarkers('content/2.surfaces/2.vscode.md', {
     commands: table(['Command', 'Title'], contributes.commands.map(c => [
@@ -1074,9 +1076,81 @@ async function markedPages(): Promise<void> {
   await fillMarkers('content/5.plugins/3.capabilities.md', {
     'plugin-api': `\`\`\`ts\n${declaration(pluginTypes, 'Plugin')}\n\n${declaration(pluginTypes, 'Preset')}\n\`\`\``,
   })
+  const presets = await presetGroupTables()
+  if (presets.block !== undefined) {
+    await fillMarkers('content/4.presets/index.md', {
+      'preset-groups': presets.block,
+    })
+  }
   await fillMarkers('content/5.plugins/1.yaml.md', {
     'plugin-file': `\`\`\`ts\n${declaration(await source('packages/core/src/schema.ts'), 'PluginFile')}\n\`\`\``,
   })
+  return presets.problems
+}
+
+/**
+ * The preset tables of the presets page, one per group of `preset-groups.ts`. The rows stay as written in the page,
+ * in any order; this sorts them into their groups. A preset page in no group or in two, a name that matches no page,
+ * a page with no row or two, a row for no page, or missing markers goes to `problems`, and the block stays as it is.
+ */
+async function presetGroupTables(): Promise<{ block?: string, problems: string[] }> {
+  const path = 'content/4.presets/index.md'
+  const page = await readFile(join(docs, path), 'utf8')
+  // Only the generated block: other tables of the page link presets too.
+  const text = /<!-- generated:preset-groups -->([\s\S]*?)<!-- \/generated:preset-groups -->/.exec(page)?.[1]
+  if (text === undefined) {
+    return {
+      problems: [`${path} has no generated:preset-groups markers`],
+    }
+  }
+  const pages = (await readdir(join(docs, 'content/4.presets')))
+    .filter(file => file.endsWith('.md') && file !== 'index.md')
+    .map(file => file.replace(/^\d+\./, '').replace(/\.md$/, ''))
+  const problems: string[] = []
+  const rows = new Map<string, string>()
+  // A row is known by the preset name in backticks in its first cell, whatever its link.
+  for (const [line, name] of text.matchAll(/^\|[^|`]*`([\w-]+)`[^|]*\|.*$/gm)) {
+    if (rows.has(name!))
+      problems.push(`${name} has two rows in ${path}`)
+    else if (!pages.includes(name!))
+      problems.push(`${path} has a row for ${name}, which has no page`)
+    rows.set(name!, line.trimEnd())
+  }
+
+  const seen = new Map<string, string>()
+  for (const [label, names] of [
+    ['ungrouped', ungroupedPresets.pages] as const,
+    ...presetGroups.map(group => [group.label, group.pages] as const),
+  ]) {
+    for (const name of names) {
+      if (!pages.includes(name))
+        problems.push(`${label} names ${name}, which has no page`)
+      else if (seen.has(name))
+        problems.push(`${name} is in both ${seen.get(name)} and ${label}`)
+      seen.set(name, label)
+    }
+  }
+  for (const name of pages) {
+    if (!seen.has(name))
+      problems.push(`${name} is in no group of preset-groups.ts`)
+    else if (!rows.has(name))
+      problems.push(`${name} has no row in ${path}`)
+  }
+  if (problems.length)
+    return { problems }
+
+  const head = '| Preset | Library | Detected from |\n| --- | --- | --- |'
+  const tableOf = (names: readonly string[]): string => [
+    head,
+    ...names.map(name => rows.get(name)!),
+  ].join('\n')
+  return {
+    problems,
+    block: [
+      `${ungroupedPresets.intro}\n\n${tableOf(ungroupedPresets.pages)}`,
+      ...presetGroups.map(group => `### :x18n-icon{name="${group.icon}"} ${group.label}\n\n${tableOf(group.pages)}`),
+    ].join('\n\n'),
+  }
 }
 
 /** ---- Run ---- */
@@ -1092,7 +1166,7 @@ async function main(): Promise<void> {
   outputs.set('content/6.references/.navigation.yml', 'title: Reference\n')
   await errorPages()
   checkPages()
-  await markedPages()
+  const presetProblems = await markedPages()
 
   const stale: string[] = []
   for (const dir of generatedDirs) {
@@ -1114,6 +1188,11 @@ async function main(): Promise<void> {
     }
   }
 
+  // In both modes: the other pages are still checked or written.
+  if (presetProblems.length) {
+    process.stderr.write(`preset-groups.ts, the preset pages and the tables of content/4.presets/index.md do not match, so the tables were left as they are:\n${presetProblems.map(p => `  ${p}`).join('\n')}\n`)
+    process.exitCode = 1
+  }
   if (check) {
     if (changed.length || stale.length) {
       process.stderr.write(`Generated docs are out of date. Run \`pnpm -C docs run generate\`.\n${[

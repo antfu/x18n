@@ -1,4 +1,5 @@
 import pkg from '../../packages/cli/package.json'
+import { presetGroups, ungroupedPresets } from '../preset-groups'
 
 export default defineAppConfig({
   header: {
@@ -20,6 +21,9 @@ export default defineAppConfig({
         label: 'Presets',
         sections: ['presets'],
         link: 'section' as const,
+        // The sidebar groups presets by ecosystem; see `preset-groups.ts`.
+        groups: presetGroups,
+        ungrouped: ungroupedPresets.pages,
       },
       {
         label: 'Plugins',
