@@ -58,6 +58,7 @@ export function createUsageResolver(
     matches: pathMatcher([glob]),
     namespace,
   }))
+  const unreadableScope = (candidate: UsageCandidate): boolean | undefined => (namespaced && candidate.unreadableNamespace) || candidate.unreadableKeyPrefix
   return {
     resolve(candidate, scopes, path, scanner, has) {
       const scope = innermost(scopes, candidate.range)
@@ -85,7 +86,7 @@ export function createUsageResolver(
         }
       }
       // Under a namespace or key prefix the scanner cannot read, only a key written with its namespace (`ns:key`) resolves.
-      const unreadable = (namespaced && candidate.unreadableNamespace) || candidate.unreadableKeyPrefix
+      const unreadable = unreadableScope(candidate)
       const dynamic = unreadable && !explicit
         ? 'unknown'
         : candidate.dynamic
