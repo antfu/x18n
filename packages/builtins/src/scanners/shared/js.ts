@@ -6,6 +6,10 @@ interface Binding {
   readonly spec: CallSpec
   readonly namespace?: string | undefined
   readonly keyPrefix?: string | undefined
+  /** The factory call passes a namespace the scanner cannot read (`useTranslation(ns)`). */
+  readonly unreadableNamespace?: boolean | undefined
+  /** The factory call passes a key prefix the scanner cannot read (`useTranslations(namespace)`). */
+  readonly unreadableKeyPrefix?: boolean | undefined
 }
 
 /** The namespace and key prefix a usage carries. */
@@ -14,6 +18,8 @@ interface KeyBase {
   readonly keyPrefix: string | undefined
   /** The description written beside the key (`CallSpec.description`). */
   readonly description?: string | undefined
+  readonly unreadableNamespace?: boolean | undefined
+  readonly unreadableKeyPrefix?: boolean | undefined
 }
 
 /** What a call passes besides the key: its params and a default value. */
@@ -75,6 +81,16 @@ function unwrap(node: Node): Node {
       : current.expression
   }
   return current
+}
+
+/** `undefined`, `null`, `void 0` and an empty JSX expression: an argument written as no value. */
+function passesNothing(node: Node): boolean {
+  const value = unwrap(node)
+  if (value.type === 'JSXExpressionContainer')
+    return value.expression.type === 'JSXEmptyExpression' || passesNothing(value.expression)
+  return (value.type === 'Identifier' && value.name === 'undefined')
+    || (value.type === 'Literal' && value.value === null)
+    || (value.type === 'UnaryExpression' && value.operator === 'void')
 }
 
 /** `a.b.c` for identifier and member chains, `this.` dropped; undefined for anything else. */
@@ -233,6 +249,17 @@ class FileScan {
     return source
       ? this.stringArg(this.argValues(args, source, fallback)[0])
       : undefined
+  }
+
+  /** True when the call passes the source as a value `stringArg` cannot read (`useTranslations(namespace)`). */
+  unreadableArg(args: readonly ArgValue[], source: CallSpec['namespace']): boolean {
+    if (typeof source !== 'object')
+      return false
+    const value = this.argValues(args, source, 0)[0]
+    // An options object at a positional source is another form of the call (`getTranslations({ locale })`).
+    if (value === undefined || 'props' in value || (source.property === undefined && unwrap(value).type === 'ObjectExpression'))
+      return false
+    return !passesNothing(value) && this.stringArg(value) === undefined
   }
 
   argValues(args: readonly ArgValue[], source: ArgSource | number | undefined, fallback: number): ArgValue[] {
@@ -533,6 +560,8 @@ class FileScan {
       const base = {
         namespace: namespace ?? binding.namespace,
         keyPrefix: keyPrefix ?? binding.keyPrefix,
+        unreadableNamespace: binding.unreadableNamespace,
+        unreadableKeyPrefix: binding.unreadableKeyPrefix,
       }
       const descriptions = binding.spec.description === undefined
         ? undefined
@@ -628,7 +657,7 @@ class FileScan {
     }
   }
 
-  /** The first factory spec whose namespace and prefix sources all resolve, else the first spec. */
+  /** The first factory spec whose namespace and prefix sources all read, else one passed a source that cannot be read, else the first spec. */
   pickFactory(args: readonly ArgValue[], specs: readonly CallSpec[]): Binding {
     const resolved = specs.map((spec) => {
       const namespace = this.namespaceArg(args, spec.namespace, 0)
@@ -636,6 +665,8 @@ class FileScan {
         ? this.stringArg(this.argValues(args, spec.keyPrefix, 0)[0])
         : undefined
       const complete = (!spec.namespace || namespace !== undefined) && (!spec.keyPrefix || keyPrefix !== undefined)
+      const unreadableNamespace = this.unreadableArg(args, spec.namespace)
+      const unreadableKeyPrefix = this.unreadableArg(args, spec.keyPrefix)
       return {
         binding: {
           spec: {
@@ -647,11 +678,13 @@ class FileScan {
           },
           namespace,
           keyPrefix,
+          unreadableNamespace,
+          unreadableKeyPrefix,
         },
         complete,
       }
     })
-    return (resolved.find(r => r.complete) ?? resolved[0]!).binding
+    return (resolved.find(r => r.complete) ?? resolved.find(r => r.binding.unreadableNamespace || r.binding.unreadableKeyPrefix) ?? resolved[0]!).binding
   }
 
   bindFactory(id: Node, args: readonly ArgValue[], specs: readonly CallSpec[]): void {

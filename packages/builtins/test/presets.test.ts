@@ -35,6 +35,33 @@ describe('tier 1 presets', () => {
     expect(project.analyze().unused).toEqual([])
   })
 
+  it('next-intl: a namespace that is no literal leaves its keys dynamic, an absent one is the root', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('next-intl'),
+      'messages/en.json': json({
+        Home: { title: 'Title' },
+      }),
+      'app/page.tsx': [
+        `import { useTranslations } from 'next-intl'`,
+        `import { getTranslations } from 'next-intl/server'`,
+        `export function useLabel(namespace: string) { const t = useTranslations(namespace); return t('title') }`,
+        `export async function label(namespace: string) { const t = await getTranslations(namespace); return t('title') }`,
+        `export async function scoped(locale: string, namespace: string) { const t = await getTranslations({ locale, namespace }); return t('title') }`,
+        `export function Root() { const t = useTranslations(); return t('Home.title') }`,
+        // An options object without a namespace is the root, not a namespace that cannot be read.
+        `export async function generateMetadata({ params: { locale } }) { const t = await getTranslations({ locale }); return t('Home.title') }`,
+      ].join('\n'),
+    })
+    expect(project.usages().map(m => [m.usage.key, m.usage.dynamic])).toEqual([
+      [undefined, 'unknown'],
+      [undefined, 'unknown'],
+      [undefined, 'unknown'],
+      ['Home.title', false],
+      ['Home.title', false],
+    ])
+    expect(project.analyze().undefinedUsages).toEqual([])
+  })
+
   it('next-intl: many scopes in one file and one function', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('next-intl'),
@@ -671,6 +698,60 @@ describe('namespaces', () => {
       'pages/home:foo.bar.baz',
     ])
     expect(project.analyze().undefinedUsages).toEqual([])
+  })
+
+  it('react-i18next: a namespace that is no literal leaves its keys dynamic unless they name one', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('react-i18next', 'i18next'),
+      'locales/en/translation.json': json({
+        title: 'T',
+        user: { title: 'U' },
+      }),
+      'locales/en/errors.json': json({ title: 'E' }),
+      'src/A.tsx': [
+        `function A({ ns }) { const { t } = useTranslation(ns); return t('title') + t('errors:title') }`,
+        // `null`, `void 0` and `{undefined}` pass no namespace.
+        `function C() { const t = i18next.getFixedT(null, null, 'user'); return t('title') }`,
+        `function D() { const t = i18next.getFixedT(null, void 0, 'user'); return t('title') }`,
+        `function E() { return <Translation ns={undefined}>{t => <p>{t('title')}</p>}</Translation> }`,
+      ].join('\n'),
+      // The namespace of the folder does not stand in for one the scanner cannot read.
+      'src/admin/F.tsx': `function F({ ns }) { const { t } = useTranslation(ns); return t('title') }`,
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}/{namespaces}.json' },
+      ],
+      namespace: {
+        byFile: { 'src/admin/**': 'errors' },
+      },
+    })
+    expect(project.usages().map(m => [m.usage.key, m.usage.dynamic, m.usage.scopeNamespace])).toEqual([
+      [undefined, 'unknown', undefined],
+      ['errors:title', false, undefined],
+      ['translation:user.title', false, undefined],
+      ['translation:user.title', false, undefined],
+      ['translation:title', false, undefined],
+      [undefined, 'unknown', undefined],
+    ])
+    expect(project.analyze().undefinedUsages).toEqual([])
+    expect(project.analyze().unused).toEqual([])
+  })
+
+  it('react-i18next: a namespace that is no literal leaves keys known without namespaces', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('react-i18next', 'i18next'),
+      'locales/en.json': json({ title: 'T' }),
+      'src/A.tsx': `import { NS } from './ns'\nfunction A() { const { t } = useTranslation(NS); return t('title') + t('missing') }`,
+    }, {
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    expect(project.usages().map(m => [m.usage.key, m.usage.dynamic])).toEqual([
+      ['title', false],
+      ['missing', false],
+    ])
+    expect(project.analyze().undefinedUsages.map(u => u.key)).toEqual(['missing'])
   })
 
   it('i18next: a configured default namespace and explicit ones', async () => {

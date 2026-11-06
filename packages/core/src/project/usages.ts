@@ -62,8 +62,13 @@ export function createUsageResolver(
     resolve(candidate, scopes, path, scanner, has) {
       const scope = innermost(scopes, candidate.range)
       let text = normalize(candidate.raw, { path })
-      const scopeNamespace = candidate.namespace ?? scope?.namespace ?? byFile.find(rule => rule.matches(path))?.namespace
-      let scopePrefix = candidate.keyPrefix ?? scope?.keyPrefix
+      // A namespace or key prefix the scanner cannot read replaces any the scope gives, so the usage has none.
+      const scopeNamespace = candidate.unreadableNamespace
+        ? undefined
+        : candidate.namespace ?? scope?.namespace ?? byFile.find(rule => rule.matches(path))?.namespace
+      let scopePrefix = candidate.unreadableKeyPrefix
+        ? undefined
+        : candidate.keyPrefix ?? scope?.keyPrefix
       let namespace: string | undefined
       let explicit = false
       if (namespaced) {
@@ -79,6 +84,11 @@ export function createUsageResolver(
           namespace = scopeNamespace ?? config.namespace.default
         }
       }
+      // Under a namespace or key prefix the scanner cannot read, only a key written with its namespace (`ns:key`) resolves.
+      const unreadable = (namespaced && candidate.unreadableNamespace) || candidate.unreadableKeyPrefix
+      const dynamic = unreadable && !explicit
+        ? 'unknown'
+        : candidate.dynamic
       // An explicit namespace (`t('common:save')`) leaves the scope's key prefix out.
       if (scopePrefix && !explicit) {
         const optional = !candidate.keyPrefix && scope?.optionalPrefix
@@ -86,7 +96,7 @@ export function createUsageResolver(
           ? definedPrefix([
               scopePrefix,
               ...scope.otherPrefixes ?? [],
-            ], text, joiner, candidate.dynamic === 'prefix', lookup => (scope.prefixInFallback
+            ], text, joiner, dynamic === 'prefix', lookup => (scope.prefixInFallback
               ? [namespace, ...fallback]
               : [namespace]).some(ns => has(keyOf(ns, lookup))))
           : scopePrefix
@@ -95,11 +105,11 @@ export function createUsageResolver(
           text = joinPrefix(chosen, text, joiner)
       }
       let key: KeyString | undefined
-      if (candidate.dynamic === 'unknown')
+      if (dynamic === 'unknown')
         key = undefined
       else
         key = keyOf(namespace, text)
-      if (key !== undefined && namespaced && !explicit && candidate.dynamic === false && !has(key))
+      if (key !== undefined && namespaced && !explicit && dynamic === false && !has(key))
         key = fallback.map(ns => keyOf(ns, text)).find(has) ?? key
       return {
         key,
@@ -129,7 +139,7 @@ export function createUsageResolver(
             },
         scanner,
         kind: candidate.kind,
-        dynamic: candidate.dynamic,
+        dynamic,
         locale: candidate.locale,
         scopeNamespace,
         scopePrefix,
