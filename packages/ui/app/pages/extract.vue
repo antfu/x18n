@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ExtractCandidate } from '@x18n/builtins/extractors'
+import type { ExtractSelection } from '@x18n/builtins/extractors'
 import { computed, ref, watch } from 'vue'
 import FilePath from '../components/FilePath.vue'
 import InfoPop from '../components/InfoPop.vue'
@@ -14,7 +14,7 @@ const candidates = useLive((b, project) => b.extractCandidates(project))
 const table = useLive((b, project) => b.keys(project))
 const existing = computed(() => new Map(table.value?.rows.map(row => [row.key, row])))
 
-interface Draft { id: string, candidate: ExtractCandidate, key: string, picked: boolean }
+interface Draft { id: string, candidate: ExtractSelection, key: string, picked: boolean }
 const drafts = ref<Draft[]>([])
 // Candidates reload after every extraction; keep the picks and edited keys of the strings still left.
 watch(candidates, (list) => {
@@ -57,13 +57,11 @@ async function extract(list: readonly Draft[]): Promise<void> {
     range: c.range,
     original: c.original,
     key,
-    value: c.value,
-    replacement: c.replacement.replace(c.key, key),
-    imports: c.imports,
+    context: c.context,
   }))
   busy.value = true
   try {
-    const applied = await backend.value!.extractApply({ project: projectName.value, items })
+    const applied = await backend.value!.extractSelected({ project: projectName.value, items })
     result.value = { count: applied.keys.length, files: applied.changes.length }
   }
   finally {

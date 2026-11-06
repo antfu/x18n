@@ -39,3 +39,11 @@ Find hard-coded user-facing strings in source code and turn them into keys. Port
 | `ngx-translate`, `transloco`, `angular-i18next`, in `.html` | html-text, html-attribute through the `html` scanner, which these presets add (a plain `index.html` in other apps is not scanned). Interpolations, bindings, control-flow block parameters, ICUs and elements marked with `translate`, `transloco` or `i18n` are not reported. Pipe templates: `{{ '{key}' \| translate }}`, `[{attr}]="'{key}' \| translate"` |
 | `angular-localize`, in `.html` and inline `template:` strings | html-element, html-text, html-attribute from its own scanner, as `i18n` and `i18n-*` markup that keeps the source. js-string and js-template become `$localize`, with named placeholders. |
 | `fluent-vue`, `next-international` | as in i18n-ally |
+
+## Editing generated keys
+
+Interactive CLI review and the writable UI use generated selections. A selection identifies the source by path, range and original text. Its opaque context token has version 1 and records the selected template, template values, imports and namespace rules. Allocated keys are excluded so random suggestions do not invalidate a selection.
+
+`findSelections` returns these candidates. `renderSelections` checks the current source and rendering context, parses the selected key, then renders the original template with that key. Both initial generation and selected-key generation use the same template renderer. A missing or changed selection fails before writes. The CLI uses its opened Project during review; it keeps that reviewed configuration rather than reloading configuration from disk during a prompt. Core apply still checks source-file preconditions.
+
+The UI reads `x18n:extract-selections` and submits source identity, context and selected key to `x18n:extract-selected`. These additive RPC functions have schema and snapshot coverage. Static reports dump the read function but expose no write action. Existing `extract-candidates`, `extract-apply`, saved plans and MCP tools retain their explicit replacement contracts. The new generation operation does not rewrite caller-authored replacement code.

@@ -485,17 +485,38 @@ function outermost<T extends HardString & { readonly path: string }>(hardStrings
   return hardStrings.filter(hard => !hardStrings.some(other => inside(hard, other)))
 }
 
+/** A generated candidate with an opaque, versioned rendering-context token. */
+export interface ExtractSelection extends ExtractCandidate {
+  readonly context: string
+}
+
+/** A user's key choice for a previously generated selection. No replacement code is accepted here. */
+export interface ExtractSelectionInput {
+  readonly path: string
+  readonly range: TextRange
+  readonly original: string
+  readonly context: string
+  readonly key: string
+}
+
+interface PreparedCandidate {
+  readonly candidate: ExtractCandidate
+  readonly template: string
+  readonly values: Omit<TemplateValues, 'key'>
+  readonly context: string
+}
+
 /** Hard strings worth extracting, with proposed keys, values and replacements. */
-export function findCandidates(project: Project, options: FindOptions = {}): ExtractCandidate[] {
+function prepareCandidates(project: Project, options: FindOptions, paths?: ReadonlySet<string>): PreparedCandidate[] {
   const inFiles = options.files?.length
     ? pathMatcher(options.files)
     : undefined
   const keys = new KeyAllocator(project)
   const { name: placeholderName, shape } = placeholderShape(project)
-  const out: ExtractCandidate[] = []
+  const out: PreparedCandidate[] = []
   const inScope = [
     ...project.hardStrings(),
-  ].filter(hard => !inFiles || inFiles(hard.path))
+  ].filter(hard => (!paths || paths.has(hard.path)) && (!inFiles || inFiles(hard.path)))
   for (const hard of outermost([
     ...extractableHardStrings(project.config.extract, inScope, path => project.text(path)),
   ])) {
@@ -514,7 +535,14 @@ export function findCandidates(project: Project, options: FindOptions = {}): Ext
         : `${a.name}: ${a.expression}`).join(', ')} }`
       : ''
     const template = project.extractTemplates.find(t => t.template === chosen)
-    out.push({
+    const values: Omit<TemplateValues, 'key'> = {
+      attr: hard.attribute ?? '',
+      args,
+      text: value,
+      source: text.slice(hard.range.start, hard.range.end),
+      parts: templateParts(hard, placeholderName),
+    }
+    const candidate: ExtractCandidate = {
       path: hard.path,
       line: createLineIndex(text).position(hard.range.start).line + 1,
       kind: hard.kind,
@@ -526,18 +554,70 @@ export function findCandidates(project: Project, options: FindOptions = {}): Ext
       reused,
       value,
       replacement: fillTemplate(chosen, {
+        ...values,
         key: rawKeyFor(project, key),
-        attr: hard.attribute ?? '',
-        args,
-        text: value,
-        source: text.slice(hard.range.start, hard.range.end),
-        parts: templateParts(hard, placeholderName),
       }),
       imports: template?.imports ?? [],
       alternatives: templates.slice(1),
+    }
+    // Versioned comparison token: no allocated key, so random suggestions do not invalidate a selection.
+    const context = JSON.stringify([
+      1,
+      chosen,
+      values,
+      candidate.imports,
+      project.namespaced,
+      project.config.namespace,
+    ])
+    out.push({
+      candidate,
+      template: chosen,
+      values,
+      context,
     })
   }
   return out
+}
+
+/** Hard strings with proposed replacements, for explicit saved plans and automatic extraction. */
+export function findCandidates(project: Project, options: FindOptions = {}): ExtractCandidate[] {
+  return prepareCandidates(project, options).map(({ candidate }) => candidate)
+}
+
+/** Generated selections for surfaces that let users edit only the key. */
+export function findSelections(project: Project, options: FindOptions = {}): ExtractSelection[] {
+  return prepareCandidates(project, options).map(({ candidate, context }) => ({ ...candidate, context }))
+}
+
+/** Regenerates selected keys from their templates. Rejects changed source or rendering context before any write. */
+export function renderSelections(project: Project, selections: readonly ExtractSelectionInput[]): ExtractItem[] {
+  if (selections.length === 0)
+    return []
+  const paths = new Set(selections.map(item => item.path))
+  const prepared = prepareCandidates(project, {}, paths)
+  const identity = (item: { readonly path: string, readonly range: TextRange }): string => JSON.stringify([item.path, item.range.start, item.range.end])
+  const bySource = new Map(prepared.map(item => [
+    identity(item.candidate),
+    item,
+  ]))
+  const seen = new Set<string>()
+  const items = selections.map((selection) => {
+    const id = identity(selection)
+    const source = bySource.get(id)
+    if (!source || seen.has(id) || source.candidate.original !== selection.original || source.context !== selection.context)
+      throw errors.X18N4004({ path: selection.path })
+    seen.add(id)
+    const key = project.parseKey(selection.key)
+    return {
+      ...source.candidate,
+      key,
+      replacement: fillTemplate(source.template, {
+        ...source.values,
+        key: rawKeyFor(project, key),
+      }),
+    }
+  })
+  return extractItems(project, items)
 }
 
 export interface ExtractPlanFile {

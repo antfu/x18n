@@ -970,6 +970,53 @@ exports[`agent tools > returns placeholder problems instead of writing 1`] = `
 }
 `;
 
+exports[`generated extraction RPC > round-trips versioned selections, rejects stale context, and leaves raw apply available 1`] = `
+[
+  {
+    "alternatives": [
+      "{{ $t('{key}'{args}) }}",
+      "t('{key}'{args})",
+    ],
+    "context": "[1,"{{ $t('{key}'{args}) }}",{"attr":"","args":"","text":"Welcome aboard","source":"Welcome aboard","parts":"Welcome aboard"},[],false,{"separator":".","fallback":[],"byFile":{},"fromPath":"dot"}]",
+    "imports": [],
+    "key": "welcomeAboard",
+    "kind": "vue-template-text",
+    "line": 1,
+    "original": "Welcome aboard",
+    "path": "src/App.vue",
+    "range": {
+      "end": 28,
+      "start": 14,
+    },
+    "replacement": "{{ $t('welcomeAboard') }}",
+    "reused": false,
+    "text": "Welcome aboard",
+    "value": "Welcome aboard",
+  },
+  {
+    "alternatives": [
+      "{{ $t('{key}'{args}) }}",
+      "t('{key}'{args})",
+    ],
+    "context": "[1,"{{ $t('{key}'{args}) }}",{"attr":"","args":"","text":"Another heading","source":"Another heading","parts":"Another heading"},[],false,{"separator":".","fallback":[],"byFile":{},"fromPath":"dot"}]",
+    "imports": [],
+    "key": "anotherHeading",
+    "kind": "vue-template-text",
+    "line": 1,
+    "original": "Another heading",
+    "path": "src/App.vue",
+    "range": {
+      "end": 51,
+      "start": 36,
+    },
+    "replacement": "{{ $t('anotherHeading') }}",
+    "reused": false,
+    "text": "Another heading",
+    "value": "Another heading",
+  },
+]
+`;
+
 exports[`rpc functions > builds the translate prompt 1`] = `
 "# Translate 2 messages from en to de (German)
 
@@ -1930,6 +1977,8 @@ exports[`rpc functions > lists usages and the analysis 2`] = `
   ],
 }
 `;
+
+exports[`rpc functions > lists versioned generated selections 1`] = `[]`;
 
 exports[`rpc functions > pages diagnostics, errors first, filtered by code and locale 1`] = `
 {

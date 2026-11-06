@@ -5,6 +5,8 @@
 export function* extractableHardStrings(_, _, _) {}
 export function extractItems(_, _) {}
 export function findCandidates(_, _) {}
+export function findSelections(_, _) {}
+export function renderSelections(_, _) {}
 export function shouldExtract(_, _, _, _) {}
 export function slugify(_, _, _) {}
 export function toPlanFile(_, _) {}

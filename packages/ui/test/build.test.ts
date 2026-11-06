@@ -32,6 +32,7 @@ it('writes a static report with the SPA and the dumped data', async () => {
       'x18n:diagnostics',
       'x18n:explain',
       'x18n:extract-candidates',
+      'x18n:extract-selections',
       'x18n:key',
       'x18n:keys',
       'x18n:project',

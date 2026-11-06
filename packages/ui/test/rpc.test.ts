@@ -1,6 +1,6 @@
 import type { Workspace } from '@x18n/node'
 import type { DevframeNodeContext } from 'devframe'
-import { cp, mkdtemp, readFile, rm } from 'node:fs/promises'
+import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -96,6 +96,10 @@ describe('rpc functions', () => {
 
   it('builds the translate prompt', async () => {
     expect(wire(await ctx.rpc.invokeLocal('x18n:translate-prompt', { project, locale: 'de' }))).toMatchSnapshot()
+  })
+
+  it('lists versioned generated selections', async () => {
+    expect(wire(await ctx.rpc.invokeLocal('x18n:extract-selections', { project }))).toMatchSnapshot()
   })
 
   it('lists extraction candidates', async () => {
@@ -283,5 +287,72 @@ describe('reviews', () => {
     })
     expect(JSON.parse(await readFile(join(root, 'src/locales/de.json'), 'utf8')).app.title).toBe('Meine Anwendung')
     expect(await ctx.rpc.invokeLocal('x18n:reviews', { project, open: true })).toEqual([])
+  })
+})
+
+describe('generated extraction RPC', () => {
+  it('round-trips versioned selections, rejects stale context, and leaves raw apply available', async () => {
+    const dir = await mkdtemp(join(tmpdir(), 'x18n-selections-'))
+    await mkdir(join(dir, 'src'))
+    await mkdir(join(dir, 'locales'))
+    await writeFile(join(dir, 'locales/en.json'), '{}')
+    await writeFile(join(dir, 'src/App.vue'), '<template><h1>Welcome aboard</h1><p>Another heading</p></template>')
+    await writeFile(join(dir, 'x18n.config.json'), JSON.stringify({
+      presets: ['vue-i18n'],
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    }))
+    const ws = await loadWorkspace({ cwd: dir, cache: false })
+    const context = await createHostContext({
+      cwd: dir,
+      mode: 'dev',
+      host: {
+        mountStatic: () => {},
+        resolveOrigin: () => 'http://localhost',
+        getStorageDir: () => join(dir, '.devframe'),
+      },
+    })
+    try {
+      await createX18nDevframe(ws.projects).setup(context)
+      const candidates = await context.rpc.invokeLocal('x18n:extract-selections', {})
+      expect(wire(candidates)).toMatchSnapshot()
+      expect(candidates).toHaveLength(2)
+      expect(candidates[0]!.context).toMatch(/^\[1,/)
+      const { path, range, original, context: token } = candidates[0]!
+      const item = {
+        path,
+        range,
+        original,
+        context: token,
+        key: 'page.$&',
+      }
+      await expect(context.rpc.invokeLocal('x18n:extract-selected', {
+        items: [
+          { ...item, context: 'stale' },
+        ],
+      })).rejects.toThrow()
+      expect(await readFile(join(dir, 'locales/en.json'), 'utf8')).toBe('{}')
+      const result = await context.rpc.invokeLocal('x18n:extract-selected', {
+        items: [item],
+      })
+      expect(result.applied).toBe(true)
+      expect(await readFile(join(dir, 'src/App.vue'), 'utf8')).toContain('$t(\'page.$&\')')
+      await expect(context.rpc.invokeLocal('x18n:extract-selected', {
+        items: [item],
+      })).rejects.toThrow()
+      const remaining = await context.rpc.invokeLocal('x18n:extract-candidates', {})
+      expect(remaining).toHaveLength(1)
+      await context.rpc.invokeLocal('x18n:extract-apply', {
+        items: [
+          { ...remaining[0]!, key: 'manual', replacement: '{{ custom() }}' },
+        ],
+      })
+      expect(await readFile(join(dir, 'src/App.vue'), 'utf8')).toContain('{{ custom() }}')
+    }
+    finally {
+      ws.projects.forEach(p => p.project.dispose())
+      await rm(dir, { recursive: true, force: true })
+    }
   })
 })

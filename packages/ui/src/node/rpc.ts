@@ -1,10 +1,10 @@
 import type { DevframeNodeContext } from 'devframe'
-import type { ApplyQuery, DiagnosticQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectList, ProjectQuery, PromptQuery, ReviewQuery, UiLocation, UiProject, UnusedDeletionQuery, UsageQuery } from './types'
-import { extractItems, findCandidates } from '@x18n/builtins/extractors'
+import type { ApplyQuery, DiagnosticQuery, ExtractApplyQuery, ExtractQuery, ExtractSelectionQuery, KeyQuery, OpenQuery, PlanQuery, ProjectList, ProjectQuery, PromptQuery, ReviewQuery, UiLocation, UiProject, UnusedDeletionQuery, UsageQuery } from './types'
+import { extractItems, findCandidates, findSelections, renderSelections } from '@x18n/builtins/extractors'
 import { renderPrompt } from '@x18n/core'
 import { defineRpcFunction } from 'devframe'
 import * as v from 'valibot'
-import { ApplyQuerySchema, DiagnosticQuerySchema, ExtractApplySchema, ExtractQuerySchema, KeyQuerySchema, OpenQuerySchema, PlanQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UnusedDeletionSchema, UsageQuerySchema } from './schemas'
+import { ApplyQuerySchema, DiagnosticQuerySchema, ExtractApplySchema, ExtractQuerySchema, ExtractSelectionSchema, KeyQuerySchema, OpenQuerySchema, PlanQuerySchema, ProjectQuerySchema, PromptQuerySchema, ReviewQuerySchema, UnusedDeletionSchema, UsageQuerySchema } from './schemas'
 import { analysisView, applyOps, diagnosticPage, diagnosticQueries, explainView, keyDetail, keyTable, pickProject, previewOps, summarize, unusedDeletionView, usageViews } from './views'
 
 export interface RpcOptions {
@@ -129,6 +129,19 @@ export function registerRpc(ctx: DevframeNodeContext, projects: readonly UiProje
     }),
   }))
 
+  rpc.register(defineRpcFunction({
+    name: 'extract-selections',
+    type: 'query',
+    jsonSerializable: true,
+    handler: (query: ExtractQuery) => {
+      const { project, files } = v.parse(ExtractQuerySchema, query)
+      return findSelections(pickProject(projects, project).project, { files })
+    },
+    dump: () => ({
+      inputs: perProject(),
+    }),
+  }))
+
   if (ctx.mode !== 'dev')
     return
 
@@ -170,6 +183,21 @@ export function registerRpc(ctx: DevframeNodeContext, projects: readonly UiProje
         {
           type: 'extract',
           items: extractItems(p.project, items),
+        },
+      ])
+    },
+  }))
+  rpc.register(defineRpcFunction({
+    name: 'extract-selected',
+    type: 'action',
+    jsonSerializable: true,
+    handler: (query: ExtractSelectionQuery) => {
+      const { project, items } = v.parse(ExtractSelectionSchema, query)
+      const p = pickProject(projects, project)
+      return applyOps(p, [
+        {
+          type: 'extract',
+          items: renderSelections(p.project, items),
         },
       ])
     },

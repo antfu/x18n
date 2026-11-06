@@ -95,6 +95,9 @@ export interface ExtractApplyQuery extends ProjectQuery {
 export interface ExtractQuery extends ProjectQuery {
   readonly files?: readonly string[] | undefined;
 }
+export interface ExtractSelectionQuery extends ProjectQuery {
+  readonly items: readonly ExtractSelectionInput[];
+}
 export interface HistoryView {
   readonly at: number | null;
   readonly revision: string | undefined;

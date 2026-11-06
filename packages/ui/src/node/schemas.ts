@@ -1,4 +1,4 @@
-import type { AgentCheckQuery, AgentDeleteQuery, AgentKeysQuery, AgentRenameQuery, AgentReviewQuery, AgentSearchQuery, AgentSetQuery, AgentUsagesQuery, ApplyQuery, DiagnosticQuery, ExtractApplyQuery, ExtractQuery, KeyQuery, OpenQuery, PlanQuery, ProjectQuery, PromptQuery, ReviewQuery, UnusedDeletionQuery, UsageQuery } from './types'
+import type { AgentCheckQuery, AgentDeleteQuery, AgentKeysQuery, AgentRenameQuery, AgentReviewQuery, AgentSearchQuery, AgentSetQuery, AgentUsagesQuery, ApplyQuery, DiagnosticQuery, ExtractApplyQuery, ExtractQuery, ExtractSelectionQuery, KeyQuery, OpenQuery, PlanQuery, ProjectQuery, PromptQuery, ReviewQuery, UnusedDeletionQuery, UsageQuery } from './types'
 import * as v from 'valibot'
 
 function text(description: string): v.SchemaWithPipe<readonly [v.StringSchema<undefined>, v.DescriptionAction<string, string>]> {
@@ -153,6 +153,17 @@ const ExtractItemSchema = v.object({
 export const ExtractApplySchema: v.GenericSchema<ExtractApplyQuery> = v.object({
   project,
   items: v.pipe(v.array(ExtractItemSchema), v.description('Items from `x18n_extract_plan`, keys and replacements edited as needed; drop items to skip them.')),
+})
+
+export const ExtractSelectionSchema: v.GenericSchema<ExtractSelectionQuery> = v.object({
+  project,
+  items: v.array(v.object({
+    path: v.string(),
+    range: textRange,
+    original: v.string(),
+    context: v.string(),
+    key: v.string(),
+  })),
 })
 
 export const OpenQuerySchema: v.GenericSchema<OpenQuery> = v.object({

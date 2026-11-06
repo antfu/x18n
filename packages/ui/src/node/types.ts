@@ -1,4 +1,4 @@
-import type { ExtractCandidate } from '@x18n/builtins/extractors'
+import type { ExtractCandidate, ExtractSelection, ExtractSelectionInput } from '@x18n/builtins/extractors'
 import type { Decision, EditOp, FileChange, KeyString, LocaleCode, MessageLeaf, MessageState, PlaceholderProblem, Project, ProjectExplanation, ReviewState, ReviewThread, ReviewType, Severity, TextRange, UsageKind, WireDiagnostic } from '@x18n/core'
 // Puts `devframe` into every program that sees these types, so the augmentation below resolves (the SPA only imports `devframe/client`).
 import type {} from 'devframe'
@@ -86,6 +86,10 @@ export interface ExtractQuery extends ProjectQuery {
 }
 
 export type ExtractPlanItem = Pick<ExtractCandidate, 'path' | 'range' | 'original' | 'key' | 'value' | 'replacement' | 'imports'>
+
+export interface ExtractSelectionQuery extends ProjectQuery {
+  readonly items: readonly ExtractSelectionInput[]
+}
 
 export interface ExtractApplyQuery extends ProjectQuery {
   readonly items: readonly ExtractPlanItem[]
@@ -384,6 +388,8 @@ declare module 'devframe' {
     'x18n:translate-prompt': (query: PromptQuery) => string
     'x18n:plan': (query: PlanQuery) => PlanView
     'x18n:apply': (query: ApplyQuery) => Promise<ApplyView>
+    'x18n:extract-selections': (query: ExtractQuery) => ExtractSelection[]
+    'x18n:extract-selected': (query: ExtractSelectionQuery) => Promise<ApplyView>
     'x18n:extract-candidates': (query: ExtractQuery) => ExtractCandidate[]
     'x18n:extract-apply': (query: ExtractApplyQuery) => Promise<ApplyView>
     'x18n:delete-unused': (query: UnusedDeletionQuery) => Promise<UnusedDeletionView>
