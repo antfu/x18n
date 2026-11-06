@@ -122,8 +122,7 @@ onMounted(async () => {
       <LocaleBar v-if="projectName && !pendingAuth" />
     </header>
 
-    <!-- Wide content (the key grid, code) scrolls in its own box; the section corner marks would otherwise make the page scroll sideways. -->
-    <main class="flex-auto min-h-0 of-y-auto of-x-hidden">
+    <main class="flex-auto min-h-0 of-auto">
       <form v-if="pendingAuth" class="max-w-sm mx-auto mt-20 flex flex-col gap-4" @submit.prevent="submitCode">
         <span class="label">{{ t('auth.label') }}</span>
         <h1 class="text-2xl font-semibold tracking-tight">
