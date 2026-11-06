@@ -94,6 +94,15 @@ onMounted(async () => {
       : String(e)
   }
 })
+
+/** The nav scrolls sideways without a scrollbar when its labels do not fit; a mouse wheel scrolls it too. */
+function scrollNav(event: WheelEvent): void {
+  const nav = event.currentTarget as HTMLElement
+  if (nav.scrollWidth <= nav.clientWidth || Math.abs(event.deltaX) > Math.abs(event.deltaY))
+    return
+  nav.scrollLeft += event.deltaY
+  event.preventDefault()
+}
 </script>
 
 <template>
@@ -105,7 +114,7 @@ onMounted(async () => {
           {{ t('app.name') }}
         </NuxtLink>
         <!-- Longer labels (Turkish, German) in a narrow panel scroll here, not the whole page. -->
-        <nav class="flex min-w-0 items-center gap-1 of-x-auto">
+        <nav class="flex min-w-0 items-center gap-1 of-x-auto [scrollbar-width:none]" @wheel="scrollNav">
           <NuxtLink
             v-for="item in nav"
             :key="item.to"
@@ -133,7 +142,8 @@ onMounted(async () => {
       <LocaleBar v-if="projectName && !pendingAuth" />
     </header>
 
-    <main class="flex-auto min-h-0 of-auto">
+    <!-- Wide content (the key grid, code) scrolls in its own box; the section corner marks would otherwise make the page scroll sideways. -->
+    <main class="flex-auto min-h-0 of-y-auto of-x-hidden">
       <form v-if="pendingAuth" class="max-w-sm mx-auto mt-20 flex flex-col gap-4" @submit.prevent="submitCode">
         <span class="label">{{ t('auth.label') }}</span>
         <h1 class="text-2xl font-semibold tracking-tight">
