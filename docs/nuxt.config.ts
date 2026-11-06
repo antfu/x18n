@@ -27,9 +27,15 @@ export default defineNuxtConfig({
 
   icon: {
     // Collections the demos use beyond the layer's. Served from `/api/_nuxt_icon`, because the
-    // locale flags are built from data (`i-circle-flags-${flag}`) and the client bundle scan misses them.
+    // locale flags are built from data (`i-circle-flags-${flag}`), as are the presets sidebar's group
+    // icons (`preset-groups.ts`; the layer already serves `logos` and `simple-icons`), and the client bundle scan misses them.
     serverBundle: {
-      collections: ['bxl', 'catppuccin', 'circle-flags'],
+      collections: [
+        'bxl',
+        'catppuccin',
+        'circle-flags',
+        'ph',
+      ],
     },
   },
 
@@ -37,8 +43,14 @@ export default defineNuxtConfig({
     // Markdown resolves components by name at runtime, so the ones it uses must be global.
     'components:extend': (components) => {
       for (const component of components) {
-        if (['X18nDemo', 'X18nTerminal', 'X18nFrameworks'].includes(component.pascalName))
+        if ([
+          'X18nDemo',
+          'X18nTerminal',
+          'X18nFrameworks',
+          'X18nIcon',
+        ].includes(component.pascalName)) {
           component.global = true
+        }
       }
     },
   },

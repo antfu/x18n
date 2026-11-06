@@ -11,6 +11,8 @@ import { flagIcon } from './flags'
 import { commands } from './generated/meta'
 import { migratableFolders, migrate } from './migrate'
 import { isKeyRef, projectFor } from './model/client'
+import { l10n } from './model/l10n'
+import { languages } from './model/languages'
 import { adjacentRange } from './model/locations'
 
 interface CommandDeps {
@@ -53,10 +55,22 @@ async function openMatch(match: SearchMatch): Promise<void> {
     ? (await window.showQuickPick(targets.map(location => ({
         label: `${workspace.asRelativePath(Uri.parse(location.uri))}:${location.range.start.line + 1}`,
         location,
-      })), { placeHolder: `Usages of ${match.key}` }))?.location
+      })), {
+        placeHolder: l10n.t('Usages of {0}', match.key),
+      }))?.location
     : targets[0]
   if (picked)
     await open(picked)
+}
+
+/** A quick pick description, with ` · current` added on the picked option. */
+function markCurrent(isCurrent: boolean, description: string): string {
+  return isCurrent
+    ? [
+        description,
+        l10n.t('current'),
+      ].filter(Boolean).join(' · ')
+    : description
 }
 
 async function localeItem(locale: ProjectInfo['locales'][number]): Promise<{ label: string, code: string, iconPath?: Uri }> {
@@ -70,12 +84,30 @@ async function localeItem(locale: ProjectInfo['locales'][number]): Promise<{ lab
   }
 }
 
-const reviewChoices: readonly { readonly label: string, readonly review: ReviewCommentInfo['type'], readonly prompt: string }[] = [
-  { label: 'Comment', review: 'comment', prompt: 'Comment' },
-  { label: 'Approve', review: 'approve', prompt: 'Comment (optional)' },
-  { label: 'Request change', review: 'request-change', prompt: 'What should change' },
-  { label: 'Suggest a value', review: 'suggestion', prompt: 'Suggested value' },
-]
+function reviewChoices(): { readonly label: string, readonly review: ReviewCommentInfo['type'], readonly prompt: string }[] {
+  return [
+    {
+      label: l10n.t('Comment'),
+      review: 'comment',
+      prompt: l10n.t('Comment'),
+    },
+    {
+      label: l10n.t('Approve'),
+      review: 'approve',
+      prompt: l10n.t('Comment (optional)'),
+    },
+    {
+      label: l10n.t('Request change'),
+      review: 'request-change',
+      prompt: l10n.t('What should change'),
+    },
+    {
+      label: l10n.t('Suggest a value'),
+      review: 'suggestion',
+      prompt: l10n.t('Suggested value'),
+    },
+  ]
+}
 
 /** Display locale, translate prompt, review and key commands. `x18n.extract` is the server's command, see `client.ts`. */
 export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps): { extractAtCursor: () => Promise<void>, execute: (command: string, arg: object) => Promise<unknown> } {
@@ -100,7 +132,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
   async function resolveRef(arg: unknown): Promise<KeyRef | undefined> {
     const ref = refOf(arg) ?? await keyAtCursor()
     if (!ref)
-      void window.showWarningMessage('x18n: no key under the cursor.')
+      void window.showWarningMessage(l10n.t('x18n: no key under the cursor.'))
     return ref
   }
 
@@ -118,7 +150,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
       description: [
         l.displayName,
         l.code === info.sourceLocale
-          ? 'source'
+          ? l10n.t('source')
           : undefined,
       ].filter(Boolean).join(' · '),
     })))
@@ -140,7 +172,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
     const editor = window.activeTextEditor
     const selected = editor?.document.getText(editor.selection).trim() ?? ''
     const pick = window.createQuickPick<{ label: string, description: string, detail: string, alwaysShow: boolean, match: SearchMatch }>()
-    pick.placeholder = 'Text shown in the app, in any locale'
+    pick.placeholder = l10n.t('Text shown in the app, in any locale')
     const search = async (query: string): Promise<void> => {
       pick.busy = true
       const matches = await x18n.request('x18n/search', { query })
@@ -152,9 +184,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
         description: projects.size > 1
           ? `${match.project} · ${match.key}`
           : match.key,
-        detail: `${match.locale} · ${match.usages.length === 1
-          ? '1 usage'
-          : `${match.usages.length} usages`}`,
+        detail: `${match.locale} · ${l10n.t('Usages: {0}', match.usages.length)}`,
         // The server matches fuzzily; the quick pick's own filter would hide some matches.
         alwaysShow: true,
         match,
@@ -177,6 +207,28 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
       await search(pick.value)
   })
 
+  register(commands.setLanguage, async () => {
+    const current = config.language ?? ''
+    const marked = (code: string, description: string): string => markCurrent(code === current, description)
+    const picked = await window.showQuickPick([
+      {
+        label: l10n.t('Same as VS Code'),
+        description: marked('', ''),
+        code: '',
+      },
+      ...languages.map(l => ({
+        label: l.name,
+        description: marked(l.code, l.code),
+        code: l.code,
+      })),
+    ], {
+      placeHolder: l10n.t('Language of x18n\'s views, pickers and messages'),
+    })
+    // A user setting: the language is the person's, not the project's. `language.ts` applies it.
+    if (picked && picked.code !== current)
+      await config.update('language', picked.code, ConfigurationTarget.Global)
+  })
+
   register(commands.setDisplayLocale, async () => {
     const projects = await x18n.request('x18n/projects', undefined)
     const locales = [
@@ -184,19 +236,17 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
     ]
     const sourceLocales = projects.map(p => p.sourceLocale).join(', ')
     const current = displayLocale.picked.value
-    const marked = (code: string | undefined, description: string): string => code === current
-      ? [description, 'current'].filter(Boolean).join(' · ')
-      : description
+    const marked = (code: string | undefined, description: string): string => markCurrent(code === current, description)
     const picked = await window.showQuickPick([
       {
-        label: 'Default',
+        label: l10n.t('Default'),
         description: marked(undefined, config.displayLocale
-          ? `x18n.displayLocale setting (${config.displayLocale})`
-          : `x18n.displayLocale setting, else the source locale (${sourceLocales})`),
+          ? l10n.t('x18n.displayLocale setting ({0})', config.displayLocale)
+          : l10n.t('x18n.displayLocale setting, else the source locale ({0})', sourceLocales)),
         code: undefined,
       },
       {
-        label: 'Source locale',
+        label: l10n.t('Source locale'),
         description: marked('', sourceLocales),
         code: '',
       },
@@ -204,7 +254,9 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
         ...await localeItem(l),
         description: marked(l.code, l.displayName ?? ''),
       }))),
-    ], { placeHolder: 'Locale shown in annotations, for this workspace only' })
+    ], {
+      placeHolder: l10n.t('Locale shown in annotations, for this workspace only'),
+    })
     // Kept in the workspace state, never in `.vscode/settings.json`; the watcher in `index.ts` tells the server.
     if (picked)
       await displayLocale.pick(picked.code)
@@ -215,8 +267,11 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
     const info = ref && await project(ref.project)
     if (!ref || !info)
       return
-    const locale = await pickLocale(info, `Locale of ${ref.key} to edit`)
-    const value = locale && await window.showInputBox({ title: `${ref.key} (${locale})`, prompt: 'New message' })
+    const locale = await pickLocale(info, l10n.t('Locale of {0} to edit', ref.key))
+    const value = locale && await window.showInputBox({
+      title: `${ref.key} (${locale})`,
+      prompt: l10n.t('New message'),
+    })
     if (value) {
       await execute(serverCommands.set, {
         project: info.name,
@@ -230,8 +285,10 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
   register(commands.addReview, async (arg) => {
     const ref = await resolveRef(arg)
     const info = ref && await project(ref.project)
-    const locale = ref && info && await pickLocale(info, `Locale of ${ref.key} to review`)
-    const choice = locale && await window.showQuickPick(reviewChoices, { placeHolder: `Review ${ref.key} (${locale})` })
+    const locale = ref && info && await pickLocale(info, l10n.t('Locale of {0} to review', ref.key))
+    const choice = locale && await window.showQuickPick(reviewChoices(), {
+      placeHolder: l10n.t('Review {0} ({1})', ref.key, locale),
+    })
     if (!ref || !info || !locale || !choice)
       return
     const text = await window.showInputBox({ title: `${choice.label}: ${ref.key} (${locale})`, prompt: choice.prompt })
@@ -253,7 +310,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
   register(commands.renameKeyPrefix, async (arg) => {
     const ref = await resolveRef(arg)
     const to = ref && await window.showInputBox({
-      title: `Rename ${ref.key}.*`,
+      title: l10n.t('Rename {0}.*', ref.key),
       value: ref.key,
       valueSelection: [0, ref.key.length],
     })
@@ -263,8 +320,8 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
 
   register(commands.deleteKey, async (arg) => {
     const ref = await resolveRef(arg)
-    const remove = 'Delete'
-    if (ref && await window.showWarningMessage(`Delete ${ref.key} from every locale?`, { modal: true }, remove) === remove)
+    const remove = l10n.t('Delete')
+    if (ref && await window.showWarningMessage(l10n.t('Delete {0} from every locale?', ref.key), { modal: true }, remove) === remove)
       await execute(serverCommands.delete, { project: ref.project, key: ref.key })
   })
 
@@ -275,9 +332,9 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
     const kept = projects.reduce((n, p) => n + p.kept.length, 0)
     const warnings = projects.flatMap(p => p.warnings)
     if (keys === 0) {
-      void window.showInformationMessage(`x18n: no unused keys to delete${kept
-        ? ` (${kept} kept: dynamic usages may reach them)`
-        : ''}.`)
+      void window.showInformationMessage(kept
+        ? l10n.t('x18n: no unused keys to delete. Kept, as dynamic usages may reach them: {0}.', kept)
+        : l10n.t('x18n: no unused keys to delete.'))
       return
     }
     const files = new Set(projects.flatMap(p => p.keys.flatMap(k => k.locations.map(l => l.uri))))
@@ -286,23 +343,22 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
         ? `${p.project}: ${k.key}`
         : k.key)).slice(0, 20),
       ...keys > 20
-        ? [`and ${keys - 20} more`]
+        ? [
+            l10n.t('and {0} more', keys - 20),
+          ]
         : [],
       ...kept
-        ? [``, `${kept} unused key${kept === 1
-            ? ' is'
-            : 's are'} kept: dynamic usages may reach them.`]
+        ? [
+            ``,
+            l10n.t('Unused keys kept, as dynamic usages may reach them: {0}.', kept),
+          ]
         : [],
       ...warnings.length
         ? [``, ...warnings]
         : [],
     ].join('\n')
-    const remove = 'Delete'
-    const answer = await window.showWarningMessage(`Delete ${keys} unused key${keys === 1
-      ? ''
-      : 's'} in ${files.size} file${files.size === 1
-      ? ''
-      : 's'}?`, { modal: true, detail }, remove)
+    const remove = l10n.t('Delete')
+    const answer = await window.showWarningMessage(l10n.t('Delete unused keys? Keys: {0}. Files: {1}.', keys, files.size), { modal: true, detail }, remove)
     if (answer === remove)
       await execute(serverCommands.deleteUnused, {})
   })
@@ -310,13 +366,13 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
   register(commands.extractFile, async () => {
     const uri = window.activeTextEditor?.document.uri.toString()
     if (uri && await execute(serverCommands.extract, { uri }) === null)
-      void window.showInformationMessage('x18n: no hard strings in this file.')
+      void window.showInformationMessage(l10n.t('x18n: no hard strings in this file.'))
   })
 
   async function translatePrompt(arg: unknown): Promise<{ locale: string, prompt: string } | undefined> {
     const ref = refOf(arg)
     const info = await project(ref?.project)
-    const locale = info && await pickLocale(info, 'Translate into', true)
+    const locale = info && await pickLocale(info, l10n.t('Translate into'), true)
     if (!locale)
       return undefined
     return { locale, prompt: await x18n.request('x18n/translatePrompt', {
@@ -333,7 +389,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
     if (!found)
       return
     await env.clipboard.writeText(found.prompt)
-    void window.showInformationMessage(`x18n: translate prompt for ${found.locale} copied.`)
+    void window.showInformationMessage(l10n.t('x18n: translate prompt for {0} copied.', found.locale))
   })
 
   // The editor's agent follows the prompt's own `x18n apply` and `x18n check` steps, so x18n calls no model itself (D39).
@@ -346,7 +402,7 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
       return
     }
     await env.clipboard.writeText(found.prompt)
-    void window.showInformationMessage(`x18n: this editor has no chat agent; translate prompt for ${found.locale} copied.`)
+    void window.showInformationMessage(l10n.t('x18n: this editor has no chat agent; translate prompt for {0} copied.', found.locale))
   })
 
   const goToUsage = (direction: 1 | -1) => async (): Promise<void> => {
@@ -377,11 +433,13 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
   register(commands.migrateFromI18nAlly, async () => {
     const folders = await migratableFolders()
     const folder = folders.length > 1
-      ? (await window.showQuickPick(folders.map(f => ({ label: f.name, folder: f })), { placeHolder: 'Folder to migrate' }))?.folder
+      ? (await window.showQuickPick(folders.map(f => ({ label: f.name, folder: f })), {
+          placeHolder: l10n.t('Folder to migrate'),
+        }))?.folder
       : folders[0]
     if (!folder) {
       if (folders.length === 0)
-        void window.showInformationMessage('x18n: no folder with i18n-ally settings and without an x18n config.')
+        void window.showInformationMessage(l10n.t('x18n: no folder with i18n-ally settings and without an x18n config.'))
       return
     }
     // The server loads projects once at start, so the new config needs a restart.
@@ -406,11 +464,13 @@ export function useCommands({ client, x18n, openUi, displayLocale }: CommandDeps
     })
     const extracts = (actions ?? []).filter(a => 'kind' in a && a.kind === CodeActionKind.RefactorExtract && a.edit)
     const picked = extracts.length > 1
-      ? await window.showQuickPick(extracts.map(a => ({ label: a.title, action: a })), { placeHolder: 'Extract' })
+      ? await window.showQuickPick(extracts.map(a => ({ label: a.title, action: a })), {
+          placeHolder: l10n.t('Extract'),
+        })
       : { action: extracts[0] }
     if (!picked?.action || !('edit' in picked.action) || !picked.action.edit) {
       if (extracts.length === 0)
-        void window.showInformationMessage('x18n: no hard string to extract here.')
+        void window.showInformationMessage(l10n.t('x18n: no hard string to extract here.'))
       return
     }
     await workspace.applyEdit(await client.protocol2CodeConverter.asWorkspaceEdit(picked.action.edit))

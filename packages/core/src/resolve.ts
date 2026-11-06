@@ -94,6 +94,16 @@ function defaultDraft(): ConfigDraft {
       file: '.x18n/reviews.yml',
       author: undefined,
     },
+    translate: {
+      translators: undefined,
+      locales: {},
+      subject: undefined,
+      rules: {},
+      limit: 200,
+      budget: {},
+      retries: 1,
+      cache: true,
+    },
     pluginConfigs: {},
   }
 }
@@ -275,6 +285,27 @@ function applyLayer(draft: ConfigDraft, layer: UserConfig, origin: ConfigOrigin,
       author: layer.review.author ?? draft.review.author,
     }
     mark('review')
+  }
+  if (layer.translate !== undefined) {
+    const previous = draft.translate
+    const next = layer.translate
+    draft.translate = {
+      translators: next.translators ?? previous.translators,
+      locales: {
+        ...previous.locales,
+        ...next.locales,
+      },
+      subject: next.subject ?? previous.subject,
+      rules: {
+        ...previous.rules,
+        ...next.rules,
+      },
+      limit: next.limit ?? previous.limit,
+      budget: next.budget ?? previous.budget,
+      retries: next.retries ?? previous.retries,
+      cache: next.cache ?? previous.cache,
+    }
+    mark('translate')
   }
   if (layer.pluginConfigs !== undefined) {
     draft.pluginConfigs = {

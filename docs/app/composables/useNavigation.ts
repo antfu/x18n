@@ -1,6 +1,7 @@
 import type { NavigationMenuItem } from '@nuxt/ui/components/NavigationMenu.vue'
 import type { NavigationItem } from 'comark-content'
 import type { RouteLocationNormalizedLoaded } from 'vue-router'
+import type { PageGroup } from '../../preset-groups'
 
 export interface NavGroup {
   label: string
@@ -14,6 +15,10 @@ export interface NavGroup {
   activePath?: string
   /** Dropdown items for a manual tab. */
   children?: NavGroupChild[]
+  /** For a single-section tab: the sidebar shows these collapsible groups of its pages, the one with the current page open. */
+  groups?: PageGroup[]
+  /** With `groups`: pages that stay plain links above the groups, in this order. */
+  ungrouped?: string[]
 }
 
 export interface NavGroupChild {
@@ -130,6 +135,68 @@ export function useMainNavigation(): ComputedRef<NavigationMenuItem[]> {
   })
 }
 
+const lastSegment = (path: string): string => path.split('/').filter(Boolean).at(-1) ?? ''
+
+/**
+ * The pages of a section in `groups`, in the order the groups name them. The `ungrouped` pages, such as `general`,
+ * stay plain links above the groups. The group of the current page (matched by its last segment, so a trailing
+ * slash does not matter) gets `current: true` and is the one open.
+ */
+function groupPages(section: NavigationItem, pages: NavigationItem[], groups: PageGroup[], ungrouped: string[], current: string): NavigationItem[] {
+  const bySegment = new Map(pages.map(page => [
+    lastSegment(page.path),
+    page,
+  ]))
+  const named = new Set(groups.flatMap(group => group.pages))
+  const currentGroup = bySegment.has(lastSegment(current))
+    ? groups.find(group => group.pages.includes(lastSegment(current)))
+    : undefined
+  // The listed plain links first, then any page no list names, so a new page still shows (the docs check flags it).
+  const listed = ungrouped.flatMap((segment) => {
+    const page = bySegment.get(segment)
+    return page
+      ? [page]
+      : []
+  })
+  const tree: NavigationItem[] = [
+    ...listed,
+    ...pages.filter(page => !named.has(lastSegment(page.path)) && !ungrouped.includes(lastSegment(page.path))),
+  ]
+  for (const group of groups) {
+    const children = group.pages.flatMap((segment) => {
+      const page = bySegment.get(segment)
+      return page
+        ? [page]
+        : []
+    })
+    if (!children.length)
+      continue
+    tree.push({
+      title: group.label,
+      path: `${section.path}#${group.label}`,
+      icon: group.icon,
+      current: group === currentGroup,
+      // Opens only the current page's group; Nuxt UI would match the route exactly, missing `/presets/vue-i18n/`.
+      defaultOpen: group === currentGroup,
+      // The layer makes sidebar icons grayscale. Every logo shows its colors until a page of a group is open; then only that group's does.
+      ...((!currentGroup || group === currentGroup) && {
+        ui: {
+          linkLeadingIcon: ['grayscale-0', group.iconClass].filter(Boolean).join(' '),
+        },
+      }),
+      children,
+    })
+  }
+  return tree
+}
+
+/** The active tab's config, from the current route. */
+function activeGroup(navigation: NavigationItem[], base: string, path: string): NavGroup | undefined {
+  const groups = navGroups(navigation, base)
+  const seg = segmentOf(path, base)
+  return groups.find(group => group.sections?.includes(seg)) ?? groups[0]
+}
+
 /** The sidebar tree for the active tab. */
 export function useFilteredNavigation(): ComputedRef<NavigationItem[]> {
   const route = useRoute()
@@ -138,20 +205,21 @@ export function useFilteredNavigation(): ComputedRef<NavigationItem[]> {
 
   return computed<NavigationItem[]>(() => {
     const base = content.value.base
-    const seg = segmentOf(route.path, base)
     const nav = navigation.value ?? []
 
-    const groups = navGroups(nav, base)
-    const active = groups.find(group => group.sections?.includes(seg)) ?? groups[0]
+    const active = activeGroup(nav, base, route.path)
     const sections = active?.sections
     // Manual tabs (no sections) have no content sidebar; fall back to the full tree.
     if (!sections?.length)
       return nav
 
-    // Single-section tab: that section's children as a flat tree.
+    // Single-section tab: that section's children as a flat tree, or in its page groups.
     if (sections.length === 1) {
       const node = nav.find(item => segmentOf(item.path, base) === sections[0])
-      return (node?.children ?? []).filter(child => child.path !== node?.path)
+      const pages = (node?.children ?? []).filter(child => child.path !== node?.path)
+      return node && active.groups?.length
+        ? groupPages(node, pages, active.groups, active.ungrouped ?? [], route.path)
+        : pages
     }
 
     // Multi-section tab: the sections as collapsible groups.

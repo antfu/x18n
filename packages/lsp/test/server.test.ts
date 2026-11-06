@@ -322,6 +322,53 @@ describe('language server', () => {
     expect(keys.get('pages.')?.usages).toBeUndefined()
   })
 
+  it('reports x18n/keyInfo for keys, calls, line ends and subtrees', async () => {
+    const info: { key: string, type: string, usages: number, range: { start: unknown }, locales: { code: string, present: boolean, source: boolean, value?: string }[] } = await client.sendRequest(methods.keyInfo, {
+      uri: uri('src/App.vue'),
+      position: await position('src/App.vue', 'app.greeting'),
+    })
+    expect(info.key).toBe('app.greeting')
+    expect(info.type).toBe('key')
+    expect(info.usages).toBeGreaterThan(0)
+    expect(info.range.start).toEqual(await position('src/App.vue', 'app.greeting', 0))
+    expect(info.locales.map(l => [l.code, l.present, l.source])).toEqual([
+      ['en', true, true],
+      ['de', true, false],
+    ])
+    expect(info.locales.find(l => l.code === 'en')?.value).toBe('Hello {name}')
+
+    const inside: { key: string } = await client.sendRequest(methods.keyInfo, {
+      uri: uri('src/App.vue'),
+      position: await position('src/App.vue', '{ name:'),
+    })
+    expect(inside.key).toBe('app.greeting')
+
+    const lineEnd: { key: string } = await client.sendRequest(methods.keyInfo, {
+      uri: uri('src/App.vue'),
+      position: await position('src/App.vue', ') }}</h1>', ') }}</h1>'.length),
+    })
+    expect(lineEnd.key).toBe('app.greeting')
+
+    const plain = await client.sendRequest(methods.keyInfo, {
+      uri: uri('src/App.vue'),
+      position: await position('src/App.vue', 'const page'),
+    })
+    expect(plain).toBeNull()
+
+    const resource: { key: string, locales: { present: boolean }[] } = await client.sendRequest(methods.keyInfo, {
+      uri: uri('src/locales/en.json'),
+      position: await position('src/locales/en.json', '"greeting": "Hello {name}"', '"greeting": "Hello {name}"'.length),
+    })
+    expect(resource.key).toBe('app.greeting')
+    expect(resource.locales.filter(l => l.present)).toHaveLength(2)
+
+    const subtree: { key: string, type: string, locales: unknown[] } = await client.sendRequest(methods.keyInfo, {
+      uri: uri('src/locales/en.json'),
+      position: await position('src/locales/en.json', '"pages"', 2),
+    })
+    expect(subtree).toMatchObject({ key: 'pages', type: 'subtree', locales: [] })
+  })
+
   it('finds keys by value with their usages through x18n/search', async () => {
     const matches: { key: string, locale: string, value: string, definition: Location, usages: Location[] }[] = await client.sendRequest(methods.search, { query: 'WILLKOMMEN', exact: true })
     expect(matches.map(m => [m.key, m.locale, m.value])).toEqual([
@@ -361,6 +408,27 @@ describe('language server', () => {
     }
     // The client applied nothing to disk.
     expect(await text('src/locales/en.json')).toContain('"unused"')
+  })
+
+  it('edits nothing when a command names an unknown project', async () => {
+    const applied: WorkspaceEdit[] = []
+    const handler = client.onRequest('workspace/applyEdit', (params: { edit: WorkspaceEdit }) => {
+      applied.push(params.edit)
+      return { applied: true }
+    })
+    try {
+      const result = await client.sendRequest('workspace/executeCommand', {
+        command: 'x18n.set',
+        arguments: [
+          { project: 'nope', key: 'app.greeting', value: 'x' },
+        ],
+      })
+      expect(result).toBeNull()
+      expect(applied).toEqual([])
+    }
+    finally {
+      handler.dispose()
+    }
   })
 
   it('sorts the usage report', async () => {

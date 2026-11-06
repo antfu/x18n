@@ -2,6 +2,7 @@ import type { WorkspaceFolder } from 'vscode'
 import type { LanguageClient } from 'vscode-languageclient/node'
 import { RelativePattern, Uri, window, workspace } from 'vscode'
 import { ExecuteCommandRequest } from 'vscode-languageclient/node'
+import { l10n } from './model/l10n'
 import { hasI18nAllySettings, parseMigrationResult } from './model/migration'
 
 async function readText(uri: Uri): Promise<string | undefined> {
@@ -40,7 +41,7 @@ export async function migrate(client: LanguageClient, folder: WorkspaceFolder): 
     ],
   }))
   if (!preview || preview.files.length === 0) {
-    void window.showWarningMessage(`x18n: nothing to migrate in ${folder.name}.${preview?.notes.length
+    void window.showWarningMessage(`${l10n.t('x18n: nothing to migrate in {0}.', folder.name)}${preview?.notes.length
       ? ` ${preview.notes.join(' ')}`
       : ''}`)
     return false
@@ -56,12 +57,12 @@ export async function migrate(client: LanguageClient, folder: WorkspaceFolder): 
   const notes = preview.notes.length
     ? `\n\n${preview.notes.join('\n')}`
     : ''
-  const write = 'Write Files'
-  const answer = await window.showInformationMessage(`x18n: write ${preview.files.map(f => f.path).join(', ')}?${notes}`, { modal: true }, write)
+  const write = l10n.t('Write Files')
+  const answer = await window.showInformationMessage(`${l10n.t('x18n: write {0}?', preview.files.map(f => f.path).join(', '))}${notes}`, { modal: true }, write)
   if (answer !== write)
     return false
   for (const file of preview.files)
     await workspace.fs.writeFile(Uri.joinPath(folder.uri, file.path), new TextEncoder().encode(file.content))
-  void window.showInformationMessage(`x18n: migrated ${folder.name} from i18n-ally.`)
+  void window.showInformationMessage(l10n.t('x18n: migrated {0} from i18n-ally.', folder.name))
   return true
 }

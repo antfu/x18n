@@ -291,7 +291,7 @@ describe('usageReportItems', () => {
     })
     expect([unused!.description, missing!.description]).toEqual(['1', '1'])
     const [titel] = await missing!.children!()
-    expect(titel).toMatchObject({ label: 'app.titel', description: '2 usages', location })
+    expect(titel).toMatchObject({ label: 'app.titel', description: 'Usages: 2', location })
     expect(await titel!.children!()).toHaveLength(2)
   })
 })
@@ -352,7 +352,7 @@ describe('reviewItems', () => {
       ref: { project: 'app', key: 'app.title' },
     })
     expect((await items[0]!.children!()).map(c => [c.label, c.description])).toEqual([
-      ['Too formal', 'request-change · Ada · 2026-10-15'],
+      ['Too formal', 'requested a change · Ada · 2026-10-15'],
       ['suggests "Anmelden"', 'suggestion · Ada · 2026-10-15'],
     ])
   })

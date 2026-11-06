@@ -66,6 +66,11 @@ export interface AnalyzerOptions {
   readonly namespaced: () => boolean
 }
 
+/** The level and options of a check in a config: the config setting, else the check's default. */
+export function checkSetting(check: Check, checks: ResolvedConfig['checks']): { level: Severity | 'off', options: JsonObject } {
+  return levelOf(checks[check.id]) ?? { level: check.defaultSeverity, options: {} }
+}
+
 function levelOf(setting: CheckSetting | undefined): { level: Severity | 'off', options: JsonObject } | undefined {
   if (setting === undefined)
     return undefined
@@ -201,7 +206,7 @@ function* runCheck(check: Check, level: Severity, inputs: Iterable<DiagnosticInp
 function runChecks(input: RunChecksInput): Diagnostic[] {
   const out: Diagnostic[] = []
   for (const check of input.registry.checks.values()) {
-    const setting = levelOf(input.config.checks[check.id]) ?? { level: check.defaultSeverity, options: {} }
+    const setting = checkSetting(check, input.config.checks)
     if (setting.level === 'off')
       continue
     try {

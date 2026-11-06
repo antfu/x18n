@@ -16,6 +16,39 @@ export interface ApplyResult {
   readonly revision: number;
   readonly changes: readonly FileChange[];
 }
+export interface ApprovalPlan {
+  readonly plan: Plan;
+  readonly approved: readonly {
+    readonly key: KeyString;
+    readonly locale: LocaleCode;
+    readonly value: string;
+    readonly machine: string | undefined;
+  }[];
+  readonly skipped: readonly ApprovalSkip[];
+}
+export interface ApprovalQuery {
+  readonly locales?: readonly LocaleCode[] | "all" | undefined;
+  readonly glob?: string | undefined;
+  readonly namespace?: string | undefined;
+  readonly machine?: boolean | string | undefined;
+  readonly state?: "needs-review" | "translated" | undefined;
+  readonly thread?: "suggested" | "commented" | "stale-approval" | undefined;
+  readonly values?: readonly {
+    readonly key: KeyString;
+    readonly locale: LocaleCode;
+    readonly value: string;
+  }[] | undefined;
+  readonly stale?: "skip" | "approve" | "mark-fresh" | undefined;
+  readonly overrideChangeRequests?: boolean | undefined;
+  readonly text?: string | undefined;
+  readonly author?: ReviewAuthor | undefined;
+  readonly limit?: number | undefined;
+}
+export interface ApprovalSkip {
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly reason: ApprovalSkipReason;
+}
 export interface ArgSource {
   readonly arg: number;
   readonly property?: string | undefined;
@@ -60,6 +93,7 @@ export interface Check {
   readonly docs?: string | undefined;
   readonly override?: boolean | undefined;
   readonly run: (_: CheckContext) => Iterable<DiagnosticInput>;
+  readonly message?: ((_: MessageCheckInput) => Iterable<MessageDiagnostic>) | undefined;
 }
 export interface CheckContext {
   readonly config: ResolvedConfig;
@@ -288,6 +322,12 @@ export interface Host {
   readonly logger?: Logger | undefined;
   readonly identity?: (() => Promise<ReviewAuthor | undefined>) | undefined;
   readonly executeModule?: ((_: string) => Promise<unknown>) | undefined;
+  readonly env?: ((_: string) => string | undefined) | undefined;
+}
+export interface ItemPlaceholder {
+  readonly token: string;
+  readonly raw: string;
+  readonly syntax: string;
 }
 export interface JsonObject {
   readonly [key: string]: JsonValue;
@@ -396,6 +436,10 @@ export interface LocaleInfo {
   readonly requiredPluralCategories: readonly Intl.LDMLPluralRule[];
   readonly requiredOrdinalCategories: readonly Intl.LDMLPluralRule[];
 }
+export interface LocalePair {
+  readonly from: LocaleCode;
+  readonly to: LocaleCode;
+}
 export interface Location {
   readonly path: string;
   readonly range: TextRange;
@@ -404,6 +448,18 @@ export interface Logger {
   readonly info: (_: string) => void;
   readonly warn: (_: string) => void;
   readonly error: (_: string) => void;
+}
+export interface MachineRecord {
+  readonly translator: string;
+  readonly model?: string | undefined;
+  readonly prompt?: string | undefined;
+  readonly time: string;
+  readonly value: string;
+}
+export interface MachineSource {
+  readonly translator: string;
+  readonly model?: string | undefined;
+  readonly prompt?: string | undefined;
 }
 export interface ManifestReader {
   readonly id: string;
@@ -429,6 +485,22 @@ export interface MessageChange {
   readonly revision?: string | undefined;
   readonly author?: string | undefined;
   readonly value?: MessageLeaf | undefined;
+}
+export interface MessageCheckInput {
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly value: string;
+  readonly source: string;
+  readonly sourceLocale: LocaleCode;
+  readonly localeInfo: LocaleInfo;
+  readonly sourceLocaleInfo: LocaleInfo;
+  readonly placeholders: (_: string) => readonly Placeholder[];
+  readonly glossary: readonly GlossaryEntry[];
+  readonly options: JsonObject;
+}
+export interface MessageDiagnostic {
+  readonly message: string;
+  readonly severity?: Severity | undefined;
 }
 export interface MessageHistory {
   readonly changes: ReadonlyMap<KeyString, ReadonlyMap<LocaleCode, MessageChange>>;
@@ -517,6 +589,8 @@ export interface Plugin {
   readonly derivedKeys?: readonly string[] | undefined;
   readonly transformResource?: ResourceTransform | undefined;
   readonly translatePrompt?: ((_: PromptDraft, _: PromptContext) => void) | undefined;
+  readonly translators?: readonly Translator[] | undefined;
+  readonly transformTranslation?: ((_: string, _: TransformTranslationContext) => string) | undefined;
   readonly reviewEdit?: ((_: ReviewEdit, _: ReviewEditContext) => readonly FileWrite[] | undefined) | undefined;
   readonly localeInfo?: ((_: LocaleCode) => Partial<LocaleInfo> | undefined) | undefined;
 }
@@ -577,6 +651,7 @@ export interface PluginRegistry {
   readonly extractors: readonly Extractor[];
   readonly histories: readonly HistoryProvider[];
   readonly reviewStores: readonly ReviewStore[];
+  readonly translators: ReadonlyMap<string, Translator>;
   readonly conflicts: readonly CapabilityConflict[];
   readonly formatFor: (_: string, _?: string) => Format | undefined;
   readonly formatIdFor: (_: string, _?: string) => string | undefined;
@@ -642,6 +717,13 @@ export interface Project {
   readonly reviews: (_?: ReviewFilter) => readonly ReviewThread[];
   readonly reviewFile: string | undefined;
   readonly reviewAuthor: () => Promise<ReviewAuthor | undefined>;
+  readonly machine: (_: KeyString, _: LocaleCode) => MachineRecord | undefined;
+  readonly planApprovals: (_: ApprovalQuery) => ApprovalPlan;
+  readonly translators: ReadonlyMap<string, Translator>;
+  readonly planTranslation: (_: TranslationOptions) => Promise<TranslationJob>;
+  readonly translate: (_: TranslationJob, _?: {
+    readonly signal?: AbortSignal | undefined;
+  }) => TranslationRun;
   readonly prompt: (_: "translate" | "review", _: LocaleCode, _?: PromptOptions) => PromptData;
   readonly explain: () => ProjectExplanation;
   readonly localeInfo: (_: LocaleCode) => LocaleInfo;
@@ -849,6 +931,23 @@ export interface ResolvedConfig {
     readonly file: string;
     readonly author: ReviewAuthor | undefined;
   };
+  readonly translate: {
+    readonly translators: readonly string[] | undefined;
+    readonly locales: {
+      readonly [locale: string]: readonly string[];
+    };
+    readonly subject: string | undefined;
+    readonly rules: {
+      readonly [locale: string]: readonly string[];
+    };
+    readonly limit: number;
+    readonly budget: {
+      readonly usd?: number | undefined;
+      readonly characters?: number | undefined;
+    };
+    readonly retries: number;
+    readonly cache: boolean;
+  };
   readonly pluginConfigs: Partial<PluginConfigs>;
   readonly origins: {
     readonly [key: string]: ConfigOrigin;
@@ -931,6 +1030,11 @@ export interface ReviewData {
       readonly [locale: LocaleCode]: string;
     };
   };
+  readonly machine?: {
+    readonly [key: KeyString]: {
+      readonly [locale: LocaleCode]: MachineRecord;
+    };
+  } | undefined;
 }
 export interface ReviewEdit {
   readonly type: ReviewType | "resolve-review" | "apply-suggestion";
@@ -949,6 +1053,7 @@ export interface ReviewFile {
   readonly x18n: 1;
   readonly threads?: ReviewData["threads"] | undefined;
   readonly sources?: ReviewData["sources"] | undefined;
+  readonly machine?: ReviewData["machine"] | undefined;
 }
 export interface ReviewFilter {
   readonly key?: KeyString | undefined;
@@ -1042,6 +1147,7 @@ export interface SerializableConfig {
   readonly glossary?: readonly GlossaryEntry[] | undefined;
   readonly history?: boolean | HistoryOptions | undefined;
   readonly review?: ReviewOptions | undefined;
+  readonly translate?: TranslateConfig | undefined;
   readonly projects?: readonly string[] | undefined;
 }
 export interface Setup {
@@ -1068,6 +1174,203 @@ export interface TextRange {
 }
 export interface ThreadComment extends ReviewComment {
   readonly stale: boolean;
+}
+export interface TransformTranslationContext {
+  readonly key: KeyString;
+  readonly source: string;
+  readonly from: LocaleCode;
+  readonly to: LocaleCode;
+  readonly translator: string;
+}
+export interface TranslateBatch {
+  readonly from: LocaleCode;
+  readonly to: LocaleCode;
+  readonly fromInfo: LocaleInfo;
+  readonly toInfo: LocaleInfo;
+  readonly items: readonly TranslateItem[];
+  readonly glossary: readonly {
+    readonly term: string;
+    readonly translation: string | undefined;
+    readonly doNotTranslate: boolean;
+    readonly note: string | undefined;
+  }[];
+  readonly rules: readonly string[];
+  readonly examples: readonly {
+    readonly source: string;
+    readonly target: string;
+  }[];
+  readonly subject: string | undefined;
+  readonly prompt: TranslatorPrompt;
+  readonly signal: AbortSignal;
+}
+export interface TranslateBatchResult {
+  readonly items: readonly TranslatedItem[];
+  readonly usage?: TranslationUsage | undefined;
+  readonly model?: string | undefined;
+}
+export interface TranslateConfig {
+  readonly translators?: readonly string[] | undefined;
+  readonly locales?: {
+    readonly [locale: string]: readonly string[];
+  } | undefined;
+  readonly subject?: string | undefined;
+  readonly rules?: {
+    readonly [locale: string]: readonly string[];
+  } | undefined;
+  readonly limit?: number | undefined;
+  readonly budget?: {
+    readonly usd?: number | undefined;
+    readonly characters?: number | undefined;
+  } | undefined;
+  readonly retries?: number | undefined;
+  readonly cache?: boolean | undefined;
+}
+export interface TranslatedItem {
+  readonly id: string;
+  readonly text: string;
+  readonly declined?: string | undefined;
+}
+export interface TranslateItem {
+  readonly id: string;
+  readonly key: KeyString;
+  readonly text: string;
+  readonly placeholders: readonly ItemPlaceholder[];
+  readonly description?: string | undefined;
+  readonly context?: readonly {
+    readonly path: string;
+    readonly line: number;
+    readonly snippet: string;
+  }[] | undefined;
+  readonly related?: readonly {
+    readonly locale: LocaleCode;
+    readonly value: string;
+  }[] | undefined;
+  readonly previous?: {
+    readonly source: string;
+    readonly translation: string;
+    readonly diff: string;
+  } | undefined;
+  readonly retry?: {
+    readonly output: string;
+    readonly problems: readonly string[];
+  } | undefined;
+}
+export interface TranslationBudget {
+  readonly usd?: number | undefined;
+  readonly characters?: number | undefined;
+}
+export interface TranslationCandidate {
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly value: string;
+  readonly translator: string;
+  readonly derived: "fresh" | "update";
+  readonly issues: readonly TranslationIssue[];
+  readonly write: TranslationWrite;
+  readonly cached: boolean;
+}
+export interface TranslationIssue {
+  readonly code: string;
+  readonly severity: "error" | "warning" | "info";
+  readonly message: string;
+}
+export interface TranslationJob {
+  readonly id: string;
+  readonly revision: number;
+  readonly items: readonly TranslationJobItem[];
+  readonly skipped: readonly TranslationSkip[];
+  readonly estimate: readonly TranslatorEstimate[];
+}
+export interface TranslationJobItem {
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly translator: string;
+  readonly kind: "fresh" | "update" | "cached";
+}
+export interface TranslationOptions {
+  readonly to: readonly LocaleCode[] | "all";
+  readonly keys?: string | readonly KeyString[] | undefined;
+  readonly namespace?: string | undefined;
+  readonly stale?: boolean | undefined;
+  readonly check?: boolean | readonly string[] | undefined;
+  readonly translators?: readonly (string | Translator)[] | undefined;
+  readonly write?: TranslationWrite | undefined;
+  readonly overwrite?: boolean | undefined;
+  readonly limit?: number | undefined;
+  readonly budget?: TranslationBudget | undefined;
+  readonly retries?: number | undefined;
+  readonly cache?: boolean | undefined;
+  readonly retryRejected?: boolean | undefined;
+}
+export interface TranslationRejection {
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly translators: readonly string[];
+  readonly output?: string | undefined;
+  readonly issues: readonly TranslationIssue[];
+}
+export interface TranslationResult {
+  readonly candidates: readonly TranslationCandidate[];
+  readonly rejected: readonly TranslationRejection[];
+  readonly skipped: readonly TranslationSkip[];
+  readonly usage: {
+    readonly [translator: string]: TranslationUsage;
+  };
+  readonly cancelled: boolean;
+  readonly plan: Plan;
+}
+export interface TranslationRun extends AsyncIterable<TranslationEvent> {
+  readonly result: Promise<TranslationResult>;
+}
+export interface TranslationSkip {
+  readonly key: KeyString;
+  readonly locale: LocaleCode;
+  readonly reason: TranslationSkipReason;
+}
+export interface TranslationUsage {
+  readonly requests: number;
+  readonly characters?: number | undefined;
+  readonly inputTokens?: number | undefined;
+  readonly outputTokens?: number | undefined;
+  readonly costUsd?: number | undefined;
+}
+export interface Translator {
+  readonly id: string;
+  readonly features: TranslatorFeatures;
+  readonly supports?: ((_: LocalePair, _: TranslatorContext) => boolean | Promise<boolean>) | undefined;
+  readonly fingerprint?: string | undefined;
+  readonly override?: boolean | undefined;
+  readonly translate: (_: TranslateBatch, _: TranslatorContext) => Promise<TranslateBatchResult>;
+}
+export interface TranslatorContext {
+  readonly secret: (_: SecretRef) => string | undefined;
+  readonly logger: Logger | undefined;
+  readonly cache: CacheStore | undefined;
+}
+export interface TranslatorEstimate {
+  readonly translator: string;
+  readonly items: number;
+  readonly characters: number;
+  readonly batches: number;
+  readonly paid: boolean;
+}
+export interface TranslatorFeatures {
+  readonly placeholders: "xml" | "token" | "raw";
+  readonly context: boolean;
+  readonly feedback: boolean;
+  readonly update: boolean;
+  readonly glossary: "native" | "prompt" | "none";
+  readonly batch: {
+    readonly maxItems: number;
+    readonly maxChars?: number | undefined;
+  };
+  readonly concurrency?: number | undefined;
+  readonly paid: boolean;
+}
+export interface TranslatorPrompt {
+  readonly system: string;
+  readonly user: string;
+  readonly version: string;
 }
 export interface TreeLeaf {
   readonly path: readonly string[];
@@ -1183,6 +1486,7 @@ export interface WriteOptions {
 // #endregion
 
 // #region Types
+export type ApprovalSkipReason = "empty" | "already-approved" | "value-changed" | "failing-check" | "changes-requested" | "stale" | "read-only" | "limit";
 export type CheckLevel = Severity | "off";
 export type CheckSetting = CheckLevel | readonly [CheckLevel, JsonObject];
 export type ConfigDraft = { -readonly [K in keyof Omit<ResolvedConfig, "origins" | "name">]: ResolvedConfig[K]; };
@@ -1193,6 +1497,9 @@ export type EditOp = {
   readonly locale: LocaleCode;
   readonly value: MessageLeaf;
   readonly replace?: boolean;
+  readonly machine?: (MachineSource & {
+    readonly time?: string | undefined;
+  }) | undefined;
 } | {
   readonly type: "rename";
   readonly from: KeyString;
@@ -1298,7 +1605,28 @@ export type ReporterLoader = () => Promise<{
 export type ResourceId = string;
 export type ReviewState = "changes-requested" | "approved" | "stale-approval" | "suggested" | "commented";
 export type ReviewType = "comment" | "approve" | "request-change" | "suggestion";
+export type SecretRef = string | {
+  readonly env: string;
+};
 export type Severity = "error" | "warning" | "info" | "hint";
+export type TranslationEvent = {
+  readonly type: "batch-start";
+  readonly translator: string;
+  readonly locale: LocaleCode;
+  readonly items: number;
+} | {
+  readonly type: "candidate";
+  readonly candidate: TranslationCandidate;
+} | {
+  readonly type: "rejected";
+  readonly rejection: TranslationRejection;
+} | {
+  readonly type: "usage";
+  readonly translator: string;
+  readonly usage: TranslationUsage;
+};
+export type TranslationSkipReason = "unsupported-pair" | "read-only" | "limit" | "budget" | "cached-rejection" | "cancelled" | "kept";
+export type TranslationWrite = "value" | "suggestion" | "none";
 export type UsageKind = "call" | "selector" | "accessor" | "constant" | "marker";
 export type X18nError = Diagnostic$1 & {
   readonly name: ErrorCode;
@@ -1321,6 +1649,7 @@ export declare function defineConfig(_: UserConfig & { readonly [K in keyof Plug
 export declare function definePlugin<const T extends Plugin>(_: T): T;
 export declare function definePlugin<O, const T extends Plugin>(_: (_: O) => T): (_: O) => T;
 export declare function definePreset<const T extends Preset>(_: T): T;
+export declare function defineTranslator<const T extends Translator>(_: T): T;
 export declare function diffText(_: string, _: string): TextEdit[];
 export declare function envelope<T>(_: string, _: T, _?: readonly WireDiagnostic[], _?: readonly ErrorInfo[]): Envelope<T>;
 export declare function extensionOf(_: string): string;
@@ -1336,6 +1665,7 @@ export declare function isX18nError(_: unknown): error is X18nError;
 export declare function joinKey(_: string | undefined, _: readonly string[], _?: KeySeparator): KeyString;
 export declare function keyMatcher(_: readonly KeyPattern[], _?: KeySeparator): (_: KeyString) => boolean;
 export declare function localeSpellingKey(_: LocaleCode): string;
+export declare function maskPlaceholders(_: string, _: readonly Placeholder[], _: "xml" | "token" | "raw"): Masked;
 export declare function parseLocaleInfo(_: LocaleCode): LocaleInfo;
 export declare function parseMessageBatch(_: Project, _: JsonValue): EditOp[];
 export declare function pathId(_: readonly string[]): string;
@@ -1345,6 +1675,7 @@ export declare function rangeContains(_: TextRange, _: number): boolean;
 export declare function relatedLocales(_: LocaleCode, _: readonly LocaleCode[], _: LocaleCode, _: Readonly<Record<LocaleCode, LocaleCode>>): LocaleCode[];
 export declare function renderExplanation(_: ProjectExplanation, _?: string | undefined): string;
 export declare function renderPrompt(_: PromptData): string;
+export declare function renderTranslatorPrompt(_: PromptInput): TranslatorPrompt;
 export declare function replaceKeyPrefix(_: KeyString, _: KeyString, _: KeyString): KeyString;
 export declare function resolveConfig(_: ResolveConfigOptions): Promise<Setup>;
 export declare function sortTree(_: MessageTree, _: (_: string, _: string) => number): MessageTree;
@@ -1360,6 +1691,7 @@ export declare function validate<T>(_: v.GenericSchema<T>, _: unknown): {
   readonly issues: readonly SchemaIssue[];
 };
 export declare function walkLeaves(_: MessageTree, _?: readonly string[]): Generator<TreeLeaf>;
+export declare function wordDiff(_: string, _: string): string;
 // #endregion
 
 // #region Variables
@@ -1368,8 +1700,17 @@ export declare const contractVersion: number;
 export declare const errors: ErrorHandles;
 export declare const PluginFileSchema: v.GenericSchema<PluginFile>;
 export declare const ReviewFileSchema: v.GenericSchema<ReviewFile>;
+export declare const TRANSLATOR_PROMPT_VERSION: string;
 // #endregion
 
 // #region Referenced (internal)
 type ErrorHandles = { readonly [C in ErrorCode]: (..._: Parameters<Diagnostics<typeof errorDefinitions, []>[C]>) => X18nError; };
+interface Masked {
+  readonly text: string;
+  readonly placeholders: readonly ItemPlaceholder[];
+  readonly restore: (_: string) => string;
+}
+type PromptInput = Omit<TranslateBatch, "prompt" | "signal"> & {
+  readonly mode: Translator["features"]["placeholders"];
+};
 // #endregion

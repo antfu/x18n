@@ -1,14 +1,34 @@
 import type { KeyString, LocaleCode, MessageLeaf } from '../types/model'
-import type { ReviewComment, ReviewData, ReviewFilter, ReviewState, ReviewThread, ThreadComment } from '../types/review'
+import type { MachineRecord, ReviewComment, ReviewData, ReviewFilter, ReviewState, ReviewThread, ThreadComment } from '../types/review'
 import { hashText } from '../text'
 
-export const noReviews: ReviewData = { threads: {}, sources: {} }
+export const noReviews: ReviewData = { threads: {}, sources: {}, machine: {} }
 
 /** What a review compares: message values as text. */
 export function valueText(value: MessageLeaf): string {
   return value === null
     ? ''
     : String(value)
+}
+
+/** The hash recorded for a machine-translated value in `machine`. */
+export function valueHash(value: MessageLeaf): string {
+  return hashText(valueText(value))
+}
+
+/**
+ * The machine record of a message while it holds: the current value is the one the translator wrote,
+ * and no open approval approved it.
+ */
+export function machineOf(data: ReviewData, key: KeyString, locale: LocaleCode, current: MessageLeaf | undefined): MachineRecord | undefined {
+  const record = data.machine?.[key]?.[locale]
+  if (!record || current === undefined || record.value !== valueHash(current))
+    return undefined
+  const text = valueText(current)
+  const approved = (data.threads[key]?.[locale] ?? []).some(c => c.type === 'approve' && !c.resolved && c.value === text)
+  return approved
+    ? undefined
+    : record
 }
 
 /** The hash recorded for a source value in `sources`. */
@@ -116,6 +136,7 @@ export function sortReviews(data: ReviewData): ReviewData {
   return {
     threads: sortSection(data.threads),
     sources: sortSection(data.sources),
+    machine: sortSection(data.machine ?? {}),
   }
 }
 
@@ -187,21 +208,36 @@ export class ReviewDraft {
     }
   }
 
+  recordMachine(key: KeyString, locale: LocaleCode, record: MachineRecord): void {
+    const machine = this.data.machine ?? {}
+    this.update({
+      ...this.data,
+      machine: {
+        ...machine,
+        [key]: { ...machine[key], [locale]: record },
+      },
+    })
+  }
+
   /** Threads and records follow a renamed key. */
   move(from: KeyString, to: KeyString): void {
-    if (this.data.threads[from] || this.data.sources[from]) {
+    const machine = this.data.machine ?? {}
+    if (this.data.threads[from] || this.data.sources[from] || machine[from]) {
       this.update({
         threads: rekey(this.data.threads, from, to),
         sources: rekey(this.data.sources, from, to),
+        machine: rekey(machine, from, to),
       })
     }
   }
 
   remove(key: KeyString, locales: 'all' | readonly LocaleCode[]): void {
-    if (this.data.threads[key] || this.data.sources[key]) {
+    const machine = this.data.machine ?? {}
+    if (this.data.threads[key] || this.data.sources[key] || machine[key]) {
       this.update({
         threads: without(this.data.threads, key, locales),
         sources: without(this.data.sources, key, locales),
+        machine: without(machine, key, locales),
       })
     }
   }

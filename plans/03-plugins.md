@@ -30,11 +30,15 @@ interface Plugin {
   readonly placeholders?: readonly PlaceholderSyntax[]
   readonly histories?: readonly HistoryProvider[]
   readonly reviewStores?: readonly ReviewStore[]
+  /** 1.x: machine translation services (20-translation.md). */
+  readonly translators?: readonly Translator[]
 
   readonly normalizeKey?: (raw: string, ctx: KeyContext) => string | undefined
   readonly derivedKeys?: readonly string[]
   readonly transformResource?: ResourceTransform
   readonly translatePrompt?: (draft: PromptDraft, ctx: PromptContext) => void
+  /** 1.x: changes a translator's output before checks run (20-translation.md). */
+  readonly transformTranslation?: (value: string, ctx: TransformTranslationContext) => string
   /** Called for each review edit of a plan; the writes it returns go into the same plan (12-reviews.md). */
   readonly reviewEdit?: (edit: ReviewEdit, ctx: ReviewEditContext) => readonly FileWrite[] | undefined
   /** Display data for a locale code (language name, flag, plural categories). The first plugin that returns a value wins; the built-in lenient parse is last. */

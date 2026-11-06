@@ -1,0 +1,44 @@
+{
+  "name": "@x18n/translator-ai",
+  "type": "module",
+  "version": "0.1.12",
+  "description": "x18n translator on the AI SDK: machine translation with any LLM",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/x18n-dev/x18n#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x18n-dev/x18n.git",
+    "directory": "packages/translator-ai"
+  },
+  "bugs": "https://github.com/x18n-dev/x18n/issues",
+  "keywords": [
+    "x18n",
+    "x18n-plugin",
+    "i18n",
+    "machine-translation",
+    "ai-sdk"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit",
+    "prepack": "pnpm build"
+  },
+  "dependencies": {
+    "@x18n/core": "workspace:*",
+    "ai": "catalog:deps"
+  },
+  "devDependencies": {
+    "@x18n/builtins": "workspace:*"
+  }
+}

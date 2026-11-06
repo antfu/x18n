@@ -1,5 +1,5 @@
 import type { ExtractCandidate } from '@x18n/builtins/extractors'
-import type { EditOp, ErrorInfo, FileChange, KeyString, MessageChange, OverlayHost, Plan, Project, ResourceNode, ReviewType, TextRange, Diagnostic as X18nDiagnostic } from '@x18n/core'
+import type { EditOp, ErrorInfo, FileChange, KeyString, KeyTarget, MessageChange, OverlayHost, Plan, Project, ResourceNode, ReviewType, TextRange, Usage, UsageMatch, Diagnostic as X18nDiagnostic } from '@x18n/core'
 import type { NodeHost } from '@x18n/node'
 import type {
   CodeAction,
@@ -104,6 +104,64 @@ function localeValueText(value: string | undefined): string {
     : value === ''
       ? '_empty_'
       : value.replace(/\r?\n/g, ' ')
+}
+
+/** The innermost call expression containing `offset`, when the scanner knows it. */
+function innermostUsage(usages: readonly UsageMatch[], offset: number): Usage | undefined {
+  let best: Usage | undefined
+  for (const { usage } of usages) {
+    const expression = usage.expression
+    if (expression === undefined || offset < expression.start || offset > expression.end)
+      continue
+    if (!best || (expression.end - expression.start) < (best.expression!.end - best.expression!.start))
+      best = usage
+  }
+  return best
+}
+
+/** A single key on the line ending at `offset`, from usages or resource keys. */
+function lineEndKey(
+  usages: readonly UsageMatch[],
+  nodes: readonly ResourceNode[],
+  lineStart: number,
+  offset: number,
+): KeyTarget | undefined {
+  let bestUsage: Usage | undefined
+  let usageCount = 0
+  for (const { usage } of usages) {
+    if (usage.key === undefined || usage.range.start < lineStart || usage.range.end > offset)
+      continue
+    usageCount++
+    bestUsage = usage
+  }
+  if (usageCount > 1)
+    return undefined
+  if (bestUsage && bestUsage.key !== undefined) {
+    return {
+      type: 'key',
+      key: bestUsage.key,
+      range: bestUsage.range,
+      source: 'usage',
+      usage: bestUsage,
+    }
+  }
+  let bestNode: ResourceNode | undefined
+  let nodeCount = 0
+  for (const node of nodes) {
+    if (!node.leaf || node.range.key.start < lineStart || node.range.key.end > offset)
+      continue
+    nodeCount++
+    bestNode = node
+  }
+  if (nodeCount === 1 && bestNode) {
+    return {
+      type: 'key',
+      key: bestNode.key,
+      range: bestNode.range.key,
+      source: 'resource',
+    }
+  }
+  return undefined
 }
 
 const timeUnits = [
@@ -559,6 +617,111 @@ class Server {
   }
 
   /** ---- Editor features ---- */
+  /**
+   * The key under a position for `x18n/keyInfo`. `keyAt` covers the key
+   * literal; the whole call belongs to the same key too, and the innermost
+   * call wins so a nested key never resolves to its parent's key. A position
+   * on the last character or at the end of the line covers the end-of-line
+   * annotation the editor draws, when the line holds exactly one key.
+   */
+  keyInfoTarget(entry: ServerProject, path: string, offset: number): KeyTarget | undefined {
+    const exact = entry.project.keyAt(path, offset)
+    if (exact !== undefined)
+      return exact
+    const usages = entry.project.usages({ path })
+    const innermost = innermostUsage(usages, offset)
+    if (innermost) {
+      const key = innermost.key
+      if (key === undefined)
+        return undefined
+      return {
+        type: 'key',
+        key,
+        range: innermost.range,
+        source: 'usage',
+        usage: innermost,
+      }
+    }
+    const text = entry.project.text(path)
+    if (text === undefined)
+      return undefined
+    const lineStart = text.lastIndexOf('\n', offset - 1) + 1
+    const next = text.indexOf('\n', offset)
+    let lineEnd = next === -1
+      ? text.length
+      : next
+    if (lineEnd > lineStart && text.charCodeAt(lineEnd - 1) === 13)
+      lineEnd--
+    // The last character and the true line end map to the annotation; one past
+    // the line end must not resolve the next line's key.
+    if (offset < lineEnd - 1 || offset > lineEnd)
+      return undefined
+    return lineEndKey(usages, entry.project.nodes(path), lineStart, offset)
+  }
+
+  /** Details an editor popup draws for the key under a position. */
+  async keyInfo(params: P.PositionParams): Promise<P.KeyInfoResult | null> {
+    await this.ready
+    await this.flush(params.uri)
+    const at = this.at({
+      textDocument: { uri: params.uri },
+      position: params.position,
+    })
+    if (!at)
+      return null
+    const target = this.keyInfoTarget(at.entry, at.path, at.offset)
+    if (!target)
+      return null
+    const { project } = at.entry
+    const label = target.type === 'key'
+      ? project.get(target.key)?.label
+      : undefined
+    const changes = target.type === 'key'
+      ? project.locales.map(locale => project.history(target.key, locale))
+      : []
+    const outdated = target.type === 'key'
+      ? new Set(project.analyze().coverage.filter(c => c.outdated.includes(target.key)).map(c => c.locale))
+      : new Set<string>()
+    const threads = target.type === 'key'
+      ? project.reviews({ key: target.key, open: true })
+      : []
+    const usages = target.type === 'subtree'
+      ? project.usages({ prefix: target.key })
+      : project.usages({ key: target.key })
+    return {
+      project: at.entry.name,
+      key: target.key,
+      type: target.type,
+      label,
+      range: this.range(at.entry, at.path, target.range),
+      locales: target.type === 'key'
+        ? project.locales.map((locale, i) => {
+            const message = project.lookup(target.key, locale)
+            const change = changes[i]
+            return {
+              code: locale,
+              flag: this.settings.showFlags
+                ? project.localeInfo(locale).flag
+                : undefined,
+              value: display(message?.value),
+              state: message?.state,
+              changed: change
+                ? changedAt(change).split('·')[0]?.trim() || undefined
+                : undefined,
+              outdated: outdated.has(locale),
+              source: locale === project.sourceLocale,
+              present: message !== undefined,
+            }
+          })
+        : [],
+      threads: threads.map(t => ({
+        locale: t.locale,
+        state: t.state!.replace('-', ' '),
+      })),
+      usages: usages.length,
+    }
+  }
+
   async hover(params: TextDocumentPositionParams): Promise<Hover | null> {
     await this.ready
     await this.flush(params.textDocument.uri)
@@ -949,7 +1112,7 @@ class Server {
       return this.extractFile(input.uri)
     if (params.command === commands.migrateI18nAlly && typeof input.uri === 'string')
       return migrateI18nAlly(fileURLToPath(input.uri))
-    const entry = this.projects.find(p => p.name === input.project) ?? this.projects[0]
+    const entry = this.entryByName(input.project)
     if (!entry || typeof input.key !== 'string')
       return null
     const key = entry.project.parseKey(input.key)
@@ -1402,6 +1565,7 @@ export function setupServer(connection: Connection, options: ServerOptions = {})
     return server.projectInfos()
   })
   connection.onRequest(methods.keyAt, (params: P.PositionParams) => server.keyAt(params))
+  connection.onRequest(methods.keyInfo, (params: P.PositionParams) => server.keyInfo(params))
   connection.onRequest(methods.tree, async (params: P.TreeParams) => {
     await server.ready
     return server.tree(params ?? {})

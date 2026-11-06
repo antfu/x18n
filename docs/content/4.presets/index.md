@@ -5,58 +5,129 @@ description: The built-in presets, how x18n detects them, and the placeholders a
 
 A preset is a group of plugins for one i18n library. It tells x18n which calls are translate calls, how namespaces work, which placeholder syntax the messages use, and which code replaces a hard string.
 
+## Built-in presets
+
+<!-- generated:preset-groups -->
+
+`general` applies to every project, after the others:
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`general`](/presets/general) | none | always |
+
+### :x18n-icon{name="i-logos-vue"} Vue
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`vue-i18n`](/presets/vue-i18n) | vue-i18n | `vue-i18n`, `vuex-i18n`, `petite-vue-i18n`, `vue-i18n-bridge`, `@intlify/*` |
+| [`fluent-vue`](/presets/fluent-vue) | fluent-vue | `fluent-vue`, `fluent-vue-loader`, `rollup-plugin-fluent-vue`, `unplugin-fluent-vue` |
+| [`laravel-vue-i18n`](/presets/laravel-vue-i18n) | laravel-vue-i18n | `laravel-vue-i18n` |
+
+### :x18n-icon{name="i-logos-nuxt-icon"} Nuxt
+
 | Preset | Library | Detected from |
 | --- | --- | --- |
 | [`nuxt-i18n`](/presets/nuxt-i18n) | @nuxtjs/i18n | `@nuxtjs/i18n`, `nuxt-i18n` |
 | [`nuxt-i18n-micro`](/presets/nuxt-i18n-micro) | Nuxt I18n Micro | `nuxt-i18n-micro` |
-| [`vue-i18n`](/presets/vue-i18n) | vue-i18n | `vue-i18n`, `vuex-i18n`, `petite-vue-i18n`, `vue-i18n-bridge`, `@intlify/*` |
-| [`fluent-vue`](/presets/fluent-vue) | fluent-vue | `fluent-vue`, `fluent-vue-loader`, `rollup-plugin-fluent-vue`, `unplugin-fluent-vue` |
-| [`fluent-react`](/presets/fluent-react) | @fluent/react | `@fluent/react` |
-| [`i18next-shopify`](/presets/i18next-shopify) | i18next-shopify | `@shopify/i18next-shopify` |
+
+### :x18n-icon{name="i-logos-react"} React
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`i18next`](/presets/i18next) | i18next | `i18next` |
 | [`react-i18next`](/presets/react-i18next) | react-i18next | `react-i18next`, `next-i18next` |
-| [`svelte-i18next`](/presets/svelte-i18next) | svelte-i18next | `svelte-i18next` |
+| [`i18next-shopify`](/presets/i18next-shopify) | i18next-shopify | `@shopify/i18next-shopify` |
+| [`react-intl`](/presets/react-intl) | react-intl (FormatJS) | `react-intl`, `@formatjs/*` |
+| [`lingui`](/presets/lingui) | Lingui | `@lingui/core`, `@lingui/react`, `@lingui/macro` |
+| [`fluent-react`](/presets/fluent-react) | @fluent/react | `@fluent/react` |
+
+### :x18n-icon{name="i-simple-icons-nextdotjs"} Next.js
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`next-intl`](/presets/next-intl) | next-intl | `next-intl`, `use-intl` |
 | [`next-translate`](/presets/next-translate) | next-translate | `next-translate` |
 | [`next-international`](/presets/next-international) | next-international | `next-international` |
-| [`i18next`](/presets/i18next) | i18next | `i18next` |
-| [`next-intl`](/presets/next-intl) | next-intl | `next-intl`, `use-intl` |
-| [`react-intl`](/presets/react-intl) | react-intl (FormatJS) | `react-intl`, `@formatjs/*` |
-| [`svelte-i18n`](/presets/svelte-i18n) | svelte-i18n, sveltekit-i18n | `svelte-i18n`, `sveltekit-i18n`, `@sveltekit-i18n/base` |
-| [`solid-primitives-i18n`](/presets/solid-primitives-i18n) | @solid-primitives/i18n | `@solid-primitives/i18n` |
-| [`paraglide`](/presets/paraglide) | Paraglide JS | `@inlang/paraglide-js`, `@inlang/paraglide-sveltekit`, `@inlang/paraglide-next`, `@inlang/paraglide-astro`, `@inlang/paraglide-vite` |
-| [`gravity-ui-i18n`](/presets/gravity-ui-i18n) | @gravity-ui/i18n | `@gravity-ui/i18n` |
-| [`typesafe-i18n`](/presets/typesafe-i18n) | typesafe-i18n | `typesafe-i18n` |
+
+### :x18n-icon{name="i-logos-angular-icon"} Angular
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
 | [`angular-localize`](/presets/angular-localize) | @angular/localize | `@angular/localize` with an `i18n` block in `angular.json` |
 | [`ngx-translate`](/presets/ngx-translate) | ngx-translate | `@ngx-translate/core` |
 | [`transloco`](/presets/transloco) | Transloco | `@jsverse/transloco`, `@ngneat/transloco` |
 | [`angular-i18next`](/presets/angular-i18next) | angular-i18next | `angular-i18next` |
-| [`lingui`](/presets/lingui) | Lingui | `@lingui/core`, `@lingui/react`, `@lingui/macro` |
-| [`lit-localize`](/presets/lit-localize) | `@lit/localize` | `@lit/localize` |
 
+### :x18n-icon{name="i-logos-svelte-icon"} Svelte
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`svelte-i18n`](/presets/svelte-i18n) | svelte-i18n, sveltekit-i18n | `svelte-i18n`, `sveltekit-i18n`, `@sveltekit-i18n/base` |
+| [`svelte-i18next`](/presets/svelte-i18next) | svelte-i18next | `svelte-i18next` |
+
+### :x18n-icon{name="i-logos-javascript"} Other JavaScript
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`paraglide`](/presets/paraglide) | Paraglide JS | `@inlang/paraglide-js`, `@inlang/paraglide-sveltekit`, `@inlang/paraglide-next`, `@inlang/paraglide-astro`, `@inlang/paraglide-vite` |
+| [`solid-primitives-i18n`](/presets/solid-primitives-i18n) | @solid-primitives/i18n | `@solid-primitives/i18n` |
+| [`lit-localize`](/presets/lit-localize) | `@lit/localize` | `@lit/localize` |
+| [`typesafe-i18n`](/presets/typesafe-i18n) | typesafe-i18n | `typesafe-i18n` |
+| [`gravity-ui-i18n`](/presets/gravity-ui-i18n) | @gravity-ui/i18n | `@gravity-ui/i18n` |
+| [`adonisjs`](/presets/adonisjs) | AdonisJS i18n | `@adonisjs/i18n` |
 | [`ember-intl`](/presets/ember-intl) | ember-intl | `ember-intl` |
 | [`polyglot`](/presets/polyglot) | Polyglot.js | `node-polyglot` |
 | [`globalize`](/presets/globalize) | Globalize | `globalize` |
 | [`i18n-tag`](/presets/i18n-tag) | es2015-i18n-tag | `es2015-i18n-tag` |
 | [`ruby-i18n-js`](/presets/ruby-i18n-js) | i18n-js | `i18n-js` |
 | [`ui5`](/presets/ui5) | SAPUI5, OpenUI5 | `@ui5/cli` |
+
+### :x18n-icon{name="i-ph-puzzle-piece-duotone"} Extensions
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
 | [`chrome-extension`](/presets/chrome-extension) | Chrome and WebExtension i18n | `default_locale` in `manifest.json`, `src/manifest.json` or `public/manifest.json` |
 | [`vscode-extension`](/presets/vscode-extension) | VS Code extension API | `vscode`, `@types/vscode` |
-| [`laravel-vue-i18n`](/presets/laravel-vue-i18n) | laravel-vue-i18n | `laravel-vue-i18n` |
-| [`laravel`](/presets/laravel) | Laravel | `laravel/framework` in `composer.json` |
-| [`adonisjs`](/presets/adonisjs) | AdonisJS i18n | `@adonisjs/i18n` |
-| [`php-joomla`](/presets/php-joomla) | Joomla | `joomla/application`, `joomla/cms` in `composer.json` |
-| [`php-gettext`](/presets/php-gettext) | gettext in PHP | never: list it in `presets` |
-| [`ruby-rails`](/presets/ruby-rails) | Ruby on Rails | `rails`, `rails-i18n`, `railties` in `Gemfile` |
-| [`jekyll`](/presets/jekyll) | jekyll-multiple-languages-plugin | `jekyll-multiple-languages-plugin` in `Gemfile` |
+
+### :x18n-icon{name="i-ph-device-mobile-duotone"} Mobile
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
 | [`flutter`](/presets/flutter) | flutter_i18n | `flutter_i18n` in `pubspec.yaml` |
 | [`easy-localization`](/presets/easy-localization) | easy_localization | `easy_localization` in `pubspec.yaml` |
 | [`flutter-translate`](/presets/flutter-translate) | flutter_translate | `flutter_translate` in `pubspec.yaml` |
-| [`python-gettext`](/presets/python-gettext) | gettext in Python: Django, Flask-Babel, Babel | `django`, `flask-babel` in `pyproject.toml` or `requirements.txt` |
-| [`i18nice`](/presets/i18nice) | i18nice, python-i18n | `i18nice`, `python-i18n` in `pyproject.toml` or `requirements.txt` |
-| [`cargo-i18n`](/presets/cargo-i18n) | cargo-i18n (Fluent) | `i18n-embed-fl`, `i18n-embed` in `Cargo.toml` |
-| [`dotnet-resx`](/presets/dotnet-resx) | .NET `IStringLocalizer` and `.resx` resources | a `*.csproj`, `*.vbproj` or `*.fsproj` and a `*.resx` file |
 | [`android-strings`](/presets/android-strings) | Android string resources | `AndroidManifest.xml` with `res/values` |
 
-| [`general`](/presets/general) | none | always |
+### :x18n-icon{name="i-logos-php"} PHP
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`laravel`](/presets/laravel) | Laravel | `laravel/framework` in `composer.json` |
+| [`php-joomla`](/presets/php-joomla) | Joomla | `joomla/application`, `joomla/cms` in `composer.json` |
+| [`php-gettext`](/presets/php-gettext) | gettext in PHP | never: list it in `presets` |
+
+### :x18n-icon{name="i-logos-ruby"} Ruby
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`ruby-rails`](/presets/ruby-rails) | Ruby on Rails | `rails`, `rails-i18n`, `railties` in `Gemfile` |
+| [`jekyll`](/presets/jekyll) | jekyll-multiple-languages-plugin | `jekyll-multiple-languages-plugin` in `Gemfile` |
+
+### :x18n-icon{name="i-logos-python"} Python
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`python-gettext`](/presets/python-gettext) | gettext in Python: Django, Flask-Babel, Babel | `django`, `flask-babel` in `pyproject.toml` or `requirements.txt` |
+| [`i18nice`](/presets/i18nice) | i18nice, python-i18n | `i18nice`, `python-i18n` in `pyproject.toml` or `requirements.txt` |
+
+### :x18n-icon{name="i-ph-terminal-window-duotone"} Rust and .NET
+
+| Preset | Library | Detected from |
+| --- | --- | --- |
+| [`cargo-i18n`](/presets/cargo-i18n) | cargo-i18n (Fluent) | `i18n-embed-fl`, `i18n-embed` in `Cargo.toml` |
+| [`dotnet-resx`](/presets/dotnet-resx) | .NET `IStringLocalizer` and `.resx` resources | a `*.csproj`, `*.vbproj` or `*.fsproj` and a `*.resx` file |
+
+<!-- /generated:preset-groups -->
 
 ## Detection
 

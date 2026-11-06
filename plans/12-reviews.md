@@ -60,12 +60,95 @@ A plugin that keeps its own review state (a `verified` field beside each message
 
 Edit ops: `review` (`{ key, locale, review, text?, suggestion?, author? }`), `resolve-review` (`{ id }`), `apply-suggestion` (`{ id }`: sets the value and resolves it), `mark-fresh` (`{ key, locales? }`). Reads: `project.reviews(filter)`, `KeyInfo.reviews`, `CheckContext.reviews`.
 
+## Batch approval
+
+Machine translation ([20-translation.md](./20-translation.md)) writes many values marked `needs-review` at once, so reviewers need to approve many at once too. A batch approval is one plan of `review` ops of type `approve`, one per message, chosen by a query and guarded so that nobody approves something they did not see.
+
+### What an approval writes
+
+For one message or many, an approval:
+
+- adds an `approve` review that stores the approved value, as today;
+- (planned, with state writes in [20-translation.md](./20-translation.md#next)) sets the message's translation state to `reviewed` in formats that record state (XLIFF `state="reviewed"`, PO drops `fuzzy`);
+- clears the machine-translated flag, which is derived: the provenance record stays, and an approval of the current value outranks it (D41, [20-translation.md](./20-translation.md#provenance)).
+
+With `stale: 'mark-fresh'`, it also adds a `mark-fresh` op for the message, so an approved stale translation stops being stale.
+
+### Query and plan
+
+The types are `ApprovalQuery`, `ApprovalPlan` and `ApprovalSkip` in [`packages/core/src/types/review.ts`](../packages/core/src/types/review.ts).
+
+```ts
+interface Project {
+  readonly planApprovals: (query: ApprovalQuery) => ApprovalPlan
+}
+
+interface ApprovalQuery {
+  readonly locales: readonly LocaleCode[] | 'all'
+  /** Key glob: `*` inside a segment, `**` across segments. */
+  readonly glob?: string | undefined
+  readonly namespace?: string | undefined
+  /** Only machine-translated messages; with a translator id, only its output. */
+  readonly machine?: boolean | string | undefined
+  /** Only messages whose format records this state. */
+  readonly state?: 'needs-review' | 'translated' | undefined
+  /** Only messages whose review thread has this state. */
+  readonly thread?: 'suggested' | 'commented' | 'stale-approval' | undefined
+  /**
+   * The exact values the reviewer saw. A message whose value differs is skipped with `value-changed`.
+   * Surfaces that show values (UI, VS Code) MUST pass them; the CLI passes them from `--from <file>`.
+   */
+  readonly values?: readonly { readonly key: KeyString, readonly locale: LocaleCode, readonly value: string }[] | undefined
+  /** How to treat stale translations: skip them (default), approve them as they are, or approve and mark them fresh. */
+  readonly stale?: 'skip' | 'approve' | 'mark-fresh' | undefined
+  /** Approve messages whose thread has an open change request. Default false. */
+  readonly overrideChangeRequests?: boolean | undefined
+  /** Text added to every approval. */
+  readonly text?: string | undefined
+  readonly author?: ReviewAuthor | undefined
+  readonly limit?: number | undefined
+}
+
+interface ApprovalPlan {
+  readonly plan: Plan
+  /** Sorted by key, then locale. */
+  readonly approved: readonly { readonly key: KeyString, readonly locale: LocaleCode, readonly value: string, readonly machine: string | undefined }[]
+  readonly skipped: readonly ApprovalSkip[]
+}
+
+interface ApprovalSkip {
+  readonly key: KeyString
+  readonly locale: LocaleCode
+  readonly reason:
+    | 'empty' // nothing to approve
+    | 'already-approved' // an open approval already holds this value
+    | 'value-changed' // differs from `values`
+    | 'failing-check' // a blocking message check fails on the value (placeholder-mismatch, invalid-syntax, ...)
+    | 'changes-requested' // open change request, without `overrideChangeRequests`
+    | 'stale' // stale translation, with `stale: 'skip'`
+    | 'read-only'
+    | 'limit'
+}
+```
+
+Rules:
+
+- The query MUST narrow the selection. A query with only `locales` and no other filter, `values` or `glob` is refused with `X18N5006` unless the caller sets `glob: '**'`, so "approve everything" is never the default.
+- The source locale is never approved; `locales` defaults to every other locale. Messages the filters leave out are not skips; only selected messages that are not approved are listed, with their reason.
+- `failing-check` is the placeholder and syntax comparison a translation run uses, so a value that a run would reject cannot be approved in bulk. A single approval still can.
+- One plan holds every approval, one review file write and the state writes, and fails as a whole when the files changed since planning.
+- Batch approval is a human act. It is not an MCP tool, and the `x18n:approve` RPC is not an agent tool. Agents leave `x18n review approve` single approvals or suggestions, as `x18n prompt review` already asks ([10-agents.md](./10-agents.md)).
+
+### Batch suggestions (planned)
+
+The same query serves `planSuggestionApplies(query)`: apply the open suggestions it matches, for example every suggestion a translation run left on stale values (`machine: 'ai'`). It reuses the skip reasons and adds `no-suggestion`.
+
 ## Surfaces
 
 | Surface | Features |
 | --- | --- |
-| CLI | `x18n review list [key] [--locale] [--open]`, `comment`, `approve`, `request-change --text`, `suggest --value`, `resolve <id>`, `apply-suggestion <id>`, `mark-fresh <key>`. `x18n get` lists the threads. |
+| CLI | `x18n review list [key] [--locale] [--open]`, `comment`, `approve`, `request-change --text`, `suggest --value`, `resolve <id>`, `apply-suggestion <id>`, `mark-fresh <key>`. `x18n get` lists the threads. Batch (shipped): `x18n review approve [glob] --locale <l,...> [--namespace] [--machine [translator]] [--state needs-review] [--thread suggested] [--from <file>] [--stale skip\|approve\|mark-fresh] [--override-change-requests] [--text] [--limit] [--dry-run] [--yes] [--json]`. A glob or any filter flag makes it a batch; the bare `approve <key>` stays a single approval. A batch prints what it approves and skips; on a TTY it asks before writing more than 20 approvals unless `--yes`. `--from` reads `{ "de": { "<key>": "<value>" } }` (the shape `x18n apply` takes) as `values`, so a reviewer can approve exactly the file they read. Planned: `x18n review apply-suggestion` with the same flags and no id. |
 | LSP | Diagnostic `review-changes-requested` with a quick fix that resolves it; hover shows the open review state per locale; `x18n/reviews` request; `x18n.review`, `x18n.resolveReview`, `x18n.applySuggestion` commands, which write at once. |
-| VS Code | Comments API threads on the key in each locale's resource, with reply as comment, approve, request change or suggestion, and resolve and apply buttons; "Review Key" from the cursor or the Keys view; Reviews view. |
-| UI | Thread under each locale value on the key page, with a form for new reviews; `/reviews` page filtered by state; filter keys by open reviews and a state icon per cell. Writes go through `x18n:apply`; reads through `x18n:reviews`. |
+| VS Code | Comments API threads on the key in each locale's resource, with reply as comment, approve, request change or suggestion, and resolve and apply buttons; "Review Key" from the cursor or the Keys view; Reviews view. Batch (planned): "Approve Selected" in the Keys and Reviews views (multi-select), and "Approve Machine Translations in Locale" with a confirm that shows the counts, through LSP `x18n/planApprovals` and the `x18n.approve` command. |
+| UI | Thread under each locale value on the key page, with a form for new reviews; `/reviews` page filtered by state; filter keys by open reviews and a state icon per cell. Writes go through `x18n:apply`; reads through `x18n:reviews`. Batch (planned): in the keys grid, select cells or rows (checkbox, shift-click, select all in the filter) and "Approve" from the bulk bar; the plan carries the values on screen. `/reviews` gets a **Needs review** queue per locale: machine-translated and `needs-review` messages with source, value, issues, related values and a usage snippet, approved one by one (`a` approve, `e` edit, `s` skip, `j`/`k` move) or all shown at once. The translate panel offers "Apply and approve" for the rows a reviewer accepted. Every batch shows the approved and skipped counts with reasons before it writes. RPC `x18n:plan-approvals` (query) and `x18n:approve` (action, not an agent tool). |
 | Agents | `x18n prompt review` asks for `x18n review suggest` and `request-change` commands; MCP tools `x18n_reviews` and `x18n_review`. |

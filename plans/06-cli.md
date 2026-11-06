@@ -94,7 +94,7 @@ All write commands support `--dry-run`, which prints the plan (files and edits) 
 
 ### Reviews
 
-`x18n review list [key] | comment <key> | approve <key> | request-change <key> --text | suggest <key> --value | resolve <id> | apply-suggestion <id> | mark-fresh <key>`, with `--locale`, `--text`, `--author`, `--open` and `--dry-run`. See [12-reviews.md](./12-reviews.md).
+`x18n review list [key] | comment <key> | approve <key> | request-change <key> --text | suggest <key> --value | resolve <id> | apply-suggestion <id> | mark-fresh <key>`, with `--locale`, `--text`, `--author`, `--open` and `--dry-run`. `approve` and `apply-suggestion` also run in batches, with a glob and filters ([12-reviews.md](./12-reviews.md#batch-approval)).
 
 ### Typegen (1.x)
 

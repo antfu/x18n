@@ -1,5 +1,6 @@
 import type { KeySeparator } from './config'
 import type { ReviewAuthor, ReviewType } from './review'
+import type { MachineSource } from './translate'
 
 // Domain names from the glossary. Branding them would force a cast at every boundary.
 /* eslint-disable slop/no-trivial-type-aliases */
@@ -137,31 +138,39 @@ export type Severity = 'error' | 'warning' | 'info' | 'hint'
 
 /** A `set` with `replace: false` is skipped, with a warning, when it would replace other keys or a message on its path. */
 export type EditOp
-  = | { readonly type: 'set', readonly key: KeyString, readonly locale: LocaleCode, readonly value: MessageLeaf, readonly replace?: boolean }
-    | { readonly type: 'rename', readonly from: KeyString, readonly to: KeyString, readonly usages?: boolean }
-    | { readonly type: 'rename-prefix', readonly from: KeyString, readonly to: KeyString, readonly usages?: boolean }
-    | { readonly type: 'delete', readonly key: KeyString, readonly locales?: 'all' | readonly LocaleCode[] }
-    | { readonly type: 'extract', readonly items: readonly ExtractItem[] }
+  = | {
+    readonly type: 'set'
+    readonly key: KeyString
+    readonly locale: LocaleCode
+    readonly value: MessageLeaf
+    readonly replace?: boolean
+    /** The value comes from a translator: recorded in the review file as machine-translated. `time` is filled in when planned. */
+    readonly machine?: (MachineSource & { readonly time?: string | undefined }) | undefined
+  }
+  | { readonly type: 'rename', readonly from: KeyString, readonly to: KeyString, readonly usages?: boolean }
+  | { readonly type: 'rename-prefix', readonly from: KeyString, readonly to: KeyString, readonly usages?: boolean }
+  | { readonly type: 'delete', readonly key: KeyString, readonly locales?: 'all' | readonly LocaleCode[] }
+  | { readonly type: 'extract', readonly items: readonly ExtractItem[] }
     /** Re-write resources with the configured sort and indent. */
-    | { readonly type: 'format', readonly paths?: readonly string[] }
+  | { readonly type: 'format', readonly paths?: readonly string[] }
     /** Adds a comment to the review thread of a message. `id` and `time` are filled in when planned. */
-    | {
-      readonly type: 'review'
-      readonly key: KeyString
-      readonly locale: LocaleCode
-      readonly review: ReviewType
-      readonly text?: string | undefined
-      /** The proposed value, required for `suggestion`. */
-      readonly suggestion?: string | undefined
-      readonly author?: ReviewAuthor | undefined
-      readonly id?: string | undefined
-      readonly time?: string | undefined
-    }
-    | { readonly type: 'resolve-review', readonly id: string }
+  | {
+    readonly type: 'review'
+    readonly key: KeyString
+    readonly locale: LocaleCode
+    readonly review: ReviewType
+    readonly text?: string | undefined
+    /** The proposed value, required for `suggestion`. */
+    readonly suggestion?: string | undefined
+    readonly author?: ReviewAuthor | undefined
+    readonly id?: string | undefined
+    readonly time?: string | undefined
+  }
+  | { readonly type: 'resolve-review', readonly id: string }
     /** Sets the value of a suggestion and resolves it. */
-    | { readonly type: 'apply-suggestion', readonly id: string }
+  | { readonly type: 'apply-suggestion', readonly id: string }
     /** Records that translations are up to date with the current source value. Default: every translated locale. */
-    | { readonly type: 'mark-fresh', readonly key: KeyString, readonly locales?: readonly LocaleCode[] | undefined }
+  | { readonly type: 'mark-fresh', readonly key: KeyString, readonly locales?: readonly LocaleCode[] | undefined }
 
 export interface ExtractItem {
   readonly path: string

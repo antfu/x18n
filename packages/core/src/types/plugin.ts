@@ -1,4 +1,4 @@
-import type { CallSpec, ConfigDraft, ExtractTemplate, KeySeparator, ResolvedConfig, SerializableConfig } from './config'
+import type { CallSpec, ConfigDraft, ExtractTemplate, GlossaryEntry, KeySeparator, ResolvedConfig, SerializableConfig } from './config'
 import type { Disposable, Host } from './host'
 import type {
   Diagnostic,
@@ -24,6 +24,7 @@ import type {
   UsageKind,
 } from './model'
 import type { ReviewComment, ReviewFilter, ReviewStore, ReviewThread, ReviewType } from './review'
+import type { Translator } from './translate'
 
 export interface ConfigContext {
   readonly host: Host
@@ -341,6 +342,39 @@ export interface Check {
   readonly docs?: string | undefined
   readonly override?: boolean | undefined
   readonly run: (ctx: CheckContext) => Iterable<DiagnosticInput>
+  /** Judges one candidate value on its own, without the project. Translation runs call it on every translator output. */
+  readonly message?: ((input: MessageCheckInput) => Iterable<MessageDiagnostic>) | undefined
+}
+
+/** One candidate value of a message, for `Check.message`. */
+export interface MessageCheckInput {
+  readonly key: KeyString
+  readonly locale: LocaleCode
+  readonly value: string
+  readonly source: string
+  readonly sourceLocale: LocaleCode
+  readonly localeInfo: LocaleInfo
+  readonly sourceLocaleInfo: LocaleInfo
+  /** Placeholders of a value, by every placeholder syntax of the project. */
+  readonly placeholders: (value: string) => readonly Placeholder[]
+  readonly glossary: readonly GlossaryEntry[]
+  /** The options of the check from config. */
+  readonly options: JsonObject
+}
+
+export interface MessageDiagnostic {
+  readonly message: string
+  /** Default: the check's configured level. */
+  readonly severity?: Severity | undefined
+}
+
+/** What `transformTranslation` gets beside the value. */
+export interface TransformTranslationContext {
+  readonly key: KeyString
+  readonly source: string
+  readonly from: LocaleCode
+  readonly to: LocaleCode
+  readonly translator: string
 }
 
 export interface ReportSummary {
@@ -502,6 +536,10 @@ export interface Plugin {
   readonly derivedKeys?: readonly string[] | undefined
   readonly transformResource?: ResourceTransform | undefined
   readonly translatePrompt?: ((draft: PromptDraft, ctx: PromptContext) => void) | undefined
+  /** Machine translation services and models. */
+  readonly translators?: readonly Translator[] | undefined
+  /** Changes a translator's output before the message checks run (typography, casing). Runs in plugin order. */
+  readonly transformTranslation?: ((value: string, ctx: TransformTranslationContext) => string) | undefined
   /** Called for each review edit of a plan, in op order. The writes it returns go into the same plan. */
   readonly reviewEdit?: ((edit: ReviewEdit, ctx: ReviewEditContext) => readonly FileWrite[] | undefined) | undefined
   /** Display data for a locale code. The first plugin that returns a value wins. */

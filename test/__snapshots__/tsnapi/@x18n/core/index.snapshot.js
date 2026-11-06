@@ -15,6 +15,7 @@ export function createRegistry(_, _) {}
 export function defineConfig(_) {}
 export function definePlugin(_) {}
 export function definePreset(_) {}
+export function defineTranslator(_) {}
 export function diffText(_, _) {}
 export function envelope(_, _, _, _) {}
 export function extensionOf(_) {}
@@ -30,6 +31,7 @@ export function isX18nError(_) {}
 export function joinKey(_, _, _) {}
 export function keyMatcher(_, _) {}
 export function localeSpellingKey(_) {}
+export function maskPlaceholders(_, _, _) {}
 export function parseLocaleInfo(_) {}
 export function parseMessageBatch(_, _) {}
 export function pathId(_) {}
@@ -39,6 +41,7 @@ export function rangeContains(_, _) {}
 export function relatedLocales(_, _, _, _) {}
 export function renderExplanation(_, _) {}
 export function renderPrompt(_) {}
+export function renderTranslatorPrompt(_) {}
 export function replaceKeyPrefix(_, _, _) {}
 export async function resolveConfig(_) {}
 export function sortTree(_, _) {}
@@ -48,6 +51,7 @@ export function toWireDiagnostic(_, _, _) {}
 export function toWireRange(_, _, _) {}
 export function validate(_, _) {}
 export function* walkLeaves(_, _) {}
+export function wordDiff(_, _) {}
 // #endregion
 
 // #region Variables
@@ -56,4 +60,5 @@ export var contractVersion /* const */
 export var errors /* const */
 export var PluginFileSchema /* const */
 export var ReviewFileSchema /* const */
+export var TRANSLATOR_PROMPT_VERSION /* const */
 // #endregion

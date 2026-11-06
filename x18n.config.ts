@@ -1,20 +1,10 @@
 import { defineConfig } from '@x18n/core'
 
-/** The UI's own messages; `x18n check --strict` runs on them in CI. */
+/** The messages of the UI and of the VS Code extension; `x18n check --strict` runs on them in CI. */
 export default defineConfig({
   sourceLocale: 'en',
-  resources: [
-    { pattern: 'packages/ui/app/locales/{locale}.json' },
-  ],
-  usage: {
-    include: ['packages/ui/app/**/*.vue', 'packages/ui/app/**/*.ts'],
-    calls: [
-      {
-        callee: ['t', '$t'],
-      },
-    ],
-  },
-  // Terms of plans/glossary.md, so translators of the UI name things the same way everywhere.
+  projects: ['packages/ui', 'packages/vscode'],
+  // Terms of plans/glossary.md, so translators of the UI and the extension name things the same way everywhere.
   glossary: [
     { term: 'x18n', doNotTranslate: true },
     { term: 'key', note: 'A message identifier such as `nav.home`, not a keyboard key or a password.' },
