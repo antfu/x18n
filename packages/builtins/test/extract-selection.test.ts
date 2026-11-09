@@ -24,6 +24,8 @@ describe('generated extraction selections', () => {
     ['Welcome aboard', 'page.user\'sWelcome'],
     ['t', 'page.label'],
     ['Welcome aboard', 'page.$&'],
+    ['Welcome aboard', 'A &amp; B'],
+    ['Welcome aboard', 'page.}}'],
     ['Pay $& now', 'Pay $& now'],
   ])('renders %s as the selected key %s', async (text, key) => {
     const { project, files } = await vue(text, { keygen: 'source' })
@@ -41,6 +43,28 @@ describe('generated extraction selections', () => {
       ...project.usages(),
     ].map(({ usage }) => usage.key)).toContain(project.parseKey(key))
     expect(project.message(project.parseKey(key), project.sourceLocale)?.value).toBe(text)
+  })
+
+  it('keeps the default text inside a custom Vue interpolation', async () => {
+    const { project, files } = await vue('Hello }} friend', {
+      templates: [
+        {
+          template: '{{ $t(\'{key}\', \'Default: {text}\') }}',
+          kinds: ['vue-template-text'],
+        },
+      ],
+    })
+    const [selection] = findSelections(project)
+    const items = renderSelections(project, [
+      { ...selection!, key: 'welcome' },
+    ])
+    await project.apply(project.plan([
+      { type: 'extract', items },
+    ]))
+    const source = parse(files.get('src/App.vue')!).descriptor.template!.content
+    const compiled = compileTemplate({ source, filename: 'App.vue', id: 'test' })
+    expect(compiled.errors).toEqual([])
+    expect(compiled.code).toContain('Default: Hello }} friend')
   })
 
   it('updates every key token, but not matching default text', async () => {
@@ -61,31 +85,82 @@ describe('generated extraction selections', () => {
   })
 
   it.each([
-    [':', 'translation'],
-    [':', 'other'],
-    ['~', 'translation'],
-    ['~', 'other'],
-  ])('renders namespace separator %s in %s', async (separator, namespace) => {
-    const key = `${namespace}${separator}page.welcome`
+    { separator: ':', key: 'translation:page.welcome', expected: 'page.welcome' },
+    { separator: ':', key: 'other:page.welcome', expected: 'other:page.welcome' },
+    { separator: '~', key: 'translation~page.welcome', expected: 'page.welcome' },
+    { separator: '~', key: 'other~page.welcome', expected: 'other~page.welcome' },
+    {
+      separator: '~',
+      fileNamespace: 'other',
+      key: 'translation~page.welcome',
+      expected: 'translation~page.welcome',
+    },
+    { separator: '~', key: 'translation:page~welcome', expected: 'translation~page~welcome' },
+    {
+      separator: false,
+      fileNamespace: 'other',
+      key: 'other:page.welcome',
+      expected: 'page.welcome',
+    },
+    { separator: false, key: 'other:page.welcome', expected: undefined },
+    {
+      separator: false,
+      scope: 'withTranslation(\'other\')',
+      key: 'other:page.welcome',
+      expected: 'page.welcome',
+    },
+    {
+      separator: ':',
+      scope: 'withTranslation(\'translation\', { keyPrefix: \'account\' })',
+      key: 'translation:page.welcome',
+      expected: 'translation:page.welcome',
+    },
+    {
+      separator: false,
+      scope: 'withTranslation(\'translation\', { keyPrefix: \'account\' })',
+      key: 'translation:account.save',
+      expected: 'save',
+    },
+    {
+      separator: false,
+      scope: 'withTranslation(\'translation\', { keyPrefix: \'account\' })',
+      key: 'translation:save',
+      expected: undefined,
+    },
+  ] as const)('renders $key with separator $separator as $expected', async (scenario) => {
+    const { separator, key, expected } = scenario
+    const app = 'export const App = () => <h1>Welcome aboard</h1>'
     const { project } = await createTestProject({
       'locales/en/translation.json': json({}),
       'locales/en/other.json': json({}),
-      'src/App.tsx': 'export const App = () => <h1>Welcome aboard</h1>',
+      'src/App.tsx': 'scope' in scenario
+        ? `${app}\nexport default ${scenario.scope}(App)`
+        : app,
     }, {
       presets: ['react-i18next'],
       resources: [
         { pattern: 'locales/{locale}/{namespace}.json' },
       ],
-      namespace: { default: 'translation', separator },
+      namespace: {
+        default: 'translation',
+        separator,
+        byFile: 'fileNamespace' in scenario
+          ? { 'src/**': scenario.fileNamespace }
+          : {},
+      },
     })
     const candidate = findSelections(project)[0]!
     expect(candidate.key).toBe('translation:welcomeAboard')
-    const [item] = renderSelections(project, [
+    const render = () => renderSelections(project, [
       { ...candidate, key },
     ])
-    expect(item!.replacement).toBe(namespace === 'translation'
-      ? '<Trans i18nKey="page.welcome" />'
-      : `<Trans i18nKey="other${separator}page.welcome" />`)
+    if (expected === undefined) {
+      expect(render).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+      expect(project.keys()).toEqual([])
+      return
+    }
+    const [item] = render()
+    expect(item!.replacement).toBe(`<Trans i18nKey="${expected}" />`)
     expect(item!.imports).toEqual(candidate.imports)
     await project.apply(project.plan([
       {
@@ -98,6 +173,55 @@ describe('generated extraction selections', () => {
       ...project.usages(),
     ].map(({ usage }) => usage.key)).toContain(canonical)
     expect(project.message(canonical, project.sourceLocale)?.value).toBe('Welcome aboard')
+  })
+
+  it('uses a lexical prefix in a flat resource project', async () => {
+    const { project } = await createTestProject({
+      'locales/en.json': json({}),
+      'src/App.tsx': 'const App = () => <h1>Welcome aboard</h1>; export default withTranslation(\'translation\', {keyPrefix: \'account\'})(App)',
+    }, {
+      presets: ['react-i18next'],
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    const [candidate] = findSelections(project)
+    const render = (key: string) => renderSelections(project, [
+      { ...candidate!, key },
+    ])
+    expect(() => render('save')).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+    await project.apply(project.plan([
+      {
+        type: 'extract',
+        items: render('account.save'),
+      },
+    ]))
+    expect(project.usages().map(match => match.usage.key)).toContain('account.save')
+    expect(project.message('account.save', 'en')?.value).toBe('Welcome aboard')
+  })
+
+  it('rejects a flat resource key from a namespaced file', async () => {
+    const { project } = await createTestProject({
+      'flat/en.json': json({}),
+      'ns/en/other.json': json({}),
+      'src/App.tsx': 'export const App = () => <h1>Welcome aboard</h1>',
+    }, {
+      presets: ['react-i18next'],
+      resources: [
+        { pattern: 'flat/{locale}.json' },
+        { pattern: 'ns/{locale}/{namespace}.json' },
+      ],
+      namespace: {
+        separator: false,
+        default: '',
+        byFile: { 'src/**': 'other' },
+      },
+    })
+    const [selection] = findSelections(project)
+    expect(project.parseKey('plain')).toBe('plain')
+    expect(() => renderSelections(project, [
+      { ...selection!, key: 'plain' },
+    ])).toThrow(expect.objectContaining({ code: 'X18N4008' }))
   })
 
   it('preserves attributes, arguments, imports and unchanged replacements', async () => {

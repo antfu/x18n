@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises'
+import { readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { expect, test } from '@playwright/test'
 import { buildReport, fixture, project, serveStatic, startUi } from './workspace'
@@ -349,3 +349,69 @@ for (const mode of ['one', 'file', 'selected']) {
     }
   })
 }
+
+test('refreshing extraction rows keeps only edits to the same selection', async ({ page }) => {
+  const { root, dispose } = await project({
+    'x18n.config.json': JSON.stringify({
+      presets: ['vue-i18n'],
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    }),
+    'locales/en.json': '{}',
+    'src/App.vue': '<template><p>Keep this draft</p><p>Same message</p><p>Same message</p></template>',
+  })
+  const { info, child } = await startUi(root)
+  try {
+    await page.goto(info.link!)
+    await page.getByRole('link', { name: 'Extract', exact: true }).click()
+    const keys = page.getByRole('textbox', { name: 'Key', exact: true })
+    const picks = page.getByRole('checkbox')
+    await keys.nth(0).fill('keep.edit')
+    await picks.nth(0).check()
+    await keys.nth(1).fill('first.edit')
+    await picks.nth(1).check()
+    await page.getByRole('button', { name: 'Extract this string', exact: true }).nth(1).click()
+    await expect(keys).toHaveCount(2)
+    await expect(keys.nth(0)).toHaveValue('keep.edit')
+    await expect(picks.nth(0)).toBeChecked()
+    await expect(picks.nth(1)).not.toBeChecked()
+  }
+  finally {
+    child.kill()
+    await dispose()
+  }
+})
+
+test('a changed namespace clears a pick at the same source range', async ({ page }) => {
+  const app = (namespace: string): string => `export const App = () => <h1>Welcome aboard</h1>
+export default withTranslation('${namespace}')(App)`
+  const { root, dispose } = await project({
+    'x18n.config.json': JSON.stringify({
+      presets: ['react-i18next'],
+      namespace: { default: 'translation' },
+      resources: [
+        { pattern: 'locales/{locale}/{namespace}.json' },
+      ],
+    }),
+    'locales/en/translation.json': '{}',
+    'locales/en/other.json': '{}',
+    'src/App.tsx': app('translation'),
+  })
+  const { info, child } = await startUi(root)
+  try {
+    await page.goto(info.link!)
+    await page.getByRole('link', { name: 'Extract', exact: true }).click()
+    const key = page.getByRole('textbox', { name: 'Key', exact: true }).first()
+    const pick = page.getByRole('checkbox').first()
+    await key.fill('translation:edited')
+    await pick.check()
+    await writeFile(join(root, 'src/App.tsx'), app('other'))
+    await expect(pick).not.toBeChecked()
+    await expect(key).toHaveValue('translation:welcomeAboard')
+  }
+  finally {
+    child.kill()
+    await dispose()
+  }
+})

@@ -318,7 +318,7 @@ describe('generated extraction RPC', () => {
       const candidates = await context.rpc.invokeLocal('x18n:extract-selections', {})
       expect(wire(candidates)).toMatchSnapshot()
       expect(candidates).toHaveLength(2)
-      expect(candidates[0]!.context).toMatch(/^\[1,/)
+      expect(candidates[0]!.context).toMatch(/^\[2,/)
       const { path, range, original, context: token } = candidates[0]!
       const item = {
         path,

@@ -408,22 +408,6 @@ function templatesFor(project: Project, kind: string, path: string): string[] {
     .map(t => t.template)
 }
 
-function rawKeyFor(project: Project, key: KeyString): string {
-  const index = project.namespaced
-    ? key.indexOf(':')
-    : -1
-  if (index < 0)
-    return key
-  const namespace = key.slice(0, index)
-  const rest = key.slice(index + 1)
-  if (namespace === project.config.namespace.default)
-    return rest
-  const separator = project.config.namespace.separator
-  return separator === false
-    ? key
-    : `${namespace}${separator}${rest}`
-}
-
 const jsEscapes: Readonly<Record<string, string>> = {
   '\n': '\\n',
   '\r': '\\r',
@@ -466,10 +450,16 @@ interface TemplateValues {
   readonly parts: string
 }
 
-function fillTemplate(template: string, values: TemplateValues): string {
+function fillTemplate(template: string, values: TemplateValues, kind: string): string {
   return template.replace(/\{(key|attr|args|text|source|parts)\}/g, (_, name: keyof TemplateValues, at: number) => {
-    if (name === 'key' || name === 'text')
-      return quoteFor(template.slice(0, at), values[name])
+    if (name === 'key' || name === 'text') {
+      const before = template.slice(0, at)
+      const quoted = quoteFor(before, values[name])
+      // Vue decodes entities and closes the interpolation before it parses the JS string.
+      if (kind === 'vue-template-text' && before.lastIndexOf('{{') > before.lastIndexOf('}}'))
+        return quoted.replace(/&(?=[#a-z])/gi, '&amp;').replace(/\}(?=\})/g, '&#125;')
+      return quoted
+    }
     // `{args}` as the first argument (`m.{key}({args})`) drops its leading `, `.
     return name === 'args' && template[at - 1] === '('
       ? values.args.replace(/^, /, '')
@@ -551,6 +541,7 @@ function prepareCandidates(project: Project, options: FindOptions, paths?: Reado
       source: text.slice(hard.range.start, hard.range.end),
       parts: templateParts(hard, placeholderName),
     }
+    const spelling = project.sourceKeyAt(hard.path, hard.range, key)
     const candidate: ExtractCandidate = {
       path: hard.path,
       line: createLineIndex(text).position(hard.range.start).line + 1,
@@ -564,19 +555,21 @@ function prepareCandidates(project: Project, options: FindOptions, paths?: Reado
       value,
       replacement: fillTemplate(chosen, {
         ...values,
-        key: rawKeyFor(project, key),
-      }),
+        key: spelling.raw ?? key,
+      }, hard.kind),
       imports: template?.imports ?? [],
       alternatives: templates.slice(1),
     }
     // Versioned comparison token: no allocated key, so random suggestions do not invalidate a selection.
     const context = JSON.stringify([
-      1,
+      2,
       chosen,
       values,
       candidate.imports,
       project.namespaced,
       project.config.namespace,
+      spelling.scope,
+      hard.kind,
     ])
     out.push({
       candidate,
@@ -617,13 +610,16 @@ export function renderSelections(project: Project, selections: readonly ExtractS
       throw errors.X18N4004({ path: selection.path })
     seen.add(id)
     const key = project.parseKey(selection.key)
+    const { raw } = project.sourceKeyAt(selection.path, selection.range, key)
+    if (raw === undefined)
+      throw errors.X18N4008({ reason: `cannot reference "${key}" from ${selection.path} in the current key scope` })
     return {
       ...source.candidate,
       key,
       replacement: fillTemplate(source.template, {
         ...source.values,
-        key: rawKeyFor(project, key),
-      }),
+        key: raw,
+      }, source.candidate.kind),
     }
   })
   return extractItems(project, items)

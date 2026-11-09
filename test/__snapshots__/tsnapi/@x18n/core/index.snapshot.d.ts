@@ -704,6 +704,10 @@ export interface Project {
   readonly keyAt: (_: string, _: number) => KeyTarget | undefined;
   readonly nodes: (_: string) => readonly ResourceNode[];
   readonly locations: (_: KeyString) => readonly ResourceNode[];
+  readonly sourceKeyAt: (_: string, _: TextRange, _: KeyString) => {
+    raw: string | undefined;
+    scope: Omit<Scope, "range">;
+  };
   readonly keySlots: (_: string) => readonly TextRange[];
   readonly hardStrings: (_?: string) => readonly (HardString & {
     readonly path: string;

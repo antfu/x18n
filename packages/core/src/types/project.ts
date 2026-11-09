@@ -18,7 +18,7 @@ import type {
   TextRange,
   Usage,
 } from './model'
-import type { HardString, LocaleCoverage, MessageChange, PlaceholderSyntax, Reporter, ScanResult } from './plugin'
+import type { HardString, LocaleCoverage, MessageChange, PlaceholderSyntax, Reporter, ScanResult, Scope } from './plugin'
 import type { ApprovalPlan, ApprovalQuery, MachineRecord, ReviewAuthor, ReviewFilter, ReviewThread } from './review'
 import type { TranslationJob, TranslationOptions, TranslationRun, Translator } from './translate'
 
@@ -237,6 +237,8 @@ export interface Project {
   readonly nodes: (path: string) => readonly ResourceNode[]
   /** The nodes of a key (or parent) in every locale, source locale first. */
   readonly locations: (key: KeyString) => readonly ResourceNode[]
+  /** Source spelling of a static key and the scope that determines it. An unrepresentable key has no spelling. */
+  readonly sourceKeyAt: (path: string, range: TextRange, key: KeyString) => { raw: string | undefined, scope: Omit<Scope, 'range'> }
   /** Completion positions in a source file. */
   readonly keySlots: (path: string) => readonly TextRange[]
   readonly hardStrings: (path?: string) => readonly (HardString & { readonly path: string })[]
