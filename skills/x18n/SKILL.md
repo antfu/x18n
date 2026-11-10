@@ -189,10 +189,31 @@ A rename updates every locale and every usage in code. Renaming a parent (`pages
 ```sh
 x18n extract --list --json
 x18n extract --plan extract-plan.json
+```
+
+Before applying the plan, read and edit `extract-plan.json`:
+
+1. Remove items you do not want to extract.
+2. If you change `key`, also update the corresponding message reference in `replacement`. `key` names the resource message. `replacement` is the code to insert. Applying the plan does not regenerate replacement code from the key.
+3. Keep the other fields and unrelated expressions. Preserve the quotes, escaping and namespace syntax that the template requires.
+
+For example, changing `key` from `welcomeAboard` to `page.welcome` also requires changing `{{ $t('welcomeAboard') }}` to `{{ $t('page.welcome') }}`.
+
+Preview the changes:
+
+```sh
+x18n extract --apply extract-plan.json --dry-run --json
+```
+
+Inspect both the resource edits and the source-code edits. Make sure that each edited message reference points to the intended resource key. Make sure that the replacement code preserves unrelated expressions and has valid syntax. A successful dry-run does not establish these conditions.
+
+After this review, apply the plan:
+
+```sh
 x18n extract --apply extract-plan.json --json
 ```
 
-Edit the keys in the plan file before you apply it. The proposed keys follow the project's style; ask the user when there is none yet.
+The proposed keys follow the project's style; ask the user when there is none yet.
 
 Tests, fixtures, mocks, stories, configs and type declarations are never scanned, in any language (`*.test.ts`, `*_test.go`, `test_*.py`, `*_spec.rb`, `*Test.java`, `vite.config.ts`, `tests/`, `spec/`, `e2e/`, ...). To keep strings that are not UI text out of the plan, drop them from the plan file, or add a control comment to the code:
 

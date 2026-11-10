@@ -542,6 +542,8 @@ ${ts(declaration(contracts, 'WireDiagnostic'), declaration(contracts, 'WireRange
 
 ${ts(declaration(extractors, 'ExtractPlanFile'), declaration(extractors, 'ExtractCandidate'))}
 
+\`key\` names the resource message. \`replacement\` is the code to insert into the source file. If you change \`key\`, also update the corresponding message reference in \`replacement\`. Applying the plan does not regenerate replacement code from the key. See [Edit and apply a saved plan](/surfaces/cli#edit-and-apply-a-saved-plan).
+
 ## Exit codes
 
 ${exitCodeTable()}

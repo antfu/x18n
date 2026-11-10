@@ -523,7 +523,7 @@ exports[`agent tools > names the tools for MCP 1`] = `
     "safety": "destructive",
   },
   {
-    "description": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n_extract_apply.",
+    "description": "Find hard-coded strings in source files and propose a key, a message and a code replacement for each. The key names the resource message. The replacement is the code to insert. If you change the key, also update the corresponding message reference in replacement. Preserve other code and the escaping and namespace syntax that the template requires. x18n_extract_apply does not regenerate replacement from the key. Drop items you do not want, then pass the rest to x18n_extract_apply.",
     "id": "x18n:extract_plan",
     "inputSchema": {
       "$schema": "http://json-schema.org/draft-07/schema#",

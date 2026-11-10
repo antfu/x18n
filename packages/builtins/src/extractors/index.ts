@@ -234,6 +234,7 @@ export interface ExtractCandidate {
   readonly reused: boolean
   /** The message to store: template arguments become placeholders. */
   readonly value: string
+  /** Code inserted as written. If you change `key`, also update the corresponding message reference here. */
   readonly replacement: string
   readonly imports: readonly string[]
   /** Other templates that also apply, for surfaces that let users choose. */

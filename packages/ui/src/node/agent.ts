@@ -180,7 +180,7 @@ export function registerAgentTools(ctx: DevframeNodeContext, projects: readonly 
 
   tool('delete_unused_keys', 'destructive', 'Delete every unused key (the keys `x18n_keys` lists with `unused: true`) in all locales, optionally only those matching `glob` or `namespace`. Keys that a computed key in code may reach (a template literal prefix, or a computed key under a `keyPrefix` or namespace) are left alone and listed in `kept`; `warnings` names computed keys that may reach any key. Code is not changed. Without `confirm` it returns the plan: `deleted` lists each key with its locales and files. Call again with `confirm: true` to apply it.', UnusedDeletionSchema, query => unusedDeletionView(pick(query.project), query))
 
-  tool('extract_plan', 'read', 'Find hard-coded strings in source files and propose a key, a message and a code replacement for each. Review the items (edit keys, drop items you do not want), then pass them to x18n_extract_apply.', ExtractQuerySchema, (query) => {
+  tool('extract_plan', 'read', 'Find hard-coded strings in source files and propose a key, a message and a code replacement for each. The key names the resource message. The replacement is the code to insert. If you change the key, also update the corresponding message reference in replacement. Preserve other code and the escaping and namespace syntax that the template requires. x18n_extract_apply does not regenerate replacement from the key. Drop items you do not want, then pass the rest to x18n_extract_apply.', ExtractQuerySchema, (query) => {
     const { project } = pick(query.project)
     return toPlanFile(project, findCandidates(project, { files: query.files }))
   })
