@@ -6,6 +6,7 @@ import { pendingAuth, useBackend } from './backend'
 import LanguageMenu from './components/LanguageMenu.vue'
 import LocaleBar from './components/LocaleBar.vue'
 import LogoMark from './components/LogoMark.vue'
+import NavTabs from './components/NavTabs.vue'
 import { setupI18n, t } from './i18n'
 import { backend, currentProject, projectList, projectName, recentKeys, revision } from './state'
 import { setupTheme } from './theme'
@@ -100,23 +101,12 @@ onMounted(async () => {
   <div class="h-full flex flex-col bg-base color-base font-sans text-sm">
     <header class="shrink-0 border-b border-base">
       <div class="h-12 flex items-center gap-6 border-b border-base px-4">
-        <NuxtLink to="/" class="focus-ring flex items-center gap-2.5 font-mono text-sm font-medium">
+        <NuxtLink to="/" class="focus-ring flex shrink-0 items-center gap-2.5 font-mono text-sm font-medium">
           <LogoMark class="size-6 shrink-0" />
           {{ t('app.name') }}
         </NuxtLink>
-        <nav class="flex items-center gap-1">
-          <NuxtLink
-            v-for="item in nav"
-            :key="item.to"
-            :to="item.to"
-            class="focus-ring whitespace-nowrap px-2 py-1 font-mono text-xs uppercase tracking-[0.12em] color-muted transition-colors hover:color-base"
-            :active-class="item.to === '/' ? '' : '!color-base'"
-            exact-active-class="!color-base"
-          >
-            {{ item.label }}
-            <span v-if="item.count" class="ml-1 tabular-nums color-warn">{{ item.count }}</span>
-          </NuxtLink>
-        </nav>
+        <!-- Longer labels (Turkish, German) in a narrow panel scroll here, not the whole page. -->
+        <NavTabs :items="nav" />
         <div class="flex-auto" />
         <span v-if="backend?.mode === 'static'" class="badge" :title="t('app.staticHint')">{{ t('app.static') }}</span>
         <label v-if="(projectList?.projects.length ?? 0) > 1" class="flex items-center gap-2">

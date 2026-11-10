@@ -78,7 +78,8 @@ function openUsage(usage: UsageView): void {
 </script>
 
 <template>
-  <div class="mx-auto h-full w-full flex max-w-6xl border-x border-base xl:max-w-[90rem]">
+  <!-- 6px clear of each side, where the corner marks of the sections reach, as in `UiPage`. -->
+  <div class="mx-auto h-full w-[calc(100%-0.75rem)] flex max-w-6xl border-x border-base xl:max-w-[90rem]">
     <aside class="hidden w-72 shrink-0 flex-col border-r border-base xl:flex">
       <KeySidebar />
     </aside>
