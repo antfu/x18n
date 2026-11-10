@@ -884,7 +884,10 @@ async function errorPages(): Promise<void> {
     if (!entry)
       throw new Error(`notes.ts has no notes for ${errorCode}`)
     const raisedBy = new RegExp(`\\.${errorCode}\\(|'${errorCode}'`)
-    const raisedIn = [...files].filter(([path, text]) => path !== 'packages/core/src/errors.ts' && raisedBy.test(text)).map(([path]) => path)
+    const raisedIn = [...files]
+      .filter(([path, text]) => path !== 'packages/core/src/errors.ts' && raisedBy.test(text))
+      .map(([path]) => path)
+      .sort()
     page(`content/7.errors/${errorCode.toLowerCase()}.md`, `${errorCode}: ${entry.title}`, `${entry.title}. ${fix}`, `
 ## Message
 
