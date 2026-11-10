@@ -117,26 +117,7 @@ export function createUsageResolver(
         path,
         range: candidate.range,
         expression: candidate.expression,
-        ...candidate.params
-          ? {
-              params: candidate.params,
-            }
-          : {},
-        ...candidate.paramValues
-          ? {
-              paramValues: candidate.paramValues,
-            }
-          : {},
-        ...candidate.defaultValue === undefined
-          ? {}
-          : {
-              defaultValue: candidate.defaultValue,
-            },
-        ...candidate.description === undefined
-          ? {}
-          : {
-              description: candidate.description,
-            },
+        ...optionalFields(candidate),
         scanner,
         kind: candidate.kind,
         dynamic,
@@ -145,6 +126,32 @@ export function createUsageResolver(
         scopePrefix,
       }
     },
+  }
+}
+
+/** The optional usage fields a candidate carries, left out when absent. */
+function optionalFields(candidate: Parameters<UsageResolver['resolve']>[0]): Partial<Usage> {
+  return {
+    ...candidate.params
+      ? {
+          params: candidate.params,
+        }
+      : {},
+    ...candidate.paramValues
+      ? {
+          paramValues: candidate.paramValues,
+        }
+      : {},
+    ...candidate.defaultValue === undefined
+      ? {}
+      : {
+          defaultValue: candidate.defaultValue,
+        },
+    ...candidate.description === undefined
+      ? {}
+      : {
+          description: candidate.description,
+        },
   }
 }
 
