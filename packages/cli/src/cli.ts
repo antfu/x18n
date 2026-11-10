@@ -233,6 +233,18 @@ export function createCli(): CAC {
   return cli
 }
 
+// CAC can throw while expanding dotted option names, before it saves the command or options.
+function recoverParserContext(cli: CAC, argv: string[]): void {
+  // Only command matching and JSON mode matter on this pass. Flatten dotted option paths
+  // and protect CAC's positional key (_) without interpreting malformed option names.
+  const safeArgv = argv.map(arg => arg.startsWith('-')
+    ? arg.replaceAll(/[._]/g, '~')
+    : arg)
+  cli.showHelpOnExit = false
+  cli.showVersionOnExit = false
+  cli.parse(safeArgv, { run: false })
+}
+
 // `x18n doctor | head` closes stdout early; that is not an error.
 process.stdout.on('error', (error: NodeJS.ErrnoException) => {
   if (error.code === 'EPIPE')
@@ -244,12 +256,22 @@ process.stdout.on('error', (error: NodeJS.ErrnoException) => {
 const argv = process.argv.map(arg => arg === '-'
   ? stdinArg
   : arg)
+const cli = createCli()
 try {
-  createCli().parse(argv)
+  cli.parse(argv)
 }
 catch (error) {
-  process.stderr.write(`error: ${error instanceof Error
-    ? error.message
-    : String(error)}\n`)
+  if (!cli.matchedCommand)
+    recoverParserContext(cli, argv)
+  if (cli.options.json) {
+    printJson(cli.matchedCommandName || 'status', null, [], [
+      toErrorInfo(error),
+    ])
+  }
+  else {
+    process.stderr.write(`error: ${error instanceof Error
+      ? error.message
+      : String(error)}\n`)
+  }
   process.exitCode = 2
 }

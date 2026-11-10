@@ -64,6 +64,108 @@ describe('x18n binary', { timeout: 30_000 }, () => {
     expect(stdout).toContain(`x18n/${version}`)
   })
 
+  it.each([
+    {
+      args: ['keys', '--bogus', '--json'],
+      command: 'keys',
+      message: 'Unknown option `--bogus`',
+    },
+    {
+      args: ['--json', 'get'],
+      command: 'get',
+      message: 'missing required args for command `get <key>`',
+    },
+    {
+      args: ['keys', '--limit', '--json'],
+      command: 'keys',
+      message: 'option `--limit <n>` value is missing',
+    },
+    {
+      args: ['--bogus', '--json'],
+      command: 'status',
+      message: 'Unknown option `--bogus`',
+    },
+  ])('prints a JSON envelope for parser errors: $args', async ({ args, command, message }) => {
+    const result = await x18n(work, args)
+    expect(result.code).toBe(2)
+    expect(result.stderr).toBe('')
+    expect(json(result)).toEqual({
+      x18n: 2,
+      command,
+      data: null,
+      diagnostics: [],
+      errors: [
+        { name: 'CACError', why: message },
+      ],
+    })
+  })
+
+  it.each([
+    ['keys', '--bogus'],
+    ['keys', '--bogus', '--no-json'],
+    ['keys', '--bogus', '--', '--json'],
+  ])('keeps parser errors as text without JSON mode: %j', async (...args) => {
+    const result = await x18n(work, args)
+    expect(result.code).toBe(2)
+    expect(result.stdout).toBe('')
+    expect(result.stderr).toBe('error: Unknown option `--bogus`\n')
+  })
+
+  it.each([
+    [
+      '--root',
+      'get',
+      'keys',
+      '--limit=2',
+      '--limit.foo=1',
+      '--json',
+    ],
+    [
+      '--no-json',
+      '--json',
+      'keys',
+      '--limit=2',
+      '--limit.foo=1',
+    ],
+    [
+      '-no-x.y',
+      'keys',
+      '--json',
+      '--no-limit=2',
+      '--no-limit=2.foo',
+    ],
+    ['keys', '--==2', '--=.foo=1', '--json'],
+  ])('prints the original error when parsing fails before command matching: %j', async (...args) => {
+    const result = await x18n(work, args)
+    expect(result.code).toBe(2)
+    expect(result.stderr).toBe('')
+    expect(json(result)).toMatchObject({
+      command: 'keys',
+      data: null,
+      errors: [
+        {
+          name: 'TypeError',
+          why: expect.stringContaining('foo'),
+        },
+      ],
+    })
+  })
+
+  it.each([
+    ['--json', '--no-json'],
+    ['--', '--json'],
+  ])('keeps early parser errors as text when JSON is disabled: %j', async (...flags) => {
+    const result = await x18n(work, [
+      'keys',
+      '--limit=2',
+      '--limit.foo=1',
+      ...flags,
+    ])
+    expect(result.code).toBe(2)
+    expect(result.stdout).toBe('')
+    expect(result.stderr).toContain('foo')
+  })
+
   it('check prints diagnostics with code frames and fails on errors', async () => {
     const dir = await fixture('vue-i18n')
     const result = await x18n(dir, ['check'])
