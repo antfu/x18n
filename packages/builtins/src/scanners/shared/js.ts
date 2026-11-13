@@ -322,39 +322,52 @@ class FileScan {
     return found
   }
 
-  /** The keys of the first object literal at the params positions; `[]` when there is none, undefined when unknown. */
-  paramNames(args: readonly ArgValue[], source: ParamsSource): string[] | undefined {
+  /** The params object at the first params position that holds one; `null` when the call passes none, undefined when it cannot be read. */
+  paramObject(args: readonly ArgValue[], source: ParamsSource): ObjectExpression | null | undefined {
     for (const index of [source.arg].flat()) {
       const value = args[index]
       if (!value)
-        return []
+        return null
       if ('props' in value)
         return undefined
       const node = unwrap(value)
-      if (node.type === 'ObjectExpression')
-        return this.staticKeys(node)
-      if (node.type !== 'Literal' && node.type !== 'TemplateLiteral')
+      if (node.type === 'Literal' || node.type === 'TemplateLiteral')
+        continue
+      if (node.type !== 'ObjectExpression')
         return undefined
+      if (source.property === undefined)
+        return node
+      const holder = this.argValues(args, { arg: index, property: source.property }, index)[0]
+      if (!holder)
+        return null
+      if ('props' in holder)
+        return undefined
+      const target = unwrap(holder)
+      return target.type === 'ObjectExpression'
+        ? target
+        : undefined
     }
-    return []
+    return null
+  }
+
+  /** The keys of the params object; `[]` when there is none, undefined when unknown. */
+  paramNames(args: readonly ArgValue[], source: ParamsSource): string[] | undefined {
+    const object = this.paramObject(args, source)
+    if (object === undefined)
+      return undefined
+    return object === null
+      ? []
+      : this.staticKeys(object)
   }
 
   /** The static string values of the params object, by name. */
   paramValues(args: readonly ArgValue[], source: ParamsSource): Readonly<Record<string, string>> | undefined {
-    for (const index of [source.arg].flat()) {
-      const value = args[index]
-      if (!value)
-        return {}
-      if ('props' in value)
-        return undefined
-      const node = unwrap(value)
-      if (node.type === 'ObjectExpression')
-        return this.objectValues(node)
-      if (node.type === 'Literal' || node.type === 'TemplateLiteral')
-        continue
+    const object = this.paramObject(args, source)
+    if (object === undefined)
       return undefined
-    }
-    return {}
+    return object === null
+      ? {}
+      : this.objectValues(object)
   }
 
   /**

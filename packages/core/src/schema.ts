@@ -48,6 +48,7 @@ const paramsSource = v.strictObject({
     v.number(),
     v.array(v.number()),
   ]),
+  property: v.optional(v.string()),
   options: v.optional(strings),
 }) satisfies v.GenericSchema<ParamsSource>
 
