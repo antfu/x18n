@@ -177,6 +177,36 @@ describe('js scanner', () => {
     ])
   })
 
+  it('reads the params object from a property of the argument', async () => {
+    const spec: CallSpec = {
+      callee: 'tx',
+      params: {
+        arg: [1, 2],
+        property: 'values',
+      },
+    }
+    const code = `tx('a'); tx('b', { values: { n, 'm': 1 } }); tx('c', { locale: 'en' }); tx('d', { values: opts }); tx('e', opts); tx('f', { values: { ...opts } }); tx('g', 'G', { values: { n } })`
+    const result = scanSource(await loadParser(), code, {
+      calls: [spec],
+      filename: 'a.ts',
+    })
+    expect(result.usages.map(u => [u.raw, u.params])).toEqual([
+      ['a', []],
+      [
+        'b',
+        ['n', 'm'],
+      ],
+      ['c', []],
+      ['d', undefined],
+      ['e', undefined],
+      ['f', undefined],
+      [
+        'g',
+        ['n'],
+      ],
+    ])
+  })
+
   it('collects hard strings outside translate calls', async () => {
     const code = `import x from 'mod'; console.log('debug'); const a = <p title="Hover me">Hello world</p>; const b = 'Some text'; t('key')`
     const hard = (await scan(code)).hardStrings!.map(h => `${h.kind}:${h.text}`)

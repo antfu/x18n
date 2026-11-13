@@ -665,6 +665,9 @@ exports[`schemas > config schema 1`] = `
                     },
                     "type": "array",
                   },
+                  "property": {
+                    "type": "string",
+                  },
                 },
                 "required": [
                   "arg",
@@ -1195,6 +1198,9 @@ exports[`schemas > plugin schema 1`] = `
                       "type": "string",
                     },
                     "type": "array",
+                  },
+                  "property": {
+                    "type": "string",
                   },
                 },
                 "required": [

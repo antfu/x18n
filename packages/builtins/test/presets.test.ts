@@ -134,6 +134,31 @@ describe('tier 1 presets', () => {
     expect(project.usages().map(m => m.usage.key)).toEqual(['page.body', 'page.title'])
   })
 
+  it('svelte-i18n: message params come from values', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('svelte-i18n', 'svelte'),
+      'src/locales/en.json': json({
+        greeting: 'Hello',
+        welcome: 'Hello {name}',
+      }),
+      'src/App.svelte': [
+        `<script>`,
+        `  import { _ } from 'svelte-i18n'`,
+        `</script>`,
+        `<p>{$_('welcome', { values: { who: 'Alice', unused: 'Bob' } })}</p>`,
+        `<p>{$_('greeting', { values })}</p>`,
+      ].join('\n'),
+    })
+    const problems = project.analyze().diagnostics.filter(d => d.code === 'param-mismatch')
+    expect(problems.map(d => [d.key, d.message])).toEqual([
+      ['welcome', 'The params of "welcome" differ from its placeholders in en: missing name; unused who, unused.'],
+    ])
+    expect(project.usages().map(m => m.usage.params)).toEqual([
+      ['who', 'unused'],
+      undefined,
+    ])
+  })
+
   it('solid-primitives-i18n: t calls with double-brace placeholders', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@solid-primitives/i18n', 'solid-js'),
