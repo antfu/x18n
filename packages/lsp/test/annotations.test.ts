@@ -119,6 +119,41 @@ describe('annotation placement', () => {
     ])
   })
 
+  it('shows the decoded text on every surface and keeps it out of the params', async () => {
+    const text = '<template>\n  <p>{{ $t(\'mail.literal\', { name: \'Ada\' }) }}</p>\n  <p>{{ $t(\'mail.param\', { name: \'Ada\' }) }}</p>\n</template>\n'
+    const { client, uri } = await open({
+      'package.json': JSON.stringify({
+        dependencies: { 'vue-i18n': '*' },
+      }),
+      'locales/en.json': JSON.stringify({
+        mail: { literal: 'hello {\'{\'}name{\'}\'}', param: 'Hello {name}' },
+      }),
+      'src/a.vue': text,
+    })
+    expect(await hints(client, uri('src/a.vue'), text)).toEqual([
+      { after: '<p>{{ $t(\'mail.literal\'', label: 'hello {name}' },
+      { after: '<p>{{ $t(\'mail.param\'', label: 'Hello Ada' },
+    ])
+    const index = createLineIndex(text)
+    const position = index.position(text.indexOf('\'mail.literal\'') + 2)
+    const hover: { contents: { value: string } } = await client.sendRequest('textDocument/hover', {
+      textDocument: {
+        uri: uri('src/a.vue'),
+      },
+      position,
+    })
+    expect(hover.contents.value).toContain('hello {name}')
+    const items: { label: string }[] = await client.sendRequest('textDocument/completion', {
+      textDocument: {
+        uri: uri('src/a.vue'),
+      },
+      position,
+    })
+    const item = items.find(entry => entry.label === 'mail.literal')!
+    const resolved: { documentation?: { value: string } } = await client.sendRequest('completionItem/resolve', item)
+    expect(resolved.documentation?.value).toContain('hello {name}')
+  })
+
   it('keeps its place after an emoji, wide text and CRLF line ends', async () => {
     const text = 'import { t } from \'i18next\'\r\nconst a = \'🌯🌯 日本語\'; t(\'x.y\')\r\nt(\'x.z\')\r\n'
     const { client, uri } = await open({
