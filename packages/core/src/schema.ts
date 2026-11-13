@@ -72,6 +72,7 @@ const callSpec = v.strictObject({
   factory: v.optional(v.boolean()),
   returns: v.optional(strings),
   types: v.optional(strings),
+  unwrap: v.optional(strings),
 }) satisfies v.GenericSchema<CallSpec>
 
 const regexSpec = v.strictObject({

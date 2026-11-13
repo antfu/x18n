@@ -134,6 +134,47 @@ describe('tier 1 presets', () => {
     expect(project.usages().map(m => m.usage.key)).toEqual(['page.body', 'page.title'])
   })
 
+  it('svelte-i18n: get(_), its aliases and renamed stores', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('svelte-i18n', 'svelte'),
+      'src/locales/en.json': json({
+        a: 'A',
+        b: 'B',
+        c: 'C',
+        d: 'D',
+        unused: 'U',
+      }),
+      'src/lib/i18n.ts': [
+        `import { get } from 'svelte/store'`,
+        `import { _ } from 'svelte-i18n'`,
+        `export const greet = () => get(_)('a')`,
+        `const translate = get(_)`,
+        `export const bye = () => translate('b')`,
+      ].join('\n'),
+      'src/App.svelte': `<script>\n  import { get } from 'svelte/store'\n  import { _ as i18n } from 'svelte-i18n'\n  const tr = get(i18n)\n</script>\n<p>{$i18n('c')}</p><p>{tr('d')}</p>`,
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual(['a', 'b', 'c', 'd'])
+  })
+
+  it('svelte-i18n: template expressions read constants of the script', async () => {
+    const component = `<script>\n  import { _ } from 'svelte-i18n'\n  const key = 'greeting'\n  const keys = { title: 'welcome' }\n</script>\n<h1>{$_(key)}</h1><p>{$_(keys.title)}</p>`
+    const { project } = await createTestProject({
+      'package.json': pkg('svelte-i18n', 'svelte'),
+      'src/locales/en.json': json({ greeting: 'Hello', welcome: 'Welcome', unused: 'U' }),
+      'src/App.svelte': component,
+    })
+    const usages = project.usages().map(m => m.usage)
+    expect(usages.map(u => [
+      u.key,
+      u.dynamic,
+      component.slice(u.range.start, u.range.end),
+    ])).toEqual([
+      ['greeting', false, 'greeting'],
+      ['welcome', false, 'welcome'],
+    ])
+    expect(project.analyze().unused).toEqual(['unused'])
+  })
+
   it('solid-primitives-i18n: t calls with double-brace placeholders', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@solid-primitives/i18n', 'solid-js'),

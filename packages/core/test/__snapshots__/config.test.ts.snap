@@ -683,6 +683,12 @@ exports[`schemas > config schema 1`] = `
                 },
                 "type": "array",
               },
+              "unwrap": {
+                "items": {
+                  "type": "string",
+                },
+                "type": "array",
+              },
             },
             "required": [
               "callee",
@@ -1209,6 +1215,12 @@ exports[`schemas > plugin schema 1`] = `
                 "type": "array",
               },
               "types": {
+                "items": {
+                  "type": "string",
+                },
+                "type": "array",
+              },
+              "unwrap": {
                 "items": {
                   "type": "string",
                 },

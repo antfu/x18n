@@ -177,6 +177,35 @@ describe('js scanner', () => {
     ])
   })
 
+  it('reads translate functions out of stores, not other stores', async () => {
+    const storeCalls: CallSpec[] = [
+      { callee: '$_' },
+      {
+        callee: '_',
+        unwrap: ['get'],
+      },
+    ]
+    const code = [
+      `import { get as read, writable } from 'svelte/store'`,
+      `import { _ as i18n } from 'svelte-i18n'`,
+      `const other = writable(() => '')`,
+      `get(_)('a')`,
+      `const translate = get(_)`,
+      `translate('b')`,
+      `read(i18n)('c')`,
+      `const tr = read(i18n)`,
+      `tr('d')`,
+      `$i18n('e')`,
+      `get(other)('not-a-key')`,
+      `const notTranslate = get(other)`,
+      `notTranslate('not-a-key')`,
+      `$tr('not-a-key')`,
+      `get(_, 'not-a-key')`,
+    ].join('\n')
+    const result = scanSource(await loadParser(), code, { calls: storeCalls, filename: 'a.ts' })
+    expect(result.usages.map(u => u.raw)).toEqual(['a', 'b', 'c', 'd', 'e'])
+  })
+
   it('collects hard strings outside translate calls', async () => {
     const code = `import x from 'mod'; console.log('debug'); const a = <p title="Hover me">Hello world</p>; const b = 'Some text'; t('key')`
     const hard = (await scan(code)).hardStrings!.map(h => `${h.kind}:${h.text}`)
