@@ -17,6 +17,7 @@ export var fluent /* const */
 export var icu /* const */
 export var linked /* const */
 export var litXliff /* const */
+export var messageLiteral /* const */
 export var nesting /* const */
 export var percentBraces /* const */
 export var positionalBraces /* const */
