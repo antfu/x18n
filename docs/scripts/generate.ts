@@ -715,6 +715,17 @@ vim.lsp.config('x18n', {
 vim.lsp.enable('x18n')
 \`\`\`
 
+### JetBrains IDEs
+
+Install the [LSP4IJ](https://plugins.jetbrains.com/plugin/23257-lsp4ij) plugin. In **Settings | Languages & Frameworks | Language Servers (LSP4IJ)**, add a user-defined language server:
+
+1. In the **Server** tab, name it \`x18n\` and set the command to \`x18n-lsp --stdio\`.
+2. In **Mappings**, add file name patterns for the files that use or define messages, such as \`*.ts\`, \`*.tsx\`, \`*.vue\`, \`*.json\` and \`*.yaml\`.
+3. Optionally, set **Configuration | Server | Initialization Options** to \`{ "showFlags": true }\`.
+4. Save the server and open a matching file in your project. The LSP console shows the server status and logs.
+
+LSP4IJ starts the command directly and uses the IDE's \`PATH\`. If it cannot find \`x18n-lsp\`, use the absolute path to the executable. See the [LSP4IJ guide](https://github.com/redhat-developer/lsp4ij/blob/main/docs/UserDefinedLanguageServer.md) for mappings and configuration.
+
 ### Helix
 
 In \`languages.toml\`, add the server, then add it to each language next to the server it already uses:
