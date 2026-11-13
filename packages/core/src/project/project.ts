@@ -17,6 +17,7 @@ import { isKeyUnder, joinKey, keyMatcher, keySeparatorOf, pathMatcher, splitKeyP
 import { parseLocaleInfo, resolveFallbacks } from '../locale'
 import { isMessageLeaf, isMessageTree, pathId, walkLeaves } from '../message-tree'
 import { extensionOf } from '../plugins'
+import { resolveStaticText } from '../static-text'
 import { hashText, rangeContains } from '../text'
 import { createAnalyzer } from './analysis'
 import { planApprovals } from './approvals'
@@ -1282,6 +1283,7 @@ export function createProject(options: CreateProjectOptions): Project {
     },
     reporters: registry.reporters,
     placeholderSyntaxes: registry.placeholders,
+    messageSyntax: registry.messageSyntax,
     extractTemplates: [
       ...(config.extract.templates ?? []).map(template => typeof template === 'string'
         ? { template }
@@ -1292,6 +1294,16 @@ export function createProject(options: CreateProjectOptions): Project {
     search,
     get,
     message,
+    staticText(key, locale) {
+      const found = message(key, locale)
+      if (typeof found?.value !== 'string')
+        return undefined
+      return resolveStaticText({
+        value: found.value,
+        syntax: registry.messageSyntax,
+        placeholders: registry.placeholders,
+      })
+    },
     parseKey(input) {
       const separator = config.namespace.separator
       if (!namespaced)

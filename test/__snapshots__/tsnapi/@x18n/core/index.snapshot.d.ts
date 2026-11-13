@@ -375,6 +375,7 @@ export interface LibraryOptions {
   readonly calls?: readonly CallSpec[];
   readonly regex?: readonly RegexScannerSpec[];
   readonly placeholders?: readonly PlaceholderSyntax[];
+  readonly messageSyntax?: MessageSyntax;
   readonly derivedKeys?: readonly string[];
   readonly namespace?: {
     readonly separator?: string;
@@ -400,6 +401,10 @@ export interface LineIndex {
 export interface LinePosition {
   readonly line: number;
   readonly character: number;
+}
+export interface LiteralSyntax {
+  readonly id: string;
+  readonly find: (_: string) => readonly MessageLiteral[];
 }
 export interface LocaleCoverage {
   readonly locale: LocaleCode;
@@ -506,6 +511,19 @@ export interface MessageHistory {
   readonly changes: ReadonlyMap<KeyString, ReadonlyMap<LocaleCode, MessageChange>>;
   readonly valueAt?: ((_: KeyString, _: LocaleCode, _: number) => MessageLeaf | undefined) | undefined;
 }
+export interface MessageLiteral {
+  readonly syntax: string;
+  readonly text: string;
+  readonly value: string;
+  readonly range: TextRange;
+}
+export interface MessageSyntax {
+  readonly literals?: readonly LiteralSyntax[] | undefined;
+  readonly reserved?: string | undefined;
+}
+export interface MessageTextContext extends StaticTextContext {
+  readonly placeholder?: ((_: Placeholder) => string | undefined) | undefined;
+}
 export interface MessageTree {
   readonly [segment: string]: MessageLeaf | MessageTree;
 }
@@ -583,6 +601,7 @@ export interface Plugin {
   readonly checks?: readonly Check[] | undefined;
   readonly reporters?: readonly Reporter[] | undefined;
   readonly placeholders?: readonly PlaceholderSyntax[] | undefined;
+  readonly messageSyntax?: MessageSyntax | undefined;
   readonly histories?: readonly HistoryProvider[] | undefined;
   readonly reviewStores?: readonly ReviewStore[] | undefined;
   readonly normalizeKey?: ((_: string, _: KeyContext) => string | undefined) | undefined;
@@ -647,6 +666,7 @@ export interface PluginRegistry {
   readonly checks: ReadonlyMap<string, Check>;
   readonly reporters: ReadonlyMap<string, Reporter>;
   readonly placeholders: readonly PlaceholderSyntax[];
+  readonly messageSyntax: MessageSyntax;
   readonly manifests: readonly ManifestReader[];
   readonly extractors: readonly Extractor[];
   readonly histories: readonly HistoryProvider[];
@@ -693,11 +713,13 @@ export interface Project {
   readonly namespaced: boolean;
   readonly reporters: ReadonlyMap<string, Reporter>;
   readonly placeholderSyntaxes: readonly PlaceholderSyntax[];
+  readonly messageSyntax: MessageSyntax;
   readonly extractTemplates: readonly ExtractTemplate[];
   readonly keys: (_?: KeyQuery) => KeyString[];
   readonly search: (_: string, _?: SearchOptions) => SearchMatch[];
   readonly get: (_: KeyString) => KeyInfo | undefined;
   readonly message: (_: KeyString, _: LocaleCode) => Message | undefined;
+  readonly staticText: (_: KeyString, _: LocaleCode) => StaticText | undefined;
   readonly lookup: (_: KeyString, _: LocaleCode) => Message | undefined;
   readonly parseKey: (_: string) => KeyString;
   readonly usages: (_?: UsageQuery) => UsageMatch[];
@@ -1163,6 +1185,14 @@ export interface SourceFile {
   readonly path: string;
   readonly text: string;
   readonly extension: string;
+}
+export interface StaticText {
+  readonly value: string;
+}
+export interface StaticTextContext {
+  readonly value: string;
+  readonly syntax: MessageSyntax;
+  readonly placeholders: readonly PlaceholderSyntax[];
 }
 export interface TextEdit {
   readonly range: TextRange;
@@ -1676,10 +1706,12 @@ export declare function placeholderProblems(_: Project, _: readonly EditOp[]): P
 export declare function rangeContains(_: TextRange, _: number): boolean;
 export declare function relatedLocales(_: LocaleCode, _: readonly LocaleCode[], _: LocaleCode, _: Readonly<Record<LocaleCode, LocaleCode>>): LocaleCode[];
 export declare function renderExplanation(_: ProjectExplanation, _?: string | undefined): string;
+export declare function renderMessageText(_: MessageTextContext): string;
 export declare function renderPrompt(_: PromptData): string;
 export declare function renderTranslatorPrompt(_: PromptInput): TranslatorPrompt;
 export declare function replaceKeyPrefix(_: KeyString, _: KeyString, _: KeyString): KeyString;
 export declare function resolveConfig(_: ResolveConfigOptions): Promise<Setup>;
+export declare function resolveStaticText(_: StaticTextContext): StaticText | undefined;
 export declare function sortTree(_: MessageTree, _: (_: string, _: string) => number): MessageTree;
 export declare function splitKey(_: KeyString, _?: boolean, _?: KeySeparator): KeyId;
 export declare function toErrorInfo(_: unknown): ErrorInfo;

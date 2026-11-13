@@ -766,7 +766,75 @@ With \`lsp-mode\`, register x18n as an add-on server so that it runs next to the
 
 ## Standard features
 
-The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from \`x18n check\`.
+The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes, extraction and inline), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from \`x18n check\`.
+
+### Code actions
+
+| Action | Kind | Appears on |
+| --- | --- | --- |
+| Quick fix | \`quickfix\` | a diagnostic that has a fix |
+| Extract | \`refactor.extract\` | a hard string |
+| Ignore | \`quickfix\` | a hard string |
+| Inline | \`refactor.inline\` | a translate call whose text needs no runtime input |
+
+The cursor has to be inside the string or the call.
+
+#### Quick fix
+
+Comes from a check, for example "Add the key to the source locale" or "Copy the source value". It appears on the line the diagnostic points at.
+
+#### Extract and ignore
+
+\`\`\`diff
+-return 'Save this document'
++return t('saveThisDocument')
+\`\`\`
+
+| Action | Writes |
+| --- | --- |
+| \`Extract "Save this document" to saveThisDocument\` | the key in the source locale, the import the preset defines, and the call |
+| \`Ignore "Save this document"\` | an ignore comment above the line |
+
+A path, a URL, a class list, a CSS value and a single word with no space are not offered. The command \`Extract All Hard Strings in File\` covers every string in the file.
+
+#### Inline
+
+\`\`\`diff
+-const title = $t('nav.home')
++const title = "Home"
+\`\`\`
+
+Offered when:
+
+| Call | Because |
+| --- | --- |
+| \`t('nav.home')\` | the message is fixed text |
+| \`t('nav.home',)\` | a trailing comma is formatting, not an argument |
+| \`t('mail')\`, \`hello{'@'}example.com\` | literals decode |
+| \`{{ $t('nav.home') }}\` | the call is the whole interpolation |
+| \`:title="$t('nav.home')"\` | the call is the whole attribute value |
+
+Refused:
+
+| Call | Because |
+| --- | --- |
+| \`t('nav.home', { name })\` | an argument can pick a locale or carry params |
+| \`t(KEY)\` | the key is not written at the call |
+| \`{{ $t('nav.home') + '!' }}\` | in a template the call must be the whole expression |
+| \`v-t="'nav.home'"\` | there is no call to replace |
+| \`t('greeting')\`, \`Hello {name}\` | the text needs a param |
+| \`t('count')\`, \`one \\| other\` | the text is a plural list |
+| \`t('mail')\`, \`@:other\` | the text comes from another message |
+| \`t('key')\` missing in the display locale | there is no text to write |
+
+| Context | Written as |
+| --- | --- |
+| script | a string literal: \`"It's"\` |
+| quoted attribute | the attribute's other quote: \`'It\\'s'\`, with \`&\` as \`&amp;\` |
+| interpolation | a string, unless the text holds \`}}\` |
+| \`<script>\` | a string, unless the text holds \`</script>\` |
+
+Only the display locale is used, and params are never filled in.
 
 ## Initialization options
 

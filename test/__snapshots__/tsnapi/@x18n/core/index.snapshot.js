@@ -40,10 +40,12 @@ export function placeholderProblems(_, _) {}
 export function rangeContains(_, _) {}
 export function relatedLocales(_, _, _, _) {}
 export function renderExplanation(_, _) {}
+export function renderMessageText(_) {}
 export function renderPrompt(_) {}
 export function renderTranslatorPrompt(_) {}
 export function replaceKeyPrefix(_, _, _) {}
 export async function resolveConfig(_) {}
+export function resolveStaticText(_) {}
 export function sortTree(_, _) {}
 export function splitKey(_, _, _) {}
 export function toErrorInfo(_) {}

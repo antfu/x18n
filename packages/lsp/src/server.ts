@@ -1,5 +1,5 @@
 import type { ExtractCandidate } from '@x18n/builtins/extractors'
-import type { EditOp, ErrorInfo, FileChange, KeyString, KeyTarget, MessageChange, OverlayHost, Plan, Project, ResourceNode, ReviewType, TextRange, Usage, UsageMatch, Diagnostic as X18nDiagnostic } from '@x18n/core'
+import type { EditOp, ErrorInfo, FileChange, KeyString, KeyTarget, MessageChange, MessageLeaf, OverlayHost, Plan, Project, ResourceNode, ReviewType, TextRange, Usage, UsageMatch, Diagnostic as X18nDiagnostic } from '@x18n/core'
 import type { NodeHost } from '@x18n/node'
 import type {
   CodeAction,
@@ -23,7 +23,7 @@ import type { UiServers } from './ui'
 import { relative, resolve, sep } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { extractItems, findCandidates } from '@x18n/builtins/extractors'
-import { createLineIndex, createOverlayHost, isX18nError, joinKey, renderExplanation, renderPrompt, splitKey, toErrorInfo } from '@x18n/core'
+import { createLineIndex, createOverlayHost, isX18nError, joinKey, renderExplanation, renderMessageText, renderPrompt, splitKey, toErrorInfo } from '@x18n/core'
 import { loadWorkspace, migrateI18nAlly } from '@x18n/node'
 import {
   CodeActionKind,
@@ -38,7 +38,8 @@ import {
 } from 'vscode-languageserver'
 import { TextDocument } from 'vscode-languageserver-textdocument'
 import { version } from '../package.json' with { type: 'json' }
-import { fillParams } from './fill'
+import { paramText } from './fill'
+import { inlineContext, inlineReplacement } from './inline'
 import { commands, methods } from './protocol'
 
 export interface ServerProject {
@@ -97,13 +98,33 @@ function display(value: unknown): string | undefined {
       : JSON.stringify(value)
 }
 
+/**
+ * The text a message value shows in an annotation: its literals decoded, and the params the call
+ * passes filled in. Undefined only for a missing value.
+ */
+function valueText(project: Project, value: MessageLeaf | undefined, params: Readonly<Record<string, string>> | undefined): string | undefined {
+  const raw = display(value)
+  return raw === undefined
+    ? undefined
+    : renderMessageText({
+        value: raw,
+        syntax: project.messageSyntax,
+        placeholders: project.placeholderSyntaxes,
+        placeholder: paramText(params, project.placeholderSyntaxes),
+      })
+}
+
 /** One locale's value as it appears in completion documentation. */
-function localeValueText(value: string | undefined): string {
+function localeValueText(project: Project, value: string | undefined): string {
   return value === undefined
     ? '_missing_'
     : value === ''
       ? '_empty_'
-      : value.replace(/\r?\n/g, ' ')
+      : renderMessageText({
+          value,
+          syntax: project.messageSyntax,
+          placeholders: project.placeholderSyntaxes,
+        }).replace(/\r?\n/g, ' ')
 }
 
 /** The innermost call expression containing `offset`, when the scanner knows it. */
@@ -378,7 +399,7 @@ class Server {
           resolveProvider: true,
         },
         codeActionProvider: {
-          codeActionKinds: [CodeActionKind.QuickFix, CodeActionKind.RefactorExtract],
+          codeActionKinds: [CodeActionKind.QuickFix, CodeActionKind.RefactorExtract, CodeActionKind.RefactorInline],
         },
         documentSymbolProvider: true,
         workspaceSymbolProvider: true,
@@ -758,11 +779,7 @@ class Server {
         const flag = this.settings.showFlags
           ? project.localeInfo(locale).flag
           : undefined
-        lines.push(`| ${flag ?? ''} ${locale} | ${value === undefined
-          ? '_missing_'
-          : value === ''
-            ? '_empty_'
-            : value.replace(/\|/g, '\\|').replace(/\n/g, ' ')}${state} |${changed}`)
+        lines.push(`| ${flag ?? ''} ${locale} | ${localeValueText(project, value).replace(/\|/g, '\\|')}${state} |${changed}`)
       })
       const threads = project.reviews({ key: target.key, open: true })
       if (threads.length > 0)
@@ -800,10 +817,7 @@ class Server {
     for (const { usage } of entry.project.usages({ path })) {
       if (usage.key === undefined || usage.dynamic !== false || usage.range.start < start || usage.range.end > end)
         continue
-      const raw = display(entry.project.lookup(usage.key, locale)?.value)
-      const value = raw === undefined
-        ? undefined
-        : fillParams(raw, usage.paramValues, entry.project.placeholderSyntaxes)
+      const value = valueText(entry.project, entry.project.lookup(usage.key, locale)?.value, usage.paramValues)
       hints.push({
         // After the closing quote, when the key has one: `<p translate>key</p>` has none.
         position: index.position(usage.range.end + (/['"`]/.test(text[usage.range.end] ?? '')
@@ -911,7 +925,7 @@ class Server {
       const flag = this.settings.showFlags
         ? entry.project.localeInfo(locale).flag
         : undefined
-      lines.push(`- ${flag ?? ''} **${locale}** ${localeValueText(value)}`)
+      lines.push(`- ${flag ?? ''} **${locale}** ${localeValueText(entry.project, value)}`)
     }
     item.documentation = {
       kind: 'markdown',
@@ -922,6 +936,7 @@ class Server {
 
   async codeActions(params: { textDocument: { uri: string }, range: Range, context: { diagnostics: Diagnostic[] } }): Promise<CodeAction[]> {
     await this.ready
+    await this.flush(params.textDocument.uri)
     const found = this.locate(params.textDocument.uri)
     if (!found)
       return []
@@ -942,13 +957,64 @@ class Server {
             edit: this.workspaceEdit(entry, entry.project.plan(fix.ops)),
           })
         }
-        catch {}
+        catch {
+          // A fix whose plan throws is not offered; the diagnostic still shows.
+        }
       }
     }
     return [
       ...actions,
       ...this.extractActions(entry, path, start, end),
+      ...this.inlineActions(entry, path, start, end),
     ]
+  }
+
+  /** Inline a static call that passes no argument as its display-locale text, when the context can hold a plain string. */
+  inlineActions(entry: ServerProject, path: string, start: number, end: number): CodeAction[] {
+    const { project } = entry
+    const text = this.text(entry, path)
+    const locale = this.displayLocale(entry)
+    const actions: CodeAction[] = []
+    const seen = new Set<string>()
+    for (const { usage } of project.usages({ path })) {
+      const expression = usage.expression
+      if (expression === undefined || usage.key === undefined || usage.dynamic !== false)
+        continue
+      if (expression.start > end || expression.end < start)
+        continue
+      // The key, then only an optional trailing comma: any other argument can pick the locale or carry
+      // params, and inlining the whole call would drop it.
+      if (!/^['"`][\s,]*\)$/.test(text.slice(usage.range.end, expression.end)))
+        continue
+      const id = `${expression.start}:${expression.end}`
+      if (seen.has(id))
+        continue
+      const value = project.staticText(usage.key, locale)?.value
+      const context = value === undefined
+        ? undefined
+        : inlineContext(text, path, expression)
+      const newText = value === undefined || context === undefined
+        ? undefined
+        : inlineReplacement(value, context)
+      if (value === undefined || newText === undefined)
+        continue
+      seen.add(id)
+      actions.push({
+        title: `Inline "${truncate(value.replace(/\s+/g, ' '), 30)}" (${locale})`,
+        kind: CodeActionKind.RefactorInline,
+        edit: {
+          changes: {
+            [this.uriOf(entry, path)]: [
+              {
+                range: this.range(entry, path, expression),
+                newText,
+              },
+            ],
+          },
+        },
+      })
+    }
+    return actions
   }
 
   extractActions(entry: ServerProject, path: string, start: number, end: number): CodeAction[] {
@@ -1504,10 +1570,8 @@ class Server {
       decorations: entry.project.usages({ path }).flatMap(({ usage }) => {
         if (usage.key === undefined)
           return []
-        const raw = display(entry.project.lookup(usage.key, locale)?.value)
-        const value = raw === undefined
-          ? undefined
-          : fillParams(raw, usage.paramValues, entry.project.placeholderSyntaxes)
+        const stored = entry.project.lookup(usage.key, locale)?.value
+        const value = valueText(entry.project, stored, usage.paramValues)
         const state = usage.dynamic !== false
           ? 'dynamic' as const
           : value === undefined

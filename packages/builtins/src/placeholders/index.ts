@@ -1,4 +1,4 @@
-import type { Placeholder, PlaceholderSyntax, Plugin } from '@x18n/core'
+import type { LiteralSyntax, MessageLiteral, Placeholder, PlaceholderSyntax, Plugin } from '@x18n/core'
 
 function byRegex(id: string, regex: RegExp, example: string): PlaceholderSyntax {
   return {
@@ -201,4 +201,118 @@ export function placeholderFromShape(shape: string): PlaceholderSyntax {
   const [before, after] = shape.split('name')
   const escape = (text: string): string => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   return byRegex(`shape:${shape}`, new RegExp(`${escape(before ?? '')}\\s*([\\w.-]+)\\s*${escape(after ?? '')}`, 'g'), shape)
+}
+
+/** Text the message syntax reads as text: a space or a line feed, which is all it skips inside a literal. */
+function isSkip(char: string | undefined): boolean {
+  return char === ' ' || char === '\n'
+}
+
+/** Offset after the spaces at `at`. */
+function skipSpaces(value: string, at: number): number {
+  let i = at
+  while (isSkip(value[i]))
+    i++
+  return i
+}
+
+/** The text of one `\` escape in a literal: `\\`, `\'`, `\uXXXX`, `\UXXXXXX`. Undefined for an unknown one, which the compiler rejects. */
+function literalEscape(value: string, at: number): { readonly value: string, readonly end: number } | undefined {
+  const next = value[at + 1]
+  if (next === '\\' || next === '\'')
+    return { value: next, end: at + 2 }
+  if (next !== 'u' && next !== 'U')
+    return undefined
+  const digits = next === 'u'
+    ? 4
+    : 6
+  const hex = value.slice(at + 2, at + 2 + digits)
+  if (!/^[0-9a-f]+$/i.test(hex) || hex.length !== digits)
+    return undefined
+  const codePoint = Number.parseInt(hex, 16)
+  if (codePoint > 0x10FFFF)
+    return undefined
+  // A surrogate is not a code point: the compiler writes a replacement character.
+  return {
+    value: codePoint <= 0xD7FF || codePoint >= 0xE000
+      ? String.fromCodePoint(codePoint)
+      : '\uFFFD',
+    end: at + 2 + digits,
+  }
+}
+
+/** The `{'...'}` literal that starts at `at`, when the syntax closes it. */
+function quotedLiteralAt(value: string, at: number): MessageLiteral | undefined {
+  let i = skipSpaces(value, at + 1)
+  if (value[i] !== '\'')
+    return undefined
+  let text = ''
+  let closed = false
+  i++
+  while (i < value.length) {
+    const char = value[i]!
+    // A line feed ends the body unterminated, which the compiler rejects.
+    if (char === '\n')
+      return undefined
+    if (char === '\'') {
+      closed = true
+      i++
+      break
+    }
+    if (char === '\\') {
+      const escape = literalEscape(value, i)
+      if (!escape)
+        return undefined
+      text += escape.value
+      i = escape.end
+      continue
+    }
+    text += char
+    i++
+  }
+  if (!closed)
+    return undefined
+  const end = skipSpaces(value, i)
+  if (value[end] !== '}')
+    return undefined
+  return {
+    syntax: 'literal',
+    text: value.slice(at, end + 1),
+    value: text,
+    range: { start: at, end: end + 1 },
+  }
+}
+
+/**
+ * `{'@'}` and `\@`: text the syntax decodes instead of reading it as syntax. The escape covers
+ * `\@`, `\{`, `\}`, `\|` and `\\`; any other `\` stays text, as the syntax reads it.
+ */
+export const messageLiteral: LiteralSyntax = {
+  id: 'literal',
+  find(value) {
+    const out: MessageLiteral[] = []
+    let i = 0
+    while (i < value.length) {
+      if (value[i] === '{') {
+        const literal = quotedLiteralAt(value, i)
+        if (literal) {
+          out.push(literal)
+          i = literal.range.end
+          continue
+        }
+      }
+      else if (value[i] === '\\' && /[\\@{}|]/.test(value[i + 1] ?? '')) {
+        out.push({
+          syntax: 'literal',
+          text: value.slice(i, i + 2),
+          value: value[i + 1]!,
+          range: { start: i, end: i + 2 },
+        })
+        i += 2
+        continue
+      }
+      i++
+    }
+    return out
+  },
 }

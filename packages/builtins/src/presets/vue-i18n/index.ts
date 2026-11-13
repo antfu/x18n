@@ -2,7 +2,7 @@ import type { CallSpec, Preset } from '@x18n/core'
 import { createLibraryPlugin } from '@x18n/core'
 // Detection and syntax adapted from i18n-ally (MIT), src/frameworks/*
 import { sfcBlocks } from '../../finders/sfc-blocks'
-import { braces, linked } from '../../placeholders'
+import { braces, linked, messageLiteral } from '../../placeholders'
 
 const vueI18nParams: NonNullable<CallSpec['params']> = {
   arg: [1, 2],
@@ -73,6 +73,11 @@ export function vueI18n(): Preset {
           },
           linked,
         ],
+        // A bare `@` starts a linked message, a bare brace a placeholder or a literal, and a bare `|` a plural list, so each of them is syntax.
+        messageSyntax: {
+          literals: [messageLiteral],
+          reserved: '@{}|',
+        },
       }),
       // vue-i18n passes `n` and `count` to plural messages.
       sfcBlocks(),

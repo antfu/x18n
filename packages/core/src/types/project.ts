@@ -2,6 +2,7 @@ import type { ErrorInfo } from '../errors'
 import type { CapabilityConflict } from '../plugins'
 import type { PromptData, PromptOptions } from '../project/prompt'
 import type { PresetExplanation } from '../resolve'
+import type { StaticText } from '../static-text'
 import type { ExtractTemplate, ResolvedConfig } from './config'
 import type { FileEvent } from './host'
 import type {
@@ -18,7 +19,7 @@ import type {
   TextRange,
   Usage,
 } from './model'
-import type { HardString, LocaleCoverage, MessageChange, PlaceholderSyntax, Reporter, ScanResult } from './plugin'
+import type { HardString, LocaleCoverage, MessageChange, MessageSyntax, PlaceholderSyntax, Reporter, ScanResult } from './plugin'
 import type { ApprovalPlan, ApprovalQuery, MachineRecord, ReviewAuthor, ReviewFilter, ReviewThread } from './review'
 import type { TranslationJob, TranslationOptions, TranslationRun, Translator } from './translate'
 
@@ -220,6 +221,8 @@ export interface Project {
   readonly namespaced: boolean
   readonly reporters: ReadonlyMap<string, Reporter>
   readonly placeholderSyntaxes: readonly PlaceholderSyntax[]
+  /** How message text decodes to the text it renders, merged from every plugin. */
+  readonly messageSyntax: MessageSyntax
   /** Extraction templates: config `extract.templates` first, then those of presets. */
   readonly extractTemplates: readonly ExtractTemplate[]
   readonly keys: (query?: KeyQuery) => KeyString[]
@@ -227,6 +230,8 @@ export interface Project {
   readonly search: (query: string, options?: SearchOptions) => SearchMatch[]
   readonly get: (key: KeyString) => KeyInfo | undefined
   readonly message: (key: KeyString, locale: LocaleCode) => Message | undefined
+  /** The text `message` renders with no runtime input, or undefined when it needs a param, a plural form or syntax this layer cannot decode. */
+  readonly staticText: (key: KeyString, locale: LocaleCode) => StaticText | undefined
   /** The message a usage of `key` shows: the key's own, or one of its derived keys (`item` → `item_other`). */
   readonly lookup: (key: KeyString, locale: LocaleCode) => Message | undefined
   /** Parses user input such as `common:save` or `save` into a key string. */
