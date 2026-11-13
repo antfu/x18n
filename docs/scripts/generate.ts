@@ -770,37 +770,62 @@ The server treats keys as symbols. It supports go to definition, go to implement
 
 ### Code actions
 
-| Kind | Action | Appears on | Writes |
-| --- | --- | --- | --- |
-| \`quickfix\` | a quick fix from a diagnostic | a key with a fixable problem | the fix, such as adding the missing key |
-| \`quickfix\` | \`Ignore "…"\` | a hard string | an ignore comment above the line |
-| \`refactor.extract\` | \`Extract "…" to common.save\` | a hard string | the key in the source locale, the import, and the call |
-| \`refactor.inline\` | \`Inline "…" (en)\` | a translate call whose text needs no runtime input | the text, in place of the whole call |
+| Action | Kind | Appears on |
+| --- | --- | --- |
+| Quick fix | \`quickfix\` | a diagnostic that has a fix |
+| Extract | \`refactor.extract\` | a hard string |
+| Ignore | \`quickfix\` | a hard string |
+| Inline | \`refactor.inline\` | a translate call whose text needs no runtime input |
 
 The cursor has to be inside the string or the call.
 
-### Inline a call
+#### Quick fix
+
+Comes from a check, for example "Add the key to the source locale" or "Copy the source value". It appears on the line the diagnostic points at.
+
+#### Extract and ignore
+
+\`\`\`diff
+-return 'Save this document'
++return t('saveThisDocument')
+\`\`\`
+
+| Action | Writes |
+| --- | --- |
+| \`Extract "Save this document" to saveThisDocument\` | the key in the source locale, the import the preset defines, and the call |
+| \`Ignore "Save this document"\` | an ignore comment above the line |
+
+A path, a URL, a class list, a CSS value and a single word with no space are not offered. The command \`Extract All Hard Strings in File\` covers every string in the file.
+
+#### Inline
 
 \`\`\`diff
 -const title = $t('nav.home')
 +const title = "Home"
 \`\`\`
 
-| Call | Action | Because |
-| --- | --- | --- |
-| \`t('nav.home')\` | yes | the message is fixed text |
-| \`t('nav.home',)\` | yes | a trailing comma is formatting, not an argument |
-| \`t('mail')\` with \`hello{'@'}example.com\` | yes | literals decode |
-| \`{{ $t('nav.home') }}\` | yes | the call is the whole interpolation |
-| \`:title="$t('nav.home')"\` | yes | the call is the whole attribute value |
-| \`t('nav.home', { name })\` | no | an argument can pick a locale or carry params |
-| \`t(KEY)\` | no | the key is not written at the call |
-| \`{{ $t('nav.home') + '!' }}\` | no | in a template the call must be the whole expression |
-| \`v-t="'nav.home'"\` | no | there is no call to replace |
-| \`t('greeting')\` with \`Hello {name}\` | no | the text needs a param |
-| \`t('count')\` with \`one \\| other\` | no | the text is a plural list |
-| \`t('mail')\` with \`@:other\` | no | the text comes from another message |
-| \`t('key')\` that the display locale lacks | no | there is no text to write |
+Offered when:
+
+| Call | Because |
+| --- | --- |
+| \`t('nav.home')\` | the message is fixed text |
+| \`t('nav.home',)\` | a trailing comma is formatting, not an argument |
+| \`t('mail')\`, \`hello{'@'}example.com\` | literals decode |
+| \`{{ $t('nav.home') }}\` | the call is the whole interpolation |
+| \`:title="$t('nav.home')"\` | the call is the whole attribute value |
+
+Refused:
+
+| Call | Because |
+| --- | --- |
+| \`t('nav.home', { name })\` | an argument can pick a locale or carry params |
+| \`t(KEY)\` | the key is not written at the call |
+| \`{{ $t('nav.home') + '!' }}\` | in a template the call must be the whole expression |
+| \`v-t="'nav.home'"\` | there is no call to replace |
+| \`t('greeting')\`, \`Hello {name}\` | the text needs a param |
+| \`t('count')\`, \`one \\| other\` | the text is a plural list |
+| \`t('mail')\`, \`@:other\` | the text comes from another message |
+| \`t('key')\` missing in the display locale | there is no text to write |
 
 | Context | Written as |
 | --- | --- |
