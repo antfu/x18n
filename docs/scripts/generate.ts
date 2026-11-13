@@ -766,7 +766,50 @@ With \`lsp-mode\`, register x18n as an add-on server so that it runs next to the
 
 ## Standard features
 
-The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes and extraction), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from \`x18n check\`.
+The server treats keys as symbols. It supports go to definition, go to implementation, references, rename (with prepare), hover, inlay hints, completion of keys, code actions (quick fixes, extraction and inline), document symbols, workspace symbols, code lenses and diagnostics. Diagnostics are the same as the ones from \`x18n check\`.
+
+### Code actions
+
+| Kind | Action | Appears on | Writes |
+| --- | --- | --- | --- |
+| \`quickfix\` | a quick fix from a diagnostic | a key with a fixable problem | the fix, such as adding the missing key |
+| \`quickfix\` | \`Ignore "…"\` | a hard string | an ignore comment above the line |
+| \`refactor.extract\` | \`Extract "…" to common.save\` | a hard string | the key in the source locale, the import, and the call |
+| \`refactor.inline\` | \`Inline "…" (en)\` | a translate call whose text needs no runtime input | the text, in place of the whole call |
+
+The cursor has to be inside the string or the call.
+
+### Inline a call
+
+\`\`\`diff
+-const title = $t('nav.home')
++const title = "Home"
+\`\`\`
+
+| Call | Action | Because |
+| --- | --- | --- |
+| \`t('nav.home')\` | yes | the message is fixed text |
+| \`t('nav.home',)\` | yes | a trailing comma is formatting, not an argument |
+| \`t('mail')\` with \`hello{'@'}example.com\` | yes | literals decode |
+| \`{{ $t('nav.home') }}\` | yes | the call is the whole interpolation |
+| \`:title="$t('nav.home')"\` | yes | the call is the whole attribute value |
+| \`t('nav.home', { name })\` | no | an argument can pick a locale or carry params |
+| \`t(KEY)\` | no | the key is not written at the call |
+| \`{{ $t('nav.home') + '!' }}\` | no | in a template the call must be the whole expression |
+| \`v-t="'nav.home'"\` | no | there is no call to replace |
+| \`t('greeting')\` with \`Hello {name}\` | no | the text needs a param |
+| \`t('count')\` with \`one \\| other\` | no | the text is a plural list |
+| \`t('mail')\` with \`@:other\` | no | the text comes from another message |
+| \`t('key')\` that the display locale lacks | no | there is no text to write |
+
+| Context | Written as |
+| --- | --- |
+| script | a string literal: \`"It's"\` |
+| quoted attribute | the attribute's other quote: \`'It\\'s'\`, with \`&\` as \`&amp;\` |
+| interpolation | a string, unless the text holds \`}}\` |
+| \`<script>\` | a string, unless the text holds \`</script>\` |
+
+Only the display locale is used, and params are never filled in.
 
 ## Initialization options
 

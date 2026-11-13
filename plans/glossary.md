@@ -23,7 +23,7 @@ Use these names in code, docs and UI. Avoid the "not" column.
 | **Hard string** | Text in source code that should probably be a message. | |
 | **Plugin** | An object that contributes capabilities through the plugin API. | framework, extension |
 | **Preset** | A detected or listed group of plugins for one library. | framework |
-| **Capability** | One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, history provider, review store, translator. | |
+| **Capability** | One kind of contribution: manifest reader, locale finder, format, scanner, extractor, check, reporter, placeholder syntax, message syntax, history provider, review store, translator. | |
 | **Format** | Reads and writes one file format. | parser (only for the read half) |
 | **Locale finder** | Finds resources. | loader |
 | **Scanner** | Finds usages in source files. | detector |
@@ -37,6 +37,9 @@ Use these names in code, docs and UI. Avoid the "not" column.
 | **Plan** | The side-effect-free result of planning edits: file changes plus decisions. | patch, diff |
 | **Decision** | A question in a plan that a surface must answer before apply. | prompt (that word is for LLM prompts) |
 | **In-place annotation** | Editor decoration that hides a key and shows its display-locale value. | inline translation |
+| **Placeholder** | A part of a message that reads a param at runtime (`{name}`). | variable, token |
+| **Literal** | A part of a message that the syntax decodes to fixed text (`{'@'}` is `@`). A message with a placeholder, a plural list or a linked message is not fixed text. | escape sequence (that is one form of it) |
+| **Static text** | The text a message renders when nothing in it needs runtime input. `Project.staticText` returns it, or nothing. | resolved value, rendered message |
 | **Surface** | A user-facing layer on the core: CLI, LSP, extension, UI, MCP. | client, frontend |
 | **Translate prompt** | The text that describes translation work for an agent or LLM. | |
 | **Translator** | A capability that turns a batch of source messages into target values through a service or model. | engine, provider (that is the AI SDK's word) |

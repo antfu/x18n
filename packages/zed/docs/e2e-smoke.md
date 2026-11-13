@@ -58,6 +58,7 @@ Restart the language server after changing settings (**Restart Language Server**
 - [ ] **Rename** (F2) updates usages and locale resources.
 - [ ] **Completion** inside `t('…` suggests keys.
 - [ ] **Code action** on a hard string offers extract / ignore when the server provides it.
+- [ ] **Inline** appears on a call whose text needs no runtime input, such as `t('nav.home')`, and not on a call that passes an argument or whose message has a placeholder.
 - [ ] **Inlay hints** show annotation text when enabled (not VS Code in-place annotations).
 
 ## Troubleshooting

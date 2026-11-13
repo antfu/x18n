@@ -28,6 +28,7 @@ interface Plugin {
   readonly checks?: readonly Check[]
   readonly reporters?: readonly Reporter[]
   readonly placeholders?: readonly PlaceholderSyntax[]
+  readonly messageSyntax?: MessageSyntax
   readonly histories?: readonly HistoryProvider[]
   readonly reviewStores?: readonly ReviewStore[]
   /** 1.x: machine translation services (20-translation.md). */
@@ -251,6 +252,23 @@ interface PlaceholderSyntax {
   readonly find: (value: string) => readonly Placeholder[]
 }
 ```
+
+### Message syntax
+
+Describes how a message value becomes the text it renders, when no runtime input is involved. A literal decodes to fixed text (`{'@'}` in vue-i18n is `@`), and a reserved character starts syntax whose text is not the character itself, so a value with one is not fixed text. `Project.staticText` reads the merged syntax of every plugin, and inline code actions and other surfaces use it instead of a list of placeholder patterns.
+
+```ts
+interface MessageSyntax {
+  readonly literals?: readonly LiteralSyntax[]
+  readonly reserved?: string
+}
+interface LiteralSyntax {
+  readonly id: string
+  readonly find: (value: string) => readonly MessageLiteral[]
+}
+```
+
+One walk does the work: `renderMessageText(ctx)` decodes the literals and replaces each placeholder that the caller's `placeholder` callback resolves, and a placeholder that starts inside a literal stays text. `resolveStaticText` is the strict form of the same walk, with no callback, and returns nothing as soon as one placeholder or one reserved character is left. A surface fills params through that callback, never by matching placeholder patterns on the decoded string, so the text a literal decodes to cannot become a placeholder again.
 
 ### Key hooks
 

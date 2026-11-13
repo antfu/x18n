@@ -124,6 +124,7 @@ project.resources // Resource[]
 project.keys() // KeyString[]; filters by namespace, prefix, glob
 project.get(key) // KeyInfo: messages per locale, usages, diagnostics, review threads
 project.message(key, locale)
+project.staticText(key, locale) // { value } when the text needs no runtime input, else undefined
 project.usages({ key, path }) // both filters optional; with `key`, prefix usages come back marked `possible`
 project.keyAt(path, offset) // the key (or resource node) under a position: the base of definition, references and rename
 project.analyze() // Analysis: diagnostics, coverage per locale, unused, missing
