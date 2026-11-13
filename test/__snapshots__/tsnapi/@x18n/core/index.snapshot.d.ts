@@ -529,6 +529,7 @@ export interface OverlayHost extends Host {
 }
 export interface ParamsSource {
   readonly arg: number | readonly number[];
+  readonly property?: string | undefined;
   readonly options?: readonly string[] | undefined;
 }
 export interface ParseResult {

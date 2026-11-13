@@ -14,11 +14,20 @@ export function svelteI18n(): Preset {
             callee: [
               '$_',
               '$t',
-              '$format',
               '_',
               't',
-              'format',
+            ],
+            // `$_('key', { values: { name } })`: the message params live in `options.values`.
+            params: {
+              arg: 1,
+              property: 'values',
+            },
+          },
+          {
+            callee: [
+              '$format',
               '$json',
+              'format',
               'json',
             ],
           },

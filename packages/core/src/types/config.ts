@@ -12,6 +12,8 @@ export interface ArgSource {
 export interface ParamsSource {
   /** Arguments that may hold the params object, in order; string arguments are skipped (`t(key, 'Default', { n })`). */
   readonly arg: number | readonly number[]
+  /** Property of the argument that holds the params object, dot-separated (`'values'` for `t(key, { values: { n } })`). */
+  readonly property?: string | undefined
   /** Option names the library reads itself, which a message need not use (`ns`, `defaultValue`). */
   readonly options?: readonly string[] | undefined
 }
