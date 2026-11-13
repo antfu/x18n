@@ -156,6 +156,25 @@ describe('tier 1 presets', () => {
     expect(project.usages().map(m => m.usage.key).sort()).toEqual(['a', 'b', 'c', 'd'])
   })
 
+  it('svelte-i18n: template expressions read constants of the script', async () => {
+    const component = `<script>\n  import { _ } from 'svelte-i18n'\n  const key = 'greeting'\n  const keys = { title: 'welcome' }\n</script>\n<h1>{$_(key)}</h1><p>{$_(keys.title)}</p>`
+    const { project } = await createTestProject({
+      'package.json': pkg('svelte-i18n', 'svelte'),
+      'src/locales/en.json': json({ greeting: 'Hello', welcome: 'Welcome', unused: 'U' }),
+      'src/App.svelte': component,
+    })
+    const usages = project.usages().map(m => m.usage)
+    expect(usages.map(u => [
+      u.key,
+      u.dynamic,
+      component.slice(u.range.start, u.range.end),
+    ])).toEqual([
+      ['greeting', false, 'greeting'],
+      ['welcome', false, 'welcome'],
+    ])
+    expect(project.analyze().unused).toEqual(['unused'])
+  })
+
   it('solid-primitives-i18n: t calls with double-brace placeholders', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@solid-primitives/i18n', 'solid-js'),

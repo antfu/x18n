@@ -18,6 +18,8 @@ interface Binding {
  */
 export interface ScanScope {
   readonly bindings: Map<string, Binding>
+  /** String and object constants, with the offset of the scan that declared them. */
+  readonly constants: Map<string, Constant>
   /** Local names of store readers (`import { get as read }`) to the names in `CallSpec.unwrap`. */
   readonly readers: Map<string, string>
 }
@@ -25,8 +27,15 @@ export interface ScanScope {
 export function createScanScope(): ScanScope {
   return {
     bindings: new Map(),
+    constants: new Map(),
     readers: new Map(),
   }
+}
+
+/** A `const` holding a string or object literal; `offset` places its node in the file. */
+interface Constant {
+  readonly node: Node
+  readonly offset: number
 }
 
 /** The namespace and key prefix a usage carries. */
@@ -176,7 +185,7 @@ class FileScan {
   readonly frames: Map<string, Binding>[]
   readonly readers: Map<string, string>
 
-  readonly constants = new Map<string, Node>()
+  readonly constants: Map<string, Constant>
   /** Several specs may share a callee, for example lingui `t('id')` and `t({ id })`. */
   readonly declared = new Map<string, CallSpec[]>()
   readonly factories = new Map<string, CallSpec[]>()
@@ -192,6 +201,7 @@ class FileScan {
       scope.bindings,
     ]
     this.readers = scope.readers
+    this.constants = scope.constants
     for (const spec of calls) {
       for (const reader of spec.unwrap ?? []) {
         if (!this.readers.has(reader))
@@ -272,7 +282,7 @@ class FileScan {
     if (node.type === 'JSXExpressionContainer' && node.expression.type !== 'JSXEmptyExpression')
       return this.stringArg(node.expression)
     if (node.type === 'Identifier') {
-      const constant = this.constants.get(node.name)
+      const constant = this.constants.get(node.name)?.node
       return constant && isStringLiteral(constant)
         ? constant.value
         : undefined
@@ -406,7 +416,7 @@ class FileScan {
     if (isStringLiteral(node))
       return node.value
     if (node.type === 'Identifier') {
-      const constant = this.constants.get(node.name)
+      const constant = this.constants.get(node.name)?.node
       return constant && isStringLiteral(constant)
         ? constant.value
         : undefined
@@ -527,22 +537,38 @@ class FileScan {
     }
     if (node.type === 'ArrowFunctionExpression' && node.params[0]?.type === 'Identifier')
       return this.addSelector(node.params[0].name, node.body, base)
-    const constant = node.type === 'Identifier'
-      ? this.constants.get(node.name)
-      : node.type === 'MemberExpression'
-        ? this.memberConstant(node)
-        : undefined
-    if (constant && isStringLiteral(constant)) {
+    const constant = this.stringConstant(node)
+    if (constant) {
+      const range = innerRange(constant.node)
       this.usages.push({
         ...base,
         raw: constant.value,
-        range: this.range(innerRange(constant)),
+        range: { start: range.start + constant.offset, end: range.end + constant.offset },
         kind: 'constant',
         dynamic: false,
       })
       return
     }
     this.addUnknown(node, base)
+  }
+
+  /**
+   * The string literal a constant `name` or `name.prop` holds, with the offset of the scan that declared it: a Svelte
+   * template reads constants of the `<script>`.
+   */
+  stringConstant(node: Node): (Constant & { readonly value: string }) | undefined {
+    const root = node.type === 'Identifier'
+      ? node
+      : node.type === 'MemberExpression' && node.object.type === 'Identifier'
+        ? node.object
+        : undefined
+    const entry = root && this.constants.get(root.name)
+    const literal = node.type === 'MemberExpression'
+      ? this.memberConstant(node)
+      : entry?.node
+    return entry && isStringLiteral(literal)
+      ? { node: literal, offset: entry.offset, value: literal.value }
+      : undefined
   }
 
   addUnknown(node: Node, base: KeyBase): void {
@@ -582,7 +608,7 @@ class FileScan {
   memberConstant(node: Extract<Node, { type: 'MemberExpression' }>): Node | undefined {
     if (node.computed || node.property.type !== 'Identifier' || node.object.type !== 'Identifier')
       return undefined
-    const object = this.constants.get(node.object.name)
+    const object = this.constants.get(node.object.name)?.node
     return object && object.type === 'ObjectExpression'
       ? objectProperty(object, node.property.name)
       : undefined
@@ -701,7 +727,7 @@ class FileScan {
       return
     const value = unwrap(init)
     if (id.type === 'Identifier' && (isStringLiteral(value) || value.type === 'ObjectExpression'))
-      this.constants.set(id.name, value)
+      this.constants.set(id.name, { node: value, offset: this.offset })
     if (value.type === 'CallExpression') {
       const factory = calleeName(value.callee)
       const specs = factory
