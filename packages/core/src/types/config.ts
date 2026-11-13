@@ -40,6 +40,12 @@ export interface CallSpec {
   readonly returns?: readonly string[] | undefined
   /** Type names that mark a parameter or prop as a translate function: ['TFunction']. */
   readonly types?: readonly string[] | undefined
+  /**
+   * The callee is a store that holds the translate function, and these functions read its value: with `['get']`,
+   * `get(t)('key')` and `const tr = get(t)` are usages too, also through a renamed import of the store or of `get`.
+   * `$name('key')` reads a store bound to `name`, as in Svelte components.
+   */
+  readonly unwrap?: readonly string[] | undefined
 }
 
 export interface RegexScannerSpec {

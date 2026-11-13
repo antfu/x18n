@@ -15,12 +15,18 @@ export function svelteI18n(): Preset {
               '$_',
               '$t',
               '$format',
+              '$json',
+            ],
+          },
+          // The stores themselves: `get(_)('key')`, `const translate = get(_)`, `import { _ as i18n }` with `$i18n`.
+          {
+            callee: [
               '_',
               't',
               'format',
-              '$json',
               'json',
             ],
+            unwrap: ['get'],
           },
         ],
         templates: [

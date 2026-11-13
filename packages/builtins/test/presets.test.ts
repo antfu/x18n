@@ -134,6 +134,28 @@ describe('tier 1 presets', () => {
     expect(project.usages().map(m => m.usage.key)).toEqual(['page.body', 'page.title'])
   })
 
+  it('svelte-i18n: get(_), its aliases and renamed stores', async () => {
+    const { project } = await createTestProject({
+      'package.json': pkg('svelte-i18n', 'svelte'),
+      'src/locales/en.json': json({
+        a: 'A',
+        b: 'B',
+        c: 'C',
+        d: 'D',
+        unused: 'U',
+      }),
+      'src/lib/i18n.ts': [
+        `import { get } from 'svelte/store'`,
+        `import { _ } from 'svelte-i18n'`,
+        `export const greet = () => get(_)('a')`,
+        `const translate = get(_)`,
+        `export const bye = () => translate('b')`,
+      ].join('\n'),
+      'src/App.svelte': `<script>\n  import { get } from 'svelte/store'\n  import { _ as i18n } from 'svelte-i18n'\n  const tr = get(i18n)\n</script>\n<p>{$i18n('c')}</p><p>{tr('d')}</p>`,
+    })
+    expect(project.usages().map(m => m.usage.key).sort()).toEqual(['a', 'b', 'c', 'd'])
+  })
+
   it('solid-primitives-i18n: t calls with double-brace placeholders', async () => {
     const { project } = await createTestProject({
       'package.json': pkg('@solid-primitives/i18n', 'solid-js'),

@@ -210,6 +210,8 @@ interface CallSpec {
   readonly factory?: boolean
   /** Type names that mark a parameter or prop as a translate function: ['TFunction']. */
   readonly types?: readonly string[]
+  /** The callee is a store; these functions read it (`['get']`: `get(_)('key')`, `const tr = get(_)`). `$name` reads a store bound to `name`. */
+  readonly unwrap?: readonly string[]
 }
 ```
 

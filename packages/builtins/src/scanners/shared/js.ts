@@ -12,6 +12,23 @@ interface Binding {
   readonly unreadableKeyPrefix?: boolean | undefined
 }
 
+/**
+ * Top-level bindings of one component, shared by the scans of its parts: a Svelte `<script>` and the template
+ * expressions that use what it imports and declares.
+ */
+export interface ScanScope {
+  readonly bindings: Map<string, Binding>
+  /** Local names of store readers (`import { get as read }`) to the names in `CallSpec.unwrap`. */
+  readonly readers: Map<string, string>
+}
+
+export function createScanScope(): ScanScope {
+  return {
+    bindings: new Map(),
+    readers: new Map(),
+  }
+}
+
 /** The namespace and key prefix a usage carries. */
 interface KeyBase {
   readonly namespace: string | undefined
@@ -143,14 +160,21 @@ function objectProperty(object: ObjectExpression, name: string): Node | undefine
   return undefined
 }
 
+/** A store binding as the value it holds: the translate function, no longer a store. */
+function storeValue(binding: Binding): Binding {
+  return {
+    ...binding,
+    spec: { ...binding.spec, unwrap: undefined },
+  }
+}
+
 class FileScan {
   readonly usages: UsageCandidate[] = []
   readonly keySlots: TextRange[] = []
   readonly hardStrings: HardString[] = []
   decorators = 0
-  readonly frames: Map<string, Binding>[] = [
-    new Map(),
-  ]
+  readonly frames: Map<string, Binding>[]
+  readonly readers: Map<string, string>
 
   readonly constants = new Map<string, Node>()
   /** Several specs may share a callee, for example lingui `t('id')` and `t({ id })`. */
@@ -163,8 +187,16 @@ class FileScan {
   /** Render-prop functions of factory components (`<Translation>{t => ...}</Translation>`), by start offset. */
   readonly renderProps = new Map<number, Binding>()
 
-  constructor(readonly text: string, readonly offset: number, calls: readonly CallSpec[], readonly collectHardStrings: boolean, readonly ignoredCallees: ReadonlySet<string> = new Set(), readonly textAttributes: readonly string[] = []) {
+  constructor(readonly text: string, readonly offset: number, calls: readonly CallSpec[], readonly collectHardStrings: boolean, readonly ignoredCallees: ReadonlySet<string> = new Set(), readonly textAttributes: readonly string[] = [], scope: ScanScope = createScanScope()) {
+    this.frames = [
+      scope.bindings,
+    ]
+    this.readers = scope.readers
     for (const spec of calls) {
+      for (const reader of spec.unwrap ?? []) {
+        if (!this.readers.has(reader))
+          this.readers.set(reader, reader)
+      }
       for (const name of [spec.callee].flat()) {
         if (spec.factory) {
           const list = this.factories.get(name) ?? []
@@ -206,6 +238,12 @@ class FileScan {
     const specs = this.declared.get(name)
     if (specs)
       return specs.map(spec => ({ spec }))
+    // `$i18n` reads the store bound to `i18n`, for example `import { _ as i18n }`.
+    if (name.length > 1 && name.startsWith('$')) {
+      const stores = this.lookupAll(name.slice(1)).filter(binding => binding.spec.unwrap?.length)
+      if (stores.length)
+        return stores.map(storeValue)
+    }
     // `t.rich` from a factory that returns `t.rich`, bound as `t`.
     const dot = name.indexOf('.')
     if (dot > 0) {
@@ -550,8 +588,28 @@ class FileScan {
       : undefined
   }
 
+  /** The binding of `get(store)` when `get` reads that store, as the translate function it holds. */
+  storeRead(node: Node): Binding | undefined {
+    const value = unwrap(node)
+    if (value.type !== 'CallExpression' || value.arguments.length !== 1)
+      return undefined
+    const reader = calleeName(value.callee)
+    const read = reader === undefined
+      ? undefined
+      : this.readers.get(reader)
+    const store = calleeName(value.arguments[0]!)
+    if (read === undefined || store === undefined)
+      return undefined
+    const binding = this.lookupAll(store).find(b => !b.spec.factory && b.spec.unwrap?.includes(read))
+    return binding && storeValue(binding)
+  }
+
   handleCall(name: string, args: readonly ArgValue[], expression?: TextRange): boolean {
-    const bindings = this.lookupAll(name).filter(binding => !binding.spec.factory)
+    return this.handleBindings(this.lookupAll(name), args, expression)
+  }
+
+  handleBindings(found: readonly Binding[], args: readonly ArgValue[], expression?: TextRange): boolean {
+    const bindings = found.filter(binding => !binding.spec.factory)
     for (const binding of bindings) {
       const namespace = this.namespaceArg(args, binding.spec.namespace, 1)
       const keyPrefix = binding.spec.keyPrefix
@@ -589,8 +647,15 @@ class FileScan {
 
   call(node: CallExpression): void {
     const name = calleeName(node.callee)
-    if (name !== undefined)
-      this.handleCall(name, node.arguments, { start: node.start, end: node.end })
+    const range = { start: node.start, end: node.end }
+    if (name !== undefined) {
+      this.handleCall(name, node.arguments, range)
+      return
+    }
+    // `get(_)('key')`
+    const store = this.storeRead(node.callee)
+    if (store)
+      this.handleBindings([store], node.arguments, range)
   }
 
   jsxProps(node: JSXOpeningElement): ArgValue {
@@ -642,8 +707,14 @@ class FileScan {
       const specs = factory
         ? this.factories.get(factory)
         : undefined
-      if (specs)
+      if (specs) {
         this.bindFactory(id, value.arguments, specs)
+        return
+      }
+      // `const translate = get(_)`
+      const store = this.storeRead(value)
+      if (store && id.type === 'Identifier')
+        this.bind(id.name, store)
       return
     }
     // `const tt = t`
@@ -784,9 +855,15 @@ class FileScan {
     const imported = node.imported.type === 'Identifier'
       ? node.imported.name
       : node.imported.value
+    if (imported === node.local.name)
+      return
     const spec = this.declared.get(imported)?.[0]
-    if (spec && imported !== node.local.name)
+    if (spec)
       this.bind(node.local.name, { spec })
+    // `import { get as read } from 'svelte/store'`
+    const reader = this.readers.get(imported)
+    if (reader !== undefined && imported === reader)
+      this.readers.set(node.local.name, reader)
   }
 
   /** ---- Hard strings ---- */
@@ -1018,6 +1095,8 @@ export interface ScanSourceOptions {
   readonly textAttributes?: readonly string[] | undefined
   /** Receives the parse, for callers that need more of it than the scan result. */
   readonly onParse?: ((program: Program, comments: readonly Comment[]) => void) | undefined
+  /** Bindings shared with other scans of the same file; top-level bindings of this scan are added to it. */
+  readonly scope?: ScanScope | undefined
 }
 
 export function scanSource(parse: ParseSync, text: string, options: ScanSourceOptions): ScanResult {
@@ -1028,7 +1107,7 @@ export function scanSource(parse: ParseSync, text: string, options: ScanSourceOp
     ? -1
     : 0
   const result = parse(options.filename, source, { sourceType: 'module', range: false })
-  const scan = new FileScan(source, (options.offset ?? 0) + shift, options.calls, options.hardStrings !== false, new Set(options.ignoreCallees), options.textAttributes)
+  const scan = new FileScan(source, (options.offset ?? 0) + shift, options.calls, options.hardStrings !== false, new Set(options.ignoreCallees), options.textAttributes, options.scope)
   scan.types(result.program)
   scan.walk(result.program, undefined, '')
   scan.markers(result.program, result.comments)

@@ -1,5 +1,5 @@
 import type { HardString, Plugin, Scanner, ScanResult, TextRange, UsageCandidate } from '@x18n/core'
-import { isTextAttribute, loadParser, scanSource } from '../shared/js'
+import { createScanScope, isTextAttribute, loadParser, scanSource } from '../shared/js'
 
 type SvelteCompiler = typeof import('svelte/compiler')
 let compiler: Promise<SvelteCompiler> | undefined
@@ -70,6 +70,8 @@ export function svelte(): Plugin {
         hardStrings.push(...result.hardStrings ?? [])
       }
       const ast: unknown = parse(file.text, { modern: true })
+      // Scripts first, so template expressions see what they import and declare (`const tr = get(_)`).
+      const scope = createScanScope()
       const scan = (text: string, offset: number, expression: boolean): void => {
         try {
           add(scanSource(parseJs, text, {
@@ -78,6 +80,7 @@ export function svelte(): Plugin {
             filename: 'component.ts',
             expression,
             hardStrings: !expression,
+            scope,
           }))
         }
         catch {}
@@ -95,10 +98,8 @@ export function svelte(): Plugin {
             visit(child, parentType, attribute)
           return
         }
-        if (node.type === 'Script' && 'content' in node && isSvelteNode(node.content)) {
-          scan(file.text.slice(node.content.start, node.content.end), node.content.start, false)
+        if (node.type === 'Script')
           return
-        }
         if (expressionTypes.has(node.type) && 'expression' in node && isSvelteNode(node.expression))
           scan(file.text.slice(node.expression.start, node.expression.end), node.expression.start, true)
         if (node.type === 'Text' && 'data' in node && typeof node.data === 'string') {
@@ -114,6 +115,16 @@ export function svelte(): Plugin {
             visit(child, node.type, owner)
         }
       }
+      const scripts: SvelteNode[] = []
+      if (typeof ast === 'object' && ast !== null) {
+        for (const key of ['module', 'instance']) {
+          const script: unknown = Reflect.get(ast, key)
+          if (isSvelteNode(script) && 'content' in script && isSvelteNode(script.content))
+            scripts.push(script.content)
+        }
+      }
+      for (const content of scripts.sort((a, b) => a.start - b.start))
+        scan(file.text.slice(content.start, content.end), content.start, false)
       visit(ast, '', undefined)
       return { usages, keySlots, hardStrings }
     },
