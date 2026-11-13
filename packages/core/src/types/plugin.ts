@@ -447,6 +447,34 @@ export interface PlaceholderSyntax {
   readonly implicit?: readonly string[] | undefined
 }
 
+/** A span of a message value that the message syntax decodes to fixed text, such as a quoted character. */
+export interface MessageLiteral {
+  readonly syntax: string
+  /** Text as written, for example `{'@'}`. */
+  readonly text: string
+  /** The text it stands for, for example `@`. */
+  readonly value: string
+  readonly range: TextRange
+}
+
+/** Text that a message syntax decodes to fixed text. A plugin registers the forms its library has. */
+export interface LiteralSyntax {
+  readonly id: string
+  /** Every literal span of a value, in value order. */
+  readonly find: (value: string) => readonly MessageLiteral[]
+}
+
+/**
+ * How a message's text becomes the text it renders, when no runtime input is involved. Merged from
+ * every plugin, so a project with two libraries fails closed on both.
+ */
+export interface MessageSyntax {
+  /** Text the syntax decodes to fixed text: an escaped character, a quoted literal. */
+  readonly literals?: readonly LiteralSyntax[] | undefined
+  /** Characters that start syntax whose text is not the character itself, such as a linked message. */
+  readonly reserved?: string | undefined
+}
+
 export interface KeyContext {
   readonly path: string
 }
@@ -531,6 +559,7 @@ export interface Plugin {
   readonly checks?: readonly Check[] | undefined
   readonly reporters?: readonly Reporter[] | undefined
   readonly placeholders?: readonly PlaceholderSyntax[] | undefined
+  readonly messageSyntax?: MessageSyntax | undefined
   readonly histories?: readonly HistoryProvider[] | undefined
   /** Only one store is active: the last one, so a plugin's store replaces the built-in one. */
   readonly reviewStores?: readonly ReviewStore[] | undefined

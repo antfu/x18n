@@ -8,6 +8,7 @@ import type {
   LazyScanner,
   LocaleFinder,
   ManifestReader,
+  MessageSyntax,
   PlaceholderSyntax,
   Plugin,
   Preset,
@@ -40,6 +41,8 @@ export interface PluginRegistry {
   readonly checks: ReadonlyMap<string, Check>
   readonly reporters: ReadonlyMap<string, Reporter>
   readonly placeholders: readonly PlaceholderSyntax[]
+  /** Merged from every plugin: the literals of all of them, and every reserved character. */
+  readonly messageSyntax: MessageSyntax
   readonly manifests: readonly ManifestReader[]
   readonly extractors: readonly Extractor[]
   readonly histories: readonly HistoryProvider[]
@@ -197,6 +200,14 @@ export function createRegistry(input: readonly Plugin[], config: Pick<ResolvedCo
     checks,
     reporters,
     placeholders: plugins.flatMap(plugin => plugin.placeholders ?? []),
+    messageSyntax: {
+      literals: plugins.flatMap(plugin => plugin.messageSyntax?.literals ?? []),
+      reserved: [
+        ...new Set(plugins.flatMap(plugin => [
+          ...plugin.messageSyntax?.reserved ?? '',
+        ])),
+      ].join(''),
+    },
     manifests: plugins.flatMap(plugin => plugin.manifests ?? []),
     extractors: plugins.flatMap(plugin => plugin.extractors ?? []),
     histories: plugins.flatMap(plugin => plugin.histories ?? []),

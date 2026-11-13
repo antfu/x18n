@@ -1,5 +1,5 @@
 import type { CallSpec, ConfigDraft, ExtractTemplate, KeySeparator, NamespaceFromPath, RegexScannerSpec, ResourceSpec } from './types/config'
-import type { ConfigContext, LocaleFinder, PlaceholderSyntax, Plugin, ResourceTransform } from './types/plugin'
+import type { ConfigContext, LocaleFinder, MessageSyntax, PlaceholderSyntax, Plugin, ResourceTransform } from './types/plugin'
 
 export interface LibraryOptions {
   /** The plugin name, prefixed by the caller: `x18n:vue-i18n`. */
@@ -9,6 +9,8 @@ export interface LibraryOptions {
   readonly regex?: readonly RegexScannerSpec[]
   /** The library's placeholder syntaxes. */
   readonly placeholders?: readonly PlaceholderSyntax[]
+  /** Text the library's message syntax decodes, and the characters that start syntax it does not. */
+  readonly messageSyntax?: MessageSyntax
   readonly derivedKeys?: readonly string[]
   readonly namespace?: { readonly separator?: string, readonly default?: string, readonly fromPath?: NamespaceFromPath }
   /** Default resource patterns (i18n-ally `preferredLocalePaths` + `pathMatcher`). */
@@ -66,6 +68,7 @@ export function createLibraryPlugin(options: LibraryOptions): Plugin {
       await options.extra?.(draft, ctx)
     },
     placeholders: options.placeholders,
+    messageSyntax: options.messageSyntax,
     localeFinders: options.finders,
     normalizeKey: options.normalizeKey,
     transformResource: options.transformResource,
