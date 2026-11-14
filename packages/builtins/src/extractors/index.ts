@@ -603,16 +603,25 @@ export function renderSelections(project: Project, selections: readonly ExtractS
     item,
   ]))
   const seen = new Set<string>()
-  const items = selections.map((selection) => {
+  const reviewed = selections.map((selection) => {
     const id = identity(selection)
     const source = bySource.get(id)
     if (!source || seen.has(id) || source.candidate.original !== selection.original || source.context !== selection.context)
       throw errors.X18N4004({ path: selection.path })
     seen.add(id)
     const key = project.parseKey(selection.key)
-    const { raw } = project.sourceKeyAt(selection.path, selection.range, key)
+    return {
+      source,
+      key,
+      path: selection.path,
+      range: selection.range,
+    }
+  })
+  const spellings = project.sourceKeysAt(reviewed)
+  const items = reviewed.map(({ source, key, path }, i) => {
+    const raw = spellings[i]
     if (raw === undefined)
-      throw errors.X18N4008({ reason: `cannot reference "${key}" from ${selection.path} in the current key scope` })
+      throw errors.X18N4008({ reason: `cannot reference "${key}" from ${path} in the current key scope` })
     return {
       ...source.candidate,
       key,

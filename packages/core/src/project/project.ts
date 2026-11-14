@@ -263,7 +263,7 @@ export function createProject(options: CreateProjectOptions): Project {
   }
 
   /** Namespace and key path of a stored path: each stored segment is split by the resource's key separator. */
-  function keyIdFor(resource: Resource, stored: readonly string[]): { namespace: string | undefined, path: string[] } {
+  function keyIdFor(resource: Pick<Resource, 'namespace' | 'keySeparator'>, stored: readonly string[]): { namespace: string | undefined, path: string[] } {
     const separator = keySeparatorOf(resource, config.keySeparator)
     const logical = stored.flatMap(segment => splitKeyPath(segment, separator))
     if (namespaced)
@@ -1261,6 +1261,43 @@ export function createProject(options: CreateProjectOptions): Project {
   // Created on first use: most runs never translate.
   let translations: Translation | undefined
 
+  function sourceKeyAt(path: string, range: TextRange, key: KeyString, pending?: () => ReadonlySet<KeyString>): ReturnType<Project['sourceKeyAt']> {
+    const scopes = files.get(path)?.result.scopes ?? []
+    const scope = resolver.scopeAt(scopes, path, range)
+    if (!namespaced && !scope.keyPrefix && !normalizers.length)
+      return { raw: key, scope }
+    const { namespace, rest } = splitNamespace(key, namespaced)
+    const { separator } = config.namespace
+    const explicit = namespace !== undefined && separator !== false
+      ? `${namespace}${separator}${rest}`
+      : undefined
+    const spellings = namespace === config.namespace.default
+      ? [rest, explicit]
+      : [explicit, rest]
+    for (const prefix of [
+      scope.keyPrefix,
+      ...scope.otherPrefixes ?? [],
+    ]) {
+      const start = prefix && prefix + keyJoiner(config.keySeparator)
+      if (start && rest.startsWith(start))
+        spellings.push(rest.slice(start.length))
+    }
+    // Resolve as if extraction has already stored the selected message. Do not rely on namespace fallback.
+    const raw = spellings.find((spelling) => {
+      if (spelling === undefined)
+        return false
+      const candidate = {
+        raw: spelling,
+        range,
+        kind: 'call',
+        dynamic: false,
+      } as const
+      const usage = resolver.resolve(candidate, scopes, path, 'scanner', k => k === key || hasIndexedKey(k) || pending?.().has(k) === true)
+      return usage.key === key && (!namespaced || spelling === explicit || namespace === scope.namespace)
+    })
+    return { raw, scope }
+  }
+
   const project: Project = {
     get name() {
       return config.name
@@ -1345,41 +1382,25 @@ export function createProject(options: CreateProjectOptions): Project {
         ? undefined
         : message(other, locale)
     },
-    sourceKeyAt(path, range, key) {
-      const scopes = files.get(path)?.result.scopes ?? []
-      const scope = resolver.scopeAt(scopes, path, range)
-      if (!namespaced && !scope.keyPrefix)
-        return { raw: key, scope }
-      const { namespace, rest } = splitNamespace(key, namespaced)
-      const { separator } = config.namespace
-      const explicit = namespace !== undefined && separator !== false
-        ? `${namespace}${separator}${rest}`
-        : undefined
-      const spellings = namespace === config.namespace.default
-        ? [rest, explicit]
-        : [explicit, rest]
-      for (const prefix of [
-        scope.keyPrefix,
-        ...scope.otherPrefixes ?? [],
-      ]) {
-        const start = prefix && prefix + keyJoiner(config.keySeparator)
-        if (start && rest.startsWith(start))
-          spellings.push(rest.slice(start.length))
+    sourceKeyAt,
+    sourceKeysAt(selections) {
+      // Only optional prefixes and fallback namespaces need to query the prospective index.
+      let pending: Set<KeyString> | undefined
+      const pendingKeys = (): Set<KeyString> => {
+        if (pending)
+          return pending
+        pending = new Set<KeyString>()
+        for (const { key, target, relative } of planner.newKeyPaths(selections.map(s => s.key))) {
+          pending.add(key)
+          const { namespace, path } = keyIdFor(target, relative)
+          for (let i = 1; i < path.length; i++)
+            pending.add(joinKey(namespace, path.slice(0, i), config.keySeparator))
+          for (const base of basesOf(key))
+            pending.add(base)
+        }
+        return pending
       }
-      // Resolve as if extraction has already stored the selected message. Do not rely on namespace fallback.
-      const raw = spellings.find((spelling) => {
-        if (spelling === undefined)
-          return false
-        const candidate = {
-          raw: spelling,
-          range,
-          kind: 'call',
-          dynamic: false,
-        } as const
-        const usage = resolver.resolve(candidate, scopes, path, 'scanner', k => k === key || hasIndexedKey(k))
-        return usage.key === key && (!namespaced || spelling === explicit || namespace === scope.namespace)
-      })
-      return { raw, scope }
+      return selections.map(({ path, range, key }) => sourceKeyAt(path, range, key, pendingKeys).raw)
     },
     keySlots: path => files.get(path)?.result.keySlots ?? [],
     hardStrings: path => [...files].sort(([a], [b]) => (a < b

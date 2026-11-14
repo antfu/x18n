@@ -312,6 +312,86 @@ describe('generated extraction selections', () => {
     expect(() => renderSelections(after.project, selected)).toThrow(expect.objectContaining({ code: 'X18N4004' }))
   })
 
+  it.each(['pages.cart.save', 'pages.cart.save.label'])('rejects a batch that shadows a global key with %s', async (local) => {
+    const { project, files } = await createTestProject({
+      'locales/en.json': json({}),
+      'pages/cart.vue': '<template><p>Global save</p><p>Local label</p></template>',
+    }, {
+      presets: ['nuxt-i18n-micro'],
+    })
+    const [first, second] = findSelections(project)
+    const global = { ...first!, key: 'save' }
+    const scoped = { ...second!, key: local }
+    expect(() => renderSelections(project, [global, scoped])).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+    expect(() => renderSelections(project, [scoped, global])).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+    expect(files.get('locales/en.json')).toBe(json({}))
+    const items = renderSelections(project, [
+      { ...global, key: 'checkout' },
+      scoped,
+    ])
+    await project.apply(project.plan([
+      { type: 'extract', items },
+    ]))
+    expect(project.usages().map(match => match.usage.key)).toEqual(['checkout', local])
+  })
+
+  it('checks flat resource keys against the preset normalizer', async () => {
+    const { project } = await createTestProject({
+      'locales/en.json': json({}),
+      'src/cart.js': 'const label = "Cart title"',
+    }, {
+      presets: ['globalize'],
+      resources: [
+        { pattern: 'locales/{locale}.json' },
+      ],
+    })
+    const [row] = findSelections(project)
+    expect(() => renderSelections(project, [
+      { ...row!, key: 'cart/title' },
+    ])).toThrow(expect.objectContaining({ code: 'X18N4008' }))
+    expect(project.keys()).toEqual([])
+    const items = renderSelections(project, [
+      { ...row!, key: 'cart.title' },
+    ])
+    await project.apply(project.plan([
+      { type: 'extract', items },
+    ]))
+    expect(project.usages().map(match => match.usage.key)).toEqual(['cart.title'])
+    expect(project.message('cart.title', 'en')?.value).toBe('Cart title')
+  })
+
+  it.each(['account-save', 'account\'s label', 'hi<!--tag-->world'])('calls the selected Paraglide message %s', async (key) => {
+    const { project } = await createTestProject({
+      'messages/en.json': json({}),
+      'src/cart.js': 'const label = "Cart title"',
+    }, {
+      presets: ['paraglide'],
+    })
+    const [row] = findSelections(project)
+    const items = renderSelections(project, [
+      { ...row!, key },
+    ])
+    const { parseSync } = await import('oxc-parser')
+    const parsed = parseSync('call.js', items[0]!.replacement)
+    expect(parsed.errors).toEqual([])
+    expect(parsed.program.body[0]).toMatchObject({
+      expression: {
+        type: 'CallExpression',
+        callee: {
+          type: 'MemberExpression',
+          computed: true,
+          object: { name: 'm' },
+          property: { value: key },
+        },
+      },
+    })
+    await project.apply(project.plan([
+      { type: 'extract', items },
+    ]))
+    expect(project.usages().map(match => match.usage.key)).toEqual([key])
+    expect(project.message(key, 'en')?.value).toBe('Cart title')
+  })
+
   it('keeps explicit saved replacements verbatim', async () => {
     const { project } = await vue('Welcome aboard')
     const candidate = findCandidates(project)[0]!

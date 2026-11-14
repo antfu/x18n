@@ -708,6 +708,11 @@ export interface Project {
     raw: string | undefined;
     scope: Omit<Scope, "range">;
   };
+  readonly sourceKeysAt: (_: readonly {
+    path: string;
+    range: TextRange;
+    key: KeyString;
+  }[]) => readonly (string | undefined)[];
   readonly keySlots: (_: string) => readonly TextRange[];
   readonly hardStrings: (_?: string) => readonly (HardString & {
     readonly path: string;

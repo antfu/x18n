@@ -1117,6 +1117,7 @@ class PlanBuilder {
 }
 
 export interface Planner {
+  readonly newKeyPaths: (keys: readonly KeyString[]) => { key: KeyString, target: Target, relative: string[] }[]
   readonly plan: (ops: readonly EditOp[], answers?: Answers) => Plan
   readonly apply: (plan: Plan, answers: Answers) => Promise<ApplyResult>
 }
@@ -1180,6 +1181,20 @@ export function createPlanner(options: PlannerOptions): Planner {
   }
 
   return {
+    newKeyPaths(keys) {
+      const state = options.state()
+      const builder = new PlanBuilder(options, state, {})
+      return [
+        ...new Set(keys),
+      ].filter(key => !options.message(key, state.sourceLocale)).map((key) => {
+        const target = builder.pickTarget(key, state.sourceLocale)
+        return {
+          key,
+          target,
+          relative: builder.relativePath(key, target)!,
+        }
+      })
+    },
     plan(ops, answers = {}) {
       const result = planWith(ops, answers)
       if (result.plan.revision !== textsRevision) {
