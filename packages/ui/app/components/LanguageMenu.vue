@@ -19,7 +19,7 @@ function pick(locale: typeof uiLocales[number]): void {
     <button type="button" class="btn-icon" :class="open && 'bg-hover color-base'" :aria-label="t('app.language')" aria-haspopup="menu" :aria-expanded="open" @click="open = !open">
       <span class="i-ph-translate-duotone text-base" />
     </button>
-    <div v-if="open" class="absolute right-0 top-full z-20 mt-1 min-w-36 border border-strong bg-base py-1 shadow-lg" role="menu">
+    <div v-if="open" class="absolute right-0 top-full z-30 mt-1 min-w-36 border border-strong bg-base py-1 shadow-lg" role="menu">
       <button
         v-for="option in uiLocales"
         :key="option"
