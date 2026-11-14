@@ -548,7 +548,7 @@ describe('extraction per preset', () => {
       ],
     })
     await extractAll(project)
-    expect(files.get('src/greet.ts')).toBe('import { m } from \'$lib/paraglide/messages\'\nexport const msg = m.signedInAs({ name: user.name })\n')
+    expect(files.get('src/greet.ts')).toBe('import { m } from \'$lib/paraglide/messages\'\nexport const msg = m[\'signedInAs\']({ name: user.name })\n')
   })
 
   it('refuses a plan whose source changed', async () => {

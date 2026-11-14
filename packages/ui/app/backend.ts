@@ -1,7 +1,7 @@
-import type { ExtractCandidate } from '@x18n/builtins/extractors'
+import type { ExtractSelection } from '@x18n/builtins/extractors'
 import type { ReviewThread } from '@x18n/core'
 import type { DevframeRpcClient } from 'devframe/client'
-import type { AnalysisView, ApplyQuery, ApplyView, DiagnosticPage, DiagnosticQuery, ExplainList, ExtractApplyQuery, KeyDetail, KeyTable, OpenQuery, PlanQuery, PlanView, ProjectList, UnusedDeletionQuery, UnusedDeletionView, UsageView, X18nState } from '../src/node/types'
+import type { AnalysisView, ApplyQuery, ApplyView, DiagnosticPage, DiagnosticQuery, ExplainList, ExtractApplyQuery, ExtractSelectionQuery, KeyDetail, KeyTable, OpenQuery, PlanQuery, PlanView, ProjectList, UnusedDeletionQuery, UnusedDeletionView, UsageView, X18nState } from '../src/node/types'
 import { connectDevframe } from 'devframe/client'
 import { shallowRef } from 'vue'
 
@@ -18,9 +18,10 @@ export interface UiBackend {
   /** Every review thread, resolved comments included. */
   readonly reviews: (project: string) => Promise<ReviewThread[]>
   readonly explain: () => Promise<ExplainList>
-  readonly extractCandidates: (project: string) => Promise<ExtractCandidate[]>
+  readonly extractCandidates: (project: string) => Promise<ExtractSelection[]>
   readonly plan: (query: PlanQuery) => Promise<PlanView>
   readonly apply: (query: ApplyQuery) => Promise<ApplyView>
+  readonly extractSelected: (query: ExtractSelectionQuery) => Promise<ApplyView>
   readonly extractApply: (query: ExtractApplyQuery) => Promise<ApplyView>
   /** Dry run of the bulk delete of unused keys; writes with `confirm`. */
   readonly deleteUnused: (query: UnusedDeletionQuery) => Promise<UnusedDeletionView>
@@ -46,7 +47,7 @@ function reads(rpc: DevframeRpcClient): Pick<UiBackend, 'project' | 'keys' | 'ke
     }),
     reviews: project => rpc.call('x18n:reviews', { project }),
     explain: () => rpc.call('x18n:explain'),
-    extractCandidates: project => rpc.call('x18n:extract-candidates', { project }),
+    extractCandidates: project => rpc.call('x18n:extract-selections', { project }),
   }
 }
 
@@ -62,6 +63,7 @@ function staticBackend(rpc: DevframeRpcClient): UiBackend {
     plan: readOnly,
     apply: readOnly,
     extractApply: readOnly,
+    extractSelected: readOnly,
     deleteUnused: readOnly,
     openInEditor: readOnly,
     onChange: () => () => {},
@@ -78,6 +80,7 @@ async function serverBackend(rpc: DevframeRpcClient): Promise<UiBackend> {
     plan: query => rpc.call('x18n:plan', query),
     apply: query => rpc.call('x18n:apply', query),
     extractApply: query => rpc.call('x18n:extract-apply', query),
+    extractSelected: query => rpc.call('x18n:extract-selected', query),
     deleteUnused: query => rpc.call('x18n:delete-unused', query),
     openInEditor: query => rpc.call('x18n:open-in-editor', query),
     onChange: listener => state.on('updated', value => listener(value)),

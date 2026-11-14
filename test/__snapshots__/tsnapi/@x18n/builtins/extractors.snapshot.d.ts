@@ -26,6 +26,16 @@ export interface ExtractPlanFile {
   readonly project: string;
   readonly items: readonly ExtractCandidate[];
 }
+export interface ExtractSelection extends ExtractCandidate {
+  readonly context: string;
+}
+export interface ExtractSelectionInput {
+  readonly path: string;
+  readonly range: TextRange;
+  readonly original: string;
+  readonly context: string;
+  readonly key: string;
+}
 export interface FindOptions {
   readonly files?: readonly string[] | undefined;
 }
@@ -44,6 +54,8 @@ export declare function extractableHardStrings(_: ExtractOptions, _: Iterable<Ha
 }>;
 export declare function extractItems(_: Project, _: readonly Pick<ExtractCandidate, "path" | "range" | "original" | "key" | "value" | "replacement" | "imports">[]): ExtractItem[];
 export declare function findCandidates(_: Project, _?: FindOptions): ExtractCandidate[];
+export declare function findSelections(_: Project, _?: FindOptions): ExtractSelection[];
+export declare function renderSelections(_: Project, _: readonly ExtractSelectionInput[]): ExtractItem[];
 export declare function shouldExtract(_: string, _: string, _?: readonly ExtractionRule[], _?: string): boolean;
 export declare function slugify(_: string, _?: KeyCase, _?: number): string;
 export declare function toPlanFile(_: Project, _: readonly ExtractCandidate[]): ExtractPlanFile;

@@ -1,9 +1,9 @@
-import type { ExtractCandidate } from '@x18n/builtins/extractors'
+import type { ExtractSelection } from '@x18n/builtins/extractors'
 import type { GlobalOptions } from '../context'
 import { readFile, writeFile } from 'node:fs/promises'
 import process from 'node:process'
 import { createInterface } from 'node:readline/promises'
-import { extractItems, findCandidates, toPlanFile } from '@x18n/builtins/extractors'
+import { extractItems, findCandidates, findSelections, renderSelections, toPlanFile } from '@x18n/builtins/extractors'
 import { errors, isJsonObject } from '@x18n/core'
 import { displayPath, openWorkspace, out, printJson, runPlan, singleProject } from '../context'
 
@@ -37,9 +37,9 @@ async function readPlan(file: string): Promise<PlanItem[]> {
 }
 
 /** One question per string in a TTY: extract with the proposed key, a typed key, or skip. */
-async function review(candidates: readonly ExtractCandidate[], root: string): Promise<ExtractCandidate[]> {
+async function review(candidates: readonly ExtractSelection[], root: string): Promise<ExtractSelection[]> {
   const rl = createInterface({ input: process.stdin, output: process.stderr })
-  const picked: ExtractCandidate[] = []
+  const picked: ExtractSelection[] = []
   try {
     for (const candidate of candidates) {
       process.stderr.write(`\n${displayPath(root, candidate.path)}:${candidate.line}  ${JSON.stringify(candidate.text)}\n  → ${candidate.replacement}\n`)
@@ -52,7 +52,6 @@ async function review(candidates: readonly ExtractCandidate[], root: string): Pr
         ? {
             ...candidate,
             key: reply,
-            replacement: candidate.replacement.replace(candidate.key, reply),
           }
         : candidate)
     }
@@ -73,6 +72,21 @@ export async function extract(files: readonly string[], options: ExtractCommandO
     ]), options)
     return
   }
+  const interactive = !options.plan && !options.list && !options.yes && !options.json && process.stdin.isTTY
+  if (interactive) {
+    const selected = await review(findSelections(project, { files }), loaded.root)
+    if (selected.length === 0) {
+      out('Nothing to extract.')
+      return
+    }
+    await runPlan('extract', loaded, project.plan([
+      {
+        type: 'extract',
+        items: renderSelections(project, selected),
+      },
+    ]), options)
+    return
+  }
   const candidates = findCandidates(project, { files })
   if (options.plan) {
     await writeFile(options.plan, `${JSON.stringify(toPlanFile(project, candidates), null, 2)}\n`)
@@ -82,8 +96,7 @@ export async function extract(files: readonly string[], options: ExtractCommandO
       out(`Wrote ${candidates.length} strings to ${options.plan}. Edit keys and replacements, then run \`x18n extract --apply ${options.plan}\`.`)
     return
   }
-  const interactive = !options.list && !options.yes && !options.json && process.stdin.isTTY
-  if (options.list || (!interactive && !options.yes)) {
+  if (options.list || !options.yes) {
     if (options.json) {
       printJson('extract', {
         items: candidates.map(c => ({
@@ -98,9 +111,7 @@ export async function extract(files: readonly string[], options: ExtractCommandO
     out(`${candidates.length} strings. Apply with \`x18n extract --yes\`, or review with \`x18n extract --plan plan.json\`.`)
     return
   }
-  const chosen = interactive
-    ? await review(candidates, loaded.root)
-    : candidates
+  const chosen = candidates
   if (chosen.length === 0) {
     out('Nothing to extract.')
     return

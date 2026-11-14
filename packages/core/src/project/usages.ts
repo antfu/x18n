@@ -4,6 +4,7 @@ import type { KeyContext, PluralForm, Scope, UsageCandidate } from '../types/plu
 import { keyJoiner, pathMatcher } from '../keys'
 
 export interface UsageResolver {
+  readonly scopeAt: (scopes: readonly Scope[], path: string, range: TextRange) => Omit<Scope, 'range'>
   /** `has` tells whether a key exists, for optional key prefixes and the fallback namespaces. */
   readonly resolve: (candidate: UsageCandidate, scopes: readonly Scope[], path: string, scanner: string, has: (key: KeyString) => boolean) => Usage
 }
@@ -58,14 +59,27 @@ export function createUsageResolver(
     matches: pathMatcher([glob]),
     namespace,
   }))
+  const namespaceFor = (scope: Scope | undefined, path: string): string | undefined =>
+    scope?.namespace ?? byFile.find(rule => rule.matches(path))?.namespace
+  const unreadableScope = (candidate: UsageCandidate): boolean | undefined => (namespaced && candidate.unreadableNamespace) || candidate.unreadableKeyPrefix
   return {
+    scopeAt(scopes, path, range) {
+      const scope = innermost(scopes, range)
+      return {
+        namespace: namespaceFor(scope, path) ?? config.namespace.default,
+        keyPrefix: scope?.keyPrefix,
+        optionalPrefix: scope?.optionalPrefix,
+        otherPrefixes: scope?.otherPrefixes,
+        prefixInFallback: scope?.prefixInFallback,
+      }
+    },
     resolve(candidate, scopes, path, scanner, has) {
       const scope = innermost(scopes, candidate.range)
       let text = normalize(candidate.raw, { path })
       // A namespace or key prefix the scanner cannot read replaces any the scope gives, so the usage has none.
       const scopeNamespace = candidate.unreadableNamespace
         ? undefined
-        : candidate.namespace ?? scope?.namespace ?? byFile.find(rule => rule.matches(path))?.namespace
+        : candidate.namespace ?? namespaceFor(scope, path)
       let scopePrefix = candidate.unreadableKeyPrefix
         ? undefined
         : candidate.keyPrefix ?? scope?.keyPrefix
@@ -85,7 +99,7 @@ export function createUsageResolver(
         }
       }
       // Under a namespace or key prefix the scanner cannot read, only a key written with its namespace (`ns:key`) resolves.
-      const unreadable = (namespaced && candidate.unreadableNamespace) || candidate.unreadableKeyPrefix
+      const unreadable = unreadableScope(candidate)
       const dynamic = unreadable && !explicit
         ? 'unknown'
         : candidate.dynamic
